@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="section-ITQF">
+    <title>Introduction to Quadratic Functions</title>
+    <introduction>
+        <p>
+            Previously, most of the relationships between variables were linear.
+        </p>
+    </introduction>
+
+    <subsection>
+        <title>Motivation: Galileo's Study of Freefall Motion</title>
+        <p>
+            Consider the motion of an object which is dropped, and allowed to fall freely, only under the influence of gravity.
+        </p>
+        <p>
+            In the 16th century, <term>Galileo Galilei</term> (1564-1642) studied how objects falls to the Earth, and tried to quantify how they fall over time. At the time, it was difficult to measure the motion of a falling rock, because they accelerate and fall very quickly. Then, capturing its motion would require a very accurate clock, which were not developed at the time. Instead, Galileo studied the motion of a ball rolling down a ramp (an inclined plane) with only a small slope, so that the ball accelerates slowly over time. He used a ramp which was smooth, and a ball which was hard, smooth, and round, in order to avoid friction. This created an idealized situation to try and capture the essence of the motion.
+        </p>
+        <p>
+            To time the ball's decent, he used a water clock, which works by opening a valve to start the clock, water flowing at a constant rate into a container, and closing the value to stop the clock. Then, weighing the amount of water allows you to measure the amount of time elapsed. He conducted a variety of different experiments, varying the slope of the ramp, varying the distance travelled by the ball, etc.
+        </p>
+        <p>
+            Galileo found that, <q>the distances traversed, during equal intervals of time, by a body falling from rest, stand to one another in the same ratio as the odd numbers beginning with unity</q>. This means that if the ball rolls <m>d</m> units in the first unit of time, then it rolls an additional <m>3d</m> units in the second unit of time, then <m>5d</m> units, then <m>7d</m>, and so on.
+        </p>
+        <p>
+            Then, if the ball travels 1 unit of distance in the 1st unit of time, then total distance travelled by the ball is after 2 units of time is <m>1 + 3 = 4</m> units of distance. After 3 units of time, <m>1 + 3 + 5 = 9</m> units. In general,
+        </p>
+        <me>
+            \begin{array}{c|c}
+            \text{time} \amp \text{distance} \\
+            1 \amp 1 \\
+            2 \amp 1 + 3 = 4 \\
+            3 \amp 1 + 3 + 5 = 9 \\
+            4 \amp 1 + 3 + 5 + 7 = 16
+            \end{array}
+        </me>
+        <p>
+            <alert>Notice that the distances are the squares of the time</alert>. In modern mathematics, we say that the distance travelled is (directly) <em>proportional</em> to the square of time. Let <m>d</m> represent the distance travelled, <m>t</m> represent the time elapsed. Then,
+        </p>
+        <me>
+            d = k t^2
+        </me>
+        <p>
+            for some proportionality constant <m>k</m>, which depends on the units of <m>d</m> and <m>t</m>. If <m>d</m> is measured in meters, and <m>t</m> is measured in seconds, then the equation turns out to be,
+        </p>
+        <me>
+            d = 4.9 t^2
+        </me>
+        <p>
+            That is, <m>t</m> seconds after dropping an object, the object will have travelled <m>4.9 t^2</m> meters. Here, <m>h</m> is called a <term>quadratic function</term> of <m>t</m>, from the Latin <q>quadratus</q> meaning <q>square</q>, referring to the fact that the independent variable <m>t</m> is squared.
+        </p>
+        <p>
+            <url href = "https://www.desmos.com/calculator/gcho2vonef">This Desmos applet shows the graph of motion</url>, where the horizontal axis represents time, and the vertical axis is the distance travelled. The graph of this relationship forms a curve called a <term>parabola</term>.
+        </p>
+        <p>
+            Next, consider the height <m>h</m> of an object in freefall motion. If the object is initially dropped from a height of <m>h_0</m>, then at <m>t = 0</m>, <m>h = h_0</m>. As the object falls, it travells a distance of <m>d = 4.9 t^2</m> downwards, which decreases its height. Thus, the height <m>h</m> of the dropped object is given by,
+        </p>
+        <me>
+            h = h_0 - 4.9 t^2
+        </me>
+        <p>
+            This produces a parabola that opens downward, as opposed to the previous example which opened upward. Consider the <url href = "https://www.desmos.com/calculator/gcho2vonef">applet, and consider how the graph changes when the initial height <m>h_0</m></url>.
+        </p>
+        <p>
+            Further, if the object is initially thrown upward with initial velocity <m>v_0</m>, then the height of the object turns out to be,
+        </p>
+        <me>
+            h = h_0 + v_0 t - 4.9 t^2
+        </me>
+        <p>
+            That is, a linear term <m>v_0 t</m> is added to the equation. Here, <m>h</m> is a quadratic function of <m>t</m>. Again, <url href = "https://www.desmos.com/calculator/gcho2vonef">consider the applet, and see how the graph of motion changes by varying the inital velocity <m>v_0</m> and initial height <m>h_0</m></url>.
+        </p>
+    </subsection>
+
+    <subsection>
+        <title>Quadratic Functions</title>
+        <p>
+            The operation of squaring a number, that is, going from <m>x</m> to <m>x^2</m>, is a function. The function <m>f(x) = x^2</m> is called the <term>squaring function</term>.
+        </p>
+        <example>
+            <title>Area of a square as a squaring function</title>
+            <p>
+                Recall that the area <m>A</m> of a square with side length <m>x</m> is given by <m>A = x^2</m>, a squaring relationship.
+            </p>
+        </example>
+
+        <definition>
+            <p>
+                A <term>quadratic function</term> is a function of the form,
+                <me>
+                    y = ax^2 + bx + c \qquad \text{or} \qquad f(x) = ax^2 + bx + c
+                </me>
+                where <m>a, b, c \in \mathbb{R}</m> are real numbers, and <m>a \neq 0</m>.
+            </p>
+        </definition>
+
+        <aside>
+            If <m>a = 0</m>, then the equation is linear, not quadratic, because there is no <m>x^2</m> term.
+        </aside>
+
+        <p>
+            This is called the <term>general form</term> of a quadratic function. The domain of a quadratic function is all real numbers, <m>x \in \mathbb{R}</m> or <m>(-\infty,\infty)</m>.
+        </p>
+
+    </subsection>
+
+    <subsection>
+        <title>Graph of a Quadratic Function</title>
+        <p>
+            The graph of a quadratic function is a curve called a <term>parabola</term>. It has the shape of a <q>bowl</q>, or a U-shape. A parabola has particular characteristics. Consider a quadratic function of the form <m>y = ax^2 + bx + c</m>.
+        </p>
+        <ul>
+            <li>
+                <term>Opening up/down</term>. If the coefficient <m>a</m> on the <m>x^2</m> term is positive (<m>a > 0</m>), then the parabola <q>opens up</q>. If this coefficient is negative (<m>a \lt 0</m>), the parabola <q>opens down</q>. This number <m>a</m> is called the <term>leading coefficient</term>, because it is the coefficient of the highest power of <m>x</m>.
+            </li>
+            <li>
+                <term>Vertex</term>. The <term>vertex</term> of a parabola is its maximum point or minimum point. If the parabola opens up, the vertex is a minimum point, and if it opens down, the vertex is a maximum point.
+            </li>
+            <li>
+                <term>Axis of symmetry</term>. Parabolas are symmetric, in that they are made of up of two <q>halves</q> which are mirror images of each other. In particular, they are symmetric about the vertical line which passes through the vertex of the parabola, called the <term>axis of symmetry</term>.
+            </li>
+        </ul>
+
+        <p>
+            The range of a quadratic function. If the vertex <m>(h,k)</m> is a minimum point, then the range is <m>[k, \infty)</m>. If the vertex is a maximum point, then the range is <m>(-\infty, k]</m>.
+        </p>
+
+    </subsection>
+
+    <subsection>
+        <title>Intercepts of a Quadratic Function</title>
+        <p>
+            For a quadratic function in general form, the <m>y</m>-intercept is given by,
+        </p>
+        <me>
+            f(0) = a(0)^2 + b(0) + c = c
+        </me>
+        <p>
+            so it is the <m>c</m>, or the point <m>(0,c)</m>, i.e. the constant term of the polynomial.
+        </p>
+        <p>
+            The <m>x</m>-intercept(s) can be determined by solving the equation <m>f(x) = 0</m>, i.e. they correspond to the solutions to the equation,
+        </p>
+        <me>
+            ax^2 + bx + c = 0
+        </me>
+        <p>
+            This is called a <term>quadratic equation</term>. Solving a quadratic equation by-hand is more complicated than solving linear equations, and various techniques will be developed in upcoming sections.
+        </p>
+        <p>
+            A solution to the equation are called a <term>zero</term>, or <term>root</term>. The terms <q><m>x</m>-intercept</q>, <q>zero</q>, and <q>root</q>, are all somewhat synonyms. Sometimes, <m>x</m>-intercepts refers specifically to the <em>points</em> in the plane where the function passes through the <m>x</m>-axis whereas <q>zeros</q> or <q>roots</q> refer to the <em><m>x</m>-values</em> of the function such that the function is 0.
+        </p>
+    </subsection>
+
+    <!-- Notice that there can be two, one, or no $x$-intercepts, depending if $ax^2 + bx + c = 0$ has two real roots, one repeated root, or no real roots. -->
+   
+    <!-- \section*{Quadratic Functions: Constant Second Differences}
+    Recall that for linear functions, as $x$ increments by 1, the output values will increase by a constant difference each time. In other words, linear functions have constant \textbf{first differences}.
+    \\ \\ Quadratic functions, on the other hand, have constant second differences. -->
+</section>

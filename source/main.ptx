@@ -13,14 +13,14 @@
     <!-- to some short (non-spaced) description of your book         -->
     <book xml:id="book" xmlns:xi="http://www.w3.org/2001/XInclude">
         <!-- The book needs a title and can have a subtitle  -->
-        <title>Book</title>
-        <subtitle>Subtitle</subtitle>
+        <title>Algebra and Precalculus</title>
+        <!-- <subtitle>Subtitle</subtitle> -->
 
-        <introduction>
+        <!-- <introduction>
             <p>
-                Introduction.
+                Algebra and pre-calculus.
             </p>
-        </introduction>
+        </introduction> -->
         <!-- Now we include files containing each main devision.       -->
 
         <!-- First a frontmatter for prefaces and such. Maybe comment  -->
@@ -31,7 +31,7 @@
         <!-- possible structure of the book.  Once you know what the   -->
         <!-- title of the chapter is, rename the file something based  -->
         <!-- on the title (ch-shorttitle.ptx) both here and on disk    -->
-        <xi:include href="./chapter.ptx"/>
+        <xi:include href="./chapter-QFAE.ptx"/>
         <!-- Of course you will want to add more chapters as you proceed-->
     </book>
 </pretext>

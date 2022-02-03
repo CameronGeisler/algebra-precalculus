@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="chapter" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Quadratic Functions and Equations</title>
+        <introduction>
+            <p>
+                
+            </p>
+        </introduction>
+
+        <xi:include href="./chapter-QFAE/section-ITQF.ptx"/>
+        <xi:include href="./chapter-QFAE/section-ITQE.ptx"/>
+        <xi:include href="./chapter-QFAE/section-SQEBF.ptx"/>
+</chapter>

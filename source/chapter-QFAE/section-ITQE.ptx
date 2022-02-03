@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="section-ITQE">
+    <title>Introduction to Quadratic Equations</title>
+
+    <introduction>
+        <p>
+            Recall that a quadratic equation is an equation that can be written in the form,
+        </p>
+        <me>
+            ax^2 + bx + c = 0
+        </me>
+        <p>
+            This is said to be the <term>standard form</term> of the equation, because it turns out that it makes it more suitable for solving. Any quadratic equation can be written in this form, by moving all terms to one side of the equation, so the other side is 0. Then, <term>Solving a quadratic equation</term> is the process of determining the values of <m>x</m> such that the expression <m>ax^2 + bx + c</m> evaluates to 0.
+        </p>
+        <p>
+            We will start with the most simplest quadratic equations.
+        </p>
+    </introduction>
+
+    <subsection>
+        <title>Quadratic Equations by Taking Square Roots</title>
+        <p>
+            Consider an equation of the form,
+        </p>
+        <me>
+            x^2 = k
+        </me>
+        <p>
+            where <m>k \in \mathbb{R}</m> is a constant. Then, a solution <m>x</m> to this equation is a number such that its square is equal to <m>k</m>. This is precisely the two square roots of <m>k</m>, which are <m>\sqrt{k}</m> and <m>-\sqrt{k}</m>. Indeed,
+        </p>
+        <me>
+            (\sqrt{k})^2 = k \qquad \text{and} \qquad \brac{-\sqrt{k}}^2 = k
+        </me>
+        <p>
+            so these are both solutions to the equation. It turns out that there are no other solutions. In summary,
+        </p>
+        <fact>
+            <title>Square root property</title>
+            <me>
+                \boxed{\text{if $x^2 = k$, then $x = \pm \sqrt{k}$ ($x = \sqrt{k}$ or $x = -\sqrt{k}$)}}
+            </me>
+            <p>
+                This is true, provided that <m>k > 0</m>.
+            </p>
+        </fact>
+
+        <p>
+            If <m>k = 0</m>, then the equation is just <m>x^2 = 0</m>, which only has the single solution <m>x = 0</m>. If <m>k \lt 0</m>, then because negative numbers don't have square roots, the equation has no solutions.
+        </p>
+        <p>
+            Notice that in this example, a quadratic equation can have 2 solutions (more than a linear equation, which has 1 solution), and it can also have either 1 or 0 solutions.
+        </p>
+    </subsection>
+</section>

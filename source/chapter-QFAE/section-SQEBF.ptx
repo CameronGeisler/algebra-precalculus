@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="section-SQEBF">
+    <title>Solving Quadratic Equations by Factoring</title>
+
+    <introduction>
+        <p>
+            Recall that factoring a number means to write it as the product of two numbers, typically smaller. In a similar way, some quadratic polynomials can be written as the product of two linear polynomials. Then, the roots of the linear polynomials gives insight into the roots of the quadratic polynomial.
+        </p>
+    </introduction>
+
+    <subsection>
+        <title>Zero Product Property</title>
+        <p>
+            Factoring relies on a fundamental property about real numbers, called the zero product property.
+        </p>
+        <theorem>
+            <title>Zero product property</title>
+            <p>
+                Let <m>a, b</m> be real numbers. If <m>ab = 0</m>, then $a = 0$ or $b = 0$, or both.
+            </p>
+        </theorem>
+        <p>
+            In other words, if the product of two numbers is zero, then it must be the case that at least one of the numbers must be zero. Intuitively, this is true, roughly because if one of <m>a</m> or <m>b</m> is non-zero, then the other must be zero.
+        </p>
+        <proof>
+            <p>
+                Let <m>ab = 0</m>. Then, we consider two cases. If one of the numbers is zero, say <m>a = 0</m>, then we are done. Otherwise, if <m>a \neq 0</m>, then dividing both sides of <m>ab = 0</m> by <m>a</m> gives,
+            </p>
+            <md>
+                <mrow>\frac{ab}{a} \amp = \frac{0}{a}</mrow>
+                <mrow>b \amp = 0</mrow>
+            </md>
+            <p>
+                In other words, in this case, this implies that <m>b = 0</m>. In either case, at least one of <m>a</m> or <m>b</m> is zero.
+            </p>
+        </proof>
+    </subsection>
+    
+</section>
