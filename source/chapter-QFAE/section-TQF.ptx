@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="section-TQF">
+    <title>The Quadratic Formula</title>
+
+    <introduction>
+        <p>
+            In fact, the method of completing the square can be used to develop a single formula which gives the solution to any quadratic equation, called the <em>quadratic formula</em>.
+        </p>
+    </introduction>
+
+    <subsection>
+        <title>The Quadratic Formula</title>
+        <p>
+            Consider a general quadratic equation <m>ax^2 + bx + c = 0</m> (where <m>a \neq 0</m>). We will complete the square. First, divide both sides by the leading coefficient,
+        </p>
+        <md>
+            <mrow>ax^2 + bx + c \amp = 0</mrow>
+            <mrow>x^2 + \frac{b}{a}x + \frac{c}{a} \amp = 0 \amp\amp \text{dividing both sides by $a$}</mrow>
+            <mrow>x^2 + \frac{b}{a}x \amp = -\frac{c}{a} \amp\amp \text{subtracting $c/a$ from both sides}</mrow>
+            <mrow>x^2 + \frac{b}{a}x + \frac{b^2}{4a^2} \amp = \frac{b^2}{4a^2} - \frac{c}{a} \amp\amp \text{completing the square by adding $\brac{\frac{1}{2} \cdot \frac{b}{a}}^2 = \frac{b^2}{4a^2}$ to both sides}</mrow>
+            <mrow>\brac{x + \frac{b}{2a}}^2 \amp = \frac{b^2 - 4ac}{4a^2} \amp\amp \text{factoring on the left, simplifying on the right}</mrow>
+            <mrow>x + \frac{b}{2a} \amp = \pm \sqrt{\frac{b^2 - 4ac}{4a^2}} \amp\amp \text{using the square root property}</mrow>
+            <mrow>x + \frac{b}{2a} \amp = \pm \frac{\sqrt{b^2 - 4ac}}{2\abs{a}} \amp\amp \text{simplifying the square root}</mrow>
+        </md>
+        <p>
+            Here, <m>\sqrt{4a^2} = 2\abs{a}</m>, which equals <m>2a</m> if <m>a > 0</m> and <m>-2a</m> if <m>a \lt 0</m>. However, in either case, the plus/minus symbol in front will not be affected, and so we can simply write <m>\sqrt{4a^2} = 2a</m>. Then,
+        </p>
+        <md>
+            <mrow>x + \frac{b}{2a} \amp = \pm \frac{\sqrt{b^2 - 4ac}}{2a}</mrow>
+            <mrow>x \amp = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \amp\amp \text{subtracting $\frac{b}{2a}$ from both sides}</mrow>
+        </md>
+        <p>
+            In summary,
+        </p>
+        <theorem>
+            <title>The quadratic formula</title>
+            <p>
+                Let <m>ax^2 + bx + c = 0</m> be a quadratic equation, <m>a \neq 0</m>. Then, the solutions are given by,
+            </p>
+            <me>
+                \boxed{x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}}
+            </me>
+        </theorem>
+
+        <p>
+            This is the quadratic formula. Substituting the values of <m>a, b</m>, and <m>c</m> from the equation into the formula will give you the solutions for <m>x</m>. Note that the equation only has real number solutions if the expression under the square root is non-negative, i.e. <m>b^2 - 4ac \geq 0</m>. If <m>b^2 - 4ac \lt 0</m>, there are no real number solutions.
+        </p>
+    </subsection>
+
+    <subsection>
+        <title>Discriminant</title>
+        <p>
+            In the quadratic formula,
+        </p>
+        <me>
+            x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+        </me>
+        <p>
+            the expression under the square root sign, <m>b^2 - 4ac</m>, provides information about the nature of the soltuions to the equation.
+        </p>
+        <p>
+            If <m>b^2 - 4ac > 0</m>, then there are two real solutions, given by the quadratic formula, one with the <m>+</m> sign and the other with the <m>-</m> sign. If instead <m>b^2 - 4ac = 0</m>, then <m>\sqrt{b^2 - 4ac} = 0</m>, and the quadratic equation simplifies to <m>x = -\frac{b}{2a}</m>, a single real solution. Finally, if <m>b^2 - 4ac \lt 0</m>, then the square root <m>\sqrt{b^2 - 4ac}</m> is not a real number, and so there are no real solutions.
+        </p>
+        <p>
+            This quantity <m>b^2 - 4ac</m> is called the <em>discriminant</em>.
+        </p>
+        <definition>
+            <p>
+                The <term>discriminant</term> of a quadratic expression <m>ax^2 + bx + c</m> is given by,
+            </p>
+            <me>
+                \Delta = b^2 - 4ac
+            </me>
+        </definition>
+        <p>
+            The discriminant is often denoted by the Greek letter delta $\Delta$, because delta and discriminant both start with <q>d</q>.
+        </p>
+
+        <theorem>
+            <p>
+                Let <m>ax^2 + bx + c = 0</m> be a quadratic equation, <m>a \neq 0</m>.
+            </p>
+            <ul>
+                <li>If <m>b^2 - 4ac > 0</m>, then the equation has 2 real solutions.</li>
+                <li>If <m>b^2 - 4ac = 0</m>, then the equation has 1 real repeated solution.</li>
+                <li>If <m>b^2 - 4ac \lt 0</m>, then the equation has 0 real roots and 2 non-real complex solutions.</li>
+            </ul>
+        </theorem>
+
+        <p>
+            In this way, the discriminant quite literally helps us <q>discriminate</q> (distinguish apart) between the possible types of roots of an equation.
+        </p>
+        <p>
+            Further, if the discriminant is positive and is a <em>perfect square</em> (that is, its square root is a rational number), then <m>\sqrt{b^2 - 4ac}</m> is rational, and this means that both solutions provided by the quadratic formula are rational.
+        </p>
+
+        <theorem>
+            <p>
+                Let <m>ax^2 + bx + c = 0</m> be a quadratic equation with integer coefficients (or rational coefficients). If <m>b^2 - 4ac > 0</m> is a perfect square, then the equation has 2 rational solutions.
+            </p>
+        </theorem>
+        <p>
+            If the discriminant is not a perfect square, then the two real solutions are irrational. In particular, they are of the form,
+        </p>
+        <me>
+            x = \frac{-b + \sqrt{b^2 - 4ac}}{2a} \ , \ \frac{-b - \sqrt{b^2 - 4ac}}{2a}
+        </me>
+        <p>
+            Or, equivalently,
+        </p>
+        <me>
+            x = -\frac{b}{2a} + \frac{\sqrt{b^2 - 4ac}}{2a} \ , \ -\frac{b}{2a} - \frac{\sqrt{b^2 - 4ac}}{2a}
+        </me>
+        <p>
+            These numbers are irrational conjugates, in that they are the same, except for differing signs on the second term.
+        </p>
+    </subsection>
+
+    <subsection>
+        <title>Remembering the Quadratic Formula</title>
+        <p>
+            Also, there are <url href = "https://www.youtube.com/results?search_query=quadratic+formula+song">various jingles and songs</url> to help remember the quadratic formula,
+        </p>
+    </subsection>
+</section>

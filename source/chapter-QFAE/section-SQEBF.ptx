@@ -7,6 +7,40 @@
         <p>
             Recall that factoring a number means to write it as the product of two numbers, typically smaller. In a similar way, some quadratic polynomials can be written as the product of two linear polynomials. Then, the roots of the linear polynomials gives insight into the roots of the quadratic polynomial.
         </p>
+        <p>
+            Consider the equation,
+        </p>
+        <me>
+            (x + 1)(x - 3) = 0
+        </me>
+        <p>
+            Consider the solutions <m>x</m> to this equation. By inspection, we can see that <m>x = -1</m> and <m>x = 3</m> are solutions, because,
+        </p>
+        <md>
+            <mrow>(-1 + 1)(-1 - 3) \amp = 0</mrow>
+            <mrow>(0)(-4) \amp 0</mrow>
+            <mrow>0 \amp = 0</mrow>
+        </md>
+        <p>
+            and, similarly,
+        </p>
+        <md>
+            <mrow>(3 + 1)(3 - 3) \amp = 0</mrow>
+            <mrow>(4)(0) \amp 0</mrow>
+            <mrow>0 \amp = 0</mrow>
+        </md>
+        <p>
+            Then, it also turns out that these are the only two solutions. On the other hand, using the distributive property, we can expand the left-hand side of this equation,
+        </p>
+        <md>
+            <mrow>(x + 1)(x - 3) \amp = 0</mrow>
+            <mrow>x (x - 3) + 1(x - 3) \amp = 0</mrow>
+            <mrow>x^2 - 3x + x - 3 \amp = 0</mrow>
+            <mrow>x^2 - 2x - 3 \amp = 0</mrow>
+        </md>
+        <p>
+            Notice that this is a quadratic equation, in standard form. We want to be able to convert a quadratic equation from standard form, to the previous form (called <em>factored form</em>, because then solving the quadratic equation will be easy.
+        </p>
     </introduction>
 
     <subsection>
@@ -17,7 +51,7 @@
         <theorem>
             <title>Zero product property</title>
             <p>
-                Let <m>a, b</m> be real numbers. If <m>ab = 0</m>, then $a = 0$ or $b = 0$, or both.
+                Let <m>a, b</m> be real numbers. If <m>ab = 0</m>, then <m>a = 0</m> or <m>b = 0</m>, or both.
             </p>
         </theorem>
         <p>
@@ -35,6 +69,143 @@
                 In other words, in this case, this implies that <m>b = 0</m>. In either case, at least one of <m>a</m> or <m>b</m> is zero.
             </p>
         </proof>
+
+        <p>
+            Then, if a quadratic polynomial can be written in the form,
+        </p>
+        <me>
+            (x - p)(x - q) = 0
+        </me>
+        <p>
+            then we can conclude that either <m>x - p = 0</m> or <m>x - q = 0</m>. Then, solving for <m>x</m> in each equation gives <m>x = p</m> and <m>x = q</m>, respectively.
+        </p>
+    </subsection>
+
+    <subsection>
+        <title>Multiplying Polynomials</title>
+        <p>
+            Consider the product of two binomials. Using algebra tiles, this is like a rectangle with one side <m>x + a</m> and the other side <m>x + b</m>. Algebra tiles for negative numbers also work.
+        </p>
+        <me>
+            (x + a)(x + b)
+        </me>
+        <p>
+            Using the distributive property,
+        </p>
+        <md>
+            <mrow>(x + a)(x + b) \amp = x(x + b) + a(x + b) \amp\amp \text{by the distributive property}</mrow>
+            <mrow>\amp = x^2 + bx + ax + ab \amp\amp \text{by the distributive property}</mrow>
+            <mrow>\amp = x^2 + (a + b)x + ab \amp\amp \text{collecting like terms}</mrow>
+        </md>
+        <md>
+            <mrow>(a + b)(x + y) \amp = a(x + y) + b(x + y)</mrow>
+            <mrow>\amp = ax + ay + bx + by</mrow>
+        </md>
+        <p>
+            When multiplying polynomials, every term in the first parentheses is multiplied with every other term in the second parnethese.
+        </p>
+        <p>
+            An analogy to handshakes: the two brackets are two teams of players in a sports game. At the end of the game, every player on each team has to shake the hand of every player on the other team.
+        </p>
+        <p>
+            A mnemonic: FOIL, which stands for <q>first, outside, inside, last</q>.
+        </p>
+        <p>
+            Square of a sum. Using algebra tiles.
+        </p>
+        <me>
+            (a + b)^2 = a^2 + 2ab + b^2
+        </me>
+    </subsection>
+
+    <subsection>
+        <title>Factoring Quadratics</title>
+        <p>
+            Consider a quadratic polynomial in standard form, <m>ax^2 + bx + c</m>. We want to factor this polynomial as the product of two binomials. It turns out that this is somewhat complicated. First, we will consider a simpler case where <m>a = 1</m>, so the polynomial is <m>x^2 + bx + c</m>. Then, we want to find numbers <m>p</m> and <m>q</m> such that,
+        </p>
+        <me>
+            x^2 + bx + c = (x + p)(x + q)
+        </me>
+        <p>
+            Using algebra tiles, this amounts to trying to arrange the tiles <m>x^2, bx, c</m> in such a way to form a rectangle.
+        </p>
+        <p>
+            Then, to determine these numbers <m>p</m> and <m>q</m>, we can expand the right-hand side,
+        </p>
+        <md>
+            <mrow>(x + p)(x + q) = x^2 + px + qx + pq</mrow>
+            <mrow>x^2 + (p + q)x + pq</mrow>
+        </md>
+        <p>
+            Then,
+        </p>
+        <me>
+            x^2 + bx + c = x^2 + (p + q)x + pq
+        </me>
+        <p>
+            For <m>p, q</m> to satisfy this equation, the coefficients must be equal. That is, <m>p + q = b</m>, and <m>pq = c</m>. This means that <m>p</m> and <m>q</m> must be numbers whose product is the constant term <m>c</m>, and whose sum is the middle coefficient <m>b</m>.
+        </p>
+        <p>
+            Then, first, list all of the possible pairs of factors of <m>c</m>. Then, among these pairs, find one whose sum is <m>b</m>.
+        </p>
+        <p>
+            Note that the order in which you write the factors doesn't matter, because,
+        </p>
+        <me>
+            (x + p)(x + q) = (x + q)(x + p)
+        </me>
+        <p>
+            Note that it is possible that no such pair of factors works. In this case, the polynomial can't be factored. Not all trinomials can be factored.
+        </p>
+    </subsection>
+
+    <subsection>
+        <title>Factoring Polynomials in Descending Order</title>
+        <p>
+            It is also possible to factor polynomials <q>backwards</q>.
+        </p>
+    </subsection>
+
+    <subsection>
+        <title>Factor More General Quadratics</title>
+        <p>
+            Consider a more general quadratic in standard form, <m>ax^2 + bx + c</m>.
+        </p>
+        <p>
+            Recall that,
+        </p>
+        <me>
+            (Ax + B)(Cx + D) = AC x^2 + (AD + BC)x + BD
+        </me>
+        <p>
+            Then, we want to factor the quadratic expression into <m>(Ax + B)(Cx + D)</m>, or,
+        </p>
+        <me>
+            ax^2 + bx + c = AC x^2 + (AD + BC)x + BD
+        </me>
+        <p>
+            Here, we have to find 4 numbers <m>A, B, C, D</m>. Then, equating coefficients, these numbers must satisfy,
+        </p>
+        <me>
+            \begin{cases} AC = a \\ AD + BC = b \\ BD = c \end{cases}
+        </me>
+        <p>
+            In particular, the first numbers <m>A</m> and <m>C</m>, which are the coefficients of <m>x</m> in the binomials, must multiply to <m>a</m>, the coefficient of <m>x^2</m>. Also <m>B</m> and <m>D</m> have to multiply to the constant term <m>c</m>, the constant term. Finally, the product <m>AD + BC</m> has to be equal to <m>b</m>, the linear coefficient.
+        </p>
+        <p>
+            Then, to find these numbers, list all factors of <m>a</m>, and also all factors of <m>c</m>, and find pairs of factors <m>A, C</m> and <m>B, D</m>, in such a way so that the sum <m>AC + BD</m> is <m>b</m>.
+        </p>
+        <p>
+            Cross method. AC method.
+        </p>
+        <p>
+            After some practice, you can use logical reasoning to choose coefficient that you think make sense (i.e. guess and test), rather than simply list all of the possible factors.
+        </p>
+
+    </subsection>
+
+    <subsection>
+        <title>Borrow-Payback Method</title>
     </subsection>
     
 </section>

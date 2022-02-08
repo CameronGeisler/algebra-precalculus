@@ -11,4 +11,5 @@
         <xi:include href="./chapter-QFAE/section-ITQF.ptx"/>
         <xi:include href="./chapter-QFAE/section-ITQE.ptx"/>
         <xi:include href="./chapter-QFAE/section-SQEBF.ptx"/>
+        <xi:include href="./chapter-QFAE/section-TQF.ptx"/>
 </chapter>
