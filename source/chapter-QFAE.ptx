@@ -11,5 +11,10 @@
         <xi:include href="./chapter-QFAE/section-ITQF.ptx"/>
         <xi:include href="./chapter-QFAE/section-ITQE.ptx"/>
         <xi:include href="./chapter-QFAE/section-SQEBF.ptx"/>
+        <xi:include href="./chapter-QFAE/section-CTS.ptx"/>
+        <xi:include href="./chapter-QFAE/section-VF.ptx"/>
+        <xi:include href="./chapter-QFAE/section-QFT.ptx"/>
         <xi:include href="./chapter-QFAE/section-TQF.ptx"/>
+        <xi:include href="./chapter-QFAE/section-AOQF.ptx"/>
+        <xi:include href="./chapter-QFAE/section-SOSQE.ptx"/>
 </chapter>

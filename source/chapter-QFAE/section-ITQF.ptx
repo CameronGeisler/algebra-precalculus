@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="section-ITQF">
-    <title>Introduction to Quadratic Functions</title>
+    <title>Intro to Quadratic Functions</title>
     <introduction>
         <p>
             Previously, most of the relationships between variables were linear.
@@ -27,7 +27,7 @@
         </p>
         <me>
             \begin{array}{c|c}
-            \text{time} \amp \text{distance} \\
+            \text{time} \amp \text{distance} \\ \hline
             1 \amp 1 \\
             2 \amp 1 + 3 = 4 \\
             3 \amp 1 + 3 + 5 = 9 \\
@@ -35,7 +35,7 @@
             \end{array}
         </me>
         <p>
-            <alert>Notice that the distances are the squares of the time</alert>. In modern mathematics, we say that the distance travelled is (directly) <em>proportional</em> to the square of time. Let <m>d</m> represent the distance travelled, <m>t</m> represent the time elapsed. Then,
+            Notice that the distances are the <em>squares</em> of the time. In modern mathematics, we say that the distance travelled is (directly) <em>proportional</em> to the square of time. Let <m>d</m> represent the distance travelled, <m>t</m> represent the time elapsed. Then,
         </p>
         <me>
             d = k t^2
@@ -47,7 +47,7 @@
             d = 4.9 t^2
         </me>
         <p>
-            That is, <m>t</m> seconds after dropping an object, the object will have travelled <m>4.9 t^2</m> meters. Here, <m>h</m> is called a <term>quadratic function</term> of <m>t</m>, from the Latin <q>quadratus</q> meaning <q>square</q>, referring to the fact that the independent variable <m>t</m> is squared.
+            That is, <m>t</m> seconds after dropping an object, the object will have travelled <m>4.9 t^2</m> meters.
         </p>
         <p>
             <url href = "https://www.desmos.com/calculator/gcho2vonef">This Desmos applet shows the graph of motion</url>, where the horizontal axis represents time, and the vertical axis is the distance travelled. The graph of this relationship forms a curve called a <term>parabola</term>.
@@ -93,6 +93,10 @@
                 where <m>a, b, c \in \mathbb{R}</m> are real numbers, and <m>a \neq 0</m>.
             </p>
         </definition>
+
+        <p>
+            The term <q>quadratic</q> comes from the Latin <q>quadratus</q> meaning <q>square</q>, referring to the fact that the independent variable <m>x</m> is squared.
+        </p>
 
         <aside>
             If <m>a = 0</m>, then the equation is linear, not quadratic, because there is no <m>x^2</m> term.

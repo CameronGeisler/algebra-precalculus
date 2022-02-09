@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="section-SOSQE">
+    <title>Summary of Solving Quadratic Equations</title>
+
+    <subsection>
+        <title>Summary of Solving Quadratic Equations</title>
+        <p>
+            For a quadratic equation <m>ax^2 + bx + c = 0</m>,
+        </p>
+        <ul>
+            <li>If there is no <m>x</m> term, <m>ax^2 + c = 0</m>, then solve for <m>x^2</m>, and use the square root property. Slightly more generally, if it is in vertex form <m>(x - h)^2 + k = 0</m>, then use the square root property, and solve for <m>x</m>.</li>
+            <li>If <m>ax^2 + bx + c</m> can be factored easily, then factor and use the zero-product property.</li>
+            <li>If there is no constant term, <m>ax^2 + bx = 0</m>, then factor out the common factor of <m>x</m>, and use the zero-product property.</li>
+            <li>If <m>ax^2 + bx + c</m> cannot be factored, or factoring is difficult, then use the quadratic formula.</li>
+        </ul>
+        <p>
+            Technically, the quadratic formula always works, in that is can be used in all cases. However, it is sometimes overkill, applying a complicated formula to a simple situation.
+        </p>
+        <p>
+            Here is a high-quality math rap song parody, <url href = "https://www.youtube.com/watch?v=jGJrH49Z2ZA">Do the Quad Solve</url>.
+        </p>
+    </subsection>
+</section>

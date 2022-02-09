@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="section-CTS">
+    <title>Completing the Square</title>
+
+    <introduction>
+        <p>
+            Consider a quadratic equation, <m>ax^2 + bx + c = 0</m>. Recall that we have solved quadratic equations of the form,
+        </p>
+        <me>
+            (x - h)^2 = k
+        </me>
+        <p>
+            using the square root property (i.e. taking the square root of both sides). For example, to solve <m>(x - 2)^2 = 5</m>,
+        </p>
+        <md>
+            <mrow>(x - 2)^2 \amp = 5</mrow>
+            <mrow>x - 2 \amp = \pm \sqrt{5} \amp\amp \text{by the square root property}</mrow>
+            <mrow>x \amp = 2 \pm \sqrt{5} \amp\amp \text{solving for $x$}</mrow>
+        </md>
+        <p>
+            Alternatively, we could have expanded out the equation first, and write it in standard form,
+        </p>
+        <md>
+            <mrow>(x - 2)^2 \amp = 5</mrow>
+            <mrow>x^2 - 4x + 4 \amp = 5</mrow>
+            <mrow>x^2 - 4x - 1 \amp = 0</mrow>
+        </md>
+        <p>
+            The equations <m>x^2 - 4x - 1 = 0</m> and <m>(x - 2)^2 = 5</m>. The equation <m>x^2 - 4x - 1 = 0</m> can't be solved by factoring (you can confirm this). However, notice that all of the steps are reversible. That is, 
+        </p>
+        <md>
+            <mrow>x^2 - 4x - 1 \amp = 0</mrow>
+            <mrow>x^2 - 4x + 4 \amp = 5 \amp\amp \text{adding 5 to both sides}</mrow>
+            <mrow>(x - 2)^2 \amp = 5 \amp\amp \text{rewriting the left-hand side}</mrow>
+            <mrow>x - 2 \amp = \pm \sqrt{5} \amp\amp \text{by the square root property}</mrow>
+            <mrow>x \amp = 2 \pm \sqrt{5} \amp\amp \text{solving for $x$}</mrow>
+        </md>
+        <p>
+            This illustrates a general technique for solving quadratic equations, in particular those which can't be factored. The idea is to write the quadratic as a <em>square</em> of the form <m>(x - h)^2</m>, and then use the square root property. This technique is called <em>completing the square</em>.
+        </p>
+    </introduction>
+
+    <subsection>
+        <title>Solving by Completing the Square</title>
+        <p>
+            Recall that a <em>perfect square trinomial</em> is a trinomial that can be factored as the square of a sum/difference.
+        </p>
+        <me>
+            x^2 + 8x + 16 = (x + 4)^2 \qquad \text{and} \qquad x^2 - 10x + 25 = (x - 5)^2
+        </me>
+        <p>
+            In general, for a perfect square trinomial, the constant term is equal to the square of <m>\frac{1}{2}</m> of the coefficient of the <m>x</m> term. In other words,
+        </p>
+        <me>
+            x^2 + ax + \brac{\frac{a}{2}}^2 = \brac{x + \frac{a}{2}}^2
+        </me>
+        <p>
+            If the coefficient of <m>x</m> is <m>a</m>, then the constant term must be <m>\brac{\frac{a}{2}}^2</m>.
+        </p>
+        <p>
+            First, consider an equation of the form,
+        </p>
+        <me>
+            x^2 + bx + c = 0
+        </me>
+        <p>
+            First, move the constant term to the other side of the equation. Then, add <m>\brac{\frac{b}{2}}^2</m> to both sides of the equation,
+        </p>
+        <me>
+            x^2 + bx + \brac{\frac{b}{2}}^2 = \brac{\frac{b}{2}}^2 - c
+        </me>
+        <p>
+            Then, rewrite the left-hand side as a perfect square,
+        </p>
+        <me>
+            \brac{x + \frac{b}{2}}^2 = \brac{\frac{b}{2}}^2 - c
+        </me>
+        <p>
+            Finally, take the square root of both sides of the equaton and use the square root property, to solve for <m>x</m>.
+        </p>
+        <p>
+            If the leading coefficient of the quadratic is not 1, then first divide by that coefficient, and continue as above.
+        </p>
+        <p>
+            This process is called <term>completing the square</term>, because it involves quite literally taking a polynomial <m>x^2 + bx</m>, and adding an appropriate constant such that it becomes a <em>perfect square</em> trinomial.
+        </p>
+    </subsection>
+
+    <subsection>
+        <title>Summary of Solving an Equation by Completing the Square</title>
+        <ol>
+            <li>
+                Write the equation in the form,
+                <me>
+                    ax^2 + bx = -c
+                </me>
+            </li>
+            <li>
+                Divide both sides by <m>a</m>, to make the leading coefficient equal to 1,
+                <me>
+                    x^2 + \frac{b}{a}x = -\frac{c}{a}
+                </me>
+            </li>
+            <li>
+                Add the square of half of the coefficient of <m>x</m>, to both sides of the equation.
+            </li>
+            <li>Factor the perfect square trinomial (you can check you added the constant correctly by expanding the perfect square, and confirming it is equal to the original trinomial).</li>
+            <li>Use the square root property to take the square root of both sides of the equation.</li>
+            <li>Solve for <m>x</m>.</li>
+            <li>Check the solutions, by substituting them for <m>x</m> in the original equation.</li>
+        </ol>
+    </subsection>
+
+    <subsection>
+        <title>Completing the Square Geometrically</title>
+    </subsection>
+
+    <subsection>
+        <title>Historical Aside</title>
+        <p>
+            The method of completing the square was known as early as 1600BC to the ancient Babylonians, well before algebraic notation was even invented.
+        </p>
+    </subsection>
+
+
+</section>

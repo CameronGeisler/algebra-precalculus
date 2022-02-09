@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="section-QFT">
+    <title>Quadratic Functions Transformations</title>
+
+    <introduction>
+        <p>
+
+        </p>
+    </introduction>
+
+    <subsection>
+        <title>Quadratic Function Transformations</title>
+        <p>
+            Consider the function <m>f(x) = x^2</m>. This is called the <term>parent function</term>, because it is the simplest function, from which the transformed functions can be constructed from.
+        </p>
+    </subsection>
+</section>

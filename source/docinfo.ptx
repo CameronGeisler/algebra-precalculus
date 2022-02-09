@@ -15,7 +15,12 @@
 <!-- to define these semantically, so that the macro relates to what-->
 <!-- it defines.                                                    -->
 <macros>
-
+  %% Math
+  \newcommand{\abs}[1]{\left\lvert #1 \right\rvert}
+  \newcommand{\set}[1]{\left\{ #1 \right\}}
+  \renewcommand{\neg}{\sim}
+  \newcommand{\brac}[1]{\left( #1 \right)}
+  \newcommand{\eval}[1]{\left. #1 \right|}
 </macros>
 
 <latex-preamble>

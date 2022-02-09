@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*       on 2022-02-08T17:42:18-08:00       *-->
+<!--*   A recent stable commit (2020-08-09):   *-->
+<!--* 98f21740783f166a773df4dc83cab5293ab63a4a *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Completing the Square</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>window.MathJax = {
+  tex: {
+    inlineMath: [['\\(','\\)']],
+    tags: "none",
+    useLabelIds: true,
+    tagSide: "right",
+    tagIndent: ".8em",
+    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'newcommand', 'knowl']}
+  },
+  options: {
+    ignoreHtmlClass: "tex2jax_ignore",
+    processHtmlClass: "has_am",
+  },
+  chtml: {
+    scale: 0.88,
+    mtextInheritFont: true
+  },
+  loader: {
+    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
+    paths: {pretext: "https://pretextbook.org/js/lib"},
+  },
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/lib/jquery.min.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/0.13/pretext.js"></script><script xmlns:svg="http://www.w3.org/2000/svg">miniversion=0.6</script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/0.13/pretext_add_on.js?x=1"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script xmlns:svg="http://www.w3.org/2000/svg">sagecellEvalName='Evaluate (Sage)';
+</script><link xmlns:svg="http://www.w3.org/2000/svg" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/pretext.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/banner_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/toc_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/knowls_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/style_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/colors_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/setcolors.css" rel="stylesheet" type="text/css">
+<!-- 2019-10-12: Temporary - CSS file for experiments with styling --><link xmlns:svg="http://www.w3.org/2000/svg" href="developer.css" rel="stylesheet" type="text/css">
+</head>
+<body class="pretext-book has-toc has-sidebar-left">
+<a class="assistive" href="#content">Skip to main content</a><div xmlns:svg="http://www.w3.org/2000/svg" id="latex-macros" class="hidden-content" style="display:none">\(\newcommand{\abs}[1]{\left\lvert #1 \right\rvert}
+\newcommand{\set}[1]{\left\{ #1 \right\}}
+\renewcommand{\neg}{\sim}
+\newcommand{\brac}[1]{\left( #1 \right)}
+\newcommand{\eval}[1]{\left. #1 \right|}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\)</div>
+<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="book.html"><span class="title">Algebra and Precalculus</span></a></h1>
+<p class="byline"></p>
+</div>
+</div></div>
+<nav xmlns:svg="http://www.w3.org/2000/svg" id="primary-navbar" class="navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3"><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="section-SQEBF.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="chapter.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="section-VFAT.html" title="Next">Next</a></span></div>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="section-SQEBF.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="chapter.html" title="Up">Up</a><a class="next-button button toolbar-item" href="section-VFAT.html" title="Next">Next</a>
+</div>
+</div></nav></header><div class="page">
+<div xmlns:svg="http://www.w3.org/2000/svg" id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
+<nav id="toc"><ul><li class="link">
+<a href="chapter.html" data-scroll="chapter"><span class="codenumber">1</span> <span class="title">Quadratic Functions and Equations</span></a><ul>
+<li><a href="section-ITQF.html" data-scroll="section-ITQF">Intro to Quadratic Functions</a></li>
+<li><a href="section-ITQE.html" data-scroll="section-ITQE">Intro to Quadratic Equations</a></li>
+<li><a href="section-SQEBF.html" data-scroll="section-SQEBF">Solving Quadratic Equations by Factoring</a></li>
+<li><a href="section-CTS.html" data-scroll="section-CTS" class="active">Completing the Square</a></li>
+<li><a href="section-VFAT.html" data-scroll="section-VFAT">Vertex Form and Transformations</a></li>
+<li><a href="section-QFT.html" data-scroll="section-QFT">Quadratic Functions Transformations</a></li>
+<li><a href="section-TQF.html" data-scroll="section-TQF">The Quadratic Formula</a></li>
+<li><a href="section-AOQF.html" data-scroll="section-AOQF">Applications of Quadratic Functions</a></li>
+</ul>
+</li></ul></nav><div class="extras"><nav><a class="pretext-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
+</div></div>
+<main class="main"><div id="content" class="pretext-content"><section xmlns:svg="http://www.w3.org/2000/svg" class="section" id="section-CTS"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">1.4</span> <span class="title">Completing the Square</span>
+</h2>
+<section class="introduction" id="introduction-5"><p id="p-73">Consider a quadratic equation, \(ax^2 + bx + c = 0\text{.}\) Recall that we have solved quadratic equations of the form,</p>
+<div class="displaymath">
+\begin{equation*}
+(x - h)^2 = k
+\end{equation*}
+</div>
+<p id="p-74">using the square root property (i.e. taking the square root of both sides). For example, to solve \((x - 2)^2 = 5\text{,}\)</p>
+<div class="displaymath">
+\begin{align*}
+(x - 2)^2 \amp = 5\\
+x - 2 \amp = \pm \sqrt{5} \amp\amp \text{by the square root property}\\
+x \amp = 2 \pm \sqrt{5} \amp\amp \text{solving for $x$}
+\end{align*}
+</div>
+<p id="p-75">Alternatively, we could have expanded out the equation first, and write it in standard form,</p>
+<div class="displaymath">
+\begin{align*}
+(x - 2)^2 \amp = 5\\
+x^2 - 4x + 4 \amp = 5\\
+x^2 - 4x - 1 \amp = 0
+\end{align*}
+</div>
+<p id="p-76">The equations \(x^2 - 4x - 1 = 0\) and \((x - 2)^2 = 5\text{.}\) The equation \(x^2 - 4x - 1 = 0\) can't be solved by factoring (you can confirm this). However, notice that all of the steps are reversible. That is,</p>
+<div class="displaymath">
+\begin{align*}
+x^2 - 4x - 1 \amp = 0\\
+x^2 - 4x + 4 \amp = 5 \amp\amp \text{adding 5 to both sides}\\
+(x - 2)^2 \amp = 5 \amp\amp \text{rewriting the left-hand side}\\
+x - 2 \amp = \pm \sqrt{5} \amp\amp \text{by the square root property}\\
+x \amp = 2 \pm \sqrt{5} \amp\amp \text{solving for $x$}
+\end{align*}
+</div>
+<p id="p-77">This illustrates a general technique for solving quadratic equations, in particular those which can't be factored. The idea is to write the quadratic as a <em class="emphasis">square</em> of the form \((x - h)^2\text{,}\) and then use the square root property. This technique is called <em class="emphasis">completing the square</em>.</p></section><section class="subsection" id="subsection-12"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.4.1</span> <span class="title">Solving by Completing the Square</span>
+</h3>
+<p id="p-78">Recall that a <em class="emphasis">perfect square trinomial</em> is a trinomial that can be factored as the square of a sum/difference.</p>
+<div class="displaymath">
+\begin{equation*}
+x^2 + 8x + 16 = (x + 4)^2 \qquad \text{and} \qquad x^2 - 10x + 25 = (x - 5)^2
+\end{equation*}
+</div>
+<p id="p-79">In general, for a perfect square trinomial, the constant term is equal to the square of \(\frac{1}{2}\) of the coefficient of the \(x\) term. In other words,</p>
+<div class="displaymath">
+\begin{equation*}
+x^2 + ax + \brac{\frac{a}{2}}^2 = \brac{x + \frac{a}{2}}^2
+\end{equation*}
+</div>
+<p id="p-80">If the coefficient of \(x\) is \(a\text{,}\) then the constant term must be \(\brac{\frac{a}{2}}^2\text{.}\)</p>
+<p id="p-81">First, consider an equation of the form,</p>
+<div class="displaymath">
+\begin{equation*}
+x^2 + bx + c = 0
+\end{equation*}
+</div>
+<p id="p-82">First, move the constant term to the other side of the equation. Then, add \(\brac{\frac{b}{2}}^2\) to both sides of the equation,</p>
+<div class="displaymath">
+\begin{equation*}
+x^2 + bx + \brac{\frac{b}{2}}^2 = \brac{\frac{b}{2}}^2 - c
+\end{equation*}
+</div>
+<p id="p-83">Then, rewrite the left-hand side as a perfect square,</p>
+<div class="displaymath">
+\begin{equation*}
+\brac{x + \frac{b}{2}}^2 = \brac{\frac{b}{2}}^2 - c
+\end{equation*}
+</div>
+<p id="p-84">Finally, take the square root of both sides of the equaton and use the square root property, to solve for \(x\text{.}\)</p>
+<p id="p-85">If the leading coefficient of the quadratic is not 1, then first divide by that coefficient, and continue as above.</p>
+<p id="p-86">This process is called <dfn class="terminology">completing the square</dfn>, because it involves quite literally taking a polynomial \(x^2 + bx\text{,}\) and adding an appropriate constant such that it becomes a <em class="emphasis">perfect square</em> trinomial.</p></section><section class="subsection" id="subsection-13"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.4.2</span> <span class="title">Summary of Solving an Equation by Completing the Square</span>
+</h3>
+<ol class="decimal">
+<li id="li-4"><p id="p-derived-li-4">Write the equation in the form,<div class="displaymath">
+\begin{equation*}
+ax^2 + bx = -c
+\end{equation*}
+</div></p></li>
+<li id="li-5"><p id="p-derived-li-5">Divide both sides by \(a\text{,}\) to make the leading coefficient equal to 1,<div class="displaymath">
+\begin{equation*}
+x^2 + \frac{b}{a}x = -\frac{c}{a}
+\end{equation*}
+</div></p></li>
+<li id="li-6"><p id="p-derived-li-6">Add the square of half of the coefficient of \(x\text{,}\) to both sides of the equation.</p></li>
+<li id="li-7"><p id="p-derived-li-7">Factor the perfect square trinomial (you can check you added the constant correctly by expanding the perfect square, and confirming it is equal to the original trinomial).</p></li>
+<li id="li-8"><p id="p-derived-li-8">Use the square root property to take the square root of both sides of the equation.</p></li>
+<li id="li-9"><p id="p-derived-li-9">Solve for \(x\text{.}\)</p></li>
+<li id="li-10"><p id="p-derived-li-10">Check the solutions, by substituting them for \(x\) in the original equation.</p></li>
+</ol></section><section class="subsection" id="subsection-14"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.4.3</span> <span class="title">Completing the Square Geometrically</span>
+</h3></section><section class="subsection" id="subsection-15"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.4.4</span> <span class="title">Historical Aside</span>
+</h3>
+<p id="p-87">The method of completing the square was known as early as 1600BC to the ancient Babylonians, well before algebraic notation was even invented.</p></section></section></div></main>
+</div>
+</body>
+</html>

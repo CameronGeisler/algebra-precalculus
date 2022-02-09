@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="section-ITQE">
-    <title>Introduction to Quadratic Equations</title>
+    <title>Intro to Quadratic Equations</title>
 
     <introduction>
         <p>
@@ -37,12 +37,11 @@
         </p>
         <fact>
             <title>Square root property</title>
+            <p>For <m>k \geq 0</m></p>
+
             <me>
-                \boxed{\text{if $x^2 = k$, then $x = \pm \sqrt{k}$ ($x = \sqrt{k}$ or $x = -\sqrt{k}$)}}
+                \boxed{\text{if $x^2 = k$, then $x = \pm \sqrt{k}$} \qquad \text{($x = \sqrt{k}$ or $x = -\sqrt{k}$)}}
             </me>
-            <p>
-                This is true, provided that <m>k > 0</m>.
-            </p>
         </fact>
 
         <p>

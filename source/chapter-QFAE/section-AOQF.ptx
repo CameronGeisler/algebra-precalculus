@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="section-AOQF">
+    <title>Applications of Quadratic Functions</title>
+
+    <subsection>
+        <title>Application: Freefall Motion Revisited</title>
+
+        <p>
+            The equation for the height of an object launched at initial velocity <m>v_0</m> and initial height <m>h_0</m>, is given by,
+        </p>
+        <me>
+            h(t) = -\frac{1}{2} t^2 + v_0 t + h_0
+        </me>
+        <p>
+            Then, consider when the object hits the ground, which corresponds to the <m>t</m>-intercept of the parabola (in particular, the <m>t</m>-intercept that is positive), i.e. the value of <m>t</m> such that <m>h(t) = 0</m>. That is, solve the equation,
+        </p>
+        <me>
+            -\frac{1}{2} t^2 + v_0 t + h_0 = 0
+        </me>
+        <p>
+            Using the quadratic formula,
+        </p>
+        <md>
+            <mrow>t \amp = \frac{-v_0 \pm \sqrt{(-v_0)^2 - 4\brac{-\frac{1}{2}g}(h_0)}}{2\brac{-\frac{1}{2}g}}</mrow>
+            <mrow>\amp = \frac{-v_0 \pm \sqrt{v_0^2 + 2gh_0}}{-g}</mrow>
+        </md>
+        <p>
+            To simplify by distributing the negative sign, it gets absorbed by the <m>\pm</m> symbol,
+        </p>
+        <me>
+            t = \frac{v_0 \pm \sqrt{v_0^2 + 2gh_0}}{g}
+        </me>
+        <p>
+            Then, it turns out that the positive solution corresponds to the positive sign <m>+</m>. In summary,
+        </p>
+        <me>
+            t = \frac{v_0 + \sqrt{v_0^2 + 2gh_0}}{g}
+        </me>
+        <p>
+            Next, if the objects is launched upwards (so, <m>v_0 > 0</m>), then the object reaches a maximum point of motion before falling back down, and this point corresponds to the vertex of the parabola. The <m>t</m>-coordinate of the vertex is given by,
+        </p>
+        <me>
+            t = -\frac{b}{2a} = -\frac{v_0}{2\brac{-\frac{1}{2}g}} = \frac{v_0}{g}
+        </me>
+        <p>
+            This is the time <m>t</m> where the object reaches its maximum height, if <m>v_0 > 0</m>. If <m>v_0 \lt 0</m>, the object never reaches a maximum height. Also, the maximum height is,
+        </p>
+        <md>
+            <mrow>h\brac{\frac{v_0}{g}} \amp = -\frac{1}{2} g \brac{\frac{v_0}{g}}^2 + v_0 \brac{\frac{v_0}{g}} + h_0</mrow>
+            <mrow>\amp = -\frac{1}{2} \cdot \frac{v_0^2}{g} + \frac{v_0^2}{g} + h_0</mrow>
+            <mrow>\amp = \frac{v_0^2}{2g} + h_0</mrow>
+            <mrow>\amp = \frac{v_0^2}{2g} + \frac{2gh_0}{2g}</mrow>
+            <mrow>\amp = \frac{v_0^2 + 2gh_0}{2g}</mrow>
+        </md>
+        <p>
+            In summary,
+        </p>
+        
+        <fact>
+            <p>
+                If an object is launched at (vertical) initial velocity <m>v_0</m> and initial height <m>h_0</m>, then the time it takes to hit the ground is,
+            </p>
+            <me>
+                t = \frac{v_0 + \sqrt{v_0^2 + 2gh_0}}{g}
+            </me>
+            <p>
+                Also, if <m>v_0 > 0</m>, then the object hits its maximum point at $t = \frac{v_0}{g}$, and its maximum height is,
+            </p>
+            <me>
+                h = \frac{v_0^2 + 2gh_0}{2g}
+            </me>
+        </fact>
+    </subsection>
+</section>

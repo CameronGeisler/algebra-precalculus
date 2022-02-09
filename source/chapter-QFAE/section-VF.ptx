@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="section-VFAT">
+    <title>Vertex Form and Transformations</title>
+
+    <introduction>
+        <p>
+            A slightly different variation of completing the square provides an alternate form of a quadratic  which gives insight into its graph.
+        </p>
+    </introduction>
+
+    <subsection>
+        <title>Vertex Form (Standard Form)</title>
+
+        <definition>
+            <p>
+                The <term>standard form</term> (or <term>vertex form</term>) of a quadratic function is,
+            </p>
+            <me>
+                y = a(x - h)^2 + k \qquad \text{or} \qquad f(x) = a(x - h)^2 + k
+            </me>
+            <p>
+                The vertex of this parabola is <m>(h,k)</m>. The parabola opens up if <m>a > 0</m> and opens down if <m>a \lt 0</m>.
+            </p>
+
+        </definition>
+        <p>
+            It is easier to graph a quadratic function by-hand, if it is in standard form, because the vertex can be read off the equation directly.
+        </p>
+    </subsection>
+
+    <subsection>
+        <title>Converting to Vertex Form from General Form</title>
+        <p>
+            Consider the quadratic function <m>f(x) = ax^2 + bx + c</m>. To convert to vertex form, we complete the square.
+        </p>
+        <md>
+            <mrow>f(x) \amp = ax^2 + bx + c</mrow>
+            <mrow>\amp = a\brac{x^2 + \frac{b}{a}x} + c \amp\amp \text{factoring out $a$ from the first two terms}</mrow>
+            <mrow>\amp = a\brac{x^2 + \frac{b}{a}x + \frac{b^2}{4a^2}} + c - \frac{b^2}{4a} \amp\amp \text{adding and subtracting $a \cdot \brac{\frac{b}{2a}}^2 = \frac{b^2}{4a}$}</mrow>
+            <mrow>f(x) \amp = a\brac{x + \frac{b}{2a}}^2 + c - \frac{b^2}{4a}</mrow>
+        </md>
+        <p>
+            Then, this shows that the vertex has <m>x</m>-coordinate is <m>x = -\frac{b}{2a}</m>, and <m>y</m>-coordinate <m>c - \frac{b^2}{4a}</m>. More conveniently, the <m>y</m>-coordinate can be determined by evaluating <m>f</m> at <m>x = -\frac{b}{2a}</m>. It can be verified that,
+        </p>
+        <md>
+            <mrow>f\brac{-\frac{b}{2a}} \amp = a \underbrace{\brac{-\frac{b}{2a} + \frac{b}{2a}}^2}_{=0} + c - \frac{b^2}{4a}</mrow>
+            <mrow>\amp = c - \frac{b^2}{4a}</mrow>
+            <mrow>\amp = \frac{4ac}{4a} - \frac{b^2}{4a}</mrow>
+            <mrow>\amp = \frac{4ac - b^2}{4a}</mrow>
+        </md>
+        <p>
+            In summary,
+        </p>
+        <theorem>
+            <p>
+                The vertex of the quadratic function <m>f(x) = ax^2 + bx + c</m> is given by,
+            </p>
+            <me>
+                \boxed{(h,k) = \brac{-\frac{b}{2a}, f\brac{-\frac{b}{2a}}} = \brac{-\frac{b}{2a}, \frac{4ac - b^2}{4a}}}
+            </me>
+        </theorem>
+
+        <p>
+            Also, the axis of symmetry is then the vertical line <m>x = -\frac{b}{2a}</m>.
+        </p>
+    </subsection>
+
+    <subsection>
+        <title>Graphing a Quadratic Function in Standard Form</title>
+        <p>
+            Consider the quadratic function <m>f(x) = a(x - h)^2 + k</m>.
+        </p>
+        <ol>
+            <li><term>Plot the vertex</term>, given by <m>(h,k)</m>.</li>
+            <li><term>Determine the orientation of the parabola</term>. If <m>a > 0</m>, the parabola opens up, and if <m>a \lt 0</m>, the parabola opens downward.</li>
+            <li><term>Plot some additional points.</term> Some possible convenient points include the <m>x</m>-intercepts (by solving <m>a(x - h)^2 + k = 0</m>), and the <m>y</m>-intercept (by evaluating <m>f(0)</m>). If necessary, points at <m>x</m>-values near the vertex can also be useful.</li>
+            <li><term>Connect the points with a smooth parabola curve</term>. Also recall that the curve should be symmetric about the axis of symmetry <m>x = h</m>.</li>
+        </ol>
+    </subsection>
+
+    <subsection>
+        <title>Determining the Equation of a Parabola Given Vertex and One Point</title>
+
+    </subsection>
+
+    <subsection>
+        <title>Examples</title>
+        <p>
+            Consider the quadratic function <m>f(x) = ax^2 + c</m>. In each case, what must be true about <m>a</m> and <m>c</m>?
+        </p>
+        <ul>
+            <li><m>f</m> has no <m>x</m>-intercepts.</li>
+            <li><m>f</m> has one <m>x</m>-intercept.</li>
+            <li><m>f</m> has two <m>x</m>-intercepts.</li>
+        </ul>
+    </subsection>
+
+    <subsection>
+        <title>Completing the Square and Factoring</title>
+
+        <md>
+            <mrow>x^2 + 2x - 3 \amp = (x + 1)^2 - 4 \amp\amp \text{completing the square}</mrow>
+            <mrow>\amp = \brac{(x + 1) - 2} \brac{(x + 1) + 2} \amp\amp \text{factoring as a difference of squares}</mrow>
+            <mrow>\amp = (x - 1)(x + 3) \amp\amp \text{simplifying}</mrow>
+        </md>
+        <p>
+            In general,
+        </p>
+        <md>
+            <mrow>(x - h)^2 + k \amp = (x - h - \sqrt{k})(x - h + \sqrt{k})</mrow>
+            <mrow>\amp = \brac{x - (h + \sqrt{k})} \brac{x - (h - \sqrt{k})}</mrow>
+        </md>
+        <p>
+            so the roots are <m>x = h + \sqrt{k}, h - \sqrt{k}</m>.
+        </p>
+    </subsection>
+</section>
