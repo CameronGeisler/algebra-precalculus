@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="section-SAC">
+    <title>Stretches and Compressions</title>
+
+    <p>
+        For quadratic functions, vertical stretch is equivalant to a particular horizontal stretch. Then, we simply consider only the vertical stretch, of the form <m>f(x) = a(x - h)^2 + k</m>.
+    </p>
+</section>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="section-TS">
+    <title>Translations</title>
+
+    <introduction>
+        <p>
+            Consider the quadratic function <m>f(x) = x^2</m>, along with the graphs <m>g(x) = (x - 1)^2</m> and <m>h(x) = x^2 + 2</m>.
+        </p>
+        <p>
+            Notice that the graph of <m>g</m> is the graph of <m>f</m>, shifted 1 unit to the right. Similarly, the graph of <m>h</m> is hte graph of <m>f</m> shifted 2 units up.
+        </p>
+        <p>
+            Also notice that we could write <m>g</m> and <m>h</m> in terms of <m>f</m>, as,
+        </p>
+        <md>
+            <mrow>g(x) = (x - 1)^2 = f(x - 1)</mrow>
+            <mrow>h(x) = x^2 + 2 = f(x) + 2</mrow>
+        </md>
+        <p>
+            For <m>h(x)</m>, the addition of 2 means that the output values <m>h(x)</m> of the function are 2 more than the output values of <m>f(x)</m>, for the same input <m>x</m>. This corresponds to a vertical shift of 2 units up.
+        </p>
+        <p>
+            For <m>g(x) = f(x - 1)</m>, there is a subtraction of 1 inside the function argument. This means that to obtain the same output value <m>f(x)</m>, we need to increase the value of <m>x</m> by 1. For example,
+        </p>
+        <me>
+            \begin{array}{l}
+            g(0) = f(-1) \\
+            g(1) = f(0) \\
+            g(2) = f(1) \\
+            \vdots
+            \end{array}
+        </me>
+        <p>
+            That is, to determine the output value of <m>g</m> at a particular point, determine the output value of <m>f</m> 1 unit to the left. This leads to <m>g</m> being a horizontal shift of <m>f</m> 1 unit to the right.
+        </p>
+    </introduction>
+
+    <subsection>
+        <term>Horizontal and Vertical Translations (Shifts)</term>
+        <p>
+            In general, shifts that occur inside the function argument correspond to horizontal shifts, whereas shifts that occur <q>outside</q> the function correspond to vertical shifts.
+        </p>
+        <theorem>
+            <title>Vertical shifts</title>
+            <p>
+                Let <m>k > 0</m>. Then,
+            </p>
+            <ul>
+                <li>
+                    The graph of <m>y = f(x) + k</m> is obtained by shifting the graph of <m>y = f(x)</m> <em>upward</em> by <m>k</m> units.
+                </li>
+                <li>The graph of <m>y = f(x) - k</m> is obtained by shifting the graph of <m>y = f(x)</m> <em>downward</em> by <m>k</m> units.</li>
+            </ul>
+        </theorem>
+
+        <p>
+            Roughly, for a vertical shift, a positive number means the graph is shifted in the <q>positive</q> <m>y</m>-direction, that is, upwards. Similarly, a negative number corresponds to a shift in the <q>negative</q> <m>y</m>-direction, that is, downwards.
+        </p>
+
+        <theorem>
+            <title>Horizontal Shift</title>
+            <p>
+                Let <m>h > 0</m>. Then,
+            </p>
+            <ul>
+                <li>
+                    The graph of <m>y = f(x - h)</m> is obtained by shifting the graph of <m>y = f(x)</m> <em>right</em> by <m>h</m> units.
+                </li>
+                <li>
+                    The graph of <m>y = f(x + h)</m> is obtained by shifting the graph of <m>y = f(x)</m> <em>left</em> by <m>h</m> units.
+                </li>
+            </ul>
+        </theorem>
+        <p>
+            For horizontal shifts, the signs are opposite. A positive number inside the argument corresponds to a shift in the <q>negative</q> <m>x</m>-direction, that is, to the left. Similarly, a negative number corresponds to a shift in the <q>positive</q> <m>x</m>-direction, that is, to the right.
+        </p>
+        <p>
+            Roughly, subtracting <m>h</m> from <m>x</m> shifts the graph right because for the function <m>g(x) = f(x - h)</m>, to obtain <m>f(0)</m>, we need to evaluate <m>g(h) = f(h - h) = f(0)</m>. That is, the <m>y</m>-coordinate of the original graph at <m>x = 0</m> (<m>f(0)</m>) is now found at <m>x = h</m> on the new graph (<m>h</m> units to the right). That is, because of the subtraction of <m>h</m>, the inputs <m>x</m> must be increased by <m>h</m> to compensate, which leads to a rightward shift. In general, to obtain <m>f(a)</m>, we need to input <m>a + h</m>.
+        </p>
+        <p>
+            In summary, 
+        </p>
+        <md>
+            <mrow>y = f(x) \amp \longrightarrow y = f(x - h)</mrow>
+            <mrow>(x,y) \amp \longrightarrow (x + h, y)</mrow>
+        </md>
+        <md>
+            <mrow>y = f(x) \amp \longrightarrow y = f(x) + k</mrow>
+            <mrow>(x,y) \amp \longrightarrow (x, y + k)</mrow>
+        </md>
+        <p>
+            Also, in general, with transformations, the most basic type of function in a class of functions, such as <m>f(x) = x^2</m>, or <m>f(x) = \abs{x}</m>, are called <term>parent functions</term>, intuitively because all other functions in the <term>family</term> of functions can be derived from this parent function.
+        </p>
+    </subsection>
+
+    <subsection>
+        <title>Quadratic Functions</title>
+        <p>
+            You may recall from the study of quadratic functions, that the function <m>f(x) = (x - h)^2 + k</m> has vertex at the point <m>(h,k)</m>. In fact, this is just an example of translations. The parent function is <m>f(x) = x^2</m>, and the transformation is a horizontal and vertical shift. <url href = "https://www.desmos.com/calculator/vxwwudjdc6">Consider this Desmos applet, to explore the effects of the translation on the graph</url>.
+        </p>
+    </subsection>
+
+    <subsection>
+        <title>Linear Functions</title>
+        <p>
+            Translations can also be applied to perhaps the most basic function: the linear function. Consider the function <m>f(x) = 2x</m>, which represents the line <m>y = 2x</m>, a straight line with slope 2 through the origin. The graph of <m>y = 2(x - 3)</m> is the graph obtained by shifting the graph of <m>y = 2x</m> to the right 3 units. Similarly, the graph of <m>y = 2x + 4</m> is obtained by shifting <m>y = 2x</m> up 4 units. <url href = "https://www.desmos.com/calculator/jqexi8a90p">Consider this Desmos applet, to explore shifts for linear functions</url>.
+        </p>
+        <p>
+            Notice that manipulating the equation can lead to equivalent transformations. For example, <m>y = 2(x - 3)</m> is equivalent to <m>y = 2x - 6</m>. The former is a horizontal shift 3 units right, while the latter is a vertical shift 6 units down. For this particular function, these two translations are equivalent.
+        </p>
+    </subsection>
+
+    <subsection>
+        <title>Equivalent Transformations</title>
+        <p>
+            In general, for some kinds of functions, there will be more than one way to represent the same transformation.
+        </p>
+    </subsection>
+
+    <subsection>
+        <title>Polynomial Functions</title>
+        <p>
+            Polynomial functions can be translated in a similar way. For example, for <m>f(x) = x^3 - 8x</m>, consider the function <m>g(x) = f(x + 2) = (x + 2)^3 - 8(x + 2)</m>. The graph of this function is the graph of <m>f</m>, shifted 2 units left. Notice that the equation of this new function is somewhat complicated, <m>g(x) = (x + 2)^3 - 8(x + 2)</m>. However, we know it is the translated version of the original graph. <url href = "https://www.desmos.com/calculator/rnxadqodhk">Consider this Desmos applet, to explore shifts for any polynomial function</url>.
+        </p>
+    </subsection>
+
+    <subsection>
+        <title>Domain and Range after Translations</title>
+        <p>
+            These translations shift the graph of a function, so they also intuitively shfit their domain and range.
+        </p>
+    </subsection>
+
+    <subsection>
+        <title>Rational Functions</title>
+        <p>
+            Similarly, rational functions can be translated.
+        </p>
+        <p>
+            Horizontal asymptotes get shifted vertically. Vertical asymptotes get shifted horizontally.
+        </p>
+    </subsection>
+</section>

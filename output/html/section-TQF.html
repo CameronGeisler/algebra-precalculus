@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--********************************************-->
 <!--*       Generated from PreTeXt source      *-->
-<!--*       on 2022-02-08T17:42:18-08:00       *-->
+<!--*       on 2022-02-21T12:24:27-08:00       *-->
 <!--*   A recent stable commit (2020-08-09):   *-->
 <!--* 98f21740783f166a773df4dc83cab5293ab63a4a *-->
 <!--*                                          *-->
@@ -74,7 +74,8 @@
 </div>
 </div></nav></header><div class="page">
 <div xmlns:svg="http://www.w3.org/2000/svg" id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
-<nav id="toc"><ul><li class="link">
+<nav id="toc"><ul>
+<li class="link">
 <a href="chapter.html" data-scroll="chapter"><span class="codenumber">1</span> <span class="title">Quadratic Functions and Equations</span></a><ul>
 <li><a href="section-ITQF.html" data-scroll="section-ITQF">Intro to Quadratic Functions</a></li>
 <li><a href="section-ITQE.html" data-scroll="section-ITQE">Intro to Quadratic Equations</a></li>
@@ -84,16 +85,24 @@
 <li><a href="section-QFT.html" data-scroll="section-QFT">Quadratic Functions Transformations</a></li>
 <li><a href="section-TQF.html" data-scroll="section-TQF" class="active">The Quadratic Formula</a></li>
 <li><a href="section-AOQF.html" data-scroll="section-AOQF">Applications of Quadratic Functions</a></li>
+<li><a href="section-SOSQE.html" data-scroll="section-SOSQE">Summary of Solving Quadratic Equations</a></li>
 </ul>
-</li></ul></nav><div class="extras"><nav><a class="pretext-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
+</li>
+<li class="link">
+<a href="chapter-FT.html" data-scroll="chapter-FT"><span class="codenumber">2</span> <span class="title">Function Transformations</span></a><ul>
+<li><a href="section-TS.html" data-scroll="section-TS">Translations</a></li>
+<li><a href="section-SAC.html" data-scroll="section-SAC">Stretches and Compressions</a></li>
+</ul>
+</li>
+</ul></nav><div class="extras"><nav><a class="pretext-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
 </div></div>
 <main class="main"><div id="content" class="pretext-content"><section xmlns:svg="http://www.w3.org/2000/svg" class="section" id="section-TQF"><h2 class="heading hide-type">
 <span class="type">Section</span> <span class="codenumber">1.7</span> <span class="title">The Quadratic Formula</span>
 </h2>
-<section class="introduction" id="introduction-8"><p id="p-103">In fact, the method of completing the square can be used to develop a single formula which gives the solution to any quadratic equation, called the <em class="emphasis">quadratic formula</em>.</p></section><section class="subsection" id="subsection-23"><h3 class="heading hide-type">
+<section class="introduction" id="introduction-8"><p id="p-105">In fact, the method of completing the square can be used to develop a single formula which gives the solution to any quadratic equation, called the <em class="emphasis">quadratic formula</em>.</p></section><section class="subsection" id="subsection-24"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">1.7.1</span> <span class="title">The Quadratic Formula</span>
 </h3>
-<p id="p-104">Consider a general quadratic equation \(ax^2 + bx + c = 0\) (where \(a \neq 0\)). We will complete the square. First, divide both sides by the leading coefficient,</p>
+<p id="p-106">Consider a general quadratic equation \(ax^2 + bx + c = 0\) (where \(a \neq 0\)). We will complete the square. First, divide both sides by the leading coefficient,</p>
 <div class="displaymath">
 \begin{align*}
 ax^2 + bx + c \amp = 0\\
@@ -105,72 +114,72 @@ x + \frac{b}{2a} \amp = \pm \sqrt{\frac{b^2 - 4ac}{4a^2}} \amp\amp \text{using t
 x + \frac{b}{2a} \amp = \pm \frac{\sqrt{b^2 - 4ac}}{2\abs{a}} \amp\amp \text{simplifying the square root}
 \end{align*}
 </div>
-<p id="p-105">Here, \(\sqrt{4a^2} = 2\abs{a}\text{,}\) which equals \(2a\) if \(a &gt; 0\) and \(-2a\) if \(a \lt 0\text{.}\) However, in either case, the plus/minus symbol in front will not be affected, and so we can simply write \(\sqrt{4a^2} = 2a\text{.}\) Then,</p>
+<p id="p-107">Here, \(\sqrt{4a^2} = 2\abs{a}\text{,}\) which equals \(2a\) if \(a &gt; 0\) and \(-2a\) if \(a \lt 0\text{.}\) However, in either case, the plus/minus symbol in front will not be affected, and so we can simply write \(\sqrt{4a^2} = 2a\text{.}\) Then,</p>
 <div class="displaymath">
 \begin{align*}
 x + \frac{b}{2a} \amp = \pm \frac{\sqrt{b^2 - 4ac}}{2a}\\
 x \amp = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \amp\amp \text{subtracting $\frac{b}{2a}$ from both sides}
 \end{align*}
 </div>
-<p id="p-106">In summary,</p>
+<p id="p-108">In summary,</p>
 <article class="theorem theorem-like" id="theorem-3"><h4 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">1.7.1</span><span class="period">.</span><span class="space"> </span><span class="title">The quadratic formula.</span>
 </h4>
-<p id="p-107">Let \(ax^2 + bx + c = 0\) be a quadratic equation, \(a \neq 0\text{.}\) Then, the solutions are given by,</p>
+<p id="p-109">Let \(ax^2 + bx + c = 0\) be a quadratic equation, \(a \neq 0\text{.}\) Then, the solutions are given by,</p>
 <div class="displaymath">
 \begin{equation*}
 \boxed{x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}}
 \end{equation*}
-</div></article><p id="p-108">This is the quadratic formula. Substituting the values of \(a, b\text{,}\) and \(c\) from the equation into the formula will give you the solutions for \(x\text{.}\) Note that the equation only has real number solutions if the expression under the square root is non-negative, i.e. \(b^2 - 4ac \geq 0\text{.}\) If \(b^2 - 4ac \lt 0\text{,}\) there are no real number solutions.</p></section><section class="subsection" id="subsection-24"><h3 class="heading hide-type">
+</div></article><p id="p-110">This is the quadratic formula. Substituting the values of \(a, b\text{,}\) and \(c\) from the equation into the formula will give you the solutions for \(x\text{.}\) Note that the equation only has real number solutions if the expression under the square root is non-negative, i.e. \(b^2 - 4ac \geq 0\text{.}\) If \(b^2 - 4ac \lt 0\text{,}\) there are no real number solutions.</p></section><section class="subsection" id="subsection-25"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">1.7.2</span> <span class="title">Discriminant</span>
 </h3>
-<p id="p-109">In the quadratic formula,</p>
+<p id="p-111">In the quadratic formula,</p>
 <div class="displaymath">
 \begin{equation*}
 x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
 \end{equation*}
 </div>
-<p id="p-110">the expression under the square root sign, \(b^2 - 4ac\text{,}\) provides information about the nature of the soltuions to the equation.</p>
-<p id="p-111">If \(b^2 - 4ac &gt; 0\text{,}\) then there are two real solutions, given by the quadratic formula, one with the \(+\) sign and the other with the \(-\) sign. If instead \(b^2 - 4ac = 0\text{,}\) then \(\sqrt{b^2 - 4ac} = 0\text{,}\) and the quadratic equation simplifies to \(x = -\frac{b}{2a}\text{,}\) a single real solution. Finally, if \(b^2 - 4ac \lt 0\text{,}\) then the square root \(\sqrt{b^2 - 4ac}\) is not a real number, and so there are no real solutions.</p>
-<p id="p-112">This quantity \(b^2 - 4ac\) is called the <em class="emphasis">discriminant</em>.</p>
+<p id="p-112">the expression under the square root sign, \(b^2 - 4ac\text{,}\) provides information about the nature of the soltuions to the equation.</p>
+<p id="p-113">If \(b^2 - 4ac &gt; 0\text{,}\) then there are two real solutions, given by the quadratic formula, one with the \(+\) sign and the other with the \(-\) sign. If instead \(b^2 - 4ac = 0\text{,}\) then \(\sqrt{b^2 - 4ac} = 0\text{,}\) and the quadratic equation simplifies to \(x = -\frac{b}{2a}\text{,}\) a single real solution. Finally, if \(b^2 - 4ac \lt 0\text{,}\) then the square root \(\sqrt{b^2 - 4ac}\) is not a real number, and so there are no real solutions.</p>
+<p id="p-114">This quantity \(b^2 - 4ac\) is called the <em class="emphasis">discriminant</em>.</p>
 <article class="definition definition-like" id="definition-3"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.7.2</span><span class="period">.</span>
 </h4>
-<p id="p-113">The <dfn class="terminology">discriminant</dfn> of a quadratic expression \(ax^2 + bx + c\) is given by,</p>
+<p id="p-115">The <dfn class="terminology">discriminant</dfn> of a quadratic expression \(ax^2 + bx + c\) is given by,</p>
 <div class="displaymath">
 \begin{equation*}
 \Delta = b^2 - 4ac
 \end{equation*}
-</div></article><p id="p-114">The discriminant is often denoted by the Greek letter delta $\Delta$, because delta and discriminant both start with “d”.</p>
+</div></article><p id="p-116">The discriminant is often denoted by the Greek letter delta $\Delta$, because delta and discriminant both start with “d”.</p>
 <article class="theorem theorem-like" id="theorem-4"><h4 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">1.7.3</span><span class="period">.</span>
 </h4>
-<p id="p-115">Let \(ax^2 + bx + c = 0\) be a quadratic equation, \(a \neq 0\text{.}\)</p>
+<p id="p-117">Let \(ax^2 + bx + c = 0\) be a quadratic equation, \(a \neq 0\text{.}\)</p>
 <ul class="disc">
 <li id="li-18"><p id="p-derived-li-18">If \(b^2 - 4ac &gt; 0\text{,}\) then the equation has 2 real solutions.</p></li>
 <li id="li-19"><p id="p-derived-li-19">If \(b^2 - 4ac = 0\text{,}\) then the equation has 1 real repeated solution.</p></li>
 <li id="li-20"><p id="p-derived-li-20">If \(b^2 - 4ac \lt 0\text{,}\) then the equation has 0 real roots and 2 non-real complex solutions.</p></li>
-</ul></article><p id="p-116">In this way, the discriminant quite literally helps us “discriminate” (distinguish apart) between the possible types of roots of an equation.</p>
-<p id="p-117">Further, if the discriminant is positive and is a <em class="emphasis">perfect square</em> (that is, its square root is a rational number), then \(\sqrt{b^2 - 4ac}\) is rational, and this means that both solutions provided by the quadratic formula are rational.</p>
+</ul></article><p id="p-118">In this way, the discriminant quite literally helps us “discriminate” (distinguish apart) between the possible types of roots of an equation.</p>
+<p id="p-119">Further, if the discriminant is positive and is a <em class="emphasis">perfect square</em> (that is, its square root is a rational number), then \(\sqrt{b^2 - 4ac}\) is rational, and this means that both solutions provided by the quadratic formula are rational.</p>
 <article class="theorem theorem-like" id="theorem-5"><h4 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">1.7.4</span><span class="period">.</span>
 </h4>
-<p id="p-118">Let \(ax^2 + bx + c = 0\) be a quadratic equation with integer coefficients (or rational coefficients). If \(b^2 - 4ac &gt; 0\) is a perfect square, then the equation has 2 rational solutions.</p></article><p id="p-119">If the discriminant is not a perfect square, then the two real solutions are irrational. In particular, they are of the form,</p>
+<p id="p-120">Let \(ax^2 + bx + c = 0\) be a quadratic equation with integer coefficients (or rational coefficients). If \(b^2 - 4ac &gt; 0\) is a perfect square, then the equation has 2 rational solutions.</p></article><p id="p-121">If the discriminant is not a perfect square, then the two real solutions are irrational. In particular, they are of the form,</p>
 <div class="displaymath">
 \begin{equation*}
 x = \frac{-b + \sqrt{b^2 - 4ac}}{2a} \ , \ \frac{-b - \sqrt{b^2 - 4ac}}{2a}
 \end{equation*}
 </div>
-<p id="p-120">Or, equivalently,</p>
+<p id="p-122">Or, equivalently,</p>
 <div class="displaymath">
 \begin{equation*}
 x = -\frac{b}{2a} + \frac{\sqrt{b^2 - 4ac}}{2a} \ , \ -\frac{b}{2a} - \frac{\sqrt{b^2 - 4ac}}{2a}
 \end{equation*}
 </div>
-<p id="p-121">These numbers are irrational conjugates, in that they are the same, except for differing signs on the second term.</p></section><section class="subsection" id="subsection-25"><h3 class="heading hide-type">
+<p id="p-123">These numbers are irrational conjugates, in that they are the same, except for differing signs on the second term.</p></section><section class="subsection" id="subsection-26"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">1.7.3</span> <span class="title">Remembering the Quadratic Formula</span>
 </h3>
-<p id="p-122">Also, there are <a class="external" href="https://www.youtube.com/results?search_query=quadratic+formula+song" target="_blank">various jingles and songs</a> to help remember the quadratic formula,</p></section></section></div></main>
+<p id="p-124">Also, there are <a class="external" href="https://www.youtube.com/results?search_query=quadratic+formula+song" target="_blank">various jingles and songs</a> to help remember the quadratic formula,</p></section></section></div></main>
 </div>
 </body>
 </html>

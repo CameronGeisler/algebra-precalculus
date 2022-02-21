@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="chapter-FT" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Function Transformations</title>
+        <introduction>
+            <p>
+                Functions can be transformed to create new functions. Previously, we considered various particular types of functions, including linear functions, absolute value functions, quadratic functions, and others. The techniques of function transformations can be used to modify all of these functions, to create graphs of various shapes. As you learn addition classes of functions, these techniques will apply to them also.
+            </p>
+            <p>
+                Roughly, a <term>transformation</term> of a function <m>f</m> is a function <m>g</m> obtained by performing some kind of operations on <m>f</m>.
+            </p>
+            <p>
+                Intuitively, the word <q>transform</q> means to change in some way.
+            </p>
+        </introduction>
+
+        <xi:include href="./chapter-FT/section-TS.ptx"/>
+        <xi:include href="./chapter-FT/section-SAC.ptx"/>
+</chapter>
