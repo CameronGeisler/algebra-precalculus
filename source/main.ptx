@@ -33,6 +33,7 @@
         <!-- on the title (ch-shorttitle.ptx) both here and on disk    -->
         <xi:include href="./chapter-QFAE.ptx"/>
         <xi:include href="./chapter-FT.ptx"/>
+        <xi:include href="./chapter-EALF.ptx"/>
         <!-- Of course you will want to add more chapters as you proceed-->
     </book>
 </pretext>

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*       on 2022-03-14T15:46:31-07:00       *-->
+<!--*   A recent stable commit (2020-08-09):   *-->
+<!--* 98f21740783f166a773df4dc83cab5293ab63a4a *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Intro to Exponential Functions</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>window.MathJax = {
+  tex: {
+    inlineMath: [['\\(','\\)']],
+    tags: "none",
+    useLabelIds: true,
+    tagSide: "right",
+    tagIndent: ".8em",
+    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'newcommand', 'knowl']}
+  },
+  options: {
+    ignoreHtmlClass: "tex2jax_ignore",
+    processHtmlClass: "has_am",
+  },
+  chtml: {
+    scale: 0.88,
+    mtextInheritFont: true
+  },
+  loader: {
+    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
+    paths: {pretext: "https://pretextbook.org/js/lib"},
+  },
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/lib/jquery.min.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/0.13/pretext.js"></script><script xmlns:svg="http://www.w3.org/2000/svg">miniversion=0.6</script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/0.13/pretext_add_on.js?x=1"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script xmlns:svg="http://www.w3.org/2000/svg">sagecellEvalName='Evaluate (Sage)';
+</script><link xmlns:svg="http://www.w3.org/2000/svg" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/pretext.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/banner_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/toc_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/knowls_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/style_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/colors_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/setcolors.css" rel="stylesheet" type="text/css">
+<!-- 2019-10-12: Temporary - CSS file for experiments with styling --><link xmlns:svg="http://www.w3.org/2000/svg" href="developer.css" rel="stylesheet" type="text/css">
+</head>
+<body class="pretext-book has-toc has-sidebar-left">
+<a class="assistive" href="#content">Skip to main content</a><div xmlns:svg="http://www.w3.org/2000/svg" id="latex-macros" class="hidden-content" style="display:none">\(\newcommand{\abs}[1]{\left\lvert #1 \right\rvert}
+\newcommand{\set}[1]{\left\{ #1 \right\}}
+\renewcommand{\neg}{\sim}
+\newcommand{\brac}[1]{\left( #1 \right)}
+\newcommand{\eval}[1]{\left. #1 \right|}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\)</div>
+<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="book.html"><span class="title">Algebra and Precalculus</span></a></h1>
+<p class="byline"></p>
+</div>
+</div></div>
+<nav xmlns:svg="http://www.w3.org/2000/svg" id="primary-navbar" class="navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3"><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="chapter-EALF.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="chapter-EALF.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="section-ITEE.html" title="Next">Next</a></span></div>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="chapter-EALF.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="chapter-EALF.html" title="Up">Up</a><a class="next-button button toolbar-item" href="section-ITEE.html" title="Next">Next</a>
+</div>
+</div></nav></header><div class="page">
+<div xmlns:svg="http://www.w3.org/2000/svg" id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
+<nav id="toc"><ul>
+<li class="link">
+<a href="chapter.html" data-scroll="chapter"><span class="codenumber">1</span> <span class="title">Quadratic Functions and Equations</span></a><ul>
+<li><a href="section-ITQF.html" data-scroll="section-ITQF">Intro to Quadratic Functions</a></li>
+<li><a href="section-ITQE.html" data-scroll="section-ITQE">Intro to Quadratic Equations</a></li>
+<li><a href="section-SQEBF.html" data-scroll="section-SQEBF">Solving Quadratic Equations by Factoring</a></li>
+<li><a href="section-CTS.html" data-scroll="section-CTS">Completing the Square</a></li>
+<li><a href="section-VFAT.html" data-scroll="section-VFAT">Vertex Form and Transformations</a></li>
+<li><a href="section-QFT.html" data-scroll="section-QFT">Quadratic Functions Transformations</a></li>
+<li><a href="section-TQF.html" data-scroll="section-TQF">The Quadratic Formula</a></li>
+<li><a href="section-AOQF.html" data-scroll="section-AOQF">Applications of Quadratic Functions</a></li>
+<li><a href="section-SOSQE.html" data-scroll="section-SOSQE">Summary of Solving Quadratic Equations</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-FT.html" data-scroll="chapter-FT"><span class="codenumber">2</span> <span class="title">Function Transformations</span></a><ul>
+<li><a href="section-TS.html" data-scroll="section-TS">Translations</a></li>
+<li><a href="section-SAC.html" data-scroll="section-SAC">Stretches and Compressions</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-EALF.html" data-scroll="chapter-EALF"><span class="codenumber">3</span> <span class="title">Exponential and Logarithmic Functions</span></a><ul>
+<li><a href="section-ITEF.html" data-scroll="section-ITEF" class="active">Intro to Exponential Functions</a></li>
+<li><a href="section-ITEE.html" data-scroll="section-ITEE">Intro to Exponential Equations</a></li>
+<li><a href="section-ITEGAD.html" data-scroll="section-ITEGAD">Intro to Exponential Growth and Decay</a></li>
+</ul>
+</li>
+</ul></nav><div class="extras"><nav><a class="pretext-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
+</div></div>
+<main class="main"><div id="content" class="pretext-content"><section xmlns:svg="http://www.w3.org/2000/svg" class="section" id="section-ITEF"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">3.1</span> <span class="title">Intro to Exponential Functions</span>
+</h2>
+<section class="subsection" id="subsection-37"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">3.1.1</span> <span class="title">Exponential Functions</span>
+</h3>
+<article class="definition definition-like" id="definition-4"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.1.1</span><span class="period">.</span>
+</h4>
+<p id="p-166">An <dfn class="terminology">exponential function</dfn> with base \(b\) is the function given by,</p>
+<div class="displaymath">
+\begin{equation*}
+f(x) = b^x
+\end{equation*}
+</div>
+<p id="p-167">where \(b &gt; 0, b \neq 1\text{.}\)</p></article><p id="p-168">This defines a function because, for all \(x \in \mathbb{R}\text{,}\) \(b^x\) is a (unique) real number.</p>
+<article class="example example-like" id="example-2"><a href="" data-knowl="" class="id-ref example-knowl original" data-refid="hk-example-2"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.2</span><span class="period">.</span>
+</h4></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-2"><article class="example example-like"><p id="p-169">Some exponential functions include,</p>
+<div class="displaymath">
+\begin{equation*}
+f(x) = 2^x \qquad f(x) = 5^x \qquad f(x) = 1.12^x \qquad f(x) = \brac{\frac{1}{2}}^x \qquad f(x) = 0.83^x
+\end{equation*}
+</div></article></div>
+<article class="example example-like" id="example-3"><a href="" data-knowl="" class="id-ref example-knowl original" data-refid="hk-example-3"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.3</span><span class="period">.</span><span class="space"> </span><span class="title">Non-examples of exponential functions.</span>
+</h4></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-3"><article class="example example-like"><p id="p-170">Some functions that are not exponential functions include,</p>
+<div class="displaymath">
+\begin{align*}
+f(x) \amp = x^2 \amp\amp \text{polynomial function, $x$ is not an exponent}\\
+f(x) \amp = 1^x \amp\amp \text{the base $b$ cannot be 1}\\
+f(x) \amp = (-2)^x \amp\amp \text{the base $b$ must be positive}\\
+f(x) \amp = x^x \amp\amp \text{the base is not a constant}
+\end{align*}
+</div>
+<p id="p-171">Recall that a polynomial function \(f(x) = x^n\) has the variable \(x\) as the base of a power, and the exponent is a constant. Exponential functions, on the other hand are functions of the form \(f(x) = b^x\text{,}\) where the variable \(x\) is an exponent, and the base is a constant.</p></article></div></section><section class="subsection" id="subsection-38"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">3.1.2</span> <span class="title">Graphing Basic Exponential Functions</span>
+</h3>
+<article class="example example-like" id="example-4"><a href="" data-knowl="" class="id-ref example-knowl original" data-refid="hk-example-4"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.4</span><span class="period">.</span>
+</h4></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-4"><article class="example example-like"><p id="p-172">Consider the graph of \(f(x) = 2^x\text{.}\) First, create a table of values,</p>
+<div class="displaymath">
+\begin{equation*}
+\begin{array}{c|c}
+x \amp f(x) \\ \hline
+-2 \amp 2^{-2} = 1/4 \\
+-1 \amp 2^{-1} = 1/2 \\
+0 \amp 2^0 = 1 \\
+1 \amp 2^1 = 2 \\
+2 \amp 2^2 = 4
+\end{array}
+\end{equation*}
+</div></article></div>
+<p id="p-173">In summary,</p>
+<ol class="decimal">
+<li id="li-29"><p id="p-derived-li-29">Create a table of values for \(x = -2, -1, 0, 1, 2\text{,}\) and plot the points.</p></li>
+<li id="li-30"><p id="p-derived-li-30">Connect the points with a smooth curve.</p></li>
+</ol>
+<article class="example example-like" id="example-5"><a href="" data-knowl="" class="id-ref example-knowl original" data-refid="hk-example-5"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.5</span><span class="period">.</span>
+</h4></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-5"><article class="example example-like"><p id="p-174">Graph \(f(x) = \brac{\frac{1}{2}}^x\text{.}\)</p></article></div></section><section class="subsection" id="subsection-39"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">3.1.3</span> <span class="title">Properties of Exponential Functions</span>
+</h3>
+<p id="p-175">Consider an exponential function \(f(x) = b^x\text{.}\) First, its domain is all real numbers, because for every number \(x\text{,}\) \(b^x\) is defined (there is no division by zero, or roots).</p>
+<ul class="disc">
+<li id="li-31"><p id="p-derived-li-31">The domain of \(f\) is all real numbers, and \(f\) is continuous on \(\mathbb{R}\text{.}\)</p></li>
+<li id="li-32"><p id="p-derived-li-32">The \(y\)-intercept is \((0,1)\text{,}\) because \(f(0) = b^0 = 1\) for any \(b &gt; 0\text{.}\)</p></li>
+</ul>
+<article class="theorem theorem-like" id="theorem-8"><h4 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">3.1.6</span><span class="period">.</span><span class="space"> </span><span class="title">Increasing and decreasing functions.</span>
+</h4>
+<p id="p-176">For an exponential function \(f(x) = b^x\text{.}\) Notice that the characteristics of the graph of \(f\) vary depending on whether the base \(b\) is greater than 1, or less than 1. If \(b &gt; 1\text{,}\) then increasing the exponent \(x\) for \(b^x\) result in a <em class="emphasis">larger</em> number. If \(0 \lt b \lt 1\text{,}\) then increasing the exponent \(x\) for \(b^x\) results in a <em class="emphasis">smaller</em> number.</p>
+<ul class="disc">
+<li id="li-33"><p id="p-derived-li-33">If \(b &gt; 1\text{,}\) then \(f\) is <dfn class="terminology">increasing</dfn>. That is, if \(x &gt; y\text{,}\) then \(b^x &gt; b^y\text{.}\)</p></li>
+<li id="li-34"><p id="p-derived-li-34">If \(0 \lt b \lt 1\text{,}\) then \(f\) is <dfn class="terminology">decreasing</dfn>. That is, if \(x &gt; y\text{,}\) then \(b^x \lt b^y\)</p></li>
+</ul></article></section><section class="subsection" id="subsection-40"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">3.1.4</span> <span class="title">Transforming Exponential Functions</span>
+</h3>
+<p id="p-177">Using the theory of transformations, the parent function \(f(x) = b^x\) can be transformed using stretches, reflections, and shifts. In particular, recall that,</p>
+<div class="displaymath">
+\begin{equation*}
+y = f(x) \longrightarrow y = a f\brac{b(x - h)} + k
+\end{equation*}
+</div>
+<p id="p-178">Because the base of the exponential function already uses the letter \(b\text{,}\) we will use \(c\) to represent the horizontal stretch. Then, for \(f(x) = b^x\text{,}\) the function becomes,</p>
+<div class="displaymath">
+\begin{equation*}
+f(x) = a \cdot b^{c(x - h)} + k
+\end{equation*}
+</div>
+<p id="p-179">However, this can be rewritten as,</p>
+<div class="displaymath">
+\begin{equation*}
+f(x) = a \cdot (b^c)^{x - h} + k
+\end{equation*}
+</div>
+<p id="p-180">Then, the exponential function can simply be thought of as base \(b^c\) with no horizontal stretch.</p>
+<p id="p-181">Also, the horizontal shift doesn't matter as much, because,</p>
+<div class="displaymath">
+\begin{align*}
+a \cdot b^{x - h} + k \amp = a \cdot b^x \cdot b^{-h} + k\\
+\amp = \brac{\frac{a}{b^h}} \cdot b^x + k
+\end{align*}
+</div>
+<p id="p-182">The horizontal shift can be considered as a vertical stretch. Then, typically, we write a transformed exponential function in the form,</p>
+<div class="displaymath">
+\begin{equation*}
+f(x) = a \cdot b^x + k
+\end{equation*}
+</div>
+<p id="p-183">Properties of the transformed function,</p>
+<ul class="disc">
+<li id="li-35"><p id="p-derived-li-35">To determine the \(x\)-intercept, set \(f(x) = 0\) and solve for \(x\text{.}\) If there is no solution (because it requires taking the logarithm of a negative number), then there is no \(x\)-intercept.</p></li>
+<li id="li-36"><p id="p-derived-li-36">The horizontal asymptote is \(y = k\text{.}\)</p></li>
+</ul></section><section class="subsection" id="subsection-41"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">3.1.5</span> <span class="title">Graphing a Transformed Exponential Function Using the Parent Function</span>
+</h3>
+<article class="example example-like" id="example-6"><a href="" data-knowl="" class="id-ref example-knowl original" data-refid="hk-example-6"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.7</span><span class="period">.</span>
+</h4></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-6"><article class="example example-like"><p id="p-184">Sketch a graph of \(f(x) = 3^{x+2} - 3\text{.}\)</p></article></div></section><section class="subsection" id="subsection-42"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">3.1.6</span> <span class="title">Restriction on the Base of an Exponential Function</span>
+</h3>
+<p id="p-185">Exponential functions \(f(x) = b^x\) require the base \(b\) to be positive and \(b \neq 1\text{.}\) This is for a few reasons.</p>
+<ul class="disc">
+<li id="li-37"><p id="p-derived-li-37">First, if \(b = 1\text{,}\) then we would have \(f(x) = 1^x = 1\) for all \(x\text{.}\) In other words, we would get the constant function \(f(x) = 1\) which doesn't fit the characteristics of an exponential function.</p></li>
+<li id="li-38"><p id="p-derived-li-38">If \(b = 0\text{,}\) similarly we would have,<div class="displaymath">
+\begin{equation*}
+f(x) = 0^x = \begin{cases} 0 \amp x &gt; 0 \\ \text{undefined} \amp x \lt 0 \end{cases}
+\end{equation*}
+</div>This is because for \(x \lt 0\text{,}\) e.g. \(x = -2\text{,}\) we would have,<div class="displaymath">
+\begin{equation*}
+f(-2) = 0^{-2} = \frac{1}{0^2} = \frac{1}{0}
+\end{equation*}
+</div>which is undefined. Either way, this is not an exponential function.</p></li>
+<li id="li-39">
+<p id="p-186">Finally, if \(b \lt 0\text{,}\) then this would involve taking the power of a negative number. This creates some strange behaviour. Consider \(f(x) = (-2)^x\) for example. For positive integers \(x\text{,}\) \(f\) is defined. For example,</p>
+<div class="displaymath">
+\begin{equation*}
+(-2)^1 = -2 \qquad (-2)^2 = 4 \qquad (-2)^3 = 8
+\end{equation*}
+</div>
+<p id="p-187">and so on. For negative integers \(x\text{,}\) \(f\) is also defined,</p>
+<div class="displaymath">
+\begin{equation*}
+(-2)^{-1} = \frac{1}{-2} = -\frac{1}{2} \quad (-2)^{-2} = \frac{1}{(-2)^2} = \frac{1}{4} \quad (-2)^{-3} = \frac{1}{(-2)^3} = -\frac{1}{8}
+\end{equation*}
+</div>
+<p id="p-188">However, for rational exponents, \(f\) can be undefined. Recall that for a rational exponent \(\frac{a}{b}\text{,}\) where \(a, b \in \mathbb{Z}\) are integers and \(b \neq 0\text{,}\) the expression \((-2)^{a/b}\) is defined as,</p>
+<div class="displaymath">
+\begin{equation*}
+(-2)^{a/b} = \sqrt[b]{(-2)^a}
+\end{equation*}
+</div>
+<p id="p-189">which has some restrictions, as the even root of a negative number is undefined. First, we can assume that \(b &gt; 0\text{,}\) so that the sign of \(\frac{a}{b}\) is determined by \(a\) (i.e. writing \(-2/3\) instead of \(2/-3\)).</p>
+<p id="p-190">If \(b\) is odd, \((-2)^{a/b}\) is defined for all integers \(a\text{.}\) If \(b\) is even, then \(a\) must also be even for \((-2)^a\) to be positive and \(\sqrt[b]{(-2)^a}\) is defined. For example, for \(x = 1/2\) (\(a = 1\) odd and \(b = 2\) even), we have,</p>
+<div class="displaymath">
+\begin{equation*}
+f(1/2) = (-2)^{1/2} = \sqrt{-2}
+\end{equation*}
+</div>
+<p id="p-191">which is undefined as a real number. Finally, for all irrational numbers \(x\text{,}\) \((-2)^x\) is undefined. Explaining this is a little too advanced, but it can be verified by trying \((-2)^x\) on your calculator for different irrational numbers, like \(\sqrt{2}, \sqrt{3}, \sqrt{6}\text{,}\) etc. These expressions will result in complex numbers.</p>
+<p id="p-192">Putting it all together, \(f(x) = (-2)^x\) is defined for all \(x\) except if \(x\) is irrational (which is a lot of values), and if \(x = \frac{a}{b}\) is rational where \(a\) is odd and \(b\) is even. In other words, \(f\) is not continuous (it has infinitely many “holes”), so we don't consider it to be an exponential function.</p>
+</li>
+</ul></section></section></div></main>
+</div>
+</body>
+</html>

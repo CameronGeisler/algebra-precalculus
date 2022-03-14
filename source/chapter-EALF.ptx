@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="chapter-EALF" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Exponential and Logarithmic Functions</title>
+        <introduction>
+            <p>
+                
+            </p>
+        </introduction>
+
+        <xi:include href="./chapter-EALF/section-ITEF.ptx"/>
+        <xi:include href="./chapter-EALF/section-ITEE.ptx"/>
+        <xi:include href="./chapter-EALF/section-ITEGAD.ptx"/>
+</chapter>

@@ -126,6 +126,20 @@
     </subsection>
 
     <subsection>
+        <title>Systematic Method</title>
+        <me>
+            \begin{array}{cc}
+            y = f(x) \amp y = f(x - h) + k \\
+            (x,y) \amp (x + h, y + k) \\ \hline
+            \vdots \amp \vdots
+            \end{array}
+        </me>
+        <p>
+            Choose a few points on the parent function to use to transform into points on the transformed function.
+        </p>
+    </subsection>
+
+    <subsection>
         <title>Domain and Range after Translations</title>
         <p>
             These translations shift the graph of a function, so they also intuitively shfit their domain and range.
@@ -133,7 +147,7 @@
     </subsection>
 
     <subsection>
-        <title>Rational Functions</title>
+        <title>Rational Functions and Asymptotes</title>
         <p>
             Similarly, rational functions can be translated.
         </p>

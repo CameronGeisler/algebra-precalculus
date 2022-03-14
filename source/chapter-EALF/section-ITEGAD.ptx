@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="section-ITEGAD">
+    <title>Intro to Exponential Growth and Decay</title>
+
+    <introduction>
+        <p>
+            Many physical phenomena can be modelled using exponential functions. They are classified in two categories: exponential growth, and exponential decay. In general, exponential growth or decay occurs when a quantity grows or decays at a rate proportional to their size.
+        </p>
+        <p>
+            An example of exponential growth is population growth. For many organisms, their population increases at a rate proportional to their size. This is because the larger the population, the more people available to reproduce, so the more offspring are produced.
+        </p>
+        <p>
+            An example of exponential decay is radioactive decay, the behavior of radioactive isotopes as they decay into non-radioactive isotopes. The more atoms which are radioactive, the more of them can decay into non-radioactive isotopes.
+        </p>
+    </introduction>
+
+    <subsection>
+        <title>Exponential Change</title>
+        <p>
+            Consider a quantity <m>y</m>, which currently has value <m>y_0</m>, and which is growing at a rate of <m>r</m> percent per year (here <m>r</m> is the percentage change, written as a decimal). Then, after one year, the new value of the quantity is its current value <m>y_0</m>, plus the change in the quantity. Since the quantity is growing by <m>r</m> \%, this means that the quantity grew by <m>r \cdot y_0</m>. Then,
+        </p>
+        <md>
+            <mrow>\text{new $y$} \amp = \text{old $y$} + \text{change in $y$}</mrow>
+            <mrow>y \amp = y_0 + r \cdot y_0</mrow>
+        </md>
+        <p>
+            Then, combining like terms,
+        </p>
+        <me>
+            y = (1 + r) y_0
+        </me>
+        <p>
+            The factor <m>1 + r</m> is multiplied by the current quantity in order to get the new quantity, and is called the <term>growth factor</term> (or <term>decay factor</term>, with exponential decay).
+        </p>
+    </subsection>
+</section>

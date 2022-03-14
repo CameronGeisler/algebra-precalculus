@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="section-ITEE">
+    <title>Intro to Exponential Equations</title>
+
+    <introduction>
+        <example>
+            <p>
+                Consider the equation <m>2^x = 32</m>. Here, the variable <m>x</m> is an exponent. Writing 32 as <m>2^5</m>, a power of 2, we get <m>2^x = 2^5</m>, and so <m>x = 5</m>.
+            </p>
+        </example>
+        <definition>
+            <p>
+                An <term>exponential equation</term> is an equation with a variable in the exponent.
+            </p>
+        </definition>
+    </introduction>
+
+    <subsection>
+        <title>Solving Exponential Equations Using Common Bases</title>
+
+        <p>
+            Some exponential equations can be solved by using the intuitive fact that if two powers with the same base are equal, then their exponents must be equal. In summary,
+        </p>
+
+        <theorem>
+            <p>
+                Let <m>b > 0, b \neq 1</m>. Then, if <m>b^x = b^y</m>, then <m>x = y</m>.
+            </p>
+        </theorem>
+        <note>
+            <p>
+                This property follows from the fact that the exponential function <m>f(x) = b^x</m> is one-to-one. Recall that <m>f</m> is one-to-one if <m>f(x) = f(y)</m> implies <m>x = y</m>. In this way, if <m>b^x = b^y</m>, then <m>x = y</m>.
+            </p>
+        </note>
+
+        <p>
+            This means that if we can write both sides of an exponential equation as a power of the same base, then we can set their exponents equal (<term>equate exponents</term>), resulting in another equation (that is not exponential), which we can solve for the variable. This resulting equations can be linear, quadratic, or some other type of equation. Writing both sides as a power of the same base often requires the exponent laws.
+        </p>
+
+        <example>
+            <p>
+                Consider <m>16^x = 4</m>.
+            </p>
+        </example>
+
+        <example>
+            <p>
+                Consider <m>2^x = \frac{1}{128}</m>.
+            </p>
+            <md>
+                <mrow>2^x \amp = \frac{1}{128}</mrow>
+                <mrow>2^x \amp = 2^{-7} \amp\amp \text{as $1/128 = 1/2^7 = 2^{-7}$} </mrow>
+                <mrow>x \amp = -7 \amp\amp \text{equating exponents}</mrow>
+            </md>
+        </example>
+
+        <example>
+            <p>
+                Solve <m>\brac{\frac{1}{7}}^x = 343</m>.
+            </p>
+        </example>
+
+        <example>
+            <p>
+                Solve <m>\brac{\frac{5}{2}}^x = \frac{8}{125}</m>.
+            </p>
+        </example>
+
+        <example>
+            <p>
+                Solve <m>4^x = 8^{x-1}</m>.
+            </p>
+            <md>
+                <mrow>4^x \amp = 8^{x-1}</mrow>
+                <mrow>(2^2)^x \amp = (2^3)^{x-1} \amp\amp \text{writing both sides as a power of 2}</mrow>
+                <mrow>2^{2x} \amp = 2^{3x - 3}</mrow>
+                <mrow>2x \amp = 3x - 3 \amp\amp \text{equating exponents}</mrow>
+                <mrow>x \amp = 3 \amp\amp \text{solving for $x$}</mrow>
+            </md>
+        </example>
+
+        <example>
+            <p>
+                Solve <m>3^{x - 3} = 81</m>.
+            </p>
+        </example>
+
+        <example>
+            <p>
+                Solve <m>3^{x - 3} = 81</m>.
+            </p>
+        </example>
+
+        <example>
+            <p>
+                Solve <m>6^{x - 3} = 1</m>.
+            </p>
+        </example>
+
+        <example>
+            <p>
+                Solve <m>64^{2x} = 16^{x + 1}</m>.
+            </p>
+        </example>
+
+        <example>
+            <p>
+                Solve <m>9^{x-1} = 27^{x+3}</m>.
+            </p>
+            <md>
+                <mrow>9^{x-1} \amp = 27^{x+3}</mrow>
+                <mrow>(3^2)^{x-1} \amp = (3^3)^{x+3} \amp\amp \text{writing both sides as a power of 3}</mrow>
+                <mrow>3^{2x - 2} \amp = 3^{3x + 9}</mrow>
+                <mrow>2x - 2 \amp = 3x + 9 \amp\amp \text{equating exponents} </mrow>
+                <mrow>x \amp = -11 \amp\amp \text{solving for $x$}</mrow>
+            </md>
+        </example>
+
+        <example>
+            <p>
+                Solve $\brac{\frac{1}{243}}^{4 - x} = 3^{6x + 3}$
+            </p>
+        </example>
+
+        <example>
+            <p>
+                Solve $\sqrt{3}^{x + 1} = 27^x$
+            </p>
+        </example>
+
+        <p>
+            Sometimes, both sides can be written as a power of multiple numbers, which result in the same solution.
+        </p>
+        <example>
+            <p>
+                Solve <m>9^{4x-2} = 81</m>.
+            </p>
+            <md>
+                <mrow>9^{4x-2} \amp = 81</mrow>
+                <mrow>9^{4x-2} \amp = 9^2 \amp\amp \text{writing both sides as a power of 9}</mrow>
+                <mrow>4x - 2 \amp = 2 \amp\amp \text{equating exponents}</mrow>
+                <mrow>x \amp = 1</mrow>
+            </md>
+            <p>
+                Alternatively, we can write both sides as a power of 3,
+            </p>
+            <md>
+                <mrow>9^{4x-2} \amp = 81</mrow>
+                <mrow>(3^2)^{4x - 2} \amp = 3^4 \amp\amp \text{writing both sides as a power of 3}</mrow>
+                <mrow>3^{8x - 4} \amp = 3^4</mrow>
+                <mrow>8x - 4 \amp = 4 \amp\amp \text{equating exponents} </mrow>
+                <mrow>x \amp = 1</mrow>
+            </md>
+            <p>
+                which results in the same solution.
+            </p>
+        </example>
+
+        <example>
+            <p>
+                Solve <m>9^{4x-9} = 729</m>.
+            </p>
+            <md>
+                <mrow>9^{4x-9} \amp = 729</mrow>
+                <mrow>9^{4x-9} \amp = 9^3 \amp\amp \text{writing both sides as a power of 9}</mrow>
+                <mrow>4x - 9 \amp = 3 \amp\amp \text{equating exponents}</mrow>
+                <mrow>x \amp = 3</mrow>
+            </md>
+            <p>
+                Alternatively, we could have used base 3.
+            </p>
+        </example>
+
+        <example>
+            <p>
+                Solve <m>25^{x+7} = 625^{x-4}</m>.
+            </p>
+            <md>
+                <mrow>25^{x+7} \amp = 625^{x-4}</mrow>
+                <mrow>25^{x+7} \amp = (25^2)^{x-4} \amp\amp \text{writing both sides as a power of 25}</mrow>
+                <mrow>25^{x+7} \amp = 25^{2x - 8} \amp\amp \text{exponent laws}</mrow>
+                <mrow>x + 7 \amp = 2x - 8 \amp\amp \text{equating exponents}</mrow>
+                <mrow>x \amp = 15 \amp\amp \text{solving for $x$}</mrow>
+            </md>
+            <p>
+                Alternatively, we could have used base 5, which results in the same answer.
+            </p>
+        </example>
+
+        <example>
+            <p>
+                Solve <m>2^x = 8 \sqrt[3]{2}</m>.
+            </p>
+            <md>
+                <mrow>2^x \amp = 2^3 \cdot 2^{1/3} \amp\amp \text{writing both sides as a power of 2}</mrow>
+                <mrow>2^x \amp = 2^{10/3} \amp\amp \text{exponent laws}</mrow>
+                <mrow>x \amp = 10/3 \amp\amp \text{equating exponents}</mrow>
+            </md>
+        </example>
+
+        <example>
+            <p>
+                Solve <m>5^{3x-6} = 125</m>.
+            </p>
+            <md>
+                <mrow>5^{3x-6} \amp = 125</mrow>
+                <mrow>5^{3x-6} \amp = 5^3 \amp\amp \text{writing both sides as a power of 5}</mrow>
+                <mrow>3x - 6 \amp = 3 \amp\amp \text{equating exponents}</mrow>
+                <mrow>x \amp = 3 \amp\amp \text{solving for $x$}</mrow>
+            </md>
+        </example>
+
+        <example>
+            <p>
+                Solve <m>20^x = 0.05</m>.
+            </p>
+        </example>
+        
+    </subsection>
+
+    <subsection>
+        <title>Advanced Examples</title>
+        <example>
+            <p>
+                Solve <m>36^x \cdot 6^{x^2} = 1296^2</m>.
+            </p>
+            <md>
+                <mrow>(6^2)^x \cdot 6^{x^2} \amp = (6^4)^2 \amp\amp \text{writing both sides as a power of 6}</mrow>
+                <mrow>6^{2x} \cdot 6^{x^2} \amp = 6^8</mrow>
+                <mrow>6^{2x + x^2} \amp = 6^8</mrow>
+                <mrow>2x + x^2 \amp = 8 \amp\amp \text{equating exponents}</mrow>
+            </md>
+            <p>
+                In this example, the resulting equation is quadratic. Then,
+            </p>
+            <md>
+                <mrow>x^2 + 2x - 8 \amp = 0 \amp\amp \text{moving all terms to one side}</mrow>
+                <mrow>(x + 4)(x - 2) \amp = 0 \amp\amp \text{factoring}</mrow>
+                <mrow>x \amp = -4, 2</mrow>
+            </md>
+        </example>
+    </subsection>
+
+    <subsection>
+        <title>Exponential Equations Without Common Bases</title>
+        <p>
+            In almost all applications, the exponential equation will not be able to be written with common bases, and solved using the technique above.
+        </p>
+        <p>
+            Then, we can use a graphical method to solve the equation approximately. Graph both sides of the equation, and determine the approximate point where they intersect. The <m>x</m>-coordinate of the intersection is an approximate solution.
+        </p>
+    </subsection>
+</section>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="section-ITEF">
+    <title>Intro to Exponential Functions</title>
+
+    <subsection>
+        <title>Exponential Functions</title>
+        <definition>
+            <p>
+                An <term>exponential function</term> with base <m>b</m> is the function given by,
+            </p>
+            <me>
+                f(x) = b^x
+            </me>
+            <p>
+                where <m>b > 0, b \neq 1</m>.
+            </p>
+        </definition>
+
+        <p>
+            This defines a function because, for all <m>x \in \mathbb{R}</m>, <m>b^x</m> is a (unique) real number.
+        </p>
+
+        <example>
+            <p>
+                Some exponential functions include,
+            </p>
+            <me>
+                f(x) = 2^x \qquad f(x) = 5^x \qquad f(x) = 1.12^x \qquad f(x) = \brac{\frac{1}{2}}^x \qquad f(x) = 0.83^x
+            </me>
+        </example>
+
+        <example>
+            <title>Non-examples of exponential functions</title>
+            <p>
+                Some functions that are not exponential functions include,
+            </p>
+            <md>
+                <mrow>f(x) \amp = x^2 \amp\amp \text{polynomial function, $x$ is not an exponent}</mrow>
+                <mrow>f(x) \amp = 1^x \amp\amp \text{the base $b$ cannot be 1}</mrow>
+                <mrow>f(x) \amp = (-2)^x \amp\amp \text{the base $b$ must be positive}</mrow>
+                <mrow>f(x) \amp = x^x \amp\amp \text{the base is not a constant}</mrow>
+            </md>
+            <p>
+                Recall that a polynomial function <m>f(x) = x^n</m> has the variable <m>x</m> as the base of a power, and the exponent is a constant. Exponential functions, on the other hand are functions of the form <m>f(x) = b^x</m>, where the variable <m>x</m> is an exponent, and the base is a constant.
+            </p>
+        </example>
+
+    </subsection>
+
+    <subsection>
+        <title>Graphing Basic Exponential Functions</title>
+
+        <example>
+            <p>
+                Consider the graph of <m>f(x) = 2^x</m>. First, create a table of values,
+            </p>
+            <me>
+                \begin{array}{c|c}
+                    x \amp f(x) \\ \hline
+                    -2 \amp 2^{-2} = 1/4 \\
+                    -1 \amp 2^{-1} = 1/2 \\
+                    0 \amp 2^0 = 1 \\
+                    1 \amp 2^1 = 2 \\
+                    2 \amp 2^2 = 4
+                \end{array}
+            </me>
+        </example>
+
+        <p>
+            In summary,
+        </p>
+        <ol>
+            <li>Create a table of values for <m>x = -2, -1, 0, 1, 2</m>, and plot the points.</li>
+            <li>Connect the points with a smooth curve.</li>
+        </ol>
+
+        <example>
+            <p>
+                Graph <m>f(x) = \brac{\frac{1}{2}}^x</m>.
+            </p>
+        </example>
+    </subsection>
+
+    <subsection>
+        <title>Properties of Exponential Functions</title>
+        <p>
+            Consider an exponential function <m>f(x) = b^x</m>. First, its domain is all real numbers, because for every number <m>x</m>, <m>b^x</m> is defined (there is no division by zero, or roots).
+        </p>
+        <ul>
+            <li>The domain of <m>f</m> is all real numbers, and <m>f</m> is continuous on <m>\mathbb{R}</m>.</li>
+            <li>The <m>y</m>-intercept is <m>(0,1)</m>, because <m>f(0) = b^0 = 1</m> for any <m>b > 0</m>.</li>
+            \item The range of <m>f</m> is all positive real numbers, or <m>y > 0</m>, or <m>(0,\infty)</m>. This is because since <m>b > 0</m>, <m>b^x > 0</m> for all <m>x</m>.
+            \item The horizontal asymptote is <m>y = 0</m>.
+        </ul>
+
+        <theorem>
+            <title>Increasing and decreasing functions</title>
+            <p>
+                For an exponential function <m>f(x) = b^x</m>. Notice that the characteristics of the graph of <m>f</m> vary depending on whether the base <m>b</m> is greater than 1, or less than 1. If <m>b > 1</m>, then increasing the exponent <m>x</m> for <m>b^x</m> result in a <em>larger</em> number. If <m>0 \lt b \lt 1</m>, then increasing the exponent <m>x</m> for <m>b^x</m> results in a <em>smaller</em> number.
+            </p>
+            <ul>
+                <li>If <m>b > 1</m>, then <m>f</m> is <term>increasing</term>. That is, if <m>x > y</m>, then <m>b^x > b^y</m>.</li>
+                <li>If <m>0 \lt b \lt 1</m>, then <m>f</m> is <term>decreasing</term>. That is, if <m>x > y</m>, then <m>b^x \lt b^y</m></li>
+            </ul>
+        </theorem>
+    </subsection>
+
+    <subsection>
+        <title>Transforming Exponential Functions</title>
+        <p>
+            Using the theory of transformations, the parent function <m>f(x) = b^x</m> can be transformed using stretches, reflections, and shifts. In particular, recall that,
+        </p>
+        <me>
+            y = f(x) \longrightarrow y = a f\brac{b(x - h)} + k
+        </me>
+        <p>
+            Because the base of the exponential function already uses the letter <m>b</m>, we will use <m>c</m> to represent the horizontal stretch. Then, for <m>f(x) = b^x</m>, the function becomes,
+        </p>
+        <me>
+            f(x) = a \cdot b^{c(x - h)} + k
+        </me>
+
+        <p>
+            However, this can be rewritten as,
+        </p>
+        <me>
+            f(x) = a \cdot (b^c)^{x - h} + k
+        </me>
+        <p>
+            Then, the exponential function can simply be thought of as base <m>b^c</m> with no horizontal stretch.
+        </p>
+        <p>
+            Also, the horizontal shift doesn't matter as much, because,
+        </p>
+        <md>
+            <mrow>a \cdot b^{x - h} + k \amp = a \cdot b^x \cdot b^{-h} + k</mrow>
+            <mrow>\amp = \brac{\frac{a}{b^h}} \cdot b^x + k</mrow>
+        </md>
+        <p>
+            The horizontal shift can be considered as a vertical stretch. Then, typically, we write a transformed exponential function in the form,
+        </p>
+        <me>
+            f(x) = a \cdot b^x + k
+        </me>
+
+        <p>
+            Properties of the transformed function,
+        </p>
+        <ul>
+            <li>To determine the <m>x</m>-intercept, set <m>f(x) = 0</m> and solve for <m>x</m>. If there is no solution (because it requires taking the logarithm of a negative number), then there is no <m>x</m>-intercept.</li>
+            <li>The horizontal asymptote is <m>y = k</m>.</li>
+        </ul>
+    </subsection>
+
+    <subsection>
+        <title>Graphing a Transformed Exponential Function Using the Parent Function</title>
+        <example>
+            <p>
+                Sketch a graph of <m>f(x) = 3^{x+2} - 3</m>.
+            </p>
+        </example>
+    </subsection>
+
+    <subsection>
+        <title>Restriction on the Base of an Exponential Function</title>
+        <p>
+            Exponential functions <m>f(x) = b^x</m> require the base <m>b</m> to be positive and <m>b \neq 1</m>. This is for a few reasons.
+        </p>
+        <ul>
+            <li>First, if <m>b = 1</m>, then we would have <m>f(x) = 1^x = 1</m> for all <m>x</m>. In other words, we would get the constant function <m>f(x) = 1</m> which doesn't fit the characteristics of an exponential function.</li>
+            <li>
+                If <m>b = 0</m>, similarly we would have,
+                <me>
+                    f(x) = 0^x = \begin{cases} 0 \amp x > 0 \\ \text{undefined} \amp x \lt 0 \end{cases}
+                </me>
+                This is because for <m>x \lt 0</m>, e.g. <m>x = -2</m>, we would have,
+                <me>
+                    f(-2) = 0^{-2} = \frac{1}{0^2} = \frac{1}{0}
+                </me>
+                which is undefined. Either way, this is not an exponential function.
+            </li>
+            <li>
+                <p>
+                    Finally, if <m>b \lt 0</m>, then this would involve taking the power of a negative number. This creates some strange behaviour. Consider <m>f(x) = (-2)^x</m> for example. For positive integers <m>x</m>, <m>f</m> is defined. For example,
+                </p>
+                <me>
+                    (-2)^1 = -2 \qquad (-2)^2 = 4 \qquad (-2)^3 = 8
+                </me>
+                <p>
+                    and so on. For negative integers <m>x</m>, <m>f</m> is also defined,
+                </p>
+                <me>
+                    (-2)^{-1} = \frac{1}{-2} = -\frac{1}{2} \quad (-2)^{-2} = \frac{1}{(-2)^2} = \frac{1}{4} \quad (-2)^{-3} = \frac{1}{(-2)^3} = -\frac{1}{8}
+                </me>
+                <p>
+                    However, for rational exponents, <m>f</m> can be undefined. Recall that for a rational exponent <m>\frac{a}{b}</m>, where <m>a, b \in \mathbb{Z}</m> are integers and <m>b \neq 0</m>, the expression <m>(-2)^{a/b}</m> is defined as,
+                </p>
+                <me>
+                    (-2)^{a/b} = \sqrt[b]{(-2)^a}
+                </me>
+                <p>
+                    which has some restrictions, as the even root of a negative number is undefined. First, we can assume that <m>b > 0</m>, so that the sign of <m>\frac{a}{b}</m> is determined by <m>a</m> (i.e. writing <m>-2/3</m> instead of <m>2/-3</m>).
+                </p>
+                <p>
+                    If <m>b</m> is odd, <m>(-2)^{a/b}</m> is defined for all integers <m>a</m>. If <m>b</m> is even, then <m>a</m> must also be even for <m>(-2)^a</m> to be positive and <m>\sqrt[b]{(-2)^a}</m> is defined. For example, for <m>x = 1/2</m> (<m>a = 1</m> odd and <m>b = 2</m> even), we have,
+                </p>
+                <me>
+                    f(1/2) = (-2)^{1/2} = \sqrt{-2}
+                </me>
+                <p>
+                    which is undefined as a real number. Finally, for all irrational numbers <m>x</m>, <m>(-2)^x</m> is undefined. Explaining this is a little too advanced, but it can be verified by trying <m>(-2)^x</m> on your calculator for different irrational numbers, like <m>\sqrt{2}, \sqrt{3}, \sqrt{6}</m>, etc. These expressions will result in complex numbers.
+                </p>
+                <p>
+                    Putting it all together, <m>f(x) = (-2)^x</m> is defined for all <m>x</m> except if <m>x</m> is irrational (which is a lot of values), and if <m>x = \frac{a}{b}</m> is rational where <m>a</m> is odd and <m>b</m> is even. In other words, <m>f</m> is not continuous (it has infinitely many <q>holes</q>), so we don't consider it to be an exponential function.
+                </p>
+            </li>
+        </ul>
+    </subsection>
+</section>

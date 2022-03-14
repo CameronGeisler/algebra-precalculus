@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*       on 2022-03-14T15:46:31-07:00       *-->
+<!--*   A recent stable commit (2020-08-09):   *-->
+<!--* 98f21740783f166a773df4dc83cab5293ab63a4a *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Intro to Exponential Equations</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>window.MathJax = {
+  tex: {
+    inlineMath: [['\\(','\\)']],
+    tags: "none",
+    useLabelIds: true,
+    tagSide: "right",
+    tagIndent: ".8em",
+    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'newcommand', 'knowl']}
+  },
+  options: {
+    ignoreHtmlClass: "tex2jax_ignore",
+    processHtmlClass: "has_am",
+  },
+  chtml: {
+    scale: 0.88,
+    mtextInheritFont: true
+  },
+  loader: {
+    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
+    paths: {pretext: "https://pretextbook.org/js/lib"},
+  },
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/lib/jquery.min.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/0.13/pretext.js"></script><script xmlns:svg="http://www.w3.org/2000/svg">miniversion=0.6</script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/0.13/pretext_add_on.js?x=1"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script xmlns:svg="http://www.w3.org/2000/svg">sagecellEvalName='Evaluate (Sage)';
+</script><link xmlns:svg="http://www.w3.org/2000/svg" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/pretext.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/banner_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/toc_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/knowls_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/style_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/colors_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/setcolors.css" rel="stylesheet" type="text/css">
+<!-- 2019-10-12: Temporary - CSS file for experiments with styling --><link xmlns:svg="http://www.w3.org/2000/svg" href="developer.css" rel="stylesheet" type="text/css">
+</head>
+<body class="pretext-book has-toc has-sidebar-left">
+<a class="assistive" href="#content">Skip to main content</a><div xmlns:svg="http://www.w3.org/2000/svg" id="latex-macros" class="hidden-content" style="display:none">\(\newcommand{\abs}[1]{\left\lvert #1 \right\rvert}
+\newcommand{\set}[1]{\left\{ #1 \right\}}
+\renewcommand{\neg}{\sim}
+\newcommand{\brac}[1]{\left( #1 \right)}
+\newcommand{\eval}[1]{\left. #1 \right|}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\)</div>
+<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="book.html"><span class="title">Algebra and Precalculus</span></a></h1>
+<p class="byline"></p>
+</div>
+</div></div>
+<nav xmlns:svg="http://www.w3.org/2000/svg" id="primary-navbar" class="navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3"><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="section-ITEF.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="chapter-EALF.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="section-ITEGAD.html" title="Next">Next</a></span></div>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="section-ITEF.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="chapter-EALF.html" title="Up">Up</a><a class="next-button button toolbar-item" href="section-ITEGAD.html" title="Next">Next</a>
+</div>
+</div></nav></header><div class="page">
+<div xmlns:svg="http://www.w3.org/2000/svg" id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
+<nav id="toc"><ul>
+<li class="link">
+<a href="chapter.html" data-scroll="chapter"><span class="codenumber">1</span> <span class="title">Quadratic Functions and Equations</span></a><ul>
+<li><a href="section-ITQF.html" data-scroll="section-ITQF">Intro to Quadratic Functions</a></li>
+<li><a href="section-ITQE.html" data-scroll="section-ITQE">Intro to Quadratic Equations</a></li>
+<li><a href="section-SQEBF.html" data-scroll="section-SQEBF">Solving Quadratic Equations by Factoring</a></li>
+<li><a href="section-CTS.html" data-scroll="section-CTS">Completing the Square</a></li>
+<li><a href="section-VFAT.html" data-scroll="section-VFAT">Vertex Form and Transformations</a></li>
+<li><a href="section-QFT.html" data-scroll="section-QFT">Quadratic Functions Transformations</a></li>
+<li><a href="section-TQF.html" data-scroll="section-TQF">The Quadratic Formula</a></li>
+<li><a href="section-AOQF.html" data-scroll="section-AOQF">Applications of Quadratic Functions</a></li>
+<li><a href="section-SOSQE.html" data-scroll="section-SOSQE">Summary of Solving Quadratic Equations</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-FT.html" data-scroll="chapter-FT"><span class="codenumber">2</span> <span class="title">Function Transformations</span></a><ul>
+<li><a href="section-TS.html" data-scroll="section-TS">Translations</a></li>
+<li><a href="section-SAC.html" data-scroll="section-SAC">Stretches and Compressions</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="chapter-EALF.html" data-scroll="chapter-EALF"><span class="codenumber">3</span> <span class="title">Exponential and Logarithmic Functions</span></a><ul>
+<li><a href="section-ITEF.html" data-scroll="section-ITEF">Intro to Exponential Functions</a></li>
+<li><a href="section-ITEE.html" data-scroll="section-ITEE" class="active">Intro to Exponential Equations</a></li>
+<li><a href="section-ITEGAD.html" data-scroll="section-ITEGAD">Intro to Exponential Growth and Decay</a></li>
+</ul>
+</li>
+</ul></nav><div class="extras"><nav><a class="pretext-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
+</div></div>
+<main class="main"><div id="content" class="pretext-content"><section xmlns:svg="http://www.w3.org/2000/svg" class="section" id="section-ITEE"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">3.2</span> <span class="title">Intro to Exponential Equations</span>
+</h2>
+<section class="introduction" id="introduction-12"><article class="example example-like" id="example-7"><a href="" data-knowl="" class="id-ref example-knowl original" data-refid="hk-example-7"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.1</span><span class="period">.</span>
+</h3></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-7"><article class="example example-like"><p id="p-193">Consider the equation \(2^x = 32\text{.}\) Here, the variable \(x\) is an exponent. Writing 32 as \(2^5\text{,}\) a power of 2, we get \(2^x = 2^5\text{,}\) and so \(x = 5\text{.}\)</p></article></div>
+<article class="definition definition-like" id="definition-5"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.2.2</span><span class="period">.</span>
+</h3>
+<p id="p-194">An <dfn class="terminology">exponential equation</dfn> is an equation with a variable in the exponent.</p></article></section><section class="subsection" id="subsection-43"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">3.2.1</span> <span class="title">Solving Exponential Equations Using Common Bases</span>
+</h3>
+<p id="p-195">Some exponential equations can be solved by using the intuitive fact that if two powers with the same base are equal, then their exponents must be equal. In summary,</p>
+<article class="theorem theorem-like" id="theorem-9"><h4 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">3.2.3</span><span class="period">.</span>
+</h4>
+<p id="p-196">Let \(b &gt; 0, b \neq 1\text{.}\) Then, if \(b^x = b^y\text{,}\) then \(x = y\text{.}\)</p></article><article class="note remark-like" id="note-1"><h4 class="heading">
+<span class="type">Note</span><span class="space"> </span><span class="codenumber">3.2.4</span><span class="period">.</span>
+</h4>
+<p id="p-197">This property follows from the fact that the exponential function \(f(x) = b^x\) is one-to-one. Recall that \(f\) is one-to-one if \(f(x) = f(y)\) implies \(x = y\text{.}\) In this way, if \(b^x = b^y\text{,}\) then \(x = y\text{.}\)</p></article><p id="p-198">This means that if we can write both sides of an exponential equation as a power of the same base, then we can set their exponents equal (<dfn class="terminology">equate exponents</dfn>), resulting in another equation (that is not exponential), which we can solve for the variable. This resulting equations can be linear, quadratic, or some other type of equation. Writing both sides as a power of the same base often requires the exponent laws.</p>
+<article class="example example-like" id="example-8"><a href="" data-knowl="" class="id-ref example-knowl original" data-refid="hk-example-8"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.5</span><span class="period">.</span>
+</h4></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-8"><article class="example example-like"><p id="p-199">Consider \(16^x = 4\text{.}\)</p></article></div>
+<article class="example example-like" id="example-9"><a href="" data-knowl="" class="id-ref example-knowl original" data-refid="hk-example-9"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.6</span><span class="period">.</span>
+</h4></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-9"><article class="example example-like"><p id="p-200">Consider \(2^x = \frac{1}{128}\text{.}\)</p>
+<div class="displaymath">
+\begin{align*}
+2^x \amp = \frac{1}{128}\\
+2^x \amp = 2^{-7} \amp\amp \text{as $1/128 = 1/2^7 = 2^{-7}$} \\
+x \amp = -7 \amp\amp \text{equating exponents}
+\end{align*}
+</div></article></div>
+<article class="example example-like" id="example-10"><a href="" data-knowl="" class="id-ref example-knowl original" data-refid="hk-example-10"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.7</span><span class="period">.</span>
+</h4></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-10"><article class="example example-like"><p id="p-201">Solve \(\brac{\frac{1}{7}}^x = 343\text{.}\)</p></article></div>
+<article class="example example-like" id="example-11"><a href="" data-knowl="" class="id-ref example-knowl original" data-refid="hk-example-11"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.8</span><span class="period">.</span>
+</h4></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-11"><article class="example example-like"><p id="p-202">Solve \(\brac{\frac{5}{2}}^x = \frac{8}{125}\text{.}\)</p></article></div>
+<article class="example example-like" id="example-12"><a href="" data-knowl="" class="id-ref example-knowl original" data-refid="hk-example-12"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.9</span><span class="period">.</span>
+</h4></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-12"><article class="example example-like"><p id="p-203">Solve \(4^x = 8^{x-1}\text{.}\)</p>
+<div class="displaymath">
+\begin{align*}
+4^x \amp = 8^{x-1}\\
+(2^2)^x \amp = (2^3)^{x-1} \amp\amp \text{writing both sides as a power of 2}\\
+2^{2x} \amp = 2^{3x - 3}\\
+2x \amp = 3x - 3 \amp\amp \text{equating exponents}\\
+x \amp = 3 \amp\amp \text{solving for $x$}
+\end{align*}
+</div></article></div>
+<article class="example example-like" id="example-13"><a href="" data-knowl="" class="id-ref example-knowl original" data-refid="hk-example-13"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.10</span><span class="period">.</span>
+</h4></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-13"><article class="example example-like"><p id="p-204">Solve \(3^{x - 3} = 81\text{.}\)</p></article></div>
+<article class="example example-like" id="example-14"><a href="" data-knowl="" class="id-ref example-knowl original" data-refid="hk-example-14"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.11</span><span class="period">.</span>
+</h4></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-14"><article class="example example-like"><p id="p-205">Solve \(3^{x - 3} = 81\text{.}\)</p></article></div>
+<article class="example example-like" id="example-15"><a href="" data-knowl="" class="id-ref example-knowl original" data-refid="hk-example-15"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.12</span><span class="period">.</span>
+</h4></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-15"><article class="example example-like"><p id="p-206">Solve \(6^{x - 3} = 1\text{.}\)</p></article></div>
+<article class="example example-like" id="example-16"><a href="" data-knowl="" class="id-ref example-knowl original" data-refid="hk-example-16"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.13</span><span class="period">.</span>
+</h4></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-16"><article class="example example-like"><p id="p-207">Solve \(64^{2x} = 16^{x + 1}\text{.}\)</p></article></div>
+<article class="example example-like" id="example-17"><a href="" data-knowl="" class="id-ref example-knowl original" data-refid="hk-example-17"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.14</span><span class="period">.</span>
+</h4></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-17"><article class="example example-like"><p id="p-208">Solve \(9^{x-1} = 27^{x+3}\text{.}\)</p>
+<div class="displaymath">
+\begin{align*}
+9^{x-1} \amp = 27^{x+3}\\
+(3^2)^{x-1} \amp = (3^3)^{x+3} \amp\amp \text{writing both sides as a power of 3}\\
+3^{2x - 2} \amp = 3^{3x + 9}\\
+2x - 2 \amp = 3x + 9 \amp\amp \text{equating exponents} \\
+x \amp = -11 \amp\amp \text{solving for $x$}
+\end{align*}
+</div></article></div>
+<article class="example example-like" id="example-18"><a href="" data-knowl="" class="id-ref example-knowl original" data-refid="hk-example-18"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.15</span><span class="period">.</span>
+</h4></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-18"><article class="example example-like"><p id="p-209">Solve $\brac{\frac{1}{243}}^{4 - x} = 3^{6x + 3}$</p></article></div>
+<article class="example example-like" id="example-19"><a href="" data-knowl="" class="id-ref example-knowl original" data-refid="hk-example-19"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.16</span><span class="period">.</span>
+</h4></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-19"><article class="example example-like"><p id="p-210">Solve $\sqrt{3}^{x + 1} = 27^x$</p></article></div>
+<p id="p-211">Sometimes, both sides can be written as a power of multiple numbers, which result in the same solution.</p>
+<article class="example example-like" id="example-20"><a href="" data-knowl="" class="id-ref example-knowl original" data-refid="hk-example-20"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.17</span><span class="period">.</span>
+</h4></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-20"><article class="example example-like"><p id="p-212">Solve \(9^{4x-2} = 81\text{.}\)</p>
+<div class="displaymath">
+\begin{align*}
+9^{4x-2} \amp = 81\\
+9^{4x-2} \amp = 9^2 \amp\amp \text{writing both sides as a power of 9}\\
+4x - 2 \amp = 2 \amp\amp \text{equating exponents}\\
+x \amp = 1
+\end{align*}
+</div>
+<p id="p-213">Alternatively, we can write both sides as a power of 3,</p>
+<div class="displaymath">
+\begin{align*}
+9^{4x-2} \amp = 81\\
+(3^2)^{4x - 2} \amp = 3^4 \amp\amp \text{writing both sides as a power of 3}\\
+3^{8x - 4} \amp = 3^4\\
+8x - 4 \amp = 4 \amp\amp \text{equating exponents} \\
+x \amp = 1
+\end{align*}
+</div>
+<p id="p-214">which results in the same solution.</p></article></div>
+<article class="example example-like" id="example-21"><a href="" data-knowl="" class="id-ref example-knowl original" data-refid="hk-example-21"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.18</span><span class="period">.</span>
+</h4></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-21"><article class="example example-like"><p id="p-215">Solve \(9^{4x-9} = 729\text{.}\)</p>
+<div class="displaymath">
+\begin{align*}
+9^{4x-9} \amp = 729\\
+9^{4x-9} \amp = 9^3 \amp\amp \text{writing both sides as a power of 9}\\
+4x - 9 \amp = 3 \amp\amp \text{equating exponents}\\
+x \amp = 3
+\end{align*}
+</div>
+<p id="p-216">Alternatively, we could have used base 3.</p></article></div>
+<article class="example example-like" id="example-22"><a href="" data-knowl="" class="id-ref example-knowl original" data-refid="hk-example-22"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.19</span><span class="period">.</span>
+</h4></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-22"><article class="example example-like"><p id="p-217">Solve \(25^{x+7} = 625^{x-4}\text{.}\)</p>
+<div class="displaymath">
+\begin{align*}
+25^{x+7} \amp = 625^{x-4}\\
+25^{x+7} \amp = (25^2)^{x-4} \amp\amp \text{writing both sides as a power of 25}\\
+25^{x+7} \amp = 25^{2x - 8} \amp\amp \text{exponent laws}\\
+x + 7 \amp = 2x - 8 \amp\amp \text{equating exponents}\\
+x \amp = 15 \amp\amp \text{solving for $x$}
+\end{align*}
+</div>
+<p id="p-218">Alternatively, we could have used base 5, which results in the same answer.</p></article></div>
+<article class="example example-like" id="example-23"><a href="" data-knowl="" class="id-ref example-knowl original" data-refid="hk-example-23"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.20</span><span class="period">.</span>
+</h4></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-23"><article class="example example-like"><p id="p-219">Solve \(2^x = 8 \sqrt[3]{2}\text{.}\)</p>
+<div class="displaymath">
+\begin{align*}
+2^x \amp = 2^3 \cdot 2^{1/3} \amp\amp \text{writing both sides as a power of 2}\\
+2^x \amp = 2^{10/3} \amp\amp \text{exponent laws}\\
+x \amp = 10/3 \amp\amp \text{equating exponents}
+\end{align*}
+</div></article></div>
+<article class="example example-like" id="example-24"><a href="" data-knowl="" class="id-ref example-knowl original" data-refid="hk-example-24"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.21</span><span class="period">.</span>
+</h4></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-24"><article class="example example-like"><p id="p-220">Solve \(5^{3x-6} = 125\text{.}\)</p>
+<div class="displaymath">
+\begin{align*}
+5^{3x-6} \amp = 125\\
+5^{3x-6} \amp = 5^3 \amp\amp \text{writing both sides as a power of 5}\\
+3x - 6 \amp = 3 \amp\amp \text{equating exponents}\\
+x \amp = 3 \amp\amp \text{solving for $x$}
+\end{align*}
+</div></article></div>
+<article class="example example-like" id="example-25"><a href="" data-knowl="" class="id-ref example-knowl original" data-refid="hk-example-25"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.22</span><span class="period">.</span>
+</h4></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-25"><article class="example example-like"><p id="p-221">Solve \(20^x = 0.05\text{.}\)</p></article></div></section><section class="subsection" id="subsection-44"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">3.2.2</span> <span class="title">Advanced Examples</span>
+</h3>
+<article class="example example-like" id="example-26"><a href="" data-knowl="" class="id-ref example-knowl original" data-refid="hk-example-26"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.23</span><span class="period">.</span>
+</h4></a></article><div class="hidden-content tex2jax_ignore" id="hk-example-26"><article class="example example-like"><p id="p-222">Solve \(36^x \cdot 6^{x^2} = 1296^2\text{.}\)</p>
+<div class="displaymath">
+\begin{align*}
+(6^2)^x \cdot 6^{x^2} \amp = (6^4)^2 \amp\amp \text{writing both sides as a power of 6}\\
+6^{2x} \cdot 6^{x^2} \amp = 6^8\\
+6^{2x + x^2} \amp = 6^8\\
+2x + x^2 \amp = 8 \amp\amp \text{equating exponents}
+\end{align*}
+</div>
+<p id="p-223">In this example, the resulting equation is quadratic. Then,</p>
+<div class="displaymath">
+\begin{align*}
+x^2 + 2x - 8 \amp = 0 \amp\amp \text{moving all terms to one side}\\
+(x + 4)(x - 2) \amp = 0 \amp\amp \text{factoring}\\
+x \amp = -4, 2
+\end{align*}
+</div></article></div></section><section class="subsection" id="subsection-45"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">3.2.3</span> <span class="title">Exponential Equations Without Common Bases</span>
+</h3>
+<p id="p-224">In almost all applications, the exponential equation will not be able to be written with common bases, and solved using the technique above.</p>
+<p id="p-225">Then, we can use a graphical method to solve the equation approximately. Graph both sides of the equation, and determine the approximate point where they intersect. The \(x\)-coordinate of the intersection is an approximate solution.</p></section></section></div></main>
+</div>
+</body>
+</html>

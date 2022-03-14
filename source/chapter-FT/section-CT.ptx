@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="section-CT">
+    <title>Combining Transformations</title>
+
+    <subsection>
+        <title>Summary of Transformations</title>
+        <md>
+            <mrow>y = f(x) \amp \longrightarrow y = a f\brac{b(x - h)} + k</mrow>
+            <mrow>(x,y) \amp \longrightarrow \brac{\frac{x}{b} + h, ay + k}</mrow>
+        </md>
+    </subsection>
+</section>
