@@ -1,0 +1,17 @@
+WARNING : Could not find a target 'html', but found a target 'web' with format='html'; using this target.
+INFO    : Now preparing local server to preview your project directory `C:\Users\CKG\Documents\Pretext\math\algebra-precalculus`.
+INFO    :   (Reminder: use `pretext deploy` to deploy your built project to a public
+INFO    :   GitHub Pages site that can be shared with readers who cannot access your
+INFO    :   personal computer.)
+INFO    : 
+INFO    : starting server ...
+INFO    : setting up ...
+INFO    : values set...
+INFO    : adding server entry
+INFO    : Added server entry b22c59b977 24440 8128 localhost
+
+INFO    : Starting the server
+INFO    : Server will soon be available at http://localhost:8128
+INFO    : Opening browser for target `web` at http://localhost:8128/output/web
+INFO    : Stopping server.
+INFO    : 

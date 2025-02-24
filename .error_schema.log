@@ -1,4 +1,5 @@
 file:/C:/Users/CKG/Documents/Pretext/math/algebra-precalculus/source/main.ptx:35:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element biography, got colophon
-file:/C:/Users/CKG/Documents/Pretext/math/algebra-precalculus/source/main.ptx:3:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element docinfo, got pretext
-file:/C:/Users/CKG/Documents/Pretext/math/algebra-precalculus/source/main.ptx:3:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element pretext there
-file:/C:/Users/CKG/Documents/Pretext/math/algebra-precalculus/source/main.ptx:3:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element webwork, got pretext
+file:/C:/Users/CKG/Documents/Pretext/math/algebra-precalculus/source/main.ptx:4:0:ERROR:RELAXNGV:RELAXNG_ERR_NOTELEM: Expecting an element got text
+file:/C:/Users/CKG/Documents/Pretext/math/algebra-precalculus/source/main.ptx:6:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element introduction there
+file:/C:/Users/CKG/Documents/Pretext/math/algebra-precalculus/source/main.ptx:6:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element sidebyside, got introduction
+file:/C:/Users/CKG/Documents/Pretext/math/algebra-precalculus/source/main.ptx:6:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element proof, got introduction
