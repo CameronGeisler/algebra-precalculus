@@ -3,19 +3,20 @@
 <section xml:id="sec-polynomial-functions-intro" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Polynomial Functions Intro</title>
 
-<p>
-Recall that previously, we considered constant functions, linear functions, and quadratic functions,
-</p>
+  <introduction>
+    <p>
+      Recall that previously, we considered constant functions, linear functions, and quadratic functions,
+    </p>
+    <ul>
+      <li><m>f(x) = b</m>, whose graph is a horizontal line.</li>
+      <li><m>f(x) = mx + b</m>, whose graph is a (diagonal) line.</li>
+      <li><m>f(x) = ax^2 + bx + c</m>, whose graph is a parabola.</li>
+    </ul>
 
-<ul>
-  <li><m>f(x) = b</m>, whose graph is a horizontal line.</li>
-  <li><m>f(x) = mx + b</m>, whose graph is a (diagonal) line.</li>
-  <li><m>f(x) = ax^2 + bx + c</m>, whose graph is a parabola.</li>
-</ul>
-
-<p>
-It turns out that we can also consider functions that are made up of higher powers of <m>x</m>, like <m>x^3, x^4, x^5</m>, and so on.
-</p>
+    <p>
+    It turns out that we can also consider functions that are made up of higher powers of <m>x</m>, like <m>x^3, x^4, x^5</m>, and so on.
+    </p>
+  </introduction>
 
 <subsection xml:id="power-functions">
   <title>Power Functions</title>
@@ -44,20 +45,20 @@ It turns out that we can also consider functions that are made up of higher powe
   <definition>
     <title>Polynomial Function</title>
     <p>
-      A \textbf{polynomial function} is a function of the form
+      A <em>polynomial function</em> is a function of the form,
     </p>
-    <md>
-f(x) = a_n x^n + a_{n-1} x^{n-1} + \dots + a_2 x^2 + a_1 x + a_0
-    </md>
+    <me>
+        f(x) = a_n x^n + a_{n-1} x^{n-1} + \dots + a_2 x^2 + a_1 x + a_0
+    </me>
     <p>
       where <m>a_n, a_{n-1}, \dots, a_2, a_1, a_0 \in \mathbb{R}</m> are numbers, and <m>a_n \neq 0</m>. The coefficients of a polynomial function, <m>a_k</m> are given using subscripted letters. In general, <m>a_k</m> represents the coefficient of the term <m>x^k</m>.
     </p>
     <ul>
       <li>
-        The \textbf{degree} of a polynomial function is the exponent on its highest power of <m>x</m>. Here, this is a polynomial of degree <m>n</m>.
+        The <em>degree</em> of a polynomial function is the exponent on its highest power of <m>x</m>. Here, this is a polynomial of degree <m>n</m>.
       </li>
       <li>
-        The term with the highest power of <m>x</m>, <m>a_n x^n</m>, is called the \textbf{leading term}, and its coefficient <m>a_n</m> is called the \textbf{leading coefficient}.
+        The term with the highest power of <m>x</m>, <m>a_n x^n</m>, is called the <em>leading term</em>, and its coefficient <m>a_n</m> is called the <em>leading coefficient</em>.
       </li>
     </ul>
   </definition>
