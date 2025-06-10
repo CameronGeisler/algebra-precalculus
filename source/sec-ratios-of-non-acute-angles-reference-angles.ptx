@@ -14,64 +14,154 @@
     <p>
       This is a subsection.
     </p>
-    <exercise
-      component="interactive">
-      <title>Evaluate Exact Trigonometric Values</title>
+    <exercises xml:id="exercises-trig-exact">
+      <exercise xml:id="practice-trig-value" label="trig-exact-practice">
+        <title>Exact Trig-Value Practice</title>
+      
+        <statement>
+          <p>
+            Evaluate 
+            <m><eval obj="mathExpr"/></m>
+            exactly.
+          </p>
+          <p>
+            Your answer:
+            <fillin ansobj="answerExpr" mode="math" width="8"/>
+          </p>
+        </statement>
+      
+        <setup seed="123">
+          <setupScript><![CDATA[
+      
+            // === OPTIONS ===
+            const USE_RADIANS     = true;
+            const ALLOW_NEGATIVE  = true;
+            const ALLOW_WRAP      = true;
+            const USE_RECIPROCALS = true;
+      
+            // exact sin-table for 0°,30°,45°,…,330°
+            const exact = {
+              sin:{
+                0:"0",30:"1/2",45:"sqrt(2)/2",60:"sqrt(3)/2",90:"1",
+                120:"sqrt(3)/2",135:"sqrt(2)/2",150:"1/2",180:"0",
+                210:"-1/2",225:"-sqrt(2)/2",240:"-sqrt(3)/2",270:"-1",
+                300:"-sqrt(3)/2",315:"-sqrt(2)/2",330:"-1/2"
+              }
+            };
+      
+            // build cos and tan from sin
+            exact.cos = {};
+            exact.tan = {};
+            for(let deg in exact.sin){
+              const s = eval(exact.sin[deg].replace("sqrt","Math.sqrt"));
+              const c = Math.cos(deg*Math.PI/180);
+              // choose cos-value string
+              const cs = Math.abs(c)<1e-10 ? "0"
+                       : Math.abs(c-0.5)<1e-10 ? "1/2"
+                       : Math.abs(c-Math.sqrt(2)/2)<1e-10 ? "sqrt(2)/2"
+                       : "sqrt(3)/2";
+              exact.cos[deg] = c<0? "-"+cs : cs;
+              // tan undefined when cos≈0
+              if(Math.abs(c)<1e-10){
+                exact.tan[deg] = null;
+              } else {
+                const t = s/c;
+                const ab = Math.abs(t);
+                const ts = ab<1e-10 ? "0"
+                         : Math.abs(ab-1)<1e-10 ? "1"
+                         : ab<1 ? "sqrt(3)/3"
+                         : "sqrt(3)";
+                exact.tan[deg] = t<0? "-"+ts : ts;
+              }
+            }
+      
+            // reciprocals for csc, sec, cot
+            function reciprocal(str){
+              if(!str||str==="0") return null;
+              if(str==="1") return "1";
+              if(str==="sqrt(3)/3") return "sqrt(3)";
+              if(str==="sqrt(3)")   return "sqrt(3)/3";
+              if(str==="1/2")       return "2";
+              if(str==="sqrt(2)/2") return "sqrt(2)";
+              if(str==="sqrt(3)/2") return "2*sqrt(3)/3";
+              return str.startsWith("-")
+                ? "-"+reciprocal(str.slice(1))
+                : "1/("+str+")";
+            }
+            exact.csc = Object.fromEntries(Object.entries(exact.sin).map(([d,s])=>[d,reciprocal(s)]));
+            exact.sec = Object.fromEntries(Object.entries(exact.cos).map(([d,s])=>[d,reciprocal(s)]));
+            exact.cot = Object.fromEntries(Object.entries(exact.tan).map(([d,s])=>[d,reciprocal(s)]));
+      
+            // pick a trig function
+            let funcs = ["sin","cos","tan"];
+            if(USE_RECIPROCALS) funcs.push("csc","sec","cot");
+      
+            // pick a valid angle (possibly wrapped or negative)
+            const base = Object.keys(exact.sin).map(Number);
+            let func, deg, k, theta;
+            do{
+              func = funcs[RNG.randInt(0,funcs.length-1)];
+              deg  = base[RNG.randInt(0,base.length-1)];
+              k    = ALLOW_WRAP ? RNG.randInt(-1,1) : 0;
+              if(!ALLOW_NEGATIVE && k<0) k=0;
+              theta = deg + 360*k;
+            }while(exact[func][deg]===null);
+      
+            // store for checking
+            v.answerExpr = exact[func][deg];
+      
+            // build TeX for angle
+            function texDeg(d){ return d+"^{\\circ}"; }
+            function texRad(d){
+              let f = d/180, sign = f<0? "-" : "";
+              f = Math.abs(f);
+              const denom = 12;
+              let num = f*denom;
+              const g = (a,b)=>b?g(b,a%b):a;
+              const h = g(num,denom);
+              num/=h; const den=denom/h;
+              return sign+(den===1
+                ? num+"\\pi"
+                : "\\tfrac{"+num+"\\pi}{"+den+"}"
+              );
+            }
+            const useRad = USE_RADIANS && RNG.randInt(0,1)===0;
+            v.angleTeX = useRad ? texRad(theta) : texDeg(theta);
+      
+            // full math expression string for rendering
+            v.mathExpr = "\\"+func+"\\!\\bigl("+v.angleTeX+"\\bigr)";
+      
+          ]]></setupScript>
+        </setup>
+      
+        <evaluation>
+          <evaluate>
+            <test correct="yes">
+              <mathcmp use-answer="yes"/>
+              <feedback><p>Correct, great work 🎉</p></feedback>
+            </test>
+            <test>
+              <feedback><p>Not quite, use an exact radical like <m>\sqrt{3}/2</m> rather than a decimal.</p></feedback>
+            </test>
+          </evaluate>
+        </evaluation>
+      
+        <solution>
+          <p>
+            The exact value is 
+            <m><eval obj="mathExpr"/> = <eval obj="answerExpr"/></m>.
+          </p>
+        </solution>
+      </exercise>
+      
+      
+      
+      
+      
+    </exercises>
+    
+    
 
-      <statement>
-        <p>
-          Evaluate <m><eval object="question"/></m> exactly, for example
-          <m>\frac{\sqrt{2}}{2}</m> or <m>-1</m>.
-        </p>
-        <fillin mode="math" name="ans" ansobj="answer" width="7"/>
-      </statement>
-  
-      <setup seed="trig-exact-seed">
-        <setupScript><![CDATA[
-          function pick(arr){ return arr[Math.floor(RNG.random()*arr.length)]; }
-          const degAngles = [0,30,45,60,90,120,135,150,180,210,225,240,270,300,315,330];
-          const radAngles = ["0","\\pi/6","\\pi/4","\\pi/3","\\pi/2","2\\pi/3","3\\pi/4",
-                             "5\\pi/6","\\pi","7\\pi/6","5\\pi/4","4\\pi/3","3\\pi/2",
-                             "5\\pi/3","7\\pi/4","11\\pi/6"];
-          const core    = ["\\sin","\\cos"];
-          const extra   = ["\\tan","\\csc","\\sec","\\cot"];
-          const useDeg     = true;    // true→degrees, false→radians
-          const allowExtra = true;    // include tan + recipros
-          const allowBig   = true;    // allow <0 or >360° (or 2π)
-  
-          let poolA = useDeg ? degAngles.slice() : radAngles.slice();
-          if(allowBig){
-            const up   = a => useDeg ? (a+360)     : a+"+2\\pi";
-            const down = a => useDeg ? (a-360)     : a+"-2\\pi";
-            poolA = poolA.concat(poolA.map(up), poolA.map(down));
-          }
-          const poolF = core.concat(allowExtra ? extra : []);
-  
-          const f = pick(poolF), a = pick(poolA);
-          v.question = f + "(" + a + ")";
-          const table = {
-            "\\sin(30)": "1/2",    "\\cos(30)": "√3/2",
-            "\\sin(45)": "√2/2",   "\\cos(45)": "√2/2",
-            "\\tan(45)": "1",      "\\csc(30)": "2",
-            "\\sec(60)": "2/√3",   "\\cot(45)": "1"
-          };
-          v.answer = table[v.question] || "0";
-        ]]></setupScript>
-      </setup>
-  
-      <evaluation>
-        <evaluate>
-          <jscmp>return simplify(ans) === simplify(v.answer);</jscmp>
-          <feedback>Correct!</feedback>
-        </evaluate>
-      </evaluation>
-  
-      <solution>
-        <p>
-          <m><eval object="question"/></m> = <m><eval object="answer"/></m>.
-        </p>
-      </solution>
-    </exercise> 
   </subsection>
   
 

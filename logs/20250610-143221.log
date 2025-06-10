@@ -1,0 +1,9 @@
+WARNING : Using CLI version 2.17.1 but project's `requirements.txt`
+WARNING : is configured to use 2.13.5. Consider either installing
+WARNING : CLI version 2.13.5 or running `pretext update`
+WARNING : to update `requirements.txt` and other managed files to match 2.17.1.
+INFO    : Staging deployment according to strategy default_target
+INFO    : Since no target was supplied, we will use "web".
+
+INFO    : Staging latest build located in `C:\Users\CKG\Documents\Pretext\math\algebra-precalculus\output\web` at `C:\Users\CKG\Documents\Pretext\math\algebra-precalculus\output\stage`.
+INFO    : 

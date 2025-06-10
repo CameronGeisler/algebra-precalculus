@@ -20,20 +20,23 @@
 
 <subsection xml:id="power-functions">
   <title>Power Functions</title>
-  <ul>
-    <li>
-      Consider <m>y = x</m>, <m>y = x^2</m>, <m>y = x^3</m>, <m>y = x^4</m>, <m>y = x^5</m>, <m>y = x^6</m>, etc. Observe that the function with even integer powers have a ``U-shape" whereas the odd integer powers have an ``S-shape".
-    </li>
-    <li>
-      Consider <m>y = -x</m>, <m>y = -x^2</m>, <m>y = -x^3</m>, <m>y = -x^4</m>, <m>y = -x^5</m>. These are a reflection over the <m>x</m>-axis of the previous graphs.
-    </li>
-    <li>
-      Then, consider adding terms of lower degree. Observe that the rough of the graph is determined by the highest power of <m>x</m> (called the degree of the polynomial).
-    </li>
-    <li>
-      Consider <m>y = 3x + 1</m> and <m>y = -2x -1</m>, <m>y = 3x^3 - x^2 + 3</m>, <m>y = -4x^3 + x + 1</m>. The rough shape of the graph is determined by the sign of the number in front of the highest power of <m>x</m> (called the leading coefficient).
-    </li>
-  </ul>
+  <p>
+    <ul>
+      <li>
+        Consider <m>y = x</m>, <m>y = x^2</m>, <m>y = x^3</m>, <m>y = x^4</m>, <m>y = x^5</m>, <m>y = x^6</m>, etc. Observe that the function with even integer powers have a ``U-shape" whereas the odd integer powers have an ``S-shape".
+      </li>
+      <li>
+        Consider <m>y = -x</m>, <m>y = -x^2</m>, <m>y = -x^3</m>, <m>y = -x^4</m>, <m>y = -x^5</m>. These are a reflection over the <m>x</m>-axis of the previous graphs.
+      </li>
+      <li>
+        Then, consider adding terms of lower degree. Observe that the rough of the graph is determined by the highest power of <m>x</m> (called the degree of the polynomial).
+      </li>
+      <li>
+        Consider <m>y = 3x + 1</m> and <m>y = -2x -1</m>, <m>y = 3x^3 - x^2 + 3</m>, <m>y = -4x^3 + x + 1</m>. The rough shape of the graph is determined by the sign of the number in front of the highest power of <m>x</m> (called the leading coefficient).
+      </li>
+    </ul>
+  </p>
+
 </subsection>
 
 <subsection xml:id="polynomial-functions">
@@ -50,7 +53,6 @@
         f(x) = a_n x^n + a_{n-1} x^{n-1} + \dots + a_2 x^2 + a_1 x + a_0
       </me>
     </p>
-
     <p>
       where <m>a_n, a_{n-1}, \dots, a_2, a_1, a_0 \in \mathbb{R}</m> are numbers, and <m>a_n \neq 0</m>. The coefficients of a polynomial function, <m>a_k</m> are given using subscripted letters. In general, <m>a_k</m> represents the coefficient of the term <m>x^k</m>.
     </p>

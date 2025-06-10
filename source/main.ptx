@@ -13,7 +13,7 @@
 
     <!-- Include chapters -->
     <xi:include href="./ch-polynomial-functions.ptx" />
-
+    <xi:include href="./ch-trigonometry.ptx" />
 
     <!-- Include backmatter -->
     <xi:include href="./backmatter.ptx" />
