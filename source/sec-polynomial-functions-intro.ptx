@@ -46,10 +46,11 @@
     <title>Polynomial Function</title>
     <p>
       A <em>polynomial function</em> is a function of the form,
-    </p>
-    <me>
+      <me>
         f(x) = a_n x^n + a_{n-1} x^{n-1} + \dots + a_2 x^2 + a_1 x + a_0
-    </me>
+      </me>
+    </p>
+
     <p>
       where <m>a_n, a_{n-1}, \dots, a_2, a_1, a_0 \in \mathbb{R}</m> are numbers, and <m>a_n \neq 0</m>. The coefficients of a polynomial function, <m>a_k</m> are given using subscripted letters. In general, <m>a_k</m> represents the coefficient of the term <m>x^k</m>.
     </p>
@@ -228,8 +229,5 @@ y = ax^2 + bx + c \amp \qquad \longrightarrow \qquad \text{$y$-int} = (0,c)
     </p>
   </theorem>
 </subsection>
-
-
-
 
 </section>

@@ -1,8 +1,26 @@
 {
+    // Map file patterns to the PreTeXt RelaxNG schema so the editor validates
     "xml.fileAssociations": [
-        {
-            "pattern": "**/source/**.ptx",
-            "systemId": "c:\\Users\\CKG\\.vscode\\extensions\\oscarlevin.pretext-tools-0.32.0\\assets\\schema\\pretext.rng"
-        }
+      {
+        // Treat every .xml file in the workspace as PreTeXt
+        "pattern": "**/*.xml",
+        "systemId": "c:\\Users\\CKG\\.vscode\\extensions\\oscarlevin.pretext-tools-0.32.0\\assets\\schema\\pretext.rng"
+      },
+      {
+        // Also treat any .ptx under your source/ folder as PreTeXt
+        "pattern": "**/source/**/*.ptx",
+        "systemId": "c:\\Users\\CKG\\.vscode\\extensions\\oscarlevin.pretext-tools-0.32.0\\assets\\schema\\pretext.rng"
+      }
+    ],
+  
+    // Declare the default namespace for PreTeXt 2.0
+    // This lets tags like <m>, <eval>, <exercise>, etc. be recognized
+    "xml.namespaces": [
+      {
+        "prefix": "",
+        "uri": "https://pretextbook.org/ns/pretext/2.0"
+      }
     ]
-}
+  }
+// This file configures VS Code to recognize PreTeXt XML files
+// and validate them against the PreTeXt RelaxNG schema.  
