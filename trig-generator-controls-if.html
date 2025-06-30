@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link xmlns:xlink="http://www.w3.org/1999/xlink" rel="preconnect" href="https://fonts.googleapis.com">
+<link xmlns:xlink="http://www.w3.org/1999/xlink" rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link xmlns:xlink="http://www.w3.org/1999/xlink" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link xmlns:xlink="http://www.w3.org/1999/xlink" href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+</head>
+<body class="ptx-content ignore-math" id="changeme">
+<div xmlns:xlink="http://www.w3.org/1999/xlink" id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div style="width:600px; height:600px; display: block; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;">
+<div xmlns:xlink="http://www.w3.org/1999/xlink" id="controls-container" style="width:600px; height:600px; display: block; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;"></div>
+<div xmlns:xlink="http://www.w3.org/1999/xlink" id="problem-display" style="width:600px; height:600px; display: block; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;"></div>
+<div xmlns:xlink="http://www.w3.org/1999/xlink" id="reference-table" style="width:600px; height:600px; display: block; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;"></div>// Special angles data const specialAngles = { degrees: [0, 30, 45, 60, 90, 120, 135, 150, 180, 210, 225, 240, 270, 300, 315, 330, 360], radians: [’0’, ’π/6’, ’π/4’, ’π/3’, ’π/2’, ’2π/3’, ’3π/4’, ’5π/6’, ’π’, ’7π/6’, ’5π/4’, ’4π/3’, ’3π/2’, ’5π/3’, ’7π/4’, ’11π/6’, ’2π’] }; const extendedAngles = { degrees: [-330, -315, -300, -270, -240, -225, -210, -180, -150, -135, -120, -90, -60, -45, -30, 390, 405, 420, 450, 480, 495, 510, 540, 570, 585, 600, 630, 660, 675, 690, 720], radians: [’-11π/6’, ’-7π/4’, ’-5π/3’, ’-3π/2’, ’-4π/3’, ’-5π/4’, ’-7π/6’, ’-π’, ’-5π/6’, ’-3π/4’, ’-2π/3’, ’-π/2’, ’-π/3’, ’-π/4’, ’-π/6’, ’13π/6’, ’9π/4’, ’7π/3’, ’5π/2’, ’8π/3’, ’11π/4’, ’17π/6’, ’3π’, ’19π/6’, ’13π/4’, ’10π/3’, ’7π/2’, ’11π/3’, ’15π/4’, ’23π/6’, ’4π’] }; const trigFunctions = [’sin’, ’cos’, ’tan’]; const reciprocalFunctions = [’csc’, ’sec’, ’cot’]; let currentProblem = null; let currentAnswer = null; // Trigonometric values lookup function getTrigValue(func, angleDeg) { // Normalize angle to 0-360 range const normalizedAngle = ((angleDeg % 360) + 360) % 360; const values = { 0: { sin: 0, cos: 1, tan: 0 }, 30: { sin: 0.5, cos: Math.sqrt(3)/2, tan: Math.sqrt(3)/3 }, 45: { sin: Math.sqrt(2)/2, cos: Math.sqrt(2)/2, tan: 1 }, 60: { sin: Math.sqrt(3)/2, cos: 0.5, tan: Math.sqrt(3) }, 90: { sin: 1, cos: 0, tan: ’undefined’ }, 120: { sin: Math.sqrt(3)/2, cos: -0.5, tan: -Math.sqrt(3) }, 135: { sin: Math.sqrt(2)/2, cos: -Math.sqrt(2)/2, tan: -1 }, 150: { sin: 0.5, cos: -Math.sqrt(3)/2, tan: -Math.sqrt(3)/3 }, 180: { sin: 0, cos: -1, tan: 0 }, 210: { sin: -0.5, cos: -Math.sqrt(3)/2, tan: Math.sqrt(3)/3 }, 225: { sin: -Math.sqrt(2)/2, cos: -Math.sqrt(2)/2, tan: 1 }, 240: { sin: -Math.sqrt(3)/2, cos: -0.5, tan: Math.sqrt(3) }, 270: { sin: -1, cos: 0, tan: ’undefined’ }, 300: { sin: -Math.sqrt(3)/2, cos: 0.5, tan: -Math.sqrt(3) }, 315: { sin: -Math.sqrt(2)/2, cos: Math.sqrt(2)/2, tan: -1 }, 330: { sin: -0.5, cos: Math.sqrt(3)/2, tan: -Math.sqrt(3)/3 }, 360: { sin: 0, cos: 1, tan: 0 } }; if (values[normalizedAngle]) { const baseValue = values[normalizedAngle][func]; if (func === ’csc’) { return values[normalizedAngle][’sin’] === 0 ? ’undefined’ : 1 / values[normalizedAngle][’sin’]; } else if (func === ’sec’) { return values[normalizedAngle][’cos’] === 0 ? ’undefined’ : 1 / values[normalizedAngle][’cos’]; } else if (func === ’cot’) { return values[normalizedAngle][’tan’] === ’undefined’ ? 0 : values[normalizedAngle][’tan’] === 0 ? ’undefined’ : 1 / values[normalizedAngle][’tan’]; } return baseValue; } return null; } function formatAnswer(value) { if (value === ’undefined’) return ’undefined’; if (value === 0) return ’0’; if (value === 1) return ’1’; if (value === -1) return ’-1’; if (Math.abs(value - 0.5) &lt; 0.0001) return value &gt; 0 ? ’1/2’ : ’-1/2’; if (Math.abs(value - Math.sqrt(2)/2) &lt; 0.0001) return value &gt; 0 ? ’√2/2’ : ’-√2/2’; if (Math.abs(value - Math.sqrt(3)/2) &lt; 0.0001) return value &gt; 0 ? ’√3/2’ : ’-√3/2’; if (Math.abs(value - Math.sqrt(3)) &lt; 0.0001) return value &gt; 0 ? ’√3’ : ’-√3’; if (Math.abs(value - Math.sqrt(3)/3) &lt; 0.0001) return value &gt; 0 ? ’√3/3’ : ’-√3/3’; if (Math.abs(value - 2) &lt; 0.0001) return ’2’; if (Math.abs(value - (-2)) &lt; 0.0001) return ’-2’; if (Math.abs(value - 2/Math.sqrt(3)) &lt; 0.0001) return value &gt; 0 ? ’2√3/3’ : ’-2√3/3’; return value.toFixed(4); } function parseUserAnswer(input) { const cleaned = input.trim().toLowerCase(); if (cleaned === ’undefined’) return ’undefined’; if (cleaned === ’0’) return 0; if (cleaned === ’1’) return 1; if (cleaned === ’-1’) return -1; if (cleaned === ’1/2’) return 0.5; if (cleaned === ’-1/2’) return -0.5; if (cleaned.includes(’√2/2’) || cleaned.includes(’sqrt(2)/2’)) { return cleaned.startsWith(’-’) ? -Math.sqrt(2)/2 : Math.sqrt(2)/2; } if (cleaned.includes(’√3/2’) || cleaned.includes(’sqrt(3)/2’)) { return cleaned.startsWith(’-’) ? -Math.sqrt(3)/2 : Math.sqrt(3)/2; } if (cleaned === ’√3’ || cleaned === ’sqrt(3)’) return Math.sqrt(3); if (cleaned === ’-√3’ || cleaned === ’-sqrt(3)’) return -Math.sqrt(3); if (cleaned.includes(’√3/3’) || cleaned.includes(’sqrt(3)/3’)) { return cleaned.startsWith(’-’) ? -Math.sqrt(3)/3 : Math.sqrt(3)/3; } const num = parseFloat(cleaned); return isNaN(num) ? null : num; } function compareAnswers(userValue, correctValue) { if (userValue === ’undefined’ &amp;&amp; correctValue === ’undefined’) return true; if (typeof userValue === ’number’ &amp;&amp; typeof correctValue === ’number’) { return Math.abs(userValue - correctValue) &lt; 0.0001; } return false; } function convertAngleToRadians(degrees) { const angle = Math.abs(degrees); const sign = degrees &lt; 0 ? ’-’ : ’’; const conversions = { 0: ’0’, 30: ’π/6’, 45: ’π/4’, 60: ’π/3’, 90: ’π/2’, 120: ’2π/3’, 135: ’3π/4’, 150: ’5π/6’, 180: ’π’, 210: ’7π/6’, 225: ’5π/4’, 240: ’4π/3’, 270: ’3π/2’, 300: ’5π/3’, 315: ’7π/4’, 330: ’11π/6’, 360: ’2π’, 390: ’13π/6’, 405: ’9π/4’, 420: ’7π/3’, 450: ’5π/2’, 480: ’8π/3’, 495: ’11π/4’, 510: ’17π/6’, 540: ’3π’, 570: ’19π/6’, 585: ’13π/4’, 600: ’10π/3’, 630: ’7π/2’, 660: ’11π/3’, 675: ’15π/4’, 690: ’23π/6’, 720: ’4π’ }; return sign + (conversions[angle] || angle + ’°’); } function generateProblem() { const angleUnit = document.querySelector(’input[name="angleUnit"]:checked’).value; const includeTangent = document.getElementById(’includeTangent’).checked; const extendedAngles = document.getElementById(’extendedAngles’).checked; const includeReciprocal = document.getElementById(’includeReciprocal’).checked; // Select angle let angles = [...specialAngles.degrees]; if (extendedAngles) { angles = angles.concat(extendedAngles.degrees); } const randomAngleDeg = angles[Math.floor(Math.random() * angles.length)]; // Select function let functions = [’sin’, ’cos’]; if (includeTangent) functions.push(’tan’); if (includeReciprocal) functions = functions.concat(reciprocalFunctions); const randomFunction = functions[Math.floor(Math.random() * functions.length)]; // Format angle display let angleDisplay; if (angleUnit === ’degrees’) { angleDisplay = randomAngleDeg + ’°’; } else if (angleUnit === ’radians’) { angleDisplay = convertAngleToRadians(randomAngleDeg); } else { // mixed angleDisplay = Math.random() &lt; 0.5 ? randomAngleDeg + ’°’ : convertAngleToRadians(randomAngleDeg); } // Clean up angle display for special cases if (angleDisplay === ’0°’ || angleDisplay === ’0’) { angleDisplay = angleDisplay.includes(’°’) ? ’0°’ : ’0’; } else if (angleDisplay.includes(’1π’)) { angleDisplay = angleDisplay.replace(’1π’, ’π’); } currentProblem = { function: randomFunction, angleDeg: randomAngleDeg, angleDisplay: angleDisplay }; currentAnswer = getTrigValue(randomFunction, randomAngleDeg); document.getElementById(’problemText’).innerHTML = `Evaluate: &lt;strong&gt;${randomFunction}(${angleDisplay})&lt;/strong&gt;`; document.getElementById(’answerSection’).style.display = ’block’; document.getElementById(’userAnswer’).value = ’’; document.getElementById(’feedback’).textContent = ’’; } function checkAnswer() { const userInput = document.getElementById(’userAnswer’).value; const userValue = parseUserAnswer(userInput); if (userValue === null) { document.getElementById(’feedback’).innerHTML = ’&lt;span style="color: red;"&gt;Please enter a valid answer (use "undefined" if applicable)&lt;/span&gt;’; return; } if (compareAnswers(userValue, currentAnswer)) { document.getElementById(’feedback’).innerHTML = ’&lt;span style="color: green;"&gt;✓ Correct!&lt;/span&gt;’; } else { document.getElementById(’feedback’).innerHTML = ’&lt;span style="color: red;"&gt;✗ Incorrect. Try again or click "Show Answer"&lt;/span&gt;’; } } function showAnswer() { const formattedAnswer = formatAnswer(currentAnswer); document.getElementById(’feedback’).innerHTML = `&lt;span style="color: blue;"&gt;The correct answer is: &lt;strong&gt;${formattedAnswer}&lt;/strong&gt;&lt;/span&gt;`; } function toggleReference() { const content = document.getElementById(’referenceContent’); const button = document.getElementById(’toggleReference’); if (content.style.display === ’none’) { content.style.display = ’block’; button.textContent = ’Hide Reference’; } else { content.style.display = ’none’; button.textContent = ’Show Reference’; } } // Event listeners document.getElementById(’generateProblem’).addEventListener(’click’, generateProblem); document.getElementById(’checkAnswer’).addEventListener(’click’, checkAnswer); document.getElementById(’showAnswer’).addEventListener(’click’, showAnswer); document.getElementById(’toggleReference’).addEventListener(’click’, toggleReference); // Allow Enter key to check answer document.getElementById(’userAnswer’).addEventListener(’keypress’, function(e) { if (e.key === ’Enter’) { checkAnswer(); } });</div>
+</body>
+</html>
