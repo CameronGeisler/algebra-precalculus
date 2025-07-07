@@ -3,6 +3,16 @@
 <section xml:id="sec-section-name" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Section Title</title>
 
-  <p> Text of section. </p>
+  <introduction>
+    <p>
+      Introduction.
+    </p>
+  </introduction>
+
+  <subsection>
+    <p>
+      This is a subsection.
+    </p>
+  </subsection>
 
 </section>

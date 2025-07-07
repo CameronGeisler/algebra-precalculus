@@ -91,11 +91,119 @@ var ptx_lunr_docs = [
   "body": " Degree of a Product  The degree of a product of polynomials is the sum of the degrees. In particular, the product of linear factors is a polynomial of degree .  "
 },
 {
+  "id": "sec-radian-measure",
+  "level": "1",
+  "url": "sec-radian-measure.html",
+  "type": "Section",
+  "number": "2.1",
+  "title": "Radian Measure",
+  "body": " Radian Measure   There is another unit for measuring angles, called a radian , which turns out to be more useful than degrees to use in calculus. First, it is helpful to step back and understand the idea of how angles can be measured.    Alternate Angular Units  Degrees are a unit such that 360 degrees make a full rotation. This makes sense for practical applications, and historically, for navigation, architecture, and astronomy. This is because you can divide 360 evenly into many numbers. However, if we were starting from scratch, we could also consider alternate useful units of measuring angles. For example:    The gradian , where a quarter rotation is defined to be 100 gradians. Then, a full rotation would be 400 gradians.  Or, 1 turn could be defined as a full rotation. Then, a half rotation is turns, or a quarter rotation is turns.  For units inspired by the fact that there are 8 slices in a pizza, a unit could be called a slice , defined to be th of a full rotation. Then, 8 slices would be a full rotation.  We could define 1 unit to be a quarter rotation. Then, 4 units is a full rotation.    Notice that ultimately, units are a convention, and what units are useful or most natural depends on the context.    Motivation for Radians  There is another unit of angle measure, called a radian . The idea is that we will measure angles based on how long the arc of the angle is.       The longer the arc is, the bigger the angle that is swept out. The amount you rotate is proportional to how far you travel along the circle.    Small rotation small distance traveled  Big rotation big distance traveled         However, just measuring the arc doesn't fully work, because the arc length depends on the size of the circle (basically, it depends on it's radius).    If you have a small circle, you won't have to walk very far to make a full loop.  If you have a big circle, the same angle will mean you walk a lot farther.         We want a measurement which purely measures rotation, that isn't affected by how big the circle is. The key idea is: even though the arc length changes when the circle gets bigger or smaller, it changes in a very predictable way. In particular, arc length is proportional to the radius.    If you double the radius, the arc length doubles .  If you triple the radius, the arc length triples .      For example, for this particular angle below, for cm, the arc is 8 cm, and for cm, the arc is 16 cm.       While the arc lengths are different, in both scenarios, the arc length is 2 radius lengths.    To measure arc length, instead of using meters or centimeters or any other unit of length, we use the radius itself as the unit. In other words, we ask:   For example:    If the radius is 4 m, and the arc length is 12 m, that is radius lengths of rotation.  If the radius is 3 m, and the arc length is 15 m, that is radius lengths of rotation.         In other words, to measure the angle, divide the arc length by the radius length.    Radians    One radian is defined to be the angle at the center of a circle such that the arc length associated with it is equal to the radius of the circle,       More generally, an angle with associated radius and arc length is given by,     The symbol for radians is rad , however the symbol is often omitted. So, if an angle has no unit, it should be assumed to be radians (and for degrees, use ).        In fancy math language, you can say that the angle  subtends the arc, or the arc is subtended by the angle .  Radians are technically ``dimensionless\", because they are the ratio of two lengths.      Converting Between Degrees and Radians  Degrees and radians are both units of angles, so we can convert between them. To find an equivalence between the two, first recall that corresponds to a full rotation. In radians, for a full rotation, its arc length is simply the circumference of the circle, which is given by . Then, . Therefore, a full rotation is radians. This implies that,   To be a bit more simple, we can divide both sides by 2, since it is a common factor, to get,   This is a conversion factor which allows us to convert between these two angle units, analogous to how 1 inch = 2.54 cm, or how 1 hour = 60 minutes.   Converting between degrees and radians        The ratio can be thought of as a conversion factor, a ratio used to convert between units.    Convert to degrees.      Sketching Radian Angles in Standard Position  To graph an angle in radians, it's easiest to think in terms of fractions of . To start,    is a full rotation ( )  is a half rotation ( )         Then,    (or half of ) is a quarter rotation (half of a half rotation), which is  (or a quarter of ) is half of a quarter rotation, which is .  is split into 6 equal pieces, which is .         For bigger angles, we can count multiples.    For example, for , first divide into 6 equal pieces, and then count 5 of them,           Special Angles in Radians    "
+},
+{
+  "id": "motivation-for-radians-3",
+  "level": "2",
+  "url": "sec-radian-measure.html#motivation-for-radians-3",
+  "type": "Figure",
+  "number": "2.1.1",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "motivation-for-radians-6",
+  "level": "2",
+  "url": "sec-radian-measure.html#motivation-for-radians-6",
+  "type": "Figure",
+  "number": "2.1.2",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "motivation-for-radians-9",
+  "level": "2",
+  "url": "sec-radian-measure.html#motivation-for-radians-9",
+  "type": "Figure",
+  "number": "2.1.3",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "motivation-for-radians-12",
+  "level": "2",
+  "url": "sec-radian-measure.html#motivation-for-radians-12",
+  "type": "Example",
+  "number": "2.1.4",
+  "title": "",
+  "body": "  For example, for this particular angle below, for cm, the arc is 8 cm, and for cm, the arc is 16 cm.       While the arc lengths are different, in both scenarios, the arc length is 2 radius lengths.   "
+},
+{
+  "id": "motivation-for-radians-17",
+  "level": "2",
+  "url": "sec-radian-measure.html#motivation-for-radians-17",
+  "type": "Figure",
+  "number": "2.1.6",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "radians-2",
+  "level": "2",
+  "url": "sec-radian-measure.html#radians-2",
+  "type": "Definition",
+  "number": "2.1.7",
+  "title": "",
+  "body": "  One radian is defined to be the angle at the center of a circle such that the arc length associated with it is equal to the radius of the circle,       More generally, an angle with associated radius and arc length is given by,     The symbol for radians is rad , however the symbol is often omitted. So, if an angle has no unit, it should be assumed to be radians (and for degrees, use ).     "
+},
+{
+  "id": "converting-between-degrees-and-radians-7",
+  "level": "2",
+  "url": "sec-radian-measure.html#converting-between-degrees-and-radians-7",
+  "type": "Theorem",
+  "number": "2.1.9",
+  "title": "Converting between degrees and radians.",
+  "body": " Converting between degrees and radians       "
+},
+{
+  "id": "converting-between-degrees-and-radians-9",
+  "level": "2",
+  "url": "sec-radian-measure.html#converting-between-degrees-and-radians-9",
+  "type": "Checkpoint",
+  "number": "2.1.11",
+  "title": "",
+  "body": "  Convert to degrees.   "
+},
+{
+  "id": "sketching-radian-angles-in-standard-position-4",
+  "level": "2",
+  "url": "sec-radian-measure.html#sketching-radian-angles-in-standard-position-4",
+  "type": "Figure",
+  "number": "2.1.12",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "sketching-radian-angles-in-standard-position-7",
+  "level": "2",
+  "url": "sec-radian-measure.html#sketching-radian-angles-in-standard-position-7",
+  "type": "Figure",
+  "number": "2.1.13",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "sketching-radian-angles-in-standard-position-9",
+  "level": "2",
+  "url": "sec-radian-measure.html#sketching-radian-angles-in-standard-position-9",
+  "type": "Example",
+  "number": "2.1.14",
+  "title": "",
+  "body": "  For example, for , first divide into 6 equal pieces, and then count 5 of them,        "
+},
+{
   "id": "sec-ratios-of-non-acute-angles-reference-angles",
   "level": "1",
   "url": "sec-ratios-of-non-acute-angles-reference-angles.html",
   "type": "Section",
-  "number": "2.1",
+  "number": "2.2",
   "title": "Ratios of Non-Acute Angles, Reference Angles",
   "body": " Ratios of Non-Acute Angles, Reference Angles   Introduction     This is a subsection.    Exact Trig-Value Practice   Evaluate exactly.  Your answer:   For square roots, type \"sqrt\", not a decimal approximation (for example, type \"sqrt(3)\", or \"sqrt(2)\").    \/\/ === OPTIONS === const USE_RADIANS = true; const ALLOW_NEGATIVE = true; const ALLOW_WRAP = true; const USE_RECIPROCALS = true; \/\/ === Exact values for key angles === const exact = { sin: { 0: \"0\", 30: \"1\/2\", 45: \"sqrt(2)\/2\", 60: \"sqrt(3)\/2\", 90: \"1\", 120: \"sqrt(3)\/2\", 135: \"sqrt(2)\/2\", 150: \"1\/2\", 180: \"0\", 210: \"-1\/2\", 225: \"-sqrt(2)\/2\", 240: \"-sqrt(3)\/2\", 270: \"-1\", 300: \"-sqrt(3)\/2\", 315: \"-sqrt(2)\/2\", 330: \"-1\/2\" } }; \/\/ Generate cos, tan exact.cos = {}; exact.tan = {}; for (let deg in exact.sin) { const s = eval(exact.sin[deg].replace(\"sqrt\", \"Math.sqrt\")); const c = Math.cos(deg * Math.PI \/ 180); const cs = Math.abs(c) < 1e-10 ? \"0\" : Math.abs(c - 0.5) < 1e-10 ? \"1\/2\" : Math.abs(c - Math.sqrt(2)\/2) < 1e-10 ? \"sqrt(2)\/2\" : \"sqrt(3)\/2\"; exact.cos[deg] = c < 0 ? \"-\" + cs : cs; if (Math.abs(c) < 1e-10) { exact.tan[deg] = null; } else { const t = s \/ c; const abs = Math.abs(t); const ts = abs < 1e-10 ? \"0\" : Math.abs(abs - 1) < 1e-10 ? \"1\" : abs < 1 ? \"sqrt(3)\/3\" : \"sqrt(3)\"; exact.tan[deg] = t < 0 ? \"-\" + ts : ts; } } \/\/ Reciprocal functions function reciprocal(str) { if (!str || str === \"0\") return null; if (str === \"1\") return \"1\"; if (str === \"sqrt(3)\/3\") return \"sqrt(3)\"; if (str === \"sqrt(3)\") return \"sqrt(3)\/3\"; if (str === \"1\/2\") return \"2\"; if (str === \"sqrt(2)\/2\") return \"sqrt(2)\"; if (str === \"sqrt(3)\/2\") return \"2*sqrt(3)\/3\"; return str.startsWith(\"-\") ? \"-\" + reciprocal(str.slice(1)) : \"1\/(\" + str + \")\"; } exact.csc = Object.fromEntries(Object.entries(exact.sin).map(([d, s]) => [d, reciprocal(s)])); exact.sec = Object.fromEntries(Object.entries(exact.cos).map(([d, s]) => [d, reciprocal(s)])); exact.cot = Object.fromEntries(Object.entries(exact.tan).map(([d, s]) => [d, reciprocal(s)])); \/\/ === Choose function === let funcs = [\"sin\", \"cos\", \"tan\"]; if (USE_RECIPROCALS) funcs.push(\"csc\", \"sec\", \"cot\"); let func; let deg, k, thetaDeg; const baseAngles = Object.keys(exact.sin).map(Number); do { func = funcs[RNG.randInt(0, funcs.length - 1)]; deg = baseAngles[RNG.randInt(0, baseAngles.length - 1)]; k = ALLOW_WRAP ? RNG.randInt(-1, 1) : 0; if (!ALLOW_NEGATIVE && k < 0) k = 0; thetaDeg = deg + 360 * k; } while (exact[func][deg] === null); v.func = func; v.answerExpr = exact[func][deg]; \/\/ === TeX angle === function texForDegrees(d) { return d + \"^{\\\\circ}\"; } function texForRadians(d) { let frac = d \/ 180; const sign = frac < 0 ? \"-\" : \"\"; frac = Math.abs(frac); const denom = 12; let num = frac * denom; const gcf = (a, b) => b ? gcf(b, a % b) : a; const g = gcf(num, denom); num \/= g; const den = denom \/ g; return sign + (den === 1 ? num + \"\\\\pi\" : \"\\\\tfrac{\" + num + \"\\\\pi}{\" + den + \"}\"); } v.angleTeX = USE_RADIANS && RNG.randInt(0, 1) === 0 ? texForRadians(thetaDeg) : texForDegrees(thetaDeg);       Correct, great work 🎉    Not quite. Use an exact radical value like , not a decimal.      The exact value is \\ \\!\\bigl( \\bigr) = .      "
 },
@@ -104,7 +212,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-ratios-of-non-acute-angles-reference-angles.html#trig-exact-practice",
   "type": "Exercise",
-  "number": "2.1.1.1",
+  "number": "2.2.1.1",
   "title": "Exact Trig-Value Practice.",
   "body": " Exact Trig-Value Practice   Evaluate exactly.  Your answer:   For square roots, type \"sqrt\", not a decimal approximation (for example, type \"sqrt(3)\", or \"sqrt(2)\").    \/\/ === OPTIONS === const USE_RADIANS = true; const ALLOW_NEGATIVE = true; const ALLOW_WRAP = true; const USE_RECIPROCALS = true; \/\/ === Exact values for key angles === const exact = { sin: { 0: \"0\", 30: \"1\/2\", 45: \"sqrt(2)\/2\", 60: \"sqrt(3)\/2\", 90: \"1\", 120: \"sqrt(3)\/2\", 135: \"sqrt(2)\/2\", 150: \"1\/2\", 180: \"0\", 210: \"-1\/2\", 225: \"-sqrt(2)\/2\", 240: \"-sqrt(3)\/2\", 270: \"-1\", 300: \"-sqrt(3)\/2\", 315: \"-sqrt(2)\/2\", 330: \"-1\/2\" } }; \/\/ Generate cos, tan exact.cos = {}; exact.tan = {}; for (let deg in exact.sin) { const s = eval(exact.sin[deg].replace(\"sqrt\", \"Math.sqrt\")); const c = Math.cos(deg * Math.PI \/ 180); const cs = Math.abs(c) < 1e-10 ? \"0\" : Math.abs(c - 0.5) < 1e-10 ? \"1\/2\" : Math.abs(c - Math.sqrt(2)\/2) < 1e-10 ? \"sqrt(2)\/2\" : \"sqrt(3)\/2\"; exact.cos[deg] = c < 0 ? \"-\" + cs : cs; if (Math.abs(c) < 1e-10) { exact.tan[deg] = null; } else { const t = s \/ c; const abs = Math.abs(t); const ts = abs < 1e-10 ? \"0\" : Math.abs(abs - 1) < 1e-10 ? \"1\" : abs < 1 ? \"sqrt(3)\/3\" : \"sqrt(3)\"; exact.tan[deg] = t < 0 ? \"-\" + ts : ts; } } \/\/ Reciprocal functions function reciprocal(str) { if (!str || str === \"0\") return null; if (str === \"1\") return \"1\"; if (str === \"sqrt(3)\/3\") return \"sqrt(3)\"; if (str === \"sqrt(3)\") return \"sqrt(3)\/3\"; if (str === \"1\/2\") return \"2\"; if (str === \"sqrt(2)\/2\") return \"sqrt(2)\"; if (str === \"sqrt(3)\/2\") return \"2*sqrt(3)\/3\"; return str.startsWith(\"-\") ? \"-\" + reciprocal(str.slice(1)) : \"1\/(\" + str + \")\"; } exact.csc = Object.fromEntries(Object.entries(exact.sin).map(([d, s]) => [d, reciprocal(s)])); exact.sec = Object.fromEntries(Object.entries(exact.cos).map(([d, s]) => [d, reciprocal(s)])); exact.cot = Object.fromEntries(Object.entries(exact.tan).map(([d, s]) => [d, reciprocal(s)])); \/\/ === Choose function === let funcs = [\"sin\", \"cos\", \"tan\"]; if (USE_RECIPROCALS) funcs.push(\"csc\", \"sec\", \"cot\"); let func; let deg, k, thetaDeg; const baseAngles = Object.keys(exact.sin).map(Number); do { func = funcs[RNG.randInt(0, funcs.length - 1)]; deg = baseAngles[RNG.randInt(0, baseAngles.length - 1)]; k = ALLOW_WRAP ? RNG.randInt(-1, 1) : 0; if (!ALLOW_NEGATIVE && k < 0) k = 0; thetaDeg = deg + 360 * k; } while (exact[func][deg] === null); v.func = func; v.answerExpr = exact[func][deg]; \/\/ === TeX angle === function texForDegrees(d) { return d + \"^{\\\\circ}\"; } function texForRadians(d) { let frac = d \/ 180; const sign = frac < 0 ? \"-\" : \"\"; frac = Math.abs(frac); const denom = 12; let num = frac * denom; const gcf = (a, b) => b ? gcf(b, a % b) : a; const g = gcf(num, denom); num \/= g; const den = denom \/ g; return sign + (den === 1 ? num + \"\\\\pi\" : \"\\\\tfrac{\" + num + \"\\\\pi}{\" + den + \"}\"); } v.angleTeX = USE_RADIANS && RNG.randInt(0, 1) === 0 ? texForRadians(thetaDeg) : texForDegrees(thetaDeg);       Correct, great work 🎉    Not quite. Use an exact radical value like , not a decimal.      The exact value is \\ \\!\\bigl( \\bigr) = .   "
 },
