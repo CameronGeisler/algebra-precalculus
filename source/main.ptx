@@ -11,12 +11,13 @@
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />
 
-    <!-- Include chapters -->
+    <!-- Include chapters -->'
+    <xi:include href="./ch-quadratic-functions-and-equations.ptx" />'
     <xi:include href="./ch-polynomial-functions.ptx" />
     <xi:include href="./ch-trigonometry.ptx" />
 
     <!-- Include backmatter -->
-    <xi:include href="./backmatter.ptx" />
+    <!-- <xi:include href="./backmatter.ptx" /> -->
 
   </book>
 </pretext>

@@ -73,7 +73,7 @@ window.MathJax = {
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta xmlns:xlink="http://www.w3.org/1999/xlink" property="og:type" content="book">
 <meta xmlns:xlink="http://www.w3.org/1999/xlink" property="book:title" content="Algebra and Precalculus">
-<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="book:author" content="You">
+<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="book:author" content="Cameron Geisler">
 <script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
 <!--** Runestone components to run locally in reader's browser **-->
 <!--** No external communication:                              **-->
@@ -96,22 +96,22 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.8.4';
+eBookConfig.runestone_version = '7.9.6';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.962d00926ef9460e.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.2e7f40e86ae7d163.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.5bdeacdba067a0e3.css">
+<script src="_static/prefix-runtime.b215b0da62d655bd.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.28cc3c4821792be5.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.8141ae22fd347e48.css">
 <script xmlns:xlink="http://www.w3.org/1999/xlink" src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
 </head>
 <body id="changeme" class="pretext book ignore-math">
 <a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
 <h1 class="heading"><a href="my-great-book.html"><span class="title">Algebra and Precalculus</span></a></h1>
-<p class="byline">You</p>
+<p class="byline">Cameron Geisler</p>
 </div></div></header><nav xmlns:xlink="http://www.w3.org/1999/xlink" id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
 <button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
 <div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
@@ -125,7 +125,32 @@ eBookConfig.enable_chatcodes =  false;
 </div>
 </div>
 <span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="ch-polynomial-functions.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-polynomial-functions.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="ch-trigonometry.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
-</div></nav><div xmlns:xlink="http://www.w3.org/1999/xlink" id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+</div></nav><div xmlns:xlink="http://www.w3.org/1999/xlink" id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+\newcommand{\abs}[1]{\left\lvert #1 \right\rvert}
+\newcommand{\set}[1]{\left\{ #1 \right\}}
+\renewcommand{\neg}{\sim}
+\newcommand{\brac}[1]{\left( #1 \right)}
+\newcommand{\rad}[1]{#1 \ \text{rad}}
+\newcommand{\eval}[1]{\left. #1 \right|}
+\newcommand{\floor}[1]{\left\lfloor #1 \right\rfloor}
+\newcommand{\ceil}[1]{\left\lceil #1 \right\rceil}
+
+
+\newcommand{\crossmethod}[4]{
+  \begin{tikzpicture}[baseline=(M.base)]
+    
+    \node (M) at (0,0)    {$#1$};   
+    \node (P) at (0,-1)   {$#2$};   
+    \node (N) at (1.5,0)  {$#3$};   
+    \node (Q) at (1.5,-1) {$#4$};   
+    
+    \draw (M) -- (Q);
+    \draw (P) -- (N);
+  \end{tikzpicture}
+}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
 \newcommand{\amp}{&amp;}
@@ -135,49 +160,62 @@ eBookConfig.enable_chatcodes =  false;
 <div class="ptx-page">
 <div xmlns:xlink="http://www.w3.org/1999/xlink" id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-quadratic-functions-and-equations.html" class="internal"><span class="codenumber">1</span> <span class="title">Quadratic Functions and Equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-factoring-quadratic-trinomials.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Factoring Quadratic Trinomials</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factoring-quadratic-trinomials.html#sec-factoring-quadratic-trinomials-3" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Factoring <span class="process-math">\(x^2+bx+c\)</span> (Sum and Product Method)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factoring-quadratic-trinomials.html#sec-factoring-quadratic-trinomials-4" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Factoring Trinomials with Common Factors</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factoring-quadratic-trinomials.html#sec-factoring-quadratic-trinomials-5" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Factoring Polynomials of the form <span class="process-math">\(ax^2 + bx + c\text{,}\)</span> <span class="process-math">\(a \neq 1\)</span></span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factoring-quadratic-trinomials.html#sec-factoring-quadratic-trinomials-6" class="internal"><span class="codenumber">1.1.4</span> <span class="title">Cross Method</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factoring-quadratic-trinomials.html#sec-factoring-quadratic-trinomials-7" class="internal"><span class="codenumber">1.1.5</span> <span class="title">Factoring Out the GCF First Before the Cross Method</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factoring-quadratic-trinomials.html#sec-factoring-quadratic-trinomials-8" class="internal"><span class="codenumber">1.1.6</span> <span class="title">Summary of Factoring <span class="process-math">\(ax^2 + bx + c\)</span></span></a></div></li>
+</ul>
+</li></ul>
+</li>
 <li class="toc-item toc-chapter contains-active">
-<div class="toc-title-box"><a href="ch-polynomial-functions.html" class="internal"><span class="codenumber">1</span> <span class="title">Polynomial Functions</span></a></div>
+<div class="toc-title-box"><a href="ch-polynomial-functions.html" class="internal"><span class="codenumber">2</span> <span class="title">Polynomial Functions</span></a></div>
 <ul class="structural toc-item-list contains-active"><li class="toc-item toc-section contains-active">
-<div class="toc-title-box"><a href="sec-polynomial-functions-intro.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Polynomial Functions Intro</span></a></div>
+<div class="toc-title-box"><a href="sec-polynomial-functions-intro.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Polynomial Functions Intro</span></a></div>
 <ul class="structural toc-item-list active">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polynomial-functions-intro.html#power-functions" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Power Functions</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polynomial-functions-intro.html#polynomial-functions" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Polynomial Functions</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polynomial-functions-intro.html#graph-of-polynomial-function" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Graph of a Polynomial Function</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polynomial-functions-intro.html#end-behavior" class="internal"><span class="codenumber">1.1.4</span> <span class="title">End Behavior of Polynomial Functions</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polynomial-functions-intro.html#y-intercept" class="internal"><span class="codenumber">1.1.5</span> <span class="title">y-Intercept of a Polynomial Function</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polynomial-functions-intro.html#x-intercepts" class="internal"><span class="codenumber">1.1.6</span> <span class="title">x-Intercepts of a Polynomial Function</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polynomial-functions-intro.html#remark" class="internal"><span class="codenumber">1.1.7</span> <span class="title">Remark</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polynomial-functions-intro.html#degree-product" class="internal"><span class="codenumber">1.1.8</span> <span class="title">Degree of a Product of Polynomials</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polynomial-functions-intro.html#power-functions" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Power Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polynomial-functions-intro.html#polynomial-functions" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Polynomial Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polynomial-functions-intro.html#graph-of-polynomial-function" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Graph of a Polynomial Function</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polynomial-functions-intro.html#end-behavior" class="internal"><span class="codenumber">2.1.4</span> <span class="title">End Behavior of Polynomial Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polynomial-functions-intro.html#y-intercept" class="internal"><span class="codenumber">2.1.5</span> <span class="title">y-Intercept of a Polynomial Function</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polynomial-functions-intro.html#x-intercepts" class="internal"><span class="codenumber">2.1.6</span> <span class="title">x-Intercepts of a Polynomial Function</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polynomial-functions-intro.html#remark" class="internal"><span class="codenumber">2.1.7</span> <span class="title">Remark</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polynomial-functions-intro.html#degree-product" class="internal"><span class="codenumber">2.1.8</span> <span class="title">Degree of a Product of Polynomials</span></a></div></li>
 </ul>
 </li></ul>
 </li>
 <li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="ch-trigonometry.html" class="internal"><span class="codenumber">2</span> <span class="title">Trigonometry</span></a></div>
+<div class="toc-title-box"><a href="ch-trigonometry.html" class="internal"><span class="codenumber">3</span> <span class="title">Trigonometry</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec-radian-measure.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Radian Measure</span></a></div>
+<div class="toc-title-box"><a href="sec-radian-measure.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Radian Measure</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-radian-measure.html#alternate-angular-units" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Alternate Angular Units</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-radian-measure.html#motivation-for-radians" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Motivation for Radians</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-radian-measure.html#radians" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Radians</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-radian-measure.html#converting-between-degrees-and-radians" class="internal"><span class="codenumber">2.1.4</span> <span class="title">Converting Between Degrees and Radians</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-radian-measure.html#sketching-radian-angles-in-standard-position" class="internal"><span class="codenumber">2.1.5</span> <span class="title">Sketching Radian Angles in Standard Position</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-radian-measure.html#special-angles-in-radians" class="internal"><span class="codenumber">2.1.6</span> <span class="title">Special Angles in Radians</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-radian-measure.html#alternate-angular-units" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Alternate Angular Units</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-radian-measure.html#motivation-for-radians" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Motivation for Radians</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-radian-measure.html#radians" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Radians</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-radian-measure.html#converting-between-degrees-and-radians" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Converting Between Degrees and Radians</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-radian-measure.html#sketching-radian-angles-in-standard-position" class="internal"><span class="codenumber">3.1.5</span> <span class="title">Sketching Radian Angles in Standard Position</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-radian-measure.html#special-angles-in-radians" class="internal"><span class="codenumber">3.1.6</span> <span class="title">Special Angles in Radians</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec-ratios-of-non-acute-angles-reference-angles.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Ratios of Non-Acute Angles, Reference Angles</span></a></div>
+<div class="toc-title-box"><a href="sec-ratios-of-non-acute-angles-reference-angles.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Ratios of Non-Acute Angles, Reference Angles</span></a></div>
 <ul class="structural toc-item-list"><li class="toc-item toc-subsection">
-<div class="toc-title-box"><a href="sec-ratios-of-non-acute-angles-reference-angles.html#sec-ratios-of-non-acute-angles-reference-angles-3" class="internal"><span class="codenumber">2.2.1</span> <span class="title"></span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-ratios-of-non-acute-angles-reference-angles.html#exercises-trig-exact" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Exercises</span></a></div></li></ul>
+<div class="toc-title-box"><a href="sec-ratios-of-non-acute-angles-reference-angles.html#sec-ratios-of-non-acute-angles-reference-angles-3" class="internal"><span class="codenumber">3.2.1</span> <span class="title"></span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-ratios-of-non-acute-angles-reference-angles.html#exercises-trig-exact" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Exercises</span></a></div></li></ul>
 </li></ul>
 </li>
 </ul>
 </li>
-<li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section xmlns:xlink="http://www.w3.org/1999/xlink" class="section" id="sec-polynomial-functions-intro"><h2 class="heading hide-type">
-<span class="type">Section</span><span class="space"> </span><span class="codenumber">1.1</span><span class="space"> </span><span class="title">Polynomial Functions Intro</span>
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">2.1</span><span class="space"> </span><span class="title">Polynomial Functions Intro</span>
 </h2>
 <section class="introduction" id="sec-polynomial-functions-intro-2"><div class="para" id="sec-polynomial-functions-intro-2-1">Recall that previously, we considered constant functions, linear functions, and quadratic functions,</div>
 <ul class="disc" id="sec-polynomial-functions-intro-2-2">
@@ -189,7 +227,7 @@ eBookConfig.enable_chatcodes =  false;
 <span class="process-math">\(f(x) = ax^2 + bx + c\text{,}\)</span> whose graph is a parabola.</div></li>
 </ul>
 <div class="para" id="sec-polynomial-functions-intro-2-3">It turns out that we can also consider functions that are made up of higher powers of <span class="process-math">\(x\text{,}\)</span> like <span class="process-math">\(x^3, x^4, x^5\text{,}\)</span> and so on.</div></section><section class="subsection" id="power-functions"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.1.1</span><span class="space"> </span><span class="title">Power Functions</span>
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.1.1</span><span class="space"> </span><span class="title">Power Functions</span>
 </h3>
 <div class="para logical" id="power-functions-2"><ul class="disc" id="power-functions-2-1">
 <li id="power-functions-2-1-1"><div class="para" id="p-derived-power-functions-2-1-1">Consider <span class="process-math">\(y = x\text{,}\)</span> <span class="process-math">\(y = x^2\text{,}\)</span> <span class="process-math">\(y = x^3\text{,}\)</span> <span class="process-math">\(y = x^4\text{,}\)</span> <span class="process-math">\(y = x^5\text{,}\)</span> <span class="process-math">\(y = x^6\text{,}\)</span> etc. Observe that the function with even integer powers have a ``U-shape" whereas the odd integer powers have an ``S-shape".</div></li>
@@ -197,11 +235,11 @@ eBookConfig.enable_chatcodes =  false;
 <li id="power-functions-2-1-3"><div class="para" id="p-derived-power-functions-2-1-3">Then, consider adding terms of lower degree. Observe that the rough of the graph is determined by the highest power of <span class="process-math">\(x\)</span> (called the degree of the polynomial).</div></li>
 <li id="power-functions-2-1-4"><div class="para" id="p-derived-power-functions-2-1-4">Consider <span class="process-math">\(y = 3x + 1\)</span> and <span class="process-math">\(y = -2x -1\text{,}\)</span> <span class="process-math">\(y = 3x^3 - x^2 + 3\text{,}\)</span> <span class="process-math">\(y = -4x^3 + x + 1\text{.}\)</span> The rough shape of the graph is determined by the sign of the number in front of the highest power of <span class="process-math">\(x\)</span> (called the leading coefficient).</div></li>
 </ul></div></section><section class="subsection" id="polynomial-functions"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.1.2</span><span class="space"> </span><span class="title">Polynomial Functions</span>
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.1.2</span><span class="space"> </span><span class="title">Polynomial Functions</span>
 </h3>
 <div class="para" id="polynomial-functions-2">Basically, a polynomial function is a function made of up powers of <span class="process-math">\(x\text{,}\)</span> combined with numbers through multiplication, addition, and subtraction. Sometimes, we refer to them simply as polynomials.</div>
 <article class="definition definition-like" id="polynomial-functions-3"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.1.1</span><span class="period">.</span><span class="space"> </span><span class="title">Polynomial Function.</span>
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.1.1</span><span class="period">.</span><span class="space"> </span><span class="title">Polynomial Function.</span>
 </h4>
 <div class="para logical" id="polynomial-functions-3-2">
 <div class="para">A <em class="emphasis">polynomial function</em> is a function of the form,</div>
@@ -225,19 +263,19 @@ f(x) = a_n x^n + a_{n-1} x^{n-1} + \dots + a_2 x^2 + a_1 x + a_0
 <div class="para" id="polynomial-functions-5">Roughly, the higher the degree, the more complicated the polynomial is.</div>
 <div class="para" id="polynomial-functions-6">The domain of a polynomial is all real numbers, or <span class="process-math">\((-\infty,\infty)\text{,}\)</span> because it only requires addition, subtraction, and multiplication of numbers, and these operations are always defined.</div>
 <details id="polynomial-functions-7" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.2</span><span class="period">.</span><span class="space"> </span><span class="title">Example.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.1.2</span><span class="period">.</span><span class="space"> </span><span class="title">Example.</span>
 </h4></summary><article class="example example-like knowl__content"><div class="para" id="polynomial-functions-7-2">The expression <span class="process-math">\(4x^3 - 3.6x^2 - \sqrt{2}\)</span> is a polynomial of degree 3.</div></article></details><details id="polynomial-functions-8" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.3</span><span class="period">.</span><span class="space"> </span><span class="title">Example.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.1.3</span><span class="period">.</span><span class="space"> </span><span class="title">Example.</span>
 </h4></summary><article class="example example-like knowl__content"><div class="para" id="polynomial-functions-8-2">The expression <span class="process-math">\(x^{3/2} - x^4 + 1\)</span> is not a polynomial, as <span class="process-math">\(3/2\)</span> is not a non-negative integer.</div></article></details><div class="para" id="polynomial-functions-9">Polynomials of degree 3 are sometimes called \textbf{cubic}, degree 4 is \textbf{quartic}, degree 5 is \textbf{quintic}, and degree 6 is \textbf{sextic} or \textbf{hexic}.</div></section><section class="subsection" id="graph-of-polynomial-function"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.1.3</span><span class="space"> </span><span class="title">Graph of a Polynomial Function</span>
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.1.3</span><span class="space"> </span><span class="title">Graph of a Polynomial Function</span>
 </h3>
 <div class="para" id="graph-of-polynomial-function-2">The graph of a polynomial function is both \textbf{smooth} (in that it contains no sharp corners) and \textbf{continuous} (it has no ``breaks" and can be drawn without lifting your pencil off the page).</div>
 <div class="para" id="graph-of-polynomial-function-3">A polynomial has possibly multiple points where it turns around, going from increasing to decreasing, or vice versa. It turns out that a polynomial of degree <span class="process-math">\(n\)</span> has at most <span class="process-math">\(n - 1\)</span> turning points.</div></section><section class="subsection" id="end-behavior"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.1.4</span><span class="space"> </span><span class="title">End Behavior of Polynomial Functions</span>
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.1.4</span><span class="space"> </span><span class="title">End Behavior of Polynomial Functions</span>
 </h3>
 <div class="para" id="end-behavior-2">As we’ve seen, sometimes polynomial functions go right and up, and sometimes they go right and down, and sometimes left and up and other times left and down. Whether a polynomial goes up or down on the right or left is what we call its \textit{end behavior}.</div>
 <article class="definition definition-like" id="end-behavior-3"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.1.4</span><span class="period">.</span><span class="space"> </span><span class="title">End Behavior.</span>
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.1.4</span><span class="period">.</span><span class="space"> </span><span class="title">End Behavior.</span>
 </h4>
 <div class="para" id="end-behavior-3-2">The \textbf{end behavior} of a function is its behavior as <span class="process-math">\(x\)</span> becomes large in either the positive or negative direction. In other words, as <span class="process-math">\(\abs{x}\text{,}\)</span> or the magnitude of <span class="process-math">\(x\text{,}\)</span> becomes large.</div></article><div class="para" id="end-behavior-4">Graphically, end behavior is the behavior to the ``far right" or ``far left" side of the graph. The graph of a polynomial function may increase and decrease on different intervals, however it will ``eventually" tend towards some behavior.</div>
 <div class="para" id="end-behavior-5">To describe end behavior, we often use a notation called \textbf{arrow notation},</div>
@@ -256,7 +294,7 @@ f(x) = a_n x^n + a_{n-1} x^{n-1} + \dots + a_2 x^2 + a_1 x + a_0
 <div class="para" id="end-behavior-8">Observe that the end behavior of a polynomial function is determined by the leading term. This is intuitively because when <span class="process-math">\(x\)</span> is large (either large positive or large negative), the leading term dominates the other terms, in the sense that it’s size is much larger than the others, to where the others are insignificant.</div>
 <div class="para" id="end-behavior-9">This can be summarized in the \textit{leading coefficient test}.</div>
 <article class="theorem theorem-like" id="end-behavior-10"><h4 class="heading">
-<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">1.1.5</span><span class="period">.</span><span class="space"> </span><span class="title">Leading coefficient test.</span>
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">2.1.5</span><span class="period">.</span><span class="space"> </span><span class="title">Leading coefficient test.</span>
 </h4>
 <div class="displaymath process-math" id="end-behavior-10-2">
 \begin{align*}
@@ -265,7 +303,7 @@ f(x) = a_n x^n + a_{n-1} x^{n-1} + \dots + a_2 x^2 + a_1 x + a_0
 <li id="end-behavior-11-1"><div class="para" id="p-derived-end-behavior-11-1">For an odd function, the sign of the leading coefficient determines the overall trend, when it overall has ``positive" or ``negative" slope. Odd-degree polynomial functions have graphs with opposite end behavior at each end.</div></li>
 <li id="end-behavior-11-2"><div class="para" id="p-derived-end-behavior-11-2">For an even function, the sign of the leading coefficient determines whether it ``opens up" or ``opens down". Even-degree polynomial functions have graphs with the same end behavior at each end.</div></li>
 </ul></section><section class="subsection" id="y-intercept"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.1.5</span><span class="space"> </span><span class="title">y-Intercept of a Polynomial Function</span>
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.1.5</span><span class="space"> </span><span class="title">y-Intercept of a Polynomial Function</span>
 </h3>
 <div class="para" id="y-intercept-2">Recall that the <span class="process-math">\(y\)</span>-intercept for linear and quadratic functions is simply the constant term,</div>
 <div class="displaymath process-math" id="y-intercept-3">
@@ -275,27 +313,27 @@ f(x) = a_n x^n + a_{n-1} x^{n-1} + \dots + a_2 x^2 + a_1 x + a_0
 <div class="para" id="y-intercept-4">More generally, the <span class="process-math">\(y\)</span>-intercept of a polynomial function is <span class="process-math">\((0,a_0)\text{,}\)</span> the constant term, because <span class="process-math">\(f(0) = a_0\text{.}\)</span>
 </div>
 <details id="y-intercept-5" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.6</span><span class="period">.</span><span class="space"> </span><span class="title">Example.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.1.6</span><span class="period">.</span><span class="space"> </span><span class="title">Example.</span>
 </h4></summary><article class="example example-like knowl__content"><div class="para" id="y-intercept-5-2">For <span class="process-math">\(f(x) = 2x^3 - 5x^2 + 7x - 4\text{,}\)</span> the <span class="process-math">\(y\)</span>-intercept is <span class="process-math">\(-4\text{.}\)</span>
 </div></article></details></section><section class="subsection" id="x-intercepts"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.1.6</span><span class="space"> </span><span class="title">x-Intercepts of a Polynomial Function</span>
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.1.6</span><span class="space"> </span><span class="title">x-Intercepts of a Polynomial Function</span>
 </h3>
 <div class="para" id="x-intercepts-2">The <span class="process-math">\(x\)</span>-intercept(s) of a polynomial function are the solutions to the equation <span class="process-math">\(f(x) = 0\text{.}\)</span>
 </div>
 <article class="definition definition-like" id="x-intercepts-3"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.1.7</span><span class="period">.</span><span class="space"> </span><span class="title">Zero (Root) of a Function.</span>
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.1.7</span><span class="period">.</span><span class="space"> </span><span class="title">Zero (Root) of a Function.</span>
 </h4>
 <div class="para" id="x-intercepts-3-2">A number <span class="process-math">\(c\)</span> is a \textbf{zero} or (\textbf{root}) of <span class="process-math">\(f(x)\)</span> if <span class="process-math">\(f(c) = 0\text{.}\)</span>
 </div>
 <ul class="disc" id="x-intercepts-3-3"><li id="x-intercepts-3-3-1"><div class="para" id="p-derived-x-intercepts-3-3-1">The number <span class="process-math">\(c\)</span> is a zero if and only if <span class="process-math">\(c\)</span> is an <span class="process-math">\(x\)</span>-intercept of the graph of <span class="process-math">\(f(x)\text{.}\)</span>
 </div></li></ul></article><div class="para" id="x-intercepts-4">We will explore various techniques in order to solve an equation like this. In general, solving this equation by hand and exactly is very difficult, and sometimes impossible.</div></section><section class="subsection" id="remark"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.1.7</span><span class="space"> </span><span class="title">Remark</span>
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.1.7</span><span class="space"> </span><span class="title">Remark</span>
 </h3>
 <div class="para" id="remark-2">Technically, the zero polynomial <span class="process-math">\(f(x) = 0\)</span> is said to have degree <span class="process-math">\(-\infty\text{,}\)</span> not 0 (for technical reasons that will become clear later).</div></section><section class="subsection" id="degree-product"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.1.8</span><span class="space"> </span><span class="title">Degree of a Product of Polynomials</span>
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.1.8</span><span class="space"> </span><span class="title">Degree of a Product of Polynomials</span>
 </h3>
 <article class="theorem theorem-like" id="degree-product-2"><h4 class="heading">
-<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">1.1.8</span><span class="period">.</span><span class="space"> </span><span class="title">Degree of a Product.</span>
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">2.1.8</span><span class="period">.</span><span class="space"> </span><span class="title">Degree of a Product.</span>
 </h4>
 <div class="para" id="degree-product-2-2">The degree of a product of polynomials is the sum of the degrees. In particular, the product of <span class="process-math">\(n\)</span> linear factors is a polynomial of degree <span class="process-math">\(n\text{.}\)</span>
 </div></article></section></section></div>

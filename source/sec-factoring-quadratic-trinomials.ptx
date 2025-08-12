@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="sec-factoring-quadratic-trinomials" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Factoring Quadratic Trinomials</title>
+  <introduction>
+    <p>Factoring quadratic trinomials is arguably the single most used skill in high-school mathematics, being used in uncountably many high-school (and college) math problems. In this way, it is very important to master. However, unfortunately, it is among the least important and least useful topic "in the real world".</p>
+
+    <p>The goal is to factor any expression of the form <m>ax^2 + bx + c</m>, where <m>a, b, c</m> are any integers.</p>
+    <p>
+      <ul>
+        <li>First, we'll start with a simpler case, when <m>a = 1</m>.</li>
+        <li>Then, we'll consider the more difficult case, when <m>a \neq 1</m>.</li>
+      </ul>
+    </p>
+  </introduction>
+
+  <subsection>
+    <title>Factoring <m>x^2+bx+c</m> (Sum and Product Method)</title>
+    <example>
+      <p>We want to take an expression like <m>x^2 + 7x + 6</m>, and rewrite it as <m>(x + \quad)(x + \quad)</m>. The question is: how to choose the two numbers to put in the brackets. To do this, let's observe the pattern for how expansions work. Consider the expansion of <m>(x+3)(x+5)</m>,</p>
+      <md>
+        <mrow>(x+3)(x+5) \amp = x^2 + 3x + 5x + 15</mrow>
+        <mrow>\amp = x^2 + 8x + 15</mrow>
+      </md>
+      <p>Here are some other expansions,</p>
+      <md>
+        <mrow>(x+2)(x+3) \amp = x^2 + 5x + 6</mrow>
+        <mrow>(x+7)(x-2) \amp = x^2 + 5x - 14</mrow>
+        <mrow>(x-5)(x-3) \amp = x^2 - 8x + 15</mrow>
+      </md>
+      <p>Observe how expanding the left side leads to the right side. On the right side, there are always 3 terms: <m>x^2</m>, an <m>x</m> term, and a constant number term. Also, to get the coefficient of the middle <m>x</m> term, you <em>add</em> the two numbers in the brackets. To get the last constant term, you <em>multiply</em> those two numbers. In other words,</p>
+      <md>
+        <mrow>(x+3)(x+5) \amp = x^2 + 3x + 5x + 15</mrow>
+        <mrow>\amp = x^2 + \left(\text{sum of 3 and 5}\right)x + \left(\text{product of 3 and 5} \right)</mrow>
+        <mrow>\amp = x^2 + 8x + 15</mrow>
+      </md>
+    </example>
+    <p>In general, if we multiply two factors together, say <m>x+a</m> and <m>x+b</m>, we get,</p>
+    <md>
+      <mrow>(x+a)(x+b) \amp = x^2 + ax + bx + ab</mrow>
+      <mrow>\amp = x^2 + (a + b)x + ab</mrow>
+    </md>
+    <p>
+      <ul>
+        <li>The first term is always <m>x^2</m>.</li>
+        <li>The coefficient of the middle term is the <em>sum</em> of <m>a</m> and <m>b</m>.</li>
+        <li>The last term is the <em>product</em> of <m>a</m> and <m>b</m>.</li>
+      </ul>
+    </p>
+    <p>In summary,</p>
+    <md>
+      <mrow>\boxed{(x + a)(x + b)
+      = x^{2}
+      + \underbrace{(a + b)}_{\substack{\text{coefficient of }x\\\text{is the sum }a + b}}\,x
+      + \underbrace{ab}_{\substack{\text{constant term}\\\text{is the product }ab}}}</mrow>
+    </md>
+    <p>This leads to a general rule for factoring an expression of the form <m>x^2 + bx + c</m>.</p>
+    <md>
+      <mrow>\boxed{\text{To factor } x^2+bx+c \text{ , find two numbers that multiply to } c \text{ and add to } b}</mrow>
+    </md>
+
+    <exercise>
+      <statement>Factor <m>x^2 + 7x + 12</m>.</statement>
+    </exercise>
+
+    <exercise>
+      <statement>Factor <m>x^2 - 7x + 6</m>.</statement>
+    </exercise>
+
+    <p>In summary,</p>
+    <p>
+      <ol>
+        <li>Arrange the trinomial in descending power order <m>x^2 + bx + c</m> (if needed)</li>
+        <li>Go through the pairs of number which multiply to <m>c</m>, and check if they add to <m>b</m>.</li>
+        <li>If they do, then write it as <m>(x+ \quad)(x + \quad)</m></li>
+      </ol>
+    </p>
+
+    <exercise>
+      <statement>Factor each quadratic expression.
+        <p>
+          <ol marker="a">
+            <li><m>x^2 + 3x + 2</m></li>
+            <li><m>x^2 - 6x + 8</m></li>
+            <li><m>x^2 + 7x + 12</m></li>
+            <li><m>x^2 + 10x + 24</m></li>
+            <li><m>x^2 - 13x + 12</m></li>
+            <li><m>x^2 - 3x - 18</m></li>
+            <li><m>x^2 + 11x + 18</m></li>
+            <li><m>x^2 - x - 2</m></li>
+            <li><m>x^2 + x - 6</m></li>
+            <li><m>x^2 - x - 6</m></li>
+            <li><m>x^2 - x - 30</m></li>
+            <li><m>x^2 + 13x + 36</m></li>
+            <li><m>x^2 + 12x + 35</m></li>
+            <li><m>x^2 - 10x + 24</m></li>
+            <li><m>x^2 + 15x + 54</m></li>
+            <li><m>x^2 + 26x + 25</m></li>
+            <li><m>x^2 - 10x + 9</m></li>
+            <li><m>x^2 - 11x + 18</m></li>
+            <li><m>x^2 - 14x + 33</m></li>
+            <li><m>x^2 - 14x + 45</m></li>
+            <li><m>x^2 - 2x - 15</m></li>
+            <li><m>x^2 + 3x - 28</m></li>
+            <li><m>x^2 + 4x - 45</m></li>
+            <li><m>x^2 + 6x - 27</m></li>
+            <li><m>x^2 - 24x + 80</m></li>
+            <li><m>x^2 + 52x + 100</m></li>
+          </ol>
+        </p>
+      </statement>
+    </exercise>
+
+    <p>Some additional helpful observations,</p>
+    <ul>
+      <li>
+        <p>
+          When the constant term <m>c</m> is positive, then the factors of <m>c</m> must be either both positive or both negative. If the middle term <m>b</m> is positive, then both must be positive. If the middle term is negative, then both must be negative.
+        <ul>
+          <li>E.g. <m>x^2+7x+12 = (x+4)(x+3)</m> (last term is positive, middle term is positive, so both factors are positive)</li>
+          <li>E.g. <m>x^2-9x+20 = (x-5)(x-4)</m> (last term is positive, middle term is negative, so both factors are negative)</li>
+        </ul>   
+        </p>
+      </li>
+      <li>
+        <p>
+          When the constant term <m>c</m> is negative, then the factors of <m>c</m> must have opposite signs (one positive, one negative). The sign of the larger number will be the sign of the coefficient of the middle term.
+        <ul>
+          <li>E.g. <m>x^2-x-6=(x-3)(x+2)</m> (last term is negative, so signs are opposite, and middle term is negative, so <m>6 = 3 \times 2</m> and 3 is negative)</li>
+          <li>E.g. <m>x^2+2x-15 = (x+5)(x-3)</m> (last term is negative, so signs are opposite, and middle term is positive, so <m>15 = 5 \times 3</m> and the 5 is positive)</li>
+        </ul>
+        </p>
+      </li>
+    </ul>
+  </subsection>
+
+  <subsection>
+    <title>Factoring Trinomials with Common Factors</title>
+    <p>Sometimes the trinomial is set up so that <m>a \neq 1</m> (the number in front of <m>x^2</m> is not 1), however, there is a common factor that can be factored out, reducing the expression to one which can be factored using the previous method.</p>
+    <exercise>
+      <statement>Factor each quadratic expression.
+        <p>
+          <ol marker="a">
+            <li><m>3x^2 + 30x + 75</m></li>
+            <li><m>2x^2 - 4x - 70</m></li>
+            <li><m>2x^2 - 32x + 128</m></li>
+            <li><m>5x^2 + 10x + 5</m></li>
+            <li><m>3x^2 - 30x + 48</m></li>
+            <li><m>6x^2 - 36x + 54</m></li>
+            <li><m>x^3 + 2x^2 + x</m></li>
+            <li><m>x^3 + 5x^2 - 36x</m></li>
+          </ol>
+        </p>
+      </statement>
+      <solution></solution>
+    </exercise>
+  </subsection>
+
+  <subsection>
+    <title>Factoring Polynomials of the form <m>ax^2 + bx + c</m>, <m>a \neq 1</m></title>
+    <p>There are many methods for factoring these kinds of polynomials. All of them end up with the same result, but some are more efficient than others. I personally believe the cross method is the most efficient and easiest method to use.</p>
+  </subsection>
+
+  <subsection>
+    <title>Cross Method</title>
+    <example>
+      <p>
+        Consider, <md><mrow>2x^2 + 7x + 3</mrow></md> To do the cross method, find two things that multiply to the first term, and two things that multiply to the last term. Then, draw a crisscross or X shape. Multiply the diagonals and add them up. The combination is correct if the diagonals add up to the middle term.
+      </p>
+      <image width="50%">
+        <latex-image>
+          \begin{tikzpicture}[baseline=(M.base)]
+              \node (M) at (0,0)    {$2x$};
+              \node (P) at (0,-1)   {$x$};
+              \node (N) at (1.5,0)  {$3$};
+              \node (Q) at (1.5,-1) {$1$};
+              \draw (M) -- (Q);
+              \draw (P) -- (N);
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+      <p>However, the diagonals add up to <m>2x + 3x = 5x</m>, which isn't the middle term. Instead, switch the 3 and the 1,</p>
+      <image width="50%">
+        <latex-image>
+          \begin{tikzpicture}[baseline=(M.base)]
+              \node (M) at (0,0)    {$2x$};
+              \node (P) at (0,-1)   {$x$};
+              \node (N) at (1.5,0)  {$1$};
+              \node (Q) at (1.5,-1) {$3$};
+              \draw (M) -- (Q);
+              \draw (P) -- (N);
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+      <p>We now get <m>6x + x = 7x</m>, which is the middle term. After you've found the correct combination, the two factors can be read horizontally,</p>
+      <image width="50%">
+        <latex-image>
+          \begin{tikzpicture}
+              % top row binomial
+              \node (M) at (0,0)    {$2x$};
+              \node at (0.75,0) {$+$};
+              \node (N) at (1.5,0)  {$1$};
+
+              % bottom row binomial
+              \node (P) at (0,-1)   {$x$};
+              \node at (0.75,-1) {$+$};
+              \node (Q) at (1.5,-1) {$3$};
+
+              % parentheses
+              \node at (-0.4,  0) {$($};
+              \node at (-0.4, -1) {$($};
+              \node at (1.9,   0) {$)$};
+              \node at (1.9,  -1) {$)$};
+
+              % cross lines
+              \draw (M) -- (Q);
+              \draw (P) -- (N);
+          \end{tikzpicture}
+        </latex-image>
+        </image>
+      <md>
+        <mrow>= (2x + 1)(x + 3)</mrow>
+      </md>
+    </example>
+
+    <example>
+      <p>
+        The cross method can be used even in the previous simpler case when <m>a = 1</m>. In other words, the cross method is a generalization of the sum and product method that we used when <m>a = 1</m>. For example, for, <md><mrow>x^2 - x - 20</mrow></md> We could think of factors of <m>-20</m> that add up to <m>-1</m>, which are <m>-5</m> and <m>4</m>, to get,
+      </p>
+      <md>
+        <mrow>\amp = (x-5)(x+4)</mrow>
+      </md>
+      <p>
+        However, we can also use the cross method. The first term is <m>x^2</m>, so we can write <m>x</m> and <m>x</m> on the left side, and the last term is <m>-20</m>, so we can write <m>-5</m> and <m>4</m> on the right side. Then, we draw a crisscross or X shape, multiply the diagonals, and add them up. The combination is correct if the diagonals add up to the middle term.
+      </p>
+      <md>
+        <mrow>x^2 - x - 20</mrow>
+      </md>
+      <image width="50%">
+        <latex-image>
+          \begin{tikzpicture}[baseline=(M.base)]
+              \node (M) at (0,0)    {$x$};
+              \node (P) at (0,-1)   {$x$};
+              \node (N) at (1.5,0)  {$-5$};
+              \node (Q) at (1.5,-1) {$4$};
+              \draw (M) -- (Q);
+              \draw (P) -- (N);
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+      <md>
+        <mrow>= (x-5)(x+4)</mrow>
+      </md>
+      <p>
+        This gives the same result as before.
+      </p>
+    </example>
+
+    <p>
+      At first, you will have to guess and check each combination until you get the correct one. With some practice, you will become better at guessing what the factors are, without having to go through every possible combination.
+    </p>
+
+    <example>
+      <p>
+        Consider, <md><mrow>-6x^2 + 17x + 3</mrow></md> In this case, <m>a = -6</m> which is negative, unlike the previous examples. Technically, you can proceed as usual, finding two things that multiply to <m>-6x^2</m> and <m>3</m>, for example,
+      </p>
+      <image width="50%">
+        <latex-image>
+          \begin{tikzpicture}[baseline=(M.base)]
+              \node (M) at (0,0)    {$-6x$};
+              \node (P) at (0,-1)   {$x$};
+              \node (N) at (1.5,0)  {$3$};
+              \node (Q) at (1.5,-1) {$1$};
+              \draw (M) -- (Q);
+              \draw (P) -- (N);
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+      <p>However, it turns out that the negative on the left side makes things more complicated, because then you have to worry about where to put the negative on the left side, as well as if the right side is 3 and 1 or <m>-3</m> and <m>-1</m>. There are a lot of negative signs. Instead, factor out <m>-1</m> from all terms first, which flips the sign of all the terms,</p>
+      <md>
+        <mrow>- \brac{6x^2 - 17x - 3}</mrow>
+      </md>
+      <p>Then, factor the expression inside the brackets as before. Now, the only sign choice is the <m>-3</m>, where one of the factors must be negative.</p>
+      <md>
+        <mrow>- \brac{6x^2 - 17x - 3}</mrow>
+      </md>
+      <image width="50%">
+        <latex-image>
+          \begin{tikzpicture}[baseline=(M.base)]
+              \node (M) at (0,0)    {$6x$};
+              \node (P) at (0,-1)   {$x$};
+              \node (N) at (1.5,0)  {$1$};
+              \node (Q) at (1.5,-1) {$-3$};
+              \draw (M) -- (Q);
+              \draw (P) -- (N);
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+      <md>
+        <mrow>= -(6x+1)(x-3)</mrow>
+      </md>
+    </example>
+
+    <exercise>
+      <statement>Factor each expression fully.
+        <p>
+          <ol marker="a">
+            <li><m>2x^2 + 3x - 5</m></li>
+            <li><m>3x^2 - 5x - 2</m></li>
+            <li><m>6x^2 + 19x + 3</m></li>
+            <li><m>-9x^2 + 12x - 4</m></li>
+            <li><m>15x^2 + x - 2</m></li>
+            <li><m>3x^2 + 13x + 4</m></li>
+            <li><m>2x^2 + 5x + 3</m></li>
+            <li><m>7x^2 + 9x + 2</m></li>
+            <li><m>-5x^2 + 11x - 2</m></li>
+            <li><m>2x^2 - 13x + 20</m></li>
+            <li><m>3x^2 + 10x - 8</m></li>
+            <li><m>6x^2 - 13x + 6</m></li>
+            <li><m>14x^2 + 37x + 5</m></li>
+            <li><m>2x^2 + 7x + 6</m></li>
+            <li><m>5x^2 - 14x - 3</m></li>
+            <li><m>12x^2 + 17x - 40</m></li>
+            <li><m>24x^2 - 17x + 3</m></li>
+          </ol>
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>Factor each expression fully.
+        <p>
+          <ol marker="a">
+            <li><m>5x^2 - 8x + 3</m></li>
+            <li><m>10x^2 + 17x + 3</m></li>
+            <li><m>-12x^2 + 16x + 3</m></li>
+            <li><m>2x^2 + 7x + 5</m></li>
+            <li><m>2x^2 - 3x - 9</m></li>
+            <li><m>-8x^2 - 14x - 3</m></li>
+            <li><m>6x^2 + 5x + 1</m></li>
+            <li><m>11x^2 - 9x - 2</m></li>
+            <li><m>2x^2 + 11x - 21</m></li>
+            <li><m>3x^2 + 7x + 4</m></li>
+            <li><m>-3x^2 - x + 14</m></li>
+            <li><m>3x^2 - 20x - 7</m></li>
+            <li><m>15x^2 - 4x - 4</m></li>
+            <li><m>2x^2 + 11x + 5</m></li>
+            <li><m>-7x^2 - 24x - 9</m></li>
+            <li><m>2x^2 + 9x - 18</m></li>
+            <li><m>9x^2 - 12x + 4</m></li>
+          </ol>
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>Factor each expression fully.
+        <p>
+          <ol marker="a">
+            <li><m>21x^2 - 62x - 3</m></li>
+            <li><m>2x^2 + 17x - 9</m></li>
+            <li><m>3x^2 + 5x - 2</m></li>
+            <li><m>8x^2 + 14x + 3</m></li>
+            <li><m>9x^2 - 12x + 4</m></li>
+            <li><m>2x^2 - 9x - 5</m></li>
+            <li><m>-4x^2 - 9x + 9</m></li>
+            <li><m>5x^2 + 25x + 20</m></li>
+            <li><m>3x^2 + 8x + 4</m></li>
+            <li><m>2x^2 + 3x - 2</m></li>
+            <li><m>21x^2 + 11x + 2</m></li>
+            <li><m>10x^2 - 54x - 112</m></li>
+            <li><m>15x^2 - 13x - 6</m></li>
+            <li><m>6x^2 - 13x + 6</m></li>
+            <li><m>2x^2 + 8x + 6</m></li>
+            <li><m>-8x^2 - 15x + 2</m></li>
+            <li><m>3x^2 - 7x - 6</m></li>
+          </ol>
+        </p>
+      </statement>
+    </exercise>
+  </subsection>
+
+  <subsection>
+    <title>Factoring Out the GCF First Before the Cross Method</title>
+    <example>
+      <statement>Consider the quadratic, <md><mrow>3x^2 + 30x + 75</mrow></md></statement>
+      <solution>
+        <p>
+          Here, the numbers are kinda large, but we can still use the cross method. After some trial and error, the correct combination is,
+        </p>
+        <image width="50%">
+          <latex-image>
+            \begin{tikzpicture}[baseline=(M.base)]
+                \node (M) at (0,0)    {$3x$};
+                \node (P) at (0,-1)   {$x$};
+                \node (N) at (1.5,0)  {$15$};
+                \node (Q) at (1.5,-1) {$5$};
+                \draw (M) -- (Q);
+                \draw (P) -- (N);
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+        <md>
+          <mrow>= (3x + 15)(x + 5)</mrow>
+        </md>
+        <p>However, notice that <m>3x + 15</m> also contains a common factor of 3, so we should factor it out.</p>
+        <md>
+          <mrow>\amp = 3(x + 5)(x + 5)</mrow>
+          <mrow>\amp = 3(x + 5)^2</mrow>
+        </md>
+        <p>Instead, it is easier to first factor out the common factor of 3,</p>
+        <md>
+          <mrow>3x^2 + 30x + 75 \amp = 3 \brac{x^2 + 10x + 25}</mrow>
+        </md>
+        <p>Then, factoring the remaining <m>x^2 + 10x + 25</m> only uses the sum and product method, and has smaller numbers to work with,</p>
+        <md>
+          <mrow>\amp = 3 (x + 5)(x + 5)</mrow>
+        </md>
+      </solution>
+    </example>
+    <p>
+      In general, it is easier to first factor out the GCF (greatest common factor), if there is one, before using the cross method. This makes the numbers you have to work with smaller, making it easier to find the factors.
+    </p>
+  </subsection>
+
+  <subsection>
+    <title>Summary of Factoring <m>ax^2 + bx + c</m></title>
+    <p>
+      <ol>
+        <li>Always start by factoring out any common factor (the GCF)</li>
+        <ul>
+          <li>If the leading coefficient is negative, factor out <m>-1</m> from all terms.</li>
+        </ul>
+        <li>
+          <ul>
+            <li>If <m>a = 1</m> (<m>x^2 + bx + c</m>), then find two numbers that multiply to <m>c</m> and add to <m>b</m>.</li>
+            <li>If <m>a \neq 1</m> (<m>ax^2 + bx + c</m>), then use the cross method.</li>
+          </ul>
+        </li>
+        <li>To check your answer, you can expand (FOIL) and check if you get back the original expression.</li>
+      </ol>
+    </p>
+  </subsection>
+</section>
