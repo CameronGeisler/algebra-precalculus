@@ -73,7 +73,7 @@ window.MathJax = {
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta xmlns:xlink="http://www.w3.org/1999/xlink" property="og:type" content="book">
 <meta xmlns:xlink="http://www.w3.org/1999/xlink" property="book:title" content="Algebra and Precalculus">
-<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="book:author" content="You">
+<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="book:author" content="Cameron Geisler">
 <script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
 <!--** Runestone components to run locally in reader's browser **-->
 <!--** No external communication:                              **-->
@@ -96,22 +96,22 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.8.4';
+eBookConfig.runestone_version = '7.9.6';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.962d00926ef9460e.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.2e7f40e86ae7d163.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.5bdeacdba067a0e3.css">
+<script src="_static/prefix-runtime.b215b0da62d655bd.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.28cc3c4821792be5.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.8141ae22fd347e48.css">
 <script xmlns:xlink="http://www.w3.org/1999/xlink" src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
 </head>
 <body id="changeme" class="pretext book ignore-math">
 <a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
 <h1 class="heading"><a href="my-great-book.html"><span class="title">Algebra and Precalculus</span></a></h1>
-<p class="byline">You</p>
+<p class="byline">Cameron Geisler</p>
 </div></div></header><nav xmlns:xlink="http://www.w3.org/1999/xlink" id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
 <button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
 <div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
@@ -125,7 +125,32 @@ eBookConfig.enable_chatcodes =  false;
 </div>
 </div>
 <span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="ch-trigonometry.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-trigonometry.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-ratios-of-non-acute-angles-reference-angles.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
-</div></nav><div xmlns:xlink="http://www.w3.org/1999/xlink" id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+</div></nav><div xmlns:xlink="http://www.w3.org/1999/xlink" id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+\newcommand{\abs}[1]{\left\lvert #1 \right\rvert}
+\newcommand{\set}[1]{\left\{ #1 \right\}}
+\renewcommand{\neg}{\sim}
+\newcommand{\brac}[1]{\left( #1 \right)}
+\newcommand{\rad}[1]{#1 \ \text{rad}}
+\newcommand{\eval}[1]{\left. #1 \right|}
+\newcommand{\floor}[1]{\left\lfloor #1 \right\rfloor}
+\newcommand{\ceil}[1]{\left\lceil #1 \right\rceil}
+
+
+\newcommand{\crossmethod}[4]{
+  \begin{tikzpicture}[baseline=(M.base)]
+    
+    \node (M) at (0,0)    {$#1$};   
+    \node (P) at (0,-1)   {$#2$};   
+    \node (N) at (1.5,0)  {$#3$};   
+    \node (Q) at (1.5,-1) {$#4$};   
+    
+    \draw (M) -- (Q);
+    \draw (P) -- (N);
+  \end{tikzpicture}
+}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
 \newcommand{\amp}{&amp;}
@@ -136,51 +161,64 @@ eBookConfig.enable_chatcodes =  false;
 <div xmlns:xlink="http://www.w3.org/1999/xlink" id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
 <li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="ch-polynomial-functions.html" class="internal"><span class="codenumber">1</span> <span class="title">Polynomial Functions</span></a></div>
+<div class="toc-title-box"><a href="ch-quadratic-functions-and-equations.html" class="internal"><span class="codenumber">1</span> <span class="title">Quadratic Functions and Equations</span></a></div>
 <ul class="structural toc-item-list"><li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec-polynomial-functions-intro.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Polynomial Functions Intro</span></a></div>
+<div class="toc-title-box"><a href="sec-factoring-quadratic-trinomials.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Factoring Quadratic Trinomials</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polynomial-functions-intro.html#power-functions" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Power Functions</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polynomial-functions-intro.html#polynomial-functions" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Polynomial Functions</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polynomial-functions-intro.html#graph-of-polynomial-function" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Graph of a Polynomial Function</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polynomial-functions-intro.html#end-behavior" class="internal"><span class="codenumber">1.1.4</span> <span class="title">End Behavior of Polynomial Functions</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polynomial-functions-intro.html#y-intercept" class="internal"><span class="codenumber">1.1.5</span> <span class="title">y-Intercept of a Polynomial Function</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polynomial-functions-intro.html#x-intercepts" class="internal"><span class="codenumber">1.1.6</span> <span class="title">x-Intercepts of a Polynomial Function</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polynomial-functions-intro.html#remark" class="internal"><span class="codenumber">1.1.7</span> <span class="title">Remark</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polynomial-functions-intro.html#degree-product" class="internal"><span class="codenumber">1.1.8</span> <span class="title">Degree of a Product of Polynomials</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factoring-quadratic-trinomials.html#sec-factoring-quadratic-trinomials-3" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Factoring <span class="process-math">\(x^2+bx+c\)</span> (Sum and Product Method)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factoring-quadratic-trinomials.html#sec-factoring-quadratic-trinomials-4" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Factoring Trinomials with Common Factors</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factoring-quadratic-trinomials.html#sec-factoring-quadratic-trinomials-5" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Factoring Polynomials of the form <span class="process-math">\(ax^2 + bx + c\text{,}\)</span> <span class="process-math">\(a \neq 1\)</span></span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factoring-quadratic-trinomials.html#sec-factoring-quadratic-trinomials-6" class="internal"><span class="codenumber">1.1.4</span> <span class="title">Cross Method</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factoring-quadratic-trinomials.html#sec-factoring-quadratic-trinomials-7" class="internal"><span class="codenumber">1.1.5</span> <span class="title">Factoring Out the GCF First Before the Cross Method</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factoring-quadratic-trinomials.html#sec-factoring-quadratic-trinomials-8" class="internal"><span class="codenumber">1.1.6</span> <span class="title">Summary of Factoring <span class="process-math">\(ax^2 + bx + c\)</span></span></a></div></li>
+</ul>
+</li></ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-polynomial-functions.html" class="internal"><span class="codenumber">2</span> <span class="title">Polynomial Functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polynomial-functions-intro.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Polynomial Functions Intro</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polynomial-functions-intro.html#power-functions" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Power Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polynomial-functions-intro.html#polynomial-functions" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Polynomial Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polynomial-functions-intro.html#graph-of-polynomial-function" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Graph of a Polynomial Function</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polynomial-functions-intro.html#end-behavior" class="internal"><span class="codenumber">2.1.4</span> <span class="title">End Behavior of Polynomial Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polynomial-functions-intro.html#y-intercept" class="internal"><span class="codenumber">2.1.5</span> <span class="title">y-Intercept of a Polynomial Function</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polynomial-functions-intro.html#x-intercepts" class="internal"><span class="codenumber">2.1.6</span> <span class="title">x-Intercepts of a Polynomial Function</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polynomial-functions-intro.html#remark" class="internal"><span class="codenumber">2.1.7</span> <span class="title">Remark</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polynomial-functions-intro.html#degree-product" class="internal"><span class="codenumber">2.1.8</span> <span class="title">Degree of a Product of Polynomials</span></a></div></li>
 </ul>
 </li></ul>
 </li>
 <li class="toc-item toc-chapter contains-active">
-<div class="toc-title-box"><a href="ch-trigonometry.html" class="internal"><span class="codenumber">2</span> <span class="title">Trigonometry</span></a></div>
+<div class="toc-title-box"><a href="ch-trigonometry.html" class="internal"><span class="codenumber">3</span> <span class="title">Trigonometry</span></a></div>
 <ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-section contains-active">
-<div class="toc-title-box"><a href="sec-radian-measure.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Radian Measure</span></a></div>
+<div class="toc-title-box"><a href="sec-radian-measure.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Radian Measure</span></a></div>
 <ul class="structural toc-item-list active">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-radian-measure.html#alternate-angular-units" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Alternate Angular Units</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-radian-measure.html#motivation-for-radians" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Motivation for Radians</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-radian-measure.html#radians" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Radians</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-radian-measure.html#converting-between-degrees-and-radians" class="internal"><span class="codenumber">2.1.4</span> <span class="title">Converting Between Degrees and Radians</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-radian-measure.html#sketching-radian-angles-in-standard-position" class="internal"><span class="codenumber">2.1.5</span> <span class="title">Sketching Radian Angles in Standard Position</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-radian-measure.html#special-angles-in-radians" class="internal"><span class="codenumber">2.1.6</span> <span class="title">Special Angles in Radians</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-radian-measure.html#alternate-angular-units" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Alternate Angular Units</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-radian-measure.html#motivation-for-radians" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Motivation for Radians</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-radian-measure.html#radians" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Radians</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-radian-measure.html#converting-between-degrees-and-radians" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Converting Between Degrees and Radians</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-radian-measure.html#sketching-radian-angles-in-standard-position" class="internal"><span class="codenumber">3.1.5</span> <span class="title">Sketching Radian Angles in Standard Position</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-radian-measure.html#special-angles-in-radians" class="internal"><span class="codenumber">3.1.6</span> <span class="title">Special Angles in Radians</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec-ratios-of-non-acute-angles-reference-angles.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Ratios of Non-Acute Angles, Reference Angles</span></a></div>
+<div class="toc-title-box"><a href="sec-ratios-of-non-acute-angles-reference-angles.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Ratios of Non-Acute Angles, Reference Angles</span></a></div>
 <ul class="structural toc-item-list"><li class="toc-item toc-subsection">
-<div class="toc-title-box"><a href="sec-ratios-of-non-acute-angles-reference-angles.html#sec-ratios-of-non-acute-angles-reference-angles-3" class="internal"><span class="codenumber">2.2.1</span> <span class="title"></span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-ratios-of-non-acute-angles-reference-angles.html#exercises-trig-exact" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Exercises</span></a></div></li></ul>
+<div class="toc-title-box"><a href="sec-ratios-of-non-acute-angles-reference-angles.html#sec-ratios-of-non-acute-angles-reference-angles-3" class="internal"><span class="codenumber">3.2.1</span> <span class="title"></span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-ratios-of-non-acute-angles-reference-angles.html#exercises-trig-exact" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Exercises</span></a></div></li></ul>
 </li></ul>
 </li>
 </ul>
 </li>
-<li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section xmlns:xlink="http://www.w3.org/1999/xlink" class="section" id="sec-radian-measure"><h2 class="heading hide-type">
-<span class="type">Section</span><span class="space"> </span><span class="codenumber">2.1</span><span class="space"> </span><span class="title">Radian Measure</span>
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">3.1</span><span class="space"> </span><span class="title">Radian Measure</span>
 </h2>
 <section class="introduction" id="sec-radian-measure-2"><div class="para" id="sec-radian-measure-2-1">There is another unit for measuring angles, called a <em class="emphasis">radian</em>, which turns out to be more useful than degrees to use in calculus. First, it is helpful to step back and understand the idea of how angles can be measured.</div></section><section class="subsection" id="alternate-angular-units"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.1.1</span><span class="space"> </span><span class="title">Alternate Angular Units</span>
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.1.1</span><span class="space"> </span><span class="title">Alternate Angular Units</span>
 </h3>
 <div class="para" id="alternate-angular-units-2">Degrees are a unit such that 360 degrees make a full rotation. This makes sense for practical applications, and historically, for navigation, architecture, and astronomy. This is because you can divide 360 evenly into many numbers. However, if we were starting from scratch, we could also consider alternate useful units of measuring angles. For example:</div>
 <div class="para logical" id="alternate-angular-units-3"><ul class="disc" id="alternate-angular-units-3-1">
@@ -190,31 +228,31 @@ eBookConfig.enable_chatcodes =  false;
 <li id="alternate-angular-units-3-1-4"><div class="para" id="p-derived-alternate-angular-units-3-1-4">We could define 1 unit to be a quarter rotation. Then, 4 units is a full rotation.</div></li>
 </ul></div>
 <div class="para" id="alternate-angular-units-4">Notice that ultimately, units are a convention, and what units are useful or most natural depends on the context.</div></section><section class="subsection" id="motivation-for-radians"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.1.2</span><span class="space"> </span><span class="title">Motivation for Radians</span>
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.1.2</span><span class="space"> </span><span class="title">Motivation for Radians</span>
 </h3>
 <div class="para" id="motivation-for-radians-2">There is another unit of angle measure, called a <em class="emphasis">radian</em>. The idea is that we will measure angles based on how long the arc of the angle is.</div>
 <figure class="figure figure-like" id="motivation-for-radians-3"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/motivation-for-radians-3-1.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.1.1<span class="period">.</span></span><span class="space"> </span></figcaption></figure><div class="para" id="motivation-for-radians-4">The longer the arc is, the bigger the angle that is swept out. The amount you rotate is proportional to how far you travel along the circle.</div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.1.1<span class="period">.</span></span><span class="space"> </span></figcaption></figure><div class="para" id="motivation-for-radians-4">The longer the arc is, the bigger the angle that is swept out. The amount you rotate is proportional to how far you travel along the circle.</div>
 <div class="para logical" id="motivation-for-radians-5"><ul class="disc" id="motivation-for-radians-5-1">
 <li id="motivation-for-radians-5-1-1"><div class="para" id="p-derived-motivation-for-radians-5-1-1">Small rotation <span class="process-math">\(\rightarrow\)</span> small distance traveled</div></li>
 <li id="motivation-for-radians-5-1-2"><div class="para" id="p-derived-motivation-for-radians-5-1-2">Big rotation <span class="process-math">\(\rightarrow\)</span> big distance traveled</div></li>
 </ul></div>
 <figure class="figure figure-like" id="motivation-for-radians-6"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/motivation-for-radians-6-1.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.1.2<span class="period">.</span></span><span class="space"> </span></figcaption></figure><div class="para" id="motivation-for-radians-7">However, just measuring the arc doesn’t fully work, because the arc length depends on the size of the circle (basically, it depends on it’s radius).</div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.1.2<span class="period">.</span></span><span class="space"> </span></figcaption></figure><div class="para" id="motivation-for-radians-7">However, just measuring the arc doesn’t fully work, because the arc length depends on the size of the circle (basically, it depends on it’s radius).</div>
 <div class="para logical" id="motivation-for-radians-8"><ul class="disc" id="motivation-for-radians-8-1">
 <li id="motivation-for-radians-8-1-1"><div class="para" id="p-derived-motivation-for-radians-8-1-1">If you have a small circle, you won’t have to walk very far to make a full loop.</div></li>
 <li id="motivation-for-radians-8-1-2"><div class="para" id="p-derived-motivation-for-radians-8-1-2">If you have a big circle, the same angle will mean you walk a lot farther.</div></li>
 </ul></div>
 <figure class="figure figure-like" id="motivation-for-radians-9"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/motivation-for-radians-9-1.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.1.3<span class="period">.</span></span><span class="space"> </span></figcaption></figure><div class="para" id="motivation-for-radians-10">We want a measurement which purely measures rotation, that isn’t affected by how big the circle is. The key idea is: even though the arc length changes when the circle gets bigger or smaller, it changes in a very predictable way. In particular, arc length is proportional to the radius.</div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.1.3<span class="period">.</span></span><span class="space"> </span></figcaption></figure><div class="para" id="motivation-for-radians-10">We want a measurement which purely measures rotation, that isn’t affected by how big the circle is. The key idea is: even though the arc length changes when the circle gets bigger or smaller, it changes in a very predictable way. In particular, arc length is proportional to the radius.</div>
 <div class="para logical" id="motivation-for-radians-11"><ul class="disc" id="motivation-for-radians-11-1">
 <li id="motivation-for-radians-11-1-1"><div class="para" id="p-derived-motivation-for-radians-11-1-1">If you <em class="emphasis">double</em> the radius, the arc length <em class="emphasis">doubles</em>.</div></li>
 <li id="motivation-for-radians-11-1-2"><div class="para" id="p-derived-motivation-for-radians-11-1-2">If you <em class="emphasis">triple</em> the radius, the arc length <em class="emphasis">triples</em>.</div></li>
 </ul></div>
 <details id="motivation-for-radians-12" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.1.4</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.4</span><span class="period">.</span>
 </h4></summary><article class="example example-like knowl__content"><div class="para" id="motivation-for-radians-12-1-1">For example, for this particular angle <span class="process-math">\(\theta\)</span> below, for <span class="process-math">\(r = 4\)</span> cm, the arc is 8 cm, and for <span class="process-math">\(r = 8\)</span> cm, the arc is 16 cm.</div> <figure class="figure figure-like" id="motivation-for-radians-12-1-2"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/motivation-for-radians-12-1-2-1.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.1.5<span class="period">.</span></span><span class="space"> </span></figcaption></figure> <div class="para" id="motivation-for-radians-12-1-3">While the arc lengths are different, in both scenarios, the arc length is 2 radius lengths.</div></article></details><div class="para" id="motivation-for-radians-13">To measure arc length, instead of using meters or centimeters or any other unit of length, we use the radius itself as the unit. In other words, we ask:</div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.1.5<span class="period">.</span></span><span class="space"> </span></figcaption></figure> <div class="para" id="motivation-for-radians-12-1-3">While the arc lengths are different, in both scenarios, the arc length is 2 radius lengths.</div></article></details><div class="para" id="motivation-for-radians-13">To measure arc length, instead of using meters or centimeters or any other unit of length, we use the radius itself as the unit. In other words, we ask:</div>
 <div class="displaymath process-math" id="motivation-for-radians-14">
 \begin{gather*}
 \text{"How many radius-lengths did you travel?"}
@@ -226,14 +264,14 @@ eBookConfig.enable_chatcodes =  false;
 <li id="motivation-for-radians-16-1-2"><div class="para" id="p-derived-motivation-for-radians-16-1-2">If the radius is 3 m, and the arc length is 15 m, that is <span class="process-math">\(\frac{15}{3} = 5\)</span> radius lengths of rotation.</div></li>
 </ul></div>
 <figure class="figure figure-like" id="motivation-for-radians-17"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/motivation-for-radians-17-1.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.1.6<span class="period">.</span></span><span class="space"> </span></figcaption></figure><div class="para" id="motivation-for-radians-18">In other words, to measure the angle, divide the arc length by the radius length.</div></section><section class="subsection" id="radians"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.1.3</span><span class="space"> </span><span class="title">Radians</span>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.1.6<span class="period">.</span></span><span class="space"> </span></figcaption></figure><div class="para" id="motivation-for-radians-18">In other words, to measure the angle, divide the arc length by the radius length.</div></section><section class="subsection" id="radians"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.1.3</span><span class="space"> </span><span class="title">Radians</span>
 </h3>
 <article class="definition definition-like" id="radians-2"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.1.7</span><span class="period">.</span>
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.1.7</span><span class="period">.</span>
 </h4>
 <div class="para" id="radians-2-1-1">One <dfn class="terminology">radian</dfn> is defined to be the angle at the center of a circle such that the arc length associated with it is equal to the radius <span class="process-math">\(r\)</span> of the circle,</div> <figure class="figure figure-like" id="radians-2-1-2"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/radians-2-1-2-1.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.1.8<span class="period">.</span></span><span class="space"> </span></figcaption></figure> <div class="para" id="radians-2-1-3">More generally, an angle <span class="process-math">\(\theta\)</span> with associated radius <span class="process-math">\(r\)</span> and arc length <span class="process-math">\(s\)</span> is given by,</div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.1.8<span class="period">.</span></span><span class="space"> </span></figcaption></figure> <div class="para" id="radians-2-1-3">More generally, an angle <span class="process-math">\(\theta\)</span> with associated radius <span class="process-math">\(r\)</span> and arc length <span class="process-math">\(s\)</span> is given by,</div>
 <div class="displaymath process-math" id="radians-2-1-4">
 \begin{gather*}
 \boxed{\theta = \frac{s}{r}}
@@ -244,7 +282,7 @@ eBookConfig.enable_chatcodes =  false;
 </div></li>
 <li id="radians-3-1-2"><div class="para" id="p-derived-radians-3-1-2">Radians are technically ``dimensionless", because they are the ratio of two lengths.</div></li>
 </ul></div></section><section class="subsection" id="converting-between-degrees-and-radians"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.1.4</span><span class="space"> </span><span class="title">Converting Between Degrees and Radians</span>
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.1.4</span><span class="space"> </span><span class="title">Converting Between Degrees and Radians</span>
 </h3>
 <div class="para" id="converting-between-degrees-and-radians-2">Degrees and radians are both units of angles, so we can convert between them. To find an equivalence between the two, first recall that <span class="process-math">\(360^\circ\)</span> corresponds to a full rotation. In radians, for a full rotation, its arc length is simply the circumference of the circle, which is given by <span class="process-math">\(C = 2 \pi r\text{.}\)</span> Then, <span class="process-math">\(\theta = \frac{2\pi r}{r} = 2\pi\text{.}\)</span> Therefore, a full rotation is <span class="process-math">\(2\pi\)</span> radians. This implies that,</div>
 <div class="displaymath process-math" id="converting-between-degrees-and-radians-3">
@@ -260,14 +298,14 @@ eBookConfig.enable_chatcodes =  false;
 </div>
 <div class="para" id="converting-between-degrees-and-radians-6">This is a conversion factor which allows us to convert between these two angle units, analogous to how 1 inch = 2.54 cm, or how 1 hour = 60 minutes.</div>
 <article class="theorem theorem-like" id="converting-between-degrees-and-radians-7"><h4 class="heading">
-<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">2.1.9</span><span class="period">.</span><span class="space"> </span><span class="title">Converting between degrees and radians.</span>
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">3.1.9</span><span class="period">.</span><span class="space"> </span><span class="title">Converting between degrees and radians.</span>
 </h4>
 <figure class="figure figure-like" id="converting-between-degrees-and-radians-7-2"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/converting-between-degrees-and-radians-7-2-1.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.1.10<span class="period">.</span></span><span class="space"> </span></figcaption></figure></article><div class="para" id="converting-between-degrees-and-radians-8">The ratio <span class="process-math">\(\frac{180^\circ}{\pi}\)</span> can be thought of as a conversion factor, a ratio used to convert between units.</div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.1.10<span class="period">.</span></span><span class="space"> </span></figcaption></figure></article><div class="para" id="converting-between-degrees-and-radians-8">The ratio <span class="process-math">\(\frac{180^\circ}{\pi}\)</span> can be thought of as a conversion factor, a ratio used to convert between units.</div>
 <details id="converting-between-degrees-and-radians-9" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">2.1.11</span><span class="period">.</span>
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.1.11</span><span class="period">.</span>
 </h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="converting-between-degrees-and-radians-9-1-1">Convert <span class="process-math">\(\frac{8\pi}{15}\)</span> to degrees.</div></article></details></section><section class="subsection" id="sketching-radian-angles-in-standard-position"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.1.5</span><span class="space"> </span><span class="title">Sketching Radian Angles in Standard Position</span>
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.1.5</span><span class="space"> </span><span class="title">Sketching Radian Angles in Standard Position</span>
 </h3>
 <div class="para" id="sketching-radian-angles-in-standard-position-2">To graph an angle in radians, it’s easiest to think in terms of fractions of <span class="process-math">\(\pi\text{.}\)</span> To start,</div>
 <div class="para logical" id="sketching-radian-angles-in-standard-position-3"><ul class="disc" id="sketching-radian-angles-in-standard-position-3-1">
@@ -277,7 +315,7 @@ eBookConfig.enable_chatcodes =  false;
 <span class="process-math">\(\pi\)</span> is a half rotation (<span class="process-math">\(180^\circ\)</span>)</div></li>
 </ul></div>
 <figure class="figure figure-like" id="sketching-radian-angles-in-standard-position-4"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/sketching-radian-angles-in-standard-position-4-1.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.1.12<span class="period">.</span></span><span class="space"> </span></figcaption></figure><div class="para" id="sketching-radian-angles-in-standard-position-5">Then,</div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.1.12<span class="period">.</span></span><span class="space"> </span></figcaption></figure><div class="para" id="sketching-radian-angles-in-standard-position-5">Then,</div>
 <div class="para logical" id="sketching-radian-angles-in-standard-position-6"><ul class="disc" id="sketching-radian-angles-in-standard-position-6-1">
 <li id="sketching-radian-angles-in-standard-position-6-1-1"><div class="para" id="p-derived-sketching-radian-angles-in-standard-position-6-1-1">
 <span class="process-math">\(\frac{\pi}{2}\)</span> (or half of <span class="process-math">\(\pi\)</span>) is a quarter rotation (half of a half rotation), which is <span class="process-math">\(90^\circ\)</span>
@@ -290,12 +328,12 @@ eBookConfig.enable_chatcodes =  false;
 </div></li>
 </ul></div>
 <figure class="figure figure-like" id="sketching-radian-angles-in-standard-position-7"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/sketching-radian-angles-in-standard-position-7-1.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.1.13<span class="period">.</span></span><span class="space"> </span></figcaption></figure><div class="para" id="sketching-radian-angles-in-standard-position-8">For bigger angles, we can count multiples.</div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.1.13<span class="period">.</span></span><span class="space"> </span></figcaption></figure><div class="para" id="sketching-radian-angles-in-standard-position-8">For bigger angles, we can count multiples.</div>
 <details id="sketching-radian-angles-in-standard-position-9" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.1.14</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.14</span><span class="period">.</span>
 </h4></summary><article class="example example-like knowl__content"><div class="para" id="sketching-radian-angles-in-standard-position-9-1-1">For example, for <span class="process-math">\(\frac{5\pi}{6}\text{,}\)</span> first divide <span class="process-math">\(\pi\)</span> into 6 equal pieces, and then count 5 of them,</div> <figure class="figure figure-like" id="sketching-radian-angles-in-standard-position-9-1-2"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/sketching-radian-angles-in-standard-position-9-1-2-1.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.1.15<span class="period">.</span></span><span class="space"> </span></figcaption></figure></article></details></section><section class="subsection" id="special-angles-in-radians"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.1.6</span><span class="space"> </span><span class="title">Special Angles in Radians</span>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.1.15<span class="period">.</span></span><span class="space"> </span></figcaption></figure></article></details></section><section class="subsection" id="special-angles-in-radians"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.1.6</span><span class="space"> </span><span class="title">Special Angles in Radians</span>
 </h3>
 <div class="displaymath process-math" id="special-angles-in-radians-2">
 \begin{align*}
