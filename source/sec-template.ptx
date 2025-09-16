@@ -5,13 +5,20 @@
 
   <introduction>
     <p>
-      Introduction.
+      This is the introduction to the section. It can contain any content
+      that is valid in a <introduction> element, including <p>, <ul>, <ol>,
+      <figure>, and <table>. You can also include other files using
+      <xi:include> tags.
     </p>
   </introduction>
 
-  <subsection>
+  <subsection xml:id="subsec-subsection-name">
+    <title>Subsection Name</title>
     <p>
-      This is a subsection.
+      This is the introduction to the subsection. It can contain any content
+      that is valid in a <introduction> element, including <p>, <ul>, <ol>,
+      <figure>, and <table>. You can also include other files using
+      <xi:include> tags.
     </p>
   </subsection>
 

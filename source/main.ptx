@@ -4,7 +4,7 @@
   <!-- we first include a file which contains the docinfo element: -->
   <xi:include href="./docinfo.ptx" />
 
-  <book xml:id="my-great-book">
+  <book xml:id="home">
     <title>Algebra and Precalculus</title>
     <!-- <subtitle>An example to get you started</subtitle> -->
 
@@ -14,6 +14,8 @@
     <!-- Include chapters -->'
     <xi:include href="./ch-quadratic-functions-and-equations.ptx" />'
     <xi:include href="./ch-polynomial-functions.ptx" />
+    <xi:include href="./ch-rational-functions.ptx" />
+    <!-- <xi:include href="./ch-exponential-and-logarithmic-functions.ptx" /> -->
     <xi:include href="./ch-trigonometry.ptx" />
 
     <!-- Include backmatter -->

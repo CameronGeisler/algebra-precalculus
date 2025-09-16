@@ -2,12 +2,10 @@
     // Map file patterns to the PreTeXt RelaxNG schema so the editor validates
     "xml.fileAssociations": [
       {
-        // Treat every .xml file in the workspace as PreTeXt
         "pattern": "**/*.xml",
         "systemId": "c:\\Users\\CKG\\.vscode\\extensions\\oscarlevin.pretext-tools-0.32.0\\assets\\schema\\pretext.rng"
       },
       {
-        // Also treat any .ptx under your source/ folder as PreTeXt
         "pattern": "**/source/**/*.ptx",
         "systemId": "c:\\Users\\CKG\\.vscode\\extensions\\oscarlevin.pretext-tools-0.32.0\\assets\\schema\\pretext.rng"
       }
