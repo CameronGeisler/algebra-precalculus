@@ -34,10 +34,13 @@
               <ul>
                 <li>If <m>\text{num} \lt \text{denom}</m>, then the line <m>y = 0</m> (the <m>x</m>-axis) is the horizontal asymptote.</li>
                 <li>If <m>\text{num} = \text{denom}</m>, then the line <m>y = \frac{\text{leading coefficient of num}}{\text{leading coefficient of denom}}</m>, the ratio of the leading coefficients, is the horizontal asymptote.</li>
-                <li>If <m>\text{num} \gt \text{denom}</m>, then there is no horizontal asymptote.
-                  <ul>
-                    <li>If <m>\text{num} = \text{denom} + 1</m>, then there is an oblique (slant) asymptote. Use synthetic division or long division.</li>
-                  </ul>
+                <li>
+                  <p>
+                    If <m>\text{num} \gt \text{denom}</m>, then there is no horizontal asymptote.
+                    <ul>
+                      <li>If <m>\text{num} = \text{denom} + 1</m>, then there is an oblique (slant) asymptote. Use synthetic division or long division.</li>
+                    </ul>
+                  </p>
                 </li>
               </ul>
             </li>

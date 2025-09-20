@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-trigonometric-identities-summary" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Summary of Trigonometric Identities</title>
+  
+  <!-- <introduction>
+  <p>
+  This is the introduction to the section. It can contain any content
+  that is valid in a <introduction> element, including <p>, <ul>, <ol>,
+  <figure>, and <table>. You can also include other files using
+  <xi:include> tags.
+  </p>
+  </introduction> -->
+  
+  <subsection><title>Summary of Trigonometric Identities</title>
+    <md>
+      <mrow>
+        \boxed{
+          \begin{array}{c|l}
+          \text{Reciprocal} \amp \begin{aligned}
+          \amp \csc\theta = \dfrac{1}{\sin\theta}, \quad \sec\theta = \dfrac{1}{\cos\theta}, \quad \cot\theta = \dfrac{1}{\tan\theta} \\[6pt]
+          \end{aligned} \\
+          \hline
+          \text{Quotient} \amp \begin{aligned}
+          \rule{0pt}{2em}
+          \amp \tan\theta = \frac{\sin{\theta}}{\cos{\theta}} \quad \cot\theta = \frac{\cos\theta}{\sin{\theta}} \\[6pt]
+          \end{aligned} \\
+          \hline
+          \text{Pythagorean} \amp \begin{aligned}
+          \rule{0pt}{1.5em}
+          \amp \sin^{2}\theta + \cos^{2}\theta = 1 \\
+          \rule{0pt}{1.5em}
+          \amp 1 + \tan^{2}\theta = \sec^{2}\theta \\
+          \rule{0pt}{1.5em}
+          \amp 1 + \cot^{2}\theta = \csc^{2}\theta \\[6pt]
+          \end{aligned} \\
+          \hline
+          \text{Addition} \amp \begin{aligned}
+          \rule{0pt}{1.5em}
+          \sin(\alpha \pm \beta) \amp= \sin\alpha\cos\beta \pm \cos\alpha\sin\beta \\
+          \rule{0pt}{1.5em}
+          \cos(\alpha \pm \beta) \amp= \cos\alpha\cos\beta \mp \sin\alpha\sin\beta \\
+          \rule{0pt}{2em}
+          \tan(\alpha \pm \beta) \amp= \dfrac{\tan\alpha \pm \tan\beta}{1 \mp \tan\alpha\tan\beta} \\[6pt]
+          \end{aligned} \\
+          \hline
+          \text{Double-angle} \amp \begin{aligned}
+          \rule{0pt}{1.5em}
+          \sin(2\theta) \amp= 2\sin\theta\cos\theta \\
+          \rule{0pt}{1.5em}
+          \cos(2\theta) \amp= \cos^{2}\theta - \sin^{2}\theta \\
+          \rule{0pt}{1em}
+          \amp= 2\cos^{2}\theta - 1 \\
+          \rule{0pt}{1em}
+          \amp= 1 - 2\sin^{2}\theta \\
+          \rule{0pt}{2em}
+          \tan(2\theta) \amp= \dfrac{2\tan\theta}{1 - \tan^{2}\theta}
+          \end{aligned}
+          \end{array}}
+        </mrow>
+      </md>
+    </subsection>
+  </section>

@@ -16,7 +16,8 @@
     <xi:include href="./ch-polynomial-functions.ptx" />
     <xi:include href="./ch-rational-functions.ptx" />
     <!-- <xi:include href="./ch-exponential-and-logarithmic-functions.ptx" /> -->
-    <xi:include href="./ch-trigonometry.ptx" />
+    <xi:include href="./ch-trigonometry-in-the-plane.ptx" />
+    <xi:include href="./ch-trigonometric-identities-and-equations.ptx" />
 
     <!-- Include backmatter -->
     <!-- <xi:include href="./backmatter.ptx" /> -->
