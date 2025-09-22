@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-intro-to-proving-trigonometric-identities" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Intro to Proving Trigonometric Identities</title>
+  
+  <!-- <introduction>
+  <p>
+  This is the introduction to the section. It can contain any content
+  that is valid in a <introduction> element, including <p>, <ul>, <ol>,
+  <figure>, and <table>. You can also include other files using
+  <xi:include> tags.
+  </p>
+  </introduction> -->
+  
+  <subsection>
+    <title>General Principles for Proving Identities</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            <alert>Convert all trigonometric expressions to sine and cosine</alert>. All trigonometric ratios can be written in terms of the ``basic" trig ratios sine and cosine.
+            
+            <image>
+              <latex-image>
+                \begin{tikzpicture}[node distance=3cm,box/.style={draw=none, minimum width=2.5cm, minimum height=1cm},arrow/.style={-&gt;, thick, &gt;=Stealth}]
+                % Define nodes for the trig functions
+                \node[box] (tan) at (0,0) {$\tan x = \frac{\sin x}{\cos x}$};
+                \node[box] (cot) at (0,-2) {$\cot x = \frac{\cos x}{\sin x} = \frac{1}{\tan{x}}$};
+                \node[box] (sec) at (3.5,0) {$\sec x = \frac{1}{\cos x}$};
+                \node[box] (csc) at (-3.5,0) {$\csc x = \frac{1}{\sin x}$};
+                \node[box] (sin) at (-3.5,2) {$\sin x$};
+                \node[box] (cos) at (3.5,2) {$\cos x$};
+                
+                % Draw arrows showing dependencies
+                \draw[arrow] (csc) -- (sin);
+                \draw[arrow] (tan) -- (sin);
+                \draw[arrow] (cot) -- (sin);
+                \draw[arrow] (tan) -- (cos);
+                \draw[arrow] (sec) -- (cos);
+                \draw[arrow] (cot) -- (cos);
+                \draw[arrow] (cot) -- (tan);
+                \end{tikzpicture}
+              </latex-image>
+            </image>
+            The one exception is if the entire identity only includes tangent and/or cotangent, in which case it is usually simpler to convert everything in terms of tangent.
+          </p>
+        </li>
+        <li>
+          <p>
+            <alert>Start by manipulating the more complicated side</alert>. This is because is generally easier to go from something complex and simplify it, rather than go from something simple and make it more complex. In general,
+          </p>
+          <p>
+            <ul>
+              <li><p>Tangent is more complicated than sine and cosine</p></li>
+              <li><p>Reciprocal trigonometric functions are more complicated than primary trigonometric functions</p></li>
+              <li><p>Multiple fractions are easier to combine into one fraction, than writing one fraction as a combination of multiple fractions</p></li>
+            </ul>
+          </p>
+        </li>
+        <li>
+          <p>
+            <alert>Begin with the end in mind</alert>. Look at the form of the desired side before you start, and guide your work toward that structure.
+          </p>
+        </li>
+        <li>
+          <p>
+            Combine fractions using a common denominator.
+          </p>
+        </li>
+        <li>
+          <p>
+            Multiply by the conjugate, in order to use the Pythagorean identity.
+          </p>
+        </li>
+        <li>
+          <p>
+            Simplify complex fractions, by clearing denominators (multiply the numerator and denominator by the LCD).
+          </p>
+        </li>
+        <li>
+          <p>
+            Utilize algebraic identities, e.g. difference of squares, square of a sum, etc.
+          </p>
+          <md>
+            <mrow>a^2 - b^2 = (a - b)(a + b)</mrow>
+          </md>
+        </li>
+        <li>
+          <p>
+            Use all trigonometric identities available to you.
+          </p>
+        </li>
+      </ul>
+    </p>
+  </subsection>
+  
+  <subsection>
+    <title>Examples</title>
+    <exercises>
+      <introduction>
+        <p>
+          Prove each trigonometric identity.
+        </p>
+      </introduction>
+      <exercise>
+        <statement>
+          <p><m>\cos{x} \csc{x} \tan{x} = 1</m>.</p>
+        </statement>
+        <hint>
+          <p>cancel.</p>
+        </hint>
+      </exercise>
+      <exercise>
+        <statement>
+          <p><m>\frac{1 + \sin{x}}{1 + \csc{x}} = \sin{x}</m>.</p>
+        </statement>
+        <hint>
+          <p>simplify complex fraction, factor and cancel.</p>
+        </hint>
+      </exercise>
+      <exercise>
+        <statement>
+          <p><m>\frac{\cos{x} + \cot{x}}{1 + \sin{x}} = \cos{x} \csc{x}</m>.</p>
+        </statement>
+        <hint>
+          <p>simplify complex fraction, factor and cancel.</p>
+        </hint>
+      </exercise>
+      <exercise>
+        <statement>
+          <p><m>\frac{\sin^2{x}}{1 - \cos{x}} = 1 + \cos{x}</m>.</p>
+        </statement>
+        <hint>
+          <p>Pythagorean identity, factor difference of squares, cancel.</p>
+        </hint>
+      </exercise>
+      <exercise>
+        <statement>
+          <p><m>\frac{\cos{x}}{1 + \sin{x}} = \frac{1 - \sin{x}}{\cos{x}}</m>.</p>
+        </statement>
+        <hint>
+          <p>multiply by the conjugate, Pythagorean identity, cancel.</p>
+        </hint>
+      </exercise>
+      <exercise>
+        <statement>
+          <p><m>\frac{1 + \sin{x}}{\cos{x}} + \frac{\cos{x}}{1 + \sin{x}} = \frac{2}{\cos{x}}</m>.</p>
+        </statement>
+        <hint>
+          <p>add the rational expressions, Pythagorean identity, factor and cancel.</p>
+        </hint>
+      </exercise>
+      <exercise>
+        <statement>
+          <p><m>\sin{x}\tan{x} + \cos{x} = \sec{x}</m>.</p>
+        </statement>
+        <hint>
+          <p>start with LHS, add fractions, Pythagorean identity.</p>
+        </hint>
+      </exercise>
+      <exercise>
+        <statement>
+          <p><m>\sin^{2}{x}\left(1 + \cot^{2}{x}\right) = 1</m>.</p>
+        </statement>
+        <hint>
+          <p>Pythagorean identity.</p>
+        </hint>
+      </exercise>
+      <exercise>
+        <statement>
+          <p><m>\csc{x} = \cos{x}\cot{x} + \sin{x}</m>.</p>
+        </statement>
+        <hint>
+          <p>add fractions, Pythagorean identity.</p>
+        </hint>
+      </exercise>
+      <exercise>
+        <statement>
+          <p><m>\frac{\tan{x} - \cot{x}}{\tan{x} + \cot{x}} + 1 = 2\sin^{2}{x}</m>.</p>
+        </statement>
+        <hint>
+          <p>clear fractions, Pythagorean identity.</p>
+        </hint>
+      </exercise>
+      <exercise>
+        <statement>
+          <p><m>\frac{\sec{x}}{\csc{x}} + \frac{\sin{x}}{\cos{x}} = 2\tan{x}</m>.</p>
+        </statement>
+        <hint>
+          <p>simplify fractions.</p>
+        </hint>
+      </exercise>
+      <exercise>
+        <statement>
+          <p><m>\frac{\sec{x} - \csc{x}}{\sec{x}\csc{x}} = \sin{x} - \cos{x}</m>.</p>
+        </statement>
+        <hint>
+          <p>clear fractions, simplify and cancel.</p>
+        </hint>
+      </exercise>
+      <exercise>
+        <statement>
+          <p><m>\tan{x} + \cot{x} = \sec{x}\csc{x}</m>.</p>
+        </statement>
+        <hint>
+          <p>add fractions, Pythagorean identity.</p>
+        </hint>
+      </exercise>
+      <exercise>
+        <statement>
+          <p><m>\frac{1 - 2\cos^{2}{x}}{\sin{x}\cos{x}} = \tan{x} - \cot{x}</m>.</p>
+        </statement>
+        <hint>
+          <p>start with either side.</p>
+        </hint>
+      </exercise>
+      <exercise>
+        <statement>
+          <p><m>\tan{x} + \frac{\cos{x}}{1 + \sin{x}} = \sec{x}</m>.</p>
+        </statement>
+        <hint>
+          <p>combine fractions, Pythagorean identity, cancel.</p>
+        </hint>
+      </exercise>
+      <exercise>
+        <statement>
+          <p><m>\frac{\tan{x} - \sin{x}}{\sin^3{x}} = \frac{\sec{x}}{1 + \cos{x}}</m>.</p>
+        </statement>
+        <hint>
+          <p>start with the LHS but RHS works also, clear fractions, cancel, Pythagorean identity, factor and cancel.</p>
+        </hint>
+      </exercise>
+    </exercises>
+  </subsection>
+  
+</section>

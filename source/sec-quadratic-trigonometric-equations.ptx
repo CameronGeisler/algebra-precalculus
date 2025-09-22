@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-section-name" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Section Title</title>
+
+  <introduction>
+    <p>
+      This is the introduction to the section. It can contain any content
+      that is valid in a <introduction> element, including <p>, <ul>, <ol>,
+      <figure>, and <table>. You can also include other files using
+      <xi:include> tags.
+    </p>
+  </introduction>
+
+  <subsection xml:id="subsec-subsection-name">
+    <title>Subsection Name</title>
+    <p>
+      This is the introduction to the subsection. It can contain any content
+      that is valid in a <introduction> element, including <p>, <ul>, <ol>,
+      <figure>, and <table>. You can also include other files using
+      <xi:include> tags.
+    </p>
+  </subsection>
+
+</section>
