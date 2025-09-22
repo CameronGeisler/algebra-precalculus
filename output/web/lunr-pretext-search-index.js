@@ -1,15 +1,6 @@
 var ptx_lunr_search_style = "textbook";
 var ptx_lunr_docs = [
 {
-  "id": "front-colophon",
-  "level": "1",
-  "url": "front-colophon.html",
-  "type": "Colophon",
-  "number": "",
-  "title": "Colophon",
-  "body": "  "
-},
-{
   "id": "sec-factoring-quadratic-trinomials",
   "level": "1",
   "url": "sec-factoring-quadratic-trinomials.html",
@@ -214,7 +205,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.1",
   "title": "Graphing Rational Functions",
-  "body": " Graphing Rational Functions    Sketching the Graph of a Rational Function Summary  We can use all the previous properties of rational functions in order to graph them. Then,    Factor and simplify .  If possible, factor the numerator and denominator.  Determine the domain of the function, which is all real numbers, except the roots of the denominator.  Simplify by cancelling any common factors.    Find any holes . Cancelled factors of the form will result in a hole at , and the -coordinate of these holes will come from evaluating the simplified function at .  Determine properties of the function:   Find the y-intercept (if it exists) . The -intercept comes from substituting (i.e. finding ) (as long as 0 is in the domain of ).  Find any x-intercepts . Any -intercepts of are zeros of the (simplified) numerator.  Find any vertical asymptotes . Any vertical asymptotes are from the zeros of the (simplified) denominator.  Find the horizontal asymptote (or oblique asymptote) . Compare the degree of the numerator and the denominator.   If , then the line (the -axis) is the horizontal asymptote.  If , then the line , the ratio of the leading coefficients, is the horizontal asymptote.   If , then there is no horizontal asymptote.  If , then there is an oblique (slant) asymptote. Use synthetic division or long division.         Plot additional points , if necessary. A good guideline is to have at least 1 point on each side of each vertical asymptote. Two points can be better if you need more detail.  Sketch the graph by connecting the points. The graph should get closer and closer to each asymptote. Be sure to not cross any vertical asymptote.     "
+  "body": " Graphing Rational Functions    Sketching the Graph of a Rational Function Summary  We can use all the previous properties of rational functions in order to graph them. Then,      Factor and simplify .  If possible, factor the numerator and denominator.  Determine the domain of the function, which is all real numbers, except the roots of the denominator.  Simplify by cancelling any common factors.     Find any holes . Cancelled factors of the form will result in a hole at , and the -coordinate of these holes will come from evaluating the simplified function at .  Find properties of the function:   Find the y-intercept (if it exists) . The -intercept comes from substituting (i.e. finding ) (as long as 0 is in the domain of ).  Find any x-intercepts . Any -intercepts of are zeros of the numerator.  Find any vertical asymptotes . Any vertical asymptotes are from the zeros of the denominator.    Find the horizontal asymptote (or oblique asymptote) . Compare the degree of the numerator and the denominator.  If , then the line (the -axis) is the horizontal asymptote.  If , then the line , the ratio of the leading coefficients, is the horizontal asymptote.   If , then there is no horizontal asymptote.  If , then there is an oblique (slant) asymptote. Find it using synthetic division or long division.          Plot additional points , if necessary. A good guideline is to have at least 1 point on each side of each vertical asymptote. Two points can be better if you need more detail.  Sketch the graph by connecting the points. The graph should get closer and closer to each asymptote. Be sure to not cross any vertical asymptote.     "
 },
 {
   "id": "sec-radian-measure",
@@ -350,6 +341,24 @@ var ptx_lunr_docs = [
   "number": "5.1",
   "title": "Summary of Trigonometric Identities",
   "body": " Summary of Trigonometric Identities   Summary of Trigonometric Identities    "
+},
+{
+  "id": "sec-infinite-geometric-series",
+  "level": "1",
+  "url": "sec-infinite-geometric-series.html",
+  "type": "Section",
+  "number": "6.1",
+  "title": "Infinite Geometric Series",
+  "body": " Infinite Geometric Series    Application: Bouncing Ball Problem   A ball is dropped from a height of 10 m. After each bounce, the ball bounces up to 80% of its previous height. Determine the total distance travelled by the ball. Bouncing Ball GeoGebra .  Sketch a picture of the situation. The sum of the distances is, It is better to write out the distances without doing the arithmetic, so that it is easier to recognize the pattern. This is a geometric series, except for the first number 10. Each next term is the same as the previous term, except multiplied by . The first term of , and the common ratio is , Then, using the infinite geometric series formula, Therefore, the total distance travelled is 90 m.    "
+},
+{
+  "id": "sec-infinite-geometric-series-2-2",
+  "level": "2",
+  "url": "sec-infinite-geometric-series.html#sec-infinite-geometric-series-2-2",
+  "type": "Example",
+  "number": "6.1.1",
+  "title": "",
+  "body": " A ball is dropped from a height of 10 m. After each bounce, the ball bounces up to 80% of its previous height. Determine the total distance travelled by the ball. Bouncing Ball GeoGebra .  Sketch a picture of the situation. The sum of the distances is, It is better to write out the distances without doing the arithmetic, so that it is easier to recognize the pattern. This is a geometric series, except for the first number 10. Each next term is the same as the previous term, except multiplied by . The first term of , and the common ratio is , Then, using the infinite geometric series formula, Therefore, the total distance travelled is 90 m.  "
 }
 ]
 

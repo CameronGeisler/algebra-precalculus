@@ -18,6 +18,7 @@
     <!-- <xi:include href="./ch-exponential-and-logarithmic-functions.ptx" /> -->
     <xi:include href="./ch-trigonometry-in-the-plane.ptx" />
     <xi:include href="./ch-trigonometric-identities-and-equations.ptx" />
+    <xi:include href="./ch-sequences-and-series.ptx" />
 
     <!-- Include backmatter -->
     <!-- <xi:include href="./backmatter.ptx" /> -->

@@ -32,7 +32,7 @@
     <titlepage-items/>
   </titlepage>
 
-  <colophon xml:id="front-colophon">
+  <!-- <colophon xml:id="front-colophon">
     <colophon-items/>
-  </colophon>
+  </colophon> -->
 </frontmatter>

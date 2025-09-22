@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-sequences-and-series" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Sequences and Series</title>
+
+  <!-- <introduction>
+    <p> Text before the first section. </p>
+  </introduction> -->
+
+  <!-- include sections -->
+  <xi:include href="sec-infinite-geometric-series.ptx" />
+
+</chapter>

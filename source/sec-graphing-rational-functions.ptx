@@ -17,32 +17,38 @@
     <p>We can use all the previous properties of rational functions in order to graph them. Then,</p>
     <p>
       <ol>
-        <li><alert>Factor and simplify</alert>.
-          <ul>
-            <li>If possible, factor the numerator and denominator.</li>
-            <li>Determine the domain of the function, which is all real numbers, except the roots of the denominator.</li>
-            <li>Simplify by cancelling any common factors.</li>
-          </ul>
+        <li>
+          <p>
+            <alert>Factor and simplify</alert>.
+            <ul>
+              <li>If possible, factor the numerator and denominator.</li>
+              <li>Determine the domain of the function, which is all real numbers, except the roots of the denominator.</li>
+              <li>Simplify by cancelling any common factors.</li>
+            </ul>
+          </p>
         </li>
         <li><alert>Find any holes</alert>. Cancelled factors of the form <m>x - c</m> will result in a hole at <m>x = c</m>, and the <m>y</m>-coordinate of these holes will come from evaluating the simplified function at <m>x = c</m>.</li>
-        <li><p>Determine properties of the function:</p>
+        <li><p>Find properties of the function:</p>
           <ul>
             <li><alert>Find the y-intercept (if it exists)</alert>. The <m>y</m>-intercept comes from substituting <m>x = 0</m> (i.e. finding <m>f(0)</m>) (as long as 0 is in the domain of <m>f</m>).</li>
-            <li><alert>Find any x-intercepts</alert>. Any <m>x</m>-intercepts of <m>f</m> are zeros of the (simplified) numerator.</li>
-            <li><alert>Find any vertical asymptotes</alert>. Any vertical asymptotes are from the zeros of the (simplified) denominator.</li>
-            <li><alert>Find the horizontal asymptote (or oblique asymptote)</alert>. <p>Compare the degree of the numerator and the denominator.</p>
-              <ul>
-                <li>If <m>\text{num} \lt \text{denom}</m>, then the line <m>y = 0</m> (the <m>x</m>-axis) is the horizontal asymptote.</li>
-                <li>If <m>\text{num} = \text{denom}</m>, then the line <m>y = \frac{\text{leading coefficient of num}}{\text{leading coefficient of denom}}</m>, the ratio of the leading coefficients, is the horizontal asymptote.</li>
-                <li>
-                  <p>
-                    If <m>\text{num} \gt \text{denom}</m>, then there is no horizontal asymptote.
-                    <ul>
-                      <li>If <m>\text{num} = \text{denom} + 1</m>, then there is an oblique (slant) asymptote. Use synthetic division or long division.</li>
-                    </ul>
-                  </p>
-                </li>
-              </ul>
+            <li><alert>Find any x-intercepts</alert>. Any <m>x</m>-intercepts of <m>f</m> are zeros of the numerator.</li>
+            <li><alert>Find any vertical asymptotes</alert>. Any vertical asymptotes are from the zeros of the denominator.</li>
+            <li>
+              <p>
+                <alert>Find the horizontal asymptote (or oblique asymptote)</alert>. Compare the degree of the numerator and the denominator.
+                <ul>
+                  <li>If <m>\text{num} \lt \text{denom}</m>, then the line <m>y = 0</m> (the <m>x</m>-axis) is the horizontal asymptote.</li>
+                  <li>If <m>\text{num} = \text{denom}</m>, then the line <m>y = \frac{\text{leading coefficient of num}}{\text{leading coefficient of denom}}</m>, the ratio of the leading coefficients, is the horizontal asymptote.</li>
+                  <li>
+                    <p>
+                      If <m>\text{num} \gt \text{denom}</m>, then there is no horizontal asymptote.
+                      <ul>
+                        <li>If <m>\text{num} = \text{denom} + 1</m>, then there is an oblique (slant) asymptote. Find it using synthetic division or long division.</li>
+                      </ul>
+                    </p>
+                  </li>
+                </ul>
+              </p>
             </li>
           </ul>
         </li>
