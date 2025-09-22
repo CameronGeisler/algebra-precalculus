@@ -334,11 +334,164 @@ var ptx_lunr_docs = [
   "body": " Exact Trig-Value Practice   Evaluate exactly.  Your answer:   For square roots, type \"sqrt\", not a decimal approximation (for example, type \"sqrt(3)\", or \"sqrt(2)\").    \/\/ === OPTIONS === const USE_RADIANS = true; const ALLOW_NEGATIVE = true; const ALLOW_WRAP = true; const USE_RECIPROCALS = true; \/\/ === Exact values for key angles === const exact = { sin: { 0: \"0\", 30: \"1\/2\", 45: \"sqrt(2)\/2\", 60: \"sqrt(3)\/2\", 90: \"1\", 120: \"sqrt(3)\/2\", 135: \"sqrt(2)\/2\", 150: \"1\/2\", 180: \"0\", 210: \"-1\/2\", 225: \"-sqrt(2)\/2\", 240: \"-sqrt(3)\/2\", 270: \"-1\", 300: \"-sqrt(3)\/2\", 315: \"-sqrt(2)\/2\", 330: \"-1\/2\" } }; \/\/ Generate cos, tan exact.cos = {}; exact.tan = {}; for (let deg in exact.sin) { const s = eval(exact.sin[deg].replace(\"sqrt\", \"Math.sqrt\")); const c = Math.cos(deg * Math.PI \/ 180); const cs = Math.abs(c) < 1e-10 ? \"0\" : Math.abs(c - 0.5) < 1e-10 ? \"1\/2\" : Math.abs(c - Math.sqrt(2)\/2) < 1e-10 ? \"sqrt(2)\/2\" : \"sqrt(3)\/2\"; exact.cos[deg] = c < 0 ? \"-\" + cs : cs; if (Math.abs(c) < 1e-10) { exact.tan[deg] = null; } else { const t = s \/ c; const abs = Math.abs(t); const ts = abs < 1e-10 ? \"0\" : Math.abs(abs - 1) < 1e-10 ? \"1\" : abs < 1 ? \"sqrt(3)\/3\" : \"sqrt(3)\"; exact.tan[deg] = t < 0 ? \"-\" + ts : ts; } } \/\/ Reciprocal functions function reciprocal(str) { if (!str || str === \"0\") return null; if (str === \"1\") return \"1\"; if (str === \"sqrt(3)\/3\") return \"sqrt(3)\"; if (str === \"sqrt(3)\") return \"sqrt(3)\/3\"; if (str === \"1\/2\") return \"2\"; if (str === \"sqrt(2)\/2\") return \"sqrt(2)\"; if (str === \"sqrt(3)\/2\") return \"2*sqrt(3)\/3\"; return str.startsWith(\"-\") ? \"-\" + reciprocal(str.slice(1)) : \"1\/(\" + str + \")\"; } exact.csc = Object.fromEntries(Object.entries(exact.sin).map(([d, s]) => [d, reciprocal(s)])); exact.sec = Object.fromEntries(Object.entries(exact.cos).map(([d, s]) => [d, reciprocal(s)])); exact.cot = Object.fromEntries(Object.entries(exact.tan).map(([d, s]) => [d, reciprocal(s)])); \/\/ === Choose function === let funcs = [\"sin\", \"cos\", \"tan\"]; if (USE_RECIPROCALS) funcs.push(\"csc\", \"sec\", \"cot\"); let func; let deg, k, thetaDeg; const baseAngles = Object.keys(exact.sin).map(Number); do { func = funcs[RNG.randInt(0, funcs.length - 1)]; deg = baseAngles[RNG.randInt(0, baseAngles.length - 1)]; k = ALLOW_WRAP ? RNG.randInt(-1, 1) : 0; if (!ALLOW_NEGATIVE && k < 0) k = 0; thetaDeg = deg + 360 * k; } while (exact[func][deg] === null); v.func = func; v.answerExpr = exact[func][deg]; \/\/ === TeX angle === function texForDegrees(d) { return d + \"^{\\\\circ}\"; } function texForRadians(d) { let frac = d \/ 180; const sign = frac < 0 ? \"-\" : \"\"; frac = Math.abs(frac); const denom = 12; let num = frac * denom; const gcf = (a, b) => b ? gcf(b, a % b) : a; const g = gcf(num, denom); num \/= g; const den = denom \/ g; return sign + (den === 1 ? num + \"\\\\pi\" : \"\\\\tfrac{\" + num + \"\\\\pi}{\" + den + \"}\"); } v.angleTeX = USE_RADIANS && RNG.randInt(0, 1) === 0 ? texForRadians(thetaDeg) : texForDegrees(thetaDeg);       Correct, great work 🎉    Not quite. Use an exact radical value like , not a decimal.      The exact value is \\ \\!\\bigl( \\bigr) = .   "
 },
 {
+  "id": "sec-intro-to-proving-trigonometric-identities",
+  "level": "1",
+  "url": "sec-intro-to-proving-trigonometric-identities.html",
+  "type": "Section",
+  "number": "5.1",
+  "title": "Intro to Proving Trigonometric Identities",
+  "body": " Intro to Proving Trigonometric Identities    General Principles for Proving Identities      Convert all trigonometric expressions to sine and cosine . All trigonometric ratios can be written in terms of the ``basic\" trig ratios sine and cosine.   The one exception is if the entire identity only includes tangent and\/or cotangent, in which case it is usually simpler to convert everything in terms of tangent.     Start by manipulating the more complicated side . This is because is generally easier to go from something complex and simplify it, rather than go from something simple and make it more complex. In general,    Tangent is more complicated than sine and cosine  Reciprocal trigonometric functions are more complicated than primary trigonometric functions  Multiple fractions are easier to combine into one fraction, than writing one fraction as a combination of multiple fractions       Begin with the end in mind . Look at the form of the desired side before you start, and guide your work toward that structure.    Combine fractions using a common denominator.    Multiply by the conjugate, in order to use the Pythagorean identity.    Simplify complex fractions, by clearing denominators (multiply the numerator and denominator by the LCD).    Utilize algebraic identities, e.g. difference of squares, square of a sum, etc.     Use all trigonometric identities available to you.       Examples    Prove each trigonometric identity.     .    cancel.      .    simplify complex fraction, factor and cancel.      .    simplify complex fraction, factor and cancel.      .    Pythagorean identity, factor difference of squares, cancel.      .    multiply by the conjugate, Pythagorean identity, cancel.      .    add the rational expressions, Pythagorean identity, factor and cancel.      .    start with LHS, add fractions, Pythagorean identity.      .    Pythagorean identity.      .    add fractions, Pythagorean identity.      .    clear fractions, Pythagorean identity.      .    simplify fractions.      .    clear fractions, simplify and cancel.      .    add fractions, Pythagorean identity.      .    start with either side.      .    combine fractions, Pythagorean identity, cancel.      .    start with the LHS but RHS works also, clear fractions, cancel, Pythagorean identity, factor and cancel.      "
+},
+{
+  "id": "sec-intro-to-proving-trigonometric-identities-3-2-2",
+  "level": "2",
+  "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-3-2-2",
+  "type": "Exercise",
+  "number": "5.1.2.1",
+  "title": "",
+  "body": "  .    cancel.   "
+},
+{
+  "id": "sec-intro-to-proving-trigonometric-identities-3-2-3",
+  "level": "2",
+  "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-3-2-3",
+  "type": "Exercise",
+  "number": "5.1.2.2",
+  "title": "",
+  "body": "  .    simplify complex fraction, factor and cancel.   "
+},
+{
+  "id": "sec-intro-to-proving-trigonometric-identities-3-2-4",
+  "level": "2",
+  "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-3-2-4",
+  "type": "Exercise",
+  "number": "5.1.2.3",
+  "title": "",
+  "body": "  .    simplify complex fraction, factor and cancel.   "
+},
+{
+  "id": "sec-intro-to-proving-trigonometric-identities-3-2-5",
+  "level": "2",
+  "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-3-2-5",
+  "type": "Exercise",
+  "number": "5.1.2.4",
+  "title": "",
+  "body": "  .    Pythagorean identity, factor difference of squares, cancel.   "
+},
+{
+  "id": "sec-intro-to-proving-trigonometric-identities-3-2-6",
+  "level": "2",
+  "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-3-2-6",
+  "type": "Exercise",
+  "number": "5.1.2.5",
+  "title": "",
+  "body": "  .    multiply by the conjugate, Pythagorean identity, cancel.   "
+},
+{
+  "id": "sec-intro-to-proving-trigonometric-identities-3-2-7",
+  "level": "2",
+  "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-3-2-7",
+  "type": "Exercise",
+  "number": "5.1.2.6",
+  "title": "",
+  "body": "  .    add the rational expressions, Pythagorean identity, factor and cancel.   "
+},
+{
+  "id": "sec-intro-to-proving-trigonometric-identities-3-2-8",
+  "level": "2",
+  "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-3-2-8",
+  "type": "Exercise",
+  "number": "5.1.2.7",
+  "title": "",
+  "body": "  .    start with LHS, add fractions, Pythagorean identity.   "
+},
+{
+  "id": "sec-intro-to-proving-trigonometric-identities-3-2-9",
+  "level": "2",
+  "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-3-2-9",
+  "type": "Exercise",
+  "number": "5.1.2.8",
+  "title": "",
+  "body": "  .    Pythagorean identity.   "
+},
+{
+  "id": "sec-intro-to-proving-trigonometric-identities-3-2-10",
+  "level": "2",
+  "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-3-2-10",
+  "type": "Exercise",
+  "number": "5.1.2.9",
+  "title": "",
+  "body": "  .    add fractions, Pythagorean identity.   "
+},
+{
+  "id": "sec-intro-to-proving-trigonometric-identities-3-2-11",
+  "level": "2",
+  "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-3-2-11",
+  "type": "Exercise",
+  "number": "5.1.2.10",
+  "title": "",
+  "body": "  .    clear fractions, Pythagorean identity.   "
+},
+{
+  "id": "sec-intro-to-proving-trigonometric-identities-3-2-12",
+  "level": "2",
+  "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-3-2-12",
+  "type": "Exercise",
+  "number": "5.1.2.11",
+  "title": "",
+  "body": "  .    simplify fractions.   "
+},
+{
+  "id": "sec-intro-to-proving-trigonometric-identities-3-2-13",
+  "level": "2",
+  "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-3-2-13",
+  "type": "Exercise",
+  "number": "5.1.2.12",
+  "title": "",
+  "body": "  .    clear fractions, simplify and cancel.   "
+},
+{
+  "id": "sec-intro-to-proving-trigonometric-identities-3-2-14",
+  "level": "2",
+  "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-3-2-14",
+  "type": "Exercise",
+  "number": "5.1.2.13",
+  "title": "",
+  "body": "  .    add fractions, Pythagorean identity.   "
+},
+{
+  "id": "sec-intro-to-proving-trigonometric-identities-3-2-15",
+  "level": "2",
+  "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-3-2-15",
+  "type": "Exercise",
+  "number": "5.1.2.14",
+  "title": "",
+  "body": "  .    start with either side.   "
+},
+{
+  "id": "sec-intro-to-proving-trigonometric-identities-3-2-16",
+  "level": "2",
+  "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-3-2-16",
+  "type": "Exercise",
+  "number": "5.1.2.15",
+  "title": "",
+  "body": "  .    combine fractions, Pythagorean identity, cancel.   "
+},
+{
+  "id": "sec-intro-to-proving-trigonometric-identities-3-2-17",
+  "level": "2",
+  "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-3-2-17",
+  "type": "Exercise",
+  "number": "5.1.2.16",
+  "title": "",
+  "body": "  .    start with the LHS but RHS works also, clear fractions, cancel, Pythagorean identity, factor and cancel.   "
+},
+{
   "id": "sec-trigonometric-identities-summary",
   "level": "1",
   "url": "sec-trigonometric-identities-summary.html",
   "type": "Section",
-  "number": "5.1",
+  "number": "5.2",
   "title": "Summary of Trigonometric Identities",
   "body": " Summary of Trigonometric Identities   Summary of Trigonometric Identities    "
 },
@@ -349,7 +502,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "6.1",
   "title": "Infinite Geometric Series",
-  "body": " Infinite Geometric Series    Application: Bouncing Ball Problem   A ball is dropped from a height of 10 m. After each bounce, the ball bounces up to 80% of its previous height. Determine the total distance travelled by the ball. Bouncing Ball GeoGebra .  Sketch a picture of the situation. The sum of the distances is, It is better to write out the distances without doing the arithmetic, so that it is easier to recognize the pattern. This is a geometric series, except for the first number 10. Each next term is the same as the previous term, except multiplied by . The first term of , and the common ratio is , Then, using the infinite geometric series formula, Therefore, the total distance travelled is 90 m.    "
+  "body": " Infinite Geometric Series    Application: Bouncing Ball Problem   Bouncing ball problem  A ball is dropped from a height of 10 m. After each bounce, the ball bounces up to 80% of its previous height. Determine the total distance travelled by the ball. Bouncing Ball GeoGebra .  Sketch a picture of the situation. The sum of the distances is, It is better to write out the distances without doing the arithmetic, so that it is easier to recognize the pattern. This is a geometric series, except for the first number 10. Each next term is the same as the previous term, except multiplied by . The first term of , and the common ratio is , Then, using the infinite geometric series formula, Therefore, the total distance travelled is 90 m.    Bouncing ball problem: advanced   Consider the general problem. A ball is dropped from a height of meters, and bounces up to a fraction of the previous bounce (where ). Find the total distance travelled, in terms of and .          "
 },
 {
   "id": "sec-infinite-geometric-series-2-2",
@@ -357,8 +510,17 @@ var ptx_lunr_docs = [
   "url": "sec-infinite-geometric-series.html#sec-infinite-geometric-series-2-2",
   "type": "Example",
   "number": "6.1.1",
-  "title": "",
-  "body": " A ball is dropped from a height of 10 m. After each bounce, the ball bounces up to 80% of its previous height. Determine the total distance travelled by the ball. Bouncing Ball GeoGebra .  Sketch a picture of the situation. The sum of the distances is, It is better to write out the distances without doing the arithmetic, so that it is easier to recognize the pattern. This is a geometric series, except for the first number 10. Each next term is the same as the previous term, except multiplied by . The first term of , and the common ratio is , Then, using the infinite geometric series formula, Therefore, the total distance travelled is 90 m.  "
+  "title": "Bouncing ball problem.",
+  "body": " Bouncing ball problem  A ball is dropped from a height of 10 m. After each bounce, the ball bounces up to 80% of its previous height. Determine the total distance travelled by the ball. Bouncing Ball GeoGebra .  Sketch a picture of the situation. The sum of the distances is, It is better to write out the distances without doing the arithmetic, so that it is easier to recognize the pattern. This is a geometric series, except for the first number 10. Each next term is the same as the previous term, except multiplied by . The first term of , and the common ratio is , Then, using the infinite geometric series formula, Therefore, the total distance travelled is 90 m.  "
+},
+{
+  "id": "bouncing-ball-advanced",
+  "level": "2",
+  "url": "sec-infinite-geometric-series.html#bouncing-ball-advanced",
+  "type": "Example",
+  "number": "6.1.2",
+  "title": "Bouncing ball problem: advanced.",
+  "body": " Bouncing ball problem: advanced   Consider the general problem. A ball is dropped from a height of meters, and bounces up to a fraction of the previous bounce (where ). Find the total distance travelled, in terms of and .        "
 }
 ]
 
