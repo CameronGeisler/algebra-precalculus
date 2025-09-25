@@ -12,6 +12,7 @@
     <xi:include href="./frontmatter.ptx" />
 
     <!-- Include chapters -->'
+    <xi:include href="./ch-radical-expressions.ptx" />
     <xi:include href="./ch-quadratic-functions-and-equations.ptx" />'
     <xi:include href="./ch-polynomial-functions.ptx" />
     <xi:include href="./ch-rational-functions.ptx" />

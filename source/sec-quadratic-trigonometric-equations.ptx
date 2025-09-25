@@ -1,25 +1,138 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-section-name" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Section Title</title>
-
+<section xml:id="sec-quadratic-trigonometric-equations" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Quadratic Trigonometric Equations</title>
+  
   <introduction>
     <p>
-      This is the introduction to the section. It can contain any content
-      that is valid in a <introduction> element, including <p>, <ul>, <ol>,
-      <figure>, and <table>. You can also include other files using
-      <xi:include> tags.
+      Some trigonometric equations are <em>quadratic</em> in a particular trigonometric function, in that they involve a trigonometric function being squared. In this way, many methods for solving quadratic equations can be used to solve trig equations.
     </p>
   </introduction>
-
-  <subsection xml:id="subsec-subsection-name">
-    <title>Subsection Name</title>
+  
+  <subsection xml:id="trig-squared-notation">
+    <title>Notation <m>\sin^2{x}</m> and Other Powers of a Trigonometric Function</title>
     <p>
-      This is the introduction to the subsection. It can contain any content
-      that is valid in a <introduction> element, including <p>, <ul>, <ol>,
-      <figure>, and <table>. You can also include other files using
-      <xi:include> tags.
+      Sometimes, we want to write the square of a trig function. For example, <m>\sin{x} \cdot \sin{x}</m>, or <m>\brac{\sin{x}}^2</m>. It is common to write this more simply as <m>\sin^2{x}</m>. For example,
+    </p>
+    <md>
+      <mrow>\sin^2{\brac{\frac{\pi}{6}}} = \brac{\sin{\brac{\frac{\pi}{6}}}}^2 = \brac{\frac{1}{2}}^2 = \frac{1}{4}</mrow>
+    </md>
+    <p>
+      This is a convention that saves space and avoids having to write so many parentheses.
+    </p>
+    <p>
+      This notation also applies generally to all trigonometric functions,
+    </p>
+    <md>
+      <mrow>
+        \boxed{\begin{array}{rl}
+        \sin^2{x} \amp = (\sin{x})^2 \\
+        \cos^2{x} \amp = (\cos{x})^2 \\
+        \tan^2{x} \amp = (\tan{x})^2
+        \end{array}}
+        \qquad \text{and so on, for the other trig functions.}
+      </mrow>
+    </md>
+    <p>
+      Also, this works the same with higher powers (e.g. <m>\tan^3{x} = (\tan{x})^3</m>).
+    </p>
+    <p>
+      This notation often confuses students when first learning it. In particular, the exponent (2 in this case) applies to the entire trigonometric function, not the angle <m>x</m>. In other words,
+    </p>
+    <md>
+      <mrow>    \underbrace{\sin^2{x}}_{\text{Sine of } x \text{, then squared}} \neq \underbrace{\sin{\brac{x^2}}}_{\text{Take the sine of } x^2}</mrow>
+    </md>
+    <p>
+      If you like, whenever you see a squared trig function, you can first write it with brackets, before proceeding with the problem.
     </p>
   </subsection>
-
+  
+  <subsection>
+    <title>Solving Quadratic Trigonometric Equations</title>
+    <example>
+      <p>
+        Consider <m>2\sin^2{x} - 1 = 0</m>. To solve this, you can replace <m>\sin{x}</m> with a single variable <m>u</m> (<m>u = \sin{x}</m>), to get <m>2u^2-1=0</m>.
+      </p>
+    </example>
+    <p>
+      More precisely, if <m>p(x) = 0</m> is a quadratic equation, then the equation can be put into the form <m>p(\sin{x}) = 0</m> (or another trigonometric function).
+    </p>
+  </subsection>
+  
+  <subsection>
+    <title>Examples</title>
+    <example>
+      <p>
+        <alert>Basic quadratic equation</alert>. Solve each equation.
+      </p>
+      <p>
+        <ol>
+          <li><p><m>4 \cos^2{x} - 1 = 0</m></p></li>
+          <li><p><m>5 - \tan^2{x} = 4</m></p></li>
+        </ol>
+      </p>
+    </example>
+    <example>
+      <p>
+        <alert>Factoring a common factor</alert>. Solve each equation.
+      </p>
+      <p>
+        <ol>
+          <li><p><m>\sin^2{x} - \sin{x} = 0</m></p></li>
+          <li><p><m>\sin^2{x} - 2\sin{x} = 0</m></p></li>
+          <li><p><m>2\cos^2{x} = \cos{x}</m></p></li>
+          <li><p><m>2\sin^2{x} = \sin{x}</m></p></li>
+          <li><p><m>2 \cos^2{x} = \sqrt{3} \cos{x}</m></p></li>
+          <li><p><m>5\sec^2{x} \tan{x} = 20\tan{x}</m></p></li>
+        </ol>
+      </p>
+    </example>
+    <p>
+      Note that you can't divide by <m>\sin{x}</m>, because that assumes that <m>\sin{x} \neq 0</m>, when in fact <m>\sin{x}</m> can equal 0. This is just like how with the equation <m>x^2 - 2x = 0</m>, you can't divide by <m>x</m> and instead have to factor it out.
+    </p>
+  </subsection>
+  
+  <subsection>
+    <title>Trigonometric Equations in Quadratic Form</title>
+    <p>
+      Again, it is helpful to think about the equation if the trig function was replaced by a single variable (say, <m>u</m>).
+    </p>
+    <example>
+      <p>
+        <alert>Trigonometric equations in quadratic form</alert>. Solve each equation.
+      </p>
+      <p>
+        <ol>
+          <li><p><m>\cos^2{x} + 2 \cos{x} - 3 = 0</m></p></li>
+          <li><p><m>2\cos^2{x} + \cos{x} - 1 = 0</m></p></li>
+          <li><p><m>-6 \sin^2{x} + \sin{x} = -3</m></p></li>
+          <li><p><m>2 \sec^2{x} - 2\sec{x} - 4 = 0</m></p></li>
+          <li><p><m>\tan^2{x} + 5\tan{x} + 4 = 0</m></p></li>
+          <li><p><m>\sin^2{x} = 3 \sin{x} - 2</m></p></li>
+          <li><p><m>\tan^2{x} - \tan{x} - 2 = 0</m></p></li>
+          <li><p><m>\sec^2{x} - 2\sec{x} - 3 = 0</m></p></li>
+          <li><p><m>2\cos^2{x} - 3\cos{x} + 1 = 0</m></p></li>
+          <li><p><m>9\sin^2{x} + 12\sin{x} + 4 = 0</m></p></li>
+        </ol>
+      </p>
+    </example>
+    <example>
+      <p>
+        <alert>Advanced</alert>. Solve each equation.
+      </p>
+      <p>
+        <ol>
+          <li><p><m>6 \tan^3{x} - 2 \tan{x} = 0</m></p></li>
+          <li><p><m>4 \sin^3{x} - 3 \sin{x} = 0</m>. Answer: <m>x = 0, \tfrac{\pi}{3}, \tfrac{2\pi}{3}, \pi, \tfrac{4\pi}{3}, \tfrac{5\pi}{3}</m></p></li>
+          <li><p><m>\sin{x} = \tan{x}</m></p></li>
+          <li><p><m>2 \cos^3{x} - \cos{x} = 0</m></p></li>
+          <li><p><m>\tan^2{x} - 4 \sec{x} + 5 = 0</m></p></li>
+          <li><p><m>2\sec^2{x} + 13\sec{x} + 20 = 0</m></p></li>
+          <li><p><m>\sin^2{x} + 2\sin{x}\cos{x} + \cos^2{x} = 0</m></p></li>
+        </ol>
+      </p>
+    </example>
+  </subsection>
+  
+  
 </section>
