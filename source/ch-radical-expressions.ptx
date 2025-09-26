@@ -8,6 +8,7 @@
   </introduction> -->
 
   <!-- include sections -->
+  <xi:include href="sec-rational-exponents-and-radicals.ptx" />
   <xi:include href="sec-simplifying-radicals.ptx" />
 
 </chapter>
