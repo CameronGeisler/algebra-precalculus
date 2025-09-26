@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-factoring-quadratics-summary" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Factoring Quadratics Summary</title>
+  
+  <introduction>
+    <ol>
+      <li>
+        <p>
+          Write the quadratic in descending power order (standard form), <m>ax^2 + bx + c</m>.
+        </p>
+        <p>
+          <ul>
+            <li>
+              <p>
+                e.g. <m>-5 - 4x + x^2 = x^2 - 4x - 5</m>
+              </p>
+            </li>
+          </ul>
+        </p>
+      </li>
+      <li>
+        <p>
+          If there is a GCF (greatest common factor), factor it out (either a number or variable like <m>x</m>).
+        </p>
+        <p>
+          <ul>
+            <li>
+              <p>
+                e.g. <m>x^2 + 4x = x(x+4)</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                e.g. <m>2x^2 + 4x - 6 = 2(x^2 + 2x - 3)</m>
+              </p>
+            </li>
+          </ul>
+        </p>
+      </li>
+      <li>
+        <p>
+          Determine which factoring method applies, based on the form:
+        </p>
+        <ol marker="(a)">
+          <li>
+            <p>
+              If <m>a = 1</m>, find two numbers that multiply to <m>c</m> and add to <m>b</m>.
+            </p>
+            <p>
+              <ul>
+                <li>
+                  <p>
+                    e.g. <m>x^2 + 5x + 6 = (x+2)(x+3)</m>
+                  </p>
+                </li>
+              </ul>
+            </p>
+          </li>
+          <li>
+            <p>
+              If <m>a \neq 1</m>, use the cross method (or <m>ac</m>-method, or box method).
+            </p>
+            <p>
+              <ul>
+                <li>
+                  <p>
+                    e.g. <m>2x^2 + 7x + 3 = (2x+1)(x+3)</m>
+                  </p>
+                </li>
+              </ul>
+            </p>
+          </li>
+          <li>
+            <p>
+              If there are only 2 terms, try difference of squares.
+            </p>
+            <md>
+              <mrow>
+                a^2 - b^2 = (a+b)(a-b) \qquad \text{e.g. } x^2 - 9 = (x+3)(x-3)
+              </mrow>
+            </md>
+          </li>
+          <li>
+            <p>
+              (Optional) use perfect square factoring patterns:
+            </p>
+            <md>
+              <mrow>
+                \begin{aligned}
+                a^2 + 2ab + b^2 \amp = (a+b)^2 \\
+                a^2 - 2ab + b^2 \amp = (a-b)^2
+                \end{aligned}
+                \qquad
+                \begin{aligned}
+                \text{e.g. } x^2+6x+9 \amp = (x+3)^2 \\
+                \text{e.g. } 4x^2 - 12x + 9 \amp = (2x-3)^2
+                \end{aligned}
+              </mrow>
+            </md>
+          </li>
+        </ol>
+      </li>
+    </ol>
+    
+  </introduction>
+  
+  
+  
+</section>

@@ -9,5 +9,8 @@
 
   <!-- include sections -->
   <xi:include href="sec-factoring-quadratic-trinomials.ptx" />
+  <xi:include href="sec-factoring-quadratics-summary.ptx" />
+  <!-- <xi:include href="sec-solving-quadratic-equations-by-factoring.ptx -->
+   
 
 </chapter>

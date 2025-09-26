@@ -7,7 +7,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "Rational Exponents and Radicals",
-  "body": " Rational Exponents and Radicals   Recall that previously, powers and exponents are a concise notation to write repeated multiplication. For example, means multiply 3, 4 times, or .  We can extend the definition of exponents to allow for rational numbers, i.e. exponents which are fractions. For example, expressions like, At first, the previous definition of exponents as ``how many times you're multiplying\" doesn't seem to make sense. After all, for example, for , what does it mean to multiply 4 by itself ``3\/2\" times?   Suppose that we extend exponents to be allowed to be any rational number. Then, we want the laws of exponents to still work. In particular, the two fundamental laws, Then, consider . By properties of exponents, This shows that multiplied by itself is equal to 3, or . We also know that, This means precisely that and must be the same number, or .   In general, for any number , which means that , and so is the square root of .    Rational Exponents       In other words,     Technically, there are two numbers where, if you square them, give , which are and . We define to be the positive square root of .  In a similar way, for an exponent of , Therefore, , and so is the cube root of .   In general, this works for any exponent of the form .       Next, suppose we want to define a rational exponent when the numerator is a number other than 1. For example, . In this case, , so, And so . On the other hand, And so . Putting both of them together, we get that all of these are equal,   This suggests the following definition, in summary.       For raising a number to a fraction power ,    Take the th root and then raise to the th power, or,    Raise to the the th power and then the th root    In short,    Numerator exponent.    Denominator root index.      Decimal exponents can be thought of as fractions. For example, .     Note that when evaluating expressions with rational exponents with a calculator, be sure to put parentheses around the fraction. Most calculators will evaluate as , because with order of operations, exponentiation is higher than division.    Note that this always works, except if is even and is negative, because we can't take the square root (or any even root) of a negative number.     We can also define negative rational exponents, in the same way as negative integer exponents.           Summary of Properties of Exponents  In summary,   All of the laws of exponents also apply to rational exponents.         Converting Between Rational Exponents and Radicals   Write each expression in exponent form.                Write each expression in radical form.           Write each expression in radical form in 2 ways.           Evaluating Rational Exponents Exact Values Examples   Evaluate each power, as a whole number or rational number, without using a calculator.                                              Rational Exponents Using a Calculator   Evaluate each expression using a calculator. Express your answers to four decimal places, if necessary.                        Simplifying Algebraic Expressions with Rational Exponents   Simplify each expression using exponent laws. Write with rational exponents where necessary.                                   "
+  "body": " Rational Exponents and Radicals   Recall that previously, powers and exponents are a concise notation to write repeated multiplication. For example, means multiply 3, 4 times, or .  We can extend the definition of exponents to allow for rational numbers, i.e. exponents which are fractions. For example, expressions like, At first, the previous definition of exponents as ``how many times you're multiplying\" doesn't seem to make sense. After all, for example, for , what does it mean to multiply 4 by itself ``3\/2\" times?   Suppose that we extend exponents to be allowed to be any rational number. Then, we want the laws of exponents to still work. In particular, the two fundamental laws, Then, consider . By properties of exponents, This shows that multiplied by itself is equal to 3, or . We also know that, This means precisely that and must be the same number, or .   In general, for any number , which means that , and so is the square root of .    Rational Exponents       In other words,     Technically, there are two numbers where, if you square them, give , which are and . We define to be the positive square root of .  In a similar way, for an exponent of , Therefore, , and so is the cube root of .   In general, this works for any exponent of the form .       Next, suppose we want to define a rational exponent when the numerator is a number other than 1.  For example, . In this case, , so, And so . On the other hand, And so . Putting both of them together, we get that all of these are equal,   This suggests the following definition, in summary.       For raising a number to a fraction power ,    Take the th root and then raise to the th power, or,    Raise to the the th power and then the th root    In short,    Numerator exponent.    Denominator root index.      Decimal exponents can be thought of as fractions. For example, .     Note that when evaluating expressions with rational exponents with a calculator, be sure to put parentheses around the fraction. Most calculators will evaluate as , because with order of operations, exponentiation is higher than division.    Note that this always works, except if is even and is negative, because we can't take the square root (or any even root) of a negative number.     We can also define negative rational exponents, in the same way as negative integer exponents.           Summary of Properties of Exponents  In summary,   All of the laws of exponents also apply to rational exponents.         Converting Between Rational Exponents and Radicals   Write each expression in exponent form.                Write each expression in radical form.           Write each expression in radical form in 2 ways.           Evaluating Rational Exponents Exact Values Examples   Evaluate each power, as a whole number or rational number, without using a calculator.                                              Rational Exponents Using a Calculator   Evaluate each expression using a calculator. Express your answers to four decimal places, if necessary.                        Simplifying Algebraic Expressions with Rational Exponents   Simplify each expression using exponent laws. Write with rational exponents where necessary.                                   "
 },
 {
   "id": "sec-rational-exponents-and-radicals-2-3",
@@ -37,20 +37,29 @@ var ptx_lunr_docs = [
   "body": "    "
 },
 {
-  "id": "sec-rational-exponents-and-radicals-3-11",
+  "id": "sec-rational-exponents-and-radicals-3-10",
   "level": "2",
-  "url": "sec-rational-exponents-and-radicals.html#sec-rational-exponents-and-radicals-3-11",
-  "type": "Definition",
+  "url": "sec-rational-exponents-and-radicals.html#sec-rational-exponents-and-radicals-3-10",
+  "type": "Example",
   "number": "1.1.4",
+  "title": "",
+  "body": "For example, . In this case, , so, And so . On the other hand, And so . Putting both of them together, we get that all of these are equal,  "
+},
+{
+  "id": "sec-rational-exponents-and-radicals-3-12",
+  "level": "2",
+  "url": "sec-rational-exponents-and-radicals.html#sec-rational-exponents-and-radicals-3-12",
+  "type": "Definition",
+  "number": "1.1.5",
   "title": "",
   "body": "    "
 },
 {
-  "id": "sec-rational-exponents-and-radicals-3-16",
+  "id": "sec-rational-exponents-and-radicals-3-17",
   "level": "2",
-  "url": "sec-rational-exponents-and-radicals.html#sec-rational-exponents-and-radicals-3-16",
+  "url": "sec-rational-exponents-and-radicals.html#sec-rational-exponents-and-radicals-3-17",
   "type": "Definition",
-  "number": "1.1.5",
+  "number": "1.1.6",
   "title": "",
   "body": "      "
 },
@@ -59,7 +68,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-rational-exponents-and-radicals.html#sec-rational-exponents-and-radicals-4-5",
   "type": "Theorem",
-  "number": "1.1.6",
+  "number": "1.1.7",
   "title": "",
   "body": "    "
 },
@@ -68,7 +77,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-rational-exponents-and-radicals.html#sec-rational-exponents-and-radicals-5-2",
   "type": "Example",
-  "number": "1.1.7",
+  "number": "1.1.8",
   "title": "",
   "body": " Write each expression in exponent form.              "
 },
@@ -77,7 +86,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-rational-exponents-and-radicals.html#sec-rational-exponents-and-radicals-5-3",
   "type": "Example",
-  "number": "1.1.8",
+  "number": "1.1.9",
   "title": "",
   "body": " Write each expression in radical form.         "
 },
@@ -86,7 +95,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-rational-exponents-and-radicals.html#sec-rational-exponents-and-radicals-5-4",
   "type": "Example",
-  "number": "1.1.9",
+  "number": "1.1.10",
   "title": "",
   "body": " Write each expression in radical form in 2 ways.        "
 },
@@ -95,7 +104,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-rational-exponents-and-radicals.html#sec-rational-exponents-and-radicals-6-2",
   "type": "Example",
-  "number": "1.1.10",
+  "number": "1.1.11",
   "title": "",
   "body": " Evaluate each power, as a whole number or rational number, without using a calculator.                                           "
 },
@@ -104,7 +113,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-rational-exponents-and-radicals.html#sec-rational-exponents-and-radicals-7-2",
   "type": "Example",
-  "number": "1.1.11",
+  "number": "1.1.12",
   "title": "",
   "body": " Evaluate each expression using a calculator. Express your answers to four decimal places, if necessary.                     "
 },
@@ -113,7 +122,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-rational-exponents-and-radicals.html#sec-rational-exponents-and-radicals-8-2",
   "type": "Example",
-  "number": "1.1.12",
+  "number": "1.1.13",
   "title": "",
   "body": " Simplify each expression using exponent laws. Write with rational exponents where necessary.                                 "
 },
@@ -971,6 +980,15 @@ var ptx_lunr_docs = [
   "number": "2.1.12",
   "title": "",
   "body": " Consider the quadratic,   Here, the numbers are kinda large, but we can still use the cross method. After some trial and error, the correct combination is,      However, notice that also contains a common factor of 3, so we should factor it out.   Instead, it is easier to first factor out the common factor of 3,   Then, factoring the remaining only uses the sum and product method, and has smaller numbers to work with,    "
+},
+{
+  "id": "sec-factoring-quadratics-summary",
+  "level": "1",
+  "url": "sec-factoring-quadratics-summary.html",
+  "type": "Section",
+  "number": "2.2",
+  "title": "Factoring Quadratics Summary",
+  "body": " Factoring Quadratics Summary     Write the quadratic in descending power order (standard form), .     e.g.        If there is a GCF (greatest common factor), factor it out (either a number or variable like ).     e.g.     e.g.        Determine which factoring method applies, based on the form:    If , find two numbers that multiply to and add to .     e.g.        If , use the cross method (or -method, or box method).     e.g.        If there are only 2 terms, try difference of squares.     (Optional) use perfect square factoring patterns:        "
 },
 {
   "id": "sec-polynomial-functions-intro",
