@@ -1,20 +1,146 @@
 var ptx_lunr_search_style = "textbook";
 var ptx_lunr_docs = [
 {
+  "id": "sec-rational-exponents-and-radicals",
+  "level": "1",
+  "url": "sec-rational-exponents-and-radicals.html",
+  "type": "Section",
+  "number": "1.1",
+  "title": "Rational Exponents and Radicals",
+  "body": " Rational Exponents and Radicals   Recall that previously, powers and exponents are a concise notation to write repeated multiplication. For example, means multiply 3, 4 times, or .  We can extend the definition of exponents to allow for rational numbers, i.e. exponents which are fractions. For example, expressions like, At first, the previous definition of exponents as ``how many times you're multiplying\" doesn't seem to make sense. After all, for example, for , what does it mean to multiply 4 by itself ``3\/2\" times?   Suppose that we extend exponents to be allowed to be any rational number. Then, we want the laws of exponents to still work. In particular, the two fundamental laws, Then, consider . By properties of exponents, This shows that multiplied by itself is equal to 3, or . We also know that, This means precisely that and must be the same number, or .   In general, for any number , which means that , and so is the square root of .    Rational Exponents       In other words,     Technically, there are two numbers where, if you square them, give , which are and . We define to be the positive square root of .  In a similar way, for an exponent of , Therefore, , and so is the cube root of .   In general, this works for any exponent of the form .       Next, suppose we want to define a rational exponent when the numerator is a number other than 1.  For example, . In this case, , so, And so . On the other hand, And so . Putting both of them together, we get that all of these are equal,   This suggests the following definition, in summary.       For raising a number to a fraction power ,    Take the th root and then raise to the th power, or,    Raise to the the th power and then the th root    In short,    Numerator exponent.    Denominator root index.      Decimal exponents can be thought of as fractions. For example, .     Note that when evaluating expressions with rational exponents with a calculator, be sure to put parentheses around the fraction. Most calculators will evaluate as , because with order of operations, exponentiation is higher than division.    Note that this always works, except if is even and is negative, because we can't take the square root (or any even root) of a negative number.     We can also define negative rational exponents, in the same way as negative integer exponents.           Summary of Properties of Exponents  In summary,   All of the laws of exponents also apply to rational exponents.         Converting Between Rational Exponents and Radicals   Write each expression in exponent form.                Write each expression in radical form.           Write each expression in radical form in 2 ways.           Evaluating Rational Exponents Exact Values Examples   Evaluate each power, as a whole number or rational number, without using a calculator.                                              Rational Exponents Using a Calculator   Evaluate each expression using a calculator. Express your answers to four decimal places, if necessary.                        Simplifying Algebraic Expressions with Rational Exponents   Simplify each expression using exponent laws. Write with rational exponents where necessary.                                   "
+},
+{
+  "id": "sec-rational-exponents-and-radicals-2-3",
+  "level": "2",
+  "url": "sec-rational-exponents-and-radicals.html#sec-rational-exponents-and-radicals-2-3",
+  "type": "Example",
+  "number": "1.1.1",
+  "title": "",
+  "body": " Suppose that we extend exponents to be allowed to be any rational number. Then, we want the laws of exponents to still work. In particular, the two fundamental laws, Then, consider . By properties of exponents, This shows that multiplied by itself is equal to 3, or . We also know that, This means precisely that and must be the same number, or .  "
+},
+{
+  "id": "sec-rational-exponents-and-radicals-3-2",
+  "level": "2",
+  "url": "sec-rational-exponents-and-radicals.html#sec-rational-exponents-and-radicals-3-2",
+  "type": "Definition",
+  "number": "1.1.2",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "sec-rational-exponents-and-radicals-3-8",
+  "level": "2",
+  "url": "sec-rational-exponents-and-radicals.html#sec-rational-exponents-and-radicals-3-8",
+  "type": "Definition",
+  "number": "1.1.3",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "sec-rational-exponents-and-radicals-3-10",
+  "level": "2",
+  "url": "sec-rational-exponents-and-radicals.html#sec-rational-exponents-and-radicals-3-10",
+  "type": "Example",
+  "number": "1.1.4",
+  "title": "",
+  "body": "For example, . In this case, , so, And so . On the other hand, And so . Putting both of them together, we get that all of these are equal,  "
+},
+{
+  "id": "sec-rational-exponents-and-radicals-3-12",
+  "level": "2",
+  "url": "sec-rational-exponents-and-radicals.html#sec-rational-exponents-and-radicals-3-12",
+  "type": "Definition",
+  "number": "1.1.5",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "sec-rational-exponents-and-radicals-3-17",
+  "level": "2",
+  "url": "sec-rational-exponents-and-radicals.html#sec-rational-exponents-and-radicals-3-17",
+  "type": "Definition",
+  "number": "1.1.6",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "sec-rational-exponents-and-radicals-4-5",
+  "level": "2",
+  "url": "sec-rational-exponents-and-radicals.html#sec-rational-exponents-and-radicals-4-5",
+  "type": "Theorem",
+  "number": "1.1.7",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "sec-rational-exponents-and-radicals-5-2",
+  "level": "2",
+  "url": "sec-rational-exponents-and-radicals.html#sec-rational-exponents-and-radicals-5-2",
+  "type": "Example",
+  "number": "1.1.8",
+  "title": "",
+  "body": " Write each expression in exponent form.              "
+},
+{
+  "id": "sec-rational-exponents-and-radicals-5-3",
+  "level": "2",
+  "url": "sec-rational-exponents-and-radicals.html#sec-rational-exponents-and-radicals-5-3",
+  "type": "Example",
+  "number": "1.1.9",
+  "title": "",
+  "body": " Write each expression in radical form.         "
+},
+{
+  "id": "sec-rational-exponents-and-radicals-5-4",
+  "level": "2",
+  "url": "sec-rational-exponents-and-radicals.html#sec-rational-exponents-and-radicals-5-4",
+  "type": "Example",
+  "number": "1.1.10",
+  "title": "",
+  "body": " Write each expression in radical form in 2 ways.        "
+},
+{
+  "id": "sec-rational-exponents-and-radicals-6-2",
+  "level": "2",
+  "url": "sec-rational-exponents-and-radicals.html#sec-rational-exponents-and-radicals-6-2",
+  "type": "Example",
+  "number": "1.1.11",
+  "title": "",
+  "body": " Evaluate each power, as a whole number or rational number, without using a calculator.                                           "
+},
+{
+  "id": "sec-rational-exponents-and-radicals-7-2",
+  "level": "2",
+  "url": "sec-rational-exponents-and-radicals.html#sec-rational-exponents-and-radicals-7-2",
+  "type": "Example",
+  "number": "1.1.12",
+  "title": "",
+  "body": " Evaluate each expression using a calculator. Express your answers to four decimal places, if necessary.                     "
+},
+{
+  "id": "sec-rational-exponents-and-radicals-8-2",
+  "level": "2",
+  "url": "sec-rational-exponents-and-radicals.html#sec-rational-exponents-and-radicals-8-2",
+  "type": "Example",
+  "number": "1.1.13",
+  "title": "",
+  "body": " Simplify each expression using exponent laws. Write with rational exponents where necessary.                                 "
+},
+{
   "id": "sec-simplifying-radicals",
   "level": "1",
   "url": "sec-simplifying-radicals.html",
   "type": "Section",
-  "number": "1.1",
+  "number": "1.2",
   "title": "Simplifying Radicals",
-  "body": " Simplifying Radicals    Examples     Simplify each radical, if possible.                                                                                                  Simplify each radical, if possible.                                                                                                       Simplifying Radicals Using Perfect Square Factors  Another method to do this is to specifically look for perfect square factors. To simplify , first list all the perfect squares up to .   Then, check each perfect square to see if it is a factor of . If it is, then these perfect square factors can be factored out of the radical.  Recognize the largest perfect square factor of the radicand.  If you have a calculator, this is much easier.  Similarly, for cube roots, list all perfect cubes up to , and look for perfect cube factors. In general, list all perfect th powers up to , and look for perfect th power factors.  In summary, to simplify a radical,  Determine the largest perfect th power factor of the radicand.  Factor out and simplify this perfect square factor, using the product rule for radicals.      Condensing Mixed Radicals, Writing Mixed Radicals as Entire Radicals  Mixed radicals can also be condensed into entire radicals, the reverse process of simplifying radicals.  Any number can be written as the square root of its square. For example, , . Similarly, any number can be written as the cube root of its cube, or in general the th root of its th power. This property, along with the multiplication property, can be used to condense mixed radicals into entire radicals.     Write each mixed radical as an entire radical.                                        "
+  "body": " Simplifying Radicals    Examples     Simplify each radical, if possible.                                                                                                  Simplify each radical, if possible.                                                                                                       Condensing Mixed Radicals, Writing Mixed Radicals as Entire Radicals  Mixed radicals can also be condensed into entire radicals, the reverse process of simplifying radicals.  Any number can be written as the square root of its square. For example, , . Similarly, any number can be written as the cube root of its cube, or in general the th root of its th power. This property, along with the multiplication property, can be used to condense mixed radicals into entire radicals.     Write each mixed radical as an entire radical.                                        "
 },
 {
   "id": "sec-simplifying-radicals-2-2-1-2",
   "level": "2",
   "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-2-2-1-2",
   "type": "Exercise",
-  "number": "1.1.1.1",
+  "number": "1.2.1.1",
   "title": "",
   "body": "   "
 },
@@ -23,7 +149,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-2-2-1-3",
   "type": "Exercise",
-  "number": "1.1.1.2",
+  "number": "1.2.1.2",
   "title": "",
   "body": "   "
 },
@@ -32,7 +158,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-2-2-1-4",
   "type": "Exercise",
-  "number": "1.1.1.3",
+  "number": "1.2.1.3",
   "title": "",
   "body": "   "
 },
@@ -41,7 +167,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-2-2-1-5",
   "type": "Exercise",
-  "number": "1.1.1.4",
+  "number": "1.2.1.4",
   "title": "",
   "body": "   "
 },
@@ -50,7 +176,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-2-2-1-6",
   "type": "Exercise",
-  "number": "1.1.1.5",
+  "number": "1.2.1.5",
   "title": "",
   "body": "   "
 },
@@ -59,7 +185,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-2-2-1-7",
   "type": "Exercise",
-  "number": "1.1.1.6",
+  "number": "1.2.1.6",
   "title": "",
   "body": "   "
 },
@@ -68,7 +194,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-2-2-1-8",
   "type": "Exercise",
-  "number": "1.1.1.7",
+  "number": "1.2.1.7",
   "title": "",
   "body": "   "
 },
@@ -77,7 +203,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-2-2-1-9",
   "type": "Exercise",
-  "number": "1.1.1.8",
+  "number": "1.2.1.8",
   "title": "",
   "body": "   "
 },
@@ -86,7 +212,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-2-2-1-10",
   "type": "Exercise",
-  "number": "1.1.1.9",
+  "number": "1.2.1.9",
   "title": "",
   "body": "   "
 },
@@ -95,7 +221,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-2-2-1-11",
   "type": "Exercise",
-  "number": "1.1.1.10",
+  "number": "1.2.1.10",
   "title": "",
   "body": "   "
 },
@@ -104,7 +230,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-2-2-1-12",
   "type": "Exercise",
-  "number": "1.1.1.11",
+  "number": "1.2.1.11",
   "title": "",
   "body": "   "
 },
@@ -113,7 +239,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-2-2-1-13",
   "type": "Exercise",
-  "number": "1.1.1.12",
+  "number": "1.2.1.12",
   "title": "",
   "body": "   "
 },
@@ -122,7 +248,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-2-2-1-14",
   "type": "Exercise",
-  "number": "1.1.1.13",
+  "number": "1.2.1.13",
   "title": "",
   "body": "   "
 },
@@ -131,7 +257,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-2-2-1-15",
   "type": "Exercise",
-  "number": "1.1.1.14",
+  "number": "1.2.1.14",
   "title": "",
   "body": "   "
 },
@@ -140,7 +266,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-2-2-1-16",
   "type": "Exercise",
-  "number": "1.1.1.15",
+  "number": "1.2.1.15",
   "title": "",
   "body": "   "
 },
@@ -149,7 +275,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-2-2-1-17",
   "type": "Exercise",
-  "number": "1.1.1.16",
+  "number": "1.2.1.16",
   "title": "",
   "body": "   "
 },
@@ -158,7 +284,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-2-2-1-18",
   "type": "Exercise",
-  "number": "1.1.1.17",
+  "number": "1.2.1.17",
   "title": "",
   "body": "   "
 },
@@ -167,7 +293,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-2-2-1-19",
   "type": "Exercise",
-  "number": "1.1.1.18",
+  "number": "1.2.1.18",
   "title": "",
   "body": "   "
 },
@@ -176,7 +302,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-2-2-1-20",
   "type": "Exercise",
-  "number": "1.1.1.19",
+  "number": "1.2.1.19",
   "title": "",
   "body": "   "
 },
@@ -185,7 +311,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-2-2-1-21",
   "type": "Exercise",
-  "number": "1.1.1.20",
+  "number": "1.2.1.20",
   "title": "",
   "body": "   "
 },
@@ -194,7 +320,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-2-2-1-22",
   "type": "Exercise",
-  "number": "1.1.1.21",
+  "number": "1.2.1.21",
   "title": "",
   "body": "   "
 },
@@ -203,7 +329,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-2-2-1-23",
   "type": "Exercise",
-  "number": "1.1.1.22",
+  "number": "1.2.1.22",
   "title": "",
   "body": "   "
 },
@@ -212,7 +338,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-2-2-1-24",
   "type": "Exercise",
-  "number": "1.1.1.23",
+  "number": "1.2.1.23",
   "title": "",
   "body": "   "
 },
@@ -221,7 +347,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-2-2-2-2",
   "type": "Exercise",
-  "number": "1.1.1.24",
+  "number": "1.2.1.24",
   "title": "",
   "body": "   "
 },
@@ -230,7 +356,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-2-2-2-3",
   "type": "Exercise",
-  "number": "1.1.1.25",
+  "number": "1.2.1.25",
   "title": "",
   "body": "   "
 },
@@ -239,7 +365,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-2-2-2-4",
   "type": "Exercise",
-  "number": "1.1.1.26",
+  "number": "1.2.1.26",
   "title": "",
   "body": "   "
 },
@@ -248,7 +374,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-2-2-2-5",
   "type": "Exercise",
-  "number": "1.1.1.27",
+  "number": "1.2.1.27",
   "title": "",
   "body": "   "
 },
@@ -257,7 +383,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-2-2-2-6",
   "type": "Exercise",
-  "number": "1.1.1.28",
+  "number": "1.2.1.28",
   "title": "",
   "body": "   "
 },
@@ -266,7 +392,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-2-2-2-7",
   "type": "Exercise",
-  "number": "1.1.1.29",
+  "number": "1.2.1.29",
   "title": "",
   "body": "   "
 },
@@ -275,7 +401,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-2-2-2-8",
   "type": "Exercise",
-  "number": "1.1.1.30",
+  "number": "1.2.1.30",
   "title": "",
   "body": "   "
 },
@@ -284,7 +410,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-2-2-2-9",
   "type": "Exercise",
-  "number": "1.1.1.31",
+  "number": "1.2.1.31",
   "title": "",
   "body": "   "
 },
@@ -293,7 +419,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-2-2-2-10",
   "type": "Exercise",
-  "number": "1.1.1.32",
+  "number": "1.2.1.32",
   "title": "",
   "body": "   "
 },
@@ -302,7 +428,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-2-2-2-11",
   "type": "Exercise",
-  "number": "1.1.1.33",
+  "number": "1.2.1.33",
   "title": "",
   "body": "   "
 },
@@ -311,7 +437,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-2-2-2-12",
   "type": "Exercise",
-  "number": "1.1.1.34",
+  "number": "1.2.1.34",
   "title": "",
   "body": "   "
 },
@@ -320,7 +446,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-2-2-2-13",
   "type": "Exercise",
-  "number": "1.1.1.35",
+  "number": "1.2.1.35",
   "title": "",
   "body": "   "
 },
@@ -329,7 +455,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-2-2-2-14",
   "type": "Exercise",
-  "number": "1.1.1.36",
+  "number": "1.2.1.36",
   "title": "",
   "body": "   "
 },
@@ -338,7 +464,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-2-2-2-15",
   "type": "Exercise",
-  "number": "1.1.1.37",
+  "number": "1.2.1.37",
   "title": "",
   "body": "   "
 },
@@ -347,7 +473,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-2-2-2-16",
   "type": "Exercise",
-  "number": "1.1.1.38",
+  "number": "1.2.1.38",
   "title": "",
   "body": "   "
 },
@@ -356,7 +482,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-2-2-2-17",
   "type": "Exercise",
-  "number": "1.1.1.39",
+  "number": "1.2.1.39",
   "title": "",
   "body": "   "
 },
@@ -365,7 +491,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-2-2-2-18",
   "type": "Exercise",
-  "number": "1.1.1.40",
+  "number": "1.2.1.40",
   "title": "",
   "body": "   "
 },
@@ -374,7 +500,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-2-2-2-19",
   "type": "Exercise",
-  "number": "1.1.1.41",
+  "number": "1.2.1.41",
   "title": "",
   "body": "   "
 },
@@ -383,7 +509,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-2-2-2-20",
   "type": "Exercise",
-  "number": "1.1.1.42",
+  "number": "1.2.1.42",
   "title": "",
   "body": "   "
 },
@@ -392,7 +518,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-2-2-2-21",
   "type": "Exercise",
-  "number": "1.1.1.43",
+  "number": "1.2.1.43",
   "title": "",
   "body": "   "
 },
@@ -401,7 +527,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-2-2-2-22",
   "type": "Exercise",
-  "number": "1.1.1.44",
+  "number": "1.2.1.44",
   "title": "",
   "body": "   "
 },
@@ -410,7 +536,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-2-2-2-23",
   "type": "Exercise",
-  "number": "1.1.1.45",
+  "number": "1.2.1.45",
   "title": "",
   "body": "   "
 },
@@ -419,7 +545,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-2-2-2-24",
   "type": "Exercise",
-  "number": "1.1.1.46",
+  "number": "1.2.1.46",
   "title": "",
   "body": "   "
 },
@@ -428,313 +554,313 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-2-2-2-25",
   "type": "Exercise",
-  "number": "1.1.1.47",
+  "number": "1.2.1.47",
   "title": "",
   "body": "   "
 },
 {
-  "id": "sec-simplifying-radicals-4-4-1-2",
+  "id": "sec-simplifying-radicals-3-4-1-2",
   "level": "2",
-  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-4-4-1-2",
+  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-3-4-1-2",
   "type": "Exercise",
-  "number": "1.1.3.1",
+  "number": "1.2.2.1",
   "title": "",
   "body": ""
 },
 {
-  "id": "sec-simplifying-radicals-4-4-1-3",
+  "id": "sec-simplifying-radicals-3-4-1-3",
   "level": "2",
-  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-4-4-1-3",
+  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-3-4-1-3",
   "type": "Exercise",
-  "number": "1.1.3.2",
+  "number": "1.2.2.2",
   "title": "",
   "body": ""
 },
 {
-  "id": "sec-simplifying-radicals-4-4-1-4",
+  "id": "sec-simplifying-radicals-3-4-1-4",
   "level": "2",
-  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-4-4-1-4",
+  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-3-4-1-4",
   "type": "Exercise",
-  "number": "1.1.3.3",
+  "number": "1.2.2.3",
   "title": "",
   "body": ""
 },
 {
-  "id": "sec-simplifying-radicals-4-4-1-5",
+  "id": "sec-simplifying-radicals-3-4-1-5",
   "level": "2",
-  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-4-4-1-5",
+  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-3-4-1-5",
   "type": "Exercise",
-  "number": "1.1.3.4",
+  "number": "1.2.2.4",
   "title": "",
   "body": ""
 },
 {
-  "id": "sec-simplifying-radicals-4-4-1-6",
+  "id": "sec-simplifying-radicals-3-4-1-6",
   "level": "2",
-  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-4-4-1-6",
+  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-3-4-1-6",
   "type": "Exercise",
-  "number": "1.1.3.5",
+  "number": "1.2.2.5",
   "title": "",
   "body": ""
 },
 {
-  "id": "sec-simplifying-radicals-4-4-1-7",
+  "id": "sec-simplifying-radicals-3-4-1-7",
   "level": "2",
-  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-4-4-1-7",
+  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-3-4-1-7",
   "type": "Exercise",
-  "number": "1.1.3.6",
+  "number": "1.2.2.6",
   "title": "",
   "body": ""
 },
 {
-  "id": "sec-simplifying-radicals-4-4-1-8",
+  "id": "sec-simplifying-radicals-3-4-1-8",
   "level": "2",
-  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-4-4-1-8",
+  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-3-4-1-8",
   "type": "Exercise",
-  "number": "1.1.3.7",
+  "number": "1.2.2.7",
   "title": "",
   "body": ""
 },
 {
-  "id": "sec-simplifying-radicals-4-4-1-9",
+  "id": "sec-simplifying-radicals-3-4-1-9",
   "level": "2",
-  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-4-4-1-9",
+  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-3-4-1-9",
   "type": "Exercise",
-  "number": "1.1.3.8",
+  "number": "1.2.2.8",
   "title": "",
   "body": ""
 },
 {
-  "id": "sec-simplifying-radicals-4-4-1-10",
+  "id": "sec-simplifying-radicals-3-4-1-10",
   "level": "2",
-  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-4-4-1-10",
+  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-3-4-1-10",
   "type": "Exercise",
-  "number": "1.1.3.9",
+  "number": "1.2.2.9",
   "title": "",
   "body": ""
 },
 {
-  "id": "sec-simplifying-radicals-4-4-1-11",
+  "id": "sec-simplifying-radicals-3-4-1-11",
   "level": "2",
-  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-4-4-1-11",
+  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-3-4-1-11",
   "type": "Exercise",
-  "number": "1.1.3.10",
+  "number": "1.2.2.10",
   "title": "",
   "body": ""
 },
 {
-  "id": "sec-simplifying-radicals-4-4-1-12",
+  "id": "sec-simplifying-radicals-3-4-1-12",
   "level": "2",
-  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-4-4-1-12",
+  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-3-4-1-12",
   "type": "Exercise",
-  "number": "1.1.3.11",
+  "number": "1.2.2.11",
   "title": "",
   "body": ""
 },
 {
-  "id": "sec-simplifying-radicals-4-4-1-13",
+  "id": "sec-simplifying-radicals-3-4-1-13",
   "level": "2",
-  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-4-4-1-13",
+  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-3-4-1-13",
   "type": "Exercise",
-  "number": "1.1.3.12",
+  "number": "1.2.2.12",
   "title": "",
   "body": ""
 },
 {
-  "id": "sec-simplifying-radicals-4-4-1-14",
+  "id": "sec-simplifying-radicals-3-4-1-14",
   "level": "2",
-  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-4-4-1-14",
+  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-3-4-1-14",
   "type": "Exercise",
-  "number": "1.1.3.13",
+  "number": "1.2.2.13",
   "title": "",
   "body": ""
 },
 {
-  "id": "sec-simplifying-radicals-4-4-1-15",
+  "id": "sec-simplifying-radicals-3-4-1-15",
   "level": "2",
-  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-4-4-1-15",
+  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-3-4-1-15",
   "type": "Exercise",
-  "number": "1.1.3.14",
+  "number": "1.2.2.14",
   "title": "",
   "body": ""
 },
 {
-  "id": "sec-simplifying-radicals-4-4-1-16",
+  "id": "sec-simplifying-radicals-3-4-1-16",
   "level": "2",
-  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-4-4-1-16",
+  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-3-4-1-16",
   "type": "Exercise",
-  "number": "1.1.3.15",
+  "number": "1.2.2.15",
   "title": "",
   "body": ""
 },
 {
-  "id": "sec-simplifying-radicals-4-4-1-17",
+  "id": "sec-simplifying-radicals-3-4-1-17",
   "level": "2",
-  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-4-4-1-17",
+  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-3-4-1-17",
   "type": "Exercise",
-  "number": "1.1.3.16",
+  "number": "1.2.2.16",
   "title": "",
   "body": ""
 },
 {
-  "id": "sec-simplifying-radicals-4-4-1-18",
+  "id": "sec-simplifying-radicals-3-4-1-18",
   "level": "2",
-  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-4-4-1-18",
+  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-3-4-1-18",
   "type": "Exercise",
-  "number": "1.1.3.17",
+  "number": "1.2.2.17",
   "title": "",
   "body": ""
 },
 {
-  "id": "sec-simplifying-radicals-4-4-1-19",
+  "id": "sec-simplifying-radicals-3-4-1-19",
   "level": "2",
-  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-4-4-1-19",
+  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-3-4-1-19",
   "type": "Exercise",
-  "number": "1.1.3.18",
+  "number": "1.2.2.18",
   "title": "",
   "body": ""
 },
 {
-  "id": "sec-simplifying-radicals-4-4-1-20",
+  "id": "sec-simplifying-radicals-3-4-1-20",
   "level": "2",
-  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-4-4-1-20",
+  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-3-4-1-20",
   "type": "Exercise",
-  "number": "1.1.3.19",
+  "number": "1.2.2.19",
   "title": "",
   "body": ""
 },
 {
-  "id": "sec-simplifying-radicals-4-4-1-21",
+  "id": "sec-simplifying-radicals-3-4-1-21",
   "level": "2",
-  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-4-4-1-21",
+  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-3-4-1-21",
   "type": "Exercise",
-  "number": "1.1.3.20",
+  "number": "1.2.2.20",
   "title": "",
   "body": ""
 },
 {
-  "id": "sec-simplifying-radicals-4-4-1-22",
+  "id": "sec-simplifying-radicals-3-4-1-22",
   "level": "2",
-  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-4-4-1-22",
+  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-3-4-1-22",
   "type": "Exercise",
-  "number": "1.1.3.21",
+  "number": "1.2.2.21",
   "title": "",
   "body": ""
 },
 {
-  "id": "sec-simplifying-radicals-4-4-1-23",
+  "id": "sec-simplifying-radicals-3-4-1-23",
   "level": "2",
-  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-4-4-1-23",
+  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-3-4-1-23",
   "type": "Exercise",
-  "number": "1.1.3.22",
+  "number": "1.2.2.22",
   "title": "",
   "body": ""
 },
 {
-  "id": "sec-simplifying-radicals-4-4-1-24",
+  "id": "sec-simplifying-radicals-3-4-1-24",
   "level": "2",
-  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-4-4-1-24",
+  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-3-4-1-24",
   "type": "Exercise",
-  "number": "1.1.3.23",
+  "number": "1.2.2.23",
   "title": "",
   "body": ""
 },
 {
-  "id": "sec-simplifying-radicals-4-4-1-25",
+  "id": "sec-simplifying-radicals-3-4-1-25",
   "level": "2",
-  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-4-4-1-25",
+  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-3-4-1-25",
   "type": "Exercise",
-  "number": "1.1.3.24",
+  "number": "1.2.2.24",
   "title": "",
   "body": ""
 },
 {
-  "id": "sec-simplifying-radicals-4-4-1-26",
+  "id": "sec-simplifying-radicals-3-4-1-26",
   "level": "2",
-  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-4-4-1-26",
+  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-3-4-1-26",
   "type": "Exercise",
-  "number": "1.1.3.25",
+  "number": "1.2.2.25",
   "title": "",
   "body": ""
 },
 {
-  "id": "sec-simplifying-radicals-4-4-1-27",
+  "id": "sec-simplifying-radicals-3-4-1-27",
   "level": "2",
-  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-4-4-1-27",
+  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-3-4-1-27",
   "type": "Exercise",
-  "number": "1.1.3.26",
+  "number": "1.2.2.26",
   "title": "",
   "body": ""
 },
 {
-  "id": "sec-simplifying-radicals-4-4-1-28",
+  "id": "sec-simplifying-radicals-3-4-1-28",
   "level": "2",
-  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-4-4-1-28",
+  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-3-4-1-28",
   "type": "Exercise",
-  "number": "1.1.3.27",
+  "number": "1.2.2.27",
   "title": "",
   "body": ""
 },
 {
-  "id": "sec-simplifying-radicals-4-4-1-29",
+  "id": "sec-simplifying-radicals-3-4-1-29",
   "level": "2",
-  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-4-4-1-29",
+  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-3-4-1-29",
   "type": "Exercise",
-  "number": "1.1.3.28",
+  "number": "1.2.2.28",
   "title": "",
   "body": ""
 },
 {
-  "id": "sec-simplifying-radicals-4-4-1-30",
+  "id": "sec-simplifying-radicals-3-4-1-30",
   "level": "2",
-  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-4-4-1-30",
+  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-3-4-1-30",
   "type": "Exercise",
-  "number": "1.1.3.29",
+  "number": "1.2.2.29",
   "title": "",
   "body": ""
 },
 {
-  "id": "sec-simplifying-radicals-4-4-1-31",
+  "id": "sec-simplifying-radicals-3-4-1-31",
   "level": "2",
-  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-4-4-1-31",
+  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-3-4-1-31",
   "type": "Exercise",
-  "number": "1.1.3.30",
+  "number": "1.2.2.30",
   "title": "",
   "body": ""
 },
 {
-  "id": "sec-simplifying-radicals-4-4-1-32",
+  "id": "sec-simplifying-radicals-3-4-1-32",
   "level": "2",
-  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-4-4-1-32",
+  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-3-4-1-32",
   "type": "Exercise",
-  "number": "1.1.3.31",
+  "number": "1.2.2.31",
   "title": "",
   "body": ""
 },
 {
-  "id": "sec-simplifying-radicals-4-4-1-33",
+  "id": "sec-simplifying-radicals-3-4-1-33",
   "level": "2",
-  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-4-4-1-33",
+  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-3-4-1-33",
   "type": "Exercise",
-  "number": "1.1.3.32",
+  "number": "1.2.2.32",
   "title": "",
   "body": ""
 },
 {
-  "id": "sec-simplifying-radicals-4-4-1-34",
+  "id": "sec-simplifying-radicals-3-4-1-34",
   "level": "2",
-  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-4-4-1-34",
+  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-3-4-1-34",
   "type": "Exercise",
-  "number": "1.1.3.33",
+  "number": "1.2.2.33",
   "title": "",
   "body": ""
 },
 {
-  "id": "sec-simplifying-radicals-4-4-1-35",
+  "id": "sec-simplifying-radicals-3-4-1-35",
   "level": "2",
-  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-4-4-1-35",
+  "url": "sec-simplifying-radicals.html#sec-simplifying-radicals-3-4-1-35",
   "type": "Exercise",
-  "number": "1.1.3.34",
+  "number": "1.2.2.34",
   "title": "",
   "body": ""
 },
@@ -854,6 +980,15 @@ var ptx_lunr_docs = [
   "number": "2.1.12",
   "title": "",
   "body": " Consider the quadratic,   Here, the numbers are kinda large, but we can still use the cross method. After some trial and error, the correct combination is,      However, notice that also contains a common factor of 3, so we should factor it out.   Instead, it is easier to first factor out the common factor of 3,   Then, factoring the remaining only uses the sum and product method, and has smaller numbers to work with,    "
+},
+{
+  "id": "sec-factoring-quadratics-summary",
+  "level": "1",
+  "url": "sec-factoring-quadratics-summary.html",
+  "type": "Section",
+  "number": "2.2",
+  "title": "Factoring Quadratics Summary",
+  "body": " Factoring Quadratics Summary     Write the quadratic in descending power order (standard form), .     e.g.        If there is a GCF (greatest common factor), factor it out (either a number or variable like ).     e.g.     e.g.        Determine which factoring method applies, based on the form:    If , find two numbers that multiply to and add to .     e.g.        If , use the cross method (or -method, or box method).     e.g.        If there are only 2 terms, try difference of squares.     (Optional) use perfect square factoring patterns:        "
 },
 {
   "id": "sec-polynomial-functions-intro",

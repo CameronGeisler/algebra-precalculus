@@ -2,632 +2,632 @@
 
 <section xml:id="sec-radian-measure" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Radian Measure</title>
-
+  
   <introduction>
     <p>
       There is another unit for measuring angles, called a <em>radian</em>, which turns out to be more useful than degrees to use in calculus. First, it is helpful to step back and understand the idea of how angles can be measured.
     </p>
   </introduction>
-
-<subsection xml:id="alternate-angular-units">
-<title>Alternate Angular Units</title>
-
-<p>Degrees are a unit such that 360 degrees make a full rotation. This makes sense for practical applications, and historically, for navigation, architecture, and astronomy. This is because you can divide 360 evenly into many numbers. However, if we were starting from scratch, we could also consider alternate useful units of measuring angles. For example:</p>
-
-<p>
-<ul>
-<li>The <em>gradian</em>, where a quarter rotation is defined to be 100 gradians. Then, a full rotation would be 400 gradians.</li>
-<li>Or, 1 <em>turn</em> could be defined as a full rotation. Then, a half rotation is <m>1/2</m> turns, or a quarter rotation is <m>1/4</m> turns.</li>
-<li>For units inspired by the fact that there are 8 slices in a pizza, a unit could be called a <em>slice</em>, defined to be <m>1/8</m>th of a full rotation. Then, 8 slices would be a full rotation.</li>
-<li>We could define 1 unit to be a quarter rotation. Then, 4 units is a full rotation.</li>
-</ul>
-</p>
-
-<p>Notice that ultimately, units are a convention, and what units are useful or most natural depends on the context.</p>
-
-</subsection>
-
-<subsection xml:id="motivation-for-radians">
-<title>Motivation for Radians</title>
-
-<p>There is another unit of angle measure, called a <em>radian</em>. The idea is that we will measure angles based on how long the arc of the angle is.</p>
-
-<figure>
-<image>
-<latex-image>
-\begin{tikzpicture}
-    % Draw circle
-    \draw[thick] (0,0) circle (1.2);
+  
+  <subsection xml:id="alternate-angular-units">
+    <title>Alternate Angular Units</title>
     
-    % Center point
-    \fill (0,0) circle (1.5pt);
+    <p>Degrees are a unit such that 360 degrees make a full rotation. This makes sense for practical applications, and historically, for navigation, architecture, and astronomy. This is because you can divide 360 evenly into many numbers. However, if we were starting from scratch, we could also consider alternate useful units of measuring angles. For example:</p>
     
-    % Draw radius lines
-    \draw[thick] (0,0) -- (1.2,0);
-    \draw[thick] (0,0) -- ({cos(55)*1.2},{sin(55)*1.2});
-
-    % Draw arc
-    \draw[ultra thick,->] (1.2,0) arc (0:55:1.2) 
-        node[midway,above right] {arc (of $\theta$)};
-    % Draw angle arc for theta
-    \draw (0.3,0) arc (0:55:0.3);
-    \node at (25:0.5) {$\theta$};
-\end{tikzpicture}
-</latex-image>
-</image>
-</figure>
-
-<p>The longer the arc is, the bigger the angle that is swept out. The amount you rotate is proportional to how far you travel along the circle.</p>
-
-<p>
-<ul>
-<li>Small rotation <m>\rightarrow</m> small distance traveled</li>
-<li>Big rotation <m>\rightarrow</m> big distance traveled</li>
-</ul>
-</p>
-
-<figure>
-<image>
-<latex-image>
-\begin{tikzpicture}
-    % Left circle - small arc
-    \begin{scope}[shift={(-2.5,0)}]
-        % Draw circle
-        \draw[thick] (0,0) circle (1.2);
+    <p>
+      <ul>
+        <li>The <em>gradian</em>, where a quarter rotation is defined to be 100 gradians. Then, a full rotation would be 400 gradians.</li>
+        <li>Or, 1 <em>turn</em> could be defined as a full rotation. Then, a half rotation is <m>1/2</m> turns, or a quarter rotation is <m>1/4</m> turns.</li>
+        <li>For units inspired by the fact that there are 8 slices in a pizza, a unit could be called a <em>slice</em>, defined to be <m>1/8</m>th of a full rotation. Then, 8 slices would be a full rotation.</li>
+        <li>We could define 1 unit to be a quarter rotation. Then, 4 units is a full rotation.</li>
+      </ul>
+    </p>
+    
+    <p>Notice that ultimately, units are a convention, and what units are useful or most natural depends on the context.</p>
+    
+  </subsection>
+  
+  <subsection xml:id="motivation-for-radians">
+    <title>Motivation for Radians</title>
+    
+    <p>There is another unit of angle measure, called a <em>radian</em>. The idea is that we will measure angles based on how long the arc of the angle is.</p>
+    
+    <figure>
+      <image>
+        <latex-image>
+          \begin{tikzpicture}
+          % Draw circle
+          \draw[thick] (0,0) circle (1.2);
+          
+          % Center point
+          \fill (0,0) circle (1.5pt);
+          
+          % Draw radius lines
+          \draw[thick] (0,0) -- (1.2,0);
+          \draw[thick] (0,0) -- ({cos(55)*1.2},{sin(55)*1.2});
+          
+          % Draw arc
+          \draw[ultra thick,->] (1.2,0) arc (0:55:1.2) 
+          node[midway,above right] {arc (of $\theta$)};
+          % Draw angle arc for theta
+          \draw (0.3,0) arc (0:55:0.3);
+          \node at (25:0.5) {$\theta$};
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+    </figure>
+    
+    <p>The longer the arc is, the bigger the angle that is swept out. The amount you rotate is proportional to how far you travel along the circle.</p>
+    
+    <p>
+      <ul>
+        <li>Small rotation <m>\rightarrow</m> small distance traveled</li>
+        <li>Big rotation <m>\rightarrow</m> big distance traveled</li>
+      </ul>
+    </p>
+    
+    <figure>
+      <image>
+        <latex-image>
+          \begin{tikzpicture}
+          % Left circle - small arc
+          \begin{scope}[shift={(-2.5,0)}]
+          % Draw circle
+          \draw[thick] (0,0) circle (1.2);
+          
+          % Center point
+          \fill (0,0) circle (1.5pt);
+          
+          % Draw radius lines
+          \draw[thick] (0,0) -- (1.2,0);
+          \draw[thick] (0,0) -- ({cos(30)*1.2},{sin(30)*1.2});
+          
+          % Draw arc
+          \draw[ultra thick,->] (1.2,0) arc (0:30:1.2) 
+          node[midway,above right] {small arc};
+          
+          % Draw angle arc for theta
+          \draw (0.3,0) arc (0:30:0.3);
+          \node at (15:0.65) {$\theta$};
+          \end{scope}
+          
+          % Right circle - large arc  
+          \begin{scope}[shift={(2.5,0)}]
+          % Draw circle
+          \draw[thick] (0,0) circle (1.2);
+          
+          % Center point
+          \fill (0,0) circle (1.5pt);
+          
+          % Draw radius lines
+          \draw[thick] (0,0) -- (1.2,0);
+          \draw[thick] (0,0) -- ({cos(120)*1.2},{sin(120)*1.2});
+          
+          % Draw arc
+          \draw[ultra thick,->] (1.2,0) arc (0:120:1.2) 
+          node[midway,above] {large arc};
+          
+          % Draw angle arc for theta
+          \draw (0.3,0) arc (0:120:0.3);
+          \node at (60:0.5) {$\theta$};
+          \end{scope}
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+    </figure>
+    
+    <p>However, just measuring the arc doesn't fully work, because the arc length depends on the size of the circle (basically, it depends on it's radius).</p>
+    
+    <p>
+      <ul>
+        <li>If you have a small circle, you won't have to walk very far to make a full loop.</li>
+        <li>If you have a big circle, the same angle will mean you walk a lot farther.</li>
+      </ul>
+    </p>
+    
+    <figure>
+      <image>
+        <latex-image>
+          \begin{tikzpicture}
+          % Caption on the left
+          \node[align=left, text width=7cm] at (-6.5,0) {These two angles have the same arc length but different angle measure, because the radiuses are different};
+          
+          % Left circle - small radius, larger angle
+          \begin{scope}[shift={(-1.5,0)}]
+          % Draw circle (smaller)
+          \draw[thick] (0,0) circle (0.8);
+          
+          % Center point
+          \fill (0,0) circle (1.5pt);
+          
+          % Draw radius lines
+          \draw[thick] (0,0) -- (0.8,0);
+          \draw[thick] (0,0) -- ({cos(57.3)*0.8},{sin(57.3)*0.8});
+          
+          % Draw arc
+          \draw[ultra thick,->] (0.8,0) arc (0:57.3:0.8) 
+          node[midway,right] {arc};
+          
+          % Draw angle arc for theta
+          \draw (0.25,0) arc (0:57.3:0.25);
+          \node at (28:0.5) {$\theta$};
+          \end{scope}
+          
+          % Right circle - large radius, smaller angle
+          \begin{scope}[shift={(2.5,0)}]
+          % Draw circle (larger)
+          \draw[thick] (0,0) circle (1.6);
+          
+          % Center point
+          \fill (0,0) circle (1.5pt);
+          
+          % Draw radius lines
+          \draw[thick] (0,0) -- (1.6,0);
+          \draw[thick] (0,0) -- ({cos(28.65)*1.6},{sin(28.65)*1.6});
+          
+          % Draw arc
+          \draw[ultra thick,->] (1.6,0) arc (0:28.65:1.6) 
+          node[midway,above right] {arc};
+          
+          % Draw angle arc for theta
+          \draw (0.4,0) arc (0:28.65:0.4);
+          \node at (14:0.8) {$\theta$};
+          \end{scope}
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+    </figure>
+    
+    <p>We want a measurement which purely measures rotation, that isn't affected by how big the circle is. The key idea is: even though the arc length changes when the circle gets bigger or smaller, it changes in a very predictable way. In particular, arc length is proportional to the radius.</p>
+    
+    <p>
+      <ul>
+        <li>If you <em>double</em> the radius, the arc length <em>doubles</em>.</li>
+        <li>If you <em>triple</em> the radius, the arc length <em>triples</em>.</li>
+      </ul>
+    </p>
+    
+    <example>
+      <statement>
+        <p>For example, for this particular angle <m>\theta</m> below, for <m>r = 4</m> cm, the arc is 8 cm, and for <m>r = 8</m> cm, the arc is 16 cm.</p>
         
-        % Center point
-        \fill (0,0) circle (1.5pt);
+        <figure>
+          <image>
+            <latex-image>
+              \begin{tikzpicture}
+              % Left circle - radius 4, arc 8 (2 radians)
+              \begin{scope}[shift={(-2.5,0)}]
+              % Draw circle
+              \draw[thick] (0,0) circle (1);
+              
+              % Center point
+              \fill (0,0) circle (1.5pt);
+              
+              % Draw radius lines
+              \draw[thick] (0,0) -- (1,0) node[midway,below] {$4$};
+              \draw[thick] (0,0) -- ({cos(114.6)*1},{sin(114.6)*1});
+              
+              % Draw arc
+              \draw[ultra thick,->] (1,0) arc (0:114.6:1) 
+              node[midway,above right] {$8$};
+              
+              % Draw angle arc for theta
+              \draw (0.3,0) arc (0:114.6:0.3);
+              \node at (57:0.5) {$\theta$};
+              \end{scope}
+              
+              % Right circle - radius 8, arc 16 (2 radians)
+              \begin{scope}[shift={(2.5,0)}]
+              % Draw circle
+              \draw[thick] (0,0) circle (2);
+              
+              % Center point
+              \fill (0,0) circle (1.5pt);
+              
+              % Draw radius lines
+              \draw[thick] (0,0) -- (2,0) node[midway,below] {$8$};
+              \draw[thick] (0,0) -- ({cos(114.6)*2},{sin(114.6)*2});
+              
+              % Draw arc
+              \draw[ultra thick,->] (2,0) arc (0:114.6:2) 
+              node[midway,above right] {$16$};
+              
+              % Draw angle arc for theta
+              \draw (0.5,0) arc (0:114.6:0.5);
+              \node at (57:0.8) {$\theta$};
+              \end{scope}
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </figure>
         
-        % Draw radius lines
-        \draw[thick] (0,0) -- (1.2,0);
-        \draw[thick] (0,0) -- ({cos(30)*1.2},{sin(30)*1.2});
+        <p>While the arc lengths are different, in both scenarios, the arc length is 2 radius lengths.</p>
+      </statement>
+    </example>
+    
+    <p>To measure arc length, instead of using meters or centimeters or any other unit of length, we use the radius itself as the unit. In other words, we ask:</p>
+    
+    <md>
+      <mrow>\text{"How many radius-lengths did you travel?"}</mrow>
+    </md>
+    
+    <p>For example:</p>
+    
+    <p>
+      <ul>
+        <li>If the radius is 4 m, and the arc length is 12 m, that is <m>\frac{12}{4} = 3</m> radius lengths of rotation.</li>
+        <li>If the radius is 3 m, and the arc length is 15 m, that is <m>\frac{15}{3} = 5</m> radius lengths of rotation.</li>
+      </ul>
+    </p>
+    
+    <figure>
+      <image>
+        <latex-image>
+          \begin{tikzpicture}    
+          % Left circle - radius 4, arc 12 (3 radians = 171.9 degrees)
+          \begin{scope}[shift={(-2.5,0)}]
+          % Draw circle (radius proportional to 4)
+          \draw[thick] (0,0) circle (1.6);
+          
+          % Center point
+          \fill (0,0) circle (1.5pt);
+          
+          % Draw radius lines in red
+          \draw[thick,red] (0,0) -- (1.6,0) node[midway,below,red] {$4$ m};
+          \draw[thick] (0,0) -- ({cos(171.9)*1.6},{sin(171.9)*1.6});
+          
+          % Draw arc segments to show "laying radius around"
+          \draw[ultra thick,blue,->] (1.6,0) arc (0:57.3:1.6);
+          \draw[ultra thick,green,->] ({cos(57.3)*1.6},{sin(57.3)*1.6}) arc (57.3:114.6:1.6);
+          \draw[ultra thick,orange,->] ({cos(114.6)*1.6},{sin(114.6)*1.6}) arc (114.6:171.9:1.6);
+          
+          % Labels for each radius segment
+          \node[blue] at (28.6:1.9) {1st};
+          \node[green] at (86:1.9) {2nd};
+          \node[orange] at (143:1.9) {3rd};
+          
+          % Draw angle arc for theta
+          \draw (0.4,0) arc (0:171.9:0.4);
+          \node at (86:0.6) {$\theta$};
+          \end{scope}
+          
+          % Right circle - radius 3, arc 15 (5 radians = 286.5 degrees)
+          \begin{scope}[shift={(4,0)}]
+          % Draw circle (radius proportional to 3)
+          \draw[thick] (0,0) circle (1.2);
+          
+          % Center point
+          \fill (0,0) circle (1.5pt);
+          
+          % Draw radius lines in red
+          \draw[thick,red] (0,0) -- (1.2,0) node[midway,below,red] {$3$ m};
+          \draw[thick] (0,0) -- ({cos(286.5)*1.2},{sin(286.5)*1.2});
+          
+          % Draw arc segments to show "laying radius around" (5 segments)
+          \draw[ultra thick,blue,->] (1.2,0) arc (0:57.3:1.2);
+          \draw[ultra thick,green,->] ({cos(57.3)*1.2},{sin(57.3)*1.2}) arc (57.3:114.6:1.2);
+          \draw[ultra thick,orange,->] ({cos(114.6)*1.2},{sin(114.6)*1.2}) arc (114.6:171.9:1.2);
+          \draw[ultra thick,purple,->] ({cos(171.9)*1.2},{sin(171.9)*1.2}) arc (171.9:229.2:1.2);
+          \draw[ultra thick,brown,->] ({cos(229.2)*1.2},{sin(229.2)*1.2}) arc (229.2:286.5:1.2);
+          
+          % Labels for each radius segment
+          \node[blue] at (28.6:1.5) {\small 1st};
+          \node[green] at (86:1.5) {\small 2nd};
+          \node[orange] at (143:1.5) {\small 3rd};
+          \node[purple] at (200:1.5) {\small 4th};
+          \node[brown] at (258:1.5) {\small 5th};
+          
+          % Draw angle arc for theta
+          \draw (0.3,0) arc (0:286.5:0.3);
+          \node at (143:0.5) {$\theta$};
+          \end{scope}
+          
+          % Labels below
+          \node[align=center] at (-2.5,-2.3) {$\frac{12}{4} = 3$ radius lengths};
+          \node[align=center] at (4,-2.3) {$\frac{15}{3} = 5$ radius lengths};
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+    </figure>
+    
+    <p>In other words, to measure the angle, divide the arc length by the radius length.</p>
+    
+  </subsection>
+  
+  <subsection xml:id="radians">
+    <title>Radians</title>
+    
+    <definition>
+      <statement>
+        <p>One <term>radian</term> is defined to be the angle at the center of a circle such that the arc length associated with it is equal to the radius <m>r</m> of the circle,</p>
         
-        % Draw arc
-        \draw[ultra thick,->] (1.2,0) arc (0:30:1.2) 
-            node[midway,above right] {small arc};
+        <figure>
+          <image>
+            <latex-image>
+              \begin{tikzpicture}
+              % Define radius
+              \def\r{2cm}
+              % Draw circle
+              \draw[thick] (0,0) circle (\r);
+              % Draw radius to point A
+              \draw[thick] (0,0) -- (\r,0) node[midway, below] {$r$};
+              % Mark point A
+              \fill (\r,0) circle (1.5pt) node[anchor=west] {};
+              
+              % Draw radius to point B at angle 1 radian (~57.3°)
+              \pgfmathsetmacro\ang{1} % angle in radians
+              \pgfmathsetmacro\deg{(\ang*180/pi)} % convert to degrees
+              \coordinate (B) at (\deg:\r);
+              \draw[thick] (0,0) -- (B) node[midway, above left] {$r$};
+              \fill (B) circle (1.5pt) node[anchor=south east] {};
+              
+              % Draw the arc from A to B (arc length = r when angle = 1 radian)
+              \draw[very thick, red] (\r,0) arc [start angle=0, end angle=\deg, radius=\r]
+              node[midway, above right] {$r$};
+              
+              % Label the angle 1 rad (fix the arc alignment)
+              \draw[thick] (0.5cm,0) arc [start angle=0, end angle=\deg, radius=0.5cm];
+              \node at (\deg/2:1cm) {1\,rad};
+              
+              % Center dot
+              \fill (0,0) circle (1.5pt);
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </figure>
+        
+        <p>More generally, an angle <m>\theta</m> with associated radius <m>r</m> and arc length <m>s</m> is given by,</p>
+        
+        <md>
+          <mrow>\boxed{\theta = \frac{s}{r}}</mrow>
+        </md>
+        
+        <p>
+          <ul>
+            <li>The symbol for radians is <em>rad</em>, however the symbol is often omitted. So, if an angle has no unit, it should be assumed to be radians (and for degrees, use <m>^\circ</m>).</li>
+          </ul>
+        </p>
+      </statement>
+    </definition>
+    
+    <p>
+      <ul>
+        <li>In fancy math language, you can say that the angle <m>\theta</m> <alert>subtends</alert> the arc, or the arc is <alert>subtended</alert> by the angle <m>\theta</m>.</li>
+        <li>Radians are technically ``dimensionless", because they are the ratio of two lengths.</li>
+      </ul>
+    </p>
+    
+  </subsection>
+  
+  <subsection xml:id="converting-between-degrees-and-radians">
+    <title>Converting Between Degrees and Radians</title>
+    
+    <p>Degrees and radians are both units of angles, so we can convert between them. To find an equivalence between the two, first recall that <m>360^\circ</m> corresponds to a full rotation. In radians, for a full rotation, its arc length is simply the circumference of the circle, which is given by <m>C = 2 \pi r</m>. Then, <m>\theta = \frac{2\pi r}{r} = 2\pi</m>. Therefore, a full rotation is <m>2\pi</m> radians. This implies that,</p>
+    
+    <md>
+      <mrow>\boxed{360^\circ = 2\pi}</mrow>
+    </md>
+    
+    <p>To be a bit more simple, we can divide both sides by 2, since it is a common factor, to get,</p>
+    
+    <md>
+      <mrow>\boxed{180^\circ = \pi}</mrow>
+    </md>
+    
+    <p>This is a conversion factor which allows us to convert between these two angle units, analogous to how 1 inch = 2.54 cm, or how 1 hour = 60 minutes.</p>
+    
+    <theorem>
+      <title>Converting between degrees and radians</title>
+      
+      <figure>
+        <image>
+          <latex-image>
+            \begin{tikzpicture}[scale=1.5]
+            % Create two boxes for the units (closer together)
+            \node[draw, rectangle, thick, minimum width=2cm, minimum height=1cm] (rad) at (-1.5,0) {Radians};
+            \node[draw, rectangle, thick, minimum width=2cm, minimum height=1cm] (deg) at (1.5,0) {Degrees};
             
-        % Draw angle arc for theta
-        \draw (0.3,0) arc (0:30:0.3);
-        \node at (15:0.65) {$\theta$};
-    \end{scope}
-    
-    % Right circle - large arc  
-    \begin{scope}[shift={(2.5,0)}]
-        % Draw circle
-        \draw[thick] (0,0) circle (1.2);
-        
-        % Center point
-        \fill (0,0) circle (1.5pt);
-        
-        % Draw radius lines
-        \draw[thick] (0,0) -- (1.2,0);
-        \draw[thick] (0,0) -- ({cos(120)*1.2},{sin(120)*1.2});
-        
-        % Draw arc
-        \draw[ultra thick,->] (1.2,0) arc (0:120:1.2) 
-            node[midway,above] {large arc};
+            % Arrow from radians to degrees (thicker, larger font)
+            \draw[->, very thick, bend left=20] (rad.north east) to node[above] {\Large $\times \frac{180}{\pi}$} (deg.north west);
             
-        % Draw angle arc for theta
-        \draw (0.3,0) arc (0:120:0.3);
-        \node at (60:0.5) {$\theta$};
-    \end{scope}
-\end{tikzpicture}
-</latex-image>
-</image>
-</figure>
-
-<p>However, just measuring the arc doesn't fully work, because the arc length depends on the size of the circle (basically, it depends on it's radius).</p>
-
-<p>
-<ul>
-<li>If you have a small circle, you won't have to walk very far to make a full loop.</li>
-<li>If you have a big circle, the same angle will mean you walk a lot farther.</li>
-</ul>
-</p>
-
-<figure>
-<image>
-<latex-image>
-\begin{tikzpicture}
-    % Caption on the left
-    \node[align=left, text width=7cm] at (-6.5,0) {These two angles have the same arc length but different angle measure, because the radiuses are different};
+            % Arrow from degrees to radians (thicker, larger font)
+            \draw[->, very thick, bend left=20] (deg.south west) to node[below] {\Large $\times \frac{\pi}{180}$} (rad.south east);
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+      </figure>
+    </theorem>
     
-    % Left circle - small radius, larger angle
-    \begin{scope}[shift={(-1.5,0)}]
-        % Draw circle (smaller)
-        \draw[thick] (0,0) circle (0.8);
-        
-        % Center point
-        \fill (0,0) circle (1.5pt);
-        
-        % Draw radius lines
-        \draw[thick] (0,0) -- (0.8,0);
-        \draw[thick] (0,0) -- ({cos(57.3)*0.8},{sin(57.3)*0.8});
-        
-        % Draw arc
-        \draw[ultra thick,->] (0.8,0) arc (0:57.3:0.8) 
-            node[midway,right] {arc};
-            
-        % Draw angle arc for theta
-        \draw (0.25,0) arc (0:57.3:0.25);
-        \node at (28:0.5) {$\theta$};
-    \end{scope}
+    <p>The ratio <m>\frac{180^\circ}{\pi}</m> can be thought of as a conversion factor, a ratio used to convert between units.</p>
     
-    % Right circle - large radius, smaller angle
-    \begin{scope}[shift={(2.5,0)}]
-        % Draw circle (larger)
-        \draw[thick] (0,0) circle (1.6);
-        
-        % Center point
-        \fill (0,0) circle (1.5pt);
-        
-        % Draw radius lines
-        \draw[thick] (0,0) -- (1.6,0);
-        \draw[thick] (0,0) -- ({cos(28.65)*1.6},{sin(28.65)*1.6});
-        
-        % Draw arc
-        \draw[ultra thick,->] (1.6,0) arc (0:28.65:1.6) 
-            node[midway,above right] {arc};
-            
-        % Draw angle arc for theta
-        \draw (0.4,0) arc (0:28.65:0.4);
-        \node at (14:0.8) {$\theta$};
-    \end{scope}
-\end{tikzpicture}
-</latex-image>
-</image>
-</figure>
-
-<p>We want a measurement which purely measures rotation, that isn't affected by how big the circle is. The key idea is: even though the arc length changes when the circle gets bigger or smaller, it changes in a very predictable way. In particular, arc length is proportional to the radius.</p>
-
-<p>
-<ul>
-<li>If you <em>double</em> the radius, the arc length <em>doubles</em>.</li>
-<li>If you <em>triple</em> the radius, the arc length <em>triples</em>.</li>
-</ul>
-</p>
-
-<example>
-<statement>
-<p>For example, for this particular angle <m>\theta</m> below, for <m>r = 4</m> cm, the arc is 8 cm, and for <m>r = 8</m> cm, the arc is 16 cm.</p>
-
-<figure>
-<image>
-<latex-image>
-\begin{tikzpicture}
-    % Left circle - radius 4, arc 8 (2 radians)
-    \begin{scope}[shift={(-2.5,0)}]
-        % Draw circle
-        \draw[thick] (0,0) circle (1);
-        
-        % Center point
-        \fill (0,0) circle (1.5pt);
-        
-        % Draw radius lines
-        \draw[thick] (0,0) -- (1,0) node[midway,below] {$4$};
-        \draw[thick] (0,0) -- ({cos(114.6)*1},{sin(114.6)*1});
-        
-        % Draw arc
-        \draw[ultra thick,->] (1,0) arc (0:114.6:1) 
-            node[midway,above right] {$8$};
-            
-        % Draw angle arc for theta
-        \draw (0.3,0) arc (0:114.6:0.3);
-        \node at (57:0.5) {$\theta$};
-    \end{scope}
+    <exercise>
+      <statement>
+        <p>Convert <m>\frac{8\pi}{15}</m> to degrees.</p>
+      </statement>
+    </exercise>
     
-    % Right circle - radius 8, arc 16 (2 radians)
-    \begin{scope}[shift={(2.5,0)}]
-        % Draw circle
-        \draw[thick] (0,0) circle (2);
-        
-        % Center point
-        \fill (0,0) circle (1.5pt);
-        
-        % Draw radius lines
-        \draw[thick] (0,0) -- (2,0) node[midway,below] {$8$};
-        \draw[thick] (0,0) -- ({cos(114.6)*2},{sin(114.6)*2});
-        
-        % Draw arc
-        \draw[ultra thick,->] (2,0) arc (0:114.6:2) 
-            node[midway,above right] {$16$};
-            
-        % Draw angle arc for theta
-        \draw (0.5,0) arc (0:114.6:0.5);
-        \node at (57:0.8) {$\theta$};
-    \end{scope}
-\end{tikzpicture}
-</latex-image>
-</image>
-</figure>
-
-<p>While the arc lengths are different, in both scenarios, the arc length is 2 radius lengths.</p>
-</statement>
-</example>
-
-<p>To measure arc length, instead of using meters or centimeters or any other unit of length, we use the radius itself as the unit. In other words, we ask:</p>
-
-<md>
-<mrow>\text{"How many radius-lengths did you travel?"}</mrow>
-</md>
-
-<p>For example:</p>
-
-<p>
-<ul>
-<li>If the radius is 4 m, and the arc length is 12 m, that is <m>\frac{12}{4} = 3</m> radius lengths of rotation.</li>
-<li>If the radius is 3 m, and the arc length is 15 m, that is <m>\frac{15}{3} = 5</m> radius lengths of rotation.</li>
-</ul>
-</p>
-
-<figure>
-<image>
-<latex-image>
-\begin{tikzpicture}    
-    % Left circle - radius 4, arc 12 (3 radians = 171.9 degrees)
-    \begin{scope}[shift={(-2.5,0)}]
-        % Draw circle (radius proportional to 4)
-        \draw[thick] (0,0) circle (1.6);
-        
-        % Center point
-        \fill (0,0) circle (1.5pt);
-        
-        % Draw radius lines in red
-        \draw[thick,red] (0,0) -- (1.6,0) node[midway,below,red] {$4$ m};
-        \draw[thick] (0,0) -- ({cos(171.9)*1.6},{sin(171.9)*1.6});
-        
-        % Draw arc segments to show "laying radius around"
-        \draw[ultra thick,blue,->] (1.6,0) arc (0:57.3:1.6);
-        \draw[ultra thick,green,->] ({cos(57.3)*1.6},{sin(57.3)*1.6}) arc (57.3:114.6:1.6);
-        \draw[ultra thick,orange,->] ({cos(114.6)*1.6},{sin(114.6)*1.6}) arc (114.6:171.9:1.6);
-        
-        % Labels for each radius segment
-        \node[blue] at (28.6:1.9) {1st};
-        \node[green] at (86:1.9) {2nd};
-        \node[orange] at (143:1.9) {3rd};
-            
-        % Draw angle arc for theta
-        \draw (0.4,0) arc (0:171.9:0.4);
-        \node at (86:0.6) {$\theta$};
-    \end{scope}
+  </subsection>
+  
+  <subsection xml:id="sketching-radian-angles-in-standard-position">
+    <title>Sketching Radian Angles in Standard Position</title>
     
-    % Right circle - radius 3, arc 15 (5 radians = 286.5 degrees)
-    \begin{scope}[shift={(4,0)}]
-        % Draw circle (radius proportional to 3)
-        \draw[thick] (0,0) circle (1.2);
+    <p>To graph an angle in radians, it's easiest to think in terms of fractions of <m>\pi</m>. To start,</p>
+    
+    <p>
+      <ul>
+        <li><m>2\pi</m> is a full rotation (<m>360^\circ</m>)</li>
+        <li><m>\pi</m> is a half rotation (<m>180^\circ</m>)</li>
+      </ul>
+    </p>
+    
+    <figure>
+      <image>
+        <latex-image>
+          \begin{tikzpicture}[line cap=round]
+          % radius of circle
+          \def\r{2cm}
+          
+          % axes
+          \draw[->] (-\r-4,0) -- (\r+4,0) node[right] {$x$};
+          \draw[->] (0,-\r-4) -- (0,\r+4) node[above] {$y$};
+          
+          % initial side (positive x-axis)
+          \draw[->] (0,0) -- (\r,0) node[midway,below] {};
+          
+          % --- the pi angle in red ---
+          % curved arrow for rotation from 0 to pi
+          \draw[->, very thick, red]
+          (0.1*\r,0) arc [start angle=0, end angle=180, radius=0.2*\r];
+          % label the arc
+          \node[red] at (170:0.8*\r) {$\pi$};
+          % terminal side at pi
+          \draw[->, very thick, red]
+          (0,0) -- (180:\r) node[midway,above] {};
+          
+          % --- the 2pi angle in blue ---
+          % curved arrow for full rotation
+          \draw[->, very thick, blue]
+          (0.3*\r,0) arc [start angle=0, end angle=360, radius=0.4*\r];
+          % label the full-turn arc
+          \node[blue] at (350:0.8*\r) {$2\pi$};
+          % terminal side (coincides with initial)
+          \draw[->, very thick, blue]
+          (0,0) -- (\r,0) node[midway,below right] {};
+          
+          % center dot
+          \fill (0,0) circle (2pt);
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+    </figure>
+    
+    <p>Then,</p>
+    
+    <p>
+      <ul>
+        <li><m>\frac{\pi}{2}</m> (or half of <m>\pi</m>) is a quarter rotation (half of a half rotation), which is <m>90^\circ</m></li>
+        <li><m>\frac{\pi}{4}</m> (or a quarter of <m>\pi</m>) is half of a quarter rotation, which is <m>45^\circ</m>.</li>
+        <li><m>\frac{\pi}{6}</m> is <m>\pi</m> split into 6 equal pieces, which is <m>30^\circ</m>.</li>
+      </ul>
+    </p>
+    
+    <figure>
+      <image>
+        <latex-image>
+          \begin{minipage}{0.3\textwidth}
+          \centering
+          % π/2 picture
+          \begin{tikzpicture}[scale=1.2,line cap=round]
+          \def\r{1.5cm}
+          % Axes
+          \draw[->] (-\r-0.5,0) -- (\r+0.5,0) node[right] {$x$};
+          \draw[->] (0,-\r-0.5) -- (0,\r+0.5) node[above] {$y$};
+          % Faint radii
+          \foreach \i in {0,1,2}{
+            \draw[very thin, gray] (0,0) -- (\i*90:\r);
+          }
+          % Highlight π/2
+          \draw[ultra thick, red, ->] (0.4*\r,0) arc [start angle=0,end angle=90,radius=0.4*\r];
+          \node[red] at (45:0.4*\r+8pt) {$\tfrac{\pi}{2}$};
+          \draw[->, very thick, red] (0,0) -- (90:\r);
+          \fill (0,0) circle (1pt);
+          \end{tikzpicture}
+          \end{minipage}%
+          \hfill
+          \begin{minipage}{0.3\textwidth}
+          \centering
+          % π/4 picture
+          \begin{tikzpicture}[scale=1.2,line cap=round]
+          \def\r{1.5cm}
+          % Axes
+          \draw[->] (-\r-0.5,0) -- (\r+0.5,0) node[right] {$x$};
+          \draw[->] (0,-\r-0.5) -- (0,\r+0.5) node[above] {$y$};
+          % Faint radii
+          \foreach \i in {0,1,2,3,4}{
+            \draw[very thin, gray] (0,0) -- (\i*45:\r);
+          }
+          % Highlight π/4
+          \draw[ultra thick, blue, ->] (0.4*\r,0) arc [start angle=0,end angle=45,radius=0.4*\r];
+          \node[blue] at (22.5:0.4*\r+8pt) {$\tfrac{\pi}{4}$};
+          \draw[->, very thick, blue] (0,0) -- (45:\r);
+          \fill (0,0) circle (1pt);
+          \end{tikzpicture}
+          \end{minipage}%
+          \hfill
+          \begin{minipage}{0.3\textwidth}
+          \centering
+          % π/6 picture
+          \begin{tikzpicture}[scale=1.2,line cap=round]
+          \def\r{1.5cm}
+          % Axes
+          \draw[->] (-\r-0.5,0) -- (\r+0.5,0) node[right] {$x$};
+          \draw[->] (0,-\r-0.5) -- (0,\r+0.5) node[above] {$y$};
+          % Faint radii
+          \foreach \i in {0,1,2,3,4,5,6}{
+            \draw[very thin, gray] (0,0) -- (\i*30:\r);
+          }
+          % Highlight π/6
+          \draw[ultra thick, green, ->] (0.4*\r,0) arc [start angle=0,end angle=30,radius=0.4*\r];
+          \node[green] at (15:0.4*\r+8pt) {$\tfrac{\pi}{6}$};
+          \draw[->, very thick, green] (0,0) -- (30:\r);
+          \fill (0,0) circle (1pt);
+          \end{tikzpicture}
+          \end{minipage}
+        </latex-image>
+      </image>
+    </figure>
+    
+    <p>For bigger angles, we can count multiples.</p>
+    
+    <example>
+      <statement>
+        <p>For example, for <m>\frac{5\pi}{6}</m>, first divide <m>\pi</m> into 6 equal pieces, and then count 5 of them,</p>
         
-        % Center point
-        \fill (0,0) circle (1.5pt);
-        
-        % Draw radius lines in red
-        \draw[thick,red] (0,0) -- (1.2,0) node[midway,below,red] {$3$ m};
-        \draw[thick] (0,0) -- ({cos(286.5)*1.2},{sin(286.5)*1.2});
-        
-        % Draw arc segments to show "laying radius around" (5 segments)
-        \draw[ultra thick,blue,->] (1.2,0) arc (0:57.3:1.2);
-        \draw[ultra thick,green,->] ({cos(57.3)*1.2},{sin(57.3)*1.2}) arc (57.3:114.6:1.2);
-        \draw[ultra thick,orange,->] ({cos(114.6)*1.2},{sin(114.6)*1.2}) arc (114.6:171.9:1.2);
-        \draw[ultra thick,purple,->] ({cos(171.9)*1.2},{sin(171.9)*1.2}) arc (171.9:229.2:1.2);
-        \draw[ultra thick,brown,->] ({cos(229.2)*1.2},{sin(229.2)*1.2}) arc (229.2:286.5:1.2);
-        
-        % Labels for each radius segment
-        \node[blue] at (28.6:1.5) {\small 1st};
-        \node[green] at (86:1.5) {\small 2nd};
-        \node[orange] at (143:1.5) {\small 3rd};
-        \node[purple] at (200:1.5) {\small 4th};
-        \node[brown] at (258:1.5) {\small 5th};
-            
-        % Draw angle arc for theta
-        \draw (0.3,0) arc (0:286.5:0.3);
-        \node at (143:0.5) {$\theta$};
-    \end{scope}
+        <figure>
+          <image>
+            <latex-image>
+              \begin{tikzpicture}[scale=1.2,line cap=round]
+              \def\r{1.5cm}
+              % Axes
+              \draw[->] (-\r-0.5,0) -- (\r+0.5,0) node[right] {$x$};
+              \draw[->] (0,-\r-0.5) -- (0,\r+0.5) node[above] {$y$};
+              
+              % Faint radii at every 30° from 0 to 180°
+              \foreach \i in {0,1,2,3,4,5,6}{
+                \draw[very thin, gray] (0,0) -- (\i*30:\r);
+              }
+              % Highlight 5π/6 arc
+              \draw[ultra thick, black, ->] 
+              (0.4*\r,0) arc [start angle=0, end angle=150, radius=0.4*\r];
+              \node[black] at (75:0.4*\r+8pt) {$\tfrac{5\pi}{6}$};
+              % Terminal side
+              \draw[->, very thick, black] (0,0) -- (150:\r);
+              % Center dot
+              \fill (0,0) circle (1pt);
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </figure>
+      </statement>
+    </example>
     
-    % Labels below
-    \node[align=center] at (-2.5,-2.3) {$\frac{12}{4} = 3$ radius lengths};
-    \node[align=center] at (4,-2.3) {$\frac{15}{3} = 5$ radius lengths};
-\end{tikzpicture}
-</latex-image>
-</image>
-</figure>
-
-<p>In other words, to measure the angle, divide the arc length by the radius length.</p>
-
-</subsection>
-
-<subsection xml:id="radians">
-<title>Radians</title>
-
-<definition>
-<statement>
-<p>One <term>radian</term> is defined to be the angle at the center of a circle such that the arc length associated with it is equal to the radius <m>r</m> of the circle,</p>
-
-<figure>
-<image>
-<latex-image>
-\begin{tikzpicture}
-    % Define radius
-    \def\r{2cm}
-    % Draw circle
-    \draw[thick] (0,0) circle (\r);
-    % Draw radius to point A
-    \draw[thick] (0,0) -- (\r,0) node[midway, below] {$r$};
-    % Mark point A
-    \fill (\r,0) circle (1.5pt) node[anchor=west] {};
+  </subsection>
+  
+  <subsection xml:id="special-angles-in-radians">
+    <title>Special Angles in Radians</title>
     
-    % Draw radius to point B at angle 1 radian (~57.3°)
-    \pgfmathsetmacro\ang{1} % angle in radians
-    \pgfmathsetmacro\deg{(\ang*180/pi)} % convert to degrees
-    \coordinate (B) at (\deg:\r);
-    \draw[thick] (0,0) -- (B) node[midway, above left] {$r$};
-    \fill (B) circle (1.5pt) node[anchor=south east] {};
-    
-    % Draw the arc from A to B (arc length = r when angle = 1 radian)
-    \draw[very thick, red] (\r,0) arc [start angle=0, end angle=\deg, radius=\r]
-    node[midway, above right] {$r$};
-    
-    % Label the angle 1 rad (fix the arc alignment)
-    \draw[thick] (0.5cm,0) arc [start angle=0, end angle=\deg, radius=0.5cm];
-    \node at (\deg/2:1cm) {1\,rad};
-    
-    % Center dot
-    \fill (0,0) circle (1.5pt);
-\end{tikzpicture}
-</latex-image>
-</image>
-</figure>
-
-<p>More generally, an angle <m>\theta</m> with associated radius <m>r</m> and arc length <m>s</m> is given by,</p>
-
-<md>
-<mrow>\boxed{\theta = \frac{s}{r}}</mrow>
-</md>
-
-<p>
-<ul>
-<li>The symbol for radians is <em>rad</em>, however the symbol is often omitted. So, if an angle has no unit, it should be assumed to be radians (and for degrees, use <m>^\circ</m>).</li>
-</ul>
-</p>
-</statement>
-</definition>
-
-<p>
-<ul>
-<li>In fancy math language, you can say that the angle <m>\theta</m> <alert>subtends</alert> the arc, or the arc is <alert>subtended</alert> by the angle <m>\theta</m>.</li>
-<li>Radians are technically ``dimensionless", because they are the ratio of two lengths.</li>
-</ul>
-</p>
-
-</subsection>
-
-<subsection xml:id="converting-between-degrees-and-radians">
-<title>Converting Between Degrees and Radians</title>
-
-<p>Degrees and radians are both units of angles, so we can convert between them. To find an equivalence between the two, first recall that <m>360^\circ</m> corresponds to a full rotation. In radians, for a full rotation, its arc length is simply the circumference of the circle, which is given by <m>C = 2 \pi r</m>. Then, <m>\theta = \frac{2\pi r}{r} = 2\pi</m>. Therefore, a full rotation is <m>2\pi</m> radians. This implies that,</p>
-
-<md>
-<mrow>\boxed{360^\circ = 2\pi}</mrow>
-</md>
-
-<p>To be a bit more simple, we can divide both sides by 2, since it is a common factor, to get,</p>
-
-<md>
-<mrow>\boxed{180^\circ = \pi}</mrow>
-</md>
-
-<p>This is a conversion factor which allows us to convert between these two angle units, analogous to how 1 inch = 2.54 cm, or how 1 hour = 60 minutes.</p>
-
-<theorem>
-<title>Converting between degrees and radians</title>
-
-<figure>
-<image>
-<latex-image>
-\begin{tikzpicture}[scale=1.5]
-    % Create two boxes for the units (closer together)
-    \node[draw, rectangle, thick, minimum width=2cm, minimum height=1cm] (rad) at (-1.5,0) {Radians};
-    \node[draw, rectangle, thick, minimum width=2cm, minimum height=1cm] (deg) at (1.5,0) {Degrees};
-    
-    % Arrow from radians to degrees (thicker, larger font)
-    \draw[->, very thick, bend left=20] (rad.north east) to node[above] {\Large $\times \frac{180}{\pi}$} (deg.north west);
-    
-    % Arrow from degrees to radians (thicker, larger font)
-    \draw[->, very thick, bend left=20] (deg.south west) to node[below] {\Large $\times \frac{\pi}{180}$} (rad.south east);
-\end{tikzpicture}
-</latex-image>
-</image>
-</figure>
-</theorem>
-
-<p>The ratio <m>\frac{180^\circ}{\pi}</m> can be thought of as a conversion factor, a ratio used to convert between units.</p>
-
-<exercise>
-<statement>
-<p>Convert <m>\frac{8\pi}{15}</m> to degrees.</p>
-</statement>
-</exercise>
-
-</subsection>
-
-<subsection xml:id="sketching-radian-angles-in-standard-position">
-<title>Sketching Radian Angles in Standard Position</title>
-
-<p>To graph an angle in radians, it's easiest to think in terms of fractions of <m>\pi</m>. To start,</p>
-
-<p>
-<ul>
-<li><m>2\pi</m> is a full rotation (<m>360^\circ</m>)</li>
-<li><m>\pi</m> is a half rotation (<m>180^\circ</m>)</li>
-</ul>
-</p>
-
-<figure>
-<image>
-<latex-image>
-\begin{tikzpicture}[line cap=round]
-  % radius of circle
-  \def\r{2cm}
-
-  % axes
-  \draw[->] (-\r-4,0) -- (\r+4,0) node[right] {$x$};
-  \draw[->] (0,-\r-4) -- (0,\r+4) node[above] {$y$};
-
-  % initial side (positive x-axis)
-  \draw[->] (0,0) -- (\r,0) node[midway,below] {};
-
-  % --- the pi angle in red ---
-  % curved arrow for rotation from 0 to pi
-  \draw[->, very thick, red]
-    (0.1*\r,0) arc [start angle=0, end angle=180, radius=0.2*\r];
-  % label the arc
-  \node[red] at (170:0.8*\r) {$\pi$};
-  % terminal side at pi
-  \draw[->, very thick, red]
-    (0,0) -- (180:\r) node[midway,above] {};
-
-  % --- the 2pi angle in blue ---
-  % curved arrow for full rotation
-  \draw[->, very thick, blue]
-    (0.3*\r,0) arc [start angle=0, end angle=360, radius=0.4*\r];
-  % label the full-turn arc
-  \node[blue] at (350:0.8*\r) {$2\pi$};
-  % terminal side (coincides with initial)
-  \draw[->, very thick, blue]
-    (0,0) -- (\r,0) node[midway,below right] {};
-
-  % center dot
-  \fill (0,0) circle (2pt);
-\end{tikzpicture}
-</latex-image>
-</image>
-</figure>
-
-<p>Then,</p>
-
-<p>
-<ul>
-<li><m>\frac{\pi}{2}</m> (or half of <m>\pi</m>) is a quarter rotation (half of a half rotation), which is <m>90^\circ</m></li>
-<li><m>\frac{\pi}{4}</m> (or a quarter of <m>\pi</m>) is half of a quarter rotation, which is <m>45^\circ</m>.</li>
-<li><m>\frac{\pi}{6}</m> is <m>\pi</m> split into 6 equal pieces, which is <m>30^\circ</m>.</li>
-</ul>
-</p>
-
-<figure>
-<image>
-<latex-image>
-\begin{minipage}{0.3\textwidth}
-\centering
-% π/2 picture
-\begin{tikzpicture}[scale=1.2,line cap=round]
-  \def\r{1.5cm}
-  % Axes
-  \draw[->] (-\r-0.5,0) -- (\r+0.5,0) node[right] {$x$};
-  \draw[->] (0,-\r-0.5) -- (0,\r+0.5) node[above] {$y$};
-  % Faint radii
-  \foreach \i in {0,1,2}{
-    \draw[very thin, gray] (0,0) -- (\i*90:\r);
-  }
-  % Highlight π/2
-  \draw[ultra thick, red, ->] (0.4*\r,0) arc [start angle=0,end angle=90,radius=0.4*\r];
-  \node[red] at (45:0.4*\r+8pt) {$\tfrac{\pi}{2}$};
-  \draw[->, very thick, red] (0,0) -- (90:\r);
-  \fill (0,0) circle (1pt);
-\end{tikzpicture}
-\end{minipage}%
-\hfill
-\begin{minipage}{0.3\textwidth}
-\centering
-% π/4 picture
-\begin{tikzpicture}[scale=1.2,line cap=round]
-  \def\r{1.5cm}
-  % Axes
-  \draw[->] (-\r-0.5,0) -- (\r+0.5,0) node[right] {$x$};
-  \draw[->] (0,-\r-0.5) -- (0,\r+0.5) node[above] {$y$};
-  % Faint radii
-  \foreach \i in {0,1,2,3,4}{
-    \draw[very thin, gray] (0,0) -- (\i*45:\r);
-  }
-  % Highlight π/4
-  \draw[ultra thick, blue, ->] (0.4*\r,0) arc [start angle=0,end angle=45,radius=0.4*\r];
-  \node[blue] at (22.5:0.4*\r+8pt) {$\tfrac{\pi}{4}$};
-  \draw[->, very thick, blue] (0,0) -- (45:\r);
-  \fill (0,0) circle (1pt);
-\end{tikzpicture}
-\end{minipage}%
-\hfill
-\begin{minipage}{0.3\textwidth}
-\centering
-% π/6 picture
-\begin{tikzpicture}[scale=1.2,line cap=round]
-  \def\r{1.5cm}
-  % Axes
-  \draw[->] (-\r-0.5,0) -- (\r+0.5,0) node[right] {$x$};
-  \draw[->] (0,-\r-0.5) -- (0,\r+0.5) node[above] {$y$};
-  % Faint radii
-  \foreach \i in {0,1,2,3,4,5,6}{
-    \draw[very thin, gray] (0,0) -- (\i*30:\r);
-  }
-  % Highlight π/6
-  \draw[ultra thick, green, ->] (0.4*\r,0) arc [start angle=0,end angle=30,radius=0.4*\r];
-  \node[green] at (15:0.4*\r+8pt) {$\tfrac{\pi}{6}$};
-  \draw[->, very thick, green] (0,0) -- (30:\r);
-  \fill (0,0) circle (1pt);
-\end{tikzpicture}
-\end{minipage}
-</latex-image>
-</image>
-</figure>
-
-<p>For bigger angles, we can count multiples.</p>
-
-<example>
-<statement>
-<p>For example, for <m>\frac{5\pi}{6}</m>, first divide <m>\pi</m> into 6 equal pieces, and then count 5 of them,</p>
-
-<figure>
-<image>
-<latex-image>
-\begin{tikzpicture}[scale=1.2,line cap=round]
-    \def\r{1.5cm}
-    % Axes
-    \draw[->] (-\r-0.5,0) -- (\r+0.5,0) node[right] {$x$};
-    \draw[->] (0,-\r-0.5) -- (0,\r+0.5) node[above] {$y$};
-
-    % Faint radii at every 30° from 0 to 180°
-    \foreach \i in {0,1,2,3,4,5,6}{
-        \draw[very thin, gray] (0,0) -- (\i*30:\r);
-    }
-    % Highlight 5π/6 arc
-    \draw[ultra thick, black, ->] 
-        (0.4*\r,0) arc [start angle=0, end angle=150, radius=0.4*\r];
-    \node[black] at (75:0.4*\r+8pt) {$\tfrac{5\pi}{6}$};
-    % Terminal side
-    \draw[->, very thick, black] (0,0) -- (150:\r);
-    % Center dot
-    \fill (0,0) circle (1pt);
-\end{tikzpicture}
-</latex-image>
-</image>
-</figure>
-</statement>
-</example>
-
-</subsection>
-
-<subsection xml:id="special-angles-in-radians">
-<title>Special Angles in Radians</title>
-
-<md>
-<mrow>
-\begin{array}{c|ccccc}
-    \amp 0^\circ \amp 30^\circ \amp 45^\circ \amp 60^\circ \amp 90^\circ \\
-    \hline
-    \amp 0 \amp \frac{\pi}{6} \amp \frac{\pi}{4} \amp \frac{\pi}{3} \amp \frac{\pi}{2} \\
-    \sin{\theta} \amp 0 \amp \frac{1}{2} \amp \frac{\sqrt{2}}{2} \amp \frac{\sqrt{3}}{2} \amp 1 \\
-    \cos{\theta} \amp 1 \amp \frac{\sqrt{3}}{2} \amp \frac{\sqrt{2}}{2} \amp \frac{1}{2} \amp 0 \\
-    \tan{\theta} \amp 0 \amp \frac{1}{\sqrt{3}} \amp 1 \amp \sqrt{3} \amp \text{undefined} 
-\end{array}
-</mrow>
-</md>
-</subsection>
-
+    <md>
+      <mrow>
+        \begin{array}{c|ccccc}
+        \amp 0^\circ \amp 30^\circ \amp 45^\circ \amp 60^\circ \amp 90^\circ \\
+        \hline
+        \amp 0 \amp \frac{\pi}{6} \amp \frac{\pi}{4} \amp \frac{\pi}{3} \amp \frac{\pi}{2} \\
+        \sin{\theta} \amp 0 \amp \frac{1}{2} \amp \frac{\sqrt{2}}{2} \amp \frac{\sqrt{3}}{2} \amp 1 \\
+        \cos{\theta} \amp 1 \amp \frac{\sqrt{3}}{2} \amp \frac{\sqrt{2}}{2} \amp \frac{1}{2} \amp 0 \\
+        \tan{\theta} \amp 0 \amp \frac{1}{\sqrt{3}} \amp 1 \amp \sqrt{3} \amp \text{undefined} 
+        \end{array}
+      </mrow>
+    </md>
+  </subsection>
+  
 </section>

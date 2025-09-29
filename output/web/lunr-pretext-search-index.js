@@ -1072,11 +1072,65 @@ var ptx_lunr_docs = [
   "body": " Degree of a Product  The degree of a product of polynomials is the sum of the degrees. In particular, the product of linear factors is a polynomial of degree .  "
 },
 {
+  "id": "sec-interval-notation",
+  "level": "1",
+  "url": "sec-interval-notation.html",
+  "type": "Section",
+  "number": "4.1",
+  "title": "Interval Notation",
+  "body": " Interval Notation   In mathematics, we often work with ranges of numbers. A interval is a range of numbers between two points.  Mathematicians developed a notation to write intervals of numbers concisely and clearly. An interval is made up of:   Two numbers , that represent the start and end of the interval.  Round brackets or square brackets , that indicate if the numbers at the start or end are included or not.    For example,   means all numbers between 3 and 7, including both 3 and 7.     means all numbers between 3 and 7, but not including 3 nor 7.       The type of bracket tells you if the endpoint is included or not:   Square brackets indicate the endpoint is included.  Round brackets (or parentheses ) indicate the endpoint is not included (i.e. is excluded ).    For example,   means all the numbers from to 4, including but not including 4.     means all the numbers from to 4, not including but including 4.       Some intervals have no maximum value, no minimum value, or both. For an interval which has no endpoint, we say that it extends to infinity, and use as the endpoint. We use round brackets for or , since is not a real number, so they are not numbers we can include or reach in our interval.   For example,   For all the numbers greater than 4, not including 4 , we write .     For all the numbers less than or equal to 5 , we write .     For all numbers , we write .         Summary of Interval Notation  In summary,            (the entire real line)    In short, an interval is a shorthand notation for describing all numbers between two endpoints.   Put the smaller number first, and the bigger number second.  Use square brackets when the endpoint is included.  Use round brackets when the endpoint is not included, including for or .   Note that the notation for an interval is the same as a point in the -plane . This is an overloading of notation, however in most cases, the context should make clear which one it's referring to.   "
+},
+{
+  "id": "sec-interval-notation-2-1",
+  "level": "2",
+  "url": "sec-interval-notation.html#sec-interval-notation-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "interval "
+},
+{
+  "id": "sec-interval-notation-2-4",
+  "level": "2",
+  "url": "sec-interval-notation.html#sec-interval-notation-2-4",
+  "type": "Example",
+  "number": "4.1.1",
+  "title": "",
+  "body": " For example,   means all numbers between 3 and 7, including both 3 and 7.     means all numbers between 3 and 7, but not including 3 nor 7.      "
+},
+{
+  "id": "sec-interval-notation-2-7",
+  "level": "2",
+  "url": "sec-interval-notation.html#sec-interval-notation-2-7",
+  "type": "Example",
+  "number": "4.1.2",
+  "title": "",
+  "body": " For example,   means all the numbers from to 4, including but not including 4.     means all the numbers from to 4, not including but including 4.      "
+},
+{
+  "id": "sec-interval-notation-2-9",
+  "level": "2",
+  "url": "sec-interval-notation.html#sec-interval-notation-2-9",
+  "type": "Example",
+  "number": "4.1.3",
+  "title": "",
+  "body": " For example,   For all the numbers greater than 4, not including 4 , we write .     For all the numbers less than or equal to 5 , we write .     For all numbers , we write .      "
+},
+{
+  "id": "sec-interval-notation-3-3",
+  "level": "2",
+  "url": "sec-interval-notation.html#sec-interval-notation-3-3",
+  "type": "Definition",
+  "number": "4.1.4",
+  "title": "",
+  "body": "          (the entire real line)   "
+},
+{
   "id": "sec-graphing-rational-functions",
   "level": "1",
   "url": "sec-graphing-rational-functions.html",
   "type": "Section",
-  "number": "4.1",
+  "number": "5.1",
   "title": "Graphing Rational Functions",
   "body": " Graphing Rational Functions    Sketching the Graph of a Rational Function Summary  We can use all the previous properties of rational functions in order to graph them. Then,      Factor and simplify .  If possible, factor the numerator and denominator.  Determine the domain of the function, which is all real numbers, except the roots of the denominator.  Simplify by cancelling any common factors.     Find any holes . Cancelled factors of the form will result in a hole at , and the -coordinate of these holes will come from evaluating the simplified function at .  Find properties of the function:   Find the y-intercept (if it exists) . The -intercept comes from substituting (i.e. finding ) (as long as 0 is in the domain of ).  Find any x-intercepts . Any -intercepts of are zeros of the numerator.  Find any vertical asymptotes . Any vertical asymptotes are from the zeros of the denominator.    Find the horizontal asymptote (or oblique asymptote) . Compare the degree of the numerator and the denominator.  If , then the line (the -axis) is the horizontal asymptote.  If , then the line , the ratio of the leading coefficients, is the horizontal asymptote.   If , then there is no horizontal asymptote.  If , then there is an oblique (slant) asymptote. Find it using synthetic division or long division.          Plot additional points , if necessary. A good guideline is to have at least 1 point on each side of each vertical asymptote. Two points can be better if you need more detail.  Sketch the graph by connecting the points. The graph should get closer and closer to each asymptote. Be sure to not cross any vertical asymptote.     "
 },
@@ -1085,7 +1139,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-radian-measure.html",
   "type": "Section",
-  "number": "5.1",
+  "number": "6.1",
   "title": "Radian Measure",
   "body": " Radian Measure   There is another unit for measuring angles, called a radian , which turns out to be more useful than degrees to use in calculus. First, it is helpful to step back and understand the idea of how angles can be measured.    Alternate Angular Units  Degrees are a unit such that 360 degrees make a full rotation. This makes sense for practical applications, and historically, for navigation, architecture, and astronomy. This is because you can divide 360 evenly into many numbers. However, if we were starting from scratch, we could also consider alternate useful units of measuring angles. For example:    The gradian , where a quarter rotation is defined to be 100 gradians. Then, a full rotation would be 400 gradians.  Or, 1 turn could be defined as a full rotation. Then, a half rotation is turns, or a quarter rotation is turns.  For units inspired by the fact that there are 8 slices in a pizza, a unit could be called a slice , defined to be th of a full rotation. Then, 8 slices would be a full rotation.  We could define 1 unit to be a quarter rotation. Then, 4 units is a full rotation.    Notice that ultimately, units are a convention, and what units are useful or most natural depends on the context.    Motivation for Radians  There is another unit of angle measure, called a radian . The idea is that we will measure angles based on how long the arc of the angle is.       The longer the arc is, the bigger the angle that is swept out. The amount you rotate is proportional to how far you travel along the circle.    Small rotation small distance traveled  Big rotation big distance traveled         However, just measuring the arc doesn't fully work, because the arc length depends on the size of the circle (basically, it depends on it's radius).    If you have a small circle, you won't have to walk very far to make a full loop.  If you have a big circle, the same angle will mean you walk a lot farther.         We want a measurement which purely measures rotation, that isn't affected by how big the circle is. The key idea is: even though the arc length changes when the circle gets bigger or smaller, it changes in a very predictable way. In particular, arc length is proportional to the radius.    If you double the radius, the arc length doubles .  If you triple the radius, the arc length triples .      For example, for this particular angle below, for cm, the arc is 8 cm, and for cm, the arc is 16 cm.       While the arc lengths are different, in both scenarios, the arc length is 2 radius lengths.    To measure arc length, instead of using meters or centimeters or any other unit of length, we use the radius itself as the unit. In other words, we ask:   For example:    If the radius is 4 m, and the arc length is 12 m, that is radius lengths of rotation.  If the radius is 3 m, and the arc length is 15 m, that is radius lengths of rotation.         In other words, to measure the angle, divide the arc length by the radius length.    Radians    One radian is defined to be the angle at the center of a circle such that the arc length associated with it is equal to the radius of the circle,       More generally, an angle with associated radius and arc length is given by,     The symbol for radians is rad , however the symbol is often omitted. So, if an angle has no unit, it should be assumed to be radians (and for degrees, use ).        In fancy math language, you can say that the angle  subtends the arc, or the arc is subtended by the angle .  Radians are technically ``dimensionless\", because they are the ratio of two lengths.      Converting Between Degrees and Radians  Degrees and radians are both units of angles, so we can convert between them. To find an equivalence between the two, first recall that corresponds to a full rotation. In radians, for a full rotation, its arc length is simply the circumference of the circle, which is given by . Then, . Therefore, a full rotation is radians. This implies that,   To be a bit more simple, we can divide both sides by 2, since it is a common factor, to get,   This is a conversion factor which allows us to convert between these two angle units, analogous to how 1 inch = 2.54 cm, or how 1 hour = 60 minutes.   Converting between degrees and radians        The ratio can be thought of as a conversion factor, a ratio used to convert between units.    Convert to degrees.      Sketching Radian Angles in Standard Position  To graph an angle in radians, it's easiest to think in terms of fractions of . To start,    is a full rotation ( )  is a half rotation ( )         Then,    (or half of ) is a quarter rotation (half of a half rotation), which is  (or a quarter of ) is half of a quarter rotation, which is .  is split into 6 equal pieces, which is .         For bigger angles, we can count multiples.    For example, for , first divide into 6 equal pieces, and then count 5 of them,           Special Angles in Radians    "
 },
@@ -1094,7 +1148,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-radian-measure.html#motivation-for-radians-3",
   "type": "Figure",
-  "number": "5.1.1",
+  "number": "6.1.1",
   "title": "",
   "body": "    "
 },
@@ -1103,7 +1157,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-radian-measure.html#motivation-for-radians-6",
   "type": "Figure",
-  "number": "5.1.2",
+  "number": "6.1.2",
   "title": "",
   "body": "    "
 },
@@ -1112,7 +1166,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-radian-measure.html#motivation-for-radians-9",
   "type": "Figure",
-  "number": "5.1.3",
+  "number": "6.1.3",
   "title": "",
   "body": "    "
 },
@@ -1121,7 +1175,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-radian-measure.html#motivation-for-radians-12",
   "type": "Example",
-  "number": "5.1.4",
+  "number": "6.1.4",
   "title": "",
   "body": "  For example, for this particular angle below, for cm, the arc is 8 cm, and for cm, the arc is 16 cm.       While the arc lengths are different, in both scenarios, the arc length is 2 radius lengths.   "
 },
@@ -1130,7 +1184,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-radian-measure.html#motivation-for-radians-17",
   "type": "Figure",
-  "number": "5.1.6",
+  "number": "6.1.6",
   "title": "",
   "body": "    "
 },
@@ -1139,7 +1193,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-radian-measure.html#radians-2",
   "type": "Definition",
-  "number": "5.1.7",
+  "number": "6.1.7",
   "title": "",
   "body": "  One radian is defined to be the angle at the center of a circle such that the arc length associated with it is equal to the radius of the circle,       More generally, an angle with associated radius and arc length is given by,     The symbol for radians is rad , however the symbol is often omitted. So, if an angle has no unit, it should be assumed to be radians (and for degrees, use ).     "
 },
@@ -1148,7 +1202,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-radian-measure.html#converting-between-degrees-and-radians-7",
   "type": "Theorem",
-  "number": "5.1.9",
+  "number": "6.1.9",
   "title": "Converting between degrees and radians.",
   "body": " Converting between degrees and radians       "
 },
@@ -1157,7 +1211,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-radian-measure.html#converting-between-degrees-and-radians-9",
   "type": "Checkpoint",
-  "number": "5.1.11",
+  "number": "6.1.11",
   "title": "",
   "body": "  Convert to degrees.   "
 },
@@ -1166,7 +1220,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-radian-measure.html#sketching-radian-angles-in-standard-position-4",
   "type": "Figure",
-  "number": "5.1.12",
+  "number": "6.1.12",
   "title": "",
   "body": "    "
 },
@@ -1175,7 +1229,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-radian-measure.html#sketching-radian-angles-in-standard-position-7",
   "type": "Figure",
-  "number": "5.1.13",
+  "number": "6.1.13",
   "title": "",
   "body": "    "
 },
@@ -1184,7 +1238,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-radian-measure.html#sketching-radian-angles-in-standard-position-9",
   "type": "Example",
-  "number": "5.1.14",
+  "number": "6.1.14",
   "title": "",
   "body": "  For example, for , first divide into 6 equal pieces, and then count 5 of them,        "
 },
@@ -1193,7 +1247,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-ratios-of-non-acute-angles-reference-angles.html",
   "type": "Section",
-  "number": "5.2",
+  "number": "6.2",
   "title": "Ratios of Non-Acute Angles, Reference Angles",
   "body": " Ratios of Non-Acute Angles, Reference Angles   Introduction     This is a subsection.    Exact Trig-Value Practice   Evaluate exactly.  Your answer:   For square roots, type \"sqrt\", not a decimal approximation (for example, type \"sqrt(3)\", or \"sqrt(2)\").    \/\/ === OPTIONS === const USE_RADIANS = true; const ALLOW_NEGATIVE = true; const ALLOW_WRAP = true; const USE_RECIPROCALS = true; \/\/ === Exact values for key angles === const exact = { sin: { 0: \"0\", 30: \"1\/2\", 45: \"sqrt(2)\/2\", 60: \"sqrt(3)\/2\", 90: \"1\", 120: \"sqrt(3)\/2\", 135: \"sqrt(2)\/2\", 150: \"1\/2\", 180: \"0\", 210: \"-1\/2\", 225: \"-sqrt(2)\/2\", 240: \"-sqrt(3)\/2\", 270: \"-1\", 300: \"-sqrt(3)\/2\", 315: \"-sqrt(2)\/2\", 330: \"-1\/2\" } }; \/\/ Generate cos, tan exact.cos = {}; exact.tan = {}; for (let deg in exact.sin) { const s = eval(exact.sin[deg].replace(\"sqrt\", \"Math.sqrt\")); const c = Math.cos(deg * Math.PI \/ 180); const cs = Math.abs(c) < 1e-10 ? \"0\" : Math.abs(c - 0.5) < 1e-10 ? \"1\/2\" : Math.abs(c - Math.sqrt(2)\/2) < 1e-10 ? \"sqrt(2)\/2\" : \"sqrt(3)\/2\"; exact.cos[deg] = c < 0 ? \"-\" + cs : cs; if (Math.abs(c) < 1e-10) { exact.tan[deg] = null; } else { const t = s \/ c; const abs = Math.abs(t); const ts = abs < 1e-10 ? \"0\" : Math.abs(abs - 1) < 1e-10 ? \"1\" : abs < 1 ? \"sqrt(3)\/3\" : \"sqrt(3)\"; exact.tan[deg] = t < 0 ? \"-\" + ts : ts; } } \/\/ Reciprocal functions function reciprocal(str) { if (!str || str === \"0\") return null; if (str === \"1\") return \"1\"; if (str === \"sqrt(3)\/3\") return \"sqrt(3)\"; if (str === \"sqrt(3)\") return \"sqrt(3)\/3\"; if (str === \"1\/2\") return \"2\"; if (str === \"sqrt(2)\/2\") return \"sqrt(2)\"; if (str === \"sqrt(3)\/2\") return \"2*sqrt(3)\/3\"; return str.startsWith(\"-\") ? \"-\" + reciprocal(str.slice(1)) : \"1\/(\" + str + \")\"; } exact.csc = Object.fromEntries(Object.entries(exact.sin).map(([d, s]) => [d, reciprocal(s)])); exact.sec = Object.fromEntries(Object.entries(exact.cos).map(([d, s]) => [d, reciprocal(s)])); exact.cot = Object.fromEntries(Object.entries(exact.tan).map(([d, s]) => [d, reciprocal(s)])); \/\/ === Choose function === let funcs = [\"sin\", \"cos\", \"tan\"]; if (USE_RECIPROCALS) funcs.push(\"csc\", \"sec\", \"cot\"); let func; let deg, k, thetaDeg; const baseAngles = Object.keys(exact.sin).map(Number); do { func = funcs[RNG.randInt(0, funcs.length - 1)]; deg = baseAngles[RNG.randInt(0, baseAngles.length - 1)]; k = ALLOW_WRAP ? RNG.randInt(-1, 1) : 0; if (!ALLOW_NEGATIVE && k < 0) k = 0; thetaDeg = deg + 360 * k; } while (exact[func][deg] === null); v.func = func; v.answerExpr = exact[func][deg]; \/\/ === TeX angle === function texForDegrees(d) { return d + \"^{\\\\circ}\"; } function texForRadians(d) { let frac = d \/ 180; const sign = frac < 0 ? \"-\" : \"\"; frac = Math.abs(frac); const denom = 12; let num = frac * denom; const gcf = (a, b) => b ? gcf(b, a % b) : a; const g = gcf(num, denom); num \/= g; const den = denom \/ g; return sign + (den === 1 ? num + \"\\\\pi\" : \"\\\\tfrac{\" + num + \"\\\\pi}{\" + den + \"}\"); } v.angleTeX = USE_RADIANS && RNG.randInt(0, 1) === 0 ? texForRadians(thetaDeg) : texForDegrees(thetaDeg);       Correct, great work 🎉    Not quite. Use an exact radical value like , not a decimal.      The exact value is \\ \\!\\bigl( \\bigr) = .      "
 },
@@ -1202,7 +1256,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-ratios-of-non-acute-angles-reference-angles.html#trig-exact-practice",
   "type": "Exercise",
-  "number": "5.2.1.1",
+  "number": "6.2.1.1",
   "title": "Exact Trig-Value Practice.",
   "body": " Exact Trig-Value Practice   Evaluate exactly.  Your answer:   For square roots, type \"sqrt\", not a decimal approximation (for example, type \"sqrt(3)\", or \"sqrt(2)\").    \/\/ === OPTIONS === const USE_RADIANS = true; const ALLOW_NEGATIVE = true; const ALLOW_WRAP = true; const USE_RECIPROCALS = true; \/\/ === Exact values for key angles === const exact = { sin: { 0: \"0\", 30: \"1\/2\", 45: \"sqrt(2)\/2\", 60: \"sqrt(3)\/2\", 90: \"1\", 120: \"sqrt(3)\/2\", 135: \"sqrt(2)\/2\", 150: \"1\/2\", 180: \"0\", 210: \"-1\/2\", 225: \"-sqrt(2)\/2\", 240: \"-sqrt(3)\/2\", 270: \"-1\", 300: \"-sqrt(3)\/2\", 315: \"-sqrt(2)\/2\", 330: \"-1\/2\" } }; \/\/ Generate cos, tan exact.cos = {}; exact.tan = {}; for (let deg in exact.sin) { const s = eval(exact.sin[deg].replace(\"sqrt\", \"Math.sqrt\")); const c = Math.cos(deg * Math.PI \/ 180); const cs = Math.abs(c) < 1e-10 ? \"0\" : Math.abs(c - 0.5) < 1e-10 ? \"1\/2\" : Math.abs(c - Math.sqrt(2)\/2) < 1e-10 ? \"sqrt(2)\/2\" : \"sqrt(3)\/2\"; exact.cos[deg] = c < 0 ? \"-\" + cs : cs; if (Math.abs(c) < 1e-10) { exact.tan[deg] = null; } else { const t = s \/ c; const abs = Math.abs(t); const ts = abs < 1e-10 ? \"0\" : Math.abs(abs - 1) < 1e-10 ? \"1\" : abs < 1 ? \"sqrt(3)\/3\" : \"sqrt(3)\"; exact.tan[deg] = t < 0 ? \"-\" + ts : ts; } } \/\/ Reciprocal functions function reciprocal(str) { if (!str || str === \"0\") return null; if (str === \"1\") return \"1\"; if (str === \"sqrt(3)\/3\") return \"sqrt(3)\"; if (str === \"sqrt(3)\") return \"sqrt(3)\/3\"; if (str === \"1\/2\") return \"2\"; if (str === \"sqrt(2)\/2\") return \"sqrt(2)\"; if (str === \"sqrt(3)\/2\") return \"2*sqrt(3)\/3\"; return str.startsWith(\"-\") ? \"-\" + reciprocal(str.slice(1)) : \"1\/(\" + str + \")\"; } exact.csc = Object.fromEntries(Object.entries(exact.sin).map(([d, s]) => [d, reciprocal(s)])); exact.sec = Object.fromEntries(Object.entries(exact.cos).map(([d, s]) => [d, reciprocal(s)])); exact.cot = Object.fromEntries(Object.entries(exact.tan).map(([d, s]) => [d, reciprocal(s)])); \/\/ === Choose function === let funcs = [\"sin\", \"cos\", \"tan\"]; if (USE_RECIPROCALS) funcs.push(\"csc\", \"sec\", \"cot\"); let func; let deg, k, thetaDeg; const baseAngles = Object.keys(exact.sin).map(Number); do { func = funcs[RNG.randInt(0, funcs.length - 1)]; deg = baseAngles[RNG.randInt(0, baseAngles.length - 1)]; k = ALLOW_WRAP ? RNG.randInt(-1, 1) : 0; if (!ALLOW_NEGATIVE && k < 0) k = 0; thetaDeg = deg + 360 * k; } while (exact[func][deg] === null); v.func = func; v.answerExpr = exact[func][deg]; \/\/ === TeX angle === function texForDegrees(d) { return d + \"^{\\\\circ}\"; } function texForRadians(d) { let frac = d \/ 180; const sign = frac < 0 ? \"-\" : \"\"; frac = Math.abs(frac); const denom = 12; let num = frac * denom; const gcf = (a, b) => b ? gcf(b, a % b) : a; const g = gcf(num, denom); num \/= g; const den = denom \/ g; return sign + (den === 1 ? num + \"\\\\pi\" : \"\\\\tfrac{\" + num + \"\\\\pi}{\" + den + \"}\"); } v.angleTeX = USE_RADIANS && RNG.randInt(0, 1) === 0 ? texForRadians(thetaDeg) : texForDegrees(thetaDeg);       Correct, great work 🎉    Not quite. Use an exact radical value like , not a decimal.      The exact value is \\ \\!\\bigl( \\bigr) = .   "
 },
@@ -1211,7 +1265,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-quadratic-trigonometric-equations.html",
   "type": "Section",
-  "number": "5.3",
+  "number": "6.3",
   "title": "Quadratic Trigonometric Equations",
   "body": " Quadratic Trigonometric Equations   Some trigonometric equations are quadratic in a particular trigonometric function, in that they involve a trigonometric function being squared. In this way, many methods for solving quadratic equations can be used to solve trig equations.    Notation and Other Powers of a Trigonometric Function  Sometimes, we want to write the square of a trig function. For example, , or . It is common to write this more simply as . For example,   This is a convention that saves space and avoids having to write so many parentheses.  This notation also applies generally to all trigonometric functions,   Also, this works the same with higher powers (e.g. ).  This notation often confuses students when first learning it. In particular, the exponent (2 in this case) applies to the entire trigonometric function, not the angle . In other words,   If you like, whenever you see a squared trig function, you can first write it with brackets, before proceeding with the problem.    Solving Quadratic Trigonometric Equations   Consider . To solve this, you can replace with a single variable ( ), to get .   More precisely, if is a quadratic equation, then the equation can be put into the form (or another trigonometric function).    Examples    Basic quadratic equation . Solve each equation.           Factoring a common factor . Solve each equation.             Note that you can't divide by , because that assumes that , when in fact can equal 0. This is just like how with the equation , you can't divide by and instead have to factor it out.    Trigonometric Equations in Quadratic Form  Again, it is helpful to think about the equation if the trig function was replaced by a single variable (say, ).    Trigonometric equations in quadratic form . Solve each equation.                   Advanced . Solve each equation.     . Answer:           "
 },
@@ -1220,7 +1274,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic-trigonometric-equations.html#sec-quadratic-trigonometric-equations-4-2",
   "type": "Example",
-  "number": "5.3.1",
+  "number": "6.3.1",
   "title": "",
   "body": " Consider . To solve this, you can replace with a single variable ( ), to get .  "
 },
@@ -1229,7 +1283,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic-trigonometric-equations.html#sec-quadratic-trigonometric-equations-5-2",
   "type": "Example",
-  "number": "5.3.2",
+  "number": "6.3.2",
   "title": "",
   "body": "  Basic quadratic equation . Solve each equation.        "
 },
@@ -1238,7 +1292,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic-trigonometric-equations.html#sec-quadratic-trigonometric-equations-5-3",
   "type": "Example",
-  "number": "5.3.3",
+  "number": "6.3.3",
   "title": "",
   "body": "  Factoring a common factor . Solve each equation.            "
 },
@@ -1247,7 +1301,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic-trigonometric-equations.html#sec-quadratic-trigonometric-equations-6-3",
   "type": "Example",
-  "number": "5.3.4",
+  "number": "6.3.4",
   "title": "",
   "body": "  Trigonometric equations in quadratic form . Solve each equation.                "
 },
@@ -1256,7 +1310,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic-trigonometric-equations.html#sec-quadratic-trigonometric-equations-6-4",
   "type": "Example",
-  "number": "5.3.5",
+  "number": "6.3.5",
   "title": "",
   "body": "  Advanced . Solve each equation.     . Answer:         "
 },
@@ -1265,7 +1319,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-intro-to-proving-trigonometric-identities.html",
   "type": "Section",
-  "number": "6.1",
+  "number": "7.1",
   "title": "Intro to Proving Trigonometric Identities",
   "body": " Intro to Proving Trigonometric Identities    General Principles for Proving Identities      Convert all trigonometric expressions to sine and cosine . All trigonometric ratios can be written in terms of the ``basic\" trig ratios sine and cosine.   The one exception is if the entire identity only includes tangent and\/or cotangent, in which case it is usually simpler to convert everything in terms of tangent.     Start by manipulating the more complicated side . This is because is generally easier to go from something complex and simplify it, rather than go from something simple and make it more complex. In general,    Tangent is more complicated than sine and cosine  Reciprocal trigonometric functions are more complicated than primary trigonometric functions  Multiple fractions are easier to combine into one fraction, than writing one fraction as a combination of multiple fractions       Begin with the end in mind . Look at the form of the desired side before you start, and guide your work toward that structure.    Combine fractions using a common denominator.    Multiply by the conjugate, in order to use the Pythagorean identity.    Simplify complex fractions, by clearing denominators (multiply the numerator and denominator by the LCD).    Utilize algebraic identities, e.g. difference of squares, square of a sum, etc.     Use all trigonometric identities available to you.       Examples    Prove each trigonometric identity.     .    cancel.      .    simplify complex fraction, factor and cancel.      .    simplify complex fraction, factor and cancel.      .    Pythagorean identity, factor difference of squares, cancel.      .    multiply by the conjugate, Pythagorean identity, cancel.      .    add the rational expressions, Pythagorean identity, factor and cancel.      .    start with LHS, add fractions, Pythagorean identity.      .    Pythagorean identity.      .    add fractions, Pythagorean identity.      .    clear fractions, Pythagorean identity.      .    simplify fractions.      .    clear fractions, simplify and cancel.      .    add fractions, Pythagorean identity.      .    start with either side.      .    combine fractions, Pythagorean identity, cancel.      .    start with the LHS but RHS works also, clear fractions, cancel, Pythagorean identity, factor and cancel.      "
 },
@@ -1274,7 +1328,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-3-2-2",
   "type": "Exercise",
-  "number": "6.1.2.1",
+  "number": "7.1.2.1",
   "title": "",
   "body": "  .    cancel.   "
 },
@@ -1283,7 +1337,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-3-2-3",
   "type": "Exercise",
-  "number": "6.1.2.2",
+  "number": "7.1.2.2",
   "title": "",
   "body": "  .    simplify complex fraction, factor and cancel.   "
 },
@@ -1292,7 +1346,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-3-2-4",
   "type": "Exercise",
-  "number": "6.1.2.3",
+  "number": "7.1.2.3",
   "title": "",
   "body": "  .    simplify complex fraction, factor and cancel.   "
 },
@@ -1301,7 +1355,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-3-2-5",
   "type": "Exercise",
-  "number": "6.1.2.4",
+  "number": "7.1.2.4",
   "title": "",
   "body": "  .    Pythagorean identity, factor difference of squares, cancel.   "
 },
@@ -1310,7 +1364,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-3-2-6",
   "type": "Exercise",
-  "number": "6.1.2.5",
+  "number": "7.1.2.5",
   "title": "",
   "body": "  .    multiply by the conjugate, Pythagorean identity, cancel.   "
 },
@@ -1319,7 +1373,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-3-2-7",
   "type": "Exercise",
-  "number": "6.1.2.6",
+  "number": "7.1.2.6",
   "title": "",
   "body": "  .    add the rational expressions, Pythagorean identity, factor and cancel.   "
 },
@@ -1328,7 +1382,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-3-2-8",
   "type": "Exercise",
-  "number": "6.1.2.7",
+  "number": "7.1.2.7",
   "title": "",
   "body": "  .    start with LHS, add fractions, Pythagorean identity.   "
 },
@@ -1337,7 +1391,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-3-2-9",
   "type": "Exercise",
-  "number": "6.1.2.8",
+  "number": "7.1.2.8",
   "title": "",
   "body": "  .    Pythagorean identity.   "
 },
@@ -1346,7 +1400,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-3-2-10",
   "type": "Exercise",
-  "number": "6.1.2.9",
+  "number": "7.1.2.9",
   "title": "",
   "body": "  .    add fractions, Pythagorean identity.   "
 },
@@ -1355,7 +1409,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-3-2-11",
   "type": "Exercise",
-  "number": "6.1.2.10",
+  "number": "7.1.2.10",
   "title": "",
   "body": "  .    clear fractions, Pythagorean identity.   "
 },
@@ -1364,7 +1418,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-3-2-12",
   "type": "Exercise",
-  "number": "6.1.2.11",
+  "number": "7.1.2.11",
   "title": "",
   "body": "  .    simplify fractions.   "
 },
@@ -1373,7 +1427,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-3-2-13",
   "type": "Exercise",
-  "number": "6.1.2.12",
+  "number": "7.1.2.12",
   "title": "",
   "body": "  .    clear fractions, simplify and cancel.   "
 },
@@ -1382,7 +1436,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-3-2-14",
   "type": "Exercise",
-  "number": "6.1.2.13",
+  "number": "7.1.2.13",
   "title": "",
   "body": "  .    add fractions, Pythagorean identity.   "
 },
@@ -1391,7 +1445,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-3-2-15",
   "type": "Exercise",
-  "number": "6.1.2.14",
+  "number": "7.1.2.14",
   "title": "",
   "body": "  .    start with either side.   "
 },
@@ -1400,7 +1454,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-3-2-16",
   "type": "Exercise",
-  "number": "6.1.2.15",
+  "number": "7.1.2.15",
   "title": "",
   "body": "  .    combine fractions, Pythagorean identity, cancel.   "
 },
@@ -1409,7 +1463,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-3-2-17",
   "type": "Exercise",
-  "number": "6.1.2.16",
+  "number": "7.1.2.16",
   "title": "",
   "body": "  .    start with the LHS but RHS works also, clear fractions, cancel, Pythagorean identity, factor and cancel.   "
 },
@@ -1418,7 +1472,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-trigonometric-identities-summary.html",
   "type": "Section",
-  "number": "6.2",
+  "number": "7.2",
   "title": "Summary of Trigonometric Identities",
   "body": " Summary of Trigonometric Identities   Summary of Trigonometric Identities    "
 },
@@ -1427,7 +1481,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-infinite-geometric-series.html",
   "type": "Section",
-  "number": "7.1",
+  "number": "8.1",
   "title": "Infinite Geometric Series",
   "body": " Infinite Geometric Series    Application: Bouncing Ball Problem   Bouncing ball problem  A ball is dropped from a height of 10 m. After each bounce, the ball bounces up to 80% of its previous height. Determine the total distance travelled by the ball. Bouncing Ball GeoGebra .  Sketch a picture of the situation. The sum of the distances is, It is better to write out the distances without doing the arithmetic, so that it is easier to recognize the pattern. This is a geometric series, except for the first number 10. Each next term is the same as the previous term, except multiplied by . The first term of , and the common ratio is , Then, using the infinite geometric series formula, Therefore, the total distance travelled is 90 m.    Bouncing ball problem: advanced   Consider the general problem. A ball is dropped from a height of meters, and bounces up to a fraction of the previous bounce (where ). Find the total distance travelled, in terms of and .          "
 },
@@ -1436,7 +1490,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-infinite-geometric-series.html#sec-infinite-geometric-series-2-2",
   "type": "Example",
-  "number": "7.1.1",
+  "number": "8.1.1",
   "title": "Bouncing ball problem.",
   "body": " Bouncing ball problem  A ball is dropped from a height of 10 m. After each bounce, the ball bounces up to 80% of its previous height. Determine the total distance travelled by the ball. Bouncing Ball GeoGebra .  Sketch a picture of the situation. The sum of the distances is, It is better to write out the distances without doing the arithmetic, so that it is easier to recognize the pattern. This is a geometric series, except for the first number 10. Each next term is the same as the previous term, except multiplied by . The first term of , and the common ratio is , Then, using the infinite geometric series formula, Therefore, the total distance travelled is 90 m.  "
 },
@@ -1445,7 +1499,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-infinite-geometric-series.html#bouncing-ball-advanced",
   "type": "Example",
-  "number": "7.1.2",
+  "number": "8.1.2",
   "title": "Bouncing ball problem: advanced.",
   "body": " Bouncing ball problem: advanced   Consider the general problem. A ball is dropped from a height of meters, and bounces up to a fraction of the previous bounce (where ). Find the total distance travelled, in terms of and .        "
 }

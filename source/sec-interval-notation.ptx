@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-interval-notation" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Interval Notation</title>
+  
+  <introduction>
+    <p>In mathematics, we often work with ranges of numbers. A <term>interval</term> is a range of numbers between two points.</p>
+    <p>Mathematicians developed a notation to write intervals of numbers concisely and clearly. An interval is made up of:</p>
+    <ul>
+      <li><alert>Two numbers</alert>, that represent the start and end of the interval.</li>
+      <li><alert>Round brackets</alert> or <alert>square brackets</alert>, that indicate if the numbers at the start or end are included or not.</li>
+    </ul>
+    
+    <example>
+      <p>For example,</p>
+      <ul>
+        <li><m>[3,7]</m> means all numbers between 3 and 7, including both 3 and 7.
+          <image>
+            <latex-image>
+              \begin{tikzpicture}[x=0.6cm,y=1cm]
+              \draw[&lt;-&gt;, line width=0.6pt] (-8,0) -- (8,0);
+              \draw (0,0.1) -- (0,-0.1) node[below] {$0$};
+              \draw (3,0.1) -- (3,-0.1) node[below] {$3$};
+              \draw (7,0.1) -- (7,-0.1) node[below] {$7$};
+              \draw[red, line width=2pt] (3,0) -- (7,0);
+              \fill[red] (3,0) circle (3pt);
+              \fill[red] (7,0) circle (3pt);
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </li>
+        <li><m>(3,7)</m> means all numbers between 3 and 7, but not including 3 nor 7.
+          <image>
+            <latex-image>
+              \begin{tikzpicture}[x=0.6cm,y=1cm]
+              \draw[&lt;-&gt;, line width=0.6pt] (-8,0) -- (8,0);
+              \draw (0,0.1) -- (0,-0.1) node[below] {$0$};
+              \draw (3,0.1) -- (3,-0.1) node[below] {$3$};
+              \draw (7,0.1) -- (7,-0.1) node[below] {$7$};
+              \draw[red, line width=2pt] (3,0) -- (7,0);
+              \draw[line width=2pt, red, fill=white] (3,0) circle (4pt);
+              \draw[line width=2pt, red, fill=white] (7,0) circle (4pt);
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </li>
+      </ul>
+    </example>
+    <p>The type of bracket tells you if the endpoint is included or not:</p>
+    <ul>
+      <li><alert>Square brackets</alert> indicate the endpoint <em>is</em> included.</li>
+      <li><alert>Round brackets</alert> (or <alert>parentheses</alert>) indicate the endpoint is <em>not</em> included (i.e. is <em>excluded</em>).</li>
+    </ul>
+    <example>
+      <p>For example,</p>
+      <ul>
+        <li><m>[-2,4)</m> means all the numbers from <m>-2</m> to 4, including <m>-2</m> but <em>not</em> including 4.
+          <image>
+            <latex-image>
+              \begin{tikzpicture}[x=0.6cm,y=1cm]
+              \draw[&lt;-&gt;, line width=0.6pt] (-8,0) -- (8,0);
+              \draw (0,0.1) -- (0,-0.1) node[below] {$0$};
+              \draw (-2,0.1) -- (-2,-0.1) node[below] {$-2$};
+              \draw (4,0.1) -- (4,-0.1) node[below] {$4$};
+              \draw[red, line width=2pt] (-2,0) -- (4,0);
+              \fill[red] (-2,0) circle (3pt);
+              \draw[line width=2pt, red, fill=white] (4,0) circle (4pt);
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </li>
+        
+        <li><m>(-2,4]</m> means all the numbers from <m>-2</m> to 4, not including <m>-2</m> but <em>including</em> 4.
+          <image>
+            <latex-image>
+              \begin{tikzpicture}[x=0.6cm,y=1cm]
+              \draw[&lt;-&gt;, line width=0.6pt] (-8,0) -- (8,0);
+              \draw (0,0.1) -- (0,-0.1) node[below] {$0$};
+              \draw (-2,0.1) -- (-2,-0.1) node[below] {$-2$};
+              \draw (4,0.1) -- (4,-0.1) node[below] {$4$};
+              \draw[red, line width=2pt] (-2,0) -- (4,0);
+              \draw[line width=2pt, red, fill=white] (-2,0) circle (4pt);
+              \fill[red] (4,0) circle (3pt);
+              \end{tikzpicture}
+            </latex-image>
+          </image> 
+        </li>
+      </ul>
+    </example>
+    <p>Some intervals have no maximum value, no minimum value, or both. For an interval which has no endpoint, we say that it extends to infinity, and use <m>\infty</m> as the endpoint. We use round brackets for <m>\infty</m> or <m>-\infty</m>, since <m>\infty</m> is not a real number, so they are not numbers we can include or <q>reach</q> in our interval.</p>
+    <example>
+      <p>For example,</p>
+      <ul>
+        <li>For <q>all the numbers greater than 4, not including 4</q>, we write <m>(4,\infty)</m>.
+          <image>
+            <latex-image>
+              \begin{tikzpicture}[x=0.6cm,y=1cm]
+              \draw[&lt;-&gt;, line width=0.6pt] (-8,0) -- (8,0);
+              \draw (0,0.1) -- (0,-0.1) node[below] {$0$};
+              \draw (4,0.1) -- (4,-0.1) node[below] {$4$};
+              \draw[-&gt;, red, line width=2pt, >=stealth] (4,0) -- (8,0);
+              \draw[line width=2pt, red, fill=white] (4,0) circle (4pt);
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </li>
+        <li>For <q>all the numbers less than or equal to 5</q>, we write <m>(-\infty,5]</m>.
+          <image>
+            <latex-image>
+              \begin{tikzpicture}[x=0.6cm,y=1cm]
+              \draw[&lt;-&gt;, line width=0.6pt] (-8,0) -- (8,0);
+              \draw (0,0.1) -- (0,-0.1) node[below] {$0$};
+              \draw (5,0.1) -- (5,-0.1) node[below] {$5$};
+              \draw[&lt;-, red, line width=2pt, >=stealth] (-8,0) -- (5,0);
+              \fill[red] (5,0) circle (3pt);
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </li>
+        <li>For <q>all numbers</q>, we write <m>(-\infty,\infty)</m>.
+          <image>
+            <latex-image>
+              \begin{tikzpicture}[x=0.6cm,y=1cm]
+              \draw[&lt;-&gt;, line width=0.6pt] (-8,0) -- (8,0);
+              \draw (0,0.1) -- (0,-0.1) node[below] {$0$};
+              \draw[&lt;-&gt;, red, line width=2pt, >=stealth] (-8,0) -- (8,0);
+              \end{tikzpicture}
+            </latex-image>
+          </image>        
+        </li>
+      </ul>
+    </example>
+  </introduction>
+  
+  <subsection>
+    <title>Summary of Interval Notation</title>
+    <p>In summary,</p>
+    <definition>
+      <ul>
+        <li><m>[a,b] = \set{x \in \mathbb{R} : a \leq x \leq b}</m></li>
+        <li><m>(a,b) = \set{x \in \mathbb{R} : a \lt x \lt b}</m></li>
+        <li><m>(a,b] = \set{x \in \mathbb{R} : a \lt x \leq b}</m></li>
+        <li><m>[a,b) = \set{x \in \mathbb{R} : a \leq x \lt b}</m></li>
+        <li><m>(a,\infty) = \set{x \in \mathbb{R} : x \gt a}</m></li>
+        <li><m>[a,\infty) = \set{x \in \mathbb{R} : x \geq a}</m></li>
+        <li><m>(-\infty,b) = \set{x \in \mathbb{R} : x \lt b}</m></li>
+        <li><m>(-\infty,b] = \set{x \in \mathbb{R} : x \leq b}</m></li>
+        <li><m>(-\infty,\infty) = \mathbb{R}</m> (the entire real line)</li>
+      </ul>
+    </definition>
+    <p>In short, an interval is a shorthand notation for describing all numbers between two endpoints.</p>
+    <ul>
+      <li>Put the smaller number first, and the bigger number second.</li>
+      <li>Use square brackets when the endpoint is included.</li>
+      <li>Use round brackets when the endpoint is not included, including for <m>\infty</m> or <m>-\infty</m>.</li>
+    </ul>
+    <p>Note that the notation for an interval <m>(a,b)</m> is the same as a point in the <m>xy</m>-plane <m>(a,b)</m>. This is an overloading of notation, however in most cases, the context should make clear which one it's referring to.</p>
+  </subsection>
+  
+</section>
