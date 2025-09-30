@@ -8,7 +8,7 @@
   </introduction> -->
 
   <!-- include sections -->
-  <!-- <xi:include href="sec-polynomial-functions-intro.ptx" /> -->
+  <xi:include href="sec-polynomial-functions-intro.ptx" />
 
   <xi:include href="sec-factoring-and-roots-of-polynomial-functions.ptx" />
 

@@ -991,11 +991,29 @@ var ptx_lunr_docs = [
   "body": " Factoring Quadratics Summary     Write the quadratic in descending power order (standard form), .     e.g.        If there is a GCF (greatest common factor), factor it out (either a number or variable like ).     e.g.     e.g.        Determine which factoring method applies, based on the form:    If , find two numbers that multiply to and add to .     e.g.        If , use the cross method (or -method, or box method).     e.g.        If there are only 2 terms, try difference of squares.     (Optional) use perfect square factoring patterns:        "
 },
 {
+  "id": "sec-polynomial-functions-intro",
+  "level": "1",
+  "url": "sec-polynomial-functions-intro.html",
+  "type": "Section",
+  "number": "3.1",
+  "title": "Polynomial Functions Intro",
+  "body": " Polynomial Functions Intro     End behavior table      "
+},
+{
+  "id": "end-behavior",
+  "level": "2",
+  "url": "sec-polynomial-functions-intro.html#end-behavior",
+  "type": "Figure",
+  "number": "3.1.1",
+  "title": "",
+  "body": " End behavior table   "
+},
+{
   "id": "sec-factoring-and-roots-of-polynomial-functions",
   "level": "1",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html",
   "type": "Section",
-  "number": "3.1",
+  "number": "3.2",
   "title": "Factoring and Roots of Polynomial Functions",
   "body": " Factoring and Roots of Polynomial Functions   Recall that our goal is to be able to factor polynomials, in a similar way that we can factor quadratic functions. The question is: how do we find factors?   Recall that quadratics can be written in factored form. For example,      The factors are and .    The zeros are and .     Notice that each zero corresponds to a factor. In other words,    This relationship extends to any polynomial function, and is called the factor theorem .    Factor Theorem   Factor theorem   Let be a polynomial. Then, is a factor of the polynomial if and only if . In other words,   If , then is a factor of .    If is a factor of , then .       This provides an equivalence between being a factor of , and being a root of . We also know that being a factor of means that dividing by gives a remainder of 0. Putting it together, these are all equivalent:    For the polynomial function , to determine if is a factor, evaluate ,   This means that is a root, so by the factor theorem, is a factor of .      For each zero of a polynomial function , give the corresponding factor.                      For , determine if each binomial is a factor.     No.     Yes.      For , determine if each binomial is a factor.     Yes.     No.      Find so that is a factor of .           What are all values of for which is a zero of ?           If is a factor of , what is ?           Find values for and such that is a factor of both and .            The Remainder Theorem  The remainder theorem states that when a polynomial is divided by a binomial , the remainder is .   Remainder theorem   If a polynomial is divided by a binomial , the remainder is equal to the function evaluated at , i.e. .     In other words, to find the remainder after division by , you can just evaluate the polynomial at , instead of going through the division process.   Exercises    Find the remainder for each polynomial division, using the remainder theorem.     18     9     8     -19     -40     9     41     -4      Find each value of from the given division and remainder.    , remainder     , remainder     , remainder     , remainder       Find for each polynomial, using the given remainder condition.    When is divided by , the remainder is .     has remainder .     has remainder .     has remainder .     has remainder .     has remainder .  or    When is divided by , the remainder is .     When is divided by , the remainder is .     When is divided by , the remainder is .     When is divided by , the remainder is .     When is divided by , the remainder is . Find .       The polynomial has the same remainder when divided by and by . Find .           Find the unknown coefficients for each polynomial.    has remainders upon division by and upon division by . Find and .     has remainders upon division by and upon division by . Find and .     has remainders upon division by and upon division by . Find and .     has remainders upon division by and upon division by . Find .     When is divided by , the remainder is . When this polynomial is divided by , the remainder is . Find and .     has no remainder when divided by and . Find and .       When is divided by , the remainder is the same as when is divided by . Find .           When is divided by , the remainder is . What is the remainder when it is divided by ?     ; the remainder is 3.      For , find all values of so that .           When is divided by , the remainder is . Find .           When is divided by , the remainder is . Find all possible values of .     or .      "
 },
@@ -1004,7 +1022,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-2-2",
   "type": "Example",
-  "number": "3.1.1",
+  "number": "3.2.1",
   "title": "",
   "body": " Recall that quadratics can be written in factored form. For example,      The factors are and .    The zeros are and .     Notice that each zero corresponds to a factor. In other words,   "
 },
@@ -1013,7 +1031,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-3-2",
   "type": "Theorem",
-  "number": "3.1.2",
+  "number": "3.2.2",
   "title": "Factor theorem.",
   "body": " Factor theorem   Let be a polynomial. Then, is a factor of the polynomial if and only if . In other words,   If , then is a factor of .    If is a factor of , then .      "
 },
@@ -1022,7 +1040,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-3-5",
   "type": "Example",
-  "number": "3.1.3",
+  "number": "3.2.3",
   "title": "",
   "body": " For the polynomial function , to determine if is a factor, evaluate ,   This means that is a root, so by the factor theorem, is a factor of .  "
 },
@@ -1031,7 +1049,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-3-6-1-2",
   "type": "Exercise",
-  "number": "3.1.1.1",
+  "number": "3.2.1.1",
   "title": "",
   "body": "   "
 },
@@ -1040,7 +1058,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-3-6-1-3",
   "type": "Exercise",
-  "number": "3.1.1.2",
+  "number": "3.2.1.2",
   "title": "",
   "body": "   "
 },
@@ -1049,7 +1067,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-3-6-1-4",
   "type": "Exercise",
-  "number": "3.1.1.3",
+  "number": "3.2.1.3",
   "title": "",
   "body": "   "
 },
@@ -1058,7 +1076,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-3-6-1-5",
   "type": "Exercise",
-  "number": "3.1.1.4",
+  "number": "3.2.1.4",
   "title": "",
   "body": "   "
 },
@@ -1067,7 +1085,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-3-6-2-2",
   "type": "Exercise",
-  "number": "3.1.1.5",
+  "number": "3.2.1.5",
   "title": "",
   "body": "  No.  "
 },
@@ -1076,7 +1094,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-3-6-2-3",
   "type": "Exercise",
-  "number": "3.1.1.6",
+  "number": "3.2.1.6",
   "title": "",
   "body": "  Yes.  "
 },
@@ -1085,7 +1103,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-3-6-3-2",
   "type": "Exercise",
-  "number": "3.1.1.7",
+  "number": "3.2.1.7",
   "title": "",
   "body": "  Yes.  "
 },
@@ -1094,7 +1112,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-3-6-3-3",
   "type": "Exercise",
-  "number": "3.1.1.8",
+  "number": "3.2.1.8",
   "title": "",
   "body": "  No.  "
 },
@@ -1103,7 +1121,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-3-6-4",
   "type": "Exercise",
-  "number": "3.1.1.9",
+  "number": "3.2.1.9",
   "title": "",
   "body": "  Find so that is a factor of .        "
 },
@@ -1112,7 +1130,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-3-6-5",
   "type": "Exercise",
-  "number": "3.1.1.10",
+  "number": "3.2.1.10",
   "title": "",
   "body": "  What are all values of for which is a zero of ?        "
 },
@@ -1121,7 +1139,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-3-6-6",
   "type": "Exercise",
-  "number": "3.1.1.11",
+  "number": "3.2.1.11",
   "title": "",
   "body": "  If is a factor of , what is ?        "
 },
@@ -1130,7 +1148,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-3-6-7",
   "type": "Exercise",
-  "number": "3.1.1.12",
+  "number": "3.2.1.12",
   "title": "",
   "body": "  Find values for and such that is a factor of both and .        "
 },
@@ -1139,7 +1157,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-4-3",
   "type": "Theorem",
-  "number": "3.1.4",
+  "number": "3.2.4",
   "title": "Remainder theorem.",
   "body": " Remainder theorem   If a polynomial is divided by a binomial , the remainder is equal to the function evaluated at , i.e. .    "
 },
@@ -1148,7 +1166,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-2-2",
   "type": "Exercise",
-  "number": "3.1.2.1",
+  "number": "3.2.2.1",
   "title": "",
   "body": "  18  "
 },
@@ -1157,7 +1175,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-2-3",
   "type": "Exercise",
-  "number": "3.1.2.2",
+  "number": "3.2.2.2",
   "title": "",
   "body": "  9  "
 },
@@ -1166,7 +1184,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-2-4",
   "type": "Exercise",
-  "number": "3.1.2.3",
+  "number": "3.2.2.3",
   "title": "",
   "body": "  8  "
 },
@@ -1175,7 +1193,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-2-5",
   "type": "Exercise",
-  "number": "3.1.2.4",
+  "number": "3.2.2.4",
   "title": "",
   "body": "  -19  "
 },
@@ -1184,7 +1202,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-2-6",
   "type": "Exercise",
-  "number": "3.1.2.5",
+  "number": "3.2.2.5",
   "title": "",
   "body": "  -40  "
 },
@@ -1193,7 +1211,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-2-7",
   "type": "Exercise",
-  "number": "3.1.2.6",
+  "number": "3.2.2.6",
   "title": "",
   "body": "  9  "
 },
@@ -1202,7 +1220,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-2-8",
   "type": "Exercise",
-  "number": "3.1.2.7",
+  "number": "3.2.2.7",
   "title": "",
   "body": "  41  "
 },
@@ -1211,7 +1229,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-2-9",
   "type": "Exercise",
-  "number": "3.1.2.8",
+  "number": "3.2.2.8",
   "title": "",
   "body": "  -4  "
 },
@@ -1220,7 +1238,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-3-2",
   "type": "Exercise",
-  "number": "3.1.2.9",
+  "number": "3.2.2.9",
   "title": "",
   "body": " , remainder   "
 },
@@ -1229,7 +1247,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-3-3",
   "type": "Exercise",
-  "number": "3.1.2.10",
+  "number": "3.2.2.10",
   "title": "",
   "body": " , remainder   "
 },
@@ -1238,7 +1256,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-3-4",
   "type": "Exercise",
-  "number": "3.1.2.11",
+  "number": "3.2.2.11",
   "title": "",
   "body": " , remainder   "
 },
@@ -1247,7 +1265,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-3-5",
   "type": "Exercise",
-  "number": "3.1.2.12",
+  "number": "3.2.2.12",
   "title": "",
   "body": " , remainder   "
 },
@@ -1256,7 +1274,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-4-2",
   "type": "Exercise",
-  "number": "3.1.2.13",
+  "number": "3.2.2.13",
   "title": "",
   "body": " When is divided by , the remainder is .   "
 },
@@ -1265,7 +1283,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-4-3",
   "type": "Exercise",
-  "number": "3.1.2.14",
+  "number": "3.2.2.14",
   "title": "",
   "body": " has remainder .   "
 },
@@ -1274,7 +1292,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-4-4",
   "type": "Exercise",
-  "number": "3.1.2.15",
+  "number": "3.2.2.15",
   "title": "",
   "body": " has remainder .   "
 },
@@ -1283,7 +1301,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-4-5",
   "type": "Exercise",
-  "number": "3.1.2.16",
+  "number": "3.2.2.16",
   "title": "",
   "body": " has remainder .   "
 },
@@ -1292,7 +1310,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-4-6",
   "type": "Exercise",
-  "number": "3.1.2.17",
+  "number": "3.2.2.17",
   "title": "",
   "body": " has remainder .   "
 },
@@ -1301,7 +1319,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-4-7",
   "type": "Exercise",
-  "number": "3.1.2.18",
+  "number": "3.2.2.18",
   "title": "",
   "body": " has remainder .  or  "
 },
@@ -1310,7 +1328,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-4-8",
   "type": "Exercise",
-  "number": "3.1.2.19",
+  "number": "3.2.2.19",
   "title": "",
   "body": " When is divided by , the remainder is .   "
 },
@@ -1319,7 +1337,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-4-9",
   "type": "Exercise",
-  "number": "3.1.2.20",
+  "number": "3.2.2.20",
   "title": "",
   "body": " When is divided by , the remainder is .   "
 },
@@ -1328,7 +1346,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-4-10",
   "type": "Exercise",
-  "number": "3.1.2.21",
+  "number": "3.2.2.21",
   "title": "",
   "body": " When is divided by , the remainder is .   "
 },
@@ -1337,7 +1355,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-4-11",
   "type": "Exercise",
-  "number": "3.1.2.22",
+  "number": "3.2.2.22",
   "title": "",
   "body": " When is divided by , the remainder is .   "
 },
@@ -1346,7 +1364,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-4-12",
   "type": "Exercise",
-  "number": "3.1.2.23",
+  "number": "3.2.2.23",
   "title": "",
   "body": " When is divided by , the remainder is . Find .   "
 },
@@ -1355,7 +1373,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-5",
   "type": "Exercise",
-  "number": "3.1.2.24",
+  "number": "3.2.2.24",
   "title": "",
   "body": "  The polynomial has the same remainder when divided by and by . Find .        "
 },
@@ -1364,7 +1382,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-6-2",
   "type": "Exercise",
-  "number": "3.1.2.25",
+  "number": "3.2.2.25",
   "title": "",
   "body": " has remainders upon division by and upon division by . Find and .   "
 },
@@ -1373,7 +1391,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-6-3",
   "type": "Exercise",
-  "number": "3.1.2.26",
+  "number": "3.2.2.26",
   "title": "",
   "body": " has remainders upon division by and upon division by . Find and .   "
 },
@@ -1382,7 +1400,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-6-4",
   "type": "Exercise",
-  "number": "3.1.2.27",
+  "number": "3.2.2.27",
   "title": "",
   "body": " has remainders upon division by and upon division by . Find and .   "
 },
@@ -1391,7 +1409,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-6-5",
   "type": "Exercise",
-  "number": "3.1.2.28",
+  "number": "3.2.2.28",
   "title": "",
   "body": " has remainders upon division by and upon division by . Find .   "
 },
@@ -1400,7 +1418,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-6-6",
   "type": "Exercise",
-  "number": "3.1.2.29",
+  "number": "3.2.2.29",
   "title": "",
   "body": " When is divided by , the remainder is . When this polynomial is divided by , the remainder is . Find and .   "
 },
@@ -1409,7 +1427,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-6-7",
   "type": "Exercise",
-  "number": "3.1.2.30",
+  "number": "3.2.2.30",
   "title": "",
   "body": " has no remainder when divided by and . Find and .   "
 },
@@ -1418,7 +1436,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-7",
   "type": "Exercise",
-  "number": "3.1.2.31",
+  "number": "3.2.2.31",
   "title": "",
   "body": "  When is divided by , the remainder is the same as when is divided by . Find .        "
 },
@@ -1427,7 +1445,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-8",
   "type": "Exercise",
-  "number": "3.1.2.32",
+  "number": "3.2.2.32",
   "title": "",
   "body": "  When is divided by , the remainder is . What is the remainder when it is divided by ?     ; the remainder is 3.   "
 },
@@ -1436,7 +1454,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-9",
   "type": "Exercise",
-  "number": "3.1.2.33",
+  "number": "3.2.2.33",
   "title": "",
   "body": "  For , find all values of so that .        "
 },
@@ -1445,7 +1463,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-10",
   "type": "Exercise",
-  "number": "3.1.2.34",
+  "number": "3.2.2.34",
   "title": "",
   "body": "  When is divided by , the remainder is . Find .        "
 },
@@ -1454,7 +1472,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-11",
   "type": "Exercise",
-  "number": "3.1.2.35",
+  "number": "3.2.2.35",
   "title": "",
   "body": "  When is divided by , the remainder is . Find all possible values of .     or .   "
 },
