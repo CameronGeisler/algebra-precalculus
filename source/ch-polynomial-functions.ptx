@@ -3,11 +3,13 @@
 <chapter xml:id="ch-polynomial-functions" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Polynomial Functions</title>
 
-  <introduction>
+  <!-- <introduction>
     <p> Text before the first section. </p>
-  </introduction>
+  </introduction> -->
 
   <!-- include sections -->
   <xi:include href="sec-polynomial-functions-intro.ptx" />
+
+  <xi:include href="sec-factoring-and-roots-of-polynomial-functions.ptx" />
 
 </chapter>
