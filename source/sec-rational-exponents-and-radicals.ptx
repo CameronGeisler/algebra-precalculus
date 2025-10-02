@@ -8,361 +8,1227 @@
       Recall that previously, powers and exponents are a concise notation to write repeated multiplication. For example, <m>3^4</m> means multiply 3, 4 times, or <m>3^4 = 3 \times 3 \times 3 \times 3 = 81</m>.
     </p>
     <p>
-      We can extend the definition of exponents to allow for rational numbers, i.e. exponents which are fractions. For example, expressions like,
-      <md>
-        <mrow>3^{1/2} \qquad 4^{3/2} \qquad 8^{-4/3}</mrow>
-      </md>
-      At first, the previous definition of exponents as ``how many times you're multiplying" doesn't seem to make sense. After all, for example, for <m>4^{3/2}</m>, what does it mean to multiply 4 by itself ``3/2" times?
+      We can extend the definition of exponents to allow for exponents which are fractions (i.e. rational numbers). For example, expressions like,
     </p>
+    <md>
+      <mrow>
+        3^{1/2} \quad \text{or} \quad 4^{3/2} \quad \text{or} \quad 8^{-4/3}
+      </mrow>
+    </md>
+    <p>
+      At first, the previous definition of exponents as <q>how many times you're multiplying</q> doesn't seem to make sense. After all, for example, for <m>4^{3/2}</m>, what does it mean to multiply 4 by itself <q>3/2</q> times?
+    </p>
+    
     <example>
       <p>
         Suppose that we extend exponents to be allowed to be any rational number. Then, we want the laws of exponents to still work. In particular, the two fundamental laws,
-        <md>
-          <mrow>
-            \boxed{
-              \begin{aligned}
-              a^m \cdot a^n \amp= a^{m+n} \\
-              \frac{a^m}{a^n} \amp= a^{m-n}
-              \end{aligned}
-            }
-          </mrow>
-        </md>
-        Then, consider <m>3^{1/2}</m>. By properties of exponents,
-        <md>
-          <mrow>3^{1/2} \cdot 3^{1/2} \amp = 3^{1/2 + 1/2} \\</mrow>
-          <mrow>\amp = 3^1 \\</mrow>
-          <mrow>\amp = 3</mrow>
-        </md>
-        This shows that <m>3^{1/2}</m> multiplied by itself is equal to 3, or <m>(3^{1/2})^2 = 3</m>. We also know that,
-        <md>
-          <mrow>\sqrt{3} \cdot \sqrt{3} = 3</mrow>
-        </md>
-        This means precisely that <m>3^{1/2}</m> and <m>\sqrt{3}</m> must be the same number, or <m>3^{1/2} = \sqrt{3}</m>.
+      </p>
+      <md>
+        <mrow>
+          \boxed{
+            \begin{aligned}
+            a^m \cdot a^n \amp= a^{m+n} \\
+            \frac{a^m}{a^n} \amp= a^{m-n}
+            \end{aligned}
+          }
+        </mrow>
+      </md>
+      <p>
+        Then, consider <m>3^{1/2}</m>. By properties of exponents, we have,
+      </p>
+      <md>
+        <mrow>
+          3^{1/2} \cdot 3^{1/2} \amp = 3^{1/2 + 1/2} \\
+        </mrow>
+        <mrow>
+          \amp = 3^1 \\
+        </mrow>
+        <mrow>
+          \amp = 3
+        </mrow>
+      </md>
+      <p>
+        This shows that <m>3^{1/2}</m> multiplied by itself is equal to 3. In other words, <m>(3^{1/2})^2 = 3</m>. On the other hand, we know that <m>\sqrt{3}</m> multiplied by itself is equal to 3, or,
+      </p>
+      <md>
+        <mrow>
+          \sqrt{3} \cdot \sqrt{3} = 3
+        </mrow>
+      </md>
+      <p>
+        This means that <m>3^{1/2}</m> and <m>\sqrt{3}</m> must be the same number, and so <m>3^{1/2} = \sqrt{3}</m>.
       </p>
     </example>
     <p>
-      In general, for any number <m>a</m>,
-      <md>
-        <mrow>a^{1/2} \cdot a^{1/2} = a^1 = a</mrow>
-      </md>
-      which means that <m>(a^{1/2})^2 = a</m>, and so <m>a^{1/2} = \sqrt{a}</m> is the square root of <m>a</m>.
+      In general, for any number <m>a</m>, if we multiply <m>a^{1/2}</m> by itself, we get,
+    </p>
+    <md>
+      <mrow>
+        a^{1/2} \cdot a^{1/2} = a^1 = a
+      </mrow>
+    </md>
+    <p>
+      This means that <m>(a^{1/2})^2 = a</m>, and so <m>a^{1/2} = \sqrt{a}</m> is the square root of <m>a</m>.
     </p>
   </introduction>
   
   <subsection>
     <title>Rational Exponents</title>
     <definition>
-      <statement>
-        <md>
-          <mrow>\boxed{a^{1/2} = \sqrt{a}}</mrow>
-        </md>
-      </statement>
+      <md>
+        <mrow>
+          \boxed{a^{1/2} = \sqrt{a}}
+        </mrow>
+      </md>
     </definition>
     <p>
       In other words,
     </p>
+    <md>
+      <mrow>
+        \boxed{\text{Raising a number to the power $1/2$ is equivalent to taking its square root}}
+      </mrow>
+    </md>
     <p>
-      <md>
-        <mrow>\boxed{\text{Raising a number to the power $1/2$ is equivalent to taking its square root}}</mrow>
-      </md>
+      Technically, there are two numbers whose square is <m>a</m>, which are <m>\sqrt{a}</m> and <m>-\sqrt{a}</m>. We define <m>a^{1/2}</m> to be the positive square root of <m>a</m>.
     </p>
     <p>
-      Technically, there are two numbers where, if you square them, give <m>a</m>, which are <m>\sqrt{a}</m> and <m>-\sqrt{a}</m>. We define <m>a^{1/2}</m> to be the positive square root of <m>a</m>.
+      In a similar way, for an exponent of <m>1/3</m>, we have,
     </p>
+    <md>
+      <mrow>
+        a^{1/3} \cdot a^{1/3} \cdot a^{1/3} \amp = a^{1/3 + 1/3 + 1/3} \\
+      </mrow>
+      <mrow>
+        \amp = a^1 \\
+      </mrow>
+      <mrow>
+        \amp = a
+      </mrow>
+    </md>
     <p>
-      In a similar way, for an exponent of <m>1/3</m>,
-      <md>
-        <mrow>a^{1/3} \cdot a^{1/3} \cdot a^{1/3} \amp = a^{1/3 + 1/3 + 1/3} \\</mrow>
-        <mrow>\amp = a^1 \\</mrow>
-        <mrow>\amp = a</mrow>
-      </md>
-      Therefore, <m>(a^{1/3})^3 = a</m>, and so <m>a^{1/3} = \sqrt[3]{a}</m> is the cube root of <m>a</m>. 
+      Therefore, <m>(a^{1/3})^3 = a</m>, and so <m>a^{1/3} = \sqrt[3]{a}</m> is the cube root of <m>a</m>.
     </p>
+    <md>
+      <mrow>
+        \boxed{\text{Raising a number to the power $1/3$ is equivalent to taking its cube root}}
+      </mrow>
+    </md>
     <p>
-      <md>
-        <mrow>\boxed{\text{Raising a number to the power $1/3$ is equivalent to taking its cube root}}</mrow>
-      </md>
       In general, this works for any exponent of the form <m>\frac{1}{n}</m>.
     </p>
     <definition>
-      <statement>
-        <md>
-          <mrow>\boxed{a^{1/n} = \sqrt[n]{a}}</mrow>
-        </md>
-      </statement>
+      <md>
+        <mrow>
+          \boxed{a^{1/n} = \sqrt[n]{a}}
+        </mrow>
+      </md>
     </definition>
     <p>
-      Next, suppose we want to define a rational exponent when the numerator is a number other than 1.
+      Next, we want to define a rational exponent when the numerator is a number other than 1, like <m>\frac{2}{3}</m>, or <m>\frac{5}{2}</m>.
     </p>
     <example>
-      For example, <m>8^{2/3}</m>. In this case, <m>\frac{2}{3} = 2 \cdot \frac{1}{3}</m>, so,
+      <p>
+        Consider <m>8^{2/3}</m>. Recognize that <m>\frac{2}{3}</m> is just <m>2 \cdot \frac{1}{3}</m>, so,
+      </p>
       <md>
-        <mrow>8^{2/3} = 8^{2 \cdot \frac{1}{3}} \amp = (8^{1/3})^2 \amp\amp \text{by properties of exponents} \\</mrow>
-        <mrow>\amp = (\sqrt[3]{8})^2</mrow>
+        <mrow>
+          8^{2/3} = 8^{2 \cdot \frac{1}{3}} \amp = (8^{1/3})^2 \amp\amp \text{by properties of exponents} \\
+        </mrow>
+        <mrow>
+          \amp = (\sqrt[3]{8})^2 \\
+        </mrow>
+        <mrow>
+          \amp = 2^2 = 4
+        </mrow>
       </md>
-      And so <m>8^{2/3} = (\sqrt[3]{8})^2</m>. On the other hand,
+      <p>
+        And so <m>8^{2/3} = (\sqrt[3]{8})^2</m>. On the other hand,
+      </p>
       <md>
-        <mrow>8^{2/3} = 8^{2 \cdot \frac{1}{3}} \amp = (8^2)^{1/3} \amp\amp \text{by properties of exponents} \\</mrow>
-        <mrow>\amp = \sqrt[3]{8^2}</mrow>
+        <mrow>
+          8^{2/3} = 8^{2 \cdot \frac{1}{3}} \amp = (8^2)^{1/3} \amp\amp \text{by properties of exponents} \\
+        </mrow>
+        <mrow>
+          \amp = \sqrt[3]{8^2} \\
+        </mrow>
+        <mrow>
+          \amp = \sqrt[3]{64} = 4
+        </mrow>
       </md>
-      And so <m>8^{2/3} = \sqrt[3]{8^2}</m>. Putting both of them together, we get that all of these are equal,
+      <p>
+        And so <m>8^{2/3} = \sqrt[3]{8^2}</m>. Putting both of them together, we get that all of these are equal,
+      </p>
       <md>
-        <mrow>8^{2/3} = (\sqrt[3]{8})^2 = \sqrt[3]{8^2}</mrow>
+        <mrow>
+          8^{2/3} = (\sqrt[3]{8})^2 = \sqrt[3]{8^2}
+        </mrow>
       </md>
+      <p>
+        and all of them are equal to 4.
+      </p>
     </example>
     <p>
-      This suggests the following definition, in summary.
+      In general,
     </p>
     <definition>
-      <statement>
-        <md>
-          <mrow>\boxed{a^{m/n} = \sqrt[n]{a^m} = \brac{\sqrt[n]{a}}^m}</mrow>
-        </md>
-      </statement>
+      <md>
+        <mrow>
+          \boxed{a^{m/n} = \sqrt[n]{a^m} = \brac{\sqrt[n]{a}}^m}
+        </mrow>
+      </md>
     </definition>
     <p>
-      For raising a number to a fraction power <m>\frac{m}{n}</m>,
-      <p>
-        <ul>
-          <li>
-            <p>Take the <m>n</m>th root and then raise to the <m>m</m>th power, or,</p>
-          </li>
-          <li>
-            <p>Raise to the the <m>m</m>th power and then the <m>n</m>th root</p>
-          </li>
-        </ul>
-      </p>
+      This means that when raising a number to a fraction power <m>\frac{m}{n}</m>,
+    </p>
+    <ul>
+      <li>
+        <p>Take the <m>n</m>th root and then raise to the <m>m</m>th power.</p>
+      </li>
+      <li>
+        <p>Or: Raise it to the the <m>m</m>th power and then take the <m>n</m>th root.</p>
+      </li>
+    </ul>
+    <p>
       In short,
-      <p>
-        <ul>
-          <li>
-            <p>Numerator <m>\rightarrow</m> exponent.</p>
-          </li>
-          <li>
-            <p>Denominator <m>\rightarrow</m> root index.</p>
-          </li>
-        </ul>
-      </p>
     </p>
+    <ul>
+      <li>
+        <p>Numerator <m>\rightarrow</m> exponent.</p>
+      </li>
+      <li>
+        <p>Denominator <m>\rightarrow</m> root index.</p>
+      </li>
+    </ul>
     <p>
-      Decimal exponents can be thought of as fractions. For example, <m>4^{0.5} = 4^{1/2} = \sqrt{4} = 2</m>.
+      Some notes:
     </p>
-    <p>
-      <ul>
-        <li>
-          <p>Note that when evaluating expressions with rational exponents with a calculator, be sure to put parentheses around the fraction. Most calculators will evaluate as <m>\frac{8^2}{3}</m>, because with order of operations, exponentiation is higher than division.</p>
-        </li>
-        <li>
-          <p>Note that this always works, except if <m>n</m> is even and <m>a</m> is negative, because we can't take the square root (or any even root) of a negative number.</p>
-        </li>
-      </ul>
-    </p>
+    <ul>
+      <li>
+        <p>Decimal exponents can be thought of as fraction exponents. For example, <m>4^{0.5} = 4^{1/2} = \sqrt{4} = 2</m>.</p>
+      </li>
+      <li>
+        <p>Note that when evaluating expressions with rational exponents with a calculator, be sure to put parentheses around the fraction. Most calculators will evaluate as <m>\frac{8^2}{3}</m>, because with order of operations, exponentiation is higher than division.</p>
+      </li>
+      <li>
+        <p>Note that this always works, except if <m>n</m> is even and <m>a</m> is negative, because we can't take the square root (or any even root) of a negative number.</p>
+      </li>
+    </ul>
     <p>
       We can also define negative rational exponents, in the same way as negative integer exponents.
     </p>
     <definition>
-      <statement>
-        <p>
-          <md>
-            <mrow>\boxed{a^{-m/n} = \frac{1}{a^{m/n}}}</mrow>
-          </md>
-        </p>
-      </statement>
+      <md>
+        <mrow>
+          \boxed{a^{-m/n} = \frac{1}{a^{m/n}}}
+        </mrow>
+      </md>
     </definition>
   </subsection>
   
   <subsection>
-    <title>Summary of Properties of Exponents</title>
+    <title>Summary of Rational Exponents and Exponent Laws</title>
     <p>
       In summary,
     </p>
-    <me>
-      \boxed{
-        \begin{aligned}
-        a^{1/n} \amp = \sqrt[n]{a} \\
-        a^{m/n} \amp = \sqrt[n]{a^m} = \brac{\sqrt[n]{a}}^m
-        \end{aligned}}
-      </me>
-      
+    <md>
+      <mrow>
+        \boxed{
+          \begin{aligned}
+          a^{1/n} \amp= \sqrt[n]{a} \\
+          a^{m/n} \amp= \sqrt[n]{a^m} = \brac{\sqrt[n]{a}}^m \\
+          a^{-m/n} \amp= \frac{1}{a^{m/n}}
+          \end{aligned}}
+        </mrow>
+      </md>
       <p>
         All of the laws of exponents also apply to rational exponents.
       </p>
       <theorem>
-        <statement>
-          <md>
-            <mrow>
-              \boxed{
-                \begin{aligned}
-                a^m \cdot a^n \amp= a^{m+n} \\
-                \frac{a^m}{a^n} \amp= a^{m-n} \\
-                (a^m)^n \amp= a^{mn} \\
-                (ab)^n \amp= a^n b^n \\
-                \brac{\frac{a}{b}}^n \amp= \frac{a^n}{b^n}
-                \end{aligned}
-              } \qquad 
-              \boxed{
-                \begin{aligned}
-                a^{-n} \amp= \frac{1}{a^n} \\
-                \frac{1}{a^{-n}} \amp= a^n \\
-                \brac{\frac{a}{b}}^{-n} \amp= \brac{\frac{b}{a}}^n
-                \end{aligned}
-              }
-            </mrow>
-          </md>
-        </statement>
+        <p>
+          <alert>Exponent laws</alert>.
+        </p>
+        <md>
+          <mrow>
+            \boxed{
+              \begin{aligned}
+              a^m \cdot a^n \amp= a^{m+n} \\
+              \frac{a^m}{a^n} \amp= a^{m-n} \\
+              (a^m)^n \amp= a^{mn} \\
+              (ab)^n \amp= a^n b^n \\
+              \brac{\frac{a}{b}}^n \amp= \frac{a^n}{b^n}
+              \end{aligned}
+            } \qquad
+            \boxed{
+              \begin{aligned}
+              a^{-n} \amp= \frac{1}{a^n} \\
+              \frac{1}{a^{-n}} \amp= a^n \\
+              \brac{\frac{a}{b}}^{-n} \amp= \brac{\frac{b}{a}}^n
+              \end{aligned}
+            }
+          </mrow>
+        </md>
       </theorem>
     </subsection>
     
+    
     <subsection>
       <title>Converting Between Rational Exponents and Radicals</title>
-      <example>
-        <p>Write each expression in exponent form.</p>
-        <p>
-          <ul>
-            <li><p><m>\sqrt{39}</m></p></li>
-            <li><p><m>\sqrt[4]{90}</m></p></li>
-            <li><p><m>\sqrt[3]{29}</m></p></li>
-            <li><p><m>\sqrt[5]{100}</m></p></li>
-            <li><p><m>\sqrt{3^5}</m></p></li>
-            <li><p><m>\brac{\sqrt[3]{25}}^2</m></p></li>
-            <li><p><m>\sqrt{6^5}</m></p></li>
-            <li><p><m>\brac{\sqrt[4]{19}}^3</m></p></li>
-          </ul>
-        </p>
-      </example>
-      <example>
-        <p>Write each expression in radical form.</p>
-        <p>
-          <ul>
-            <li><p><m>36^{\frac{1}{3}}</m></p></li>
-            <li><p><m>48^{\frac{1}{2}}</m></p></li>
-            <li><p><m>\brac{-30}^{\frac{1}{5}}</m></p></li>
-          </ul>
-        </p>
-      </example>
-      <example>
-        <p>Write each expression in radical form in 2 ways.</p>
-        <p>
-          <ul>
-            <li><p><m>40^{\frac{2}{3}}</m></p></li>
-            <li><p><m>26^{\frac{2}{5}}</m></p></li>
-          </ul>
-        </p>
-      </example>
+      
+      <project>
+        <introduction>
+          <p>Write each expression in exponent form.</p>
+        </introduction>
+        <task>
+          <statement>
+            <p><m>\sqrt{39}</m></p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p><m>\sqrt[4]{90}</m></p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p><m>\sqrt[3]{29}</m></p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p><m>\sqrt[5]{100}</m></p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p><m>\sqrt{3^5}</m></p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{\sqrt[3]{25}}^2</m></p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p><m>\sqrt{6^5}</m></p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{\sqrt[4]{19}}^3</m></p>
+          </statement>
+        </task>
+      </project>
+      
+      <project>
+        <introduction>
+          <p>Write each expression in radical form.</p>
+        </introduction>
+        <task>
+          <statement>
+            <p><m>36^{\frac{1}{3}}</m></p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p><m>48^{\frac{1}{2}}</m></p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{-30}^{\frac{1}{5}}</m></p>
+          </statement>
+        </task>
+      </project>
+      
+      <project>
+        <introduction>
+          <p>Write each expression in radical form in 2 ways.</p>
+        </introduction>
+        <task>
+          <statement>
+            <p><m>40^{\frac{2}{3}}</m></p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p><m>26^{\frac{2}{5}}</m></p>
+          </statement>
+        </task>
+      </project>
+      
     </subsection>
     
     <subsection>
       <title>Evaluating Rational Exponents Exact Values Examples</title>
-      <example>
-        <p>Evaluate each power, as a whole number or rational number, without using a calculator.</p>
-        <p>
-          <ul>
-            <li><p><m>64^{\tfrac{1}{3}}</m></p></li>
-            <li><p><m>\sqrt[5]{32}</m></p></li>
-            <li><p><m>\left(\tfrac{16}{81}\right)^{\tfrac{1}{4}}</m></p></li>
-            <li><p><m>36^{\tfrac{1}{2}}</m></p></li>
-            <li><p><m>100^{0.5}</m></p></li>
-            <li><p><m>27^{\tfrac{1}{3}}</m></p></li>
-            <li><p><m>0.25^{\tfrac{1}{2}}</m></p></li>
-            <li><p><m>8^{\tfrac{1}{3}}</m></p></li>
-            <li><p><m>16^{\tfrac{1}{2}}</m></p></li>
-            <li><p><m>\left(\tfrac{4}{9}\right)^{\tfrac{1}{2}}</m></p></li>
-            <li><p><m>81^{0.25}</m></p></li>
-            <li><p><m>\sqrt[3]{125}</m></p></li>
-            <li><p><m>27^{\tfrac{4}{3}}</m></p></li>
-            <li><p><m>100^{\tfrac{3}{2}}</m></p></li>
-            <li><p><m>\left(-8\right)^{\tfrac{1}{3}}</m></p></li>
-            <li><p><m>27^{\tfrac{2}{3}}</m></p></li>
-            <li><p><m>8^{\tfrac{2}{3}}</m></p></li>
-            <li><p><m>0.49^{\tfrac{1}{2}}</m></p></li>
-            <li><p><m>0.01^{\tfrac{3}{2}}</m></p></li>
-            <li><p><m>8^{\tfrac{4}{3}}</m></p></li>
-            <li><p><m>\sqrt[3]{-27}</m></p></li>
-            <li><p><m>\left(-27\right)^{\tfrac{1}{3}}</m></p></li>
-            <li><p><m>0.04^{\tfrac{3}{2}}</m></p></li>
-            <li><p><m>\left(-32\right)^{0.2}</m></p></li>
-            <li><p><m>1024^{0.2}</m></p></li>
-            <li><p><m>16^{0.25}</m></p></li>
-            <li><p><m>8^{\tfrac{5}{3}}</m></p></li>
-            <li><p><m>\left(-32\right)^{0.4}</m></p></li>
-            <li><p><m>\left(-1000\right)^{\tfrac{1}{3}}</m></p></li>
-            <li><p><m>81^{\tfrac{3}{4}}</m></p></li>
-            <li><p><m>\left(-27\right)^{\tfrac{4}{3}}</m></p></li>
-            <li><p><m>-\sqrt[3]{-1000}</m></p></li>
-            <li><p><m>\left(-64\right)^{\tfrac{1}{3}}</m></p></li>
-            <li><p><m>\left(-27\right)^{-\tfrac{2}{3}}</m></p></li>
-            <li><p><m>\left(\tfrac{3^4}{16}\right)^{-0.75}</m></p></li>
-            <li><p><m>\sqrt[4]{-10000}</m></p></li>
-            <li><p><m>\left(-32\right)^{\tfrac{3}{5}}</m></p></li>
-          </ul>
-        </p>
-      </example>
+      
+      <project>
+        <introduction>
+          <p>Evaluate each power, without using a calculator. Your final answer should be either a whole number or a rational number.</p>
+        </introduction>
+        <task>
+          <statement>
+            <p><m>64^{\frac{1}{3}}</m></p>
+          </statement>
+          <answer>
+            <p><m>4</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\sqrt[5]{32}</m></p>
+          </statement>
+          <answer>
+            <p><m>2</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{\frac{16}{81}}^{\frac{1}{4}}</m></p>
+          </statement>
+          <answer>
+            <p><m>\frac{2}{3}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>36^{\frac{1}{2}}</m></p>
+          </statement>
+          <answer>
+            <p><m>6</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>100^{0.5}</m></p>
+          </statement>
+          <answer>
+            <p><m>10</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>27^{\frac{1}{3}}</m></p>
+          </statement>
+          <answer>
+            <p><m>3</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>0.25^{\frac{1}{2}}</m></p>
+          </statement>
+          <answer>
+            <p><m>\frac{1}{2}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>8^{\frac{1}{3}}</m></p>
+          </statement>
+          <answer>
+            <p><m>2</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>16^{\frac{1}{2}}</m></p>
+          </statement>
+          <answer>
+            <p><m>4</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{-8}^{\frac{1}{3}}</m></p>
+          </statement>
+          <answer>
+            <p><m>-2</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{\frac{4}{9}}^{\frac{1}{2}}</m></p>
+          </statement>
+          <answer>
+            <p><m>\frac{2}{3}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>81^{0.25}</m></p>
+          </statement>
+          <answer>
+            <p><m>3</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>125^{1/3}</m></p>
+          </statement>
+          <answer>
+            <p><m>5</m></p>
+          </answer>
+        </task>
+      </project>
+      
+      <project>
+        <introduction>
+          <p>Evaluate each power, without using a calculator, if possible. Your final answer should be either a whole number or a rational number.</p>
+        </introduction>
+        <task>
+          <statement>
+            <p><m>27^{\frac{4}{3}}</m></p>
+          </statement>
+          <answer>
+            <p><m>81</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>100^{\frac{3}{2}}</m></p>
+          </statement>
+          <answer>
+            <p><m>1000</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>27^{\frac{2}{3}}</m></p>
+          </statement>
+          <answer>
+            <p><m>9</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>8^{\frac{2}{3}}</m></p>
+          </statement>
+          <answer>
+            <p><m>4</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{-27}^{\frac{1}{3}}</m></p>
+          </statement>
+          <answer>
+            <p><m>-3</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>(-16)^{1/2}</m></p>
+          </statement>
+          <answer>
+            <p>no real value</p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>0.49^{\frac{1}{2}}</m></p>
+          </statement>
+          <answer>
+            <p><m>\frac{7}{10}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{-32}^{0.4}</m></p>
+          </statement>
+          <answer>
+            <p><m>4</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>0.01^{\frac{3}{2}}</m></p>
+          </statement>
+          <answer>
+            <p><m>\frac{1}{1000}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>8^{\frac{4}{3}}</m></p>
+          </statement>
+          <answer>
+            <p><m>16</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>0.04^{\frac{3}{2}}</m></p>
+          </statement>
+          <answer>
+            <p><m>\frac{1}{125}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{-32}^{0.2}</m></p>
+          </statement>
+          <answer>
+            <p><m>-2</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>16^{0.25}</m></p>
+          </statement>
+          <answer>
+            <p><m>2</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>8^{\frac{5}{3}}</m></p>
+          </statement>
+          <answer>
+            <p><m>32</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>(-10000)^{1/4}</m></p>
+          </statement>
+          <answer>
+            <p>no real value</p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>1024^{0.2}</m></p>
+          </statement>
+          <answer>
+            <p><m>4</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{-64}^{\frac{1}{3}}</m></p>
+          </statement>
+          <answer>
+            <p><m>-4</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{-1000}^{\frac{1}{3}}</m></p>
+          </statement>
+          <answer>
+            <p><m>-10</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>81^{\frac{3}{4}}</m></p>
+          </statement>
+          <answer>
+            <p><m>27</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{-27}^{\frac{4}{3}}</m></p>
+          </statement>
+          <answer>
+            <p><m>81</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>-(-1000)^{1/3}</m></p>
+          </statement>
+          <answer>
+            <p><m>10</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{-27}^{-\frac{2}{3}}</m></p>
+          </statement>
+          <answer>
+            <p><m>\frac{1}{9}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{\frac{3^4}{16}}^{-0.75}</m></p>
+          </statement>
+          <answer>
+            <p><m>\frac{8}{27}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{-32}^{\frac{3}{5}}</m></p>
+          </statement>
+          <answer>
+            <p><m>-8</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{81^{-0.25}}^3</m></p>
+          </statement>
+          <answer>
+            <p><m>\frac{1}{27}</m></p>
+          </answer>
+        </task>
+      </project>
       
     </subsection>
     
     <subsection>
       <title>Rational Exponents Using a Calculator</title>
-      <example>
-        <p>Evaluate each expression using a calculator. Express your answers to four decimal places, if necessary.</p>
-        <p>
-          <ul>
-            <li><p><m>3^{\tfrac{3}{4}}</m></p></li>
-            <li><p><m>2^{\tfrac{7}{8}}</m></p></li>
-            <li><p><m>2^{-\tfrac{1}{3}}</m></p></li>
-            <li><p><m>4^{-\tfrac{3}{5}}</m></p></li>
-            <li><p><m>\sqrt[4]{8}</m></p></li>
-            <li><p><m>\sqrt[5]{27}</m></p></li>
-            <li><p><m>\tfrac{1}{\sqrt[3]{7}}</m></p></li>
-            <li><p><m>\left(81^{-0.25}\right)^3</m></p></li>
-            <li><p><m>\left(8^3\right)\left(8^{1.2}\right)</m></p></li>
-            <li><p><m>\left(\tfrac{2^5}{5^2}\right)^{-\tfrac{3}{2}}</m></p></li>
-            <li><p><m>\left(\tfrac{2^3}{8^2}\right)^{\tfrac{2}{3}}</m></p></li>
-            <li><p><m>\left(\tfrac{-64}{6^{\tfrac{1}{2}}}\right)^{\tfrac{4}{3}}</m></p></li>
-            <li><p><m>\tfrac{\left(2^{\tfrac{1}{2}}\right)^3}{16}</m></p></li>
-            <li><p><m>1.8^{1.4}</m></p></li>
-            <li><p><m>0.75^{1.2}</m></p></li>
-          </ul>
-        </p>
-      </example>
+      <project>
+        <introduction>
+          <p>Evaluate each expression using a calculator. Express your answers to four decimal places, if necessary.</p>
+        </introduction>
+        <task>
+          <statement>
+            <p><m>3^{\frac{3}{4}}</m></p>
+          </statement>
+          <answer>
+            <p>2.2795</p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>2^{\frac{7}{8}}</m></p>
+          </statement>
+          <answer>
+            <p>1.8340</p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>2^{-\frac{1}{3}}</m></p>
+          </statement>
+          <answer>
+            <p>0.7937</p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>4^{-\frac{3}{5}}</m></p>
+          </statement>
+          <answer>
+            <p>0.5743</p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\sqrt[4]{8}</m></p>
+          </statement>
+          <answer>
+            <p>1.6818</p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\sqrt[5]{27}</m></p>
+          </statement>
+          <answer>
+            <p>1.9332</p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\frac{1}{\sqrt[3]{7}}</m></p>
+          </statement>
+          <answer>
+            <p>0.5228</p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{81^{-0.25}}^3</m></p>
+          </statement>
+          <answer>
+            <p>0.0370</p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{\frac{2^5}{5^2}}^{-\frac{3}{2}}</m></p>
+          </statement>
+          <answer>
+            <p>0.2195</p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{\frac{2^3}{8^2}}^{\frac{2}{3}}</m></p>
+          </statement>
+          <answer>
+            <p>0.2500</p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{\frac{-64}{6^{\frac{1}{2}}}}^{\frac{4}{3}}</m></p>
+          </statement>
+          <answer>
+            <p>62.5496</p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\frac{\brac{2^{\frac{1}{2}}}^3}{16}</m></p>
+          </statement>
+          <answer>
+            <p>0.1768</p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>1.8^{1.4}</m></p>
+          </statement>
+          <answer>
+            <p>2.2771</p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>0.75^{1.2}</m></p>
+          </statement>
+          <answer>
+            <p>0.7081</p>
+          </answer>
+        </task>
+      </project>
     </subsection>
     
     <subsection>
       <title>Simplifying Algebraic Expressions with Rational Exponents</title>
-      <example>
-        <p>Simplify each expression using exponent laws. Write with rational exponents where necessary.</p>
-        <p>
-          <ul>
-            <li><p><m>\left( 3m^{\tfrac{1}{2}} \times 4n^{\tfrac{2}{3}} \right)^2</m></p></li>
-            <li><p><m>\left(a^{\tfrac{1}{4}} \times 3b^{\tfrac{5}{2}}\right)^4</m></p></li>
-            <li><p><m>\left(\tfrac{x^{\tfrac{2}{3}}}{y^{\tfrac{1}{2}}}\right)^{-6}</m></p></li>
-            <li><p><m>\left(x^5\right)\left(x^{-\tfrac{1}{2}}\right)</m></p></li>
-            <li><p><m>\left(x^{1.5}\right)\left(x^{3.5}}\right)</m></p></li>
-            <li><p><m>\left(p^{-\tfrac{5}{4}}\right)\left(p^{\tfrac{1}{2}}\right)</m></p></li>
-            <li><p><m>\left(4x^3\right)^{0.5}</m></p></li>
-            <li><p><m>\left(\left(x^3\right)\left(x^{\tfrac{3}{2}}\right)\right)^{\tfrac{1}{2}}</m></p></li>
-            <li><p><m>\left(27x^6\right)^{\tfrac{2}{3}}</m></p></li>
-            <li><p><m>\left(\tfrac{m^{\tfrac{1}{2}} n^{\tfrac{1}{3}}}{n^{\tfrac{2}{3}} m^{\tfrac{1}{2}}}\right)^4</m></p></li>
-            <li><p><m>\left(\left(t^{\tfrac{4}{3}}\right)\left(t^{\tfrac{1}{3}}\right)\right)^9</m></p></li>
-            <li><p><m>\left(\tfrac{x^3}{64}\right)^{-\tfrac{2}{3}}</m></p></li>
-            <li><p><m>\left(x^3\right)\left(x^{\tfrac{7}{3}}\right)</m></p></li>
-            <li><p><m>\left(b^{\tfrac{1}{5}}\right)\left(b^{\tfrac{9}{5}}\right)</m></p></li>
-            <li><p><m>\left(a^2\right)^{\tfrac{3}{2}}</m></p></li>
-            <li><p><m>\left(k^{4.8}\right)\left(k^3\right)</m></p></li>
-            <li><p><m>\tfrac{(a^2)^{-\tfrac{1}{4}} \times (a^3)^{\tfrac{2}{9}}}{a^2}</m></p></li>
-            <li><p><m>\left(\tfrac{-8a^6}{27}\right)^{\tfrac{1}{3}}</m></p></li>
-            <li><p><m>\left(2x^{\tfrac{1}{3}}\right)\left(-4x^{\tfrac{5}{3}}\right)</m></p></li>
-            <li><p><m>\left(9x^2\right)^{\tfrac{3}{2}}</m></p></li>
-            <li><p><m>\left(x^3\right)\left(x^{-\tfrac{2}{3}}\right)</m></p></li>
-            <li><p><m>\left(81^{-0.25}\right)^3</m></p></li>
-            <li><p><m>\tfrac{\left(m^{-2}\right)^{\tfrac{2}{3}}}{\left(m^{\tfrac{1}{2}}\right)^4}</m></p></li>
-            <li><p><m>\left(9p^2\right)^{-\tfrac{1}{2}}\left(p^{-\tfrac{3}{2}}\right)</m></p></li>
-            <li><p><m>\left(\tfrac{x^{-2}}{(xy)^4}\right)^{1.5}</m></p></li>
-            <li><p><m>\left(\tfrac{4x^{-2}}{9y^{-4}}\right)^{-\tfrac{5}{2}}</m></p></li>
-            <li><p><m>\left(\tfrac{8a^3 b^{-4}}{64a^{-9} b^2}\right)^{\tfrac{2}{3}}</m></p></li>
-          </ul>
-        </p>
-      </example>
+      <project>
+        <introduction>
+          <p>Simplify each expression using exponent laws. Write with rational exponents where necessary.</p>
+        </introduction>
+        <task>
+          <statement>
+            <p><m>x^5 \cdot x^{-\frac{1}{2}}</m></p>
+          </statement>
+          <answer>
+            <p><m>x^{\frac{9}{2}}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>x^{1.5} \cdot x^{3.5}</m></p>
+          </statement>
+          <answer>
+            <p><m>x^5</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>b^{\frac{1}{5}} \cdot b^{\frac{9}{5}}</m></p>
+          </statement>
+          <answer>
+            <p><m>b^2</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>x^3 \cdot x^{-\frac{2}{3}}</m></p>
+          </statement>
+          <answer>
+            <p><m>x^{\frac{7}{3}}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>x^3 \cdot x^{\frac{7}{3}}</m></p>
+          </statement>
+          <answer>
+            <p><m>x^{\frac{16}{3}}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>p^{-\frac{5}{4}} \cdot p^{\frac{1}{2}}</m></p>
+          </statement>
+          <answer>
+            <p><m>\frac{1}{p^{\frac{3}{4}}}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{a^2}^{\frac{3}{2}}</m></p>
+          </statement>
+          <answer>
+            <p><m>a^3</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>k^{4.8} \cdot k^3</m></p>
+          </statement>
+          <answer>
+            <p><m>k^{\frac{39}{5}}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{4x^3}^{0.5}</m></p>
+          </statement>
+          <answer>
+            <p><m>2x^{3/2}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>2x^{\frac{1}{3}} \cdot -4x^{\frac{5}{3}}</m></p>
+          </statement>
+          <answer>
+            <p><m>-8x^2</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{9x^2}^{\frac{3}{2}}</m></p>
+          </statement>
+          <answer>
+            <p><m>27x^3</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{27x^6}^{\frac{2}{3}}</m></p>
+          </statement>
+          <answer>
+            <p><m>9x^4</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>(t^{\frac{4}{3}} \cdot t^{\frac{1}{3}})^9</m></p>
+          </statement>
+          <answer>
+            <p><m>t^{15}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>(x^3 \cdot x^{\frac{3}{2}})^{\frac{1}{2}}</m></p>
+          </statement>
+          <answer>
+            <p><m>x^{\frac{9}{4}}</m></p>
+          </answer>
+        </task>
+      </project>
       
+      <project>
+        <introduction>
+          <p>Simplify each expression. Write with rational exponents where necessary.</p>
+        </introduction>
+        <task>
+          <statement>
+            <p><m>(3m^{\frac{1}{2}} \cdot 4n^{\frac{2}{3}})^2</m></p>
+          </statement>
+          <answer>
+            <p><m>144mn^{\frac{4}{3}}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>(a^{\frac{1}{4}} \cdot 3b^{\frac{5}{2}})^4</m></p>
+          </statement>
+          <answer>
+            <p><m>81ab^{10}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{\dfrac{-8a^6}{27}}^{\frac{1}{3}}</m></p>
+          </statement>
+          <answer>
+            <p><m>-\dfrac{2a^2}{3}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>(9p^2)^{-\frac{1}{2}} \cdot p^{-\frac{3}{2}}</m></p>
+          </statement>
+          <answer>
+            <p><m>\dfrac{1}{3p^{\frac{5}{2}}}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{\dfrac{x^3}{64}}^{-\frac{2}{3}}</m></p>
+          </statement>
+          <answer>
+            <p><m>\dfrac{16}{x^2}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{\dfrac{m^{\frac{1}{2}} n^{\frac{1}{3}}}{n^{\frac{2}{3}} m^{\frac{1}{2}}}}^4</m></p>
+          </statement>
+          <answer>
+            <p><m>\dfrac{1}{n^{\frac{4}{3}}}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{\dfrac{x^{\frac{2}{3}}}{y^{\frac{1}{2}}}}^{-6}</m></p>
+          </statement>
+          <answer>
+            <p><m>\dfrac{y^3}{x^4}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\dfrac{(a^2)^{-\frac{1}{4}} \cdot (a^3)^{\frac{2}{9}}}{a^2}</m></p>
+          </statement>
+          <answer>
+            <p><m>\dfrac{1}{a^{11/6}}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\dfrac{(m^{-2})^{\frac{2}{3}}}{(m^{\frac{1}{2}})^4}</m></p>
+          </statement>
+          <answer>
+            <p><m>\dfrac{1}{m^{\frac{10}{3}}}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{\dfrac{8a^3 b^{-4}}{64a^{-9} b^2}}^{2/3}</m></p>
+          </statement>
+          <answer>
+            <p><m>\dfrac{a^8}{4b^4}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{\dfrac{4x^{-2}}{9y^{-4}}}^{-\frac{5}{2}}</m></p>
+          </statement>
+          <answer>
+            <p><m>\dfrac{243x^{5}}{32y^{10}}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{\dfrac{x^{-2}}{(xy)^4}}^{1.5}</m></p>
+          </statement>
+          <answer>
+            <p><m>\dfrac{1}{x^{9}y^{6}}</m></p>
+          </answer>
+        </task>
+      </project>
+      
+      <project>
+        <introduction>
+          <p>Simplify each expression using exponent laws. Write with rational exponents where necessary.</p>
+        </introduction>
+        <task>
+          <statement>
+            <p><m>\brac{2a^{\frac{1}{2}} b^{\frac{2}{3}} c^{-1}}^3 \brac{3a^{-1} b^{\frac{1}{3}} c^{\frac{5}{2}}}^2</m></p>
+          </statement>
+          <answer>
+            <p><m>\dfrac{72 b^{\frac{8}{3}} c^{2}}{a^{\frac{1}{2}}}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{\dfrac{27x^{-3} y^{4}}{8z^{\frac{1}{2}}}}^{\frac{2}{3}}</m></p>
+          </statement>
+          <answer>
+            <p><m>\dfrac{9 y^{\frac{8}{3}}}{4x^{2} z^{\frac{1}{3}}}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{\dfrac{a^{\frac{3}{2}} b^{-\frac{5}{4}}}{c^{-\frac{1}{2}}}}^{-4}</m></p>
+          </statement>
+          <answer>
+            <p><m>\dfrac{b^{5}}{a^{6} c^{2}}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\dfrac{\brac{x^{\frac{5}{6}} y^{-\frac{1}{3}}}^3}{x^{-\frac{1}{2}} y^{\frac{7}{6}}}</m></p>
+          </statement>
+          <answer>
+            <p><m>\dfrac{x^{3}}{y^{\frac{13}{6}}}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{16a^{4} b^{-2}}^{-\frac{3}{4}}</m></p>
+          </statement>
+          <answer>
+            <p><m>\dfrac{b^{\frac{3}{2}}}{8a^{3}}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{x^{-2} y^{3}}^{1.5} \brac{x y^{-\frac{1}{2}}}^{-3}</m></p>
+          </statement>
+          <answer>
+            <p><m>\dfrac{y^{6}}{x^{6}}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{x^{-1} y^{2} z^{-3}}^{0} \brac{49 x^{4} z^{2}}^{\frac{1}{2}}</m></p>
+          </statement>
+          <answer>
+            <p><m>7x^{2} z</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{\dfrac{a^{-1} b^{2}}{c^{3}}}^{\frac{1}{2}} \brac{\dfrac{a^{3}}{b c^{-2}}}^{\frac{1}{3}}</m></p>
+          </statement>
+          <answer>
+            <p><m>\dfrac{a^{\frac{1}{2}} b^{\frac{2}{3}}}{c^{\frac{5}{6}}}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{\dfrac{64 x^{9} y^{-6}}{k^{3}}}^{-\frac{1}{3}}</m></p>
+          </statement>
+          <answer>
+            <p><m>\dfrac{k y^{2}}{4x^{3}}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{\dfrac{27 a^{6}}{125 b^{-5}}}^{\frac{2}{3}} \cdot \brac{\dfrac{5 b^{3}}{3 a^{-2}}}^{-1}</m></p>
+          </statement>
+          <answer>
+            <p><m>\dfrac{27 a^{2} b^{\frac{1}{3}}}{125}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\dfrac{\brac{a^{2} b^{-1}}^{\frac{3}{4}}}{\brac{a^{-\frac{3}{2}} b^{\frac{5}{8}}}^{2}}</m></p>
+          </statement>
+          <answer>
+            <p><m>\dfrac{a^{\frac{9}{2}}}{b^{2}}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{\dfrac{x^{-\frac{1}{3}}}{y^{\frac{1}{2}} z^{-2}}}^{-6}</m></p>
+          </statement>
+          <answer>
+            <p><m>\dfrac{x^{2} y^{3}}{z^{12}}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{16 a^{-4} b^{6} c^{-2}}^{\frac{1}{4}} \brac{a^{3} b^{-1} c^{5}}^{\frac{1}{2}}</m></p>
+          </statement>
+          <answer>
+            <p><m>2 a^{\frac{1}{2}} b c^{2}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{\dfrac{9x^{4}}{y^{2}}}^{-1} \brac{\dfrac{3x^{-2}}{y^{-1}}}^2</m></p>
+          </statement>
+          <answer>
+            <p><m>\dfrac{y^{4}}{x^{8}}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{a^{\frac{1}{2}} b^{\frac{1}{3}} c^{\frac{1}{4}}}^{12}</m></p>
+          </statement>
+          <answer>
+            <p><m>a^{6} b^{4} c^{3}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{\dfrac{x^{2}}{4y^{-1}}}^{-\frac{3}{2}}</m></p>
+          </statement>
+          <answer>
+            <p><m>\dfrac{8}{x^{3} y^{\frac{3}{2}}}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{\dfrac{32 m^{-3} n^{5}}{2 p^{4}}}^{\frac{1}{5}} \brac{m^{2} p^{-3}}^{\frac{3}{2}}</m></p>
+          </statement>
+          <answer>
+            <p><m>\dfrac{2^{\frac{4}{5}} m^{\frac{12}{5}} n}{p^{\frac{53}{10}}}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{\dfrac{a^{\frac{1}{2}} b^{-2}}{c^{-\frac{3}{2}}}}^{2} \brac{\dfrac{c}{a^{-1} b^{3}}}^{-1}</m></p>
+          </statement>
+          <answer>
+            <p><m>\dfrac{c^{2}}{b}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{\dfrac{x y^{-1}}{z^{2}}}^{3} \brac{\dfrac{z^{-1}}{x^{-2} y}}^{2}</m></p>
+          </statement>
+          <answer>
+            <p><m>\dfrac{x^{7}}{y^{5} z^{8}}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\dfrac{\brac{81 a^{-4} b^{2}}^{\frac{3}{4}}}{\brac{3 a b^{-1}}^{2}}</m></p>
+          </statement>
+          <answer>
+            <p><m>\dfrac{3 b^{\frac{7}{2}}}{a^{5}}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{\dfrac{64}{x^{-6} y^{3}}}^{-\frac{2}{3}}</m></p>
+          </statement>
+          <answer>
+            <p><m>\dfrac{y^{2}}{16 x^{4}}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{\dfrac{a^{-\frac{2}{3}} b^{\frac{5}{6}}}{c^{-\frac{1}{2}}}}^{3} \brac{\dfrac{c^{2}}{a b^{-\frac{1}{3}}}}^{\frac{1}{2}}</m></p>
+          </statement>
+          <answer>
+            <p><m>\dfrac{b^{\frac{8}{3}} c^{\frac{5}{2}}}{a^{\frac{5}{2}}}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{\dfrac{x^{\tfrac{3}{2}}}{3 y^{-\tfrac{9}{2}}}}^{-2} \cdot \brac{9 x^{-1} y^{2}}^{\tfrac{1}{2}}</m></p>
+          </statement>
+          <answer>
+            <p><m>\dfrac{27}{x^{\frac{7}{2}} y^{8}}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{\dfrac{2 a^{3} b^{-1}}{5 c^{2}}}^{-3} \brac{\dfrac{25 c}{4 a^{-2} b^{\frac{1}{2}}}}^{\frac{1}{2}}</m></p>
+          </statement>
+          <answer>
+            <p><m>\dfrac{625 b^{\frac{11}{4}} c^{\frac{13}{2}}}{16 a^{8}}</m></p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p><m>\brac{\dfrac{a b^{-1}}{c^{\frac{1}{2}}}}^{\frac{1}{3}} \brac{\dfrac{c^{-2}}{a^{-1} b}}^{-2}</m></p>
+          </statement>
+          <answer>
+            <p><m>\dfrac{b^{\frac{5}{3}} c^{\frac{23}{6}}}{a^{\frac{5}{3}}}</m></p>
+          </answer>
+        </task>
+      </project>
     </subsection>
     
   </section>

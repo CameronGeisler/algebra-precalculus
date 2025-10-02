@@ -8,14 +8,14 @@
   <document-id>changeme</document-id>
   <!-- A brief description for the book in a catalog; see the links above. The @shelf is used only when publishing to Runestone; see https://runestone.academy/ns/books/index for a list of valid values. You must copy these @shelf names exactly, including capitalization. -->
   <blurb shelf="Algebra and Precalculus"> A simple string (no markup is allowed) to describe your book. </blurb>
-
-
+  
+  
   <!-- The next three lines are likely for mature projects only: -->
-
+  
   <!-- <brandlogo url="" source="images/cover.png"/> -->
   <!-- <covers front="images/front.pdf" back="images/back.pdf"/> -->
   <!-- <document-id>unique-book-id</document-id> -->
-
+  
   <!-- macros for defining latex math shortcuts. It is good practice -->
   <!-- to define these semantically, so that the macro relates to what-->
   <!-- it defines. -->
@@ -32,22 +32,22 @@
     \newcommand{\eval}[1]{\left. #1 \right|}
     \newcommand{\floor}[1]{\left\lfloor #1 \right\rfloor}
     \newcommand{\ceil}[1]{\left\lceil #1 \right\rceil}
-
+    
     <!-- % define \crossmethod{<TL>}{<BL>}{<TR>}{<BR>} -->
     \newcommand{\crossmethod}[4]{%
       \begin{tikzpicture}[baseline=(M.base)]
-        % nodes at (0,0), (0,-1), (1.5,0), (1.5,-1)
-        \node (M) at (0,0)    {$#1$};   % top left
-        \node (P) at (0,-1)   {$#2$};   % bottom left
-        \node (N) at (1.5,0)  {$#3$};   % top right
-        \node (Q) at (1.5,-1) {$#4$};   % bottom right
-        % the cross‐lines
-        \draw (M) -- (Q);
-        \draw (P) -- (N);
+      % nodes at (0,0), (0,-1), (1.5,0), (1.5,-1)
+      \node (M) at (0,0)    {$#1$};   % top left
+      \node (P) at (0,-1)   {$#2$};   % bottom left
+      \node (N) at (1.5,0)  {$#3$};   % top right
+      \node (Q) at (1.5,-1) {$#4$};   % bottom right
+      % the cross‐lines
+      \draw (M) -- (Q);
+      \draw (P) -- (N);
       \end{tikzpicture}%
     }
   </macros>
-
+  
   <!-- If you put any latex-image elements you can include preambles -->
   <!-- for those in the next element. -->
   <latex-image-preamble>
@@ -55,15 +55,16 @@
     \usepackage{amsmath}
     \usetikzlibrary{positioning, matrix, arrows, calc, shapes.geometric, arrows.meta, shapes.multipart}
     \usepackage{pgfplots}
-
+    
     \usetikzlibrary{shapes,decorations,shadows,fadings,patterns} \usetikzlibrary{decorations.markings} 
   </latex-image-preamble>
-
+  
   <!-- It is possible to rename elements: -->
   <!-- <rename element="assemblage" xml:lang="en-US">Summary</rename> -->
-
+  <rename element="project">Exercise Group</rename>
+  
   <!-- Specify the default type of cross reference: -->
   <!-- <cross-references text="type-global" /> -->
-
-
+  
+  
 </docinfo>
