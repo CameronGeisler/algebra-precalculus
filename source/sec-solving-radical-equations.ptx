@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-solving-radical-equations" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Solving Radical Equations</title>
+  
+  <introduction>
+    <p>
+      A <term>radical equation</term> is an equation that contains square roots, cube roots, or any radical, with a variable inside it.
+    </p>
+    <p>
+      To solve equations with square roots, the key technique is to square both sides of the equation. <q>Squaring</q> and <q>square rooting</q> are basically inverse operations, so squaring can be used to <q>undo</q> or <q>cancel out</q> a square root.
+    </p>
+    
+    <example>
+      <title>Solving a Basic Radical Equation</title>
+      <p>
+        Consider <m>\sqrt{5x + 1} = 6</m>. Intuitively, we need to isolate <m>x</m>, which is currently trapped inside of the square root. To get it out, we first square both sides of the equation, which cancels the square root,
+      </p>
+      <md>
+        <mrow>(\sqrt{5x+1})^2 \amp = 6^2</mrow>
+        <mrow>5x + 1 \amp = 36</mrow>
+      </md>
+      <p>
+        Then, we can solve the equation just like a regular basic equation, by isolating for <m>x</m>,
+      </p>
+      <md>
+        <mrow>5x \amp = 35 \amp\amp \text{subtracting 1 from both sides}</mrow>
+        <mrow>x \amp = 7 \amp\amp \text{dividing both sides by 5}</mrow>
+      </md>
+    </example>
+    
+    <example>
+      <title>An Equation with No Solution</title>
+      <p>
+        Solve <m>\sqrt{x+4} = -3</m>. Notice that the right hand side is negative. On the other hand, the left hand side is a square root, which is never negative. So this equation can never be true. We can conclude immediately that there is no solution, without any squaring or other algebra steps.
+      </p>
+      <p>
+        If you did square both sides, you would get,
+      </p>
+      <md>
+        <mrow>(\sqrt{x+4})^2 \amp = (-3)^2</mrow>
+        <mrow>x+4 \amp = 9</mrow>
+        <mrow>x \amp = 5</mrow>
+      </md>
+      <p>
+        which appears to be a solution, but in fact, it will be extraneous.
+      </p>
+      <md>
+        <mrow>\sqrt{5+4} \amp = -3</mrow>
+        <mrow>\sqrt{9} \amp = -3</mrow>
+        <mrow>3 \amp = -3 \qquad \text{which is false}</mrow>
+      </md>
+    </example>
+    
+    <p>
+      In general, if you have,
+    </p>
+    <md>
+      <mrow>\sqrt{\text{something}} = \text{negative number}</mrow>
+    </md>
+    <p>
+      you can stop right away, and conclude there is no solution. Any solution that comes from squaring the equation will always be extraneous.
+    </p>
+  </introduction>
+  
+  <subsection>
+    <title>Solving Basic Square Root Equations</title>
+    <ol>
+      <li><p>Isolate the radical (if necessary).</p></li>
+      <li><p>Square both sides of the equation (to cancel out the square root).</p></li>
+      <li><p>Solve the equation.</p></li>
+    </ol>
+    
+    <project>
+      <title>Basic Square Root Equations</title>
+      <introduction>
+        <p>
+          Solve each radical equation.
+        </p>
+      </introduction>
+      <task>
+        <statement><p><m>\sqrt{2x} = \sqrt{8}</m>.</p></statement>
+        <answer><p><m>x = 4</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>\sqrt{x} + 5 = 11</m>.</p></statement>
+        <answer><p><m>x = 36</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>7 = \sqrt{5 - 2x}</m>.</p></statement>
+        <answer><p><m>x = -22</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>\sqrt{3x+4} = -2</m>.</p></statement>
+        <answer><p>no solution.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>\sqrt{2x} = 3</m>.</p></statement>
+        <answer><p><m>x = \frac{9}{2}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>\sqrt{-8x} = 4</m>.</p></statement>
+        <answer><p><m>x = -2</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>\sqrt{x} + 8 = 13</m>.</p></statement>
+        <answer><p><m>x = 25</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>2 - \sqrt{x} = -4</m>.</p></statement>
+        <answer><p><m>x = 36</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>\sqrt{3x} - 8 = -6</m>.</p></statement>
+        <answer><p><m>x = \frac{4}{3}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>-5 = 2 - \sqrt{-6x}</m>.</p></statement>
+        <answer><p><m>x = -\frac{49}{6}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>-3\sqrt{x-1} + 7 = -14</m>.</p></statement>
+        <answer><p><m>x = 50</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>-7 - 4\sqrt{2x-1} = 17</m>.</p></statement>
+        <answer><p>no solution.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>12 = -3 + 5\sqrt{8-x}</m>.</p></statement>
+        <answer><p><m>x = -1</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>\sqrt{2x-3} = 5</m>.</p></statement>
+        <answer><p><m>x = 14</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>\sqrt{-3x} = \sqrt{-7x}</m>.</p></statement>
+        <answer><p><m>x = 0</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>\sqrt{1-3x} + 5 = 3</m>.</p></statement>
+        <answer><p>no solution.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>\sqrt{x^2 - 3} = 5</m>.</p></statement>
+        <answer><p><m>x = \pm 2\sqrt{7}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>\sqrt{x^2 + 12x} = 8</m>.</p></statement>
+        <answer><p><m>x = 4</m> or <m>x = -16</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>\sqrt{2 + \sqrt{x}} = 3</m>.</p></statement>
+        <answer><p><m>x = 49</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>2 = \sqrt{\sqrt{8x} - 4}</m>.</p></statement>
+        <answer><p><m>x = 8</m>.</p></answer>
+      </task>
+    </project>
+    
+  </subsection>
+  
+  <subsection>
+    <title>Extraneous Solutions</title>
+    <example>
+      <title>Identifying an Extraneous Solution</title>
+      <p>
+        Solve <m>\sqrt{x} = x - 6</m>. First, square both sides,
+      </p>
+      <md>
+        <mrow>(\sqrt{x})^2 \amp = (x-6)^2</mrow>
+        <mrow>x \amp = x^2 - 12x + 36</mrow>
+        <mrow>0 \amp = x^2 - 13x + 36</mrow>
+        <mrow>0 \amp = (x-9)(x-4)</mrow>
+        <mrow>x \amp = 9, 4</mrow>
+      </md>
+      <p>
+        However, in this example, it turns out that not both of these numbers are solutions. Checking by substituting them into the original equation,
+      </p>
+      <p>For <m>x=9</m></p>
+      <md>
+        <mrow>\sqrt{9} = 9 - 6</mrow>
+        <mrow>3 = 3</mrow>
+      </md>
+      <p>For <m>x=4</m></p>
+      <md>
+        <mrow>\sqrt{4} = 4 - 6</mrow>
+        <mrow>2 = -2</mrow>
+      </md>
+      <p>
+        So, <m>x = 9</m> is a solution (because both sides are equal), but <m>x = 4</m> is not a solution, (because <m>2 \neq -2</m>). This can happen because squaring an equation can introduce new solutions. For example,
+      </p>
+      <ul>
+        <li>
+          <p>
+            <m>2 = -2</m> is false, but after squaring, we get <m>4 = 4</m>, which is true.
+          </p>
+        </li>
+        <li>
+          <p>
+            Consider the (very simple) equation <m>x = 2</m>. This has one (true) solution which is <m>x = 2</m> (because replacing <m>x</m> with 2 gives <m>2 = 2</m>, which is true). However, if you square both sides, you get <m>x^2 = 4</m>, which has 2 solutions (<m>x = 2</m> and <m>x = -2</m>).
+          </p>
+        </li>
+      </ul>
+      <p>
+        Basically, squaring gets rid of negative signs, which can lead to more solutions.
+      </p>
+    </example>
+    <p>
+      These solutions, which appear when solving algebraically, but don't actually satisfy the original equation, are called <term>extraneous</term> solutions. Intuitively, extraneous means <q>extra</q>.
+    </p>
+    <p>
+      In general, for radical equations, you need to check your answers to see if they satisfy the original equation. And this is basically because squaring an equation can lead to an equation with another solution that isn't a solution of the original equation.
+    </p>
+  </subsection>
+  
+  <subsection>
+    <title>Solving Square Root Equations with Quadratics</title>
+    <project>
+      <title>Equations Leading to Quadratics</title>
+      <introduction>
+        <p>
+          Solve each radical equation.
+        </p>
+      </introduction>
+      <task>
+        <statement><p><m>\sqrt{x + 1} = x - 1</m>.</p></statement>
+        <answer><p><m>x = 3</m> (reject <m>x = 0</m>).</p></answer>
+      </task>
+      <task>
+        <statement><p><m>x + 4 = \sqrt{-2x}</m>.</p></statement>
+        <answer><p><m>x = -2</m> (reject <m>x = -8</m>).</p></answer>
+      </task>
+      <task>
+        <statement><p><m>x-4=\sqrt{6-x}</m>.</p></statement>
+        <answer><p><m>x = 2, 5</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>2x + 2\sqrt{x^2 - 7} = 14</m>.</p></statement>
+        <answer><p><m>x = 4</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>4x + 2 - \sqrt{5x} = 2</m>.</p></statement>
+        <answer><p><m>x = 0, \frac{5}{16}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>\sqrt{x+1} = x+1</m>.</p></statement>
+        <answer><p><m>x = -1, 0</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>5 + \sqrt{3x - 5} = x</m>.</p></statement>
+        <answer><p><m>x = 10</m> (reject <m>x = 3</m>).</p></answer>
+      </task>
+      <task>
+        <statement><p><m>\sqrt{3x+10} + 5 = 2x</m>.</p></statement>
+        <answer><p><m>x = 5</m> (reject <m>x = \frac{3}{4}</m>).</p></answer>
+      </task>
+      <task>
+        <statement><p><m>\sqrt{x+5} = \sqrt{2x - 1}</m>.</p></statement>
+        <answer><p><m>x = 6</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>2\sqrt{x-1} = x</m>.</p></statement>
+        <answer><p><m>x = 2</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>\sqrt{\frac{x^2}{2} + 11} = x - 1</m>.</p></statement>
+        <answer><p><m>x = 2 + 2\sqrt{6}</m> (reject <m>x = 2 - 2\sqrt{6}</m>).</p></answer>
+      </task>
+      <task>
+        <statement><p><m>\sqrt{x^2 + 30x} = 8</m>.</p></statement>
+        <answer><p><m>x = 2</m> or <m>x = -32</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>\sqrt{x + 5} = x - 1</m>.</p></statement>
+        <answer><p><m>x = 4</m> (reject <m>x = -1</m>).</p></answer>
+      </task>
+      <task>
+        <statement><p><m>\sqrt{\frac{x+1}{3}} + 5x = 3x - 1</m>.</p></statement>
+        <answer><p><m>x = -\frac{2}{3}</m> (reject <m>x = -\frac{1}{4}</m>).</p></answer>
+      </task>
+      <task>
+        <statement><p><m>\sqrt{2x+1} = x-7</m>.</p></statement>
+        <answer><p><m>x = 12</m> (reject <m>x = 4</m>).</p></answer>
+      </task>
+      <task>
+        <statement><p><m>5\sqrt{\frac{x}{2}} = \sqrt{200}</m>.</p></statement>
+        <answer><p><m>x = 16</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>-\sqrt{x+3} = \sqrt{3x+5}</m>.</p></statement>
+        <answer><p>no solution (reject <m>x = -1</m>).</p></answer>
+      </task>
+      <task>
+        <statement><p><m>\sqrt{6x - 1} = \sqrt{-17 + x^2}</m>.</p></statement>
+        <answer><p><m>x = 8</m> (reject <m>x = -2</m>).</p></answer>
+      </task>
+      <task>
+        <statement><p><m>\sqrt{2x + 12} = x - 6</m>.</p></statement>
+        <answer><p><m>x = 12</m> (reject <m>x = 2</m>).</p></answer>
+      </task>
+      <task>
+        <statement><p><m>\sqrt{x + 3} + 3 = x</m>.</p></statement>
+        <answer><p><m>x = 6</m> (reject <m>x = 1</m>).</p></answer>
+      </task>
+      <task>
+        <statement><p><m>\sqrt{x+10} - 4 = x</m>.</p></statement>
+        <answer><p><m>x = -1</m> (reject <m>x = -6</m>).</p></answer>
+      </task>
+      <task>
+        <statement><p><m>x+7=\sqrt{23-x}</m>.</p></statement>
+        <answer><p><m>x = -2</m> (reject <m>x = -13</m>).</p></answer>
+      </task>
+      <task>
+        <statement><p><m>x - \sqrt{2x+3} = 6</m>.</p></statement>
+        <answer><p><m>x = 11</m> (reject <m>x = 3</m>).</p></answer>
+      </task>
+    </project>
+  </subsection>
+  
+  <subsection>
+    <title>Summary of Solving Radical Equations</title>
+    <ol>
+      <li><p>Isolate the radical (if there are multiple, choose one to isolate).</p></li>
+      <li><p>Square both sides of the equation (to cancel out the square root).</p></li>
+      <li><p>Simplify, and solve the resulting equation. If the equation still contains a square root, repeat the previous steps (isolate, square, simplify).</p></li>
+    </ol>
+    <p>
+      When there are no radicals left, typically the resulting equation will be a quadratic equation, so if needed, review the techniques for solving quadratic equations.
+    </p>
+  </subsection>
+  
+  <subsection>
+    <title>Equations with Multiple Square Roots</title>
+    
+    <project>
+      <title>Equations with Multiple Radicals</title>
+      <introduction>
+        <p>
+          Solve each equation.
+        </p>
+      </introduction>
+      <task>
+        <statement><p><m>\sqrt{x} + 5 = \sqrt{x + 45}</m>.</p></statement>
+        <answer><p><m>x = 4</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>7+\sqrt{3x} = \sqrt{5x+4}+5</m>.</p></statement>
+        <answer><p><m>x = 0, 12</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>\sqrt{2x+1}+\sqrt{x+6}=2</m>.</p></statement>
+        <answer><p><m>x = -5</m> (reject <m>x = 19</m>).</p></answer>
+      </task>
+      <task>
+        <statement><p><m>\sqrt{x+19} + \sqrt{x-2} = 7</m>.</p></statement>
+        <answer><p><m>x = 6</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>\sqrt{x + 56} + \sqrt{x + 7} = 7</m>.</p></statement>
+        <answer><p><m>x = -7</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>\sqrt{2x+11} + \sqrt{x+6} = 2</m>.</p></statement>
+        <answer><p><m>x = -5</m> (reject <m>x = 19</m>).</p></answer>
+      </task>
+      <task>
+        <statement><p><m>\sqrt{17 - 2x} = \sqrt{8 - x} + 1</m>.</p></statement>
+        <answer><p><m>x = 4, 8</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>\sqrt{x} + \sqrt{x - 8} = 2</m>.</p></statement>
+        <answer><p>no solution (reject <m>x = 9</m>).</p></answer>
+      </task>
+      <task>
+        <statement><p><m>\sqrt{4x+1} + \sqrt{3x-2} = 1</m>.</p></statement>
+        <answer><p>no solution (reject <m>x = 2, 6</m>).</p></answer>
+      </task>
+      <task>
+        <statement><p><m>\sqrt{2x+5} - \sqrt{x-2} = 3</m>.</p></statement>
+        <answer><p><m>x = 2, 38</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>\sqrt{5x - 9} - 3 = \sqrt{x+4} - 2</m>.</p></statement>
+        <answer><p><m>x = 5</m> (reject <m>x = \frac{9}{4}</m>).</p></answer>
+      </task>
+      <task>
+        <statement><p><m>\sqrt{x-5} = \sqrt{x}-1</m>.</p></statement>
+        <answer><p><m>x = 9</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>\sqrt{x+1} = \sqrt{x}+1</m>.</p></statement>
+        <answer><p><m>x = 0</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>\sqrt{x-4} = 2+\sqrt{x}</m>.</p></statement>
+        <answer><p>no solution.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>\sqrt{2x-1} + \sqrt{x+3} = 3</m>.</p></statement>
+        <answer><p><m>x = 1</m> (reject <m>x = 61</m>).</p></answer>
+      </task>
+      <task>
+        <statement><p><m>\sqrt{2x-1} = \sqrt{x-4} + 2</m>.</p></statement>
+        <answer><p><m>x = 5, 13</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>x+3 = (\sqrt{x+1})(\sqrt{x+6})</m>.</p></statement>
+        <answer><p><m>x = 3</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>\sqrt{3-3x} = 3 + \sqrt{3x + 2}</m>.</p></statement>
+        <answer><p>no solution (reject <m>x = -\frac{1}{3}, \frac{2}{3}</m>).</p></answer>
+      </task>
+      <task>
+        <statement><p><m>5 + \sqrt{x} = \sqrt{3x}</m>.</p></statement>
+        <answer><p><m>x = \frac{50 + 25\sqrt{3}}{2}</m> (reject <m>x = \frac{50 - 25\sqrt{3}}{2}</m>).</p></answer>
+      </task>
+      <task>
+        <statement><p><m>\sqrt{2x+5} - \sqrt{x-1} = 2</m>.</p></statement>
+        <answer><p><m>x = 2, 10</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>\sqrt{2x+3} - \sqrt{x+2} = 2</m>.</p></statement>
+        <answer><p><m>x = 23</m> (reject <m>x = -1</m>).</p></answer>
+      </task>
+      <task>
+        <statement><p><m>\sqrt{1-x} + \sqrt{x+9} = 4</m>.</p></statement>
+        <answer><p><m>x = -8, 0</m>.</p></answer>
+      </task>
+    </project>
+    
+    <project>
+      <title>Advanced Examples</title>
+      <introduction>
+        <p>
+          Solve each equation.
+        </p>
+      </introduction>
+      <task>
+        <statement><p><m>\sqrt{x+6} = \frac{2}{\sqrt{x+1}} + \sqrt{x+1}</m>.</p></statement>
+        <answer><p><m>x = 3</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>\sqrt{x+15} + \sqrt{x+7} = \frac{4}{\sqrt{x+7}}</m>.</p></statement>
+        <answer><p><m>x = -6</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>\sqrt{x+4} + \sqrt{3x+9} = \sqrt{x+25}</m>.</p></statement>
+        <answer><p><m>x = 0</m> (reject <m>x = -52</m>).</p></answer>
+      </task>
+      <task>
+        <statement><p><m>\sqrt{x-3}+\sqrt{2x+1} = 2\sqrt{x}</m>.</p></statement>
+        <answer><p><m>x = 4</m> (reject <m>x = -\frac{4}{7}</m>).</p></answer>
+      </task>
+    </project>
+  </subsection>
+  
+</section>
