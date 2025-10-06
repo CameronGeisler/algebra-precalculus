@@ -5,12 +5,426 @@
   
   <introduction>
     <p>
+      Previously, the two main types of functions we considered were:
+    </p>
+    <ul>
+      <li>
+        <em>Linear</em> functions, and,
+      </li>
+      <li>
+        <em>Quadratic</em> functions
+      </li>
+    </ul>
+    
+    <table>
+      <tabular>
+        <row bottom="medium">
+          <cell>Type of function</cell>
+          <cell>Example</cell>
+          <cell>General Form</cell>
+        </row>
+        <row>
+          <cell>Linear function (line)</cell>
+          <cell><m>y = 2x - 3</m></cell>
+          <cell><m>f(x) = mx + b</m></cell>
+        </row>
+        <row>
+          <cell>Quadratic function (parabola)</cell>
+          <cell><m>y = x^2 - 4x + 3</m></cell>
+          <cell><m>f(x) = ax^2 + bx + c</m></cell>
+        </row>
+      </tabular>
+    </table>
+    
+    <p>
+      It turns out that we can also consider functions that are made up of higher powers of <m>x</m>, like <m>x^3, x^4, x^5</m>, and so on. In general, we call this a polynomial function. So, linear and quadratic functions are specific types of polynomial functions.
+    </p>
+    
+    <example>
+      <title>Exploring Polynomial Graphs</title>
+      <p>
+        Let's explore polynomial functions. We'll start with the most basic types, which are just a single power of <m>x</m>. We can graph polynomial functions using Desmos.
+      </p>
+      <ul>
+        <li>
+          <url href="https://www.desmos.com/calculator/ef3dwo1zyr">Exploration of power functions</url>. Consider the graphs of <m>y = x</m>, <m>y = x^2</m>, <m>y = x^3</m>, <m>y = x^4</m>, <m>y = x^5</m>, <m>y = x^6</m>. Observe the pattern in the shapes.
+        </li>
+        <li>
+          Even integer powers have a <q>U-shape</q> whereas the odd integer powers have an <q>S-shape</q>.
+        </li>
+        <li>
+          <p>
+            <url href="https://www.desmos.com/calculator/9xfyu3i4aq">Power functions with negatives</url>. Consider <m>y = -x</m>, <m>y = -x^2</m>, <m>y = -x^3</m>, <m>y = -x^4</m>, <m>y = -x^5</m>, <m>y = -x^6</m>. These are basically the previous graphs except <q>upside down</q>. In other words, a reflection over the <m>x</m>-axis of the previous graphs.
+          </p>
+        </li>
+        <li>
+          <p>
+            <url href="https://www.desmos.com/calculator/keeqehwctn"><m>x^3</m> functions with more terms</url>. Consider adding terms with smaller exponents. Take a function that starts with <m>x^3</m>, and add some terms like <m>x^2</m>, <m>x</m>, or a constant.
+            <ul>
+              <li><m>y=x^{3}-3x^{2}+x+1</m></li>
+              <li><m>y=2x^{3}+2x^{2}-3x-2</m></li>
+              <li><m>y=3x^{3}-5x^{2}-1</m></li>
+              <li><m>y=-x^{3}+6x^{2}-8x+1</m></li>
+              <li><m>y=-2x^{3}+x^{2}+4x-3</m></li>
+            </ul>
+            Observe that the first 3 all have the same S-shape, that starts in the bottom left and ends in the top right. The last 2 also share similar shapes, starting in the top left and ending in the bottom right. Observe that the negative sign in front basically reflects it upside down. The precise behavior of the function and how it goes up and down is much more complicated, however, and can't be determined just by looking at the equation.
+          </p>
+        </li>
+        <li>
+          
+          <p>
+            <url href="https://www.desmos.com/calculator/dawe501qsz"><m>x^4</m> functions with more terms</url>. Let's do the same thing, but with an <m>x^4</m> function.
+            <ul>
+              <li><m>y=x^{4}-4x^{2}+x-2</m></li>
+              <li><m>y=2x^{4}+2x^{2}+1</m></li>
+              <li><m>y=-x^{4}+x^{3}-x^{2}+4x-4</m></li>
+              <li><m>y=-2x^{4}-x^{3}+3x^{2}-2</m></li>
+            </ul>
+            
+            Again, observe that they all have the same <q>U-shape</q>, and the ones with a negative in front are basically upside down.
+          </p>
+        </li>
+        <li>
+          In fact, you have seen this pattern before with parabolas (quadratic functions). <url href="https://www.desmos.com/calculator/jrudrchals">Quadratic functions with various numbers</url>. Recall that the number in front of <m>x^2</m> (called the <em>leading coefficient</em>) determines if it <em>opens up</em> or <em>opens down</em>. In particular, if <m>a \gt 0</m> it opens up, and if <m>a \lt 0</m> it opens down. 
+        </li>
+      </ul>
+      <p>
+        In summary,
+      </p>
+      <ul>
+        <li>
+          The rough shape of a polynomial function is determined by the term with the highest power of <m>x</m>. 
+        </li>
+        <li>
+          <p>
+            In particular, it is based on:
+            <ul>
+              <li>
+                The biggest exponent the polynomial has.
+              </li>
+              <li>
+                If the number in front is positive or negative.
+              </li>
+            </ul>
+          </p>
+        </li>
+      </ul>
+    </example>
+    
+  </introduction>
+  
+  <subsection>
+    <title>Polynomial Functions</title>
+    <p>
+      Basically, a polynomial function is made up of powers of <m>x</m>, combined with numbers through multiplication, addition, and subtraction. Sometimes, we refer to them simply as polynomials.
+    </p>
+    
+    <definition>
+      <p>
+        Roughly, a <term>polynomial function</term> is a function made up of adding and subtracting powers of <m>x</m> with whole number exponents.
+      </p>
+      <ul>
+        <li>
+          <p>
+            The <term>degree</term> of a polynomial function is the exponent on its highest power of <m>x</m>.
+            <ul>
+              <li>
+                Intuitively, <em>degree</em> means <q>size</q>, the degree of a polynomial can be thought of as how big it is.
+              </li>
+            </ul>
+          </p>
+        </li>
+        <li>
+          <p>
+            The term with the highest power of <m>x</m> is called the <term>leading term</term>, and its coefficient is called the <term>leading coefficient</term>.
+            <ul>
+              <li>
+                Intuitively, <em>leading</em> means <q>most important</q> or <q>in front</q>.
+              </li>
+            </ul>
+          </p>
+        </li>
+      </ul>
+    </definition>
+    
+    <p>
+      The domain of a polynomial is all real numbers, or <m>x \in \mathbb{R}</m> (or, <m>(-\infty,\infty)</m>). This is because it only uses the basic operations of addition, subtraction, and multiplication of numbers, and these operations are always defined.
+    </p>
+    <p>
+      The graph of a polynomial function is both:
+    </p>
+    <ul>
+      <li>
+        <term>Smooth</term>: it has no sharp corners.
+      </li>
+      <li>
+        <term>Continuous</term>: it has no <q>breaks</q> and can be drawn without lifting your pencil off the page.
+      </li>
+    </ul>
+    
+    <example>
+      <title>Polynomial and Non-Polynomial Functions</title>
+      <p>
+        Here are some functions which are polynomials, and some which are not.
+      </p>
+      <ul>
+        <li>
+          <url href="https://www.desmos.com/calculator/id3k05ukgt"><m>f(x) = 4x^3 - 3.6x^2 - \sqrt{2}</m></url> is a polynomial, of degree 3, because all of the exponents are whole numbers.
+        </li>
+        <li>
+          <url href="https://www.desmos.com/calculator/xkw5qnk8co"><m>f(x) = x^{3/2} - x^4 + 1</m></url> is not a polynomial, because of the exponent of <m>3/2</m>.
+        </li>
+        <li>
+          <url href="https://www.desmos.com/calculator/shy5zi1t4b"><m>f(x) = \sqrt{x+7} + 1</m></url> is not a polynomial, because it has the square root of <m>x</m>.
+        </li>
+        <li>
+          <url href="https://www.desmos.com/calculator/hzk4pchkus"><m>f(x) = \frac{1}{x+3}</m></url> is not a polynomial, because there is an <m>x</m> in the denominator.
+        </li>
+        <li>
+          <url href="https://www.desmos.com/calculator/gxi0ccaxi5"><m>f(x) = \frac{1}{5}(x+3)(x+1)(x-2)(x-3)</m></url> is a polynomial, intuitively because if you were to expand out all of the brackets, all of the powers of <m>x</m> would be whole numbers.
+        </li>
+      </ul>
+      <p>
+        Notice that all of the non-examples of polynomials either:
+      </p>
+      <ul>
+        <li>
+          Don't have a domain which is all real numbers (they are undefined for some values of <m>x</m>), or,
+        </li>
+        <li>
+          Are not smooth (they have sharp corners) or not continuous (they have breaks).
+        </li>
+      </ul>
+    </example>
+    
+    <p>
+      Polynomials also have special names based on their degree.
+    </p>
+    <ul>
+      <li>
+        Polynomials of degree 2 are called <term>quadratic</term> (which you've already learned before).
+      </li>
+      <li>
+        Polynomials of degree 3 are called <term>cubic</term>.
+      </li>
+      <li>
+        Degree 4 is <term>quartic</term>.
+      </li>
+      <li>
+        Degree 5 is <term>quintic</term>.
+      </li>
+      <li>
+        Degree 6 is <term>sextic</term> or <term>hexic</term>.
+      </li>
+    </ul>
+    <p>
+      You can always just say <q>degree 3 polynomial</q> or <q>degree 4 polynomial</q>, but you should be aware of these terms. Typically, the higher the degree of the polynomial, the more complicated it is.
+    </p>
+  </subsection>
+  
+  <subsection>
+    <title>Turning Points of a Polynomial</title>
+    <p>
+      A polynomial can have multiple points where it <q>turns around</q>, going from increasing to decreasing, or decreasing to increasing.
+    </p>
+    <ul>
+      <li>
+        A linear function (<m>x^1</m>) has 0 turning points (it never bends).
+      </li>
+      <li>
+        Quadratic (<m>x^2</m>) has 1 turning point (the vertex).
+      </li>
+      <li>
+        Cubic (<m>x^3</m>) has up to 2 turning points.
+      </li>
+      <li>
+        Quartic (<m>x^4</m>) has up to 3 turning points.
+      </li>
+    </ul>
+    <p>
+      It turns out that in general, a polynomial of degree <m>n</m> can have at most <m>n - 1</m> turning points.
+    </p>
+  </subsection>
+  
+  <subsection>
+    <title>End Behavior of a Polynomial</title>
+    <p>
+      As we've seen, the graph of a polynomial function can go either up or down on the left and right side, depending on its equation. This is called it's <em>end behavior</em>.
+    </p>
+    
+    <definition>
+      <p>
+        The <term>end behavior</term> of a function is its behavior as <m>x</m> becomes large in either the positive or negative direction.
+      </p>
+    </definition>
+    
+    <p>
+      Graphically, end behavior is what the function does to the <q>far right</q> or <q>far left</q> side of the graph. The graph of a polynomial function may increase in some places and decrease in others, however it will eventually tend towards either going <q>up</q> or <q>down</q>.
+    </p>
+    <ul>
+      <li>
+        Sometimes polynomial functions go right and up, sometimes they go right and down,
+      </li>
+      <li>
+        Sometimes they go left and up, and other times left and down.
+      </li>
+    </ul>
+    <p>
+      The end behavior of a polynomial function is determined by the leading term. Intuitively, this is because when <m>x</m> is large (either large positive, or large negative), the leading term dominates the other terms, in the sense that it's size is much bigger than the others. All other terms become insignificant in size.
+    </p>
+    <p>
+      In particular, the end behavior of a polynomial depends on both:
+    </p>
+    <ul>
+      <li>
+        Its <em>degree</em>, being even or odd.
+      </li>
+      <li>
+        Its <em>leading coefficient</em>, being positive or negative.
+      </li>
+    </ul>
+    <p>
+      It can be summarized in this table:
+    </p>
+    
+    <p>
       <figure xml:id="end-behavior">
         <caption>End behavior table</caption>
         <image source="end-behavior.svg" width="100%"/>
       </figure>
-      
     </p>
-  </introduction>
+    
+    <p>
+      Some observations:
+    </p>
+    <ul>
+      <li>
+        Even-degree polynomials have the same end behavior on each side.
+      </li>
+      <li>
+        Odd-degree polynomials have opposite end behavior.
+      </li>
+    </ul>
+    <p>
+      Also,
+    </p>
+    <ul>
+      <li>
+        For even-degree polynomials, the leading coefficient determines if it <q>opens up</q> or <q>opens down</q> (similar to a parabola).
+      </li>
+      <li>
+        For odd-degree polynomials, the sign of the leading coefficient determines the overall trend, if it overall has <q>positive</q> slope (like <m>\swarrow \nearrow</m>) or <q>negative</q> slope (like <m>\nwarrow \searrow</m>), (similar to a line).
+      </li>
+    </ul>
+    <p>
+      There are a few ways to describe end behavior:
+    </p>
+    <ul>
+      <li>
+        The simplest is just to draw that little sketch of how the arrows will go on the left side and the right side.
+      </li>
+      <li>
+        <p>
+          Another way is through the quadrants, which looks like this:
+          <figure xml:id="end-behavior-table-quadrants">
+            <caption>End behavior table</caption>
+            <image source="end-behavior-table-quadrants.svg" width="100%"/>
+          </figure>
+        </p>
+        <remark>
+          <p>
+            Remember that the quadrants are labelled starting from the top right, and going counterclockwise, like this:
+            <image width="30%">
+              <latex-image>
+                \begin{tikzpicture}
+                % axes
+                \draw[->] (-1,0) -- (1,0) node[right] {$x$};
+                \draw[->] (0,-1) -- (0,1) node[above] {$y$};
+                % quadrant labels
+                \node at (0.5,0.5) {Q1};
+                \node at (-0.5,0.5) {Q2};
+                \node at (-0.5,-0.5) {Q3};
+                \node at (0.5,-0.5) {Q4};
+                \end{tikzpicture}
+              </latex-image>
+            </image>
+          </p>
+        </remark>
+      </li>
+    </ul>
+  </subsection>
   
+  <subsection>
+    <title>y-Intercept of a Polynomial</title>
+    <p>
+      Recall that the <m>y</m>-intercept for linear and quadratic functions is simply the constant term,
+    </p>
+    <md>
+      <mrow>
+        y = mx + b \amp \qquad \longrightarrow \qquad \text{$y$-int} = (0,b)
+      </mrow>
+      <mrow>
+        y = ax^2 + bx + c \amp \qquad \longrightarrow \qquad \text{$y$-int} = (0,c)
+      </mrow>
+    </md>
+    <p>
+      This is because to find the <m>y</m>-intercept, set <m>x = 0</m>, and solve for <m>y</m>. Doing this makes all of the <m>x</m> terms vanish, leaving only the constant term left. In general, the <m>y</m>-intercept of a polynomial function is the constant term.
+    </p>
+    <example>
+      <title>y-intercept Example</title>
+      <p>
+        For <m>f(x) = 2x^3 - 5x^2 + 7x - 4</m>, the <m>y</m>-intercept is <m>-4</m>.
+      </p>
+    </example>
+  </subsection>
+  
+  <subsection>
+    <title>x-Intercepts (Zeros) of a Polynomial</title>
+    <p>
+      For <m>x</m>-intercepts, first note that the terms <em>zero</em>, <em>root</em>, and <em><m>x</m>-intercept</em> are all somewhat used interchangably. <em>Zero</em> and <em>root</em> are more truly synonyms, whereas <em><m>x</m>-intercept</em> typically refers to the point on the graph (where it touches the <m>x</m>-axis).
+    </p>
+    
+    <definition>
+      <p>
+        A number <m>c</m> is a <term>zero</term> or (<term>root</term>) of <m>f(x)</m> if <m>f(c) = 0</m>. The following are equivalent:
+      </p>
+      <ul>
+        <li>
+          <m>c</m> is a zero of <m>f(x)</m>.
+        </li>
+        <li>
+          <m>c</m> is a root of <m>f(x)</m>.
+        </li>
+        <li>
+          <m>c</m> is an <m>x</m>-intercept of the graph of <m>f(x)</m>.
+        </li>
+      </ul>
+    </definition>
+    
+    <p>
+      Recall that to find <m>x</m>-intercepts, you set <m>y = 0</m>, and solve for <m>x</m>.
+    </p>
+    
+    <example>
+      <title>Finding x-intercepts</title>
+      <p>
+        For <m>f(x) = x^3+2x^2-5x-6</m>, we get,
+      </p>
+      <md>
+        <mrow>
+          0 \amp = x^3+2x^2-5x-6
+        </mrow>
+      </md>
+      <p>
+        and we need to solve for <m>x</m>. It is not obvious how to do this at first glance.
+      </p>
+    </example>
+    
+    <p>
+      In general, the <m>x</m>-intercept(s) of a polynomial function <m>f(x)</m> are the solutions to the equation <m>f(x) = 0</m>.
+    </p>
+    <p>
+      We will explore various techniques to solve equations like this. Most of the examples will be simple, with numbers chosen very carefully so that the problem is solvable. In general, solving this equation by hand and exactly is very difficult, and sometimes actually impossible (and only possible approximately).
+    </p>
+  </subsection>
 </section>

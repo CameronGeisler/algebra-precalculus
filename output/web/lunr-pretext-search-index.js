@@ -1024,16 +1024,106 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.1",
   "title": "Polynomial Functions Intro",
-  "body": " Polynomial Functions Intro     End behavior table      "
+  "body": " Polynomial Functions Intro   Previously, the two main types of functions we considered were:    Linear functions, and,   Quadratic functions      Type of function  Example  General Form    Linear function (line)      Quadratic function (parabola)       It turns out that we can also consider functions that are made up of higher powers of , like , and so on. In general, we call this a polynomial function. So, linear and quadratic functions are specific types of polynomial functions.   Exploring Polynomial Graphs  Let's explore polynomial functions. We'll start with the most basic types, which are just a single power of . We can graph polynomial functions using Desmos.    Exploration of power functions . Consider the graphs of , , , , , . Observe the pattern in the shapes.  Even integer powers have a U-shape whereas the odd integer powers have an S-shape .    Power functions with negatives . Consider , , , , , . These are basically the previous graphs except upside down . In other words, a reflection over the -axis of the previous graphs.     functions with more terms . Consider adding terms with smaller exponents. Take a function that starts with , and add some terms like , , or a constant.       Observe that the first 3 all have the same S-shape, that starts in the bottom left and ends in the top right. The last 2 also share similar shapes, starting in the top left and ending in the bottom right. Observe that the negative sign in front basically reflects it upside down. The precise behavior of the function and how it goes up and down is much more complicated, however, and can't be determined just by looking at the equation.     functions with more terms . Let's do the same thing, but with an function.      Again, observe that they all have the same U-shape , and the ones with a negative in front are basically upside down.   In fact, you have seen this pattern before with parabolas (quadratic functions). Quadratic functions with various numbers . Recall that the number in front of (called the leading coefficient ) determines if it opens up or opens down . In particular, if it opens up, and if it opens down.   In summary,   The rough shape of a polynomial function is determined by the term with the highest power of .   In particular, it is based on:  The biggest exponent the polynomial has.  If the number in front is positive or negative.         Polynomial Functions  Basically, a polynomial function is made up of powers of , combined with numbers through multiplication, addition, and subtraction. Sometimes, we refer to them simply as polynomials.   Roughly, a polynomial function is a function made up of adding and subtracting powers of with whole number exponents.    The degree of a polynomial function is the exponent on its highest power of .  Intuitively, degree means size , the degree of a polynomial can be thought of as how big it is.      The term with the highest power of is called the leading term , and its coefficient is called the leading coefficient .  Intuitively, leading means most important or in front .       The domain of a polynomial is all real numbers, or (or, ). This is because it only uses the basic operations of addition, subtraction, and multiplication of numbers, and these operations are always defined.  The graph of a polynomial function is both:    Smooth : it has no sharp corners.   Continuous : it has no breaks and can be drawn without lifting your pencil off the page.    Polynomial and Non-Polynomial Functions  Here are some functions which are polynomials, and some which are not.    is a polynomial, of degree 3, because all of the exponents are whole numbers.   is not a polynomial, because of the exponent of .   is not a polynomial, because it has the square root of .   is not a polynomial, because there is an in the denominator.   is a polynomial, intuitively because if you were to expand out all of the brackets, all of the powers of would be whole numbers.   Notice that all of the non-examples of polynomials either:   Don't have a domain which is all real numbers (they are undefined for some values of ), or,  Are not smooth (they have sharp corners) or not continuous (they have breaks).    Polynomials also have special names based on their degree.   Polynomials of degree 2 are called quadratic (which you've already learned before).  Polynomials of degree 3 are called cubic .  Degree 4 is quartic .  Degree 5 is quintic .  Degree 6 is sextic or hexic .   You can always just say degree 3 polynomial or degree 4 polynomial , but you should be aware of these terms. Typically, the higher the degree of the polynomial, the more complicated it is.    Turning Points of a Polynomial  A polynomial can have multiple points where it turns around , going from increasing to decreasing, or decreasing to increasing.   A linear function ( ) has 0 turning points (it never bends).  Quadratic ( ) has 1 turning point (the vertex).  Cubic ( ) has up to 2 turning points.  Quartic ( ) has up to 3 turning points.   It turns out that in general, a polynomial of degree can have at most turning points.    End Behavior of a Polynomial  As we've seen, the graph of a polynomial function can go either up or down on the left and right side, depending on its equation. This is called it's end behavior .   The end behavior of a function is its behavior as becomes large in either the positive or negative direction.   Graphically, end behavior is what the function does to the far right or far left side of the graph. The graph of a polynomial function may increase in some places and decrease in others, however it will eventually tend towards either going up or down .   Sometimes polynomial functions go right and up, sometimes they go right and down,  Sometimes they go left and up, and other times left and down.   The end behavior of a polynomial function is determined by the leading term. Intuitively, this is because when is large (either large positive, or large negative), the leading term dominates the other terms, in the sense that it's size is much bigger than the others. All other terms become insignificant in size.  In particular, the end behavior of a polynomial depends on both:   Its degree , being even or odd.  Its leading coefficient , being positive or negative.   It can be summarized in this table:    End behavior table     Some observations:   Even-degree polynomials have the same end behavior on each side.  Odd-degree polynomials have opposite end behavior.   Also,   For even-degree polynomials, the leading coefficient determines if it opens up or opens down (similar to a parabola).  For odd-degree polynomials, the sign of the leading coefficient determines the overall trend, if it overall has positive slope (like ) or negative slope (like ), (similar to a line).   There are a few ways to describe end behavior:   The simplest is just to draw that little sketch of how the arrows will go on the left side and the right side.   Another way is through the quadrants, which looks like this:  End behavior table      Remember that the quadrants are labelled starting from the top right, and going counterclockwise, like this:          y-Intercept of a Polynomial  Recall that the -intercept for linear and quadratic functions is simply the constant term,   This is because to find the -intercept, set , and solve for . Doing this makes all of the terms vanish, leaving only the constant term left. In general, the -intercept of a polynomial function is the constant term.   y-intercept Example  For , the -intercept is .     x-Intercepts (Zeros) of a Polynomial  For -intercepts, first note that the terms zero , root , and -intercept are all somewhat used interchangably. Zero and root are more truly synonyms, whereas -intercept typically refers to the point on the graph (where it touches the -axis).   A number is a zero or ( root ) of if . The following are equivalent:    is a zero of .   is a root of .   is an -intercept of the graph of .    Recall that to find -intercepts, you set , and solve for .   Finding x-intercepts  For , we get,   and we need to solve for . It is not obvious how to do this at first glance.   In general, the -intercept(s) of a polynomial function are the solutions to the equation .  We will explore various techniques to solve equations like this. Most of the examples will be simple, with numbers chosen very carefully so that the problem is solvable. In general, solving this equation by hand and exactly is very difficult, and sometimes actually impossible (and only possible approximately).   "
+},
+{
+  "id": "sec-polynomial-functions-intro-2-3",
+  "level": "2",
+  "url": "sec-polynomial-functions-intro.html#sec-polynomial-functions-intro-2-3",
+  "type": "Table",
+  "number": "3.1.1",
+  "title": "",
+  "body": "   Type of function  Example  General Form    Linear function (line)      Quadratic function (parabola)      "
+},
+{
+  "id": "sec-polynomial-functions-intro-2-5",
+  "level": "2",
+  "url": "sec-polynomial-functions-intro.html#sec-polynomial-functions-intro-2-5",
+  "type": "Example",
+  "number": "3.1.2",
+  "title": "Exploring Polynomial Graphs.",
+  "body": " Exploring Polynomial Graphs  Let's explore polynomial functions. We'll start with the most basic types, which are just a single power of . We can graph polynomial functions using Desmos.    Exploration of power functions . Consider the graphs of , , , , , . Observe the pattern in the shapes.  Even integer powers have a U-shape whereas the odd integer powers have an S-shape .    Power functions with negatives . Consider , , , , , . These are basically the previous graphs except upside down . In other words, a reflection over the -axis of the previous graphs.     functions with more terms . Consider adding terms with smaller exponents. Take a function that starts with , and add some terms like , , or a constant.       Observe that the first 3 all have the same S-shape, that starts in the bottom left and ends in the top right. The last 2 also share similar shapes, starting in the top left and ending in the bottom right. Observe that the negative sign in front basically reflects it upside down. The precise behavior of the function and how it goes up and down is much more complicated, however, and can't be determined just by looking at the equation.     functions with more terms . Let's do the same thing, but with an function.      Again, observe that they all have the same U-shape , and the ones with a negative in front are basically upside down.   In fact, you have seen this pattern before with parabolas (quadratic functions). Quadratic functions with various numbers . Recall that the number in front of (called the leading coefficient ) determines if it opens up or opens down . In particular, if it opens up, and if it opens down.   In summary,   The rough shape of a polynomial function is determined by the term with the highest power of .   In particular, it is based on:  The biggest exponent the polynomial has.  If the number in front is positive or negative.      "
+},
+{
+  "id": "sec-polynomial-functions-intro-3-3",
+  "level": "2",
+  "url": "sec-polynomial-functions-intro.html#sec-polynomial-functions-intro-3-3",
+  "type": "Definition",
+  "number": "3.1.3",
+  "title": "",
+  "body": " Roughly, a polynomial function is a function made up of adding and subtracting powers of with whole number exponents.    The degree of a polynomial function is the exponent on its highest power of .  Intuitively, degree means size , the degree of a polynomial can be thought of as how big it is.      The term with the highest power of is called the leading term , and its coefficient is called the leading coefficient .  Intuitively, leading means most important or in front .      "
+},
+{
+  "id": "sec-polynomial-functions-intro-3-7",
+  "level": "2",
+  "url": "sec-polynomial-functions-intro.html#sec-polynomial-functions-intro-3-7",
+  "type": "Example",
+  "number": "3.1.4",
+  "title": "Polynomial and Non-Polynomial Functions.",
+  "body": " Polynomial and Non-Polynomial Functions  Here are some functions which are polynomials, and some which are not.    is a polynomial, of degree 3, because all of the exponents are whole numbers.   is not a polynomial, because of the exponent of .   is not a polynomial, because it has the square root of .   is not a polynomial, because there is an in the denominator.   is a polynomial, intuitively because if you were to expand out all of the brackets, all of the powers of would be whole numbers.   Notice that all of the non-examples of polynomials either:   Don't have a domain which is all real numbers (they are undefined for some values of ), or,  Are not smooth (they have sharp corners) or not continuous (they have breaks).   "
+},
+{
+  "id": "sec-polynomial-functions-intro-5-3",
+  "level": "2",
+  "url": "sec-polynomial-functions-intro.html#sec-polynomial-functions-intro-5-3",
+  "type": "Definition",
+  "number": "3.1.5",
+  "title": "",
+  "body": " The end behavior of a function is its behavior as becomes large in either the positive or negative direction.  "
 },
 {
   "id": "end-behavior",
   "level": "2",
   "url": "sec-polynomial-functions-intro.html#end-behavior",
   "type": "Figure",
-  "number": "3.1.1",
+  "number": "3.1.6",
   "title": "",
   "body": " End behavior table   "
+},
+{
+  "id": "end-behavior-table-quadrants",
+  "level": "2",
+  "url": "sec-polynomial-functions-intro.html#end-behavior-table-quadrants",
+  "type": "Figure",
+  "number": "3.1.7",
+  "title": "",
+  "body": " End behavior table   "
+},
+{
+  "id": "sec-polynomial-functions-intro-5-16-2-2",
+  "level": "2",
+  "url": "sec-polynomial-functions-intro.html#sec-polynomial-functions-intro-5-16-2-2",
+  "type": "Remark",
+  "number": "3.1.8",
+  "title": "",
+  "body": " Remember that the quadrants are labelled starting from the top right, and going counterclockwise, like this:     "
+},
+{
+  "id": "sec-polynomial-functions-intro-6-5",
+  "level": "2",
+  "url": "sec-polynomial-functions-intro.html#sec-polynomial-functions-intro-6-5",
+  "type": "Example",
+  "number": "3.1.9",
+  "title": "y-intercept Example.",
+  "body": " y-intercept Example  For , the -intercept is .  "
+},
+{
+  "id": "sec-polynomial-functions-intro-7-3",
+  "level": "2",
+  "url": "sec-polynomial-functions-intro.html#sec-polynomial-functions-intro-7-3",
+  "type": "Definition",
+  "number": "3.1.10",
+  "title": "",
+  "body": " A number is a zero or ( root ) of if . The following are equivalent:    is a zero of .   is a root of .   is an -intercept of the graph of .   "
+},
+{
+  "id": "sec-polynomial-functions-intro-7-5",
+  "level": "2",
+  "url": "sec-polynomial-functions-intro.html#sec-polynomial-functions-intro-7-5",
+  "type": "Example",
+  "number": "3.1.11",
+  "title": "Finding x-intercepts.",
+  "body": " Finding x-intercepts  For , we get,   and we need to solve for . It is not obvious how to do this at first glance.  "
 },
 {
   "id": "sec-factoring-and-roots-of-polynomial-functions",
