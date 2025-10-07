@@ -6,6 +6,7 @@
       Recall that our goal is to be able to factor polynomials, in a similar way that we can factor quadratic functions. The question is: how do we find factors?
     </p>
     <example>
+      <title>Factoring a Quadratic</title>
       <p>
         Recall that quadratics can be written in factored form. For example,
       </p>
@@ -67,6 +68,7 @@
       <mrow>\begin{pmatrix} f(x) \\ \text{has factor} \\ x - a \end{pmatrix} \iff \begin{pmatrix} f(x) \text{ has root $a$} \\ \text{or, } f(a) = 0 \end{pmatrix} \iff \begin{pmatrix} \text{$f(x)$ divided by $x - a$} \\ \text{gives remainder 0} \end{pmatrix}</mrow>
     </md>
     <example>
+      <title>Using the Factor Theorem</title>
       <p>
         For the polynomial function <m>f(x) = 2x^3 - 3x^2 - 10x + 3</m>, to determine if <m>x-3</m> is a factor, evaluate <m>f(3)</m>,
       </p>
@@ -79,112 +81,85 @@
       </p>
     </example>
     
-    <exercises>
-      <exercisegroup>
-        <introduction>
-          <p>
-            For each zero of a polynomial function <m>f(x)</m>, give the corresponding factor.
-          </p>
-        </introduction>
-        <exercise>
-          <statement><p><m>f(1)=0</m></p></statement>
-          <answer><p><m>x-1</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>f(-3)=0</m></p></statement>
-          <answer><p><m>x+3</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>f(4)=0</m></p></statement>
-          <answer><p><m>x-4</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>f(a)=0</m></p></statement>
-          <answer><p><m>x-a</m></p></answer>
-        </exercise>
-      </exercisegroup>
-      <exercisegroup>
-        <introduction>
-          <p>
-            For <m>f(x) = x^3 - x^2 - 5x + 2</m>, determine if each binomial is a factor.
-          </p>
-        </introduction>
-        <exercise>
-          <statement><p><m>x-1</m></p></statement>
-          <answer><p>No.</p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>x+2</m></p></statement>
-          <answer><p>Yes.</p></answer>
-        </exercise>
-      </exercisegroup>
-      
-      <exercisegroup>
-        <introduction>
-          <p>
-            For <m>f(x) = x^4 + 6x^3 + 4x^2 + 7x + 60</m>, determine if each binomial is a factor.
-          </p>
-        </introduction>
-        <exercise>
-          <statement><p><m>x+5</m></p></statement>
-          <answer><p>Yes.</p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>x-2</m></p></statement>
-          <answer><p>No.</p></answer>
-        </exercise>
-      </exercisegroup>
-      <exercise>
-        <statement>
-          <p>
-            Find <m>k</m> so that <m>x+1</m> is a factor of <m>2x^4 + (k+1)x^2 - 6kx + 11</m>.
-          </p>
-        </statement>
-        <answer>
-          <p>
-            <m>k=-2</m>
-          </p>
-        </answer>
-      </exercise>
-      <exercise>
-        <statement>
-          <p>
-            What are all values of <m>k</m> for which <m>\frac{1}{2}</m> is a zero of 
-            <m>P(x) = -4x^3 + 2x^2 - 2kx + k^3</m>?
-          </p>
-        </statement>
-        <answer>
-          <p>
-            <m>k = 0, 1, -1</m>
-          </p>
-        </answer>
-      </exercise>
-      <exercise>
-        <statement>
-          <p>
-            If <m>x-a</m> is a factor of <m>2x^3 - a x^2 + (1-a^2)x + 5</m>, what is <m>a</m>?
-          </p>
-        </statement>
-        <answer>
-          <p>
-            <m>a = -5</m>
-          </p>
-        </answer>
-      </exercise>
-      <exercise>
-        <statement>
-          <p>
-            Find values for <m>a</m> and <m>b</m> such that <m>x-1</m> is a factor of both 
-            <m>x^3 + x^2 + ax + b</m> and <m>x^3 - x^2 - ax + b</m>.
-          </p>
-        </statement>
-        <answer>
-          <p>
-            <m>a = -1, b = -1</m>
-          </p>
-        </answer>
-      </exercise>
-    </exercises>
+    <project>
+      <title>Zeros and Corresponding Factors</title>
+      <introduction>
+        <p>
+          For each zero of a polynomial function <m>f(x)</m>, give the corresponding factor.
+        </p>
+      </introduction>
+      <task>
+        <statement><m>f(1)=0</m></statement>
+        <answer><m>x-1</m></answer>
+      </task>
+      <task>
+        <statement><m>f(-3)=0</m></statement>
+        <answer><m>x+3</m></answer>
+      </task>
+      <task>
+        <statement><m>f(4)=0</m></statement>
+        <answer><m>x-4</m></answer>
+      </task>
+      <task>
+        <statement><m>f(a)=0</m></statement>
+        <answer><m>x-a</m></answer>
+      </task>
+    </project>
+    <project>
+      <title>Identifying Factors I</title>
+      <introduction>
+        <p>
+          For <m>f(x) = x^3 - x^2 - 5x + 2</m>, determine if each binomial is a factor.
+        </p>
+      </introduction>
+      <task>
+        <statement><m>x-1</m></statement>
+        <answer>No.</answer>
+      </task>
+      <task>
+        <statement><m>x+2</m></statement>
+        <answer>Yes.</answer>
+      </task>
+    </project>
+    
+    <project>
+      <title>Identifying Factors II</title>
+      <introduction>
+        <p>
+          For <m>f(x) = x^4 + 6x^3 + 4x^2 + 7x + 60</m>, determine if each binomial is a factor.
+        </p>
+      </introduction>
+      <task>
+        <statement><m>x+5</m></statement>
+        <answer>Yes.</answer>
+      </task>
+      <task>
+        <statement><m>x-2</m></statement>
+        <answer>No.</answer>
+      </task>
+    </project>
+    <project>
+      <title>Finding Unknowns with the Factor Theorem</title>
+      <introduction>
+          <p>Solve for the unknown variables using the factor theorem.</p>
+      </introduction>
+      <task>
+        <statement>Find <m>k</m> so that <m>x+1</m> is a factor of <m>2x^4 + (k+1)x^2 - 6kx + 11</m>.</statement>
+        <answer><m>k=-2</m></answer>
+      </task>
+      <task>
+        <statement>What are all values of <m>k</m> for which <m>\frac{1}{2}</m> is a zero of <m>P(x) = -4x^3 + 2x^2 - 2kx + k^3</m>?</statement>
+        <answer><m>k = 0, 1, -1</m></answer>
+      </task>
+      <task>
+        <statement>If <m>x-a</m> is a factor of <m>2x^3 - a x^2 + (1-a^2)x + 5</m>, what is <m>a</m>?</statement>
+        <answer><m>a = -5</m></answer>
+      </task>
+      <task>
+        <statement>Find values for <m>a</m> and <m>b</m> such that <m>x-1</m> is a factor of both <m>x^3 + x^2 + ax + b</m> and <m>x^3 - x^2 - ax + b</m>.</statement>
+        <answer><m>a = -1, b = -1</m></answer>
+      </task>
+    </project>
   </subsection>
   <subsection>
     <title>The Remainder Theorem</title>
@@ -205,224 +180,189 @@
     <p>
       In other words, to find the remainder after division by <m>x-a</m>, you can just evaluate the polynomial at <m>x = a</m>, instead of going through the division process.
     </p>
-    <exercises xml:id="exercises-remainder-theorem">
-      <title>Exercises</title>
-      <exercisegroup>
-        <introduction>
-          <p>
-            Find the remainder for each polynomial division, using the remainder theorem.
-          </p>
-        </introduction>
-        <exercise>
-          <statement><p><m>(x^2 + 5x + 4) \div (x-2)</m></p></statement>
-          <answer><p>18</p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>(x^3 + 3x^2 - 5x + 2) \div (x+1)</m></p></statement>
-          <answer><p>9</p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>(x^2 - 2x) \div (x-4)</m></p></statement>
-          <answer><p>8</p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>(x^3 - 2x^2 - 3) \div (x+2)</m></p></statement>
-          <answer><p>-19</p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>(2x - 4x^3 - 3x^2) \div (x-2)</m></p></statement>
-          <answer><p>-40</p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>\dfrac{x^3 + 2x^2 - 3x + 9}{x+3}</m></p></statement>
-          <answer><p>9</p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>(x^3 + 2x^2 - 3x + 5) \div (x-3)</m></p></statement>
-          <answer><p>41</p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>\dfrac{x^4 - 3x^2 - 5x + 2}{x-2}</m></p></statement>
-          <answer><p>-4</p></answer>
-        </exercise>
-      </exercisegroup>
-      <exercisegroup>
-        <introduction>
-          <p>
-            Find each value of <m>m</m> from the given division and remainder.
-          </p>
-        </introduction>
-        <exercise>
-          <statement><p><m>(mx^2 - 2x - 1) \div (x-1)</m>, remainder <m>-2</m></p></statement>
-          <answer><p><m>m=1</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>(x^3 - mx^2 + 17x + 6) \div (x-3)</m>, remainder <m>12</m></p></statement>
-          <answer><p><m>m=8</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>(x^4 - 2x^3 - x^2 + mx + 2) \div (2x-1)</m>, remainder <m>-1</m></p></statement>
-          <answer><p><m>m=-\frac{41}{8}</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>(2x^4 - x^3 - 4x^2 + x - m) \div (x+3)</m>, remainder <m>3</m></p></statement>
-          <answer><p><m>m=147</m></p></answer>
-        </exercise>
-      </exercisegroup>
-      <exercisegroup>
-        <introduction>
-          <p>
-            Find <m>k</m> for each polynomial, using the given remainder condition.
-          </p>
-        </introduction>
-        <exercise>
-          <statement><p>When <m>f(x) = 4x^3 + kx^2 - 7x + 9</m> is divided by <m>x+3</m>, the remainder is <m>-33</m>.</p></statement>
-          <answer><p><m>k=5</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>(x^3 + 4x^2 - x + k) \div (x-1)</m> has remainder <m>3</m>.</p></statement>
-          <answer><p><m>k=-1</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>(x^3 + x^2 + kx - 15) \div (x-2)</m> has remainder <m>3</m>.</p></statement>
-          <answer><p><m>k=3</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>(x^3 + kx^2 + x + 5) \div (x+2)</m> has remainder <m>3</m>.</p></statement>
-          <answer><p><m>k=2</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>(kx^3 + 3x + 1) \div (x+2)</m> has remainder <m>3</m>.</p></statement>
-          <answer><p><m>k=-1</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>(3x^2 + 6x - 10) \div (x+k)</m> has remainder <m>14</m>.</p></statement>
-          <answer><p><m>k=-2</m> or <m>k=4</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p>When <m>x^3 + kx + 1</m> is divided by <m>x-2</m>, the remainder is <m>-3</m>.</p></statement>
-          <answer><p><m>k=-6</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p>When <m>x^3 - x^2 + kx - 8</m> is divided by <m>x-4</m>, the remainder is <m>0</m>.</p></statement>
-          <answer><p><m>k=-10</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p>When <m>2x^4 + kx^2 - 3x + 5</m> is divided by <m>x-2</m>, the remainder is <m>3</m>.</p></statement>
-          <answer><p><m>k=-7</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p>When <m>x^3 + kx + 6</m> is divided by <m>x+2</m>, the remainder is <m>4</m>.</p></statement>
-          <answer><p><m>k=-3</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p>When <m>p(x)=kx^{50} + 2x^{30} + 4x + 7</m> is divided by <m>x+1</m>, the remainder is <m>23</m>. Find <m>k</m>.</p></statement>
-          <answer><p><m>k=18</m></p></answer>
-        </exercise>
-      </exercisegroup>
-      <exercise>
-        <statement>
-          <p>
-            The polynomial <m>p(x)= -2x^3 + cx^2 - 5x + 2</m> has the same remainder when divided by <m>x-2</m> and by <m>x+1</m>. Find <m>c</m>.
-          </p>
-        </statement>
-        <answer>
-          <p>
-            <m>c=11</m>
-          </p>
-        </answer>
-      </exercise>
-      <exercisegroup>
-        <introduction>
-          <p>
-            Find the unknown coefficients for each polynomial.
-          </p>
-        </introduction>
-        <exercise>
-          <statement><p><m>3x^3 - mx^2 + nx + 2</m> has remainders <m>-6</m> upon division by <m>x+1</m> and <m>18</m> upon division by <m>x-2</m>. Find <m>m</m> and <m>n</m>.</p></statement>
-          <answer><p><m>m=3, n=2</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>2x^3 + mx^2 + nx - 14</m> has remainders <m>22</m> upon division by <m>x-2</m> and <m>-53</m> upon division by <m>x+3</m>. Find <m>m</m> and <m>n</m>.</p></statement>
-          <answer><p><m>m=3, n=4</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>mx^3 - 3x^2 + nx + 2</m> has remainders <m>-1</m> upon division by <m>x+3</m> and <m>-4</m> upon division by <m>x-2</m>. Find <m>m</m> and <m>n</m>.</p></statement>
-          <answer><p><m>m=-\frac{11}{5}, n=\frac{59}{5}</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>3x^3 + ax^2 + bx - 9</m> has remainders <m>-5</m> upon division by <m>x-2</m> and <m>-16</m> upon division by <m>x+1</m>. Find <m>a,b</m>.</p></statement>
-          <answer><p><m>a=-\frac{14}{3}, b=-\frac{2}{3}</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p>When <m>kx^3 + mx^2 + x - 2</m> is divided by <m>x-1</m>, the remainder is <m>6</m>. When this polynomial is divided by <m>x+2</m>, the remainder is <m>12</m>. Find <m>k</m> and <m>m</m>.</p></statement>
-          <answer><p><m>k=1, m=6</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>x^4 + kx^3 - mx + 15</m> has no remainder when divided by <m>x-1</m> and <m>x+3</m>. Find <m>k</m> and <m>m</m>.</p></statement>
-          <answer><p><m>k=6, m=22</m></p></answer>
-        </exercise>
-      </exercisegroup>
-      <exercise>
-        <statement>
-          <p>
-            When <m>p(x)=3x^4 + kx^2 + 7</m> is divided by <m>x-1</m>, the remainder is the same as when <m>f(x)=x^4 + kx - 4</m> is divided by <m>x-2</m>. Find <m>k</m>.
-          </p>
-        </statement>
-        <answer>
-          <p>
-            <m>k=-2</m>
-          </p>
-        </answer>
-      </exercise>
-      <exercise>
-        <statement>
-          <p>
-            When <m>x^3 + kx^2 - 2x - 7</m> is divided by <m>x+1</m>, the remainder is <m>5</m>. What is the remainder when it is divided by <m>x-1</m>?
-          </p>
-        </statement>
-        <answer>
-          <p>
-            <m>k=11</m>; the remainder is 3.
-          </p>
-        </answer>
-      </exercise>
-      <exercise>
-        <statement>
-          <p>
-            For <m>p(x)=x^3 - r x^2 + 3x + r^2</m>, find all values of <m>r</m> so that <m>p(3)=18</m>.
-          </p>
-        </statement>
-        <answer>
-          <p>
-            <m>r = 3, 6</m>
-          </p>
-        </answer>
-      </exercise>
-      <exercise>
-        <statement>
-          <p>
-            When <m>x^n + x - 8</m> is divided by <m>x-2</m>, the remainder is <m>10</m>. Find <m>n</m>.
-          </p>
-        </statement>
-        <answer>
-          <p>
-            <m>n=4</m>
-          </p>
-        </answer>
-      </exercise>
-      <exercise>
-        <statement>
-          <p>
-            When <m>x^2 - 4x + 3</m> is divided by <m>x+a</m>, the remainder is <m>8</m>. Find all possible values of <m>a</m>.
-          </p>
-        </statement>
-        <answer>
-          <p>
-            <m>a = 1</m> or <m>a=-5</m>.
-          </p>
-        </answer>
-      </exercise>
-    </exercises>
+    <project>
+      <title>Finding Remainders</title>
+      <introduction>
+        <p>
+          Find the remainder for each polynomial division, using the remainder theorem.
+        </p>
+      </introduction>
+      <task>
+        <statement><m>(x^2 + 5x + 4) \div (x-2)</m></statement>
+        <answer>18</answer>
+      </task>
+      <task>
+        <statement><m>(x^3 + 3x^2 - 5x + 2) \div (x+1)</m></statement>
+        <answer>9</answer>
+      </task>
+      <task>
+        <statement><m>(x^2 - 2x) \div (x-4)</m></statement>
+        <answer>8</answer>
+      </task>
+      <task>
+        <statement><m>(x^3 - 2x^2 - 3) \div (x+2)</m></statement>
+        <answer>-19</answer>
+      </task>
+      <task>
+        <statement><m>(2x - 4x^3 - 3x^2) \div (x-2)</m></statement>
+        <answer>-40</answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x^3 + 2x^2 - 3x + 9}{x+3}</m></statement>
+        <answer>9</answer>
+      </task>
+      <task>
+        <statement><m>(x^3 + 2x^2 - 3x + 5) \div (x-3)</m></statement>
+        <answer>41</answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x^4 - 3x^2 - 5x + 2}{x-2}</m></statement>
+        <answer>-4</answer>
+      </task>
+    </project>
+    <project>
+      <title>Solving for an Unknown Coefficient I</title>
+      <introduction>
+        <p>
+          Find each value of <m>m</m> from the given division and remainder.
+        </p>
+      </introduction>
+      <task>
+        <statement><m>(mx^2 - 2x - 1) \div (x-1)</m>, remainder <m>-2</m></statement>
+        <answer><m>m=1</m></answer>
+      </task>
+      <task>
+        <statement><m>(x^3 - mx^2 + 17x + 6) \div (x-3)</m>, remainder <m>12</m></statement>
+        <answer><m>m=8</m></answer>
+      </task>
+      <task>
+        <statement><m>(x^4 - 2x^3 - x^2 + mx + 2) \div (2x-1)</m>, remainder <m>-1</m></statement>
+        <answer><m>m=-\frac{41}{8}</m></answer>
+      </task>
+      <task>
+        <statement><m>(2x^4 - x^3 - 4x^2 + x - m) \div (x+3)</m>, remainder <m>3</m></statement>
+        <answer><m>m=147</m></answer>
+      </task>
+    </project>
+    <project>
+      <title>Solving for an Unknown Coefficient II</title>
+      <introduction>
+        <p>
+          Find <m>k</m> for each polynomial, using the given remainder condition.
+        </p>
+      </introduction>
+      <task>
+        <statement>When <m>f(x) = 4x^3 + kx^2 - 7x + 9</m> is divided by <m>x+3</m>, the remainder is <m>-33</m>.</statement>
+        <answer><m>k=5</m></answer>
+      </task>
+      <task>
+        <statement><m>(x^3 + 4x^2 - x + k) \div (x-1)</m> has remainder <m>3</m>.</statement>
+        <answer><m>k=-1</m></answer>
+      </task>
+      <task>
+        <statement><m>(x^3 + x^2 + kx - 15) \div (x-2)</m> has remainder <m>3</m>.</statement>
+        <answer><m>k=3</m></answer>
+      </task>
+      <task>
+        <statement><m>(x^3 + kx^2 + x + 5) \div (x+2)</m> has remainder <m>3</m>.</statement>
+        <answer><m>k=2</m></answer>
+      </task>
+      <task>
+        <statement><m>(kx^3 + 3x + 1) \div (x+2)</m> has remainder <m>3</m>.</statement>
+        <answer><m>k=-1</m></answer>
+      </task>
+      <task>
+        <statement><m>(3x^2 + 6x - 10) \div (x+k)</m> has remainder <m>14</m>.</statement>
+        <answer><m>k=-2</m> or <m>k=4</m></answer>
+      </task>
+      <task>
+        <statement>When <m>x^3 + kx + 1</m> is divided by <m>x-2</m>, the remainder is <m>-3</m>.</statement>
+        <answer><m>k=-6</m></answer>
+      </task>
+      <task>
+        <statement>When <m>x^3 - x^2 + kx - 8</m> is divided by <m>x-4</m>, the remainder is <m>0</m>.</statement>
+        <answer><m>k=-10</m></answer>
+      </task>
+      <task>
+        <statement>When <m>2x^4 + kx^2 - 3x + 5</m> is divided by <m>x-2</m>, the remainder is <m>3</m>.</statement>
+        <answer><m>k=-7</m></answer>
+      </task>
+      <task>
+        <statement>When <m>x^3 + kx + 6</m> is divided by <m>x+2</m>, the remainder is <m>4</m>.</statement>
+        <answer><m>k=-3</m></answer>
+      </task>
+      <task>
+        <statement>When <m>p(x)=kx^{50} + 2x^{30} + 4x + 7</m> is divided by <m>x+1</m>, the remainder is <m>23</m>. Find <m>k</m>.</statement>
+        <answer><m>k=18</m></answer>
+      </task>
+    </project>
+    <project>
+      <title>Problems with Equal Remainders</title>
+      <introduction>
+        <p>Solve the following problem.</p>
+      </introduction>
+      <task>
+        <statement>The polynomial <m>p(x)= -2x^3 + cx^2 - 5x + 2</m> has the same remainder when divided by <m>x-2</m> and by <m>x+1</m>. Find <m>c</m>.</statement>
+        <answer><m>c=11</m></answer>
+      </task>
+    </project>
+    <project>
+      <title>Solving for Multiple Unknown Coefficients</title>
+      <introduction>
+        <p>
+          Find the unknown coefficients for each polynomial.
+        </p>
+      </introduction>
+      <task>
+        <statement><m>3x^3 - mx^2 + nx + 2</m> has remainders <m>-6</m> upon division by <m>x+1</m> and <m>18</m> upon division by <m>x-2</m>. Find <m>m</m> and <m>n</m>.</statement>
+        <answer><m>m=3, n=2</m></answer>
+      </task>
+      <task>
+        <statement><m>2x^3 + mx^2 + nx - 14</m> has remainders <m>22</m> upon division by <m>x-2</m> and <m>-53</m> upon division by <m>x+3</m>. Find <m>m</m> and <m>n</m>.</statement>
+        <answer><m>m=3, n=4</m></answer>
+      </task>
+      <task>
+        <statement><m>mx^3 - 3x^2 + nx + 2</m> has remainders <m>-1</m> upon division by <m>x+3</m> and <m>-4</m> upon division by <m>x-2</m>. Find <m>m</m> and <m>n</m>.</statement>
+        <answer><m>m=-\frac{11}{5}, n=\frac{59}{5}</m></answer>
+      </task>
+      <task>
+        <statement><m>3x^3 + ax^2 + bx - 9</m> has remainders <m>-5</m> upon division by <m>x-2</m> and <m>-16</m> upon division by <m>x+1</m>. Find <m>a,b</m>.</statement>
+        <answer><m>a=-\frac{14}{3}, b=-\frac{2}{3}</m></answer>
+      </task>
+      <task>
+        <statement>When <m>kx^3 + mx^2 + x - 2</m> is divided by <m>x-1</m>, the remainder is <m>6</m>. When this polynomial is divided by <m>x+2</m>, the remainder is <m>12</m>. Find <m>k</m> and <m>m</m>.</statement>
+        <answer><m>k=1, m=6</m></answer>
+      </task>
+      <task>
+        <statement><m>x^4 + kx^3 - mx + 15</m> has no remainder when divided by <m>x-1</m> and <m>x+3</m>. Find <m>k</m> and <m>m</m>.</statement>
+        <answer><m>k=6, m=22</m></answer>
+      </task>
+    </project>
+    <project>
+      <title>Mixed Problems on the Remainder Theorem</title>
+      <introduction>
+        <p>Solve the following problems using the remainder theorem.</p>
+      </introduction>
+      <task>
+        <statement>When <m>p(x)=3x^4 + kx^2 + 7</m> is divided by <m>x-1</m>, the remainder is the same as when <m>f(x)=x^4 + kx - 4</m> is divided by <m>x-2</m>. Find <m>k</m>.</statement>
+        <answer><m>k=-2</m></answer>
+      </task>
+      <task>
+        <statement>When <m>x^3 + kx^2 - 2x - 7</m> is divided by <m>x+1</m>, the remainder is <m>5</m>. What is the remainder when it is divided by <m>x-1</m>?</statement>
+        <answer><m>k=11</m>; the remainder is 3.</answer>
+      </task>
+      <task>
+        <statement>For <m>p(x)=x^3 - r x^2 + 3x + r^2</m>, find all values of <m>r</m> so that <m>p(3)=18</m>.</statement>
+        <answer><m>r = 3, 6</m></answer>
+      </task>
+      <task>
+        <statement>When <m>x^n + x - 8</m> is divided by <m>x-2</m>, the remainder is <m>10</m>. Find <m>n</m>.</statement>
+        <answer><m>n=4</m></answer>
+      </task>
+      <task>
+        <statement>When <m>x^2 - 4x + 3</m> is divided by <m>x+a</m>, the remainder is <m>8</m>. Find all possible values of <m>a</m>.</statement>
+        <answer><m>a = 1</m> or <m>a=-5</m>.</answer>
+      </task>
+    </project>
   </subsection>
 </section>

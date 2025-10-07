@@ -6,7 +6,7 @@
 
   <book xml:id="home">
     <title>Algebra and Precalculus</title>
-    <!-- <subtitle>An example to get you started</subtitle> -->
+    <subtitle>A Practical Guide</subtitle>
 
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />

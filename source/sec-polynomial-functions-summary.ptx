@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-polynomial-functions-summary" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Polynomial Functions Summary</title>
+  
+  <!-- <introduction>
+  <p>
+  This is the introduction to the section. It can contain any content
+  that is valid in a <introduction> element, including <p>, <ul>, <ol>,
+  <figure>, and <table>. You can also include other files using
+  <xi:include> tags.
+  </p>
+  </introduction> -->
+  
+  <subsection>
+    <title>Summary of Graphing a Polynomial Function</title>
+    <ol>
+      <li>
+        <p>
+          <alert>End behavior</alert>. Find the end behavior of the polynomial, based on the degree and leading coefficient.
+        </p>
+      </li>
+      <li>
+        <p>
+          <alert>y-Intercept</alert>: Find the <m>y</m>-intercept, by evaluating <m>f(0)</m> (setting <m>x = 0</m> and solving for <m>y</m>).
+        </p>
+      </li>
+      <li>
+        <p>
+          <alert>x-Intercept(s)</alert>: Find any <m>x</m>-intercepts, by finding the zeros of the polynomial (setting <m>y = 0</m> and solving for <m>x</m>).
+        </p>
+      </li>
+      <li>
+        <p>
+          <alert>Multiplicity</alert>. Note the multiplicity of each zero. See <xref ref="multiplicity-table"/>.
+        </p>
+      </li>
+      <li>
+        <p>
+          Plot the <m>x</m>-intercepts and <m>y</m>-intercept.
+        </p>
+      </li>
+      <li>
+        <p>
+          Plot additional points between zeros (for more detail, if necessary).
+        </p>
+      </li>
+      <li>
+        <p>
+          Connect all of the points with a smooth curve, while respecting the end behavior and multiplicity at each zero.
+        </p>
+      </li>
+    </ol>
+  </subsection>
+  
+</section>
