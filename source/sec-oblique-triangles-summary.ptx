@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-oblique-triangles-summary" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Oblique Triangles Summary</title>
+  
+  <introduction>
+    <p>
+      Here is a simple summary of how to solve (oblique) triangles.
+    </p>
+    <p>
+      In short,
+    </p>
+    <ul>
+      <li>If you know an side-angle pair (side and it's opposite angle), use the <em>law of sines</em>.</li>
+      <li>Otherwise, use the <em>law of cosines</em>.</li>
+    </ul>
+    <p>
+      More specifically, based on the information given:
+    </p>
+    <tabular halign="left">
+      <row bottom="minor">
+        <cell><alert>Type</alert></cell>
+        <cell></cell>
+        <cell><alert>First steps</alert></cell>
+      </row>
+      <row>
+        <cell>Two angles and non-included side</cell>
+        <cell>AAS</cell>
+        <cell>law of sines</cell>
+      </row>
+      <row>
+        <cell>Two angles and included side</cell>
+        <cell>ASA</cell>
+        <cell>solve for remaining angle, then law of sines</cell>
+      </row>
+      <row>
+        <cell>Two sides and opposite angle</cell>
+        <cell>SSA</cell>
+        <cell>law of sines</cell>
+      </row>
+      <row>
+        <cell>Two sides and included angle</cell>
+        <cell>SAS</cell>
+        <cell>law of cosines (solve for side first)</cell>
+      </row>
+      <row>
+        <cell>Three sides</cell>
+        <cell>SSS</cell>
+        <cell>law of cosines (solve for an angle first)</cell>
+      </row>
+    </tabular>
+    <p>
+      Some additional notes:
+    </p>
+    <ul>
+      <li>If you know 2 angles, you can solve for the 3rd (subtract 180 minus the other two angles).</li>
+      <li>The SSA case also can be the ambiguous case if the triangle structure is unknown, with either 0, 1, or 2 solutions.</li>
+      <li>Be careful with rounding in intermediate steps, because it can lead to bigger rounding error in future calculations. A good guideline is to round intermediate calculations to at least 1 more decimal place than what the final answer asks for.</li>
+    </ul>
+  </introduction>
+  
+</section>
