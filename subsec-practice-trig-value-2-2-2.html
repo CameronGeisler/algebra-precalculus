@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title></title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Algebra and Precalculus">
+<meta property="book:author" content="Cameron Geisler">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.9.12';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.a85e2f1fefeea635.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.a707b621c77f7e48.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.557d81b04b3ec0e4.css">
+<script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body id="changeme" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><span class="previous-button button disabled"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></span><span class="up-button button disabled"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></span><span class="next-button button disabled"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></span></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+\newcommand{\abs}[1]{\left\lvert #1 \right\rvert}
+\newcommand{\set}[1]{\left\{ #1 \right\}}
+\renewcommand{\neg}{\sim}
+\newcommand{\brac}[1]{\left( #1 \right)}
+\newcommand{\rad}[1]{#1 \ \text{rad}}
+\newcommand{\eval}[1]{\left. #1 \right|}
+\newcommand{\floor}[1]{\left\lfloor #1 \right\rfloor}
+\newcommand{\ceil}[1]{\left\lceil #1 \right\rceil}
+
+
+\newcommand{\crossmethod}[4]{
+  \begin{tikzpicture}[baseline=(M.base)]
+  
+  \node (M) at (0,0)    {$#1$};   
+  \node (P) at (0,-1)   {$#2$};   
+  \node (N) at (1.5,0)  {$#3$};   
+  \node (Q) at (1.5,-1) {$#4$};   
+  
+  \draw (M) -- (Q);
+  \draw (P) -- (N);
+  \end{tikzpicture}
+}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="home.html"><span class="title">Algebra and Precalculus</span> <span class="subtitle">A Practical Guide</span></a></h1>
+<p class="byline">Cameron Geisler</p>
+</div></div></header><div class="ptx-page"><main class="ptx-main"><div id="ptx-content" class="ptx-content" style="max-width: 1600px">
+          
+            
+            
+              #trig-generator {
+                border: 1px solid #ccc;
+                padding: 15px;
+                border-radius: 5px;
+                background-color: #f9f9f9;
+              }
+              #trig-options {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+                margin-bottom: 20px;
+                padding-bottom: 15px;
+                border-bottom: 1px solid #ddd;
+              }
+              #trig-options &gt; div {
+                display: flex;
+                flex-direction: column;
+              }
+              #trig-problem-area {
+                padding-top: 15px;
+              }
+              #trig-question-display {
+                font-weight: bold;
+                font-size: 1.2em;
+                color: #333;
+              }
+              #trig_answer_input {
+                margin-top: 10px;
+                padding: 8px;
+                width: 150px;
+              }
+              #trig_feedback {
+                margin-top: 10px;
+                font-weight: bold;
+                height: 20px;
+              }
+              .trig-correct {
+                color: green;
+              }
+              .trig-incorrect {
+                color: red;
+              }
+              .trig-button {
+                padding: 8px 15px;
+                margin-right: 10px;
+                cursor: pointer;
+              }
+            
+            
+            
+              
+                
+                  Angle Units:
+                  
+                    Mixed
+                    Radians
+                    Degrees
+                  
+                
+                
+                  Angle Range:
+                  
+                    One Rotation (0 to 360°/2π)
+                    Extended (Coterminal Angles)
+                  
+                
+                
+                  Include Functions:
+                   Tangent
+                   Reciprocal (csc, sec, cot)
+                
+              
+              
+              
+                Evaluate ... exactly.
+                
+                
+                
+                Check Answer
+                New Question
+                
+                
+              
+            
+            
+            
+              // 
+                // IIFE to avoid polluting global namespace
+                (function() {
+                    // Data structure for special angles and their trig values
+                    const specialAngles = [
+                        { deg: 0, rad_n: 0, rad_d: 1, sin: ['0'], cos: ['1'], tan: ['0'], csc: ['undefined'], sec: ['1'], cot: ['undefined'] },
+                        { deg: 30, rad_n: 1, rad_d: 6, sin: ['1/2'], cos: ['sqrt(3)/2'], tan: ['1/sqrt(3)', 'sqrt(3)/3'], csc: ['2'], sec: ['2/sqrt(3)', '2*sqrt(3)/3'], cot: ['sqrt(3)'] },
+                        { deg: 45, rad_n: 1, rad_d: 4, sin: ['sqrt(2)/2', '1/sqrt(2)'], cos: ['sqrt(2)/2', '1/sqrt(2)'], tan: ['1'], csc: ['sqrt(2)', '2/sqrt(2)'], sec: ['sqrt(2)', '2/sqrt(2)'], cot: ['1'] },
+                        { deg: 60, rad_n: 1, rad_d: 3, sin: ['sqrt(3)/2'], cos: ['1/2'], tan: ['sqrt(3)'], csc: ['2/sqrt(3)', '2*sqrt(3)/3'], sec: ['2'], cot: ['1/sqrt(3)', 'sqrt(3)/3'] },
+                        { deg: 90, rad_n: 1, rad_d: 2, sin: ['1'], cos: ['0'], tan: ['undefined'], csc: ['1'], sec: ['undefined'], cot: ['0'] },
+                        { deg: 120, rad_n: 2, rad_d: 3, sin: ['sqrt(3)/2'], cos: ['-1/2'], tan: ['-sqrt(3)'], csc: ['2/sqrt(3)', '2*sqrt(3)/3'], sec: ['-2'], cot: ['-1/sqrt(3)', '-sqrt(3)/3'] },
+                        { deg: 135, rad_n: 3, rad_d: 4, sin: ['sqrt(2)/2', '1/sqrt(2)'], cos: ['-sqrt(2)/2', '-1/sqrt(2)'], tan: ['-1'], csc: ['sqrt(2)', '2/sqrt(2)'], sec: ['-sqrt(2)', '-2/sqrt(2)'], cot: ['-1'] },
+                        { deg: 150, rad_n: 5, rad_d: 6, sin: ['1/2'], cos: ['-sqrt(3)/2'], tan: ['-1/sqrt(3)', '-sqrt(3)/3'], csc: ['2'], sec: ['-2/sqrt(3)', '-2*sqrt(3)/3'], cot: ['-sqrt(3)'] },
+                        { deg: 180, rad_n: 1, rad_d: 1, sin: ['0'], cos: ['-1'], tan: ['0'], csc: ['undefined'], sec: ['-1'], cot: ['undefined'] },
+                        { deg: 210, rad_n: 7, rad_d: 6, sin: ['-1/2'], cos: ['-sqrt(3)/2'], tan: ['1/sqrt(3)', 'sqrt(3)/3'], csc: ['-2'], sec: ['-2/sqrt(3)', '-2*sqrt(3)/3'], cot: ['sqrt(3)'] },
+                        { deg: 225, rad_n: 5, rad_d: 4, sin: ['-sqrt(2)/2', '-1/sqrt(2)'], cos: ['-sqrt(2)/2', '-1/sqrt(2)'], tan: ['1'], csc: ['-sqrt(2)', '-2/sqrt(2)'], sec: ['-sqrt(2)', '-2/sqrt(2)'], cot: ['1'] },
+                        { deg: 240, rad_n: 4, rad_d: 3, sin: ['-sqrt(3)/2'], cos: ['-1/2'], tan: ['sqrt(3)'], csc: ['-2/sqrt(3)', '-2*sqrt(3)/3'], sec: ['-2'], cot: ['1/sqrt(3)', 'sqrt(3)/3'] },
+                        { deg: 270, rad_n: 3, rad_d: 2, sin: ['-1'], cos: ['0'], tan: ['undefined'], csc: ['-1'], sec: ['undefined'], cot: ['0'] },
+                        { deg: 300, rad_n: 5, rad_d: 3, sin: ['-sqrt(3)/2'], cos: ['1/2'], tan: ['-sqrt(3)'], csc: ['-2/sqrt(3)', '-2*sqrt(3)/3'], sec: ['2'], cot: ['-1/sqrt(3)', '-sqrt(3)/3'] },
+                        { deg: 315, rad_n: 7, rad_d: 4, sin: ['-sqrt(2)/2', '-1/sqrt(2)'], cos: ['sqrt(2)/2', '1/sqrt(2)'], tan: ['-1'], csc: ['-sqrt(2)', '-2/sqrt(2)'], sec: ['sqrt(2)', '2/sqrt(2)'], cot: ['-1'] },
+                        { deg: 330, rad_n: 11, rad_d: 6, sin: ['-1/2'], cos: ['sqrt(3)/2'], tan: ['-1/sqrt(3)', '-sqrt(3)/3'], csc: ['-2'], sec: ['2/sqrt(3)', '2*sqrt(3)/3'], cot: ['-sqrt(3)'] }
+                    ];
+              
+                    let currentCorrectAnswers = [];
+              
+                    // DOM Elements
+                    const questionDisplay = document.getElementById('trig_question_display');
+                    const answerInput = document.getElementById('trig_answer_input');
+                    const feedback = document.getElementById('trig_feedback');
+                    const checkBtn = document.getElementById('trig_check_btn');
+                    const newQBtn = document.getElementById('trig_new_q_btn');
+                    
+                    // Helper function for Greatest Common Divisor
+                    function gcd(a, b) {
+                        return b === 0 ? a : gcd(b, a % b);
+                    }
+              
+                    // Format radians for display
+                    function formatRadian(n, d) {
+                        if (n === 0) return '0';
+                        const common = gcd(n, d);
+                        n /= common;
+                        d /= common;
+                        if (d === 1) return (n === 1 ? '' : (n === -1 ? '-' : n)) + 'π';
+                        return (n === 1 ? '' : (n === -1 ? '-' : n)) + 'π/' + d;
+                    }
+              
+                    function generateQuestion() {
+                        // 1. Get user options
+                        const unitOption = document.getElementById('angle_unit').value;
+                        const rangeOption = document.getElementById('angle_range').value;
+                        const includeTan = document.getElementById('include_tan').checked;
+                        const includeReciprocal = document.getElementById('include_reciprocal').checked;
+              
+                        // 2. Build pool of functions
+                        let functions = ['sin', 'cos'];
+                        if (includeTan) functions.push('tan');
+                        if (includeReciprocal) functions.push('csc', 'sec', 'cot');
+              
+                        // 3. Select random angle and function
+                        const randomAngleData = specialAngles[Math.floor(Math.random() * specialAngles.length)];
+                        let chosenFunc = functions[Math.floor(Math.random() * functions.length)];
+                        
+                        // Filter out undefined combinations that might not be in the list by default
+                        while (randomAngleData[chosenFunc][0] === 'undefined' &amp;&amp; !includeReciprocal &amp;&amp; (chosenFunc === 'csc' || chosenFunc === 'sec' || chosenFunc === 'cot')) {
+                            chosenFunc = functions[Math.floor(Math.random() * functions.length)];
+                        }
+              
+                        // 4. Determine unit and range
+                        let useDegrees;
+                        if (unitOption === 'mixed') {
+                            useDegrees = Math.random() &lt; 0.5;
+                        } else {
+                            useDegrees = unitOption === 'degrees';
+                        }
+                        
+                        let displayAngle;
+                        let questionText;
+                        let angleDeg = randomAngleData.deg;
+                        let angleRadN = randomAngleData.rad_n;
+                        let angleRadD = randomAngleData.rad_d;
+              
+                        if (rangeOption === 'extended') {
+                            const rotations = Math.floor(Math.random() * 3) - 1; // -1, 0, or 1 rotations
+                            if (rotations !== 0) {
+                                angleDeg += rotations * 360;
+                                angleRadN += rotations * 2 * angleRadD;
+                            }
+                        }
+              
+                        if (useDegrees) {
+                            displayAngle = `${angleDeg}°`;
+                        } else {
+                            displayAngle = formatRadian(angleRadN, angleRadD);
+                        }
+                        
+                        questionText = `${chosenFunc}(${displayAngle})`;
+                        
+                        // 5. Update UI
+                        questionDisplay.textContent = questionText;
+                        currentCorrectAnswers = randomAngleData[chosenFunc];
+                        answerInput.value = '';
+                        feedback.textContent = '';
+                        feedback.className = '';
+                        answerInput.focus();
+                    }
+              
+                    function checkAnswer() {
+                        const userAnswer = answerInput.value.trim().toLowerCase().replace(/\s/g, '');
+                        
+                        if (userAnswer === '') {
+                           feedback.textContent = 'Please enter an answer.';
+                           feedback.className = 'trig-incorrect';
+                           return;
+                        }
+              
+                        const isCorrect = currentCorrectAnswers.some(correctAnswer =&gt; 
+                            userAnswer === correctAnswer.toLowerCase().replace(/\s/g, '')
+                        );
+              
+                        if (isCorrect) {
+                            feedback.textContent = 'Correct!';
+                            feedback.className = 'trig-correct';
+                        } else {
+                            feedback.textContent = 'Incorrect. Try again.';
+                            feedback.className = 'trig-incorrect';
+                        }
+                    }
+              
+                    // Event Listeners
+                    checkBtn.addEventListener('click', checkAnswer);
+                    newQBtn.addEventListener('click', generateQuestion);
+                    answerInput.addEventListener('keydown', function(event) {
+                        if (event.key === 'Enter') {
+                            checkAnswer();
+                        }
+                    });
+              
+                    // Initial question on load
+                    generateQuestion();
+                })();
+                // 
+            
+          
+        </div></main></div>
+</body>
+</html>

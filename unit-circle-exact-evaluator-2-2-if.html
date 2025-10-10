@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+          
+// ==== Unit Circle Exact Evaluator (p5.js) ====
+// Works in PreTeXt HTML output with the p5.js platform.
+// No canvas needed; using p5 DOM utilities.
+          
+let container, qDiv, optsDiv, ansDiv, msgDiv;
+let unitSelect, includeTanCB, includeRecipCB, extendedCB;
+let ansInput, checkBtn, newBtn;
+          
+let current = null;   // holds the generated problem data
+const EPS = 1e-10;
+          
+// Full set of special angles in degrees within one rotation (excluding 360 dup)
+const SPECIAL_DEG = [0,30,45,60,90,120,135,150,180,210,225,240,270,300,315,330];
+          
+// --- p5 setup ---
+function setup() {
+  noCanvas();
+          
+  container = createDiv().addClass('ptx-uc-container');
+  container.style('padding','0.5rem 0');
+          
+  // Options
+  optsDiv = createDiv().parent(container).addClass('ptx-uc-options');
+  optsDiv.style('margin','0.5rem 0 1rem 0');
+          
+  const unitsLbl = createSpan('Angle units: ').parent(optsDiv);
+  unitSelect = createSelect().parent(optsDiv);
+  unitSelect.option('Degrees','degrees');
+  unitSelect.option('Radians','radians');
+  unitSelect.option('Mixed','mixed');
+  unitSelect.selected('mixed');
+          
+  createSpan('&amp;nbsp;&amp;nbsp;').parent(optsDiv);
+          
+  includeTanCB = createCheckbox(' Include tangent', true).parent(optsDiv);
+  createSpan('&amp;nbsp;&amp;nbsp;').parent(optsDiv);
+  includeRecipCB = createCheckbox(' Include reciprocal (sec, csc, cot)', true).parent(optsDiv);
+  createSpan('&amp;nbsp;&amp;nbsp;').parent(optsDiv);
+  extendedCB   = createCheckbox(' Allow angles outside [0, 2π)', false).parent(optsDiv);
+          
+  // Question area
+  qDiv = createDiv('').parent(container).addClass('ptx-uc-question');
+  qDiv.style('font-size','1.05rem');
+          
+  // Answer input + buttons
+  ansDiv = createDiv().parent(container).addClass('ptx-uc-answers');
+  ansDiv.style('margin','0.5rem 0');
+          
+  const prompt = createSpan('Your answer: ').parent(ansDiv);
+  ansInput = createInput('').parent(ansDiv);
+  ansInput.attribute('placeholder','e.g. sqrt(2)/2 or 1/sqrt(2) or undefined');
+  ansInput.style('min-width','18rem');
+  createSpan('&amp;nbsp;&amp;nbsp;').parent(ansDiv);
+          
+  checkBtn = createButton('Check answer').parent(ansDiv);
+  checkBtn.mousePressed(checkAnswer);
+          
+  createSpan('&amp;nbsp;').parent(ansDiv);
+  newBtn = createButton('New question').parent(ansDiv);
+  newBtn.mousePressed(newQuestion);
+          
+  // Feedback
+  msgDiv = createDiv('').parent(container).addClass('ptx-uc-feedback');
+  msgDiv.style('min-height','1.5rem');
+          
+  // Initial problem
+  newQuestion();
+}
+          
+// --- Utilities ---
+function gcd(a,b){ a=Math.abs(a); b=Math.abs(b); while(b){ [a,b]=[b,a%b]; } return a||1; }
+function mod360(d){ let x = d % 360; if (x &lt; 0) x += 360; return x; }
+          
+// Convert degrees to a reduced nπ/d representation
+function degToPiFrac(deg) {
+  if (deg === 0) return { n: 0, d: 1 };
+  const sign = Math.sign(deg);
+  const ad = Math.abs(deg);
+  // deg/180 = n/d
+  let N = ad, D = 180;
+  const g = gcd(N, D);
+  N = (N / g) * sign; D = D / g;
+  return { n: N, d: D };
+}
+          
+// Format the angle nicely in radians
+function formatAngleRadians(deg) {
+  if (deg === 0) return '0';
+  const {n,d} = degToPiFrac(deg);
+  const s = Math.sign(n) &lt; 0 ? '-' : '';
+  const an = Math.abs(n);
+  if (d === 1) {
+    if (an === 1) return s + '\\pi';
+    return s + an + '\\pi';
+  }
+  // nπ/d with no leading 1
+  return s + (an===1 ? '' : an) + '\\pi/' + d;
+}
+          
+// Format degrees (with °)
+function formatAngleDegrees(deg) {
+  return String(deg) + '^{\\circ}';
+}
+          
+// Re-typeset MathJax within a DOM node
+function typeset(node) {
+  if (window.MathJax &amp;&amp; MathJax.typesetPromise) {
+    MathJax.typesetPromise([node]).catch(()=&gt;{});
+  }
+}
+          
+// Choose a random element of an array
+function choice(arr){ return arr[Math.floor(Math.random()*arr.length)]; }
+          
+// Build the list of candidate functions given toggles
+function allowedFunctions() {
+  const out = ['sin','cos'];
+  if (includeTanCB.checked()) out.push('tan');
+  if (includeRecipCB.checked()) out.push('sec','csc','cot');
+  return out;
+}
+          
+// Exact-friendly numeric evaluation of trig (in radians)
+function trigValue(func, rad) {
+  if (func === 'sin') return Math.sin(rad);
+  if (func === 'cos') return Math.cos(rad);
+  if (func === 'tan') return Math.tan(rad);
+  if (func === 'sec') return 1/Math.cos(rad);
+  if (func === 'csc') return 1/Math.sin(rad);
+  if (func === 'cot') return 1/Math.tan(rad);
+  return NaN;
+}
+          
+// Detect undefined (division by zero) for the chosen function at given radians
+function isUndefined(func, rad) {
+  const s = Math.sin(rad), c = Math.cos(rad), t = Math.tan(rad);
+  if (func === 'tan') return Math.abs(c) &lt; EPS;   // cos=0
+  if (func === 'sec') return Math.abs(c) &lt; EPS;   // 1/cos
+  if (func === 'csc') return Math.abs(s) &lt; EPS;   // 1/sin
+  if (func === 'cot') return Math.abs(s) &lt; EPS;   // 1/tan = cos/sin
+  return false; // sin, cos defined everywhere
+}
+          
+// Normalize and safely evaluate a student expression in JS
+function evalStudent(exprRaw) {
+  let s = (exprRaw||'').trim().toLowerCase();
+          
+  // allow synonyms for undefined
+  const und = ['undefined','dne','does not exist','not defined','not-defined','na','n/a'];
+  if (und.includes(s)) return { kind:'undefined' };
+          
+  // Reject decimals to enforce exact forms
+  if (/[0-9]+\.[0-9]/.test(s)) {
+    return { kind:'error', msg:'Use exact values (no decimals).' };
+  }
+          
+  // Only allow safe characters/tokens
+  const safe = /^[0-9\s\+\-\*\/\(\)\^√a-z]+$/;
+  if (!safe.test(s)) {
+    return { kind:'error', msg:'Invalid characters. Use integers, /, parentheses, sqrt(...), pi/π.' };
+  }
+          
+  // Replace tokens: pi/π, sqrt(), caret, √
+  s = s.replace(/π/g,'pi');
+  s = s.replace(/sqrt\s*\(/g,'Math.sqrt(');
+  s = s.replace(/√\s*\(/g,'Math.sqrt(');
+  s = s.replace(/√\s*([0-9]+)/g,'Math.sqrt($1)');
+  s = s.replace(/pi/g,'Math.PI');
+  s = s.replace(/\^/g,'**');
+          
+  // Disallow letters beyond "Math.sqrt" after normalization
+  if (/[^0-9\s\+\-\*\/\(\)\.\*MathPIqrt]/.test(s)) {
+    return { kind:'error', msg:'Invalid token. Use sqrt(...) and pi only.' };
+  }
+          
+  // Evaluate
+  let val;
+  try {
+    // eslint-disable-next-line no-new-func
+    val = Function('"use strict"; return (' + s + ')')();
+    if (!isFinite(val)) return { kind:'undefined' };
+  } catch(e) {
+    return { kind:'error', msg:'Could not parse your expression.' };
+  }
+  return { kind:'number', value: val };
+}
+          
+// --- Problem generation ---
+function newQuestion() {
+  msgDiv.html('');
+  ansInput.value('');
+          
+  const funcs = allowedFunctions();
+  if (funcs.length === 0) {
+    qDiv.html('&lt;em&gt;Please enable at least one function (tan or reciprocal) besides sin/cos.&lt;/em&gt;');
+    return;
+  }
+          
+  // Angle selection (possibly outside one rotation)
+  let base = choice(SPECIAL_DEG);
+  let add = 0;
+  if (extendedCB.checked()) {
+    const bumps = [-720,-360,-180,0,180,360,720];
+    add = choice(bumps);
+  }
+  const deg = base + add;
+          
+  // Units to display
+  let units = unitSelect.value();
+  if (units === 'mixed') {
+    units = Math.random() &lt; 0.5 ? 'degrees' : 'radians';
+  }
+          
+  const func = choice(funcs);
+  const rad = deg * Math.PI / 180;
+          
+  // Build prompt
+  const angleStr = (units === 'degrees') ? formatAngleDegrees(deg) : formatAngleRadians(deg);
+  const tex = `\\(\\displaystyle ${func}\\left(${angleStr}\\right)\\)`;
+  qDiv.html('Evaluate ' + tex + ' exactly:');
+          
+  // Store state
+  current = {
+    func, deg, rad,
+    undefined: isUndefined(func, rad),
+    numeric: trigValue(func, rad),
+    unitsShown: units
+  };
+          
+  // Typeset math
+  typeset(qDiv.elt);
+}
+          
+// --- Answer checking ---
+function checkAnswer() {
+  if (!current) return;
+          
+  const stu = evalStudent(ansInput.value());
+          
+  // Handle parse errors or undefined claims
+  if (stu.kind === 'error') {
+    msgDiv.html('&lt;span style="color:#b00;"&gt;' + stu.msg + '&lt;/span&gt;');
+    return;
+  }
+  if (stu.kind === 'undefined') {
+    if (current.undefined) {
+      msgDiv.html('&lt;span style="color:green;"&gt;Correct.&lt;/span&gt;');
+    } else {
+      msgDiv.html('&lt;span style="color:#b00;"&gt;Not correct here — the exact value exists.&lt;/span&gt;');
+    }
+    return;
+  }
+          
+  // Numeric comparison (tolerance), but only for exact forms (decimals rejected above)
+  if (current.undefined) {
+    msgDiv.html('&lt;span style="color:#b00;"&gt;The expression is undefined at this angle.&lt;/span&gt;');
+    return;
+  }
+          
+  const ok = Math.abs(stu.value - current.numeric) &lt; 1e-9;
+  if (ok) {
+    msgDiv.html('&lt;span style="color:green;"&gt;Correct.&lt;/span&gt;');
+  } else {
+    msgDiv.html('&lt;span style="color:#b00;"&gt;That’s not correct. Try another equivalent exact form.&lt;/span&gt;');
+  }
+}
+      
+        </head>
+<body class="ptx-content ignore-math" id="changeme">
+<div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+\newcommand{\abs}[1]{\left\lvert #1 \right\rvert}
+\newcommand{\set}[1]{\left\{ #1 \right\}}
+\renewcommand{\neg}{\sim}
+\newcommand{\brac}[1]{\left( #1 \right)}
+\newcommand{\rad}[1]{#1 \ \text{rad}}
+\newcommand{\eval}[1]{\left. #1 \right|}
+\newcommand{\floor}[1]{\left\lfloor #1 \right\rfloor}
+\newcommand{\ceil}[1]{\left\lceil #1 \right\rceil}
+
+
+\newcommand{\crossmethod}[4]{
+  \begin{tikzpicture}[baseline=(M.base)]
+  
+  \node (M) at (0,0)    {$#1$};   
+  \node (P) at (0,-1)   {$#2$};   
+  \node (N) at (1.5,0)  {$#3$};   
+  \node (Q) at (1.5,-1) {$#4$};   
+  
+  \draw (M) -- (Q);
+  \draw (P) -- (N);
+  \end{tikzpicture}
+}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div style="width:600px; height:600px; display: block; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;"></div>
+</body>
+</html>
