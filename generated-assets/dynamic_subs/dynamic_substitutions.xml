@@ -1,7 +1,8 @@
 <xml>
   <dynamic-substitution id="trig-exact-practice">
-    <eval-subst obj="func">tan</eval-subst>
-    <eval-subst obj="angleTeX">\tfrac{1\pi}{6}</eval-subst>
-    <eval-subst obj="answerExpr">sqrt(3)/3</eval-subst>
+    <eval-subst obj="exprTeX">\sin\bigl(30^{\circ}\bigr)</eval-subst>
+    <eval-subst obj="answerExpr">1/2</eval-subst>
+    <eval-subst obj="func">sin</eval-subst>
+    <eval-subst obj="angleTeX">30^{\circ}</eval-subst>
   </dynamic-substitution>
 </xml>

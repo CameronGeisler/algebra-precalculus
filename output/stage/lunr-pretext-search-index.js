@@ -1141,7 +1141,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.2",
   "title": "Factoring and Roots of Polynomial Functions",
-  "body": " Factoring and Roots of Polynomial Functions   Recall that our goal is to be able to factor polynomials, in a similar way that we can factor quadratic functions. The question is: how do we find factors?   Recall that quadratics can be written in factored form. For example,      The factors are and .    The zeros are and .     Notice that each zero corresponds to a factor. In other words,    This relationship extends to any polynomial function, and is called the factor theorem .    Factor Theorem   Factor theorem   Let be a polynomial. Then, is a factor of the polynomial if and only if . In other words,   If , then is a factor of .    If is a factor of , then .       This provides an equivalence between being a factor of , and being a root of . We also know that being a factor of means that dividing by gives a remainder of 0. Putting it together, these are all equivalent:    For the polynomial function , to determine if is a factor, evaluate ,   This means that is a root, so by the factor theorem, is a factor of .      For each zero of a polynomial function , give the corresponding factor.                      For , determine if each binomial is a factor.     No.     Yes.      For , determine if each binomial is a factor.     Yes.     No.      Find so that is a factor of .           What are all values of for which is a zero of ?           If is a factor of , what is ?           Find values for and such that is a factor of both and .            The Remainder Theorem  The remainder theorem states that when a polynomial is divided by a binomial , the remainder is .   Remainder theorem   If a polynomial is divided by a binomial , the remainder is equal to the function evaluated at , i.e. .     In other words, to find the remainder after division by , you can just evaluate the polynomial at , instead of going through the division process.   Exercises    Find the remainder for each polynomial division, using the remainder theorem.     18     9     8     -19     -40     9     41     -4      Find each value of from the given division and remainder.    , remainder     , remainder     , remainder     , remainder       Find for each polynomial, using the given remainder condition.    When is divided by , the remainder is .     has remainder .     has remainder .     has remainder .     has remainder .     has remainder .  or    When is divided by , the remainder is .     When is divided by , the remainder is .     When is divided by , the remainder is .     When is divided by , the remainder is .     When is divided by , the remainder is . Find .       The polynomial has the same remainder when divided by and by . Find .           Find the unknown coefficients for each polynomial.    has remainders upon division by and upon division by . Find and .     has remainders upon division by and upon division by . Find and .     has remainders upon division by and upon division by . Find and .     has remainders upon division by and upon division by . Find .     When is divided by , the remainder is . When this polynomial is divided by , the remainder is . Find and .     has no remainder when divided by and . Find and .       When is divided by , the remainder is the same as when is divided by . Find .           When is divided by , the remainder is . What is the remainder when it is divided by ?     ; the remainder is 3.      For , find all values of so that .           When is divided by , the remainder is . Find .           When is divided by , the remainder is . Find all possible values of .     or .      "
+  "body": " Factoring and Roots of Polynomial Functions   Recall that our goal is to be able to factor polynomials, in a similar way that we can factor quadratic functions. The question is: how do we find factors?   Factoring a Quadratic  Recall that quadratics can be written in factored form. For example,      The factors are and .    The zeros are and .     Notice that each zero corresponds to a factor. In other words,    This relationship extends to any polynomial function, and is called the factor theorem .    Factor Theorem   Factor theorem   Let be a polynomial. Then, is a factor of the polynomial if and only if . In other words,   If , then is a factor of .    If is a factor of , then .       This provides an equivalence between being a factor of , and being a root of . We also know that being a factor of means that dividing by gives a remainder of 0. Putting it together, these are all equivalent:    Using the Factor Theorem  For the polynomial function , to determine if is a factor, evaluate ,   This means that is a root, so by the factor theorem, is a factor of .    Zeros and Corresponding Factors   For each zero of a polynomial function , give the corresponding factor.                     Identifying Factors I   For , determine if each binomial is a factor.     No.     Yes.     Identifying Factors II   For , determine if each binomial is a factor.     Yes.     No.     Finding Unknowns with the Factor Theorem   Solve for the unknown variables using the factor theorem.    Find so that is a factor of .     What are all values of for which is a zero of ?     If is a factor of , what is ?     Find values for and such that is a factor of both and .       The Remainder Theorem  The remainder theorem states that when a polynomial is divided by a binomial , the remainder is .   Remainder theorem   If a polynomial is divided by a binomial , the remainder is equal to the function evaluated at , i.e. .     In other words, to find the remainder after division by , you can just evaluate the polynomial at , instead of going through the division process.   Finding Remainders   Find the remainder for each polynomial division, using the remainder theorem.     18     9     8     -19     -40     9     41     -4     Solving for an Unknown Coefficient I   Find each value of from the given division and remainder.    , remainder     , remainder     , remainder     , remainder      Solving for an Unknown Coefficient II   Find for each polynomial, using the given remainder condition.    When is divided by , the remainder is .     has remainder .     has remainder .     has remainder .     has remainder .     has remainder .  or    When is divided by , the remainder is .     When is divided by , the remainder is .     When is divided by , the remainder is .     When is divided by , the remainder is .     When is divided by , the remainder is . Find .      Problems with Equal Remainders   Solve the following problem.    The polynomial has the same remainder when divided by and by . Find .      Solving for Multiple Unknown Coefficients   Find the unknown coefficients for each polynomial.    has remainders upon division by and upon division by . Find and .     has remainders upon division by and upon division by . Find and .     has remainders upon division by and upon division by . Find and .     has remainders upon division by and upon division by . Find .     When is divided by , the remainder is . When this polynomial is divided by , the remainder is . Find and .     has no remainder when divided by and . Find and .      Mixed Problems on the Remainder Theorem   Solve the following problems using the remainder theorem.    When is divided by , the remainder is the same as when is divided by . Find .     When is divided by , the remainder is . What is the remainder when it is divided by ?  ; the remainder is 3.    For , find all values of so that .     When is divided by , the remainder is . Find .     When is divided by , the remainder is . Find all possible values of .  or .     "
 },
 {
   "id": "sec-factoring-and-roots-of-polynomial-functions-2-2",
@@ -1149,8 +1149,8 @@ var ptx_lunr_docs = [
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-2-2",
   "type": "Example",
   "number": "4.2.1",
-  "title": "",
-  "body": " Recall that quadratics can be written in factored form. For example,      The factors are and .    The zeros are and .     Notice that each zero corresponds to a factor. In other words,   "
+  "title": "Factoring a Quadratic.",
+  "body": " Factoring a Quadratic  Recall that quadratics can be written in factored form. For example,      The factors are and .    The zeros are and .     Notice that each zero corresponds to a factor. In other words,   "
 },
 {
   "id": "sec-factoring-and-roots-of-polynomial-functions-3-2",
@@ -1167,116 +1167,44 @@ var ptx_lunr_docs = [
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-3-5",
   "type": "Example",
   "number": "4.2.3",
-  "title": "",
-  "body": " For the polynomial function , to determine if is a factor, evaluate ,   This means that is a root, so by the factor theorem, is a factor of .  "
+  "title": "Using the Factor Theorem.",
+  "body": " Using the Factor Theorem  For the polynomial function , to determine if is a factor, evaluate ,   This means that is a root, so by the factor theorem, is a factor of .  "
 },
 {
-  "id": "sec-factoring-and-roots-of-polynomial-functions-3-6-1-2",
+  "id": "sec-factoring-and-roots-of-polynomial-functions-3-6",
   "level": "2",
-  "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-3-6-1-2",
-  "type": "Exercise",
-  "number": "4.2.1.1",
-  "title": "",
-  "body": "   "
+  "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-3-6",
+  "type": "Exercise Group",
+  "number": "4.2.1",
+  "title": "Zeros and Corresponding Factors.",
+  "body": " Zeros and Corresponding Factors   For each zero of a polynomial function , give the corresponding factor.                   "
 },
 {
-  "id": "sec-factoring-and-roots-of-polynomial-functions-3-6-1-3",
+  "id": "sec-factoring-and-roots-of-polynomial-functions-3-7",
   "level": "2",
-  "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-3-6-1-3",
-  "type": "Exercise",
-  "number": "4.2.1.2",
-  "title": "",
-  "body": "   "
+  "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-3-7",
+  "type": "Exercise Group",
+  "number": "4.2.2",
+  "title": "Identifying Factors I.",
+  "body": " Identifying Factors I   For , determine if each binomial is a factor.     No.     Yes.   "
 },
 {
-  "id": "sec-factoring-and-roots-of-polynomial-functions-3-6-1-4",
+  "id": "sec-factoring-and-roots-of-polynomial-functions-3-8",
   "level": "2",
-  "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-3-6-1-4",
-  "type": "Exercise",
-  "number": "4.2.1.3",
-  "title": "",
-  "body": "   "
+  "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-3-8",
+  "type": "Exercise Group",
+  "number": "4.2.3",
+  "title": "Identifying Factors II.",
+  "body": " Identifying Factors II   For , determine if each binomial is a factor.     Yes.     No.   "
 },
 {
-  "id": "sec-factoring-and-roots-of-polynomial-functions-3-6-1-5",
+  "id": "sec-factoring-and-roots-of-polynomial-functions-3-9",
   "level": "2",
-  "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-3-6-1-5",
-  "type": "Exercise",
-  "number": "4.2.1.4",
-  "title": "",
-  "body": "   "
-},
-{
-  "id": "sec-factoring-and-roots-of-polynomial-functions-3-6-2-2",
-  "level": "2",
-  "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-3-6-2-2",
-  "type": "Exercise",
-  "number": "4.2.1.5",
-  "title": "",
-  "body": "  No.  "
-},
-{
-  "id": "sec-factoring-and-roots-of-polynomial-functions-3-6-2-3",
-  "level": "2",
-  "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-3-6-2-3",
-  "type": "Exercise",
-  "number": "4.2.1.6",
-  "title": "",
-  "body": "  Yes.  "
-},
-{
-  "id": "sec-factoring-and-roots-of-polynomial-functions-3-6-3-2",
-  "level": "2",
-  "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-3-6-3-2",
-  "type": "Exercise",
-  "number": "4.2.1.7",
-  "title": "",
-  "body": "  Yes.  "
-},
-{
-  "id": "sec-factoring-and-roots-of-polynomial-functions-3-6-3-3",
-  "level": "2",
-  "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-3-6-3-3",
-  "type": "Exercise",
-  "number": "4.2.1.8",
-  "title": "",
-  "body": "  No.  "
-},
-{
-  "id": "sec-factoring-and-roots-of-polynomial-functions-3-6-4",
-  "level": "2",
-  "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-3-6-4",
-  "type": "Exercise",
-  "number": "4.2.1.9",
-  "title": "",
-  "body": "  Find so that is a factor of .        "
-},
-{
-  "id": "sec-factoring-and-roots-of-polynomial-functions-3-6-5",
-  "level": "2",
-  "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-3-6-5",
-  "type": "Exercise",
-  "number": "4.2.1.10",
-  "title": "",
-  "body": "  What are all values of for which is a zero of ?        "
-},
-{
-  "id": "sec-factoring-and-roots-of-polynomial-functions-3-6-6",
-  "level": "2",
-  "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-3-6-6",
-  "type": "Exercise",
-  "number": "4.2.1.11",
-  "title": "",
-  "body": "  If is a factor of , what is ?        "
-},
-{
-  "id": "sec-factoring-and-roots-of-polynomial-functions-3-6-7",
-  "level": "2",
-  "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-3-6-7",
-  "type": "Exercise",
-  "number": "4.2.1.12",
-  "title": "",
-  "body": "  Find values for and such that is a factor of both and .        "
+  "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-3-9",
+  "type": "Exercise Group",
+  "number": "4.2.4",
+  "title": "Finding Unknowns with the Factor Theorem.",
+  "body": " Finding Unknowns with the Factor Theorem   Solve for the unknown variables using the factor theorem.    Find so that is a factor of .     What are all values of for which is a zero of ?     If is a factor of , what is ?     Find values for and such that is a factor of both and .    "
 },
 {
   "id": "sec-factoring-and-roots-of-polynomial-functions-4-3",
@@ -1288,319 +1216,112 @@ var ptx_lunr_docs = [
   "body": " Remainder theorem   If a polynomial is divided by a binomial , the remainder is equal to the function evaluated at , i.e. .    "
 },
 {
-  "id": "exercises-remainder-theorem-2-2",
+  "id": "sec-factoring-and-roots-of-polynomial-functions-4-5",
   "level": "2",
-  "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-2-2",
-  "type": "Exercise",
-  "number": "4.2.2.1",
-  "title": "",
-  "body": "  18  "
+  "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-4-5",
+  "type": "Exercise Group",
+  "number": "4.2.5",
+  "title": "Finding Remainders.",
+  "body": " Finding Remainders   Find the remainder for each polynomial division, using the remainder theorem.     18     9     8     -19     -40     9     41     -4   "
 },
 {
-  "id": "exercises-remainder-theorem-2-3",
+  "id": "sec-factoring-and-roots-of-polynomial-functions-4-6",
   "level": "2",
-  "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-2-3",
-  "type": "Exercise",
-  "number": "4.2.2.2",
-  "title": "",
-  "body": "  9  "
+  "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-4-6",
+  "type": "Exercise Group",
+  "number": "4.2.6",
+  "title": "Solving for an Unknown Coefficient I.",
+  "body": " Solving for an Unknown Coefficient I   Find each value of from the given division and remainder.    , remainder     , remainder     , remainder     , remainder    "
 },
 {
-  "id": "exercises-remainder-theorem-2-4",
+  "id": "sec-factoring-and-roots-of-polynomial-functions-4-7",
   "level": "2",
-  "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-2-4",
-  "type": "Exercise",
-  "number": "4.2.2.3",
-  "title": "",
-  "body": "  8  "
+  "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-4-7",
+  "type": "Exercise Group",
+  "number": "4.2.7",
+  "title": "Solving for an Unknown Coefficient II.",
+  "body": " Solving for an Unknown Coefficient II   Find for each polynomial, using the given remainder condition.    When is divided by , the remainder is .     has remainder .     has remainder .     has remainder .     has remainder .     has remainder .  or    When is divided by , the remainder is .     When is divided by , the remainder is .     When is divided by , the remainder is .     When is divided by , the remainder is .     When is divided by , the remainder is . Find .    "
 },
 {
-  "id": "exercises-remainder-theorem-2-5",
+  "id": "sec-factoring-and-roots-of-polynomial-functions-4-8",
   "level": "2",
-  "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-2-5",
-  "type": "Exercise",
-  "number": "4.2.2.4",
-  "title": "",
-  "body": "  -19  "
+  "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-4-8",
+  "type": "Exercise Group",
+  "number": "4.2.8",
+  "title": "Problems with Equal Remainders.",
+  "body": " Problems with Equal Remainders   Solve the following problem.    The polynomial has the same remainder when divided by and by . Find .    "
 },
 {
-  "id": "exercises-remainder-theorem-2-6",
+  "id": "sec-factoring-and-roots-of-polynomial-functions-4-9",
   "level": "2",
-  "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-2-6",
-  "type": "Exercise",
-  "number": "4.2.2.5",
-  "title": "",
-  "body": "  -40  "
+  "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-4-9",
+  "type": "Exercise Group",
+  "number": "4.2.9",
+  "title": "Solving for Multiple Unknown Coefficients.",
+  "body": " Solving for Multiple Unknown Coefficients   Find the unknown coefficients for each polynomial.    has remainders upon division by and upon division by . Find and .     has remainders upon division by and upon division by . Find and .     has remainders upon division by and upon division by . Find and .     has remainders upon division by and upon division by . Find .     When is divided by , the remainder is . When this polynomial is divided by , the remainder is . Find and .     has no remainder when divided by and . Find and .    "
 },
 {
-  "id": "exercises-remainder-theorem-2-7",
+  "id": "sec-factoring-and-roots-of-polynomial-functions-4-10",
   "level": "2",
-  "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-2-7",
-  "type": "Exercise",
-  "number": "4.2.2.6",
-  "title": "",
-  "body": "  9  "
+  "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-4-10",
+  "type": "Exercise Group",
+  "number": "4.2.10",
+  "title": "Mixed Problems on the Remainder Theorem.",
+  "body": " Mixed Problems on the Remainder Theorem   Solve the following problems using the remainder theorem.    When is divided by , the remainder is the same as when is divided by . Find .     When is divided by , the remainder is . What is the remainder when it is divided by ?  ; the remainder is 3.    For , find all values of so that .     When is divided by , the remainder is . Find .     When is divided by , the remainder is . Find all possible values of .  or .   "
 },
 {
-  "id": "exercises-remainder-theorem-2-8",
-  "level": "2",
-  "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-2-8",
-  "type": "Exercise",
-  "number": "4.2.2.7",
-  "title": "",
-  "body": "  41  "
+  "id": "sec-more-polynomial-functions",
+  "level": "1",
+  "url": "sec-more-polynomial-functions.html",
+  "type": "Section",
+  "number": "4.3",
+  "title": "More Polynomial Functions",
+  "body": " More Polynomial Functions    Multiplicity of Roots (Order)  Some polynomial functions have roots which are repeated.   Quadratic with a Double Root  Recall that for quadratic polynomials, sometimes, after factoring, the two factors are the same. For example, Then, is said to be a double root . At this root, the graph doesn't cross the -axis, but instead just touches it and turns around ( Graph of ).   More generally, a polynomial function can have a double root, triple root, etc.   Polynomial Graphs with Repeated Roots  Consider these polynomials: Polynomial graphs with repeated roots .     . This has zeros at , 2, and 3. All of the other functions will have the same zeros as well.     . This has a power of 2 on the , but all of the -intercepts are the same. What is different about the graph at ?     . Here, there is a power of 2 on and . What is common to both these -intercepts?     . What does the graph do when the power is 3?     . What does the graph do when the power is 4?    Try higher exponents on the factor . You may need to zoom out or zoom in to see the behavior at .    Observe that for each exponent (1, 2, 3, 4, ...), the graph behaves differently at the -intercept.    In particular, for even exponents, the function touches and turns around. For odd exponents, the function flattens out and crosses.     The exponent associated with the root affects the graph at that -intercept. We call this exponent the multiplicity of the root.   A root of a polynomial is of multiplicity  if the factor is to the th power in the factored form of the polynomial.    In some textbooks, multiplicity is instead referred to as order .    Intuitively, multiplicity comes from the word multiple , meaning how many times something occurs .   Graphically,    For even multiplicity, the graph touches the -axis and turns around (or bounces ).    For odd multiplicity, the graph crosses the -axis. Further, for a zero of multiplicity greater than 1, the graph of will flatten out near the zero.     Multiplicity       1  Even  2, 4, 6, ...  Odd  3, 5, 7, ...                     Crosses  Touches  and bounces  Crosses  and flattens out     Near a zero of multiplicity , the graph looks like the power function .    Multiplicity 1 looks like a straight line.    Multiplicity 2 looks like a parabola.    Multiplicity 3 looks like a cubic S-shape .     "
 },
 {
-  "id": "exercises-remainder-theorem-2-9",
+  "id": "sec-more-polynomial-functions-2-3",
   "level": "2",
-  "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-2-9",
-  "type": "Exercise",
-  "number": "4.2.2.8",
-  "title": "",
-  "body": "  -4  "
+  "url": "sec-more-polynomial-functions.html#sec-more-polynomial-functions-2-3",
+  "type": "Example",
+  "number": "4.3.1",
+  "title": "Quadratic with a Double Root.",
+  "body": " Quadratic with a Double Root  Recall that for quadratic polynomials, sometimes, after factoring, the two factors are the same. For example, Then, is said to be a double root . At this root, the graph doesn't cross the -axis, but instead just touches it and turns around ( Graph of ).  "
 },
 {
-  "id": "exercises-remainder-theorem-3-2",
+  "id": "sec-more-polynomial-functions-2-5",
   "level": "2",
-  "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-3-2",
-  "type": "Exercise",
-  "number": "4.2.2.9",
-  "title": "",
-  "body": " , remainder   "
+  "url": "sec-more-polynomial-functions.html#sec-more-polynomial-functions-2-5",
+  "type": "Example",
+  "number": "4.3.2",
+  "title": "Polynomial Graphs with Repeated Roots.",
+  "body": " Polynomial Graphs with Repeated Roots  Consider these polynomials: Polynomial graphs with repeated roots .     . This has zeros at , 2, and 3. All of the other functions will have the same zeros as well.     . This has a power of 2 on the , but all of the -intercepts are the same. What is different about the graph at ?     . Here, there is a power of 2 on and . What is common to both these -intercepts?     . What does the graph do when the power is 3?     . What does the graph do when the power is 4?    Try higher exponents on the factor . You may need to zoom out or zoom in to see the behavior at .    Observe that for each exponent (1, 2, 3, 4, ...), the graph behaves differently at the -intercept.    In particular, for even exponents, the function touches and turns around. For odd exponents, the function flattens out and crosses.    "
 },
 {
-  "id": "exercises-remainder-theorem-3-3",
+  "id": "sec-more-polynomial-functions-2-7",
   "level": "2",
-  "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-3-3",
-  "type": "Exercise",
-  "number": "4.2.2.10",
+  "url": "sec-more-polynomial-functions.html#sec-more-polynomial-functions-2-7",
+  "type": "Definition",
+  "number": "4.3.3",
   "title": "",
-  "body": " , remainder   "
+  "body": " A root of a polynomial is of multiplicity  if the factor is to the th power in the factored form of the polynomial.    In some textbooks, multiplicity is instead referred to as order .    Intuitively, multiplicity comes from the word multiple , meaning how many times something occurs .  "
 },
 {
-  "id": "exercises-remainder-theorem-3-4",
+  "id": "multiplicity-table",
   "level": "2",
-  "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-3-4",
-  "type": "Exercise",
-  "number": "4.2.2.11",
-  "title": "",
-  "body": " , remainder   "
+  "url": "sec-more-polynomial-functions.html#multiplicity-table",
+  "type": "Table",
+  "number": "4.3.4",
+  "title": "<em class=\"alert\">Multiplicity<\/em>",
+  "body": " Multiplicity       1  Even  2, 4, 6, ...  Odd  3, 5, 7, ...                     Crosses  Touches  and bounces  Crosses  and flattens out    "
 },
 {
-  "id": "exercises-remainder-theorem-3-5",
-  "level": "2",
-  "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-3-5",
-  "type": "Exercise",
-  "number": "4.2.2.12",
-  "title": "",
-  "body": " , remainder   "
-},
-{
-  "id": "exercises-remainder-theorem-4-2",
-  "level": "2",
-  "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-4-2",
-  "type": "Exercise",
-  "number": "4.2.2.13",
-  "title": "",
-  "body": " When is divided by , the remainder is .   "
-},
-{
-  "id": "exercises-remainder-theorem-4-3",
-  "level": "2",
-  "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-4-3",
-  "type": "Exercise",
-  "number": "4.2.2.14",
-  "title": "",
-  "body": " has remainder .   "
-},
-{
-  "id": "exercises-remainder-theorem-4-4",
-  "level": "2",
-  "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-4-4",
-  "type": "Exercise",
-  "number": "4.2.2.15",
-  "title": "",
-  "body": " has remainder .   "
-},
-{
-  "id": "exercises-remainder-theorem-4-5",
-  "level": "2",
-  "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-4-5",
-  "type": "Exercise",
-  "number": "4.2.2.16",
-  "title": "",
-  "body": " has remainder .   "
-},
-{
-  "id": "exercises-remainder-theorem-4-6",
-  "level": "2",
-  "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-4-6",
-  "type": "Exercise",
-  "number": "4.2.2.17",
-  "title": "",
-  "body": " has remainder .   "
-},
-{
-  "id": "exercises-remainder-theorem-4-7",
-  "level": "2",
-  "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-4-7",
-  "type": "Exercise",
-  "number": "4.2.2.18",
-  "title": "",
-  "body": " has remainder .  or  "
-},
-{
-  "id": "exercises-remainder-theorem-4-8",
-  "level": "2",
-  "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-4-8",
-  "type": "Exercise",
-  "number": "4.2.2.19",
-  "title": "",
-  "body": " When is divided by , the remainder is .   "
-},
-{
-  "id": "exercises-remainder-theorem-4-9",
-  "level": "2",
-  "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-4-9",
-  "type": "Exercise",
-  "number": "4.2.2.20",
-  "title": "",
-  "body": " When is divided by , the remainder is .   "
-},
-{
-  "id": "exercises-remainder-theorem-4-10",
-  "level": "2",
-  "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-4-10",
-  "type": "Exercise",
-  "number": "4.2.2.21",
-  "title": "",
-  "body": " When is divided by , the remainder is .   "
-},
-{
-  "id": "exercises-remainder-theorem-4-11",
-  "level": "2",
-  "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-4-11",
-  "type": "Exercise",
-  "number": "4.2.2.22",
-  "title": "",
-  "body": " When is divided by , the remainder is .   "
-},
-{
-  "id": "exercises-remainder-theorem-4-12",
-  "level": "2",
-  "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-4-12",
-  "type": "Exercise",
-  "number": "4.2.2.23",
-  "title": "",
-  "body": " When is divided by , the remainder is . Find .   "
-},
-{
-  "id": "exercises-remainder-theorem-5",
-  "level": "2",
-  "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-5",
-  "type": "Exercise",
-  "number": "4.2.2.24",
-  "title": "",
-  "body": "  The polynomial has the same remainder when divided by and by . Find .        "
-},
-{
-  "id": "exercises-remainder-theorem-6-2",
-  "level": "2",
-  "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-6-2",
-  "type": "Exercise",
-  "number": "4.2.2.25",
-  "title": "",
-  "body": " has remainders upon division by and upon division by . Find and .   "
-},
-{
-  "id": "exercises-remainder-theorem-6-3",
-  "level": "2",
-  "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-6-3",
-  "type": "Exercise",
-  "number": "4.2.2.26",
-  "title": "",
-  "body": " has remainders upon division by and upon division by . Find and .   "
-},
-{
-  "id": "exercises-remainder-theorem-6-4",
-  "level": "2",
-  "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-6-4",
-  "type": "Exercise",
-  "number": "4.2.2.27",
-  "title": "",
-  "body": " has remainders upon division by and upon division by . Find and .   "
-},
-{
-  "id": "exercises-remainder-theorem-6-5",
-  "level": "2",
-  "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-6-5",
-  "type": "Exercise",
-  "number": "4.2.2.28",
-  "title": "",
-  "body": " has remainders upon division by and upon division by . Find .   "
-},
-{
-  "id": "exercises-remainder-theorem-6-6",
-  "level": "2",
-  "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-6-6",
-  "type": "Exercise",
-  "number": "4.2.2.29",
-  "title": "",
-  "body": " When is divided by , the remainder is . When this polynomial is divided by , the remainder is . Find and .   "
-},
-{
-  "id": "exercises-remainder-theorem-6-7",
-  "level": "2",
-  "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-6-7",
-  "type": "Exercise",
-  "number": "4.2.2.30",
-  "title": "",
-  "body": " has no remainder when divided by and . Find and .   "
-},
-{
-  "id": "exercises-remainder-theorem-7",
-  "level": "2",
-  "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-7",
-  "type": "Exercise",
-  "number": "4.2.2.31",
-  "title": "",
-  "body": "  When is divided by , the remainder is the same as when is divided by . Find .        "
-},
-{
-  "id": "exercises-remainder-theorem-8",
-  "level": "2",
-  "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-8",
-  "type": "Exercise",
-  "number": "4.2.2.32",
-  "title": "",
-  "body": "  When is divided by , the remainder is . What is the remainder when it is divided by ?     ; the remainder is 3.   "
-},
-{
-  "id": "exercises-remainder-theorem-9",
-  "level": "2",
-  "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-9",
-  "type": "Exercise",
-  "number": "4.2.2.33",
-  "title": "",
-  "body": "  For , find all values of so that .        "
-},
-{
-  "id": "exercises-remainder-theorem-10",
-  "level": "2",
-  "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-10",
-  "type": "Exercise",
-  "number": "4.2.2.34",
-  "title": "",
-  "body": "  When is divided by , the remainder is . Find .        "
-},
-{
-  "id": "exercises-remainder-theorem-11",
-  "level": "2",
-  "url": "sec-factoring-and-roots-of-polynomial-functions.html#exercises-remainder-theorem-11",
-  "type": "Exercise",
-  "number": "4.2.2.35",
-  "title": "",
-  "body": "  When is divided by , the remainder is . Find all possible values of .     or .   "
+  "id": "sec-polynomial-functions-summary",
+  "level": "1",
+  "url": "sec-polynomial-functions-summary.html",
+  "type": "Section",
+  "number": "4.4",
+  "title": "Polynomial Functions Summary",
+  "body": " Polynomial Functions Summary    Summary of Graphing a Polynomial Function     End behavior . Find the end behavior of the polynomial, based on the degree and leading coefficient.     y-Intercept : Find the -intercept, by evaluating (setting and solving for ).     x-Intercept(s) : Find any -intercepts, by finding the zeros of the polynomial (setting and solving for ).     Multiplicity . Note the multiplicity of each zero. See .    Plot the -intercepts and -intercept.    Plot additional points between zeros (for more detail, if necessary).    Connect all of the points with a smooth curve, while respecting the end behavior and multiplicity at each zero.     "
 },
 {
   "id": "sec-interval-notation",
