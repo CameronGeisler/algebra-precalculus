@@ -19,10 +19,9 @@
         
         <statement>
           <p>
-            Evaluate <m><eval obj="exprTeX"/></m> exactly.
+            Evaluate exactly: <m><eval obj="exprTeX"/></m>
           </p>
-          
-          <!-- Only the new host id, no legacy host -->
+
           <div id="trig-exact-practice-controls">&#160;</div>
           
           <p>
@@ -351,7 +350,7 @@
     
     <exercises xml:id="exercises-working-version">
       
-    </exercises>    
+    </exercises>
   </subsection>
   
   

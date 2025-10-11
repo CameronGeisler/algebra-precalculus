@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-polynomial-zeros-factored-form" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Polynomial Zeros, Factored Form</title>
+  <introduction>
+    <p>
+      Recall that a big part of analyzing quadratic functions was to be able to find their zeros, i.e. to solve quadratic equations. In a similar way, we want to find zeros of higher-degree polynomial functions.
+    </p>
+    <p>
+      However, this is not as easy. In fact, it is not even possible to do exactly in general for any given polynomial.
+    </p>
+    <p>
+      Recall that for quadratic equations, there are 3 main techniques:
+    </p>
+    <ul>
+      <li>Using technology (graphing).</li>
+      <li>Factoring.</li>
+      <li>Quadratic formula.</li>
+    </ul>
+    <p>
+      Unfortunately, there is no easy formula (similar to the quadratic formula) that can solve 3rd degree, 4th degree, or higher degree equations. This means that we will have to use factoring (by hand) or technology.
+    </p>
+  </introduction>
+  
+  <subsection>
+    <title>Zeros by Technology/Graphing Calculator/Desmos</title>
+    <p>
+      The easiest way to find the zeros of a polynomial function is using technology. Graph the function using <url href="https://www.desmos.com/calculator">Desmos</url>, and observe the <m>x</m>-intercepts, which are the zeros.
+    </p>
+    <p>
+      However, you may not get the zeros in exact form, depending on if they are integers, fractions, or irrational numbers.
+    </p>
+  </subsection>
+  
+  <subsection>
+    <title>Solving Polynomial Equations in Factored Form</title>
+    <p>
+      Recall that many quadratic equations were solved by factoring them and setting each factor equal to zero. If the quadratic in factored form, then finding its zeros is straightforward.
+    </p>
+    
+    <example>
+      <title>Solving a Factored Quadratic</title>
+      <p>
+        For example,
+      </p>
+      <md>
+        <mrow>(x - 2)(x + 3) = 0</mrow>
+      </md>
+      <p>
+        We set each factor equal to zero:
+      </p>
+      <md>
+        <mrow>x - 2 = 0 \quad \text{or} \quad x + 3 = 0</mrow>
+      </md>
+      <p>
+        So the solutions are <m>x = 2</m> and <m>x = -3</m>. Or, you might just read off the solutions from the equation itself.
+      </p>
+    </example>
+    
+    <p>
+      You might recall that this is called the <em>zero product property</em>, which says that if the product of two numbers is 0, then one of the numbers must be equal to 0. In othre words, for 2 numbers <m>a</m> and <m>b</m>, if <m>a \cdot b = 0</m>, then <m>a = 0</m> or <m>b = 0</m>. This is the fundamental property used to solve quadratic equations by factoring.
+    </p>
+    <p>
+      This idea generalizes to higher degree polynomials, with more than 2 terms.
+    </p>
+    
+    <example>
+      <title>Solving a Factored Cubic Polynomial</title>
+      <p>
+        For example, consider this polynomial with 3 factors,
+      </p>
+      <md>
+        <mrow>f(x) = (2x - 1)(x + 2)(x - 4)</mrow>
+      </md>
+      <p>
+        It is cubic, because it has 3 linear factors. If you were to expand it out, the highest power would be <m>x^3</m>. To find the zeros, set <m>f(x) = 0</m>:
+      </p>
+      <md>
+        <mrow>(2x - 1)(x + 2)(x - 4) = 0</mrow>
+      </md>
+      <p>
+        Then each factor can be set to zero:
+      </p>
+      <md>
+        <mrow>2x - 1 = 0, \quad x + 2 = 0, \quad x - 4 = 0</mrow>
+      </md>
+      <p>
+        Solving gives:
+      </p>
+      <md>
+        <mrow>x = \frac{1}{2}, \quad x = -2, \quad x = 4</mrow>
+      </md>
+      <p>
+        Thus, the solutions are <m>x = \frac{1}{2}, -2, 4</m>.
+      </p>
+    </example>
+    
+    <example>
+      <title>Solving a Factored Quartic Polynomial</title>
+      <p>
+        Similarly, for this degree 4 (quartic) polynomial equation,
+      </p>
+      <md>
+        <mrow>(3x - 2)(x - 1)(x + 3)(x - 5) = 0</mrow>
+      </md>
+      <p>
+        Setting each factor equal to zero gives:
+      </p>
+      <md>
+        <mrow>3x - 2 = 0, \quad x - 1 = 0, \quad x + 3 = 0, \quad x - 5 = 0</mrow>
+      </md>
+      <p>
+        Solving gives:
+      </p>
+      <md>
+        <mrow>x = \frac{2}{3}, \quad x = 1, \quad x = -3, \quad x = 5</mrow>
+      </md>
+    </example>
+    
+    <example>
+      <title>Factors Not in Standard Form</title>
+      <p>
+        Sometimes the factors might not be written in the standard form. For example,
+      </p>
+      <md>
+        <mrow>(2 - x)(x + 4)(4x - 1) = 0</mrow>
+      </md>
+      <p>
+        Setting each factor equal to zero:
+      </p>
+      <md>
+        <mrow>2 - x = 0, \quad x + 4 = 0, \quad 4x - 1 = 0</mrow>
+      </md>
+      <p>
+        Solving gives:
+      </p>
+      <md>
+        <mrow>x = 2, \quad x = -4, \quad x = \frac{1}{4}</mrow>
+      </md>
+      <p>
+        The solutions are <m>x = 2, -4, \frac{1}{4}</m>.
+      </p>
+    </example>
+    
+    <example>
+      <title>Factors with Multiplicity</title>
+      <p>
+        The exponents on the factors can also vary. For example,
+      </p>
+      <md>
+        <mrow>(2x - 3)^2(x + 1)^3 = 0</mrow>
+      </md>
+      <p>
+        However, it doesn't change the strategy. Set each factor to zero, giving,
+      </p>
+      <md>
+        <mrow>2x - 3 = 0 \quad \text{or} \quad x + 1 = 0</mrow>
+      </md>
+      <p>
+        And solve for <m>x</m>,
+      </p>
+      <md>
+        <mrow>x = \frac{3}{2} \quad \text{and} \quad x = -1</mrow>
+      </md>
+      <p>
+        So the zeros are <m>x = \frac{3}{2}</m> and <m>x = -1</m>.
+      </p>
+    </example>
+    
+    <p>
+      In general, if you have a bunch of factors multiplied together that equals 0, then each of the factors can be 0. In this way, solving polynomial equations in this form is easy.
+    </p>
+    
+    <theorem>
+      <title>Zero product property</title>
+      <p>
+        If the product of any number of factors is equal to zero, then at least one of the factors must be zero.
+      </p>
+    </theorem>
+    
+    <p>
+      A polynomial written as a product of its factors is said to be in <term>factored form</term>. In other words, like,
+    </p>
+    <md>
+      <mrow>\boxed{f(x) = a \cdot (\text{linear factor}_1) \cdot (\text{linear factor}_2) \cdot \cdots \cdot (\text{linear factor}_n)}</mrow>
+    </md>
+    
+    <project>
+      <title>Practice: Solving Factored Polynomials</title>
+      <introduction>
+        <p>Solve each equation.</p>
+      </introduction>
+      <task>
+        <statement><m>(x - 1)(x + 2)(x - 4) = 0</m>.</statement>
+        <answer><m>x=1,-2,4</m>.</answer>
+      </task>
+      <task>
+        <statement><m>(2x - 3)(x + 5)(x + 1) = 0</m>.</statement>
+        <answer><m>x=\frac{3}{2},-5,-1</m>.</answer>
+      </task>
+      <task>
+        <statement><m>x(x - 2)(3x + 4) = 0</m>.</statement>
+        <answer><m>x=0,2,-\frac{4}{3}</m>.</answer>
+      </task>
+      <task>
+        <statement><m>(2 - x)(x + 1)(x - 7) = 0</m>.</statement>
+        <answer><m>x=2,-1,7</m>.</answer>
+      </task>
+      <task>
+        <statement><m>(x - 3)^2(x + 2) = 0</m>.</statement>
+        <answer><m>x=3,-2</m>.</answer>
+      </task>
+      <task>
+        <statement><m>(x + 4)^3 = 0</m>.</statement>
+        <answer><m>x=-4</m>.</answer>
+      </task>
+      <task>
+        <statement><m>(3x - 2)(x - 1)(x + 3)(x - 5) = 0</m>.</statement>
+        <answer><m>x=\frac{2}{3},1,-3,5</m>.</answer>
+      </task>
+      <task>
+        <statement><m>x(x - 2)(x + 2)(4x - 1) = 0</m>.</statement>
+        <answer><m>x=0,2,-2,\frac{1}{4}</m>.</answer>
+      </task>
+    </project>
+  </subsection>
+  
+</section>

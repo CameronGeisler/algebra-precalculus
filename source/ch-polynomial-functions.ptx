@@ -9,6 +9,7 @@
 
   <!-- include sections -->
   <xi:include href="./sec-polynomial-functions-intro.ptx" />
+  <xi:include href="./sec-polynomial-zeros-factored-form.ptx" />
 
   <xi:include href="./sec-factoring-and-roots-of-polynomial-functions.ptx" />
   <xi:include href="./sec-more-polynomial-functions.ptx" />
