@@ -9,130 +9,278 @@
     </p>
   </introduction>
   
-  <subsection xml:id="trig-squared-notation">
+  <subsection xml:id="notation-powers-trig">
     <title>Notation <m>\sin^2{x}</m> and Other Powers of a Trigonometric Function</title>
     <p>
-      Sometimes, we want to write the square of a trig function. For example, <m>\sin{x} \cdot \sin{x}</m>, or <m>\brac{\sin{x}}^2</m>. It is common to write this more simply as <m>\sin^2{x}</m>. For example,
+      Sometimes, we want to write the square of a trig function. For example, <m>\sin{x} \cdot \sin{x}</m>, or <m>\brac{\sin{x}}^2</m>. It is common to write this more simply as <m>\sin^2{x}</m>.
+    </p>
+    
+    <example>
+      <title>Notation Example</title>
+      <p>
+        For example, <m>\sin^2\brac{\frac{\pi}{6}}</m> means <m>\brac{\sin{\brac{\frac{\pi}{6}}}}^2</m>. Then,
+      </p>
+      <md>
+        <mrow>
+          \sin^2{\brac{\frac{\pi}{6}}} \amp = \brac{\sin{\brac{\frac{\pi}{6}}}}^2 \\
+        </mrow>
+        <mrow>
+          \amp = \brac{\frac{1}{2}}^2 = \frac{1}{4}
+        </mrow>
+      </md>
+    </example>
+    
+    <p>
+      This convention saves space and avoids writing so many brackets with expressions that have many powers involving trigonometric functions. This notation applies in general to all trigonometric functions,
     </p>
     <md>
-      <mrow>\sin^2{\brac{\frac{\pi}{6}}} = \brac{\sin{\brac{\frac{\pi}{6}}}}^2 = \brac{\frac{1}{2}}^2 = \frac{1}{4}</mrow>
-    </md>
-    <p>
-      This is a convention that saves space and avoids having to write so many parentheses.
-    </p>
-    <p>
-      This notation also applies generally to all trigonometric functions,
-    </p>
-    <md>
-      <mrow>
-        \boxed{\begin{array}{rl}
+      <mrow>\boxed{\begin{array}{rl}
         \sin^2{x} \amp = (\sin{x})^2 \\
         \cos^2{x} \amp = (\cos{x})^2 \\
         \tan^2{x} \amp = (\tan{x})^2
         \end{array}}
-        \qquad \text{and so on, for the other trig functions.}
-      </mrow>
-    </md>
-    <p>
-      Also, this works the same with higher powers (e.g. <m>\tan^3{x} = (\tan{x})^3</m>).
-    </p>
-    <p>
-      This notation often confuses students when first learning it. In particular, the exponent (2 in this case) applies to the entire trigonometric function, not the angle <m>x</m>. In other words,
-    </p>
-    <md>
-      <mrow>    \underbrace{\sin^2{x}}_{\text{Sine of } x \text{, then squared}} \neq \underbrace{\sin{\brac{x^2}}}_{\text{Take the sine of } x^2}</mrow>
-    </md>
-    <p>
-      If you like, whenever you see a squared trig function, you can first write it with brackets, before proceeding with the problem.
-    </p>
-  </subsection>
-  
-  <subsection>
-    <title>Solving Quadratic Trigonometric Equations</title>
-    <example>
+        \qquad \text{and so on, for the other trig functions.}</mrow>
+      </md>
       <p>
-        Consider <m>2\sin^2{x} - 1 = 0</m>. To solve this, you can replace <m>\sin{x}</m> with a single variable <m>u</m> (<m>u = \sin{x}</m>), to get <m>2u^2-1=0</m>.
-      </p>
-    </example>
-    <p>
-      More precisely, if <m>p(x) = 0</m> is a quadratic equation, then the equation can be put into the form <m>p(\sin{x}) = 0</m> (or another trigonometric function).
-    </p>
-  </subsection>
-  
-  <subsection>
-    <title>Examples</title>
-    <example>
-      <p>
-        <alert>Basic quadratic equation</alert>. Solve each equation.
+        This all works the same with higher powers (e.g. <m>\tan^3{x} = (\tan{x})^3</m>).
       </p>
       <p>
-        <ol>
-          <li><p><m>4 \cos^2{x} - 1 = 0</m></p></li>
-          <li><p><m>5 - \tan^2{x} = 4</m></p></li>
-        </ol>
+        This notation often confuses students when first learning it. In particular, the exponent (2 in this case) applies to the entire trigonometric function, not the angle <m>x</m>. In other words,
       </p>
-    </example>
-    <example>
+      <md>
+        <mrow>
+          \underbrace{\sin^2{x}}_{\text{Sine of } x \text{, then squared}} \amp \neq \underbrace{\sin{\brac{x^2}}}_{\text{Take the sine of } x^2}
+        </mrow>
+      </md>
       <p>
-        <alert>Factoring a common factor</alert>. Solve each equation.
+        If you like, whenever you see a squared trig function, you can first write it with brackets, before starting with the problem.
       </p>
+    </subsection>
+    
+    <subsection xml:id="solving-quadratic-trig-eqs">
+      <title>Solving Quadratic Trigonometric Equations</title>
+      
+      <example>
+        <title>Substitution Idea</title>
+        <p>
+          Consider <m>2\sin^2{x} - 1 = 0</m>. To solve this, you can think of replacing <m>\sin{x}</m> with a single variable <m>u</m> (<m>u = \sin{x}</m>), to get <m>2u^2-1=0</m>. To solve this, you would isolate for <m>u^2</m>, and then take the square root of both sides.
+        </p>
+      </example>
+      
       <p>
-        <ol>
-          <li><p><m>\sin^2{x} - \sin{x} = 0</m></p></li>
-          <li><p><m>\sin^2{x} - 2\sin{x} = 0</m></p></li>
-          <li><p><m>2\cos^2{x} = \cos{x}</m></p></li>
-          <li><p><m>2\sin^2{x} = \sin{x}</m></p></li>
-          <li><p><m>2 \cos^2{x} = \sqrt{3} \cos{x}</m></p></li>
-          <li><p><m>5\sec^2{x} \tan{x} = 20\tan{x}</m></p></li>
-        </ol>
+        More precisely, if <m>p(x) = 0</m> is a quadratic equation, then the equation can be put into the form <m>p(\sin{x}) = 0</m> (or another trigonometric function).
       </p>
-    </example>
-    <p>
-      Note that you can't divide by <m>\sin{x}</m>, because that assumes that <m>\sin{x} \neq 0</m>, when in fact <m>\sin{x}</m> can equal 0. This is just like how with the equation <m>x^2 - 2x = 0</m>, you can't divide by <m>x</m> and instead have to factor it out.
-    </p>
-  </subsection>
-  
-  <subsection>
-    <title>Trigonometric Equations in Quadratic Form</title>
-    <p>
-      Again, it is helpful to think about the equation if the trig function was replaced by a single variable (say, <m>u</m>).
-    </p>
-    <example>
+    </subsection>
+    
+    <subsection xml:id="examples-quadratic-trig-eqs">
+      <title>Examples</title>
+      
       <p>
-        <alert>Trigonometric equations in quadratic form</alert>. Solve each equation.
+        Factor, and then solve the resulting two (linear) trigonometric equations.
       </p>
+      
+      <project xml:id="basic-quadratic-eqs">
+        <title>Basic quadratic equation</title>
+        <introduction>
+          <p>
+            Solve each equation for <m>0 \leq x \lt 2\pi</m>, and give the general solution.
+          </p>
+        </introduction>
+        <task>
+          <statement><m>4\cos^2{x} - 1 = 0</m>.</statement>
+          <answer><p>Answer: <m>x = \frac{\pi}{3}, \frac{2\pi}{3}, \frac{4\pi}{3}, \frac{5\pi}{3}</m>. General solution: <m>x = \frac{\pi}{3} + 2\pi n</m>, <m>x = \frac{2\pi}{3} + 2\pi n</m>, <m>x = \frac{4\pi}{3} + 2\pi n</m>, <m>x = \frac{5\pi}{3} + 2\pi n</m>, <m>n \in \mathbb{I}</m> OR <m>x = \frac{\pi}{3} + \pi n</m>, <m>x = \frac{2\pi}{3} + \pi n</m>.</p></answer>
+        </task>
+        <task>
+          <statement><m>5 - \tan^2{x} = 4</m>.</statement>
+          <answer><p>Answer: <m>x = \frac{\pi}{4}, \frac{3\pi}{4}, \frac{5\pi}{4}, \frac{7\pi}{4}</m>. General solution: <m>x = \frac{\pi}{4} + \pi n</m>, <m>x = \frac{3\pi}{4} + \pi n</m>, <m>n \in \mathbb{I}</m> OR <m>x = \frac{\pi}{4} + \frac{\pi}{2} n</m>.</p></answer>
+        </task>
+      </project>
+      
+      <project xml:id="factoring-common-factor">
+        <title>Factoring a common factor</title>
+        <introduction>
+          <p>
+            Solve each equation for <m>0 \leq x \lt 2\pi</m>, and give the general solution.
+          </p>
+        </introduction>
+        <task>
+          <statement><m>\sin^2{x} - \sin{x} = 0</m>.</statement>
+          <answer><p>Answer: <m>x = 0, \pi, \frac{\pi}{2}</m>. General solution: <m>x = 0 + 2\pi n, x = \pi + 2\pi n, x = \frac{\pi}{2} + 2\pi n, n \in \mathbb{I}</m> OR <m>x = n\pi</m> or <m>x = \frac{\pi}{2} + 2\pi n, n \in \mathbb{I}</m>.</p></answer>
+        </task>
+        <task>
+          <statement><m>2\cos^2{x} = \cos{x}</m>.</statement>
+          <answer><p>Answer: <m>x = \frac{\pi}{3}, \frac{\pi}{2}, \frac{3\pi}{2}, \frac{5\pi}{3}</m>. General solution: <m>x = \frac{\pi}{3} + 2\pi n, x = \frac{5\pi}{3} + 2\pi n, x = \frac{\pi}{2} + 2\pi n, x = \frac{3\pi}{2} + 2\pi n, n \in \mathbb{I}</m> OR <m>x = \frac{\pi}{2} + \pi n</m> or <m>x = \frac{\pi}{3} + 2\pi n</m> or <m>x = \frac{5\pi}{3} + 2\pi n, n \in \mathbb{I}</m>.</p></answer>
+        </task>
+        <task>
+          <statement><m>2\sin{x} = \sin^2{x}</m>.</statement>
+          <answer><p>Answer: <m>x = 0, \pi</m>. General solution: <m>x = 0 + 2\pi n, x = \pi + 2\pi n, n \in \mathbb{I}</m> OR <m>x = n\pi, n \in \mathbb{I}</m>.</p></answer>
+        </task>
+        <task>
+          <statement><m>2\cos^2{x} = \sqrt{3}\cos{x}</m>.</statement>
+          <answer><p>Answer: <m>x = \frac{\pi}{6}, \frac{11\pi}{6}, \frac{\pi}{2}, \frac{3\pi}{2}</m>. General solution: <m>x = \frac{\pi}{6} + 2\pi n, x = \frac{11\pi}{6} + 2\pi n, x = \frac{\pi}{2} + 2\pi n, x = \frac{3\pi}{2} + 2\pi n, n \in \mathbb{I}</m> OR <m>x = \frac{\pi}{2} + \pi n</m> or <m>x = \frac{\pi}{6} + 2\pi n</m> or <m>x = \frac{11\pi}{6} + 2\pi n, n \in \mathbb{I}</m>.</p></answer>
+        </task>
+        <task>
+          <statement><m>2\sin^2{x} = \sin{x}</m>.</statement>
+          <answer><p>Answer: <m>x = 0, \pi, \frac{\pi}{6}, \frac{5\pi}{6}</m>. General solution: <m>x = 0 + 2\pi n, x = \pi + 2\pi n, x = \frac{\pi}{6} + 2\pi n, x = \frac{5\pi}{6} + 2\pi n, n \in \mathbb{I}</m> OR <m>x = n\pi</m> or <m>x = \frac{\pi}{6} + 2\pi n</m> or <m>x = \frac{5\pi}{6} + 2\pi n, n \in \mathbb{I}</m>.</p></answer>
+        </task>
+        <task>
+          <statement><m>5\sec^2{x}\tan{x} = 20\tan{x}</m>.</statement>
+          <answer><p>Answer: <m>x = 0, \pi, \frac{\pi}{3}, \frac{2\pi}{3}, \frac{4\pi}{3}, \frac{5\pi}{3}</m>. General solution: <m>x = 0 + 2\pi n, x = \pi + 2\pi n, x = \frac{\pi}{3} + 2\pi n, x = \frac{2\pi}{3} + 2\pi n, x = \frac{4\pi}{3} + 2\pi n, x = \frac{5\pi}{3} + 2\pi n, n \in \mathbb{I}</m> OR <m>x = n\pi</m> or <m>x = \frac{\pi}{3} + \pi n</m> or <m>x = \frac{2\pi}{3} + \pi n, n \in \mathbb{I}</m>.</p></answer>
+        </task>
+      </project>
+      
       <p>
-        <ol>
-          <li><p><m>\cos^2{x} + 2 \cos{x} - 3 = 0</m></p></li>
-          <li><p><m>2\cos^2{x} + \cos{x} - 1 = 0</m></p></li>
-          <li><p><m>-6 \sin^2{x} + \sin{x} = -3</m></p></li>
-          <li><p><m>2 \sec^2{x} - 2\sec{x} - 4 = 0</m></p></li>
-          <li><p><m>\tan^2{x} + 5\tan{x} + 4 = 0</m></p></li>
-          <li><p><m>\sin^2{x} = 3 \sin{x} - 2</m></p></li>
-          <li><p><m>\tan^2{x} - \tan{x} - 2 = 0</m></p></li>
-          <li><p><m>\sec^2{x} - 2\sec{x} - 3 = 0</m></p></li>
-          <li><p><m>2\cos^2{x} - 3\cos{x} + 1 = 0</m></p></li>
-          <li><p><m>9\sin^2{x} + 12\sin{x} + 4 = 0</m></p></li>
-        </ol>
+        Note that you can't divide by <m>\sin{x}</m> (or any other trig function), because that assumes that <m>\sin{x} \neq 0</m>, when in fact <m>\sin{x}</m> can equal 0. This is just like how with the equation <m>x^2 - 2x = 0</m>, you can't divide by <m>x</m> and instead have to factor it out.
       </p>
-    </example>
-    <example>
+    </subsection>
+    
+    <subsection xml:id="quadratic-form-eqs">
+      <title>Trigonometric Equations in Quadratic Form</title>
       <p>
-        <alert>Advanced</alert>. Solve each equation.
+        Again, it is helpful to think about the equation if the trig function was replaced by a single variable (say, <m>u</m>).
       </p>
-      <p>
-        <ol>
-          <li><p><m>6 \tan^3{x} - 2 \tan{x} = 0</m></p></li>
-          <li><p><m>4 \sin^3{x} - 3 \sin{x} = 0</m>. Answer: <m>x = 0, \tfrac{\pi}{3}, \tfrac{2\pi}{3}, \pi, \tfrac{4\pi}{3}, \tfrac{5\pi}{3}</m></p></li>
-          <li><p><m>\sin{x} = \tan{x}</m></p></li>
-          <li><p><m>2 \cos^3{x} - \cos{x} = 0</m></p></li>
-          <li><p><m>\tan^2{x} - 4 \sec{x} + 5 = 0</m></p></li>
-          <li><p><m>2\sec^2{x} + 13\sec{x} + 20 = 0</m></p></li>
-          <li><p><m>\sin^2{x} + 2\sin{x}\cos{x} + \cos^2{x} = 0</m></p></li>
-        </ol>
-      </p>
-    </example>
-  </subsection>
-  
-  
-</section>
+      
+      <project xml:id="trig-eqs-quadratic-form">
+        <title>Trigonometric equations in quadratic form</title>
+        <introduction>
+          <p>
+            Solve each equation for <m>0 \leq x \lt 2\pi</m>, and give the general solution. Give exact values for special angles, otherwise give a decimal answer rounded to the nearest hundredth.
+          </p>
+        </introduction>
+        <task>
+          <statement><m>\cos^2{x} + 2\cos{x} - 3 = 0</m>.</statement>
+          <answer><p>Answer: <m>x = 0</m>. General solution: <m>x = 2\pi n, n \in \mathbb{I}</m>.</p></answer>
+        </task>
+        <task>
+          <statement><m>2\cos^2{x} + \cos{x} - 1 = 0</m>.</statement>
+          <answer><p>Answer: <m>x = \frac{\pi}{3}, \pi, \frac{5\pi}{3}</m>. General solution: <m>x = \frac{\pi}{3} + 2\pi n, x = \pi + 2\pi n, x = \frac{5\pi}{3} + 2\pi n, n \in \mathbb{I}</m>.</p></answer>
+        </task>
+        <task>
+          <statement><m>\tan^2{x} + 5\tan{x} + 4 = 0</m>.</statement>
+          <answer><p>Answer: <m>x = \frac{3\pi}{4}, \frac{7\pi}{4}, 1.82, 4.96</m>. General solution: <m>x = \frac{3\pi}{4} + \pi n</m> or <m>x \approx 1.82 + \pi n, n \in \mathbb{I}</m>.</p></answer>
+        </task>
+        <task>
+          <statement><m>2\sin^2{x} + 5\sin{x} - 3 = 0</m>.</statement>
+          <answer><p>Answer: <m>x = \frac{\pi}{6}, \frac{5\pi}{6}</m>. General solution: <m>x = \frac{\pi}{6} + 2\pi n, x = \frac{5\pi}{6} + 2\pi n, n \in \mathbb{I}</m>.</p></answer>
+        </task>
+        <task>
+          <statement><m>\cos^2{x} = 2 + \cos{x}</m>.</statement>
+          <answer><p>Answer: <m>x = \pi</m>. General solution: <m>x = \pi + 2\pi n, n \in \mathbb{I}</m>.</p></answer>
+        </task>
+        <task>
+          <statement><m>-6\sin^2{x} + \sin{x} = -3</m>.</statement>
+          <answer><p>Answer: <m>x \approx 0.92, 2.22, 3.82, 5.60</m>. General solution: <m>x \approx 0.92 + 2\pi n, x \approx 2.22 + 2\pi n, x \approx 3.82 + 2\pi n, x \approx 5.60 + 2\pi n, n \in \mathbb{I}</m>.</p></answer>
+        </task>
+        <task>
+          <statement><m>\sin^2{x} = 3\sin{x} - 2</m>.</statement>
+          <answer><p>Answer: <m>x = \frac{\pi}{2}</m>. General solution: <m>x = \frac{\pi}{2} + 2\pi n, n \in \mathbb{I}</m>.</p></answer>
+        </task>
+        <task>
+          <statement><m>\tan^2{x} - \tan{x} - 2 = 0</m>.</statement>
+          <answer><p>Answer: <m>x = \frac{3\pi}{4}, \frac{7\pi}{4}, 1.11, 4.25</m>. General solution: <m>x = \frac{3\pi}{4} + \pi n</m> or <m>x \approx 1.11 + \pi n, n \in \mathbb{I}</m>.</p></answer>
+        </task>
+        <task>
+          <statement><m>\sec^2{x} - 2\sec{x} - 3 = 0</m>.</statement>
+          <answer><p>Answer: <m>x \approx 1.23, \pi, 5.05</m>. General solution: <m>x \approx 1.23 + 2\pi n, x = \pi + 2\pi n, x \approx 5.05 + 2\pi n, n \in \mathbb{I}</m>.</p></answer>
+        </task>
+        <task>
+          <statement><m>2\cos^2{x} - 3\cos{x} + 1 = 0</m>.</statement>
+          <answer><p>Answer: <m>x = 0, \frac{\pi}{3}, \frac{5\pi}{3}</m>. General solution: <m>x = 2\pi n, x = \frac{\pi}{3} + 2\pi n, x = \frac{5\pi}{3} + 2\pi n, n \in \mathbb{I}</m>.</p></answer>
+        </task>
+        <task>
+          <statement><m>9\sin^2{x} + 12\sin{x} + 4 = 0</m>.</statement>
+          <answer><p>Answer: <m>x \approx 3.87, 5.55</m>. General solution: <m>x \approx 3.87 + 2\pi n, x \approx 5.55 + 2\pi n, n \in \mathbb{I}</m>.</p></answer>
+        </task>
+        <task>
+          <statement><m>2\sin^2{x} = 1 - \sin{x}</m>.</statement>
+          <answer><p>Answer: <m>x = \frac{\pi}{6}, \frac{5\pi}{6}, \frac{3\pi}{2}</m>. General solution: <m>x = \frac{\pi}{6} + 2\pi n, x = \frac{5\pi}{6} + 2\pi n, x = \frac{3\pi}{2} + 2\pi n, n \in \mathbb{I}</m>.</p></answer>
+        </task>
+        <task>
+          <statement><m>2\sec^2{x} - 2\sec{x} - 4 = 0</m>.</statement>
+          <answer><p>Answer: <m>x = \frac{\pi}{3}, \pi, \frac{5\pi}{3}</m>. General solution: <m>x = \frac{\pi}{3} + 2\pi n, x = \pi + 2\pi n, x = \frac{5\pi}{3} + 2\pi n, n \in \mathbb{I}</m>.</p></answer>
+        </task>
+        <task>
+          <statement><m>3\tan^2{x} - 2\tan{x} = 1</m>.</statement>
+          <answer><p>Answer: <m>x = \frac{\pi}{4}, \frac{5\pi}{4}, 2.82, 5.96</m>. General solution: <m>x = \frac{\pi}{4} + \pi n, x = 2.82 + \pi n, n \in \mathbb{I}</m>.</p></answer>
+        </task>
+        <task>
+          <statement><m>12\sin^2{x} + \sin{x} - 6 = 0</m>.</statement>
+          <answer><p>Answer: <m>x = 0.73, 2.41, 3.99, 5.44</m>. General solution: <m>x = 0.73 + 2\pi n, x = 2.41 + 2\pi n, x = 3.99 + 2\pi n, x = 5.44 + 2\pi n, n \in \mathbb{I}</m>.</p></answer>
+        </task>
+      </project>
+    </subsection>
+    
+    <subsection xml:id="advanced-examples">
+      <title>Advanced</title>
+      
+      <project xml:id="advanced-quadratic-eqs">
+        <title>Advanced examples</title>
+        <introduction>
+          <p>
+            Solve each equation for <m>0 \leq x \lt 2\pi</m>, and give the general solution. Give exact values for special angles, otherwise give a decimal answer rounded to the nearest hundredth.
+          </p>
+        </introduction>
+        <task>
+          <statement><m>\sec{x}\csc{x} - 2\csc{x} = 0</m>.</statement>
+          <answer><p>Answer: <m>x = \frac{\pi}{3}, \frac{5\pi}{3}</m>. General solution: <m>x = \frac{\pi}{3} + 2\pi n, x = \frac{5\pi}{3} + 2\pi n, n \in \mathbb{I}</m>.</p></answer>
+        </task>
+        <task>
+          <statement><m>3\sec^2{x} - 4 = 0</m>.</statement>
+          <answer><p>Answer: <m>x = \frac{\pi}{6}, \frac{5\pi}{6}, \frac{7\pi}{6}, \frac{11\pi}{6}</m>. General solution: <m>x = \frac{\pi}{6} + 2\pi n, x = \frac{5\pi}{6} + 2\pi n, x = \frac{7\pi}{6} + 2\pi n, x = \frac{11\pi}{6} + 2\pi n, n \in \mathbb{I}</m>.</p></answer>
+        </task>
+        <task>
+          <statement><m>2\sin{x}\sec{x} - 2\sqrt{3}\sin{x} = 0</m>.</statement>
+          <answer><p>Answer: <m>x = 0, \pi, 0.96, 5.33</m>. General solution: <m>x = 0 + 2\pi n, x = \pi + 2\pi n, x = 0.96 + 2\pi n, x = 5.33 + 2\pi n, n \in \mathbb{I}</m>.</p></answer>
+        </task>
+        <task>
+          <statement><m>\cot{x}\csc^2{x} = 2\cot{x}</m>.</statement>
+          <answer><p>Answer: <m>x = \frac{\pi}{4}, \frac{3\pi}{4}, \frac{\pi}{2}, \frac{5\pi}{4}, \frac{7\pi}{4}, \frac{3\pi}{2}</m>. General solution: <m>x = \frac{\pi}{4} + \pi n, x = \frac{3\pi}{4} + \pi n, x = \frac{\pi}{2} + \pi n, n \in \mathbb{I}</m>.</p></answer>
+        </task>
+        <task>
+          <statement><m>6\tan^3{x} - 2\tan{x} = 0</m>.</statement>
+          <answer><p>Answer: <m>x = 0, \pi, \frac{\pi}{3}, \frac{4\pi}{3}</m>. General solution: <m>x = \pi n</m> or <m>x = \frac{\pi}{3} + \pi n, n \in \mathbb{I}</m>.</p></answer>
+        </task>
+        <task>
+          <statement><m>4\sin^3{x} - 3\sin{x} = 0</m>.</statement>
+          <answer><p>Answer: <m>x = 0, \frac{\pi}{3}, \frac{2\pi}{3}, \pi, \frac{4\pi}{3}, \frac{5\pi}{3}</m>. General solution: <m>x = \pi n</m> or <m>x = \frac{\pi}{3} + \pi n</m> or <m>x = \frac{2\pi}{3} + \pi n, n \in \mathbb{I}</m>.</p></answer>
+        </task>
+        <task>
+          <statement><m>\sin{x} = \tan{x}</m>.</statement>
+          <answer><p>Answer: <m>x = 0, \pi, 2.36, 5.50</m>. General solution: <m>x = \pi n</m> or <m>x \approx 2.36 + \pi n, n \in \mathbb{I}</m>.</p></answer>
+        </task>
+        <task>
+          <statement><m>2\cos^3{x} - \cos{x} = 0</m>.</statement>
+          <answer><p>Answer: <m>x = \frac{\pi}{2}, \frac{3\pi}{2}, \frac{\pi}{4}, \frac{7\pi}{4}</m>. General solution: <m>x = \frac{\pi}{2} + \pi n</m> or <m>x = \frac{\pi}{4} + \pi n, n \in \mathbb{I}</m>.</p></answer>
+        </task>
+        <task>
+          <statement><m>2\sec^2{x} + 13\sec{x} + 20 = 0</m>.</statement>
+          <answer><p>Answer: <m>x = \frac{\pi}{3}, \frac{5\pi}{3}</m>. General solution: <m>x = \frac{\pi}{3} + 2\pi n, x = \frac{5\pi}{3} + 2\pi n, n \in \mathbb{I}</m>.</p></answer>
+        </task>
+        <task>
+          <statement><m>\sin^2{x} + 2\sin{x}\cos{x} + \cos^2{x} = 0</m>.</statement>
+          <answer><p>Answer: <m>x = \frac{3\pi}{4}, \frac{7\pi}{4}</m>. General solution: <m>x = \frac{3\pi}{4} + \pi n, n \in \mathbb{I}</m>.</p></answer>
+        </task>
+      </project>
+      
+      <example xml:id="find-a-b">
+        <title>Finding Coefficients</title>
+        <p>
+          The equation <m>a \cos^2{x} + b \cos{x} - 1 = 0</m> has solutions <m>\frac{\pi}{3}, \pi</m>, and <m>\frac{5\pi}{3}</m> on the interval <m>0 \leq x \lt 2\pi</m>. Find the values of <m>a</m> and <m>b</m>.
+        </p>
+      </example>
+      <example xml:id="find-b-c">
+        <title>Finding More Coefficients</title>
+        <p>
+          The equation <m>\cot^2{x} - b \cot{x} + c = 0</m> has solutions <m>\frac{\pi}{6}, \frac{\pi}{4}, \frac{7\pi}{6}, \frac{5\pi}{4}</m> on the interval <m>0 \leq x \lt 2\pi</m>. Find the values of <m>b</m> and <m>c</m>.
+        </p>
+      </example>
+      
+      <example xml:id="difficult-example">
+        <title>Really difficult</title>
+        <p>
+          Solve <m>2\cot{x} + \sec^2{x} = 0</m>. <em>Hint:</em> write in terms of <m>\tan{x}</m> only, to get <m>u^3 + u - 2 = 0</m>, and factor using synthetic division. Answer: <m>x = \frac{3\pi}{4}, \frac{7\pi}{4}</m>. General solution: <m>x = \frac{3\pi}{4} + \pi n, n \in \mathbb{I}</m>.
+        </p>
+      </example>
+      
+    </subsection>
+  </section>

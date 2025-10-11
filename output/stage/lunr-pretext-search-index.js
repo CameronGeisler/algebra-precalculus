@@ -1396,13 +1396,40 @@ var ptx_lunr_docs = [
   "body": " Multiplicity       1  Even  2, 4, 6, ...  Odd  3, 5, 7, ...                     Crosses  Touches  and bounces  Crosses  and flattens out    "
 },
 {
+  "id": "sec-factoring-and-graphing-polynomials",
+  "level": "1",
+  "url": "sec-factoring-and-graphing-polynomials.html",
+  "type": "Section",
+  "number": "4.5",
+  "title": "Factoring and Graphing Polynomials",
+  "body": " Factoring and Graphing Polynomials    Finding Roots of a Polynomial (Factoring Completely) Examples   Factoring Polynomials Examples   Find the roots of each polynomial function by factoring completely.    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .     Examples with irrational roots or irreducible quadratic factors   Find the roots of each polynomial function by factoring completely.    .  .    .  .    .  .    .  .    .  .    .  .    .  .      Summary of Factoring Higher-Degree Polynomial Functions    (If necessary) Write the polynomial in descending power order.    Check for common factors. If there are any common factors, either a variable, number, or both. If so, factor out the greatest common factor (GCF).   e.g. .  e.g. .  If the leading coefficient is negative, factor out from all its terms.  Especially check if the numbers in the equation are big!     Find one factor, by testing potential zeros until you find a zero. If is a zero, then is a factor (factor theorem).   Can find zeros using your scientific calculator (if allowed) with TABLE mode.   List all of the potential roots to show your work (if required).   If the leading coefficient is 1, then all potential integer roots are the factors of the constant term (integral zero theorem).   If the leading coefficient is not 1, then the possible roots are all fractions of the form , where:   is a factor of the constant term  is a factor of the leading coefficient   (rational root theorem)      Divide out the factor, using synthetic division, so that the resulting polynomial has a degree 1 lower than originally.    Repeat the steps, until the resulting polynomial is quadratic.   You can stack multiple synthetic divisions together for conciseness.  If is a zero, it could still be a zero again (if it is a repeated zero).     Factor the quadratic. If it's not factorable, use the quadratic formula to check for potential irrational zeros.    Note: Also keep in mind other special factoring patterns, which can sometimes be used instead of synthetic divison:    Difference of squares, sum of cubes, difference of cubes.     Quadratic form (e.g. or ).    Factor by grouping.    Some remarks:   The order you find the factors doesn't really matter, in that any order will eventually lead you to the same final factored form. However, if testing zeros, it is often easier and more systematic to start from the simplest and smallest zeros, like 1 or , maybe 2 or , etc.  If you test a number and it is a root, it can still be a root again for the reduced polynomial (if it is a multiple root). However, if you test it and it's not a root, then you can skip that for the reduced polynomial.    "
+},
+{
+  "id": "sec-factoring-and-graphing-polynomials-2-2",
+  "level": "2",
+  "url": "sec-factoring-and-graphing-polynomials.html#sec-factoring-and-graphing-polynomials-2-2",
+  "type": "Exercise Group",
+  "number": "4.5.1",
+  "title": "Factoring Polynomials Examples.",
+  "body": " Factoring Polynomials Examples   Find the roots of each polynomial function by factoring completely.    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .   "
+},
+{
+  "id": "sec-factoring-and-graphing-polynomials-2-3",
+  "level": "2",
+  "url": "sec-factoring-and-graphing-polynomials.html#sec-factoring-and-graphing-polynomials-2-3",
+  "type": "Exercise Group",
+  "number": "4.5.2",
+  "title": "Examples with irrational roots or irreducible quadratic factors.",
+  "body": " Examples with irrational roots or irreducible quadratic factors   Find the roots of each polynomial function by factoring completely.    .  .    .  .    .  .    .  .    .  .    .  .    .  .   "
+},
+{
   "id": "sec-polynomial-functions-summary",
   "level": "1",
   "url": "sec-polynomial-functions-summary.html",
   "type": "Section",
-  "number": "4.5",
+  "number": "4.6",
   "title": "Polynomial Functions Summary",
-  "body": " Polynomial Functions Summary    Summary of Graphing a Polynomial Function     End behavior . Find the end behavior of the polynomial, based on the degree and leading coefficient.     y-Intercept : Find the -intercept, by evaluating (setting and solving for ).     x-Intercept(s) : Find any -intercepts, by finding the zeros of the polynomial (setting and solving for ).     Multiplicity . Note the multiplicity of each zero. See .    Plot the -intercepts and -intercept.    Plot additional points between zeros (for more detail, if necessary).    Connect all of the points with a smooth curve, while respecting the end behavior and multiplicity at each zero.     "
+  "body": " Polynomial Functions Summary    Summary of Graphing a Polynomial Function     End behavior . Find the end behavior of the polynomial, based on the degree and leading coefficient.     y-Intercept : Find the -intercept, by evaluating (setting and solving for ).     x-Intercept(s) : Find any -intercepts, by finding the zeros of the polynomial (setting and solving for ). See .     Multiplicity . Note the multiplicity of each zero. See .    Plot the -intercepts and -intercept.    Plot additional points between zeros (for more detail, if necessary).    Connect all of the points with a smooth curve, while respecting the end behavior and multiplicity at each zero.     "
 },
 {
   "id": "sec-interval-notation",
