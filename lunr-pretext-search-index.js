@@ -1429,7 +1429,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.6",
   "title": "Polynomial Functions Summary",
-  "body": " Polynomial Functions Summary    Summary of Graphing a Polynomial Function     End behavior . Find the end behavior of the polynomial, based on the degree and leading coefficient.     y-Intercept : Find the -intercept, by evaluating (setting and solving for ).     x-Intercept(s) : Find any -intercepts, by finding the zeros of the polynomial (setting and solving for ). See .     Multiplicity . Note the multiplicity of each zero. See .    Plot the -intercepts and -intercept.    Plot additional points between zeros (for more detail, if necessary).    Connect all of the points with a smooth curve, while respecting the end behavior and multiplicity at each zero.     "
+  "body": " Polynomial Functions Summary    Summary of Graphing a Polynomial Function     End behavior . Find the end behavior of the polynomial, based on the degree and leading coefficient.     y-Intercept : Find the -intercept, by evaluating (setting and solving for ).     x-Intercept(s) : Find any -intercepts, by finding the zeros of the polynomial (setting and solving for ). Use a scientific calculator, or the integral zero theorem \/ rational root theorem. See .     Multiplicity . Note the multiplicity of each zero. See .    Plot the -intercepts and -intercept.    Plot additional points between zeros (for more detail, if necessary).    Connect all of the points with a smooth curve, while respecting the end behavior and multiplicity at each zero.     "
 },
 {
   "id": "sec-interval-notation",
@@ -1717,52 +1717,88 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "8.3",
   "title": "Quadratic Trigonometric Equations",
-  "body": " Quadratic Trigonometric Equations   Some trigonometric equations are quadratic in a particular trigonometric function, in that they involve a trigonometric function being squared. In this way, many methods for solving quadratic equations can be used to solve trig equations.    Notation and Other Powers of a Trigonometric Function  Sometimes, we want to write the square of a trig function. For example, , or . It is common to write this more simply as . For example,   This is a convention that saves space and avoids having to write so many parentheses.  This notation also applies generally to all trigonometric functions,   Also, this works the same with higher powers (e.g. ).  This notation often confuses students when first learning it. In particular, the exponent (2 in this case) applies to the entire trigonometric function, not the angle . In other words,   If you like, whenever you see a squared trig function, you can first write it with brackets, before proceeding with the problem.    Solving Quadratic Trigonometric Equations   Consider . To solve this, you can replace with a single variable ( ), to get .   More precisely, if is a quadratic equation, then the equation can be put into the form (or another trigonometric function).    Examples    Basic quadratic equation . Solve each equation.           Factoring a common factor . Solve each equation.             Note that you can't divide by , because that assumes that , when in fact can equal 0. This is just like how with the equation , you can't divide by and instead have to factor it out.    Trigonometric Equations in Quadratic Form  Again, it is helpful to think about the equation if the trig function was replaced by a single variable (say, ).    Trigonometric equations in quadratic form . Solve each equation.                   Advanced . Solve each equation.     . Answer:           "
+  "body": " Quadratic Trigonometric Equations   Some trigonometric equations are quadratic in a particular trigonometric function, in that they involve a trigonometric function being squared. In this way, many methods for solving quadratic equations can be used to solve trig equations.    Notation and Other Powers of a Trigonometric Function  Sometimes, we want to write the square of a trig function. For example, , or . It is common to write this more simply as .   Notation Example  For example, means . Then,    This convention saves space and avoids writing so many brackets with expressions that have many powers involving trigonometric functions. This notation applies in general to all trigonometric functions,   This all works the same with higher powers (e.g. ).  This notation often confuses students when first learning it. In particular, the exponent (2 in this case) applies to the entire trigonometric function, not the angle . In other words,   If you like, whenever you see a squared trig function, you can first write it with brackets, before starting with the problem.    Solving Quadratic Trigonometric Equations   Substitution Idea  Consider . To solve this, you can think of replacing with a single variable ( ), to get . To solve this, you would isolate for , and then take the square root of both sides.   More precisely, if is a quadratic equation, then the equation can be put into the form (or another trigonometric function).    Examples  Factor, and then solve the resulting two (linear) trigonometric equations.   Basic quadratic equation   Solve each equation for , and give the general solution.    .  Answer: . General solution: , , , , OR , .    .  Answer: . General solution: , , OR .     Factoring a common factor   Solve each equation for , and give the general solution.    .  Answer: . General solution: OR or .    .  Answer: . General solution: OR or or .    .  Answer: . General solution: OR .    .  Answer: . General solution: OR or or .    .  Answer: . General solution: OR or or .    .  Answer: . General solution: OR or or .    Note that you can't divide by (or any other trig function), because that assumes that , when in fact can equal 0. This is just like how with the equation , you can't divide by and instead have to factor it out.    Trigonometric Equations in Quadratic Form  Again, it is helpful to think about the equation if the trig function was replaced by a single variable (say, ).   Trigonometric equations in quadratic form   Solve each equation for , and give the general solution. Give exact values for special angles, otherwise give a decimal answer rounded to the nearest hundredth.    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: or .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: or .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .      Advanced   Advanced examples   Solve each equation for , and give the general solution. Give exact values for special angles, otherwise give a decimal answer rounded to the nearest hundredth.    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: or .    .  Answer: . General solution: or or .    .  Answer: . General solution: or .    .  Answer: . General solution: or .    .  Answer: . General solution: .    .  Answer: . General solution: .     Finding Coefficients  The equation has solutions , and on the interval . Find the values of and .    Finding More Coefficients  The equation has solutions on the interval . Find the values of and .    Really difficult  Solve . Hint: write in terms of only, to get , and factor using synthetic division. Answer: . General solution: .    "
 },
 {
-  "id": "sec-quadratic-trigonometric-equations-4-2",
+  "id": "notation-powers-trig-3",
   "level": "2",
-  "url": "sec-quadratic-trigonometric-equations.html#sec-quadratic-trigonometric-equations-4-2",
+  "url": "sec-quadratic-trigonometric-equations.html#notation-powers-trig-3",
   "type": "Example",
   "number": "8.3.1",
-  "title": "",
-  "body": " Consider . To solve this, you can replace with a single variable ( ), to get .  "
+  "title": "Notation Example.",
+  "body": " Notation Example  For example, means . Then,   "
 },
 {
-  "id": "sec-quadratic-trigonometric-equations-5-2",
+  "id": "solving-quadratic-trig-eqs-2",
   "level": "2",
-  "url": "sec-quadratic-trigonometric-equations.html#sec-quadratic-trigonometric-equations-5-2",
+  "url": "sec-quadratic-trigonometric-equations.html#solving-quadratic-trig-eqs-2",
   "type": "Example",
   "number": "8.3.2",
-  "title": "",
-  "body": "  Basic quadratic equation . Solve each equation.        "
+  "title": "Substitution Idea.",
+  "body": " Substitution Idea  Consider . To solve this, you can think of replacing with a single variable ( ), to get . To solve this, you would isolate for , and then take the square root of both sides.  "
 },
 {
-  "id": "sec-quadratic-trigonometric-equations-5-3",
+  "id": "basic-quadratic-eqs",
   "level": "2",
-  "url": "sec-quadratic-trigonometric-equations.html#sec-quadratic-trigonometric-equations-5-3",
+  "url": "sec-quadratic-trigonometric-equations.html#basic-quadratic-eqs",
+  "type": "Exercise Group",
+  "number": "8.3.1",
+  "title": "Basic quadratic equation.",
+  "body": " Basic quadratic equation   Solve each equation for , and give the general solution.    .  Answer: . General solution: , , , , OR , .    .  Answer: . General solution: , , OR .   "
+},
+{
+  "id": "factoring-common-factor",
+  "level": "2",
+  "url": "sec-quadratic-trigonometric-equations.html#factoring-common-factor",
+  "type": "Exercise Group",
+  "number": "8.3.2",
+  "title": "Factoring a common factor.",
+  "body": " Factoring a common factor   Solve each equation for , and give the general solution.    .  Answer: . General solution: OR or .    .  Answer: . General solution: OR or or .    .  Answer: . General solution: OR .    .  Answer: . General solution: OR or or .    .  Answer: . General solution: OR or or .    .  Answer: . General solution: OR or or .   "
+},
+{
+  "id": "trig-eqs-quadratic-form",
+  "level": "2",
+  "url": "sec-quadratic-trigonometric-equations.html#trig-eqs-quadratic-form",
+  "type": "Exercise Group",
+  "number": "8.3.3",
+  "title": "Trigonometric equations in quadratic form.",
+  "body": " Trigonometric equations in quadratic form   Solve each equation for , and give the general solution. Give exact values for special angles, otherwise give a decimal answer rounded to the nearest hundredth.    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: or .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: or .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .   "
+},
+{
+  "id": "advanced-quadratic-eqs",
+  "level": "2",
+  "url": "sec-quadratic-trigonometric-equations.html#advanced-quadratic-eqs",
+  "type": "Exercise Group",
+  "number": "8.3.4",
+  "title": "Advanced examples.",
+  "body": " Advanced examples   Solve each equation for , and give the general solution. Give exact values for special angles, otherwise give a decimal answer rounded to the nearest hundredth.    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: or .    .  Answer: . General solution: or or .    .  Answer: . General solution: or .    .  Answer: . General solution: or .    .  Answer: . General solution: .    .  Answer: . General solution: .   "
+},
+{
+  "id": "find-a-b",
+  "level": "2",
+  "url": "sec-quadratic-trigonometric-equations.html#find-a-b",
   "type": "Example",
   "number": "8.3.3",
-  "title": "",
-  "body": "  Factoring a common factor . Solve each equation.            "
+  "title": "Finding Coefficients.",
+  "body": " Finding Coefficients  The equation has solutions , and on the interval . Find the values of and .  "
 },
 {
-  "id": "sec-quadratic-trigonometric-equations-6-3",
+  "id": "find-b-c",
   "level": "2",
-  "url": "sec-quadratic-trigonometric-equations.html#sec-quadratic-trigonometric-equations-6-3",
+  "url": "sec-quadratic-trigonometric-equations.html#find-b-c",
   "type": "Example",
   "number": "8.3.4",
-  "title": "",
-  "body": "  Trigonometric equations in quadratic form . Solve each equation.                "
+  "title": "Finding More Coefficients.",
+  "body": " Finding More Coefficients  The equation has solutions on the interval . Find the values of and .  "
 },
 {
-  "id": "sec-quadratic-trigonometric-equations-6-4",
+  "id": "difficult-example",
   "level": "2",
-  "url": "sec-quadratic-trigonometric-equations.html#sec-quadratic-trigonometric-equations-6-4",
+  "url": "sec-quadratic-trigonometric-equations.html#difficult-example",
   "type": "Example",
   "number": "8.3.5",
-  "title": "",
-  "body": "  Advanced . Solve each equation.     . Answer:         "
+  "title": "Really difficult.",
+  "body": " Really difficult  Solve . Hint: write in terms of only, to get , and factor using synthetic division. Answer: . General solution: .  "
 },
 {
   "id": "sec-intro-to-proving-trigonometric-identities",
