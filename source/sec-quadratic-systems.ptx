@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-quadratic-systems" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Quadratic Systems</title>
+  
+  <!-- <introduction>
+  <p>
+  This is the introduction to the section. It can contain any content
+  that is valid in a <introduction> element, including <p>, <ul>, <ol>,
+  <figure>, and <table>. You can also include other files using
+  <xi:include> tags.
+  </p>
+  </introduction> -->
+  
+  <subsection xml:id="solving-by-substitution">
+    <title>Solving by Substitution</title>
+    <p>
+      Substitution is the main technique to solve systems algebraically. Elimination is more awkward.
+    </p>
+    <project>
+      <title>Solving Systems by Substitution</title>
+      <introduction>
+        <p>
+          Solve each system of equations.
+        </p>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            <m>\begin{cases} y = x^2 - 3x - 4 \\ 2x - y = 4 \end{cases}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>(0,-4)</m>, <m>(5,6)</m>.
+          </p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p>
+            <m>\begin{cases} x^2 + y = 4 \\ 2x + y = 1 \end{cases}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>(-1,3)</m>, <m>(3,-5)</m>.
+          </p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p>
+            <m>\begin{cases} 2x^2 - y = 1 \\ y = 5x + 2 \end{cases}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>\brac{-\frac{1}{2},-\frac{1}{2}}</m>, <m>(3,17)</m>.
+          </p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p>
+            <m>\begin{cases} x^2 - y = 3 \\ y = 3x + 7 \end{cases}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>(-2,1)</m>, <m>(5,22)</m>.
+          </p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p>
+            <m>\begin{cases} y = 1 - x^2 \\ x + y = 2 \end{cases}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            No real solution.
+          </p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p>
+            <m>\begin{cases} y = x^2 + 5x + 6 \\ x - y = -12 \end{cases}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>\brac{-2+\sqrt{10},10+\sqrt{10}} \approx (1.16,13.16)</m>, <m>\brac{-2-\sqrt{10},10-\sqrt{10}} \approx (-5.16,6.84)</m>.
+          </p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p>
+            <m>\begin{cases} 2y = x^2 \\ y = x - \frac{1}{2} \end{cases}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>(1,\frac{1}{2})</m>.
+          </p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p>
+            <m>\begin{cases} y = x^2 - 3x - 4 \\ 2x - y = 3 \end{cases}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>\brac{\frac{5-\sqrt{29}}{2},2-\sqrt{29}} \approx (-0.19,-3.39)</m>, <m>\brac{\frac{5+\sqrt{29}}{2},2+\sqrt{29}} \approx (5.19,7.39)</m>.
+          </p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p>
+            <m>\begin{cases} 3x^2 - 10y = 5 \\ x - y = -2 \end{cases}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>\brac{-\frac{5}{3},\frac{1}{3}}</m>, <m>(5,7)</m>.
+          </p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p>
+            <m>\begin{cases} 2x^2 - 3y = 2 \\ x - 2y = -2 \end{cases}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>\brac{-\frac{5}{4},\frac{3}{8}}</m>, <m>(2,2)</m>.
+          </p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p>
+            <m>\begin{cases} y = \frac{1}{2}x^2 - 2x + 3 \\ 2x - 2y = 3 \end{cases}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>(3,\frac{3}{2})</m>.
+          </p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p>
+            <m>\begin{cases} y = -\frac{1}{2}x^2 + 2x - 3 \\ y = x - 2 \end{cases}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            No real solution.
+          </p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p>
+            <m>\begin{cases} y = x^2 \\ x + y = 3 \end{cases}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>\brac{\frac{-1 + \sqrt{13}}{2},\frac{7 - \sqrt{13}}{2}} \approx (1.30,1.70)</m>, <m>\brac{\frac{-1-\sqrt{13}}{2},\frac{7 + \sqrt{13}}{2}} \approx (-2.30,5.30)</m>.
+          </p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p>
+            <m>\begin{cases} x^2 + 2y = -2 \\ -2x + y = 1 \end{cases}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>(-2,-3)</m>.
+          </p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p>
+            <m>\begin{cases} y = x^2 - x \\ y = 2x \end{cases}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>(0,0)</m>, <m>(3,6)</m>.
+          </p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p>
+            <m>\begin{cases} y = x^2 - 6x \\ y = x - 12 \end{cases}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>(3,-9)</m>, <m>(4,-8)</m>.
+          </p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p>
+            <m>\begin{cases} y = x^2 + 8x - 10 \\ y = 3x + 4 \end{cases}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>(-7,-17)</m>, <m>(2,10)</m>.
+          </p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p>
+            <m>\begin{cases} x^2 = y \\ 2x - y = 1 \end{cases}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>(1,1)</m>.
+          </p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p>
+            <m>\begin{cases} x^2 + y = 9 \\ 3x + 2y = 16 \end{cases}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>\brac{-\frac{1}{2},\frac{35}{4}}</m>, <m>(2,5)</m>.
+          </p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p>
+            <m>\begin{cases} x^2 - y = 10 \\ 2x - 3y = -10 \end{cases}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>\brac{-\frac{10}{3},\frac{10}{9}}</m>, <m>(4,6)</m>.
+          </p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p>
+            <m>\begin{cases} 3y - x - 3 = 0 \\ y + 2x^2 - 2 = 0 \end{cases}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>\brac{\frac{-1+\sqrt{73}}{12},\frac{35 + \sqrt{73}}{36}} \approx (0.63,1.21)</m>, <m>\brac{\frac{-1-\sqrt{73}}{12},\frac{35 - \sqrt{73}}{36}} \approx (-0.80,0.73)</m>.
+          </p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p>
+            <m>\begin{cases} y = x^2 - 4x + 3 \\ y = 3x - 2 \end{cases}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>\brac{\frac{7-\sqrt{29}}{2},\frac{17-3\sqrt{29}}{2}} \approx (0.81,0.42)</m>, <m>\brac{\frac{7+\sqrt{29}}{2},\frac{17+3\sqrt{29}}{2}} \approx (6.19,16.58)</m>.
+          </p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p>
+            <m>\begin{cases} y = -x^2 + 3 \\ 2x + y = 0 \end{cases}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>(-1,2)</m>, <m>(3,-6)</m>.
+          </p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p>
+            <m>\begin{cases} x^2 + y = 1 \\ 3x - 2y = 4 \end{cases}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>\brac{\frac{-3 + \sqrt{57}}{4}, \frac{-25 + 3\sqrt{57}}{8}} \approx (1.14,-0.29)</m>, <m>\brac{\frac{-3 - \sqrt{57}}{4}, \frac{-25 - 3\sqrt{57}}{8}} \approx (-2.64,-5.96)</m>.
+          </p>
+        </answer>
+      </task>
+    </project>
+    
+    <project>
+      <title>Advanced Examples</title>
+      <introduction>
+        <p>
+          Solve each system of equations.
+        </p>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            <m>\begin{cases} xy = 12 \\ 2x - y = -2 \end{cases}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>(-3,-4)</m>,<m>(2,6)</m>.
+          </p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p>
+            <m>\begin{cases} xy = -9 \\ y = -\frac{1}{2}x \end{cases}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>\brac{-3\sqrt{2},\frac{3\sqrt{2}}{2}} \approx (-4.24,2.12)</m>, <m>\brac{3\sqrt{2},-\frac{3\sqrt{2}}{2}} \approx (4.24,-2.12)</m>.
+          </p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p>
+            <m>\begin{cases} xy = 4 \\ y = 2x - 1 \end{cases}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>\brac{\frac{1-\sqrt{33}}{4},\frac{-1-\sqrt{33}}{2}} \approx (-1.19,-3.37)</m>, <m>\brac{\frac{1+\sqrt{33}}{4},\frac{-1+\sqrt{33}}{2}} \approx (1.69,2.37)</m>.
+          </p>
+        </answer>
+      </task>
+    </project>
+  </subsection>
+  
+</section>
