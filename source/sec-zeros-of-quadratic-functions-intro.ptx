@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-zeros-of-quadratic-functions-intro" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Zeros of Quadratic Functions Intro</title>
+  
+  <subsection xml:id="subsection-calculator-quadratic">
+    <title>Solving Quadratic Equations with Scientific Calculator (EQN Mode)</title>
+    <p>
+      My recommended calculator <url href="https://camerongeisler.com/calculator-guide-for-students-how-to-buy-a-calculator/">Casio FX-991ESPLUS2</url> (or some other similar scientific calculators) can find zeros of a quadratic function. You can use this to at least check your work, or help you out if you're stuck.
+    </p>
+    <ol>
+      <li>
+        Press <alert>MODE</alert>, and go to equation mode by pressing <alert>EQN</alert>. A menu will appear which shows the various equation types. Press <alert>3</alert> to choose the quadratic equation option <m>aX^2 + bX + c = 0</m>.
+      </li>
+      <li>
+        The calculator will show entry fields for <m>a</m>, <m>b</m>, and <m>c</m>. Your equation must be in this standard form <m>ax^2+bx+c=0</m>. Enter each coefficient in order.
+      </li>
+      <li>
+        After entering all coefficients, press <alert>=</alert> (or <alert>EXE</alert>) to calculate the solutions.
+      </li>
+      <li>
+        The calculator will display the first root as <m>X_1 = \dots</m>. Use the up/down arrow keys to scroll through the roots to see <m>X_2 = \dots</m>.
+      </li>
+    </ol>
+    <example>
+      <title>Solving a Quadratic Equation</title>
+      <p>
+        For example, to solve <m>x^2 - 3x + 2 = 0</m>,
+      </p>
+      <ul>
+        <li>
+          Enter EQN mode and select quadratic (option 3).
+        </li>
+        <li>
+          Input coefficients: <m>1</m>, <m>-3</m>, <m>2</m>.
+        </li>
+        <li>
+          Press <alert>=</alert> to solve. The calculator will show: <m>X_1 = 1, \quad X_2 = 2</m>.
+        </li>
+      </ul>
+    </example>
+    <p>
+      Some notes:
+    </p>
+    <ul>
+      <li>
+        If there are repeated roots (so only one zero), the calculator will only display <m>X = \dots</m> with the single zero (as opposed to <m>X_1 = \dots, X_2 = \dots</m>).
+      </li>
+      <li>
+        If there are no solutions, the calculator will output <q>complex numbers</q> that include the symbol <m>i</m>. This indicates there are no solutions.
+      </li>
+      <li>
+        To go back to the regular calculator, press <alert>MODE</alert> and choose <alert>COMP</alert> mode (computation mode).
+      </li>
+    </ul>
+  </subsection>
+  
+</section>

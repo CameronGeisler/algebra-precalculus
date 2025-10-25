@@ -892,11 +892,29 @@ var ptx_lunr_docs = [
   "body": ""
 },
 {
+  "id": "sec-zeros-of-quadratic-functions-intro",
+  "level": "1",
+  "url": "sec-zeros-of-quadratic-functions-intro.html",
+  "type": "Section",
+  "number": "2.1",
+  "title": "Zeros of Quadratic Functions Intro",
+  "body": " Zeros of Quadratic Functions Intro   Solving Quadratic Equations with Scientific Calculator (EQN Mode)  My recommended calculator Casio FX-991ESPLUS2 (or some other similar scientific calculators) can find zeros of a quadratic function. You can use this to at least check your work, or help you out if you're stuck.   Press MODE , and go to equation mode by pressing EQN . A menu will appear which shows the various equation types. Press 3 to choose the quadratic equation option .  The calculator will show entry fields for , , and . Your equation must be in this standard form . Enter each coefficient in order.  After entering all coefficients, press = (or EXE ) to calculate the solutions.  The calculator will display the first root as . Use the up\/down arrow keys to scroll through the roots to see .    Solving a Quadratic Equation  For example, to solve ,   Enter EQN mode and select quadratic (option 3).  Input coefficients: , , .  Press = to solve. The calculator will show: .    Some notes:   If there are repeated roots (so only one zero), the calculator will only display with the single zero (as opposed to ).  If there are no solutions, the calculator will output complex numbers that include the symbol . This indicates there are no solutions.  To go back to the regular calculator, press MODE and choose COMP mode (computation mode).    "
+},
+{
+  "id": "subsection-calculator-quadratic-4",
+  "level": "2",
+  "url": "sec-zeros-of-quadratic-functions-intro.html#subsection-calculator-quadratic-4",
+  "type": "Example",
+  "number": "2.1.1",
+  "title": "Solving a Quadratic Equation.",
+  "body": " Solving a Quadratic Equation  For example, to solve ,   Enter EQN mode and select quadratic (option 3).  Input coefficients: , , .  Press = to solve. The calculator will show: .   "
+},
+{
   "id": "sec-factoring-quadratic-trinomials",
   "level": "1",
   "url": "sec-factoring-quadratic-trinomials.html",
   "type": "Section",
-  "number": "2.1",
+  "number": "2.2",
   "title": "Factoring Quadratic Trinomials",
   "body": " Factoring Quadratic Trinomials   Factoring quadratic trinomials is arguably the single most used skill in high-school mathematics, being used in uncountably many high-school (and college) math problems. In this way, it is very important to master. However, unfortunately, it is among the least important and least useful topic \"in the real world\".  The goal is to factor any expression of the form , where are any integers.    First, we'll start with a simpler case, when .  Then, we'll consider the more difficult case, when .      Factoring (Sum and Product Method)   We want to take an expression like , and rewrite it as . The question is: how to choose the two numbers to put in the brackets. To do this, let's observe the pattern for how expansions work. Consider the expansion of ,   Here are some other expansions,   Observe how expanding the left side leads to the right side. On the right side, there are always 3 terms: , an term, and a constant number term. Also, to get the coefficient of the middle term, you add the two numbers in the brackets. To get the last constant term, you multiply those two numbers. In other words,    In general, if we multiply two factors together, say and , we get,     The first term is always .  The coefficient of the middle term is the sum of and .  The last term is the product of and .    In summary,   This leads to a general rule for factoring an expression of the form .    Factor .    Factor .   In summary,    Arrange the trinomial in descending power order (if needed)  Go through the pairs of number which multiply to , and check if they add to .  If they do, then write it as     Factor each quadratic expression.                                 Some additional helpful observations,    When the constant term is positive, then the factors of must be either both positive or both negative. If the middle term is positive, then both must be positive. If the middle term is negative, then both must be negative.  E.g. (last term is positive, middle term is positive, so both factors are positive)  E.g. (last term is positive, middle term is negative, so both factors are negative)      When the constant term is negative, then the factors of must have opposite signs (one positive, one negative). The sign of the larger number will be the sign of the coefficient of the middle term.  E.g. (last term is negative, so signs are opposite, and middle term is negative, so and 3 is negative)  E.g. (last term is negative, so signs are opposite, and middle term is positive, so and the 5 is positive)        Factoring Trinomials with Common Factors  Sometimes the trinomial is set up so that (the number in front of is not 1), however, there is a common factor that can be factored out, reducing the expression to one which can be factored using the previous method.   Factor each quadratic expression.                  Factoring Polynomials of the form ,  There are many methods for factoring these kinds of polynomials. All of them end up with the same result, but some are more efficient than others. I personally believe the cross method is the most efficient and easiest method to use.    Cross Method   Consider, To do the cross method, find two things that multiply to the first term, and two things that multiply to the last term. Then, draw a crisscross or X shape. Multiply the diagonals and add them up. The combination is correct if the diagonals add up to the middle term.     However, the diagonals add up to , which isn't the middle term. Instead, switch the 3 and the 1,     We now get , which is the middle term. After you've found the correct combination, the two factors can be read horizontally,        The cross method can be used even in the previous simpler case when . In other words, the cross method is a generalization of the sum and product method that we used when . For example, for, We could think of factors of that add up to , which are and , to get,   However, we can also use the cross method. The first term is , so we can write and on the left side, and the last term is , so we can write and on the right side. Then, we draw a crisscross or X shape, multiply the diagonals, and add them up. The combination is correct if the diagonals add up to the middle term.       This gives the same result as before.   At first, you will have to guess and check each combination until you get the correct one. With some practice, you will become better at guessing what the factors are, without having to go through every possible combination.   Consider, In this case, which is negative, unlike the previous examples. Technically, you can proceed as usual, finding two things that multiply to and , for example,     However, it turns out that the negative on the left side makes things more complicated, because then you have to worry about where to put the negative on the left side, as well as if the right side is 3 and 1 or and . There are a lot of negative signs. Instead, factor out from all terms first, which flips the sign of all the terms,   Then, factor the expression inside the brackets as before. Now, the only sign choice is the , where one of the factors must be negative.         Factor each expression fully.                         Factor each expression fully.                         Factor each expression fully.                          Factoring Out the GCF First Before the Cross Method   Consider the quadratic,   Here, the numbers are kinda large, but we can still use the cross method. After some trial and error, the correct combination is,      However, notice that also contains a common factor of 3, so we should factor it out.   Instead, it is easier to first factor out the common factor of 3,   Then, factoring the remaining only uses the sum and product method, and has smaller numbers to work with,     In general, it is easier to first factor out the GCF (greatest common factor), if there is one, before using the cross method. This makes the numbers you have to work with smaller, making it easier to find the factors.    Summary of Factoring    Always start by factoring out any common factor (the GCF)   If the leading coefficient is negative, factor out from all terms.     If ( ), then find two numbers that multiply to and add to .  If ( ), then use the cross method.    To check your answer, you can expand (FOIL) and check if you get back the original expression.     "
 },
@@ -905,7 +923,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-quadratic-trinomials.html#sec-factoring-quadratic-trinomials-3-2",
   "type": "Example",
-  "number": "2.1.1",
+  "number": "2.2.1",
   "title": "",
   "body": " We want to take an expression like , and rewrite it as . The question is: how to choose the two numbers to put in the brackets. To do this, let's observe the pattern for how expansions work. Consider the expansion of ,   Here are some other expansions,   Observe how expanding the left side leads to the right side. On the right side, there are always 3 terms: , an term, and a constant number term. Also, to get the coefficient of the middle term, you add the two numbers in the brackets. To get the last constant term, you multiply those two numbers. In other words,   "
 },
@@ -914,7 +932,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-quadratic-trinomials.html#sec-factoring-quadratic-trinomials-3-10",
   "type": "Checkpoint",
-  "number": "2.1.2",
+  "number": "2.2.2",
   "title": "",
   "body": " Factor .  "
 },
@@ -923,7 +941,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-quadratic-trinomials.html#sec-factoring-quadratic-trinomials-3-11",
   "type": "Checkpoint",
-  "number": "2.1.3",
+  "number": "2.2.3",
   "title": "",
   "body": " Factor .  "
 },
@@ -932,7 +950,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-quadratic-trinomials.html#sec-factoring-quadratic-trinomials-3-14",
   "type": "Checkpoint",
-  "number": "2.1.4",
+  "number": "2.2.4",
   "title": "",
   "body": " Factor each quadratic expression.                                "
 },
@@ -941,7 +959,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-quadratic-trinomials.html#sec-factoring-quadratic-trinomials-4-3",
   "type": "Checkpoint",
-  "number": "2.1.5",
+  "number": "2.2.5",
   "title": "",
   "body": " Factor each quadratic expression.               "
 },
@@ -950,7 +968,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-quadratic-trinomials.html#sec-factoring-quadratic-trinomials-6-2",
   "type": "Example",
-  "number": "2.1.6",
+  "number": "2.2.6",
   "title": "",
   "body": " Consider, To do the cross method, find two things that multiply to the first term, and two things that multiply to the last term. Then, draw a crisscross or X shape. Multiply the diagonals and add them up. The combination is correct if the diagonals add up to the middle term.     However, the diagonals add up to , which isn't the middle term. Instead, switch the 3 and the 1,     We now get , which is the middle term. After you've found the correct combination, the two factors can be read horizontally,      "
 },
@@ -959,7 +977,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-quadratic-trinomials.html#sec-factoring-quadratic-trinomials-6-3",
   "type": "Example",
-  "number": "2.1.7",
+  "number": "2.2.7",
   "title": "",
   "body": " The cross method can be used even in the previous simpler case when . In other words, the cross method is a generalization of the sum and product method that we used when . For example, for, We could think of factors of that add up to , which are and , to get,   However, we can also use the cross method. The first term is , so we can write and on the left side, and the last term is , so we can write and on the right side. Then, we draw a crisscross or X shape, multiply the diagonals, and add them up. The combination is correct if the diagonals add up to the middle term.       This gives the same result as before.  "
 },
@@ -968,7 +986,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-quadratic-trinomials.html#sec-factoring-quadratic-trinomials-6-5",
   "type": "Example",
-  "number": "2.1.8",
+  "number": "2.2.8",
   "title": "",
   "body": " Consider, In this case, which is negative, unlike the previous examples. Technically, you can proceed as usual, finding two things that multiply to and , for example,     However, it turns out that the negative on the left side makes things more complicated, because then you have to worry about where to put the negative on the left side, as well as if the right side is 3 and 1 or and . There are a lot of negative signs. Instead, factor out from all terms first, which flips the sign of all the terms,   Then, factor the expression inside the brackets as before. Now, the only sign choice is the , where one of the factors must be negative.       "
 },
@@ -977,7 +995,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-quadratic-trinomials.html#sec-factoring-quadratic-trinomials-6-6",
   "type": "Checkpoint",
-  "number": "2.1.9",
+  "number": "2.2.9",
   "title": "",
   "body": " Factor each expression fully.                       "
 },
@@ -986,7 +1004,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-quadratic-trinomials.html#sec-factoring-quadratic-trinomials-6-7",
   "type": "Checkpoint",
-  "number": "2.1.10",
+  "number": "2.2.10",
   "title": "",
   "body": " Factor each expression fully.                       "
 },
@@ -995,7 +1013,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-quadratic-trinomials.html#sec-factoring-quadratic-trinomials-6-8",
   "type": "Checkpoint",
-  "number": "2.1.11",
+  "number": "2.2.11",
   "title": "",
   "body": " Factor each expression fully.                       "
 },
@@ -1004,7 +1022,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-quadratic-trinomials.html#sec-factoring-quadratic-trinomials-7-2",
   "type": "Example",
-  "number": "2.1.12",
+  "number": "2.2.12",
   "title": "",
   "body": " Consider the quadratic,   Here, the numbers are kinda large, but we can still use the cross method. After some trial and error, the correct combination is,      However, notice that also contains a common factor of 3, so we should factor it out.   Instead, it is easier to first factor out the common factor of 3,   Then, factoring the remaining only uses the sum and product method, and has smaller numbers to work with,    "
 },
@@ -1013,7 +1031,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-factoring-quadratics-summary.html",
   "type": "Section",
-  "number": "2.2",
+  "number": "2.3",
   "title": "Factoring Quadratics Summary",
   "body": " Factoring Quadratics Summary     Write the quadratic in descending power order (standard form), .     e.g.        If there is a GCF (greatest common factor), factor it out (either a number or variable like ).     e.g.     e.g.        Determine which factoring method applies, based on the form:    If , find two numbers that multiply to and add to .     e.g.        If , use the cross method (or -method, or box method).     e.g.        If there are only 2 terms, try difference of squares.     (Optional) use perfect square factoring patterns:        "
 },
@@ -1450,18 +1468,18 @@ var ptx_lunr_docs = [
   "body": " Examples with irrational roots or irreducible quadratic factors   Find the roots of each polynomial function by factoring completely.    .  .    .  .    .  .    .  .    .  .    .  .    .  .   "
 },
 {
-  "id": "sec-polynomial-function-applications",
+  "id": "sec-applications-of-polynomial-function",
   "level": "1",
-  "url": "sec-polynomial-function-applications.html",
+  "url": "sec-applications-of-polynomial-function.html",
   "type": "Section",
   "number": "5.6",
-  "title": "Polynomial Function Applications",
-  "body": " Polynomial Function Applications   Box Problem (Open-Top Box)  The box problem is a classic word problem in the polynomial functions chapter. The setup is complicated at first, but after you understand it, each problem goes pretty much the same way.   Open-Top Box from Cardboard   We are going to design a box with an open-top in the following way.    Start with a flat sheet of cardboard, of size 24 cm by 18 cm (the size varies for each question).    Cut out 4 square corners of equal size from the sheet.    Fold the 4 flaps of the sheets up, which forms the sides of the box (we tape together the sides).    The non-folded up part forms the base of the box.    It looks like this,        This creates a box, with an open top. If we cut out different lengths for the corner, the resulting box will have a different shape, and a different volume. Check out this Geogebra applet: Volume of a box problem . The is how much is cut from each corner (or the cut size). Then, the volume is a function of the cut size.     Find an expression for the volume of the box, as a function of the cut size. Find the domain of the problem.    First, the volume of a box is (length width height). If the cut size is , then the dimensions look like this,       The length is (because it is the starting amount of 24 cm, with cut off on both sides.    The width is (similarly).    The height is (because the cut size is the height of the flaps, which becomes the height of the box when folded up).    Therefore, the volume is,   Here is a graph of that function: Desmos graph . The cut size is on the horizontal axis, and the resulting volume is on the vertical axis.  For the domain, this function requires that is at most 9, because you can only cut off at most half of the width (18) from each side. Otherwise, you're cutting off the entire box (and more), which doesn't make sense. Also, of course, you must cut at least something off. Together, we have . If or , then the box has 0 volume. Some teachers might include these in the domain, as , for convenience.      Find the cut size(s), and the dimensions of the box, that produces a box with volume of .    To find when the volume is 560 cm , we set and solve for ,   Graphically, the solution(s) are the intersections of and the horizontal line ( Desmos link ). Observe that the intersections are at and . This means that both a cut size of 2 cm and 5 cm will produce a box with volume 560 cm .  Without a graphing calculator, we can solve the equation algebraically. First, expand and simplify,   Then, move all terms to one side, and write in standard form,   To make the equation simpler, divide out the common factor of 4,   To solve this, you can use:    The scientific calculator method, either using the cubic equation solver, or the table method.    Testing roots and synthetic division.    To test roots, try factors of 140, which are .  You should get,   And the solutions are . However, is outside the domain of the problem, so only are solutions.  After you get the solutions for , you can get the dimensions of the box by substituting that value of back into each dimension.    If , then we get,   Length cm.    Width cm.    Height cm.       If , then they are 14 cm, 8 cm, and 5 cm.    You can verify that for each case, the dimensions lead to a volume of 560 cm . Sometimes, your teacher might specify that, for example, , just so that there is a single final answer (in this case, ).      Find the maximum possible volume of the box, and the cut size that produces it (requires graphing calculator).    Graphically, the maximum value of the function is the top point of the graph ( Desmos graph ). Here, it is , which means the maximum volume is 655 cm , and this occurs when the cut size is 3.39 cm.     Each question of this type has basically the same setup, because the only things that can change are the dimensions of the sheet, and the desired volume.  In general, if the sheet has length and width , and the cut-out length is , then the volume of the box will be,    Box Problem Practice   For a cardboard sheet of each size, find the cut size and dimensions of the box that produce the desired volume.     Sheet 15 cm by 12 cm, volume of 162 (with ).    leads to , simplify to or and solve for .     (reject by the condition and by the domain restriction).      Sheet 36 cm by 20 cm, volume of 800 .    leads to , simplify to .     or (reject because it is outside the domain).      Sheet 20 cm by 28 cm, volume of 924 .    leads to , simplify to and solve for .     or (reject because it is outside the domain).      Sheet 36 cm by 28 cm, volume of 2240 .    leads to , simplify to and solve for .     or (reject because it is outside the domain).       Misc Word Problems   Consecutive Odd Integers   The product of 3 consecutive odd integers is 693. Find the 3 integers.    Leads to , or , solve for .    13, 15, 17.     Gift Box Dimensions   The volume of a gift box can be represented by the function , and its height is . Find expressions for the length and the width of the box.    The volume can be factored into length, width, and height. The height being means that is a factor, but we can use instead to make it simpler, and put the negative sign back after. This leads to factoring into .    The length and width are and .     Twin Ages Problem   Fred and Ted are twins. They were born 3 years after their older sister, Bethany. This year, the product of their three ages is 5726 greater than the sum of their ages. How old are the twins?    Leads to , leading to .    17 years old.      Remarks     Ideally, before factoring, you should divide out any common factor, to make the equation simpler. Especially if the numbers in the equation are very large, as they often are in applications.    In applications, it is rare to see polynomial equations with numbers that are simple and nice, unless your teacher has chosen the numbers specifically so it is simple.      "
+  "title": "Applications of Polynomial Functions",
+  "body": " Applications of Polynomial Functions   Box Problem (Open-Top Box)  The box problem is a classic word problem in the polynomial functions chapter. The setup is complicated at first, but after you understand it, each problem goes pretty much the same way.   Open-Top Box from Cardboard   We are going to design a box with an open-top in the following way.    Start with a flat sheet of cardboard, of size 24 cm by 18 cm (the size varies for each question).    Cut out 4 square corners of equal size from the sheet.    Fold the 4 flaps of the sheets up, which forms the sides of the box (we tape together the sides).    The non-folded up part forms the base of the box.    It looks like this,        This creates a box, with an open top. If we cut out different lengths for the corner, the resulting box will have a different shape, and a different volume. Check out this Geogebra applet: Volume of a box problem . The is how much is cut from each corner (or the cut size). Then, the volume is a function of the cut size.     Find an expression for the volume of the box, as a function of the cut size. Find the domain of the problem.    First, the volume of a box is (length width height). If the cut size is , then the dimensions look like this,       The length is (because it is the starting amount of 24 cm, with cut off on both sides.    The width is (similarly).    The height is (because the cut size is the height of the flaps, which becomes the height of the box when folded up).    Therefore, the volume is,   Here is a graph of that function: Desmos graph . The cut size is on the horizontal axis, and the resulting volume is on the vertical axis.  For the domain, this function requires that is at most 9, because you can only cut off at most half of the width (18) from each side. Otherwise, you're cutting off the entire box (and more), which doesn't make sense. Also, of course, you must cut at least something off. Together, we have . If or , then the box has 0 volume. Some teachers might include these in the domain, as , for convenience.      Find the cut size(s), and the dimensions of the box, that produces a box with volume of .    To find when the volume is 560 cm , we set and solve for ,   Graphically, the solution(s) are the intersections of and the horizontal line ( Desmos link ). Observe that the intersections are at and . This means that both a cut size of 2 cm and 5 cm will produce a box with volume 560 cm .  Without a graphing calculator, we can solve the equation algebraically. First, expand and simplify,   Then, move all terms to one side, and write in standard form,   To make the equation simpler, divide out the common factor of 4,   To solve this, you can use:    The scientific calculator method, either using the cubic equation solver, or the table method.    Testing roots and synthetic division.    To test roots, try factors of 140, which are .  You should get,   And the solutions are . However, is outside the domain of the problem, so only are solutions.  After you get the solutions for , you can get the dimensions of the box by substituting that value of back into each dimension.    If , then we get,   Length cm.    Width cm.    Height cm.       If , then they are 14 cm, 8 cm, and 5 cm.    You can verify that for each case, the dimensions lead to a volume of 560 cm . Sometimes, your teacher might specify that, for example, , just so that there is a single final answer (in this case, ).      Find the maximum possible volume of the box, and the cut size that produces it (requires graphing calculator).    Graphically, the maximum value of the function is the top point of the graph ( Desmos graph ). Here, it is , which means the maximum volume is 655 cm , and this occurs when the cut size is 3.39 cm.     Each question of this type has basically the same setup, because the only things that can change are the dimensions of the sheet, and the desired volume.  In general, if the sheet has length and width , and the cut-out length is , then the volume of the box will be,    Box Problem Practice   For a cardboard sheet of each size, find the cut size and dimensions of the box that produce the desired volume.     Sheet 15 cm by 12 cm, volume of 162 (with ).    leads to , simplify to or and solve for .     (reject by the condition and by the domain restriction).      Sheet 36 cm by 20 cm, volume of 800 .    leads to , simplify to .     or (reject because it is outside the domain).      Sheet 20 cm by 28 cm, volume of 924 .    leads to , simplify to and solve for .     or (reject because it is outside the domain).      Sheet 36 cm by 28 cm, volume of 2240 .    leads to , simplify to and solve for .     or (reject because it is outside the domain).       Misc Word Problems   Consecutive Odd Integers   The product of 3 consecutive odd integers is 693. Find the 3 integers.    Leads to , or , solve for .    13, 15, 17.     Gift Box Dimensions   The volume of a gift box can be represented by the function , and its height is . Find expressions for the length and the width of the box.    The volume can be factored into length, width, and height. The height being means that is a factor, but we can use instead to make it simpler, and put the negative sign back after. This leads to factoring into .    The length and width are and .     Twin Ages Problem   Fred and Ted are twins. They were born 3 years after their older sister, Bethany. This year, the product of their three ages is 5726 greater than the sum of their ages. How old are the twins?    Leads to , leading to .    17 years old.      Remarks     Ideally, before factoring, you should divide out any common factor, to make the equation simpler. Especially if the numbers in the equation are very large, as they often are in applications.    In applications, it is rare to see polynomial equations with numbers that are simple and nice, unless your teacher has chosen the numbers specifically so it is simple.      "
 },
 {
   "id": "box-problem-open-top-3",
   "level": "2",
-  "url": "sec-polynomial-function-applications.html#box-problem-open-top-3",
+  "url": "sec-applications-of-polynomial-function.html#box-problem-open-top-3",
   "type": "Example",
   "number": "5.6.1",
   "title": "Open-Top Box from Cardboard.",
@@ -1470,7 +1488,7 @@ var ptx_lunr_docs = [
 {
   "id": "box-problem-open-top-7",
   "level": "2",
-  "url": "sec-polynomial-function-applications.html#box-problem-open-top-7",
+  "url": "sec-applications-of-polynomial-function.html#box-problem-open-top-7",
   "type": "Exercise Group",
   "number": "5.6.1",
   "title": "Box Problem Practice.",
@@ -1479,7 +1497,7 @@ var ptx_lunr_docs = [
 {
   "id": "misc-word-problems-2",
   "level": "2",
-  "url": "sec-polynomial-function-applications.html#misc-word-problems-2",
+  "url": "sec-applications-of-polynomial-function.html#misc-word-problems-2",
   "type": "Checkpoint",
   "number": "5.6.2",
   "title": "Consecutive Odd Integers.",
@@ -1488,7 +1506,7 @@ var ptx_lunr_docs = [
 {
   "id": "misc-word-problems-3",
   "level": "2",
-  "url": "sec-polynomial-function-applications.html#misc-word-problems-3",
+  "url": "sec-applications-of-polynomial-function.html#misc-word-problems-3",
   "type": "Checkpoint",
   "number": "5.6.3",
   "title": "Gift Box Dimensions.",
@@ -1497,7 +1515,7 @@ var ptx_lunr_docs = [
 {
   "id": "misc-word-problems-4",
   "level": "2",
-  "url": "sec-polynomial-function-applications.html#misc-word-problems-4",
+  "url": "sec-applications-of-polynomial-function.html#misc-word-problems-4",
   "type": "Checkpoint",
   "number": "5.6.4",
   "title": "Twin Ages Problem.",
