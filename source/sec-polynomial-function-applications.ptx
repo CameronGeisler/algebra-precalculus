@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-polynomial-function-applications" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Polynomial Function Applications</title>
+  
+  <subsection xml:id="box-problem-open-top">
+    <title>Box Problem (Open-Top Box)</title>
+    <p>
+      The box problem is a classic word problem in the polynomial functions chapter. The setup is complicated at first, but after you understand it, each problem goes pretty much the same way. 
+    </p>
+    <example>
+      <title>Open-Top Box from Cardboard</title>
+      <introduction>
+        <p>
+          We are going to design a box with an open-top in the following way.
+        </p>
+        <ul>
+          <li>
+            <p>
+              Start with a flat sheet of cardboard, of size 24 cm by 18 cm (the size varies for each question).
+            </p>
+          </li>
+          <li>
+            <p>
+              Cut out 4 square corners of equal size from the sheet.
+            </p>
+          </li>
+          <li>
+            <p>
+              Fold the 4 flaps of the sheets up, which forms the sides of the box (we tape together the sides).
+            </p>
+          </li>
+          <li>
+            <p>
+              The non-folded up part forms the base of the box.
+            </p>
+          </li>
+        </ul>
+        <p>
+          It looks like this,
+        </p>
+        <image width="50%">
+          <latex-image>
+            \begin{tikzpicture}[scale=0.25]
+            
+            % Light shading for usable cardboard (entire rectangle first)
+            \fill[gray!20] (0,0) rectangle (24,18);
+            
+            % Remove the four cut squares by overlaying white
+            \fill[white] (0,0) rectangle (4,4);
+            \fill[white] (0,14) rectangle (4,18);
+            \fill[white] (20,0) rectangle (24,4);
+            \fill[white] (20,14) rectangle (24,18);
+            
+            % Outer rectangle (cardboard)
+            \draw[thick] (0,0) rectangle (24,18);
+            
+            % Cut squares (fold lines shown in blue)
+            \draw[thick,blue] (0,4) -- (4,4) -- (4,0);
+            \draw[thick,blue] (0,14) -- (4,14) -- (4,18);
+            \draw[thick,blue] (20,0) -- (20,4) -- (24,4);
+            \draw[thick,blue] (20,18) -- (20,14) -- (24,14);
+            
+            \draw[thick,&lt;-&gt;] (-1,0) -- (-1,18) node[midway,left] {18 cm};
+            \draw[thick,&lt;-&gt;] (0,-1) -- (24,-1) node[midway,below] {24 cm};
+            
+            % Inner rectangle (base of the box after folding)
+            \draw[dashed,red,thick] (4,4) rectangle (20,14);
+            
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+        
+        <image width="50%">
+          <latex-image>
+            \begin{tikzpicture}
+            
+            \draw (0,0,0) -- (4,0,0) -- (4,0,2) -- (0,0,2) -- cycle; % solid black outline
+            % Front face (solid rectangle)
+            \draw[dashed,red,very thick] (0,0,0) -- (4,0,0) -- (4,0,2) -- (0,0,2) -- cycle;
+            % Back face (solid rectangle)
+            \draw[thick] (0,1,0) -- (4,1,0) -- (4,1,2) -- (0,1,2) -- cycle;
+            
+            % Edges connecting front and back
+            \draw[thick,blue] (0,0,0) -- (0,1,0);
+            \draw[thick,blue] (4,0,0) -- (4,1,0);
+            \draw[thick,blue] (0,0,2) -- (0,1,2);
+            \draw[thick,blue] (4,0,2) -- (4,1,2);
+            
+            % Dimension arrows
+            \draw[&lt;-&gt;] (0,-0.4,2) -- (4,-0.4,2) node[midway,below] {$l$};
+            \draw[&lt;-&gt;] (4.2,0,0) -- (4.2,0,2) node[midway,right] {$w$};
+            \draw[&lt;-&gt;] (4.4,0,0) -- (4.4,1,0) node[midway,right] {$h$};
+            
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+        <p>
+          This creates a box, with an open top. If we cut out different lengths for the corner, the resulting box will have a different shape, and a different volume. Check out this Geogebra applet: <url href="https://www.geogebra.org/m/ay6Qma5a">Volume of a box problem</url>. The <m>c</m> is how much is cut from each corner (or the cut size). Then, the volume is a function of the cut size.
+        </p>
+      </introduction>
+      
+      <task>
+        <statement>
+          <p>
+            Find an expression for the volume of the box, as a function of the cut size. Find the domain of the problem.
+          </p>
+        </statement>
+        <solution>
+          <p>
+            First, the volume of a box is <m>V = L W H</m> (length <m>\times</m> width <m>\times</m> height). If the cut size is <m>x</m>, then the dimensions look like this,
+          </p>
+          <image width="50%">
+            <latex-image>
+              \begin{tikzpicture}[scale=0.25]
+              
+              % Light shading for usable cardboard (entire rectangle first)
+              \fill[gray!20] (0,0) rectangle (24,18);
+              
+              % Remove the four cut squares by overlaying white
+              \fill[white] (0,0) rectangle (4,4);
+              \fill[white] (0,14) rectangle (4,18);
+              \fill[white] (20,0) rectangle (24,4);
+              \fill[white] (20,14) rectangle (24,18);
+              
+              % Outer rectangle (cardboard)
+              \draw[thick] (0,0) rectangle (24,18);
+              
+              % Cut squares (fold lines shown in blue)
+              \draw[thick,blue] (0,4) -- (4,4) -- (4,0);
+              \draw[thick,blue] (0,14) -- (4,14) -- (4,18);
+              \draw[thick,blue] (20,0) -- (20,4) -- (24,4);
+              \draw[thick,blue] (20,18) -- (20,14) -- (24,14);
+              
+              % Inner rectangle (base of the box after folding)
+              \draw[dashed,red,thick] (4,4) rectangle (20,14);
+              
+              % Full dimension indicators
+              \draw[thick,red,&lt;-&gt;] (4,19) -- (20,19) node[midway,above] {$l$};
+              \draw[thick,red,&lt;-&gt;] (-1,4) -- (-1,14) node[midway,left] {$w$};
+              \draw[thick,&lt;-&gt;] (-3,0) -- (-3,18) node[midway,left] {18 cm};
+              \draw[thick,&lt;-&gt;] (0,-3) -- (24,-3) node[midway,below] {24 cm};
+              
+              % X labels (top side)
+              \draw[&lt;-&gt;] (0,19) -- (4,19) node[midway,above] {$x$};
+              \draw[&lt;-&gt;] (20,19) -- (24,19) node[midway,above] {$x$};
+              
+              % X labels (bottom side)
+              \draw[&lt;-&gt;] (0,-1) -- (4,-1) node[midway,below] {$x$};
+              \draw[&lt;-&gt;] (20,-1) -- (24,-1) node[midway,below] {$x$};
+              
+              % X labels (right side)
+              \draw[&lt;-&gt;] (25,0) -- (25,4) node[midway,right] {$x$};
+              \draw[&lt;-&gt;] (25,14) -- (25,18) node[midway,right] {$x$};
+              
+              % X labels (left side)
+              \draw[&lt;-&gt;] (-1,0) -- (-1,4) node[midway,left] {$x$};
+              \draw[&lt;-&gt;] (-1,14) -- (-1,18) node[midway,left] {$x$};
+              
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+          <ul>
+            <li>
+              <p>
+                The length is <m>24 - 2x</m> (because it is the starting amount of 24 cm, with <m>x</m> cut off on both sides.
+              </p>
+            </li>
+            <li>
+              <p>
+                The width is <m>18 - 2x</m> (similarly).
+              </p>
+            </li>
+            <li>
+              <p>
+                The height is <m>x</m> (because the cut size is the height of the flaps, which becomes the height of the box when folded up).
+              </p>
+            </li>
+          </ul>
+          <p>
+            Therefore, the volume is,
+          </p>
+          <md>
+            <mrow>
+              V(x) = \underbrace{(24 - 2x)}_{\text{length}} \cdot \underbrace{(18 - 2x)}_{\text{width}} \cdot \underbrace{x}_{\text{height}}
+            </mrow>
+          </md>
+          <p>
+            Here is a graph of that function: <url href="https://www.desmos.com/calculator/ppukehuqtc">Desmos graph</url>. The cut size <m>x</m> is on the horizontal axis, and the resulting volume <m>V(x)</m> is on the vertical axis.
+          </p>
+          <p>
+            For the domain, this function requires that <m>x</m> is at most 9, because you can only cut off at most half of the width (18) from each side. Otherwise, you're cutting off the entire box (and more), which doesn't make sense. Also, of course, you must cut at least something off. Together, we have <m>0 \lt x \lt 9</m>. If <m>x = 0</m> or <m>x = 9</m>, then the box has 0 volume. Some teachers might include these in the domain, as <m>0 \leq x \leq 9</m>, for convenience.
+          </p>
+        </solution>
+      </task>
+      
+      <task>
+        <statement>
+          <p>
+            Find the cut size(s), and the dimensions of the box, that produces a box with volume of <m>560 \text{ cm}^3</m>.
+          </p>
+        </statement>
+        <solution>
+          <p>
+            To find when the volume is 560 cm<m>^3</m>, we set <m>V(x) = 560</m> and solve for <m>x</m>,
+          </p>
+          <md>
+            <mrow>
+              560 \amp = (24-2x)(18-2x)x
+            </mrow>
+          </md>
+          <p>
+            Graphically, the solution(s) are the intersections of <m>V(x) = (24-2x)(18-2x)x</m> and the horizontal line <m>y = 560</m> (<url href="https://www.desmos.com/calculator/slasaapqba">Desmos link</url>). Observe that the intersections are at <m>x = 2</m> and <m>x = 5</m>. This means that both a cut size of 2 cm and 5 cm will produce a box with volume 560 cm<m>^3</m>.
+          </p>
+          <p>
+            Without a graphing calculator, we can solve the equation algebraically. First, expand and simplify,
+          </p>
+          <md>
+            <mrow>
+              560 \amp = (24-2x)(18-2x)x 
+            </mrow>
+            <mrow>
+              560 \amp = (432 - 84x + 4x^2) x 
+            </mrow>
+            <mrow>
+              560 \amp = 432x - 84x^2 + 4x^3
+            </mrow>
+          </md>
+          <p>
+            Then, move all terms to one side, and write in standard form,
+          </p>
+          <md>
+            <mrow>
+              4x^3 - 84x^2 + 432x - 560 \amp = 0
+            </mrow>
+          </md>
+          <p>
+            To make the equation simpler, divide out the common factor of 4,
+          </p>
+          <md>
+            <mrow>
+              x^3 - 21x^2 + 108x - 140 \amp = 0
+            </mrow>
+          </md>
+          <p>
+            To solve this, you can use:
+          </p>
+          <ul>
+            <li>
+              <p>
+                The scientific calculator method, either using the cubic equation solver, or the table method.
+              </p>
+            </li>
+            <li>
+              <p>
+                Testing roots and synthetic division.
+              </p>
+            </li>
+          </ul>
+          <p>
+            To test roots, try factors of 140, which are <m>\pm 1, \pm 2, \pm 4, \pm 7, \pm 10, \dots</m>.
+          </p>
+          <p>
+            You should get,
+          </p>
+          <md>
+            <mrow>
+              (x-2)(x-5)(x-14) \amp = 0
+            </mrow>
+          </md>
+          <p>
+            And the solutions are <m>x = 2, 5, 14</m>. However, <m>x = 14</m> is outside the domain of the problem, so only <m>x = 2, 5</m> are solutions.
+          </p>
+          <p>
+            After you get the solutions for <m>x</m>, you can get the dimensions of the box by substituting that value of <m>x</m> back into each dimension.
+          </p>
+          <ul>
+            <li>
+              <p>
+                If <m>x = 2</m>, then we get,
+                <ul>
+                  <li>
+                    <p>
+                      Length <m>= 24 - 2x = 24 - 2(2) = 20</m> cm.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Width <m>= 18 - 2(2) = 14</m> cm.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Height <m>= x = 2</m> cm.
+                    </p>
+                  </li>
+                </ul>
+              </p>
+            </li>
+            <li>
+              <p>
+                If <m>x = 5</m>, then they are 14 cm, 8 cm, and 5 cm.
+              </p>
+            </li>
+          </ul>
+          <p>
+            You can verify that for each case, the dimensions lead to a volume of 560 cm<m>^3</m>. Sometimes, your teacher might specify that, for example, <m>x \geq 3</m>, just so that there is a single final answer (in this case, <m>x = 5</m>).
+          </p>
+        </solution>
+      </task>
+      
+      <task>
+        <statement>
+          <p>
+            Find the maximum possible volume of the box, and the cut size that produces it (requires graphing calculator).
+          </p>
+        </statement>
+        <solution>
+          <p>
+            Graphically, the maximum value of the function is the top point of the graph (<url href="https://www.desmos.com/calculator/rtj6hln1qk">Desmos graph</url>). Here, it is <m>(3.39, 655.0)</m>, which means the maximum volume is 655 cm<m>^3</m>, and this occurs when the cut size is 3.39 cm.
+          </p>
+        </solution>
+      </task>
+      
+    </example>
+    <p>
+      Each question of this type has basically the same setup, because the only things that can change are the dimensions of the sheet, and the desired volume.
+    </p>
+    <p>
+      In general, if the sheet has length <m>L</m> and width <m>W</m>, and the cut-out length is <m>x</m>, then the volume of the box will be,
+    </p>
+    <md>
+      <mrow>
+        V(x) = (L - 2x) \cdot (W - 2x) \cdot x
+      </mrow>
+    </md>
+    <project>
+      <title>Box Problem Practice</title>
+      <introduction>
+        <p>
+          For a cardboard sheet of each size, find the cut size and dimensions of the box that produce the desired volume.
+        </p>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            Sheet 15 cm by 12 cm, volume of 162 <m>\text{cm}^3</m> (with <m>x \ge 2</m>).
+          </p>
+        </statement>
+        <hint>
+          <p>
+            leads to <m>4x^3 - 54x^2 + 180x = 162</m>, simplify to <m>4x^3 - 54x^2 + 180x - 162 = 0</m> or <m>2x^3 - 27x^2 + 90x - 81 = 0</m> and solve for <m>x</m>.
+          </p>
+        </hint>
+        <answer>
+          <p>
+            <m>x = 3</m> (reject <m>x=\frac{3}{2}</m> by the <m>x \geq 2</m> condition and <m>x=9</m> by the domain restriction).
+          </p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Sheet 36 cm by 20 cm, volume of 800 <m>\text{cm}^3</m>.
+          </p>
+        </statement>
+        <hint>
+          <p>
+            leads to <m>4x^3 - 92x^2 + 520x = 800</m>, simplify to <m>x^3 - 23x^2 + 130x - 200 = 0</m>.
+          </p>
+        </hint>
+        <answer>
+          <p>
+            <m>x = 5</m> or <m>x = 9 - \sqrt{41}</m> (reject <m>x = 9 + \sqrt{41}</m> because it is outside the domain).
+          </p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Sheet 20 cm by 28 cm, volume of 924 <m>\text{cm}^3</m>.
+          </p>
+        </statement>
+        <hint>
+          <p>
+            leads to <m>4x^3 - 96x^2 + 560x = 924</m>, simplify to <m>x^3-24x^2+140x-231 = 0</m> and solve for <m>x</m>.
+          </p>
+        </hint>
+        <answer>
+          <p>
+            <m>x = 3</m> or <m>x = \frac{21 - \sqrt{133}}{2} \approx 4.7</m> (reject <m>x = \frac{21 + \sqrt{133}}{2} \approx 16.3</m> because it is outside the domain).
+          </p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Sheet 36 cm by 28 cm, volume of 2240 <m>\text{cm}^3</m>.
+          </p>
+        </statement>
+        <hint>
+          <p>
+            leads to <m>4x^3 - 128x^2 + 1008x = 2240</m>, simplify to <m>x^3 - 32x^2 + 252x - 560 = 0</m> and solve for <m>x</m>.
+          </p>
+        </hint>
+        <answer>
+          <p>
+            <m>x = 4</m> or <m>x = 14 - 2\sqrt{14} \approx 6.5</m> (reject <m>x = 14 + 2\sqrt{14} \approx 21.5</m> because it is outside the domain).
+          </p>
+        </answer>
+      </task>
+    </project>
+  </subsection>
+  <subsection xml:id="misc-word-problems">
+    <title>Misc Word Problems</title>
+    <exercise>
+      <title>Consecutive Odd Integers</title>
+      <statement>
+        <p>
+          The product of 3 consecutive odd integers is 693. Find the 3 integers.
+        </p>
+      </statement>
+      <hint>
+        <p>
+          Leads to <m>n(n+2)(n+4) = 693</m>, or <m>n^3+6n^2+8n-693=0</m>, solve for <m>n</m>.
+        </p>
+      </hint>
+      <answer>
+        <p>
+          13, 15, 17.
+        </p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Gift Box Dimensions</title>
+      <statement>
+        <p>
+          The volume of a gift box can be represented by the function <m>V(x) = -x^3+35x^2+200x</m>, and its height is <m>40-x</m>. Find expressions for the length and the width of the box.
+        </p>
+      </statement>
+      <hint>
+        <p>
+          The volume can be factored into length, width, and height. The height being <m>40-x</m> means that <m>40-x</m> is a factor, but we can use <m>x-40</m> instead to make it simpler, and put the negative sign back after. This leads to factoring into <m>V(x) = x(40-x)(x+5)</m>.
+        </p>
+      </hint>
+      <answer>
+        <p>
+          The length and width are <m>x+5</m> and <m>x</m>.
+        </p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Twin Ages Problem</title>
+      <statement>
+        <p>
+          Fred and Ted are twins. They were born 3 years after their older sister, Bethany. This year, the product of their three ages is 5726 greater than the sum of their ages. How old are the twins?
+        </p>
+      </statement>
+      <hint>
+        <p>
+          Leads to <m>x(x-3)(x-3) = x+(x-3)+(x-3)+5726</m>, leading to <m>x^3-6x^2+6x-5720</m>.
+        </p>
+      </hint>
+      <answer>
+        <p>
+          17 years old.
+        </p>
+      </answer>
+    </exercise>
+  </subsection>
+  
+  <subsection xml:id="remarks">
+    <title>Remarks</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Ideally, before factoring, you should divide out any common factor, to make the equation simpler. Especially if the numbers in the equation are very large, as they often are in applications.
+          </p>
+        </li>
+        <li>
+          <p>
+            In applications, it is rare to see polynomial equations with numbers that are simple and nice, unless your teacher has chosen the numbers specifically so it is simple.
+          </p>
+        </li>
+      </ul>
+    </p>
+  </subsection>
+  
+</section>

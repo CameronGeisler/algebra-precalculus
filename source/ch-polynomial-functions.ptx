@@ -14,6 +14,7 @@
   <xi:include href="./sec-factoring-and-roots-of-polynomial-functions.ptx" />
   <xi:include href="./sec-more-polynomial-functions.ptx" />
   <xi:include href="./sec-factoring-and-graphing-polynomials.ptx" />
+  <xi:include href="./sec-polynomial-function-applications.ptx" />
   <xi:include href="./sec-polynomial-functions-summary.ptx" />
 
 </chapter>
