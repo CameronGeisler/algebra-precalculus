@@ -916,115 +916,160 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.2",
   "title": "Factoring Quadratic Trinomials",
-  "body": " Factoring Quadratic Trinomials   Factoring quadratic trinomials is arguably the single most used skill in high-school mathematics, being used in uncountably many high-school (and college) math problems. In this way, it is very important to master. However, unfortunately, it is among the least important and least useful topic \"in the real world\".  The goal is to factor any expression of the form , where are any integers.    First, we'll start with a simpler case, when .  Then, we'll consider the more difficult case, when .      Factoring (Sum and Product Method)   We want to take an expression like , and rewrite it as . The question is: how to choose the two numbers to put in the brackets. To do this, let's observe the pattern for how expansions work. Consider the expansion of ,   Here are some other expansions,   Observe how expanding the left side leads to the right side. On the right side, there are always 3 terms: , an term, and a constant number term. Also, to get the coefficient of the middle term, you add the two numbers in the brackets. To get the last constant term, you multiply those two numbers. In other words,    In general, if we multiply two factors together, say and , we get,     The first term is always .  The coefficient of the middle term is the sum of and .  The last term is the product of and .    In summary,   This leads to a general rule for factoring an expression of the form .    Factor .    Factor .   In summary,    Arrange the trinomial in descending power order (if needed)  Go through the pairs of number which multiply to , and check if they add to .  If they do, then write it as     Factor each quadratic expression.                                 Some additional helpful observations,    When the constant term is positive, then the factors of must be either both positive or both negative. If the middle term is positive, then both must be positive. If the middle term is negative, then both must be negative.  E.g. (last term is positive, middle term is positive, so both factors are positive)  E.g. (last term is positive, middle term is negative, so both factors are negative)      When the constant term is negative, then the factors of must have opposite signs (one positive, one negative). The sign of the larger number will be the sign of the coefficient of the middle term.  E.g. (last term is negative, so signs are opposite, and middle term is negative, so and 3 is negative)  E.g. (last term is negative, so signs are opposite, and middle term is positive, so and the 5 is positive)        Factoring Trinomials with Common Factors  Sometimes the trinomial is set up so that (the number in front of is not 1), however, there is a common factor that can be factored out, reducing the expression to one which can be factored using the previous method.   Factor each quadratic expression.                  Factoring Polynomials of the form ,  There are many methods for factoring these kinds of polynomials. All of them end up with the same result, but some are more efficient than others. I personally believe the cross method is the most efficient and easiest method to use.    Cross Method   Consider, To do the cross method, find two things that multiply to the first term, and two things that multiply to the last term. Then, draw a crisscross or X shape. Multiply the diagonals and add them up. The combination is correct if the diagonals add up to the middle term.     However, the diagonals add up to , which isn't the middle term. Instead, switch the 3 and the 1,     We now get , which is the middle term. After you've found the correct combination, the two factors can be read horizontally,        The cross method can be used even in the previous simpler case when . In other words, the cross method is a generalization of the sum and product method that we used when . For example, for, We could think of factors of that add up to , which are and , to get,   However, we can also use the cross method. The first term is , so we can write and on the left side, and the last term is , so we can write and on the right side. Then, we draw a crisscross or X shape, multiply the diagonals, and add them up. The combination is correct if the diagonals add up to the middle term.       This gives the same result as before.   At first, you will have to guess and check each combination until you get the correct one. With some practice, you will become better at guessing what the factors are, without having to go through every possible combination.   Consider, In this case, which is negative, unlike the previous examples. Technically, you can proceed as usual, finding two things that multiply to and , for example,     However, it turns out that the negative on the left side makes things more complicated, because then you have to worry about where to put the negative on the left side, as well as if the right side is 3 and 1 or and . There are a lot of negative signs. Instead, factor out from all terms first, which flips the sign of all the terms,   Then, factor the expression inside the brackets as before. Now, the only sign choice is the , where one of the factors must be negative.         Factor each expression fully.                         Factor each expression fully.                         Factor each expression fully.                          Factoring Out the GCF First Before the Cross Method   Consider the quadratic,   Here, the numbers are kinda large, but we can still use the cross method. After some trial and error, the correct combination is,      However, notice that also contains a common factor of 3, so we should factor it out.   Instead, it is easier to first factor out the common factor of 3,   Then, factoring the remaining only uses the sum and product method, and has smaller numbers to work with,     In general, it is easier to first factor out the GCF (greatest common factor), if there is one, before using the cross method. This makes the numbers you have to work with smaller, making it easier to find the factors.    Summary of Factoring    Always start by factoring out any common factor (the GCF)   If the leading coefficient is negative, factor out from all terms.     If ( ), then find two numbers that multiply to and add to .  If ( ), then use the cross method.    To check your answer, you can expand (FOIL) and check if you get back the original expression.     "
+  "body": " Factoring Quadratic Trinomials    Factoring quadratic trinomials is arguably the single most used skill in high-school mathematics, being used in uncountably many high-school (and college) math problems. In this way, it is a very important foundational skill to master. However, unfortunately, it is among the least important and least useful topics in the real world .  The goal is to factor any expression of the form , where are any integers.    First, we'll start with a simpler case, when .    Then, we'll consider the more difficult case, when .      Factoring (Sum and Product Method)  We want to take an expression like , and rewrite it as . The question is: how to choose the two numbers to put in the brackets? Observe the pattern for how expansions work. For example, consider the expansion of ,   Here are some other expansions,   Observe how expanding the left side leads to the right side.    On the right side, there are always 3 terms: , an term, and a constant number term.    Further, to get the coefficient of the middle term, you add the two numbers in the brackets.    To get the last constant term, you multiply those two numbers.    In other words,   In general, if we multiply two factors together, say and , we get,     The first term is always .    The coefficient of the middle term is the sum of and .    The last term is the product of and .    In summary,   This leads to a general rule for factoring an expression of the form .    Factoring with Positive Terms  Factor . We want two numbers that multiply to 12 and add to 7. There are many pairs of numbers that add to 7, so we'll start with numbers that multiply to 12. Our choices are:   Notice that if we choose 3 and 4, they also add to 7. So this is the correct combination. Then,     Factoring with Negative Middle Term  Factor . We want two numbers that multiply to 6 and add to . Here are the possible pairs of factors:   At first, it seems none of these add to . However, we can also have both of our numbers be negative, because two negative numbers also multiply to a positive. For example,   Then, and is the correct combination. Then,     Rearranging to Standard Form  Consider . This is still a quadratic trinomial. At first glance, it's a bit different than the previous examples, because it's not written in the usual order for a quadratic. The highest power term, , is at the end instead of the beginning. When factoring, you should always arrange the terms in the same order: first, next, and constant last. This is called descending power order (the exponent on from largest to smallest), and is often called standard form .   Now, it looks like a regular quadratic. We need two numbers that multiply to 12 and add to . After some guessing, the correct combination is and . Therefore,    In summary,    (If necessary) Arrange the trinomial in descending power order.    Find two numbers that multiply to , and check if they add to .    If they do, then write it as .     Practice: Sum and Product Method   Factor each quadratic expression.     .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .     Some additional helpful observations,    When the constant term is positive, then the factors of must be either both positive or both negative. If the middle term is positive, then both must be positive. If the middle term is negative, then both must be negative.   E.g. (last term is positive, middle term is positive, so both factors are positive)    E.g. (last term is positive, middle term is negative, so both factors are negative)       When the constant term is negative, then the factors of must have opposite signs (one positive, one negative). The sign of the larger number will be the sign of the coefficient of the middle term.   E.g. (last term is negative, so signs are opposite, and middle term is negative, so and 3 is negative)    E.g. (last term is negative, so signs are opposite, and middle term is positive, so and the 5 is positive)        Unfactorable Trinomial   Trinomial that cannot be factored. . In fact, not all trinomials can be factored. Consider . To factor this, we would need two numbers that multiply to 6 and add to 4. The options are: or . Neither of them work. This means that is not factorable.   Polynomials which cannot be factored are called prime , or irreducible . Prime in the same way as a prime number like 7 cannot be factored into smaller pieces, and irreducible similarly means not reducible . For now, problems will almost always have only factorable polynomials.   More Practice: Sum and Product   Factor each trinomial.     .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .       Factoring Trinomials with Common Factors  Sometimes the trinomial is set up so that (the number in front of is not 1), however, there is a common factor that can be factored out, reducing the expression to one which can be factored using the previous method.   Factoring with GCF First   Factor each quadratic expression completely.     .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .       Factoring Polynomials of the form ,  There are many methods for factoring these kinds of polynomials. Different teachers will differ in which method they use. All of them end up with the same result, but some are more efficient than others. I personally believe the cross method is the most efficient and easiest method to use.    The Cross Method   First Cross Method Example  Consider,   To do the cross method,    Draw a crisscross or X shape underneath.    Find two things that multiply to the first term, and two things that multiply to the last term.    Multiply each of the diagonals and add them up.    The combination is correct if the diagonals add up to the middle term.    For example,      On the left side, , and on the right, . However, the diagonals add up to , which isn't the middle term. Instead, switch the 3 and the 1,      We now get , which is the middle term. After you've found the correct combination, the two factors can be read horizontally in each row,        Cross Method with Negatives  Consider,   Using the cross method, one possible combination is,      On the left side, , and on the right, . However, the diagonals add up to , which isn't the middle term, so this isn't correct. Instead, switch the 2 and the ,      Now the diagonals add to , which is not quite , but it's close. To fix it, just change the negative sign on the right to be on the 2 instead of the 1,      Now the diagonals add up to , which matches the middle term. Reading across gives the factors:        Cross Method with Trial and Error  Consider,   For the left side, we have 6, which means we could choose 6 and 1, or 3 and 2. We don't know ahead of time which will be correct, so let's choose 6 and 1, and we can change it later.      The diagonals add up to , which is too large. Let's switch the 2 and 5,      Now the diagonals are , which is close but still not 19. Try different factor pairs of 10: and .      Now the diagonals are , still not enough. Switching gives,      Now we get , too large. We've tried all of the possible combinations on the right side, so this means that the left side is wrong. Let’s try and instead.      Now the diagonals add to , perfect! Reading across gives,       The cross method requires some guessing and checking (or trial and error), especially at first. However, with some practice and gain experience, you'll become more experienced at making educated guesses for the combinations that are more likely to work, so you won't have to naively go through every single combination. Also, sometimes you get lucky and find the correct combination right away.    Using the cross method when . The cross method can also be used in the previous simpler case, when . For example, for,   We could think of factors of that add up to , which are and 4, to get,   However, we can also use the cross method. The first term is , so we can write and on the left side, and the last term is , so we can try and on the right side. Then, we draw a crisscross or X shape, multiply the diagonals, and add them up. The combination is correct if the diagonals add up to the middle term.       This gives the same answer as before.    Factoring out a Negative   Factor out the negative sign first . Consider . In this case, which is negative, unlike the previous examples. You could continue just like before, by finding two things that multiply to and 3. For example,      This combination doesn't work.  However, it turns out that the negative sign on the left side makes things more complicated, because you have to worry about where to put the negative sign on the left side (in addition to the right side being either 3 and 1 or and ). There are a lot of negative signs, and it can get confusing.  Instead, it's better to first factor out the negative sign in the front. To do this, factor out from all terms, which basically flips the sign of all the terms,   Then, factor the expression inside the brackets as before. Now, you don't need to worry about the sign on the left column, and the only sign choice for the , where one of the numbers must be negative.        In general, if the value is negative, factor out from all terms first, and then factor the remaining polynomial.   Factoring out GCF Before Cross Method   Factor out the GCF before using the cross method . Consider,   Here, we can still use the cross method. However, the numbers are kinda large, especially 30, which has many possibilities for its factors. After some trial and error, the correct combination is,      However, notice that also contains a common factor of 2, so we should factor it out also.   Instead, it is easier to first factor out the common factor of 2,   Then, factoring the remaining only uses the sum and product method, and has smaller numbers to work with,    In general, you should first factor out the GCF (greatest common factor), if there is one, before using the cross method. This makes the numbers you have to work with smaller, making it easier to find the factors.   Practice: The Cross Method 1   Factor each expression fully.     .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      Practice: The Cross Method 2   Factor each expression fully.     .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      Practice: The Cross Method 3   Factor each expression fully.     .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    prime\/irreducible.      .    .      .    .      .    .      .    .      .    .      .    .       Summary of Factoring    (If necessary) Factor out common factors (the GCF).   If the leading coefficient is negative, factor out from all terms.          If ( ), find two numbers that multiply to and add to .    If ( ), use the cross method.       To check your answer, you can expand (FOIL) and check if you get back the original expression.     "
 },
 {
-  "id": "sec-factoring-quadratic-trinomials-3-2",
+  "id": "factoring-monic-quadratics-17",
   "level": "2",
-  "url": "sec-factoring-quadratic-trinomials.html#sec-factoring-quadratic-trinomials-3-2",
+  "url": "sec-factoring-quadratic-trinomials.html#factoring-monic-quadratics-17",
   "type": "Example",
   "number": "2.2.1",
-  "title": "",
-  "body": " We want to take an expression like , and rewrite it as . The question is: how to choose the two numbers to put in the brackets. To do this, let's observe the pattern for how expansions work. Consider the expansion of ,   Here are some other expansions,   Observe how expanding the left side leads to the right side. On the right side, there are always 3 terms: , an term, and a constant number term. Also, to get the coefficient of the middle term, you add the two numbers in the brackets. To get the last constant term, you multiply those two numbers. In other words,   "
+  "title": "Factoring with Positive Terms.",
+  "body": " Factoring with Positive Terms  Factor . We want two numbers that multiply to 12 and add to 7. There are many pairs of numbers that add to 7, so we'll start with numbers that multiply to 12. Our choices are:   Notice that if we choose 3 and 4, they also add to 7. So this is the correct combination. Then,   "
 },
 {
-  "id": "sec-factoring-quadratic-trinomials-3-10",
+  "id": "factoring-monic-quadratics-18",
   "level": "2",
-  "url": "sec-factoring-quadratic-trinomials.html#sec-factoring-quadratic-trinomials-3-10",
-  "type": "Checkpoint",
+  "url": "sec-factoring-quadratic-trinomials.html#factoring-monic-quadratics-18",
+  "type": "Example",
   "number": "2.2.2",
-  "title": "",
-  "body": " Factor .  "
+  "title": "Factoring with Negative Middle Term.",
+  "body": " Factoring with Negative Middle Term  Factor . We want two numbers that multiply to 6 and add to . Here are the possible pairs of factors:   At first, it seems none of these add to . However, we can also have both of our numbers be negative, because two negative numbers also multiply to a positive. For example,   Then, and is the correct combination. Then,   "
 },
 {
-  "id": "sec-factoring-quadratic-trinomials-3-11",
+  "id": "factoring-monic-quadratics-19",
   "level": "2",
-  "url": "sec-factoring-quadratic-trinomials.html#sec-factoring-quadratic-trinomials-3-11",
-  "type": "Checkpoint",
+  "url": "sec-factoring-quadratic-trinomials.html#factoring-monic-quadratics-19",
+  "type": "Example",
   "number": "2.2.3",
-  "title": "",
-  "body": " Factor .  "
+  "title": "Rearranging to Standard Form.",
+  "body": " Rearranging to Standard Form  Consider . This is still a quadratic trinomial. At first glance, it's a bit different than the previous examples, because it's not written in the usual order for a quadratic. The highest power term, , is at the end instead of the beginning. When factoring, you should always arrange the terms in the same order: first, next, and constant last. This is called descending power order (the exponent on from largest to smallest), and is often called standard form .   Now, it looks like a regular quadratic. We need two numbers that multiply to 12 and add to . After some guessing, the correct combination is and . Therefore,   "
 },
 {
-  "id": "sec-factoring-quadratic-trinomials-3-14",
+  "id": "factoring-monic-quadratics-22",
   "level": "2",
-  "url": "sec-factoring-quadratic-trinomials.html#sec-factoring-quadratic-trinomials-3-14",
-  "type": "Checkpoint",
+  "url": "sec-factoring-quadratic-trinomials.html#factoring-monic-quadratics-22",
+  "type": "Exercise Group",
+  "number": "2.2.1",
+  "title": "Practice: Sum and Product Method.",
+  "body": " Practice: Sum and Product Method   Factor each quadratic expression.     .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .    "
+},
+{
+  "id": "factoring-monic-quadratics-25",
+  "level": "2",
+  "url": "sec-factoring-quadratic-trinomials.html#factoring-monic-quadratics-25",
+  "type": "Example",
   "number": "2.2.4",
-  "title": "",
-  "body": " Factor each quadratic expression.                                "
+  "title": "Unfactorable Trinomial.",
+  "body": " Unfactorable Trinomial   Trinomial that cannot be factored. . In fact, not all trinomials can be factored. Consider . To factor this, we would need two numbers that multiply to 6 and add to 4. The options are: or . Neither of them work. This means that is not factorable.  "
 },
 {
-  "id": "sec-factoring-quadratic-trinomials-4-3",
+  "id": "factoring-monic-quadratics-26",
   "level": "2",
-  "url": "sec-factoring-quadratic-trinomials.html#sec-factoring-quadratic-trinomials-4-3",
-  "type": "Checkpoint",
+  "url": "sec-factoring-quadratic-trinomials.html#factoring-monic-quadratics-26",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "prime irreducible "
+},
+{
+  "id": "factoring-monic-quadratics-27",
+  "level": "2",
+  "url": "sec-factoring-quadratic-trinomials.html#factoring-monic-quadratics-27",
+  "type": "Exercise Group",
+  "number": "2.2.2",
+  "title": "More Practice: Sum and Product.",
+  "body": " More Practice: Sum and Product   Factor each trinomial.     .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .    "
+},
+{
+  "id": "factoring-with-gcf-3",
+  "level": "2",
+  "url": "sec-factoring-quadratic-trinomials.html#factoring-with-gcf-3",
+  "type": "Exercise Group",
+  "number": "2.2.3",
+  "title": "Factoring with GCF First.",
+  "body": " Factoring with GCF First   Factor each quadratic expression completely.     .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .    "
+},
+{
+  "id": "cross-method-2",
+  "level": "2",
+  "url": "sec-factoring-quadratic-trinomials.html#cross-method-2",
+  "type": "Example",
   "number": "2.2.5",
-  "title": "",
-  "body": " Factor each quadratic expression.               "
+  "title": "First Cross Method Example.",
+  "body": " First Cross Method Example  Consider,   To do the cross method,    Draw a crisscross or X shape underneath.    Find two things that multiply to the first term, and two things that multiply to the last term.    Multiply each of the diagonals and add them up.    The combination is correct if the diagonals add up to the middle term.    For example,      On the left side, , and on the right, . However, the diagonals add up to , which isn't the middle term. Instead, switch the 3 and the 1,      We now get , which is the middle term. After you've found the correct combination, the two factors can be read horizontally in each row,      "
 },
 {
-  "id": "sec-factoring-quadratic-trinomials-6-2",
+  "id": "cross-method-3",
   "level": "2",
-  "url": "sec-factoring-quadratic-trinomials.html#sec-factoring-quadratic-trinomials-6-2",
+  "url": "sec-factoring-quadratic-trinomials.html#cross-method-3",
   "type": "Example",
   "number": "2.2.6",
-  "title": "",
-  "body": " Consider, To do the cross method, find two things that multiply to the first term, and two things that multiply to the last term. Then, draw a crisscross or X shape. Multiply the diagonals and add them up. The combination is correct if the diagonals add up to the middle term.     However, the diagonals add up to , which isn't the middle term. Instead, switch the 3 and the 1,     We now get , which is the middle term. After you've found the correct combination, the two factors can be read horizontally,      "
+  "title": "Cross Method with Negatives.",
+  "body": " Cross Method with Negatives  Consider,   Using the cross method, one possible combination is,      On the left side, , and on the right, . However, the diagonals add up to , which isn't the middle term, so this isn't correct. Instead, switch the 2 and the ,      Now the diagonals add to , which is not quite , but it's close. To fix it, just change the negative sign on the right to be on the 2 instead of the 1,      Now the diagonals add up to , which matches the middle term. Reading across gives the factors:      "
 },
 {
-  "id": "sec-factoring-quadratic-trinomials-6-3",
+  "id": "cross-method-4",
   "level": "2",
-  "url": "sec-factoring-quadratic-trinomials.html#sec-factoring-quadratic-trinomials-6-3",
+  "url": "sec-factoring-quadratic-trinomials.html#cross-method-4",
   "type": "Example",
   "number": "2.2.7",
-  "title": "",
-  "body": " The cross method can be used even in the previous simpler case when . In other words, the cross method is a generalization of the sum and product method that we used when . For example, for, We could think of factors of that add up to , which are and , to get,   However, we can also use the cross method. The first term is , so we can write and on the left side, and the last term is , so we can write and on the right side. Then, we draw a crisscross or X shape, multiply the diagonals, and add them up. The combination is correct if the diagonals add up to the middle term.       This gives the same result as before.  "
+  "title": "Cross Method with Trial and Error.",
+  "body": " Cross Method with Trial and Error  Consider,   For the left side, we have 6, which means we could choose 6 and 1, or 3 and 2. We don't know ahead of time which will be correct, so let's choose 6 and 1, and we can change it later.      The diagonals add up to , which is too large. Let's switch the 2 and 5,      Now the diagonals are , which is close but still not 19. Try different factor pairs of 10: and .      Now the diagonals are , still not enough. Switching gives,      Now we get , too large. We've tried all of the possible combinations on the right side, so this means that the left side is wrong. Let’s try and instead.      Now the diagonals add to , perfect! Reading across gives,      "
 },
 {
-  "id": "sec-factoring-quadratic-trinomials-6-5",
+  "id": "cross-method-6",
   "level": "2",
-  "url": "sec-factoring-quadratic-trinomials.html#sec-factoring-quadratic-trinomials-6-5",
+  "url": "sec-factoring-quadratic-trinomials.html#cross-method-6",
   "type": "Example",
   "number": "2.2.8",
   "title": "",
-  "body": " Consider, In this case, which is negative, unlike the previous examples. Technically, you can proceed as usual, finding two things that multiply to and , for example,     However, it turns out that the negative on the left side makes things more complicated, because then you have to worry about where to put the negative on the left side, as well as if the right side is 3 and 1 or and . There are a lot of negative signs. Instead, factor out from all terms first, which flips the sign of all the terms,   Then, factor the expression inside the brackets as before. Now, the only sign choice is the , where one of the factors must be negative.       "
+  "body": "  Using the cross method when . The cross method can also be used in the previous simpler case, when . For example, for,   We could think of factors of that add up to , which are and 4, to get,   However, we can also use the cross method. The first term is , so we can write and on the left side, and the last term is , so we can try and on the right side. Then, we draw a crisscross or X shape, multiply the diagonals, and add them up. The combination is correct if the diagonals add up to the middle term.       This gives the same answer as before.  "
 },
 {
-  "id": "sec-factoring-quadratic-trinomials-6-6",
+  "id": "cross-method-7",
   "level": "2",
-  "url": "sec-factoring-quadratic-trinomials.html#sec-factoring-quadratic-trinomials-6-6",
-  "type": "Checkpoint",
-  "number": "2.2.9",
-  "title": "",
-  "body": " Factor each expression fully.                       "
-},
-{
-  "id": "sec-factoring-quadratic-trinomials-6-7",
-  "level": "2",
-  "url": "sec-factoring-quadratic-trinomials.html#sec-factoring-quadratic-trinomials-6-7",
-  "type": "Checkpoint",
-  "number": "2.2.10",
-  "title": "",
-  "body": " Factor each expression fully.                       "
-},
-{
-  "id": "sec-factoring-quadratic-trinomials-6-8",
-  "level": "2",
-  "url": "sec-factoring-quadratic-trinomials.html#sec-factoring-quadratic-trinomials-6-8",
-  "type": "Checkpoint",
-  "number": "2.2.11",
-  "title": "",
-  "body": " Factor each expression fully.                       "
-},
-{
-  "id": "sec-factoring-quadratic-trinomials-7-2",
-  "level": "2",
-  "url": "sec-factoring-quadratic-trinomials.html#sec-factoring-quadratic-trinomials-7-2",
+  "url": "sec-factoring-quadratic-trinomials.html#cross-method-7",
   "type": "Example",
-  "number": "2.2.12",
-  "title": "",
-  "body": " Consider the quadratic,   Here, the numbers are kinda large, but we can still use the cross method. After some trial and error, the correct combination is,      However, notice that also contains a common factor of 3, so we should factor it out.   Instead, it is easier to first factor out the common factor of 3,   Then, factoring the remaining only uses the sum and product method, and has smaller numbers to work with,    "
+  "number": "2.2.9",
+  "title": "Factoring out a Negative.",
+  "body": " Factoring out a Negative   Factor out the negative sign first . Consider . In this case, which is negative, unlike the previous examples. You could continue just like before, by finding two things that multiply to and 3. For example,      This combination doesn't work.  However, it turns out that the negative sign on the left side makes things more complicated, because you have to worry about where to put the negative sign on the left side (in addition to the right side being either 3 and 1 or and ). There are a lot of negative signs, and it can get confusing.  Instead, it's better to first factor out the negative sign in the front. To do this, factor out from all terms, which basically flips the sign of all the terms,   Then, factor the expression inside the brackets as before. Now, you don't need to worry about the sign on the left column, and the only sign choice for the , where one of the numbers must be negative.       "
+},
+{
+  "id": "cross-method-9",
+  "level": "2",
+  "url": "sec-factoring-quadratic-trinomials.html#cross-method-9",
+  "type": "Example",
+  "number": "2.2.10",
+  "title": "Factoring out GCF Before Cross Method.",
+  "body": " Factoring out GCF Before Cross Method   Factor out the GCF before using the cross method . Consider,   Here, we can still use the cross method. However, the numbers are kinda large, especially 30, which has many possibilities for its factors. After some trial and error, the correct combination is,      However, notice that also contains a common factor of 2, so we should factor it out also.   Instead, it is easier to first factor out the common factor of 2,   Then, factoring the remaining only uses the sum and product method, and has smaller numbers to work with,   "
+},
+{
+  "id": "cross-method-11",
+  "level": "2",
+  "url": "sec-factoring-quadratic-trinomials.html#cross-method-11",
+  "type": "Exercise Group",
+  "number": "2.2.4",
+  "title": "Practice: The Cross Method 1.",
+  "body": " Practice: The Cross Method 1   Factor each expression fully.     .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .    "
+},
+{
+  "id": "cross-method-12",
+  "level": "2",
+  "url": "sec-factoring-quadratic-trinomials.html#cross-method-12",
+  "type": "Exercise Group",
+  "number": "2.2.5",
+  "title": "Practice: The Cross Method 2.",
+  "body": " Practice: The Cross Method 2   Factor each expression fully.     .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .    "
+},
+{
+  "id": "cross-method-13",
+  "level": "2",
+  "url": "sec-factoring-quadratic-trinomials.html#cross-method-13",
+  "type": "Exercise Group",
+  "number": "2.2.6",
+  "title": "Practice: The Cross Method 3.",
+  "body": " Practice: The Cross Method 3   Factor each expression fully.     .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    prime\/irreducible.      .    .      .    .      .    .      .    .      .    .      .    .    "
 },
 {
   "id": "sec-factoring-quadratics-summary",
