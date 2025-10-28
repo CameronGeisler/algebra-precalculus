@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="quadratic-inequalities-in-one-variable" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Quadratic Inequalities in One Variable</title>
+  
+  <introduction>
+    <p>
+      In addition to quadratic equations, we can also consider quadratic inequalities, which are related.
+    </p>
+    <example>
+      <title>Motivation: graphical method</title>
+      <p>
+        Consider the inequality,
+      </p>
+      <md>
+        <mrow>x^2-4x+3 \gt 0</mrow>
+      </md>
+      <p>
+        The goal is to find all of the values of <m>x</m> such that <m>x^2 - 4x + 3 \gt 0</m>. In simple terms, this means all numbers <m>x</m>, where if you substitute it into <m>x^2-4x+3</m>, the result is positive. This is most intuitive by visualizing the graph of the quadratic function <m>y = x^2 - 4x + 3</m>,
+      </p>
+      <image width="50%">
+        <latex-image>
+          \begin{tikzpicture}[scale=0.8]
+          \begin{axis}[
+          axis lines = middle,
+          xlabel = \(x\),
+          ylabel = \(y\),
+          ymin = -2, ymax = 5,
+          xmin = -1, xmax = 5,
+          domain = -1:5,
+          samples = 100,
+          grid = major,
+          enlargelimits=true,
+          xtick={1,3},
+          ytick={0},
+          every axis x label/.style={at={(current axis.right of origin)},anchor=north west},
+          every axis y label/.style={at={(current axis.above origin)},anchor=south east}
+          ]
+          \addplot[blue, thick] {x^2 - 4*x + 3};
+          \addplot[only marks, red] coordinates {(1,0) (3,0)};
+          \end{axis}
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+      <p>
+        Then, determining where <m>x^2-4x+3 \gt 0</m> is equivalent to determining the <m>x</m> where the <m>y</m>-coordinate of the parabola is positive. Observe that the <m>x</m>-intercepts of the graph are <m>x = 1, 3</m>. So, the graph is positive when <m>x \lt 1</m> or when <m>x \gt 3</m>. Therefore, the solution is <m>x \lt 1</m> or <m>x \gt 3</m>.
+      </p>
+      <image width="50%">
+        <latex-image>
+          \begin{tikzpicture}[scale=0.8]
+          \begin{axis}[
+          axis lines = middle,
+          xlabel = \(x\),
+          ylabel = \(y\),
+          ymin = -2, ymax = 5,
+          xmin = -2, xmax = 6,
+          domain = -2:6,
+          samples = 100,
+          grid = major,
+          enlargelimits=true,
+          xtick={1,3},
+          ytick={0},
+          every axis x label/.style={at={(current axis.right of origin)},anchor=north west},
+          every axis y label/.style={at={(current axis.above origin)},anchor=south east}
+          ]
+          % Plot the quadratic function
+          \addplot[blue, thick] {x^2 - 4*x + 3};
+          
+          % Highlight solution regions on the x-axis (thicker and longer)
+          \addplot[ultra thick, red] coordinates {(-3,0) (1,0)};
+          \addplot[ultra thick, red] coordinates {(3,0) (7,0)};
+          
+          % Mark the critical points
+          \addplot[only marks, red] coordinates {(1,0) (3,0)};
+          \end{axis}
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+    </example>
+    
+    <example>
+      <title>Motivation: sign analysis with roots</title>
+      <p>
+        Consider the inequality <m>x^2-x-6 \lt 0</m>. Like before, first, find the roots of the parabola, by making it an equals sign, and factoring,
+      </p>
+      <md>
+        <mrow>x^2 - x - 6 \amp = 0</mrow>
+        <mrow>(x-3)(x+2) \amp = 0</mrow>
+      </md>
+      <p>
+        So, the roots are <m>x = 3</m> and <m>x = -2</m>. Since <m>x^2-x-6</m> has a positive leading coefficient (+1), the parabola opens up. This means that the quadratic roughly looks like this,
+      </p>
+      <image>
+        <latex-image>
+          \begin{tikzpicture}[scale=0.8, font=\small, baseline=(current bounding box.center)]
+          % Draw a horizontal number line from x=-5 to x=5
+          \draw[&lt;-&gt;, thick] (-5,0) -- (5,0);
+          
+          % Mark the roots at -2 and 3
+          \draw (-2,0.15) -- (-2,-0.15);
+          \draw ( 3,0.15) -- ( 3,-0.15);
+          
+          % Label the roots below
+          \node[below] at (-2,-0.15) {$-2$};
+          \node[below] at (3,-0.15) {$3$};
+          
+          % Put the + / - / + signs above the number line
+          \node[above] at (-3,0) {$+$};
+          \node[above] at ( 0,0) {$-$};
+          \node[above] at ( 4,0) {$+$};
+          
+          \draw[smooth, domain=-3:4, samples=100, thick, blue]
+          plot(\x, {0.2*(\x+2)*(\x-3)});
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+      <p>
+        From this, the parabola is negative when <m>x</m> is between <m>-2</m> and <m>3</m>, or <m>-2 \lt x \lt 3</m>.
+      </p>
+    </example>
+    
+    <p>
+      To solve the inequality, we don't need to graph the entire parabola precisely. Instead, we only need to find the roots, and know the basic shape (opening up or down).
+    </p>
+    <p>
+      A quadratic expression can only change sign at its roots. This means, if a quadratic has two roots, then:
+    </p>
+    <ul>
+      <li>
+        <p>
+          If the quadratic is positive in one interval, it will switch to negative when crossing a root.
+        </p>
+      </li>
+      <li>
+        <p>
+          After crossing the second root, it switches back to positive.
+        </p>
+      </li>
+    </ul>
+    <p>
+      If the quadratic opens down, then the pattern is reversed: it first is negative, then positive, then negative. The pattern of signs follows,
+    </p>
+    <md>
+      <mrow>\text{either} \quad + \, - \, + \quad \text{or} \quad - \, + \, -</mrow>
+    </md>
+  </introduction>
+  
+  <subsection xml:id="quad-ineq-calculator">
+    <title>Solving Quadratic Inequalities with Scientific Calculator (INEQ Mode)</title>
+    <p>
+      My recommended calculator <url href="https://camerongeisler.com/calculator-guide-for-students-how-to-buy-a-calculator/">Casio fx-991ES PLUS C 2nd edition</url> (or another similar model) can actually solve quadratic inequalities for you. You can use this to check your answers after solving by hand.
+    </p>
+    <ol>
+      <li>
+        <p>
+          Press <alert>MODE</alert> and use the down arrow key to go to the next page.
+        </p>
+      </li>
+      <li>
+        <p>
+          Press <alert>1</alert> for inequality mode (<alert>INEQ</alert>)
+        </p>
+      </li>
+      <li>
+        <p>
+          Press <alert>1</alert> for a quadratic inequality (<m>ax^2 + bx + c</m>).
+        </p>
+      </li>
+      <li>
+        <p>
+          Next, the calculator will show options for the type of inequality:
+        </p>
+        <ul>
+          <li>
+            <p>
+              Press <alert>1</alert> for <m>\gt</m> (greater than)
+            </p>
+          </li>
+          <li>
+            <p>
+              Press <alert>2</alert> for <m>\lt</m> (less than)
+            </p>
+          </li>
+          <li>
+            <p>
+              Press <alert>3</alert> for <m>\geq</m> (greater than or equal to)
+            </p>
+          </li>
+          <li>
+            <p>
+              Press <alert>4</alert> for <m>\leq</m> (less than or equal to)
+            </p>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p>
+          Enter the coefficients <m>a</m>, <m>b</m>, and <m>c</m> for your inequality.
+        </p>
+      </li>
+      <li>
+        <p>
+          Press <alert>=</alert> to solve.
+        </p>
+      </li>
+      <li>
+        <p>
+          The calculator will show the interval(s) of <m>x</m> that satisfy the inequality.
+        </p>
+      </li>
+    </ol>
+    <example>
+      <title>Example</title>
+      <p>
+        For example, to solve <m>x^2 - 3x + 2 \gt 0</m>:
+      </p>
+      <ul>
+        <li>
+          <p>
+            Press <alert>MODE</alert>, scroll down, and select <alert>INEQ</alert>.
+          </p>
+        </li>
+        <li>
+          <p>
+            Choose <alert>1</alert> for quadratic.
+          </p>
+        </li>
+        <li>
+          <p>
+            Choose <alert>1</alert> for <m>\gt</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            Input <m>a = 1</m>, <m>b = -3</m>, <m>c = 2</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            Press <alert>=</alert> to solve. The calculator will show the solution as:
+          </p>
+          <md>
+            <mrow>x \lt 1 \quad \text{or} \quad x \gt 2</mrow>
+          </md>
+        </li>
+      </ul>
+      <p>
+        Make sure your inequality is written in the correct form (everything on one side of the inequality, <m>0</m> on the other).
+      </p>
+    </example>
+  </subsection>
+  
+  <subsection xml:id="quad-ineq-summary">
+    <title>Solving Quadratic Inequalities Summary</title>
+    <definition>
+      <p>
+        A <term>quadratic inequality</term> is an inequality that can be written in one of the forms,
+      </p>
+      <md>
+        <mrow>ax^2 + bx + c \amp \leq 0</mrow>
+        <mrow>ax^2 + bx + c \amp \lt 0</mrow>
+        <mrow>ax^2 + bx + c \amp \geq 0</mrow>
+        <mrow>ax^2 + bx + c \amp \gt 0</mrow>
+      </md>
+    </definition>
+    <ol>
+      <li>
+        <p>
+          (If necessary) Arrange the quadratic inequality in standard form, with <m>ax^2 + bx + c</m> on one side, and 0 on the other.
+        </p>
+      </li>
+      <li>
+        <p>
+          Find the <term>critical values</term> (the roots of the quadratic expression), by solving the corresponding quadratic equation <m>ax^2 + bx + c = 0</m>.
+        </p>
+      </li>
+      <li>
+        <p>
+          Sketch a number line, and mark the critical values to split it into 3 intervals.
+        </p>
+      </li>
+      <li>
+        <p>
+          Find where the quadratic is positive or negative
+        </p>
+        <ul>
+          <li>
+            <p>
+              If it opens up (<m>a \gt 0</m>), the sign pattern is <m>= \, - \, +</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              If it opens down (<m>a \lt 0</m>), the sign pattern is <m>- \, + \, -</m>.
+            </p>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p>
+          Choose the intervals that match the inequality symbol (greater than or less than).
+        </p>
+      </li>
+      <li>
+        <p>
+          Include the endpoints if the inequality is <m>\geq</m> or <m>\leq</m> (non-strict inequality). Otherwise, don't include the endpoints if it's <m>\gt</m> or <m>\lt</m>.
+        </p>
+      </li>
+    </ol>
+  </subsection>
+  
+</section>

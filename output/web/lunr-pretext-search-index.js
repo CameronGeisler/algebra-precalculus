@@ -1126,6 +1126,69 @@ var ptx_lunr_docs = [
   "body": " Factoring Quadratics Summary     Write the quadratic in descending power order (standard form), .     e.g.        If there is a GCF (greatest common factor), factor it out (either a number or variable like ).     e.g.     e.g.        Determine which factoring method applies, based on the form:    If , find two numbers that multiply to and add to .     e.g.        If , use the cross method (or -method, or box method).     e.g.        If there are only 2 terms, try difference of squares.     (Optional) use perfect square factoring patterns:        "
 },
 {
+  "id": "sec-advanced-polynomial-factoring",
+  "level": "1",
+  "url": "sec-advanced-polynomial-factoring.html",
+  "type": "Section",
+  "number": "2.5",
+  "title": "Advanced Polynomial Factoring",
+  "body": " Advanced Polynomial Factoring    Factoring Polynomials Flowchart Summary      "
+},
+{
+  "id": "quadratic-inequalities-in-one-variable",
+  "level": "1",
+  "url": "quadratic-inequalities-in-one-variable.html",
+  "type": "Section",
+  "number": "2.6",
+  "title": "Quadratic Inequalities in One Variable",
+  "body": " Quadratic Inequalities in One Variable   In addition to quadratic equations, we can also consider quadratic inequalities, which are related.   Motivation: graphical method  Consider the inequality,   The goal is to find all of the values of such that . In simple terms, this means all numbers , where if you substitute it into , the result is positive. This is most intuitive by visualizing the graph of the quadratic function ,     Then, determining where is equivalent to determining the where the -coordinate of the parabola is positive. Observe that the -intercepts of the graph are . So, the graph is positive when or when . Therefore, the solution is or .       Motivation: sign analysis with roots  Consider the inequality . Like before, first, find the roots of the parabola, by making it an equals sign, and factoring,   So, the roots are and . Since has a positive leading coefficient (+1), the parabola opens up. This means that the quadratic roughly looks like this,     From this, the parabola is negative when is between and , or .   To solve the inequality, we don't need to graph the entire parabola precisely. Instead, we only need to find the roots, and know the basic shape (opening up or down).  A quadratic expression can only change sign at its roots. This means, if a quadratic has two roots, then:    If the quadratic is positive in one interval, it will switch to negative when crossing a root.    After crossing the second root, it switches back to positive.    If the quadratic opens down, then the pattern is reversed: it first is negative, then positive, then negative. The pattern of signs follows,     Solving Quadratic Inequalities with Scientific Calculator (INEQ Mode)  My recommended calculator Casio fx-991ES PLUS C 2nd edition (or another similar model) can actually solve quadratic inequalities for you. You can use this to check your answers after solving by hand.    Press MODE and use the down arrow key to go to the next page.    Press 1 for inequality mode ( INEQ )    Press 1 for a quadratic inequality ( ).    Next, the calculator will show options for the type of inequality:    Press 1 for (greater than)    Press 2 for (less than)    Press 3 for (greater than or equal to)    Press 4 for (less than or equal to)      Enter the coefficients , , and for your inequality.    Press = to solve.    The calculator will show the interval(s) of that satisfy the inequality.     Example  For example, to solve :    Press MODE , scroll down, and select INEQ .    Choose 1 for quadratic.    Choose 1 for .    Input , , .    Press = to solve. The calculator will show the solution as:     Make sure your inequality is written in the correct form (everything on one side of the inequality, on the other).     Solving Quadratic Inequalities Summary   A quadratic inequality is an inequality that can be written in one of the forms,      (If necessary) Arrange the quadratic inequality in standard form, with on one side, and 0 on the other.    Find the critical values (the roots of the quadratic expression), by solving the corresponding quadratic equation .    Sketch a number line, and mark the critical values to split it into 3 intervals.    Find where the quadratic is positive or negative    If it opens up ( ), the sign pattern is .    If it opens down ( ), the sign pattern is .      Choose the intervals that match the inequality symbol (greater than or less than).    Include the endpoints if the inequality is or (non-strict inequality). Otherwise, don't include the endpoints if it's or .     "
+},
+{
+  "id": "quadratic-inequalities-in-one-variable-2-2",
+  "level": "2",
+  "url": "quadratic-inequalities-in-one-variable.html#quadratic-inequalities-in-one-variable-2-2",
+  "type": "Example",
+  "number": "2.6.1",
+  "title": "Motivation: graphical method.",
+  "body": " Motivation: graphical method  Consider the inequality,   The goal is to find all of the values of such that . In simple terms, this means all numbers , where if you substitute it into , the result is positive. This is most intuitive by visualizing the graph of the quadratic function ,     Then, determining where is equivalent to determining the where the -coordinate of the parabola is positive. Observe that the -intercepts of the graph are . So, the graph is positive when or when . Therefore, the solution is or .     "
+},
+{
+  "id": "quadratic-inequalities-in-one-variable-2-3",
+  "level": "2",
+  "url": "quadratic-inequalities-in-one-variable.html#quadratic-inequalities-in-one-variable-2-3",
+  "type": "Example",
+  "number": "2.6.2",
+  "title": "Motivation: sign analysis with roots.",
+  "body": " Motivation: sign analysis with roots  Consider the inequality . Like before, first, find the roots of the parabola, by making it an equals sign, and factoring,   So, the roots are and . Since has a positive leading coefficient (+1), the parabola opens up. This means that the quadratic roughly looks like this,     From this, the parabola is negative when is between and , or .  "
+},
+{
+  "id": "quad-ineq-calculator-4",
+  "level": "2",
+  "url": "quadratic-inequalities-in-one-variable.html#quad-ineq-calculator-4",
+  "type": "Example",
+  "number": "2.6.3",
+  "title": "Example.",
+  "body": " Example  For example, to solve :    Press MODE , scroll down, and select INEQ .    Choose 1 for quadratic.    Choose 1 for .    Input , , .    Press = to solve. The calculator will show the solution as:     Make sure your inequality is written in the correct form (everything on one side of the inequality, on the other).  "
+},
+{
+  "id": "quad-ineq-summary-2",
+  "level": "2",
+  "url": "quadratic-inequalities-in-one-variable.html#quad-ineq-summary-2",
+  "type": "Definition",
+  "number": "2.6.4",
+  "title": "",
+  "body": " A quadratic inequality is an inequality that can be written in one of the forms,   "
+},
+{
+  "id": "quad-ineq-summary-3-2-1",
+  "level": "2",
+  "url": "quadratic-inequalities-in-one-variable.html#quad-ineq-summary-3-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "critical values "
+},
+{
   "id": "sec-quadratic-systems",
   "level": "1",
   "url": "sec-quadratic-systems.html",

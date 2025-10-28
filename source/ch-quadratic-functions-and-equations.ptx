@@ -12,6 +12,9 @@
   <xi:include href="./sec-factoring-quadratic-trinomials.ptx" />
   <xi:include href="./sec-solving-quadratic-equations-by-factoring.ptx" />
   <xi:include href="./sec-factoring-quadratics-summary.ptx" />
+  <xi:include href="./sec-advanced-polynomial-factoring.ptx" />
+
+  <xi:include href="./sec-quadratic-inequalities-in-one-variable.ptx" />
    
 
 </chapter>
