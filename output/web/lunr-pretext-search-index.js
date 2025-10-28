@@ -1072,11 +1072,56 @@ var ptx_lunr_docs = [
   "body": " Practice: The Cross Method 3   Factor each expression fully.     .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    .      .    prime\/irreducible.      .    .      .    .      .    .      .    .      .    .      .    .    "
 },
 {
+  "id": "sec-solving-quadratic-equations-by-factoring",
+  "level": "1",
+  "url": "sec-solving-quadratic-equations-by-factoring.html",
+  "type": "Section",
+  "number": "2.3",
+  "title": "Solving Quadratic Equations by Factoring",
+  "body": " Solving Quadratic Equations by Factoring   Previously, we learned:   If a quadratic equation is factored, then it is easy to solve.  How to factor quadratics in the form .   Combining these give us a powerful strategy for solving quadratic equations. First however, we need to make sure the equation is in the correct form,   This is called standard form , as it is the conventional, agreed-upon way to write a quadratic equation. This is because this form makes solving the equation consistent each time. To do this, move all terms to one side of the equation, and arrange the terms with the first, the term next, and the constant last.    Summary   (If necessary) Write in standard form, by moving all terms to one side so that the equation equals zero. E.g.   (If necessary) Look for common factors, if all terms share a common factor, divide it out first.  Factor the trinomial.  Find the value of that makes each factor 0.   Some notes:   If is a factor of the polynomial, then is a solution to the equation.  Always look for common factors, because it makes the problem more simple.    Solving Quadratics by Factoring   Solve each equation.    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .      Equations Requiring the Cross Method   Solving Quadratics with Leading Coefficient   Solve each equation.    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .     Advanced Quadratic Equations    Advanced examples . Solve each equation.    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .     "
+},
+{
+  "id": "sec-solving-quadratic-equations-by-factoring-2-5",
+  "level": "2",
+  "url": "sec-solving-quadratic-equations-by-factoring.html#sec-solving-quadratic-equations-by-factoring-2-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "standard form "
+},
+{
+  "id": "summary-strategy-5",
+  "level": "2",
+  "url": "sec-solving-quadratic-equations-by-factoring.html#summary-strategy-5",
+  "type": "Exercise Group",
+  "number": "2.3.1",
+  "title": "Solving Quadratics by Factoring.",
+  "body": " Solving Quadratics by Factoring   Solve each equation.    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .   "
+},
+{
+  "id": "equations-cross-method-2",
+  "level": "2",
+  "url": "sec-solving-quadratic-equations-by-factoring.html#equations-cross-method-2",
+  "type": "Exercise Group",
+  "number": "2.3.2",
+  "title": "Solving Quadratics with Leading Coefficient.",
+  "body": " Solving Quadratics with Leading Coefficient   Solve each equation.    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .   "
+},
+{
+  "id": "equations-cross-method-3",
+  "level": "2",
+  "url": "sec-solving-quadratic-equations-by-factoring.html#equations-cross-method-3",
+  "type": "Exercise Group",
+  "number": "2.3.3",
+  "title": "Advanced Quadratic Equations.",
+  "body": " Advanced Quadratic Equations    Advanced examples . Solve each equation.    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .   "
+},
+{
   "id": "sec-factoring-quadratics-summary",
   "level": "1",
   "url": "sec-factoring-quadratics-summary.html",
   "type": "Section",
-  "number": "2.3",
+  "number": "2.4",
   "title": "Factoring Quadratics Summary",
   "body": " Factoring Quadratics Summary     Write the quadratic in descending power order (standard form), .     e.g.        If there is a GCF (greatest common factor), factor it out (either a number or variable like ).     e.g.     e.g.        Determine which factoring method applies, based on the form:    If , find two numbers that multiply to and add to .     e.g.        If , use the cross method (or -method, or box method).     e.g.        If there are only 2 terms, try difference of squares.     (Optional) use perfect square factoring patterns:        "
 },

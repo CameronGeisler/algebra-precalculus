@@ -10,8 +10,8 @@
   <!-- include sections -->
   <xi:include href="./sec-zeros-of-quadratic-functions-intro.ptx" />
   <xi:include href="./sec-factoring-quadratic-trinomials.ptx" />
+  <xi:include href="./sec-solving-quadratic-equations-by-factoring.ptx" />
   <xi:include href="./sec-factoring-quadratics-summary.ptx" />
-  <!-- <xi:include href="sec-solving-quadratic-equations-by-factoring.ptx -->
    
 
 </chapter>

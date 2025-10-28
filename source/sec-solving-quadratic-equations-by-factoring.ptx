@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-solving-quadratic-equations-by-factoring" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Solving Quadratic Equations by Factoring</title>
+  
+  <introduction>
+    <p>
+      Previously, we learned:
+    </p>
+    <ul>
+      <li>
+        If a quadratic equation is factored, then it is easy to solve.
+      </li>
+      <li>
+        How to factor quadratics in the form <m>ax^2 + bx + c</m>.
+      </li>
+    </ul>
+    <p>
+      Combining these give us a powerful strategy for solving quadratic equations. First however, we need to make sure the equation is in the correct form,
+    </p>
+    <md>
+      <mrow>ax^2 + bx + c = 0</mrow>
+    </md>
+    <p>
+      This is called <term>standard form</term>, as it is the conventional, agreed-upon way to write a quadratic equation. This is because this form makes solving the equation consistent each time. To do this, move all terms to one side of the equation, and arrange the terms with the <m>x^2</m> first, the <m>x</m> term next, and the constant last.
+    </p>
+  </introduction>
+  
+  <subsection xml:id="summary-strategy">
+    <title>Summary</title>
+    <ol>
+      <li>
+        (If necessary) Write in standard form, by moving all terms to one side so that the equation equals zero. E.g. <m>x^2 + 5x = 14 \rightarrow x^2 + 5x - 14 = 0</m>
+      </li>
+      <li>
+        (If necessary) Look for common factors, if all terms share a common factor, divide it out first.
+      </li>
+      <li>
+        Factor the trinomial.
+      </li>
+      <li>
+        Find the value of <m>x</m> that makes each factor 0.
+      </li>
+    </ol>
+    <p>
+      Some notes:
+    </p>
+    <ul>
+      <li>
+        If <m>x</m> is a factor of the polynomial, then <m>x = 0</m> is a solution to the equation.
+      </li>
+      <li>
+        Always look for common factors, because it makes the problem more simple.
+      </li>
+    </ul>
+    
+    <project>
+      <title>Solving Quadratics by Factoring</title>
+      <introduction>
+        <p>
+          Solve each equation.
+        </p>
+      </introduction>
+      <task>
+        <statement><p><m>x^2 + 3x + 2 = 0</m>.</p></statement>
+        <answer><p><m>x = -1, -2</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>x^2 + 5x + 6 = 0</m>.</p></statement>
+        <answer><p><m>x = -2, -3</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>x^2 - 3x + 2 = 0</m>.</p></statement>
+        <answer><p><m>x = 1, 2</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>x^2 - x - 12 = 0</m>.</p></statement>
+        <answer><p><m>x = 4, -3</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>2x^2 + 18x + 36 = 0</m>.</p></statement>
+        <answer><p><m>x = -3, -6</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>x^2 + 6 = 5x</m>.</p></statement>
+        <answer><p><m>x = 2, 3</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>x^2 + 7x = -6</m>.</p></statement>
+        <answer><p><m>x = -1, -6</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>-x^2 - 11x - 28 = 0</m>.</p></statement>
+        <answer><p><m>x = -7, -4</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>x^2 = 14x - 49</m>.</p></statement>
+        <answer><p><m>x = 7</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>x^2 + 14 = -9x</m>.</p></statement>
+        <answer><p><m>x = -7, -2</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>4x^2 + 24 = 20x</m>.</p></statement>
+        <answer><p><m>x = 2, 3</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>x^2 + 11x = -30</m>.</p></statement>
+        <answer><p><m>x = -5, -6</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>x^2 + 4x = 12</m>.</p></statement>
+        <answer><p><m>x = -6, 2</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>x^2 = 11x - 24</m>.</p></statement>
+        <answer><p><m>x = 3, 8</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>2x^2 + 2x = 24</m>.</p></statement>
+        <answer><p><m>x = -4, 3</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>x^2 + 6x + 8 = 0</m>.</p></statement>
+        <answer><p><m>x = -2, -4</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>-x^2 = 7x - 60</m>.</p></statement>
+        <answer><p><m>x = -12, 5</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>x^2 + 4x + 4 = 0</m>.</p></statement>
+        <answer><p><m>x = -2</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>x^2 = 3x + 18</m>.</p></statement>
+        <answer><p><m>x = 6, -3</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>x^2 = 5x + 14</m>.</p></statement>
+        <answer><p><m>x = 7, -2</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>x^2 + 60 = 17x</m>.</p></statement>
+        <answer><p><m>x = 12, 5</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>x^2 = 9x + 22</m>.</p></statement>
+        <answer><p><m>x = 11, -2</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>x^2 = 7x - 12</m>.</p></statement>
+        <answer><p><m>x = 3, 4</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>x^2 + 25 = 10x</m>.</p></statement>
+        <answer><p><m>x = 5</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>x^2 + 11x + 24 = 0</m>.</p></statement>
+        <answer><p><m>x = -3, -8</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>x^2 - 6x + 9 = 0</m>.</p></statement>
+        <answer><p><m>x = 3</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>140 + 6x = 2x^2</m>.</p></statement>
+        <answer><p><m>x = 10, -7</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>3x^2 + 6x = 24</m>.</p></statement>
+        <answer><p><m>x = -4, 2</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>4x^2 - 28x = 0</m>.</p></statement>
+        <answer><p><m>x = 0, 7</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>5x^2 + 20 = 20x</m>.</p></statement>
+        <answer><p><m>x = 2</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>3x^2 = 3x + 18</m>.</p></statement>
+        <answer><p><m>x = 3, -2</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>2x^2 + 4x - 16 = 0</m>.</p></statement>
+        <answer><p><m>x = -4, 2</m>.</p></answer>
+      </task>
+    </project>
+  </subsection>
+  
+  <subsection xml:id="equations-cross-method">
+    <title>Equations Requiring the Cross Method</title>
+    <project>
+      <title>Solving Quadratics with Leading Coefficient</title>
+      <introduction>
+        <p>
+          Solve each equation.
+        </p>
+      </introduction>
+      <task>
+        <statement><p><m>2x^2 - 5x + 2 = 0</m>.</p></statement>
+        <answer><p><m>x = 2, \frac{1}{2}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>3x^2 + 8x - 3 = 0</m>.</p></statement>
+        <answer><p><m>x = \frac{1}{3}, -3</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>3x^2 + 17x + 20 = 0</m>.</p></statement>
+        <answer><p><m>x = -\frac{5}{3}, -4</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>2x^2 + 5x = 3</m>.</p></statement>
+        <answer><p><m>x = \frac{1}{2}, -3</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>2x^2 + 5 = 11x</m>.</p></statement>
+        <answer><p><m>x = 5, \frac{1}{2}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>2x^2 + 7x + 5 = 0</m>.</p></statement>
+        <answer><p><m>x = -1, -\frac{5}{2}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>10x^2 + 5 = 27x</m>.</p></statement>
+        <answer><p><m>x = \frac{5}{2}, \frac{1}{5}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>25x^2 + 10x = 8</m>.</p></statement>
+        <answer><p><m>x = \frac{2}{5}, -\frac{4}{5}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>2x^2 + 11x + 5 = 0</m>.</p></statement>
+        <answer><p><m>x = -\frac{1}{2}, -5</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>5x^2 - 21x + 4 = 0</m>.</p></statement>
+        <answer><p><m>x = 4, \frac{1}{5}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>3x^2 = 11x + 4</m>.</p></statement>
+        <answer><p><m>x = 4, -\frac{1}{3}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>3x^2 + 10x = 8</m>.</p></statement>
+        <answer><p><m>x = \frac{2}{3}, -4</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>2x^2 = 13x + 7</m>.</p></statement>
+        <answer><p><m>x = 7, -\frac{1}{2}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>7x^2 = 11x + 6</m>.</p></statement>
+        <answer><p><m>x = 2, -\frac{3}{7}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>3x^2 + 10 = 17x</m>.</p></statement>
+        <answer><p><m>x = 5, \frac{2}{3}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>3x^2 + x = 10</m>.</p></statement>
+        <answer><p><m>x = \frac{5}{3}, -2</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>2x^2 = 13x + 15</m>.</p></statement>
+        <answer><p><m>x = \frac{15}{2}, -1</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>2x^2 = 7x + 15</m>.</p></statement>
+        <answer><p><m>x = 5, -\frac{3}{2}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>3x^2 - 7x + 2 = 0</m>.</p></statement>
+        <answer><p><m>x = \frac{1}{3}, 2</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>6x^2 + 11x - 35=0</m>.</p></statement>
+        <answer><p><m>x = \frac{5}{3}, -\frac{7}{2}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>2x^2 + 17x = 9</m>.</p></statement>
+        <answer><p><m>x = \frac{1}{2}, -9</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>6x^2 + 11x + 3 = 0</m>.</p></statement>
+        <answer><p><m>x = -\frac{1}{3}, -\frac{3}{2}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>6x^2 = 17x + 3</m>.</p></statement>
+        <answer><p><m>x = 3, -\frac{1}{6}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>6x^2 + x = 2</m>.</p></statement>
+        <answer><p><m>x = \frac{1}{2}, -\frac{2}{3}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>10x^2 + 21x = 10</m>.</p></statement>
+        <answer><p><m>x = \frac{2}{5}, -\frac{5}{2}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>12x^2 + 13x + 3 = 0</m>.</p></statement>
+        <answer><p><m>x = -\frac{1}{3}, -\frac{3}{4}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>6x^2 = 17x + 14</m>.</p></statement>
+        <answer><p><m>x = \frac{7}{2}, -\frac{2}{3}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>14x^2 + 15x + 4 = 0</m>.</p></statement>
+        <answer><p><m>x = -\frac{1}{2}, -\frac{4}{7}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>6x^2 - 13x + 6 = 0</m>.</p></statement>
+        <answer><p><m>x = \frac{3}{2}, \frac{2}{3}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>12x^2 + 13x = 4</m>.</p></statement>
+        <answer><p><m>x = \frac{1}{4}, -\frac{4}{3}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>15x^2 + 6 = 23x</m>.</p></statement>
+        <answer><p><m>x = \frac{6}{5}, \frac{1}{3}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>8x^2 = 10x + 3</m>.</p></statement>
+        <answer><p><m>x = \frac{3}{2}, -\frac{1}{4}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>2x^2 + 5x = 12</m>.</p></statement>
+        <answer><p><m>x = \frac{3}{2}, -4</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>3x^2 + 2x = 16</m>.</p></statement>
+        <answer><p><m>x = 2, -\frac{8}{3}</m>.</p></answer>
+      </task>
+    </project>
+    
+    <project>
+      <title>Advanced Quadratic Equations</title>
+      <introduction>
+        <p>
+          <alert>Advanced examples</alert>. Solve each equation.
+        </p>
+      </introduction>
+      <task>
+        <statement><p><m>x(3 + x) + 3 = 31</m>.</p></statement>
+        <answer><p><m>x = -7, 4</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>3x(x + 2) = 9</m>.</p></statement>
+        <answer><p><m>x = -3, 1</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>2x(x - 1) - 3(x + 2) = -3</m>.</p></statement>
+        <answer><p><m>x = 3, -\frac{1}{2}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>56x^2 = 23x + 63</m>.</p></statement>
+        <answer><p><m>x = \frac{9}{7}, -\frac{7}{8}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>6 - 35x - 6x^2 = 0</m>.</p></statement>
+        <answer><p><m>x = \frac{1}{6}, -6</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>x + 32 = x(x - 3)</m>.</p></statement>
+        <answer><p><m>x = 8, -4</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>x^2 - 3x + 26 = (2x - 3)(x + 2)</m>.</p></statement>
+        <answer><p><m>x = 4, -8</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>(3x - 2)(x + 2) = x^2 - 11x - 22</m>.</p></statement>
+        <answer><p><m>x = -\frac{3}{2}, -6</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>x(x-5) = -4</m>.</p></statement>
+        <answer><p><m>x = 4, 1</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>x(3x-20)=-12</m>.</p></statement>
+        <answer><p><m>x = 6, \frac{2}{3}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>(x-12)(x+1)=-40</m>.</p></statement>
+        <answer><p><m>x = 7, 4</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>(x+3)(x+5)=5x+25</m>.</p></statement>
+        <answer><p><m>x = -5, 2</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>(4x-5)(x-5) = -45x</m>.</p></statement>
+        <answer><p><m>x = -\frac{5}{2}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>(x+1)(x-6) = -10</m>.</p></statement>
+        <answer><p><m>x = 4, 1</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>\frac{x^2}{18} + \frac{x}{6} = 1</m>.</p></statement>
+        <answer><p><m>x = -6, 3</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>3x^2 + 13x + 4 = 0</m>.</p></statement>
+        <answer><p><m>x = -4, -\frac{1}{3}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>5x^2 - 6 = 13x</m>.</p></statement>
+        <answer><p><m>x = -\frac{2}{5}, 3</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>2x^2 = 3x + 5</m>.</p></statement>
+        <answer><p><m>x = -1, \frac{5}{2}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>3x^2 = 8 - 2x</m>.</p></statement>
+        <answer><p><m>x = -2, \frac{4}{3}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>2x^2 = 18 - 9x</m>.</p></statement>
+        <answer><p><m>x = -6, \frac{3}{2}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>-2x^2 - 5x + 12 = 0</m>.</p></statement>
+        <answer><p><m>x = -4, \frac{3}{2}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>12x^2 - 22x + 6 = 0</m>.</p></statement>
+        <answer><p><m>x = \frac{1}{3}, \frac{3}{2}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>9x^2 + 6x - 48 = 0</m>.</p></statement>
+        <answer><p><m>x = -\frac{8}{3}, 2</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>28x^2 - 8 = 2x</m>.</p></statement>
+        <answer><p><m>x = -\frac{1}{2}, \frac{4}{7}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p><m>36x^2 + 39x = 12</m>.</p></statement>
+        <answer><p><m>x = -\frac{4}{3}, \frac{1}{4}</m>.</p></answer>
+      </task>
+    </project>
+  </subsection>
+  
+</section>
