@@ -105,6 +105,71 @@
     
   </introduction>
   
+  <subsection xml:id="factoring-flowchart">
+    <title>Factoring Quadratics Flowchart</title>
+    <image>
+      <latex-image>
+        \begin{tikzpicture}[
+        node distance=0.8cm and 0.8cm, % tight spacing
+        every node/.style={font=\small},
+        line/.style={-Latex, shorten >=1pt},
+        process/.style={rectangle,rounded corners,draw,align=center,inner sep=3pt,text width=6cm},
+        decision/.style={diamond,draw,aspect=1.8,align=center,inner sep=2pt,text width=2.8cm},
+        processNarrow/.style={rectangle,rounded corners,draw,align=left,inner sep=3pt,text width=5.6cm},
+        processBottom/.style={rectangle,rounded corners,draw,align=left,inner sep=3pt,text width=6cm}
+        ]
+        % Top: standard form, then GCF
+        \node[process] (order) {
+          \makebox[\linewidth]{\textbf{Write in standard form}}\\[2pt]
+          Write the quadratic with the \(x^2\) term first, then the \(x\) term, and the constant last (standard form \(ax^2+bx+c\)).\\
+          \(\text{e.g. } -4x - 5 + x^2 = x^2 - 4x - 5\)
+        };
+        
+        \node[decision,below=0.6cm of order] (gcfq) {\textbf{Is there a GCF?}};
+        
+        \node[processNarrow,below left=0.6cm and 1.2cm of gcfq] (gcfy) {
+          \makebox[\linewidth]{\textbf{Factor out the GCF}}\\[2pt]
+          (number or variable) \\
+          \(\text{e.g. } x^2 + 4x = x(x+4)\)\\
+          \(\text{e.g. } 2x^2 + 4x - 6 = 2(x^2 + 2x - 3)\)
+        };
+        
+        % Terms decision
+        \node[decision,below=1.1cm of gcfq] (terms) {\textbf{How many terms?}};
+        
+        % Bottom: two boxes (binomial vs trinomial)
+        \node[processBottom,below left=1cm and -0.6cm of terms] (two) {%
+          \makebox[\linewidth]{\textbf{Two terms (binomial)}}\\[2pt]
+          Try \textbf{difference of squares} \\[2pt]
+          \(a^2 - b^2 = (a+b)(a-b)\) \\
+          \(\text{e.g. } x^2 - 9 = (x+3)(x-3)\)
+        };
+        
+        \node[processBottom,below right=1cm and -0.6cm of terms] (three) {%
+          \makebox[\linewidth]{\textbf{Three terms (trinomial)}}\\[2pt]
+          \(\bullet\) If \(a=1\): find two numbers that multiply to \(c\) and add to \(b\).\\
+          \(\quad\) \(\text{e.g. } x^2 + 5x + 6 = (x+2)(x+3)\)\\[3pt]
+          \(\bullet\) If \(a\ne 1\): use the \textbf{cross method} (or \(ac\)-method, or box method).\\
+          \(\quad\) \(\text{e.g. } 2x^2 + 7x + 3 = (2x+1)(x+3)\)\\[8pt]
+          \(\bullet\) (Optional) Perfect square trinomials.\\
+          \(a^2 + 2ab + b^2 = (a+b)^2\) \\
+          \(a^2 - 2ab + b^2 = (a-b)^2\) \\
+          \(\text{e.g. } x^2 + 6x + 9 = (x+3)^2\)\\
+          \(\text{e.g. } 4x^2 - 12x + 9 = (2x-3)^2\)
+        };
+        
+        % Arrows
+        \draw[line] (order) -- (gcfq);
+        \draw[line] (gcfq) -- node[midway,above left] {\textbf{Yes}} (gcfy);
+        \draw[line] (gcfy.south) |- (terms.west);
+        \draw[line] (gcfq) -- node[midway,right] {\textbf{No}} (terms);
+        \draw[line] (terms) -- node[midway,above] {\textbf{2}} (two.north);
+        \draw[line] (terms) -- node[midway,above] {\textbf{3}} (three.north);
+        \end{tikzpicture}
+      </latex-image>
+    </image>
+  </subsection>
+  
   
   
 </section>
