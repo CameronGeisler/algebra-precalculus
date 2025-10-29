@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-factoring-special-patterns" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Factoring Special Patterns</title>
+  
+  <!-- <introduction>
+  <p>
+  This is the introduction to the section.
+  </p>
+  </introduction> -->
+  
+  <subsection xml:id="difference-of-squares">
+    <title>Difference of Squares</title>
+    
+    <example>
+      <title>Motivation</title>
+      <p>
+        When multiplying two binomials that are almost the same, except for one having a positive sign and one having a negative, there is a special pattern. Observe the following expansions,
+      </p>
+      <md>
+        <mrow>(x-2)(x+2) \amp = x^2 + 2x - 2x - 4</mrow>
+        <mrow>\amp = x^2 - 4</mrow>
+      </md>
+      <p>
+        Notice that the middle terms <m>2x</m> and <m>-2x</m> cancel out.
+      </p>
+      <md>
+        <mrow>(x-6)(x+6) \amp = x^2 + 6x - 6x - 36</mrow>
+        <mrow>\amp = x^2 - 36</mrow>
+        <mrow>(x+10)(x-10) \amp = x^2 + 10x - 10x - 100</mrow>
+        <mrow>\amp = x^2 - 100</mrow>
+      </md>
+      <p>
+        In general, when expanding an expression of the form <m>(x-a)(x+a)</m> (where the two numbers are opposites of each other), the middle two terms always cancel out, because they are opposites of each other. The result is <m>x</m> squared, minus the number <m>a</m> squared.
+      </p>
+    </example>
+    
+    <p>
+      In general,
+    </p>
+    <md>
+      <mrow>(a+b)(a-b) = a^2 - b^2</mrow>
+    </md>
+    <p>
+      This identity for expanding can be thought of in reverse, as a identity for factoring,
+    </p>
+    <md>
+      <mrow>\boxed{a^2 - b^2 = (a-b)(a+b)}</mrow>
+    </md>
+    <p>
+      In other words, for an expression of the form <m>a^2 - b^2</m> (where there are two things being squared, and they're subtracted), it can be factored as <m>(a-b)(a+b)</m>. It's called <em>difference of squares</em>, <q>difference</q> because of the minus sign, and <q>squares</q> because both terms are perfect squares.
+    </p>
+    
+    <project>
+      <title>Difference of Squares Practice</title>
+      <introduction>
+        <p>Factor each expression.</p>
+      </introduction>
+      <task>
+        <statement><m>x^2 - 4</m></statement>
+        <answer><m>(x - 2)(x + 2)</m></answer>
+      </task>
+      <task>
+        <statement><m>x^2 - 9</m></statement>
+        <answer><m>(x - 3)(x + 3)</m></answer>
+      </task>
+      <task>
+        <statement><m>x^2 - 16</m></statement>
+        <answer><m>(x - 4)(x + 4)</m></answer>
+      </task>
+      <task>
+        <statement><m>x^2 - 1</m></statement>
+        <answer><m>(x - 1)(x + 1)</m></answer>
+      </task>
+      <task>
+        <statement><m>2x^2 - 18</m></statement>
+        <answer><m>2(x - 3)(x + 3)</m></answer>
+      </task>
+      <task>
+        <statement><m>x^2 - 25</m></statement>
+        <answer><m>(x - 5)(x + 5)</m></answer>
+      </task>
+      <task>
+        <statement><m>x^2 - 49</m></statement>
+        <answer><m>(x - 7)(x + 7)</m></answer>
+      </task>
+      <task>
+        <statement><m>3x^2 - 12</m></statement>
+        <answer><m>3(x - 2)(x + 2)</m></answer>
+      </task>
+      <task>
+        <statement><m>x^2 - 81</m></statement>
+        <answer><m>(x - 9)(x + 9)</m></answer>
+      </task>
+      <task>
+        <statement><m>4x^2 - 25</m></statement>
+        <answer><m>(2x - 5)(2x + 5)</m></answer>
+      </task>
+      <task>
+        <statement><m>49 - x^2</m></statement>
+        <answer><m>(7 - x)(7 + x)</m></answer>
+      </task>
+      <task>
+        <statement><m>x^2 - 100</m></statement>
+        <answer><m>(x - 10)(x + 10)</m></answer>
+      </task>
+      <task>
+        <statement><m>x^2 - 36</m></statement>
+        <answer><m>(x - 6)(x + 6)</m></answer>
+      </task>
+      <task>
+        <statement><m>9x^2 - 16</m></statement>
+        <answer><m>(3x - 4)(3x + 4)</m></answer>
+      </task>
+      <task>
+        <statement><m>28 - 7x^2</m></statement>
+        <answer><m>7(2 - x)(2 + x)</m></answer>
+      </task>
+      <task>
+        <statement><m>49x^2 - 9</m></statement>
+        <answer><m>(7x - 3)(7x + 3)</m></answer>
+      </task>
+    </project>
+    
+    <p>
+      In general, difference of squares applies when:
+    </p>
+    <ol>
+      <li>
+        <p>
+          There are <em>two</em> terms.
+        </p>
+      </li>
+      <li>
+        <p>
+          There is a minus sign between them.
+        </p>
+      </li>
+      <li>
+        <p>
+          Each term is a perfect square.
+        </p>
+      </li>
+    </ol>
+    
+    <p>
+      If an expression has only 2 terms, then this is a good indicator that it could be factored using difference of squares.
+    </p>
+    
+    <project>
+      <title>More Examples</title>
+      <introduction>
+        <p>Factor each expression fully.</p>
+      </introduction>
+      <task>
+        <statement><m>(x+2)^2 - 9</m></statement>
+        <answer><m>(x - 1)(x + 5)</m></answer>
+      </task>
+      <task>
+        <statement><m>(x+3)^2 - 4</m></statement>
+        <answer><m>(x + 1)(x + 5)</m></answer>
+      </task>
+      <task>
+        <statement><m>25 - (x-2)^2</m></statement>
+        <answer><m>(7 - x)(x + 3)</m></answer>
+      </task>
+      <task>
+        <statement><m>(x-2)^2 - 25</m></statement>
+        <answer><m>(x - 7)(x + 3)</m></answer>
+      </task>
+      <task>
+        <statement><m>16 - (x+1)^2</m></statement>
+        <answer><m>(3 - x)(x + 5)</m></answer>
+      </task>
+      <task>
+        <statement><m>(x+5)^2 - 4x^2</m></statement>
+        <answer><m>(5 - x)(3x + 5)</m></answer>
+      </task>
+      <task>
+        <statement><m>36 - (x-3)^2</m></statement>
+        <answer><m>(9 - x)(x + 3)</m></answer>
+      </task>
+      <task>
+        <statement><m>(x+1)^2 - 9</m></statement>
+        <answer><m>(x - 2)(x + 4)</m></answer>
+      </task>
+      <task>
+        <statement><m>9x^2 - (x+2)^2</m></statement>
+        <answer><m>4(x - 1)(2x + 1)</m></answer>
+      </task>
+      <task>
+        <statement><m>(x+4)^2 - 1</m></statement>
+        <answer><m>(x + 3)(x + 5)</m></answer>
+      </task>
+      <task>
+        <statement><m>(x-4)^2 - 25</m></statement>
+        <answer><m>(x - 9)(x + 1)</m></answer>
+      </task>
+      <task>
+        <statement><m>(x+2)^2 - 36</m></statement>
+        <answer><m>(x - 4)(x + 8)</m></answer>
+      </task>
+      <task>
+        <statement><m>1 - (x - 4)^2</m></statement>
+        <answer><m>(5 - x)(x - 3)</m></answer>
+      </task>
+      <task>
+        <statement><m>(4x - 5)^2 - (x - 1)^2</m></statement>
+        <answer><m>(3x - 4)(5x - 6)</m></answer>
+      </task>
+      <task>
+        <statement><m>81 - 16(x+1)^2</m></statement>
+        <answer><m>(5 - 4x)(4x + 13)</m></answer>
+      </task>
+      <task>
+        <statement><m>(x + 3)^2 - (x + 1)^2</m></statement>
+        <answer><m>4(x + 2)</m></answer>
+      </task>
+      <task>
+        <statement><m>4(x+1)^2 - (2 - x)^2</m></statement>
+        <answer><m>3x(x + 4)</m></answer>
+      </task>
+      <task>
+        <statement><m>4(x+1)^2 - 9(x - 1)^2</m></statement>
+        <answer><m>(5 - x)(5x - 1)</m></answer>
+      </task>
+    </project>
+    
+    <project>
+      <title>Advanced Examples</title>
+      <introduction>
+        <p>Factor each expression fully.</p>
+      </introduction>
+      <task>
+        <statement><m>x^4 - 16</m></statement>
+        <answer><m>(x^2+4)(x+2)(x-2)</m></answer>
+      </task>
+      <task>
+        <statement><m>x^8 - 1</m></statement>
+        <answer><m>(x^4+1)(x^2+1)(x+1)(x-1)</m></answer>
+      </task>
+      <task>
+        <statement><m>(x-13)^2 - 49y^2</m></statement>
+        <answer><m>(x-13-7y)(x-13+7y)</m></answer>
+      </task>
+      <task>
+        <statement><m>4x^2 - 12x + 9 - 36y^2</m></statement>
+        <answer><m>(2x-3-6y)(2x-3+6y)</m></answer>
+      </task>
+      <task>
+        <statement><m>1 - 16x^4</m></statement>
+        <answer><m>(1 - 2x)(1 + 2x)(1 + 4x^2)</m></answer>
+      </task>
+    </project>
+  </subsection>
+  
+</section>

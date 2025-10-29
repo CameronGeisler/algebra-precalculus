@@ -1063,11 +1063,56 @@ var ptx_lunr_docs = [
   "body": " Practice Factoring General Quadratics 2   Factor each expression fully.                                                                                                                                                                        prime\/irreducible                                            "
 },
 {
+  "id": "sec-factoring-special-patterns",
+  "level": "1",
+  "url": "sec-factoring-special-patterns.html",
+  "type": "Section",
+  "number": "2.3",
+  "title": "Factoring Special Patterns",
+  "body": " Factoring Special Patterns    Difference of Squares   Motivation  When multiplying two binomials that are almost the same, except for one having a positive sign and one having a negative, there is a special pattern. Observe the following expansions,   Notice that the middle terms and cancel out.   In general, when expanding an expression of the form (where the two numbers are opposites of each other), the middle two terms always cancel out, because they are opposites of each other. The result is squared, minus the number squared.   In general,   This identity for expanding can be thought of in reverse, as a identity for factoring,   In other words, for an expression of the form (where there are two things being squared, and they're subtracted), it can be factored as . It's called difference of squares , difference because of the minus sign, and squares because both terms are perfect squares.   Difference of Squares Practice   Factor each expression.                                                                    In general, difference of squares applies when:    There are two terms.    There is a minus sign between them.    Each term is a perfect square.    If an expression has only 2 terms, then this is a good indicator that it could be factored using difference of squares.   More Examples   Factor each expression fully.                                                                             Advanced Examples   Factor each expression fully.                         "
+},
+{
+  "id": "difference-of-squares-2",
+  "level": "2",
+  "url": "sec-factoring-special-patterns.html#difference-of-squares-2",
+  "type": "Example",
+  "number": "2.3.1",
+  "title": "Motivation.",
+  "body": " Motivation  When multiplying two binomials that are almost the same, except for one having a positive sign and one having a negative, there is a special pattern. Observe the following expansions,   Notice that the middle terms and cancel out.   In general, when expanding an expression of the form (where the two numbers are opposites of each other), the middle two terms always cancel out, because they are opposites of each other. The result is squared, minus the number squared.  "
+},
+{
+  "id": "difference-of-squares-8",
+  "level": "2",
+  "url": "sec-factoring-special-patterns.html#difference-of-squares-8",
+  "type": "Exercise Group",
+  "number": "2.3.1",
+  "title": "Difference of Squares Practice.",
+  "body": " Difference of Squares Practice   Factor each expression.                                                                   "
+},
+{
+  "id": "difference-of-squares-12",
+  "level": "2",
+  "url": "sec-factoring-special-patterns.html#difference-of-squares-12",
+  "type": "Exercise Group",
+  "number": "2.3.2",
+  "title": "More Examples.",
+  "body": " More Examples   Factor each expression fully.                                                                           "
+},
+{
+  "id": "difference-of-squares-13",
+  "level": "2",
+  "url": "sec-factoring-special-patterns.html#difference-of-squares-13",
+  "type": "Exercise Group",
+  "number": "2.3.3",
+  "title": "Advanced Examples.",
+  "body": " Advanced Examples   Factor each expression fully.                       "
+},
+{
   "id": "sec-solving-quadratic-equations-by-factoring",
   "level": "1",
   "url": "sec-solving-quadratic-equations-by-factoring.html",
   "type": "Section",
-  "number": "2.3",
+  "number": "2.4",
   "title": "Solving Quadratic Equations by Factoring",
   "body": " Solving Quadratic Equations by Factoring   Previously, we learned:   If a quadratic equation is factored, then it is easy to solve.  How to factor quadratics in the form .   Combining these give us a powerful strategy for solving quadratic equations. First however, we need to make sure the equation is in the correct form,   This is called standard form , as it is the conventional, agreed-upon way to write a quadratic equation. This is because this form makes solving the equation consistent each time. To do this, move all terms to one side of the equation, and arrange the terms with the first, the term next, and the constant last.    Summary   (If necessary) Write in standard form, by moving all terms to one side so that the equation equals zero. E.g.   (If necessary) Look for common factors, if all terms share a common factor, divide it out first.  Factor the trinomial.  Find the value of that makes each factor 0.   Some notes:   If is a factor of the polynomial, then is a solution to the equation.  Always look for common factors, because it makes the problem more simple.    Solving Quadratics by Factoring   Solve each equation.    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .      Equations Requiring the Cross Method   Solving Quadratics with Leading Coefficient   Solve each equation.    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .     Advanced Quadratic Equations    Advanced examples . Solve each equation.    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .     "
 },
@@ -1085,7 +1130,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-quadratic-equations-by-factoring.html#summary-strategy-5",
   "type": "Exercise Group",
-  "number": "2.3.1",
+  "number": "2.4.1",
   "title": "Solving Quadratics by Factoring.",
   "body": " Solving Quadratics by Factoring   Solve each equation.    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .   "
 },
@@ -1094,7 +1139,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-quadratic-equations-by-factoring.html#equations-cross-method-2",
   "type": "Exercise Group",
-  "number": "2.3.2",
+  "number": "2.4.2",
   "title": "Solving Quadratics with Leading Coefficient.",
   "body": " Solving Quadratics with Leading Coefficient   Solve each equation.    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .   "
 },
@@ -1103,7 +1148,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-quadratic-equations-by-factoring.html#equations-cross-method-3",
   "type": "Exercise Group",
-  "number": "2.3.3",
+  "number": "2.4.3",
   "title": "Advanced Quadratic Equations.",
   "body": " Advanced Quadratic Equations    Advanced examples . Solve each equation.    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .   "
 },
@@ -1112,7 +1157,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-factoring-quadratics-summary.html",
   "type": "Section",
-  "number": "2.4",
+  "number": "2.5",
   "title": "Factoring Quadratics Summary",
   "body": " Factoring Quadratics Summary     Write the quadratic in descending power order (standard form), .     e.g.        If there is a GCF (greatest common factor), factor it out (either a number or variable like ).     e.g.     e.g.        Determine which factoring method applies, based on the form:    If , find two numbers that multiply to and add to .     e.g.        If , use the cross method (or -method, or box method).     e.g.        If there are only 2 terms, try difference of squares.     (Optional) use perfect square factoring patterns:        "
 },
@@ -1121,7 +1166,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-advanced-polynomial-factoring.html",
   "type": "Section",
-  "number": "2.5",
+  "number": "2.6",
   "title": "Advanced Polynomial Factoring",
   "body": " Advanced Polynomial Factoring    Factoring Polynomials Flowchart Summary      "
 },
@@ -1130,7 +1175,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "quadratic-inequalities-in-one-variable.html",
   "type": "Section",
-  "number": "2.6",
+  "number": "2.7",
   "title": "Quadratic Inequalities in One Variable",
   "body": " Quadratic Inequalities in One Variable   In addition to quadratic equations, we can also consider quadratic inequalities, which are related.   Motivation: graphical method  Consider the inequality,   The goal is to find all of the values of such that . In simple terms, this means all numbers , where if you substitute it into , the result is positive. This is most intuitive by visualizing the graph of the quadratic function ,     Then, determining where is equivalent to determining the where the -coordinate of the parabola is positive. Observe that the -intercepts of the graph are . So, the graph is positive when or when . Therefore, the solution is or .       Motivation: sign analysis with roots  Consider the inequality . Like before, first, find the roots of the parabola, by making it an equals sign, and factoring,   So, the roots are and . Since has a positive leading coefficient (+1), the parabola opens up. This means that the quadratic roughly looks like this,     From this, the parabola is negative when is between and , or .   To solve the inequality, we don't need to graph the entire parabola precisely. Instead, we only need to find the roots, and know the basic shape (opening up or down).  A quadratic expression can only change sign at its roots. This means, if a quadratic has two roots, then:    If the quadratic is positive in one interval, it will switch to negative when crossing a root.    After crossing the second root, it switches back to positive.    If the quadratic opens down, then the pattern is reversed: it first is negative, then positive, then negative. The pattern of signs follows,     Solving Quadratic Inequalities with Scientific Calculator (INEQ Mode)  My recommended calculator Casio fx-991ES PLUS C 2nd edition (or another similar model) can actually solve quadratic inequalities for you. You can use this to check your answers after solving by hand.    Press MODE and use the down arrow key to go to the next page.    Press 1 for inequality mode ( INEQ )    Press 1 for a quadratic inequality ( ).    Next, the calculator will show options for the type of inequality:    Press 1 for (greater than)    Press 2 for (less than)    Press 3 for (greater than or equal to)    Press 4 for (less than or equal to)      Enter the coefficients , , and for your inequality.    Press = to solve.    The calculator will show the interval(s) of that satisfy the inequality.     Example  For example, to solve :    Press MODE , scroll down, and select INEQ .    Choose 1 for quadratic.    Choose 1 for .    Input , , .    Press = to solve. The calculator will show the solution as:     Make sure your inequality is written in the correct form (everything on one side of the inequality, on the other).     Solving Quadratic Inequalities Summary   A quadratic inequality is an inequality that can be written in one of the forms,      (If necessary) Arrange the quadratic inequality in standard form, with on one side, and 0 on the other.    Find the critical values (the roots of the quadratic expression), by solving the corresponding quadratic equation .    Sketch a number line, and mark the critical values to split it into 3 intervals.    Find where the quadratic is positive or negative    If it opens up ( ), the sign pattern is .    If it opens down ( ), the sign pattern is .      Choose the intervals that match the inequality symbol (greater than or less than).    Include the endpoints if the inequality is or (non-strict inequality). Otherwise, don't include the endpoints if it's or .     "
 },
@@ -1139,7 +1184,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "quadratic-inequalities-in-one-variable.html#quadratic-inequalities-in-one-variable-2-2",
   "type": "Example",
-  "number": "2.6.1",
+  "number": "2.7.1",
   "title": "Motivation: graphical method.",
   "body": " Motivation: graphical method  Consider the inequality,   The goal is to find all of the values of such that . In simple terms, this means all numbers , where if you substitute it into , the result is positive. This is most intuitive by visualizing the graph of the quadratic function ,     Then, determining where is equivalent to determining the where the -coordinate of the parabola is positive. Observe that the -intercepts of the graph are . So, the graph is positive when or when . Therefore, the solution is or .     "
 },
@@ -1148,7 +1193,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "quadratic-inequalities-in-one-variable.html#quadratic-inequalities-in-one-variable-2-3",
   "type": "Example",
-  "number": "2.6.2",
+  "number": "2.7.2",
   "title": "Motivation: sign analysis with roots.",
   "body": " Motivation: sign analysis with roots  Consider the inequality . Like before, first, find the roots of the parabola, by making it an equals sign, and factoring,   So, the roots are and . Since has a positive leading coefficient (+1), the parabola opens up. This means that the quadratic roughly looks like this,     From this, the parabola is negative when is between and , or .  "
 },
@@ -1157,7 +1202,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "quadratic-inequalities-in-one-variable.html#quad-ineq-calculator-4",
   "type": "Example",
-  "number": "2.6.3",
+  "number": "2.7.3",
   "title": "Example.",
   "body": " Example  For example, to solve :    Press MODE , scroll down, and select INEQ .    Choose 1 for quadratic.    Choose 1 for .    Input , , .    Press = to solve. The calculator will show the solution as:     Make sure your inequality is written in the correct form (everything on one side of the inequality, on the other).  "
 },
@@ -1166,7 +1211,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "quadratic-inequalities-in-one-variable.html#quad-ineq-summary-2",
   "type": "Definition",
-  "number": "2.6.4",
+  "number": "2.7.4",
   "title": "",
   "body": " A quadratic inequality is an inequality that can be written in one of the forms,   "
 },
