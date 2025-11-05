@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-intro-to-trigonometric-identities" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Intro to Trigonometric Identities</title>
+  
+  <introduction>
+    <p>In algebra, there are various equations which are always true, called identities.</p>
+    
+    <example>
+      <p>For example,</p>
+      <md>
+        <mrow>(x + y)^2 = x^2 + 2xy + y^2</mrow>
+      </md>
+      <p>These two sides are exactly the same, for any value of <m>x</m> and <m>y</m>. This is called an identity.</p>
+    </example>
+    
+    <p>In a similar way, we can consider a <term>trigonometric identity</term>, a trigonometric equation that is true for all values of the variable.</p>
+    <p>We already know some basic identities, which could almost be called definitions.</p>
+    <md>
+      <mrow>\amp \boxed{\begin{gathered}\textbf{Reciprocal identities}\\[2pt]\csc\theta=\dfrac{1}{\sin\theta}\qquad\sec\theta=\dfrac{1}{\cos\theta}\qquad\cot\theta=\dfrac{1}{\tan\theta}\end{gathered}}\\[8pt]</mrow>
+      <mrow>\amp \boxed{\begin{gathered}\textbf{Quotient identities}\\[2pt]\tan\theta=\dfrac{\sin\theta}{\cos\theta}\qquad\cot\theta=\dfrac{\cos\theta}{\sin\theta}\end{gathered}}</mrow>
+    </md>
+  </introduction>
+  
+  <subsection xml:id="pythagorean-identities">
+    <title>Pythagorean Identities</title>
+    
+    <p>There is also the Pythagorean identity, which comes from the unit circle,</p>
+    
+    <md>
+      <mrow>\boxed{\sin^2{x} + \cos^2{x} = 1} \qquad \text{for all $x$}</mrow>
+    </md>
+    
+    <p>Equivalently,</p>
+    <md>
+      <mrow>\sin^2{x} \amp = 1 - \cos^2{x} \\</mrow>
+      <mrow>\cos^2{x} \amp = 1 - \sin^2{x}</mrow>
+    </md>
+    
+    <p>This identity can be used to derive further identities,</p>
+    <md>
+      <mrow>\boxed{1 + \tan^2{x} = \sec^2{x}} \qquad \text{and} \qquad \boxed{1 + \cot^2{x} = \csc^2{x}}</mrow>
+    </md>
+    
+    <p>At first, you should solve problems with these identities as a reference. With practice, you will naturally remember them.</p>
+  </subsection>
+  
+  <subsection xml:id="simplifying-expressions">
+    <title>Simplifying Trigonometric Expressions</title>
+    
+    <project xml:id="project-simplifying-expressions">
+      <title>Simplifying Expressions</title>
+      <introduction>
+        <p>Simplify each trigonometric expression.</p>
+      </introduction>
+      
+      <task>
+        <statement><m>\sec{x} \sin{x}</m></statement>
+        <hint><p>quotient identity, cancel.</p></hint>
+        <answer><m>\tan{x}</m></answer>
+      </task>
+      <task>
+        <statement><m>(1 - \tan{x})(1 + \cot{x})</m></statement>
+        <hint><p>expand.</p></hint>
+        <answer><m>\cot{x} - \tan{x}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{\sec{x}}{\tan{x}}</m></statement>
+        <hint><p>quotient, cancel.</p></hint>
+        <answer><m>\csc{x}</m></answer>
+      </task>
+      <task>
+        <statement><m>(\tan{x} + \sec{x})(\tan{x} - \sec{x})</m></statement>
+        <hint><p>expand, Pythagorean identity.</p></hint>
+        <answer><m>-1</m></answer>
+      </task>
+      <task>
+        <statement><m>\cos^4{x} - \sin^4{x}</m></statement>
+        <hint><p>difference of squares, Pythagorean identity.</p></hint>
+        <answer><m>\cos^2{x} - \sin^2{x}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{\cot^2{x}}{1 - \sin^2{x}}</m></statement>
+        <hint><p>quotient identity, Pythagorean identity.</p></hint>
+        <answer><m>\csc^2{x}</m></answer>
+      </task>
+      <task>
+        <statement><m>\sin{x} \cos{x} (\csc{x} + \sec{x})</m></statement>
+        <hint><p>distribute, quotient identity, cancel.</p></hint>
+        <answer><m>\cos{x} + \sin{x}</m></answer>
+      </task>
+      <task>
+        <statement><m>(\tan{x} + \cot{x})^2 - (\tan{x} - \cot{x})^2</m></statement>
+        <hint><p>ideally factor as a difference of squares, if not then expand and collect like terms.</p></hint>
+        <answer><m>4</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{1}{\cos{x} + 1} - \dfrac{1}{\cos{x} - 1}</m></statement>
+        <hint><p>combine fractions, collect like terms, Pythagorean identity.</p></hint>
+        <answer><m>2\csc^2{x}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{\csc{x} - \sin{x}}{\cot{x}}</m></statement>
+        <hint><p>reciprocal identity, combine to one fraction, Pythagorean identity, cancel.</p></hint>
+        <answer><m>\cos{x}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{\tan{x} - \tan{x}\sin^2{x}}{\cos^2{x}}</m></statement>
+        <hint><p>factor out <m>\tan{x}</m>, Pythagorean identity, cancel.</p></hint>
+        <answer><m>\tan{x}</m></answer>
+      </task>
+    </project>
+    
+    <project xml:id="project-advanced-simplifying">
+      <title>Advanced Examples</title>
+      <introduction>
+        <p>Simplify each trigonometric expression.</p>
+      </introduction>
+      
+      <task>
+        <statement><m>\dfrac{\sin^2{x} + \sin{x} - 6}{5\sin{x} + 15}</m></statement>
+        <hint><p>let <m>u=\sin{x}</m>, factor numerator and denominator, cancel.</p></hint>
+        <answer><m>\dfrac{\sin{x} - 2}{5}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{\cos^2{x} - 4}{7\cos{x} - 14}</m></statement>
+        <hint><p>difference of squares, factor the denominator, cancel.</p></hint>
+        <answer><m>\dfrac{\cos{x} + 2}{7}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{\sin^2{x}\tan{x} - \tan{x}}{\sin{x}\tan{x} + \tan{x}}</m></statement>
+        <hint><p>factor out a common factor, difference of squares, cancel.</p></hint>
+        <answer><m>\sin{x} - 1</m></answer>
+      </task>
+    </project>
+    
+    <project xml:id="project-single-ratio">
+      <title>Write as a Single Trigonometric Ratio</title>
+      <introduction>
+        <p>Write each as a single trigonometric ratio.</p>
+      </introduction>
+      
+      <task>
+        <statement><m>\dfrac{\sin^2{x}}{\cos^2{x}} + 1</m></statement>
+        <answer><m>\sec^2{x}</m></answer>
+      </task>
+      <task>
+        <statement><m>\sin{x} + \cot{x} \cos{x}</m></statement>
+        <answer><m>\csc{x}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{\cos{x}}{1-\sin^2{x}}</m></statement>
+        <answer><m>\sec{x}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{\tan^2{x} + 1}{\sec{x}}</m></statement>
+        <answer><m>\sec{x}</m></answer>
+      </task>
+    </project>
+    
+    <project xml:id="project-factoring">
+      <title>Factor Each Trigonometric Expression</title>
+      <introduction>
+        <p>Factor each trigonometric expression, and simplify if possible.</p>
+      </introduction>
+      
+      <task>
+        <statement><m>\sin^2{x} - \cos^2{x}</m></statement>
+        <hint><p>difference of squares.</p></hint>
+        <answer><m>(\sin{x} - \cos{x})(\sin{x} + \cos{x})</m></answer>
+      </task>
+      <task>
+        <statement><m>\cos^3{x} - \sin^3{x}</m></statement>
+        <hint><p>difference of cubes, Pythagorean identity.</p></hint>
+        <answer><m>(\cos{x} - \sin{x})(1 + \cos{x}\sin{x})</m></answer>
+      </task>
+    </project>
+  </subsection>
+  
+  <subsection xml:id="solving-equations">
+    <title>Solving Equations Using Identities</title>
+    
+    <p>As you learn more fundamental trigonometric identities, you will be able to solve more trigonometric equations algebraically.</p>
+    
+    <project xml:id="project-solving-equations">
+      <title>Solve Each Equation</title>
+      <introduction>
+        <p>Solve each equation, by finding all solutions in the interval <m>[0,2\pi)</m> and the general solution.</p>
+      </introduction>
+      
+      <task>
+        <statement><m>2\cos^2{x} - 3 \sin{x} = 0</m></statement>
+        <hint><p>Pythagorean identity, leads to <m>2\sin^2{x} + 3\sin{x} - 2 = 0</m>, factor, leads to <m>\sin{x} = \frac{1}{2}</m> or <m>\sin{x} = -2</m>.</p></hint>
+        <answer><p><m>x = \frac{\pi}{6}, \frac{5\pi}{6}</m>. General solution: <m>x = \frac{\pi}{6} + 2\pi n, x = \frac{5\pi}{6} + 2\pi n, n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>\tan^2{x} - 4\sec{x} + 5 = 0</m></statement>
+        <hint><p>Pythagorean identity, leads to <m>\sec^2{x} - 4\sec{x} + 4 = 0</m>, factor, leads to <m>\sec{x} = 2</m>.</p></hint>
+        <answer><p><m>x = \frac{\pi}{3}, \frac{5\pi}{3}</m>. General solution: <m>x = \frac{\pi}{3} + 2\pi n, x = \frac{5\pi}{3} + 2\pi n, n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>\cos{x} - 2\sin^2{x} + 1 = 0</m></statement>
+        <hint><p>Pythagorean identity, leads to <m>2\cos^2{x} + \cos{x} - 1 = 0</m>, factor, leads to <m>\cos{x} = \frac{1}{2}</m> or <m>\cos{x} = -1</m>.</p></hint>
+        <answer><p><m>x = \frac{\pi}{3}, \pi, \frac{5\pi}{3}</m>. General solution: <m>x = \frac{\pi}{3} + 2\pi n, x = \frac{5\pi}{3} + 2\pi n, x = \pi + 2\pi n, n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>2\cos^2{x} + \tan^2{x} = 2</m></statement>
+        <hint><p>Pythagorean identity, leads to <m>2\cos^4{x} - 3\cos^2{x} + 1 = 0</m>, factor, leads to <m>\cos^2{x} = 1</m> or <m>\cos^2{x} = \frac{1}{2}</m>.</p></hint>
+        <answer><p><m>x = 0, \frac{\pi}{4}, \frac{3\pi}{4}, \pi, \frac{5\pi}{4}, \frac{7\pi}{4}</m>. General solution: <m>x = n\pi, x = \frac{\pi}{4} + \frac{\pi}{2}n, n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>\sin^2{x} + \cot^2{x} - 1 = 0</m></statement>
+        <hint><p>quotient and Pythagorean identity, leads to <m>\sin^4{x} - 2\sin^2{x} + 1 = 0</m>, factor, leads to <m>\sin{x} = 1</m> or <m>\sin{x} = -1</m>.</p></hint>
+        <answer><p><m>x = \frac{\pi}{2}, \frac{3\pi}{2}</m>. General solution: <m>x = \frac{\pi}{2} + \pi n, n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>\csc^2{x} - \cot{x} - 1 = 0</m></statement>
+        <hint><p>Pythagorean identity, leads to <m>\cot^2{x} - \cot{x} = 0</m>, factor, leads to <m>\cot{x} = 0</m> or <m>\cot{x} = 1</m>.</p></hint>
+        <answer><p><m>x = \frac{\pi}{2}, \frac{3\pi}{2}, \frac{\pi}{4}, \frac{5\pi}{4}</m>. General solution: <m>x = \frac{\pi}{2} + \pi n, x = \frac{\pi}{4} + \pi n, n \in \mathbb{I}</m>.</p></answer>
+      </task>
+    </project>
+  </subsection>
+  
+</section>

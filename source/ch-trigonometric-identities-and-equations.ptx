@@ -8,7 +8,10 @@
   </introduction> -->
 
   <!-- include sections -->
+  <xi:include href="./sec-intro-to-trigonometric-identities.ptx" />
   <xi:include href="sec-intro-to-proving-trigonometric-identities.ptx" />
+
+  
   <xi:include href="sec-trigonometric-identities-summary.ptx" />
 
 </chapter>
