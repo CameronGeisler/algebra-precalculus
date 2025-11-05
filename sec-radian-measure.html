@@ -336,12 +336,10 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-section contains-active">
 <div class="toc-title-box"><a href="sec-radian-measure.html" class="internal"><span class="codenumber">9.1</span> <span class="title">Radian Measure</span></a></div>
 <ul class="structural toc-item-list active">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-radian-measure.html#alternate-angular-units" class="internal"><span class="codenumber">9.1.1</span> <span class="title">Alternate Angular Units</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-radian-measure.html#motivation-for-radians" class="internal"><span class="codenumber">9.1.2</span> <span class="title">Motivation for Radians</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-radian-measure.html#radians" class="internal"><span class="codenumber">9.1.3</span> <span class="title">Radians</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-radian-measure.html#converting-between-degrees-and-radians" class="internal"><span class="codenumber">9.1.4</span> <span class="title">Converting Between Degrees and Radians</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-radian-measure.html#sketching-radian-angles-in-standard-position" class="internal"><span class="codenumber">9.1.5</span> <span class="title">Sketching Radian Angles in Standard Position</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-radian-measure.html#special-angles-in-radians" class="internal"><span class="codenumber">9.1.6</span> <span class="title">Special Angles in Radians</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-radian-measure.html#subsec-converting-between-degrees-and-radians" class="internal"><span class="codenumber">9.1.1</span> <span class="title">Converting Between Degrees and Radians</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-radian-measure.html#sketching-radians" class="internal"><span class="codenumber">9.1.2</span> <span class="title">Sketching Angles in Radians</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-radian-measure.html#motivating-radians" class="internal"><span class="codenumber">9.1.3</span> <span class="title">Motivating Radians</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-radian-measure.html#radians-definition" class="internal"><span class="codenumber">9.1.4</span> <span class="title">Radians</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
@@ -396,253 +394,297 @@ eBookConfig.enable_chatcodes =  false;
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-radian-measure"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">9.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Radian Measure</span>
 </h2>
-<section class="introduction" id="sec-radian-measure-2"><div class="para" id="sec-radian-measure-2-1">There is another unit for measuring angles, called a <em class="emphasis">radian</em>, which turns out to be more useful than degrees to use in calculus. First, it is helpful to step back and understand the idea of how angles can be measured.<div class="autopermalink" data-description="Paragraph"><a href="#sec-radian-measure-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div></section><section class="subsection" id="alternate-angular-units"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">9.1.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Alternate Angular Units</span>
+<section class="introduction" id="sec-radian-measure-2"><div class="para" id="sec-radian-measure-2-1">There is another unit for measuring angles, called <em class="emphasis">radian</em>, which turns out to be more useful than degrees, particularly in calculus.<div class="autopermalink" data-description="Paragraph"><a href="#sec-radian-measure-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="definition definition-like" id="sec-radian-measure-2-2"><h3 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">9.1.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h3>
-<div class="para" id="alternate-angular-units-2">Degrees are a unit such that 360 degrees make a full rotation. This makes sense for practical applications, and historically, for navigation, architecture, and astronomy. This is because you can divide 360 evenly into many numbers. However, if we were starting from scratch, we could also consider alternate useful units of measuring angles. For example:<div class="autopermalink" data-description="Paragraph"><a href="#alternate-angular-units-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec-radian-measure-2-2-1-1">
+<dfn class="terminology">Radians</dfn> are a unit of angles such that,<div class="autopermalink" data-description="Paragraph"><a href="#sec-radian-measure-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para logical" id="alternate-angular-units-3">
-<ul class="disc" id="alternate-angular-units-3-1">
-<li id="alternate-angular-units-3-1-1">
-<div class="para" id="p-derived-alternate-angular-units-3-1-1">The <em class="emphasis">gradian</em>, where a quarter rotation is defined to be 100 gradians. Then, a full rotation would be 400 gradians.</div>
-<div class="autopermalink" data-description="Item"><a href="#alternate-angular-units-3-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-<li id="alternate-angular-units-3-1-2">
-<div class="para" id="p-derived-alternate-angular-units-3-1-2">Or, 1 <em class="emphasis">turn</em> could be defined as a full rotation. Then, a half rotation is <span class="process-math">\(1/2\)</span> turns, or a quarter rotation is <span class="process-math">\(1/4\)</span> turns.</div>
-<div class="autopermalink" data-description="Item"><a href="#alternate-angular-units-3-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-<li id="alternate-angular-units-3-1-3">
-<div class="para" id="p-derived-alternate-angular-units-3-1-3">For units inspired by the fact that there are 8 slices in a pizza, a unit could be called a <em class="emphasis">slice</em>, defined to be <span class="process-math">\(1/8\)</span>th of a full rotation. Then, 8 slices would be a full rotation.</div>
-<div class="autopermalink" data-description="Item"><a href="#alternate-angular-units-3-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-<li id="alternate-angular-units-3-1-4">
-<div class="para" id="p-derived-alternate-angular-units-3-1-4">We could define 1 unit to be a quarter rotation. Then, 4 units is a full rotation.</div>
-<div class="autopermalink" data-description="Item"><a href="#alternate-angular-units-3-1-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-</ul>
-<div class="autopermalink" data-description="Paragraph"><a href="#alternate-angular-units-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para" id="alternate-angular-units-4">Notice that ultimately, units are a convention, and what units are useful or most natural depends on the context.<div class="autopermalink" data-description="Paragraph"><a href="#alternate-angular-units-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Subsection 9.1.1: Alternate Angular Units"><a href="#alternate-angular-units" title="Copy heading and permalink for Subsection 9.1.1: Alternate Angular Units" aria-label="Copy heading and permalink for Subsection 9.1.1: Alternate Angular Units">🔗</a></div></section><section class="subsection" id="motivation-for-radians"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">9.1.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Motivation for Radians</span>
-</h3>
-<div class="para" id="motivation-for-radians-2">There is another unit of angle measure, called a <em class="emphasis">radian</em>. The idea is that we will measure angles based on how long the arc of the angle is.<div class="autopermalink" data-description="Paragraph"><a href="#motivation-for-radians-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<figure class="figure figure-like" id="motivation-for-radians-3"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/motivation-for-radians-3-1.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">9.1.1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><div class="autopermalink" data-description="Figure 9.1.1"><a href="#motivation-for-radians-3" title="Copy heading and permalink for Figure 9.1.1" aria-label="Copy heading and permalink for Figure 9.1.1">🔗</a></div></figcaption></figure><div class="para" id="motivation-for-radians-4">The longer the arc is, the bigger the angle that is swept out. The amount you rotate is proportional to how far you travel along the circle.<div class="autopermalink" data-description="Paragraph"><a href="#motivation-for-radians-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para logical" id="motivation-for-radians-5">
-<ul class="disc" id="motivation-for-radians-5-1">
-<li id="motivation-for-radians-5-1-1">
-<div class="para" id="p-derived-motivation-for-radians-5-1-1">Small rotation <span class="process-math">\(\rightarrow\)</span> small distance traveled</div>
-<div class="autopermalink" data-description="Item"><a href="#motivation-for-radians-5-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-<li id="motivation-for-radians-5-1-2">
-<div class="para" id="p-derived-motivation-for-radians-5-1-2">Big rotation <span class="process-math">\(\rightarrow\)</span> big distance traveled</div>
-<div class="autopermalink" data-description="Item"><a href="#motivation-for-radians-5-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-</ul>
-<div class="autopermalink" data-description="Paragraph"><a href="#motivation-for-radians-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<figure class="figure figure-like" id="motivation-for-radians-6"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/motivation-for-radians-6-1.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">9.1.2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><div class="autopermalink" data-description="Figure 9.1.2"><a href="#motivation-for-radians-6" title="Copy heading and permalink for Figure 9.1.2" aria-label="Copy heading and permalink for Figure 9.1.2">🔗</a></div></figcaption></figure><div class="para" id="motivation-for-radians-7">However, just measuring the arc doesn’t fully work, because the arc length depends on the size of the circle (basically, it depends on it’s radius).<div class="autopermalink" data-description="Paragraph"><a href="#motivation-for-radians-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para logical" id="motivation-for-radians-8">
-<ul class="disc" id="motivation-for-radians-8-1">
-<li id="motivation-for-radians-8-1-1">
-<div class="para" id="p-derived-motivation-for-radians-8-1-1">If you have a small circle, you won’t have to walk very far to make a full loop.</div>
-<div class="autopermalink" data-description="Item"><a href="#motivation-for-radians-8-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-<li id="motivation-for-radians-8-1-2">
-<div class="para" id="p-derived-motivation-for-radians-8-1-2">If you have a big circle, the same angle will mean you walk a lot farther.</div>
-<div class="autopermalink" data-description="Item"><a href="#motivation-for-radians-8-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-</ul>
-<div class="autopermalink" data-description="Paragraph"><a href="#motivation-for-radians-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<figure class="figure figure-like" id="motivation-for-radians-9"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/motivation-for-radians-9-1.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">9.1.3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><div class="autopermalink" data-description="Figure 9.1.3"><a href="#motivation-for-radians-9" title="Copy heading and permalink for Figure 9.1.3" aria-label="Copy heading and permalink for Figure 9.1.3">🔗</a></div></figcaption></figure><div class="para" id="motivation-for-radians-10">We want a measurement which purely measures rotation, that isn’t affected by how big the circle is. The key idea is: even though the arc length changes when the circle gets bigger or smaller, it changes in a very predictable way. In particular, arc length is proportional to the radius.<div class="autopermalink" data-description="Paragraph"><a href="#motivation-for-radians-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para logical" id="motivation-for-radians-11">
-<ul class="disc" id="motivation-for-radians-11-1">
-<li id="motivation-for-radians-11-1-1">
-<div class="para" id="p-derived-motivation-for-radians-11-1-1">If you <em class="emphasis">double</em> the radius, the arc length <em class="emphasis">doubles</em>.</div>
-<div class="autopermalink" data-description="Item"><a href="#motivation-for-radians-11-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-<li id="motivation-for-radians-11-1-2">
-<div class="para" id="p-derived-motivation-for-radians-11-1-2">If you <em class="emphasis">triple</em> the radius, the arc length <em class="emphasis">triples</em>.</div>
-<div class="autopermalink" data-description="Item"><a href="#motivation-for-radians-11-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-</ul>
-<div class="autopermalink" data-description="Paragraph"><a href="#motivation-for-radians-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<details id="motivation-for-radians-12" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
-<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">9.1.4</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h4></summary><article class="example example-like knowl__content"><div class="para" id="motivation-for-radians-12-1-1">For example, for this particular angle <span class="process-math">\(\theta\)</span> below, for <span class="process-math">\(r = 4\)</span> cm, the arc is 8 cm, and for <span class="process-math">\(r = 8\)</span> cm, the arc is 16 cm.<div class="autopermalink" data-description="Paragraph"><a href="#motivation-for-radians-12-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <figure class="figure figure-like" id="motivation-for-radians-12-1-2"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/motivation-for-radians-12-1-2-1.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">9.1.5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><div class="autopermalink" data-description="Figure 9.1.5"><a href="#motivation-for-radians-12-1-2" title="Copy heading and permalink for Figure 9.1.5" aria-label="Copy heading and permalink for Figure 9.1.5">🔗</a></div></figcaption></figure> <div class="para" id="motivation-for-radians-12-1-3">While the arc lengths are different, in both scenarios, the arc length is 2 radius lengths.<div class="autopermalink" data-description="Paragraph"><a href="#motivation-for-radians-12-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Example 9.1.4"><a href="#motivation-for-radians-12" title="Copy heading and permalink for Example 9.1.4" aria-label="Copy heading and permalink for Example 9.1.4">🔗</a></div></article></details><div class="para" id="motivation-for-radians-13">To measure arc length, instead of using meters or centimeters or any other unit of length, we use the radius itself as the unit. In other words, we ask:<div class="autopermalink" data-description="Paragraph"><a href="#motivation-for-radians-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="displaymath process-math" id="motivation-for-radians-14">
+<div class="displaymath process-math" id="sec-radian-measure-2-2-1-2">
 \begin{gather*}
-\text{"How many radius-lengths did you travel?"}
+\boxed{\pi \text{ radians} = 180^{\circ}} \qquad \text{or, equivalently,} \qquad \boxed{2\pi \text{ radians} = 360^{\circ}}
 \end{gather*}
 </div>
-<div class="para" id="motivation-for-radians-15">For example:<div class="autopermalink" data-description="Paragraph"><a href="#motivation-for-radians-15" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Definition 9.1.1"><a href="#sec-radian-measure-2-2" title="Copy heading and permalink for Definition 9.1.1" aria-label="Copy heading and permalink for Definition 9.1.1">🔗</a></div></article><div class="para" id="sec-radian-measure-2-3">In other words,<div class="autopermalink" data-description="Paragraph"><a href="#sec-radian-measure-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para logical" id="motivation-for-radians-16">
-<ul class="disc" id="motivation-for-radians-16-1">
-<li id="motivation-for-radians-16-1-1">
-<div class="para" id="p-derived-motivation-for-radians-16-1-1">If the radius is 4 m, and the arc length is 12 m, that is <span class="process-math">\(\frac{12}{4} = 3\)</span> radius lengths of rotation.</div>
-<div class="autopermalink" data-description="Item"><a href="#motivation-for-radians-16-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<ul class="disc" id="sec-radian-measure-2-4">
+<li id="sec-radian-measure-2-4-1">
+<div class="para" id="sec-radian-measure-2-4-1-1">
+<span class="process-math">\(\pi\)</span> radians is a half-rotation.<div class="autopermalink" data-description="Paragraph"><a href="#sec-radian-measure-2-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-radian-measure-2-4-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
-<li id="motivation-for-radians-16-1-2">
-<div class="para" id="p-derived-motivation-for-radians-16-1-2">If the radius is 3 m, and the arc length is 15 m, that is <span class="process-math">\(\frac{15}{3} = 5\)</span> radius lengths of rotation.</div>
-<div class="autopermalink" data-description="Item"><a href="#motivation-for-radians-16-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<li id="sec-radian-measure-2-4-2">
+<div class="para" id="sec-radian-measure-2-4-2-1">
+<span class="process-math">\(2\pi\)</span> radians is a full rotation.<div class="autopermalink" data-description="Paragraph"><a href="#sec-radian-measure-2-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-radian-measure-2-4-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<div class="autopermalink" data-description="Paragraph"><a href="#motivation-for-radians-16" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="generated/latex-image/sec-radian-measure-2-5.svg" role="img" class="contained"></div>
+<ul class="disc" id="sec-radian-measure-2-6"><li id="sec-radian-measure-2-6-1">
+<div class="para" id="sec-radian-measure-2-6-1-1">The symbol for radians is “rad”, however the symbol is often omitted. So, if an angle has no unit, it should be assumed to be radians (and for degrees, use <span class="process-math">\(^\circ\)</span>).<div class="autopermalink" data-description="Paragraph"><a href="#sec-radian-measure-2-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<figure class="figure figure-like" id="motivation-for-radians-17"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/motivation-for-radians-17-1.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">9.1.6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><div class="autopermalink" data-description="Figure 9.1.6"><a href="#motivation-for-radians-17" title="Copy heading and permalink for Figure 9.1.6" aria-label="Copy heading and permalink for Figure 9.1.6">🔗</a></div></figcaption></figure><div class="para" id="motivation-for-radians-18">In other words, to measure the angle, divide the arc length by the radius length.<div class="autopermalink" data-description="Paragraph"><a href="#motivation-for-radians-18" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Subsection 9.1.2: Motivation for Radians"><a href="#motivation-for-radians" title="Copy heading and permalink for Subsection 9.1.2: Motivation for Radians" aria-label="Copy heading and permalink for Subsection 9.1.2: Motivation for Radians">🔗</a></div></section><section class="subsection" id="radians"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">9.1.3</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Radians</span>
+<div class="autopermalink" data-description="Item"><a href="#sec-radian-measure-2-6-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li></ul>
+<div class="para" id="sec-radian-measure-2-7">The equivalence <span class="process-math">\(\pi = 180^{\circ}\)</span> can be thought of as a conversion factor, a ratio to convert between these two angle units (analogous to how 1 inch = 2.54 cm, or how 1 hour = 60 minutes).<div class="autopermalink" data-description="Paragraph"><a href="#sec-radian-measure-2-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><section class="subsection" id="subsec-converting-between-degrees-and-radians"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">9.1.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Converting Between Degrees and Radians</span>
 </h3>
-<article class="definition definition-like" id="radians-2"><h4 class="heading">
-<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">9.1.7</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+<article class="theorem theorem-like" id="subsec-converting-between-degrees-and-radians-2"><h4 class="heading">
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">9.1.2</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h4>
-<div class="para" id="radians-2-1-1">One <dfn class="terminology">radian</dfn> is defined to be the angle at the center of a circle such that the arc length associated with it is equal to the radius <span class="process-math">\(r\)</span> of the circle,<div class="autopermalink" data-description="Paragraph"><a href="#radians-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <figure class="figure figure-like" id="radians-2-1-2"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/radians-2-1-2-1.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">9.1.8<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><div class="autopermalink" data-description="Figure 9.1.8"><a href="#radians-2-1-2" title="Copy heading and permalink for Figure 9.1.8" aria-label="Copy heading and permalink for Figure 9.1.8">🔗</a></div></figcaption></figure> <div class="para" id="radians-2-1-3">More generally, an angle <span class="process-math">\(\theta\)</span> with associated radius <span class="process-math">\(r\)</span> and arc length <span class="process-math">\(s\)</span> is given by,<div class="autopermalink" data-description="Paragraph"><a href="#radians-2-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="subsec-converting-between-degrees-and-radians-2-1-1">
+<em class="alert">Converting between degrees and radians</em>.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-converting-between-degrees-and-radians-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/subsec-converting-between-degrees-and-radians-2-1-2.svg" role="img" class="contained"></div>
+<div class="autopermalink" data-description="Theorem 9.1.2"><a href="#subsec-converting-between-degrees-and-radians-2" title="Copy heading and permalink for Theorem 9.1.2" aria-label="Copy heading and permalink for Theorem 9.1.2">🔗</a></div></article><details id="subsec-converting-between-degrees-and-radians-3" class="project project-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Exercise Group</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">9.1.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Angle Conversion Practice.</span>
+</h4></summary><article class="project project-like knowl__content"><div class="introduction" id="subsec-converting-between-degrees-and-radians-3-2"><div class="para" id="subsec-converting-between-degrees-and-radians-3-2-1">Convert each angle from degrees to radians or radians to degrees.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-converting-between-degrees-and-radians-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="subsec-converting-between-degrees-and-radians-3-3"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="subsec-converting-between-degrees-and-radians-3-3-1-1">
+<span class="process-math">\(135^{\circ}\)</span> to radians<div class="autopermalink" data-description="Paragraph"><a href="#subsec-converting-between-degrees-and-radians-3-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="displaymath process-math" id="radians-2-1-4">
+<div class="autopermalink" data-description="Task 9.1.1.a"><a href="#subsec-converting-between-degrees-and-radians-3-3" title="Copy heading and permalink for Task 9.1.1.a" aria-label="Copy heading and permalink for Task 9.1.1.a">🔗</a></div></article><article class="task exercise-like" id="subsec-converting-between-degrees-and-radians-3-4"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="subsec-converting-between-degrees-and-radians-3-4-1-1">
+<span class="process-math">\(\frac{8\pi}{15}\)</span> to degrees<div class="autopermalink" data-description="Paragraph"><a href="#subsec-converting-between-degrees-and-radians-3-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 9.1.1.b"><a href="#subsec-converting-between-degrees-and-radians-3-4" title="Copy heading and permalink for Task 9.1.1.b" aria-label="Copy heading and permalink for Task 9.1.1.b">🔗</a></div></article><article class="task exercise-like" id="subsec-converting-between-degrees-and-radians-3-5"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="subsec-converting-between-degrees-and-radians-3-5-1-1">
+<span class="process-math">\(\frac{7\pi}{6}\)</span> to degrees<div class="autopermalink" data-description="Paragraph"><a href="#subsec-converting-between-degrees-and-radians-3-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 9.1.1.c"><a href="#subsec-converting-between-degrees-and-radians-3-5" title="Copy heading and permalink for Task 9.1.1.c" aria-label="Copy heading and permalink for Task 9.1.1.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise Group 9.1.1: Angle Conversion Practice"><a href="#subsec-converting-between-degrees-and-radians-3" title="Copy heading and permalink for Exercise Group 9.1.1: Angle Conversion Practice" aria-label="Copy heading and permalink for Exercise Group 9.1.1: Angle Conversion Practice">🔗</a></div></article></details><div class="autopermalink" data-description="Subsection 9.1.1: Converting Between Degrees and Radians"><a href="#subsec-converting-between-degrees-and-radians" title="Copy heading and permalink for Subsection 9.1.1: Converting Between Degrees and Radians" aria-label="Copy heading and permalink for Subsection 9.1.1: Converting Between Degrees and Radians">🔗</a></div></section><section class="subsection" id="sketching-radians"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">9.1.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Sketching Angles in Radians</span>
+</h3>
+<div class="para" id="sketching-radians-2">To graph an angle in radians, it’s easiest to think in terms of fractions of <span class="process-math">\(\pi\text{.}\)</span> To start, recall that:<div class="autopermalink" data-description="Paragraph"><a href="#sketching-radians-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ul class="disc" id="sketching-radians-3">
+<li id="sketching-radians-3-1">
+<div class="para" id="sketching-radians-3-1-1">
+<span class="process-math">\(2\pi\)</span> is a full rotation (<span class="process-math">\(360^{\circ}\)</span>)<div class="autopermalink" data-description="Paragraph"><a href="#sketching-radians-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sketching-radians-3-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sketching-radians-3-2">
+<div class="para" id="sketching-radians-3-2-1">
+<span class="process-math">\(\pi\)</span> is a half rotation (<span class="process-math">\(180^{\circ}\)</span>)<div class="autopermalink" data-description="Paragraph"><a href="#sketching-radians-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sketching-radians-3-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="para" id="sketching-radians-4">Then,<div class="autopermalink" data-description="Paragraph"><a href="#sketching-radians-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ul class="disc" id="sketching-radians-5">
+<li id="sketching-radians-5-1">
+<div class="para" id="sketching-radians-5-1-1">
+<span class="process-math">\(\frac{\pi}{2}\)</span> (or half of <span class="process-math">\(\pi\)</span>) is a quarter rotation (half of a half rotation), which is <span class="process-math">\(90^{\circ}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sketching-radians-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sketching-radians-5-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sketching-radians-5-2">
+<div class="para" id="sketching-radians-5-2-1">
+<span class="process-math">\(\frac{\pi}{4}\)</span> (or a quarter of <span class="process-math">\(\pi\)</span>) is half of a quarter rotation, which is <span class="process-math">\(45^{\circ}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sketching-radians-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sketching-radians-5-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sketching-radians-5-3">
+<div class="para" id="sketching-radians-5-3-1">
+<span class="process-math">\(\frac{\pi}{6}\)</span> is <span class="process-math">\(\pi\)</span> split into 6 equal pieces, which is <span class="process-math">\(30^{\circ}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sketching-radians-5-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sketching-radians-5-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sketching-radians-5-4">
+<div class="para" id="sketching-radians-5-4-1">
+<span class="process-math">\(\frac{\pi}{3}\)</span> is <span class="process-math">\(\pi\)</span> split into 3 pieces, which is <span class="process-math">\(60^{\circ}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sketching-radians-5-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sketching-radians-5-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<figure class="figure figure-like" id="special-angles-row"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;grid-template-columns:25% 25% 25% 25%;column-gap:0%;">
+<div class="sbspanel sbspanel--top top" style=""><img src="generated/latex-image/special-angles-row-2-1.svg" role="img" class="contained"></div>
+<div class="sbspanel sbspanel--top top" style=""><img src="generated/latex-image/special-angles-row-2-2.svg" role="img" class="contained"></div>
+<div class="sbspanel sbspanel--top top" style=""><img src="generated/latex-image/special-angles-row-2-3.svg" role="img" class="contained"></div>
+<div class="sbspanel sbspanel--top top" style=""><img src="generated/latex-image/special-angles-row-2-4.svg" role="img" class="contained"></div>
+</div></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">9.1.3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Special-angle arcs on the unit circle.<div class="autopermalink" data-description="Figure 9.1.3"><a href="#special-angles-row" title="Copy heading and permalink for Figure 9.1.3" aria-label="Copy heading and permalink for Figure 9.1.3">🔗</a></div></figcaption></figure><div class="para" id="sketching-radians-7">For bigger angles, we can count multiples of those smaller angles <span class="process-math">\(\frac{\pi}{2}, \frac{\pi}{3}, \frac{\pi}{4}, \frac{\pi}{6}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sketching-radians-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<details id="sketching-radians-8" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">9.1.4</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Sketching 2pi/3.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="sketching-radians-8-2">For <span class="process-math">\(\frac{2\pi}{3}\text{,}\)</span> first divide <span class="process-math">\(\pi\)</span> into 3 equal pieces, and then count 2 of them counterclockwise,<div class="autopermalink" data-description="Paragraph"><a href="#sketching-radians-8-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/sketching-radians-8-3.svg" role="img" class="contained"></div>
+<div class="autopermalink" data-description="Example 9.1.4: Sketching 2pi/3"><a href="#sketching-radians-8" title="Copy heading and permalink for Example 9.1.4: Sketching 2pi/3" aria-label="Copy heading and permalink for Example 9.1.4: Sketching 2pi/3">🔗</a></div></article></details><details id="sketching-radians-9" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">9.1.5</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Sketching 5pi/6.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="sketching-radians-9-2">For <span class="process-math">\(\frac{5\pi}{6}\text{,}\)</span> first divide <span class="process-math">\(\pi\)</span> into 6 equal pieces, and then count 5 of them (counterclockwise),<div class="autopermalink" data-description="Paragraph"><a href="#sketching-radians-9-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/sketching-radians-9-3.svg" role="img" class="contained"></div>
+<div class="autopermalink" data-description="Example 9.1.5: Sketching 5pi/6"><a href="#sketching-radians-9" title="Copy heading and permalink for Example 9.1.5: Sketching 5pi/6" aria-label="Copy heading and permalink for Example 9.1.5: Sketching 5pi/6">🔗</a></div></article></details><details id="sketching-radians-10" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">9.1.6</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Sketching 7pi/4.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="sketching-radians-10-2">For <span class="process-math">\(\frac{7\pi}{4}\text{,}\)</span> first divide <span class="process-math">\(\pi\)</span> into 4 equal pieces, and then count 7 of them counterclockwise,<div class="autopermalink" data-description="Paragraph"><a href="#sketching-radians-10-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/sketching-radians-10-3.svg" role="img" class="contained"></div>
+<div class="autopermalink" data-description="Example 9.1.6: Sketching 7pi/4"><a href="#sketching-radians-10" title="Copy heading and permalink for Example 9.1.6: Sketching 7pi/4" aria-label="Copy heading and permalink for Example 9.1.6: Sketching 7pi/4">🔗</a></div></article></details><details id="sketching-radians-11" class="project project-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Exercise Group</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">9.1.2</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Sketching Practice.</span>
+</h4></summary><article class="project project-like knowl__content"><div class="introduction" id="sketching-radians-11-2"><div class="para" id="sketching-radians-11-2-1">Sketch each angle in standard position.<div class="autopermalink" data-description="Paragraph"><a href="#sketching-radians-11-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="sketching-radians-11-3"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="sketching-radians-11-3-1-1">
+<span class="process-math">\(\frac{4\pi}{3}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sketching-radians-11-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 9.1.2.a"><a href="#sketching-radians-11-3" title="Copy heading and permalink for Task 9.1.2.a" aria-label="Copy heading and permalink for Task 9.1.2.a">🔗</a></div></article><article class="task exercise-like" id="sketching-radians-11-4"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="sketching-radians-11-4-1-1">
+<span class="process-math">\(\frac{7\pi}{6}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sketching-radians-11-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 9.1.2.b"><a href="#sketching-radians-11-4" title="Copy heading and permalink for Task 9.1.2.b" aria-label="Copy heading and permalink for Task 9.1.2.b">🔗</a></div></article><article class="task exercise-like" id="sketching-radians-11-5"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="sketching-radians-11-5-1-1">
+<span class="process-math">\(\frac{11\pi}{6}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sketching-radians-11-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Task 9.1.2.c"><a href="#sketching-radians-11-5" title="Copy heading and permalink for Task 9.1.2.c" aria-label="Copy heading and permalink for Task 9.1.2.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise Group 9.1.2: Sketching Practice"><a href="#sketching-radians-11" title="Copy heading and permalink for Exercise Group 9.1.2: Sketching Practice" aria-label="Copy heading and permalink for Exercise Group 9.1.2: Sketching Practice">🔗</a></div></article></details><div class="autopermalink" data-description="Subsection 9.1.2: Sketching Angles in Radians"><a href="#sketching-radians" title="Copy heading and permalink for Subsection 9.1.2: Sketching Angles in Radians" aria-label="Copy heading and permalink for Subsection 9.1.2: Sketching Angles in Radians">🔗</a></div></section><section class="subsection" id="motivating-radians"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">9.1.3</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Motivating Radians</span>
+</h3>
+<div class="para" id="motivating-radians-2">Here, we will step back and explore the intuition behind radians, and how they come about to measure angles.<div class="autopermalink" data-description="Paragraph"><a href="#motivating-radians-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<details id="motivating-radians-3" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">9.1.7</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Alternate Angular Units.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="motivating-radians-3-2">First, it is helpful to step back and understand the idea of how angles can be measured.<div class="autopermalink" data-description="Paragraph"><a href="#motivating-radians-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="motivating-radians-3-3">Degrees are a unit of rotation such that 360 degrees make a full rotation. They are useful practical applications (historically, for navigation, architecture, and astronomy), because you can divide 360 evenly into many numbers (like 2, 3, 4, 5, 6, 8, 9, 10, 12, etc.), so many common angles have whole number values (like <span class="process-math">\(30^{\circ}, 45^{\circ}, 60^{\circ}, 90^{\circ}\text{,}\)</span> etc.).<div class="autopermalink" data-description="Paragraph"><a href="#motivating-radians-3-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="motivating-radians-3-4">However, if we were starting from scratch, with no prior knowledge of degrees, we could consider other useful units of measuring angles. For example:<div class="autopermalink" data-description="Paragraph"><a href="#motivating-radians-3-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ul class="disc" id="motivating-radians-3-5">
+<li id="motivating-radians-3-5-1">
+<div class="para" id="motivating-radians-3-5-1-1">The <em class="emphasis">gradian</em>, where a quarter rotation is defined to be 100 gradians. Then, a full rotation would be 400 gradians.<div class="autopermalink" data-description="Paragraph"><a href="#motivating-radians-3-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#motivating-radians-3-5-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="motivating-radians-3-5-2">
+<div class="para" id="motivating-radians-3-5-2-1">Or, 1 <em class="emphasis">turn</em> could be defined as a full rotation. Then, a half rotation is <span class="process-math">\(1/2\)</span> turns, or a quarter rotation is <span class="process-math">\(1/4\)</span> turns.<div class="autopermalink" data-description="Paragraph"><a href="#motivating-radians-3-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#motivating-radians-3-5-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="motivating-radians-3-5-3">
+<div class="para" id="motivating-radians-3-5-3-1">For units inspired by the fact that a pizza has 8 slices, a unit could be called a <em class="emphasis">slice</em>, defined to be <span class="process-math">\(1/8\)</span>th of a full rotation. Then, 8 slices would be a full rotation.<div class="autopermalink" data-description="Paragraph"><a href="#motivating-radians-3-5-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#motivating-radians-3-5-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="motivating-radians-3-5-4">
+<div class="para" id="motivating-radians-3-5-4-1">We could define 1 unit to be a quarter rotation. Then, 4 units is a full rotation.<div class="autopermalink" data-description="Paragraph"><a href="#motivating-radians-3-5-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#motivating-radians-3-5-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="para" id="motivating-radians-3-6">Ultimately, units are a convention, and what units are useful or most natural depends on the context.<div class="autopermalink" data-description="Paragraph"><a href="#motivating-radians-3-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 9.1.7: Alternate Angular Units"><a href="#motivating-radians-3" title="Copy heading and permalink for Example 9.1.7: Alternate Angular Units" aria-label="Copy heading and permalink for Example 9.1.7: Alternate Angular Units">🔗</a></div></article></details><div class="para" id="motivating-radians-4">With radians, the idea is that we will measure angles based on how long the <em class="emphasis">arc</em> of the angle is.<div class="autopermalink" data-description="Paragraph"><a href="#motivating-radians-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="generated/latex-image/motivating-radians-5.svg" role="img" class="contained"></div>
+<div class="para" id="motivating-radians-6">The longer the arc is, the bigger the angle that is swept out. The amount you rotate is proportional to how far you travel along the circle.<div class="autopermalink" data-description="Paragraph"><a href="#motivating-radians-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ul class="disc" id="motivating-radians-7">
+<li id="motivating-radians-7-1">
+<div class="para" id="motivating-radians-7-1-1">Small rotation <span class="process-math">\(\rightarrow\)</span> small distance traveled<div class="autopermalink" data-description="Paragraph"><a href="#motivating-radians-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#motivating-radians-7-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="motivating-radians-7-2">
+<div class="para" id="motivating-radians-7-2-1">Big rotation <span class="process-math">\(\rightarrow\)</span> big distance traveled<div class="autopermalink" data-description="Paragraph"><a href="#motivating-radians-7-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#motivating-radians-7-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/motivating-radians-8.svg" role="img" class="contained"></div>
+<div class="para" id="motivating-radians-9">However, just measuring the arc doesn’t fully work, because the arc length depends on the size of the circle (basically, it depends on it’s radius).<div class="autopermalink" data-description="Paragraph"><a href="#motivating-radians-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ul class="disc" id="motivating-radians-10">
+<li id="motivating-radians-10-1">
+<div class="para" id="motivating-radians-10-1-1">If you have a small circle, you won’t have to walk very far to make a full loop.<div class="autopermalink" data-description="Paragraph"><a href="#motivating-radians-10-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#motivating-radians-10-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="motivating-radians-10-2">
+<div class="para" id="motivating-radians-10-2-1">If you have a big circle, the same angle will mean you walk a lot farther.<div class="autopermalink" data-description="Paragraph"><a href="#motivating-radians-10-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#motivating-radians-10-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/motivating-radians-11.svg" role="img" class="contained"></div>
+<div class="para" id="motivating-radians-12">We want a measurement which purely measures rotation, that isn’t affected by how big the circle is. The key idea is: even though the arc length changes when the circle gets bigger or smaller, it changes in a very predictable way. In particular, arc length is proportional to the radius.<div class="autopermalink" data-description="Paragraph"><a href="#motivating-radians-12" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ul class="disc" id="motivating-radians-13">
+<li id="motivating-radians-13-1">
+<div class="para" id="motivating-radians-13-1-1">If you <em class="emphasis">double</em> the radius, the arc length <em class="emphasis">doubles</em>.<div class="autopermalink" data-description="Paragraph"><a href="#motivating-radians-13-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#motivating-radians-13-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="motivating-radians-13-2">
+<div class="para" id="motivating-radians-13-2-1">If you <em class="emphasis">triple</em> the radius, the arc length <em class="emphasis">triples</em>.<div class="autopermalink" data-description="Paragraph"><a href="#motivating-radians-13-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#motivating-radians-13-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<details id="motivating-radians-14" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">9.1.8</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Arc Length Proportionality.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="motivating-radians-14-2">For example, for this particular angle <span class="process-math">\(\theta\)</span> below, for <span class="process-math">\(r = 4\)</span> cm, the arc is 8 cm, and for <span class="process-math">\(r = 8\)</span> cm, the arc is 16 cm.<div class="autopermalink" data-description="Paragraph"><a href="#motivating-radians-14-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/motivating-radians-14-3.svg" role="img" class="contained"></div>
+<div class="para" id="motivating-radians-14-4">While the arc lengths are different, in both scenarios, the arc length is 2 radius lengths.<div class="autopermalink" data-description="Paragraph"><a href="#motivating-radians-14-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 9.1.8: Arc Length Proportionality"><a href="#motivating-radians-14" title="Copy heading and permalink for Example 9.1.8: Arc Length Proportionality" aria-label="Copy heading and permalink for Example 9.1.8: Arc Length Proportionality">🔗</a></div></article></details><div class="para" id="motivating-radians-15">To measure arc length, instead of using meters or centimeters or any other unit of length, we use the radius itself as the unit. In other words, we ask:<div class="autopermalink" data-description="Paragraph"><a href="#motivating-radians-15" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="motivating-radians-16">
+\begin{gather*}
+\text{``How many radius-lengths did you travel?"}
+\end{gather*}
+</div>
+<div class="para" id="motivating-radians-17">For example:<div class="autopermalink" data-description="Paragraph"><a href="#motivating-radians-17" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ul class="disc" id="motivating-radians-18">
+<li id="motivating-radians-18-1">
+<div class="para" id="motivating-radians-18-1-1">If the radius is 4 m, and the arc length is 12 m, that is <span class="process-math">\(\frac{12}{4} = 3\)</span> radius lengths of rotation.<div class="autopermalink" data-description="Paragraph"><a href="#motivating-radians-18-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#motivating-radians-18-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="motivating-radians-18-2">
+<div class="para" id="motivating-radians-18-2-1">If the radius is 3 m, and the arc length is 15 m, that is <span class="process-math">\(\frac{15}{3} = 5\)</span> radius lengths of rotation.<div class="autopermalink" data-description="Paragraph"><a href="#motivating-radians-18-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#motivating-radians-18-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/motivating-radians-19.svg" role="img" class="contained"></div>
+<div class="para" id="motivating-radians-20">In other words, to measure the angle, divide the arc length by the radius length.<div class="autopermalink" data-description="Paragraph"><a href="#motivating-radians-20" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection 9.1.3: Motivating Radians"><a href="#motivating-radians" title="Copy heading and permalink for Subsection 9.1.3: Motivating Radians" aria-label="Copy heading and permalink for Subsection 9.1.3: Motivating Radians">🔗</a></div></section><section class="subsection" id="radians-definition"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">9.1.4</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Radians</span>
+</h3>
+<div class="para" id="radians-definition-2">In short, radians measure angles based on how long the arc associated with the angle is, in terms of radius lengths.<div class="autopermalink" data-description="Paragraph"><a href="#radians-definition-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="definition definition-like" id="radians-definition-3"><h4 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">9.1.9</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="para" id="radians-definition-3-1-1">One <dfn class="terminology">radian</dfn> is defined to be the angle at the center of a circle such that the arc length associated with it is equal to the radius <span class="process-math">\(r\)</span> of the circle,<div class="autopermalink" data-description="Paragraph"><a href="#radians-definition-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/radians-definition-3-1-2.svg" role="img" class="contained"></div> <div class="para" id="radians-definition-3-1-3">More generally, an angle <span class="process-math">\(\theta\)</span> with associated radius <span class="process-math">\(r\)</span> and arc length <span class="process-math">\(s\)</span> is given by,<div class="autopermalink" data-description="Paragraph"><a href="#radians-definition-3-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="radians-definition-3-1-4">
 \begin{gather*}
 \boxed{\theta = \frac{s}{r}}
 \end{gather*}
 </div>
-<div class="para logical" id="radians-2-1-5">
-<ul class="disc" id="radians-2-1-5-1"><li id="radians-2-1-5-1-1">
-<div class="para" id="p-derived-radians-2-1-5-1-1">The symbol for radians is <em class="emphasis">rad</em>, however the symbol is often omitted. So, if an angle has no unit, it should be assumed to be radians (and for degrees, use <span class="process-math">\(^\circ\)</span>).</div>
-<div class="autopermalink" data-description="Item"><a href="#radians-2-1-5-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li></ul>
-<div class="autopermalink" data-description="Paragraph"><a href="#radians-2-1-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Definition 9.1.9"><a href="#radians-definition-3" title="Copy heading and permalink for Definition 9.1.9" aria-label="Copy heading and permalink for Definition 9.1.9">🔗</a></div></article><ul class="disc" id="radians-definition-4">
+<li id="radians-definition-4-1">
+<div class="para" id="radians-definition-4-1-1">In fancy math language, we often say that the angle <span class="process-math">\(\theta\)</span> <dfn class="terminology">subtends</dfn> the arc, or the arc is <dfn class="terminology">subtended</dfn> by the angle <span class="process-math">\(\theta\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#radians-definition-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Definition 9.1.7"><a href="#radians-2" title="Copy heading and permalink for Definition 9.1.7" aria-label="Copy heading and permalink for Definition 9.1.7">🔗</a></div></article><div class="para logical" id="radians-3">
-<ul class="disc" id="radians-3-1">
-<li id="radians-3-1-1">
-<div class="para" id="p-derived-radians-3-1-1">In fancy math language, you can say that the angle <span class="process-math">\(\theta\)</span> <em class="alert">subtends</em> the arc, or the arc is <em class="alert">subtended</em> by the angle <span class="process-math">\(\theta\text{.}\)</span>
-</div>
-<div class="autopermalink" data-description="Item"><a href="#radians-3-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" data-description="Item"><a href="#radians-definition-4-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
-<li id="radians-3-1-2">
-<div class="para" id="p-derived-radians-3-1-2">Radians are technically ``dimensionless", because they are the ratio of two lengths.</div>
-<div class="autopermalink" data-description="Item"><a href="#radians-3-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<li id="radians-definition-4-2">
+<div class="para" id="radians-definition-4-2-1">Radians are technically “dimensionless”, because they are the ratio of two lengths.<div class="autopermalink" data-description="Paragraph"><a href="#radians-definition-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#radians-definition-4-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<div class="autopermalink" data-description="Paragraph"><a href="#radians-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Subsection 9.1.3: Radians"><a href="#radians" title="Copy heading and permalink for Subsection 9.1.3: Radians" aria-label="Copy heading and permalink for Subsection 9.1.3: Radians">🔗</a></div></section><section class="subsection" id="converting-between-degrees-and-radians"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">9.1.4</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Converting Between Degrees and Radians</span>
-</h3>
-<div class="para" id="converting-between-degrees-and-radians-2">Degrees and radians are both units of angles, so we can convert between them. To find an equivalence between the two, first recall that <span class="process-math">\(360^\circ\)</span> corresponds to a full rotation. In radians, for a full rotation, its arc length is simply the circumference of the circle, which is given by <span class="process-math">\(C = 2 \pi r\text{.}\)</span> Then, <span class="process-math">\(\theta = \frac{2\pi r}{r} = 2\pi\text{.}\)</span> Therefore, a full rotation is <span class="process-math">\(2\pi\)</span> radians. This implies that,<div class="autopermalink" data-description="Paragraph"><a href="#converting-between-degrees-and-radians-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="displaymath process-math" id="converting-between-degrees-and-radians-3">
-\begin{gather*}
-\boxed{360^\circ = 2\pi}
-\end{gather*}
-</div>
-<div class="para" id="converting-between-degrees-and-radians-4">To be a bit more simple, we can divide both sides by 2, since it is a common factor, to get,<div class="autopermalink" data-description="Paragraph"><a href="#converting-between-degrees-and-radians-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="displaymath process-math" id="converting-between-degrees-and-radians-5">
-\begin{gather*}
-\boxed{180^\circ = \pi}
-\end{gather*}
-</div>
-<div class="para" id="converting-between-degrees-and-radians-6">This is a conversion factor which allows us to convert between these two angle units, analogous to how 1 inch = 2.54 cm, or how 1 hour = 60 minutes.<div class="autopermalink" data-description="Paragraph"><a href="#converting-between-degrees-and-radians-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<article class="theorem theorem-like" id="converting-between-degrees-and-radians-7"><h4 class="heading">
-<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">9.1.9</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Converting between degrees and radians.</span>
-</h4>
-<figure class="figure figure-like" id="converting-between-degrees-and-radians-7-2"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/converting-between-degrees-and-radians-7-2-1.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">9.1.10<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><div class="autopermalink" data-description="Figure 9.1.10"><a href="#converting-between-degrees-and-radians-7-2" title="Copy heading and permalink for Figure 9.1.10" aria-label="Copy heading and permalink for Figure 9.1.10">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Theorem 9.1.9: Converting between degrees and radians"><a href="#converting-between-degrees-and-radians-7" title="Copy heading and permalink for Theorem 9.1.9: Converting between degrees and radians" aria-label="Copy heading and permalink for Theorem 9.1.9: Converting between degrees and radians">🔗</a></div></article><div class="para" id="converting-between-degrees-and-radians-8">The ratio <span class="process-math">\(\frac{180^\circ}{\pi}\)</span> can be thought of as a conversion factor, a ratio used to convert between units.<div class="autopermalink" data-description="Paragraph"><a href="#converting-between-degrees-and-radians-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<details id="converting-between-degrees-and-radians-9" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">9.1.11</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="converting-between-degrees-and-radians-9-1-1">Convert <span class="process-math">\(\frac{8\pi}{15}\)</span> to degrees.<div class="autopermalink" data-description="Paragraph"><a href="#converting-between-degrees-and-radians-9-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Checkpoint 9.1.11"><a href="#converting-between-degrees-and-radians-9" title="Copy heading and permalink for Checkpoint 9.1.11" aria-label="Copy heading and permalink for Checkpoint 9.1.11">🔗</a></div></article></details><div class="autopermalink" data-description="Subsection 9.1.4: Converting Between Degrees and Radians"><a href="#converting-between-degrees-and-radians" title="Copy heading and permalink for Subsection 9.1.4: Converting Between Degrees and Radians" aria-label="Copy heading and permalink for Subsection 9.1.4: Converting Between Degrees and Radians">🔗</a></div></section><section class="subsection" id="sketching-radian-angles-in-standard-position"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">9.1.5</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Sketching Radian Angles in Standard Position</span>
-</h3>
-<div class="para" id="sketching-radian-angles-in-standard-position-2">To graph an angle in radians, it’s easiest to think in terms of fractions of <span class="process-math">\(\pi\text{.}\)</span> To start,<div class="autopermalink" data-description="Paragraph"><a href="#sketching-radian-angles-in-standard-position-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para logical" id="sketching-radian-angles-in-standard-position-3">
-<ul class="disc" id="sketching-radian-angles-in-standard-position-3-1">
-<li id="sketching-radian-angles-in-standard-position-3-1-1">
-<div class="para" id="p-derived-sketching-radian-angles-in-standard-position-3-1-1">
-<span class="process-math">\(2\pi\)</span> is a full rotation (<span class="process-math">\(360^\circ\)</span>)</div>
-<div class="autopermalink" data-description="Item"><a href="#sketching-radian-angles-in-standard-position-3-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-<li id="sketching-radian-angles-in-standard-position-3-1-2">
-<div class="para" id="p-derived-sketching-radian-angles-in-standard-position-3-1-2">
-<span class="process-math">\(\pi\)</span> is a half rotation (<span class="process-math">\(180^\circ\)</span>)</div>
-<div class="autopermalink" data-description="Item"><a href="#sketching-radian-angles-in-standard-position-3-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-</ul>
-<div class="autopermalink" data-description="Paragraph"><a href="#sketching-radian-angles-in-standard-position-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<figure class="figure figure-like" id="sketching-radian-angles-in-standard-position-4"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/sketching-radian-angles-in-standard-position-4-1.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">9.1.12<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><div class="autopermalink" data-description="Figure 9.1.12"><a href="#sketching-radian-angles-in-standard-position-4" title="Copy heading and permalink for Figure 9.1.12" aria-label="Copy heading and permalink for Figure 9.1.12">🔗</a></div></figcaption></figure><div class="para" id="sketching-radian-angles-in-standard-position-5">Then,<div class="autopermalink" data-description="Paragraph"><a href="#sketching-radian-angles-in-standard-position-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para logical" id="sketching-radian-angles-in-standard-position-6">
-<ul class="disc" id="sketching-radian-angles-in-standard-position-6-1">
-<li id="sketching-radian-angles-in-standard-position-6-1-1">
-<div class="para" id="p-derived-sketching-radian-angles-in-standard-position-6-1-1">
-<span class="process-math">\(\frac{\pi}{2}\)</span> (or half of <span class="process-math">\(\pi\)</span>) is a quarter rotation (half of a half rotation), which is <span class="process-math">\(90^\circ\)</span>
-</div>
-<div class="autopermalink" data-description="Item"><a href="#sketching-radian-angles-in-standard-position-6-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-<li id="sketching-radian-angles-in-standard-position-6-1-2">
-<div class="para" id="p-derived-sketching-radian-angles-in-standard-position-6-1-2">
-<span class="process-math">\(\frac{\pi}{4}\)</span> (or a quarter of <span class="process-math">\(\pi\)</span>) is half of a quarter rotation, which is <span class="process-math">\(45^\circ\text{.}\)</span>
-</div>
-<div class="autopermalink" data-description="Item"><a href="#sketching-radian-angles-in-standard-position-6-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-<li id="sketching-radian-angles-in-standard-position-6-1-3">
-<div class="para" id="p-derived-sketching-radian-angles-in-standard-position-6-1-3">
-<span class="process-math">\(\frac{\pi}{6}\)</span> is <span class="process-math">\(\pi\)</span> split into 6 equal pieces, which is <span class="process-math">\(30^\circ\text{.}\)</span>
-</div>
-<div class="autopermalink" data-description="Item"><a href="#sketching-radian-angles-in-standard-position-6-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-</ul>
-<div class="autopermalink" data-description="Paragraph"><a href="#sketching-radian-angles-in-standard-position-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<figure class="figure figure-like" id="sketching-radian-angles-in-standard-position-7"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/sketching-radian-angles-in-standard-position-7-1.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">9.1.13<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><div class="autopermalink" data-description="Figure 9.1.13"><a href="#sketching-radian-angles-in-standard-position-7" title="Copy heading and permalink for Figure 9.1.13" aria-label="Copy heading and permalink for Figure 9.1.13">🔗</a></div></figcaption></figure><div class="para" id="sketching-radian-angles-in-standard-position-8">For bigger angles, we can count multiples.<div class="autopermalink" data-description="Paragraph"><a href="#sketching-radian-angles-in-standard-position-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<details id="sketching-radian-angles-in-standard-position-9" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
-<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">9.1.14</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h4></summary><article class="example example-like knowl__content"><div class="para" id="sketching-radian-angles-in-standard-position-9-1-1">For example, for <span class="process-math">\(\frac{5\pi}{6}\text{,}\)</span> first divide <span class="process-math">\(\pi\)</span> into 6 equal pieces, and then count 5 of them,<div class="autopermalink" data-description="Paragraph"><a href="#sketching-radian-angles-in-standard-position-9-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <figure class="figure figure-like" id="sketching-radian-angles-in-standard-position-9-1-2"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/sketching-radian-angles-in-standard-position-9-1-2-1.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">9.1.15<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><div class="autopermalink" data-description="Figure 9.1.15"><a href="#sketching-radian-angles-in-standard-position-9-1-2" title="Copy heading and permalink for Figure 9.1.15" aria-label="Copy heading and permalink for Figure 9.1.15">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Example 9.1.14"><a href="#sketching-radian-angles-in-standard-position-9" title="Copy heading and permalink for Example 9.1.14" aria-label="Copy heading and permalink for Example 9.1.14">🔗</a></div></article></details><div class="autopermalink" data-description="Subsection 9.1.5: Sketching Radian Angles in Standard Position"><a href="#sketching-radian-angles-in-standard-position" title="Copy heading and permalink for Subsection 9.1.5: Sketching Radian Angles in Standard Position" aria-label="Copy heading and permalink for Subsection 9.1.5: Sketching Radian Angles in Standard Position">🔗</a></div></section><section class="subsection" id="special-angles-in-radians"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">9.1.6</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Special Angles in Radians</span>
-</h3>
-<div class="displaymath process-math" id="special-angles-in-radians-2">
-\begin{align*}
-\begin{array}{c|ccccc}
-\amp 0^\circ \amp 30^\circ \amp 45^\circ \amp 60^\circ \amp 90^\circ \\
-\hline
-\amp 0 \amp \frac{\pi}{6} \amp \frac{\pi}{4} \amp \frac{\pi}{3} \amp \frac{\pi}{2} \\
-\sin{\theta} \amp 0 \amp \frac{1}{2} \amp \frac{\sqrt{2}}{2} \amp \frac{\sqrt{3}}{2} \amp 1 \\
-\cos{\theta} \amp 1 \amp \frac{\sqrt{3}}{2} \amp \frac{\sqrt{2}}{2} \amp \frac{1}{2} \amp 0 \\
-\tan{\theta} \amp 0 \amp \frac{1}{\sqrt{3}} \amp 1 \amp \sqrt{3} \amp \text{undefined} 
-\end{array}
-\end{align*}
-</div>
-<div class="autopermalink" data-description="Subsection 9.1.6: Special Angles in Radians"><a href="#special-angles-in-radians" title="Copy heading and permalink for Subsection 9.1.6: Special Angles in Radians" aria-label="Copy heading and permalink for Subsection 9.1.6: Special Angles in Radians">🔗</a></div></section><div class="autopermalink" data-description="Section 9.1: Radian Measure"><a href="#sec-radian-measure" title="Copy heading and permalink for Section 9.1: Radian Measure" aria-label="Copy heading and permalink for Section 9.1: Radian Measure">🔗</a></div></section></div>
+<div class="autopermalink" data-description="Subsection 9.1.4: Radians"><a href="#radians-definition" title="Copy heading and permalink for Subsection 9.1.4: Radians" aria-label="Copy heading and permalink for Subsection 9.1.4: Radians">🔗</a></div></section><div class="autopermalink" data-description="Section 9.1: Radian Measure"><a href="#sec-radian-measure" title="Copy heading and permalink for Section 9.1: Radian Measure" aria-label="Copy heading and permalink for Section 9.1: Radian Measure">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="ch-trigonometry-in-the-plane.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-ratios-of-non-acute-angles-reference-angles.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
