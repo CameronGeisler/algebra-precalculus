@@ -2095,151 +2095,34 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "10.1",
   "title": "Intro to Proving Trigonometric Identities",
-  "body": " Intro to Proving Trigonometric Identities    General Principles for Proving Identities      Convert all trigonometric expressions to sine and cosine . All trigonometric ratios can be written in terms of the ``basic\" trig ratios sine and cosine.   The one exception is if the entire identity only includes tangent and\/or cotangent, in which case it is usually simpler to convert everything in terms of tangent.     Start by manipulating the more complicated side . This is because is generally easier to go from something complex and simplify it, rather than go from something simple and make it more complex. In general,    Tangent is more complicated than sine and cosine  Reciprocal trigonometric functions are more complicated than primary trigonometric functions  Multiple fractions are easier to combine into one fraction, than writing one fraction as a combination of multiple fractions       Begin with the end in mind . Look at the form of the desired side before you start, and guide your work toward that structure.    Combine fractions using a common denominator.    Multiply by the conjugate, in order to use the Pythagorean identity.    Simplify complex fractions, by clearing denominators (multiply the numerator and denominator by the LCD).    Utilize algebraic identities, e.g. difference of squares, square of a sum, etc.     Use all trigonometric identities available to you.       Examples    Prove each trigonometric identity.     .    cancel.      .    simplify complex fraction, factor and cancel.      .    simplify complex fraction, factor and cancel.      .    Pythagorean identity, factor difference of squares, cancel.      .    multiply by the conjugate, Pythagorean identity, cancel.      .    add the rational expressions, Pythagorean identity, factor and cancel.      .    start with LHS, add fractions, Pythagorean identity.      .    Pythagorean identity.      .    add fractions, Pythagorean identity.      .    clear fractions, Pythagorean identity.      .    simplify fractions.      .    clear fractions, simplify and cancel.      .    add fractions, Pythagorean identity.      .    start with either side.      .    combine fractions, Pythagorean identity, cancel.      .    start with the LHS but RHS works also, clear fractions, cancel, Pythagorean identity, factor and cancel.      "
+  "body": " Intro to Proving Trigonometric Identities   Proving a trigonometric identity involves algebraically manipulating one side of the equation, to show that both sides of the equation are equivalent.    Verifying a Trigonometric Identity by Graphing  A simple way to verify if an equation is an identity is to graph both sides using a graphing calculator, like Desmos .  If an equation is an identity, then both sides of the equation will be equal for all values of the variable, and so the graph of each side will coincide (i.e. overlap each other).    If both graphs overlap completely, the equation is an identity.    On the other hand, if the two graphs don't match at even a single point, then the equation is not an identity.    With Desmo, it is pretty easy to tell if two graphs coincide. However, with a graphing calculator, minor differences can be difficult to spot.    Verification Example  Verify that using a graphing calculator. Observe how they coincide (overlap): Desmos graph .    Proving Trigonometric Identities    General Principles for Proving Identities     Convert all trigonometric expressions to sine and cosine . All trigonometric ratios can be written in terms of the basic trig ratios sine and cosine.     The one exception is if the entire identity includes only tangent and\/or cotangent, in which case it is usually simpler to convert everything in terms of tangent.     Start by manipulating the more complicated side . This is because is generally easier to start from something complex and simplify it, rather than go from something simple and make it more complex. In general,   Tangent is more complicated than sine and cosine.    Reciprocal trig functions are more complicated than primary trig functions.    Multiple fractions are easier to combine into one fraction, compared to writing one fraction as a combination of multiple fractions.        Begin with the end in mind . Look at the form of the desired side before you start, and guide your work toward that structure. Especially helpful if you are stuck and unsure how to continue.    Combine fractions using a common denominator.    Multiply by the conjugate, in order to use the Pythagorean identity. Particularly if you see .    Simplify complex fractions, by clearing denominators (multiply the numerator and denominator by the LCD).    Use algebraic identities, e.g. difference of squares, square of a sum, etc. For example,   .    .       Use all trigonometric identities available to you. When practicing, use a list of them for reference, and you'll naturally memorize them over time.   Can convert to or vise versa, using the Pythagorean identity:          Examples   Proving Identities (Set 1)   Prove each trigonometric identity.     cancel.     simplify fractions.     Pythagorean identity.     Proving Identities (Set 2)   Prove each trigonometric identity.     simplify complex fraction, factor and cancel.     simplify complex fraction, factor and cancel.     Pythagorean identity, factor difference of squares, cancel.     factor common factor, reciprocal identity, Pythagorean identity.     multiply by the conjugate, Pythagorean identity, cancel.     combine fractions, Pythagorean identity, factor and cancel.     start with LHS, add fractions, Pythagorean identity.     reciprocal identity, Pythagorean identity.     add fractions, Pythagorean identity.     can start with either side, multiply by the conjugate, Pythagorean identity.     clear fractions, Pythagorean identity.     reciprocal identity, clear fractions, simplify and cancel.     complex fraction clear fractions, common factor, simplify and cancel, quotient identity.     Pythagorean identity, factor difference of squares, cancel.     quotient identity, clear fractions, Pythagorean identity, simplify and cancel.     add fractions, Pythagorean identity.     start with the RHS, quotient identity, combine fractions, Pythagorean identity.     combine fractions, Pythagorean identity, cancel.     start with the LHS but RHS works also, clear fractions, cancel, Pythagorean identity, factor and cancel.     multiply by the conjugate, Pythagorean identity, cancel.     reciprocal identity, combine fractions, Pythagorean identity.     reciprocal identity, clear denominators, factor and cancel.     start with the right side, quotient identity, clear fractions, Pythagorean identity.      Trigonometric Identities and Trigonometric Equations  As you learn more common trigonometric identities, you will be able to solve more trigonometric equations algebraically.   "
 },
 {
-  "id": "sec-intro-to-proving-trigonometric-identities-3-2-2",
+  "id": "sec-intro-to-proving-trigonometric-identities-4",
   "level": "2",
-  "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-3-2-2",
-  "type": "Exercise",
-  "number": "10.1.2.1",
-  "title": "",
-  "body": "  .    cancel.   "
+  "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-4",
+  "type": "Example",
+  "number": "10.1.1",
+  "title": "Verification Example.",
+  "body": " Verification Example  Verify that using a graphing calculator. Observe how they coincide (overlap): Desmos graph .  "
 },
 {
-  "id": "sec-intro-to-proving-trigonometric-identities-3-2-3",
+  "id": "examples-proving-identities-2",
   "level": "2",
-  "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-3-2-3",
-  "type": "Exercise",
-  "number": "10.1.2.2",
-  "title": "",
-  "body": "  .    simplify complex fraction, factor and cancel.   "
+  "url": "sec-intro-to-proving-trigonometric-identities.html#examples-proving-identities-2",
+  "type": "Exercise Group",
+  "number": "10.1.1",
+  "title": "Proving Identities (Set 1).",
+  "body": " Proving Identities (Set 1)   Prove each trigonometric identity.     cancel.     simplify fractions.     Pythagorean identity.   "
 },
 {
-  "id": "sec-intro-to-proving-trigonometric-identities-3-2-4",
+  "id": "examples-proving-identities-3",
   "level": "2",
-  "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-3-2-4",
-  "type": "Exercise",
-  "number": "10.1.2.3",
-  "title": "",
-  "body": "  .    simplify complex fraction, factor and cancel.   "
-},
-{
-  "id": "sec-intro-to-proving-trigonometric-identities-3-2-5",
-  "level": "2",
-  "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-3-2-5",
-  "type": "Exercise",
-  "number": "10.1.2.4",
-  "title": "",
-  "body": "  .    Pythagorean identity, factor difference of squares, cancel.   "
-},
-{
-  "id": "sec-intro-to-proving-trigonometric-identities-3-2-6",
-  "level": "2",
-  "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-3-2-6",
-  "type": "Exercise",
-  "number": "10.1.2.5",
-  "title": "",
-  "body": "  .    multiply by the conjugate, Pythagorean identity, cancel.   "
-},
-{
-  "id": "sec-intro-to-proving-trigonometric-identities-3-2-7",
-  "level": "2",
-  "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-3-2-7",
-  "type": "Exercise",
-  "number": "10.1.2.6",
-  "title": "",
-  "body": "  .    add the rational expressions, Pythagorean identity, factor and cancel.   "
-},
-{
-  "id": "sec-intro-to-proving-trigonometric-identities-3-2-8",
-  "level": "2",
-  "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-3-2-8",
-  "type": "Exercise",
-  "number": "10.1.2.7",
-  "title": "",
-  "body": "  .    start with LHS, add fractions, Pythagorean identity.   "
-},
-{
-  "id": "sec-intro-to-proving-trigonometric-identities-3-2-9",
-  "level": "2",
-  "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-3-2-9",
-  "type": "Exercise",
-  "number": "10.1.2.8",
-  "title": "",
-  "body": "  .    Pythagorean identity.   "
-},
-{
-  "id": "sec-intro-to-proving-trigonometric-identities-3-2-10",
-  "level": "2",
-  "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-3-2-10",
-  "type": "Exercise",
-  "number": "10.1.2.9",
-  "title": "",
-  "body": "  .    add fractions, Pythagorean identity.   "
-},
-{
-  "id": "sec-intro-to-proving-trigonometric-identities-3-2-11",
-  "level": "2",
-  "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-3-2-11",
-  "type": "Exercise",
-  "number": "10.1.2.10",
-  "title": "",
-  "body": "  .    clear fractions, Pythagorean identity.   "
-},
-{
-  "id": "sec-intro-to-proving-trigonometric-identities-3-2-12",
-  "level": "2",
-  "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-3-2-12",
-  "type": "Exercise",
-  "number": "10.1.2.11",
-  "title": "",
-  "body": "  .    simplify fractions.   "
-},
-{
-  "id": "sec-intro-to-proving-trigonometric-identities-3-2-13",
-  "level": "2",
-  "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-3-2-13",
-  "type": "Exercise",
-  "number": "10.1.2.12",
-  "title": "",
-  "body": "  .    clear fractions, simplify and cancel.   "
-},
-{
-  "id": "sec-intro-to-proving-trigonometric-identities-3-2-14",
-  "level": "2",
-  "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-3-2-14",
-  "type": "Exercise",
-  "number": "10.1.2.13",
-  "title": "",
-  "body": "  .    add fractions, Pythagorean identity.   "
-},
-{
-  "id": "sec-intro-to-proving-trigonometric-identities-3-2-15",
-  "level": "2",
-  "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-3-2-15",
-  "type": "Exercise",
-  "number": "10.1.2.14",
-  "title": "",
-  "body": "  .    start with either side.   "
-},
-{
-  "id": "sec-intro-to-proving-trigonometric-identities-3-2-16",
-  "level": "2",
-  "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-3-2-16",
-  "type": "Exercise",
-  "number": "10.1.2.15",
-  "title": "",
-  "body": "  .    combine fractions, Pythagorean identity, cancel.   "
-},
-{
-  "id": "sec-intro-to-proving-trigonometric-identities-3-2-17",
-  "level": "2",
-  "url": "sec-intro-to-proving-trigonometric-identities.html#sec-intro-to-proving-trigonometric-identities-3-2-17",
-  "type": "Exercise",
-  "number": "10.1.2.16",
-  "title": "",
-  "body": "  .    start with the LHS but RHS works also, clear fractions, cancel, Pythagorean identity, factor and cancel.   "
+  "url": "sec-intro-to-proving-trigonometric-identities.html#examples-proving-identities-3",
+  "type": "Exercise Group",
+  "number": "10.1.2",
+  "title": "Proving Identities (Set 2).",
+  "body": " Proving Identities (Set 2)   Prove each trigonometric identity.     simplify complex fraction, factor and cancel.     simplify complex fraction, factor and cancel.     Pythagorean identity, factor difference of squares, cancel.     factor common factor, reciprocal identity, Pythagorean identity.     multiply by the conjugate, Pythagorean identity, cancel.     combine fractions, Pythagorean identity, factor and cancel.     start with LHS, add fractions, Pythagorean identity.     reciprocal identity, Pythagorean identity.     add fractions, Pythagorean identity.     can start with either side, multiply by the conjugate, Pythagorean identity.     clear fractions, Pythagorean identity.     reciprocal identity, clear fractions, simplify and cancel.     complex fraction clear fractions, common factor, simplify and cancel, quotient identity.     Pythagorean identity, factor difference of squares, cancel.     quotient identity, clear fractions, Pythagorean identity, simplify and cancel.     add fractions, Pythagorean identity.     start with the RHS, quotient identity, combine fractions, Pythagorean identity.     combine fractions, Pythagorean identity, cancel.     start with the LHS but RHS works also, clear fractions, cancel, Pythagorean identity, factor and cancel.     multiply by the conjugate, Pythagorean identity, cancel.     reciprocal identity, combine fractions, Pythagorean identity.     reciprocal identity, clear denominators, factor and cancel.     start with the right side, quotient identity, clear fractions, Pythagorean identity.   "
 },
 {
   "id": "sec-trigonometric-identities-summary",
