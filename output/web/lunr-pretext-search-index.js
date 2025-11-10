@@ -2224,11 +2224,128 @@ var ptx_lunr_docs = [
   "body": " Advanced examples   Prove each trigonometric identity.   combine fractions, Pythagorean identity, factor and cancel.  multiply by the conjugate, Pythagorean identity, cancel.  combine fractions, Pythagorean identity, cancel.  reciprocal identity, clear denominators, factor and cancel.  clear fractions, Pythagorean identity.  factor, Pythagorean identity.  multiply by the conjugate, Pythagorean identity, cancel.  complex fraction clear fractions, common factor, simplify and cancel, quotient identity.  start with the LHS but RHS works also, clear fractions, cancel, Pythagorean identity, factor and cancel.  reciprocal identity, combine fractions, Pythagorean identity.  start with the RHS, quotient identity, complex fraction clear fractions, Pythagorean identity.  reciprocal identity, common denominator, Pythagorean identity, simplify.  quotient identity, reciprocal identity, factor, cancel.  quotient identity, clear fractions, Pythagorean identity, simplify and cancel.  expand, reciprocal identity, combine fractions, Pythagorean identity, factor difference of squares (or multiply by the conjugate), cancel.  difference of squares, Pythagorean identity.  difference of squares, Pythagorean identity, simplify.  "
 },
 {
+  "id": "sec-sum-and-difference-identities",
+  "level": "1",
+  "url": "sec-sum-and-difference-identities.html",
+  "type": "Section",
+  "number": "10.3",
+  "title": "Sum and Difference Identities",
+  "body": " Sum and Difference Identities   The sum identities say that if you know about two angles and , you can also find sine (or cosine, or tangent) of the two angles added together . The difference identities do the same for the difference (subtraction) .   These identities are maybe the most challenging to remember at first, so definitely keep them available when practicing.  The 6 identities can be written more concisely as,   Notice that for cosine and tangent, the left has while the right has a sign, which means that on the left goes with on the right, and on the left goes with on the right.    Finding Exact Values Examples  The sum and difference identities can be used to find trigonometric ratios (like sine, cosine, and tangent) for several angles not typically found on the unit circle (i.e. not just and their multiples).   Finding an Exact Value for Cosine  Find . We can calculate this, because is the sum of two special angles (which we know about). Then, the sum identity for cosine says,   This answer is correct, however we can continue to simplify the result into one fraction,   Therefore, .    Finding an Exact Value for Tangent  Find . Here, after some trial and error, . Then,   This answer is correct, however we can continue to simplify the result,   At this point, it is typically expected that you rationalize the denominator to fully simplify,   Therefore, .   This works for any angle which can be written as the sum of two special angles (or the difference of two special angles). Here are some of the common ones.                Notice that there is often more than one way to write it (but maybe there is one easier way). For example, , but also . Also, in radians,                 Practice: Finding Exact Values   Evaluate each trigonometric ratio exactly, and simplify your answer.         is one combination  is one combination  is one combination    In fact, there are only a limited number of questions of this type that your teacher can give you. Here are all of them (between and ) summarized,   Of course, you shouldn't memorize this table, but it's just to give you an idea of the question style you should expect, and the style of the final answer.     Exact Values with Variable Angles   Practice: Variable Angles   Find each desired value.   Let be in quadrant IV with . Find  Let both be in quadrant I, with . Find and  If and , with in quadrant II and in quadrant IV, find  Given is in quadrant II with and is in quadrant III with , find , and , ,     Simplifying Expressions Using Sum and Difference Identities   Practice: Simplify to a Single Function   Write each expression as a single trigonometric function.        Practice: Simplify and Find Exact Value   Simplify and find an exact value for each expression.               Practice: Simplify Using Sum\/Difference   Simplify each expression using a sum or difference identity.                    Practice: Simplify Variable Expressions   Simplify each expression into a single trigonometric function.          Proving Identities with Sum and Difference Examples   Practice: Prove the Identity   Prove each trigonometric identity.   sum and difference identity, expand, collect like terms     Solving Equations Using the Sum and Difference Identities   Practice: Solve the Equation   Solve each equation.        Other Examples   Find Amplitude, Period, and Phase Shift   Find the amplitude, period, and phase shift of the function .     , amplitude is 3, period is 12, phase shift is left 2.     "
+},
+{
+  "id": "subsec-exact-values-examples-3",
+  "level": "2",
+  "url": "sec-sum-and-difference-identities.html#subsec-exact-values-examples-3",
+  "type": "Example",
+  "number": "10.3.1",
+  "title": "Finding an Exact Value for Cosine.",
+  "body": " Finding an Exact Value for Cosine  Find . We can calculate this, because is the sum of two special angles (which we know about). Then, the sum identity for cosine says,   This answer is correct, however we can continue to simplify the result into one fraction,   Therefore, .  "
+},
+{
+  "id": "subsec-exact-values-examples-4",
+  "level": "2",
+  "url": "sec-sum-and-difference-identities.html#subsec-exact-values-examples-4",
+  "type": "Example",
+  "number": "10.3.2",
+  "title": "Finding an Exact Value for Tangent.",
+  "body": " Finding an Exact Value for Tangent  Find . Here, after some trial and error, . Then,   This answer is correct, however we can continue to simplify the result,   At this point, it is typically expected that you rationalize the denominator to fully simplify,   Therefore, .  "
+},
+{
+  "id": "subsec-exact-values-examples-9",
+  "level": "2",
+  "url": "sec-sum-and-difference-identities.html#subsec-exact-values-examples-9",
+  "type": "Exercise Group",
+  "number": "10.3.1",
+  "title": "Practice: Finding Exact Values.",
+  "body": " Practice: Finding Exact Values   Evaluate each trigonometric ratio exactly, and simplify your answer.         is one combination  is one combination  is one combination  "
+},
+{
+  "id": "subsec-exact-values-examples-10",
+  "level": "2",
+  "url": "sec-sum-and-difference-identities.html#subsec-exact-values-examples-10",
+  "type": "Remark",
+  "number": "10.3.3",
+  "title": "",
+  "body": " In fact, there are only a limited number of questions of this type that your teacher can give you. Here are all of them (between and ) summarized,   Of course, you shouldn't memorize this table, but it's just to give you an idea of the question style you should expect, and the style of the final answer.  "
+},
+{
+  "id": "subsec-exact-values-variable-angles-2",
+  "level": "2",
+  "url": "sec-sum-and-difference-identities.html#subsec-exact-values-variable-angles-2",
+  "type": "Exercise Group",
+  "number": "10.3.2",
+  "title": "Practice: Variable Angles.",
+  "body": " Practice: Variable Angles   Find each desired value.   Let be in quadrant IV with . Find  Let both be in quadrant I, with . Find and  If and , with in quadrant II and in quadrant IV, find  Given is in quadrant II with and is in quadrant III with , find , and , ,  "
+},
+{
+  "id": "subsec-simplifying-expressions-2",
+  "level": "2",
+  "url": "sec-sum-and-difference-identities.html#subsec-simplifying-expressions-2",
+  "type": "Exercise Group",
+  "number": "10.3.3",
+  "title": "Practice: Simplify to a Single Function.",
+  "body": " Practice: Simplify to a Single Function   Write each expression as a single trigonometric function.      "
+},
+{
+  "id": "subsec-simplifying-expressions-3",
+  "level": "2",
+  "url": "sec-sum-and-difference-identities.html#subsec-simplifying-expressions-3",
+  "type": "Exercise Group",
+  "number": "10.3.4",
+  "title": "Practice: Simplify and Find Exact Value.",
+  "body": " Practice: Simplify and Find Exact Value   Simplify and find an exact value for each expression.             "
+},
+{
+  "id": "subsec-simplifying-expressions-4",
+  "level": "2",
+  "url": "sec-sum-and-difference-identities.html#subsec-simplifying-expressions-4",
+  "type": "Exercise Group",
+  "number": "10.3.5",
+  "title": "Practice: Simplify Using Sum\/Difference.",
+  "body": " Practice: Simplify Using Sum\/Difference   Simplify each expression using a sum or difference identity.                  "
+},
+{
+  "id": "subsec-simplifying-expressions-5",
+  "level": "2",
+  "url": "sec-sum-and-difference-identities.html#subsec-simplifying-expressions-5",
+  "type": "Exercise Group",
+  "number": "10.3.6",
+  "title": "Practice: Simplify Variable Expressions.",
+  "body": " Practice: Simplify Variable Expressions   Simplify each expression into a single trigonometric function.       "
+},
+{
+  "id": "subsec-proving-identities-2",
+  "level": "2",
+  "url": "sec-sum-and-difference-identities.html#subsec-proving-identities-2",
+  "type": "Exercise Group",
+  "number": "10.3.7",
+  "title": "Practice: Prove the Identity.",
+  "body": " Practice: Prove the Identity   Prove each trigonometric identity.   sum and difference identity, expand, collect like terms  "
+},
+{
+  "id": "subsec-solving-equations-2",
+  "level": "2",
+  "url": "sec-sum-and-difference-identities.html#subsec-solving-equations-2",
+  "type": "Exercise Group",
+  "number": "10.3.8",
+  "title": "Practice: Solve the Equation.",
+  "body": " Practice: Solve the Equation   Solve each equation.     "
+},
+{
+  "id": "subsec-other-examples-2",
+  "level": "2",
+  "url": "sec-sum-and-difference-identities.html#subsec-other-examples-2",
+  "type": "Checkpoint",
+  "number": "10.3.4",
+  "title": "Find Amplitude, Period, and Phase Shift.",
+  "body": " Find Amplitude, Period, and Phase Shift   Find the amplitude, period, and phase shift of the function .     , amplitude is 3, period is 12, phase shift is left 2.   "
+},
+{
   "id": "sec-trigonometric-identities-summary",
   "level": "1",
   "url": "sec-trigonometric-identities-summary.html",
   "type": "Section",
-  "number": "10.3",
+  "number": "10.4",
   "title": "Summary of Trigonometric Identities",
   "body": " Summary of Trigonometric Identities   Summary of Trigonometric Identities    "
 },

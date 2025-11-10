@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-sum-and-difference-identities" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Sum and Difference Identities</title>
+  
+  <introduction>
+    <p>
+      The sum identities say that if you know about two angles <m>\alpha</m> and <m>\beta</m>, you can also find sine (or cosine, or tangent) of the two angles added together <m>\alpha + \beta</m>. The difference identities do the same for the difference (subtraction) <m>\alpha - \beta</m>.
+    </p>
+    <md>
+      <mrow>\boxed{\begin{aligned}
+        \sin{(\alpha + \beta)} \amp = \sin{\alpha}\cos{\beta} + \cos{\alpha}\sin{\beta} \\
+        \sin{(\alpha - \beta)} \amp = \sin{\alpha}\cos{\beta} - \cos{\alpha}\sin{\beta} \\ 
+        \cos{(\alpha + \beta)} \amp = \cos{\alpha}\cos{\beta} - \sin{\alpha}\sin{\beta} \\
+        \cos{(\alpha - \beta)} \amp = \cos{\alpha}\cos{\beta} + \sin{\alpha}\sin{\beta} \\
+        \tan{(\alpha + \beta)} \amp = \frac{\tan{\alpha} + \tan{\beta}}{1 - \tan{\alpha} \tan{\beta}} \\
+        \tan{(\alpha - \beta)} \amp = \frac{\tan{\alpha} - \tan{\beta}}{1 + \tan{\alpha}\tan{\beta}}
+        \end{aligned}}</mrow>
+      </md>
+      <p>
+        These identities are maybe the most challenging to remember at first, so definitely keep them available when practicing.
+      </p>
+      <p>
+        The 6 identities can be written more concisely as,
+      </p>
+      <md>
+        <mrow>\boxed{\begin{array}{l}
+          \sin{(\alpha \pm \beta)} = \sin{\alpha} \cos{\beta} \pm \cos{\alpha} \sin{\beta} \\
+          \cos{(\alpha \pm \beta)} = \cos{\alpha} \cos{\beta} \mp \sin{\alpha} \sin{\beta} \\
+          \tan{(\alpha \pm \beta)} = \dfrac{\tan{\alpha} \pm \tan{\beta}}{1 \mp \tan{\alpha} \tan{\beta}}
+          \end{array}}</mrow>
+        </md>
+        <p>
+          Notice that for cosine and tangent, the left has <m>\pm</m> while the right has a <m>\mp</m> sign, which means that <m>+</m> on the left goes with <m>-</m> on the right, and <m>-</m> on the left goes with <m>+</m> on the right.
+        </p>
+      </introduction>
+      
+      <subsection xml:id="subsec-exact-values-examples">
+        <title>Finding Exact Values Examples</title>
+        
+        <p>
+          The sum and difference identities can be used to find trigonometric ratios (like sine, cosine, and tangent) for several angles not typically found on the unit circle (i.e. not just <m>0, \pi/6, \pi/4, \pi/3, \pi/2</m> and their multiples). 
+        </p>
+        
+        <example>
+          <title>Finding an Exact Value for Cosine</title>
+          <p>
+            Find <m>\cos{\ang{105}}</m>. We can calculate this, because <m>\ang{105} = \ang{60} + \ang{45}</m> is the sum of two special angles (which we know about). Then, the sum identity for cosine says,
+          </p>
+          <md>
+            <mrow>    \cos{\ang{105}} \amp= \cos{(\ang{60} + \ang{45})} \\</mrow>
+            <mrow>    \amp= \cos{\ang{60}}\cos{\ang{45}} - \sin{\ang{60}}\sin{\ang{45}} \\</mrow>
+            <mrow>    \amp= \frac{1}{2} \cdot \frac{\sqrt{2}}{2} - \frac{\sqrt{3}}{2} \cdot \frac{\sqrt{2}}{2}
+            </mrow>
+          </md>
+          <p>
+            This answer is correct, however we can continue to simplify the result into one fraction,
+          </p>
+          <md>
+            <mrow>    \amp= \frac{\sqrt{2}}{4} - \frac{\sqrt{6}}{4} \\</mrow>
+            <mrow>    \amp= \frac{\sqrt{2} - \sqrt{6}}{4}
+            </mrow>
+          </md>
+          <p>
+            Therefore, <m>\cos{\ang{105}} = \frac{\sqrt{2} - \sqrt{6}}{4}</m>.
+          </p>
+        </example>
+        
+        <example>
+          <title>Finding an Exact Value for Tangent</title>
+          <p>
+            Find <m>\tan{\brac{\frac{5\pi}{12}}}</m>. Here, after some trial and error, <m>\frac{5\pi}{12} = \frac{\pi}{4} + \frac{\pi}{6}</m>. Then,
+          </p>
+          <md>
+            <mrow>    \tan{\brac{\frac{5\pi}{12}}} \amp= \tan{\brac{\frac{\pi}{4} + \frac{\pi}{6}}} \\</mrow>
+            <mrow>    \amp= \frac{\tan{\frac{\pi}{4}} + \tan{\frac{\pi}{6}}}{1 - \tan{\frac{\pi}{4}}\tan{\frac{\pi}{6}}} \\</mrow>
+            <mrow>    \amp= \frac{1 + \frac{\sqrt{3}}{3}}{1 - 1 \cdot \frac{\sqrt{3}}{3}} \\</mrow>
+            <mrow>    \amp= \frac{1 + \frac{\sqrt{3}}{3}}{1 - \frac{\sqrt{3}}{3}}
+            </mrow>
+          </md>
+          <p>
+            This answer is correct, however we can continue to simplify the result,
+          </p>
+          <md>
+            <mrow>    \amp= \frac{3 + \sqrt{3}}{3 - \sqrt{3}} &amp;&amp; \text{multiplying numerator and denominator by 3}
+            </mrow>
+          </md>
+          <p>
+            At this point, it is typically expected that you rationalize the denominator to fully simplify,
+          </p>
+          <md>
+            <mrow>    \amp= \frac{3 + \sqrt{3}}{3 - \sqrt{3}} \cdot \frac{3 + \sqrt{3}}{3 + \sqrt{3}} &amp;&amp; \text{multiplying numerator and denominator by $3 + \sqrt{3}$} \\</mrow>
+            <mrow>    \amp= \frac{3 + 2\sqrt{3} + 1}{2} \\</mrow>
+            <mrow>    \amp = \frac{4 + 2\sqrt{3}}{2} \\</mrow>
+            <mrow>    \amp= 2 + \sqrt{3}
+            </mrow>
+          </md>
+          <p>
+            Therefore, <m>\tan{\brac{\frac{5\pi}{12}}} = 2 + \sqrt{3}</m>.
+          </p>
+        </example>
+        
+        <p>
+          This works for any angle which can be written as the sum of two special angles (or the difference of two special angles). Here are some of the common ones.
+        </p>
+        
+        <ul>
+          <li>
+            <m>\ang{15} = \ang{45} - \ang{30} = \ang{60} - \ang{45}</m>
+          </li>
+          <li>
+            <m>\ang{75} = \ang{45} + \ang{30}</m>
+          </li>
+          <li>
+            <m>\ang{105} = \ang{60} + \ang{45}</m>
+          </li>
+          <li>
+            <m>\ang{165} = \ang{120} + \ang{45}</m>
+          </li>
+        </ul>
+        
+        <p>
+          Notice that there is often more than one way to write it (but maybe there is one easier way). For example, <m>\ang{105} = \ang{60} + \ang{45}</m>, but also <m>\ang{105} = \ang{150} - \ang{45}</m>. Also, in radians,
+        </p>
+        
+        <ul>
+          <li>
+            <m>\frac{\pi}{12} = \frac{\pi}{4} - \frac{\pi}{6} = \frac{\pi}{3} - \frac{\pi}{4}</m>
+          </li>
+          <li>
+            <m>\frac{5\pi}{12} = \frac{\pi}{4} + \frac{\pi}{6}</m>
+          </li>
+          <li>
+            <m>\frac{7\pi}{12} = \frac{\pi}{3} + \frac{\pi}{4}</m>
+          </li>
+          <li>
+            <m>\frac{11\pi}{12} = \frac{2\pi}{3} + \frac{\pi}{4}</m>
+          </li>
+        </ul>
+        
+        <project>
+          <title>Practice: Finding Exact Values</title>
+          <introduction>
+            <p>
+              Evaluate each trigonometric ratio exactly, and simplify your answer.
+            </p>
+          </introduction>
+          <task><statement><m>\sin{\ang{15}}</m></statement><answer><m>\frac{\sqrt{6} - \sqrt{2}}{4}</m></answer></task>
+          <task><statement><m>\cos{\brac{\frac{5\pi}{12}}}</m></statement><answer><m>\frac{\sqrt{6} - \sqrt{2}}{4}</m></answer></task>
+          <task><statement><m>\tan{\ang{105}}</m></statement><answer><m>-2 - \sqrt{3}</m></answer></task>
+          <task><statement><m>\sin 105^\circ</m></statement><answer><m>\frac{\sqrt{6} + \sqrt{2}}{4}</m></answer></task>
+          <task><statement><m>\tan 15^\circ</m></statement><answer><m>2 - \sqrt{3}</m></answer></task>
+          <task><statement><m>\sin{\brac{\frac{7\pi}{12}}}</m></statement><answer><m>\frac{\sqrt{6} + \sqrt{2}}{4}</m></answer></task>
+          <task><statement><m>\cos{\ang{285}}</m></statement><hint><p><m>\ang{285} = \ang{240} + \ang{45}</m> is one combination</p></hint><answer><m>\frac{\sqrt{6} - \sqrt{2}}{4}</m></answer></task>
+          <task><statement><m>\sin{\frac{23\pi}{12}}</m></statement><hint><p><m>\frac{23\pi}{12} = \frac{5\pi}{3} + \frac{\pi}{4}</m> is one combination</p></hint><answer><m>\frac{\sqrt{2} - \sqrt{6}}{4}</m></answer></task>
+          <task><statement><m>\tan{\brac{-\frac{5\pi}{12}}}</m></statement><hint><p><m>-\frac{5\pi}{12} = -\frac{\pi}{4} - \frac{\pi}{6}</m> is one combination</p></hint><answer><m>-2-\sqrt{3}</m></answer></task>
+        </project>
+        
+        <remark>
+          <p>
+            In fact, there are only a limited number of questions of this type that your teacher can give you. Here are all of them (between <m>\ang{0}</m> and <m>\ang{360}</m>) summarized,
+          </p>
+          <md>
+            <mrow>
+              \begin{array}{c|c|c|c|c}
+              \text{Angle (degrees)} \amp \text{Angle (radians)} \amp \text{Sine} \amp \text{Cosine} \amp \text{Tangent} \\
+              \hline
+              \ang{15} \amp \frac{\pi}{12} \amp \frac{\sqrt{6} - \sqrt{2}}{4} \amp \frac{\sqrt{6} + \sqrt{2}}{4} \amp 2 - \sqrt{3} \\[4pt]
+              \ang{75} \amp \frac{5\pi}{12} \amp \frac{\sqrt{6} + \sqrt{2}}{4} \amp \frac{\sqrt{6} - \sqrt{2}}{4} \amp 2 + \sqrt{3} \\[4pt]
+              \ang{105} \amp \frac{7\pi}{12} \amp \frac{\sqrt{6} + \sqrt{2}}{4} \amp \frac{-\sqrt{6} + \sqrt{2}}{4} \amp -2 - \sqrt{3} \\[4pt]
+              \ang{165} \amp \frac{11\pi}{12} \amp \frac{\sqrt{6} - \sqrt{2}}{4} \amp \frac{-\sqrt{6} - \sqrt{2}}{4} \amp -2 + \sqrt{3} \\[4pt]
+              \ang{195} \amp \frac{13\pi}{12} \amp \frac{-\sqrt{6} + \sqrt{2}}{4} \amp \frac{-\sqrt{6} - \sqrt{2}}{4} \amp 2 - \sqrt{3} \\[4pt]
+              \ang{255} \amp \frac{17\pi}{12} \amp \frac{-\sqrt{6} - \sqrt{2}}{4} \amp \frac{-\sqrt{6} + \sqrt{2}}{4} \amp 2 + \sqrt{3} \\[4pt]
+              \ang{285} \amp \frac{19\pi}{12} \amp \frac{-\sqrt{6} - \sqrt{2}}{4} \amp \frac{\sqrt{6} - \sqrt{2}}{4} \amp -2 - \sqrt{3} \\[4pt]
+              \ang{345} \amp \frac{23\pi}{12} \amp \frac{-\sqrt{6} + \sqrt{2}}{4} \amp \frac{\sqrt{6} + \sqrt{2}}{4} \amp -2 + \sqrt{3}
+              \end{array}
+            </mrow>
+          </md>
+          
+          <p>
+            Of course, you shouldn't memorize this table, but it's just to give you an idea of the question style you should expect, and the style of the final answer.
+          </p>
+        </remark>
+      </subsection>
+      
+      <subsection xml:id="subsec-exact-values-variable-angles">
+        <title>Exact Values with Variable Angles</title>
+        
+        <project>
+          <title>Practice: Variable Angles</title>
+          <introduction>
+            <p>
+              Find each desired value.
+            </p>
+          </introduction>
+          <task><statement>Let <m>\theta</m> be in quadrant IV with <m>\cos{\theta} = \frac{3}{5}</m>. Find <m>\cos{\brac{\theta + \frac{\pi}{3}}}</m></statement><answer><m>\frac{3 + 4\sqrt{3}}{10}</m></answer></task>
+          <task><statement>Let <m>x, y</m> both be in quadrant I, with <m>\sin{x} = \frac{1}{5}, \cos{y} = \frac{2}{3}</m>. Find <m>\sin{(x+y)}</m> and <m>\cos{(x-y)}</m></statement><answer><m>\sin{(x+y)} = \frac{2+2\sqrt{30}}{15}, \cos{(x-y)} = \frac{4\sqrt{6} + \sqrt{5}}{15}</m></answer></task>
+          <task><statement>If <m>\sin{\alpha} = \frac{3}{5}</m> and <m>\sin{\beta} = -\frac{12}{13}</m>, with <m>\alpha</m> in quadrant II and <m>\beta</m> in quadrant IV, find <m>\sin{\brac{\alpha - \beta}}</m></statement><answer><m>-\frac{33}{65}</m></answer></task>
+          <task><statement>Given <m>\alpha</m> is in quadrant II with <m>\sin{\alpha} = \frac{1}{\sqrt{10}}</m> and <m>\beta</m> is in quadrant III with <m>\cos{\beta} = -\frac{5}{7}</m>, find <m>\sin{\brac{\alpha + \beta}}, \cos{\brac{\alpha + \beta}}</m>, and <m>\tan{\brac{\alpha + \beta}}</m></statement><answer><m>\sin{\brac{\alpha + \beta}} = \frac{-5-6\sqrt{6}}{7\sqrt{10}} = \frac{-5\sqrt{10} + 12\sqrt{15}}{70}</m>, <m>\cos{\brac{\alpha + \beta}} = \frac{15 + 2\sqrt{6}}{7\sqrt{10}} = \frac{15\sqrt{10} + 4\sqrt{15}}{70}</m>, <m>\tan{\brac{\alpha + \beta}} = \frac{-5 + 6\sqrt{6}}{15 + 2\sqrt{6}} = \frac{-147 + 100\sqrt{6}}{201}</m></answer></task>
+        </project>
+      </subsection>
+      
+      <subsection xml:id="subsec-simplifying-expressions">
+        <title>Simplifying Expressions Using Sum and Difference Identities</title>
+        
+        <project>
+          <title>Practice: Simplify to a Single Function</title>
+          <introduction>
+            <p>
+              Write each expression as a single trigonometric function.
+            </p>
+          </introduction>
+          <task><statement><m>\sin 28^\circ \cos 35^\circ + \cos 28^\circ \sin 35^\circ</m></statement><answer><m>\sin 63^\circ</m></answer></task>
+          <task><statement><m>\cos 10^\circ \cos 7^\circ - \sin 10^\circ \sin 7^\circ</m></statement><answer><m>\cos 17^\circ</m></answer></task>
+          <task><statement><m>\sin \frac{\pi}{3} \cos \frac{\pi}{4} - \cos \frac{\pi}{3} \sin \frac{\pi}{4}</m></statement><answer><m>\sin \brac{\frac{\pi}{12}}</m></answer></task>
+        </project>
+        
+        <project>
+          <title>Practice: Simplify and Find Exact Value</title>
+          <introduction>
+            <p>
+              Simplify and find an exact value for each expression.
+            </p>
+          </introduction>
+          <task><statement><m>\cos{25^\circ}\cos{5^\circ} - \sin{25^\circ}\sin{5^\circ}</m></statement><hint><m>= \cos{(25^\circ + 5^\circ)}</m></hint><answer><m>\frac{\sqrt{3}}{2}</m></answer></task>
+          <task><statement><m>\sin{40^\circ}\cos{20^\circ} + \cos{40^\circ}\sin{20^\circ}</m></statement><hint><m>= \sin{(40^\circ + 20^\circ)}</m></hint><answer><m>\frac{\sqrt{3}}{2}</m></answer></task>
+          <task><statement><m>\sin{\frac{\pi}{3}}\cos{\frac{\pi}{6}} + \cos{\frac{\pi}{3}}\sin{\frac{\pi}{6}}</m></statement><hint><m>= \sin{(\frac{\pi}{3} + \frac{\pi}{6})}</m></hint><answer><m>1</m></answer></task>
+          <task><statement><m>\cos{\frac{7\pi}{12}}\cos{\frac{\pi}{3}} + \sin{\frac{7\pi}{12}}\sin{\frac{\pi}{3}}</m></statement><hint><m>= \cos{(\frac{7\pi}{12} - \frac{\pi}{3})}</m></hint><answer><m>\frac{\sqrt{2}}{2}</m></answer></task>
+          <task><statement><m>\sin{110^\circ}\cos{20^\circ} - \cos{110^\circ}\sin{20^\circ}</m></statement><hint><m>= \sin{(110^\circ - 20^\circ)}</m></hint><answer><m>1</m></answer></task>
+          <task><statement><m>\cos{40^\circ}\cos{20^\circ} - \sin{40^\circ}\sin{20^\circ}</m></statement><hint><m>= \cos{(40^\circ + 20^\circ)}</m></hint><answer><m>\frac{1}{2}</m></answer></task>
+          <task><statement><m>\cos{\frac{\pi}{12}}\cos{\frac{\pi}{4}} + \sin{\frac{\pi}{12}}\sin{\frac{\pi}{4}}</m></statement><hint><m>= \cos{(\frac{\pi}{12} - \frac{\pi}{4})}</m></hint><answer><m>\frac{\sqrt{3}}{2}</m></answer></task>
+          <task><statement><m>\cos{\frac{\pi}{3}}\cos{\frac{5\pi}{6}} + \sin{\frac{\pi}{3}}\sin{\frac{5\pi}{6}}</m></statement><hint><m>= \cos{(\frac{\pi}{3} - \frac{5\pi}{6})}</m></hint><answer><m>0</m></answer></task>
+          <task><statement><m>\sin{\frac{2\pi}{3}}\cos{\frac{\pi}{6}} - \cos{\frac{2\pi}{3}}\sin{\frac{\pi}{6}}</m></statement><hint><m>= \sin{(\frac{2\pi}{3} - \frac{\pi}{6})}</m></hint><answer><m>1</m></answer></task>
+          <task><statement><m>\frac{\tan{\frac{\pi}{3}} - \tan{\frac{\pi}{6}}}{1 + \tan{\frac{\pi}{3}}\tan{\frac{\pi}{6}}}</m></statement><hint><m>= \tan{(\frac{\pi}{3} - \frac{\pi}{6})}</m></hint><answer><m>\frac{\sqrt{3}}{3}</m></answer></task>
+        </project>
+        
+        <project>
+          <title>Practice: Simplify Using Sum/Difference</title>
+          <introduction>
+            <p>
+              Simplify each expression using a sum or difference identity.
+            </p>
+          </introduction>
+          <task><statement><m>\sin \brac{90^\circ + x}</m></statement><answer><m>\cos x</m></answer></task>
+          <task><statement><m>\cos \brac{90^\circ + x}</m></statement><answer><m>-\sin x</m></answer></task>
+          <task><statement><m>\sin \brac{\pi + x}</m></statement><answer><m>-\sin x</m></answer></task>
+          <task><statement><m>\cos \brac{2\pi + x}</m></statement><answer><m>\cos x</m></answer></task>
+          <task><statement><m>\cos{\brac{\pi - x}}</m></statement><answer><m>-\cos x</m></answer></task>
+          <task><statement><m>\sin{\brac{\frac{\pi}{2} - x}}</m></statement><answer><m>\cos x</m></answer></task>
+          <task><statement><m>\cos{\brac{\frac{\pi}{2} + x}}</m></statement><answer><m>-\sin x</m></answer></task>
+          <task><statement><m>\tan{\brac{\pi - x}}</m></statement><answer><m>-\tan{x}</m></answer></task>
+          <task><statement><m>\sin \brac{90^\circ - x}</m></statement><answer><m>\cos x</m></answer></task>
+          <task><statement><m>\cos{\brac{x + \pi}}</m></statement><answer><m>-\cos x</m></answer></task>
+          <task><statement><m>\sin \brac{270^\circ - x}</m></statement><answer><m>-\cos x</m></answer></task>
+          <task><statement><m>\cos{\brac{x + 2\pi}}</m></statement><answer><m>\cos{x}</m></answer></task>
+          <task><statement><m>\cos{\brac{\frac{3\pi}{2} + x}}</m></statement><answer><m>\sin x</m></answer></task>
+          <task><statement><m>\sin{\brac{\frac{3\pi}{2} - x}}</m></statement><answer><m>-\cos{x}</m></answer></task>
+          <task><statement><m>\tan{\brac{4\pi + x}}</m></statement><answer><m>\tan{x}</m></answer></task>
+        </project>
+        
+        <project>
+          <title>Practice: Simplify Variable Expressions</title>
+          <introduction>
+            <p>
+              Simplify each expression into a single trigonometric function.
+            </p>
+          </introduction>
+          <task><statement><m>\cos{(7x)} \cos{(5x)} - \sin{(7x)} \sin{(5x)}</m></statement><answer><m>\cos{(12x)}</m></answer></task>
+          <task><statement><m>\sin{(2x)} \sin{(3x)} - \cos{(2x)} \cos{(3x)}</m></statement><answer><m>-\cos{(5x)}</m></answer></task>
+          <task><statement><m>\cos{(3x)} \cos{x} - \sin{(3x)} \sin{x}</m></statement><answer><m>\cos{(4x)}</m></answer></task>
+          <task><statement><m>\cos{(2x)} \cos{x} + \sin{(2x)} \sin{x}</m></statement><answer><m>\cos{x}</m></answer></task>
+        </project>
+      </subsection>
+      
+      <subsection xml:id="subsec-proving-identities">
+        <title>Proving Identities with Sum and Difference Examples</title>
+        
+        <project>
+          <title>Practice: Prove the Identity</title>
+          <introduction>
+            <p>
+              Prove each trigonometric identity.
+            </p>
+          </introduction>
+          <task><statement><m>\cos(x+y)\cos(x-y)=\cos^{2}x-\sin^{2}y</m></statement><hint><p>sum and difference identity, expand, collect like terms</p></hint></task>
+        </project>
+      </subsection>
+      
+      <subsection xml:id="subsec-solving-equations">
+        <title>Solving Equations Using the Sum and Difference Identities</title>
+        
+        <project>
+          <title>Practice: Solve the Equation</title>
+          <introduction>
+            <p>
+              Solve each equation.
+            </p>
+          </introduction>
+          <task><statement><m>\cos{(2x)} \cos{x} - \sin{(2x)} \sin{x} = 0</m></statement><answer><m>x = \frac{\pi}{6} + \frac{\pi}{3} n, n \in \mathbb{I}</m></answer></task>
+          <task><statement><m>\sin\brac{x + \frac{\pi}{4}} = \sqrt{2} \cos{x}</m></statement><answer><m>x = \frac{\pi}{4} + \pi n, n \in \mathbb{I}</m></answer></task>
+        </project>
+      </subsection>
+      
+      <subsection xml:id="subsec-other-examples">
+        <title>Other Examples</title>
+        
+        <exercise>
+          <title>Find Amplitude, Period, and Phase Shift</title>
+          <statement>
+            <p>
+              Find the amplitude, period, and phase shift of the function <m>f(x) = 3 \sin\brac{\frac{\pi}{6}x} \cos\brac{\frac{\pi}{3}} + 3 \cos\brac{\frac{\pi}{6}x} \sin\brac{\frac{\pi}{3}}</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>f(x) = 3 \sin{\brac{\frac{\pi}{6}(x+2)}}</m>, amplitude is 3, period is 12, phase shift is left 2.
+            </p>
+          </answer>
+        </exercise>
+      </subsection>
+      
+    </section>

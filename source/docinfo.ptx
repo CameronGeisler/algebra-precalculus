@@ -32,6 +32,7 @@
     \newcommand{\eval}[1]{\left. #1 \right|}
     \newcommand{\floor}[1]{\left\lfloor #1 \right\rfloor}
     \newcommand{\ceil}[1]{\left\lceil #1 \right\rceil}
+    \newcommand{\ang}[1]{#1^\circ}
     
     <!-- % define \crossmethod{<TL>}{<BL>}{<TR>}{<BR>} -->
     \newcommand{\crossmethod}[4]{%
