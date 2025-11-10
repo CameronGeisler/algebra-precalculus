@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-double-angle-identities" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Double-Angle Identities</title>
+  
+  <introduction>
+    <p>
+      Identities about double angles can be derived from the sum and difference identities.
+    </p>
+    <md>
+      <mrow>\begin{array}{ccc}
+        \boxed{\sin{2\theta} = 2\sin{\theta}\cos{\theta}} \amp \quad \boxed{\begin{array}{rl}
+        \cos{2\theta} \amp = \cos^2{\theta} - \sin^2{\theta} \\
+        \amp = 2\cos^2{\theta} - 1 \\
+        \amp = 1 - 2\sin^2{\theta}
+        \end{array}}
+        \amp \quad \boxed{\tan{2\theta} = \frac{2\tan{\theta}}{1 - \tan^2{\theta}}}
+        \end{array}
+      </mrow>
+    </md>
+    
+    <p>
+      These are expressions for the trigonometric ratios of double angles, (<m>\sin{(2\theta)}, \cos{(2\theta)}</m>, and <m>\tan{(2\theta)}</m>), in terms of their associated <q>single</q> angles (<m>\sin{\theta}, \cos{\theta}</m>, and <m>\tan{\theta}</m>).
+    </p>
+  </introduction>
+  
+  <subsection xml:id="subsec-finding-exact-value-examples-da">
+    <title>Finding Exact Value Examples</title>
+    <project>
+      <title>Practice: Evaluate Using Double-Angle Identity</title>
+      <introduction>
+        <p>
+          Evaluate each expression exactly, using a double-angle identity.
+        </p>
+      </introduction>
+      <task><statement><m>2 \sin{\frac{\pi}{12}} \cos{\frac{\pi}{12}}</m></statement><answer><m>\frac{1}{2}</m></answer></task>
+      <task><statement><m>\cos^2{\frac{\pi}{3}} - \sin^2{\frac{\pi}{3}}</m></statement><answer><m>-\frac{1}{2}</m></answer></task>
+      <task><statement><m>\frac{2 \tan \frac{\pi}{6}}{1 - \tan^2 \frac{\pi}{6}}</m></statement><answer><m>\sqrt{3}</m></answer></task>
+      <task><statement><m>1 - 2 \sin^2 15^\circ</m></statement><answer><m>\frac{\sqrt{3}}{2}</m></answer></task>
+      <task><statement><m>\cos^2 \frac{\pi}{3} - \sin^2 \frac{\pi}{3}</m></statement><answer><m>-\frac{1}{2}</m></answer></task>
+      <task><statement><m>2 \sin \frac{\pi}{6} \cos \frac{\pi}{6}</m></statement><answer><m>\frac{\sqrt{3}}{2}</m></answer></task>
+    </project>
+    
+    <project>
+      <title>Practice: Expand Double-Angle Identity</title>
+      <introduction>
+        <p>
+          Expand each double-angle identity.
+        </p>
+      </introduction>
+      <task><statement><m>3\sin{4x}</m></statement><answer><m>6\sin{2x}\cos{2x}</m></answer></task>
+      <task><statement><m>4\tan{6x}</m></statement><answer><m>\displaystyle \frac{8\tan{3x}}{1 - \tan^2{3x}}</m></answer></task>
+      <task><statement><m>\frac{1}{2}\sin{\frac{1}{2}x}</m></statement><answer><m>\frac{1}{4}\sin{\frac{x}{4}}\cos{\frac{x}{4}}</m></answer></task>
+      <task><statement><m>\frac{1}{4}\tan{\frac{1}{2}x}</m></statement><answer><m>\displaystyle \frac{1}{2}\cdot\frac{\tan{\frac{x}{4}}}{1 - \tan^2{\frac{x}{4}}}</m></answer></task>
+    </project>
+    
+    <project>
+      <title>Practice: Find Exact Value from Given Information</title>
+      <introduction>
+        <p>
+          Find the exact value of each trigonometric ratio, from the given information.
+        </p>
+      </introduction>
+      <task><statement>If <m>\sin{\theta} = \frac{12}{13}</m>, where <m>\frac{\pi}{2} \lt \theta \lt \pi</m>, then find <m>\sin{(2\theta)}, \cos{(2\theta)}</m> and <m>\tan{(2\theta)}</m></statement><answer><m>\sin{(2\theta)} = -\frac{120}{169}, \cos{(2\theta)} = -\frac{119}{169}, \tan{(2\theta)} = \frac{120}{119}</m></answer></task>
+      <task><statement>Let <m>\cos{\theta} = -\frac{7}{25}</m> and <m>\ang{90} \lt \theta \lt \ang{180}</m>. Find <m>\sin{(2\theta)}, \cos{(2\theta)}</m> and <m>\tan{(2\theta)}</m></statement><answer><m>\sin{(2\theta)} = -\frac{336}{625}, \cos{(2\theta)} = -\frac{527}{625}, \tan{(2\theta)} = \frac{336}{527}</m></answer></task>
+      <task><statement>Let <m>\theta</m> be an angle in quadrant III with <m>\cos{\theta} = -\frac{8}{17}</m>. find <m>\sin{(2\theta)}, \cos{(2\theta)}</m> and <m>\tan{(2\theta)}</m></statement><answer><m>\sin{(2\theta)} = \frac{240}{289}, \cos{(2\theta)} = -\frac{161}{289}, \tan{(2\theta)} = -\frac{240}{161}</m></answer></task>
+      <task><statement>If <m>\sin{\theta} = -\frac{12}{13}</m> and <m>\theta</m> is in quadrant III, find <m>\sin{(2\theta)}, \cos{(2\theta)}</m> and <m>\tan{(2\theta)}</m></statement><answer><m>\sin{(2\theta)} = \frac{120}{169}, \cos{(2\theta)} = -\frac{119}{169}, \tan{(2\theta)} = -\frac{120}{119}</m></answer></task>
+      <task><statement>If <m>\sin{\theta} = \frac{5}{13}</m> and <m>\frac{\pi}{2} \lt \theta \lt \pi</m>. Find <m>\sin{(2\theta)}, \cos{(2\theta)}</m> and <m>\tan{(2\theta)}</m></statement><answer><m>\sin{(2\theta)} = -\frac{120}{169}, \cos{(2\theta)} = \frac{119}{169}, \tan{(2\theta)} = -\frac{120}{119}</m></answer></task>
+    </project>
+  </subsection>
+  
+  <subsection xml:id="subsec-simplify-double-angle">
+    <title>Simplify Using Double-Angle Identities</title>
+    
+    <project>
+      <title>Practice: Simplify Using Double-Angle Identities</title>
+      <introduction>
+        <p>
+          Simplify each expression as a single trigonometric function.
+        </p>
+      </introduction>
+      <task><statement><m>2 \sin{(4x)} \cos{(4x)}</m></statement><answer><m>\sin{(8x)}</m></answer></task>
+      <task><statement><m>10 \cos^2{x} - 5</m></statement><answer><m>5 \cos{(2x)}</m></answer></task>
+      <task><statement><m>2 \sin{\brac{\frac{1}{2} x}} \cos{\brac{\frac{1}{2} x}}</m></statement><answer><m>\sin{x}</m></answer></task>
+      <task><statement><m>1 - 2 \sin^2{(3x)}</m></statement><answer><m>\cos{(6x)}</m></answer></task>
+      <task><statement><m>\frac{4\tan{(3x)}}{1 - \tan^2{(3x)}}</m></statement><answer><m>2 \tan{(6x)}</m></answer></task>
+      <task><statement><m>\frac{\sin{(2x)}}{\cos{(2x)} + 1}</m></statement><hint><p>choose the double angle for cosine which cancels out the 1 in the denominator</p></hint><answer><m>\tan{x}</m></answer></task>
+      <task><statement><m>\frac{\cos^3{x}}{\cos(2x) + \sin^2{x}}</m></statement><answer><m>\cos{x}</m></answer></task>
+      <task><statement><m>\frac{\cos{(2x)} + 1}{2 \cos{x}}</m></statement><hint><p>choose the double angle for cosine which cancels out the <m>1</m> in the numerator</p></hint><answer><m>\cos{x}</m></answer></task>
+      <task><statement><m>\frac{\sin 2x}{2 \sin x}</m></statement><answer><m>\cos x</m></answer></task>
+      <task><statement><m>\frac{\cos 2x - 1}{2 \sin x}</m></statement><hint><p>choose the double angle for cosine which cancels out the <m>-1</m> in the numerator</p></hint><answer><m>-\sin x</m></answer></task>
+      <task><statement><m>\frac{\sin^3 x}{\cos 2x - \cos^2 x}</m></statement><answer><m>\frac{\sin x}{2}</m></answer></task>
+      <task><statement><m>6 \sin{(8x)} \cos{(8x)}</m></statement><answer><m>3 \sin{(16x)}</m></answer></task>
+      <task><statement><m>4 \sin^2{(2x)} - 2</m></statement><answer><m>-2 \cos{(4x)}</m></answer></task>
+      <task><statement><m>\frac{3-6\sin^2{x}}{2\sin{x}\cos{x}}</m></statement><answer><m>3 \cot{(2x)}</m></answer></task>
+      <task><statement><m>\brac{\sin^2{x} - \cos^2{x}}^2 - \sin^2{(2x)}</m></statement><hint><p>use a double-angle identity, do not expand</p></hint><answer><m>\cos{(4x)}</m></answer></task>
+    </project>
+  </subsection>
+  
+  <subsection xml:id="subsec-equations-double-angle">
+    <title>Equations Using Double-Angle Identities</title>
+    
+    <project>
+      <title>Practice: Solve Equations Using Double-Angle Identities</title>
+      <introduction>
+        <p>
+          Solve each equation, by finding all solutions in the interval <m>[0,2\pi)</m> and the general solution.
+        </p>
+      </introduction>
+      <task><statement><m>\cos{(2x)} = \sin{x}</m></statement><answer><p><m>x = \frac{\pi}{6}, \frac{5\pi}{6}, \frac{3\pi}{2}</m>. General solution: <m>x = \frac{\pi}{6} + 2\pi n, x = \frac{5\pi}{6} + 2\pi n, x = \frac{3\pi}{2} + 2\pi n, n \in \mathbb{I}</m>.</p></answer></task>
+      <task><statement><m>\sin{(2x)} = \sqrt{2} \cos{x}</m></statement><answer><p><m>x = \frac{\pi}{4}, \frac{3\pi}{4}, \frac{\pi}{2}, \frac{3\pi}{2}</m>. General solution: <m>x = \frac{\pi}{4} + 2\pi n, x = \frac{3\pi}{4} + 2\pi n, x = \frac{\pi}{2} + 2\pi n, x = \frac{3\pi}{2} + 2\pi n, n \in \mathbb{I}</m>.</p></answer></task>
+      <task><statement><m>2 \sin{x} \cos{x} = \cos{(2x)}</m></statement><answer><p><m>x = \frac{\pi}{8}, \frac{5\pi}{8}, \frac{9\pi}{8}, \frac{13\pi}{8}</m>. General solution: <m>x = \frac{\pi}{8} + 2\pi n, x = \frac{5\pi}{8} + 2\pi n, x = \frac{9\pi}{8} + 2\pi n, x = \frac{13\pi}{8} + 2\pi n, n \in \mathbb{I}</m>.</p></answer></task>
+      <task><statement><m>\sin{(2x)} = \cos{x}</m></statement><answer><p><m>x = \frac{\pi}{6}, \frac{5\pi}{6}, \frac{\pi}{2}, \frac{3\pi}{2}</m>. General solution: <m>x = \frac{\pi}{6} + 2\pi n, x = \frac{5\pi}{6} + 2\pi n, x = \frac{\pi}{2} + 2\pi n, x = \frac{3\pi}{2} + 2\pi n, n \in \mathbb{I}</m>.</p></answer></task>
+      <task><statement><m>\sin{(2x)} - 2 \cos^2{x} = 0</m></statement><answer><p><m>x = \frac{\pi}{4}, \frac{5\pi}{4}, \frac{\pi}{2}, \frac{3\pi}{2}</m>. General solution: <m>x = \frac{\pi}{4} + 2\pi n, x = \frac{5\pi}{4} + 2\pi n, x = \frac{\pi}{2} + 2\pi n, x = \frac{3\pi}{2} + 2\pi n, n \in \mathbb{I}</m>.</p></answer></task>
+      <task><statement><m>3 \sin{x} + \cos{(2x)} = 2</m></statement><answer><p><m>x = \frac{\pi}{6}, \frac{5\pi}{6}, \frac{\pi}{2}</m>. General solution: <m>x = \frac{\pi}{6} + 2\pi n, x = \frac{5\pi}{6} + 2\pi n, x = \frac{\pi}{2} + 2\pi n, n \in \mathbb{I}</m>.</p></answer></task>
+      <task><statement><m>5 \cos{(2x)} - \cos{x} + 3 = 0</m></statement><answer><p><m>x = \frac{\pi}{3}, \frac{5\pi}{3}, 1.98, 4.30</m>. General solution: <m>x = \frac{\pi}{3} + 2\pi n, x = \frac{5\pi}{3} + 2\pi n, x = 1.98 + 2\pi n, x = 4.30 + 2\pi n, n \in \mathbb{I}</m>.</p></answer></task>
+      <task><statement><m>4 \cos{(2x)} + 10 \sin{x} - 7 = 0</m></statement><answer><p><m>x = \frac{\pi}{6}, \frac{5\pi}{6}, 0.85, 2.29</m>. General solution: <m>x = \frac{\pi}{6} + 2\pi n, x = \frac{5\pi}{6} + 2\pi n, x = 0.85 + 2\pi n, x = 2.29 + 2\pi n, n \in \mathbb{I}</m>.</p></answer></task>
+      <task><statement><m>10 \cos{(2x)} - 8 \cos{x} + 1 = 0</m></statement><answer><p><m>x = \frac{2\pi}{3}, \frac{4\pi}{3}, 0.45, 5.83</m>. General solution: <m>x = \frac{2\pi}{3} + 2\pi n, x = \frac{4\pi}{3} + 2\pi n, x = 0.45 + 2\pi n, x = 5.83 + 2\pi n, n \in \mathbb{I}</m>.</p></answer></task>
+      <task><statement><m>-2 \cos{(2x)} = 2 \sin{x}</m></statement><answer><p><m>x = \frac{\pi}{2}, \frac{7\pi}{6}, \frac{11\pi}{6}</m>. General solution: <m>x = \frac{\pi}{2} + 2\pi n, x = \frac{7\pi}{6} + 2\pi n, x = \frac{11\pi}{6} + 2\pi n, n \in \mathbb{I}</m>.</p></answer></task>
+      <task><statement><m>\cos{(2x)} = 2 \sin{x} \cos{x}</m></statement><answer><p><m>x = \frac{\pi}{8}, \frac{5\pi}{8}, \frac{9\pi}{8}, \frac{13\pi}{8}</m>. General solution: <m>x = \frac{\pi}{8} + 2\pi n, x = \frac{5\pi}{8} + 2\pi n, x = \frac{9\pi}{8} + 2\pi n, x = \frac{13\pi}{8} + 2\pi n, n \in \mathbb{I}</m>.</p></answer></task>
+      <task><statement><m>\cos{(2x)} - 3 \sin{x} = 2</m></statement><answer><p><m>x = \frac{7\pi}{6}, \frac{11\pi}{6}, \frac{3\pi}{2}</m>. General solution: <m>x = \frac{7\pi}{6} + 2\pi n, x = \frac{11\pi}{6} + 2\pi n, x = \frac{3\pi}{2} + 2\pi n, n \in \mathbb{I}</m>.</p></answer></task>
+      <task><statement><m>\cos{(2x)}  - 5\cos{x} = 2</m></statement><answer><p><m>x = \frac{2\pi}{3}, \frac{4\pi}{3}</m>. General solution: <m>x = \frac{2\pi}{3} + 2\pi n, x = \frac{4\pi}{3} + 2\pi n, n \in \mathbb{I}</m>.</p></answer></task>
+    </project>
+  </subsection>
+  
+  <subsection xml:id="subsec-proving-identities-da">
+    <title>Proving Identities with Double Angles</title>
+    
+    <project>
+      <title>Practice: Prove Double-Angle Identities</title>
+      <introduction>
+        <p>
+          Prove each trigonometric identity.
+        </p>
+      </introduction>
+      <task><statement><m>\dfrac{\brac{\sin{x} + \cos{x}}^2}{\sin{(2x)}} = \csc{(2x)} + 1</m></statement><hint><p>Pythagorean identity, double-angle identity</p></hint></task>
+      <task><statement><m>\dfrac{\csc{x}}{2\cos{x}} = \csc{(2x)}</m></statement><hint><p>reciprocal identity, double-angle identity</p></hint></task>
+      <task><statement><m>\dfrac{\sin{x} + \tan{x}}{1 + \cos{x}} = \dfrac{\sin{(2x)}}{2 \cos^2{x}}</m></statement><hint><p>start with both sides, double-angle identity, clear denominators, cancel</p></hint></task>
+      <task><statement><m>\dfrac{2\tan{x}}{1+\tan^2{x}} = \sin{(2x)}</m></statement><hint><p>convert to sine and cosine, clear denominators, Pythagorean identity, double-angle identity</p></hint></task>
+      <task><statement><m>\dfrac{\sin{(6x)}}{1 + \cos{(6x)}} = \tan{(3x)}</m></statement><hint><p>double-angle identities, cancel and simplify</p></hint></task>
+      <task><statement><m>\sec^{2}x=\dfrac{2}{1+\cos 2x}</m></statement><hint><p>double-angle identity, reciprocal identity</p></hint></task>
+      <task><statement><m>\dfrac{1+\cos{(2x)}}{\sin{(2x)}}=\cot x</m></statement><hint><p>double-angle identities, cancel</p></hint></task>
+      <task><statement><m>1+\sin{(2x)}=(\sin x+\cos x)^{2}</m></statement><hint><p>expand, Pythagorean identity, double-angle identity</p></hint></task>
+      <task><statement><m>\tan{x} = \dfrac{1-\cos{(2x)}}{\sin{(2x)}}</m></statement><hint><p>double-angle identity (with <m>\sin^2{x}</m>)</p></hint></task>
+      <task><statement><m>\cot{x} - \csc{x} = \dfrac{\cos{(2x)} - \cos{x}}{\sin{(2x)} + \sin{x}}</m></statement><hint><p>start with the RHS but also consider the LHS, double-angle identity, factor quadratic trinomial, cancel, quotient identity, reciprocal identity</p></hint></task>
+      <task><statement><m>\dfrac{2\cos{x} + 2\cos^2{x}}{\sin{(2x)}} = \dfrac{\sin{x}}{1 - \cos{x}}</m></statement></task>
+      <task><statement><m>\dfrac{\sin{(2x)}}{1 + \cos{(2x)}} = \dfrac{\sec^2{x} - 1}{\tan{x}}</m></statement></task>
+      <task><statement><m>\sin{(2x)} \brac{\tan{x} + \cot{x}} = 2</m></statement></task>
+    </project>
+  </subsection>
+  
+  <subsection xml:id="subsec-other-examples-da">
+    <title>Other Examples</title>
+    
+    <exercise>
+      <title>Find tan(2x) from a Relation</title>
+      <statement>
+        <p>
+          If <m>\sin{x} = -2 \cos{x}</m> and <m>\frac{\pi}{2} \leq \theta \leq \pi</m>, find <m>\tan{(2x)}</m>.
+        </p>
+      </statement>
+      <answer>
+        <p><m>\frac{4}{3}</m></p>
+      </answer>
+      
+    </exercise>
+  </subsection>
+  
+</section>

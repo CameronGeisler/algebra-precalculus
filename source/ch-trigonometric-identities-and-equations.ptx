@@ -9,8 +9,9 @@
 
   <!-- include sections -->
   <xi:include href="./sec-intro-to-trigonometric-identities.ptx" />
-  <xi:include href="sec-intro-to-proving-trigonometric-identities.ptx" />
+  <xi:include href="./sec-intro-to-proving-trigonometric-identities.ptx" />
   <xi:include href="./sec-sum-and-difference-identities.ptx" />
+  <xi:include href="./sec-double-angle-identities.ptx" />
 
   
   <xi:include href="sec-trigonometric-identities-summary.ptx" />

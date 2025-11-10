@@ -2341,11 +2341,83 @@ var ptx_lunr_docs = [
   "body": " Find Amplitude, Period, and Phase Shift   Find the amplitude, period, and phase shift of the function .     , amplitude is 3, period is 12, phase shift is left 2.   "
 },
 {
+  "id": "sec-double-angle-identities",
+  "level": "1",
+  "url": "sec-double-angle-identities.html",
+  "type": "Section",
+  "number": "10.4",
+  "title": "Double-Angle Identities",
+  "body": " Double-Angle Identities   Identities about double angles can be derived from the sum and difference identities.   These are expressions for the trigonometric ratios of double angles, ( , and ), in terms of their associated single angles ( , and ).    Finding Exact Value Examples   Practice: Evaluate Using Double-Angle Identity   Evaluate each expression exactly, using a double-angle identity.           Practice: Expand Double-Angle Identity   Expand each double-angle identity.         Practice: Find Exact Value from Given Information   Find the exact value of each trigonometric ratio, from the given information.   If , where , then find and  Let and . Find and  Let be an angle in quadrant III with . find and  If and is in quadrant III, find and  If and . Find and     Simplify Using Double-Angle Identities   Practice: Simplify Using Double-Angle Identities   Simplify each expression as a single trigonometric function.        choose the double angle for cosine which cancels out the 1 in the denominator   choose the double angle for cosine which cancels out the in the numerator   choose the double angle for cosine which cancels out the in the numerator      use a double-angle identity, do not expand     Equations Using Double-Angle Identities   Practice: Solve Equations Using Double-Angle Identities   Solve each equation, by finding all solutions in the interval and the general solution.   . General solution: .  . General solution: .  . General solution: .  . General solution: .  . General solution: .  . General solution: .  . General solution: .  . General solution: .  . General solution: .  . General solution: .  . General solution: .  . General solution: .  . General solution: .     Proving Identities with Double Angles   Practice: Prove Double-Angle Identities   Prove each trigonometric identity.   Pythagorean identity, double-angle identity  reciprocal identity, double-angle identity  start with both sides, double-angle identity, clear denominators, cancel  convert to sine and cosine, clear denominators, Pythagorean identity, double-angle identity  double-angle identities, cancel and simplify  double-angle identity, reciprocal identity  double-angle identities, cancel  expand, Pythagorean identity, double-angle identity  double-angle identity (with )  start with the RHS but also consider the LHS, double-angle identity, factor quadratic trinomial, cancel, quotient identity, reciprocal identity        Other Examples   Find tan(2x) from a Relation   If and , find .        "
+},
+{
+  "id": "subsec-finding-exact-value-examples-da-2",
+  "level": "2",
+  "url": "sec-double-angle-identities.html#subsec-finding-exact-value-examples-da-2",
+  "type": "Exercise Group",
+  "number": "10.4.1",
+  "title": "Practice: Evaluate Using Double-Angle Identity.",
+  "body": " Practice: Evaluate Using Double-Angle Identity   Evaluate each expression exactly, using a double-angle identity.         "
+},
+{
+  "id": "subsec-finding-exact-value-examples-da-3",
+  "level": "2",
+  "url": "sec-double-angle-identities.html#subsec-finding-exact-value-examples-da-3",
+  "type": "Exercise Group",
+  "number": "10.4.2",
+  "title": "Practice: Expand Double-Angle Identity.",
+  "body": " Practice: Expand Double-Angle Identity   Expand each double-angle identity.       "
+},
+{
+  "id": "subsec-finding-exact-value-examples-da-4",
+  "level": "2",
+  "url": "sec-double-angle-identities.html#subsec-finding-exact-value-examples-da-4",
+  "type": "Exercise Group",
+  "number": "10.4.3",
+  "title": "Practice: Find Exact Value from Given Information.",
+  "body": " Practice: Find Exact Value from Given Information   Find the exact value of each trigonometric ratio, from the given information.   If , where , then find and  Let and . Find and  Let be an angle in quadrant III with . find and  If and is in quadrant III, find and  If and . Find and  "
+},
+{
+  "id": "subsec-simplify-double-angle-2",
+  "level": "2",
+  "url": "sec-double-angle-identities.html#subsec-simplify-double-angle-2",
+  "type": "Exercise Group",
+  "number": "10.4.4",
+  "title": "Practice: Simplify Using Double-Angle Identities.",
+  "body": " Practice: Simplify Using Double-Angle Identities   Simplify each expression as a single trigonometric function.        choose the double angle for cosine which cancels out the 1 in the denominator   choose the double angle for cosine which cancels out the in the numerator   choose the double angle for cosine which cancels out the in the numerator      use a double-angle identity, do not expand  "
+},
+{
+  "id": "subsec-equations-double-angle-2",
+  "level": "2",
+  "url": "sec-double-angle-identities.html#subsec-equations-double-angle-2",
+  "type": "Exercise Group",
+  "number": "10.4.5",
+  "title": "Practice: Solve Equations Using Double-Angle Identities.",
+  "body": " Practice: Solve Equations Using Double-Angle Identities   Solve each equation, by finding all solutions in the interval and the general solution.   . General solution: .  . General solution: .  . General solution: .  . General solution: .  . General solution: .  . General solution: .  . General solution: .  . General solution: .  . General solution: .  . General solution: .  . General solution: .  . General solution: .  . General solution: .  "
+},
+{
+  "id": "subsec-proving-identities-da-2",
+  "level": "2",
+  "url": "sec-double-angle-identities.html#subsec-proving-identities-da-2",
+  "type": "Exercise Group",
+  "number": "10.4.6",
+  "title": "Practice: Prove Double-Angle Identities.",
+  "body": " Practice: Prove Double-Angle Identities   Prove each trigonometric identity.   Pythagorean identity, double-angle identity  reciprocal identity, double-angle identity  start with both sides, double-angle identity, clear denominators, cancel  convert to sine and cosine, clear denominators, Pythagorean identity, double-angle identity  double-angle identities, cancel and simplify  double-angle identity, reciprocal identity  double-angle identities, cancel  expand, Pythagorean identity, double-angle identity  double-angle identity (with )  start with the RHS but also consider the LHS, double-angle identity, factor quadratic trinomial, cancel, quotient identity, reciprocal identity     "
+},
+{
+  "id": "subsec-other-examples-da-2",
+  "level": "2",
+  "url": "sec-double-angle-identities.html#subsec-other-examples-da-2",
+  "type": "Checkpoint",
+  "number": "10.4.1",
+  "title": "Find tan(2x) from a Relation.",
+  "body": " Find tan(2x) from a Relation   If and , find .      "
+},
+{
   "id": "sec-trigonometric-identities-summary",
   "level": "1",
   "url": "sec-trigonometric-identities-summary.html",
   "type": "Section",
-  "number": "10.4",
+  "number": "10.5",
   "title": "Summary of Trigonometric Identities",
   "body": " Summary of Trigonometric Identities   Summary of Trigonometric Identities    "
 },
