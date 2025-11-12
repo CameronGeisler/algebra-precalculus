@@ -12,10 +12,11 @@
 <publication>
   <common>
     <!-- Level at which are html files generated (chapter/section/etc): -->
-      <!--<chunking level="1" />-->
+    <!-- maybe 1=chapter, 2=sections, 3=subsections -->
+    <!-- <chunking level="2" /> -->
 
     <!-- Depth for table of contents.  0 means no TOC -->
-      <!--<tableofcontents level="1" />-->
+    <!-- <tableofcontents level="2" /> -->
 
     <!-- Visibility of exercise components where they first appear.          -->
     <!-- There are four components (statement/hint/answer/solution) for each -->
@@ -116,6 +117,10 @@
     <!-- A possible attribute for the html tag above is @short-answer-responses, with values either "always" or "graded".  As in: -->
     <!--<html short-answer-responses="always">-->
 
+    <split-level>3</split-level>   <!-- 1=chapter/appendix only, 2=+sections, 3=+subsections -->
+    <!-- optional: control ToC depth separately -->
+    <!-- <toc-depth>3</toc-depth> -->
+
     <!--The platform host can be "web" or "runestone"-->
       <!--<platform host="runestone"/>-->
 
@@ -157,7 +162,7 @@
 
     <!-- Table of Contents: focused="yes" enables expand/collapse functionality. -->
     <!-- @preexpanded-levels controls how deep to expend toc initially.          -->
-      <!--<toc focused="yes" preexpanded-levels="1" />-->
+      <!--<toc focused="yes" preexpanded-levels="1" /> -->
 
     <!-- Navigation options: linear or tree, and whether there is an "up" button -->
       <!--<navigation logic="tree" upbutton="no" />-->

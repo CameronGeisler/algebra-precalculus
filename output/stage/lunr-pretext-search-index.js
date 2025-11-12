@@ -2447,6 +2447,42 @@ var ptx_lunr_docs = [
   "number": "11.1.2",
   "title": "Bouncing ball problem: advanced.",
   "body": " Bouncing ball problem: advanced   Consider the general problem. A ball is dropped from a height of meters, and bounces up to a fraction of the previous bounce (where ). Find the total distance travelled, in terms of and .        "
+},
+{
+  "id": "sec-solving-equations-graphically",
+  "level": "1",
+  "url": "sec-solving-equations-graphically.html",
+  "type": "Section",
+  "number": "12.1",
+  "title": "Solving Equations Graphically",
+  "body": " Solving Equations Graphically   Graphing calculators, like Desmos , or the TI-84 Plus CE, can solve equations graphically very easily. The basic idea is to graph both sides of the equation, and the solutions are the intersection points.    Solving Equations Using a Graphing Calculator (Intersections)   Solving by Intersection  Solve the equation . To do this, graph both sides of the equation, and ( Desmos graph ). Observe the intersection points are at and . You can check that these are solutions, by plugging in and and verifying that both sides are equal,   Intuitively, this is because the equation is asking,   Then, a point is an intersection if it lies on both graphs, meaning that for that particular -value, the value for the left side is the same as the -value for the right side. That's what it means for the two sides of the equation to be equal.   In general, we want to solve an equation of the form,   where are expressions involving (that represent the two sides of the equation).   Graph both and .  The solutions are the -values of any intersection points of the two graphs.   In short,     Solving Numerically by Finding Zeros (Reducing to One Graph)  In fact, there is a slightly easier way. The general problem of solving an equation of the form,   can be rewritten by moving everything to one side (say, subtracting from both sides), to get . Then, the equation is in the form of one function equal to 0,   where . This transforms the problem from solving an equation with two separate sides, to finding the root of a (single) function. Then, to solve,   Graph .  The solutions are the -intercepts (zeros) of the graph.   In other words,     Comparing the Two Methods  Both the intersection method and the zeros method are mathematically equivalent, in that both will give you the same answer. However, there are some advantages and disadvantages to each, both practically and conceptually.    The intersection method is more intuitive, because you can visually see where the two functions intersect. If the functions represent some quantity, then it also has a useful interpretation.   Interpretating Intersection  For example, if represents how far each object has gone in seconds, then the intersection point means that after seconds, both objects have travelled the same distance . In contrast, with the zeros method, the -coordinate is always 0 and has no interpretation.     The zeros method is more computationally simpler, because you only have one function. Graphically, you only have to look near the -axis to find solutions. This is especially helpful when the functions are huge, and so you'd have to zoom out a lot to see the intersections.   Solving with the Zeros Method  Solve the equation . Using the intersection method , there is 1 intersection visible, but there is another intersection that is only visible if you zoom out a lot. Instead, using the zeros method, move all terms to one side, to get . Then, graphing this function , you can more easily see the 2 zeros of the graph, which are the solutions.       Solving Equations Graphically on the TI-84 Plus CE  With the TI-84 Plus CE, the strategy is similar to using Desmos, except it requires a few more button presses. Again, you can either do the intersection method ( ) or the zeros method ( ).   Enter the functions : Press [Y=] to to to the function editor. Enter the left side of the equation in Y1 and the right side in Y2. For example, for the equation , put in Y1 and in Y2. If solving , enter the expression in Y1 (and leave Y2 blank).  Adjust the window (if needed): Press [WINDOW] to set appropriate viewing bounds for Xmin, Xmax, Ymin, and Ymax so the graph and intersection points are visible. You can use [ZOOM] 6 (ZStandard) for a default view.  Graph the functions : Press [GRAPH] to display the graphs.   Find the intersection or root : Press [2nd] [TRACE] (CALC menu), then select 5: intersect (for intersection of two functions) or 2: zero (for roots of a single function). It will ask you to set a lower bound (Left Bound?) and upper bound (Right Bound?). These bounds define the interval for where the calculator will search for the solution, so make sure it's between them. Move the cursor with the arrow keys, and press [ENTER] for each.  It will also ask for a Guess?, which doesn't really matter, you can just press [ENTER] again (technically, the guess helps refine the search, but it only really helps for complicated functions that have many roots which are close together).     "
+},
+{
+  "id": "solving-graphing-intersections-2",
+  "level": "2",
+  "url": "sec-solving-equations-graphically.html#solving-graphing-intersections-2",
+  "type": "Example",
+  "number": "12.1.1",
+  "title": "Solving by Intersection.",
+  "body": " Solving by Intersection  Solve the equation . To do this, graph both sides of the equation, and ( Desmos graph ). Observe the intersection points are at and . You can check that these are solutions, by plugging in and and verifying that both sides are equal,   Intuitively, this is because the equation is asking,   Then, a point is an intersection if it lies on both graphs, meaning that for that particular -value, the value for the left side is the same as the -value for the right side. That's what it means for the two sides of the equation to be equal.  "
+},
+{
+  "id": "comparing-methods-3-1-2",
+  "level": "2",
+  "url": "sec-solving-equations-graphically.html#comparing-methods-3-1-2",
+  "type": "Example",
+  "number": "12.1.2",
+  "title": "Interpretating Intersection.",
+  "body": " Interpretating Intersection  For example, if represents how far each object has gone in seconds, then the intersection point means that after seconds, both objects have travelled the same distance . In contrast, with the zeros method, the -coordinate is always 0 and has no interpretation.  "
+},
+{
+  "id": "comparing-methods-3-2-2",
+  "level": "2",
+  "url": "sec-solving-equations-graphically.html#comparing-methods-3-2-2",
+  "type": "Example",
+  "number": "12.1.3",
+  "title": "Solving with the Zeros Method.",
+  "body": " Solving with the Zeros Method  Solve the equation . Using the intersection method , there is 1 intersection visible, but there is another intersection that is only visible if you zoom out a lot. Instead, using the zeros method, move all terms to one side, to get . Then, graphing this function , you can more easily see the 2 zeros of the graph, which are the solutions.  "
 }
 ]
 

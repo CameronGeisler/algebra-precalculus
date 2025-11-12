@@ -10,7 +10,6 @@
   <!-- include sections -->
   <xi:include href="sec-radian-measure.ptx" />
   <xi:include href="sec-ratios-of-non-acute-angles-reference-angles.ptx" />
-
   <xi:include href="sec-quadratic-trigonometric-equations.ptx"/>
 
 </chapter>
