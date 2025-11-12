@@ -48,8 +48,8 @@
             Find <m>\cos{\ang{105}}</m>. We can calculate this, because <m>\ang{105} = \ang{60} + \ang{45}</m> is the sum of two special angles (which we know about). Then, the sum identity for cosine says,
           </p>
           <md>
-            <mrow>    \cos{\ang{105}} \amp= \cos{(\ang{60} + \ang{45})} \\</mrow>
-            <mrow>    \amp= \cos{\ang{60}}\cos{\ang{45}} - \sin{\ang{60}}\sin{\ang{45}} \\</mrow>
+            <mrow>    \cos{\ang{105}} \amp= \cos{(\ang{60} + \ang{45})} </mrow>
+            <mrow>    \amp= \cos{\ang{60}}\cos{\ang{45}} - \sin{\ang{60}}\sin{\ang{45}} </mrow>
             <mrow>    \amp= \frac{1}{2} \cdot \frac{\sqrt{2}}{2} - \frac{\sqrt{3}}{2} \cdot \frac{\sqrt{2}}{2}
             </mrow>
           </md>
@@ -57,7 +57,7 @@
             This answer is correct, however we can continue to simplify the result into one fraction,
           </p>
           <md>
-            <mrow>    \amp= \frac{\sqrt{2}}{4} - \frac{\sqrt{6}}{4} \\</mrow>
+            <mrow>    \amp= \frac{\sqrt{2}}{4} - \frac{\sqrt{6}}{4} </mrow>
             <mrow>    \amp= \frac{\sqrt{2} - \sqrt{6}}{4}
             </mrow>
           </md>
@@ -72,9 +72,9 @@
             Find <m>\tan{\brac{\frac{5\pi}{12}}}</m>. Here, after some trial and error, <m>\frac{5\pi}{12} = \frac{\pi}{4} + \frac{\pi}{6}</m>. Then,
           </p>
           <md>
-            <mrow>    \tan{\brac{\frac{5\pi}{12}}} \amp= \tan{\brac{\frac{\pi}{4} + \frac{\pi}{6}}} \\</mrow>
-            <mrow>    \amp= \frac{\tan{\frac{\pi}{4}} + \tan{\frac{\pi}{6}}}{1 - \tan{\frac{\pi}{4}}\tan{\frac{\pi}{6}}} \\</mrow>
-            <mrow>    \amp= \frac{1 + \frac{\sqrt{3}}{3}}{1 - 1 \cdot \frac{\sqrt{3}}{3}} \\</mrow>
+            <mrow>    \tan{\brac{\frac{5\pi}{12}}} \amp= \tan{\brac{\frac{\pi}{4} + \frac{\pi}{6}}} </mrow>
+            <mrow>    \amp= \frac{\tan{\frac{\pi}{4}} + \tan{\frac{\pi}{6}}}{1 - \tan{\frac{\pi}{4}}\tan{\frac{\pi}{6}}} </mrow>
+            <mrow>    \amp= \frac{1 + \frac{\sqrt{3}}{3}}{1 - 1 \cdot \frac{\sqrt{3}}{3}} </mrow>
             <mrow>    \amp= \frac{1 + \frac{\sqrt{3}}{3}}{1 - \frac{\sqrt{3}}{3}}
             </mrow>
           </md>
@@ -89,10 +89,10 @@
             At this point, it is typically expected that you rationalize the denominator to fully simplify,
           </p>
           <md>
-            <mrow>    \amp= \frac{3 + \sqrt{3}}{3 - \sqrt{3}} \cdot \frac{3 + \sqrt{3}}{3 + \sqrt{3}} &amp;&amp; \text{multiplying numerator and denominator by $3 + \sqrt{3}$} \\</mrow>
-            <mrow>    \amp= \frac{3 + 2\sqrt{3} + 1}{2} \\</mrow>
-            <mrow>    \amp = \frac{4 + 2\sqrt{3}}{2} \\</mrow>
-            <mrow>    \amp= 2 + \sqrt{3}
+            <mrow>\amp= \frac{3 + \sqrt{3}}{3 - \sqrt{3}} \cdot \frac{3 + \sqrt{3}}{3 + \sqrt{3}} &amp;&amp; \text{multiplying numerator and denominator by $3 + \sqrt{3}$} </mrow>
+            <mrow>\amp= \frac{3 + 2\sqrt{3} + 1}{2} </mrow>
+            <mrow>\amp = \frac{4 + 2\sqrt{3}}{2} </mrow>
+            <mrow>\amp= 2 + \sqrt{3}
             </mrow>
           </md>
           <p>

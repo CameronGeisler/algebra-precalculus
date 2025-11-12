@@ -25,6 +25,8 @@
     <xi:include href="./ch-trigonometric-identities-and-equations.ptx" />
     <xi:include href="./ch-sequences-and-series.ptx" />
 
+    <xi:include href="./ch-math-tools-and-techniques.ptx" />
+
     <!-- Include backmatter -->
     <!-- <xi:include href="./backmatter.ptx" /> -->
 

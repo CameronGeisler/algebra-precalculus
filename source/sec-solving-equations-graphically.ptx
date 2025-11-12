@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-solving-equations-graphically" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Solving Equations Graphically</title>
+  
+  <introduction>
+    <p>
+      Graphing calculators, like <url href="https://www.desmos.com/calculator">Desmos</url>, or the TI-84 Plus CE, can solve equations graphically very easily. The basic idea is to graph both sides of the equation, and the solutions are the intersection points.
+    </p>
+  </introduction>
+  
+  <subsection xml:id="solving-graphing-intersections">
+    <title>Solving Equations Using a Graphing Calculator (Intersections)</title>
+    
+    <example>
+      <title>Solving by Intersection</title>
+      <p>Solve the equation <m>x^2 = x + 2</m>. To do this, graph both sides of the equation, <m>y = x^2</m> and <m>y = x + 2</m> (<url href="https://www.desmos.com/calculator/wbxdve2vj6">Desmos graph</url>). Observe the intersection points are at <m>x = 2</m> and <m>x = -1</m>. You can check that these are solutions, by plugging in <m>x = 2</m> and <m>x = -1</m> and verifying that both sides are equal,</p>
+      <md>
+        <mrow>x = -1 \quad \rightarrow \quad (-1)^2 \amp = -1 + 2 \\</mrow>
+        <mrow>1 \amp = 1 \\</mrow>
+        <mrow>x = 2 \quad \rightarrow \quad 2^2 \amp = 2 + 2 \\</mrow>
+        <mrow>4 \amp = 4</mrow>
+      </md>
+      <p>Intuitively, this is because the equation <m>x^2 = x + 2</m> is asking,</p>
+      <md>
+        <mrow>\text{<q>For which values of $x$ do the two expressions give the same number?</q>}</mrow>
+      </md>
+      <p>Then, a point is an intersection if it lies on both graphs, meaning that for that particular <m>x</m>-value, the <m>y</m> value for the left side is the same as the <m>y</m>-value for the right side. That's what it means for the two sides of the equation to be equal.</p>
+    </example>
+    
+    <p>In general, we want to solve an equation of the form,</p>
+    <md>
+      <mrow>f(x) = g(x)</mrow>
+    </md>
+    <p>where <m>f, g</m> are expressions involving <m>x</m> (that represent the two sides of the equation).</p>
+    <ol>
+      <li><p>Graph both <m>y = f(x)</m> and <m>y = g(x)</m>.</p></li>
+      <li><p>The solutions are the <m>x</m>-values of any intersection points of the two graphs.</p></li>
+    </ol>
+    <p>In short,</p>
+    <md>
+      <mrow>\boxed{\begin{pmatrix} \text{solutions to} \\ f(x) = g(x) \end{pmatrix}
+            \Longleftrightarrow
+            \begin{pmatrix} \text{intersections of} \\ y = f(x) \text{ and } y = g(x) \end{pmatrix}}</mrow>
+      </md>
+    </subsection>
+    
+    <subsection xml:id="solving-graphing-zeros">
+      <title>Solving Numerically by Finding Zeros (Reducing to One Graph)</title>
+      <p>In fact, there is a slightly easier way. The general problem of solving an equation of the form,</p>
+      <md>
+        <mrow>f(x) = g(x)</mrow>
+      </md>
+      <p>can be rewritten by moving everything to one side (say, subtracting <m>g(x)</m> from both sides), to get <m>f(x) - g(x) = 0</m>. Then, the equation is in the form of one function equal to 0,</p>
+      <md>
+        <mrow>F(x) = 0</mrow>
+      </md>
+      <p>where <m>F(x) = f(x) - g(x)</m>. This transforms the problem from solving an equation with two separate sides, to finding the root of a (single) function. Then, to solve,</p>
+      <ol>
+        <li><p>Graph <m>y = f(x) - g(x)</m>.</p></li>
+        <li><p>The solutions are the <m>x</m>-intercepts (zeros) of the graph.</p></li>
+      </ol>
+      <p>In other words,</p>
+      <md>
+        <mrow>\boxed{\begin{pmatrix} \text{solutions to} \\ \text{equation} = 0 \end{pmatrix}
+              \Longleftrightarrow
+              \begin{pmatrix} \text{zeros of the} \\ \text{graph} \end{pmatrix}}</mrow>
+        </md>
+      </subsection>
+      
+      <subsection xml:id="comparing-methods">
+        <title>Comparing the Two Methods</title>
+        <p>Both the <em>intersection method</em> and the <em>zeros method</em> are mathematically equivalent, in that both will give you the same answer. However, there are some advantages and disadvantages to each, both practically and conceptually.</p>
+        <ul>
+          <li>
+            <p>The intersection method is more intuitive, because you can visually see where the two functions intersect. If the functions represent some quantity, then it also has a useful interpretation.</p>
+            <example>
+              <title>Interpretating Intersection</title>
+              <p>For example, if <m>y</m> represents how far each object has gone in <m>x</m> seconds, then the intersection point <m>(x,y)</m> means that after <m>x</m> seconds, both objects have travelled the same distance <m>y</m>. In contrast, with the zeros method, the <m>y</m>-coordinate is always 0 and has no interpretation.</p>
+            </example>
+          </li>
+          <li>
+            <p>The zeros method is more computationally simpler, because you only have one function. Graphically, you only have to look near the <m>x</m>-axis to find solutions. This is especially helpful when the functions are huge, and so you'd have to zoom out a lot to see the intersections.</p>
+            <example>
+              <title>Solving with the Zeros Method</title>
+              <p>Solve the equation <m>\frac{1}{5}x^2 = 5x + 2</m>. <url href="https://www.desmos.com/calculator/y7gpkwc7rn">Using the intersection method</url>, there is 1 intersection visible, but there is another intersection that is only visible if you zoom out a lot. Instead, using the zeros method, move all terms to one side, to get <m>\frac{1}{5}x^2 - 5x - 2 = 0</m>. Then, <url href="https://www.desmos.com/calculator/ie58chk26v">graphing this function</url>, you can more easily see the 2 zeros of the graph, which are the solutions.</p>
+            </example>
+          </li>
+        </ul>
+      </subsection>
+      
+      <subsection xml:id="ti-84-guide">
+        <title>Solving Equations Graphically on the TI-84 Plus CE</title>
+        <p>With the TI-84 Plus CE, the strategy is similar to using Desmos, except it requires a few more button presses. Again, you can either do the intersection method (<m>f(x) = g(x)</m>) or the zeros method (<m>f(x) = 0</m>).</p>
+        <ol>
+          <li><p><alert>Enter the functions</alert>: Press [Y=] to to to the function editor. Enter the left side of the equation in Y1 and the right side in Y2. For example, for the equation <m>2x + 3 = 5x - 1</m>, put <m>2x + 3</m> in Y1 and <m>5x - 1</m> in Y2. If solving <m>f(x) = 0</m>, enter the expression in Y1 (and leave Y2 blank).</p></li>
+          <li><p><alert>Adjust the window</alert> (if needed): Press [WINDOW] to set appropriate viewing bounds for Xmin, Xmax, Ymin, and Ymax so the graph and intersection points are visible. You can use [ZOOM] <m>\rightarrow</m> 6 (ZStandard) for a default view.</p></li>
+          <li><p><alert>Graph the functions</alert>: Press [GRAPH] to display the graphs.</p></li>
+          <li>
+            <p><alert>Find the intersection or root</alert>: Press [2nd] [TRACE] (CALC menu), then select 5: intersect (for intersection of two functions) or 2: zero (for roots of a single function). It will ask you to set a lower bound (Left Bound?) and upper bound (Right Bound?). These bounds define the interval for <m>x</m> where the calculator will search for the solution, so make sure it's between them. Move the cursor with the arrow keys, and press [ENTER] for each.</p>
+            <p>It will also ask for a Guess?, which doesn't really matter, you can just press [ENTER] again (technically, the guess helps refine the search, but it only really helps for complicated functions that have many roots which are close together).</p>
+          </li>
+        </ol>
+      </subsection>
+      
+    </section>
