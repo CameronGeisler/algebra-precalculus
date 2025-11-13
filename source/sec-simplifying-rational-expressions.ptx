@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-simplifying-rational-expressions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Simplifying Rational Expressions</title>
+  
+  <introduction>
+    <p>Recall that simplifying a fraction involves cancelling the greatest common factor from the numerator and the denominator, so the fraction is in <term>lowest terms</term>.</p>
+    <example>
+      <title>Simplifying a Numerical Fraction</title>
+      <statement>
+        <p>To simplify <m>\dfrac{36}{60}</m>, factor both the numerator and denominator,</p>
+        <md>
+          <mrow>\dfrac{36}{60} \amp = \dfrac{2 \times 2 \times 3 \times 3}{2 \times 2 \times 3 \times 5}</mrow>
+        </md>
+        <p>Cancel the common factors from the numerator and denominator,</p>
+        <md>
+          <mrow>\dfrac{\cancel{2} \times \cancel{2} \times \cancel{3} \times 3}{\cancel{2} \times \cancel{2} \times \cancel{3} \times 5} \amp = \dfrac{3}{5}</mrow>
+        </md>
+      </statement>
+      <p>Therefore, <m>\dfrac{36}{60}</m> simplifies to <m>\dfrac{3}{5}</m>.</p>
+    </example>
+    <p>Similarly, simplifying a <term>rational expression</term> involves factoring the numerator and denominator, and <alert>cancelling common factors</alert> until there are no common factors other than 1. In this case, we say the rational expression is in <term>lowest terms</term>.</p>
+  </introduction>
+  
+  <subsection xml:id="subsection-simplifying-monomials">
+    <title>Simplifying Expressions with Monomials</title>
+    
+    <project xml:id="project-monomial-expressions">
+      <title>Monomial Expressions</title>
+      <introduction>
+        <p>Simplify each rational expression, and state any restrictions on the variables.</p>
+      </introduction>
+      <task>
+        <statement><m>\dfrac{12x}{48x^3}</m></statement>
+        <answer><m>\dfrac{1}{4x^2}, x\neq 0</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{21ab}{35ab^2}</m></statement>
+        <answer><m>\dfrac{3}{5b}, a\neq 0, b\neq 0</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{8m^2n}{24mn^3}</m></statement>
+        <answer><m>\dfrac{m}{3n^2}, m\neq 0, n\neq 0</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{16x^3y^3}{36x^5y^2}</m></statement>
+        <answer><m>\dfrac{4y}{9x^2}, x\neq 0, y\neq 0</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{12a^2b^3}{40a^3b}</m></statement>
+        <answer><m>\dfrac{3b^2}{10a}, a\neq 0, b\neq 0</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{6xyz^3}{3x^2y^2z}</m></statement>
+        <answer><m>\dfrac{2z^2}{xy}, x\neq 0, y\neq 0, z\neq 0</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{8x}{14y}</m></statement>
+        <answer><m>\dfrac{4x}{7y}, y\neq 0</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{15xy}{24x}</m></statement>
+        <answer><m>\dfrac{5y}{8}, x\neq 0</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{12ab}{6a^2b^2}</m></statement>
+        <answer><m>\dfrac{2}{ab}, a\neq 0, b\neq 0</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{7x^3}{21x^8}</m></statement>
+        <answer><m>\dfrac{1}{3x^5}, x\neq 0</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{4x^2yz^5}{6x^2y^3z^2}</m></statement>
+        <answer><m>\dfrac{2z^3}{3y^2}, x\neq 0, y\neq 0, z\neq 0</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{30x^4y^3}{-6x^7y}</m></statement>
+        <answer><m>-\dfrac{5y^2}{x^3}, x\neq 0, y\neq 0</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{9x^2}{6x^3}</m></statement>
+        <answer><m>\dfrac{3}{2x}, x\neq 0</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{7a^2b^3}{21a^4b}</m></statement>
+        <answer><m>\dfrac{b^2}{3a^2}, a\neq 0, b\neq 0</m></answer>
+      </task>
+    </project>
+    
+    <p>Sometimes, factors can have more than one term in them.</p>
+    
+    <project xml:id="project-binomial-factors">
+      <title>Binomial Factors</title>
+      <introduction>
+        <p>Simplify each rational expression, and state any restrictions on the variables.</p>
+      </introduction>
+      <task>
+        <statement><m>\dfrac{6(x+2)}{10(x+2)}</m></statement>
+        <answer><m>\dfrac{3}{5}, x\neq -2</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{(x+1)(x-1)}{(x-1)^2}</m></statement>
+        <answer><m>\dfrac{x+1}{x-1}, x\neq 1</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{5(x+3)}{(x+3)(x-3)}</m></statement>
+        <answer><m>\dfrac{5}{x-3}, x\neq -3,3</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{(x-1)(x-3)}{(x+2)(x-1)}</m></statement>
+        <answer><m>\dfrac{x-3}{x+2}, x\neq -2,1</m></answer>
+      </task>
+    </project>
+  </subsection>
+  
+  <subsection xml:id="subsection-factoring-polynomials">
+    <title>Simplifying Expressions with Polynomials by Factoring</title>
+    
+    <p>Look for common factors.</p>
+    
+    <project xml:id="project-polynomial-factoring">
+      <title>Polynomial Expressions</title>
+      <introduction>
+        <p>Simplify each rational expression, and state any restrictions on the variables.</p>
+      </introduction>
+      <task>
+        <statement><m>\dfrac{6-4x}{2}</m></statement>
+        <answer><p><m>3-2x</m>, none</p></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{3x-3}{6x-6}</m></statement>
+        <answer><m>\dfrac{1}{2}, x\neq 1</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{4x-4}{4x+4}</m></statement>
+        <answer><m>\dfrac{x-1}{x+1}, x\neq -1</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{6x-9}{2x-3}</m></statement>
+        <answer><m>3, x\neq \dfrac{3}{2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x^2 - 4}{2x - 4}</m></statement>
+        <answer><m>\dfrac{x + 2}{2}, x\neq 2</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x+6}{3x+18}</m></statement>
+        <answer><m>\dfrac{1}{3}, x\neq -6</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x^2-64}{x+8}</m></statement>
+        <answer><m>x-8, x\neq -8</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x+1}{x^2-1}</m></statement>
+        <answer><m>\dfrac{1}{x-1}, x\neq -1,1</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x^2-7x-18}{x-9}</m></statement>
+        <answer><m>x+2, x\neq 9</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x-2}{x^2-4}</m></statement>
+        <answer><m>\dfrac{1}{x+2}, x\neq -2,2</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x+6}{x^2+2x-24}</m></statement>
+        <answer><m>\dfrac{1}{x-4}, x\neq -6,4</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2x+10}{x^2-2x-35}</m></statement>
+        <answer><m>\dfrac{2}{x-7}, x\neq -5,7</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x^2+9x-10}{3x+30}</m></statement>
+        <answer><m>\dfrac{x-1}{3}, x\neq -10</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{6x^3-8x}{9x^3-12x}</m></statement>
+        <answer><m>\dfrac{2}{3}, x\neq 0, \pm\dfrac{2\sqrt{3}}{3}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{8x^3+8x^2}{10x^2+10x}</m></statement>
+        <answer><m>\dfrac{4x}{5}, x\neq -1,0</m></answer>
+      </task>
+    </project>
+    
+    <p>Sometimes, two factors will look similar but not be exactly the same. In particular, they will be negatives of each other.</p>
+    
+    <example>
+      <title>Factors Differing by a Negative</title>
+      <statement>
+        <p>For example, consider,</p>
+        <md>
+          <mrow>\dfrac{2-x}{x-2}</mrow>
+        </md>
+        <p>The negative of <m>2-x</m> is <m>-(2-x) = -2+x = x-2</m>. If you divide a number and its negative (like e.g. 5 and <m>-5</m>), the result is always <m>-1</m>. We can factor out a <m>-1</m> from the numerator, and then cancel,</p>
+        <md>
+          <mrow>\amp = \dfrac{-(x-2)}{x-2} = \dfrac{-1}{1} = -1</mrow>
+        </md>
+      </statement>
+    </example>
+    
+    <project xml:id="project-negative-factors">
+      <title>Simplifying Negative Factors</title>
+      <introduction>
+        <p>Simplify each rational expression.</p>
+      </introduction>
+      <task>
+        <statement><m>\dfrac{x-1}{x-1}</m></statement>
+        <answer><m>1</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x-1}{1-x}</m></statement>
+        <answer><m>-1</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x+1}{1+x}</m></statement>
+        <answer><m>1</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x+2}{-2-x}</m></statement>
+        <answer><m>-1</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{(x-1)(x+1)}{(1-x)(-x-1)}</m></statement>
+        <answer><m>1</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{3-x}{x-3}</m></statement>
+        <answer><m>-1</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x^2-4}{4-x^2}</m></statement>
+        <answer><m>-1</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x^2-2x+1}{-x^2+2x-1}</m></statement>
+        <answer><m>-1</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{5 - x}{x - 5}</m></statement>
+        <answer><m>-1</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{(x-2)(x-1)(x+2)}{(2-x)(1-x)(2-x)}</m></statement>
+        <answer><p><m>-\dfrac{x+2}{x-2}</m> or <m>\dfrac{-x-2}{x-2}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2x(3-x)}{5x^2(x-3)}</m></statement>
+        <answer><m>-\dfrac{2}{5x}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{a-b+c}{b-c-a}</m></statement>
+        <answer><m>-1</m></answer>
+      </task>
+    </project>
+    
+    <project xml:id="project-simplify-restrictions">
+      <title>Simplifying and Restrictions</title>
+      <introduction>
+        <p>Simplify each rational expression, and state any restrictions on the variables.</p>
+      </introduction>
+      <task>
+        <statement><m>\dfrac{2x^2-8x}{4-x}</m></statement>
+        <answer><m>-2x, x\neq 4</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{20x^3+15x^2-5x}{5x}</m></statement>
+        <answer><m>4x^2+3x-1, x\neq 0</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{3x-21}{28-4x}</m></statement>
+        <answer><m>-\dfrac{3}{4}, x\neq 7</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x+2}{x^2-4}</m></statement>
+        <answer><m>\dfrac{1}{x-2}, x\neq -2,2</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2x-8}{x^2-16}</m></statement>
+        <answer><m>\dfrac{2}{x+4}, x\neq -4,4</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{8x^3-10x}{20x^3-25x}</m></statement>
+        <answer><m>\dfrac{2}{5}, x\neq 0, \pm\dfrac{\sqrt{5}}{2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{5(4x-2)}{8(2x-1)^2}</m></statement>
+        <answer><m>\dfrac{5}{4(2x-1)}, x\neq \dfrac{1}{2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{10x^4-8x^2+4x}{2x^2}</m></statement>
+        <answer><m>\dfrac{5x^3-4x+2}{x}, x\neq 0</m></answer>
+      </task>
+    </project>
+    
+    <project xml:id="project-quadratic-expressions">
+      <title>Quadratic Expressions</title>
+      <introduction>
+        <p>Simplify each rational expression.</p>
+      </introduction>
+      <task>
+        <statement><m>\dfrac{x^2 + 4x - 12}{3x - 6}</m></statement>
+        <answer><m>\dfrac{x + 6}{3}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{12 + x - x^2}{2x^2 - 9x + 4}</m></statement>
+        <answer><p><m>\dfrac{-(x+3)}{2x-1}</m> or <m>\dfrac{-3 - x}{2x - 1}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x^2 - 6x + 8}{5x - 20}</m></statement>
+        <answer><m>\dfrac{x - 2}{5}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x^2 + 2x - 24}{2x^2 - 72}</m></statement>
+        <answer><m>\dfrac{x-4}{2(x-6)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x^2-x-6}{x^2-4}</m></statement>
+        <answer><m>\dfrac{x-3}{x-2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x^2-9}{12-7x+x^2}</m></statement>
+        <answer><m>\dfrac{x+3}{x-4}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x^2+5x+6}{x^2+6x+8}</m></statement>
+        <answer><m>\dfrac{x+3}{x+4}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x^2+3x-4}{x^2+2x-8}</m></statement>
+        <answer><m>\dfrac{x-1}{x-2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{4x^2-20x}{x^2-4x-5}</m></statement>
+        <answer><m>\dfrac{4x}{x+1}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{5x^2+10x-40}{10x^2-30x+20}</m></statement>
+        <answer><m>\dfrac{x+4}{2(x-1)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{4x-20}{3x^2-14x-5}</m></statement>
+        <answer><m>\dfrac{4}{3x+1}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2x^2+12x+18}{3x^2-3x-36}</m></statement>
+        <answer><m>\dfrac{2(x+3)}{3(x-4)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{4x^2+16x}{x^2-16}</m></statement>
+        <answer><m>\dfrac{4x}{x-4}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x^2+2x}{x^2+3x+2}</m></statement>
+        <answer><m>\dfrac{x}{x+1}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x^2+9x+18}{x^2+6x}</m></statement>
+        <answer><m>\dfrac{x+3}{x}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x^2+7x-18}{12-4x-x^2}</m></statement>
+        <answer><m>-\dfrac{x+9}{x+6}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{5x-10}{x^2+5x-14}</m></statement>
+        <answer><m>\dfrac{5}{x+7}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x^2+2x+1}{x^2-1}</m></statement>
+        <answer><m>\dfrac{x+1}{x-1}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x^2-25}{x^2-4x-5}</m></statement>
+        <answer><m>\dfrac{x+5}{x+1}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x^2+6x-16}{x^2-11x+18}</m></statement>
+        <answer><m>\dfrac{x+8}{x-9}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x^2+x-6}{2x^2-8}</m></statement>
+        <answer><m>\dfrac{x+3}{2(x+2)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x^2-2x+1}{2x^2-x-1}</m></statement>
+        <answer><m>\dfrac{x-1}{2x+1}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2x^2-4x-6}{2x^2-8x-10}</m></statement>
+        <answer><m>\dfrac{x-3}{x-5}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x^2+7x-8}{2-2x}</m></statement>
+        <answer><m>-\dfrac{x+8}{2}</m></answer>
+      </task>
+    </project>
+    
+    <project xml:id="project-complex-polynomials">
+      <title>Complex Polynomial Expressions</title>
+      <introduction>
+        <p>Simplify each rational expression.</p>
+      </introduction>
+      <task>
+        <statement><m>\dfrac{x^2-9x+20}{16-x^2}</m></statement>
+        <answer><m>-\dfrac{x-5}{x+4}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x^2 - 16}{2x^2 + 7x - 4}</m></statement>
+        <answer><m>\dfrac{x - 4}{2x - 1}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{6x^2+5x-4}{4x^2-1}</m></statement>
+        <answer><m>\dfrac{3x+4}{2x+1}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2x^2+9x+4}{4x^2-4x-3}</m></statement>
+        <answer><m>\dfrac{x+4}{2x-3}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2x^2+5x-3}{x^2-9}</m></statement>
+        <answer><m>\dfrac{2x-1}{x-3}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{3x^2-10x-8}{x^2-16}</m></statement>
+        <answer><m>\dfrac{3x+2}{x+4}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2x^2+17x+35}{3x^2+19x+20}</m></statement>
+        <answer><m>\dfrac{2x+7}{3x+4}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{5x^2-32x+12}{4x^2-27x+18}</m></statement>
+        <answer><m>\dfrac{5x-2}{4x-3}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{7x^2+61x-18}{7x^2+19x-6}</m></statement>
+        <answer><m>\dfrac{x+9}{x+3}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{8x^2-51x+18}{8x^2+29x-12}</m></statement>
+        <answer><m>\dfrac{x-6}{x+4}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{5x^2-9x-2}{x^2+4x-12}</m></statement>
+        <answer><m>\dfrac{5x+1}{x+6}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{4x^2-x-3}{4x^2-17x-15}</m></statement>
+        <answer><m>\dfrac{x-1}{x-5}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{3x^3-3x^2}{8x^3-12x^2+4x}</m></statement>
+        <answer><m>\dfrac{3x}{4(2x-1)}</m></answer>
+      </task>
+    </project>
+    
+    <project xml:id="project-trinomial-restrictions">
+      <title>Trinomials and Restrictions</title>
+      <introduction>
+        <p>Simplify each rational expression, and state any restrictions on the variables.</p>
+      </introduction>
+      <task>
+        <statement><m>\dfrac{5x^2+x-4}{25x^2-40x+16}</m></statement>
+        <answer><m>\dfrac{x+1}{5x-4}, x\neq\dfrac{4}{5}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{14x^3-7x^2+21x}{7x}</m></statement>
+        <answer><m>2x^2-x+3, x\neq0</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2x^2+10x}{-3x-15}</m></statement>
+        <answer><m>-\dfrac{2x}{3}, x\neq-5</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x+4}{x^2+3x-4}</m></statement>
+        <answer><m>\dfrac{1}{x-1}, x\neq-4,1</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x^2-9}{15-5x}</m></statement>
+        <answer><m>-\dfrac{x+3}{5}, x\neq3</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x^2-5x+6}{x^2+3x-10}</m></statement>
+        <answer><m>\dfrac{x-3}{x+5}, x\neq-5,2</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{10+3x-x^2}{25-x^2}</m></statement>
+        <answer><m>\dfrac{x+2}{x+5}, x\neq-5,5</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x^2-7x+12}{x^3-6x^2+9x}</m></statement>
+        <answer><m>\dfrac{x-4}{x(x-3)}, x\neq0,3</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{6x^2-x-2}{2x^2-x-1}</m></statement>
+        <answer><m>\dfrac{3x-2}{x-1}, x\neq-\dfrac{1}{2},1</m></answer>
+      </task>
+    </project>
+  </subsection>
+  
+  <subsection xml:id="subsection-common-mistake">
+    <title>Common Mistake: Cancelling <q>Common Terms</q></title>
+    <p>Common factors can be cancelled, but not <q>common terms</q>. For example,</p>
+    <md>
+      <mrow>\dfrac{x + 1}{x} \amp = \dfrac{\cancel{x} + 1}{\cancel{x}} \amp\amp \text{$x$ is not a factor of the numerator}</mrow>
+      <mrow>\dfrac{x^2 + x + 3}{x^2 + 3} \amp = \dfrac{\cancel{x^2} + x + \cancel{3}}{\cancel{x^2} + \cancel{3}} \amp\amp \text{$x^2$ and $3$ are terms, not factors, so they can't be cancelled}</mrow>
+      <mrow>\amp \amp\amp \text{(This expression is already in lowest terms)} \notag</mrow>
+      <mrow>\dfrac{x - 2}{x + 1} \amp = \dfrac{\cancel{x} - 2}{\cancel{x} + 1} \amp\amp \text{$x$ is a term, not a factor}</mrow>
+      <mrow>\dfrac{2x^2 - 9}{2x - 3} \amp = \dfrac{\cancelto{x}{2x^2} - \cancelto{3}{9}}{\cancel{2x} - \cancel{3}} \amp\amp \text{$2x^2$, $2x$, $9$, and $3$ are all terms, not factors}</mrow>
+      <mrow>\dfrac{x^2 + 2x + 1}{x^2 + 3} \amp = \dfrac{\cancel{x^2} + 2x + 1}{\cancel{x^2} + 3} \amp\amp \text{$x^2$ are both terms, not factors}</mrow>
+    </md>
+    <p>In other words, something must be a factor of the <em>entire</em> numerator in order to cancel them.</p>
+  </subsection>
+  
+  <subsection xml:id="subsection-summary">
+    <title>Summary of Simplifying Rational Expressions</title>
+    
+    <ol>
+      <li>
+        <p><alert>Factor the numerator and denominator as much as possible</alert> (if there are multiple terms, with addition or subtraction).
+          <ul>
+            <li>If there is multiplication only, there is no factoring needed.</li>
+          </ul>
+        </p>
+      </li>
+      <li>
+        <p><alert>Cancel common factors</alert>.
+          <ul>
+            <li>Remember: only factors can cancel (not terms, which are added or subtracted).</li>
+            <li>Sometimes, common factors will differ by a constant factor like <m>-1</m>.</li>
+          </ul>
+        </p>
+      </li>
+      <li><alert>Rewrite the fraction</alert>, with what's left after cancelling.</li>
+      <li><alert>Find restrictions</alert> (if needed). Find the values of the variable that make the denominator 0 (from the original denominator, before any cancellation).</li>
+    </ol>
+  </subsection>
+  
+  <subsection xml:id="subsection-word-problems">
+    <title>Word Problems</title>
+    
+    <example>
+      <title>Isosceles Triangle</title>
+      <statement>
+        <p>An isosceles triangle has two sides of length <m>9x+3</m> and a perimeter of <m>30x+10</m>, determine the ratio of the base to the perimeter in simplified form and state the restriction on <m>x</m>, then explain in one sentence why that restriction is necessary in this situation.</p>
+      </statement>
+      <answer>
+        <p><m>\dfrac{b}{P}=\dfrac{12x+4}{30x+10}=\dfrac{2}{5}</m>, restriction <m>x\gt-\dfrac{1}{3}</m> because the side lengths and perimeter must be positive (at <m>x=-\dfrac{1}{3}</m> they are zero).</p>
+      </answer>
+    </example>
+    
+    <example>
+      <title>Rectangle Ratio</title>
+      <statement>
+        <p>A rectangle is six times as long as it is wide, determine the ratio of its area to its perimeter in simplest form if its width is <m>w</m>.</p>
+      </statement>
+      <answer>
+        <m>\dfrac{A}{P}=\dfrac{6w^2}{14w}=\dfrac{3w}{7}</m>
+      </answer>
+    </example>
+    
+    <example>
+      <title>Equivalent Rational Expressions</title>
+      <statement>
+        <p>The quotient of two polynomials is <m>3x-2</m>, give two examples of a rational expression equivalent to this polynomial that has the restriction <m>x\neq 4</m>.</p>
+      </statement>
+      <answer>
+        <p><m>\dfrac{(3x-2)(x-4)}{x-4}</m> and <m>\dfrac{(3x-2)(x-4)^2}{(x-4)^2}</m> (each simplifies to <m>3x-2</m> for <m>x\neq 4</m>).</p>
+      </answer>
+    </example>
+    
+    <example>
+      <title>Consecutive Restrictions</title>
+      <statement>
+        <p>Give an example of a rational expression that could have three restrictions that are consecutive numbers.</p>
+      </statement>
+      <answer>
+        <p>e.g. <m>\dfrac{x^2+1}{(x-2)(x-3)(x-4)}</m> (restrictions <m>x\neq 2,3,4</m> are consecutive).</p>
+      </answer>
+    </example>
+    
+    <example>
+      <title>Box Dimensions</title>
+      <statement>
+        <p>The volume of a box is given by <m>(6x^2+23x+21)(x+5)</m> and its height is <m>2x+3</m>. Find a simplified expression for the area of the bottom of the box.</p>
+      </statement>
+      <answer>
+        <m>A=\dfrac{(6x^2+23x+21)(x+5)}{2x+3}=(3x+7)(x+5)</m>
+      </answer>
+    </example>
+  </subsection>
+  
+  <subsection xml:id="subsection-two-variables">
+    <title>Simplifying with Two Variables</title>
+    
+    <project xml:id="project-two-variable-expressions">
+      <title>Two Variable Expressions</title>
+      <introduction>
+        <p>Simplify each rational expression.</p>
+      </introduction>
+      <task>
+        <statement><m>\dfrac{x^2-xy}{x^2}</m></statement>
+        <answer><m>\dfrac{x-y}{x}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x^3}{x^3+x^2y}</m></statement>
+        <answer><m>\dfrac{x}{x + y}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x^2y+xy^2}{xy+y^2}</m></statement>
+        <answer><m>x</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{4a^2b-2ab^2}{(2a-b)^2}</m></statement>
+        <answer><m>\dfrac{2ab}{2a-b}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{-5x^3y^2}{10xy^3}</m></statement>
+        <answer><m>-\dfrac{x^2}{2y}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{5ab}{15a^4b-10a^2b^2}</m></statement>
+        <answer><m>\dfrac{1}{a(3a^2-2b)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2ab-6a}{9a-3ab}</m></statement>
+        <answer><m>-\dfrac{2}{3}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x^2+2xy-3y^2}{2x^2-xy-y^2}</m></statement>
+        <answer><m>\dfrac{x+3y}{2x+y}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x^2-3xy+2y^2}{x^2-4y^2}</m></statement>
+        <answer><m>\dfrac{x-y}{x+2y}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{4x^2 - 4y^2}{x^2 - 2xy + y^2}</m></statement>
+        <answer><m>\dfrac{4(x+y)}{x-y}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{6-x-2x^2}{12+7x-10x^2}</m></statement>
+        <answer><m>\dfrac{x+2}{5x+4}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{15+x-2x^2}{21-10x+x^2}</m></statement>
+        <answer><m>-\dfrac{2x+5}{x-7}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{xy+4x-y-4}{xy+4x-4y-16}</m></statement>
+        <answer><m>\dfrac{x-1}{x-4}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{xy-3x+2y-6}{xy+5x+2y+10}</m></statement>
+        <answer><m>\dfrac{y-3}{y+5}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{4x^2-16y^2}{x^2+xy-6y^2}</m></statement>
+        <answer><m>\dfrac{4(x+2y)}{x+3y}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{4x^2y-2xy^2}{(2x-y)^2}</m></statement>
+        <answer><m>\dfrac{2xy}{2x-y}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x^2-7xy+10y^2}{x^2+xy-6y^2}</m></statement>
+        <answer><m>\dfrac{x-5y}{x+3y}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2x^2-xy-y^2}{x^2-2xy+y^2}</m></statement>
+        <answer><m>\dfrac{2x+y}{x-y}</m></answer>
+      </task>
+    </project>
+    
+    <project xml:id="project-restrictions-two-variables">
+      <title>Restrictions with Two Variables</title>
+      <introduction>
+        <p>Find the restrictions, if any, on each rational expression.</p>
+      </introduction>
+      <task>
+        <statement><m>\dfrac{x^2+y^2}{x^2-y^2}</m></statement>
+        <answer><m>x\neq y,-y</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x-y}{x^2-2xy+y^2}</m></statement>
+        <answer><m>x\neq y</m></answer>
+      </task>
+    </project>
+  </subsection>
+  
+</section>

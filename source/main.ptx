@@ -15,6 +15,7 @@
     <xi:include href="./ch-radical-expressions.ptx" />
     <xi:include href="./ch-quadratic-functions-and-equations.ptx" />'
     <xi:include href="./ch-quadratic-systems.ptx" />
+    <xi:include href="./ch-rational-expressions.ptx" />
     <xi:include href="./ch-oblique-triangle-trigonometry.ptx" />
     <xi:include href="./ch-polynomial-functions.ptx" />
     <xi:include href="./ch-properties-of-functions.ptx"/>

@@ -22,9 +22,7 @@
         <mrow>4 \amp = 4</mrow>
       </md>
       <p>Intuitively, this is because the equation <m>x^2 = x + 2</m> is asking,</p>
-      <md>
-        <mrow>\text{<q>For which values of $x$ do the two expressions give the same number?</q>}</mrow>
-      </md>
+      <p><q>For which values of $x$ do the two expressions give the same number?</q></p>
       <p>Then, a point is an intersection if it lies on both graphs, meaning that for that particular <m>x</m>-value, the <m>y</m> value for the left side is the same as the <m>y</m>-value for the right side. That's what it means for the two sides of the equation to be equal.</p>
     </example>
     
