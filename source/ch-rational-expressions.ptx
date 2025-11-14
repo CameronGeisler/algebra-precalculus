@@ -8,6 +8,7 @@
   </introduction> -->
 
   <!-- include sections -->
-  <xi:include href="sec-simplifying-rational-expressions.ptx" />
+  <xi:include href="./sec-simplifying-rational-expressions.ptx" />
+  <xi:include href="./sec-multiplying-and-dividing-rational-expressions.ptx" />
 
 </chapter>

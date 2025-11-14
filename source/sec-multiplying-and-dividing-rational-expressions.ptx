@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-multiplying-and-dividing-rational-expressions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Multiplying and Dividing Rational Expressions</title>
+  
+  <introduction>
+  <p>
+    Recall that to multiply fractions, we simply multiply their numerators together and their denominators together (separately). Also, after doing the multiplication, we can sometimes <em>cancel common factors</em> to reduce the fraction to lowest terms.
+  </p>
+  
+  <example>
+    <title>Multiplying Fractions Example</title>
+    <p>
+      For example, to multiply <m>\frac{2}{3}</m> by <m>\frac{5}{8}</m>,
+    </p>
+    <md>
+      <mrow>\frac{2}{3} \cdot \frac{5}{8} = \frac{2 \cdot 5}{3 \cdot 8} \amp = \frac{10}{24}</mrow>
+      <mrow>
+        \amp = \frac{5}{12} &amp;&amp; \text{reducing the fraction to lowest terms}
+      </mrow>
+    </md>
+    <p>
+      Therefore, <m>\frac{2}{3} \cdot \frac{5}{8} = \frac{5}{12}</m>.
+    </p>
+  </example>
+  
+  <p>
+    In general, the rule for multiplying fractions is,
+  </p>
+  <md>
+    <mrow>
+      \boxed{\frac{a}{b} \cdot \frac{c}{d} = \frac{ac}{bd}}
+    </mrow>
+  </md>
+  <p>
+    Alternatively, we can cancel common factors <em>before</em> multiplying.
+  </p>
+  
+  <example>
+    <title>Cancelling Before Multiplying</title>
+    <p>
+      For example, to multiply <m>\frac{2}{3} \cdot \frac{5}{8}</m>, we can cancel the <m>2</m> on the top with the <m>8</m> on the bottom, to make <m>1</m> and <m>4</m>,
+    </p>
+    <md>
+      <mrow>
+        \frac{\cancel{2}^1}{3} \cdot \frac{5}{\cancel{8}^4} \amp = \frac{1}{3} \cdot \frac{5}{4}
+      </mrow>
+      <mrow>
+        \amp = \frac{5}{12}
+      </mrow>
+    </md>
+  </example>
+      <p>
+      Rational expressions are multiplied in a similar way, by multiplying their numerators together and their denominators together.
+    </p>
+  </introduction>
+  
+
+  
+  <subsection xml:id="mult-rational-expr">
+    <title>Multiplying Rational Expressions</title>
+    <theorem>
+      <statement>
+        <p>
+          To multiply two rational expressions, multiply their numerators and multiply their denominators. That is, if <m>A, B, C, D</m> are polynomials, then,
+        </p>
+        <md>
+          <mrow>
+            \boxed{\frac{A}{B} \cdot \frac{C}{D} = \frac{AC}{BD}}
+          </mrow>
+        </md>
+        <p>
+          as long as <m>B</m> and <m>D</m> are not equal to 0.
+        </p>
+      </statement>
+    </theorem>
+    
+    <p>
+      For example,
+    </p>
+    <md>
+      <mrow>
+        \frac{x + 2}{x - 5} \cdot \frac{x^2 - 1}{x^2 + 1} = \frac{(x + 2)(x^2 - 1)}{(x - 5)(x^2 + 1)}
+      </mrow>
+    </md>
+    <p>
+      However, if we first multiply and expand the expressions in the numerator and denominator, then the polynomials will get complicated and it will be more difficult to cancel common factors, in order to simplify. Instead, we want to factor each expression first, cancel common factors, and then multiply the result left over.
+    </p>
+    
+    <ul>
+      <li>
+        <p>Factors in any numerator can be cancelled with factors in any denominator. In other words, we can cancel <q>up and down</q> but also <q>diagonally</q>.</p>
+      </li>
+      <li>
+        <p>Cancelling common factors result in 1.</p>
+      </li>
+      <li>
+        <p>A good strategy is to first focus on factoring (factor everything), then look for cancellations after.</p>
+      </li>
+      <li>
+        <p>Note: Multiplication can be denoted by <m>\cdot</m> or <m>\times</m>, and also sometimes by brackets. In other words, each of these means the same thing:</p>
+        <md>
+          <mrow>
+            \frac{A}{B} \cdot \frac{C}{D} \qquad \frac{A}{B} \times \frac{C}{D} \qquad \brac{\frac{A}{B}} \brac{\frac{C}{D}}
+          </mrow>
+        </md>
+      </li>
+    </ul>
+  </subsection>
+  
+  <subsection xml:id="div-rational-expr">
+    <title>Dividing Rational Expressions</title>
+    <p>
+      Recall that when dividing rational numbers, this is equivalent to multiplying by the reciprocal of the second number, and then multiply like before. You may remember this rule as <q>keep, change, flip</q> (meaning, keep the first fraction the same, change the sign to multiplication, and flip the 2nd fraction).
+    </p>
+    
+    <example>
+      <title>Dividing Fractions Example</title>
+      <p>
+        For example, to divide <m>\frac{3}{10} \div \frac{9}{5}</m>,
+      </p>
+      <md>
+        <mrow>
+          \frac{3}{10} \div \frac{9}{5} \amp = \frac{3}{10} \cdot \frac{5}{9}
+        </mrow>
+        <mrow>
+          \amp = \frac{3 \cdot 5}{10 \cdot 9}
+        </mrow>
+        <mrow>
+          \amp = \frac{15}{90}
+        </mrow>
+        <mrow>
+          \amp = \frac{1}{6}
+        </mrow>
+      </md>
+      <p>
+        Therefore, <m>\frac{3}{10} \div \frac{9}{5} = \frac{1}{6}</m>.
+      </p>
+    </example>
+    
+    <p>
+      In general,
+    </p>
+    <md>
+      <mrow>
+        \boxed{\frac{a}{b} \div \frac{c}{d} = \frac{a}{b} \cdot \frac{d}{c}}
+      </mrow>
+    </md>
+    <p>
+      Rational expressions are divided similarly, i.e. when dividing by a rational expression, multiply by its reciprocal.
+    </p>
+    
+    <theorem>
+      <statement>
+        <p>
+          To divide two rational expressions, multiply by the reciprocal of the denominator. That is, if <m>A, B, C, D</m> are polynomials, then,
+        </p>
+        <md>
+          <mrow>
+            \boxed{\frac{A}{B} \div \frac{C}{D} = \frac{A}{B} \cdot \frac{D}{C}}
+          </mrow>
+        </md>
+        <p>
+          where <m>B, C, D</m> are non-zero.
+        </p>
+      </statement>
+    </theorem>
+    
+    <p>
+      Remember: keep change flip.
+    </p>
+    <p>
+      Note that in addition to <m>B</m> and <m>D</m> having to be non-zero, <m>C</m> also has to be non-zero, otherwise we are dividing <m>\frac{A}{B}</m> by 0.
+    </p>
+  </subsection>
+  
+  <subsection xml:id="mult-div-monomials">
+    <title>Multiplying and Dividing with Monomials</title>
+    
+    <project>
+      <title>Multiplying and Dividing with Monomials 1</title>
+      <introduction>
+        <p>Multiply or divide, and simplify each expression.</p>
+      </introduction>
+      <task><statement><m>\dfrac{3x^2}{2x}\cdot\dfrac{x^2}{12}</m></statement><answer><m>\dfrac{x^3}{8}</m></answer></task>
+      <task><statement><m>\dfrac{14}{x^2}\cdot\dfrac{x^5}{2x}</m></statement><answer><m>7x^2</m></answer></task>
+      <task><statement><m>\dfrac{3}{x}\div\dfrac{12}{x^2}</m></statement><answer><m>\dfrac{x}{4}</m></answer></task>
+      <task><statement><m>\dfrac{-4x}{9}\cdot 6</m></statement><answer><m>-\dfrac{8x}{3}</m></answer></task>
+      <task><statement><m>\dfrac{y^2}{3}\cdot\dfrac{8}{y}</m></statement><answer><m>\dfrac{8y}{3}</m></answer></task>
+      <task><statement><m>\dfrac{2x^2}{7}\cdot\dfrac{21}{x}</m></statement><answer><m>6x</m></answer></task>
+      <task><statement><m>\dfrac{x^3}{6}\div\dfrac{x^2}{-3}</m></statement><answer><m>-\dfrac{x}{2}</m></answer></task>
+      <task><statement><m>\dfrac{15x^2}{18}\cdot\dfrac{9}{5x}</m></statement><answer><m>\dfrac{3x}{2}</m></answer></task>
+      <task><statement><m>\dfrac{3x^2}{2y}\cdot\dfrac{4y^2}{9}</m></statement><answer><m>\dfrac{2x^2y}{3}</m></answer></task>
+      <task><statement><m>\dfrac{6ab}{a^2b^2}\cdot\dfrac{a^2}{b^2}</m></statement><answer><m>\dfrac{6a}{b^3}</m></answer></task>
+      <task><statement><m>\dfrac{6x^2 y}{5y^3}\cdot\dfrac{xy}{8}</m></statement><answer><m>\dfrac{3x^3}{20y}</m></answer></task>
+      <task><statement><m>\dfrac{2x^3y}{3xy^2}\cdot\dfrac{9x}{4x^2y}</m></statement><answer><m>\dfrac{3x}{2y^2}</m></answer></task>
+      <task><statement><m>\dfrac{2x}{3}\div\dfrac{x^2}{5}</m></statement><answer><m>\dfrac{10}{3x}</m></answer></task>
+      <task><statement><m>\dfrac{3x^3}{2y}\cdot\dfrac{8y^2}{9x}</m></statement><answer><m>\dfrac{4x^2y}{3}</m></answer></task>
+      <task><statement><m>\dfrac{7}{2x^3}\cdot\dfrac{-x^4}{14}</m></statement><answer><m>-\dfrac{x}{4}</m></answer></task>
+      <task><statement><m>\dfrac{-5x^2}{12}\cdot\dfrac{4}{-15x^5}</m></statement><answer><m>\dfrac{1}{9x^3}</m></answer></task>
+      <task><statement><m>\dfrac{18x^2}{10y^2}\cdot\dfrac{15y^3}{24x}</m></statement><answer><m>\dfrac{9xy}{8}</m></answer></task>
+      <task><statement><m>\dfrac{15a^2b}{4c}\cdot\dfrac{8abc}{-3}</m></statement><answer><m>-10a^3b^2</m></answer></task>
+      <task><statement><m>\dfrac{24mn^2}{8m^4n^3}\cdot\dfrac{12m^3n^2}{36m^2n}</m></statement><answer><m>\dfrac{1}{m^2}</m></answer></task>
+      <task><statement><m>\dfrac{8m^3}{3n^2}\cdot\dfrac{5m^2}{6n}</m></statement><answer><m>\dfrac{20m^5}{9n^3}</m></answer></task>
+    </project>
+    
+    <project>
+      <title>Multiplying and Dividing with Monomials 2</title>
+      <introduction>
+        <p>Multiply or divide, and simplify each expression.</p>
+      </introduction>
+      <task><statement><m>\dfrac{-8x^4}{3}\div\dfrac{-6x^2}{5}</m></statement><answer><m>\dfrac{20x^2}{9}</m></answer></task>
+      <task><statement><m>\dfrac{20}{3x^5}\div\dfrac{-15}{8x^2}</m></statement><answer><m>-\dfrac{32}{9x^3}</m></answer></task>
+      <task><statement><m>\dfrac{4x^3}{-3}\div 2x^4</m></statement><answer><m>-\dfrac{2}{3x}</m></answer></task>
+      <task><statement><m>\dfrac{7a}{3}\div\dfrac{14a^2}{5}</m></statement><answer><m>\dfrac{5}{6a}</m></answer></task>
+      <task><statement><m>\dfrac{-15}{2x^2}\div\dfrac{10}{3x^4}</m></statement><answer><m>-\dfrac{9x^2}{4}</m></answer></task>
+      <task><statement><m>\dfrac{12m^2 f}{5cf}\cdot\dfrac{15c}{4m}</m></statement><answer><m>9m</m></answer></task>
+      <task><statement><m>\dfrac{-4a}{7b^3}\cdot\dfrac{-8a^4}{7}</m></statement><answer><m>\dfrac{32a^5}{49b^3}</m></answer></task>
+      <task><statement><m>\dfrac{4t^2}{3s}\div\dfrac{2t}{s^2}</m></statement><answer><m>\dfrac{2st}{3}</m></answer></task>
+      <task><statement><m>\dfrac{8m^3}{3n^2}\cdot\dfrac{5m^2}{6n}</m></statement><answer><m>\dfrac{20m^5}{9n^3}</m></answer></task>
+      <task><statement><m>\dfrac{12m}{-5t}\cdot\dfrac{8m^2}{-15}</m></statement><answer><m>\dfrac{32m^3}{25t}</m></answer></task>
+      <task><statement><m>6x^3y^4\cdot\dfrac{2xy}{-3}</m></statement><answer><m>-4x^4y^5</m></answer></task>
+      <task><statement><m>\dfrac{16ab}{9x^4y^2}\cdot\dfrac{3x^5y^4}{8a^2b^2}</m></statement><answer><m>\dfrac{2xy^2}{3ab}</m></answer></task>
+      <task><statement><m>\dfrac{6x^2y}{5mn^3}\div\dfrac{9xy}{10mn^4}</m></statement><answer><m>\dfrac{4xn}{3}</m></answer></task>
+      <task><statement><m>\dfrac{21xy}{4t^2}\cdot\dfrac{12}{7x^2y}</m></statement><answer><m>\dfrac{9}{xt^2}</m></answer></task>
+      <task><statement><m>\dfrac{6x^2 y^4}{35a^2 b^4}\div\dfrac{12x^3 y^3}{7a^4 b^4}</m></statement><answer><m>\dfrac{a^2 y}{10x}</m></answer></task>
+      <task><statement><m>\dfrac{5xy}{6x^2y}\div\dfrac{10xy}{9x^3y^2}</m></statement><answer><m>\dfrac{3xy}{4}</m></answer></task>
+      <task><statement><m>-12a^2b\div\dfrac{4ab^2}{-3ab^3}</m></statement><answer><m>9a^2b^2</m></answer></task>
+      <task><statement><m>\dfrac{3a^2 b^3}{2ab^2}\div\dfrac{9a^2 b}{14a^2}</m></statement><answer><m>\dfrac{7a}{3}</m></answer></task>
+      <task><statement><m>\dfrac{27a^9 b^3}{16xy^5}\cdot\dfrac{20x^2 y^6}{9a^9 b}</m></statement><answer><m>\dfrac{15b^2xy}{4}</m></answer></task>
+      <task><statement><m>\dfrac{2a^3 b}{c^4}\cdot\dfrac{c^2}{4a^2 b^2}\cdot\dfrac{6a^2 c^2}{a^3 c^2}</m></statement><answer><m>\dfrac{3}{bc^2}</m></answer></task>
+    </project>
+    
+    <project>
+      <title>Multiplying and Dividing with Monomials 3</title>
+      <introduction>
+        <p>Multiply or divide, and simplify each expression.</p>
+      </introduction>
+      <task><statement><m>\dfrac{2(x + 1)}{3} \cdot \dfrac{x - 1}{6(x + 1)}</m></statement><answer><m>\dfrac{x - 1}{9}</m></answer></task>
+      <task><statement><m>\dfrac{(x + 1)(x - 5)}{x + 4} \cdot \dfrac{x + 4}{2(x - 5)}</m></statement><answer><m>\dfrac{x + 1}{2}</m></answer></task>
+      <task><statement><m>\dfrac{3}{x-4}\times \dfrac{x-4}{6}</m></statement><answer><m>\dfrac{1}{2}</m></answer></task>
+      <task><statement><m>\dfrac{m+2}{5}\div\dfrac{y+1}{10}</m></statement><answer><m>\dfrac{2(m+2)}{y+1}</m></answer></task>
+      <task><statement><m>\dfrac{5(x-2)}{x+1}\times \dfrac{x+1}{10}</m></statement><answer><m>\dfrac{x-2}{2}</m></answer></task>
+      <task><statement><m>\dfrac{2(x+1)}{x-2}\div \dfrac{x+1}{x-2}</m></statement><answer><m>2</m></answer></task>
+      <task><statement><m>\dfrac{4a^2b}{3(a+b)}\div\dfrac{-8ab^2}{a+b}</m></statement><answer><m>-\dfrac{a}{6b}</m></answer></task>
+      <task><statement><m>\dfrac{3(x+4)}{5x}\times\dfrac{6x^3}{2(x+4)}</m></statement><answer><m>\dfrac{9x^2}{5}</m></answer></task>
+      <task><statement><m>\dfrac{8(x-2)}{y}\cdot\dfrac{3y}{6(x-2)^2}</m></statement><answer><m>\dfrac{4}{x-2}</m></answer></task>
+      <task><statement><m>\dfrac{3x(x - 6)}{(x + 2)(x - 7)} \div \dfrac{x - 6}{x + 2}</m></statement><answer><m>\dfrac{3x}{x - 7}</m></answer></task>
+      <task><statement><m>\dfrac{x(x + 4)}{(x - 3)(x - 6)} \cdot \dfrac{(x - 6)(x + 9)}{x^2(x + 4)}</m></statement><answer><m>\dfrac{x + 9}{x(x - 3)}</m></answer></task>
+      <task><statement><m>\dfrac{3(a-b)}{(a-1)(a+5)} \cdot \dfrac{(a-5)(a+5)}{15(a-b)}</m></statement><answer><m>\dfrac{a-5}{5(a-1)}</m></answer></task>
+      <task><statement><m>\dfrac{(x-7)(x+3)}{(2x-3)(2x+3)} \cdot \dfrac{4(2x+3)}{(x+3)(x-1)}</m></statement><answer><m>\dfrac{4(x-7)}{(2x-3)(x-1)}</m></answer></task>
+      <task><statement><m>\dfrac{(x + 1)(x - 3)}{(x + 2)^2} \cdot \dfrac{2(x + 2)}{(x - 3)(x + 3)}</m></statement><answer><m>\dfrac{2(x + 1)}{(x + 2)(x + 3)}</m></answer></task>
+    </project>
+  </subsection>
+  
+  <subsection xml:id="mult-div-poly-factor">
+    <title>Multiplying and Dividing with Polynomials by Factoring</title>
+    
+    <project>
+      <title>Multiplying and Dividing with Polynomials by Factoring 1</title>
+      <introduction>
+        <p>Multiply or divide, and simplify each expression.</p>
+      </introduction>
+      <task><statement><m>\dfrac{4x+4}{3x-3}\cdot\dfrac{6x-6}{5x+5}</m></statement><answer><m>\dfrac{8}{5}</m></answer></task>
+      <task><statement><m>\dfrac{6x^3}{x+3}\cdot\dfrac{5x+15}{8x^3}</m></statement><answer><m>\dfrac{15}{4}</m></answer></task>
+      <task><statement><m>\dfrac{3x+6}{9x^2}\div\dfrac{x+2}{-3x}</m></statement><answer><m>-\dfrac{1}{x}</m></answer></task>
+      <task><statement><m>\dfrac{4x-6}{8x^2y}\cdot\dfrac{4xy}{6x-9}</m></statement><answer><m>\dfrac{1}{3x}</m></answer></task>
+      <task><statement><m>\dfrac{2x-12}{7x}\cdot\dfrac{14}{3x-18}</m></statement><answer><m>\dfrac{4}{3x}</m></answer></task>
+      <task><statement><m>\dfrac{x+2}{x^2-3x}\cdot\dfrac{8x^2}{x+2}</m></statement><answer><m>\dfrac{8x}{x-3}</m></answer></task>
+      <task><statement><m>\dfrac{4x+8}{x^2-2x}\cdot\dfrac{x-2}{x+2}</m></statement><answer><m>\dfrac{4}{x}</m></answer></task>
+      <task><statement><m>\dfrac{2x-8}{x+2}\cdot\dfrac{3x+6}{x-4}</m></statement><answer><m>6</m></answer></task>
+      <task><statement><m>\dfrac{2x-6}{x+3} \cdot \dfrac{x+3}{2}</m></statement><answer><m>x-3</m></answer></task>
+      <task><statement><m>\dfrac{7x-1}{3x} \cdot \dfrac{1}{1-7x}</m></statement><answer><m>-\dfrac{1}{3x}</m></answer></task>
+      <task><statement><m>\dfrac{x-5}{x+3} \div \dfrac{x+1}{x-2}</m></statement><answer><m>\dfrac{(x-5)(x-2)}{(x+3)(x+1)}</m></answer></task>
+      <task><statement><m>\dfrac{x^2}{2x + 1} \cdot \dfrac{6x + 3}{5x}</m></statement><answer><m>\dfrac{3x}{5}</m></answer></task>
+      <task><statement><m>\dfrac{x - 7}{10} \div \dfrac{2x - 14}{25}</m></statement><answer><m>\dfrac{5}{4}</m></answer></task>
+      <task><statement><m>\dfrac{3a - 6}{a + 2} \div \dfrac{a - 2}{a + 2}</m></statement><answer><m>3</m></answer></task>
+      <task><statement><m>\dfrac{2(x - 2)}{9x^3} \cdot \dfrac{12x^4}{2 - x}</m></statement><answer><m>-\dfrac{8x}{3}</m></answer></task>
+      <task><statement><m>\dfrac{3(x+4)^2}{2x+1} \div \dfrac{5(x + 4)}{7x + 14}</m></statement><answer><m>\dfrac{21(x + 4)(x + 2)}{5(2x + 1)}</m></answer></task>
+      <task><statement><m>\dfrac{4x - 14}{6x^2 - 5x} \cdot \dfrac{24x^2 - 20x}{16x - 56}</m></statement><answer><m>1</m></answer></task>
+      <task><statement><m>\dfrac{4x - 3}{2x^2 - 15x} \div \dfrac{8x^2 - 6x}{6x^3 - 45x^2}</m></statement><answer><m>\dfrac{3}{2}</m></answer></task>
+    </project>
+    
+    <project>
+      <title>Multiplying and Dividing with Polynomials by Factoring 2</title>
+      <introduction>
+        <p>Multiply or divide, and simplify each expression.</p>
+      </introduction>
+      <task><statement><m>\dfrac{x^2+5x+6}{x^2-6x+5}\cdot\dfrac{x^2+x-30}{x^2+9x+18}</m></statement><answer><m>\dfrac{x+2}{x-1}</m></answer></task>
+      <task><statement><m>\dfrac{2x^2-8}{6x+3}\div\dfrac{6x-12}{18x+9}</m></statement><answer><m>x+2</m></answer></task>
+      <task><statement><m>\dfrac{x^2-100}{144} \cdot \dfrac{36}{x+10}</m></statement><answer><m>\dfrac{x-10}{4}</m></answer></task>
+      <task><statement><m>\dfrac{x^2+7x+12}{x^2+4x+4}\cdot\dfrac{x^2-x-6}{x^2-9}</m></statement><answer><m>\dfrac{x+4}{x+2}</m></answer></task>
+      <task><statement><m>\dfrac{x^2-3x-4}{x^2+5x} \div \dfrac{x^2-7x+12}{x^2+2x-15}</m></statement><answer><m>\dfrac{x+1}{x}</m></answer></task>
+      <task><statement><m>\dfrac{2x+10}{x^2 - 4x + 4} \div \dfrac{x^2 - 25}{x - 2}</m></statement><answer><m>\dfrac{2}{(x - 2)(x - 5)}</m></answer></task>
+      <task><statement><m>\dfrac{x^2-1}{2x-14}\cdot\dfrac{x^2-4x-21}{x^2+2x-3}</m></statement><answer><m>\dfrac{x+1}{2}</m></answer></task>
+      <task><statement><m>\dfrac{x^2+2x+1}{x-1}\cdot\dfrac{3x-3}{x+1}</m></statement><answer><m>3(x+1)</m></answer></task>
+      <task><statement><m>\dfrac{x^2+10x+16}{5x-10}\cdot\dfrac{x-2}{x^2+9x+8}</m></statement><answer><m>\dfrac{x+2}{5(x+1)}</m></answer></task>
+      <task><statement><m>\dfrac{x^2-16}{x^2-4}\cdot\dfrac{x+2}{x-4}</m></statement><answer><m>\dfrac{x+4}{x-2}</m></answer></task>
+      <task><statement><m>\dfrac{x^2-49}{x^2+5x}\cdot\dfrac{x+5}{x+7}</m></statement><answer><m>\dfrac{x-7}{x}</m></answer></task>
+      <task><statement><m>\dfrac{x^2-4}{5x+10}\cdot\dfrac{x+2}{x-2}</m></statement><answer><m>\dfrac{x+2}{5}</m></answer></task>
+      <task><statement><m>\dfrac{x^2-36}{x^2-25}\cdot\dfrac{x+5}{x-6}</m></statement><answer><m>\dfrac{x+6}{x-5}</m></answer></task>
+      <task><statement><m>\dfrac{x^2-7x}{x^2-49} \div \dfrac{3x^2}{x+7}</m></statement><answer><m>\dfrac{1}{3x}</m></answer></task>
+      <task><statement><m>\dfrac{5}{x+1} \div \dfrac{10}{x^2-1} \div (x-1)</m></statement><answer><m>\dfrac{1}{2}</m></answer></task>
+      <task><statement><m>\dfrac{x^2}{x^2-9} \div \dfrac{x}{x-3}</m></statement><answer><m>\dfrac{x}{x+3}</m></answer></task>
+      <task><statement><m>\dfrac{x^2-1}{2x-2}\cdot\dfrac{4x}{x+1}</m></statement><answer><m>2x</m></answer></task>
+      <task><statement><m>\dfrac{x^2 - 1}{x - 2} \div \dfrac{x + 1}{12 - 6x}</m></statement><answer><m>-6(x - 1)</m></answer></task>
+      <task><statement><m>\dfrac{x^2-2x-24}{x^2-36}\cdot\dfrac{x^2+5x-6}{x^2+2x-8}</m></statement><answer><m>\dfrac{x-1}{x-2}</m></answer></task>
+      <task><statement><m>\dfrac{2x^2-10x}{x^2-9x+20}\cdot\dfrac{x^2-8x+16}{4x^2}</m></statement><answer><m>\dfrac{x-4}{2x}</m></answer></task>
+      <task><statement><m>\dfrac{x^2+7x+12}{x^2+8x+16}\cdot\dfrac{x+4}{x+3}</m></statement><answer><m>1</m></answer></task>
+      <task><statement><m>\dfrac{x+3}{x+1} \cdot \dfrac{x^2-1}{x^2-9}</m></statement><answer><m>\dfrac{x-1}{x-3}</m></answer></task>
+      <task><statement><m>\dfrac{x^2 - 8x + 15}{x^2 + 4x - 15} \div \dfrac{15 - 2x - x^2}{x^2 + 11x + 18}</m></statement><answer><m>-\dfrac{x + 2}{x + 5}</m></answer></task>
+      <task><statement><m>\dfrac{x-5}{x} \div \dfrac{x^2-2x-15}{x^3}</m></statement><answer><m>\dfrac{x^2}{x+3}</m></answer></task>
+      <task><statement><m>\dfrac{8x+8}{x^2-2x+1}\cdot\dfrac{x-1}{2x+2}</m></statement><answer><m>\dfrac{4}{x-1}</m></answer></task>
+      <task><statement><m>\dfrac{x^2-25}{x+2}\cdot\dfrac{x^2-4}{x^2-7x+10}</m></statement><answer><m>x+5</m></answer></task>
+      <task><statement><m>\dfrac{(x+1)^2}{x^2 + 2x - 3} \cdot \dfrac{(x-1)^2}{x^2 + 4x + 3}</m></statement><answer><m>\dfrac{(x - 1)(x + 1)}{(x + 3)^2}</m></answer></task>
+      <task><statement><m>\dfrac{x^2 - 14x + 49}{x^2 - 49} \div \dfrac{3x - 21}{x + 7}</m></statement><answer><m>\dfrac{1}{3}</m></answer></task>
+      <task><statement><m>\dfrac{2(x^2 - 7x + 12)}{x^2 - x - 6} \div \dfrac{5(x - 4)}{x^2 - 4}</m></statement><answer><m>\dfrac{2(x - 2)}{5}</m></answer></task>
+      <task><statement><m>\dfrac{x^2 - 1}{x - 4} \cdot \dfrac{x^2 + x - 72}{x^2 + 10x + 9}</m></statement><answer><m>\dfrac{(x - 1)(x - 8)}{x - 4}</m></answer></task>
+      <task><statement><m>\dfrac{x^2-25}{x^2-4}\cdot\dfrac{4x-8}{3x-15}</m></statement><answer><m>\dfrac{4(x+5)}{3(x+2)}</m></answer></task>
+      <task><statement><m>\dfrac{x^2 + 7x + 10}{x^2 + x - 6} \cdot \dfrac{x + 3}{x + 5}</m></statement><answer><m>\dfrac{x + 2}{x - 2}</m></answer></task>
+      <task><statement><m>\dfrac{x^2 - 6x + 8}{x^2 - 14x + 48} \cdot \dfrac{x^2 + x - 42}{28 - 3x - x^2}</m></statement><answer><m>-\dfrac{x - 2}{x - 8}</m></answer></task>
+      <task><statement><m>\dfrac{x - 8}{x^2 + 5x + 4} \div \dfrac{x - 8}{x^2 - 8x - 9}</m></statement><answer><m>\dfrac{x - 9}{x + 4}</m></answer></task>
+      <task><statement><m>\dfrac{x^2-3x+2}{x^2-4} \cdot \dfrac{x+3}{x^2+3x} \div \dfrac{1}{x+2}</m></statement><answer><m>\dfrac{x - 1}{x}</m></answer></task>
+      <task><statement><m>\dfrac{x^2-4}{x+3}\div\dfrac{4x-8}{3x+9}</m></statement><answer><m>\dfrac{3(x+2)}{4}</m></answer></task>
+      <task><statement><m>\dfrac{7x^2}{x^2-9}\cdot \dfrac{4x+12}{14x^3}</m></statement><answer><m>\dfrac{2}{x(x-3)}</m></answer></task>
+      <task><statement><m>\dfrac{x^2-25}{x^2-16} \div \dfrac{2x-10}{4x+16}</m></statement><answer><m>\dfrac{2(x+5)}{x-4}</m></answer></task>
+      <task><statement><m>\dfrac{x^2-3x}{x^2-3x-4}\cdot\dfrac{x^2-5x+4}{x^2-2x-3}</m></statement><answer><m>\dfrac{x(x-1)}{(x+1)^2}</m></answer></task>
+      <task><statement><m>\dfrac{x^2-3x}{x^2-x-6}\cdot\dfrac{x^2+x-2}{x-x^2}</m></statement><answer><m>-1</m></answer></task>
+      <task><statement><m>(x-7)\cdot\dfrac{x^2-x}{x^2-8x+7}</m></statement><answer><m>x</m></answer></task>
+      <task><statement><m>\dfrac{x-2}{x+3}\div\dfrac{x^2+x-2}{x^2-4}</m></statement><answer><m>\dfrac{(x-2)^2}{(x+3)(x-1)}</m></answer></task>
+    </project>
+    
+    <project>
+      <title>Multiplying and Dividing with Polynomials by Factoring 3</title>
+      <introduction>
+        <p>Multiply or divide, and simplify each expression.</p>
+      </introduction>
+      <task><statement><m>\dfrac{2x+4}{x+4}\cdot\dfrac{5x^2+21x+4}{10x+2}</m></statement><answer><m>x+2</m></answer></task>
+      <task><statement><m>\dfrac{3x^2-7x+4}{12x^2-4x}\cdot\dfrac{3x-1}{15x^3-20x^2}</m></statement><answer><m>\dfrac{x-1}{20x^3}</m></answer></task>
+      <task><statement><m>\dfrac{2x^2 - 13x + 20}{x^2 - 16} \cdot \dfrac{2x^2 + 9x + 4}{6x^2 - 7x - 5}</m></statement><answer><m>\dfrac{2x - 5}{3x - 5}</m></answer></task>
+      <task><statement><m>\dfrac{4x^2-25}{2x^2-13x+20} \cdot \dfrac{x-4}{4x+10}</m></statement><answer><m>\dfrac{1}{2}</m></answer></task>
+      <task><statement><m>\dfrac{x^2+9x+8}{4x^2-9}\cdot\dfrac{2x-3}{x+1}</m></statement><answer><m>\dfrac{x+8}{2x+3}</m></answer></task>
+      <task><statement><m>\dfrac{2x^2+5x-3}{2x-3} \cdot \dfrac{x^2-1}{6x-3} \cdot \dfrac{2x-3}{x^2+2x-3}</m></statement><answer><m>\dfrac{x+1}{3}</m></answer></task>
+      <task><statement><m>\dfrac{2x^2-x-6}{3x+6} \div \dfrac{2x+3}{x+2}</m></statement><answer><m>\dfrac{x-2}{3}</m></answer></task>
+      <task><statement><m>\dfrac{9x^2-1}{x+5} \div \dfrac{3x^2-5x-2}{2-x}</m></statement><answer><m>\dfrac{1-3x}{x+5}</m></answer></task>
+      <task><statement><m>\dfrac{8x^2-2x-3}{x^2-1} \div \dfrac{2x^2-3x-2}{2x-2} \div \dfrac{3-4x}{x+1}</m></statement><answer><m>-\dfrac{2}{x-2}</m></answer></task>
+      <task><statement><m>\dfrac{x^2+6x+8}{2x^2+9x+4}\cdot\dfrac{2x^2-x-1}{x^2-3x+2}</m></statement><answer><m>\dfrac{x+2}{x-2}</m></answer></task>
+      <task><statement><m>\dfrac{14 + 17x - 6x^2}{3x^2 + 8x + 4} \div \dfrac{4x^2 - 49}{2x^2 + 11x + 14}</m></statement><answer><m>-1</m></answer></task>
+      <task><statement><m>\dfrac{6x^2+6x}{x^2-3x-4}\cdot\dfrac{2x^2-7x-4}{8x^3+4x^2}</m></statement><answer><m>\dfrac{3}{2x}</m></answer></task>
+      <task><statement><m>\dfrac{2x^2+3x-2}{2x-1}\div(4-x^2)</m></statement><answer><m>\dfrac{1}{2-x}</m></answer></task>
+      <task><statement><m>\dfrac{2x-3}{10x^2-17x+3}\cdot\dfrac{15x^3-3x^2}{6x^2-6x}</m></statement><answer><m>\dfrac{x}{2(x-1)}</m></answer></task>
+      <task><statement><m>\dfrac{2x^2 - x - 1}{x^2 - x - 6} \cdot \dfrac{6x^2 - 5x + 1}{8x^2 + 14x + 5}</m></statement><answer><m>\dfrac{(x - 1)(3x - 1)(2x - 1)}{(x - 3)(x + 2)(4x + 5)}</m></answer></task>
+      <task><statement><m>\dfrac{9y^2 - 4}{4y - 12} \div \dfrac{9y^2 + 12y + 4}{18 - 6y}</m></statement><answer><m>-\dfrac{3(3y - 2)}{2(3y + 2)}</m></answer></task>
+      <task><statement><m>\dfrac{x^2-x-12}{(x-1)^2} \cdot \dfrac{x^2-1}{2x^2+7x+3}</m></statement><answer><m>\dfrac{(x-4)(x+1)}{(x-1)(2x+1)}</m></answer></task>
+      <task><statement><m>\dfrac{x^2 - 2x}{2x^2 + x - 15} \cdot \dfrac{2x^2 - x - 10}{x^2 - 4}</m></statement><answer><m>\dfrac{x}{x + 3}</m></answer></task>
+      <task><statement><m>\dfrac{8x^2 + 8x}{16x + 16x^2 + 4x^3} \div \dfrac{x^2 - 1}{1 - x^3}</m></statement><answer><m>-\dfrac{2(x^2 + x + 1)}{(x + 2)^2}</m></answer></task>
+      <task><statement><m>\dfrac{3x^3+14x^2-5x}{4x^2+7x+3} \div \dfrac{6x^2-2x}{8x^2+2x-3}</m></statement><answer><m>\dfrac{(x+5)(2x-1)}{2(x+1)}</m></answer></task>
+      <task><statement><m>\dfrac{3x-2}{x^3+3x^2+2x} \div \dfrac{9x^2-4}{3x^2+8x+4} \div \dfrac{1}{x}</m></statement><answer><m>\dfrac{1}{x+1}</m></answer></task>
+      <task><statement><m>\dfrac{12x^2-19x+5}{4x^2-9}\cdot\dfrac{2x-3}{3x-1}</m></statement><answer><m>\dfrac{4x-5}{2x+3}</m></answer></task>
+      <task><statement><m>\dfrac{x^2 + x - 6}{(2x - 1)^2} \cdot \dfrac{x(2x - 1)^2}{x^2 + 2x - 3} \div \dfrac{x^2 - 4}{3x}</m></statement><answer><m>\dfrac{3x^2}{(x - 1)(x + 2)}</m></answer></task>
+      <task><statement><m>\dfrac{2x^2-5x-3}{2x^2-11x+15}\cdot\dfrac{4x^2-8x-5}{4x^2+4x+1}</m></statement><answer><m>1</m></answer></task>
+      <task><statement><m>\dfrac{12x^2-5x-2}{8x^2+2x-21}\div\dfrac{12x^2+x-6}{8x^2-2x-15}</m></statement><answer><m>\dfrac{(4x+1)(4x+5)}{(4x+7)(4x+3)}</m></answer></task>
+    </project>
+  </subsection>
+  
+  <subsection xml:id="mult-div-two-vars">
+    <title>Multiplying and Dividing with Two Variables</title>
+    
+    <project>
+      <title>Multiplying and Dividing with Two Variables</title>
+      <introduction>
+        <p>Multiply or divide, and simplify each expression.</p>
+      </introduction>
+      <task><statement><m>\dfrac{x-y}{2x}\cdot\dfrac{x^2}{(x-y)^2}</m></statement><answer><m>\dfrac{x}{2(x-y)}</m></answer></task>
+      <task><statement><m>\dfrac{3p-3r}{10pr}\cdot\dfrac{20p^2r^2}{p^2-r^2}</m></statement><answer><m>\dfrac{6pr}{p+r}</m></answer></task>
+      <task><statement><m>\dfrac{x^4 y^4}{x^2 - 5x - 6} \cdot \dfrac{2x^2 - 15x + 18}{x^7 y^4}</m></statement><answer><m>\dfrac{2x - 3}{x^3(x + 1)}</m></answer></task>
+      <task><statement><m>\dfrac{x^2 - 5xy + 4y^2}{x^2 + 3xy - 28y^2} \cdot \dfrac{x^2 + 2xy + y^2}{x^2 - y^2}</m></statement><answer><m>\dfrac{x + y}{x + 7y}</m></answer></task>
+      <task><statement><m>\dfrac{4x^2 - 4y^2}{24x^2 y^5} \div \dfrac{x^2 + 2xy + y^2}{30xy^4}</m></statement><answer><m>\dfrac{5(x - y)}{xy(x + y)}</m></answer></task>
+      <task><statement><m>\dfrac{2a^2 - 12ab + 18b^2}{a^2 - 7ab + 10b^2} \div \dfrac{4a^2 - 12ab}{a^2 - 7ab + 10b^2}</m></statement><answer><m>\dfrac{a - 3b}{2a}</m></answer></task>
+      <task><statement><m>\dfrac{10x^2 + 3xy - y^2}{9x^2 - y^2} \div \dfrac{6x^2 + 3xy}{12x + 4y}</m></statement><answer><m>\dfrac{4(5x - y)}{3x(3x - y)}</m></answer></task>
+      <task><statement><m>\dfrac{a^2 - b^2}{(a + b)^2} \div \dfrac{a - b}{a^3 + b^3}</m></statement><answer><m>a^2 - ab + b^2</m></answer></task>
+      <task><statement><m>\dfrac{15m^2 + mn - 2n^2}{2n - 14m} \cdot \dfrac{7m^2 - 8mn + n^2}{5m^2 + 7mn + 2n^2}</m></statement><answer><m>-\dfrac{(3m - n)(m - n)}{2(m + n)}</m></answer></task>
+      <task><statement><m>\dfrac{x^3 - y^3}{2x^2 + 6xy - 8y^2} \cdot \dfrac{2x^2 + 10xy + 8y^2}{x^2 + xy + y^2}</m></statement><answer><m>x + y</m></answer></task>
+      <task><statement><m>\dfrac{x^3 + y^3}{4x^7 + 4x^6 y} \div \dfrac{2x^3 - 2x^2 y + 2xy^2}{8x^2 - 8y^2}</m></statement><answer><m>\dfrac{(x - y)(x + y)}{x^7}</m></answer></task>
+      <task><statement><m>\dfrac{x^2-xy-20y^2}{x^2-8xy+15y^2} \div \dfrac{x^2+2xy-8y^2}{x^2-xy-6y^2}</m></statement><answer><m>\dfrac{x+2y}{x-2y}</m></answer></task>
+      <task><statement><m>\dfrac{x^2+2xy-8y^2}{x^2+4xy+3y^2}\cdot\dfrac{x^2+2xy-3y^2}{x^2-3xy+2y^2}</m></statement><answer><m>\dfrac{x+4y}{x+y}</m></answer></task>
+      <task><statement><m>\dfrac{x^2-xy-6y^2}{x^2-4xy+3y^2}\cdot\dfrac{y^2-x^2}{x^2+3xy+2y^2}</m></statement><answer><m>-1</m></answer></task>
+      <task><statement><m>\dfrac{x^2+xy-30y^2}{x^2-xy-20y^2}\cdot\dfrac{x^2+xy-12y^2}{x^2-2xy-3y^2}</m></statement><answer><m>\dfrac{x+6y}{x+y}</m></answer></task>
+      <task><statement><m>\dfrac{6x^2+xy-2y^2}{4x^2-8xy+3y^2}\cdot\dfrac{x-y}{3x+2y}\cdot\dfrac{8x-12y}{2y-2x}</m></statement><answer><m>-2</m></answer></task>
+      <task><statement><m>\dfrac{4y-4x}{8y^3}\div\dfrac{x^2-y^2}{2x+2y}</m></statement><answer><m>-\dfrac{1}{y^3}</m></answer></task>
+      <task><statement><m>\dfrac{x^2-y^2}{3x^2+3xy}\div\dfrac{3x^2-2xy-y^2}{3x^2+6x}</m></statement><answer><m>\dfrac{x+2}{3x+y}</m></answer></task>
+      <task><statement><m>\dfrac{3x+4y}{x^2+4xy+4y^2}\div\dfrac{2}{x+2y}</m></statement><answer><m>\dfrac{3x+4y}{2(x+2y)}</m></answer></task>
+      <task><statement><m>\dfrac{x^2-4}{2y}\div\dfrac{2-x}{6xy}</m></statement><answer><m>-3x(x+2)</m></answer></task>
+      <task><statement><m>\dfrac{x^2+3xy}{x^2-xy-42y^2}\cdot\dfrac{x^2-10xy+21y^2}{x^2-9y^2}</m></statement><answer><m>\dfrac{x}{x+6y}</m></answer></task>
+      <task><statement><m>\dfrac{a^2+15ab+56b^2}{a^2-3ab-54b^2}\div\dfrac{a^2+6ab-16b^2}{a^2+4ab-12b^2}</m></statement><answer><m>\dfrac{a+7b}{a-9b}</m></answer></task>
+      <task><statement><m>\dfrac{9s^2+30st+25t^2}{25s^2-25st-6t^2}\cdot\dfrac{20s^2-49st+30t^2}{12s^2+5st-25t^2}</m></statement><answer><m>\dfrac{3s+5t}{5s+t}</m></answer></task>
+      <task><statement><m>\dfrac{4x^2-9y^2}{4x^2-12xy+9y^2} \div \dfrac{4x^2+12xy+9y^2}{9y^2-4x^2}</m></statement><answer><m>-1</m></answer></task>
+      <task><statement><m>\dfrac{\dfrac{m^2 - mn}{6m^2 + 11mn + 3n^2} \div \dfrac{m^2 - n^2}{2m^2 - mn - 6n^2}}{\dfrac{4m^2 - 7mn - 2n^2}{3m^2 + 7mn + 2n^2}}</m></statement><answer><m>\dfrac{m(m + 2n)}{(m + n)(4m + n)}</m></answer></task>
+    </project>
+    
+    <project>
+      <title>Factor By Grouping</title>
+      <introduction>
+        <p>Multiply or divide, and simplify each expression.</p>
+      </introduction>
+      <task><statement><m>\dfrac{4a^2-ab-5b^2}{ax+by+ay+bx}\div(4a-8b)</m></statement><answer><m>\dfrac{4a-5b}{4(x+y)(a-2b)}</m></answer></task>
+      <task><statement><m>\dfrac{3x-3y-x^2+y^2}{4x^2-4xy+y^2}</m></statement><answer><m>-\dfrac{(x-y)(x+y-3)}{(2x-y)^2}</m></answer></task>
+      <task><statement><m>\dfrac{4x^2-y^2+10x-5y}{2x^2+xy+5x}</m></statement><answer><m>\dfrac{2x-y}{x}</m></answer></task>
+      <task><statement><m>\dfrac{x^2+x-y^2-y}{3x^2-3y^2}\div\dfrac{5x+5y+5}{7x^2y+7xy^2}</m></statement><answer><m>\dfrac{7xy}{15}</m></answer></task>
+    </project>
+  </subsection>
+  
+</section>

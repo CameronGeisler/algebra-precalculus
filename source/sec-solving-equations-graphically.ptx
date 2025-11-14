@@ -16,13 +16,13 @@
       <title>Solving by Intersection</title>
       <p>Solve the equation <m>x^2 = x + 2</m>. To do this, graph both sides of the equation, <m>y = x^2</m> and <m>y = x + 2</m> (<url href="https://www.desmos.com/calculator/wbxdve2vj6">Desmos graph</url>). Observe the intersection points are at <m>x = 2</m> and <m>x = -1</m>. You can check that these are solutions, by plugging in <m>x = 2</m> and <m>x = -1</m> and verifying that both sides are equal,</p>
       <md>
-        <mrow>x = -1 \quad \rightarrow \quad (-1)^2 \amp = -1 + 2 \\</mrow>
-        <mrow>1 \amp = 1 \\</mrow>
-        <mrow>x = 2 \quad \rightarrow \quad 2^2 \amp = 2 + 2 \\</mrow>
+        <mrow>x = -1 \quad \rightarrow \quad (-1)^2 \amp = -1 + 2</mrow>
+        <mrow>1 \amp = 1</mrow>
+        <mrow>x = 2 \quad \rightarrow \quad 2^2 \amp = 2 + 2</mrow>
         <mrow>4 \amp = 4</mrow>
       </md>
       <p>Intuitively, this is because the equation <m>x^2 = x + 2</m> is asking,</p>
-      <p><q>For which values of $x$ do the two expressions give the same number?</q></p>
+      <p><q>For which values of <m>x</m> do the two expressions give the same number?</q></p>
       <p>Then, a point is an intersection if it lies on both graphs, meaning that for that particular <m>x</m>-value, the <m>y</m> value for the left side is the same as the <m>y</m>-value for the right side. That's what it means for the two sides of the equation to be equal.</p>
     </example>
     
