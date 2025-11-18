@@ -1,0 +1,972 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-adding-and-subtracting-rational-expressions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Adding and Subtracting Rational Expressions</title>
+  
+  <introduction>
+    <p>
+      Adding rational expressions is similar to adding (numerical) fractions. Recall that to add fractions, you need to have the denominators be equal, and then you add the numerators.
+    </p>
+    
+    <example>
+      <title>Adding Two Fractions</title>
+      <p>
+        For example, to add <m>\frac{3}{5} + \frac{1}{5}</m>, we simply add the numerators, because the denominators are the same,
+        <md>
+          <mrow>\frac{3}{5} + \frac{1}{5} = \frac{4}{5}</mrow>
+        </md>
+      </p>
+    </example>
+    
+    <p>
+      In general, if the denominators are the same (that is, we have a common denominator), then simply add the numerators together over that common denominator. That is,
+      <md>
+        <mrow>\frac{a}{c} + \frac{b}{c} = \frac{a + b}{c}</mrow>
+      </md>
+    </p>
+    
+    <p>
+      If the denominators are not equal, then we need to first manipulate the fractions so that they have a common denominator.
+    </p>
+    
+    <example>
+      <title>Adding Two Fractions with Different Denominators</title>
+      <p>
+        For example, to add <m>\frac{4}{9} + \frac{1}{3}</m>, we have denominators of 9 and 3, so we can make a common denominator of 9, by multiplying <m>\frac{1}{3}</m> by <m>\frac{3}{3}</m>,
+        <md>
+          <mrow>\frac{4}{9} + \frac{1}{3} \amp = \frac{4}{9} + \frac{1}{3} \cdot \frac{3}{3} \amp\amp \text{making a common denominator}</mrow>
+          <mrow>\amp = \frac{4}{9} + \frac{3}{9}</mrow>
+          <mrow>\amp = \frac{7}{9} \amp\amp \text{adding numerators}</mrow>
+        </md>
+      </p>
+    </example>
+    
+    <p>
+      Sometimes, to make a common denominator, you need to manipulate both fractions.
+    </p>
+    
+    <example>
+      <title>Adding Two Fractions with Different Denominators</title>
+      <p>
+        For example, to add <m>\frac{3}{5} + \frac{2}{7}</m>, we have denominators of 5 and 7, so we need a common denominator of <m>35</m> (which is <m>5 \times 7</m>),
+        <md>
+          <mrow>\frac{3}{5} + \frac{2}{7} \amp = \frac{3}{5} \cdot \frac{7}{7} + \frac{2}{7} \cdot \frac{5}{5} \amp\amp \text{making a common denominator}</mrow>
+          <mrow>\amp = \frac{21}{35} + \frac{10}{35}</mrow>
+          <mrow>\amp = \frac{31}{35} \amp\amp \text{adding numerators}</mrow>
+        </md>
+      </p>
+    </example>
+    
+    <example>
+      <statement><m>\text{Add } \frac{1}{3}+\frac{5}{4}</m></statement>
+      <answer><m>\frac{19}{12}</m></answer>
+    </example>
+    
+    <example>
+      <statement><m>\text{Subtract } \frac{5}{9}-\frac{2}{3}</m></statement>
+      <answer><m>-\frac{1}{9}</m></answer>
+    </example>
+  </introduction>
+  
+  <subsection xml:id="subsection-adding-rational-expressions">
+    <title>Adding Rational Expressions</title>
+    
+    <example>
+      <title>Adding Rational Expressions with Like Denominators</title>
+      <p>
+        To add <m>\frac{4}{x+2} + \frac{3}{x+2}</m>, add the numerators over the common denominator of <m>x+2</m>,
+        <md>
+          <mrow>\frac{4}{x + 2} + \frac{3}{x + 2} = \frac{4 + 3}{x + 2} = \frac{7}{x + 2}</mrow>
+        </md>
+      </p>
+    </example>
+    
+    <example>
+      <title>Adding Rational Expressions with Like Denominators</title>
+      <p>
+        To add <m>\frac{2x - 1}{x + 3} + \frac{1 - x}{x + 3}</m>, add the numerators together over the common denominator of <m>x+3</m>,
+        <md>
+          <mrow>\frac{2x - 1}{x + 3} + \frac{1 - x}{x + 3} \amp = \frac{2x - 1 + 1 - x}{x + 3}</mrow>
+          <mrow>\amp = \frac{x}{x + 3}</mrow>
+        </md>
+      </p>
+    </example>
+    
+    <p>
+      To add two rational expressions with like denominators, add their numerators and keep the same denominator. That is, if <m>A, B, C</m> are polynomials, then,
+      <md>
+        <mrow>\boxed{\frac{A}{C} + \frac{B}{C} = \frac{A + B}{C}}</mrow>
+      </md>
+      with the restriction that <m>C</m> cannot be equal to 0.
+    </p>
+    
+    <p>
+      Sometimes, after adding, the result can be further simplified by cancelling common factors.
+    </p>
+    
+    <example>
+      <title>Adding Rational Expressions and Simplifying</title>
+      <p>
+        For example,
+        <md>
+          <mrow>\frac{4x}{15} + \frac{8x}{15} \amp = \frac{4x + 8x}{15} \amp\amp \text{adding}</mrow>
+          <mrow>\amp = \frac{12x}{15} \amp\amp \text{collecting like terms}</mrow>
+          <mrow>\amp = \frac{4x}{5} \amp\amp \text{cancelling common factor of 3}</mrow>
+        </md>
+      </p>
+    </example>
+  </subsection>
+  
+  <subsection xml:id="subsection-summary-rational-expressions">
+    <title>Summary of Adding or Subtracting Rational Expressions</title>
+    <ol>
+      <li>
+        <p>
+          Factor the denominators completely.
+        </p>
+      </li>
+      <li>
+        <p>
+          Create a common denominator, by manipulating each fraction.
+        </p>
+      </li>
+      <li>
+        <p>
+          After you have a common denominator, add or subtract the numerators, and keep that common denominator.
+        </p>
+      </li>
+      <li>
+        <p>
+          Simplify if needed, by collecting like terms, and factor and cancel if possible.
+        </p>
+      </li>
+    </ol>
+    <p>
+      Note: <m>\frac{A}{B+C} \neq \frac{A}{B} + \frac{A}{C}</m>. For example, <m>\frac{2}{3} \neq \frac{2}{2} + \frac{2}{1} = 3</m>.
+    </p>
+  </subsection>
+  
+  <subsection xml:id="subsection-add-sub-monomial-denominators">
+    <title>Adding and Subtracting with Monomial Denominators</title>
+    <project>
+      <title>Monomial Like Denominators</title>
+      <introduction>
+        <p>
+          Find each sum or difference, and simplify.
+        </p>
+      </introduction>
+      <task>
+        <statement><m>\dfrac{x}{8}+\dfrac{3x}{8}</m></statement>
+        <answer><m>\dfrac{x}{2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{1}{3x}+\dfrac{5}{3x}</m></statement>
+        <answer><m>\dfrac{2}{x}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{7x}{16}-\dfrac{5x}{16}</m></statement>
+        <answer><m>\dfrac{x}{8}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{7x^2}{4x^3}-\dfrac{x^2}{4x^3}</m></statement>
+        <answer><m>\dfrac{3}{2x}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{-8x^2}{3x}+\dfrac{11x^2}{3x}</m></statement>
+        <answer><m>x</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x+9}{10}+\dfrac{x+7}{10}</m></statement>
+        <answer><m>\dfrac{x+8}{5}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{5x}{15}+\dfrac{7x}{15}</m></statement>
+        <answer><m>\dfrac{4x}{5}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{11x}{12x^2}-\dfrac{7x}{12x^2}</m></statement>
+        <answer><m>\dfrac{1}{3x}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{5x+2}{x^2}-\dfrac{4x+2}{x^2}</m></statement>
+        <answer><m>\dfrac{1}{x}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{7x+1}{x}+\dfrac{5x-2}{x}</m></statement>
+        <answer><m>\dfrac{12x-1}{x}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{11x}{6}-\dfrac{4x}{6}</m></statement>
+        <answer><m>\dfrac{7x}{6}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{7}{x}+\dfrac{3}{x}</m></statement>
+        <answer><m>\dfrac{10}{x}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{5x+3}{10}+\dfrac{3x+5}{10}</m></statement>
+        <answer><m>\dfrac{4(x+1)}{5}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x}{6}+\dfrac{2x}{6}</m></statement>
+        <answer><m>\dfrac{x}{2}</m></answer>
+      </task>
+    </project>
+    
+    <project>
+      <title>Monomial Different Denominators</title>
+      <introduction>
+        <p>
+          Find each sum or difference, and simplify.
+        </p>
+      </introduction>
+      <task>
+        <statement><m>\dfrac{x}{3}+\dfrac{x}{2}</m></statement>
+        <answer><m>\dfrac{5x}{6}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x+10}{6}-\dfrac{2x-1}{30}</m></statement>
+        <answer><m>\dfrac{x+17}{10}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{1}{3x}+\dfrac{2}{5x}</m></statement>
+        <answer><m>\dfrac{11}{15x}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{4}{5x}-\dfrac{7}{15x}</m></statement>
+        <answer><m>\dfrac{1}{3x}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{9}{4x}+\dfrac{3}{2x}</m></statement>
+        <answer><m>\dfrac{15}{4x}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{5x}{3}-\dfrac{x}{2}</m></statement>
+        <answer><m>\dfrac{7x}{6}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2x}{5}+\dfrac{6x}{2}</m></statement>
+        <answer><m>\dfrac{17x}{5}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x-2}{3}+\dfrac{x+1}{6}</m></statement>
+        <answer><m>\dfrac{x-1}{2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{3}{4x}+\dfrac{1}{20x}</m></statement>
+        <answer><m>\dfrac{4}{5x}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x-1}{2}-\dfrac{3x+1}{18}</m></statement>
+        <answer><m>\dfrac{3x-5}{9}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{3}{2x}+\dfrac{1}{6}</m></statement>
+        <answer><m>\dfrac{x+9}{6x}</m></answer>
+      </task>
+      <task>
+        <statement><m>4-\dfrac{6}{5x}</m></statement>
+        <answer><m>\dfrac{20x-6}{5x}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{3x+2}{2}+\dfrac{4x+5}{5}</m></statement>
+        <answer><m>\dfrac{23x+20}{10}</m></answer>
+      </task>
+    </project>
+    
+    <project>
+      <title>Single Variable</title>
+      <introduction>
+        <p>
+          Find each sum or difference, and simplify.
+        </p>
+      </introduction>
+      <task>
+        <statement><m>\dfrac{x}{2}-\dfrac{x}{5}-\dfrac{x}{6}</m></statement>
+        <answer><m>\dfrac{2x}{15}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{9x}{5}-\dfrac{3x}{4}+\dfrac{7x}{10}</m></statement>
+        <answer><m>\dfrac{7x}{4}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{5x+9}{12}-\dfrac{2x+8}{16}</m></statement>
+        <answer><m>\dfrac{7x+6}{24}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{7x}{6}-\dfrac{x}{2}+\dfrac{2x}{9}</m></statement>
+        <answer><m>\dfrac{8x}{9}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{5}{6x^2}+\dfrac{4}{3x}</m></statement>
+        <answer><m>\dfrac{8x+5}{6x^2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{3}{8x^2}+\dfrac{1}{4x}-\dfrac{5}{6x^3}</m></statement>
+        <answer><m>\dfrac{6x^2+9x-20}{24x^3}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{5}{4x^2}+\dfrac{1}{7x^3}</m></statement>
+        <answer><m>\dfrac{35x+4}{28x^3}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2}{x}+\dfrac{6}{x^2}</m></statement>
+        <answer><m>\dfrac{2(x+3)}{x^2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{5}{3x^2}-\dfrac{7}{5}</m></statement>
+        <answer><m>\dfrac{25-21x^2}{15x^2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{7}{6x^2}-\dfrac{3}{8x^3}</m></statement>
+        <answer><m>\dfrac{28x-9}{24x^3}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2x}{3}+\dfrac{3x}{4}-\dfrac{x}{6}</m></statement>
+        <answer><m>\dfrac{5x}{4}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{5}{x^2}-\dfrac{3}{4x^3}</m></statement>
+        <answer><m>\dfrac{20x-3}{4x^3}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{3}{x^4}+\dfrac{1}{2x^2}-\dfrac{3}{5x}</m></statement>
+        <answer><m>\dfrac{-6x^3+5x^2+30}{10x^4}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{17}{6x}-\dfrac{11}{2x}+\dfrac{1}{3x}</m></statement>
+        <answer><m>-\dfrac{7}{3x}</m></answer>
+      </task>
+    </project>
+    
+    <project>
+      <title>Multiple Variables</title>
+      <introduction>
+        <p>
+          Find each sum or difference, and simplify.
+        </p>
+      </introduction>
+      <task>
+        <statement><m>\dfrac{2a}{b}-\dfrac{a-1}{b}</m></statement>
+        <answer><m>\dfrac{a+1}{b}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{4z}{xy}-\dfrac{9x}{yz}</m></statement>
+        <answer><m>\dfrac{4z^2-9x^2}{xyz}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{7ab}{10a^2b}-\dfrac{3ab}{10a^2b}</m></statement>
+        <answer><m>\dfrac{2}{5a}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{m}{n}-\dfrac{m+1}{n}</m></statement>
+        <answer><m>-\dfrac{1}{n}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{10x^3y}{7xy^2}+\dfrac{4x^3y}{7xy^2}</m></statement>
+        <answer><m>\dfrac{2x^2}{y}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2x}{xy}+\dfrac{4}{x^2}-3</m></statement>
+        <answer><m>\dfrac{2x^2+4y-3x^2y}{x^2y}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{5}{3x^2y^3}-\dfrac{1}{6xy^4}</m></statement>
+        <answer><m>\dfrac{-x+10y}{6x^2y^4}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2s}{5t^2}+\dfrac{1}{10t}-\dfrac{6}{15t^3}</m></statement>
+        <answer><m>\dfrac{4st+t^2-4}{10t^3}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{6xy}{a^2b}-\dfrac{2x}{ab^2y}+1</m></statement>
+        <answer><m>\dfrac{a^2b^2y-2ax+6bxy^2}{a^2b^2y}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{6}{3xy}-\dfrac{5}{y^2}</m></statement>
+        <answer><m>-\dfrac{5x-2y}{xy^2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2x}{3y}-\dfrac{x^2}{4y^3}+\dfrac{3}{5y^4}</m></statement>
+        <answer><m>\dfrac{-15x^2y+40xy^3+36}{60y^4}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{n}{m}+\dfrac{m}{n}-m</m></statement>
+        <answer><m>\dfrac{m^2+n^2-m^2n}{mn}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2x^3}{3y^2}\cdot\dfrac{9y}{10x}-\dfrac{2y}{3x}</m></statement>
+        <answer><m>\dfrac{9x^3-10y^2}{15xy}</m></answer>
+      </task>
+    </project>
+  </subsection>
+  
+  <subsection xml:id="subsection-add-sub-like-denominators">
+    <title>Adding and Subtracting with Like Denominators</title>
+    <p>
+      You should think of each binomial as a single factor.
+    </p>
+    
+    <project>
+      <title>Binomial Like Denominators</title>
+      <introduction>
+        <p>
+          Find each sum or difference, and simplify.
+        </p>
+      </introduction>
+      <task>
+        <statement><m>\dfrac{5x}{x+4}+\dfrac{20}{x+4}</m></statement>
+        <answer><m>5</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{9x}{3x-4}-\dfrac{12}{3x-4}</m></statement>
+        <answer><m>3</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x+2}{2x-1}+\dfrac{3x-3}{2x-1}</m></statement>
+        <answer><m>\dfrac{4x-1}{2x-1}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x-4}{x+1}+\dfrac{x+6}{x+1}</m></statement>
+        <answer><m>2</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{3x}{x+1}+\dfrac{3}{x+1}</m></statement>
+        <answer><m>3</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{6x}{x-2}-\dfrac{12}{x-2}</m></statement>
+        <answer><m>6</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{14x}{2x+3y}+\dfrac{21y}{2x+3y}</m></statement>
+        <answer><m>7</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x-2}{5x+3}-\dfrac{6x-5}{5x+3}</m></statement>
+        <answer><m>\dfrac{3-5x}{5x+3}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{9x-1}{3x-5}-\dfrac{3x+9}{3x-5}</m></statement>
+        <answer><m>2</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{-15x}{1-5x}-\dfrac{3}{5x-1}</m></statement>
+        <answer><m>3</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2x}{3x-1}+\dfrac{x}{1-3x}</m></statement>
+        <answer><m>\dfrac{x}{3x-1}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{8x}{6x-5}+\dfrac{10-4x}{5-6x}</m></statement>
+        <answer><m>2</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x^2-8x}{x-5}-\dfrac{15}{5-x}</m></statement>
+        <answer><m>x-3</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x}{x-3}-\dfrac{3}{x-3}</m></statement>
+        <answer><m>1</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2x}{x+4}+\dfrac{8}{x+4}</m></statement>
+        <answer><m>2</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x^2}{x-2}+\dfrac{3x}{x-2}-\dfrac{10}{x-2}</m></statement>
+        <answer><m>x+5</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{10x-1}{4x-3}-\dfrac{8-2x}{4x-3}</m></statement>
+        <answer><m>3</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x^2}{x+1}+\dfrac{x}{x+1}</m></statement>
+        <answer><m>x</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x^2}{x-4}-\dfrac{x}{x-4}-\dfrac{12}{x-4}</m></statement>
+        <answer><m>x+3</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2x}{x - 2} - \dfrac{4}{x - 2}</m></statement>
+        <answer><m>2</m></answer>
+      </task>
+    </project>
+    
+    <project>
+      <title>Quadratic Denominators</title>
+      <introduction>
+        <p>
+          Find each sum or difference, and simplify.
+        </p>
+      </introduction>
+      <task>
+        <statement><m>\dfrac{x+4}{x^2-2x-3}+\dfrac{6x+3}{x^2-2x-3}</m></statement>
+        <answer><m>\dfrac{7}{x-3}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{6x+3}{x^2+6x+5}-\dfrac{x-2}{x^2+6x+5}</m></statement>
+        <answer><m>\dfrac{5}{x+5}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{6x+4}{4x^2+4x}+\dfrac{x+3}{4x^2+4x}</m></statement>
+        <answer><m>\dfrac{7}{4x}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{3x+2}{x^2-25}-\dfrac{2x-3}{x^2-25}</m></statement>
+        <answer><m>\dfrac{1}{x-5}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{7x + 9}{x^2 + 3x + 4} - \dfrac{2x - 7}{x^2 + 3x + 4}</m></statement>
+        <answer><m>\dfrac{5x + 16}{x^2 + 3x + 4}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x^2+5x}{4x^2+5x-6}-\dfrac{3x}{4x^2+5x-6}</m></statement>
+        <answer><m>\dfrac{x}{4x-3}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x}{x^2-1}-\dfrac{1}{x^2-1}</m></statement>
+        <answer><m>\dfrac{1}{x+1}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{3x-2}{x^2-25}-\dfrac{4x-7}{x^2-25}</m></statement>
+        <answer><m>-\dfrac{1}{x+5}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{7x - 12}{2x^2 + 5x - 12} - \dfrac{3x - 6}{2x^2 + 5x - 12}</m></statement>
+        <answer><m>\dfrac{2}{x + 4}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2x-5}{x^2-9}-\dfrac{3x-8}{x^2-9}</m></statement>
+        <answer><m>-\dfrac{1}{x+3}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2x^2+1}{2x^2-5x-12}-\dfrac{4-x}{2x^2-5x-12}</m></statement>
+        <answer><m>\dfrac{x-1}{x-4}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2x^2-x}{(x-3)(x+1)}+\dfrac{3-6x}{(x-3)(x+1)}-\dfrac{8}{(x-3)(x+1)}</m></statement>
+        <answer><m>\dfrac{2x^2-7x-5}{(x-3)(x+1)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2x^2}{x^2 - x - 12} - \dfrac{7x + 4}{x^2 - x - 12}</m></statement>
+        <answer><m>\dfrac{2x + 1}{x + 3}</m></answer>
+      </task>
+    </project>
+  </subsection>
+  
+  <subsection xml:id="subsection-add-sub-polynomials-factoring">
+    <title>Adding and Subtracting with Polynomials (Factoring)</title>
+    <project>
+      <title>Binomial Denominators</title>
+      <introduction>
+        <p>
+          Find each sum or difference, and simplify.
+        </p>
+      </introduction>
+      <task>
+        <statement><m>\dfrac{x+24}{5x+20}+\dfrac{x}{x+4}</m></statement>
+        <answer><m>\dfrac{6}{5}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{1}{x-7}+\dfrac{6}{2x-14}</m></statement>
+        <answer><m>\dfrac{4}{x-7}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{12}{4x-20}-\dfrac{1}{x-5}</m></statement>
+        <answer><m>\dfrac{2}{x-5}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x-4}{3x-3}+\dfrac{1}{x-1}</m></statement>
+        <answer><m>\dfrac{1}{3}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{3x}{3x+6}+\dfrac{1}{x+2}</m></statement>
+        <answer><m>\dfrac{x+1}{x+2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{7}{x-2}+\dfrac{4}{2-x}</m></statement>
+        <answer><m>\dfrac{3}{x-2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{4x}{x-1}-4</m></statement>
+        <answer><m>\dfrac{4}{x-1}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{5}{x-2}-\dfrac{3}{x+2}</m></statement>
+        <answer><m>\dfrac{2x+16}{x^2-4}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{10}{3x-12}-\dfrac{3}{x-4}</m></statement>
+        <answer><m>\dfrac{1}{3(x-4)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{3x}{x+2}-\dfrac{x}{x-2}</m></statement>
+        <answer><m>\dfrac{2x(x-4)}{x^2-4}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{3x}{2x+1}+\dfrac{4}{x-3}</m></statement>
+        <answer><m>\dfrac{3x^2-x+4}{(x-3)(2x+1)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{3}{x-3}-\dfrac{7}{5x-1}</m></statement>
+        <answer><m>\dfrac{2(4x+9)}{(x-3)(5x-1)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{7}{x-4}+\dfrac{2}{x}</m></statement>
+        <answer><m>\dfrac{9x-8}{x(x-4)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{4}{3x-2}+6</m></statement>
+        <answer><m>\dfrac{2(9x-4)}{3x-2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{5}{x+4}+\dfrac{7}{x+3}</m></statement>
+        <answer><m>\dfrac{12x+43}{(x+3)(x+4)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{6}{2x-3}-\dfrac{4}{x-5}</m></statement>
+        <answer><m>-\dfrac{2(x+9)}{(x-5)(2x-3)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{7x}{x+4}+\dfrac{3x}{x-6}</m></statement>
+        <answer><m>\dfrac{10x(x-3)}{(x-6)(x+4)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{7}{2x-6}+\dfrac{4}{10x-15}</m></statement>
+        <answer><m>\dfrac{3(26x-43)}{10(x-3)(2x-3)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2}{x+1}-\dfrac{3}{x-2}</m></statement>
+        <answer><m>-\dfrac{x+7}{(x+1)(x-2)}</m></answer>
+      </task>
+    </project>
+    
+    <project>
+      <title>Quadratic Denominators and Factoring</title>
+      <introduction>
+        <p>
+          Find each sum or difference, and simplify.
+        </p>
+      </introduction>
+      <task>
+        <statement><m>\dfrac{4x}{x-1}-\dfrac{28x}{x^2+5x-6}</m></statement>
+        <answer><m>\dfrac{4x}{x+6}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{6x}{x^2-9}+\dfrac{x}{x+3}</m></statement>
+        <answer><m>\dfrac{x}{x-3}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x}{x+2}-\dfrac{8}{x^2-4}</m></statement>
+        <answer><m>\dfrac{x-4}{x-2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{1}{(x-3)(x+1)}-\dfrac{4}{x+1}</m></statement>
+        <answer><m>\dfrac{13-4x}{(x-3)(x+1)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{1}{x-5}+\dfrac{2x-19}{x^2-x-20}</m></statement>
+        <answer><m>\dfrac{3}{x+4}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x^2+4x}{x^2+6x+8}+\dfrac{3}{x+2}</m></statement>
+        <answer><m>\dfrac{x+3}{x+2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{4x}{x^2+6x+5}+\dfrac{1}{x+1}</m></statement>
+        <answer><m>\dfrac{5}{x+5}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x}{x^2 + x - 2} - \dfrac{1}{x + 2}</m></statement>
+        <answer><m>\dfrac{1}{(x+2)(x-1)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{5}{x^2-x-6}+\dfrac{1}{x+2}</m></statement>
+        <answer><m>\dfrac{1}{x-3}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x}{x-8}-\dfrac{6x+80}{x^2-64}</m></statement>
+        <answer><m>\dfrac{x+10}{x+8}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{6x}{x^2-4}-\dfrac{3}{x-2}</m></statement>
+        <answer><m>\dfrac{3}{x+2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{3x}{x^2-4x}-\dfrac{1}{x-4}</m></statement>
+        <answer><m>\dfrac{2}{x-4}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x}{x^2 - 3x - 40} - \dfrac{3}{x - 8}</m></statement>
+        <answer><m>\dfrac{-2x - 15}{(x - 8)(x + 5)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{3}{x+1}-\dfrac{6}{x^2+4x+3}</m></statement>
+        <answer><m>\dfrac{3}{x+3}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{1}{x-6}+\dfrac{x-17}{x^2-x-30}</m></statement>
+        <answer><m>\dfrac{2}{x+5}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{8x-26}{x^2-4x-21}-\dfrac{3}{x-7}</m></statement>
+        <answer><m>\dfrac{5}{x+3}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x^2-3x-1}{2x^2+5x+2}+\dfrac{x}{2x+1}</m></statement>
+        <answer><m>\dfrac{x-1}{x+2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{4x}{x^2-36}-\dfrac{2}{x-6}</m></statement>
+        <answer><m>\dfrac{2}{x+6}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{3x}{x^2-49}-\dfrac{3}{2x-14}</m></statement>
+        <answer><m>\dfrac{3}{2(x+7)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x}{x^2-9}+\dfrac{3}{3-x}</m></statement>
+        <answer><m>-\dfrac{2x+9}{x^2-9}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x+1}{x^2-x-6}-\dfrac{2}{x-3}</m></statement>
+        <answer><m>-\dfrac{x+3}{(x-3)(x+2)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{4x}{x^2-5x}-\dfrac{3}{2x-10}</m></statement>
+        <answer><m>\dfrac{5}{2(x-5)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{1}{x-5}-\dfrac{x}{x^2-x-20}</m></statement>
+        <answer><m>\dfrac{4}{(x+4)(x-5)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x^2-20}{x^2-4}+\dfrac{x-2}{x+2}</m></statement>
+        <answer><m>\dfrac{2(x-4)}{x-2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{4}{x^2-1}+\dfrac{3}{x+1}</m></statement>
+        <answer><m>\dfrac{3x+1}{(x-1)(x+1)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{8}{x^2-4}-\dfrac{5}{x+2}</m></statement>
+        <answer><m>\dfrac{18-5x}{x^2-4}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{1}{x^2-x-12}+\dfrac{3}{x+3}</m></statement>
+        <answer><m>\dfrac{3x-11}{(x-4)(x+3)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2}{x+3}+\dfrac{7}{x^2-9}</m></statement>
+        <answer><m>\dfrac{2x+1}{x^2-9}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{3}{x+1}+\dfrac{4}{x^2-3x-4}</m></statement>
+        <answer><m>\dfrac{3x-8}{(x+1)(x-4)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2x}{x-4}-\dfrac{5x}{x^2-16}</m></statement>
+        <answer><m>\dfrac{x(2x+3)}{(x-4)(x+4)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x}{2x - 4} + \dfrac{x - 4}{x^2 - 2x}</m></statement>
+        <answer><m>\dfrac{x + 4}{2x}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x}{4x + 28} + \dfrac{9x + 3}{x^2 + 7x}</m></statement>
+        <answer><m>\dfrac{x^2 + 36x + 12}{4x(x + 7)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x}{x+3} - \dfrac{x^2}{x^2+x-6}</m></statement>
+        <answer><m>\dfrac{-2x}{(x+3)(x-2)}</m></answer>
+      </task>
+    </project>
+    
+    <project>
+      <title>Polynomial Denominators</title>
+      <introduction>
+        <p>
+          Find each sum or difference, and simplify.
+        </p>
+      </introduction>
+      <task>
+        <statement><m>\dfrac{1}{x^2-1}-\dfrac{2}{x^2+x}</m></statement>
+        <answer><m>\dfrac{-x+2}{x(x-1)(x+1)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{3x+9}{x^2+7x+10}+\dfrac{14}{x^2+3x-10}</m></statement>
+        <answer><m>\dfrac{3x+2}{x^2-4}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x+2}{x^2+x-2}+\dfrac{3}{x^2-1}</m></statement>
+        <answer><m>\dfrac{x+4}{x^2-1}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{3x+3}{x^2+5x+4}-\dfrac{x-3}{x^2+x-12}</m></statement>
+        <answer><m>\dfrac{2}{x+4}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{3}{x^2-9}+\dfrac{4}{x^2-6x+9}</m></statement>
+        <answer><m>\dfrac{7x+3}{(x-3)^2(x+3)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{3}{x^2+x-6}+\dfrac{5}{x^2+6x+9}</m></statement>
+        <answer><m>\dfrac{8x-1}{(x+3)^2(x-2)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x-1}{2x^2+3x+1}-\dfrac{x+1}{2x^2-x-1}</m></statement>
+        <answer><m>-\dfrac{4x}{(x-1)(x+1)(2x+1)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x}{2x^2+x-1}+\dfrac{3}{3x^2+2x-1}</m></statement>
+        <answer><m>\dfrac{3x^2+5x-3}{(x+1)(2x-1)(3x-1)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{4}{4x-1}+\dfrac{8x-15}{4x^2+11x-3}</m></statement>
+        <answer><m>\dfrac{3}{x+3}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x-1}{x^2+x-6}-\dfrac{x-2}{x^2+4x+3}</m></statement>
+        <answer><m>\dfrac{4x-5}{(x+3)(x-2)(x+1)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x-5}{x^2+8x-20}+\dfrac{2x+1}{x^2-4}</m></statement>
+        <answer><m>\dfrac{3x(x+6)}{(x-2)(x+2)(x+10)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2}{x^2+x-6}+\dfrac{3}{x^3+2x^2-3x}</m></statement>
+        <answer><m>\dfrac{(x+2)(2x-3)}{x(x-2)(x-1)(x+3)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{3x+15}{x^2-25}+\dfrac{4x^2-1}{2x^2+9x-5}</m></statement>
+        <answer><m>\dfrac{2(x^2-3x+5)}{x^2-25}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2x}{x^3+x^2-6x}-\dfrac{x-8}{x^2-5x-24}</m></statement>
+        <answer><m>\dfrac{4-x}{(x+3)(x-2)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x+3}{x^2-5x+6}+\dfrac{6}{x^2-7x+12}</m></statement>
+        <answer><m>\dfrac{x+8}{(x-4)(x-2)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2x}{x^2+5x+6}-\dfrac{x-6}{x^2+6x+8}</m></statement>
+        <answer><m>\dfrac{x+9}{(x+3)(x+4)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2x}{x^2-1}-\dfrac{x+2}{x^2+3x-4}</m></statement>
+        <answer><m>\dfrac{x^2+5x-2}{(x-1)(x+1)(x+4)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{4x}{x^2+6x+8}-\dfrac{3x}{x^2-3x-10}</m></statement>
+        <answer><m>\dfrac{x(x-32)}{(x+2)(x+4)(x-5)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x-1}{x^2-9}+\dfrac{x+7}{x^2-5x+6}</m></statement>
+        <answer><m>\dfrac{2x^2+7x+23}{(x-3)(x+3)(x-2)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2x+1}{2x^2-14x+24}+\dfrac{5x}{4x^2-8x-12}</m></statement>
+        <answer><m>\dfrac{9x^2-14x+2}{4(x-3)(x-4)(x+1)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{3}{4x^2+7x+3}-\dfrac{5}{16x^2+24x+9}</m></statement>
+        <answer><m>\dfrac{7x+4}{(x+1)(4x+3)^2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x-1}{x^2-8x+15}-\dfrac{x-2}{2x^2-9x-5}</m></statement>
+        <answer><m>\dfrac{x^2+4x-7}{(x-5)(x-3)(2x+1)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{3x+2}{4x^2-1}+\dfrac{2x-5}{4x^2+4x+1}</m></statement>
+        <answer><m>\dfrac{10x^2-5x+7}{(2x-1)(2x+1)^2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2x}{x^2+x-6}+\dfrac{5}{x^2+2x-8}</m></statement>
+        <answer><m>\dfrac{(2x+3)(x+5)}{(x-2)(x+3)(x+4)}</m></answer>
+      </task>
+    </project>
+    
+    <project>
+      <title>Complicated Denominators</title>
+      <introduction>
+        <p>
+          Find each sum or difference, and simplify.
+        </p>
+      </introduction>
+      <task>
+        <statement><m>\dfrac{5}{x+1}-\dfrac{1}{x}-\dfrac{x-4}{x^2+x}</m></statement>
+        <answer><m>\dfrac{3}{x}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{4}{x^2-4}+\dfrac{1}{2-x}-\dfrac{1}{x+2}</m></statement>
+        <answer><m>-\dfrac{2}{x+2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{5x}{x+2}-\dfrac{x}{x-1}+\dfrac{3}{x^2+x-2}</m></statement>
+        <answer><m>\dfrac{4x-3}{x+2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x-13}{x+2}+\dfrac{x^2-1}{x^2-4x-12}-\dfrac{2x-5}{x-6}</m></statement>
+        <answer><m>-\dfrac{3(6x-29)}{(x-6)(x+2)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{5}{2x^3}-\dfrac{3x-9}{x^2-6x+9}+\dfrac{12x}{4x^2-12x}</m></statement>
+        <answer><m>\dfrac{5}{2x^3}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2x}{x^2-9}+\dfrac{x}{x^2+6x+9}-\dfrac{3}{x-3}</m></statement>
+        <answer><m>-\dfrac{3(5x+9)}{(x-3)(x+3)^2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{9x-12}{x^2-16}-\dfrac{x+3}{5x^2+15x}+\dfrac{15x^2}{x^2-4x}</m></statement>
+        <answer><m>\dfrac{75x^3+344x^2-60x+16}{5x(x-4)(x+4)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2}{x+5}+\dfrac{5x}{x^2-25}+\dfrac{4}{5-x}</m></statement>
+        <answer><m>\dfrac{3(x-10)}{x^2-25}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2x+11}{x^2+x-6}-\dfrac{2}{x+3}+\dfrac{3}{2-x}</m></statement>
+        <answer><m>-\dfrac{3}{x+3}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{5}{x^2-4x+3}-\dfrac{9}{x^2-2x+1}</m></statement>
+        <answer><m>-\dfrac{2(2x-11)}{(x-3)(x-1)^2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2x}{4x^2-9} + \dfrac{x}{2x^5 + 5x - 3} - \dfrac{1}{2x-3}</m></statement>
+        <answer><m>\dfrac{x}{2x^5+5x-3}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2}{x^2+x-6} + \dfrac{3}{x^3+2x^2-3x}</m></statement>
+        <answer><m>\dfrac{(2x-3)(x+2)}{x(x-1)(x-2)(x+3)}</m></answer>
+      </task>
+    </project>
+  </subsection>
+  
+  <subsection xml:id="subsection-add-sub-two-variables">
+    <title>Adding and Subtracting with Two Variables</title>
+    <project>
+      <title>Two Variables</title>
+      <introduction>
+        <p>
+          Find each sum or difference, and simplify.
+        </p>
+      </introduction>
+      <task>
+        <statement><m>\dfrac{x}{x-y}-\dfrac{y}{x-y}</m></statement>
+        <answer><m>1</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x^2}{x^2-y^2}-\dfrac{y^2}{y^2-x^2}+\dfrac{2xy}{y^2-x^2}</m></statement>
+        <answer><m>\dfrac{x-y}{x+y}</m></answer>
+      </task>
+    </project>
+  </subsection>
+  
+</section>

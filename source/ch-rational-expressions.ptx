@@ -10,5 +10,6 @@
   <!-- include sections -->
   <xi:include href="./sec-simplifying-rational-expressions.ptx" />
   <xi:include href="./sec-multiplying-and-dividing-rational-expressions.ptx" />
+  <xi:include href="./sec-adding-and-subtracting-rational-expressions.ptx" />
 
 </chapter>

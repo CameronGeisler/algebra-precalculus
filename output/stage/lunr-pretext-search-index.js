@@ -1432,6 +1432,132 @@ var ptx_lunr_docs = [
   "body": " Restrictions with Two Variables   Find the restrictions, if any, on each rational expression.           "
 },
 {
+  "id": "sec-multiplying-and-dividing-rational-expressions",
+  "level": "1",
+  "url": "sec-multiplying-and-dividing-rational-expressions.html",
+  "type": "Section",
+  "number": "4.2",
+  "title": "Multiplying and Dividing Rational Expressions",
+  "body": " Multiplying and Dividing Rational Expressions   Recall that to multiply fractions, we simply multiply their numerators together and their denominators together (separately). Also, after doing the multiplication, we can sometimes cancel common factors to reduce the fraction to lowest terms.   Multiplying Fractions Example  For example, to multiply by ,   Therefore, .   In general, the rule for multiplying fractions is,   Alternatively, we can cancel common factors before multiplying.   Cancelling Before Multiplying  For example, to multiply , we can cancel the on the top with the on the bottom, to make and ,    Rational expressions are multiplied in a similar way, by multiplying their numerators together and their denominators together.    Multiplying Rational Expressions    To multiply two rational expressions, multiply their numerators and multiply their denominators. That is, if are polynomials, then,   as long as and are not equal to 0.    For example,   However, if we first multiply and expand the expressions in the numerator and denominator, then the polynomials will get complicated and it will be more difficult to cancel common factors, in order to simplify. Instead, we want to factor each expression first, cancel common factors, and then multiply the result left over.    Factors in any numerator can be cancelled with factors in any denominator. In other words, we can cancel up and down but also diagonally .    Cancelling common factors result in 1.    A good strategy is to first focus on factoring (factor everything), then look for cancellations after.    Note: Multiplication can be denoted by or , and also sometimes by brackets. In other words, each of these means the same thing:       Dividing Rational Expressions  Recall that when dividing rational numbers, this is equivalent to multiplying by the reciprocal of the second number, and then multiply like before. You may remember this rule as keep, change, flip (meaning, keep the first fraction the same, change the sign to multiplication, and flip the 2nd fraction).   Dividing Fractions Example  For example, to divide ,   Therefore, .   In general,   Rational expressions are divided similarly, i.e. when dividing by a rational expression, multiply by its reciprocal.    To divide two rational expressions, multiply by the reciprocal of the denominator. That is, if are polynomials, then,   where are non-zero.    Remember: keep change flip.  Note that in addition to and having to be non-zero, also has to be non-zero, otherwise we are dividing by 0.    Multiplying and Dividing with Monomials   Multiplying and Dividing with Monomials 1   Multiply or divide, and simplify each expression.                         Multiplying and Dividing with Monomials 2   Multiply or divide, and simplify each expression.                         Multiplying and Dividing with Monomials 3   Multiply or divide, and simplify each expression.                    Multiplying and Dividing with Polynomials by Factoring   Multiplying and Dividing with Polynomials by Factoring 1   Multiply or divide, and simplify each expression.                       Multiplying and Dividing with Polynomials by Factoring 2   Multiply or divide, and simplify each expression.                                               Multiplying and Dividing with Polynomials by Factoring 3   Multiply or divide, and simplify each expression.                               Multiplying and Dividing with Two Variables   Multiplying and Dividing with Two Variables   Multiply or divide, and simplify each expression.                              Factor By Grouping   Multiply or divide, and simplify each expression.         "
+},
+{
+  "id": "sec-multiplying-and-dividing-rational-expressions-2-2",
+  "level": "2",
+  "url": "sec-multiplying-and-dividing-rational-expressions.html#sec-multiplying-and-dividing-rational-expressions-2-2",
+  "type": "Example",
+  "number": "4.2.1",
+  "title": "Multiplying Fractions Example.",
+  "body": " Multiplying Fractions Example  For example, to multiply by ,   Therefore, .  "
+},
+{
+  "id": "sec-multiplying-and-dividing-rational-expressions-2-6",
+  "level": "2",
+  "url": "sec-multiplying-and-dividing-rational-expressions.html#sec-multiplying-and-dividing-rational-expressions-2-6",
+  "type": "Example",
+  "number": "4.2.2",
+  "title": "Cancelling Before Multiplying.",
+  "body": " Cancelling Before Multiplying  For example, to multiply , we can cancel the on the top with the on the bottom, to make and ,   "
+},
+{
+  "id": "mult-rational-expr-2",
+  "level": "2",
+  "url": "sec-multiplying-and-dividing-rational-expressions.html#mult-rational-expr-2",
+  "type": "Theorem",
+  "number": "4.2.3",
+  "title": "",
+  "body": "  To multiply two rational expressions, multiply their numerators and multiply their denominators. That is, if are polynomials, then,   as long as and are not equal to 0.   "
+},
+{
+  "id": "div-rational-expr-3",
+  "level": "2",
+  "url": "sec-multiplying-and-dividing-rational-expressions.html#div-rational-expr-3",
+  "type": "Example",
+  "number": "4.2.4",
+  "title": "Dividing Fractions Example.",
+  "body": " Dividing Fractions Example  For example, to divide ,   Therefore, .  "
+},
+{
+  "id": "div-rational-expr-7",
+  "level": "2",
+  "url": "sec-multiplying-and-dividing-rational-expressions.html#div-rational-expr-7",
+  "type": "Theorem",
+  "number": "4.2.5",
+  "title": "",
+  "body": "  To divide two rational expressions, multiply by the reciprocal of the denominator. That is, if are polynomials, then,   where are non-zero.   "
+},
+{
+  "id": "mult-div-monomials-2",
+  "level": "2",
+  "url": "sec-multiplying-and-dividing-rational-expressions.html#mult-div-monomials-2",
+  "type": "Exercise Group",
+  "number": "4.2.1",
+  "title": "Multiplying and Dividing with Monomials 1.",
+  "body": " Multiplying and Dividing with Monomials 1   Multiply or divide, and simplify each expression.                       "
+},
+{
+  "id": "mult-div-monomials-3",
+  "level": "2",
+  "url": "sec-multiplying-and-dividing-rational-expressions.html#mult-div-monomials-3",
+  "type": "Exercise Group",
+  "number": "4.2.2",
+  "title": "Multiplying and Dividing with Monomials 2.",
+  "body": " Multiplying and Dividing with Monomials 2   Multiply or divide, and simplify each expression.                       "
+},
+{
+  "id": "mult-div-monomials-4",
+  "level": "2",
+  "url": "sec-multiplying-and-dividing-rational-expressions.html#mult-div-monomials-4",
+  "type": "Exercise Group",
+  "number": "4.2.3",
+  "title": "Multiplying and Dividing with Monomials 3.",
+  "body": " Multiplying and Dividing with Monomials 3   Multiply or divide, and simplify each expression.                 "
+},
+{
+  "id": "mult-div-poly-factor-2",
+  "level": "2",
+  "url": "sec-multiplying-and-dividing-rational-expressions.html#mult-div-poly-factor-2",
+  "type": "Exercise Group",
+  "number": "4.2.4",
+  "title": "Multiplying and Dividing with Polynomials by Factoring 1.",
+  "body": " Multiplying and Dividing with Polynomials by Factoring 1   Multiply or divide, and simplify each expression.                     "
+},
+{
+  "id": "mult-div-poly-factor-3",
+  "level": "2",
+  "url": "sec-multiplying-and-dividing-rational-expressions.html#mult-div-poly-factor-3",
+  "type": "Exercise Group",
+  "number": "4.2.5",
+  "title": "Multiplying and Dividing with Polynomials by Factoring 2.",
+  "body": " Multiplying and Dividing with Polynomials by Factoring 2   Multiply or divide, and simplify each expression.                                             "
+},
+{
+  "id": "mult-div-poly-factor-4",
+  "level": "2",
+  "url": "sec-multiplying-and-dividing-rational-expressions.html#mult-div-poly-factor-4",
+  "type": "Exercise Group",
+  "number": "4.2.6",
+  "title": "Multiplying and Dividing with Polynomials by Factoring 3.",
+  "body": " Multiplying and Dividing with Polynomials by Factoring 3   Multiply or divide, and simplify each expression.                            "
+},
+{
+  "id": "mult-div-two-vars-2",
+  "level": "2",
+  "url": "sec-multiplying-and-dividing-rational-expressions.html#mult-div-two-vars-2",
+  "type": "Exercise Group",
+  "number": "4.2.7",
+  "title": "Multiplying and Dividing with Two Variables.",
+  "body": " Multiplying and Dividing with Two Variables   Multiply or divide, and simplify each expression.                            "
+},
+{
+  "id": "mult-div-two-vars-3",
+  "level": "2",
+  "url": "sec-multiplying-and-dividing-rational-expressions.html#mult-div-two-vars-3",
+  "type": "Exercise Group",
+  "number": "4.2.8",
+  "title": "Factor By Grouping.",
+  "body": " Factor By Grouping   Multiply or divide, and simplify each expression.       "
+},
+{
   "id": "sec-oblique-triangles-summary",
   "level": "1",
   "url": "sec-oblique-triangles-summary.html",
@@ -2635,7 +2761,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "13.1",
   "title": "Solving Equations Graphically",
-  "body": " Solving Equations Graphically   Graphing calculators, like Desmos , or the TI-84 Plus CE, can solve equations graphically very easily. The basic idea is to graph both sides of the equation, and the solutions are the intersection points.    Solving Equations Using a Graphing Calculator (Intersections)   Solving by Intersection  Solve the equation . To do this, graph both sides of the equation, and ( Desmos graph ). Observe the intersection points are at and . You can check that these are solutions, by plugging in and and verifying that both sides are equal,   Intuitively, this is because the equation is asking,  For which values of $x$ do the two expressions give the same number?  Then, a point is an intersection if it lies on both graphs, meaning that for that particular -value, the value for the left side is the same as the -value for the right side. That's what it means for the two sides of the equation to be equal.   In general, we want to solve an equation of the form,   where are expressions involving (that represent the two sides of the equation).   Graph both and .  The solutions are the -values of any intersection points of the two graphs.   In short,     Solving Numerically by Finding Zeros (Reducing to One Graph)  In fact, there is a slightly easier way. The general problem of solving an equation of the form,   can be rewritten by moving everything to one side (say, subtracting from both sides), to get . Then, the equation is in the form of one function equal to 0,   where . This transforms the problem from solving an equation with two separate sides, to finding the root of a (single) function. Then, to solve,   Graph .  The solutions are the -intercepts (zeros) of the graph.   In other words,     Comparing the Two Methods  Both the intersection method and the zeros method are mathematically equivalent, in that both will give you the same answer. However, there are some advantages and disadvantages to each, both practically and conceptually.    The intersection method is more intuitive, because you can visually see where the two functions intersect. If the functions represent some quantity, then it also has a useful interpretation.   Interpretating Intersection  For example, if represents how far each object has gone in seconds, then the intersection point means that after seconds, both objects have travelled the same distance . In contrast, with the zeros method, the -coordinate is always 0 and has no interpretation.     The zeros method is more computationally simpler, because you only have one function. Graphically, you only have to look near the -axis to find solutions. This is especially helpful when the functions are huge, and so you'd have to zoom out a lot to see the intersections.   Solving with the Zeros Method  Solve the equation . Using the intersection method , there is 1 intersection visible, but there is another intersection that is only visible if you zoom out a lot. Instead, using the zeros method, move all terms to one side, to get . Then, graphing this function , you can more easily see the 2 zeros of the graph, which are the solutions.       Solving Equations Graphically on the TI-84 Plus CE  With the TI-84 Plus CE, the strategy is similar to using Desmos, except it requires a few more button presses. Again, you can either do the intersection method ( ) or the zeros method ( ).   Enter the functions : Press [Y=] to to to the function editor. Enter the left side of the equation in Y1 and the right side in Y2. For example, for the equation , put in Y1 and in Y2. If solving , enter the expression in Y1 (and leave Y2 blank).  Adjust the window (if needed): Press [WINDOW] to set appropriate viewing bounds for Xmin, Xmax, Ymin, and Ymax so the graph and intersection points are visible. You can use [ZOOM] 6 (ZStandard) for a default view.  Graph the functions : Press [GRAPH] to display the graphs.   Find the intersection or root : Press [2nd] [TRACE] (CALC menu), then select 5: intersect (for intersection of two functions) or 2: zero (for roots of a single function). It will ask you to set a lower bound (Left Bound?) and upper bound (Right Bound?). These bounds define the interval for where the calculator will search for the solution, so make sure it's between them. Move the cursor with the arrow keys, and press [ENTER] for each.  It will also ask for a Guess?, which doesn't really matter, you can just press [ENTER] again (technically, the guess helps refine the search, but it only really helps for complicated functions that have many roots which are close together).     "
+  "body": " Solving Equations Graphically   Graphing calculators, like Desmos , or the TI-84 Plus CE, can solve equations graphically very easily. The basic idea is to graph both sides of the equation, and the solutions are the intersection points.    Solving Equations Using a Graphing Calculator (Intersections)   Solving by Intersection  Solve the equation . To do this, graph both sides of the equation, and ( Desmos graph ). Observe the intersection points are at and . You can check that these are solutions, by plugging in and and verifying that both sides are equal,   Intuitively, this is because the equation is asking,  For which values of do the two expressions give the same number?  Then, a point is an intersection if it lies on both graphs, meaning that for that particular -value, the value for the left side is the same as the -value for the right side. That's what it means for the two sides of the equation to be equal.   In general, we want to solve an equation of the form,   where are expressions involving (that represent the two sides of the equation).   Graph both and .  The solutions are the -values of any intersection points of the two graphs.   In short,     Solving Numerically by Finding Zeros (Reducing to One Graph)  In fact, there is a slightly easier way. The general problem of solving an equation of the form,   can be rewritten by moving everything to one side (say, subtracting from both sides), to get . Then, the equation is in the form of one function equal to 0,   where . This transforms the problem from solving an equation with two separate sides, to finding the root of a (single) function. Then, to solve,   Graph .  The solutions are the -intercepts (zeros) of the graph.   In other words,     Comparing the Two Methods  Both the intersection method and the zeros method are mathematically equivalent, in that both will give you the same answer. However, there are some advantages and disadvantages to each, both practically and conceptually.    The intersection method is more intuitive, because you can visually see where the two functions intersect. If the functions represent some quantity, then it also has a useful interpretation.   Interpretating Intersection  For example, if represents how far each object has gone in seconds, then the intersection point means that after seconds, both objects have travelled the same distance . In contrast, with the zeros method, the -coordinate is always 0 and has no interpretation.     The zeros method is more computationally simpler, because you only have one function. Graphically, you only have to look near the -axis to find solutions. This is especially helpful when the functions are huge, and so you'd have to zoom out a lot to see the intersections.   Solving with the Zeros Method  Solve the equation . Using the intersection method , there is 1 intersection visible, but there is another intersection that is only visible if you zoom out a lot. Instead, using the zeros method, move all terms to one side, to get . Then, graphing this function , you can more easily see the 2 zeros of the graph, which are the solutions.       Solving Equations Graphically on the TI-84 Plus CE  With the TI-84 Plus CE, the strategy is similar to using Desmos, except it requires a few more button presses. Again, you can either do the intersection method ( ) or the zeros method ( ).   Enter the functions : Press [Y=] to to to the function editor. Enter the left side of the equation in Y1 and the right side in Y2. For example, for the equation , put in Y1 and in Y2. If solving , enter the expression in Y1 (and leave Y2 blank).  Adjust the window (if needed): Press [WINDOW] to set appropriate viewing bounds for Xmin, Xmax, Ymin, and Ymax so the graph and intersection points are visible. You can use [ZOOM] 6 (ZStandard) for a default view.  Graph the functions : Press [GRAPH] to display the graphs.   Find the intersection or root : Press [2nd] [TRACE] (CALC menu), then select 5: intersect (for intersection of two functions) or 2: zero (for roots of a single function). It will ask you to set a lower bound (Left Bound?) and upper bound (Right Bound?). These bounds define the interval for where the calculator will search for the solution, so make sure it's between them. Move the cursor with the arrow keys, and press [ENTER] for each.  It will also ask for a Guess?, which doesn't really matter, you can just press [ENTER] again (technically, the guess helps refine the search, but it only really helps for complicated functions that have many roots which are close together).     "
 },
 {
   "id": "solving-graphing-intersections-2",
@@ -2644,7 +2770,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "13.1.1",
   "title": "Solving by Intersection.",
-  "body": " Solving by Intersection  Solve the equation . To do this, graph both sides of the equation, and ( Desmos graph ). Observe the intersection points are at and . You can check that these are solutions, by plugging in and and verifying that both sides are equal,   Intuitively, this is because the equation is asking,  For which values of $x$ do the two expressions give the same number?  Then, a point is an intersection if it lies on both graphs, meaning that for that particular -value, the value for the left side is the same as the -value for the right side. That's what it means for the two sides of the equation to be equal.  "
+  "body": " Solving by Intersection  Solve the equation . To do this, graph both sides of the equation, and ( Desmos graph ). Observe the intersection points are at and . You can check that these are solutions, by plugging in and and verifying that both sides are equal,   Intuitively, this is because the equation is asking,  For which values of do the two expressions give the same number?  Then, a point is an intersection if it lies on both graphs, meaning that for that particular -value, the value for the left side is the same as the -value for the right side. That's what it means for the two sides of the equation to be equal.  "
 },
 {
   "id": "comparing-methods-3-1-2",
