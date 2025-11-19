@@ -1252,11 +1252,128 @@ var ptx_lunr_docs = [
   "body": " Advanced Examples   Solve each system of equations.           , .            , .            , .    "
 },
 {
+  "id": "sec-intro-to-rational-expressions",
+  "level": "1",
+  "url": "sec-intro-to-rational-expressions.html",
+  "type": "Section",
+  "number": "4.1",
+  "title": "Intro to Rational Expressions",
+  "body": " Intro to Rational Expressions   Recall that a fraction, or rational number , is a number that can be written by dividing two integers (like , or ). A rational expression is similar, except with variables.    Rational Expressions    A rational expression is an algebraic expression of the form, In other words, it is the quotient of two polynomials.   It's also called an algebraic fraction , as opposed to a regular fraction which only involves numbers.      Identifying Rational Expressions  For example, these are all rational expressions,     ( , being just a constant, is still considered a polynomial)  (polynomials can have multiple different variables)   However, these are not rational expressions:   , because is not a polynomial.  , because is not a polynomial.     Polynomials as Rational Expressions  All polynomials are technically also considered rational expressions, because any polynomial can be written as itself divided by 1 (and 1 is a polynomial also). For example,      Non-Permissible Values  A rational expression is not defined if their denominator is 0, because division by zero is undefined. Values of (or whatever the variable is) that make the denominator 0 are called non-permissible values .    The non-permissible values ( NPV s) of a rational expressions are the values of the variable(s) that make the denominator 0.   Also called restrictions , or excluded values .     To determine the non-permissible values of a rational expression, figure out what values of will make the denominator 0.   Basic Non-Permissible Values  Find the non-permissible values of the rational expression,   This is when is equal to 0. You may be able to observe that this is when . Or, you can set equal to 0 and solve for . Therefore, the NPV is .   The purpose of NPVs is to communicate what values of the variable are not allowed to be plugged into the expression.   NPVs with Difference of Squares  Find the non-permissible values of,   The denominator is , so the NPVs are the values that make . To solve this, one way is to factor it as a difference of squares, then set each factor equal to 0 and solve for . Therefore, the NPVs are . Alternatively, you could take square roots,     No Non-Permissible Values  Find the non-permissible values of,   The denominator is , so the NPVs are when, To solve this, you may recognize that the left side is always positive, so it is never equal to 0, and so there is no solution. Or, isolate for , Then, there is no number such that (in other words, the equation has no solution), so the denominator is never 0. Therefore, there are no NPVs.    NPVs with Trinomial Factoring  Find the non-permissible values of,   The NPVs are when, We can factor, then set each factor equal to 0 and solve. Therefore, the NPVs are .    NPVs with Multiple Variables  Find the non-permissible values of,   The denominator is , so the NPVs are when, This is a product of two variables, so it is equal to 0 precisely when either or . Both of these make the denominator 0, so both must be excluded. Therefore, the NPVs are and .    NPVs with Common Factors  Find the non-permissible values of,   The NPVs are when, You can factor out a common factor of , then set each factor equal to 0 and solve for . Therefore, the NPVs are .    NPVs Using Quadratic Formula  Find the non-permissible values of,   The NPVs are when, In fact, this quadratic does not factor, so we must use the quadratic formula. Therefore, the NPVs are .   In summary, to find non-permissible values, find the zeros of the denominator, by setting it equal to 0 and solving for .  Note: the non-permissible values do not depend on what the numerator is at all , only on what the denominator is.   Practice Exercises   Find all non-permissible values (if any) for each rational expression.                 none                         ,             none         the quadratic does not factor      difference of squares      "
+},
+{
+  "id": "rational-expressions-2",
+  "level": "2",
+  "url": "sec-intro-to-rational-expressions.html#rational-expressions-2",
+  "type": "Definition",
+  "number": "4.1.1",
+  "title": "",
+  "body": "  A rational expression is an algebraic expression of the form, In other words, it is the quotient of two polynomials.   It's also called an algebraic fraction , as opposed to a regular fraction which only involves numbers.    "
+},
+{
+  "id": "rational-expressions-3",
+  "level": "2",
+  "url": "sec-intro-to-rational-expressions.html#rational-expressions-3",
+  "type": "Example",
+  "number": "4.1.2",
+  "title": "Identifying Rational Expressions.",
+  "body": " Identifying Rational Expressions  For example, these are all rational expressions,     ( , being just a constant, is still considered a polynomial)  (polynomials can have multiple different variables)   However, these are not rational expressions:   , because is not a polynomial.  , because is not a polynomial.   "
+},
+{
+  "id": "rational-expressions-4",
+  "level": "2",
+  "url": "sec-intro-to-rational-expressions.html#rational-expressions-4",
+  "type": "Example",
+  "number": "4.1.3",
+  "title": "Polynomials as Rational Expressions.",
+  "body": " Polynomials as Rational Expressions  All polynomials are technically also considered rational expressions, because any polynomial can be written as itself divided by 1 (and 1 is a polynomial also). For example,   "
+},
+{
+  "id": "non-permissible-values-3",
+  "level": "2",
+  "url": "sec-intro-to-rational-expressions.html#non-permissible-values-3",
+  "type": "Definition",
+  "number": "4.1.4",
+  "title": "",
+  "body": "  The non-permissible values ( NPV s) of a rational expressions are the values of the variable(s) that make the denominator 0.   Also called restrictions , or excluded values .    "
+},
+{
+  "id": "non-permissible-values-5",
+  "level": "2",
+  "url": "sec-intro-to-rational-expressions.html#non-permissible-values-5",
+  "type": "Example",
+  "number": "4.1.5",
+  "title": "Basic Non-Permissible Values.",
+  "body": " Basic Non-Permissible Values  Find the non-permissible values of the rational expression,   This is when is equal to 0. You may be able to observe that this is when . Or, you can set equal to 0 and solve for . Therefore, the NPV is .  "
+},
+{
+  "id": "non-permissible-values-7",
+  "level": "2",
+  "url": "sec-intro-to-rational-expressions.html#non-permissible-values-7",
+  "type": "Example",
+  "number": "4.1.6",
+  "title": "NPVs with Difference of Squares.",
+  "body": " NPVs with Difference of Squares  Find the non-permissible values of,   The denominator is , so the NPVs are the values that make . To solve this, one way is to factor it as a difference of squares, then set each factor equal to 0 and solve for . Therefore, the NPVs are . Alternatively, you could take square roots,   "
+},
+{
+  "id": "non-permissible-values-8",
+  "level": "2",
+  "url": "sec-intro-to-rational-expressions.html#non-permissible-values-8",
+  "type": "Example",
+  "number": "4.1.7",
+  "title": "No Non-Permissible Values.",
+  "body": " No Non-Permissible Values  Find the non-permissible values of,   The denominator is , so the NPVs are when, To solve this, you may recognize that the left side is always positive, so it is never equal to 0, and so there is no solution. Or, isolate for , Then, there is no number such that (in other words, the equation has no solution), so the denominator is never 0. Therefore, there are no NPVs.  "
+},
+{
+  "id": "non-permissible-values-9",
+  "level": "2",
+  "url": "sec-intro-to-rational-expressions.html#non-permissible-values-9",
+  "type": "Example",
+  "number": "4.1.8",
+  "title": "NPVs with Trinomial Factoring.",
+  "body": " NPVs with Trinomial Factoring  Find the non-permissible values of,   The NPVs are when, We can factor, then set each factor equal to 0 and solve. Therefore, the NPVs are .  "
+},
+{
+  "id": "non-permissible-values-10",
+  "level": "2",
+  "url": "sec-intro-to-rational-expressions.html#non-permissible-values-10",
+  "type": "Example",
+  "number": "4.1.9",
+  "title": "NPVs with Multiple Variables.",
+  "body": " NPVs with Multiple Variables  Find the non-permissible values of,   The denominator is , so the NPVs are when, This is a product of two variables, so it is equal to 0 precisely when either or . Both of these make the denominator 0, so both must be excluded. Therefore, the NPVs are and .  "
+},
+{
+  "id": "non-permissible-values-11",
+  "level": "2",
+  "url": "sec-intro-to-rational-expressions.html#non-permissible-values-11",
+  "type": "Example",
+  "number": "4.1.10",
+  "title": "NPVs with Common Factors.",
+  "body": " NPVs with Common Factors  Find the non-permissible values of,   The NPVs are when, You can factor out a common factor of , then set each factor equal to 0 and solve for . Therefore, the NPVs are .  "
+},
+{
+  "id": "non-permissible-values-12",
+  "level": "2",
+  "url": "sec-intro-to-rational-expressions.html#non-permissible-values-12",
+  "type": "Example",
+  "number": "4.1.11",
+  "title": "NPVs Using Quadratic Formula.",
+  "body": " NPVs Using Quadratic Formula  Find the non-permissible values of,   The NPVs are when, In fact, this quadratic does not factor, so we must use the quadratic formula. Therefore, the NPVs are .  "
+},
+{
+  "id": "non-permissible-values-15",
+  "level": "2",
+  "url": "sec-intro-to-rational-expressions.html#non-permissible-values-15",
+  "type": "Exercise Group",
+  "number": "4.1.1",
+  "title": "Practice Exercises.",
+  "body": " Practice Exercises   Find all non-permissible values (if any) for each rational expression.                 none                         ,             none         the quadratic does not factor      difference of squares    "
+},
+{
   "id": "sec-simplifying-rational-expressions",
   "level": "1",
   "url": "sec-simplifying-rational-expressions.html",
   "type": "Section",
-  "number": "4.1",
+  "number": "4.2",
   "title": "Simplifying Rational Expressions",
   "body": " Simplifying Rational Expressions   Recall that simplifying a fraction involves cancelling the greatest common factor from the numerator and the denominator, so the fraction is in lowest terms .   Simplifying a Numerical Fraction   To simplify , factor both the numerator and denominator,   Cancel the common factors from the numerator and denominator,    Therefore, simplifies to .   Similarly, simplifying a rational expression involves factoring the numerator and denominator, and cancelling common factors until there are no common factors other than 1. In this case, we say the rational expression is in lowest terms .    Simplifying Expressions with Monomials   Monomial Expressions   Simplify each rational expression, and state any restrictions on the variables.                                                            Sometimes, factors can have more than one term in them.   Binomial Factors   Simplify each rational expression, and state any restrictions on the variables.                      Simplifying Expressions with Polynomials by Factoring  Look for common factors.   Polynomial Expressions   Simplify each rational expression, and state any restrictions on the variables.     , none                                                            Sometimes, two factors will look similar but not be exactly the same. In particular, they will be negatives of each other.   Factors Differing by a Negative   For example, consider,   The negative of is . If you divide a number and its negative (like e.g. 5 and ), the result is always . We can factor out a from the numerator, and then cancel,      Simplifying Negative Factors   Simplify each rational expression.                                         or             Simplifying and Restrictions   Simplify each rational expression, and state any restrictions on the variables.                                     Quadratic Expressions   Simplify each rational expression.         or                                                                                             Complex Polynomial Expressions   Simplify each rational expression.                                                         Trinomials and Restrictions   Simplify each rational expression, and state any restrictions on the variables.                                          Common Mistake: Cancelling Common Terms  Common factors can be cancelled, but not common terms . For example,   In other words, something must be a factor of the entire numerator in order to cancel them.    Summary of Simplifying Rational Expressions    Factor the numerator and denominator as much as possible (if there are multiple terms, with addition or subtraction).  If there is multiplication only, there is no factoring needed.      Cancel common factors .  Remember: only factors can cancel (not terms, which are added or subtracted).  Sometimes, common factors will differ by a constant factor like .     Rewrite the fraction , with what's left after cancelling.  Find restrictions (if needed). Find the values of the variable that make the denominator 0 (from the original denominator, before any cancellation).     Word Problems   Isosceles Triangle   An isosceles triangle has two sides of length and a perimeter of , determine the ratio of the base to the perimeter in simplified form and state the restriction on , then explain in one sentence why that restriction is necessary in this situation.    , restriction because the side lengths and perimeter must be positive (at they are zero).     Rectangle Ratio   A rectangle is six times as long as it is wide, determine the ratio of its area to its perimeter in simplest form if its width is .        Equivalent Rational Expressions   The quotient of two polynomials is , give two examples of a rational expression equivalent to this polynomial that has the restriction .    and (each simplifies to for ).     Consecutive Restrictions   Give an example of a rational expression that could have three restrictions that are consecutive numbers.    e.g. (restrictions are consecutive).     Box Dimensions   The volume of a box is given by and its height is . Find a simplified expression for the area of the bottom of the box.         Simplifying with Two Variables   Two Variable Expressions   Simplify each rational expression.                                                                             Restrictions with Two Variables   Find the restrictions, if any, on each rational expression.             "
 },
@@ -1274,7 +1391,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-rational-expressions.html#sec-simplifying-rational-expressions-2-2",
   "type": "Example",
-  "number": "4.1.1",
+  "number": "4.2.1",
   "title": "Simplifying a Numerical Fraction.",
   "body": " Simplifying a Numerical Fraction   To simplify , factor both the numerator and denominator,   Cancel the common factors from the numerator and denominator,    Therefore, simplifies to .  "
 },
@@ -1292,7 +1409,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-rational-expressions.html#project-monomial-expressions",
   "type": "Exercise Group",
-  "number": "4.1.1",
+  "number": "4.2.1",
   "title": "Monomial Expressions.",
   "body": " Monomial Expressions   Simplify each rational expression, and state any restrictions on the variables.                                                           "
 },
@@ -1301,7 +1418,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-rational-expressions.html#project-binomial-factors",
   "type": "Exercise Group",
-  "number": "4.1.2",
+  "number": "4.2.2",
   "title": "Binomial Factors.",
   "body": " Binomial Factors   Simplify each rational expression, and state any restrictions on the variables.                   "
 },
@@ -1310,7 +1427,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-rational-expressions.html#project-polynomial-factoring",
   "type": "Exercise Group",
-  "number": "4.1.3",
+  "number": "4.2.3",
   "title": "Polynomial Expressions.",
   "body": " Polynomial Expressions   Simplify each rational expression, and state any restrictions on the variables.     , none                                                           "
 },
@@ -1319,7 +1436,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-rational-expressions.html#subsection-factoring-polynomials-5",
   "type": "Example",
-  "number": "4.1.2",
+  "number": "4.2.2",
   "title": "Factors Differing by a Negative.",
   "body": " Factors Differing by a Negative   For example, consider,   The negative of is . If you divide a number and its negative (like e.g. 5 and ), the result is always . We can factor out a from the numerator, and then cancel,    "
 },
@@ -1328,7 +1445,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-rational-expressions.html#project-negative-factors",
   "type": "Exercise Group",
-  "number": "4.1.4",
+  "number": "4.2.4",
   "title": "Simplifying Negative Factors.",
   "body": " Simplifying Negative Factors   Simplify each rational expression.                                         or           "
 },
@@ -1337,7 +1454,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-rational-expressions.html#project-simplify-restrictions",
   "type": "Exercise Group",
-  "number": "4.1.5",
+  "number": "4.2.5",
   "title": "Simplifying and Restrictions.",
   "body": " Simplifying and Restrictions   Simplify each rational expression, and state any restrictions on the variables.                                   "
 },
@@ -1346,7 +1463,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-rational-expressions.html#project-quadratic-expressions",
   "type": "Exercise Group",
-  "number": "4.1.6",
+  "number": "4.2.6",
   "title": "Quadratic Expressions.",
   "body": " Quadratic Expressions   Simplify each rational expression.         or                                                                                           "
 },
@@ -1355,7 +1472,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-rational-expressions.html#project-complex-polynomials",
   "type": "Exercise Group",
-  "number": "4.1.7",
+  "number": "4.2.7",
   "title": "Complex Polynomial Expressions.",
   "body": " Complex Polynomial Expressions   Simplify each rational expression.                                                       "
 },
@@ -1364,7 +1481,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-rational-expressions.html#project-trinomial-restrictions",
   "type": "Exercise Group",
-  "number": "4.1.8",
+  "number": "4.2.8",
   "title": "Trinomials and Restrictions.",
   "body": " Trinomials and Restrictions   Simplify each rational expression, and state any restrictions on the variables.                                       "
 },
@@ -1373,7 +1490,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-rational-expressions.html#subsection-word-problems-2",
   "type": "Example",
-  "number": "4.1.3",
+  "number": "4.2.3",
   "title": "Isosceles Triangle.",
   "body": " Isosceles Triangle   An isosceles triangle has two sides of length and a perimeter of , determine the ratio of the base to the perimeter in simplified form and state the restriction on , then explain in one sentence why that restriction is necessary in this situation.    , restriction because the side lengths and perimeter must be positive (at they are zero).   "
 },
@@ -1382,7 +1499,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-rational-expressions.html#subsection-word-problems-3",
   "type": "Example",
-  "number": "4.1.4",
+  "number": "4.2.4",
   "title": "Rectangle Ratio.",
   "body": " Rectangle Ratio   A rectangle is six times as long as it is wide, determine the ratio of its area to its perimeter in simplest form if its width is .      "
 },
@@ -1391,7 +1508,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-rational-expressions.html#subsection-word-problems-4",
   "type": "Example",
-  "number": "4.1.5",
+  "number": "4.2.5",
   "title": "Equivalent Rational Expressions.",
   "body": " Equivalent Rational Expressions   The quotient of two polynomials is , give two examples of a rational expression equivalent to this polynomial that has the restriction .    and (each simplifies to for ).   "
 },
@@ -1400,7 +1517,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-rational-expressions.html#subsection-word-problems-5",
   "type": "Example",
-  "number": "4.1.6",
+  "number": "4.2.6",
   "title": "Consecutive Restrictions.",
   "body": " Consecutive Restrictions   Give an example of a rational expression that could have three restrictions that are consecutive numbers.    e.g. (restrictions are consecutive).   "
 },
@@ -1409,7 +1526,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-rational-expressions.html#subsection-word-problems-6",
   "type": "Example",
-  "number": "4.1.7",
+  "number": "4.2.7",
   "title": "Box Dimensions.",
   "body": " Box Dimensions   The volume of a box is given by and its height is . Find a simplified expression for the area of the bottom of the box.      "
 },
@@ -1418,7 +1535,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-rational-expressions.html#project-two-variable-expressions",
   "type": "Exercise Group",
-  "number": "4.1.9",
+  "number": "4.2.9",
   "title": "Two Variable Expressions.",
   "body": " Two Variable Expressions   Simplify each rational expression.                                                                           "
 },
@@ -1427,7 +1544,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-rational-expressions.html#project-restrictions-two-variables",
   "type": "Exercise Group",
-  "number": "4.1.10",
+  "number": "4.2.10",
   "title": "Restrictions with Two Variables.",
   "body": " Restrictions with Two Variables   Find the restrictions, if any, on each rational expression.           "
 },
@@ -1436,7 +1553,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-multiplying-and-dividing-rational-expressions.html",
   "type": "Section",
-  "number": "4.2",
+  "number": "4.3",
   "title": "Multiplying and Dividing Rational Expressions",
   "body": " Multiplying and Dividing Rational Expressions   Recall that to multiply fractions, we simply multiply their numerators together and their denominators together (separately). Also, after doing the multiplication, we can sometimes cancel common factors to reduce the fraction to lowest terms.   Multiplying Fractions Example  For example, to multiply by ,   Therefore, .   In general, the rule for multiplying fractions is,   Alternatively, we can cancel common factors before multiplying.   Cancelling Before Multiplying  For example, to multiply , we can cancel the on the top with the on the bottom, to make and ,    Rational expressions are multiplied in a similar way, by multiplying their numerators together and their denominators together.    Multiplying Rational Expressions    To multiply two rational expressions, multiply their numerators and multiply their denominators. That is, if are polynomials, then,   as long as and are not equal to 0.    For example,   However, if we first multiply and expand the expressions in the numerator and denominator, then the polynomials will get complicated and it will be more difficult to cancel common factors, in order to simplify. Instead, we want to factor each expression first, cancel common factors, and then multiply the result left over.    Factors in any numerator can be cancelled with factors in any denominator. In other words, we can cancel up and down but also diagonally .    Cancelling common factors result in 1.    A good strategy is to first focus on factoring (factor everything), then look for cancellations after.    Note: Multiplication can be denoted by or , and also sometimes by brackets. In other words, each of these means the same thing:       Dividing Rational Expressions  Recall that when dividing rational numbers, this is equivalent to multiplying by the reciprocal of the second number, and then multiply like before. You may remember this rule as keep, change, flip (meaning, keep the first fraction the same, change the sign to multiplication, and flip the 2nd fraction).   Dividing Fractions Example  For example, to divide ,   Therefore, .   In general,   Rational expressions are divided similarly, i.e. when dividing by a rational expression, multiply by its reciprocal.    To divide two rational expressions, multiply by the reciprocal of the denominator. That is, if are polynomials, then,   where are non-zero.    Remember: keep change flip.  Note that in addition to and having to be non-zero, also has to be non-zero, otherwise we are dividing by 0.    Multiplying and Dividing with Monomials   Multiplying and Dividing with Monomials 1   Multiply or divide, and simplify each expression.                         Multiplying and Dividing with Monomials 2   Multiply or divide, and simplify each expression.                         Multiplying and Dividing with Monomials 3   Multiply or divide, and simplify each expression.                    Multiplying and Dividing with Polynomials by Factoring   Multiplying and Dividing with Polynomials by Factoring 1   Multiply or divide, and simplify each expression.                       Multiplying and Dividing with Polynomials by Factoring 2   Multiply or divide, and simplify each expression.                                               Multiplying and Dividing with Polynomials by Factoring 3   Multiply or divide, and simplify each expression.                               Multiplying and Dividing with Two Variables   Multiplying and Dividing with Two Variables   Multiply or divide, and simplify each expression.                              Factor By Grouping   Multiply or divide, and simplify each expression.         "
 },
@@ -1445,7 +1562,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-multiplying-and-dividing-rational-expressions.html#sec-multiplying-and-dividing-rational-expressions-2-2",
   "type": "Example",
-  "number": "4.2.1",
+  "number": "4.3.1",
   "title": "Multiplying Fractions Example.",
   "body": " Multiplying Fractions Example  For example, to multiply by ,   Therefore, .  "
 },
@@ -1454,7 +1571,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-multiplying-and-dividing-rational-expressions.html#sec-multiplying-and-dividing-rational-expressions-2-6",
   "type": "Example",
-  "number": "4.2.2",
+  "number": "4.3.2",
   "title": "Cancelling Before Multiplying.",
   "body": " Cancelling Before Multiplying  For example, to multiply , we can cancel the on the top with the on the bottom, to make and ,   "
 },
@@ -1463,7 +1580,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-multiplying-and-dividing-rational-expressions.html#mult-rational-expr-2",
   "type": "Theorem",
-  "number": "4.2.3",
+  "number": "4.3.3",
   "title": "",
   "body": "  To multiply two rational expressions, multiply their numerators and multiply their denominators. That is, if are polynomials, then,   as long as and are not equal to 0.   "
 },
@@ -1472,7 +1589,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-multiplying-and-dividing-rational-expressions.html#div-rational-expr-3",
   "type": "Example",
-  "number": "4.2.4",
+  "number": "4.3.4",
   "title": "Dividing Fractions Example.",
   "body": " Dividing Fractions Example  For example, to divide ,   Therefore, .  "
 },
@@ -1481,7 +1598,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-multiplying-and-dividing-rational-expressions.html#div-rational-expr-7",
   "type": "Theorem",
-  "number": "4.2.5",
+  "number": "4.3.5",
   "title": "",
   "body": "  To divide two rational expressions, multiply by the reciprocal of the denominator. That is, if are polynomials, then,   where are non-zero.   "
 },
@@ -1490,7 +1607,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-multiplying-and-dividing-rational-expressions.html#mult-div-monomials-2",
   "type": "Exercise Group",
-  "number": "4.2.1",
+  "number": "4.3.1",
   "title": "Multiplying and Dividing with Monomials 1.",
   "body": " Multiplying and Dividing with Monomials 1   Multiply or divide, and simplify each expression.                       "
 },
@@ -1499,7 +1616,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-multiplying-and-dividing-rational-expressions.html#mult-div-monomials-3",
   "type": "Exercise Group",
-  "number": "4.2.2",
+  "number": "4.3.2",
   "title": "Multiplying and Dividing with Monomials 2.",
   "body": " Multiplying and Dividing with Monomials 2   Multiply or divide, and simplify each expression.                       "
 },
@@ -1508,7 +1625,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-multiplying-and-dividing-rational-expressions.html#mult-div-monomials-4",
   "type": "Exercise Group",
-  "number": "4.2.3",
+  "number": "4.3.3",
   "title": "Multiplying and Dividing with Monomials 3.",
   "body": " Multiplying and Dividing with Monomials 3   Multiply or divide, and simplify each expression.                 "
 },
@@ -1517,7 +1634,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-multiplying-and-dividing-rational-expressions.html#mult-div-poly-factor-2",
   "type": "Exercise Group",
-  "number": "4.2.4",
+  "number": "4.3.4",
   "title": "Multiplying and Dividing with Polynomials by Factoring 1.",
   "body": " Multiplying and Dividing with Polynomials by Factoring 1   Multiply or divide, and simplify each expression.                     "
 },
@@ -1526,7 +1643,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-multiplying-and-dividing-rational-expressions.html#mult-div-poly-factor-3",
   "type": "Exercise Group",
-  "number": "4.2.5",
+  "number": "4.3.5",
   "title": "Multiplying and Dividing with Polynomials by Factoring 2.",
   "body": " Multiplying and Dividing with Polynomials by Factoring 2   Multiply or divide, and simplify each expression.                                             "
 },
@@ -1535,7 +1652,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-multiplying-and-dividing-rational-expressions.html#mult-div-poly-factor-4",
   "type": "Exercise Group",
-  "number": "4.2.6",
+  "number": "4.3.6",
   "title": "Multiplying and Dividing with Polynomials by Factoring 3.",
   "body": " Multiplying and Dividing with Polynomials by Factoring 3   Multiply or divide, and simplify each expression.                            "
 },
@@ -1544,7 +1661,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-multiplying-and-dividing-rational-expressions.html#mult-div-two-vars-2",
   "type": "Exercise Group",
-  "number": "4.2.7",
+  "number": "4.3.7",
   "title": "Multiplying and Dividing with Two Variables.",
   "body": " Multiplying and Dividing with Two Variables   Multiply or divide, and simplify each expression.                            "
 },
@@ -1553,7 +1670,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-multiplying-and-dividing-rational-expressions.html#mult-div-two-vars-3",
   "type": "Exercise Group",
-  "number": "4.2.8",
+  "number": "4.3.8",
   "title": "Factor By Grouping.",
   "body": " Factor By Grouping   Multiply or divide, and simplify each expression.       "
 },
@@ -1562,7 +1679,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-adding-and-subtracting-rational-expressions.html",
   "type": "Section",
-  "number": "4.3",
+  "number": "4.4",
   "title": "Adding and Subtracting Rational Expressions",
   "body": " Adding and Subtracting Rational Expressions   Adding rational expressions is similar to adding (numerical) fractions. Recall that to add fractions, you need to have the denominators be equal, and then you add the numerators.   Adding Two Fractions  For example, to add , we simply add the numerators, because the denominators are the same,    In general, if the denominators are the same (that is, we have a common denominator), then simply add the numerators together over that common denominator. That is,   If the denominators are not equal, then we need to first manipulate the fractions so that they have a common denominator.   Adding Two Fractions with Different Denominators  For example, to add , we have denominators of 9 and 3, so we can make a common denominator of 9, by multiplying by ,    Sometimes, to make a common denominator, you need to manipulate both fractions.   Adding Two Fractions with Different Denominators  For example, to add , we have denominators of 5 and 7, so we need a common denominator of (which is ),              Adding Rational Expressions   Adding Rational Expressions with Like Denominators  To add , add the numerators over the common denominator of ,     Adding Rational Expressions with Like Denominators  To add , add the numerators together over the common denominator of ,    To add two rational expressions with like denominators, add their numerators and keep the same denominator. That is, if are polynomials, then, with the restriction that cannot be equal to 0.  Sometimes, after adding, the result can be further simplified by cancelling common factors.   Adding Rational Expressions and Simplifying  For example,      Summary of Adding or Subtracting Rational Expressions    Factor the denominators completely.    Create a common denominator, by manipulating each fraction.    After you have a common denominator, add or subtract the numerators, and keep that common denominator.    Simplify if needed, by collecting like terms, and factor and cancel if possible.    Note: . For example, .    Adding and Subtracting with Monomial Denominators   Monomial Like Denominators   Find each sum or difference, and simplify.                                                             Monomial Different Denominators   Find each sum or difference, and simplify.                                                         Single Variable   Find each sum or difference, and simplify.                                                             Multiple Variables   Find each sum or difference, and simplify.                                                          Adding and Subtracting with Like Denominators  You should think of each binomial as a single factor.   Binomial Like Denominators   Find each sum or difference, and simplify.                                                                                     Quadratic Denominators   Find each sum or difference, and simplify.                                                          Adding and Subtracting with Polynomials (Factoring)   Binomial Denominators   Find each sum or difference, and simplify.                                                                                 Quadratic Denominators and Factoring   Find each sum or difference, and simplify.                                                                                                                                         Polynomial Denominators   Find each sum or difference, and simplify.                                                                                                     Complicated Denominators   Find each sum or difference, and simplify.                                                      Adding and Subtracting with Two Variables   Two Variables   Find each sum or difference, and simplify.             "
 },
@@ -1571,7 +1688,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-adding-and-subtracting-rational-expressions.html#sec-adding-and-subtracting-rational-expressions-2-2",
   "type": "Example",
-  "number": "4.3.1",
+  "number": "4.4.1",
   "title": "Adding Two Fractions.",
   "body": " Adding Two Fractions  For example, to add , we simply add the numerators, because the denominators are the same,   "
 },
@@ -1580,7 +1697,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-adding-and-subtracting-rational-expressions.html#sec-adding-and-subtracting-rational-expressions-2-5",
   "type": "Example",
-  "number": "4.3.2",
+  "number": "4.4.2",
   "title": "Adding Two Fractions with Different Denominators.",
   "body": " Adding Two Fractions with Different Denominators  For example, to add , we have denominators of 9 and 3, so we can make a common denominator of 9, by multiplying by ,   "
 },
@@ -1589,7 +1706,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-adding-and-subtracting-rational-expressions.html#sec-adding-and-subtracting-rational-expressions-2-7",
   "type": "Example",
-  "number": "4.3.3",
+  "number": "4.4.3",
   "title": "Adding Two Fractions with Different Denominators.",
   "body": " Adding Two Fractions with Different Denominators  For example, to add , we have denominators of 5 and 7, so we need a common denominator of (which is ),   "
 },
@@ -1598,7 +1715,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-adding-and-subtracting-rational-expressions.html#sec-adding-and-subtracting-rational-expressions-2-8",
   "type": "Example",
-  "number": "4.3.4",
+  "number": "4.4.4",
   "title": "",
   "body": "   "
 },
@@ -1607,7 +1724,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-adding-and-subtracting-rational-expressions.html#sec-adding-and-subtracting-rational-expressions-2-9",
   "type": "Example",
-  "number": "4.3.5",
+  "number": "4.4.5",
   "title": "",
   "body": "   "
 },
@@ -1616,7 +1733,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-adding-and-subtracting-rational-expressions.html#subsection-adding-rational-expressions-2",
   "type": "Example",
-  "number": "4.3.6",
+  "number": "4.4.6",
   "title": "Adding Rational Expressions with Like Denominators.",
   "body": " Adding Rational Expressions with Like Denominators  To add , add the numerators over the common denominator of ,   "
 },
@@ -1625,7 +1742,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-adding-and-subtracting-rational-expressions.html#subsection-adding-rational-expressions-3",
   "type": "Example",
-  "number": "4.3.7",
+  "number": "4.4.7",
   "title": "Adding Rational Expressions with Like Denominators.",
   "body": " Adding Rational Expressions with Like Denominators  To add , add the numerators together over the common denominator of ,   "
 },
@@ -1634,7 +1751,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-adding-and-subtracting-rational-expressions.html#subsection-adding-rational-expressions-6",
   "type": "Example",
-  "number": "4.3.8",
+  "number": "4.4.8",
   "title": "Adding Rational Expressions and Simplifying.",
   "body": " Adding Rational Expressions and Simplifying  For example,   "
 },
@@ -1643,7 +1760,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-adding-and-subtracting-rational-expressions.html#subsection-add-sub-monomial-denominators-2",
   "type": "Exercise Group",
-  "number": "4.3.1",
+  "number": "4.4.1",
   "title": "Monomial Like Denominators.",
   "body": " Monomial Like Denominators   Find each sum or difference, and simplify.                                                           "
 },
@@ -1652,7 +1769,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-adding-and-subtracting-rational-expressions.html#subsection-add-sub-monomial-denominators-3",
   "type": "Exercise Group",
-  "number": "4.3.2",
+  "number": "4.4.2",
   "title": "Monomial Different Denominators.",
   "body": " Monomial Different Denominators   Find each sum or difference, and simplify.                                                       "
 },
@@ -1661,7 +1778,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-adding-and-subtracting-rational-expressions.html#subsection-add-sub-monomial-denominators-4",
   "type": "Exercise Group",
-  "number": "4.3.3",
+  "number": "4.4.3",
   "title": "Single Variable.",
   "body": " Single Variable   Find each sum or difference, and simplify.                                                           "
 },
@@ -1670,7 +1787,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-adding-and-subtracting-rational-expressions.html#subsection-add-sub-monomial-denominators-5",
   "type": "Exercise Group",
-  "number": "4.3.4",
+  "number": "4.4.4",
   "title": "Multiple Variables.",
   "body": " Multiple Variables   Find each sum or difference, and simplify.                                                       "
 },
@@ -1679,7 +1796,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-adding-and-subtracting-rational-expressions.html#subsection-add-sub-like-denominators-3",
   "type": "Exercise Group",
-  "number": "4.3.5",
+  "number": "4.4.5",
   "title": "Binomial Like Denominators.",
   "body": " Binomial Like Denominators   Find each sum or difference, and simplify.                                                                                   "
 },
@@ -1688,7 +1805,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-adding-and-subtracting-rational-expressions.html#subsection-add-sub-like-denominators-4",
   "type": "Exercise Group",
-  "number": "4.3.6",
+  "number": "4.4.6",
   "title": "Quadratic Denominators.",
   "body": " Quadratic Denominators   Find each sum or difference, and simplify.                                                       "
 },
@@ -1697,7 +1814,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-adding-and-subtracting-rational-expressions.html#subsection-add-sub-polynomials-factoring-2",
   "type": "Exercise Group",
-  "number": "4.3.7",
+  "number": "4.4.7",
   "title": "Binomial Denominators.",
   "body": " Binomial Denominators   Find each sum or difference, and simplify.                                                                               "
 },
@@ -1706,7 +1823,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-adding-and-subtracting-rational-expressions.html#subsection-add-sub-polynomials-factoring-3",
   "type": "Exercise Group",
-  "number": "4.3.8",
+  "number": "4.4.8",
   "title": "Quadratic Denominators and Factoring.",
   "body": " Quadratic Denominators and Factoring   Find each sum or difference, and simplify.                                                                                                                                       "
 },
@@ -1715,7 +1832,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-adding-and-subtracting-rational-expressions.html#subsection-add-sub-polynomials-factoring-4",
   "type": "Exercise Group",
-  "number": "4.3.9",
+  "number": "4.4.9",
   "title": "Polynomial Denominators.",
   "body": " Polynomial Denominators   Find each sum or difference, and simplify.                                                                                                   "
 },
@@ -1724,7 +1841,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-adding-and-subtracting-rational-expressions.html#subsection-add-sub-polynomials-factoring-5",
   "type": "Exercise Group",
-  "number": "4.3.10",
+  "number": "4.4.10",
   "title": "Complicated Denominators.",
   "body": " Complicated Denominators   Find each sum or difference, and simplify.                                                   "
 },
@@ -1733,7 +1850,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-adding-and-subtracting-rational-expressions.html#subsection-add-sub-two-variables-2",
   "type": "Exercise Group",
-  "number": "4.3.11",
+  "number": "4.4.11",
   "title": "Two Variables.",
   "body": " Two Variables   Find each sum or difference, and simplify.           "
 },
@@ -1742,7 +1859,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-mixed-operations.html",
   "type": "Section",
-  "number": "4.4",
+  "number": "4.5",
   "title": "Mixed Operations",
   "body": " Mixed Operations   We can also simplify expressions that have some combinations of addition and subtraction, along with multiplication or division. When doing this, just remember order of operations (BEDMAS). In particular,     Brackets should be done first.    Multiplication and division are next, from left to right.    Addition and subtraction are last, from left to right.      Mixed Operations Practice   Mixed Operations with Rational Expressions   Simplify each expression.                                                                     Mixed Operations with Multiple Variables   Simplify each expression.                     "
 },
@@ -1751,7 +1868,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-mixed-operations.html#mixed-operations-practice-2",
   "type": "Exercise Group",
-  "number": "4.4.1",
+  "number": "4.5.1",
   "title": "Mixed Operations with Rational Expressions.",
   "body": " Mixed Operations with Rational Expressions   Simplify each expression.                                                                   "
 },
@@ -1760,7 +1877,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-mixed-operations.html#mixed-operations-practice-3",
   "type": "Exercise Group",
-  "number": "4.4.2",
+  "number": "4.5.2",
   "title": "Mixed Operations with Multiple Variables.",
   "body": " Mixed Operations with Multiple Variables   Simplify each expression.                   "
 },

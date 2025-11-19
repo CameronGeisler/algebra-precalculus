@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-intro-to-rational-expressions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Intro to Rational Expressions</title>
+  
+  <introduction>
+    <p>Recall that a fraction, or <em>rational number</em>, is a number that can be written by dividing two integers (like <m>\frac{3}{4}</m>, or <m>-\frac{5}{8}</m>). A <em>rational expression</em> is similar, except with variables.</p>
+  </introduction>
+  
+  <subsection xml:id="rational-expressions">
+    <title>Rational Expressions</title>
+    <definition>
+      <statement>
+        <p>A <term>rational expression</term> is an algebraic expression of the form,
+          <md>
+            <mrow>\frac{\text{polynomial}}{\text{polynomial}}</mrow>
+          </md>
+          In other words, it is the quotient of two polynomials.
+        </p>
+        <ul>
+          <li><p>It's also called an <term>algebraic fraction</term>, as opposed to a <q>regular</q> fraction which only involves numbers.</p></li>
+        </ul>
+      </statement>
+    </definition>
+    
+    <example>
+      <title>Identifying Rational Expressions</title>
+      <p>For example, these are all rational expressions,</p>
+      <ul>
+        <li><p><m>\dfrac{3x + 4}{2x^2 - 1}</m></p></li>
+        <li><p><m>\dfrac{x^3 - x - 1}{x^2 + 2x + 5}</m></p></li>
+        <li><p><m>\dfrac{5}{x}</m> (<m>5</m>, being just a constant, is still considered a polynomial)</p></li>
+        <li><p><m>\dfrac{3xy}{x^2 - 6}</m> (polynomials can have multiple different variables)</p></li>
+      </ul>
+      <p>However, these are not rational expressions:</p>
+      <ul>
+        <li><p><m>\dfrac{\sqrt{x} + 1}{x}</m>, because <m>\sqrt{x} + 1</m> is not a polynomial.</p></li>
+        <li><p><m>\dfrac{2^x + 3}{4x - 2}</m>, because <m>2^x + 3</m> is not a polynomial.</p></li>
+      </ul>
+    </example>
+    
+    <example>
+      <title>Polynomials as Rational Expressions</title>
+      <p>All polynomials are technically also considered rational expressions, because any polynomial can be written as itself divided by 1 (and 1 is a polynomial also). For example,
+        <md>
+          <mrow>\underbrace{x^2 + 2x - 3}_{\text{polynomial}} = \underbrace{\frac{x^2 + 2x - 3}{1}}_{\text{rational expression}}</mrow>
+        </md>
+      </p>
+    </example>
+  </subsection>
+  
+  <subsection xml:id="non-permissible-values">
+    <title>Non-Permissible Values</title>
+    <p>A rational expression is not defined if their denominator is 0, because division by zero is undefined. Values of <m>x</m> (or whatever the variable is) that make the denominator 0 are called <em>non-permissible values</em>.</p>
+    
+    <definition>
+      <statement>
+        <p>The <term>non-permissible values</term> (<term>NPV</term>s) of a rational expressions are the values of the variable(s) that make the denominator 0.</p>
+        <ul>
+          <li><p>Also called <term>restrictions</term>, or <term>excluded values</term>.</p></li>
+        </ul>
+      </statement>
+    </definition>
+    
+    <p>To determine the non-permissible values of a rational expression, figure out what values of <m>x</m> will make the denominator 0.</p>
+    
+    <example>
+      <title>Basic Non-Permissible Values</title>
+      <p>Find the non-permissible values of the rational expression,</p>
+      <md>
+        <mrow>\frac{5}{x-3}</mrow>
+      </md>
+      <p>This is when <m>x-3</m> is equal to 0. You may be able to observe that this is when <m>x = 3</m>. Or, you can set <m>x-3</m> equal to 0 and solve for <m>x</m>.
+        <md>
+          <mrow>x-3 \amp= 0</mrow>
+          <mrow>x \amp= 3 \amp\amp \text{adding 3 to both sides}</mrow>
+        </md>
+        Therefore, the NPV is <m>x \neq 3</m>.
+      </p>
+    </example>
+    
+    <p>The purpose of NPVs is to communicate what values of the variable are not allowed to be plugged into the expression.</p>
+    
+    <example>
+      <title>NPVs with Difference of Squares</title>
+      <p>Find the non-permissible values of,</p>
+      <md>
+        <mrow>\frac{x+1}{x^2-4}</mrow>
+      </md>
+      <p>The denominator is <m>x^2-4</m>, so the NPVs are the values that make <m>x^2-4 = 0</m>. To solve this, one way is to factor it as a difference of squares, then set each factor equal to 0 and solve for <m>x</m>.
+        <md>
+          <mrow>x^2 - 4 \amp= 0</mrow>
+          <mrow>(x - 2)(x + 2) \amp= 0 \amp\amp \text{factoring as a difference of squares}</mrow>
+          <mrow>x - 2 = 0 \qquad x + 2 \amp= 0</mrow>
+          <mrow>x = 2 \qquad x \amp= -2</mrow>
+        </md>
+        Therefore, the NPVs are <m>x \neq 2,-2</m>. Alternatively, you could take square roots,
+        <md>
+          <mrow>x^2 - 4 \amp = 0</mrow>
+          <mrow>x^2 \amp = 4</mrow>
+          <mrow>x \amp = \pm 2 \amp\amp \text{taking square roots of both sides}</mrow>
+        </md>
+      </p>
+    </example>
+    
+    <example>
+      <title>No Non-Permissible Values</title>
+      <p>Find the non-permissible values of,</p>
+      <md>
+        <mrow>\frac{2x^2}{x^2+4}</mrow>
+      </md>
+      <p>The denominator is <m>x^2+4</m>, so the NPVs are when,
+        <md>
+          <mrow>x^2 + 4 = 0</mrow>
+        </md>
+        To solve this, you may recognize that the left side <m>x^2+4</m> is always positive, so it is never equal to 0, and so there is no solution. Or, isolate for <m>x</m>,
+        <md>
+          <mrow>x^2 = -4</mrow>
+        </md>
+        Then, there is no number <m>x</m> such that <m>x^2 = -4</m> (in other words, the equation has no solution), so the denominator is never 0. Therefore, there are no NPVs.
+      </p>
+    </example>
+    
+    <example>
+      <title>NPVs with Trinomial Factoring</title>
+      <p>Find the non-permissible values of,</p>
+      <md>
+        <mrow>\frac{x^2-1}{x^2-3x+2}</mrow>
+      </md>
+      <p>The NPVs are when,
+        <md>
+          <mrow>x^2 - 3x + 2 = 0</mrow>
+        </md>
+        We can factor, then set each factor equal to 0 and solve.
+        <md>
+          <mrow>(x - 1)(x - 2) \amp= 0</mrow>
+          <mrow>x - 1 = 0 \qquad x - 2 \amp= 0</mrow>
+          <mrow>x = 1 \qquad x \amp= 2</mrow>
+        </md>
+        Therefore, the NPVs are <m>x \neq 1,2</m>.
+      </p>
+    </example>
+    
+    <example>
+      <title>NPVs with Multiple Variables</title>
+      <p>Find the non-permissible values of,</p>
+      <md>
+        <mrow>\frac{2x+3y}{xy}</mrow>
+      </md>
+      <p>The denominator is <m>xy</m>, so the NPVs are when,
+        <md>
+          <mrow>xy \amp= 0</mrow>
+        </md>
+        This is a product of two variables, so it is equal to 0 precisely when either <m>x = 0</m> or <m>y = 0</m>. Both of these make the denominator 0, so both must be excluded. Therefore, the NPVs are <m>x \neq 0</m> and <m>y \neq 0</m>.
+      </p>
+    </example>
+    
+    <example>
+      <title>NPVs with Common Factors</title>
+      <p>Find the non-permissible values of,</p>
+      <md>
+        <mrow>\frac{1}{x^2 + 3x}</mrow>
+      </md>
+      <p>The NPVs are when,
+        <md>
+          <mrow>x^2 + 3x = 0</mrow>
+        </md>
+        You can factor out a common factor of <m>x</m>, then set each factor equal to 0 and solve for <m>x</m>.
+        <md>
+          <mrow>x(x + 3) \amp= 0</mrow>
+          <mrow>x = 0 \qquad x + 3 \amp= 0</mrow>
+          <mrow>x = 0 \qquad x \amp= -3</mrow>
+        </md>
+        Therefore, the NPVs are <m>x \neq 0,-3</m>.
+      </p>
+    </example>
+    
+    <example>
+      <title>NPVs Using Quadratic Formula</title>
+      <p>Find the non-permissible values of,</p>
+      <md>
+        <mrow>\frac{x+1}{4x^2 - 2x - 3}</mrow>
+      </md>
+      <p>The NPVs are when,
+        <md>
+          <mrow>4x^2 - 2x - 3 = 0</mrow>
+        </md>
+        In fact, this quadratic does not factor, so we must use the quadratic formula.
+        <md>
+          <mrow>x \amp= \frac{-(-2) \pm \sqrt{(-2)^2 - 4(4)(-3)}}{2(4)}</mrow>
+          <mrow>x \amp= \frac{2 \pm \sqrt{4 + 48}}{8}</mrow>
+          <mrow>x \amp= \frac{2 \pm \sqrt{52}}{8}</mrow>
+          <mrow>x \amp= \frac{2 \pm 2\sqrt{13}}{8}</mrow>
+          <mrow>x \amp= \frac{1 \pm \sqrt{13}}{4}</mrow>
+        </md>
+        Therefore, the NPVs are <m>x \neq \frac{1 + \sqrt{13}}{4}, \frac{1 - \sqrt{13}}{4}</m>.
+      </p>
+    </example>
+    
+    
+    <p>In summary, to find non-permissible values, find the zeros of the denominator, by setting it equal to 0 and solving for <m>x</m>.</p>
+    
+    <p>Note: the non-permissible values do not depend on what the numerator is <em>at all</em>, only on what the denominator is.</p>
+    
+    <project>
+      <title>Practice Exercises</title>
+      <introduction>
+        <p>Find all non-permissible values (if any) for each rational expression.</p>
+      </introduction>
+      
+      <task>
+        <statement><m>\dfrac{3}{x}</m></statement>
+        <answer><m>x\neq 0</m></answer>
+      </task>
+      
+      <task>
+        <statement><m>\dfrac{x+2}{x-1}</m></statement>
+        <answer><m>x\neq 1</m></answer>
+      </task>
+      
+      <task>
+        <statement><m>\dfrac{4x^2-12x}{x^2-5x+6}</m></statement>
+        <answer><m>x\neq 2,3</m></answer>
+      </task>
+      
+      <task>
+        <statement><m>\dfrac{x-1}{x^2+1}</m></statement>
+        <answer><p>none</p></answer>
+      </task>
+      
+      <task>
+        <statement><m>\dfrac{x^2-x-6}{x^2-4x}</m></statement>
+        <answer><m>x\neq 0,4</m></answer>
+      </task>
+      
+      <task>
+        <statement><m>\dfrac{4x^2-9}{2x+3}</m></statement>
+        <answer><m>x\neq -\dfrac{3}{2}</m></answer>
+      </task>
+      
+      <task>
+        <statement><m>\dfrac{x^2-x-6}{x^2-4x+4}</m></statement>
+        <answer><m>x\neq 2</m></answer>
+      </task>
+      
+      <task>
+        <statement><m>\dfrac{x^2+4}{x^2-3x+2}</m></statement>
+        <answer><m>x\neq 1,2</m></answer>
+      </task>
+      
+      <task>
+        <statement><m>\dfrac{x^2-5x+6}{9-x^2}</m></statement>
+        <answer><m>x\neq \pm 3</m></answer>
+      </task>
+      
+      <task>
+        <statement><m>\dfrac{3a}{ab}</m></statement>
+        <answer><p><m>a\neq 0</m>, <m>b\neq 0</m></p></answer>
+      </task>
+      
+      <task>
+        <statement><m>\dfrac{3}{x^2+4x+3}</m></statement>
+        <answer><m>x \neq -1, -3</m></answer>
+      </task>
+      
+      <task>
+        <statement><m>\dfrac{x^2+3x-18}{x+6}</m></statement>
+        <answer><m>x\neq -6</m></answer>
+      </task>
+      
+      <task>
+        <statement><m>\dfrac{x^2-4}{x^2+4}</m></statement>
+        <answer><p>none</p></answer>
+      </task>
+      
+      <task>
+        <statement><m>\dfrac{x+2}{x^2-x-6}</m></statement>
+        <answer><m>x\neq 3,-2</m></answer>
+      </task>
+      
+      <task>
+        <statement><m>\dfrac{5x-1}{x^2-4x+1}</m></statement>
+        <hint><p>the quadratic does not factor</p></hint>
+        <answer><m>x \neq 2 \pm \sqrt{3}</m></answer>
+      </task>
+      
+      <task>
+        <statement><m>\dfrac{x^2-4}{x^4-1}</m></statement>
+        <hint><p>difference of squares</p></hint>
+        <answer><m>x\neq -1,1</m></answer>
+      </task>
+    </project>
+  </subsection>
+  
+</section>
