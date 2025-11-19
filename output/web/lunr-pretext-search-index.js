@@ -1738,6 +1738,33 @@ var ptx_lunr_docs = [
   "body": " Two Variables   Find each sum or difference, and simplify.           "
 },
 {
+  "id": "sec-mixed-operations",
+  "level": "1",
+  "url": "sec-mixed-operations.html",
+  "type": "Section",
+  "number": "4.4",
+  "title": "Mixed Operations",
+  "body": " Mixed Operations   We can also simplify expressions that have some combinations of addition and subtraction, along with multiplication or division. When doing this, just remember order of operations (BEDMAS). In particular,     Brackets should be done first.    Multiplication and division are next, from left to right.    Addition and subtraction are last, from left to right.      Mixed Operations Practice   Mixed Operations with Rational Expressions   Simplify each expression.                                                                     Mixed Operations with Multiple Variables   Simplify each expression.                     "
+},
+{
+  "id": "mixed-operations-practice-2",
+  "level": "2",
+  "url": "sec-mixed-operations.html#mixed-operations-practice-2",
+  "type": "Exercise Group",
+  "number": "4.4.1",
+  "title": "Mixed Operations with Rational Expressions.",
+  "body": " Mixed Operations with Rational Expressions   Simplify each expression.                                                                   "
+},
+{
+  "id": "mixed-operations-practice-3",
+  "level": "2",
+  "url": "sec-mixed-operations.html#mixed-operations-practice-3",
+  "type": "Exercise Group",
+  "number": "4.4.2",
+  "title": "Mixed Operations with Multiple Variables.",
+  "body": " Mixed Operations with Multiple Variables   Simplify each expression.                   "
+},
+{
   "id": "sec-oblique-triangles-summary",
   "level": "1",
   "url": "sec-oblique-triangles-summary.html",

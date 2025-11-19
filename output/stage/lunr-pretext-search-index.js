@@ -1558,6 +1558,186 @@ var ptx_lunr_docs = [
   "body": " Factor By Grouping   Multiply or divide, and simplify each expression.       "
 },
 {
+  "id": "sec-adding-and-subtracting-rational-expressions",
+  "level": "1",
+  "url": "sec-adding-and-subtracting-rational-expressions.html",
+  "type": "Section",
+  "number": "4.3",
+  "title": "Adding and Subtracting Rational Expressions",
+  "body": " Adding and Subtracting Rational Expressions   Adding rational expressions is similar to adding (numerical) fractions. Recall that to add fractions, you need to have the denominators be equal, and then you add the numerators.   Adding Two Fractions  For example, to add , we simply add the numerators, because the denominators are the same,    In general, if the denominators are the same (that is, we have a common denominator), then simply add the numerators together over that common denominator. That is,   If the denominators are not equal, then we need to first manipulate the fractions so that they have a common denominator.   Adding Two Fractions with Different Denominators  For example, to add , we have denominators of 9 and 3, so we can make a common denominator of 9, by multiplying by ,    Sometimes, to make a common denominator, you need to manipulate both fractions.   Adding Two Fractions with Different Denominators  For example, to add , we have denominators of 5 and 7, so we need a common denominator of (which is ),              Adding Rational Expressions   Adding Rational Expressions with Like Denominators  To add , add the numerators over the common denominator of ,     Adding Rational Expressions with Like Denominators  To add , add the numerators together over the common denominator of ,    To add two rational expressions with like denominators, add their numerators and keep the same denominator. That is, if are polynomials, then, with the restriction that cannot be equal to 0.  Sometimes, after adding, the result can be further simplified by cancelling common factors.   Adding Rational Expressions and Simplifying  For example,      Summary of Adding or Subtracting Rational Expressions    Factor the denominators completely.    Create a common denominator, by manipulating each fraction.    After you have a common denominator, add or subtract the numerators, and keep that common denominator.    Simplify if needed, by collecting like terms, and factor and cancel if possible.    Note: . For example, .    Adding and Subtracting with Monomial Denominators   Monomial Like Denominators   Find each sum or difference, and simplify.                                                             Monomial Different Denominators   Find each sum or difference, and simplify.                                                         Single Variable   Find each sum or difference, and simplify.                                                             Multiple Variables   Find each sum or difference, and simplify.                                                          Adding and Subtracting with Like Denominators  You should think of each binomial as a single factor.   Binomial Like Denominators   Find each sum or difference, and simplify.                                                                                     Quadratic Denominators   Find each sum or difference, and simplify.                                                          Adding and Subtracting with Polynomials (Factoring)   Binomial Denominators   Find each sum or difference, and simplify.                                                                                 Quadratic Denominators and Factoring   Find each sum or difference, and simplify.                                                                                                                                         Polynomial Denominators   Find each sum or difference, and simplify.                                                                                                     Complicated Denominators   Find each sum or difference, and simplify.                                                      Adding and Subtracting with Two Variables   Two Variables   Find each sum or difference, and simplify.             "
+},
+{
+  "id": "sec-adding-and-subtracting-rational-expressions-2-2",
+  "level": "2",
+  "url": "sec-adding-and-subtracting-rational-expressions.html#sec-adding-and-subtracting-rational-expressions-2-2",
+  "type": "Example",
+  "number": "4.3.1",
+  "title": "Adding Two Fractions.",
+  "body": " Adding Two Fractions  For example, to add , we simply add the numerators, because the denominators are the same,   "
+},
+{
+  "id": "sec-adding-and-subtracting-rational-expressions-2-5",
+  "level": "2",
+  "url": "sec-adding-and-subtracting-rational-expressions.html#sec-adding-and-subtracting-rational-expressions-2-5",
+  "type": "Example",
+  "number": "4.3.2",
+  "title": "Adding Two Fractions with Different Denominators.",
+  "body": " Adding Two Fractions with Different Denominators  For example, to add , we have denominators of 9 and 3, so we can make a common denominator of 9, by multiplying by ,   "
+},
+{
+  "id": "sec-adding-and-subtracting-rational-expressions-2-7",
+  "level": "2",
+  "url": "sec-adding-and-subtracting-rational-expressions.html#sec-adding-and-subtracting-rational-expressions-2-7",
+  "type": "Example",
+  "number": "4.3.3",
+  "title": "Adding Two Fractions with Different Denominators.",
+  "body": " Adding Two Fractions with Different Denominators  For example, to add , we have denominators of 5 and 7, so we need a common denominator of (which is ),   "
+},
+{
+  "id": "sec-adding-and-subtracting-rational-expressions-2-8",
+  "level": "2",
+  "url": "sec-adding-and-subtracting-rational-expressions.html#sec-adding-and-subtracting-rational-expressions-2-8",
+  "type": "Example",
+  "number": "4.3.4",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "sec-adding-and-subtracting-rational-expressions-2-9",
+  "level": "2",
+  "url": "sec-adding-and-subtracting-rational-expressions.html#sec-adding-and-subtracting-rational-expressions-2-9",
+  "type": "Example",
+  "number": "4.3.5",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "subsection-adding-rational-expressions-2",
+  "level": "2",
+  "url": "sec-adding-and-subtracting-rational-expressions.html#subsection-adding-rational-expressions-2",
+  "type": "Example",
+  "number": "4.3.6",
+  "title": "Adding Rational Expressions with Like Denominators.",
+  "body": " Adding Rational Expressions with Like Denominators  To add , add the numerators over the common denominator of ,   "
+},
+{
+  "id": "subsection-adding-rational-expressions-3",
+  "level": "2",
+  "url": "sec-adding-and-subtracting-rational-expressions.html#subsection-adding-rational-expressions-3",
+  "type": "Example",
+  "number": "4.3.7",
+  "title": "Adding Rational Expressions with Like Denominators.",
+  "body": " Adding Rational Expressions with Like Denominators  To add , add the numerators together over the common denominator of ,   "
+},
+{
+  "id": "subsection-adding-rational-expressions-6",
+  "level": "2",
+  "url": "sec-adding-and-subtracting-rational-expressions.html#subsection-adding-rational-expressions-6",
+  "type": "Example",
+  "number": "4.3.8",
+  "title": "Adding Rational Expressions and Simplifying.",
+  "body": " Adding Rational Expressions and Simplifying  For example,   "
+},
+{
+  "id": "subsection-add-sub-monomial-denominators-2",
+  "level": "2",
+  "url": "sec-adding-and-subtracting-rational-expressions.html#subsection-add-sub-monomial-denominators-2",
+  "type": "Exercise Group",
+  "number": "4.3.1",
+  "title": "Monomial Like Denominators.",
+  "body": " Monomial Like Denominators   Find each sum or difference, and simplify.                                                           "
+},
+{
+  "id": "subsection-add-sub-monomial-denominators-3",
+  "level": "2",
+  "url": "sec-adding-and-subtracting-rational-expressions.html#subsection-add-sub-monomial-denominators-3",
+  "type": "Exercise Group",
+  "number": "4.3.2",
+  "title": "Monomial Different Denominators.",
+  "body": " Monomial Different Denominators   Find each sum or difference, and simplify.                                                       "
+},
+{
+  "id": "subsection-add-sub-monomial-denominators-4",
+  "level": "2",
+  "url": "sec-adding-and-subtracting-rational-expressions.html#subsection-add-sub-monomial-denominators-4",
+  "type": "Exercise Group",
+  "number": "4.3.3",
+  "title": "Single Variable.",
+  "body": " Single Variable   Find each sum or difference, and simplify.                                                           "
+},
+{
+  "id": "subsection-add-sub-monomial-denominators-5",
+  "level": "2",
+  "url": "sec-adding-and-subtracting-rational-expressions.html#subsection-add-sub-monomial-denominators-5",
+  "type": "Exercise Group",
+  "number": "4.3.4",
+  "title": "Multiple Variables.",
+  "body": " Multiple Variables   Find each sum or difference, and simplify.                                                       "
+},
+{
+  "id": "subsection-add-sub-like-denominators-3",
+  "level": "2",
+  "url": "sec-adding-and-subtracting-rational-expressions.html#subsection-add-sub-like-denominators-3",
+  "type": "Exercise Group",
+  "number": "4.3.5",
+  "title": "Binomial Like Denominators.",
+  "body": " Binomial Like Denominators   Find each sum or difference, and simplify.                                                                                   "
+},
+{
+  "id": "subsection-add-sub-like-denominators-4",
+  "level": "2",
+  "url": "sec-adding-and-subtracting-rational-expressions.html#subsection-add-sub-like-denominators-4",
+  "type": "Exercise Group",
+  "number": "4.3.6",
+  "title": "Quadratic Denominators.",
+  "body": " Quadratic Denominators   Find each sum or difference, and simplify.                                                       "
+},
+{
+  "id": "subsection-add-sub-polynomials-factoring-2",
+  "level": "2",
+  "url": "sec-adding-and-subtracting-rational-expressions.html#subsection-add-sub-polynomials-factoring-2",
+  "type": "Exercise Group",
+  "number": "4.3.7",
+  "title": "Binomial Denominators.",
+  "body": " Binomial Denominators   Find each sum or difference, and simplify.                                                                               "
+},
+{
+  "id": "subsection-add-sub-polynomials-factoring-3",
+  "level": "2",
+  "url": "sec-adding-and-subtracting-rational-expressions.html#subsection-add-sub-polynomials-factoring-3",
+  "type": "Exercise Group",
+  "number": "4.3.8",
+  "title": "Quadratic Denominators and Factoring.",
+  "body": " Quadratic Denominators and Factoring   Find each sum or difference, and simplify.                                                                                                                                       "
+},
+{
+  "id": "subsection-add-sub-polynomials-factoring-4",
+  "level": "2",
+  "url": "sec-adding-and-subtracting-rational-expressions.html#subsection-add-sub-polynomials-factoring-4",
+  "type": "Exercise Group",
+  "number": "4.3.9",
+  "title": "Polynomial Denominators.",
+  "body": " Polynomial Denominators   Find each sum or difference, and simplify.                                                                                                   "
+},
+{
+  "id": "subsection-add-sub-polynomials-factoring-5",
+  "level": "2",
+  "url": "sec-adding-and-subtracting-rational-expressions.html#subsection-add-sub-polynomials-factoring-5",
+  "type": "Exercise Group",
+  "number": "4.3.10",
+  "title": "Complicated Denominators.",
+  "body": " Complicated Denominators   Find each sum or difference, and simplify.                                                   "
+},
+{
+  "id": "subsection-add-sub-two-variables-2",
+  "level": "2",
+  "url": "sec-adding-and-subtracting-rational-expressions.html#subsection-add-sub-two-variables-2",
+  "type": "Exercise Group",
+  "number": "4.3.11",
+  "title": "Two Variables.",
+  "body": " Two Variables   Find each sum or difference, and simplify.           "
+},
+{
   "id": "sec-oblique-triangles-summary",
   "level": "1",
   "url": "sec-oblique-triangles-summary.html",

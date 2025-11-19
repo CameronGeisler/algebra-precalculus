@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-mixed-operations" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Mixed Operations</title>
+  
+  <introduction>
+    <p>
+      We can also simplify expressions that have some combinations of addition and subtraction, along with multiplication or division. When doing this, just remember order of operations (BEDMAS). In particular,
+    </p>
+    <ul>
+      <li>
+        <p>
+          <em>Brackets</em> should be done first.
+        </p>
+      </li>
+      <li>
+        <p>
+          Multiplication and division are next, from left to right.
+        </p>
+      </li>
+      <li>
+        <p>
+          Addition and subtraction are last, from left to right.
+        </p>
+      </li>
+    </ul>
+  </introduction>
+  
+  <subsection xml:id="mixed-operations-practice">
+    <title>Mixed Operations Practice</title>
+    <project>
+      <title>Mixed Operations with Rational Expressions</title>
+      <introduction>
+        <p>
+          Simplify each expression.
+        </p>
+      </introduction>
+      <task>
+        <statement><m>\dfrac{x^2-2x+1}{x^2+3x+2} \div \dfrac{x^2-1}{x^2-4} + \dfrac{x-2}{x+1}</m></statement>
+        <answer><m>\dfrac{2x(x-2)}{(x+1)^2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x^2-1}{x-2} \cdot \dfrac{2}{x+1} - \dfrac{1}{x+2}</m></statement>
+        <answer><m>\dfrac{2x^2+x-2}{(x-2)(x+2)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{9x-12}{x^2-16} - \dfrac{x+3}{5x^2+15x} \cdot \dfrac{15x^2}{x^2-4x}</m></statement>
+        <answer><m>\dfrac{6}{x+4}</m></answer>
+      </task>
+      <task>
+        <statement><m>\left(\dfrac{x+3}{x+2}+\dfrac{6}{x-8}\right)\div\dfrac{2x^2+9x+4}{2x^2+5x+2}</m></statement>
+        <answer><m>\dfrac{x-3}{x-8}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x+1}{2x-6}\div\dfrac{2(x+1)^2}{2-x}+\dfrac{11}{x-2}</m></statement>
+        <answer><m>\dfrac{43x^2-84x-136}{4(x-3)(x+1)(x-2)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x+1}{x^2+2x-35} + \dfrac{x^2+x-12}{x^2-2x-24} \cdot \dfrac{x^2-4x-12}{x^2+2x-15}</m></statement>
+        <answer><m>\dfrac{x^3+5x^2-25x-65}{(x+7)(x-5)(x+5)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\left(\dfrac{x-7}{x^2-16} - \dfrac{x-1}{16-x^2}\right) \left(\dfrac{x^2-16}{2}\right)</m></statement>
+        <answer><m>x-4</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x+5}{x+6}+\dfrac{1}{x+4}\div\dfrac{x+6}{x^2-x-20}</m></statement>
+        <answer><m>\dfrac{2x}{x+6}</m></answer>
+      </task>
+      <task>
+        <statement><m>\left(\dfrac{x-3}{x^2-9}+\dfrac{x+3}{x^2+6x+9}\right)\dfrac{x+3}{x+1}</m></statement>
+        <answer><m>\dfrac{2}{x+1}</m></answer>
+      </task>
+      <task>
+        <statement><m>\left(\dfrac{x+3}{x-5}+\dfrac{x-2}{x+4}\right)(x^2-x-20)</m></statement>
+        <answer><m>2x^2+22</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{5}{x}-\dfrac{3}{x^3}\div\dfrac{2}{x}</m></statement>
+        <answer><m>\dfrac{10x-3}{2x^2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{4}{2x^3}-\dfrac{5x+10}{x^8}\div\dfrac{x+2}{x^3}</m></statement>
+        <answer><m>\dfrac{2x^2-5}{x^5}</m></answer>
+      </task>
+      <task>
+        <statement><m>\left(\dfrac{x}{x^2-16}-\dfrac{2}{3x+12}\right)\left(\dfrac{x-4}{6}\right)</m></statement>
+        <answer><m>\dfrac{x+8}{18(x+4)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x^3}{3}-\dfrac{2x^2+xy}{xy}\cdot\dfrac{y}{10x+5y}</m></statement>
+        <answer><m>\dfrac{5x^3-3}{15}</m></answer>
+      </task>
+      <task>
+        <statement><m>\left(\dfrac{x+6}{x+2}-\dfrac{4}{x}\right)\div\dfrac{x^2-16}{x^2-4}</m></statement>
+        <answer><m>\dfrac{(x-2)^2}{x(x-4)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2x^2}{x-1}-\dfrac{2x^2-7x+3}{x-3}\cdot\dfrac{x+2}{x-1}</m></statement>
+        <answer><m>\dfrac{2-3x}{x-1}</m></answer>
+      </task>
+    </project>
+    
+    <project>
+      <title>Mixed Operations with Multiple Variables</title>
+      <introduction>
+        <p>
+          Simplify each expression.
+        </p>
+      </introduction>
+      <task>
+        <statement><m>\dfrac{2}{x} + \dfrac{x^2-y^2}{4x+4y}\cdot\dfrac{12x^2}{3y-3x}</m></statement>
+        <answer><m>\dfrac{2-x^3}{x}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2x^3}{3y^2}\cdot\dfrac{9y}{10x}-\dfrac{2y}{3x}</m></statement>
+        <answer><m>\dfrac{9x^3-10y^2}{15xy}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{5m-n}{2m+n}-\dfrac{4m^2-4mn+n^2}{4m^2-n^2}\div\dfrac{6m^2-mn-n^2}{3m+15n}</m></statement>
+        <answer><m>\dfrac{15m^2+2mn-n^2-3m-15n}{(2m+n)(3m+n)}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2}{b^2}+\dfrac{6ab}{4ab+4b^2}\div\dfrac{7a-7b}{a^2-b^2}</m></statement>
+        <answer><m>\dfrac{3ab^2+28}{14b^2}</m></answer>
+      </task>
+    </project>
+  </subsection>
+  
+</section>
