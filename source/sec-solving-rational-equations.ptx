@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-solving-rational-equations" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Solving Rational Equations</title>
+  
+  <!-- <introduction>
+  <p>
+  This is the introduction to the section.
+  </p>
+  </introduction> -->
+  
+  <subsection xml:id="examples-rational-equations">
+    <title>Examples</title>
+    
+    <project>
+      <title>Variable in the Denominator</title>
+      <introduction>
+        <p>Solve each equation.</p>
+      </introduction>
+      <task>
+        <statement><m>\dfrac{2}{x}+\dfrac{5}{3}=\dfrac{7}{x}</m></statement>
+        <answer><m>x=3</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{4}{x}+6=2</m></statement>
+        <answer><m>x=-1</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x-2}{x}=\dfrac{2-x}{x+1}</m></statement>
+        <answer><m>x=2,-\dfrac{1}{2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{6}{x}+\dfrac{x}{2}=4</m></statement>
+        <answer><m>x=2,6</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2x}{5}=\dfrac{x^2-5x}{5x}</m></statement>
+        <answer><p><m>x=-5</m> (reject <m>x = 0</m>)</p></answer>
+      </task>
+      <task>
+        <statement><m>3-\dfrac{6}{x}=x+8</m></statement>
+        <answer><p><m>x=-3</m> or <m>x=-2</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{1}{2x} - \dfrac{3}{8} = 1 - \dfrac{2}{x}</m></statement>
+        <answer><m>x = \dfrac{20}{11}</m></answer>
+      </task>
+      <task>
+        <statement><m>2x=\dfrac{3}{x}-\dfrac{5}{2}</m></statement>
+        <answer><m>x=-2,\dfrac{3}{4}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{5}{3x}-\dfrac{1}{9}=\dfrac{4}{x}</m></statement>
+        <answer><m>x=-21</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{1}{2x}+\dfrac{4}{x}=\dfrac{9}{2x}</m></statement>
+        <answer><p>all real <m>x</m> with <m>x\neq 0</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x-1}{x}-\dfrac{x+2}{x^2}=\dfrac{x+1}{3x}</m></statement>
+        <answer><m>x=\dfrac{7 \pm \sqrt{97}}{4}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x}{4}-\dfrac{7}{x}=3</m></statement>
+        <answer><m>x=-2,14</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{3-x}{3x}+\dfrac{1}{4}=\dfrac{1}{2x}</m></statement>
+        <answer><m>x=6</m></answer>
+      </task>
+    </project>
+    
+    <project>
+      <title>Binomial Denominators</title>
+      <introduction>
+        <p>Solve each equation.</p>
+      </introduction>
+      <task>
+        <statement><m>x = \dfrac{8}{x - 7}</m></statement>
+        <answer><m>x = 8, -1</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x+3}{x-1}=2</m></statement>
+        <answer><m>x=5</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x+3}{x-1}=2x+1</m></statement>
+        <answer><m>x=-1, 2</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x^2}{x+4} = 2</m></statement>
+        <answer><m>x = 4, -2</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2x+28}{x+4}+3x = 9</m></statement>
+        <answer><m>x = 1, -\dfrac{8}{3}</m></answer>
+      </task>
+      <task>
+        <statement><m>x+\dfrac{x}{x-2}=0</m></statement>
+        <answer><m>x=0, 1</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{10}{x+3}+\dfrac{10}{3}=6</m></statement>
+        <answer><m>x=\dfrac{3}{4}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x+3}{x-1}=0</m></statement>
+        <answer><m>x=-3</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2x}{x-3}=1-\dfrac{6}{x-3}</m></statement>
+        <answer><m>x=-9</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2}{x+1}+\dfrac{1}{x+1}=3</m></statement>
+        <answer><m>x=0</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x}{x-2}=\dfrac{2}{x-2}+2</m></statement>
+        <answer><p>no solution (reject <m>x = 2</m>)</p></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2}{2x+1}=\dfrac{5}{4-x}</m></statement>
+        <answer><m>x=\dfrac{1}{4}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{5}{x-2}=\dfrac{4}{x+3}</m></statement>
+        <answer><m>x=-23</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{6}{x + 1} + \dfrac{5}{x - 1} = 1</m></statement>
+        <answer><m>x = 11, 0</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x-2}{x-3}=0</m></statement>
+        <answer><m>x=2</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x+3}{x-4}=\dfrac{x-1}{x+2}</m></statement>
+        <answer><m>x=-\dfrac{1}{5}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{3}{3x+2}=\dfrac{6}{5x}</m></statement>
+        <answer><m>x=-4</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2x}{2x+1}=\dfrac{5}{4-x}</m></statement>
+        <answer><p>no solution</p></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{3}{x}+\dfrac{4}{x+1}=2</m></statement>
+        <answer><m>x=-\dfrac{1}{2}, 3</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{4x+1}{x+4}+\dfrac{3x-1}{x+1} = 2</m></statement>
+        <answer><m>x = 1, -\dfrac{11}{5}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{3x}{4x+1}-1 = \dfrac{x}{2x-1}</m></statement>
+        <answer><m>x = \dfrac{-1 \pm \sqrt{7}}{6}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{3x}{x-3}+2 = \dfrac{3x-1}{x+3}</m></statement>
+        <answer><m>x = -\dfrac{21}{2}, 1</m></answer>
+      </task>
+      <task>
+        <statement><m>1-\dfrac{x}{x+3}=\dfrac{3}{2x-5}</m></statement>
+        <answer><m>x=8</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x+2}{2x+1}-\dfrac{x}{3}=\dfrac{3}{4x+2}</m></statement>
+        <answer><p><m>x=\dfrac{3}{2}</m> (reject <m>x = -\dfrac{1}{2}</m>)</p></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2}{x-2} = \dfrac{x + 2}{x}</m></statement>
+        <answer><m>x = 1 \pm \sqrt{5}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x}{3x+18} = \dfrac{1}{x}</m></statement>
+        <answer><m>x=6,-3</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x}{x+2} = \dfrac{9}{x+9}</m></statement>
+        <answer><m>x = \pm 3\sqrt{2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x}{3x-9} = \dfrac{1}{x-3}</m></statement>
+        <answer><p>no solution (reject <m>x = 3</m>)</p></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{1}{x+2}+\dfrac{24}{x+3}=13</m></statement>
+        <answer><m>x=-\dfrac{27}{13}, -1</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{-2}{x-1}=\dfrac{x-8}{x+1}</m></statement>
+        <answer><m>x=2, 5</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2}{x+2}=\dfrac{3}{x+6}</m></statement>
+        <answer><m>x=6</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2x-5}{x+10}=\dfrac{1}{x-6}</m></statement>
+        <answer><m>x=\dfrac{9 \pm \sqrt{41}}{2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2x}{x-4}=\dfrac{8}{x-4}+1</m></statement>
+        <answer><p>no solution (reject <m>x = 4</m>)</p></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{1}{x-3}=\dfrac{x+2}{7x+14}</m></statement>
+        <answer><m>x=10</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{1}{x}-\dfrac{1}{45}=\dfrac{1}{2x-3}</m></statement>
+        <answer><m>x=\dfrac{24 \pm 3\sqrt{34}}{2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2x+3}{3x-1}=\dfrac{x+2}{4}</m></statement>
+        <answer><m>x = \dfrac{3 \pm \sqrt{177}}{6}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{1}{x}=\dfrac{2}{x}+1+\dfrac{1}{1-x}</m></statement>
+        <answer><m>x=\dfrac{1 \pm \sqrt{5}}{2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x+1}{x-2}=\dfrac{x+3}{x-4}</m></statement>
+        <answer><m>x=\dfrac{1}{2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{3}{x}-\dfrac{2}{x-1}=-\dfrac{1}{x}</m></statement>
+        <answer><m>x=2</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x}{x+3}=\dfrac{8}{x+6}</m></statement>
+        <answer><m>x=-4, 6</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2}{x}=\dfrac{x+3}{5}</m></statement>
+        <answer><m>x=-5, 2</m></answer>
+      </task>
+      <task>
+        <statement><m>-1=x-\dfrac{15}{x+3}</m></statement>
+        <answer><m>x=-6, 2</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2x+3}{x+5}+\dfrac{1}{2}=\dfrac{7}{2x+10}</m></statement>
+        <answer><m>x=-\dfrac{4}{5}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{26}{x+5}=1+\dfrac{3}{x-2}</m></statement>
+        <answer><m>x=10\pm\sqrt{43} \approx 3.44,16.56</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{4}{2x-1}=\dfrac{2}{x+3}</m></statement>
+        <answer><p>no solution</p></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{7}{x+3}=\dfrac{5}{x-9}</m></statement>
+        <answer><m>x=39</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x}{x+3}-2=\dfrac{-3}{x+3}</m></statement>
+        <answer><p>no solution (reject <m>x = -3</m>)</p></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{3}{x-1}+\dfrac{1}{2x-2}=\dfrac{7}{4}</m></statement>
+        <answer><m>x=3</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x}{2x+2}+\dfrac{2x}{4x+4}=\dfrac{2x-3}{x+1}</m></statement>
+        <answer><m>x=3</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x^2+3}{x-1}=\dfrac{4}{x-1}</m></statement>
+        <answer><p><m>x=-1</m> (reject <m>x=1</m>)</p></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x}{2x+2}+\dfrac{2x-16}{4x+4}=\dfrac{2x-3}{x+1}</m></statement>
+        <answer><p>no solution (reject <m>x=-1</m>)</p></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{5}{4x-2}-\dfrac{1}{1-2x}=\dfrac{7}{3x+6}</m></statement>
+        <answer><m>x=8</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2}{x}-\dfrac{x}{5x-12}=0</m></statement>
+        <answer><m>x=4, 6</m></answer>
+      </task>
+    </project>
+      
+    <project>
+      <title>Quadratic Denominator with Factoring</title>
+      <introduction>
+        <p>Solve each equation.</p>
+      </introduction>
+      <task>
+        <statement><m>\dfrac{6}{x-3}=\dfrac{x+3}{x^2-9}-5</m></statement>
+        <answer><p><m>x=2</m> (reject <m>x=-3</m>)</p></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x}{x+4}-\dfrac{2-x}{x^2+3x-4}=\dfrac{1}{x-1}</m></statement>
+        <answer><m>x=-2, 3</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x^2+x+2}{x+1}-x=\dfrac{x^2-5}{x^2-1}</m></statement>
+        <answer><p><m>x=3</m> (reject <m>x=-1</m>)</p></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{9}{x^2+x-2} + \dfrac{1}{x^2-x} = \dfrac{4}{x-1}</m></statement>
+        <answer><p><m>x = -\dfrac{1}{2}</m> (reject <m>x = 1</m>)</p></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2x}{x^2-1}=\dfrac{2}{x+1}+\dfrac{1}{1-x}</m></statement>
+        <answer><m>x=-3</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2x+3}{x-1}-\dfrac{2}{x+3}=\dfrac{5-6x}{x^2+2x-3}</m></statement>
+        <answer><m>x=-6,-\dfrac{1}{2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{3-2x}{x+1}-\dfrac{10}{x^2-1}=\dfrac{2x+3}{1-x}</m></statement>
+        <answer><p>no solution (reject <m>x=1</m>)</p></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x+1}{x+3}+\dfrac{x-3}{x-2}=\dfrac{x^2-11x}{x^2+x-6}</m></statement>
+        <answer><m>x=-11,1</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{3}{x+2} + \dfrac{5}{x-3} = \dfrac{3x}{x^2-x-6}</m></statement>
+        <answer><m>x = -\dfrac{1}{5}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x}{x+2}-3=\dfrac{-6}{x^2-4}</m></statement>
+        <answer><m>x=\dfrac{-1\pm\sqrt{37}}{2} \approx 2.54,-3.54</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x}{x+5} - \dfrac{2}{x-9} = \dfrac{-11x+15}{x^2 - 4x - 45}</m></statement>
+        <answer><p><m>x = 5</m> (reject <m>x = -5</m>)</p></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x}{x-2} + \dfrac{x}{x^2 - 4} = \dfrac{x+3}{x+2}</m></statement>
+        <answer><m>x = -3</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{3}{x-3}+\dfrac{5}{x+2}=\dfrac{5x}{x^2-x-6}</m></statement>
+        <answer><p>no solution (reject <m>x=3</m>)</p></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x}{x-3}-\dfrac{6}{x+1}=\dfrac{12}{x^2-2x-3}</m></statement>
+        <answer><p><m>x=2</m> (reject <m>x=3</m>)</p></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x+2}{x+3}+\dfrac{3}{x^2+3x}=\dfrac{1}{x}</m></statement>
+        <answer><p><m>x=-1</m> (reject <m>x=0</m>)</p></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x-5}{2x+10}+\dfrac{8}{25-x^2}=\dfrac{x}{x-5}</m></statement>
+        <answer><m>x = -10 \pm \sqrt{109} \approx -20.44,0.44</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{4x-1}{x+2}-\dfrac{x+1}{x-2}=\dfrac{x^2-4x+24}{x^2-4}</m></statement>
+        <answer><p><m>x=6</m> (reject <m>x=-2</m>)</p></answer>
+      </task>
+      <task>
+        <statement><m>4+\dfrac{2x-1}{x^2-x}=\dfrac{x}{x-1}</m></statement>
+        <answer><p><m>x=-\dfrac{1}{3}</m> (reject <m>x=1</m>)</p></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x}{x-2}=\dfrac{8}{x^2-4}</m></statement>
+        <answer><p><m>x=-4</m> (reject <m>x=2</m>)</p></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{9}{x-3}-\dfrac{4}{x-6}=\dfrac{18}{x^2-9x+18}</m></statement>
+        <answer><m>x=12</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x}{x^2+x-2}+\dfrac{x}{x^2-1}=\dfrac{x}{x^2+3x+2}</m></statement>
+        <answer><m>x=-4,0</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{4x}{x^2-9} - \dfrac{5}{x+3}=2</m></statement>
+        <answer><m>x = \dfrac{-1 \pm \sqrt{265}}{4}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x+5}{2x+4}=\dfrac{x}{x-3}-\dfrac{2x+9}{x^2-x-6}</m></statement>
+        <answer><p><m>x=-1</m> (reject <m>x=3</m>)</p></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2}{x^2-4}+\dfrac{10}{6x+12}=\dfrac{1}{x-2}</m></statement>
+        <answer><m>x=5</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{3x}{x+2}-\dfrac{5}{x-3}=\dfrac{-25}{x^2-x-6}</m></statement>
+        <answer><p><m>x=\dfrac{5}{3}</m> (reject <m>x=3</m>)</p></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{1}{x-4}-\dfrac{1}{x-2}=\dfrac{2x}{x^2-6x+8}</m></statement>
+        <answer><m>x=1</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{3x}{x+2}-\dfrac{9}{x-3}=-\dfrac{25}{x^2-x-6}</m></statement>
+        <answer><m>x=\dfrac{9 \pm 2\sqrt{15}}{3}</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x}{x-5}-\dfrac{3}{x+1}=\dfrac{30}{x^2-4x-5}</m></statement>
+        <answer><p><m>x=-3</m> (reject <m>x=5</m>)</p></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{5}{x-7}-\dfrac{1}{2x}=\dfrac{9x+7}{2x^2-14x}</m></statement>
+        <answer><p>all real numbers <m>x</m>, with <m>x \neq 0,7</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{2}{x+5}+\dfrac{20}{x^2-25}=\dfrac{-3}{5-x}</m></statement>
+        <answer><p>no solution (reject <m>x=-5</m>)</p></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{1}{(x-1)^2}-3=\dfrac{2}{1-x}</m></statement>
+        <answer><m>x=\dfrac{2}{3},2</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{x^2}{x^2-x-2}=\dfrac{2x}{x^2+x-6}</m></statement>
+        <answer><m>x=-2,0,1</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{3}{x^2+x-2}-\dfrac{1}{x^2-1}=\dfrac{7}{2(x^2+3x+2)}</m></statement>
+        <answer><m>x=3</m></answer>
+      </task>
+    </project>
+  </subsection>
+  
+  <subsection xml:id="subsection-advanced-examples">
+    <title>Advanced Examples</title>
+    <project>
+      <title>Advanced Exercises</title>
+      <introduction>
+        <p>Solve each equation.</p>
+      </introduction>
+      <task>
+        <statement><m>\dfrac{x}{x-3}+\dfrac{1}{x-2}-\dfrac{1}{x+2}=\dfrac{x-12}{x^3-3x^2-4x+12}</m></statement>
+        <answer><m>x=-1,0,1</m></answer>
+      </task>
+      <task>
+        <statement><m>\dfrac{3x-7}{x^2-5x+6}+\dfrac{2x+8}{9-x^2}-\dfrac{x+2}{x^2+x-6}=0</m></statement>
+        <answer><m>x=1</m></answer>
+      </task>
+    </project>
+  </subsection>
+  
+</section>

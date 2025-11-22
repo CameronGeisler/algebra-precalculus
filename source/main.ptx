@@ -11,7 +11,8 @@
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />
 
-    <!-- Include chapters -->'
+    <!-- Include chapters -->
+    <xi:include href="./ch-algebra-review.ptx" />
     <xi:include href="./ch-radical-expressions.ptx" />
     <xi:include href="./ch-quadratic-functions-and-equations.ptx" />'
     <xi:include href="./ch-quadratic-systems.ptx" />

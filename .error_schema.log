@@ -1,5 +1,5 @@
-file:/C:/Users/CKG/Documents/pretext_math/algebra-precalculus/source/main.ptx:6:0:ERROR:RELAXNGV:RELAXNG_ERR_NOELEM: Expecting an element biography, got nothing
-file:/C:/Users/CKG/Documents/pretext_math/algebra-precalculus/source/main.ptx:6:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element frontmatter there
-file:/C:/Users/CKG/Documents/pretext_math/algebra-precalculus/source/main.ptx:7:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element book failed to validate content
-file:/C:/Users/CKG/Documents/pretext_math/algebra-precalculus/source/main.ptx:3:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element docinfo, got pretext
-file:/C:/Users/CKG/Documents/pretext_math/algebra-precalculus/source/main.ptx:3:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element pretext there
+file:/C:/Users/CKG/Documents/pretext_math/algebra-precalculus/source/main.ptx:3:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element idx, got section
+file:/C:/Users/CKG/Documents/pretext_math/algebra-precalculus/source/main.ptx:3:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element section there
+file:/C:/Users/CKG/Documents/pretext_math/algebra-precalculus/source/main.ptx:3:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element sidebyside, got section
+file:/C:/Users/CKG/Documents/pretext_math/algebra-precalculus/source/main.ptx:3:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element proof, got section
+file:/C:/Users/CKG/Documents/pretext_math/algebra-precalculus/source/main.ptx:3:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element exercise, got section
