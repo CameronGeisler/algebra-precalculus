@@ -1906,7 +1906,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.6",
   "title": "Solving Rational Equations",
-  "body": " Solving Rational Equations    Examples   Variable in the Denominator   Solve each equation.                     (reject )     or                 all real with                 Binomial Denominators   Solve each equation.                                             no solution (reject )                             no solution                         (reject )                 no solution (reject )                     no solution (reject )                                                 no solution         no solution (reject )             (reject )     no solution (reject )             Quadratic Denominator with Factoring   Solve each equation.     (reject )         (reject )     (reject )             no solution (reject )                 (reject )         no solution (reject )     (reject )     (reject )         (reject )     (reject )     (reject )                 (reject )         (reject )             (reject )     all real numbers , with     no solution (reject )                  Advanced Examples   Advanced Exercises   Solve each equation.             "
+  "body": " Solving Rational Equations    Examples   Equations With in the Denominator   Solve each equation.       (reject )      all real with       Equations With Linear Expressions in the Denominator   Solve each equation.                      Equations With Linear Denominators 2   Solve each equation.        no solution  (reject )    no solution (reject )      no solution        Equations With Linear Denominators 3   Solve each equation.     no solution (reject )     (reject )    no solution (reject )   no solution (reject )     no solution (reject )    Most of the time, the quadratic will factor into the other linear factors already in the equation. This isn't true every single time, but you can use it to make educated guesses.   Equations With Quadratic Denominators 1   Solve each equation.    (reject )   (reject )  (reject )  (reject )  (reject )   (reject )    (reject )   (reject )  (reject )     Equations With Quadratic Denominators 2   Solve each equation.    no solution (reject )   no solution (reject )  (reject )      (reject )    (reject )  all real numbers , with  no solution (reject )      Advanced Examples   Solve each equation.       "
 },
 {
   "id": "examples-rational-equations-2",
@@ -1914,8 +1914,8 @@ var ptx_lunr_docs = [
   "url": "sec-solving-rational-equations.html#examples-rational-equations-2",
   "type": "Exercise Group",
   "number": "5.6.1",
-  "title": "Variable in the Denominator.",
-  "body": " Variable in the Denominator   Solve each equation.                     (reject )     or                 all real with               "
+  "title": "Equations With <span class=\"process-math\">\\(x\\)<\/span> in the Denominator.",
+  "body": " Equations With in the Denominator   Solve each equation.       (reject )      all real with     "
 },
 {
   "id": "examples-rational-equations-3",
@@ -1923,8 +1923,8 @@ var ptx_lunr_docs = [
   "url": "sec-solving-rational-equations.html#examples-rational-equations-3",
   "type": "Exercise Group",
   "number": "5.6.2",
-  "title": "Binomial Denominators.",
-  "body": " Binomial Denominators   Solve each equation.                                             no solution (reject )                             no solution                         (reject )                 no solution (reject )                     no solution (reject )                                                 no solution         no solution (reject )             (reject )     no solution (reject )           "
+  "title": "Equations With Linear Expressions in the Denominator.",
+  "body": " Equations With Linear Expressions in the Denominator   Solve each equation.                    "
 },
 {
   "id": "examples-rational-equations-4",
@@ -1932,17 +1932,44 @@ var ptx_lunr_docs = [
   "url": "sec-solving-rational-equations.html#examples-rational-equations-4",
   "type": "Exercise Group",
   "number": "5.6.3",
-  "title": "Quadratic Denominator with Factoring.",
-  "body": " Quadratic Denominator with Factoring   Solve each equation.     (reject )         (reject )     (reject )             no solution (reject )                 (reject )         no solution (reject )     (reject )     (reject )         (reject )     (reject )     (reject )                 (reject )         (reject )             (reject )     all real numbers , with     no solution (reject )               "
+  "title": "Equations With Linear Denominators 2.",
+  "body": " Equations With Linear Denominators 2   Solve each equation.        no solution  (reject )    no solution (reject )      no solution      "
 },
 {
-  "id": "subsection-advanced-examples-2",
+  "id": "examples-rational-equations-5",
   "level": "2",
-  "url": "sec-solving-rational-equations.html#subsection-advanced-examples-2",
+  "url": "sec-solving-rational-equations.html#examples-rational-equations-5",
   "type": "Exercise Group",
   "number": "5.6.4",
-  "title": "Advanced Exercises.",
-  "body": " Advanced Exercises   Solve each equation.           "
+  "title": "Equations With Linear Denominators 3.",
+  "body": " Equations With Linear Denominators 3   Solve each equation.     no solution (reject )     (reject )    no solution (reject )   no solution (reject )     no solution (reject )   "
+},
+{
+  "id": "examples-rational-equations-7",
+  "level": "2",
+  "url": "sec-solving-rational-equations.html#examples-rational-equations-7",
+  "type": "Exercise Group",
+  "number": "5.6.5",
+  "title": "Equations With Quadratic Denominators 1.",
+  "body": " Equations With Quadratic Denominators 1   Solve each equation.    (reject )   (reject )  (reject )  (reject )  (reject )   (reject )    (reject )   (reject )  (reject )   "
+},
+{
+  "id": "examples-rational-equations-8",
+  "level": "2",
+  "url": "sec-solving-rational-equations.html#examples-rational-equations-8",
+  "type": "Exercise Group",
+  "number": "5.6.6",
+  "title": "Equations With Quadratic Denominators 2.",
+  "body": " Equations With Quadratic Denominators 2   Solve each equation.    no solution (reject )   no solution (reject )  (reject )      (reject )    (reject )  all real numbers , with  no solution (reject )    "
+},
+{
+  "id": "examples-rational-equations-9",
+  "level": "2",
+  "url": "sec-solving-rational-equations.html#examples-rational-equations-9",
+  "type": "Exercise Group",
+  "number": "5.6.7",
+  "title": "Advanced Examples.",
+  "body": " Advanced Examples   Solve each equation.     "
 },
 {
   "id": "sec-oblique-triangles-summary",
