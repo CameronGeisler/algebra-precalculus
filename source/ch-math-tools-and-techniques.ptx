@@ -8,7 +8,8 @@
   </introduction> -->
 
   <!-- include sections -->
-  <xi:include href="sec-solving-equations-graphically.ptx" />
   <xi:include href="sec-word-problem-solving-strategy.ptx" />
-
+  <xi:include href="sec-solving-equations-graphically.ptx" />
+  <xi:include href="sec-solving-equations-numerically-with-a-calculator.ptx" />
+  
 </chapter>

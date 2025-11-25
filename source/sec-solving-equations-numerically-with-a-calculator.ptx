@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-solving-equations-numerically-with-a-calculator" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Solving Equations Numerically with a Calculator</title>
+  
+  <introduction>
+    <p>
+      A large amount of high school mathematics is about solving equations. You learn various techniques to solve equations by hand (also called solving <em>algebraically</em>), which work for various types of equations. However, for many types of equations, there is no algebraic technique that can solve them.
+    </p>
+    <example>
+      <p>
+        For example, in fact, these equations can't be solved algebraically:
+      </p>
+      <ul>
+        <li><m>x^5 - x - 1 = 0</m></li>
+        <li><m>x^7 - 2x^3 + 4 = 0</m></li>
+      </ul>
+      <p>
+        No matter how hard you try to manipulate the equation, factor, and isolate for <m>x</m>, you won't be able to solve for <m>x</m> exactly.
+      </p>
+      <p>
+        If you have learned about exponential functions, logarithmic functions, and/or trigonometric functions, here are some more examples:
+      </p>
+      <ul>
+        <li><m>2^x = x</m></li>
+        <li><m>e^x + x = 0</m></li>
+        <li><m>e^x = x^2</m></li>
+        <li><m>\log{x} = \frac{1}{x}</m></li>
+        <li><m>\cos{x} = x</m></li>
+        <li><m>\sin{x} = x^2</m></li>
+      </ul>
+      <p>
+        These equations are simple to write down, but none of them can be solved algebraically. More generally, most equations with a combination of exponentials, polynomials, and trigonometric functions are unsolvable algebraically.
+      </p>
+    </example>
+    
+    <p>
+      In this case, the next best thing is to find an approximate numerical solution.
+    </p>
+    <p>
+      These make up the two broad approaches to solving equations:
+    </p>
+    <ul>
+      <li>
+        <p>
+          <term>Algebraic / analytic / exact methods</term>: Manipulating the equation using algebraic rules, to isolate the variable, and find an exact solution.
+        </p>
+      </li>
+      <li>
+        <p>
+          <term>Approximate / numerical methods</term>: Finding a solution which is an approximate decimal number, that is close enough.
+        </p>
+      </li>
+    </ul>
+    
+    <p>
+      Numerical solutions are useful in a few situations:
+    </p>
+    <ul>
+      <li><p>If an exact solution can't be found (it's just impossible).</p></li>
+      <li><p>If an exact solution is possible but just really difficult to find (especially in applications, an approximate numerical answer is usually good enough)</p></li>
+      <li><p>If you've already solved algebraically, and you want to check that your final answer is correct.</p></li>
+    </ul>
+  </introduction>
+     
+  <subsection xml:id="subsec-solving-using-scientific-calculator">
+    <title>Solving Using a Scientific Calculator</title>
+    <p>
+      My recommended calculator <url href="https://camerongeisler.com/calculator-guide-for-students-how-to-buy-a-calculator/">Casio fx-991ES Plus C 2nd edition</url> (or some other similar scientific calculators) can solve equations numerically. This is truly powerful, because you can check your solutions to <em>any</em> equation.
+    </p>
+    
+    <ol>
+      <li>
+        <p>
+          First, make sure you're in COMP (computation) mode (which is the regular mode), by pressing <alert>MODE</alert>, then select <alert>COMP</alert>.
+        </p>
+      </li>
+      <li>
+        <p>
+          Enter your equation. Use the <alert>ALPHA</alert> button to get <alert>X</alert> (look for the button that has <q>X</q> above it). For the <m>=</m> sign, use <alert>ALPHA</alert> then <alert>CALC</alert>.
+        </p>
+      </li>
+      <li>
+        <p>
+          Start the <alert>SOLVE</alert> function, by pressing <alert>SHIFT</alert>, then <alert>CALC</alert>.
+        </p>
+      </li>
+      <li>
+        <p>
+          Provide an initial guess for <m>x</m>, such as <m>1</m>, then press <m>=</m>.
+        </p>
+      </li>
+      <li>
+        <p>
+          View the solution. The calculator shows the value of <m>x</m>. It also displays <m>L-R</m> (left side minus right side), which will be 0 (or at least very close to <m>0</m>) if the solution is accurate.
+        </p>
+      </li>
+    </ol>
+    
+    <example>
+      <title>Solving a Radical Equation</title>
+      <p>
+        For example, to solve <m>\sqrt{2x+5}=4x</m>,
+      </p>
+      <ol>
+        <li>
+          <p>
+            Enter <m>\sqrt{2X+5}=4X</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            Select <alert>SOLVE</alert>, by pressing <alert>SHIFT</alert>, then <alert>CALC</alert>.
+          </p>
+        </li>
+        <li>
+          <p>
+            Enter an initial guess, like <m>1</m>, and press <m>=</m>.
+          </p>
+        </li>
+      </ol>
+      <p>
+        The solution should be <m>x=0.625</m>.
+      </p>
+    </example>
+    
+    <ul>
+      <li>
+        <p>
+          If the solution is not a <q>nice</q> number (like a whole number), the solution will be a decimal like <m>1.414</m>, not symbolic like <m>\sqrt{2}</m>.
+        </p>
+      </li>
+      <li>
+        <p>
+          If <m>L-R</m> is anything <em>but</em> 0 (or very close to it), then the calculator couldn't find the solution. Try a different guess.
+        </p>
+      </li>
+    </ul>
+    <p>
+      The initial guess kinda matters, but most reasonable guesses should give you the correct answer. Here are some broad principles:
+    </p>
+    <ul>
+      <li>
+        <p>
+          Ideally, try to give a good guess as you can. For example, a number close to the solution you got from solving by hand.
+        </p>
+      </li>
+      <li>
+        <p>
+          If there are <em>multiple</em> solutions, the calculator will only give you one of them (each time). This is because the calculator basically <q>pulls</q> your initial guess towards the closest solution. E.g. if the solutions are <m>-2</m> and <m>8</m>, and your initial guess is <m>7</m>, you will most likely get <m>x=8</m>. Whereas if you choose initial guess of <m>0</m>, you will get <m>x=-2</m>.
+        </p>
+      </li>
+      <li>
+        <p>
+          If you have no idea what the solution should be, try 0 or 1 as a default. Because many equations have solutions near 0.
+        </p>
+      </li>
+    </ul>
+    <p>
+      This feature is truly powerful, because you can check your solutions to <em>any</em> equation.
+    </p>
+    <ul>
+      <li>
+        <p>
+          If the calculator agrees with your algebraic steps, then you know your answer is correct.
+        </p>
+      </li>
+      <li>
+        <p>
+          If it gives a different solution than what you found, then you know you have a mistake somewhere, and can go back and try to find it. E.g. maybe you dropped a negative sign, or didn't collect like terms properly.
+        </p>
+      </li>
+    </ul>
+    <p>
+      You can also use it to solve an equation if you are stuck, however most tests will require you to show your work as well.
+    </p>
+  </subsection>
+  
+</section>
