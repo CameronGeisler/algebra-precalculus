@@ -1,0 +1,1181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-word-problems-with-rational-equations" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Word Problems with Rational Equations</title>
+  
+  <introduction>
+    <p>
+      Some word problem situations lead to a rational equation. There are 3 broad categories of problems:
+    </p>
+    <ul>
+      <li>
+        <p>Work problems.</p>
+      </li>
+      <li>
+        <p>Rate/speed problems.</p>
+      </li>
+      <li>
+        <p>Current/wind problems.</p>
+      </li>
+    </ul>
+    <p>
+      These are very standard categories, so make sure you master each one. Also, review <url href="https://camerongeisler.github.io/algebra-precalculus/sec-word-problem-solving-strategy.html" visual="Word Problem Solving Strategy">Word Problem Solving Strategy</url> for learning how to think about word problems broadly.
+    </p>
+  </introduction>
+  
+  
+  
+  <subsection xml:id="subsection-work-problems">
+    <title>Work Problems (Combined Work Rate)</title>
+    <p>
+      Two people or machines work together at different rates to complete a task.
+    </p>
+    
+    <example>
+      <title>Alex and Brianna</title>
+      <p>
+        Alex can paint a wall in <m>4</m> hours. Brianna can paint the same wall in <m>6</m> hours. If they work together and do not stop, how long will it take them to paint the wall?
+      </p>
+      <p>
+        We want to find the time it takes for Alex and Brianna to paint the wall together, so let <m>t</m> be the number of hours it takes them to paint the wall, working together.
+      </p>
+      <p>
+        Think about what happens as time passes. If Alex can finish <m>1</m> whole wall in <m>4</m> hours, then,
+      </p>
+      <ul>
+        <li>
+          <p>After <m>1</m> hour, he has finished <m>\frac{1}{4}</m> of the wall.</p>
+        </li>
+        <li>
+          <p>After <m>2</m> hours, he's finished <m>\frac{2}{4}</m> of the wall.</p>
+        </li>
+        <li>
+          <p>After <m>3</m> hours, he's finished <m>\frac{3}{4}</m>.</p>
+        </li>
+        <li>
+          <p>In general, after <m>t</m> hours, he has finished the fraction <m>\frac{t}{4}</m> of the wall.</p>
+        </li>
+      </ul>
+      <p>
+        Similarly, Brianna can finish the wall in <m>6</m> hours, so,
+      </p>
+      <ul>
+        <li>
+          <p>After <m>1</m> hour, she's finished <m>\frac{1}{6}</m> of the wall.</p>
+        </li>
+        <li>
+          <p>After <m>2</m> hours, she's finished <m>\frac{2}{6}</m>.</p>
+        </li>
+        <li>
+          <p>And in general, after <m>t</m> hours, she has finished <m>\frac{t}{6}</m> of the wall.</p>
+        </li>
+      </ul>
+      <p>
+        Working together, after <m>t</m> hours they have finished one whole wall, or 1 of the wall. Then,
+      </p>
+      <md>
+        <mrow>\begin{pmatrix} \text{fraction done} \\ \text{by Alex} \end{pmatrix} + \begin{pmatrix} \text{fraction done} \\ \text{by Brianna} \end{pmatrix} = \underbrace{1}_{\text{entire job}}</mrow>
+      </md>
+      <p>
+        Then,
+      </p>
+      <md>
+        <mrow>\frac{t}{4} + \frac{t}{6} = 1</mrow>
+      </md>
+      <p>
+        Then, to solve this equation, clear the denominators by multiplying both sides by 12 (the LCD),
+      </p>
+      <md>
+        <mrow>12 \left(\frac{t}{4} + \frac{t}{6}\right) \amp = 12 \cdot 1</mrow>
+        <mrow>3t + 2t \amp = 12</mrow>
+        <mrow>5t \amp = 12 \amp\amp \text{collecting like terms}</mrow>
+        <mrow>t \amp = \frac{12}{5} = 2.4 \amp\amp \text{dividing both sides by 5}</mrow>
+      </md>
+      <p>
+        Therefore, together, they would take 2.4 hours. This is reasonable, because since they are working together, it will take somewhat less time than either of them working individually (4 hours or 6 hours).
+      </p>
+      <p>
+        Another way to organize this information is in a table, with 3 columns: the time it takes, the fraction done in 1 hour, and the fraction done in <m>t</m> hours.
+      </p>
+      <md>
+        <mrow>\begin{array}{c|c|c|c} \amp \text{time} \amp \text{1 hour} \amp t \text{ hours} \\ \hline \text{Alex} \amp 4 \amp \frac{1}{4} \amp \frac{t}{4} \\ \hline \text{Brianna} \amp 6 \amp \frac{1}{6} \amp \frac{t}{6} \\ \hline \text{both} \amp t \amp \frac{1}{t} \amp 1 \\ \end{array}</mrow>
+      </md>
+      <p>
+        Another equivalent way to do this is to add the contributions after 1 hour, which gives,
+      </p>
+      <md>
+        <mrow>\frac{1}{4} + \frac{1}{6} = \frac{1}{t}</mrow>
+      </md>
+      <p>
+        This equation is equivalent to the previous equation, and so will also give the correct answer. However, I don't think it's as intuitive as the previous one.
+      </p>
+    </example>
+    
+    <p>
+      In general,
+    </p>
+    <me>
+      \boxed{\begin{pmatrix} \text{fraction done} \\ \text{by A} \end{pmatrix} + \begin{pmatrix} \text{fraction done} \\ \text{by B} \end{pmatrix} = \underbrace{1}_{\text{entire job}}}
+    </me>
+    
+    <exercise>
+      <title>Cold and Hot Taps</title>
+      <statement>
+        <p>A cold tap can fill a tub in <m>2</m> minutes, and a hot tap can fill the same tub in <m>3</m> minutes. If both taps are turned on at the same time, how long will it take to fill the tub?</p>
+      </statement>
+      <hint>
+        <p><m>\frac{t}{2}+\frac{t}{3}=1</m>.</p>
+      </hint>
+      <answer>
+        <p><m>1.2</m> minutes.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Anna and Isla</title>
+      <statement>
+        <p>Together, Anna and Isla can paint a house in <m>17</m> hours. Alone, Anna can do the job <m>3</m> hours faster than Isla. How long does each person take to paint the house, to the nearest tenth of an hour?</p>
+      </statement>
+      <hint>
+        <p><m>\frac{17}{x}+\frac{17}{x+3}=1</m>, where <m>x</m> is Anna's time in hours.</p>
+      </hint>
+      <answer>
+        <p>Anna takes about <m>32.6</m> hours, Isla takes about <m>35.6</m> hours.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Filling a Container</title>
+      <statement>
+        <p>The cold tap fills a container <m>2</m> hours faster than the hot tap. Together they fill it in <m>80</m> minutes. Find how long each tap takes alone.</p>
+      </statement>
+      <hint>
+        <p><m>\frac{4}{3x}+\frac{4}{3\left(x+2\right)}=1</m>, where <m>x</m> is the cold tap time in hours.</p>
+      </hint>
+      <answer>
+        <p>Cold tap <m>2</m> hours, hot tap <m>4</m> hours.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Two Hoses</title>
+      <statement>
+        <p>Two hoses fill a pool in <m>2</m> hours together. Hose A alone fills it in <m>3</m> hours. How long would hose B alone take?</p>
+      </statement>
+      <hint>
+        <p><m>\frac{2}{3}+\frac{2}{x}=1</m>.</p>
+      </hint>
+      <answer>
+        <p><m>6</m> hours.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Sue and Bob</title>
+      <statement>
+        <p>It would take Sue <m>4</m> hours to paint a large room, and it would take Bob <m>5</m> hours to paint the same room. If they work together, how long would it take them to complete the job?</p>
+      </statement>
+      <hint>
+        <p><m>\frac{t}{4}+\frac{t}{5}=1</m>.</p>
+      </hint>
+      <answer>
+        <p><m>\frac{20}{9} \approx 2.2</m> hours.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Three Workers</title>
+      <statement>
+        <p>One worker takes <m>20</m> hours to do a job. A second worker can do the same job in <m>15</m> hours. When a third worker is added, it takes the three of them <m>6</m> hours to do the job. How long would it take the third worker to do the job alone?</p>
+      </statement>
+      <hint>
+        <p><m>\frac{6}{20}+\frac{6}{15}+\frac{6}{x}=1</m>.</p>
+      </hint>
+      <answer>
+        <p><m>20</m> hours.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Jane and Anna</title>
+      <statement>
+        <p>Jane works twice as fast as her daughter Anna. If it takes <m>15</m> minutes to clean the kitchen together, how long would it take Anna to clean the kitchen by herself?</p>
+      </statement>
+      <hint>
+        <p><m>\frac{15}{x}+\frac{30}{x}=1</m>, where <m>x</m> is Anna's time in minutes.</p>
+      </hint>
+      <answer>
+        <p><m>45</m> minutes.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Ken and Hans</title>
+      <statement>
+        <p>Ken takes <m>3</m> hours longer to assemble a motor than Hans. When working together, it takes them <m>2</m> hours to assemble the motor. How long would it take Ken to do the job alone?</p>
+      </statement>
+      <hint>
+        <p><m>\frac{2}{x}+\frac{2}{x+3}=1</m>, where <m>x</m> is Hans's time in hours.</p>
+      </hint>
+      <answer>
+        <p>Ken would take <m>6</m> hours alone (Hans would take <m>3</m> hours).</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Brick Layer</title>
+      <statement>
+        <p>A brick layer can build a wall in <m>6</m> hours, and his apprentice would need <m>16</m> hours to build the same wall. When they work together, the apprentice works <m>5</m> hours longer than the brick layer. How many hours does each work?</p>
+      </statement>
+      <hint>
+        <p><m>\frac{x}{6}+\frac{x+5}{16}=1</m>, where <m>x</m> is the brick layer's working time in hours.</p>
+      </hint>
+      <answer>
+        <p>The brick layer works <m>3</m> hours and the apprentice works <m>8</m> hours.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Taps and Drain</title>
+      <statement>
+        <p>A cold water tap can fill a tub in <m>6</m> minutes, and a hot water tap can fill the tub in <m>8</m> minutes. A drain can empty a full tub in <m>10</m> minutes. If both taps are on and the drain is open, how long will it take to fill the tub?</p>
+      </statement>
+      <hint>
+        <p><m>\frac{t}{6}+\frac{t}{8}-\frac{t}{10}=1</m>.</p>
+      </hint>
+      <answer>
+        <p><m>\frac{120}{23} \approx 5.2</m> min.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Stuart and Lucy</title>
+      <statement>
+        <p>When they work together, Stuart and Lucy can deliver flyers to all the homes in their neighbourhood in <m>42</m> minutes. When Lucy works alone, she can finish the deliveries in <m>13</m> minutes less time than Stuart can when he works alone. When Stuart works alone, how long does he take to deliver the flyers?</p>
+      </statement>
+      <hint>
+        <p><m>\frac{42}{x}+\frac{42}{x-13}=1</m>, where <m>x</m> is Stuart's time in minutes.</p>
+      </hint>
+      <answer>
+        <p>Stuart takes <m>91</m> minutes alone (Lucy takes <m>78</m> minutes).</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Harvesting Wheat</title>
+      <statement>
+        <p>Nikita can harvest her wheat crop in <m>72</m> hours. Her neighbour's combine can do it in <m>48</m> hours. How long will both machines take together?</p>
+      </statement>
+      <hint>
+        <p><m>\frac{t}{72}+\frac{t}{48}=1</m>.</p>
+      </hint>
+      <answer>
+        <p>They will take <m>28.8</m> hours working together.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Lyle's Bathtub</title>
+      <statement>
+        <p>Lyle can fill the bathtub using the cold water tap in <m>8</m> minutes. When both the hot and cold water taps are fully open, he can fill the bathtub in <m>6</m> minutes. How long would it take Lyle to fill the bathtub using only the hot water tap?</p>
+      </statement>
+      <hint>
+        <p><m>\frac{6}{8}+\frac{6}{t}=1</m>.</p>
+      </hint>
+      <answer>
+        <p><m>24</m> minutes.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Staining a Deck</title>
+      <statement>
+        <p>A painter can stain a deck using a sprayer in <m>4</m> hours. When two people work together, one using the sprayer and the other using a brush, they can finish the job in <m>3</m> hours. How long would it take one person to stain the deck using only a brush?</p>
+      </statement>
+      <hint>
+        <p><m>\frac{3}{4}+\frac{3}{t}=1</m>.</p>
+      </hint>
+      <answer>
+        <p><m>6</m> hours.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Cleaning the Garage</title>
+      <statement>
+        <p>Jenny can clean out the garage in <m>5</m> hours. When her son helps, they can clean out the garage in <m>3</m> hours. How long would it take Jenny’s son to clean out the garage on his own?</p>
+      </statement>
+      <hint>
+        <p><m>\frac{3}{5}+\frac{3}{t}=1</m>.</p>
+      </hint>
+      <answer>
+        <p><m>7.5</m> hours.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Marcy and Apprentice</title>
+      <statement>
+        <p>It takes Marcy’s apprentice <m>9</m> hours longer to build a deck than it takes Marcy. When they work together, they can build the deck in <m>20</m> hours. How long would it take each person to build the deck working alone?</p>
+      </statement>
+      <hint>
+        <p><m>\frac{20}{t}+\frac{20}{t+9}=1</m>.</p>
+      </hint>
+      <answer>
+        <p>Marcy takes <m>36</m> hours and her apprentice takes <m>45</m> hours.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Three Warehouse Employees</title>
+      <statement>
+        <p>Three employees work at a shipping warehouse. Tom fills an order in <m>s</m> minutes, Paco in <m>s-2</m> minutes, and Carl in <m>s+1</m> minutes. Tom and Paco together take <m>1</m> minute <m>20</m> seconds to fill an order, and Paco and Carl together take <m>1</m> minute <m>30</m> seconds. How long does each person take, and how long will all three together take to fill one order?</p>
+      </statement>
+      <hint>
+        <p><m>\frac{4}{3s}+\frac{4}{3\left(s-2\right)}=1</m> and <m>\frac{3}{2\left(s-2\right)}+\frac{3}{2\left(s+1\right)}=1</m>.</p>
+      </hint>
+      <answer>
+        <p>Tom takes <m>4</m> minutes, Paco takes <m>2</m> minutes, Carl takes <m>5</m> minutes, and all three together take <m>\frac{20}{19}\approx 1.05</m> minutes.</p>
+      </answer>
+    </exercise>
+  </subsection>
+  
+  <subsection xml:id="subsection-relative-speed">
+    <title>Relative Speed Comparison Problems</title>
+    
+    <example>
+      <title>Jess and Sarah</title>
+      <p>
+        Jess can run <m>3</m> miles per hour faster than her sister Sarah can walk. If Jess ran <m>12</m> miles in the same time it took Sarah to walk <m>8</m> miles, what is the speed of each sister?
+      </p>
+      <p>
+        We want to find the speed of each sister, so we can let <m>x</m> be the speed of one sister, and then the other one differs by 3. Let <m>x</m> be Sarah's speed. Then, Jess's speed is 3 mi/h more, so it's <m>x+3</m> (Note that you could have instead let <m>x</m> be Jess's speed, and then Sarah would be <m>x-3</m>). We know they took the same amount of time, so,
+      </p>
+      <md>
+        <mrow>\begin{pmatrix} \text{Sarah's} \\ \text{time} \end{pmatrix} = \begin{pmatrix} \text{Jess's} \\ \text{time} \end{pmatrix}</mrow>
+      </md>
+      <p>
+        Then, remember how speed, distance, and time are related by <m>v = \frac{d}{t}</m> (or <m>d = vt</m>, or <m>t = \frac{d}{v}</m>). We'll use <m>t = \frac{d}{v}</m> here because we want time.
+      </p>
+      <md>
+        <mrow>\frac{8}{x} \amp = \frac{12}{x+3}</mrow>
+      </md>
+      <p>
+        To solve, clear denominators by multiplying by <m>x(x+3)</m> (the LCD),
+      </p>
+      <md>
+        <mrow>8(x+3) \amp = 12x</mrow>
+        <mrow>8x + 24 \amp = 12x</mrow>
+        <mrow>4x \amp = 24</mrow>
+        <mrow>x \amp = 6</mrow>
+      </md>
+      <p>
+        Therefore, Sarah's speed is 6 mi/h, and Jess's speed is 3 mi/h faster, so it is 9 mi/h.
+      </p>
+    </example>
+    
+    <p>
+      In general, remember that,
+    </p>
+    <md>
+      <mrow>\boxed{v = \frac{d}{t} \qquad \text{or} \qquad d = vt \qquad \text{or} \qquad t = \frac{d}{v}} \qquad \begin{cases} d \rightarrow \text{distance} \\ t \rightarrow \text{time} \\ v \rightarrow \text{speed (or velocity)} \end{cases}</mrow>
+    </md>
+    <remark>
+      <p>
+        You may remember these relationships from this triangle (the distance speed time triangle, or DST triangle):
+      </p>
+      <image width="50%">
+        <latex-image>
+          \begin{tikzpicture}
+          % Outer triangle (smaller)
+          \coordinate (A) at (0,0);
+          \coordinate (B) at (3,0);
+          \coordinate (C) at (1.5,2.25);
+          \draw (A) -- (B) -- (C) -- cycle;
+          
+          % Horizontal line
+          \coordinate (L) at (0.75,1.125);
+          \coordinate (R) at (2.25,1.125);
+          \draw (L) -- (R);
+          
+          % Vertical line
+          \coordinate (M) at (1.5,0);
+          \coordinate (N) at (1.5,1.125);
+          \draw (M) -- (N);
+          
+          % Labels (same text size)
+          \node at (1.5,1.5) {D};
+          \node at (1.0,0.5) {S};
+          \node at (2.0,0.5) {T};
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+    </remark>
+    
+    <exercise>
+      <title>Two Cyclists</title>
+      <statement>
+        <p>One cyclist averages <m>3</m> km/h faster than a second cyclist. The faster cyclist rode <m>270</m> km in the same time the slower cyclist rode <m>225</m> km. What was the average speed of each cyclist?</p>
+      </statement>
+      <hint>
+        <p><m>\frac{270}{v}=\frac{225}{v-3}</m>.</p>
+      </hint>
+      <answer>
+        <p>The faster cyclist averaged <m>18</m> km/h and the slower cyclist averaged <m>15</m> km/h.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Family Reunion</title>
+      <statement>
+        <p>John's family travels <m>300</m> km from their home to a family reunion. His cousin Susan and her family take the same amount of time to travel <m>200</m> km from their home. One of the vehicles travels <m>30</m> km/h faster than the other. Determine the speed of both vehicles.</p>
+      </statement>
+      <hint>
+        <p><m>\frac{300}{v+30}=\frac{200}{v}</m>.</p>
+      </hint>
+      <answer>
+        <p>John's family travels at <m>90</m> km/h and Susan's family travels at <m>60</m> km/h.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Delivery Routes</title>
+      <statement>
+        <p>Driver A and B have two different delivery routes. Driver A's route is <m>80</m> km, and driver B's route is <m>100</m> km. Driver B travels <m>10</m> km/h faster than driver A and finishes <m>10</m> minutes earlier. What are the speeds of each driver?</p>
+      </statement>
+      <hint>
+        <p><m>\frac{80}{x}-\frac{100}{x+10}=\frac{1}{6}</m>.</p>
+      </hint>
+      <answer>
+        <p>Driver A's speed is <m>30</m> km/h and driver B's speed is <m>40</m> km/h.</p>
+      </answer>
+    </exercise>
+    <exercise>
+      <title>Ted's Drive</title>
+      <statement>
+        <p>Ted drove <m>275</m> km west at <m>10</m> km/h slower than when he drove <m>300</m> km east. His westward trip took <m>30</m> minutes longer. Find his speeds.</p>
+      </statement>
+      <hint>
+        <p><m>\frac{275}{x-10}=\frac{300}{x}+\frac{1}{2}</m>.</p>
+      </hint>
+      <answer>
+        <p>Ted’s speed was <m>60</m> km/h east and <m>50</m> km/h west.</p>
+      </answer>
+    </exercise>
+    <exercise>
+      <title>Ann and Ray</title>
+      <statement>
+        <p>Ann and Ray each ride <m>4</m> km. Ann starts <m>1</m> minute earlier, and Ray rides <m>1</m> km/h faster. They finish at the same time. Find Ann’s speed.</p>
+      </statement>
+      <hint>
+        <p><m>\frac{4}{x}-\frac{4}{x+1}=\frac{1}{60}</m>.</p>
+      </hint>
+      <answer>
+        <p>Ann rides <m>15</m> km/h and Ray rides <m>16</m> km/h.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Bronwyn and Aaron</title>
+      <statement>
+        <p>Bronwyn rides her electric bicycle <m>10</m> km/h faster than Aaron. Bronwyn can travel <m>60</m> km in the same time that it takes Aaron to travel <m>40</m> km. Determine Bronwyn’s average speed and Aaron’s average speed.</p>
+      </statement>
+      <hint>
+        <p><m>\frac{60}{s+10}=\frac{40}{s}</m>.</p>
+      </hint>
+      <answer>
+        <p>Aaron’s speed is <m>20</m> km/h and Bronwyn’s speed is <m>30</m> km/h.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Cows Travelling</title>
+      <statement>
+        <p>Cows travelled <m>70</m> km to Forde Lake, taking <m>4</m> days longer than travelling <m>60</m> km beyond the lake. They travelled <m>5</m> km/h slower before the lake. What was their speed beyond the lake?</p>
+      </statement>
+      <hint>
+        <p><m>\frac{70}{x-5}=\frac{60}{x}+96</m>.</p>
+      </hint>
+      <answer>
+        <p>Their speed beyond the lake was about <m>5.7</m> km/h.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Airplane and Car</title>
+      <statement>
+        <p>The average speed of an airplane is ten times that of a car. It takes the airplane <m>18</m> hours less than the car to travel <m>1000</m> km. Determine the average speeds of the airplane and the car.</p>
+      </statement>
+      <hint>
+        <p><m>\frac{1000}{s}-\frac{1000}{10s}=18</m>.</p>
+      </hint>
+      <answer>
+        <p>The car’s speed is <m>50</m> km/h and the airplane’s speed is <m>500</m> km/h.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Henry and Brandon</title>
+      <statement>
+        <p>Henry’s average running speed is <m>1</m> km/h greater than Brandon’s. In a <m>10</m>-km practice race, Brandon finished <m>2</m> minutes behind Henry. Determine the average running speed of each person.</p>
+      </statement>
+      <hint>
+        <p><m>\frac{10}{s}-\frac{10}{s+1}=\frac{1}{30}</m>.</p>
+      </hint>
+      <answer>
+        <p>Brandon’s speed is approximately <m>16.8</m> km/h and Henry’s speed is approximately <m>17.8</m> km/h.</p>
+      </answer>
+    </exercise>
+  </subsection>
+  
+  <subsection xml:id="subsection-current-wind">
+    <title>Current/Wind Travel Problems</title>
+    
+    <example>
+      <title>Kayaking</title>
+      <p>
+        You are kayaking on a river. You start paddling from a dock <m>8</m> km upstream to a campsite, then immediately turns around and paddles <m>8</m> km back downstream to the dock. The river’s current flows at <m>2</m> km/h. The total time for the trip is <m>3</m> hours. What is your paddling speed in still water?
+      </p>
+      <p>
+        Let <m>v</m> be your speed in still water. Then, your speed upstream is <m>v-2</m>, because the 2 km/h current is pushing you backwards. Similarly, your speed downstream is <m>v+2</m>, because the 2 km/h current is helping you go faster. Then, the total time for the trip is 3 hours, so,
+      </p>
+      <md>
+        <mrow>\begin{pmatrix} \text{time} \\ \text{upsteam} \end{pmatrix} + \begin{pmatrix} \text{time} \\ \text{downstream} \end{pmatrix} = \begin{pmatrix} \text{total} \\ \text{time} \end{pmatrix}</mrow>
+      </md>
+      <p>
+        Then, to calculate time, use <m>t = \frac{d}{v}</m>,
+      </p>
+      <md>
+        <mrow>\frac{8}{v-2} + \frac{8}{v+2} = 3</mrow>
+      </md>
+      <p>
+        To solve, multiply both sides by <m>(v-2)(v+2)</m> (the LCD),
+      </p>
+      <md>
+        <mrow>8(v+2) + 8(v-2) \amp = 3(v-2)(v+2)</mrow>
+        <mrow>8v + 16 + 8v - 16 \amp = 3(v^2 - 4)</mrow>
+        <mrow>16v \amp = 3v^2 - 12</mrow>
+        <mrow>0 \amp = 3v^2 - 16v - 12</mrow>
+        <mrow>0 \amp = (2v+3)(v-6)</mrow>
+        <mrow>v \amp = -\frac{3}{2}, 6</mrow>
+      </md>
+      <p>
+        We keep only the positive solution, because paddling speed can't be negative. Therefore, your paddling speed in still water is 6 km/h.
+      </p>
+      <p>
+        If you like, to help organize the information, you can also make a table, with the distance, rate, and time going upstream and downstream,
+      </p>
+      <md>
+        <mrow>\begin{array}{c|c|c|c} \amp d \amp r \amp t \\ \hline \text{upstream} \amp 8 \amp v-2 \amp \frac{8}{v-2} \\ \hline \text{downstream} \amp 8 \amp v+2 \amp \frac{8}{v+2} \end{array}</mrow>
+      </md>
+    </example>
+    
+    <exercise>
+      <title>Two Kayakers</title>
+      <statement>
+        <p>Two kayakers paddle <m>18</m> km downstream with the current in the same time it takes them to go <m>8</m> km upstream against the current. The rate of the current is <m>3</m> km/h. Find their speed in still water.</p>
+      </statement>
+      <hint>
+        <p><m>\frac{18}{v+3}=\frac{8}{v-3}</m>.</p>
+      </hint>
+      <answer>
+        <p><m>\frac{39}{5}=7.8</m> km/h.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>River Current Expressions</title>
+      <statement>
+        <p>The current of a river is <m>c</m> miles per hour. A boat's speed in still water is <m>12</m> miles per hour. Write expressions for the time to travel <m>150</m> miles downriver, the time to travel <m>150</m> miles upriver, and the difference between these times.</p>
+      </statement>
+      <hint>
+        <p>Use <m>t=\frac{d}{r}</m> with speeds <m>12+c</m> and <m>12-c</m>.</p>
+      </hint>
+      <answer>
+        <p>(a) downriver: <m>\frac{150}{12+c}</m> hours, (b) upriver: <m>\frac{150}{12-c}</m> hours, (c) difference: <m>\frac{150}{12-c}-\frac{150}{12+c}</m> hours.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Round Trip Flight</title>
+      <statement>
+        <p>A plane flies <m>1200</m> miles with the wind and then <m>1000</m> miles against the wind. The wind speed is <m>50</m> miles per hour. If the total travel time for the round trip is <m>4</m> hours, what is the speed of the plane in still air?</p>
+      </statement>
+      <hint>
+        <p><m>\frac{1200}{v+50}+\frac{1000}{v-50}=4</m>.</p>
+      </hint>
+      <answer>
+        <p><m>550</m> mi/h.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Rose Paddling</title>
+      <statement>
+        <p>Rose paddles at a speed of <m>5</m> km/h in still water. She travels <m>12</m> km upstream, and it takes her <m>1</m> hour longer than it does to paddle the same distance downstream. Find the speed of the current in the river.</p>
+      </statement>
+      <hint>
+        <p><m>\frac{12}{5-c}=\frac{12}{5+c}+1</m>.</p>
+      </hint>
+      <answer>
+        <p><m>1</m> km/h.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Boat Travel</title>
+      <statement>
+        <p>A boat can travel at <m>25</m> km/h in still water. The boat travels <m>30</m> km upstream (against the current) then turns around and travels the same distance back (with the current). The total trip took <m>5</m> hours. Find the speed of the current.</p>
+      </statement>
+      <hint>
+        <p><m>\frac{30}{25-c}+\frac{30}{25+c}=5</m>.</p>
+      </hint>
+      <answer>
+        <p><m>5\sqrt{13}\approx 18.0</m> km/h.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>River Town Trip</title>
+      <statement>
+        <p>The speed of the current in a river is <m>2</m> km/h. A boat made a round trip to a town <m>24</m> km away in a total of <m>5</m> hours. What was the speed of the boat in still water?</p>
+      </statement>
+      <hint>
+        <p><m>\frac{24}{v+2}+\frac{24}{v-2}=5</m>.</p>
+      </hint>
+      <answer>
+        <p><m>10</m> km/h.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Canoe Trip</title>
+      <statement>
+        <p>The time it takes for a canoe to go <m>3</m> miles upstream and back <m>3</m> miles downstream is <m>4</m> hours. The current in the lake is <m>1</m> mile per hour. Find the average speed of the canoe in still water.</p>
+      </statement>
+      <hint>
+        <p><m>\frac{3}{v-1}+\frac{3}{v+1}=4</m>.</p>
+      </hint>
+      <answer>
+        <p>The canoe’s speed in still water is <m>2</m> miles per hour.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Plane Against Wind</title>
+      <statement>
+        <p>A plane travels <m>500</m> km against the wind and then <m>600</m> km with the wind in the same time. The wind speed is <m>20</m> km/h. Find the speed of the plane in still air.</p>
+      </statement>
+      <hint>
+        <p><m>\frac{500}{v-20}=\frac{600}{v+20}</m>.</p>
+      </hint>
+      <answer>
+        <p><m>220</m> km/h.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Head Wind and Tail Wind</title>
+      <statement>
+        <p>A plane is flying <m>500</m> km each way. Its air speed (speed in still air) on both trips is <m>165</m> km/h. On the flight there, there is a tail wind, and on the way back there is a head wind. Calculate the total time for the round trip for a wind speed of <m>30</m> km/h and for a wind speed of <m>40</m> km/h.</p>
+      </statement>
+      <hint>
+        <p>For wind speed <m>w</m>, use <m>T(w)=\frac{500}{165+w}+\frac{500}{165-w}</m>.</p>
+      </hint>
+      <answer>
+        <p>For <m>w=30</m> km/h, <m>T=\frac{2200}{351}\approx 6.27</m> hours; for <m>w=40</m> km/h, <m>T=\frac{264}{41} \approx 6.44</m> hours.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Downstream and Upstream</title>
+      <statement>
+        <p>A boat travels <m>108</m> km downstream in the same time it travels <m>78</m> km upstream. The current is <m>10</m> km/h. Find the boat’s speed in still water.</p>
+      </statement>
+      <hint>
+        <p><m>\frac{108}{v+10}=\frac{78}{v-10}</m>.</p>
+      </hint>
+      <answer>
+        <p>The boat’s still-water speed is <m>62</m> km/h.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Boat Current</title>
+      <statement>
+        <p>A boat travels <m>40</m> km downstream in the same time it takes to travel <m>30</m> km upstream. If the current flows at <m>6</m> km/h, what is the speed of the boat in still water?</p>
+      </statement>
+      <hint>
+        <p><m>\frac{40}{v+6}=\frac{30}{v-6}</m>.</p>
+      </hint>
+      <answer>
+        <p>The speed of the boat in still water is <m>42</m> km/h.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Boat Speed</title>
+      <statement>
+        <p>The speed of a boat in still water is <m>10</m> mph. The boat travels <m>24</m> miles upstream and back downstream in a total of <m>5</m> hours. What is the speed of the current?</p>
+      </statement>
+      <hint>
+        <p><m>\frac{24}{10-c}+\frac{24}{10+c}=5</m>.</p>
+      </hint>
+      <answer>
+        <p>The speed of the current is <m>2</m> mph.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Friends Canoeing</title>
+      <statement>
+        <p>Two friends paddle a canoe at <m>6</m> km/h in still water. They travel <m>2</m> km upstream and then <m>2</m> km back downstream in a total of <m>1</m> hour. Find the speed of the current.</p>
+      </statement>
+      <hint>
+        <p><m>\frac{2}{6-c}+\frac{2}{6+c}=1</m>.</p>
+      </hint>
+      <answer>
+        <p><m>2\sqrt{3}\approx 3.5</m> km/h.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Average Current Speed</title>
+      <statement>
+        <p>A boat travels <m>4</m> km upstream in the same time that it takes the boat to travel <m>10</m> km downstream. The average speed of the current is <m>3</m> km/h. What is the average speed of the boat in still water?</p>
+      </statement>
+      <hint>
+        <p><m>\frac{10}{s+3}=\frac{4}{s-3}</m>.</p>
+      </hint>
+      <answer>
+        <p><m>7</m> km/h.</p>
+      </answer>
+    </exercise>
+  </subsection>
+  
+  <subsection xml:id="subsection-avg-speed">
+    <title>Average Speed and Mixed-Rate Problems</title>
+    <exercise>
+      <title>Driving to Work</title>
+      <statement>
+        <p>A woman drives to work at an average speed of <m>50</m> mph. The average speed of the return trip home is <m>30</m> mph. What is the average speed for the round trip?</p>
+      </statement>
+      <hint>
+        <p><m>\frac{d}{50}+\frac{d}{30}=\frac{2d}{v}</m>, and <m>d</m> cancels out.</p>
+      </hint>
+      <answer>
+        <p><m>37.5</m> mph.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Jessica's Trip</title>
+      <statement>
+        <p>On a <m>100</m> km round trip, Jessica averages <m>40</m> km/h to her destination and <m>60</m> km/h returning. What is the average speed for the entire trip?</p>
+      </statement>
+      <hint>
+        <p><m>\frac{d}{40}+\frac{d}{60}=\frac{d}{x}</m>.</p>
+      </hint>
+      <answer>
+        <p><m>48</m> km/h.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Priya's Store Run</title>
+      <statement>
+        <p>Priya decides to go to the store which is <m>8</m> km from her house. She first ran at a rate of <m>7</m> km/h, then walked the rest of the trip at a speed of <m>3</m> km/h. If the total trip took <m>2</m> hours, how many kilometers did she walk?</p>
+      </statement>
+      <hint>
+        <p><m>\frac{8-x}{7}+\frac{x}{3}=2</m>.</p>
+      </hint>
+      <answer>
+        <p><m>4.5</m> km.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Reading a Book</title>
+      <statement>
+        <p>You have <m>21</m> days to read a <m>518</m>-page book. After reading half, you need to increase your reading rate by <m>12</m> pages/day to finish on time. What was your initial rate?</p>
+      </statement>
+      <hint>
+        <p>if the initial rate is <m>x</m> then <m>\frac{259}{x}+\frac{259}{x+12} = 21</m>.</p>
+      </hint>
+      <answer>
+        <p><m>\frac{19+\sqrt{1693}}{3} \approx 20.0</m> pages/day.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Round Trip Speed</title>
+      <statement>
+        <p>A car travels to work at <m>30</m> km/h and returns at <m>60</m> km/h. Find the average speed for the round trip.</p>
+      </statement>
+      <hint>
+        <p><m>\frac{d}{30}+\frac{d}{60}=\frac{2d}{x}</m>.</p>
+      </hint>
+      <answer>
+        <p>The average speed is <m>40</m> km/h.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Ann Cycling</title>
+      <statement>
+        <p>Ann cycles <m>6</m> km to return a friend’s bicycle. She then walks home. Her total time for the trip is <m>90</m> minutes. Ann cycles four times as fast as she walks. Determine Ann’s average speeds for walking and for cycling.</p>
+      </statement>
+      <hint>
+        <p><m>\frac{6}{4v}+\frac{6}{v}=1.5</m>.</p>
+      </hint>
+      <answer>
+        <p>Ann’s walking speed is <m>5</m> km/h and her cycling speed is <m>20</m> km/h.</p>
+      </answer>
+    </exercise>
+  </subsection>
+  
+  <subsection xml:id="subsection-number-reciprocals">
+    <title>Number Problems Involving Reciprocals</title>
+    <p>
+      Recall that the reciprocal of a number <m>a</m> is <m>\frac{1}{a}</m>. For example, the reciprocal of <m>3</m> is <m>\frac{1}{3}</m>, and the reciprocal of <m>\frac{2}{5}</m> is <m>\frac{5}{2}</m>.
+    </p>
+    
+    <exercise>
+      <title>Sum of Reciprocals 1</title>
+      <statement>
+        <p>The sum of the reciprocals of two consecutive numbers is equal to <m>\frac{11}{30}</m>. Find the two numbers.</p>
+      </statement>
+      <answer>
+        <p>5 and 6.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Sum of Reciprocals 2</title>
+      <statement>
+        <p>The sum of two numbers is 25, and the sum of their reciprocals is <m>\frac{1}{4}</m>. Find the two numbers.</p>
+      </statement>
+      <hint>
+        <p><m>\frac{1}{x} + \frac{1}{25-x} = \frac{1}{4}</m>.</p>
+      </hint>
+      <answer>
+        <p>5 and 20.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Sum of Reciprocals 3</title>
+      <statement>
+        <p>The sum of two numbers is 12, and the sum of their reciprocals is <m>\frac{3}{8}</m>. Find the two numbers.</p>
+      </statement>
+      <answer>
+        <p>4 and 8.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Reciprocal of Smallest</title>
+      <statement>
+        <p>Find the value(s) of <m>x</m> in the numbers <m>x</m>, <m>x+1</m>, and <m>x+2</m> such that the reciprocal of the smallest number equals the sum of the reciprocals of the other two numbers.</p>
+      </statement>
+      <hint>
+        <p><m>\frac{1}{x} = \frac{1}{x+1} + \frac{1}{x+2}</m>.</p>
+      </hint>
+      <answer>
+        <p><m>x=-\sqrt{2}</m> or <m>x=\sqrt{2}</m>.</p>
+      </answer>
+    </exercise>
+    <exercise>
+      <title>Sum of Integers</title>
+      <statement>
+        <p>The sum of two integers is <m>12</m>, and the difference in their reciprocals is <m>\frac{2}{9}</m>. Find the two integers.</p>
+      </statement>
+      <answer>
+        <p><m>3</m> and <m>9</m>.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Difference of Reciprocals</title>
+      <statement>
+        <p>A natural number is <m>4</m> more than another natural number. When the reciprocal of the greater number is subtracted from the reciprocal of the lesser number, the difference is <m>\frac{1}{15}</m>. What are the two numbers?</p>
+      </statement>
+      <hint>
+        <p><m>\frac{1}{x}-\frac{1}{x+4}=\frac{1}{15}</m>.</p>
+      </hint>
+      <answer>
+        <p><m>6</m> and <m>10</m>.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Number and Reciprocal 1</title>
+      <statement>
+        <p>The sum of a number and its reciprocal is <m>\frac{13}{6}</m>. Find the number.</p>
+      </statement>
+      <hint>
+        <p><m>x+\frac{1}{x}=\frac{13}{6}</m>.</p>
+      </hint>
+      <answer>
+        <p><m>\frac{2}{3}</m> or <m>\frac{3}{2}</m>.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Integer and Reciprocal</title>
+      <statement>
+        <p>The sum of an integer and its reciprocal is <m>\frac{65}{8}</m>. Find the integer.</p>
+      </statement>
+      <hint>
+        <p><m>x+\frac{1}{x}=\frac{65}{8}</m>.</p>
+      </hint>
+      <answer>
+        <p><m>8</m>.</p>
+      </answer>
+    </exercise>
+    <exercise>
+      <title>Consecutive Integers 1</title>
+      <statement>
+        <p>Find two consecutive integers whose reciprocals add to <m>\frac{7}{12}</m>.</p>
+      </statement>
+      <hint>
+        <p><m>\frac{1}{x}+\frac{1}{x+1}=\frac{7}{12}</m>.</p>
+      </hint>
+      <answer>
+        <p><m>3</m> and <m>4</m>.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Consecutive Odd Integers</title>
+      <statement>
+        <p>Find two consecutive odd integers whose reciprocals add to <m>\frac{8}{15}</m>.</p>
+      </statement>
+      <hint>
+        <p><m>\frac{1}{x}+\frac{1}{x+2}=\frac{8}{15}</m>.</p>
+      </hint>
+      <answer>
+        <p><m>3</m> and <m>5</m>.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Consecutive Even Integers</title>
+      <statement>
+        <p>Find two consecutive even integers whose reciprocals add to <m>\frac{7}{24}</m>.</p>
+      </statement>
+      <hint>
+        <p><m>\frac{1}{x}+\frac{1}{x+2}=\frac{7}{24}</m>.</p>
+      </hint>
+      <answer>
+        <p><m>6</m> and <m>8</m>.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Quotient Problem</title>
+      <statement>
+        <p>The quotient of a number and <m>5</m> minus <m>\frac{3}{2}</m> is the quotient of the number and <m>2</m>. Find the number.</p>
+      </statement>
+      <hint>
+        <p><m>\frac{x}{5}-\frac{3}{2}=\frac{x}{2}</m>.</p>
+      </hint>
+      <answer>
+        <p><m>-5</m>.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Product and Reciprocal</title>
+      <statement>
+        <p>A number added to the product of <m>6</m> and the reciprocal of the number is <m>-5</m>. Find the number.</p>
+      </statement>
+      <hint>
+        <p><m>x+\frac{6}{x}=-5</m>.</p>
+      </hint>
+      <answer>
+        <p><m>-3</m> or <m>-2</m>.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Complex Ratio</title>
+      <statement>
+        <p>If <m>12</m> times the reciprocal of a number is added to the ratio of <m>7</m> times the number minus <m>5</m> and the number plus <m>1</m>, the result is <m>8</m>. What is the number?</p>
+      </statement>
+      <hint>
+        <p><m>\frac{12}{x}+\frac{7x-5}{x+1}=8</m>.</p>
+      </hint>
+      <answer>
+        <p><m>-4</m> or <m>3</m>.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Number and Twice Reciprocal</title>
+      <statement>
+        <p>The sum of a number and twice its reciprocal is <m>\frac{9}{2}</m>. Find the number.</p>
+      </statement>
+      <hint>
+        <p><m>x+\frac{2}{x}=\frac{9}{2}</m>.</p>
+      </hint>
+      <answer>
+        <p><m>x=4</m> or <m>x=\frac{1}{2}</m>.</p>
+      </answer>
+    </exercise>
+  </subsection>
+  
+  <subsection xml:id="subsection-mixture-problems">
+    <title>Mixture Problems</title>
+    <exercise>
+      <title>Acid Solution 1</title>
+      <statement>
+        <p>Suppose that <m>x</m> mL of pure acid are added to <m>100</m> mL of a <m>35\%</m> acid solution. How many mL of pure acid must be added to produce a new solution that is <m>75\%</m> acid?</p>
+      </statement>
+      <hint>
+        <p><m>\frac{x+0.35\cdot100}{x+100}=0.75</m>.</p>
+      </hint>
+      <answer>
+        <p><m>x=160</m> mL.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Acid Solution 2</title>
+      <statement>
+        <p>How much pure acid must be added to <m>50</m> mL of a <m>35\%</m> acid solution to produce a mixture that is <m>75\%</m> acid?</p>
+      </statement>
+      <hint>
+        <p><m>\frac{x+0.35\cdot50}{x+50}=0.75</m>.</p>
+      </hint>
+      <answer>
+        <p><m>x=80</m> mL.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Bleach Solution</title>
+      <statement>
+        <p>How much bleach should be added to <m>47</m> L of water to make a solution that is <m>6\%</m> bleach?</p>
+      </statement>
+      <hint>
+        <p><m>\frac{x}{x+47}=\frac{6}{100}</m>.</p>
+      </hint>
+      <answer>
+        <p><m>3</m> L.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Acid Solution 3</title>
+      <statement>
+        <p>What volume of pure acid must be added to <m>125</m> mL of a <m>60\%</m> acid solution to obtain a solution that is <m>83\%</m> acid?</p>
+      </statement>
+      <hint>
+        <p><m>\frac{x+0.6\cdot125}{x+125}=0.83</m>.</p>
+      </hint>
+      <answer>
+        <p><m>x=\frac{2875}{17}\approx169.1</m> mL.</p>
+      </answer>
+    </exercise>
+  </subsection>
+  
+  <subsection xml:id="subsection-misc-problems">
+    <title>Misc Word Problems</title>
+    <exercise>
+      <title>Box Dimensions</title>
+      <statement>
+        <p>A company makes a box with a square base of side length <m>16</m> cm and a volume of <m>1280</m> cm<m>^{3}</m>. The company wants to redesign the box with a smaller base.</p>
+        <ol>
+          <li>
+            <p>If the length of the base decreases by <m>x</m> cm, write an expression for the new height of the box.</p>
+          </li>
+          <li>
+            <p>Write an expression for the increase in height of the box.</p>
+          </li>
+          <li>
+            <p>If the base becomes a <m>12</m> cm square, find the increase in height.</p>
+          </li>
+        </ol>
+      </statement>
+      <answer>
+        <ol>
+          <li>
+            <p><m>\frac{1280}{(16-x)^2}</m>.</p>
+          </li>
+          <li>
+            <p><m>\frac{1280}{(16-x)^2} - 5</m>.</p>
+          </li>
+          <li>
+            <p><m>\frac{35}{9} \approx 3.9</m> cm. (Hint: if the base length is 12 cm, what is <m>x</m>?)</p>
+          </li>
+        </ol>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Golf Range</title>
+      <statement>
+        <p>Jacob is a junior member of a local golf driving range. He pays $15 per month to use the range, and pays $1 per bucket of balls.</p>
+        <ol>
+          <li>
+            <p>If Jacob hits <m>x</m> buckets of balls in one month, write an expression that represents how much he would pay per month.</p>
+          </li>
+          <li>
+            <p>Write an expression that represents the actual cost per bucket for a month (including the monthly fee).</p>
+          </li>
+          <li>
+            <p>Write and solve an equation to determine the number of buckets of balls Jacob would have to hit in a month for the actual cost per bucket to be $1.25.</p>
+          </li>
+        </ol>
+      </statement>
+      <answer>
+        <ol>
+          <li>
+            <p><m>15+x</m>.</p>
+          </li>
+          <li>
+            <p><m>\frac{15 + x}{x}</m>.</p>
+          </li>
+          <li>
+            <p>60 buckets. (Hint: <m>\frac{15+x}{x}=1.25</m>)</p>
+          </li>
+        </ol>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>T-Shirt Sales</title>
+      <statement>
+        <p>Rima bought a case of concert T-shirts for $450. She kept two T-shirts for herself and sold the rest for $560, making a profit of $10 on each T-shirt. How many T-shirts were in the case?</p>
+      </statement>
+      <answer>
+        <p>18 T-shirts.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>French Club</title>
+      <statement>
+        <p>A French club collected the same amount of money from each student for a trip. Six students cancelled, so each remaining student paid $3 extra. The total cost was $540. How many students went on the trip?</p>
+      </statement>
+      <answer>
+        <p><m>30</m> students.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Polygon Angles</title>
+      <statement>
+        <p>The measure <m>d</m> (in degrees) of each angle in a regular polygon with <m>n</m> sides is given by the equation <m>d = 180 - \frac{360}{n}</m>. When each angle in a regular polygon is <m>162^\circ</m>, how many sides does the polygon have?</p>
+      </statement>
+      <hint>
+        <p><m>162 = 180 - \frac{360}{n}</m>.</p>
+      </hint>
+      <answer>
+        <p><m>20</m> sides.</p>
+      </answer>
+    </exercise>
+  </subsection>
+  
+</section>

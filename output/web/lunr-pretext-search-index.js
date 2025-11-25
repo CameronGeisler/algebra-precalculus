@@ -1972,6 +1972,681 @@ var ptx_lunr_docs = [
   "body": " Advanced Examples   Solve each equation.     "
 },
 {
+  "id": "sec-word-problems-with-rational-equations",
+  "level": "1",
+  "url": "sec-word-problems-with-rational-equations.html",
+  "type": "Section",
+  "number": "5.7",
+  "title": "Word Problems with Rational Equations",
+  "body": " Word Problems with Rational Equations   Some word problem situations lead to a rational equation. There are 3 broad categories of problems:    Work problems.    Rate\/speed problems.    Current\/wind problems.    These are very standard categories, so make sure you master each one. Also, review Word Problem Solving Strategy for learning how to think about word problems broadly.    Work Problems (Combined Work Rate)  Two people or machines work together at different rates to complete a task.   Alex and Brianna  Alex can paint a wall in hours. Brianna can paint the same wall in hours. If they work together and do not stop, how long will it take them to paint the wall?  We want to find the time it takes for Alex and Brianna to paint the wall together, so let be the number of hours it takes them to paint the wall, working together.  Think about what happens as time passes. If Alex can finish whole wall in hours, then,    After hour, he has finished of the wall.    After hours, he's finished of the wall.    After hours, he's finished .    In general, after hours, he has finished the fraction of the wall.    Similarly, Brianna can finish the wall in hours, so,    After hour, she's finished of the wall.    After hours, she's finished .    And in general, after hours, she has finished of the wall.    Working together, after hours they have finished one whole wall, or 1 of the wall. Then,   Then,   Then, to solve this equation, clear the denominators by multiplying both sides by 12 (the LCD),   Therefore, together, they would take 2.4 hours. This is reasonable, because since they are working together, it will take somewhat less time than either of them working individually (4 hours or 6 hours).  Another way to organize this information is in a table, with 3 columns: the time it takes, the fraction done in 1 hour, and the fraction done in hours.   Another equivalent way to do this is to add the contributions after 1 hour, which gives,   This equation is equivalent to the previous equation, and so will also give the correct answer. However, I don't think it's as intuitive as the previous one.   In general,    Cold and Hot Taps   A cold tap can fill a tub in minutes, and a hot tap can fill the same tub in minutes. If both taps are turned on at the same time, how long will it take to fill the tub?    .    minutes.     Anna and Isla   Together, Anna and Isla can paint a house in hours. Alone, Anna can do the job hours faster than Isla. How long does each person take to paint the house, to the nearest tenth of an hour?    , where is Anna's time in hours.    Anna takes about hours, Isla takes about hours.     Filling a Container   The cold tap fills a container hours faster than the hot tap. Together they fill it in minutes. Find how long each tap takes alone.    , where is the cold tap time in hours.    Cold tap hours, hot tap hours.     Two Hoses   Two hoses fill a pool in hours together. Hose A alone fills it in hours. How long would hose B alone take?    .    hours.     Sue and Bob   It would take Sue hours to paint a large room, and it would take Bob hours to paint the same room. If they work together, how long would it take them to complete the job?    .    hours.     Three Workers   One worker takes hours to do a job. A second worker can do the same job in hours. When a third worker is added, it takes the three of them hours to do the job. How long would it take the third worker to do the job alone?    .    hours.     Jane and Anna   Jane works twice as fast as her daughter Anna. If it takes minutes to clean the kitchen together, how long would it take Anna to clean the kitchen by herself?    , where is Anna's time in minutes.    minutes.     Ken and Hans   Ken takes hours longer to assemble a motor than Hans. When working together, it takes them hours to assemble the motor. How long would it take Ken to do the job alone?    , where is Hans's time in hours.    Ken would take hours alone (Hans would take hours).     Brick Layer   A brick layer can build a wall in hours, and his apprentice would need hours to build the same wall. When they work together, the apprentice works hours longer than the brick layer. How many hours does each work?    , where is the brick layer's working time in hours.    The brick layer works hours and the apprentice works hours.     Taps and Drain   A cold water tap can fill a tub in minutes, and a hot water tap can fill the tub in minutes. A drain can empty a full tub in minutes. If both taps are on and the drain is open, how long will it take to fill the tub?    .    min.     Stuart and Lucy   When they work together, Stuart and Lucy can deliver flyers to all the homes in their neighbourhood in minutes. When Lucy works alone, she can finish the deliveries in minutes less time than Stuart can when he works alone. When Stuart works alone, how long does he take to deliver the flyers?    , where is Stuart's time in minutes.    Stuart takes minutes alone (Lucy takes minutes).     Harvesting Wheat   Nikita can harvest her wheat crop in hours. Her neighbour's combine can do it in hours. How long will both machines take together?    .    They will take hours working together.     Lyle's Bathtub   Lyle can fill the bathtub using the cold water tap in minutes. When both the hot and cold water taps are fully open, he can fill the bathtub in minutes. How long would it take Lyle to fill the bathtub using only the hot water tap?    .    minutes.     Staining a Deck   A painter can stain a deck using a sprayer in hours. When two people work together, one using the sprayer and the other using a brush, they can finish the job in hours. How long would it take one person to stain the deck using only a brush?    .    hours.     Cleaning the Garage   Jenny can clean out the garage in hours. When her son helps, they can clean out the garage in hours. How long would it take Jenny’s son to clean out the garage on his own?    .    hours.     Marcy and Apprentice   It takes Marcy’s apprentice hours longer to build a deck than it takes Marcy. When they work together, they can build the deck in hours. How long would it take each person to build the deck working alone?    .    Marcy takes hours and her apprentice takes hours.     Three Warehouse Employees   Three employees work at a shipping warehouse. Tom fills an order in minutes, Paco in minutes, and Carl in minutes. Tom and Paco together take minute seconds to fill an order, and Paco and Carl together take minute seconds. How long does each person take, and how long will all three together take to fill one order?    and .    Tom takes minutes, Paco takes minutes, Carl takes minutes, and all three together take minutes.      Relative Speed Comparison Problems   Jess and Sarah  Jess can run miles per hour faster than her sister Sarah can walk. If Jess ran miles in the same time it took Sarah to walk miles, what is the speed of each sister?  We want to find the speed of each sister, so we can let be the speed of one sister, and then the other one differs by 3. Let be Sarah's speed. Then, Jess's speed is 3 mi\/h more, so it's (Note that you could have instead let be Jess's speed, and then Sarah would be ). We know they took the same amount of time, so,   Then, remember how speed, distance, and time are related by (or , or ). We'll use here because we want time.   To solve, clear denominators by multiplying by (the LCD),   Therefore, Sarah's speed is 6 mi\/h, and Jess's speed is 3 mi\/h faster, so it is 9 mi\/h.   In general, remember that,    You may remember these relationships from this triangle (the distance speed time triangle, or DST triangle):       Two Cyclists   One cyclist averages km\/h faster than a second cyclist. The faster cyclist rode km in the same time the slower cyclist rode km. What was the average speed of each cyclist?    .    The faster cyclist averaged km\/h and the slower cyclist averaged km\/h.     Family Reunion   John's family travels km from their home to a family reunion. His cousin Susan and her family take the same amount of time to travel km from their home. One of the vehicles travels km\/h faster than the other. Determine the speed of both vehicles.    .    John's family travels at km\/h and Susan's family travels at km\/h.     Delivery Routes   Driver A and B have two different delivery routes. Driver A's route is km, and driver B's route is km. Driver B travels km\/h faster than driver A and finishes minutes earlier. What are the speeds of each driver?    .    Driver A's speed is km\/h and driver B's speed is km\/h.     Ted's Drive   Ted drove km west at km\/h slower than when he drove km east. His westward trip took minutes longer. Find his speeds.    .    Ted’s speed was km\/h east and km\/h west.     Ann and Ray   Ann and Ray each ride km. Ann starts minute earlier, and Ray rides km\/h faster. They finish at the same time. Find Ann’s speed.    .    Ann rides km\/h and Ray rides km\/h.     Bronwyn and Aaron   Bronwyn rides her electric bicycle km\/h faster than Aaron. Bronwyn can travel km in the same time that it takes Aaron to travel km. Determine Bronwyn’s average speed and Aaron’s average speed.    .    Aaron’s speed is km\/h and Bronwyn’s speed is km\/h.     Cows Travelling   Cows travelled km to Forde Lake, taking days longer than travelling km beyond the lake. They travelled km\/h slower before the lake. What was their speed beyond the lake?    .    Their speed beyond the lake was about km\/h.     Airplane and Car   The average speed of an airplane is ten times that of a car. It takes the airplane hours less than the car to travel km. Determine the average speeds of the airplane and the car.    .    The car’s speed is km\/h and the airplane’s speed is km\/h.     Henry and Brandon   Henry’s average running speed is km\/h greater than Brandon’s. In a -km practice race, Brandon finished minutes behind Henry. Determine the average running speed of each person.    .    Brandon’s speed is approximately km\/h and Henry’s speed is approximately km\/h.      Current\/Wind Travel Problems   Kayaking  You are kayaking on a river. You start paddling from a dock km upstream to a campsite, then immediately turns around and paddles km back downstream to the dock. The river’s current flows at km\/h. The total time for the trip is hours. What is your paddling speed in still water?  Let be your speed in still water. Then, your speed upstream is , because the 2 km\/h current is pushing you backwards. Similarly, your speed downstream is , because the 2 km\/h current is helping you go faster. Then, the total time for the trip is 3 hours, so,   Then, to calculate time, use ,   To solve, multiply both sides by (the LCD),   We keep only the positive solution, because paddling speed can't be negative. Therefore, your paddling speed in still water is 6 km\/h.  If you like, to help organize the information, you can also make a table, with the distance, rate, and time going upstream and downstream,     Two Kayakers   Two kayakers paddle km downstream with the current in the same time it takes them to go km upstream against the current. The rate of the current is km\/h. Find their speed in still water.    .    km\/h.     River Current Expressions   The current of a river is miles per hour. A boat's speed in still water is miles per hour. Write expressions for the time to travel miles downriver, the time to travel miles upriver, and the difference between these times.    Use with speeds and .    (a) downriver: hours, (b) upriver: hours, (c) difference: hours.     Round Trip Flight   A plane flies miles with the wind and then miles against the wind. The wind speed is miles per hour. If the total travel time for the round trip is hours, what is the speed of the plane in still air?    .    mi\/h.     Rose Paddling   Rose paddles at a speed of km\/h in still water. She travels km upstream, and it takes her hour longer than it does to paddle the same distance downstream. Find the speed of the current in the river.    .    km\/h.     Boat Travel   A boat can travel at km\/h in still water. The boat travels km upstream (against the current) then turns around and travels the same distance back (with the current). The total trip took hours. Find the speed of the current.    .    km\/h.     River Town Trip   The speed of the current in a river is km\/h. A boat made a round trip to a town km away in a total of hours. What was the speed of the boat in still water?    .    km\/h.     Canoe Trip   The time it takes for a canoe to go miles upstream and back miles downstream is hours. The current in the lake is mile per hour. Find the average speed of the canoe in still water.    .    The canoe’s speed in still water is miles per hour.     Plane Against Wind   A plane travels km against the wind and then km with the wind in the same time. The wind speed is km\/h. Find the speed of the plane in still air.    .    km\/h.     Head Wind and Tail Wind   A plane is flying km each way. Its air speed (speed in still air) on both trips is km\/h. On the flight there, there is a tail wind, and on the way back there is a head wind. Calculate the total time for the round trip for a wind speed of km\/h and for a wind speed of km\/h.    For wind speed , use .    For km\/h, hours; for km\/h, hours.     Downstream and Upstream   A boat travels km downstream in the same time it travels km upstream. The current is km\/h. Find the boat’s speed in still water.    .    The boat’s still-water speed is km\/h.     Boat Current   A boat travels km downstream in the same time it takes to travel km upstream. If the current flows at km\/h, what is the speed of the boat in still water?    .    The speed of the boat in still water is km\/h.     Boat Speed   The speed of a boat in still water is mph. The boat travels miles upstream and back downstream in a total of hours. What is the speed of the current?    .    The speed of the current is mph.     Friends Canoeing   Two friends paddle a canoe at km\/h in still water. They travel km upstream and then km back downstream in a total of hour. Find the speed of the current.    .    km\/h.     Average Current Speed   A boat travels km upstream in the same time that it takes the boat to travel km downstream. The average speed of the current is km\/h. What is the average speed of the boat in still water?    .    km\/h.      Average Speed and Mixed-Rate Problems   Driving to Work   A woman drives to work at an average speed of mph. The average speed of the return trip home is mph. What is the average speed for the round trip?    , and cancels out.    mph.     Jessica's Trip   On a km round trip, Jessica averages km\/h to her destination and km\/h returning. What is the average speed for the entire trip?    .    km\/h.     Priya's Store Run   Priya decides to go to the store which is km from her house. She first ran at a rate of km\/h, then walked the rest of the trip at a speed of km\/h. If the total trip took hours, how many kilometers did she walk?    .    km.     Reading a Book   You have days to read a -page book. After reading half, you need to increase your reading rate by pages\/day to finish on time. What was your initial rate?    if the initial rate is then .    pages\/day.     Round Trip Speed   A car travels to work at km\/h and returns at km\/h. Find the average speed for the round trip.    .    The average speed is km\/h.     Ann Cycling   Ann cycles km to return a friend’s bicycle. She then walks home. Her total time for the trip is minutes. Ann cycles four times as fast as she walks. Determine Ann’s average speeds for walking and for cycling.    .    Ann’s walking speed is km\/h and her cycling speed is km\/h.      Number Problems Involving Reciprocals  Recall that the reciprocal of a number is . For example, the reciprocal of is , and the reciprocal of is .   Sum of Reciprocals 1   The sum of the reciprocals of two consecutive numbers is equal to . Find the two numbers.    5 and 6.     Sum of Reciprocals 2   The sum of two numbers is 25, and the sum of their reciprocals is . Find the two numbers.    .    5 and 20.     Sum of Reciprocals 3   The sum of two numbers is 12, and the sum of their reciprocals is . Find the two numbers.    4 and 8.     Reciprocal of Smallest   Find the value(s) of in the numbers , , and such that the reciprocal of the smallest number equals the sum of the reciprocals of the other two numbers.    .    or .     Sum of Integers   The sum of two integers is , and the difference in their reciprocals is . Find the two integers.    and .     Difference of Reciprocals   A natural number is more than another natural number. When the reciprocal of the greater number is subtracted from the reciprocal of the lesser number, the difference is . What are the two numbers?    .    and .     Number and Reciprocal 1   The sum of a number and its reciprocal is . Find the number.    .    or .     Integer and Reciprocal   The sum of an integer and its reciprocal is . Find the integer.    .    .     Consecutive Integers 1   Find two consecutive integers whose reciprocals add to .    .    and .     Consecutive Odd Integers   Find two consecutive odd integers whose reciprocals add to .    .    and .     Consecutive Even Integers   Find two consecutive even integers whose reciprocals add to .    .    and .     Quotient Problem   The quotient of a number and minus is the quotient of the number and . Find the number.    .    .     Product and Reciprocal   A number added to the product of and the reciprocal of the number is . Find the number.    .    or .     Complex Ratio   If times the reciprocal of a number is added to the ratio of times the number minus and the number plus , the result is . What is the number?    .    or .     Number and Twice Reciprocal   The sum of a number and twice its reciprocal is . Find the number.    .    or .      Mixture Problems   Acid Solution 1   Suppose that mL of pure acid are added to mL of a acid solution. How many mL of pure acid must be added to produce a new solution that is acid?    .    mL.     Acid Solution 2   How much pure acid must be added to mL of a acid solution to produce a mixture that is acid?    .    mL.     Bleach Solution   How much bleach should be added to L of water to make a solution that is bleach?    .    L.     Acid Solution 3   What volume of pure acid must be added to mL of a acid solution to obtain a solution that is acid?    .    mL.      Misc Word Problems   Box Dimensions   A company makes a box with a square base of side length cm and a volume of cm . The company wants to redesign the box with a smaller base.    If the length of the base decreases by cm, write an expression for the new height of the box.    Write an expression for the increase in height of the box.    If the base becomes a cm square, find the increase in height.        .    .    cm. (Hint: if the base length is 12 cm, what is ?)       Golf Range   Jacob is a junior member of a local golf driving range. He pays $15 per month to use the range, and pays $1 per bucket of balls.    If Jacob hits buckets of balls in one month, write an expression that represents how much he would pay per month.    Write an expression that represents the actual cost per bucket for a month (including the monthly fee).    Write and solve an equation to determine the number of buckets of balls Jacob would have to hit in a month for the actual cost per bucket to be $1.25.        .    .    60 buckets. (Hint: )       T-Shirt Sales   Rima bought a case of concert T-shirts for $450. She kept two T-shirts for herself and sold the rest for $560, making a profit of $10 on each T-shirt. How many T-shirts were in the case?    18 T-shirts.     French Club   A French club collected the same amount of money from each student for a trip. Six students cancelled, so each remaining student paid $3 extra. The total cost was $540. How many students went on the trip?    students.     Polygon Angles   The measure (in degrees) of each angle in a regular polygon with sides is given by the equation . When each angle in a regular polygon is , how many sides does the polygon have?    .    sides.     "
+},
+{
+  "id": "subsection-work-problems-3",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-work-problems-3",
+  "type": "Example",
+  "number": "5.7.1",
+  "title": "Alex and Brianna.",
+  "body": " Alex and Brianna  Alex can paint a wall in hours. Brianna can paint the same wall in hours. If they work together and do not stop, how long will it take them to paint the wall?  We want to find the time it takes for Alex and Brianna to paint the wall together, so let be the number of hours it takes them to paint the wall, working together.  Think about what happens as time passes. If Alex can finish whole wall in hours, then,    After hour, he has finished of the wall.    After hours, he's finished of the wall.    After hours, he's finished .    In general, after hours, he has finished the fraction of the wall.    Similarly, Brianna can finish the wall in hours, so,    After hour, she's finished of the wall.    After hours, she's finished .    And in general, after hours, she has finished of the wall.    Working together, after hours they have finished one whole wall, or 1 of the wall. Then,   Then,   Then, to solve this equation, clear the denominators by multiplying both sides by 12 (the LCD),   Therefore, together, they would take 2.4 hours. This is reasonable, because since they are working together, it will take somewhat less time than either of them working individually (4 hours or 6 hours).  Another way to organize this information is in a table, with 3 columns: the time it takes, the fraction done in 1 hour, and the fraction done in hours.   Another equivalent way to do this is to add the contributions after 1 hour, which gives,   This equation is equivalent to the previous equation, and so will also give the correct answer. However, I don't think it's as intuitive as the previous one.  "
+},
+{
+  "id": "subsection-work-problems-6",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-work-problems-6",
+  "type": "Checkpoint",
+  "number": "5.7.2",
+  "title": "Cold and Hot Taps.",
+  "body": " Cold and Hot Taps   A cold tap can fill a tub in minutes, and a hot tap can fill the same tub in minutes. If both taps are turned on at the same time, how long will it take to fill the tub?    .    minutes.   "
+},
+{
+  "id": "subsection-work-problems-7",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-work-problems-7",
+  "type": "Checkpoint",
+  "number": "5.7.3",
+  "title": "Anna and Isla.",
+  "body": " Anna and Isla   Together, Anna and Isla can paint a house in hours. Alone, Anna can do the job hours faster than Isla. How long does each person take to paint the house, to the nearest tenth of an hour?    , where is Anna's time in hours.    Anna takes about hours, Isla takes about hours.   "
+},
+{
+  "id": "subsection-work-problems-8",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-work-problems-8",
+  "type": "Checkpoint",
+  "number": "5.7.4",
+  "title": "Filling a Container.",
+  "body": " Filling a Container   The cold tap fills a container hours faster than the hot tap. Together they fill it in minutes. Find how long each tap takes alone.    , where is the cold tap time in hours.    Cold tap hours, hot tap hours.   "
+},
+{
+  "id": "subsection-work-problems-9",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-work-problems-9",
+  "type": "Checkpoint",
+  "number": "5.7.5",
+  "title": "Two Hoses.",
+  "body": " Two Hoses   Two hoses fill a pool in hours together. Hose A alone fills it in hours. How long would hose B alone take?    .    hours.   "
+},
+{
+  "id": "subsection-work-problems-10",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-work-problems-10",
+  "type": "Checkpoint",
+  "number": "5.7.6",
+  "title": "Sue and Bob.",
+  "body": " Sue and Bob   It would take Sue hours to paint a large room, and it would take Bob hours to paint the same room. If they work together, how long would it take them to complete the job?    .    hours.   "
+},
+{
+  "id": "subsection-work-problems-11",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-work-problems-11",
+  "type": "Checkpoint",
+  "number": "5.7.7",
+  "title": "Three Workers.",
+  "body": " Three Workers   One worker takes hours to do a job. A second worker can do the same job in hours. When a third worker is added, it takes the three of them hours to do the job. How long would it take the third worker to do the job alone?    .    hours.   "
+},
+{
+  "id": "subsection-work-problems-12",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-work-problems-12",
+  "type": "Checkpoint",
+  "number": "5.7.8",
+  "title": "Jane and Anna.",
+  "body": " Jane and Anna   Jane works twice as fast as her daughter Anna. If it takes minutes to clean the kitchen together, how long would it take Anna to clean the kitchen by herself?    , where is Anna's time in minutes.    minutes.   "
+},
+{
+  "id": "subsection-work-problems-13",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-work-problems-13",
+  "type": "Checkpoint",
+  "number": "5.7.9",
+  "title": "Ken and Hans.",
+  "body": " Ken and Hans   Ken takes hours longer to assemble a motor than Hans. When working together, it takes them hours to assemble the motor. How long would it take Ken to do the job alone?    , where is Hans's time in hours.    Ken would take hours alone (Hans would take hours).   "
+},
+{
+  "id": "subsection-work-problems-14",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-work-problems-14",
+  "type": "Checkpoint",
+  "number": "5.7.10",
+  "title": "Brick Layer.",
+  "body": " Brick Layer   A brick layer can build a wall in hours, and his apprentice would need hours to build the same wall. When they work together, the apprentice works hours longer than the brick layer. How many hours does each work?    , where is the brick layer's working time in hours.    The brick layer works hours and the apprentice works hours.   "
+},
+{
+  "id": "subsection-work-problems-15",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-work-problems-15",
+  "type": "Checkpoint",
+  "number": "5.7.11",
+  "title": "Taps and Drain.",
+  "body": " Taps and Drain   A cold water tap can fill a tub in minutes, and a hot water tap can fill the tub in minutes. A drain can empty a full tub in minutes. If both taps are on and the drain is open, how long will it take to fill the tub?    .    min.   "
+},
+{
+  "id": "subsection-work-problems-16",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-work-problems-16",
+  "type": "Checkpoint",
+  "number": "5.7.12",
+  "title": "Stuart and Lucy.",
+  "body": " Stuart and Lucy   When they work together, Stuart and Lucy can deliver flyers to all the homes in their neighbourhood in minutes. When Lucy works alone, she can finish the deliveries in minutes less time than Stuart can when he works alone. When Stuart works alone, how long does he take to deliver the flyers?    , where is Stuart's time in minutes.    Stuart takes minutes alone (Lucy takes minutes).   "
+},
+{
+  "id": "subsection-work-problems-17",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-work-problems-17",
+  "type": "Checkpoint",
+  "number": "5.7.13",
+  "title": "Harvesting Wheat.",
+  "body": " Harvesting Wheat   Nikita can harvest her wheat crop in hours. Her neighbour's combine can do it in hours. How long will both machines take together?    .    They will take hours working together.   "
+},
+{
+  "id": "subsection-work-problems-18",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-work-problems-18",
+  "type": "Checkpoint",
+  "number": "5.7.14",
+  "title": "Lyle’s Bathtub.",
+  "body": " Lyle's Bathtub   Lyle can fill the bathtub using the cold water tap in minutes. When both the hot and cold water taps are fully open, he can fill the bathtub in minutes. How long would it take Lyle to fill the bathtub using only the hot water tap?    .    minutes.   "
+},
+{
+  "id": "subsection-work-problems-19",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-work-problems-19",
+  "type": "Checkpoint",
+  "number": "5.7.15",
+  "title": "Staining a Deck.",
+  "body": " Staining a Deck   A painter can stain a deck using a sprayer in hours. When two people work together, one using the sprayer and the other using a brush, they can finish the job in hours. How long would it take one person to stain the deck using only a brush?    .    hours.   "
+},
+{
+  "id": "subsection-work-problems-20",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-work-problems-20",
+  "type": "Checkpoint",
+  "number": "5.7.16",
+  "title": "Cleaning the Garage.",
+  "body": " Cleaning the Garage   Jenny can clean out the garage in hours. When her son helps, they can clean out the garage in hours. How long would it take Jenny’s son to clean out the garage on his own?    .    hours.   "
+},
+{
+  "id": "subsection-work-problems-21",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-work-problems-21",
+  "type": "Checkpoint",
+  "number": "5.7.17",
+  "title": "Marcy and Apprentice.",
+  "body": " Marcy and Apprentice   It takes Marcy’s apprentice hours longer to build a deck than it takes Marcy. When they work together, they can build the deck in hours. How long would it take each person to build the deck working alone?    .    Marcy takes hours and her apprentice takes hours.   "
+},
+{
+  "id": "subsection-work-problems-22",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-work-problems-22",
+  "type": "Checkpoint",
+  "number": "5.7.18",
+  "title": "Three Warehouse Employees.",
+  "body": " Three Warehouse Employees   Three employees work at a shipping warehouse. Tom fills an order in minutes, Paco in minutes, and Carl in minutes. Tom and Paco together take minute seconds to fill an order, and Paco and Carl together take minute seconds. How long does each person take, and how long will all three together take to fill one order?    and .    Tom takes minutes, Paco takes minutes, Carl takes minutes, and all three together take minutes.   "
+},
+{
+  "id": "subsection-relative-speed-2",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-relative-speed-2",
+  "type": "Example",
+  "number": "5.7.19",
+  "title": "Jess and Sarah.",
+  "body": " Jess and Sarah  Jess can run miles per hour faster than her sister Sarah can walk. If Jess ran miles in the same time it took Sarah to walk miles, what is the speed of each sister?  We want to find the speed of each sister, so we can let be the speed of one sister, and then the other one differs by 3. Let be Sarah's speed. Then, Jess's speed is 3 mi\/h more, so it's (Note that you could have instead let be Jess's speed, and then Sarah would be ). We know they took the same amount of time, so,   Then, remember how speed, distance, and time are related by (or , or ). We'll use here because we want time.   To solve, clear denominators by multiplying by (the LCD),   Therefore, Sarah's speed is 6 mi\/h, and Jess's speed is 3 mi\/h faster, so it is 9 mi\/h.  "
+},
+{
+  "id": "subsection-relative-speed-5",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-relative-speed-5",
+  "type": "Remark",
+  "number": "5.7.20",
+  "title": "",
+  "body": " You may remember these relationships from this triangle (the distance speed time triangle, or DST triangle):     "
+},
+{
+  "id": "subsection-relative-speed-6",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-relative-speed-6",
+  "type": "Checkpoint",
+  "number": "5.7.21",
+  "title": "Two Cyclists.",
+  "body": " Two Cyclists   One cyclist averages km\/h faster than a second cyclist. The faster cyclist rode km in the same time the slower cyclist rode km. What was the average speed of each cyclist?    .    The faster cyclist averaged km\/h and the slower cyclist averaged km\/h.   "
+},
+{
+  "id": "subsection-relative-speed-7",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-relative-speed-7",
+  "type": "Checkpoint",
+  "number": "5.7.22",
+  "title": "Family Reunion.",
+  "body": " Family Reunion   John's family travels km from their home to a family reunion. His cousin Susan and her family take the same amount of time to travel km from their home. One of the vehicles travels km\/h faster than the other. Determine the speed of both vehicles.    .    John's family travels at km\/h and Susan's family travels at km\/h.   "
+},
+{
+  "id": "subsection-relative-speed-8",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-relative-speed-8",
+  "type": "Checkpoint",
+  "number": "5.7.23",
+  "title": "Delivery Routes.",
+  "body": " Delivery Routes   Driver A and B have two different delivery routes. Driver A's route is km, and driver B's route is km. Driver B travels km\/h faster than driver A and finishes minutes earlier. What are the speeds of each driver?    .    Driver A's speed is km\/h and driver B's speed is km\/h.   "
+},
+{
+  "id": "subsection-relative-speed-9",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-relative-speed-9",
+  "type": "Checkpoint",
+  "number": "5.7.24",
+  "title": "Ted’s Drive.",
+  "body": " Ted's Drive   Ted drove km west at km\/h slower than when he drove km east. His westward trip took minutes longer. Find his speeds.    .    Ted’s speed was km\/h east and km\/h west.   "
+},
+{
+  "id": "subsection-relative-speed-10",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-relative-speed-10",
+  "type": "Checkpoint",
+  "number": "5.7.25",
+  "title": "Ann and Ray.",
+  "body": " Ann and Ray   Ann and Ray each ride km. Ann starts minute earlier, and Ray rides km\/h faster. They finish at the same time. Find Ann’s speed.    .    Ann rides km\/h and Ray rides km\/h.   "
+},
+{
+  "id": "subsection-relative-speed-11",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-relative-speed-11",
+  "type": "Checkpoint",
+  "number": "5.7.26",
+  "title": "Bronwyn and Aaron.",
+  "body": " Bronwyn and Aaron   Bronwyn rides her electric bicycle km\/h faster than Aaron. Bronwyn can travel km in the same time that it takes Aaron to travel km. Determine Bronwyn’s average speed and Aaron’s average speed.    .    Aaron’s speed is km\/h and Bronwyn’s speed is km\/h.   "
+},
+{
+  "id": "subsection-relative-speed-12",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-relative-speed-12",
+  "type": "Checkpoint",
+  "number": "5.7.27",
+  "title": "Cows Travelling.",
+  "body": " Cows Travelling   Cows travelled km to Forde Lake, taking days longer than travelling km beyond the lake. They travelled km\/h slower before the lake. What was their speed beyond the lake?    .    Their speed beyond the lake was about km\/h.   "
+},
+{
+  "id": "subsection-relative-speed-13",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-relative-speed-13",
+  "type": "Checkpoint",
+  "number": "5.7.28",
+  "title": "Airplane and Car.",
+  "body": " Airplane and Car   The average speed of an airplane is ten times that of a car. It takes the airplane hours less than the car to travel km. Determine the average speeds of the airplane and the car.    .    The car’s speed is km\/h and the airplane’s speed is km\/h.   "
+},
+{
+  "id": "subsection-relative-speed-14",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-relative-speed-14",
+  "type": "Checkpoint",
+  "number": "5.7.29",
+  "title": "Henry and Brandon.",
+  "body": " Henry and Brandon   Henry’s average running speed is km\/h greater than Brandon’s. In a -km practice race, Brandon finished minutes behind Henry. Determine the average running speed of each person.    .    Brandon’s speed is approximately km\/h and Henry’s speed is approximately km\/h.   "
+},
+{
+  "id": "subsection-current-wind-2",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-current-wind-2",
+  "type": "Example",
+  "number": "5.7.30",
+  "title": "Kayaking.",
+  "body": " Kayaking  You are kayaking on a river. You start paddling from a dock km upstream to a campsite, then immediately turns around and paddles km back downstream to the dock. The river’s current flows at km\/h. The total time for the trip is hours. What is your paddling speed in still water?  Let be your speed in still water. Then, your speed upstream is , because the 2 km\/h current is pushing you backwards. Similarly, your speed downstream is , because the 2 km\/h current is helping you go faster. Then, the total time for the trip is 3 hours, so,   Then, to calculate time, use ,   To solve, multiply both sides by (the LCD),   We keep only the positive solution, because paddling speed can't be negative. Therefore, your paddling speed in still water is 6 km\/h.  If you like, to help organize the information, you can also make a table, with the distance, rate, and time going upstream and downstream,   "
+},
+{
+  "id": "subsection-current-wind-3",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-current-wind-3",
+  "type": "Checkpoint",
+  "number": "5.7.31",
+  "title": "Two Kayakers.",
+  "body": " Two Kayakers   Two kayakers paddle km downstream with the current in the same time it takes them to go km upstream against the current. The rate of the current is km\/h. Find their speed in still water.    .    km\/h.   "
+},
+{
+  "id": "subsection-current-wind-4",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-current-wind-4",
+  "type": "Checkpoint",
+  "number": "5.7.32",
+  "title": "River Current Expressions.",
+  "body": " River Current Expressions   The current of a river is miles per hour. A boat's speed in still water is miles per hour. Write expressions for the time to travel miles downriver, the time to travel miles upriver, and the difference between these times.    Use with speeds and .    (a) downriver: hours, (b) upriver: hours, (c) difference: hours.   "
+},
+{
+  "id": "subsection-current-wind-5",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-current-wind-5",
+  "type": "Checkpoint",
+  "number": "5.7.33",
+  "title": "Round Trip Flight.",
+  "body": " Round Trip Flight   A plane flies miles with the wind and then miles against the wind. The wind speed is miles per hour. If the total travel time for the round trip is hours, what is the speed of the plane in still air?    .    mi\/h.   "
+},
+{
+  "id": "subsection-current-wind-6",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-current-wind-6",
+  "type": "Checkpoint",
+  "number": "5.7.34",
+  "title": "Rose Paddling.",
+  "body": " Rose Paddling   Rose paddles at a speed of km\/h in still water. She travels km upstream, and it takes her hour longer than it does to paddle the same distance downstream. Find the speed of the current in the river.    .    km\/h.   "
+},
+{
+  "id": "subsection-current-wind-7",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-current-wind-7",
+  "type": "Checkpoint",
+  "number": "5.7.35",
+  "title": "Boat Travel.",
+  "body": " Boat Travel   A boat can travel at km\/h in still water. The boat travels km upstream (against the current) then turns around and travels the same distance back (with the current). The total trip took hours. Find the speed of the current.    .    km\/h.   "
+},
+{
+  "id": "subsection-current-wind-8",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-current-wind-8",
+  "type": "Checkpoint",
+  "number": "5.7.36",
+  "title": "River Town Trip.",
+  "body": " River Town Trip   The speed of the current in a river is km\/h. A boat made a round trip to a town km away in a total of hours. What was the speed of the boat in still water?    .    km\/h.   "
+},
+{
+  "id": "subsection-current-wind-9",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-current-wind-9",
+  "type": "Checkpoint",
+  "number": "5.7.37",
+  "title": "Canoe Trip.",
+  "body": " Canoe Trip   The time it takes for a canoe to go miles upstream and back miles downstream is hours. The current in the lake is mile per hour. Find the average speed of the canoe in still water.    .    The canoe’s speed in still water is miles per hour.   "
+},
+{
+  "id": "subsection-current-wind-10",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-current-wind-10",
+  "type": "Checkpoint",
+  "number": "5.7.38",
+  "title": "Plane Against Wind.",
+  "body": " Plane Against Wind   A plane travels km against the wind and then km with the wind in the same time. The wind speed is km\/h. Find the speed of the plane in still air.    .    km\/h.   "
+},
+{
+  "id": "subsection-current-wind-11",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-current-wind-11",
+  "type": "Checkpoint",
+  "number": "5.7.39",
+  "title": "Head Wind and Tail Wind.",
+  "body": " Head Wind and Tail Wind   A plane is flying km each way. Its air speed (speed in still air) on both trips is km\/h. On the flight there, there is a tail wind, and on the way back there is a head wind. Calculate the total time for the round trip for a wind speed of km\/h and for a wind speed of km\/h.    For wind speed , use .    For km\/h, hours; for km\/h, hours.   "
+},
+{
+  "id": "subsection-current-wind-12",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-current-wind-12",
+  "type": "Checkpoint",
+  "number": "5.7.40",
+  "title": "Downstream and Upstream.",
+  "body": " Downstream and Upstream   A boat travels km downstream in the same time it travels km upstream. The current is km\/h. Find the boat’s speed in still water.    .    The boat’s still-water speed is km\/h.   "
+},
+{
+  "id": "subsection-current-wind-13",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-current-wind-13",
+  "type": "Checkpoint",
+  "number": "5.7.41",
+  "title": "Boat Current.",
+  "body": " Boat Current   A boat travels km downstream in the same time it takes to travel km upstream. If the current flows at km\/h, what is the speed of the boat in still water?    .    The speed of the boat in still water is km\/h.   "
+},
+{
+  "id": "subsection-current-wind-14",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-current-wind-14",
+  "type": "Checkpoint",
+  "number": "5.7.42",
+  "title": "Boat Speed.",
+  "body": " Boat Speed   The speed of a boat in still water is mph. The boat travels miles upstream and back downstream in a total of hours. What is the speed of the current?    .    The speed of the current is mph.   "
+},
+{
+  "id": "subsection-current-wind-15",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-current-wind-15",
+  "type": "Checkpoint",
+  "number": "5.7.43",
+  "title": "Friends Canoeing.",
+  "body": " Friends Canoeing   Two friends paddle a canoe at km\/h in still water. They travel km upstream and then km back downstream in a total of hour. Find the speed of the current.    .    km\/h.   "
+},
+{
+  "id": "subsection-current-wind-16",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-current-wind-16",
+  "type": "Checkpoint",
+  "number": "5.7.44",
+  "title": "Average Current Speed.",
+  "body": " Average Current Speed   A boat travels km upstream in the same time that it takes the boat to travel km downstream. The average speed of the current is km\/h. What is the average speed of the boat in still water?    .    km\/h.   "
+},
+{
+  "id": "subsection-avg-speed-2",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-avg-speed-2",
+  "type": "Checkpoint",
+  "number": "5.7.45",
+  "title": "Driving to Work.",
+  "body": " Driving to Work   A woman drives to work at an average speed of mph. The average speed of the return trip home is mph. What is the average speed for the round trip?    , and cancels out.    mph.   "
+},
+{
+  "id": "subsection-avg-speed-3",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-avg-speed-3",
+  "type": "Checkpoint",
+  "number": "5.7.46",
+  "title": "Jessica’s Trip.",
+  "body": " Jessica's Trip   On a km round trip, Jessica averages km\/h to her destination and km\/h returning. What is the average speed for the entire trip?    .    km\/h.   "
+},
+{
+  "id": "subsection-avg-speed-4",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-avg-speed-4",
+  "type": "Checkpoint",
+  "number": "5.7.47",
+  "title": "Priya’s Store Run.",
+  "body": " Priya's Store Run   Priya decides to go to the store which is km from her house. She first ran at a rate of km\/h, then walked the rest of the trip at a speed of km\/h. If the total trip took hours, how many kilometers did she walk?    .    km.   "
+},
+{
+  "id": "subsection-avg-speed-5",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-avg-speed-5",
+  "type": "Checkpoint",
+  "number": "5.7.48",
+  "title": "Reading a Book.",
+  "body": " Reading a Book   You have days to read a -page book. After reading half, you need to increase your reading rate by pages\/day to finish on time. What was your initial rate?    if the initial rate is then .    pages\/day.   "
+},
+{
+  "id": "subsection-avg-speed-6",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-avg-speed-6",
+  "type": "Checkpoint",
+  "number": "5.7.49",
+  "title": "Round Trip Speed.",
+  "body": " Round Trip Speed   A car travels to work at km\/h and returns at km\/h. Find the average speed for the round trip.    .    The average speed is km\/h.   "
+},
+{
+  "id": "subsection-avg-speed-7",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-avg-speed-7",
+  "type": "Checkpoint",
+  "number": "5.7.50",
+  "title": "Ann Cycling.",
+  "body": " Ann Cycling   Ann cycles km to return a friend’s bicycle. She then walks home. Her total time for the trip is minutes. Ann cycles four times as fast as she walks. Determine Ann’s average speeds for walking and for cycling.    .    Ann’s walking speed is km\/h and her cycling speed is km\/h.   "
+},
+{
+  "id": "subsection-number-reciprocals-3",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-number-reciprocals-3",
+  "type": "Checkpoint",
+  "number": "5.7.51",
+  "title": "Sum of Reciprocals 1.",
+  "body": " Sum of Reciprocals 1   The sum of the reciprocals of two consecutive numbers is equal to . Find the two numbers.    5 and 6.   "
+},
+{
+  "id": "subsection-number-reciprocals-4",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-number-reciprocals-4",
+  "type": "Checkpoint",
+  "number": "5.7.52",
+  "title": "Sum of Reciprocals 2.",
+  "body": " Sum of Reciprocals 2   The sum of two numbers is 25, and the sum of their reciprocals is . Find the two numbers.    .    5 and 20.   "
+},
+{
+  "id": "subsection-number-reciprocals-5",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-number-reciprocals-5",
+  "type": "Checkpoint",
+  "number": "5.7.53",
+  "title": "Sum of Reciprocals 3.",
+  "body": " Sum of Reciprocals 3   The sum of two numbers is 12, and the sum of their reciprocals is . Find the two numbers.    4 and 8.   "
+},
+{
+  "id": "subsection-number-reciprocals-6",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-number-reciprocals-6",
+  "type": "Checkpoint",
+  "number": "5.7.54",
+  "title": "Reciprocal of Smallest.",
+  "body": " Reciprocal of Smallest   Find the value(s) of in the numbers , , and such that the reciprocal of the smallest number equals the sum of the reciprocals of the other two numbers.    .    or .   "
+},
+{
+  "id": "subsection-number-reciprocals-7",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-number-reciprocals-7",
+  "type": "Checkpoint",
+  "number": "5.7.55",
+  "title": "Sum of Integers.",
+  "body": " Sum of Integers   The sum of two integers is , and the difference in their reciprocals is . Find the two integers.    and .   "
+},
+{
+  "id": "subsection-number-reciprocals-8",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-number-reciprocals-8",
+  "type": "Checkpoint",
+  "number": "5.7.56",
+  "title": "Difference of Reciprocals.",
+  "body": " Difference of Reciprocals   A natural number is more than another natural number. When the reciprocal of the greater number is subtracted from the reciprocal of the lesser number, the difference is . What are the two numbers?    .    and .   "
+},
+{
+  "id": "subsection-number-reciprocals-9",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-number-reciprocals-9",
+  "type": "Checkpoint",
+  "number": "5.7.57",
+  "title": "Number and Reciprocal 1.",
+  "body": " Number and Reciprocal 1   The sum of a number and its reciprocal is . Find the number.    .    or .   "
+},
+{
+  "id": "subsection-number-reciprocals-10",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-number-reciprocals-10",
+  "type": "Checkpoint",
+  "number": "5.7.58",
+  "title": "Integer and Reciprocal.",
+  "body": " Integer and Reciprocal   The sum of an integer and its reciprocal is . Find the integer.    .    .   "
+},
+{
+  "id": "subsection-number-reciprocals-11",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-number-reciprocals-11",
+  "type": "Checkpoint",
+  "number": "5.7.59",
+  "title": "Consecutive Integers 1.",
+  "body": " Consecutive Integers 1   Find two consecutive integers whose reciprocals add to .    .    and .   "
+},
+{
+  "id": "subsection-number-reciprocals-12",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-number-reciprocals-12",
+  "type": "Checkpoint",
+  "number": "5.7.60",
+  "title": "Consecutive Odd Integers.",
+  "body": " Consecutive Odd Integers   Find two consecutive odd integers whose reciprocals add to .    .    and .   "
+},
+{
+  "id": "subsection-number-reciprocals-13",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-number-reciprocals-13",
+  "type": "Checkpoint",
+  "number": "5.7.61",
+  "title": "Consecutive Even Integers.",
+  "body": " Consecutive Even Integers   Find two consecutive even integers whose reciprocals add to .    .    and .   "
+},
+{
+  "id": "subsection-number-reciprocals-14",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-number-reciprocals-14",
+  "type": "Checkpoint",
+  "number": "5.7.62",
+  "title": "Quotient Problem.",
+  "body": " Quotient Problem   The quotient of a number and minus is the quotient of the number and . Find the number.    .    .   "
+},
+{
+  "id": "subsection-number-reciprocals-15",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-number-reciprocals-15",
+  "type": "Checkpoint",
+  "number": "5.7.63",
+  "title": "Product and Reciprocal.",
+  "body": " Product and Reciprocal   A number added to the product of and the reciprocal of the number is . Find the number.    .    or .   "
+},
+{
+  "id": "subsection-number-reciprocals-16",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-number-reciprocals-16",
+  "type": "Checkpoint",
+  "number": "5.7.64",
+  "title": "Complex Ratio.",
+  "body": " Complex Ratio   If times the reciprocal of a number is added to the ratio of times the number minus and the number plus , the result is . What is the number?    .    or .   "
+},
+{
+  "id": "subsection-number-reciprocals-17",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-number-reciprocals-17",
+  "type": "Checkpoint",
+  "number": "5.7.65",
+  "title": "Number and Twice Reciprocal.",
+  "body": " Number and Twice Reciprocal   The sum of a number and twice its reciprocal is . Find the number.    .    or .   "
+},
+{
+  "id": "subsection-mixture-problems-2",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-mixture-problems-2",
+  "type": "Checkpoint",
+  "number": "5.7.66",
+  "title": "Acid Solution 1.",
+  "body": " Acid Solution 1   Suppose that mL of pure acid are added to mL of a acid solution. How many mL of pure acid must be added to produce a new solution that is acid?    .    mL.   "
+},
+{
+  "id": "subsection-mixture-problems-3",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-mixture-problems-3",
+  "type": "Checkpoint",
+  "number": "5.7.67",
+  "title": "Acid Solution 2.",
+  "body": " Acid Solution 2   How much pure acid must be added to mL of a acid solution to produce a mixture that is acid?    .    mL.   "
+},
+{
+  "id": "subsection-mixture-problems-4",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-mixture-problems-4",
+  "type": "Checkpoint",
+  "number": "5.7.68",
+  "title": "Bleach Solution.",
+  "body": " Bleach Solution   How much bleach should be added to L of water to make a solution that is bleach?    .    L.   "
+},
+{
+  "id": "subsection-mixture-problems-5",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-mixture-problems-5",
+  "type": "Checkpoint",
+  "number": "5.7.69",
+  "title": "Acid Solution 3.",
+  "body": " Acid Solution 3   What volume of pure acid must be added to mL of a acid solution to obtain a solution that is acid?    .    mL.   "
+},
+{
+  "id": "subsection-misc-problems-2",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-misc-problems-2",
+  "type": "Checkpoint",
+  "number": "5.7.70",
+  "title": "Box Dimensions.",
+  "body": " Box Dimensions   A company makes a box with a square base of side length cm and a volume of cm . The company wants to redesign the box with a smaller base.    If the length of the base decreases by cm, write an expression for the new height of the box.    Write an expression for the increase in height of the box.    If the base becomes a cm square, find the increase in height.        .    .    cm. (Hint: if the base length is 12 cm, what is ?)     "
+},
+{
+  "id": "subsection-misc-problems-3",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-misc-problems-3",
+  "type": "Checkpoint",
+  "number": "5.7.71",
+  "title": "Golf Range.",
+  "body": " Golf Range   Jacob is a junior member of a local golf driving range. He pays $15 per month to use the range, and pays $1 per bucket of balls.    If Jacob hits buckets of balls in one month, write an expression that represents how much he would pay per month.    Write an expression that represents the actual cost per bucket for a month (including the monthly fee).    Write and solve an equation to determine the number of buckets of balls Jacob would have to hit in a month for the actual cost per bucket to be $1.25.        .    .    60 buckets. (Hint: )     "
+},
+{
+  "id": "subsection-misc-problems-4",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-misc-problems-4",
+  "type": "Checkpoint",
+  "number": "5.7.72",
+  "title": "T-Shirt Sales.",
+  "body": " T-Shirt Sales   Rima bought a case of concert T-shirts for $450. She kept two T-shirts for herself and sold the rest for $560, making a profit of $10 on each T-shirt. How many T-shirts were in the case?    18 T-shirts.   "
+},
+{
+  "id": "subsection-misc-problems-5",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-misc-problems-5",
+  "type": "Checkpoint",
+  "number": "5.7.73",
+  "title": "French Club.",
+  "body": " French Club   A French club collected the same amount of money from each student for a trip. Six students cancelled, so each remaining student paid $3 extra. The total cost was $540. How many students went on the trip?    students.   "
+},
+{
+  "id": "subsection-misc-problems-6",
+  "level": "2",
+  "url": "sec-word-problems-with-rational-equations.html#subsection-misc-problems-6",
+  "type": "Checkpoint",
+  "number": "5.7.74",
+  "title": "Polygon Angles.",
+  "body": " Polygon Angles   The measure (in degrees) of each angle in a regular polygon with sides is given by the equation . When each angle in a regular polygon is , how many sides does the polygon have?    .    sides.   "
+},
+{
   "id": "sec-oblique-triangles-summary",
   "level": "1",
   "url": "sec-oblique-triangles-summary.html",

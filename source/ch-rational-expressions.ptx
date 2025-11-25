@@ -14,5 +14,6 @@
   <xi:include href="./sec-adding-and-subtracting-rational-expressions.ptx" />
   <xi:include href="./sec-mixed-operations.ptx" />
   <xi:include href="./sec-solving-rational-equations.ptx" />
+  <xi:include href="./sec-word-problems-with-rational-equations.ptx" />
 
 </chapter>
