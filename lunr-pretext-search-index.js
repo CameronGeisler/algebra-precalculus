@@ -3203,6 +3203,15 @@ var ptx_lunr_docs = [
   "number": "14.1.3",
   "title": "Solving with the Zeros Method.",
   "body": " Solving with the Zeros Method  Solve the equation . Using the intersection method , there is 1 intersection visible, but there is another intersection that is only visible if you zoom out a lot. Instead, using the zeros method, move all terms to one side, to get . Then, graphing this function , you can more easily see the 2 zeros of the graph, which are the solutions.  "
+},
+{
+  "id": "sec-word-problem-solving-strategy",
+  "level": "1",
+  "url": "sec-word-problem-solving-strategy.html",
+  "type": "Section",
+  "number": "14.2",
+  "title": "Word Problem Solving Strategy",
+  "body": " Word Problem Solving Strategy      What do you want to find? What do you know? How can you connect them?     What do you want to find? Give it a name (notation), like . Try to use variable names that match what they represent. E.g. for time use , for distance use , for height use , for the number of people use or .     What do you know? Note all the key information, underline it. Especially the numbers in the problem. Word problems often contain fluff and context that doesn't really affect the problem.     How can you connect them? What equations include both what you want to find and what you know? What formula includes what you're trying to find? There must be some connection between what you're trying to find, and what you know. Is there a theorem or formula that could be helpful?  E.g. if you want to find the area of a triangle, what formula gives you that? .       Sketch a diagram . For many problems, the relationships are much more easily noticed visually. Label the quantities in your diagram, both variables and numbers.  Students often struggle with drawing pictures of the problem. Unfortunately, the only way to improve at this is to practice. Sometimes, it's because they don't understand the terminology involved. On the other hand, sometimes you have to do trial and error, draw and then realize something is wrong, erase and redraw again.     Try to check your answer (ideally) . For equations, you can substitute back in. Does the answer make sense? It is reasonable? What units does it have?     Some notes:     You should always keep in mind what you want to find, i.e. the goal of the problem. Students often overemphasize the knowns of the problem, and then get stuck because they don't know how to use those knowns to do anything. Begin with the end in mind.    In your final answer, don't forget units!      "
 }
 ]
 
