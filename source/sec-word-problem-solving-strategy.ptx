@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-word-problem-solving-strategy" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Word Problem Solving Strategy</title>
+  
+  <introduction>
+    <p>
+      <ul>
+        <li>
+          <p>
+            What do you want to find? What do you know? How can you connect them?
+          </p>
+          <ul>
+            <li>
+              <p>
+                <alert>What do you want to find?</alert> Give it a name (notation), like <m>x</m>. Try to use variable names that match what they represent. E.g. for time use <m>t</m>, for distance use <m>d</m>, for height use <m>h</m>, for the number of people use <m>p</m> or <m>n</m>.
+              </p>
+            </li>
+            <li>
+              <p>
+                <alert>What do you know?</alert> Note all the key information, underline it. Especially the numbers in the problem. Word problems often contain fluff and context that doesn't really affect the problem.
+              </p>
+            </li>
+            <li>
+              <p>
+                <alert>How can you connect them?</alert> What equations include both what you want to find and what you know? What formula includes what you're trying to find? There must be some connection between what you're trying to find, and what you know. Is there a theorem or formula that could be helpful?
+              </p>
+              <p>
+                E.g. if you want to find the area of a triangle, what formula gives you that? <m>A = \frac{1}{2} b h</m>.
+              </p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>
+            <alert>Sketch a diagram</alert>. For many problems, the relationships are much more easily noticed visually. Label the quantities in your diagram, both variables and numbers.
+          </p>
+          <p>
+            Students often struggle with drawing pictures of the problem. Unfortunately, the only way to improve at this is to practice. Sometimes, it's because they don't understand the terminology involved. On the other hand, sometimes you have to do trial and error, draw and then realize something is wrong, erase and redraw again.
+          </p>
+        </li>
+        <li>
+          <p>
+            <alert>Try to check your answer (ideally)</alert>. For equations, you can substitute back in. Does the answer make sense? It is reasonable? What units does it have?
+          </p>
+        </li>
+      </ul>
+    </p>
+    
+    <p>
+      Some notes:
+    </p>
+    <p>
+      <ul>
+        <li>
+          <p>
+            You should always keep in mind what you want to find, i.e. the goal of the problem. Students often overemphasize the knowns of the problem, and then get stuck because they don't know how to use those knowns to do anything. Begin with the end in mind.
+          </p>
+        </li>
+        <li>
+          <p>
+            In your final answer, don't forget units!
+          </p>
+        </li>
+      </ul>
+    </p>
+  </introduction>
+  
+  
+</section>
