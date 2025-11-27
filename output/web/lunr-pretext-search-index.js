@@ -3778,70 +3778,133 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "12.4",
   "title": "Double-Angle Identities",
-  "body": " Double-Angle Identities   Identities about double angles can be derived from the sum and difference identities.   These are expressions for the trigonometric ratios of double angles, ( , and ), in terms of their associated single angles ( , and ).    Finding Exact Value Examples   Practice: Evaluate Using Double-Angle Identity   Evaluate each expression exactly, using a double-angle identity.           Practice: Expand Double-Angle Identity   Expand each double-angle identity.         Practice: Find Exact Value from Given Information   Find the exact value of each trigonometric ratio, from the given information.   If , where , then find and  Let and . Find and  Let be an angle in quadrant III with . find and  If and is in quadrant III, find and  If and . Find and     Simplify Using Double-Angle Identities   Practice: Simplify Using Double-Angle Identities   Simplify each expression as a single trigonometric function.        choose the double angle for cosine which cancels out the 1 in the denominator   choose the double angle for cosine which cancels out the in the numerator   choose the double angle for cosine which cancels out the in the numerator      use a double-angle identity, do not expand     Equations Using Double-Angle Identities   Practice: Solve Equations Using Double-Angle Identities   Solve each equation, by finding all solutions in the interval and the general solution.   . General solution: .  . General solution: .  . General solution: .  . General solution: .  . General solution: .  . General solution: .  . General solution: .  . General solution: .  . General solution: .  . General solution: .  . General solution: .  . General solution: .  . General solution: .     Proving Identities with Double Angles   Practice: Prove Double-Angle Identities   Prove each trigonometric identity.   Pythagorean identity, double-angle identity  reciprocal identity, double-angle identity  start with both sides, double-angle identity, clear denominators, cancel  convert to sine and cosine, clear denominators, Pythagorean identity, double-angle identity  double-angle identities, cancel and simplify  double-angle identity, reciprocal identity  double-angle identities, cancel  expand, Pythagorean identity, double-angle identity  double-angle identity (with )  start with the RHS but also consider the LHS, double-angle identity, factor quadratic trinomial, cancel, quotient identity, reciprocal identity        Other Examples   Find tan(2x) from a Relation   If and , find .        "
+  "body": " Double-Angle Identities   Identities about double angles can be derived from the sum and difference identities.   These are expressions for the trigonometric ratios of double angles ( , and ), in terms of their associated single angles ( , and ).    Finding Exact Value Examples   Evaluate Expressions Exactly   Evaluate each expression exactly, using a double-angle identity.                             Expand Expressions   Expand each expression, using a double-angle identity.     ( is double )      ( is double )                Exact Values with Variable Angles   Find Exact Values from Information   Find the exact value of each trigonometric ratio, from the given information.    If , where , then find and .     Let and . Find and .     Let be an angle in quadrant III with . find and .     If and is in quadrant III, find and .     If and . Find and .     If and is in quadrant III, find .       Simplify Using Double-Angle Identities   Simplify Expressions   Simplify each expression as a single trigonometric function.                         choose the double angle for cosine which cancels out the 1 in the denominator          choose the double angle for cosine which cancels out the in the numerator          choose the double angle for cosine which cancels out the in the numerator                      use a double-angle identity, do not expand                               Equations Using Double-Angle Identities   Solve Trigonometric Equations   Solve each equation, by finding all solutions in the interval .                                                          Proving Identities with Double Angles   Prove Trigonometric Identities   Prove each trigonometric identity.     Pythagorean identity, double-angle identity     reciprocal identity, double-angle identity     double-angle identity, reciprocal identity     double-angle identities, cancel     expand, Pythagorean identity, double-angle identity     double-angle identity     double-angle identity, rewrite in terms of sine and cosine, distribute, cancel common factors     double-angle identity, cancel common factors     Prove More Trigonometric Identities   Prove each trigonometric identity.     start with both sides, double-angle identity, clear denominators, cancel     convert to sine and cosine, clear denominators, Pythagorean identity, double-angle identity     work with both sides, double-angle identity, cancel common factors     work with both sides, rewrite in terms of tangent, simplify complex fraction by clearing denominators     work with both sides, double-angle identity, factor quadratic trinomial, cancel common factors, rewrite in terms of sine and cosine, combine fractions (or split fraction)     start with the LHS, double-angle identity, factor out common factor, cancel common factors, multiply by the conjugate     work with both sides, double-angle identity, cancel common factors, Pythagorean identity (or rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators)     work with both sides, double-angle identity, rewrite in terms of sine and cosine, distribute, Pythagorean identity      Advanced Examples   Geometric Mean  Find the geometric mean of and , in terms of only. Note: the geometric mean of two numbers and is .     Exact Value with Variables  Given that and is in quadrant , find the exact value of in terms of .      Tangent Expression  Given that and is in quadrant , find an expression for in terms of .  , and simplify the complex fraction     Double Angle Tangent  If and , find .  to find , divide both sides of the equation by      Proofs of Double-Angle Identities  The double-angle identities are derived from the sum and difference identities, by adding the same angle to itself.   Using the sum and difference identities, for   For ,   Then, for the 2nd form of the cosine identity, use the Pythagorean identity,   And, for the 3rd form,   Also, for ,      Triple-Angle Identities  We can also find expressions for and in terms of their associated single angles, using the sum and difference identities and the double-angle identities. In other words, triple-angle identities. We can think of as ,   Here, there are and . For , we have . For , there are 3 options, and we will choose , because we want the final expression to be in terms of cosine only.   We will replace , again because we want everything in terms of cosine only,   In summary,   Similarly, you can find that,    Sine Triple-Angle Identity Proof  Prove the identity .   We can also find an expression for in terms of its associated single angle, using the sum and difference identities and the double-angle identities. In other words, another triple-angle identity. We again think of as ,   Here, there are and . For , we have . For , there are 3 options, and we will choose , because we want the final expression to be in terms of sine only.   We will replace , again because we want everything in terms of sine only,     Similarly, we can find a tangent triple-angle identity,    Tangent Triple-Angle Identity Proof  Prove the identity .   We can also find an expression for in terms of its associated single angle, using the sum and difference identities and the double-angle identities. In other words, another triple-angle identity. We again think of as ,   Here, there is . For we have the double-angle identity   Then,   To simplify this complex fraction, clear denominators by multiplying the numerator and denominator by ,      "
 },
 {
-  "id": "subsec-finding-exact-value-examples-da-2",
+  "id": "project-evaluate-exact-expressions",
   "level": "2",
-  "url": "sec-double-angle-identities.html#subsec-finding-exact-value-examples-da-2",
+  "url": "sec-double-angle-identities.html#project-evaluate-exact-expressions",
   "type": "Exercise Group",
   "number": "12.4.1",
-  "title": "Practice: Evaluate Using Double-Angle Identity.",
-  "body": " Practice: Evaluate Using Double-Angle Identity   Evaluate each expression exactly, using a double-angle identity.         "
+  "title": "Evaluate Expressions Exactly.",
+  "body": " Evaluate Expressions Exactly   Evaluate each expression exactly, using a double-angle identity.                           "
 },
 {
-  "id": "subsec-finding-exact-value-examples-da-3",
+  "id": "project-expand-expressions",
   "level": "2",
-  "url": "sec-double-angle-identities.html#subsec-finding-exact-value-examples-da-3",
+  "url": "sec-double-angle-identities.html#project-expand-expressions",
   "type": "Exercise Group",
   "number": "12.4.2",
-  "title": "Practice: Expand Double-Angle Identity.",
-  "body": " Practice: Expand Double-Angle Identity   Expand each double-angle identity.       "
+  "title": "Expand Expressions.",
+  "body": " Expand Expressions   Expand each expression, using a double-angle identity.     ( is double )      ( is double )             "
 },
 {
-  "id": "subsec-finding-exact-value-examples-da-4",
+  "id": "project-exact-values-variables",
   "level": "2",
-  "url": "sec-double-angle-identities.html#subsec-finding-exact-value-examples-da-4",
+  "url": "sec-double-angle-identities.html#project-exact-values-variables",
   "type": "Exercise Group",
   "number": "12.4.3",
-  "title": "Practice: Find Exact Value from Given Information.",
-  "body": " Practice: Find Exact Value from Given Information   Find the exact value of each trigonometric ratio, from the given information.   If , where , then find and  Let and . Find and  Let be an angle in quadrant III with . find and  If and is in quadrant III, find and  If and . Find and  "
+  "title": "Find Exact Values from Information.",
+  "body": " Find Exact Values from Information   Find the exact value of each trigonometric ratio, from the given information.    If , where , then find and .     Let and . Find and .     Let be an angle in quadrant III with . find and .     If and is in quadrant III, find and .     If and . Find and .     If and is in quadrant III, find .    "
 },
 {
-  "id": "subsec-simplify-double-angle-2",
+  "id": "project-simplify-expressions",
   "level": "2",
-  "url": "sec-double-angle-identities.html#subsec-simplify-double-angle-2",
+  "url": "sec-double-angle-identities.html#project-simplify-expressions",
   "type": "Exercise Group",
   "number": "12.4.4",
-  "title": "Practice: Simplify Using Double-Angle Identities.",
-  "body": " Practice: Simplify Using Double-Angle Identities   Simplify each expression as a single trigonometric function.        choose the double angle for cosine which cancels out the 1 in the denominator   choose the double angle for cosine which cancels out the in the numerator   choose the double angle for cosine which cancels out the in the numerator      use a double-angle identity, do not expand  "
+  "title": "Simplify Expressions.",
+  "body": " Simplify Expressions   Simplify each expression as a single trigonometric function.                         choose the double angle for cosine which cancels out the 1 in the denominator          choose the double angle for cosine which cancels out the in the numerator          choose the double angle for cosine which cancels out the in the numerator                      use a double-angle identity, do not expand                            "
 },
 {
-  "id": "subsec-equations-double-angle-2",
+  "id": "project-solve-equations",
   "level": "2",
-  "url": "sec-double-angle-identities.html#subsec-equations-double-angle-2",
+  "url": "sec-double-angle-identities.html#project-solve-equations",
   "type": "Exercise Group",
   "number": "12.4.5",
-  "title": "Practice: Solve Equations Using Double-Angle Identities.",
-  "body": " Practice: Solve Equations Using Double-Angle Identities   Solve each equation, by finding all solutions in the interval and the general solution.   . General solution: .  . General solution: .  . General solution: .  . General solution: .  . General solution: .  . General solution: .  . General solution: .  . General solution: .  . General solution: .  . General solution: .  . General solution: .  . General solution: .  . General solution: .  "
+  "title": "Solve Trigonometric Equations.",
+  "body": " Solve Trigonometric Equations   Solve each equation, by finding all solutions in the interval .                                                       "
 },
 {
-  "id": "subsec-proving-identities-da-2",
+  "id": "project-proving-identities-1",
   "level": "2",
-  "url": "sec-double-angle-identities.html#subsec-proving-identities-da-2",
+  "url": "sec-double-angle-identities.html#project-proving-identities-1",
   "type": "Exercise Group",
   "number": "12.4.6",
-  "title": "Practice: Prove Double-Angle Identities.",
-  "body": " Practice: Prove Double-Angle Identities   Prove each trigonometric identity.   Pythagorean identity, double-angle identity  reciprocal identity, double-angle identity  start with both sides, double-angle identity, clear denominators, cancel  convert to sine and cosine, clear denominators, Pythagorean identity, double-angle identity  double-angle identities, cancel and simplify  double-angle identity, reciprocal identity  double-angle identities, cancel  expand, Pythagorean identity, double-angle identity  double-angle identity (with )  start with the RHS but also consider the LHS, double-angle identity, factor quadratic trinomial, cancel, quotient identity, reciprocal identity     "
+  "title": "Prove Trigonometric Identities.",
+  "body": " Prove Trigonometric Identities   Prove each trigonometric identity.     Pythagorean identity, double-angle identity     reciprocal identity, double-angle identity     double-angle identity, reciprocal identity     double-angle identities, cancel     expand, Pythagorean identity, double-angle identity     double-angle identity     double-angle identity, rewrite in terms of sine and cosine, distribute, cancel common factors     double-angle identity, cancel common factors   "
 },
 {
-  "id": "subsec-other-examples-da-2",
+  "id": "project-proving-identities-2",
   "level": "2",
-  "url": "sec-double-angle-identities.html#subsec-other-examples-da-2",
+  "url": "sec-double-angle-identities.html#project-proving-identities-2",
+  "type": "Exercise Group",
+  "number": "12.4.7",
+  "title": "Prove More Trigonometric Identities.",
+  "body": " Prove More Trigonometric Identities   Prove each trigonometric identity.     start with both sides, double-angle identity, clear denominators, cancel     convert to sine and cosine, clear denominators, Pythagorean identity, double-angle identity     work with both sides, double-angle identity, cancel common factors     work with both sides, rewrite in terms of tangent, simplify complex fraction by clearing denominators     work with both sides, double-angle identity, factor quadratic trinomial, cancel common factors, rewrite in terms of sine and cosine, combine fractions (or split fraction)     start with the LHS, double-angle identity, factor out common factor, cancel common factors, multiply by the conjugate     work with both sides, double-angle identity, cancel common factors, Pythagorean identity (or rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators)     work with both sides, double-angle identity, rewrite in terms of sine and cosine, distribute, Pythagorean identity   "
+},
+{
+  "id": "subsection-advanced-examples-2",
+  "level": "2",
+  "url": "sec-double-angle-identities.html#subsection-advanced-examples-2",
   "type": "Checkpoint",
   "number": "12.4.1",
-  "title": "Find tan(2x) from a Relation.",
-  "body": " Find tan(2x) from a Relation   If and , find .      "
+  "title": "Geometric Mean.",
+  "body": " Geometric Mean  Find the geometric mean of and , in terms of only. Note: the geometric mean of two numbers and is .   "
+},
+{
+  "id": "subsection-advanced-examples-3",
+  "level": "2",
+  "url": "sec-double-angle-identities.html#subsection-advanced-examples-3",
+  "type": "Checkpoint",
+  "number": "12.4.2",
+  "title": "Exact Value with Variables.",
+  "body": " Exact Value with Variables  Given that and is in quadrant , find the exact value of in terms of .    "
+},
+{
+  "id": "subsection-advanced-examples-4",
+  "level": "2",
+  "url": "sec-double-angle-identities.html#subsection-advanced-examples-4",
+  "type": "Checkpoint",
+  "number": "12.4.3",
+  "title": "Tangent Expression.",
+  "body": " Tangent Expression  Given that and is in quadrant , find an expression for in terms of .  , and simplify the complex fraction   "
+},
+{
+  "id": "subsection-advanced-examples-5",
+  "level": "2",
+  "url": "sec-double-angle-identities.html#subsection-advanced-examples-5",
+  "type": "Checkpoint",
+  "number": "12.4.4",
+  "title": "Double Angle Tangent.",
+  "body": " Double Angle Tangent  If and , find .  to find , divide both sides of the equation by   "
+},
+{
+  "id": "subsection-proofs-double-angle-3",
+  "level": "2",
+  "url": "sec-double-angle-identities.html#subsection-proofs-double-angle-3",
+  "type": "Proof",
+  "number": "12.4.7.1",
+  "title": "",
+  "body": " Using the sum and difference identities, for   For ,   Then, for the 2nd form of the cosine identity, use the Pythagorean identity,   And, for the 3rd form,   Also, for ,   "
+},
+{
+  "id": "subsection-triple-angle-identities-12",
+  "level": "2",
+  "url": "sec-double-angle-identities.html#subsection-triple-angle-identities-12",
+  "type": "Example",
+  "number": "12.4.5",
+  "title": "Sine Triple-Angle Identity Proof.",
+  "body": " Sine Triple-Angle Identity Proof  Prove the identity .   We can also find an expression for in terms of its associated single angle, using the sum and difference identities and the double-angle identities. In other words, another triple-angle identity. We again think of as ,   Here, there are and . For , we have . For , there are 3 options, and we will choose , because we want the final expression to be in terms of sine only.   We will replace , again because we want everything in terms of sine only,    "
+},
+{
+  "id": "subsection-triple-angle-identities-15",
+  "level": "2",
+  "url": "sec-double-angle-identities.html#subsection-triple-angle-identities-15",
+  "type": "Example",
+  "number": "12.4.6",
+  "title": "Tangent Triple-Angle Identity Proof.",
+  "body": " Tangent Triple-Angle Identity Proof  Prove the identity .   We can also find an expression for in terms of its associated single angle, using the sum and difference identities and the double-angle identities. In other words, another triple-angle identity. We again think of as ,   Here, there is . For we have the double-angle identity   Then,   To simplify this complex fraction, clear denominators by multiplying the numerator and denominator by ,    "
 },
 {
   "id": "sec-trigonometric-identities-summary",
