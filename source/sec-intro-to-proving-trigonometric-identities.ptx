@@ -12,7 +12,9 @@
     </p>
   </introduction>
   
-  <subsection xml:id="verifying-by-graphing">
+  
+  
+  <subsection xml:id="subsec-verifying-graphing">
     <title>Verifying a Trigonometric Identity by Graphing</title>
     <p>
       A simple way to verify if an equation is an identity is to graph both sides using a graphing calculator, like <url href="https://www.desmos.com/calculator">Desmos</url>.
@@ -28,21 +30,20 @@
         <p>On the other hand, if the two graphs don't match at even a single point, then the equation is not an identity.</p>
       </li>
     </ul>
+    
+    <example>
+      <title>Desmos Verification</title>
+      <statement>
+        <p>
+          Verify that <m>1 + \cot^2{x} = \csc^2{x}</m> using a graphing calculator. Observe how they coincide (overlap): <url href="https://www.desmos.com/calculator/elnzde4qqu">Desmos graph</url>.
+        </p>
+      </statement>
+    </example>
   </subsection>
   
-  <example xml:id="example-verify-graphically">
-    <title>Verifying with a Graph</title>
-    <statement>
-      <p>
-        Verify that <m>1 + \cot^2{x} = \csc^2{x}</m> using a graphing calculator. Observe how they coincide (overlap): <url href="https://www.desmos.com/calculator/elnzde4qqu">Desmos graph</url>.
-      </p>
-    </statement>
-  </example>
-  
-  <subsection xml:id="verifying-for-value">
-    <title>"Verifying" Identities</title>
-    <example xml:id="example-verify-for-specific-value">
-      <title>Verifying for a Specific Value</title>
+  <subsection xml:id="subsec-verifying-identities-example">
+    <title><q>Verifying</q> Identities</title>
+    <example>
       <statement>
         <p>
           Verify <m>1 - \sin^2{x} = \sin{x} \cos{x} \cot{x}</m> for <m>x = \frac{\pi}{4}</m>.
@@ -51,7 +52,7 @@
     </example>
   </subsection>
   
-  <subsection xml:id="general-principles-proving">
+  <subsection xml:id="subsec-principles-proving-identities">
     <title>General Principles for Proving Identities</title>
     <p>
       This topic is often considered one of the most challenging by students, because:
@@ -79,10 +80,10 @@
           <latex-image>
             \begin{tikzpicture}[node distance=3cm,box/.style={draw=none, minimum width=2.5cm, minimum height=1cm},arrow/.style={-&gt;, thick, &gt;=Stealth}]
             % Define nodes for the trig functions
-            \node[box] (tan) at (0,0) {$\tan x = \dfrac{\sin x}{\cos x}$};
-            \node[box] (cot) at (0,-2) {$\cot x = \dfrac{\cos x}{\sin x} = \dfrac{1}{\tan{x}}$};
-            \node[box] (sec) at (3.5,0) {$\sec x = \dfrac{1}{\cos x}$};
-            \node[box] (csc) at (-3.5,0) {$\csc x = \dfrac{1}{\sin x}$};
+            \node[box] (tan) at (0,0) {$\tan x = \frac{\sin x}{\cos x}$};
+            \node[box] (cot) at (0,-2) {$\cot x = \frac{\cos x}{\sin x} = \frac{1}{\tan{x}}$};
+            \node[box] (sec) at (3.5,0) {$\sec x = \frac{1}{\cos x}$};
+            \node[box] (csc) at (-3.5,0) {$\csc x = \frac{1}{\sin x}$};
             \node[box] (sin) at (-3.5,2) {$\sin x$};
             \node[box] (cos) at (3.5,2) {$\cos x$};
             
@@ -118,7 +119,7 @@
           </li>
         </ul>
         <p>
-          You want to start with the more complicated side, because it is easier to start from something complex and simplify it, rather than start from something simple and make it more complex. 
+          You want to start with the more complicated side, because it is easier to start from something complex and simplify it, rather than start from something simple and make it more complex.
         </p>
       </li>
       <li>
@@ -143,9 +144,7 @@
           Use algebraic identities, e.g. difference of squares, square of a sum, etc.
         </p>
         <md>
-          <mrow>
-            a^2 - b^2 = (a - b)(a + b)
-          </mrow>
+          <mrow>a^2 - b^2 = (a - b)(a + b)</mrow>
         </md>
         <p>
           For example,
@@ -164,110 +163,405 @@
           Convert <m>\sin^2{x}</m> to <m>\cos^2{x}</m> or vise versa, using the Pythagorean identity:
         </p>
         <md>
-          <mrow>
-            \sin^2{x} \amp = 1 - \cos^2{x}
-          </mrow>
-          <mrow>
-            \cos^2{x} \amp = 1 - \sin^2{x}
-          </mrow>
+          <mrow>\sin^2{x} \amp = 1 - \cos^2{x}</mrow>
+          <mrow>\cos^2{x} \amp = 1 - \sin^2{x}</mrow>
         </md>
       </li>
       <li>
         <p>Multiply by the conjugate, in order to use the previous strategy (Pythagorean identity). Particularly if you see <m>1 - \sin{x}, 1 + \sin{x}, 1 - \cos{x}, 1 + \cos{x}</m>.</p>
       </li>
       <li>
-        <p>Use all trigonometric identities available to you. When practicing, have a list of them for reference, and you'll naturally memorize them over time.</p>
+        <p>Use all trigonometric identities available to you. When practicing, have a list of them for reference, and you'll naturally be more comfortable with them over time.</p>
       </li>
     </ul>
   </subsection>
   
-  <subsection xml:id="examples-subsection">
+  <subsection xml:id="subsec-identity-examples">
     <title>Examples</title>
     
-    <project xml:id="project-basic-examples">
-      <title>Basic examples</title>
+    <project>
+      <title>Basic Examples</title>
       <introduction>
-        <p>
-          Prove each trigonometric identity.
-        </p>
+        <p>Prove each trigonometric identity.</p>
       </introduction>
-      <task><statement><m>\sin{x}\cot{x}=\cos{x}</m></statement><hint><p>quotient identity, cancel.</p></hint></task>
-      <task><statement><m>\cos{x} \csc{x} \tan{x} = 1</m></statement><hint><p>reciprocal identity, quotient identity, cancel.</p></hint></task>
-      <task><statement><m>\dfrac{\sec{x}}{\csc{x}} + \dfrac{\sin{x}}{\cos{x}} = 2\tan{x}</m></statement><hint><p>reciprocal identity, simplify fractions.</p></hint></task>
-      <task><statement><m>\cos{x}\tan{x}=\sin{x}</m></statement><hint><p>quotient identity, cancel.</p></hint></task>
-      <task><statement><m>\csc^{2}x(1-\cos^{2}x)=1</m></statement><hint><p>Pythagorean identity, cancel.</p></hint></task>
-      <task><statement><m>\sin^{2}{x}\left(1 + \cot^{2}{x}\right) = 1</m></statement><hint><p>Pythagorean identity, quotient identity.</p></hint></task>
-      <task><statement><m>\dfrac{\sin^{2}{x}+\cos^{2}{x}}{\cos{x}}=\sec{x}</m></statement><hint><p>Pythagorean identity, reciprocal identity.</p></hint></task>
-      <task><statement><m>(\tan x-1)^{2}=\sec^{2}x-2\tan x</m></statement><hint><p>expand, Pythagorean identity.</p></hint></task>
-      <task><statement><m>\sin{x}\tan{x} + \cos{x} = \sec{x}</m></statement><hint><p>start with LHS, combine fractions, Pythagorean identity.</p></hint></task>
-      <task><statement><m>\csc{x} = \cos{x}\cot{x} + \sin{x}</m></statement><hint><p>combine fractions, Pythagorean identity.</p></hint></task>
-      <task><statement><m>\sin{x} \cos{x} \cot{x} = 1 - \sin^2{x}</m></statement><hint><p>quotient identity, cancel, Pythagorean identity.</p></hint></task>
-      <task><statement><m>\dfrac{\sin{x}-1}{\cos{x}}=\tan{x}-\sec{x}</m></statement><hint><p>start with either side, combine fractions (or split fraction).</p></hint></task>
-      <task><statement><m>1-\sin{x}\cos{x}\tan{x}=\cos^{2}{x}</m></statement><hint><p>quotient identity, cancel, Pythagorean identity.</p></hint></task>
-      <task><statement><m>\sin{x}+\cos{x}\cot{x}=\csc{x}</m></statement><hint><p>reciprocal identity, combine fractions, Pythagorean identity.</p></hint></task>
-      <task><statement><m>\cos{x}\brac{\csc{x}-\sec{x}}=\cot{x}-1</m></statement><hint><p>expand, reciprocal identity.</p></hint></task>
-      <task><statement><m>\dfrac{\cos{x}}{\sec{x}} + \dfrac{\sin{x}}{\csc{x}} = 1</m></statement><hint><p>reciprocal identity, Pythagorean identity.</p></hint></task>
+      <task>
+        <statement><m>\sin{x}\cot{x}=\cos{x}</m></statement>
+        <hint><p>rewrite in terms of sine and cosine, cancel common factors.</p></hint>
+      </task>
+      <task>
+        <statement><m>\cos{x} \csc{x} \tan{x} = 1</m></statement>
+        <hint><p>rewrite in terms of sine and cosine, cancel common factors.</p></hint>
+      </task>
+      <task>
+        <statement><m>\dfrac{\sec{x}}{\csc{x}} + \dfrac{\sin{x}}{\cos{x}} = 2\tan{x}</m></statement>
+        <hint><p>rewrite in terms of sine and cosine, simplify fractions.</p></hint>
+      </task>
+      <task>
+        <statement><m>\cos{x}\tan{x}=\sin{x}</m></statement>
+        <hint><p>rewrite in terms of sine and cosine, cancel common factors.</p></hint>
+      </task>
+      <task>
+        <statement><m>\cot{x} \sin{x} \sec{x} = 1</m></statement>
+        <hint><p>rewrite in terms of sine and cosine, cancel common factors.</p></hint>
+      </task>
+      <task>
+        <statement><m>\cos{x}\brac{\csc{x}-\sec{x}}=\cot{x}-1</m></statement>
+        <hint><p>expand, rewrite in terms of sine and cosine.</p></hint>
+      </task>
+      <task>
+        <statement><m>\sin{x} \cos{x} \tan{x} = \dfrac{1}{\csc^2{x}}</m></statement>
+        <hint><p>work with both sides, rewrite in terms of sine and cosine, cancel common factors.</p></hint>
+      </task>
     </project>
     
-    <project xml:id="project-further-examples">
-      <title>Further Examples</title>
+    <project>
+      <title>Practice with the Pythagorean Identity</title>
       <introduction>
-        <p>
-          Prove each trigonometric identity.
-        </p>
+        <p>Prove each trigonometric identity.</p>
       </introduction>
-      <task><statement><m>\dfrac{\cos{x} + \cot{x}}{1 + \sin{x}} = \cos{x} \csc{x}</m></statement><hint><p>simplify complex fraction, factor and cancel.</p></hint></task>
-      <task><statement><m>\dfrac{\sin^2{x}}{1 - \cos{x}} = 1 + \cos{x}</m></statement><hint><p>Pythagorean identity, factor difference of squares, cancel.</p></hint></task>
-      <task><statement><m>\dfrac{1 + \sin{x}}{1 + \csc{x}} = \sin{x}</m></statement><hint><p>simplify complex fraction, factor and cancel.</p></hint></task>
-      <task><statement><m>\dfrac{1}{\csc{x}} = \sin{x} \cos^2{x} + \sin^3{x}</m></statement><hint><p>factor common factor, reciprocal identity, Pythagorean identity.</p></hint></task>
-      <task><statement><m>\dfrac{1+\sin{x}}{\sin{x}}=1+\csc{x}</m></statement><hint><p>start with either side, combine fractions (or split fraction).</p></hint></task>
-      <task><statement><m>\dfrac{\cos{x}}{1 + \sin{x}} = \dfrac{1 - \sin{x}}{\cos{x}}</m></statement><hint><p>multiply by the conjugate, Pythagorean identity, cancel.</p></hint></task>
-      <task><statement><m>\dfrac{\sec{x} - \csc{x}}{\sec{x}\csc{x}} = \sin{x} - \cos{x}</m></statement><hint><p>reciprocal identity, clear fractions, simplify and cancel.</p></hint></task>
-      <task><statement><m>\dfrac{\cos{x}}{1-\sin{x}} = \tan{x} + \sec{x}</m></statement><hint><p>can start with either side, multiply by the conjugate, Pythagorean identity.</p></hint></task>
-      <task><statement><m>\tan{x} + \cot{x} = \sec{x}\csc{x}</m></statement><hint><p>combine fractions, Pythagorean identity.</p></hint></task>
-      <task><statement><m>\dfrac{1 - 2\cos^{2}{x}}{\sin{x}\cos{x}} = \tan{x} - \cot{x}</m></statement><hint><p>start with the RHS, quotient identity, combine fractions, Pythagorean identity.</p></hint></task>
-      <task><statement><m>\dfrac{\sin^{2}x+\cos^{2}x}{\sec x}=\cos x</m></statement><hint><p>Pythagorean identity, reciprocal identity, simplify.</p></hint></task>
-      <task><statement><m>\dfrac{1+\tan x}{1+\cot x}=\tan x</m></statement><hint><p>quotient identity, clear fractions, cancel.</p></hint></task>
-      <task><statement><m>\dfrac{\sec x}{\sin x}-\dfrac{\sin x}{\cos x}=\cot x</m></statement><hint><p>reciprocal identity, common denominator, Pythagorean identity, simplify.</p></hint></task>
-      <task><statement><m>\dfrac{\cot x+\tan x}{\sec x}=\csc x</m></statement><hint><p>reciprocal identity, combine fractions, cancel.</p></hint></task>
-      <task><statement><m>\dfrac{\sin x+\tan x}{\cos x+1}=\tan x</m></statement><hint><p>quotient identity, simplify complex fraction clear denominators, factor, cancel.</p></hint></task>
-      <task><statement><m>\dfrac{\cos x+1}{\sin x+\tan x}=\cot x</m></statement><hint><p>quotient identity, simplify complex fraction clear denominators, factor, cancel.</p></hint></task>
-      <task><statement><m>\dfrac{1+\sin x}{\cos x} = \dfrac{\cos x}{1-\sin x}</m></statement><hint><p>multiply by the conjugate, Pythagorean identity, cancel.</p></hint></task>
-      <task><statement><m>\dfrac{1+\cos x}{\sin x}=\dfrac{\sin x}{1-\cos x}</m></statement><hint><p>multiply by the conjugate, Pythagorean identity, cancel.</p></hint></task>
-      <task><statement><m>\cos x+\cos x \tan^{2}x=\sec x</m></statement><hint><p>factor, Pythagorean identity, simplify.</p></hint></task>
-      <task><statement><m>\dfrac{\sec{x} - \cos{x}}{\tan{x}} = \sin{x}</m></statement><hint><p>reciprocal identity, simplify complex fraction clear denominators, combine fractions, Pythagorean identity.</p></hint></task>
-      <task><statement><m>1-2\sin^{2}{x}=2\cos^{2}{x}-1</m></statement><hint><p>Pythagorean identity, simplify.</p></hint></task>
-      <task><statement><m>\dfrac{\sin{x}+\tan{x}}{1+\cos{x}}=\tan{x}</m></statement><hint><p>quotient identity, simplify complex fraction clear denominators, factor out common factors, cancel.</p></hint></task>
-      <task><statement><m>\brac{1+\csc{x}}\brac{1-\sin{x}}=\cot{x}\cos{x}</m></statement><hint><p>expand, reciprocal identity, cancel, combine fractions, Pythagorean identity.</p></hint></task>
+      <task>
+        <statement><m>\csc^{2}x(1-\cos^{2}x)=1</m></statement>
+        <hint><p>Pythagorean identity, cancel common factors.</p></hint>
+      </task>
+      <task>
+        <statement><m>\sin^{2}{x}\brac{1 + \cot^{2}{x}} = 1</m></statement>
+        <hint><p>Pythagorean identity, rewrite in terms of sine and cosine.</p></hint>
+      </task>
+      <task>
+        <statement><m>\dfrac{\sin^{2}{x}+\cos^{2}{x}}{\cos{x}}=\sec{x}</m></statement>
+        <hint><p>Pythagorean identity, rewrite in terms of sine and cosine.</p></hint>
+      </task>
+      <task>
+        <statement><m>(\tan x-1)^{2}=\sec^{2}x-2\tan x</m></statement>
+        <hint><p>expand, Pythagorean identity.</p></hint>
+      </task>
+      <task>
+        <statement><m>\sin{x}\tan{x} + \cos{x} = \sec{x}</m></statement>
+        <hint><p>start with LHS, combine fractions, Pythagorean identity.</p></hint>
+      </task>
+      <task>
+        <statement><m>\csc{x} = \cos{x}\cot{x} + \sin{x}</m></statement>
+        <hint><p>combine fractions, Pythagorean identity.</p></hint>
+      </task>
+      <task>
+        <statement><m>\sin{x} \cos{x} \cot{x} = 1 - \sin^2{x}</m></statement>
+        <hint><p>rewrite in terms of sine and cosine, cancel common factors, Pythagorean identity.</p></hint>
+      </task>
+      <task>
+        <statement><m>\cos{x}(\csc{x}+\sec{x})=\cot{x}+1</m></statement>
+        <hint><p>rewrite in terms of sine and cosine, distribute.</p></hint>
+      </task>
+      <task>
+        <statement><m>\dfrac{\sin{x}-1}{\cos{x}}=\tan{x}-\sec{x}</m></statement>
+        <hint><p>start with either side, combine fractions (or split fraction).</p></hint>
+      </task>
+      <task>
+        <statement><m>1-\sin{x}\cos{x}\tan{x}=\cos^{2}{x}</m></statement>
+        <hint><p>rewrite in terms of sine and cosine, cancel common factors, Pythagorean identity.</p></hint>
+      </task>
+      <task>
+        <statement><m>\sin{x}+\cos{x}\cot{x}=\csc{x}</m></statement>
+        <hint><p>rewrite in terms of sine and cosine, combine fractions with a common denominator, Pythagorean identity.</p></hint>
+      </task>
+      <task>
+        <statement><m>\sin^2{x}+\sin^2{x}\cot^2{x}=1</m></statement>
+        <hint><p>factor out common factor, Pythagorean identity (or rewrite in terms of sine and cosine, cancel common factors, Pythagorean identity).</p></hint>
+      </task>
+      <task>
+        <statement><m>\dfrac{\cos{x}}{\sec{x}} + \dfrac{\sin{x}}{\csc{x}} = 1</m></statement>
+        <hint><p>rewrite in terms of sine and cosine, Pythagorean identity.</p></hint>
+      </task>
+      <task>
+        <statement><m>\dfrac{1}{\sec{x}\tan{x}} = \csc{x} - \sin{x}</m></statement>
+        <hint><p>work with both sides, Pythagorean identity, combine fraction with a common denominator.</p></hint>
+      </task>
+      <task>
+        <statement><m>\sec{x} - \cos{x} = \dfrac{\sin^2{x}}{\cos{x}}</m></statement>
+        <hint><p>rewrite in terms of sine and cosine, combine fractions, Pythagorean identity.</p></hint>
+      </task>
+    </project>
+    
+    <project>
+      <title>Mixed Identity Proofs I</title>
+      <introduction>
+        <p>Prove each trigonometric identity.</p>
+      </introduction>
+      <task>
+        <statement><m>\dfrac{\sin^2{x}}{1 - \cos{x}} = 1 + \cos{x}</m></statement>
+        <hint><p>Pythagorean identity, factor difference of squares, cancel common factors.</p></hint>
+      </task>
+      <task>
+        <statement><m>\dfrac{1}{\csc{x}} = \sin{x} \cos^2{x} + \sin^3{x}</m></statement>
+        <hint><p>factor common factor, rewrite in terms of sine and cosine, Pythagorean identity.</p></hint>
+      </task>
+      <task>
+        <statement><m>\dfrac{1+\sin{x}}{\sin{x}}=1+\csc{x}</m></statement>
+        <hint><p>start with either side, combine fractions with a common denominator (or split fraction).</p></hint>
+      </task>
+      <task>
+        <statement><m>\dfrac{\cos{x}}{1 + \sin{x}} = \dfrac{1 - \sin{x}}{\cos{x}}</m></statement>
+        <hint><p>multiply by the conjugate, Pythagorean identity, cancel common factors.</p></hint>
+      </task>
+      <task>
+        <statement><m>\dfrac{\sec{x} - \csc{x}}{\sec{x}\csc{x}} = \sin{x} - \cos{x}</m></statement>
+        <hint><p>rewrite in terms of sine and cosine, simplify complex fractions by clearing denominators, simplify and cancel common factors.</p></hint>
+      </task>
+      <task>
+        <statement><m>\dfrac{\sin^{2}x+\cos^{2}x}{\sec x}=\cos x</m></statement>
+        <hint><p>Pythagorean identity, rewrite in terms of sine and cosine, simplify.</p></hint>
+      </task>
+      <task>
+        <statement><m>\dfrac{1}{1-\sin{x}}=\dfrac{1+\sin{x}}{\cos^2{x}}</m></statement>
+        <hint><p>start with either side, multiply by the conjugate, Pythagorean identity, cancel common factors.</p></hint>
+      </task>
+      <task>
+        <statement><m>\dfrac{\cos x+1}{\sin x+\tan x}=\cot x</m></statement>
+        <hint><p>rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor common factors, cancel common factors.</p></hint>
+      </task>
+      <task>
+        <statement><m>\dfrac{1+\sin x}{\cos x} = \dfrac{\cos x}{1-\sin x}</m></statement>
+        <hint><p>multiply by the conjugate, Pythagorean identity, cancel common factors.</p></hint>
+      </task>
+      <task>
+        <statement><m>\dfrac{1+\cos x}{\sin x}=\dfrac{\sin x}{1-\cos x}</m></statement>
+        <hint><p>multiply by the conjugate, Pythagorean identity, cancel common factors.</p></hint>
+      </task>
+      <task>
+        <statement><m>\cos x+\cos x \tan^{2}x=\sec x</m></statement>
+        <hint><p>factor common factors, Pythagorean identity.</p></hint>
+      </task>
+      <task>
+        <statement><m>1-2\sin^{2}{x}=2\cos^{2}{x}-1</m></statement>
+        <hint><p>Pythagorean identity, simplify.</p></hint>
+      </task>
+      <task>
+        <statement><m>\dfrac{\sin{x}+\tan{x}}{1+\cos{x}}=\tan{x}</m></statement>
+        <hint><p>rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor out common factors, cancel common factors.</p></hint>
+      </task>
+    </project>
+    
+    <project>
+      <title>Mixed Identity Proofs II</title>
+      <introduction>
+        <p>Prove each trigonometric identity.</p>
+      </introduction>
+      <task>
+        <statement><m>\dfrac{\cos{x} + \cot{x}}{1 + \sin{x}} = \cos{x} \csc{x}</m></statement>
+        <hint><p>rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor and cancel common factors.</p></hint>
+      </task>
+      <task>
+        <statement><m>\dfrac{1 + \sin{x}}{1 + \csc{x}} = \sin{x}</m></statement>
+        <hint><p>simplify complex fraction by clearing denominators, factor and cancel common factors.</p></hint>
+      </task>
+      <task>
+        <statement><m>\dfrac{\cos{x}}{1-\sin{x}} = \tan{x} + \sec{x}</m></statement>
+        <hint><p>can start with either side, multiply by the conjugate, Pythagorean identity.</p></hint>
+      </task>
+      <task>
+        <statement><m>\tan{x} + \cot{x} = \sec{x}\csc{x}</m></statement>
+        <hint><p>combine fractions with a common denominator, Pythagorean identity.</p></hint>
+      </task>
+      <task>
+        <statement><m>\dfrac{1 - 2\cos^{2}{x}}{\sin{x}\cos{x}} = \tan{x} - \cot{x}</m></statement>
+        <hint><p>start with the RHS, rewrite in terms of sine and cosine, combine fractions with a common denominator, Pythagorean identity.</p></hint>
+      </task>
+      <task>
+        <statement><m>\dfrac{1+\tan x}{1+\cot x}=\tan x</m></statement>
+        <hint><p>rewrite in terms of tangent, simplify complex fraction by clearing denominators, cancel common factors.</p></hint>
+      </task>
+      <task>
+        <statement><m>\dfrac{\sec x}{\sin x}-\dfrac{\sin x}{\cos x}=\cot x</m></statement>
+        <hint><p>rewrite in terms of sine and cosine, combine fractions with a common denominator, Pythagorean identity, simplify.</p></hint>
+      </task>
+      <task>
+        <statement><m>\dfrac{\cot x+\tan x}{\sec x}=\csc x</m></statement>
+        <hint><p>rewrite in terms of sine and cosine, combine fractions with a common denominator, cancel common factors.</p></hint>
+      </task>
+      <task>
+        <statement><m>\dfrac{1-\cos{x}}{\sin{x}}=\dfrac{\tan{x}-\sin{x}}{\tan{x}\sin{x}}</m></statement>
+        <hint><p>start with the RHS, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, cancel common factors.</p></hint>
+      </task>
+      <task>
+        <statement><m>\dfrac{2}{1-\sin{x}}+\dfrac{2}{1+\sin{x}}=4\sec^2{x}</m></statement>
+        <hint><p>combine fractions with a common denominator, combine like terms, Pythagorean identity.</p></hint>
+      </task>
+      <task>
+        <statement><m>\dfrac{\sec{x} - \cos{x}}{\tan{x}} = \sin{x}</m></statement>
+        <hint><p>rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, combine fractions with a common denominator, Pythagorean identity.</p></hint>
+      </task>
+      <task>
+        <statement><m>\sec^{4}x-\sec^{2}x=\tan^{4}x+\tan^{2}x</m></statement>
+        <hint><p>factor common factors, Pythagorean identity.</p></hint>
+      </task>
+      <task>
+        <statement><m>\brac{1+\csc{x}}\brac{1-\sin{x}}=\cot{x}\cos{x}</m></statement>
+        <hint><p>expand, rewrite in terms of sine and cosine, cancel common factors, combine fractions with a common denominator, Pythagorean identity.</p></hint>
+      </task>
+      <task>
+        <statement><m>\dfrac{\tan{x} \cos^2{x}}{\sec{x}} = \sin{x} - \sin^3{x}</m></statement>
+        <hint><p>start with the LHS, rewrite in terms of sine and cosine, Pythagorean identity.</p></hint>
+      </task>
+      <task>
+        <statement><m>\dfrac{1}{1+\sin{x}} + \dfrac{1}{1-\sin{x}} = 2\sec^2{x}</m></statement>
+        <hint><p>start with the LHS, combine fraction with a common denominator.</p></hint>
+      </task>
+      <task>
+        <statement><m>\dfrac{\sin{x} - \csc{x}}{1 + \sin{x}} = \dfrac{\sin{x} - 1}{\sin{x}}</m></statement>
+        <hint><p>rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor and cancel common factors.</p></hint>
+      </task>
+      <task>
+        <statement><m>\dfrac{\sin{x} \cos{x}}{1 + \cos{x}} = \dfrac{1-\cos{x}}{\tan{x}}</m></statement>
+        <hint><p>multiply by the conjugate, Pythagorean identity, cancel common factors.</p></hint>
+      </task>
     </project>
   </subsection>
   
-  <subsection xml:id="advanced-examples-subsection">
+  <subsection xml:id="subsec-advanced-examples">
     <title>Advanced Examples</title>
-    <project xml:id="project-advanced-examples">
-      <title>Advanced examples</title>
+    <project>
+      <title>Advanced Identity Proofs I</title>
       <introduction>
-        <p>
-          Prove each trigonometric identity.
-        </p>
+        <p>Prove each trigonometric identity.</p>
       </introduction>
-      <task><statement><m>\dfrac{1 + \sin{x}}{\cos{x}} + \dfrac{\cos{x}}{1 + \sin{x}} = \dfrac{2}{\cos{x}}</m></statement><hint><p>combine fractions, Pythagorean identity, factor and cancel.</p></hint></task>
-      <task><statement><m>\dfrac{1+\sin{x}}{\cos^2{x}} = \dfrac{1}{1-\sin{x}}</m></statement><hint><p>multiply by the conjugate, Pythagorean identity, cancel.</p></hint></task>
-      <task><statement><m>\tan{x} + \dfrac{\cos{x}}{1 + \sin{x}} = \sec{x}</m></statement><hint><p>combine fractions, Pythagorean identity, cancel.</p></hint></task>
-      <task><statement><m>\dfrac{\sin{x} - \csc{x}}{1 + \sin{x}} = \dfrac{\sin{x} - 1}{\sin{x}}</m></statement><hint><p>reciprocal identity, clear denominators, factor and cancel.</p></hint></task>
-      <task><statement><m>\dfrac{\tan{x} - \cot{x}}{\tan{x} + \cot{x}} + 1 = 2\sin^{2}{x}</m></statement><hint><p>clear fractions, Pythagorean identity.</p></hint></task>
-      <task><statement><m>\sec^{4}x-\sec^{2}x=\tan^{4}x+\tan^{2}x</m></statement><hint><p>factor, Pythagorean identity.</p></hint></task>
-      <task><statement><m>\dfrac{\sin{x} \cos{x}}{1 + \cos{x}} = \dfrac{1-\cos{x}}{\tan{x}}</m></statement><hint><p>multiply by the conjugate, Pythagorean identity, cancel.</p></hint></task>
-      <task><statement><m>\dfrac{1+\cos{x}}{\tan{x} + \sec{x}} = \cot{x}</m></statement><hint><p>complex fraction clear fractions, common factor, simplify and cancel, quotient identity.</p></hint></task>
-      <task><statement><m>\dfrac{\tan{x} - \sin{x}}{\sin^3{x}} = \dfrac{\sec{x}}{1 + \cos{x}}</m></statement><hint><p>start with the LHS but RHS works also, clear fractions, cancel, Pythagorean identity, factor and cancel.</p></hint></task>
-      <task><statement><m>\csc^2{x} + \sec^2{x} = \csc^2{x} \sec^2{x}</m></statement><hint><p>reciprocal identity, combine fractions, Pythagorean identity.</p></hint></task>
-      <task><statement><m>\cos^2{x} - \sin^2{x} = \dfrac{\cot{x} - \tan{x}}{\cot{x} + \tan{x}}</m></statement><hint><p>start with the RHS, quotient identity, complex fraction clear fractions, Pythagorean identity.</p></hint></task>
-      <task><statement><m>\dfrac{\cos x}{\sec x-1}+\dfrac{\cos x}{\sec x+1}=2\cot^{2}x</m></statement><hint><p>reciprocal identity, common denominator, Pythagorean identity, simplify.</p></hint></task>
-      <task><statement><m>\dfrac{\csc x+\cot x}{\tan x+\sin x}=\cot x \csc x</m></statement><hint><p>quotient identity, reciprocal identity, factor, cancel.</p></hint></task>
-      <task><statement><m>\dfrac{\tan{x}}{\cos{x} - \sec{x}} = -\csc{x}</m></statement><hint><p>quotient identity, clear fractions, Pythagorean identity, simplify and cancel.</p></hint></task>
-      <task><statement><m>\csc{x}\brac{\csc{x}+\cot{x}}=\dfrac{1}{1-\cos{x}}</m></statement><hint><p>expand, reciprocal identity, combine fractions, Pythagorean identity, factor difference of squares (or multiply by the conjugate), cancel.</p></hint></task>
-      <task><statement><m>\sin^{4}{x}-\cos^{4}{x}=2\sin^{2}{x}-1</m></statement><hint><p>difference of squares, Pythagorean identity.</p></hint></task>
-      <task><statement><m>\tan^{4}{x}-\sec^{4}{x}=1-2\sec^{2}{x}</m></statement><hint><p>difference of squares, Pythagorean identity, simplify.</p></hint></task>
+      <task>
+        <statement><m>\dfrac{\tan{x}}{\tan{x}+\sin{x}}=\dfrac{1-\cos{x}}{\sin^2{x}}</m></statement>
+        <hint><p>work with both sides, rewrite in terms of sine and cosine, simplify complex fractions by clearing denominators, cancel common factors, factor difference of squares (or multiply by the conjugate).</p></hint>
+      </task>
+      <task>
+        <statement><m>\cos^2{x}-\sin^2{x}=\dfrac{\cot{x}-\tan{x}}{\cot{x}+\tan{x}}</m></statement>
+        <hint><p>rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, Pythagorean identity.</p></hint>
+      </task>
+      <task>
+        <statement><m>\csc{x}-\dfrac{\sin{x}}{1+\cos{x}}=\cot{x}</m></statement>
+        <hint><p>rewrite in terms of sine and cosine, combine fractions, Pythagorean identity, factor out common factor, cancel common factors.</p></hint>
+      </task>
+      <task>
+        <statement><m>\sin^4{x}-\cos^4{x}=1-2\cos^2{x}</m></statement>
+        <hint><p>factor difference of squares, Pythagorean identity.</p></hint>
+      </task>
+      <task>
+        <statement><m>\cot{x}-\tan{x}=\dfrac{2\cos^2{x}-1}{\sin{x}\cos{x}}</m></statement>
+        <hint><p>start with either side, rewrite in terms of sine and cosine, combine fractions with a common denominator.</p></hint>
+      </task>
+      <task>
+        <statement><m>\dfrac{1-\sin{x}}{1+\sin{x}}=(\sec{x}-\tan{x})^2</m></statement>
+        <hint><p>start with the RHS, rewrite in terms of sine and cosine, combine fractions with a common denominator, Pythagorean identity.</p></hint>
+      </task>
+      <task>
+        <statement><m>\tan{x} + \dfrac{\cos{x}}{1 + \sin{x}} = \sec{x}</m></statement>
+        <hint><p>combine fractions with a common denominator, Pythagorean identity, cancel common factors.</p></hint>
+      </task>
+      <task>
+        <statement><m>\dfrac{\sin{x}+\cos{x}\cot{x}}{\cos{x}\csc{x}}=\sec{x}</m></statement>
+        <hint><p>rewrite in terms of sine and cosine, simplify complex fractions by clearing denominators, Pythagorean identity.</p></hint>
+      </task>
+      <task>
+        <statement><m>\csc^2{x} + \sec^2{x} = \csc^2{x} \sec^2{x}</m></statement>
+        <hint><p>rewrite in terms of sine and cosine, combine fractions, Pythagorean identity.</p></hint>
+      </task>
+      <task>
+        <statement><m>\sin^{4}{x}-\cos^{4}{x}=2\sin^{2}{x}-1</m></statement>
+        <hint><p>difference of squares, Pythagorean identity.</p></hint>
+      </task>
+      <task>
+        <statement><m>\dfrac{\sec^4{x}-1}{\tan^2{x}}=2+\tan^2{x}</m></statement>
+        <hint><p>difference of squares, Pythagorean identity, cancel common factors.</p></hint>
+      </task>
+      <task>
+        <statement><m>\dfrac{\sin{x}+\cos{x}}{\csc{x}+\sec{x}}=\sin{x}\cos{x}</m></statement>
+        <hint><p>rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, cancel common factors.</p></hint>
+      </task>
+      <task>
+        <statement><m>\dfrac{\cos{x}+\sin{x}}{\cos{x}-\sin{x}}=\dfrac{1+\tan{x}}{1-\tan{x}}</m></statement>
+        <hint><p>rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators.</p></hint>
+      </task>
+      <task>
+        <statement><m>\dfrac{\csc{x}+\cot{x}}{\tan{x}+\sin{x}}=\cot{x}\csc{x}</m></statement>
+        <hint><p>start with the LHS, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, cancel common factors.</p></hint>
+      </task>
+    </project>
+    
+    <project>
+      <title>Advanced Identity Proofs II</title>
+      <introduction>
+        <p>Prove each trigonometric identity.</p>
+      </introduction>
+      <task>
+        <statement><m>\dfrac{1 + \sin{x}}{\cos{x}} + \dfrac{\cos{x}}{1 + \sin{x}} = \dfrac{2}{\cos{x}}</m></statement>
+        <hint><p>combine fractions with a common denominator, Pythagorean identity, cancel common factors.</p></hint>
+      </task>
+      <task>
+        <statement><m>\dfrac{1+\sec{x}}{\sin{x}+\tan{x}}=\csc{x}</m></statement>
+        <hint><p>rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, cancel common factors.</p></hint>
+      </task>
+      <task>
+        <statement><m>\dfrac{\sec{x}}{1-\sin{x}}=\dfrac{1+\sin{x}}{\cos^3{x}}</m></statement>
+        <hint><p>start with the LHS, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, multiply by the conjugate, Pythagorean identity.</p></hint>
+      </task>
+      <task>
+        <statement><m>\cos^2{x}=\dfrac{1-2\sin^2{x}}{1-\tan^2{x}}</m></statement>
+        <hint><p>rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, Pythagorean identity, cancel common factors.</p></hint>
+      </task>
+      <task>
+        <statement><m>\dfrac{1-\cos{x}}{\sin{x}}=\dfrac{1}{\csc{x}+\cot{x}}</m></statement>
+        <hint><p>start with the RHS, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, multiply by the conjugate, Pythagorean identity.</p></hint>
+      </task>
+      <task>
+        <statement><m>\dfrac{\sin^2{x}-\tan{x}}{\cos^2{x}-\cot{x}}=\tan^2{x}</m></statement>
+        <hint><p>rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor and cancel common factors.</p></hint>
+      </task>
+      <task>
+        <statement><m>\dfrac{\tan{x} - \cot{x}}{\tan{x} + \cot{x}} + 1 = 2\sin^{2}{x}</m></statement>
+        <hint><p>simplify complex fraction by clearing denominators, Pythagorean identity.</p></hint>
+      </task>
+      <task>
+        <statement><m>\dfrac{1+\cos{x}}{\tan{x} + \sec{x}} = \cot{x}</m></statement>
+        <hint><p>rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor out common factor, cancel common factors.</p></hint>
+      </task>
+      <task>
+        <statement><m>\dfrac{\tan{x} - \sin{x}}{\sin^3{x}} = \dfrac{\sec{x}}{1 + \cos{x}}</m></statement>
+        <hint><p>start with the LHS but RHS works also, simplify complex fraction by clearing denominators, cancel common factors, Pythagorean identity, factor and cancel.</p></hint>
+      </task>
+      <task>
+        <statement><m>\dfrac{\cos x}{\sec x-1}+\dfrac{\cos x}{\sec x+1}=2\cot^{2}x</m></statement>
+        <hint><p>rewrite in terms of sine and cosine, common denominator, Pythagorean identity, simplify.</p></hint>
+      </task>
+      <task>
+        <statement><m>\dfrac{\tan{x}}{\cos{x} - \sec{x}} = -\csc{x}</m></statement>
+        <hint><p>rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, Pythagorean identity, simplify and cancel.</p></hint>
+      </task>
+      <task>
+        <statement><m>\csc{x}\brac{\csc{x}+\cot{x}}=\dfrac{1}{1-\cos{x}}</m></statement>
+        <hint><p>expand, rewrite in terms of sine and cosine, combine fractions, Pythagorean identity, factor difference of squares (or multiply by the conjugate), cancel common factors.</p></hint>
+      </task>
+      <task>
+        <statement><m>\tan^{4}{x}-\sec^{4}{x}=1-2\sec^{2}{x}</m></statement>
+        <hint><p>difference of squares, Pythagorean identity, simplify.</p></hint>
+      </task>
+      <task>
+        <statement><m>\dfrac{\sec{x}-1}{\sin^2{x}}=\dfrac{\sec^2{x}}{1+\sec{x}}</m></statement>
+        <hint><p>work with both sides, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor difference of squares (or multiply by the conjugate), cancel.</p></hint>
+      </task>
+      <task>
+        <statement><m>\dfrac{\cos^4{x}-\sin^4{x}}{1-\tan^4{x}}=\cos^4{x}</m></statement>
+        <hint><p>rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, cancel common factors.</p></hint>
+      </task>
+      <task>
+        <statement><m>\dfrac{\sec{x}}{1-\cos{x}}=\dfrac{\sec{x}+1}{\sin^2{x}}</m></statement>
+        <hint><p>start with either side, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, multiply by the conjugate (or factor difference of squares), Pythagorean identity.</p></hint>
+      </task>
+      <task>
+        <statement><m>\dfrac{\cos{x}}{\csc{x}+1}+\dfrac{\cos{x}}{\csc{x}-1}=2\tan{x}</m></statement>
+        <hint><p>rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, combine fraction with a common denominator.</p></hint>
+      </task>
+      <task>
+        <statement><m>\tan{x}(\csc{x}+1)=\dfrac{\cot{x}}{\csc{x}-1}</m></statement>
+        <hint><p>start with either side, rewrite in terms of sine and cosine, distribute, combine fractions with a common denominator, simplify complex fraction by clearing denominators, multiply by the conjugate, Pythagorean identity.</p></hint>
+      </task>
+      <task>
+        <statement><m>\dfrac{\cos{x}-\cos{y}}{\sin{x}+\sin{y}}+\dfrac{\sin{x}-\sin{y}}{\cos{x}+\cos{y}}=0</m></statement>
+        <hint><p>combine fractions with a common denominator, Pythagorean identity.</p></hint>
+      </task>
     </project>
   </subsection>
   
