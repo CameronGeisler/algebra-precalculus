@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-multiplying-and-dividing-radical-expressions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Multiplying and Dividing Radical Expressions</title>
+  <introduction>
+    <p>
+      <term>Rationalizing the denominator</term> involving converting an irrational denominator (a radical that cannot be simplified to a perfect square) to something that doesn't have any radicals.
+    </p>
+    <example>
+      <title>Rationalizing a Simple Fraction</title>
+      <statement>
+        <p>
+          Consider the fraction <m>\frac{1}{\sqrt{2}}</m>, which has <m>\sqrt{2}</m> in the denominator. To eliminate the square root in the denominator, we can multiply it by <m>\sqrt{2}</m> (since <m>\sqrt{2} \cdot \sqrt{2} = 2</m>). If we multiply the denominator by <m>\sqrt{2}</m>, we also have to multiply the numerator, so that the number's value is not changed. Then,
+        </p>
+        <md>
+          <mrow>\frac{1}{\sqrt{2}} \amp = \frac{1}{\sqrt{2}} \times \frac{\sqrt{2}}{\sqrt{2}}</mrow>
+          <mrow>\amp = \frac{\sqrt{2}}{2}</mrow>
+        </md>
+        <p>
+          Therefore,
+        </p>
+        <md>
+          <mrow>\frac{1}{\sqrt{2}} = \frac{\sqrt{2}}{2}</mrow>
+        </md>
+      </statement>
+    </example>
+    <p>
+      Rationalizing the denominator only changes the form of the number, not its value. Most of the time, it is considered <q>poor form</q> to leave a radical in the denominator of a final answer (this is analogous to giving a fraction final answer not in reduced form, like putting <m>\frac{6}{8}</m> instead of <m>\frac{3}{4}</m>). Basically, it is considered to <q>look nicer</q>, so it is a standard form to write final answers, so that it is easy to compare if two answers are the same.
+    </p>
+  </introduction>
+  
+  <subsection xml:id="rationalizing-denominator">
+    <title>Rationalizing the Denominator</title>
+    <p>
+      In general, to rationalize the denominator with a square root,
+    </p>
+    <ol>
+      <li>
+        <p>
+          (Ideally) Simplify radicals, if possible.
+        </p>
+      </li>
+      <li>
+        <p>
+          Multiply numerator and denominator by the square root in the denominator.
+        </p>
+      </li>
+    </ol>
+    
+    <project xml:id="project-rationalize-monomial-numerical">
+      <title>Rationalizing Numerical Monomial Denominators</title>
+      <introduction>
+        <p>
+          Simplify each expression, by rationalizing the denominator.
+        </p>
+      </introduction>
+      <task>
+        <statement><m>\frac{1}{\sqrt{5}}</m></statement>
+        <answer><p><m>\frac{\sqrt{5}}{5}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{5}{2\sqrt{3}}</m></statement>
+        <answer><p><m>\frac{5\sqrt{3}}{6}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{8}{\sqrt{2}}</m></statement>
+        <answer><p><m>4\sqrt{2}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{2}{\sqrt{17}}</m></statement>
+        <answer><p><m>\frac{2\sqrt{17}}{17}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{1}{\sqrt{5}}</m></statement>
+        <answer><p><m>\frac{\sqrt{5}}{5}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{20}{\sqrt{10}}</m></statement>
+        <answer><p><m>2\sqrt{10}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{\sqrt{21}}{\sqrt{24}}</m></statement>
+        <answer><p><m>\frac{\sqrt{14}}{4}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>-\frac{2}{\sqrt{22}}</m></statement>
+        <answer><p><m>-\frac{\sqrt{22}}{11}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{3}{\sqrt{2}}</m></statement>
+        <answer><p><m>\frac{3\sqrt{2}}{2}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{\sqrt{3} + 2\sqrt{2}}{2\sqrt{3}}</m></statement>
+        <answer><p><m>\frac{3 + 2\sqrt{6}}{6}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{2\sqrt{51}}{\sqrt{3}}</m></statement>
+        <answer><p><m>2\sqrt{17}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{\sqrt{5} + \sqrt{2}}{\sqrt{6}}</m></statement>
+        <answer><p><m>\frac{\sqrt{30} + 2\sqrt{3}}{6}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{2}{\sqrt{3}}</m></statement>
+        <answer><p><m>\frac{2\sqrt{3}}{3}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{1}{5\sqrt{3}}</m></statement>
+        <answer><p><m>\frac{\sqrt{3}}{15}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{\sqrt{22} - \sqrt{18}}{\sqrt{10}}</m></statement>
+        <answer><p><m>\frac{\sqrt{55}-3\sqrt{5}}{5}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{3\sqrt{500}}{-\sqrt{27}}</m></statement>
+        <answer><p><m>-\frac{10\sqrt{15}}{3}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{15\sqrt{18}-3\sqrt{242}}{-3\sqrt{8}}</m></statement>
+        <answer><p><m>-2</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{3+\sqrt{2}}{\sqrt{2}}</m></statement>
+        <answer><p><m>\frac{2+3\sqrt{2}}{2}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{5-\sqrt{2}}{\sqrt{3}}</m></statement>
+        <answer><p><m>\frac{5\sqrt{3}-\sqrt{6}}{3}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{2\sqrt{5}+4}{\sqrt{5}}</m></statement>
+        <answer><p><m>\frac{10+4\sqrt{5}}{5}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{5\sqrt{8}-2\sqrt{5}}{\sqrt{6}}</m></statement>
+        <answer><p><m>\frac{10\sqrt{3}-\sqrt{30}}{3}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{-3\sqrt{12}+2\sqrt{3}}{\sqrt{18}}</m></statement>
+        <answer><p><m>\frac{-2\sqrt{6}}{3}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{4\sqrt{2}-6\sqrt{5}}{2\sqrt{3}}</m></statement>
+        <answer><p><m>\frac{2\sqrt{6}-3\sqrt{15}}{3}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{4\sqrt{5x}}{3\sqrt{2}}</m></statement>
+        <answer><p><m>\frac{2\sqrt{10x}}{3}</m></p></answer>
+      </task>
+    </project>
+    
+    <project xml:id="project-rationalize-monomial-variable">
+      <title>Rationalizing Variable Monomial Denominators</title>
+      <introduction>
+        <p>
+          Simplify each expression, by rationalizing the denominator.
+        </p>
+      </introduction>
+      <task>
+        <statement><m>-\frac{\sqrt{21}}{\sqrt{7x}}</m></statement>
+        <answer><p><m>-\frac{\sqrt{3x}}{x}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{18 \sqrt{3x}}{\sqrt{24x}}</m></statement>
+        <answer><p><m>\frac{9\sqrt{2}}{2}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{5 - \sqrt{3x^4}}{\sqrt{8x}}</m></statement>
+        <answer><p><m>\frac{5\sqrt{2x} - x^2 \sqrt{6x}}{4x}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{3r^2 - \sqrt{5r^2}}{\sqrt{8r}}</m></statement>
+        <answer><p><m>\frac{3r\sqrt{2r} - \sqrt{10r}}{4}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{3\sqrt{135 x^5}}{\sqrt{21x^3}}</m></statement>
+        <answer><p><m>\frac{9x \sqrt{35}}{7}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{\sqrt{24x^2}}{\sqrt{3x}}</m></statement>
+        <answer><p><m>2\sqrt{2x}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{1}{\sqrt{7x}}</m></statement>
+        <answer><p><m>\frac{\sqrt{7x}}{7x}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{x}{\sqrt{x^5}}</m></statement>
+        <answer><p><m>\frac{\sqrt{x}}{x^2}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{2x}{\sqrt{8x^5}}</m></statement>
+        <answer><p><m>\frac{\sqrt{2x}}{2x^2}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{1}{\sqrt{x-2}}</m></statement>
+        <answer><p><m>\frac{\sqrt{x-2}}{x-2}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{\sqrt{x}-2}{\sqrt{x}}</m></statement>
+        <answer><p><m>\frac{x-2\sqrt{x}}{x}</m></p></answer>
+      </task>
+    </project>
+  </subsection>
+  
+  <subsection xml:id="rationalizing-denominator-binomial">
+    <title>Rationalizing the Denominator with Binomial Denominator</title>
+    
+    <project xml:id="project-rationalize-binomial-basic">
+      <title>Rationalizing Binomial Denominators</title>
+      <introduction>
+        <p>
+          Simplify each expression, by rationalizing the denominator.
+        </p>
+      </introduction>
+      <task>
+        <statement><m>\frac{3}{9-\sqrt{5}}</m></statement>
+        <answer><p><m>\frac{27+3\sqrt{5}}{76}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{4}{\sqrt{3} + 1}</m></statement>
+        <answer><p><m>2\sqrt{3} - 2</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{4}{3-\sqrt{2}}</m></statement>
+        <answer><p><m>\frac{12+4\sqrt{2}}{7}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{2+\sqrt{3}}{2-\sqrt{3}}</m></statement>
+        <answer><p><m>7+4\sqrt{3}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{5\sqrt{3}}{4-\sqrt{6}}</m></statement>
+        <answer><p><m>\frac{4\sqrt{3}+3\sqrt{2}}{2}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{-45}{\sqrt{11} + \sqrt{2}}</m></statement>
+        <answer><p><m>-5\sqrt{11}+5\sqrt{2}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{5}{\sqrt{3} - 1}</m></statement>
+        <answer><p><m>\frac{5\sqrt{3}+5}{2}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{\sqrt{3}+\sqrt{13}}{\sqrt{3}-\sqrt{13}}</m></statement>
+        <answer><p><m>\frac{-8-\sqrt{39}}{5}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{5}{9-\sqrt{7}}</m></statement>
+        <answer><p><m>\frac{45 + 5\sqrt{7}}{74}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{5\sqrt{2} + \sqrt{3}}{4 \sqrt{2} - \sqrt{3}}</m></statement>
+        <answer><p><m>\frac{43+9\sqrt{6}}{29}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{4}{8+\sqrt{5}}</m></statement>
+        <answer><p><m>\frac{32-4\sqrt{5}}{59}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{8}{\sqrt{6}+4}</m></statement>
+        <answer><p><m>\frac{16-4\sqrt{6}}{5}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{11}{\sqrt{5}+7}</m></statement>
+        <answer><p><m>\frac{7-\sqrt{5}}{4}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{2}{3\sqrt{5}-4}</m></statement>
+        <answer><p><m>\frac{6\sqrt{5}+8}{29}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{5}{2-\sqrt{3}}</m></statement>
+        <answer><p><m>10+5\sqrt{3}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{7\sqrt{2}}{\sqrt{6}+8}</m></statement>
+        <answer><p><m>\frac{28\sqrt{2}-7\sqrt{3}}{29}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{2}{1+\sqrt{5}}</m></statement>
+        <answer><p><m>\frac{\sqrt{5}-1}{2}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{5}{2+\sqrt{3}}</m></statement>
+        <answer><p><m>10-5\sqrt{3}</m></p></answer>
+      </task>
+    </project>
+    
+    <project xml:id="project-rationalize-binomial-intermediate">
+      <title>Rationalizing Binomial Denominators Continued</title>
+      <introduction>
+        <p>
+          Simplify each expression, by rationalizing the denominator.
+        </p>
+      </introduction>
+      <task>
+        <statement><m>\frac{-\sqrt{7}}{\sqrt{5}-2\sqrt{2}}</m></statement>
+        <answer><p><m>\frac{\sqrt{35}+2\sqrt{14}}{3}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{\sqrt{12}}{\sqrt{3}+1}</m></statement>
+        <answer><p><m>3-\sqrt{3}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{\sqrt{18}}{\sqrt{2}-1}</m></statement>
+        <answer><p><m>6+3\sqrt{2}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{\sqrt{5}}{\sqrt{2}-\sqrt{3}}</m></statement>
+        <answer><p><m>-\sqrt{10}-\sqrt{15}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{-\sqrt{5}}{\sqrt{7}-3}</m></statement>
+        <answer><p><m>\frac{\sqrt{35}+3\sqrt{5}}{2}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{5\sqrt{3}+\sqrt{2}}{\sqrt{3}-\sqrt{2}}</m></statement>
+        <answer><p><m>17+6\sqrt{6}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{6\sqrt{3}-2}{5+4\sqrt{2}}</m></statement>
+        <answer><p><m>\frac{-30\sqrt{3}+24\sqrt{6}+10-8\sqrt{2}}{7}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{\sqrt{3} - 5\sqrt{6}}{\sqrt{3} + \sqrt{2}}</m></statement>
+        <answer><p><m>3 - 15\sqrt{2} - \sqrt{6} + 10 \sqrt{3}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{3+\sqrt{2}}{1+\sqrt{2}}</m></statement>
+        <answer><p><m>2\sqrt{2}-1</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{6}{\sqrt{7}-\sqrt{5}}</m></statement>
+        <answer><p><m>3\sqrt{7}+3\sqrt{5}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{5\sqrt{8}-3\sqrt{2}}{\sqrt{32}+3\sqrt{2}}</m></statement>
+        <answer><p><m>1</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{\sqrt{2}-\sqrt{3}}{\sqrt{2}+\sqrt{3}}</m></statement>
+        <answer><p><m>2\sqrt{6}-5</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{3}{4-\sqrt{5}}</m></statement>
+        <answer><p><m>\frac{12+3\sqrt{5}}{11}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{5\sqrt{3x}}{\sqrt{10}+2}</m></statement>
+        <answer><p><m>\frac{5\sqrt{30x} - 10 5\sqrt{3x}}{6}</m></p></answer>
+      </task>
+    </project>
+    
+    <project xml:id="project-rationalize-binomial-advanced">
+      <title>Rationalizing Complex Binomial Denominators</title>
+      <introduction>
+        <p>
+          Simplify each expression, by rationalizing the denominator.
+        </p>
+      </introduction>
+      <task>
+        <statement><m>\frac{6}{\sqrt{4x}+1}</m></statement>
+        <answer><p><m>\frac{12\sqrt{x}-6}{4x-1}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{4x}{\sqrt{6x}+9}</m></statement>
+        <answer><p><m>\frac{4x(\sqrt{6x}-9)}{6x-81}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{8}{4-\sqrt{6x}}</m></statement>
+        <answer><p><m>\frac{16+4\sqrt{6x}}{8-3x}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{1}{\sqrt{x}-\sqrt{2}}</m></statement>
+        <answer><p><m>\frac{\sqrt{x}+\sqrt{2}}{x-2}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{\sqrt{x}-1}{\sqrt{x}+3}</m></statement>
+        <answer><p><m>\frac{x-4\sqrt{x}+3}{x-9}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{\sqrt{x}}{\sqrt{x}-\sqrt{y}}</m></statement>
+        <answer><p><m>\frac{x+\sqrt{xy}}{x-y}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{\sqrt{y}}{\sqrt{x}+\sqrt{y}}</m></statement>
+        <answer><p><m>\frac{\sqrt{xy}-y}{x-y}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{1}{\sqrt{x}-\sqrt{y}}</m></statement>
+        <answer><p><m>\frac{\sqrt{x}+\sqrt{y}}{x-y}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{\sqrt{a}+b}{\sqrt{a}-b}</m></statement>
+        <answer><p><m>\frac{a+2b\sqrt{a}+b^2}{a-b^2}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{2\sqrt{x}+3\sqrt{y}}{\sqrt{x}-\sqrt{y}}</m></statement>
+        <answer><p><m>\frac{2x+5\sqrt{xy}+3y}{x-y}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{3\sqrt{x}}{\sqrt{x} + 3\sqrt{y}}</m></statement>
+        <answer><p><m>\frac{3x - 9 \sqrt{xy}}{x - 9y}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{1}{\sqrt{x+1} - 1}</m></statement>
+        <answer><p><m>\frac{\sqrt{x+1} + 1}{x}</m></p></answer>
+      </task>
+    </project>
+    
+    <p>
+      My recommended calculator <url href="https://camerongeisler.com/calculator-guide-for-students-how-to-buy-a-calculator/">Casio FX-991ES Plus C 2nd edition</url> (or some other similar scientific calculators) can rationalize a radical expression (that is numerical, with no variables), both with a monomial denominator, and even with a binomial denominator. Just input the radical expression, and press equals. You can use to at least check your answer.
+    </p>
+  </subsection>
+  
+  <subsection xml:id="rationalizing-higher-roots">
+    <title>Rationalizing the Denominator with Higher Roots</title>
+    <p>
+      In general, multiply the numerator and denominator by whatever is required to get a perfect <m>n</m>th power in the the radical we want to get rid of. Think: What do you need to make a perfect cube (or 4th power, 5th power, etc.)?
+    </p>
+    
+    <project xml:id="project-rationalize-higher-roots">
+      <title>Practice with Higher Roots</title>
+      <introduction>
+        <p>
+          Simplify each expression, by rationalizing the denominator.
+        </p>
+      </introduction>
+      <task>
+        <statement><m>\frac{1}{\sqrt[3]{2}}</m></statement>
+        <answer><p><m>\frac{\sqrt[3]{4}}{2}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{3}{\sqrt[3]{4}}</m></statement>
+        <answer><p><m>\frac{3\sqrt[3]{2}}{2}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{4}{\sqrt[4]{3}}</m></statement>
+        <answer><p><m>\frac{4\sqrt[4]{27}}{3}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{4}{\sqrt[3]{2}}</m></statement>
+        <answer><p><m>2\sqrt[3]{4}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{1}{\sqrt[5]{x^2}}</m></statement>
+        <answer><p><m>\frac{\sqrt[5]{x^3}}{x}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{2}{\sqrt[4]{y}}</m></statement>
+        <answer><p><m>\frac{2\sqrt[4]{y^3}}{y}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{4\sqrt{11}}{x\sqrt[3]{6}}</m></statement>
+        <answer><p><m>\frac{2\sqrt{11}\sqrt[3]{36}}{3x}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>-\frac{7}{2\sqrt[3]{9x}}</m></statement>
+        <answer><p><m>\frac{-7\sqrt[3]{3x^2}}{6x}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt[3]{\frac{x^2}{y}}</m></statement>
+        <answer><p><m>\frac{\sqrt[3]{x^2y^2}}{y}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt[5]{\frac{a^3}{b^2}}</m></statement>
+        <answer><p><m>\frac{\sqrt[5]{a^3b^3}}{b}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{3}{\sqrt[5]{24x^2}}</m></statement>
+        <answer><p><m>\frac{\sqrt[5]{324x^3}}{2x}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{7}{\sqrt[3]{12x^7}}</m></statement>
+        <answer><p><m>\frac{7\sqrt[3]{18x^2}}{6x^3}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{1}{\sqrt{5}}-\frac{1}{\sqrt{3}}</m></statement>
+        <answer><p><m>\frac{3\sqrt{5}-5\sqrt{3}}{15}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{\sqrt{2}}{\sqrt{12}}-\frac{5\sqrt{3}}{\sqrt{8}}</m></statement>
+        <answer><p><m>\frac{-13\sqrt{6}}{12}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{\sqrt{6}}{2\sqrt{5}+3\sqrt{3}}-\frac{\sqrt{2}}{\sqrt{7}-2\sqrt{3}}</m></statement>
+        <answer><p><m>\frac{-10\sqrt{30}+45\sqrt{2}+7\sqrt{14}+14\sqrt{6}}{35}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\frac{6 \sqrt[3]{4x^7}}{\sqrt[3]{14x}}</m></statement>
+      </task>
+    </project>
+  </subsection>
+  
+  <subsection xml:id="historical-note">
+    <title>Rationalizing the Denominator Historical Note</title>
+    <p>
+      Rationalizing the denominator of a fraction was more useful before computers, so division had to be done by hand, using long division. Dividing 1 by <m>\sqrt{2}</m> meant dividing 1 by 1.41421<m>\dots</m>. Instead, it is easier to divide <m>\sqrt{2}</m> by <m>2</m>.
+    </p>
+  </subsection>
+  
+  <subsection xml:id="word-problems">
+    <title>Word Problems</title>
+    <exercise>
+      <title>Rectangle Area</title>
+      <statement>
+        <p>
+          A rectangle has dimensions <m>6+\sqrt{3}</m> and <m>6-\sqrt{3}</m>. Find an expression for its area.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          33
+        </p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Reciprocal Proof</title>
+      <statement>
+        <p>
+          Show that the reciprocal of <m>\sqrt{26}-5</m> is 10 greater than <m>\sqrt{26}-5</m>.
+        </p>
+      </statement>
+      <hint>
+        <p>
+          take the reciprocal and rationalize the denominator.
+        </p>
+      </hint>
+    </exercise>
+  </subsection>
+  
+</section>

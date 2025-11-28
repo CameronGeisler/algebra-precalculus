@@ -293,19 +293,19 @@
         <p>Prove each trigonometric identity.</p>
       </introduction>
       <task>
-        <statement><p><m>\frac{\brac{\sin{x} + \cos{x}}^2}{\sin{(2x)}} = \csc{(2x)} + 1</m></p></statement>
+        <statement><p><m>\dfrac{\brac{\sin{x} + \cos{x}}^2}{\sin{(2x)}} = \csc{(2x)} + 1</m></p></statement>
         <hint><p>Pythagorean identity, double-angle identity</p></hint>
       </task>
       <task>
-        <statement><p><m>\frac{\csc{x}}{2\cos{x}} = \csc{(2x)}</m></p></statement>
+        <statement><p><m>\dfrac{\csc{x}}{2\cos{x}} = \csc{(2x)}</m></p></statement>
         <hint><p>reciprocal identity, double-angle identity</p></hint>
       </task>
       <task>
-        <statement><p><m>\sec^2{x}=\frac{2}{1+\cos{(2x)}}</m></p></statement>
+        <statement><p><m>\sec^2{x}=\dfrac{2}{1+\cos{(2x)}}</m></p></statement>
         <hint><p>double-angle identity, reciprocal identity</p></hint>
       </task>
       <task>
-        <statement><p><m>\frac{1+\cos{(2x)}}{\sin{(2x)}}=\cot x</m></p></statement>
+        <statement><p><m>\dfrac{1+\cos{(2x)}}{\sin{(2x)}}=\cot x</m></p></statement>
         <hint><p>double-angle identities, cancel</p></hint>
       </task>
       <task>
@@ -313,7 +313,7 @@
         <hint><p>expand, Pythagorean identity, double-angle identity</p></hint>
       </task>
       <task>
-        <statement><p><m>\tan{x} = \frac{1-\cos{(2x)}}{\sin{(2x)}}</m></p></statement>
+        <statement><p><m>\tan{x} = \dfrac{1-\cos{(2x)}}{\sin{(2x)}}</m></p></statement>
         <hint><p>double-angle identity</p></hint>
       </task>
       <task>
@@ -321,7 +321,7 @@
         <hint><p>double-angle identity, rewrite in terms of sine and cosine, distribute, cancel common factors</p></hint>
       </task>
       <task>
-        <statement><p><m>\frac{\sin{(2x)}}{1-\cos{(2x)}} = \cot{x}</m></p></statement>
+        <statement><p><m>\dfrac{\sin{(2x)}}{1-\cos{(2x)}} = \cot{x}</m></p></statement>
         <hint><p>double-angle identity, cancel common factors</p></hint>
       </task>
     </project>
@@ -332,35 +332,35 @@
         <p>Prove each trigonometric identity.</p>
       </introduction>
       <task>
-        <statement><p><m>\frac{\sin{x} + \tan{x}}{1 + \cos{x}} = \frac{\sin{(2x)}}{2 \cos^2{x}}</m></p></statement>
+        <statement><p><m>\dfrac{\sin{x} + \tan{x}}{1 + \cos{x}} = \dfrac{\sin{(2x)}}{2 \cos^2{x}}</m></p></statement>
         <hint><p>start with both sides, double-angle identity, clear denominators, cancel</p></hint>
       </task>
       <task>
-        <statement><p><m>\frac{2\tan{x}}{1+\tan^2{x}} = \sin{(2x)}</m></p></statement>
+        <statement><p><m>\dfrac{2\tan{x}}{1+\tan^2{x}} = \sin{(2x)}</m></p></statement>
         <hint><p>convert to sine and cosine, clear denominators, Pythagorean identity, double-angle identity</p></hint>
       </task>
       <task>
-        <statement><p><m>\frac{\sin{(6x)}}{1 + \cos{(6x)}} = \tan{(3x)}</m></p></statement>
+        <statement><p><m>\dfrac{\sin{(6x)}}{1 + \cos{(6x)}} = \tan{(3x)}</m></p></statement>
         <hint><p>work with both sides, double-angle identity, cancel common factors</p></hint>
       </task>
       <task>
-        <statement><p><m>\tan{(2x)} = \frac{2}{\cot{x} - \tan{x}}</m></p></statement>
+        <statement><p><m>\tan{(2x)} = \dfrac{2}{\cot{x} - \tan{x}}</m></p></statement>
         <hint><p>work with both sides, rewrite in terms of tangent, simplify complex fraction by clearing denominators</p></hint>
       </task>
       <task>
-        <statement><p><m>\cot{x} - \csc{x} = \frac{\cos{(2x)} - \cos{x}}{\sin{(2x)} + \sin{x}}</m></p></statement>
+        <statement><p><m>\cot{x} - \csc{x} = \dfrac{\cos{(2x)} - \cos{x}}{\sin{(2x)} + \sin{x}}</m></p></statement>
         <hint><p>work with both sides, double-angle identity, factor quadratic trinomial, cancel common factors, rewrite in terms of sine and cosine, combine fractions (or split fraction)</p></hint>
       </task>
       <task>
-        <statement><p><m>\frac{2\cos{x} + 2\cos^2{x}}{\sin{(2x)}} = \frac{\sin{x}}{1 - \cos{x}}</m></p></statement>
+        <statement><p><m>\dfrac{2\cos{x} + 2\cos^2{x}}{\sin{(2x)}} = \dfrac{\sin{x}}{1 - \cos{x}}</m></p></statement>
         <hint><p>start with the LHS, double-angle identity, factor out common factor, cancel common factors, multiply by the conjugate</p></hint>
       </task>
       <task>
-        <statement><p><m>\frac{\sin{(2x)}}{1 + \cos{(2x)}} = \frac{\sec^2{x} - 1}{\tan{x}}</m></p></statement>
+        <statement><p><m>\dfrac{\sin{(2x)}}{1 + \cos{(2x)}} = \dfrac{\sec^2{x} - 1}{\tan{x}}</m></p></statement>
         <hint><p>work with both sides, double-angle identity, cancel common factors, Pythagorean identity (or rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators)</p></hint>
       </task>
       <task>
-        <statement><p><m>(\csc{x} - \sin{x}) \tan{x} = \frac{\sin{(2x)}}{2\sin{x}}</m></p></statement>
+        <statement><p><m>(\csc{x} - \sin{x}) \tan{x} = \dfrac{\sin{(2x)}}{2\sin{x}}</m></p></statement>
         <hint><p>work with both sides, double-angle identity, rewrite in terms of sine and cosine, distribute, Pythagorean identity</p></hint>
       </task>
     </project>

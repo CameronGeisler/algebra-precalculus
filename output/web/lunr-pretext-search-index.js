@@ -1270,11 +1270,110 @@ var ptx_lunr_docs = [
   "body": " Advanced Examples   Solve each system of equations.           , .            , .            , .    "
 },
 {
+  "id": "sec-multiplying-and-dividing-radical-expressions",
+  "level": "1",
+  "url": "sec-multiplying-and-dividing-radical-expressions.html",
+  "type": "Section",
+  "number": "5.1",
+  "title": "Multiplying and Dividing Radical Expressions",
+  "body": " Multiplying and Dividing Radical Expressions    Rationalizing the denominator involving converting an irrational denominator (a radical that cannot be simplified to a perfect square) to something that doesn't have any radicals.   Rationalizing a Simple Fraction   Consider the fraction , which has in the denominator. To eliminate the square root in the denominator, we can multiply it by (since ). If we multiply the denominator by , we also have to multiply the numerator, so that the number's value is not changed. Then,   Therefore,     Rationalizing the denominator only changes the form of the number, not its value. Most of the time, it is considered poor form to leave a radical in the denominator of a final answer (this is analogous to giving a fraction final answer not in reduced form, like putting instead of ). Basically, it is considered to look nicer , so it is a standard form to write final answers, so that it is easy to compare if two answers are the same.    Rationalizing the Denominator  In general, to rationalize the denominator with a square root,    (Ideally) Simplify radicals, if possible.    Multiply numerator and denominator by the square root in the denominator.     Rationalizing Numerical Monomial Denominators   Simplify each expression, by rationalizing the denominator.                                                                                                     Rationalizing Variable Monomial Denominators   Simplify each expression, by rationalizing the denominator.                                                  Rationalizing the Denominator with Binomial Denominator   Rationalizing Binomial Denominators   Simplify each expression, by rationalizing the denominator.                                                                             Rationalizing Binomial Denominators Continued   Simplify each expression, by rationalizing the denominator.                                                             Rationalizing Complex Binomial Denominators   Simplify each expression, by rationalizing the denominator.                                                    My recommended calculator Casio FX-991ES Plus C 2nd edition (or some other similar scientific calculators) can rationalize a radical expression (that is numerical, with no variables), both with a monomial denominator, and even with a binomial denominator. Just input the radical expression, and press equals. You can use to at least check your answer.    Rationalizing the Denominator with Higher Roots  In general, multiply the numerator and denominator by whatever is required to get a perfect th power in the the radical we want to get rid of. Think: What do you need to make a perfect cube (or 4th power, 5th power, etc.)?   Practice with Higher Roots   Simplify each expression, by rationalizing the denominator.                                                                     Rationalizing the Denominator Historical Note  Rationalizing the denominator of a fraction was more useful before computers, so division had to be done by hand, using long division. Dividing 1 by meant dividing 1 by 1.41421 . Instead, it is easier to divide by .    Word Problems   Rectangle Area   A rectangle has dimensions and . Find an expression for its area.    33     Reciprocal Proof   Show that the reciprocal of is 10 greater than .    take the reciprocal and rationalize the denominator.     "
+},
+{
+  "id": "sec-multiplying-and-dividing-radical-expressions-2-1",
+  "level": "2",
+  "url": "sec-multiplying-and-dividing-radical-expressions.html#sec-multiplying-and-dividing-radical-expressions-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Rationalizing the denominator "
+},
+{
+  "id": "sec-multiplying-and-dividing-radical-expressions-2-2",
+  "level": "2",
+  "url": "sec-multiplying-and-dividing-radical-expressions.html#sec-multiplying-and-dividing-radical-expressions-2-2",
+  "type": "Example",
+  "number": "5.1.1",
+  "title": "Rationalizing a Simple Fraction.",
+  "body": " Rationalizing a Simple Fraction   Consider the fraction , which has in the denominator. To eliminate the square root in the denominator, we can multiply it by (since ). If we multiply the denominator by , we also have to multiply the numerator, so that the number's value is not changed. Then,   Therefore,    "
+},
+{
+  "id": "project-rationalize-monomial-numerical",
+  "level": "2",
+  "url": "sec-multiplying-and-dividing-radical-expressions.html#project-rationalize-monomial-numerical",
+  "type": "Exercise Group",
+  "number": "5.1.1",
+  "title": "Rationalizing Numerical Monomial Denominators.",
+  "body": " Rationalizing Numerical Monomial Denominators   Simplify each expression, by rationalizing the denominator.                                                                                                   "
+},
+{
+  "id": "project-rationalize-monomial-variable",
+  "level": "2",
+  "url": "sec-multiplying-and-dividing-radical-expressions.html#project-rationalize-monomial-variable",
+  "type": "Exercise Group",
+  "number": "5.1.2",
+  "title": "Rationalizing Variable Monomial Denominators.",
+  "body": " Rationalizing Variable Monomial Denominators   Simplify each expression, by rationalizing the denominator.                                               "
+},
+{
+  "id": "project-rationalize-binomial-basic",
+  "level": "2",
+  "url": "sec-multiplying-and-dividing-radical-expressions.html#project-rationalize-binomial-basic",
+  "type": "Exercise Group",
+  "number": "5.1.3",
+  "title": "Rationalizing Binomial Denominators.",
+  "body": " Rationalizing Binomial Denominators   Simplify each expression, by rationalizing the denominator.                                                                           "
+},
+{
+  "id": "project-rationalize-binomial-intermediate",
+  "level": "2",
+  "url": "sec-multiplying-and-dividing-radical-expressions.html#project-rationalize-binomial-intermediate",
+  "type": "Exercise Group",
+  "number": "5.1.4",
+  "title": "Rationalizing Binomial Denominators Continued.",
+  "body": " Rationalizing Binomial Denominators Continued   Simplify each expression, by rationalizing the denominator.                                                           "
+},
+{
+  "id": "project-rationalize-binomial-advanced",
+  "level": "2",
+  "url": "sec-multiplying-and-dividing-radical-expressions.html#project-rationalize-binomial-advanced",
+  "type": "Exercise Group",
+  "number": "5.1.5",
+  "title": "Rationalizing Complex Binomial Denominators.",
+  "body": " Rationalizing Complex Binomial Denominators   Simplify each expression, by rationalizing the denominator.                                                   "
+},
+{
+  "id": "project-rationalize-higher-roots",
+  "level": "2",
+  "url": "sec-multiplying-and-dividing-radical-expressions.html#project-rationalize-higher-roots",
+  "type": "Exercise Group",
+  "number": "5.1.6",
+  "title": "Practice with Higher Roots.",
+  "body": " Practice with Higher Roots   Simplify each expression, by rationalizing the denominator.                                                                  "
+},
+{
+  "id": "word-problems-2",
+  "level": "2",
+  "url": "sec-multiplying-and-dividing-radical-expressions.html#word-problems-2",
+  "type": "Checkpoint",
+  "number": "5.1.2",
+  "title": "Rectangle Area.",
+  "body": " Rectangle Area   A rectangle has dimensions and . Find an expression for its area.    33   "
+},
+{
+  "id": "word-problems-3",
+  "level": "2",
+  "url": "sec-multiplying-and-dividing-radical-expressions.html#word-problems-3",
+  "type": "Checkpoint",
+  "number": "5.1.3",
+  "title": "Reciprocal Proof.",
+  "body": " Reciprocal Proof   Show that the reciprocal of is 10 greater than .    take the reciprocal and rationalize the denominator.   "
+},
+{
   "id": "sec-intro-to-rational-expressions",
   "level": "1",
   "url": "sec-intro-to-rational-expressions.html",
   "type": "Section",
-  "number": "5.1",
+  "number": "6.1",
   "title": "Intro to Rational Expressions",
   "body": " Intro to Rational Expressions   Recall that a fraction, or rational number , is a number that can be written by dividing two integers (like , or ). A rational expression is similar, except with variables.    Rational Expressions    A rational expression is an algebraic expression of the form, In other words, it is the quotient of two polynomials.   It's also called an algebraic fraction , as opposed to a regular fraction which only involves numbers.      Identifying Rational Expressions  For example, these are all rational expressions,     ( , being just a constant, is still considered a polynomial)  (polynomials can have multiple different variables)   However, these are not rational expressions:   , because is not a polynomial.  , because is not a polynomial.     Polynomials as Rational Expressions  All polynomials are technically also considered rational expressions, because any polynomial can be written as itself divided by 1 (and 1 is a polynomial also). For example,      Non-Permissible Values  A rational expression is not defined if their denominator is 0, because division by zero is undefined. Values of (or whatever the variable is) that make the denominator 0 are called non-permissible values .    The non-permissible values ( NPV s) of a rational expressions are the values of the variable(s) that make the denominator 0.   Also called restrictions , or excluded values .     To determine the non-permissible values of a rational expression, figure out what values of will make the denominator 0.   Basic Non-Permissible Values  Find the non-permissible values of the rational expression,   This is when is equal to 0. You may be able to observe that this is when . Or, you can set equal to 0 and solve for . Therefore, the NPV is .   The purpose of NPVs is to communicate what values of the variable are not allowed to be plugged into the expression.   NPVs with Difference of Squares  Find the non-permissible values of,   The denominator is , so the NPVs are the values that make . To solve this, one way is to factor it as a difference of squares, then set each factor equal to 0 and solve for . Therefore, the NPVs are . Alternatively, you could take square roots,     No Non-Permissible Values  Find the non-permissible values of,   The denominator is , so the NPVs are when, To solve this, you may recognize that the left side is always positive, so it is never equal to 0, and so there is no solution. Or, isolate for , Then, there is no number such that (in other words, the equation has no solution), so the denominator is never 0. Therefore, there are no NPVs.    NPVs with Trinomial Factoring  Find the non-permissible values of,   The NPVs are when, We can factor, then set each factor equal to 0 and solve. Therefore, the NPVs are .    NPVs with Multiple Variables  Find the non-permissible values of,   The denominator is , so the NPVs are when, This is a product of two variables, so it is equal to 0 precisely when either or . Both of these make the denominator 0, so both must be excluded. Therefore, the NPVs are and .    NPVs with Common Factors  Find the non-permissible values of,   The NPVs are when, You can factor out a common factor of , then set each factor equal to 0 and solve for . Therefore, the NPVs are .    NPVs Using Quadratic Formula  Find the non-permissible values of,   The NPVs are when, In fact, this quadratic does not factor, so we must use the quadratic formula. Therefore, the NPVs are .   In summary, to find non-permissible values, find the zeros of the denominator, by setting it equal to 0 and solving for .  Note: the non-permissible values do not depend on what the numerator is at all , only on what the denominator is.   Practice Exercises   Find all non-permissible values (if any) for each rational expression.                 none                         ,             none         the quadratic does not factor      difference of squares      "
 },
@@ -1283,7 +1382,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-rational-expressions.html#rational-expressions-2",
   "type": "Definition",
-  "number": "5.1.1",
+  "number": "6.1.1",
   "title": "",
   "body": "  A rational expression is an algebraic expression of the form, In other words, it is the quotient of two polynomials.   It's also called an algebraic fraction , as opposed to a regular fraction which only involves numbers.    "
 },
@@ -1292,7 +1391,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-rational-expressions.html#rational-expressions-3",
   "type": "Example",
-  "number": "5.1.2",
+  "number": "6.1.2",
   "title": "Identifying Rational Expressions.",
   "body": " Identifying Rational Expressions  For example, these are all rational expressions,     ( , being just a constant, is still considered a polynomial)  (polynomials can have multiple different variables)   However, these are not rational expressions:   , because is not a polynomial.  , because is not a polynomial.   "
 },
@@ -1301,7 +1400,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-rational-expressions.html#rational-expressions-4",
   "type": "Example",
-  "number": "5.1.3",
+  "number": "6.1.3",
   "title": "Polynomials as Rational Expressions.",
   "body": " Polynomials as Rational Expressions  All polynomials are technically also considered rational expressions, because any polynomial can be written as itself divided by 1 (and 1 is a polynomial also). For example,   "
 },
@@ -1310,7 +1409,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-rational-expressions.html#non-permissible-values-3",
   "type": "Definition",
-  "number": "5.1.4",
+  "number": "6.1.4",
   "title": "",
   "body": "  The non-permissible values ( NPV s) of a rational expressions are the values of the variable(s) that make the denominator 0.   Also called restrictions , or excluded values .    "
 },
@@ -1319,7 +1418,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-rational-expressions.html#non-permissible-values-5",
   "type": "Example",
-  "number": "5.1.5",
+  "number": "6.1.5",
   "title": "Basic Non-Permissible Values.",
   "body": " Basic Non-Permissible Values  Find the non-permissible values of the rational expression,   This is when is equal to 0. You may be able to observe that this is when . Or, you can set equal to 0 and solve for . Therefore, the NPV is .  "
 },
@@ -1328,7 +1427,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-rational-expressions.html#non-permissible-values-7",
   "type": "Example",
-  "number": "5.1.6",
+  "number": "6.1.6",
   "title": "NPVs with Difference of Squares.",
   "body": " NPVs with Difference of Squares  Find the non-permissible values of,   The denominator is , so the NPVs are the values that make . To solve this, one way is to factor it as a difference of squares, then set each factor equal to 0 and solve for . Therefore, the NPVs are . Alternatively, you could take square roots,   "
 },
@@ -1337,7 +1436,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-rational-expressions.html#non-permissible-values-8",
   "type": "Example",
-  "number": "5.1.7",
+  "number": "6.1.7",
   "title": "No Non-Permissible Values.",
   "body": " No Non-Permissible Values  Find the non-permissible values of,   The denominator is , so the NPVs are when, To solve this, you may recognize that the left side is always positive, so it is never equal to 0, and so there is no solution. Or, isolate for , Then, there is no number such that (in other words, the equation has no solution), so the denominator is never 0. Therefore, there are no NPVs.  "
 },
@@ -1346,7 +1445,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-rational-expressions.html#non-permissible-values-9",
   "type": "Example",
-  "number": "5.1.8",
+  "number": "6.1.8",
   "title": "NPVs with Trinomial Factoring.",
   "body": " NPVs with Trinomial Factoring  Find the non-permissible values of,   The NPVs are when, We can factor, then set each factor equal to 0 and solve. Therefore, the NPVs are .  "
 },
@@ -1355,7 +1454,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-rational-expressions.html#non-permissible-values-10",
   "type": "Example",
-  "number": "5.1.9",
+  "number": "6.1.9",
   "title": "NPVs with Multiple Variables.",
   "body": " NPVs with Multiple Variables  Find the non-permissible values of,   The denominator is , so the NPVs are when, This is a product of two variables, so it is equal to 0 precisely when either or . Both of these make the denominator 0, so both must be excluded. Therefore, the NPVs are and .  "
 },
@@ -1364,7 +1463,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-rational-expressions.html#non-permissible-values-11",
   "type": "Example",
-  "number": "5.1.10",
+  "number": "6.1.10",
   "title": "NPVs with Common Factors.",
   "body": " NPVs with Common Factors  Find the non-permissible values of,   The NPVs are when, You can factor out a common factor of , then set each factor equal to 0 and solve for . Therefore, the NPVs are .  "
 },
@@ -1373,7 +1472,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-rational-expressions.html#non-permissible-values-12",
   "type": "Example",
-  "number": "5.1.11",
+  "number": "6.1.11",
   "title": "NPVs Using Quadratic Formula.",
   "body": " NPVs Using Quadratic Formula  Find the non-permissible values of,   The NPVs are when, In fact, this quadratic does not factor, so we must use the quadratic formula. Therefore, the NPVs are .  "
 },
@@ -1382,7 +1481,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-rational-expressions.html#non-permissible-values-15",
   "type": "Exercise Group",
-  "number": "5.1.1",
+  "number": "6.1.1",
   "title": "Practice Exercises.",
   "body": " Practice Exercises   Find all non-permissible values (if any) for each rational expression.                 none                         ,             none         the quadratic does not factor      difference of squares    "
 },
@@ -1391,7 +1490,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-simplifying-rational-expressions.html",
   "type": "Section",
-  "number": "5.2",
+  "number": "6.2",
   "title": "Simplifying Rational Expressions",
   "body": " Simplifying Rational Expressions   Recall that simplifying a fraction involves cancelling the greatest common factor from the numerator and the denominator, so the fraction is in lowest terms .   Simplifying a Numerical Fraction   To simplify , factor both the numerator and denominator,   Cancel the common factors from the numerator and denominator,    Therefore, simplifies to .   Similarly, simplifying a rational expression involves factoring the numerator and denominator, and cancelling common factors until there are no common factors other than 1. In this case, we say the rational expression is in lowest terms .    Simplifying Expressions with Monomials   Monomial Expressions   Simplify each rational expression, and state any restrictions on the variables.                                                            Sometimes, factors can have more than one term in them.   Binomial Factors   Simplify each rational expression, and state any restrictions on the variables.                      Simplifying Expressions with Polynomials by Factoring  Look for common factors.   Polynomial Expressions   Simplify each rational expression, and state any restrictions on the variables.     , none                                                            Sometimes, two factors will look similar but not be exactly the same. In particular, they will be negatives of each other.   Factors Differing by a Negative   For example, consider,   The negative of is . If you divide a number and its negative (like e.g. 5 and ), the result is always . We can factor out a from the numerator, and then cancel,      Simplifying Negative Factors   Simplify each rational expression.                                         or             Simplifying and Restrictions   Simplify each rational expression, and state any restrictions on the variables.                                     Quadratic Expressions   Simplify each rational expression.         or                                                                                             Complex Polynomial Expressions   Simplify each rational expression.                                                         Trinomials and Restrictions   Simplify each rational expression, and state any restrictions on the variables.                                          Common Mistake: Cancelling Common Terms  Common factors can be cancelled, but not common terms . For example,   In other words, something must be a factor of the entire numerator in order to cancel them.    Summary of Simplifying Rational Expressions    Factor the numerator and denominator as much as possible (if there are multiple terms, with addition or subtraction).  If there is multiplication only, there is no factoring needed.      Cancel common factors .  Remember: only factors can cancel (not terms, which are added or subtracted).  Sometimes, common factors will differ by a constant factor like .     Rewrite the fraction , with what's left after cancelling.  Find restrictions (if needed). Find the values of the variable that make the denominator 0 (from the original denominator, before any cancellation).     Word Problems   Isosceles Triangle   An isosceles triangle has two sides of length and a perimeter of , determine the ratio of the base to the perimeter in simplified form and state the restriction on , then explain in one sentence why that restriction is necessary in this situation.    , restriction because the side lengths and perimeter must be positive (at they are zero).     Rectangle Ratio   A rectangle is six times as long as it is wide, determine the ratio of its area to its perimeter in simplest form if its width is .        Equivalent Rational Expressions   The quotient of two polynomials is , give two examples of a rational expression equivalent to this polynomial that has the restriction .    and (each simplifies to for ).     Consecutive Restrictions   Give an example of a rational expression that could have three restrictions that are consecutive numbers.    e.g. (restrictions are consecutive).     Box Dimensions   The volume of a box is given by and its height is . Find a simplified expression for the area of the bottom of the box.         Simplifying with Two Variables   Two Variable Expressions   Simplify each rational expression.                                                                             Restrictions with Two Variables   Find the restrictions, if any, on each rational expression.             "
 },
@@ -1409,7 +1508,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-rational-expressions.html#sec-simplifying-rational-expressions-2-2",
   "type": "Example",
-  "number": "5.2.1",
+  "number": "6.2.1",
   "title": "Simplifying a Numerical Fraction.",
   "body": " Simplifying a Numerical Fraction   To simplify , factor both the numerator and denominator,   Cancel the common factors from the numerator and denominator,    Therefore, simplifies to .  "
 },
@@ -1427,7 +1526,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-rational-expressions.html#project-monomial-expressions",
   "type": "Exercise Group",
-  "number": "5.2.1",
+  "number": "6.2.1",
   "title": "Monomial Expressions.",
   "body": " Monomial Expressions   Simplify each rational expression, and state any restrictions on the variables.                                                           "
 },
@@ -1436,7 +1535,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-rational-expressions.html#project-binomial-factors",
   "type": "Exercise Group",
-  "number": "5.2.2",
+  "number": "6.2.2",
   "title": "Binomial Factors.",
   "body": " Binomial Factors   Simplify each rational expression, and state any restrictions on the variables.                   "
 },
@@ -1445,7 +1544,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-rational-expressions.html#project-polynomial-factoring",
   "type": "Exercise Group",
-  "number": "5.2.3",
+  "number": "6.2.3",
   "title": "Polynomial Expressions.",
   "body": " Polynomial Expressions   Simplify each rational expression, and state any restrictions on the variables.     , none                                                           "
 },
@@ -1454,7 +1553,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-rational-expressions.html#subsection-factoring-polynomials-5",
   "type": "Example",
-  "number": "5.2.2",
+  "number": "6.2.2",
   "title": "Factors Differing by a Negative.",
   "body": " Factors Differing by a Negative   For example, consider,   The negative of is . If you divide a number and its negative (like e.g. 5 and ), the result is always . We can factor out a from the numerator, and then cancel,    "
 },
@@ -1463,7 +1562,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-rational-expressions.html#project-negative-factors",
   "type": "Exercise Group",
-  "number": "5.2.4",
+  "number": "6.2.4",
   "title": "Simplifying Negative Factors.",
   "body": " Simplifying Negative Factors   Simplify each rational expression.                                         or           "
 },
@@ -1472,7 +1571,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-rational-expressions.html#project-simplify-restrictions",
   "type": "Exercise Group",
-  "number": "5.2.5",
+  "number": "6.2.5",
   "title": "Simplifying and Restrictions.",
   "body": " Simplifying and Restrictions   Simplify each rational expression, and state any restrictions on the variables.                                   "
 },
@@ -1481,7 +1580,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-rational-expressions.html#project-quadratic-expressions",
   "type": "Exercise Group",
-  "number": "5.2.6",
+  "number": "6.2.6",
   "title": "Quadratic Expressions.",
   "body": " Quadratic Expressions   Simplify each rational expression.         or                                                                                           "
 },
@@ -1490,7 +1589,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-rational-expressions.html#project-complex-polynomials",
   "type": "Exercise Group",
-  "number": "5.2.7",
+  "number": "6.2.7",
   "title": "Complex Polynomial Expressions.",
   "body": " Complex Polynomial Expressions   Simplify each rational expression.                                                       "
 },
@@ -1499,7 +1598,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-rational-expressions.html#project-trinomial-restrictions",
   "type": "Exercise Group",
-  "number": "5.2.8",
+  "number": "6.2.8",
   "title": "Trinomials and Restrictions.",
   "body": " Trinomials and Restrictions   Simplify each rational expression, and state any restrictions on the variables.                                       "
 },
@@ -1508,7 +1607,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-rational-expressions.html#subsection-word-problems-2",
   "type": "Example",
-  "number": "5.2.3",
+  "number": "6.2.3",
   "title": "Isosceles Triangle.",
   "body": " Isosceles Triangle   An isosceles triangle has two sides of length and a perimeter of , determine the ratio of the base to the perimeter in simplified form and state the restriction on , then explain in one sentence why that restriction is necessary in this situation.    , restriction because the side lengths and perimeter must be positive (at they are zero).   "
 },
@@ -1517,7 +1616,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-rational-expressions.html#subsection-word-problems-3",
   "type": "Example",
-  "number": "5.2.4",
+  "number": "6.2.4",
   "title": "Rectangle Ratio.",
   "body": " Rectangle Ratio   A rectangle is six times as long as it is wide, determine the ratio of its area to its perimeter in simplest form if its width is .      "
 },
@@ -1526,7 +1625,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-rational-expressions.html#subsection-word-problems-4",
   "type": "Example",
-  "number": "5.2.5",
+  "number": "6.2.5",
   "title": "Equivalent Rational Expressions.",
   "body": " Equivalent Rational Expressions   The quotient of two polynomials is , give two examples of a rational expression equivalent to this polynomial that has the restriction .    and (each simplifies to for ).   "
 },
@@ -1535,7 +1634,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-rational-expressions.html#subsection-word-problems-5",
   "type": "Example",
-  "number": "5.2.6",
+  "number": "6.2.6",
   "title": "Consecutive Restrictions.",
   "body": " Consecutive Restrictions   Give an example of a rational expression that could have three restrictions that are consecutive numbers.    e.g. (restrictions are consecutive).   "
 },
@@ -1544,7 +1643,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-rational-expressions.html#subsection-word-problems-6",
   "type": "Example",
-  "number": "5.2.7",
+  "number": "6.2.7",
   "title": "Box Dimensions.",
   "body": " Box Dimensions   The volume of a box is given by and its height is . Find a simplified expression for the area of the bottom of the box.      "
 },
@@ -1553,7 +1652,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-rational-expressions.html#project-two-variable-expressions",
   "type": "Exercise Group",
-  "number": "5.2.9",
+  "number": "6.2.9",
   "title": "Two Variable Expressions.",
   "body": " Two Variable Expressions   Simplify each rational expression.                                                                           "
 },
@@ -1562,7 +1661,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-simplifying-rational-expressions.html#project-restrictions-two-variables",
   "type": "Exercise Group",
-  "number": "5.2.10",
+  "number": "6.2.10",
   "title": "Restrictions with Two Variables.",
   "body": " Restrictions with Two Variables   Find the restrictions, if any, on each rational expression.           "
 },
@@ -1571,7 +1670,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-multiplying-and-dividing-rational-expressions.html",
   "type": "Section",
-  "number": "5.3",
+  "number": "6.3",
   "title": "Multiplying and Dividing Rational Expressions",
   "body": " Multiplying and Dividing Rational Expressions   Recall that to multiply fractions, we simply multiply their numerators together and their denominators together (separately). Also, after doing the multiplication, we can sometimes cancel common factors to reduce the fraction to lowest terms.   Multiplying Fractions Example  For example, to multiply by ,   Therefore, .   In general, the rule for multiplying fractions is,   Alternatively, we can cancel common factors before multiplying.   Cancelling Before Multiplying  For example, to multiply , we can cancel the on the top with the on the bottom, to make and ,    Rational expressions are multiplied in a similar way, by multiplying their numerators together and their denominators together.    Multiplying Rational Expressions    To multiply two rational expressions, multiply their numerators and multiply their denominators. That is, if are polynomials, then,   as long as and are not equal to 0.    For example,   However, if we first multiply and expand the expressions in the numerator and denominator, then the polynomials will get complicated and it will be more difficult to cancel common factors, in order to simplify. Instead, we want to factor each expression first, cancel common factors, and then multiply the result left over.    Factors in any numerator can be cancelled with factors in any denominator. In other words, we can cancel up and down but also diagonally .    Cancelling common factors result in 1.    A good strategy is to first focus on factoring (factor everything), then look for cancellations after.    Note: Multiplication can be denoted by or , and also sometimes by brackets. In other words, each of these means the same thing:       Dividing Rational Expressions  Recall that when dividing rational numbers, this is equivalent to multiplying by the reciprocal of the second number, and then multiply like before. You may remember this rule as keep, change, flip (meaning, keep the first fraction the same, change the sign to multiplication, and flip the 2nd fraction).   Dividing Fractions Example  For example, to divide ,   Therefore, .   In general,   Rational expressions are divided similarly, i.e. when dividing by a rational expression, multiply by its reciprocal.    To divide two rational expressions, multiply by the reciprocal of the denominator. That is, if are polynomials, then,   where are non-zero.    Remember: keep change flip.  Note that in addition to and having to be non-zero, also has to be non-zero, otherwise we are dividing by 0.    Multiplying and Dividing with Monomials   Multiplying and Dividing with Monomials 1   Multiply or divide, and simplify each expression.                         Multiplying and Dividing with Monomials 2   Multiply or divide, and simplify each expression.                         Multiplying and Dividing with Monomials 3   Multiply or divide, and simplify each expression.                    Multiplying and Dividing with Polynomials by Factoring   Multiplying and Dividing with Polynomials by Factoring 1   Multiply or divide, and simplify each expression.                       Multiplying and Dividing with Polynomials by Factoring 2   Multiply or divide, and simplify each expression.                                               Multiplying and Dividing with Polynomials by Factoring 3   Multiply or divide, and simplify each expression.                               Multiplying and Dividing with Two Variables   Multiplying and Dividing with Two Variables   Multiply or divide, and simplify each expression.                              Factor By Grouping   Multiply or divide, and simplify each expression.         "
 },
@@ -1580,7 +1679,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-multiplying-and-dividing-rational-expressions.html#sec-multiplying-and-dividing-rational-expressions-2-2",
   "type": "Example",
-  "number": "5.3.1",
+  "number": "6.3.1",
   "title": "Multiplying Fractions Example.",
   "body": " Multiplying Fractions Example  For example, to multiply by ,   Therefore, .  "
 },
@@ -1589,7 +1688,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-multiplying-and-dividing-rational-expressions.html#sec-multiplying-and-dividing-rational-expressions-2-6",
   "type": "Example",
-  "number": "5.3.2",
+  "number": "6.3.2",
   "title": "Cancelling Before Multiplying.",
   "body": " Cancelling Before Multiplying  For example, to multiply , we can cancel the on the top with the on the bottom, to make and ,   "
 },
@@ -1598,7 +1697,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-multiplying-and-dividing-rational-expressions.html#mult-rational-expr-2",
   "type": "Theorem",
-  "number": "5.3.3",
+  "number": "6.3.3",
   "title": "",
   "body": "  To multiply two rational expressions, multiply their numerators and multiply their denominators. That is, if are polynomials, then,   as long as and are not equal to 0.   "
 },
@@ -1607,7 +1706,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-multiplying-and-dividing-rational-expressions.html#div-rational-expr-3",
   "type": "Example",
-  "number": "5.3.4",
+  "number": "6.3.4",
   "title": "Dividing Fractions Example.",
   "body": " Dividing Fractions Example  For example, to divide ,   Therefore, .  "
 },
@@ -1616,7 +1715,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-multiplying-and-dividing-rational-expressions.html#div-rational-expr-7",
   "type": "Theorem",
-  "number": "5.3.5",
+  "number": "6.3.5",
   "title": "",
   "body": "  To divide two rational expressions, multiply by the reciprocal of the denominator. That is, if are polynomials, then,   where are non-zero.   "
 },
@@ -1625,7 +1724,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-multiplying-and-dividing-rational-expressions.html#mult-div-monomials-2",
   "type": "Exercise Group",
-  "number": "5.3.1",
+  "number": "6.3.1",
   "title": "Multiplying and Dividing with Monomials 1.",
   "body": " Multiplying and Dividing with Monomials 1   Multiply or divide, and simplify each expression.                       "
 },
@@ -1634,7 +1733,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-multiplying-and-dividing-rational-expressions.html#mult-div-monomials-3",
   "type": "Exercise Group",
-  "number": "5.3.2",
+  "number": "6.3.2",
   "title": "Multiplying and Dividing with Monomials 2.",
   "body": " Multiplying and Dividing with Monomials 2   Multiply or divide, and simplify each expression.                       "
 },
@@ -1643,7 +1742,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-multiplying-and-dividing-rational-expressions.html#mult-div-monomials-4",
   "type": "Exercise Group",
-  "number": "5.3.3",
+  "number": "6.3.3",
   "title": "Multiplying and Dividing with Monomials 3.",
   "body": " Multiplying and Dividing with Monomials 3   Multiply or divide, and simplify each expression.                 "
 },
@@ -1652,7 +1751,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-multiplying-and-dividing-rational-expressions.html#mult-div-poly-factor-2",
   "type": "Exercise Group",
-  "number": "5.3.4",
+  "number": "6.3.4",
   "title": "Multiplying and Dividing with Polynomials by Factoring 1.",
   "body": " Multiplying and Dividing with Polynomials by Factoring 1   Multiply or divide, and simplify each expression.                     "
 },
@@ -1661,7 +1760,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-multiplying-and-dividing-rational-expressions.html#mult-div-poly-factor-3",
   "type": "Exercise Group",
-  "number": "5.3.5",
+  "number": "6.3.5",
   "title": "Multiplying and Dividing with Polynomials by Factoring 2.",
   "body": " Multiplying and Dividing with Polynomials by Factoring 2   Multiply or divide, and simplify each expression.                                             "
 },
@@ -1670,7 +1769,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-multiplying-and-dividing-rational-expressions.html#mult-div-poly-factor-4",
   "type": "Exercise Group",
-  "number": "5.3.6",
+  "number": "6.3.6",
   "title": "Multiplying and Dividing with Polynomials by Factoring 3.",
   "body": " Multiplying and Dividing with Polynomials by Factoring 3   Multiply or divide, and simplify each expression.                            "
 },
@@ -1679,7 +1778,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-multiplying-and-dividing-rational-expressions.html#mult-div-two-vars-2",
   "type": "Exercise Group",
-  "number": "5.3.7",
+  "number": "6.3.7",
   "title": "Multiplying and Dividing with Two Variables.",
   "body": " Multiplying and Dividing with Two Variables   Multiply or divide, and simplify each expression.                            "
 },
@@ -1688,7 +1787,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-multiplying-and-dividing-rational-expressions.html#mult-div-two-vars-3",
   "type": "Exercise Group",
-  "number": "5.3.8",
+  "number": "6.3.8",
   "title": "Factor By Grouping.",
   "body": " Factor By Grouping   Multiply or divide, and simplify each expression.       "
 },
@@ -1697,7 +1796,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-adding-and-subtracting-rational-expressions.html",
   "type": "Section",
-  "number": "5.4",
+  "number": "6.4",
   "title": "Adding and Subtracting Rational Expressions",
   "body": " Adding and Subtracting Rational Expressions   Adding rational expressions is similar to adding (numerical) fractions. Recall that to add fractions, you need to have the denominators be equal, and then you add the numerators.   Adding Two Fractions  For example, to add , we simply add the numerators, because the denominators are the same,    In general, if the denominators are the same (that is, we have a common denominator), then simply add the numerators together over that common denominator. That is,   If the denominators are not equal, then we need to first manipulate the fractions so that they have a common denominator.   Adding Two Fractions with Different Denominators  For example, to add , we have denominators of 9 and 3, so we can make a common denominator of 9, by multiplying by ,    Sometimes, to make a common denominator, you need to manipulate both fractions.   Adding Two Fractions with Different Denominators  For example, to add , we have denominators of 5 and 7, so we need a common denominator of (which is ),              Adding Rational Expressions   Adding Rational Expressions with Like Denominators  To add , add the numerators over the common denominator of ,     Adding Rational Expressions with Like Denominators  To add , add the numerators together over the common denominator of ,    To add two rational expressions with like denominators, add their numerators and keep the same denominator. That is, if are polynomials, then, with the restriction that cannot be equal to 0.  Sometimes, after adding, the result can be further simplified by cancelling common factors.   Adding Rational Expressions and Simplifying  For example,      Summary of Adding or Subtracting Rational Expressions    Factor the denominators completely.    Create a common denominator, by manipulating each fraction.    After you have a common denominator, add or subtract the numerators, and keep that common denominator.    Simplify if needed, by collecting like terms, and factor and cancel if possible.    Note: . For example, .    Adding and Subtracting with Monomial Denominators   Monomial Like Denominators   Find each sum or difference, and simplify.                                                             Monomial Different Denominators   Find each sum or difference, and simplify.                                                         Single Variable   Find each sum or difference, and simplify.                                                             Multiple Variables   Find each sum or difference, and simplify.                                                          Adding and Subtracting with Like Denominators  You should think of each binomial as a single factor.   Binomial Like Denominators   Find each sum or difference, and simplify.                                                                                     Quadratic Denominators   Find each sum or difference, and simplify.                                                          Adding and Subtracting with Polynomials (Factoring)   Binomial Denominators   Find each sum or difference, and simplify.                                                                                 Quadratic Denominators and Factoring   Find each sum or difference, and simplify.                                                                                                                                         Polynomial Denominators   Find each sum or difference, and simplify.                                                                                                     Complicated Denominators   Find each sum or difference, and simplify.                                                      Adding and Subtracting with Two Variables   Two Variables   Find each sum or difference, and simplify.             "
 },
@@ -1706,7 +1805,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-adding-and-subtracting-rational-expressions.html#sec-adding-and-subtracting-rational-expressions-2-2",
   "type": "Example",
-  "number": "5.4.1",
+  "number": "6.4.1",
   "title": "Adding Two Fractions.",
   "body": " Adding Two Fractions  For example, to add , we simply add the numerators, because the denominators are the same,   "
 },
@@ -1715,7 +1814,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-adding-and-subtracting-rational-expressions.html#sec-adding-and-subtracting-rational-expressions-2-5",
   "type": "Example",
-  "number": "5.4.2",
+  "number": "6.4.2",
   "title": "Adding Two Fractions with Different Denominators.",
   "body": " Adding Two Fractions with Different Denominators  For example, to add , we have denominators of 9 and 3, so we can make a common denominator of 9, by multiplying by ,   "
 },
@@ -1724,7 +1823,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-adding-and-subtracting-rational-expressions.html#sec-adding-and-subtracting-rational-expressions-2-7",
   "type": "Example",
-  "number": "5.4.3",
+  "number": "6.4.3",
   "title": "Adding Two Fractions with Different Denominators.",
   "body": " Adding Two Fractions with Different Denominators  For example, to add , we have denominators of 5 and 7, so we need a common denominator of (which is ),   "
 },
@@ -1733,7 +1832,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-adding-and-subtracting-rational-expressions.html#sec-adding-and-subtracting-rational-expressions-2-8",
   "type": "Example",
-  "number": "5.4.4",
+  "number": "6.4.4",
   "title": "",
   "body": "   "
 },
@@ -1742,7 +1841,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-adding-and-subtracting-rational-expressions.html#sec-adding-and-subtracting-rational-expressions-2-9",
   "type": "Example",
-  "number": "5.4.5",
+  "number": "6.4.5",
   "title": "",
   "body": "   "
 },
@@ -1751,7 +1850,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-adding-and-subtracting-rational-expressions.html#subsection-adding-rational-expressions-2",
   "type": "Example",
-  "number": "5.4.6",
+  "number": "6.4.6",
   "title": "Adding Rational Expressions with Like Denominators.",
   "body": " Adding Rational Expressions with Like Denominators  To add , add the numerators over the common denominator of ,   "
 },
@@ -1760,7 +1859,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-adding-and-subtracting-rational-expressions.html#subsection-adding-rational-expressions-3",
   "type": "Example",
-  "number": "5.4.7",
+  "number": "6.4.7",
   "title": "Adding Rational Expressions with Like Denominators.",
   "body": " Adding Rational Expressions with Like Denominators  To add , add the numerators together over the common denominator of ,   "
 },
@@ -1769,7 +1868,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-adding-and-subtracting-rational-expressions.html#subsection-adding-rational-expressions-6",
   "type": "Example",
-  "number": "5.4.8",
+  "number": "6.4.8",
   "title": "Adding Rational Expressions and Simplifying.",
   "body": " Adding Rational Expressions and Simplifying  For example,   "
 },
@@ -1778,7 +1877,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-adding-and-subtracting-rational-expressions.html#subsection-add-sub-monomial-denominators-2",
   "type": "Exercise Group",
-  "number": "5.4.1",
+  "number": "6.4.1",
   "title": "Monomial Like Denominators.",
   "body": " Monomial Like Denominators   Find each sum or difference, and simplify.                                                           "
 },
@@ -1787,7 +1886,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-adding-and-subtracting-rational-expressions.html#subsection-add-sub-monomial-denominators-3",
   "type": "Exercise Group",
-  "number": "5.4.2",
+  "number": "6.4.2",
   "title": "Monomial Different Denominators.",
   "body": " Monomial Different Denominators   Find each sum or difference, and simplify.                                                       "
 },
@@ -1796,7 +1895,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-adding-and-subtracting-rational-expressions.html#subsection-add-sub-monomial-denominators-4",
   "type": "Exercise Group",
-  "number": "5.4.3",
+  "number": "6.4.3",
   "title": "Single Variable.",
   "body": " Single Variable   Find each sum or difference, and simplify.                                                           "
 },
@@ -1805,7 +1904,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-adding-and-subtracting-rational-expressions.html#subsection-add-sub-monomial-denominators-5",
   "type": "Exercise Group",
-  "number": "5.4.4",
+  "number": "6.4.4",
   "title": "Multiple Variables.",
   "body": " Multiple Variables   Find each sum or difference, and simplify.                                                       "
 },
@@ -1814,7 +1913,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-adding-and-subtracting-rational-expressions.html#subsection-add-sub-like-denominators-3",
   "type": "Exercise Group",
-  "number": "5.4.5",
+  "number": "6.4.5",
   "title": "Binomial Like Denominators.",
   "body": " Binomial Like Denominators   Find each sum or difference, and simplify.                                                                                   "
 },
@@ -1823,7 +1922,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-adding-and-subtracting-rational-expressions.html#subsection-add-sub-like-denominators-4",
   "type": "Exercise Group",
-  "number": "5.4.6",
+  "number": "6.4.6",
   "title": "Quadratic Denominators.",
   "body": " Quadratic Denominators   Find each sum or difference, and simplify.                                                       "
 },
@@ -1832,7 +1931,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-adding-and-subtracting-rational-expressions.html#subsection-add-sub-polynomials-factoring-2",
   "type": "Exercise Group",
-  "number": "5.4.7",
+  "number": "6.4.7",
   "title": "Binomial Denominators.",
   "body": " Binomial Denominators   Find each sum or difference, and simplify.                                                                               "
 },
@@ -1841,7 +1940,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-adding-and-subtracting-rational-expressions.html#subsection-add-sub-polynomials-factoring-3",
   "type": "Exercise Group",
-  "number": "5.4.8",
+  "number": "6.4.8",
   "title": "Quadratic Denominators and Factoring.",
   "body": " Quadratic Denominators and Factoring   Find each sum or difference, and simplify.                                                                                                                                       "
 },
@@ -1850,7 +1949,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-adding-and-subtracting-rational-expressions.html#subsection-add-sub-polynomials-factoring-4",
   "type": "Exercise Group",
-  "number": "5.4.9",
+  "number": "6.4.9",
   "title": "Polynomial Denominators.",
   "body": " Polynomial Denominators   Find each sum or difference, and simplify.                                                                                                   "
 },
@@ -1859,7 +1958,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-adding-and-subtracting-rational-expressions.html#subsection-add-sub-polynomials-factoring-5",
   "type": "Exercise Group",
-  "number": "5.4.10",
+  "number": "6.4.10",
   "title": "Complicated Denominators.",
   "body": " Complicated Denominators   Find each sum or difference, and simplify.                                                   "
 },
@@ -1868,7 +1967,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-adding-and-subtracting-rational-expressions.html#subsection-add-sub-two-variables-2",
   "type": "Exercise Group",
-  "number": "5.4.11",
+  "number": "6.4.11",
   "title": "Two Variables.",
   "body": " Two Variables   Find each sum or difference, and simplify.           "
 },
@@ -1877,7 +1976,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-mixed-operations.html",
   "type": "Section",
-  "number": "5.5",
+  "number": "6.5",
   "title": "Mixed Operations",
   "body": " Mixed Operations   We can also simplify expressions that have some combinations of addition and subtraction, along with multiplication or division. When doing this, just remember order of operations (BEDMAS). In particular,     Brackets should be done first.    Multiplication and division are next, from left to right.    Addition and subtraction are last, from left to right.      Mixed Operations Practice   Mixed Operations with Rational Expressions   Simplify each expression.                                                                     Mixed Operations with Multiple Variables   Simplify each expression.                     "
 },
@@ -1886,7 +1985,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-mixed-operations.html#mixed-operations-practice-2",
   "type": "Exercise Group",
-  "number": "5.5.1",
+  "number": "6.5.1",
   "title": "Mixed Operations with Rational Expressions.",
   "body": " Mixed Operations with Rational Expressions   Simplify each expression.                                                                   "
 },
@@ -1895,7 +1994,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-mixed-operations.html#mixed-operations-practice-3",
   "type": "Exercise Group",
-  "number": "5.5.2",
+  "number": "6.5.2",
   "title": "Mixed Operations with Multiple Variables.",
   "body": " Mixed Operations with Multiple Variables   Simplify each expression.                   "
 },
@@ -1904,7 +2003,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-solving-rational-equations.html",
   "type": "Section",
-  "number": "5.6",
+  "number": "6.6",
   "title": "Solving Rational Equations",
   "body": " Solving Rational Equations    Examples   Equations With in the Denominator   Solve each equation.       (reject )      all real with       Equations With Linear Expressions in the Denominator   Solve each equation.                      Equations With Linear Denominators 2   Solve each equation.        no solution  (reject )    no solution (reject )      no solution        Equations With Linear Denominators 3   Solve each equation.     no solution (reject )     (reject )    no solution (reject )   no solution (reject )     no solution (reject )    Most of the time, the quadratic will factor into the other linear factors already in the equation. This isn't true every single time, but you can use it to make educated guesses.   Equations With Quadratic Denominators 1   Solve each equation.    (reject )   (reject )  (reject )  (reject )  (reject )   (reject )    (reject )   (reject )  (reject )     Equations With Quadratic Denominators 2   Solve each equation.    no solution (reject )   no solution (reject )  (reject )      (reject )    (reject )  all real numbers , with  no solution (reject )      Advanced Examples   Solve each equation.       "
 },
@@ -1913,7 +2012,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-rational-equations.html#examples-rational-equations-2",
   "type": "Exercise Group",
-  "number": "5.6.1",
+  "number": "6.6.1",
   "title": "Equations With <span class=\"process-math\">\\(x\\)<\/span> in the Denominator.",
   "body": " Equations With in the Denominator   Solve each equation.       (reject )      all real with     "
 },
@@ -1922,7 +2021,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-rational-equations.html#examples-rational-equations-3",
   "type": "Exercise Group",
-  "number": "5.6.2",
+  "number": "6.6.2",
   "title": "Equations With Linear Expressions in the Denominator.",
   "body": " Equations With Linear Expressions in the Denominator   Solve each equation.                    "
 },
@@ -1931,7 +2030,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-rational-equations.html#examples-rational-equations-4",
   "type": "Exercise Group",
-  "number": "5.6.3",
+  "number": "6.6.3",
   "title": "Equations With Linear Denominators 2.",
   "body": " Equations With Linear Denominators 2   Solve each equation.        no solution  (reject )    no solution (reject )      no solution      "
 },
@@ -1940,7 +2039,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-rational-equations.html#examples-rational-equations-5",
   "type": "Exercise Group",
-  "number": "5.6.4",
+  "number": "6.6.4",
   "title": "Equations With Linear Denominators 3.",
   "body": " Equations With Linear Denominators 3   Solve each equation.     no solution (reject )     (reject )    no solution (reject )   no solution (reject )     no solution (reject )   "
 },
@@ -1949,7 +2048,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-rational-equations.html#examples-rational-equations-7",
   "type": "Exercise Group",
-  "number": "5.6.5",
+  "number": "6.6.5",
   "title": "Equations With Quadratic Denominators 1.",
   "body": " Equations With Quadratic Denominators 1   Solve each equation.    (reject )   (reject )  (reject )  (reject )  (reject )   (reject )    (reject )   (reject )  (reject )   "
 },
@@ -1958,7 +2057,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-rational-equations.html#examples-rational-equations-8",
   "type": "Exercise Group",
-  "number": "5.6.6",
+  "number": "6.6.6",
   "title": "Equations With Quadratic Denominators 2.",
   "body": " Equations With Quadratic Denominators 2   Solve each equation.    no solution (reject )   no solution (reject )  (reject )      (reject )    (reject )  all real numbers , with  no solution (reject )    "
 },
@@ -1967,7 +2066,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-rational-equations.html#examples-rational-equations-9",
   "type": "Exercise Group",
-  "number": "5.6.7",
+  "number": "6.6.7",
   "title": "Advanced Examples.",
   "body": " Advanced Examples   Solve each equation.     "
 },
@@ -1976,7 +2075,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-word-problems-with-rational-equations.html",
   "type": "Section",
-  "number": "5.7",
+  "number": "6.7",
   "title": "Word Problems with Rational Equations",
   "body": " Word Problems with Rational Equations   Some word problem situations lead to a rational equation. There are 3 broad categories of problems:    Work problems.    Rate\/speed problems.    Current\/wind problems.    These are very standard categories, so make sure you master each one. Also, review Word Problem Solving Strategy for learning how to think about word problems broadly.    Work Problems (Combined Work Rate)  Two people or machines work together at different rates to complete a task.   Alex and Brianna  Alex can paint a wall in hours. Brianna can paint the same wall in hours. If they work together and do not stop, how long will it take them to paint the wall?  We want to find the time it takes for Alex and Brianna to paint the wall together, so let be the number of hours it takes them to paint the wall, working together.  Think about what happens as time passes. If Alex can finish whole wall in hours, then,    After hour, he has finished of the wall.    After hours, he's finished of the wall.    After hours, he's finished .    In general, after hours, he has finished the fraction of the wall.    Similarly, Brianna can finish the wall in hours, so,    After hour, she's finished of the wall.    After hours, she's finished .    And in general, after hours, she has finished of the wall.    Working together, after hours they have finished one whole wall, or 1 of the wall. Then,   Then,   Then, to solve this equation, clear the denominators by multiplying both sides by 12 (the LCD),   Therefore, together, they would take 2.4 hours. This is reasonable, because since they are working together, it will take somewhat less time than either of them working individually (4 hours or 6 hours).  Another way to organize this information is in a table, with 3 columns: the time it takes, the fraction done in 1 hour, and the fraction done in hours.   Another equivalent way to do this is to add the contributions after 1 hour, which gives,   This equation is equivalent to the previous equation, and so will also give the correct answer. However, I don't think it's as intuitive as the previous one.   In general,    Cold and Hot Taps   A cold tap can fill a tub in minutes, and a hot tap can fill the same tub in minutes. If both taps are turned on at the same time, how long will it take to fill the tub?    .    minutes.     Anna and Isla   Together, Anna and Isla can paint a house in hours. Alone, Anna can do the job hours faster than Isla. How long does each person take to paint the house, to the nearest tenth of an hour?    , where is Anna's time in hours.    Anna takes about hours, Isla takes about hours.     Filling a Container   The cold tap fills a container hours faster than the hot tap. Together they fill it in minutes. Find how long each tap takes alone.    , where is the cold tap time in hours.    Cold tap hours, hot tap hours.     Two Hoses   Two hoses fill a pool in hours together. Hose A alone fills it in hours. How long would hose B alone take?    .    hours.     Sue and Bob   It would take Sue hours to paint a large room, and it would take Bob hours to paint the same room. If they work together, how long would it take them to complete the job?    .    hours.     Three Workers   One worker takes hours to do a job. A second worker can do the same job in hours. When a third worker is added, it takes the three of them hours to do the job. How long would it take the third worker to do the job alone?    .    hours.     Jane and Anna   Jane works twice as fast as her daughter Anna. If it takes minutes to clean the kitchen together, how long would it take Anna to clean the kitchen by herself?    , where is Anna's time in minutes.    minutes.     Ken and Hans   Ken takes hours longer to assemble a motor than Hans. When working together, it takes them hours to assemble the motor. How long would it take Ken to do the job alone?    , where is Hans's time in hours.    Ken would take hours alone (Hans would take hours).     Brick Layer   A brick layer can build a wall in hours, and his apprentice would need hours to build the same wall. When they work together, the apprentice works hours longer than the brick layer. How many hours does each work?    , where is the brick layer's working time in hours.    The brick layer works hours and the apprentice works hours.     Taps and Drain   A cold water tap can fill a tub in minutes, and a hot water tap can fill the tub in minutes. A drain can empty a full tub in minutes. If both taps are on and the drain is open, how long will it take to fill the tub?    .    min.     Stuart and Lucy   When they work together, Stuart and Lucy can deliver flyers to all the homes in their neighbourhood in minutes. When Lucy works alone, she can finish the deliveries in minutes less time than Stuart can when he works alone. When Stuart works alone, how long does he take to deliver the flyers?    , where is Stuart's time in minutes.    Stuart takes minutes alone (Lucy takes minutes).     Harvesting Wheat   Nikita can harvest her wheat crop in hours. Her neighbour's combine can do it in hours. How long will both machines take together?    .    They will take hours working together.     Lyle's Bathtub   Lyle can fill the bathtub using the cold water tap in minutes. When both the hot and cold water taps are fully open, he can fill the bathtub in minutes. How long would it take Lyle to fill the bathtub using only the hot water tap?    .    minutes.     Staining a Deck   A painter can stain a deck using a sprayer in hours. When two people work together, one using the sprayer and the other using a brush, they can finish the job in hours. How long would it take one person to stain the deck using only a brush?    .    hours.     Cleaning the Garage   Jenny can clean out the garage in hours. When her son helps, they can clean out the garage in hours. How long would it take Jenny’s son to clean out the garage on his own?    .    hours.     Marcy and Apprentice   It takes Marcy’s apprentice hours longer to build a deck than it takes Marcy. When they work together, they can build the deck in hours. How long would it take each person to build the deck working alone?    .    Marcy takes hours and her apprentice takes hours.     Three Warehouse Employees   Three employees work at a shipping warehouse. Tom fills an order in minutes, Paco in minutes, and Carl in minutes. Tom and Paco together take minute seconds to fill an order, and Paco and Carl together take minute seconds. How long does each person take, and how long will all three together take to fill one order?    and .    Tom takes minutes, Paco takes minutes, Carl takes minutes, and all three together take minutes.      Relative Speed Comparison Problems   Jess and Sarah  Jess can run miles per hour faster than her sister Sarah can walk. If Jess ran miles in the same time it took Sarah to walk miles, what is the speed of each sister?  We want to find the speed of each sister, so we can let be the speed of one sister, and then the other one differs by 3. Let be Sarah's speed. Then, Jess's speed is 3 mi\/h more, so it's (Note that you could have instead let be Jess's speed, and then Sarah would be ). We know they took the same amount of time, so,   Then, remember how speed, distance, and time are related by (or , or ). We'll use here because we want time.   To solve, clear denominators by multiplying by (the LCD),   Therefore, Sarah's speed is 6 mi\/h, and Jess's speed is 3 mi\/h faster, so it is 9 mi\/h.   In general, remember that,    You may remember these relationships from this triangle (the distance speed time triangle, or DST triangle):       Two Cyclists   One cyclist averages km\/h faster than a second cyclist. The faster cyclist rode km in the same time the slower cyclist rode km. What was the average speed of each cyclist?    .    The faster cyclist averaged km\/h and the slower cyclist averaged km\/h.     Family Reunion   John's family travels km from their home to a family reunion. His cousin Susan and her family take the same amount of time to travel km from their home. One of the vehicles travels km\/h faster than the other. Determine the speed of both vehicles.    .    John's family travels at km\/h and Susan's family travels at km\/h.     Delivery Routes   Driver A and B have two different delivery routes. Driver A's route is km, and driver B's route is km. Driver B travels km\/h faster than driver A and finishes minutes earlier. What are the speeds of each driver?    .    Driver A's speed is km\/h and driver B's speed is km\/h.     Ted's Drive   Ted drove km west at km\/h slower than when he drove km east. His westward trip took minutes longer. Find his speeds.    .    Ted’s speed was km\/h east and km\/h west.     Ann and Ray   Ann and Ray each ride km. Ann starts minute earlier, and Ray rides km\/h faster. They finish at the same time. Find Ann’s speed.    .    Ann rides km\/h and Ray rides km\/h.     Bronwyn and Aaron   Bronwyn rides her electric bicycle km\/h faster than Aaron. Bronwyn can travel km in the same time that it takes Aaron to travel km. Determine Bronwyn’s average speed and Aaron’s average speed.    .    Aaron’s speed is km\/h and Bronwyn’s speed is km\/h.     Cows Travelling   Cows travelled km to Forde Lake, taking days longer than travelling km beyond the lake. They travelled km\/h slower before the lake. What was their speed beyond the lake?    .    Their speed beyond the lake was about km\/h.     Airplane and Car   The average speed of an airplane is ten times that of a car. It takes the airplane hours less than the car to travel km. Determine the average speeds of the airplane and the car.    .    The car’s speed is km\/h and the airplane’s speed is km\/h.     Henry and Brandon   Henry’s average running speed is km\/h greater than Brandon’s. In a -km practice race, Brandon finished minutes behind Henry. Determine the average running speed of each person.    .    Brandon’s speed is approximately km\/h and Henry’s speed is approximately km\/h.      Current\/Wind Travel Problems   Kayaking  You are kayaking on a river. You start paddling from a dock km upstream to a campsite, then immediately turns around and paddles km back downstream to the dock. The river’s current flows at km\/h. The total time for the trip is hours. What is your paddling speed in still water?  Let be your speed in still water. Then, your speed upstream is , because the 2 km\/h current is pushing you backwards. Similarly, your speed downstream is , because the 2 km\/h current is helping you go faster. Then, the total time for the trip is 3 hours, so,   Then, to calculate time, use ,   To solve, multiply both sides by (the LCD),   We keep only the positive solution, because paddling speed can't be negative. Therefore, your paddling speed in still water is 6 km\/h.  If you like, to help organize the information, you can also make a table, with the distance, rate, and time going upstream and downstream,     Two Kayakers   Two kayakers paddle km downstream with the current in the same time it takes them to go km upstream against the current. The rate of the current is km\/h. Find their speed in still water.    .    km\/h.     River Current Expressions   The current of a river is miles per hour. A boat's speed in still water is miles per hour. Write expressions for the time to travel miles downriver, the time to travel miles upriver, and the difference between these times.    Use with speeds and .    (a) downriver: hours, (b) upriver: hours, (c) difference: hours.     Round Trip Flight   A plane flies miles with the wind and then miles against the wind. The wind speed is miles per hour. If the total travel time for the round trip is hours, what is the speed of the plane in still air?    .    mi\/h.     Rose Paddling   Rose paddles at a speed of km\/h in still water. She travels km upstream, and it takes her hour longer than it does to paddle the same distance downstream. Find the speed of the current in the river.    .    km\/h.     Boat Travel   A boat can travel at km\/h in still water. The boat travels km upstream (against the current) then turns around and travels the same distance back (with the current). The total trip took hours. Find the speed of the current.    .    km\/h.     River Town Trip   The speed of the current in a river is km\/h. A boat made a round trip to a town km away in a total of hours. What was the speed of the boat in still water?    .    km\/h.     Canoe Trip   The time it takes for a canoe to go miles upstream and back miles downstream is hours. The current in the lake is mile per hour. Find the average speed of the canoe in still water.    .    The canoe’s speed in still water is miles per hour.     Plane Against Wind   A plane travels km against the wind and then km with the wind in the same time. The wind speed is km\/h. Find the speed of the plane in still air.    .    km\/h.     Head Wind and Tail Wind   A plane is flying km each way. Its air speed (speed in still air) on both trips is km\/h. On the flight there, there is a tail wind, and on the way back there is a head wind. Calculate the total time for the round trip for a wind speed of km\/h and for a wind speed of km\/h.    For wind speed , use .    For km\/h, hours; for km\/h, hours.     Downstream and Upstream   A boat travels km downstream in the same time it travels km upstream. The current is km\/h. Find the boat’s speed in still water.    .    The boat’s still-water speed is km\/h.     Boat Current   A boat travels km downstream in the same time it takes to travel km upstream. If the current flows at km\/h, what is the speed of the boat in still water?    .    The speed of the boat in still water is km\/h.     Boat Speed   The speed of a boat in still water is mph. The boat travels miles upstream and back downstream in a total of hours. What is the speed of the current?    .    The speed of the current is mph.     Friends Canoeing   Two friends paddle a canoe at km\/h in still water. They travel km upstream and then km back downstream in a total of hour. Find the speed of the current.    .    km\/h.     Average Current Speed   A boat travels km upstream in the same time that it takes the boat to travel km downstream. The average speed of the current is km\/h. What is the average speed of the boat in still water?    .    km\/h.      Average Speed and Mixed-Rate Problems   Driving to Work   A woman drives to work at an average speed of mph. The average speed of the return trip home is mph. What is the average speed for the round trip?    , and cancels out.    mph.     Jessica's Trip   On a km round trip, Jessica averages km\/h to her destination and km\/h returning. What is the average speed for the entire trip?    .    km\/h.     Priya's Store Run   Priya decides to go to the store which is km from her house. She first ran at a rate of km\/h, then walked the rest of the trip at a speed of km\/h. If the total trip took hours, how many kilometers did she walk?    .    km.     Reading a Book   You have days to read a -page book. After reading half, you need to increase your reading rate by pages\/day to finish on time. What was your initial rate?    if the initial rate is then .    pages\/day.     Round Trip Speed   A car travels to work at km\/h and returns at km\/h. Find the average speed for the round trip.    .    The average speed is km\/h.     Ann Cycling   Ann cycles km to return a friend’s bicycle. She then walks home. Her total time for the trip is minutes. Ann cycles four times as fast as she walks. Determine Ann’s average speeds for walking and for cycling.    .    Ann’s walking speed is km\/h and her cycling speed is km\/h.      Number Problems Involving Reciprocals  Recall that the reciprocal of a number is . For example, the reciprocal of is , and the reciprocal of is .   Sum of Reciprocals 1   The sum of the reciprocals of two consecutive numbers is equal to . Find the two numbers.    5 and 6.     Sum of Reciprocals 2   The sum of two numbers is 25, and the sum of their reciprocals is . Find the two numbers.    .    5 and 20.     Sum of Reciprocals 3   The sum of two numbers is 12, and the sum of their reciprocals is . Find the two numbers.    4 and 8.     Reciprocal of Smallest   Find the value(s) of in the numbers , , and such that the reciprocal of the smallest number equals the sum of the reciprocals of the other two numbers.    .    or .     Sum of Integers   The sum of two integers is , and the difference in their reciprocals is . Find the two integers.    and .     Difference of Reciprocals   A natural number is more than another natural number. When the reciprocal of the greater number is subtracted from the reciprocal of the lesser number, the difference is . What are the two numbers?    .    and .     Number and Reciprocal 1   The sum of a number and its reciprocal is . Find the number.    .    or .     Integer and Reciprocal   The sum of an integer and its reciprocal is . Find the integer.    .    .     Consecutive Integers 1   Find two consecutive integers whose reciprocals add to .    .    and .     Consecutive Odd Integers   Find two consecutive odd integers whose reciprocals add to .    .    and .     Consecutive Even Integers   Find two consecutive even integers whose reciprocals add to .    .    and .     Quotient Problem   The quotient of a number and minus is the quotient of the number and . Find the number.    .    .     Product and Reciprocal   A number added to the product of and the reciprocal of the number is . Find the number.    .    or .     Complex Ratio   If times the reciprocal of a number is added to the ratio of times the number minus and the number plus , the result is . What is the number?    .    or .     Number and Twice Reciprocal   The sum of a number and twice its reciprocal is . Find the number.    .    or .      Mixture Problems   Acid Solution 1   Suppose that mL of pure acid are added to mL of a acid solution. How many mL of pure acid must be added to produce a new solution that is acid?    .    mL.     Acid Solution 2   How much pure acid must be added to mL of a acid solution to produce a mixture that is acid?    .    mL.     Bleach Solution   How much bleach should be added to L of water to make a solution that is bleach?    .    L.     Acid Solution 3   What volume of pure acid must be added to mL of a acid solution to obtain a solution that is acid?    .    mL.      Misc Word Problems   Box Dimensions   A company makes a box with a square base of side length cm and a volume of cm . The company wants to redesign the box with a smaller base.    If the length of the base decreases by cm, write an expression for the new height of the box.    Write an expression for the increase in height of the box.    If the base becomes a cm square, find the increase in height.        .    .    cm. (Hint: if the base length is 12 cm, what is ?)       Golf Range   Jacob is a junior member of a local golf driving range. He pays $15 per month to use the range, and pays $1 per bucket of balls.    If Jacob hits buckets of balls in one month, write an expression that represents how much he would pay per month.    Write an expression that represents the actual cost per bucket for a month (including the monthly fee).    Write and solve an equation to determine the number of buckets of balls Jacob would have to hit in a month for the actual cost per bucket to be $1.25.        .    .    60 buckets. (Hint: )       T-Shirt Sales   Rima bought a case of concert T-shirts for $450. She kept two T-shirts for herself and sold the rest for $560, making a profit of $10 on each T-shirt. How many T-shirts were in the case?    18 T-shirts.     French Club   A French club collected the same amount of money from each student for a trip. Six students cancelled, so each remaining student paid $3 extra. The total cost was $540. How many students went on the trip?    students.     Polygon Angles   The measure (in degrees) of each angle in a regular polygon with sides is given by the equation . When each angle in a regular polygon is , how many sides does the polygon have?    .    sides.     "
 },
@@ -1985,7 +2084,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-work-problems-3",
   "type": "Example",
-  "number": "5.7.1",
+  "number": "6.7.1",
   "title": "Alex and Brianna.",
   "body": " Alex and Brianna  Alex can paint a wall in hours. Brianna can paint the same wall in hours. If they work together and do not stop, how long will it take them to paint the wall?  We want to find the time it takes for Alex and Brianna to paint the wall together, so let be the number of hours it takes them to paint the wall, working together.  Think about what happens as time passes. If Alex can finish whole wall in hours, then,    After hour, he has finished of the wall.    After hours, he's finished of the wall.    After hours, he's finished .    In general, after hours, he has finished the fraction of the wall.    Similarly, Brianna can finish the wall in hours, so,    After hour, she's finished of the wall.    After hours, she's finished .    And in general, after hours, she has finished of the wall.    Working together, after hours they have finished one whole wall, or 1 of the wall. Then,   Then,   Then, to solve this equation, clear the denominators by multiplying both sides by 12 (the LCD),   Therefore, together, they would take 2.4 hours. This is reasonable, because since they are working together, it will take somewhat less time than either of them working individually (4 hours or 6 hours).  Another way to organize this information is in a table, with 3 columns: the time it takes, the fraction done in 1 hour, and the fraction done in hours.   Another equivalent way to do this is to add the contributions after 1 hour, which gives,   This equation is equivalent to the previous equation, and so will also give the correct answer. However, I don't think it's as intuitive as the previous one.  "
 },
@@ -1994,7 +2093,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-work-problems-6",
   "type": "Checkpoint",
-  "number": "5.7.2",
+  "number": "6.7.2",
   "title": "Cold and Hot Taps.",
   "body": " Cold and Hot Taps   A cold tap can fill a tub in minutes, and a hot tap can fill the same tub in minutes. If both taps are turned on at the same time, how long will it take to fill the tub?    .    minutes.   "
 },
@@ -2003,7 +2102,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-work-problems-7",
   "type": "Checkpoint",
-  "number": "5.7.3",
+  "number": "6.7.3",
   "title": "Anna and Isla.",
   "body": " Anna and Isla   Together, Anna and Isla can paint a house in hours. Alone, Anna can do the job hours faster than Isla. How long does each person take to paint the house, to the nearest tenth of an hour?    , where is Anna's time in hours.    Anna takes about hours, Isla takes about hours.   "
 },
@@ -2012,7 +2111,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-work-problems-8",
   "type": "Checkpoint",
-  "number": "5.7.4",
+  "number": "6.7.4",
   "title": "Filling a Container.",
   "body": " Filling a Container   The cold tap fills a container hours faster than the hot tap. Together they fill it in minutes. Find how long each tap takes alone.    , where is the cold tap time in hours.    Cold tap hours, hot tap hours.   "
 },
@@ -2021,7 +2120,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-work-problems-9",
   "type": "Checkpoint",
-  "number": "5.7.5",
+  "number": "6.7.5",
   "title": "Two Hoses.",
   "body": " Two Hoses   Two hoses fill a pool in hours together. Hose A alone fills it in hours. How long would hose B alone take?    .    hours.   "
 },
@@ -2030,7 +2129,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-work-problems-10",
   "type": "Checkpoint",
-  "number": "5.7.6",
+  "number": "6.7.6",
   "title": "Sue and Bob.",
   "body": " Sue and Bob   It would take Sue hours to paint a large room, and it would take Bob hours to paint the same room. If they work together, how long would it take them to complete the job?    .    hours.   "
 },
@@ -2039,7 +2138,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-work-problems-11",
   "type": "Checkpoint",
-  "number": "5.7.7",
+  "number": "6.7.7",
   "title": "Three Workers.",
   "body": " Three Workers   One worker takes hours to do a job. A second worker can do the same job in hours. When a third worker is added, it takes the three of them hours to do the job. How long would it take the third worker to do the job alone?    .    hours.   "
 },
@@ -2048,7 +2147,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-work-problems-12",
   "type": "Checkpoint",
-  "number": "5.7.8",
+  "number": "6.7.8",
   "title": "Jane and Anna.",
   "body": " Jane and Anna   Jane works twice as fast as her daughter Anna. If it takes minutes to clean the kitchen together, how long would it take Anna to clean the kitchen by herself?    , where is Anna's time in minutes.    minutes.   "
 },
@@ -2057,7 +2156,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-work-problems-13",
   "type": "Checkpoint",
-  "number": "5.7.9",
+  "number": "6.7.9",
   "title": "Ken and Hans.",
   "body": " Ken and Hans   Ken takes hours longer to assemble a motor than Hans. When working together, it takes them hours to assemble the motor. How long would it take Ken to do the job alone?    , where is Hans's time in hours.    Ken would take hours alone (Hans would take hours).   "
 },
@@ -2066,7 +2165,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-work-problems-14",
   "type": "Checkpoint",
-  "number": "5.7.10",
+  "number": "6.7.10",
   "title": "Brick Layer.",
   "body": " Brick Layer   A brick layer can build a wall in hours, and his apprentice would need hours to build the same wall. When they work together, the apprentice works hours longer than the brick layer. How many hours does each work?    , where is the brick layer's working time in hours.    The brick layer works hours and the apprentice works hours.   "
 },
@@ -2075,7 +2174,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-work-problems-15",
   "type": "Checkpoint",
-  "number": "5.7.11",
+  "number": "6.7.11",
   "title": "Taps and Drain.",
   "body": " Taps and Drain   A cold water tap can fill a tub in minutes, and a hot water tap can fill the tub in minutes. A drain can empty a full tub in minutes. If both taps are on and the drain is open, how long will it take to fill the tub?    .    min.   "
 },
@@ -2084,7 +2183,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-work-problems-16",
   "type": "Checkpoint",
-  "number": "5.7.12",
+  "number": "6.7.12",
   "title": "Stuart and Lucy.",
   "body": " Stuart and Lucy   When they work together, Stuart and Lucy can deliver flyers to all the homes in their neighbourhood in minutes. When Lucy works alone, she can finish the deliveries in minutes less time than Stuart can when he works alone. When Stuart works alone, how long does he take to deliver the flyers?    , where is Stuart's time in minutes.    Stuart takes minutes alone (Lucy takes minutes).   "
 },
@@ -2093,7 +2192,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-work-problems-17",
   "type": "Checkpoint",
-  "number": "5.7.13",
+  "number": "6.7.13",
   "title": "Harvesting Wheat.",
   "body": " Harvesting Wheat   Nikita can harvest her wheat crop in hours. Her neighbour's combine can do it in hours. How long will both machines take together?    .    They will take hours working together.   "
 },
@@ -2102,7 +2201,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-work-problems-18",
   "type": "Checkpoint",
-  "number": "5.7.14",
+  "number": "6.7.14",
   "title": "Lyle’s Bathtub.",
   "body": " Lyle's Bathtub   Lyle can fill the bathtub using the cold water tap in minutes. When both the hot and cold water taps are fully open, he can fill the bathtub in minutes. How long would it take Lyle to fill the bathtub using only the hot water tap?    .    minutes.   "
 },
@@ -2111,7 +2210,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-work-problems-19",
   "type": "Checkpoint",
-  "number": "5.7.15",
+  "number": "6.7.15",
   "title": "Staining a Deck.",
   "body": " Staining a Deck   A painter can stain a deck using a sprayer in hours. When two people work together, one using the sprayer and the other using a brush, they can finish the job in hours. How long would it take one person to stain the deck using only a brush?    .    hours.   "
 },
@@ -2120,7 +2219,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-work-problems-20",
   "type": "Checkpoint",
-  "number": "5.7.16",
+  "number": "6.7.16",
   "title": "Cleaning the Garage.",
   "body": " Cleaning the Garage   Jenny can clean out the garage in hours. When her son helps, they can clean out the garage in hours. How long would it take Jenny’s son to clean out the garage on his own?    .    hours.   "
 },
@@ -2129,7 +2228,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-work-problems-21",
   "type": "Checkpoint",
-  "number": "5.7.17",
+  "number": "6.7.17",
   "title": "Marcy and Apprentice.",
   "body": " Marcy and Apprentice   It takes Marcy’s apprentice hours longer to build a deck than it takes Marcy. When they work together, they can build the deck in hours. How long would it take each person to build the deck working alone?    .    Marcy takes hours and her apprentice takes hours.   "
 },
@@ -2138,7 +2237,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-work-problems-22",
   "type": "Checkpoint",
-  "number": "5.7.18",
+  "number": "6.7.18",
   "title": "Three Warehouse Employees.",
   "body": " Three Warehouse Employees   Three employees work at a shipping warehouse. Tom fills an order in minutes, Paco in minutes, and Carl in minutes. Tom and Paco together take minute seconds to fill an order, and Paco and Carl together take minute seconds. How long does each person take, and how long will all three together take to fill one order?    and .    Tom takes minutes, Paco takes minutes, Carl takes minutes, and all three together take minutes.   "
 },
@@ -2147,7 +2246,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-relative-speed-2",
   "type": "Example",
-  "number": "5.7.19",
+  "number": "6.7.19",
   "title": "Jess and Sarah.",
   "body": " Jess and Sarah  Jess can run miles per hour faster than her sister Sarah can walk. If Jess ran miles in the same time it took Sarah to walk miles, what is the speed of each sister?  We want to find the speed of each sister, so we can let be the speed of one sister, and then the other one differs by 3. Let be Sarah's speed. Then, Jess's speed is 3 mi\/h more, so it's (Note that you could have instead let be Jess's speed, and then Sarah would be ). We know they took the same amount of time, so,   Then, remember how speed, distance, and time are related by (or , or ). We'll use here because we want time.   To solve, clear denominators by multiplying by (the LCD),   Therefore, Sarah's speed is 6 mi\/h, and Jess's speed is 3 mi\/h faster, so it is 9 mi\/h.  "
 },
@@ -2156,7 +2255,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-relative-speed-5",
   "type": "Remark",
-  "number": "5.7.20",
+  "number": "6.7.20",
   "title": "",
   "body": " You may remember these relationships from this triangle (the distance speed time triangle, or DST triangle):     "
 },
@@ -2165,7 +2264,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-relative-speed-6",
   "type": "Checkpoint",
-  "number": "5.7.21",
+  "number": "6.7.21",
   "title": "Two Cyclists.",
   "body": " Two Cyclists   One cyclist averages km\/h faster than a second cyclist. The faster cyclist rode km in the same time the slower cyclist rode km. What was the average speed of each cyclist?    .    The faster cyclist averaged km\/h and the slower cyclist averaged km\/h.   "
 },
@@ -2174,7 +2273,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-relative-speed-7",
   "type": "Checkpoint",
-  "number": "5.7.22",
+  "number": "6.7.22",
   "title": "Family Reunion.",
   "body": " Family Reunion   John's family travels km from their home to a family reunion. His cousin Susan and her family take the same amount of time to travel km from their home. One of the vehicles travels km\/h faster than the other. Determine the speed of both vehicles.    .    John's family travels at km\/h and Susan's family travels at km\/h.   "
 },
@@ -2183,7 +2282,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-relative-speed-8",
   "type": "Checkpoint",
-  "number": "5.7.23",
+  "number": "6.7.23",
   "title": "Delivery Routes.",
   "body": " Delivery Routes   Driver A and B have two different delivery routes. Driver A's route is km, and driver B's route is km. Driver B travels km\/h faster than driver A and finishes minutes earlier. What are the speeds of each driver?    .    Driver A's speed is km\/h and driver B's speed is km\/h.   "
 },
@@ -2192,7 +2291,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-relative-speed-9",
   "type": "Checkpoint",
-  "number": "5.7.24",
+  "number": "6.7.24",
   "title": "Ted’s Drive.",
   "body": " Ted's Drive   Ted drove km west at km\/h slower than when he drove km east. His westward trip took minutes longer. Find his speeds.    .    Ted’s speed was km\/h east and km\/h west.   "
 },
@@ -2201,7 +2300,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-relative-speed-10",
   "type": "Checkpoint",
-  "number": "5.7.25",
+  "number": "6.7.25",
   "title": "Ann and Ray.",
   "body": " Ann and Ray   Ann and Ray each ride km. Ann starts minute earlier, and Ray rides km\/h faster. They finish at the same time. Find Ann’s speed.    .    Ann rides km\/h and Ray rides km\/h.   "
 },
@@ -2210,7 +2309,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-relative-speed-11",
   "type": "Checkpoint",
-  "number": "5.7.26",
+  "number": "6.7.26",
   "title": "Bronwyn and Aaron.",
   "body": " Bronwyn and Aaron   Bronwyn rides her electric bicycle km\/h faster than Aaron. Bronwyn can travel km in the same time that it takes Aaron to travel km. Determine Bronwyn’s average speed and Aaron’s average speed.    .    Aaron’s speed is km\/h and Bronwyn’s speed is km\/h.   "
 },
@@ -2219,7 +2318,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-relative-speed-12",
   "type": "Checkpoint",
-  "number": "5.7.27",
+  "number": "6.7.27",
   "title": "Cows Travelling.",
   "body": " Cows Travelling   Cows travelled km to Forde Lake, taking days longer than travelling km beyond the lake. They travelled km\/h slower before the lake. What was their speed beyond the lake?    .    Their speed beyond the lake was about km\/h.   "
 },
@@ -2228,7 +2327,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-relative-speed-13",
   "type": "Checkpoint",
-  "number": "5.7.28",
+  "number": "6.7.28",
   "title": "Airplane and Car.",
   "body": " Airplane and Car   The average speed of an airplane is ten times that of a car. It takes the airplane hours less than the car to travel km. Determine the average speeds of the airplane and the car.    .    The car’s speed is km\/h and the airplane’s speed is km\/h.   "
 },
@@ -2237,7 +2336,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-relative-speed-14",
   "type": "Checkpoint",
-  "number": "5.7.29",
+  "number": "6.7.29",
   "title": "Henry and Brandon.",
   "body": " Henry and Brandon   Henry’s average running speed is km\/h greater than Brandon’s. In a -km practice race, Brandon finished minutes behind Henry. Determine the average running speed of each person.    .    Brandon’s speed is approximately km\/h and Henry’s speed is approximately km\/h.   "
 },
@@ -2246,7 +2345,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-current-wind-2",
   "type": "Example",
-  "number": "5.7.30",
+  "number": "6.7.30",
   "title": "Kayaking.",
   "body": " Kayaking  You are kayaking on a river. You start paddling from a dock km upstream to a campsite, then immediately turns around and paddles km back downstream to the dock. The river’s current flows at km\/h. The total time for the trip is hours. What is your paddling speed in still water?  Let be your speed in still water. Then, your speed upstream is , because the 2 km\/h current is pushing you backwards. Similarly, your speed downstream is , because the 2 km\/h current is helping you go faster. Then, the total time for the trip is 3 hours, so,   Then, to calculate time, use ,   To solve, multiply both sides by (the LCD),   We keep only the positive solution, because paddling speed can't be negative. Therefore, your paddling speed in still water is 6 km\/h.  If you like, to help organize the information, you can also make a table, with the distance, rate, and time going upstream and downstream,   "
 },
@@ -2255,7 +2354,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-current-wind-3",
   "type": "Checkpoint",
-  "number": "5.7.31",
+  "number": "6.7.31",
   "title": "Two Kayakers.",
   "body": " Two Kayakers   Two kayakers paddle km downstream with the current in the same time it takes them to go km upstream against the current. The rate of the current is km\/h. Find their speed in still water.    .    km\/h.   "
 },
@@ -2264,7 +2363,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-current-wind-4",
   "type": "Checkpoint",
-  "number": "5.7.32",
+  "number": "6.7.32",
   "title": "River Current Expressions.",
   "body": " River Current Expressions   The current of a river is miles per hour. A boat's speed in still water is miles per hour. Write expressions for the time to travel miles downriver, the time to travel miles upriver, and the difference between these times.    Use with speeds and .    (a) downriver: hours, (b) upriver: hours, (c) difference: hours.   "
 },
@@ -2273,7 +2372,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-current-wind-5",
   "type": "Checkpoint",
-  "number": "5.7.33",
+  "number": "6.7.33",
   "title": "Round Trip Flight.",
   "body": " Round Trip Flight   A plane flies miles with the wind and then miles against the wind. The wind speed is miles per hour. If the total travel time for the round trip is hours, what is the speed of the plane in still air?    .    mi\/h.   "
 },
@@ -2282,7 +2381,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-current-wind-6",
   "type": "Checkpoint",
-  "number": "5.7.34",
+  "number": "6.7.34",
   "title": "Rose Paddling.",
   "body": " Rose Paddling   Rose paddles at a speed of km\/h in still water. She travels km upstream, and it takes her hour longer than it does to paddle the same distance downstream. Find the speed of the current in the river.    .    km\/h.   "
 },
@@ -2291,7 +2390,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-current-wind-7",
   "type": "Checkpoint",
-  "number": "5.7.35",
+  "number": "6.7.35",
   "title": "Boat Travel.",
   "body": " Boat Travel   A boat can travel at km\/h in still water. The boat travels km upstream (against the current) then turns around and travels the same distance back (with the current). The total trip took hours. Find the speed of the current.    .    km\/h.   "
 },
@@ -2300,7 +2399,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-current-wind-8",
   "type": "Checkpoint",
-  "number": "5.7.36",
+  "number": "6.7.36",
   "title": "River Town Trip.",
   "body": " River Town Trip   The speed of the current in a river is km\/h. A boat made a round trip to a town km away in a total of hours. What was the speed of the boat in still water?    .    km\/h.   "
 },
@@ -2309,7 +2408,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-current-wind-9",
   "type": "Checkpoint",
-  "number": "5.7.37",
+  "number": "6.7.37",
   "title": "Canoe Trip.",
   "body": " Canoe Trip   The time it takes for a canoe to go miles upstream and back miles downstream is hours. The current in the lake is mile per hour. Find the average speed of the canoe in still water.    .    The canoe’s speed in still water is miles per hour.   "
 },
@@ -2318,7 +2417,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-current-wind-10",
   "type": "Checkpoint",
-  "number": "5.7.38",
+  "number": "6.7.38",
   "title": "Plane Against Wind.",
   "body": " Plane Against Wind   A plane travels km against the wind and then km with the wind in the same time. The wind speed is km\/h. Find the speed of the plane in still air.    .    km\/h.   "
 },
@@ -2327,7 +2426,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-current-wind-11",
   "type": "Checkpoint",
-  "number": "5.7.39",
+  "number": "6.7.39",
   "title": "Head Wind and Tail Wind.",
   "body": " Head Wind and Tail Wind   A plane is flying km each way. Its air speed (speed in still air) on both trips is km\/h. On the flight there, there is a tail wind, and on the way back there is a head wind. Calculate the total time for the round trip for a wind speed of km\/h and for a wind speed of km\/h.    For wind speed , use .    For km\/h, hours; for km\/h, hours.   "
 },
@@ -2336,7 +2435,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-current-wind-12",
   "type": "Checkpoint",
-  "number": "5.7.40",
+  "number": "6.7.40",
   "title": "Downstream and Upstream.",
   "body": " Downstream and Upstream   A boat travels km downstream in the same time it travels km upstream. The current is km\/h. Find the boat’s speed in still water.    .    The boat’s still-water speed is km\/h.   "
 },
@@ -2345,7 +2444,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-current-wind-13",
   "type": "Checkpoint",
-  "number": "5.7.41",
+  "number": "6.7.41",
   "title": "Boat Current.",
   "body": " Boat Current   A boat travels km downstream in the same time it takes to travel km upstream. If the current flows at km\/h, what is the speed of the boat in still water?    .    The speed of the boat in still water is km\/h.   "
 },
@@ -2354,7 +2453,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-current-wind-14",
   "type": "Checkpoint",
-  "number": "5.7.42",
+  "number": "6.7.42",
   "title": "Boat Speed.",
   "body": " Boat Speed   The speed of a boat in still water is mph. The boat travels miles upstream and back downstream in a total of hours. What is the speed of the current?    .    The speed of the current is mph.   "
 },
@@ -2363,7 +2462,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-current-wind-15",
   "type": "Checkpoint",
-  "number": "5.7.43",
+  "number": "6.7.43",
   "title": "Friends Canoeing.",
   "body": " Friends Canoeing   Two friends paddle a canoe at km\/h in still water. They travel km upstream and then km back downstream in a total of hour. Find the speed of the current.    .    km\/h.   "
 },
@@ -2372,7 +2471,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-current-wind-16",
   "type": "Checkpoint",
-  "number": "5.7.44",
+  "number": "6.7.44",
   "title": "Average Current Speed.",
   "body": " Average Current Speed   A boat travels km upstream in the same time that it takes the boat to travel km downstream. The average speed of the current is km\/h. What is the average speed of the boat in still water?    .    km\/h.   "
 },
@@ -2381,7 +2480,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-avg-speed-2",
   "type": "Checkpoint",
-  "number": "5.7.45",
+  "number": "6.7.45",
   "title": "Driving to Work.",
   "body": " Driving to Work   A woman drives to work at an average speed of mph. The average speed of the return trip home is mph. What is the average speed for the round trip?    , and cancels out.    mph.   "
 },
@@ -2390,7 +2489,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-avg-speed-3",
   "type": "Checkpoint",
-  "number": "5.7.46",
+  "number": "6.7.46",
   "title": "Jessica’s Trip.",
   "body": " Jessica's Trip   On a km round trip, Jessica averages km\/h to her destination and km\/h returning. What is the average speed for the entire trip?    .    km\/h.   "
 },
@@ -2399,7 +2498,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-avg-speed-4",
   "type": "Checkpoint",
-  "number": "5.7.47",
+  "number": "6.7.47",
   "title": "Priya’s Store Run.",
   "body": " Priya's Store Run   Priya decides to go to the store which is km from her house. She first ran at a rate of km\/h, then walked the rest of the trip at a speed of km\/h. If the total trip took hours, how many kilometers did she walk?    .    km.   "
 },
@@ -2408,7 +2507,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-avg-speed-5",
   "type": "Checkpoint",
-  "number": "5.7.48",
+  "number": "6.7.48",
   "title": "Reading a Book.",
   "body": " Reading a Book   You have days to read a -page book. After reading half, you need to increase your reading rate by pages\/day to finish on time. What was your initial rate?    if the initial rate is then .    pages\/day.   "
 },
@@ -2417,7 +2516,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-avg-speed-6",
   "type": "Checkpoint",
-  "number": "5.7.49",
+  "number": "6.7.49",
   "title": "Round Trip Speed.",
   "body": " Round Trip Speed   A car travels to work at km\/h and returns at km\/h. Find the average speed for the round trip.    .    The average speed is km\/h.   "
 },
@@ -2426,7 +2525,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-avg-speed-7",
   "type": "Checkpoint",
-  "number": "5.7.50",
+  "number": "6.7.50",
   "title": "Ann Cycling.",
   "body": " Ann Cycling   Ann cycles km to return a friend’s bicycle. She then walks home. Her total time for the trip is minutes. Ann cycles four times as fast as she walks. Determine Ann’s average speeds for walking and for cycling.    .    Ann’s walking speed is km\/h and her cycling speed is km\/h.   "
 },
@@ -2435,7 +2534,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-number-reciprocals-3",
   "type": "Checkpoint",
-  "number": "5.7.51",
+  "number": "6.7.51",
   "title": "Sum of Reciprocals 1.",
   "body": " Sum of Reciprocals 1   The sum of the reciprocals of two consecutive numbers is equal to . Find the two numbers.    5 and 6.   "
 },
@@ -2444,7 +2543,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-number-reciprocals-4",
   "type": "Checkpoint",
-  "number": "5.7.52",
+  "number": "6.7.52",
   "title": "Sum of Reciprocals 2.",
   "body": " Sum of Reciprocals 2   The sum of two numbers is 25, and the sum of their reciprocals is . Find the two numbers.    .    5 and 20.   "
 },
@@ -2453,7 +2552,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-number-reciprocals-5",
   "type": "Checkpoint",
-  "number": "5.7.53",
+  "number": "6.7.53",
   "title": "Sum of Reciprocals 3.",
   "body": " Sum of Reciprocals 3   The sum of two numbers is 12, and the sum of their reciprocals is . Find the two numbers.    4 and 8.   "
 },
@@ -2462,7 +2561,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-number-reciprocals-6",
   "type": "Checkpoint",
-  "number": "5.7.54",
+  "number": "6.7.54",
   "title": "Reciprocal of Smallest.",
   "body": " Reciprocal of Smallest   Find the value(s) of in the numbers , , and such that the reciprocal of the smallest number equals the sum of the reciprocals of the other two numbers.    .    or .   "
 },
@@ -2471,7 +2570,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-number-reciprocals-7",
   "type": "Checkpoint",
-  "number": "5.7.55",
+  "number": "6.7.55",
   "title": "Sum of Integers.",
   "body": " Sum of Integers   The sum of two integers is , and the difference in their reciprocals is . Find the two integers.    and .   "
 },
@@ -2480,7 +2579,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-number-reciprocals-8",
   "type": "Checkpoint",
-  "number": "5.7.56",
+  "number": "6.7.56",
   "title": "Difference of Reciprocals.",
   "body": " Difference of Reciprocals   A natural number is more than another natural number. When the reciprocal of the greater number is subtracted from the reciprocal of the lesser number, the difference is . What are the two numbers?    .    and .   "
 },
@@ -2489,7 +2588,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-number-reciprocals-9",
   "type": "Checkpoint",
-  "number": "5.7.57",
+  "number": "6.7.57",
   "title": "Number and Reciprocal 1.",
   "body": " Number and Reciprocal 1   The sum of a number and its reciprocal is . Find the number.    .    or .   "
 },
@@ -2498,7 +2597,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-number-reciprocals-10",
   "type": "Checkpoint",
-  "number": "5.7.58",
+  "number": "6.7.58",
   "title": "Integer and Reciprocal.",
   "body": " Integer and Reciprocal   The sum of an integer and its reciprocal is . Find the integer.    .    .   "
 },
@@ -2507,7 +2606,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-number-reciprocals-11",
   "type": "Checkpoint",
-  "number": "5.7.59",
+  "number": "6.7.59",
   "title": "Consecutive Integers 1.",
   "body": " Consecutive Integers 1   Find two consecutive integers whose reciprocals add to .    .    and .   "
 },
@@ -2516,7 +2615,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-number-reciprocals-12",
   "type": "Checkpoint",
-  "number": "5.7.60",
+  "number": "6.7.60",
   "title": "Consecutive Odd Integers.",
   "body": " Consecutive Odd Integers   Find two consecutive odd integers whose reciprocals add to .    .    and .   "
 },
@@ -2525,7 +2624,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-number-reciprocals-13",
   "type": "Checkpoint",
-  "number": "5.7.61",
+  "number": "6.7.61",
   "title": "Consecutive Even Integers.",
   "body": " Consecutive Even Integers   Find two consecutive even integers whose reciprocals add to .    .    and .   "
 },
@@ -2534,7 +2633,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-number-reciprocals-14",
   "type": "Checkpoint",
-  "number": "5.7.62",
+  "number": "6.7.62",
   "title": "Quotient Problem.",
   "body": " Quotient Problem   The quotient of a number and minus is the quotient of the number and . Find the number.    .    .   "
 },
@@ -2543,7 +2642,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-number-reciprocals-15",
   "type": "Checkpoint",
-  "number": "5.7.63",
+  "number": "6.7.63",
   "title": "Product and Reciprocal.",
   "body": " Product and Reciprocal   A number added to the product of and the reciprocal of the number is . Find the number.    .    or .   "
 },
@@ -2552,7 +2651,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-number-reciprocals-16",
   "type": "Checkpoint",
-  "number": "5.7.64",
+  "number": "6.7.64",
   "title": "Complex Ratio.",
   "body": " Complex Ratio   If times the reciprocal of a number is added to the ratio of times the number minus and the number plus , the result is . What is the number?    .    or .   "
 },
@@ -2561,7 +2660,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-number-reciprocals-17",
   "type": "Checkpoint",
-  "number": "5.7.65",
+  "number": "6.7.65",
   "title": "Number and Twice Reciprocal.",
   "body": " Number and Twice Reciprocal   The sum of a number and twice its reciprocal is . Find the number.    .    or .   "
 },
@@ -2570,7 +2669,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-mixture-problems-2",
   "type": "Checkpoint",
-  "number": "5.7.66",
+  "number": "6.7.66",
   "title": "Acid Solution 1.",
   "body": " Acid Solution 1   Suppose that mL of pure acid are added to mL of a acid solution. How many mL of pure acid must be added to produce a new solution that is acid?    .    mL.   "
 },
@@ -2579,7 +2678,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-mixture-problems-3",
   "type": "Checkpoint",
-  "number": "5.7.67",
+  "number": "6.7.67",
   "title": "Acid Solution 2.",
   "body": " Acid Solution 2   How much pure acid must be added to mL of a acid solution to produce a mixture that is acid?    .    mL.   "
 },
@@ -2588,7 +2687,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-mixture-problems-4",
   "type": "Checkpoint",
-  "number": "5.7.68",
+  "number": "6.7.68",
   "title": "Bleach Solution.",
   "body": " Bleach Solution   How much bleach should be added to L of water to make a solution that is bleach?    .    L.   "
 },
@@ -2597,7 +2696,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-mixture-problems-5",
   "type": "Checkpoint",
-  "number": "5.7.69",
+  "number": "6.7.69",
   "title": "Acid Solution 3.",
   "body": " Acid Solution 3   What volume of pure acid must be added to mL of a acid solution to obtain a solution that is acid?    .    mL.   "
 },
@@ -2606,7 +2705,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-misc-problems-2",
   "type": "Checkpoint",
-  "number": "5.7.70",
+  "number": "6.7.70",
   "title": "Box Dimensions.",
   "body": " Box Dimensions   A company makes a box with a square base of side length cm and a volume of cm . The company wants to redesign the box with a smaller base.    If the length of the base decreases by cm, write an expression for the new height of the box.    Write an expression for the increase in height of the box.    If the base becomes a cm square, find the increase in height.        .    .    cm. (Hint: if the base length is 12 cm, what is ?)     "
 },
@@ -2615,7 +2714,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-misc-problems-3",
   "type": "Checkpoint",
-  "number": "5.7.71",
+  "number": "6.7.71",
   "title": "Golf Range.",
   "body": " Golf Range   Jacob is a junior member of a local golf driving range. He pays $15 per month to use the range, and pays $1 per bucket of balls.    If Jacob hits buckets of balls in one month, write an expression that represents how much he would pay per month.    Write an expression that represents the actual cost per bucket for a month (including the monthly fee).    Write and solve an equation to determine the number of buckets of balls Jacob would have to hit in a month for the actual cost per bucket to be $1.25.        .    .    60 buckets. (Hint: )     "
 },
@@ -2624,7 +2723,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-misc-problems-4",
   "type": "Checkpoint",
-  "number": "5.7.72",
+  "number": "6.7.72",
   "title": "T-Shirt Sales.",
   "body": " T-Shirt Sales   Rima bought a case of concert T-shirts for $450. She kept two T-shirts for herself and sold the rest for $560, making a profit of $10 on each T-shirt. How many T-shirts were in the case?    18 T-shirts.   "
 },
@@ -2633,7 +2732,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-misc-problems-5",
   "type": "Checkpoint",
-  "number": "5.7.73",
+  "number": "6.7.73",
   "title": "French Club.",
   "body": " French Club   A French club collected the same amount of money from each student for a trip. Six students cancelled, so each remaining student paid $3 extra. The total cost was $540. How many students went on the trip?    students.   "
 },
@@ -2642,7 +2741,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-rational-equations.html#subsection-misc-problems-6",
   "type": "Checkpoint",
-  "number": "5.7.74",
+  "number": "6.7.74",
   "title": "Polygon Angles.",
   "body": " Polygon Angles   The measure (in degrees) of each angle in a regular polygon with sides is given by the equation . When each angle in a regular polygon is , how many sides does the polygon have?    .    sides.   "
 },
@@ -2651,7 +2750,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-oblique-triangles-summary.html",
   "type": "Section",
-  "number": "6.1",
+  "number": "7.1",
   "title": "Oblique Triangles Summary",
   "body": " Oblique Triangles Summary   Here is a simple summary of how to solve (oblique) triangles.  In short,   If you know an side-angle pair (side and it's opposite angle), use the law of sines .  Otherwise, use the law of cosines .   More specifically, based on the information given:    Type   First steps    Two angles and non-included side  AAS  law of sines    Two angles and included side  ASA  solve for remaining angle, then law of sines    Two sides and opposite angle  SSA  law of sines    Two sides and included angle  SAS  law of cosines (solve for side first)    Three sides  SSS  law of cosines (solve for an angle first)    Some additional notes:   If you know 2 angles, you can solve for the 3rd (subtract 180 minus the other two angles).  The SSA case also can be the ambiguous case if the triangle structure is unknown, with either 0, 1, or 2 solutions.  Be careful with rounding in intermediate steps, because it can lead to bigger rounding error in future calculations. A good guideline is to round intermediate calculations to at least 1 more decimal place than what the final answer asks for.    "
 },
@@ -2660,7 +2759,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-polynomial-functions-intro.html",
   "type": "Section",
-  "number": "7.1",
+  "number": "8.1",
   "title": "Polynomial Functions Intro",
   "body": " Polynomial Functions Intro   Previously, the two main types of functions we considered were:    Linear functions, and,   Quadratic functions      Type of function  Example  General Form    Linear function (line)      Quadratic function (parabola)       It turns out that we can also consider functions that are made up of higher powers of , like , and so on. In general, we call this a polynomial function. So, linear and quadratic functions are specific types of polynomial functions.   Exploring Polynomial Graphs  Let's explore polynomial functions. We'll start with the most basic types, which are just a single power of . We can graph polynomial functions using Desmos.    Exploration of power functions . Consider the graphs of , , , , , . Observe the pattern in the shapes.  Even integer powers have a U-shape whereas the odd integer powers have an S-shape .    Power functions with negatives . Consider , , , , , . These are basically the previous graphs except upside down . In other words, a reflection over the -axis of the previous graphs.     functions with more terms . Consider adding terms with smaller exponents. Take a function that starts with , and add some terms like , , or a constant.       Observe that the first 3 all have the same S-shape, that starts in the bottom left and ends in the top right. The last 2 also share similar shapes, starting in the top left and ending in the bottom right. Observe that the negative sign in front basically reflects it upside down. The precise behavior of the function and how it goes up and down is much more complicated, however, and can't be determined just by looking at the equation.     functions with more terms . Let's do the same thing, but with an function.      Again, observe that they all have the same U-shape , and the ones with a negative in front are basically upside down.   In fact, you have seen this pattern before with parabolas (quadratic functions). Quadratic functions with various numbers . Recall that the number in front of (called the leading coefficient ) determines if it opens up or opens down . In particular, if it opens up, and if it opens down.   In summary,   The rough shape of a polynomial function is determined by the term with the highest power of .   In particular, it is based on:  The biggest exponent the polynomial has.  If the number in front is positive or negative.         Polynomial Functions  Basically, a polynomial function is made up of powers of , combined with numbers through multiplication, addition, and subtraction. Sometimes, we refer to them simply as polynomials.   Roughly, a polynomial function is a function made up of adding and subtracting powers of with whole number exponents.    The degree of a polynomial function is the exponent on its highest power of .  Intuitively, degree means size , the degree of a polynomial can be thought of as how big it is.      The term with the highest power of is called the leading term , and its coefficient is called the leading coefficient .  Intuitively, leading means most important or in front .       The domain of a polynomial is all real numbers, or (or, ). This is because it only uses the basic operations of addition, subtraction, and multiplication of numbers, and these operations are always defined.  The graph of a polynomial function is both:    Smooth : it has no sharp corners.   Continuous : it has no breaks and can be drawn without lifting your pencil off the page.    Polynomial and Non-Polynomial Functions  Here are some functions which are polynomials, and some which are not.    is a polynomial, of degree 3, because all of the exponents are whole numbers.   is not a polynomial, because of the exponent of .   is not a polynomial, because it has the square root of .   is not a polynomial, because there is an in the denominator.   is a polynomial, intuitively because if you were to expand out all of the brackets, all of the powers of would be whole numbers.   Notice that all of the non-examples of polynomials either:   Don't have a domain which is all real numbers (they are undefined for some values of ), or,  Are not smooth (they have sharp corners) or not continuous (they have breaks).    Polynomials also have special names based on their degree.   Polynomials of degree 2 are called quadratic (which you've already learned before).  Polynomials of degree 3 are called cubic .  Degree 4 is quartic .  Degree 5 is quintic .  Degree 6 is sextic or hexic .   You can always just say degree 3 polynomial or degree 4 polynomial , but you should be aware of these terms. Typically, the higher the degree of the polynomial, the more complicated it is.    Turning Points of a Polynomial  A polynomial can have multiple points where it turns around , going from increasing to decreasing, or decreasing to increasing.   A linear function ( ) has 0 turning points (it never bends).  Quadratic ( ) has 1 turning point (the vertex).  Cubic ( ) has up to 2 turning points.  Quartic ( ) has up to 3 turning points.   It turns out that in general, a polynomial of degree can have at most turning points.    End Behavior of a Polynomial  As we've seen, the graph of a polynomial function can go either up or down on the left and right side, depending on its equation. This is called it's end behavior .   The end behavior of a function is its behavior as becomes large in either the positive or negative direction.   Graphically, end behavior is what the function does to the far right or far left side of the graph. The graph of a polynomial function may increase in some places and decrease in others, however it will eventually tend towards either going up or down .   Sometimes polynomial functions go right and up, sometimes they go right and down,  Sometimes they go left and up, and other times left and down.   The end behavior of a polynomial function is determined by the leading term. Intuitively, this is because when is large (either large positive, or large negative), the leading term dominates the other terms, in the sense that it's size is much bigger than the others. All other terms become insignificant in size.  In particular, the end behavior of a polynomial depends on both:   Its degree , being even or odd.  Its leading coefficient , being positive or negative.   It can be summarized in this table:    End behavior table     Some observations:   Even-degree polynomials have the same end behavior on each side.  Odd-degree polynomials have opposite end behavior.   Also,   For even-degree polynomials, the leading coefficient determines if it opens up or opens down (similar to a parabola).  For odd-degree polynomials, the sign of the leading coefficient determines the overall trend, if it overall has positive slope (like ) or negative slope (like ), (similar to a line).   There are a few ways to describe end behavior:   The simplest is just to draw that little sketch of how the arrows will go on the left side and the right side.   Another way is through the quadrants, which looks like this:  End behavior table      Remember that the quadrants are labelled starting from the top right, and going counterclockwise, like this:          y-Intercept of a Polynomial  Recall that the -intercept for linear and quadratic functions is simply the constant term,   This is because to find the -intercept, set , and solve for . Doing this makes all of the terms vanish, leaving only the constant term left. In general, the -intercept of a polynomial function is the constant term.   y-intercept Example  For , the -intercept is .     x-Intercepts (Zeros) of a Polynomial  For -intercepts, first note that the terms zero , root , and -intercept are all somewhat used interchangably. Zero and root are more truly synonyms, whereas -intercept typically refers to the point on the graph (where it touches the -axis).   A number is a zero or ( root ) of if . The following are equivalent:    is a zero of .   is a root of .   is an -intercept of the graph of .    Recall that to find -intercepts, you set , and solve for .   Finding x-intercepts  For , we get,   and we need to solve for . It is not obvious how to do this at first glance.   In general, the -intercept(s) of a polynomial function are the solutions to the equation .  We will explore various techniques to solve equations like this. Most of the examples will be simple, with numbers chosen very carefully so that the problem is solvable. In general, solving this equation by hand and exactly is very difficult, and sometimes actually impossible (and only possible approximately).   "
 },
@@ -2669,7 +2768,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-polynomial-functions-intro.html#sec-polynomial-functions-intro-2-3",
   "type": "Table",
-  "number": "7.1.1",
+  "number": "8.1.1",
   "title": "",
   "body": "   Type of function  Example  General Form    Linear function (line)      Quadratic function (parabola)      "
 },
@@ -2678,7 +2777,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-polynomial-functions-intro.html#sec-polynomial-functions-intro-2-5",
   "type": "Example",
-  "number": "7.1.2",
+  "number": "8.1.2",
   "title": "Exploring Polynomial Graphs.",
   "body": " Exploring Polynomial Graphs  Let's explore polynomial functions. We'll start with the most basic types, which are just a single power of . We can graph polynomial functions using Desmos.    Exploration of power functions . Consider the graphs of , , , , , . Observe the pattern in the shapes.  Even integer powers have a U-shape whereas the odd integer powers have an S-shape .    Power functions with negatives . Consider , , , , , . These are basically the previous graphs except upside down . In other words, a reflection over the -axis of the previous graphs.     functions with more terms . Consider adding terms with smaller exponents. Take a function that starts with , and add some terms like , , or a constant.       Observe that the first 3 all have the same S-shape, that starts in the bottom left and ends in the top right. The last 2 also share similar shapes, starting in the top left and ending in the bottom right. Observe that the negative sign in front basically reflects it upside down. The precise behavior of the function and how it goes up and down is much more complicated, however, and can't be determined just by looking at the equation.     functions with more terms . Let's do the same thing, but with an function.      Again, observe that they all have the same U-shape , and the ones with a negative in front are basically upside down.   In fact, you have seen this pattern before with parabolas (quadratic functions). Quadratic functions with various numbers . Recall that the number in front of (called the leading coefficient ) determines if it opens up or opens down . In particular, if it opens up, and if it opens down.   In summary,   The rough shape of a polynomial function is determined by the term with the highest power of .   In particular, it is based on:  The biggest exponent the polynomial has.  If the number in front is positive or negative.      "
 },
@@ -2687,7 +2786,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-polynomial-functions-intro.html#sec-polynomial-functions-intro-3-3",
   "type": "Definition",
-  "number": "7.1.3",
+  "number": "8.1.3",
   "title": "",
   "body": " Roughly, a polynomial function is a function made up of adding and subtracting powers of with whole number exponents.    The degree of a polynomial function is the exponent on its highest power of .  Intuitively, degree means size , the degree of a polynomial can be thought of as how big it is.      The term with the highest power of is called the leading term , and its coefficient is called the leading coefficient .  Intuitively, leading means most important or in front .      "
 },
@@ -2696,7 +2795,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-polynomial-functions-intro.html#sec-polynomial-functions-intro-3-7",
   "type": "Example",
-  "number": "7.1.4",
+  "number": "8.1.4",
   "title": "Polynomial and Non-Polynomial Functions.",
   "body": " Polynomial and Non-Polynomial Functions  Here are some functions which are polynomials, and some which are not.    is a polynomial, of degree 3, because all of the exponents are whole numbers.   is not a polynomial, because of the exponent of .   is not a polynomial, because it has the square root of .   is not a polynomial, because there is an in the denominator.   is a polynomial, intuitively because if you were to expand out all of the brackets, all of the powers of would be whole numbers.   Notice that all of the non-examples of polynomials either:   Don't have a domain which is all real numbers (they are undefined for some values of ), or,  Are not smooth (they have sharp corners) or not continuous (they have breaks).   "
 },
@@ -2705,7 +2804,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-polynomial-functions-intro.html#sec-polynomial-functions-intro-5-3",
   "type": "Definition",
-  "number": "7.1.5",
+  "number": "8.1.5",
   "title": "",
   "body": " The end behavior of a function is its behavior as becomes large in either the positive or negative direction.  "
 },
@@ -2714,7 +2813,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-polynomial-functions-intro.html#end-behavior",
   "type": "Figure",
-  "number": "7.1.6",
+  "number": "8.1.6",
   "title": "",
   "body": " End behavior table   "
 },
@@ -2723,7 +2822,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-polynomial-functions-intro.html#end-behavior-table-quadrants",
   "type": "Figure",
-  "number": "7.1.7",
+  "number": "8.1.7",
   "title": "",
   "body": " End behavior table   "
 },
@@ -2732,7 +2831,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-polynomial-functions-intro.html#sec-polynomial-functions-intro-5-16-2-2",
   "type": "Remark",
-  "number": "7.1.8",
+  "number": "8.1.8",
   "title": "",
   "body": " Remember that the quadrants are labelled starting from the top right, and going counterclockwise, like this:     "
 },
@@ -2741,7 +2840,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-polynomial-functions-intro.html#sec-polynomial-functions-intro-6-5",
   "type": "Example",
-  "number": "7.1.9",
+  "number": "8.1.9",
   "title": "y-intercept Example.",
   "body": " y-intercept Example  For , the -intercept is .  "
 },
@@ -2750,7 +2849,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-polynomial-functions-intro.html#sec-polynomial-functions-intro-7-3",
   "type": "Definition",
-  "number": "7.1.10",
+  "number": "8.1.10",
   "title": "",
   "body": " A number is a zero or ( root ) of if . The following are equivalent:    is a zero of .   is a root of .   is an -intercept of the graph of .   "
 },
@@ -2759,7 +2858,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-polynomial-functions-intro.html#sec-polynomial-functions-intro-7-5",
   "type": "Example",
-  "number": "7.1.11",
+  "number": "8.1.11",
   "title": "Finding x-intercepts.",
   "body": " Finding x-intercepts  For , we get,   and we need to solve for . It is not obvious how to do this at first glance.  "
 },
@@ -2768,7 +2867,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-polynomial-zeros-factored-form.html",
   "type": "Section",
-  "number": "7.2",
+  "number": "8.2",
   "title": "Polynomial Zeros, Factored Form",
   "body": " Polynomial Zeros, Factored Form   Recall that a big part of analyzing quadratic functions was to be able to find their zeros, i.e. to solve quadratic equations. In a similar way, we want to find zeros of higher-degree polynomial functions.  However, this is not as easy. In fact, it is not even possible to do exactly in general for any given polynomial.  Recall that for quadratic equations, there are 3 main techniques:   Using technology (graphing).  Factoring.  Quadratic formula.   Unfortunately, there is no easy formula (similar to the quadratic formula) that can solve 3rd degree, 4th degree, or higher degree equations. This means that we will have to use factoring (by hand) or technology.    Zeros by Technology\/Graphing Calculator\/Desmos  The easiest way to find the zeros of a polynomial function is using technology. Graph the function using Desmos , and observe the -intercepts, which are the zeros.  However, you may not get the zeros in exact form, depending on if they are integers, fractions, or irrational numbers.    Solving Polynomial Equations in Factored Form  Recall that many quadratic equations were solved by factoring them and setting each factor equal to zero. If the quadratic in factored form, then finding its zeros is straightforward.   Solving a Factored Quadratic  For example,   We set each factor equal to zero:   So the solutions are and . Or, you might just read off the solutions from the equation itself.   You might recall that this is called the zero product property , which says that if the product of two numbers is 0, then one of the numbers must be equal to 0. In othre words, for 2 numbers and , if , then or . This is the fundamental property used to solve quadratic equations by factoring.  This idea generalizes to higher degree polynomials, with more than 2 terms.   Solving a Factored Cubic Polynomial  For example, consider this polynomial with 3 factors,   It is cubic, because it has 3 linear factors. If you were to expand it out, the highest power would be . To find the zeros, set :   Then each factor can be set to zero:   Solving gives:   Thus, the solutions are .    Solving a Factored Quartic Polynomial  Similarly, for this degree 4 (quartic) polynomial equation,   Setting each factor equal to zero gives:   Solving gives:     Factors Not in Standard Form  Sometimes the factors might not be written in the standard form. For example,   Setting each factor equal to zero:   Solving gives:   The solutions are .    Factors with Multiplicity  The exponents on the factors can also vary. For example,   However, it doesn't change the strategy. Set each factor to zero, giving,   And solve for ,   So the zeros are and .   In general, if you have a bunch of factors multiplied together that equals 0, then each of the factors can be 0. In this way, solving polynomial equations in this form is easy.   Zero product property  If the product of any number of factors is equal to zero, then at least one of the factors must be zero.   A polynomial written as a product of its factors is said to be in factored form . In other words, like,    Practice: Solving Factored Polynomials   Solve each equation.    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .     "
 },
@@ -2777,7 +2876,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-polynomial-zeros-factored-form.html#sec-polynomial-zeros-factored-form-4-3",
   "type": "Example",
-  "number": "7.2.1",
+  "number": "8.2.1",
   "title": "Solving a Factored Quadratic.",
   "body": " Solving a Factored Quadratic  For example,   We set each factor equal to zero:   So the solutions are and . Or, you might just read off the solutions from the equation itself.  "
 },
@@ -2786,7 +2885,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-polynomial-zeros-factored-form.html#sec-polynomial-zeros-factored-form-4-6",
   "type": "Example",
-  "number": "7.2.2",
+  "number": "8.2.2",
   "title": "Solving a Factored Cubic Polynomial.",
   "body": " Solving a Factored Cubic Polynomial  For example, consider this polynomial with 3 factors,   It is cubic, because it has 3 linear factors. If you were to expand it out, the highest power would be . To find the zeros, set :   Then each factor can be set to zero:   Solving gives:   Thus, the solutions are .  "
 },
@@ -2795,7 +2894,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-polynomial-zeros-factored-form.html#sec-polynomial-zeros-factored-form-4-7",
   "type": "Example",
-  "number": "7.2.3",
+  "number": "8.2.3",
   "title": "Solving a Factored Quartic Polynomial.",
   "body": " Solving a Factored Quartic Polynomial  Similarly, for this degree 4 (quartic) polynomial equation,   Setting each factor equal to zero gives:   Solving gives:   "
 },
@@ -2804,7 +2903,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-polynomial-zeros-factored-form.html#sec-polynomial-zeros-factored-form-4-8",
   "type": "Example",
-  "number": "7.2.4",
+  "number": "8.2.4",
   "title": "Factors Not in Standard Form.",
   "body": " Factors Not in Standard Form  Sometimes the factors might not be written in the standard form. For example,   Setting each factor equal to zero:   Solving gives:   The solutions are .  "
 },
@@ -2813,7 +2912,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-polynomial-zeros-factored-form.html#sec-polynomial-zeros-factored-form-4-9",
   "type": "Example",
-  "number": "7.2.5",
+  "number": "8.2.5",
   "title": "Factors with Multiplicity.",
   "body": " Factors with Multiplicity  The exponents on the factors can also vary. For example,   However, it doesn't change the strategy. Set each factor to zero, giving,   And solve for ,   So the zeros are and .  "
 },
@@ -2822,7 +2921,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-polynomial-zeros-factored-form.html#sec-polynomial-zeros-factored-form-4-11",
   "type": "Theorem",
-  "number": "7.2.6",
+  "number": "8.2.6",
   "title": "Zero product property.",
   "body": " Zero product property  If the product of any number of factors is equal to zero, then at least one of the factors must be zero.  "
 },
@@ -2840,7 +2939,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-polynomial-zeros-factored-form.html#sec-polynomial-zeros-factored-form-4-14",
   "type": "Exercise Group",
-  "number": "7.2.1",
+  "number": "8.2.1",
   "title": "Practice: Solving Factored Polynomials.",
   "body": " Practice: Solving Factored Polynomials   Solve each equation.    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .   "
 },
@@ -2849,7 +2948,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html",
   "type": "Section",
-  "number": "7.3",
+  "number": "8.3",
   "title": "Factoring and Roots of Polynomial Functions",
   "body": " Factoring and Roots of Polynomial Functions   Recall that our goal is to be able to factor polynomials, in a similar way that we can factor quadratic functions. The question is: how do we find factors?   Factoring a Quadratic  Recall that quadratics can be written in factored form. For example,      The factors are and .    The zeros are and .     Notice that each zero corresponds to a factor. In other words,    This relationship extends to any polynomial function, and is called the factor theorem .    Factor Theorem   Factor theorem   Let be a polynomial. Then, is a factor of the polynomial if and only if . In other words,   If , then is a factor of .    If is a factor of , then .       This provides an equivalence between being a factor of , and being a root of . We also know that being a factor of means that dividing by gives a remainder of 0. Putting it together, these are all equivalent:    Using the Factor Theorem  For the polynomial function , to determine if is a factor, evaluate ,   This means that is a root, so by the factor theorem, is a factor of .    Zeros and Corresponding Factors   For each zero of a polynomial function , give the corresponding factor.                     Identifying Factors I   For , determine if each binomial is a factor.     No.     Yes.     Identifying Factors II   For , determine if each binomial is a factor.     Yes.     No.     Finding Unknowns with the Factor Theorem   Solve for the unknown variables using the factor theorem.    Find so that is a factor of .     What are all values of for which is a zero of ?     If is a factor of , what is ?     Find values for and such that is a factor of both and .       The Remainder Theorem  The remainder theorem states that when a polynomial is divided by a binomial , the remainder is .   Remainder theorem   If a polynomial is divided by a binomial , the remainder is equal to the function evaluated at , i.e. .     In other words, to find the remainder after division by , you can just evaluate the polynomial at , instead of going through the division process.   Finding Remainders   Find the remainder for each polynomial division, using the remainder theorem.     18     9     8     -19     -40     9     41     -4     Solving for an Unknown Coefficient I   Find each value of from the given division and remainder.    , remainder     , remainder     , remainder     , remainder      Solving for an Unknown Coefficient II   Find for each polynomial, using the given remainder condition.    When is divided by , the remainder is .     has remainder .     has remainder .     has remainder .     has remainder .     has remainder .  or    When is divided by , the remainder is .     When is divided by , the remainder is .     When is divided by , the remainder is .     When is divided by , the remainder is .     When is divided by , the remainder is . Find .      Problems with Equal Remainders   Solve the following problem.    The polynomial has the same remainder when divided by and by . Find .      Solving for Multiple Unknown Coefficients   Find the unknown coefficients for each polynomial.    has remainders upon division by and upon division by . Find and .     has remainders upon division by and upon division by . Find and .     has remainders upon division by and upon division by . Find and .     has remainders upon division by and upon division by . Find .     When is divided by , the remainder is . When this polynomial is divided by , the remainder is . Find and .     has no remainder when divided by and . Find and .      Mixed Problems on the Remainder Theorem   Solve the following problems using the remainder theorem.    When is divided by , the remainder is the same as when is divided by . Find .     When is divided by , the remainder is . What is the remainder when it is divided by ?  ; the remainder is 3.    For , find all values of so that .     When is divided by , the remainder is . Find .     When is divided by , the remainder is . Find all possible values of .  or .     "
 },
@@ -2858,7 +2957,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-2-2",
   "type": "Example",
-  "number": "7.3.1",
+  "number": "8.3.1",
   "title": "Factoring a Quadratic.",
   "body": " Factoring a Quadratic  Recall that quadratics can be written in factored form. For example,      The factors are and .    The zeros are and .     Notice that each zero corresponds to a factor. In other words,   "
 },
@@ -2867,7 +2966,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-3-2",
   "type": "Theorem",
-  "number": "7.3.2",
+  "number": "8.3.2",
   "title": "Factor theorem.",
   "body": " Factor theorem   Let be a polynomial. Then, is a factor of the polynomial if and only if . In other words,   If , then is a factor of .    If is a factor of , then .      "
 },
@@ -2876,7 +2975,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-3-5",
   "type": "Example",
-  "number": "7.3.3",
+  "number": "8.3.3",
   "title": "Using the Factor Theorem.",
   "body": " Using the Factor Theorem  For the polynomial function , to determine if is a factor, evaluate ,   This means that is a root, so by the factor theorem, is a factor of .  "
 },
@@ -2885,7 +2984,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-3-6",
   "type": "Exercise Group",
-  "number": "7.3.1",
+  "number": "8.3.1",
   "title": "Zeros and Corresponding Factors.",
   "body": " Zeros and Corresponding Factors   For each zero of a polynomial function , give the corresponding factor.                   "
 },
@@ -2894,7 +2993,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-3-7",
   "type": "Exercise Group",
-  "number": "7.3.2",
+  "number": "8.3.2",
   "title": "Identifying Factors I.",
   "body": " Identifying Factors I   For , determine if each binomial is a factor.     No.     Yes.   "
 },
@@ -2903,7 +3002,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-3-8",
   "type": "Exercise Group",
-  "number": "7.3.3",
+  "number": "8.3.3",
   "title": "Identifying Factors II.",
   "body": " Identifying Factors II   For , determine if each binomial is a factor.     Yes.     No.   "
 },
@@ -2912,7 +3011,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-3-9",
   "type": "Exercise Group",
-  "number": "7.3.4",
+  "number": "8.3.4",
   "title": "Finding Unknowns with the Factor Theorem.",
   "body": " Finding Unknowns with the Factor Theorem   Solve for the unknown variables using the factor theorem.    Find so that is a factor of .     What are all values of for which is a zero of ?     If is a factor of , what is ?     Find values for and such that is a factor of both and .    "
 },
@@ -2921,7 +3020,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-4-3",
   "type": "Theorem",
-  "number": "7.3.4",
+  "number": "8.3.4",
   "title": "Remainder theorem.",
   "body": " Remainder theorem   If a polynomial is divided by a binomial , the remainder is equal to the function evaluated at , i.e. .    "
 },
@@ -2930,7 +3029,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-4-5",
   "type": "Exercise Group",
-  "number": "7.3.5",
+  "number": "8.3.5",
   "title": "Finding Remainders.",
   "body": " Finding Remainders   Find the remainder for each polynomial division, using the remainder theorem.     18     9     8     -19     -40     9     41     -4   "
 },
@@ -2939,7 +3038,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-4-6",
   "type": "Exercise Group",
-  "number": "7.3.6",
+  "number": "8.3.6",
   "title": "Solving for an Unknown Coefficient I.",
   "body": " Solving for an Unknown Coefficient I   Find each value of from the given division and remainder.    , remainder     , remainder     , remainder     , remainder    "
 },
@@ -2948,7 +3047,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-4-7",
   "type": "Exercise Group",
-  "number": "7.3.7",
+  "number": "8.3.7",
   "title": "Solving for an Unknown Coefficient II.",
   "body": " Solving for an Unknown Coefficient II   Find for each polynomial, using the given remainder condition.    When is divided by , the remainder is .     has remainder .     has remainder .     has remainder .     has remainder .     has remainder .  or    When is divided by , the remainder is .     When is divided by , the remainder is .     When is divided by , the remainder is .     When is divided by , the remainder is .     When is divided by , the remainder is . Find .    "
 },
@@ -2957,7 +3056,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-4-8",
   "type": "Exercise Group",
-  "number": "7.3.8",
+  "number": "8.3.8",
   "title": "Problems with Equal Remainders.",
   "body": " Problems with Equal Remainders   Solve the following problem.    The polynomial has the same remainder when divided by and by . Find .    "
 },
@@ -2966,7 +3065,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-4-9",
   "type": "Exercise Group",
-  "number": "7.3.9",
+  "number": "8.3.9",
   "title": "Solving for Multiple Unknown Coefficients.",
   "body": " Solving for Multiple Unknown Coefficients   Find the unknown coefficients for each polynomial.    has remainders upon division by and upon division by . Find and .     has remainders upon division by and upon division by . Find and .     has remainders upon division by and upon division by . Find and .     has remainders upon division by and upon division by . Find .     When is divided by , the remainder is . When this polynomial is divided by , the remainder is . Find and .     has no remainder when divided by and . Find and .    "
 },
@@ -2975,7 +3074,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-4-10",
   "type": "Exercise Group",
-  "number": "7.3.10",
+  "number": "8.3.10",
   "title": "Mixed Problems on the Remainder Theorem.",
   "body": " Mixed Problems on the Remainder Theorem   Solve the following problems using the remainder theorem.    When is divided by , the remainder is the same as when is divided by . Find .     When is divided by , the remainder is . What is the remainder when it is divided by ?  ; the remainder is 3.    For , find all values of so that .     When is divided by , the remainder is . Find .     When is divided by , the remainder is . Find all possible values of .  or .   "
 },
@@ -2984,7 +3083,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-more-polynomial-functions.html",
   "type": "Section",
-  "number": "7.4",
+  "number": "8.4",
   "title": "More Polynomial Functions",
   "body": " More Polynomial Functions    Multiplicity of Roots (Order)  Some polynomial functions have roots which are repeated.   Quadratic with a Double Root  Recall that for quadratic polynomials, sometimes, after factoring, the two factors are the same. For example, Then, is said to be a double root . At this root, the graph doesn't cross the -axis, but instead just touches it and turns around ( Graph of ).   More generally, a polynomial function can have a double root, triple root, etc.   Polynomial Graphs with Repeated Roots  Consider these polynomials: Polynomial graphs with repeated roots .     . This has zeros at , 2, and 3. All of the other functions will have the same zeros as well.     . This has a power of 2 on the , but all of the -intercepts are the same. What is different about the graph at ?     . Here, there is a power of 2 on and . What is common to both these -intercepts?     . What does the graph do when the power is 3?     . What does the graph do when the power is 4?    Try higher exponents on the factor . You may need to zoom out or zoom in to see the behavior at .    Observe that for each exponent (1, 2, 3, 4, ...), the graph behaves differently at the -intercept.    In particular, for even exponents, the function touches and turns around. For odd exponents, the function flattens out and crosses.     The exponent associated with the root affects the graph at that -intercept. We call this exponent the multiplicity of the root.   A root of a polynomial is of multiplicity  if the factor is to the th power in the factored form of the polynomial.    In some textbooks, multiplicity is instead referred to as order .    Intuitively, multiplicity comes from the word multiple , meaning how many times something occurs .   Graphically,    For even multiplicity, the graph touches the -axis and turns around (or bounces ).    For odd multiplicity, the graph crosses the -axis. Further, for a zero of multiplicity greater than 1, the graph of will flatten out near the zero.     Multiplicity       1  Even  2, 4, 6, ...  Odd  3, 5, 7, ...                     Crosses  Touches  and bounces  Crosses  and flattens out     Near a zero of multiplicity , the graph looks like the power function .    Multiplicity 1 looks like a straight line.    Multiplicity 2 looks like a parabola.    Multiplicity 3 looks like a cubic S-shape .     "
 },
@@ -2993,7 +3092,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-more-polynomial-functions.html#sec-more-polynomial-functions-2-3",
   "type": "Example",
-  "number": "7.4.1",
+  "number": "8.4.1",
   "title": "Quadratic with a Double Root.",
   "body": " Quadratic with a Double Root  Recall that for quadratic polynomials, sometimes, after factoring, the two factors are the same. For example, Then, is said to be a double root . At this root, the graph doesn't cross the -axis, but instead just touches it and turns around ( Graph of ).  "
 },
@@ -3002,7 +3101,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-more-polynomial-functions.html#sec-more-polynomial-functions-2-5",
   "type": "Example",
-  "number": "7.4.2",
+  "number": "8.4.2",
   "title": "Polynomial Graphs with Repeated Roots.",
   "body": " Polynomial Graphs with Repeated Roots  Consider these polynomials: Polynomial graphs with repeated roots .     . This has zeros at , 2, and 3. All of the other functions will have the same zeros as well.     . This has a power of 2 on the , but all of the -intercepts are the same. What is different about the graph at ?     . Here, there is a power of 2 on and . What is common to both these -intercepts?     . What does the graph do when the power is 3?     . What does the graph do when the power is 4?    Try higher exponents on the factor . You may need to zoom out or zoom in to see the behavior at .    Observe that for each exponent (1, 2, 3, 4, ...), the graph behaves differently at the -intercept.    In particular, for even exponents, the function touches and turns around. For odd exponents, the function flattens out and crosses.    "
 },
@@ -3011,7 +3110,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-more-polynomial-functions.html#sec-more-polynomial-functions-2-7",
   "type": "Definition",
-  "number": "7.4.3",
+  "number": "8.4.3",
   "title": "",
   "body": " A root of a polynomial is of multiplicity  if the factor is to the th power in the factored form of the polynomial.    In some textbooks, multiplicity is instead referred to as order .    Intuitively, multiplicity comes from the word multiple , meaning how many times something occurs .  "
 },
@@ -3020,7 +3119,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-more-polynomial-functions.html#multiplicity-table",
   "type": "Table",
-  "number": "7.4.4",
+  "number": "8.4.4",
   "title": "<em class=\"alert\">Multiplicity<\/em>",
   "body": " Multiplicity       1  Even  2, 4, 6, ...  Odd  3, 5, 7, ...                     Crosses  Touches  and bounces  Crosses  and flattens out    "
 },
@@ -3029,7 +3128,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-factoring-and-graphing-polynomials.html",
   "type": "Section",
-  "number": "7.5",
+  "number": "8.5",
   "title": "Factoring and Graphing Polynomials",
   "body": " Factoring and Graphing Polynomials    Finding Roots of a Polynomial (Factoring Completely) Examples   Factoring Polynomials Examples   Find the roots of each polynomial function by factoring completely.    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .     Examples with irrational roots or irreducible quadratic factors   Find the roots of each polynomial function by factoring completely.    .  .    .  .    .  .    .  .    .  .    .  .    .  .      Summary of Factoring Higher-Degree Polynomial Functions    (If necessary) Write the polynomial in descending power order.    Check for common factors. If there are any common factors, either a variable, number, or both. If so, factor out the greatest common factor (GCF).   e.g. .  e.g. .  If the leading coefficient is negative, factor out from all its terms.  Especially check if the numbers in the equation are big!     Find one factor, by testing potential zeros until you find a zero. If is a zero, then is a factor (factor theorem).   Can find zeros using your scientific calculator (if allowed) with TABLE mode.   List all of the potential roots to show your work (if required).   If the leading coefficient is 1, then all potential integer roots are the factors of the constant term (integral zero theorem).   If the leading coefficient is not 1, then the possible roots are all fractions of the form , where:   is a factor of the constant term  is a factor of the leading coefficient   (rational root theorem)      Divide out the factor, using synthetic division, so that the resulting polynomial has a degree 1 lower than originally.    Repeat the steps, until the resulting polynomial is quadratic.   You can stack multiple synthetic divisions together for conciseness.  If is a zero, it could still be a zero again (if it is a repeated zero).     Factor the quadratic. If it's not factorable, use the quadratic formula to check for potential irrational zeros.    Note: Also keep in mind other special factoring patterns, which can sometimes be used instead of synthetic divison:    Difference of squares, sum of cubes, difference of cubes.     Quadratic form (e.g. or ).    Factor by grouping.    Some remarks:   The order you find the factors doesn't really matter, in that any order will eventually lead you to the same final factored form. However, if testing zeros, it is often easier and more systematic to start from the simplest and smallest zeros, like 1 or , maybe 2 or , etc.  If you test a number and it is a root, it can still be a root again for the reduced polynomial (if it is a multiple root). However, if you test it and it's not a root, then you can skip that for the reduced polynomial.    "
 },
@@ -3038,7 +3137,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-graphing-polynomials.html#sec-factoring-and-graphing-polynomials-2-2",
   "type": "Exercise Group",
-  "number": "7.5.1",
+  "number": "8.5.1",
   "title": "Factoring Polynomials Examples.",
   "body": " Factoring Polynomials Examples   Find the roots of each polynomial function by factoring completely.    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .   "
 },
@@ -3047,7 +3146,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-graphing-polynomials.html#sec-factoring-and-graphing-polynomials-2-3",
   "type": "Exercise Group",
-  "number": "7.5.2",
+  "number": "8.5.2",
   "title": "Examples with irrational roots or irreducible quadratic factors.",
   "body": " Examples with irrational roots or irreducible quadratic factors   Find the roots of each polynomial function by factoring completely.    .  .    .  .    .  .    .  .    .  .    .  .    .  .   "
 },
@@ -3056,7 +3155,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-applications-of-polynomial-function.html",
   "type": "Section",
-  "number": "7.6",
+  "number": "8.6",
   "title": "Applications of Polynomial Functions",
   "body": " Applications of Polynomial Functions   Box Problem (Open-Top Box)  The box problem is a classic word problem in the polynomial functions chapter. The setup is complicated at first, but after you understand it, each problem goes pretty much the same way.   Open-Top Box from Cardboard   We are going to design a box with an open-top in the following way.    Start with a flat sheet of cardboard, of size 24 cm by 18 cm (the size varies for each question).    Cut out 4 square corners of equal size from the sheet.    Fold the 4 flaps of the sheets up, which forms the sides of the box (we tape together the sides).    The non-folded up part forms the base of the box.    It looks like this,        This creates a box, with an open top. If we cut out different lengths for the corner, the resulting box will have a different shape, and a different volume. Check out this Geogebra applet: Volume of a box problem . The is how much is cut from each corner (or the cut size). Then, the volume is a function of the cut size.     Find an expression for the volume of the box, as a function of the cut size. Find the domain of the problem.    First, the volume of a box is (length width height). If the cut size is , then the dimensions look like this,       The length is (because it is the starting amount of 24 cm, with cut off on both sides.    The width is (similarly).    The height is (because the cut size is the height of the flaps, which becomes the height of the box when folded up).    Therefore, the volume is,   Here is a graph of that function: Desmos graph . The cut size is on the horizontal axis, and the resulting volume is on the vertical axis.  For the domain, this function requires that is at most 9, because you can only cut off at most half of the width (18) from each side. Otherwise, you're cutting off the entire box (and more), which doesn't make sense. Also, of course, you must cut at least something off. Together, we have . If or , then the box has 0 volume. Some teachers might include these in the domain, as , for convenience.      Find the cut size(s), and the dimensions of the box, that produces a box with volume of .    To find when the volume is 560 cm , we set and solve for ,   Graphically, the solution(s) are the intersections of and the horizontal line ( Desmos link ). Observe that the intersections are at and . This means that both a cut size of 2 cm and 5 cm will produce a box with volume 560 cm .  Without a graphing calculator, we can solve the equation algebraically. First, expand and simplify,   Then, move all terms to one side, and write in standard form,   To make the equation simpler, divide out the common factor of 4,   To solve this, you can use:    The scientific calculator method, either using the cubic equation solver, or the table method.    Testing roots and synthetic division.    To test roots, try factors of 140, which are .  You should get,   And the solutions are . However, is outside the domain of the problem, so only are solutions.  After you get the solutions for , you can get the dimensions of the box by substituting that value of back into each dimension.    If , then we get,   Length cm.    Width cm.    Height cm.       If , then they are 14 cm, 8 cm, and 5 cm.    You can verify that for each case, the dimensions lead to a volume of 560 cm . Sometimes, your teacher might specify that, for example, , just so that there is a single final answer (in this case, ).      Find the maximum possible volume of the box, and the cut size that produces it (requires graphing calculator).    Graphically, the maximum value of the function is the top point of the graph ( Desmos graph ). Here, it is , which means the maximum volume is 655 cm , and this occurs when the cut size is 3.39 cm.     Each question of this type has basically the same setup, because the only things that can change are the dimensions of the sheet, and the desired volume.  In general, if the sheet has length and width , and the cut-out length is , then the volume of the box will be,    Box Problem Practice   For a cardboard sheet of each size, find the cut size and dimensions of the box that produce the desired volume.     Sheet 15 cm by 12 cm, volume of 162 (with ).    leads to , simplify to or and solve for .     (reject by the condition and by the domain restriction).      Sheet 36 cm by 20 cm, volume of 800 .    leads to , simplify to .     or (reject because it is outside the domain).      Sheet 20 cm by 28 cm, volume of 924 .    leads to , simplify to and solve for .     or (reject because it is outside the domain).      Sheet 36 cm by 28 cm, volume of 2240 .    leads to , simplify to and solve for .     or (reject because it is outside the domain).       Misc Word Problems   Consecutive Odd Integers   The product of 3 consecutive odd integers is 693. Find the 3 integers.    Leads to , or , solve for .    13, 15, 17.     Gift Box Dimensions   The volume of a gift box can be represented by the function , and its height is . Find expressions for the length and the width of the box.    The volume can be factored into length, width, and height. The height being means that is a factor, but we can use instead to make it simpler, and put the negative sign back after. This leads to factoring into .    The length and width are and .     Twin Ages Problem   Fred and Ted are twins. They were born 3 years after their older sister, Bethany. This year, the product of their three ages is 5726 greater than the sum of their ages. How old are the twins?    Leads to , leading to .    17 years old.      Remarks     Ideally, before factoring, you should divide out any common factor, to make the equation simpler. Especially if the numbers in the equation are very large, as they often are in applications.    In applications, it is rare to see polynomial equations with numbers that are simple and nice, unless your teacher has chosen the numbers specifically so it is simple.      "
 },
@@ -3065,7 +3164,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-applications-of-polynomial-function.html#box-problem-open-top-3",
   "type": "Example",
-  "number": "7.6.1",
+  "number": "8.6.1",
   "title": "Open-Top Box from Cardboard.",
   "body": " Open-Top Box from Cardboard   We are going to design a box with an open-top in the following way.    Start with a flat sheet of cardboard, of size 24 cm by 18 cm (the size varies for each question).    Cut out 4 square corners of equal size from the sheet.    Fold the 4 flaps of the sheets up, which forms the sides of the box (we tape together the sides).    The non-folded up part forms the base of the box.    It looks like this,        This creates a box, with an open top. If we cut out different lengths for the corner, the resulting box will have a different shape, and a different volume. Check out this Geogebra applet: Volume of a box problem . The is how much is cut from each corner (or the cut size). Then, the volume is a function of the cut size.     Find an expression for the volume of the box, as a function of the cut size. Find the domain of the problem.    First, the volume of a box is (length width height). If the cut size is , then the dimensions look like this,       The length is (because it is the starting amount of 24 cm, with cut off on both sides.    The width is (similarly).    The height is (because the cut size is the height of the flaps, which becomes the height of the box when folded up).    Therefore, the volume is,   Here is a graph of that function: Desmos graph . The cut size is on the horizontal axis, and the resulting volume is on the vertical axis.  For the domain, this function requires that is at most 9, because you can only cut off at most half of the width (18) from each side. Otherwise, you're cutting off the entire box (and more), which doesn't make sense. Also, of course, you must cut at least something off. Together, we have . If or , then the box has 0 volume. Some teachers might include these in the domain, as , for convenience.      Find the cut size(s), and the dimensions of the box, that produces a box with volume of .    To find when the volume is 560 cm , we set and solve for ,   Graphically, the solution(s) are the intersections of and the horizontal line ( Desmos link ). Observe that the intersections are at and . This means that both a cut size of 2 cm and 5 cm will produce a box with volume 560 cm .  Without a graphing calculator, we can solve the equation algebraically. First, expand and simplify,   Then, move all terms to one side, and write in standard form,   To make the equation simpler, divide out the common factor of 4,   To solve this, you can use:    The scientific calculator method, either using the cubic equation solver, or the table method.    Testing roots and synthetic division.    To test roots, try factors of 140, which are .  You should get,   And the solutions are . However, is outside the domain of the problem, so only are solutions.  After you get the solutions for , you can get the dimensions of the box by substituting that value of back into each dimension.    If , then we get,   Length cm.    Width cm.    Height cm.       If , then they are 14 cm, 8 cm, and 5 cm.    You can verify that for each case, the dimensions lead to a volume of 560 cm . Sometimes, your teacher might specify that, for example, , just so that there is a single final answer (in this case, ).      Find the maximum possible volume of the box, and the cut size that produces it (requires graphing calculator).    Graphically, the maximum value of the function is the top point of the graph ( Desmos graph ). Here, it is , which means the maximum volume is 655 cm , and this occurs when the cut size is 3.39 cm.    "
 },
@@ -3074,7 +3173,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-applications-of-polynomial-function.html#box-problem-open-top-7",
   "type": "Exercise Group",
-  "number": "7.6.1",
+  "number": "8.6.1",
   "title": "Box Problem Practice.",
   "body": " Box Problem Practice   For a cardboard sheet of each size, find the cut size and dimensions of the box that produce the desired volume.     Sheet 15 cm by 12 cm, volume of 162 (with ).    leads to , simplify to or and solve for .     (reject by the condition and by the domain restriction).      Sheet 36 cm by 20 cm, volume of 800 .    leads to , simplify to .     or (reject because it is outside the domain).      Sheet 20 cm by 28 cm, volume of 924 .    leads to , simplify to and solve for .     or (reject because it is outside the domain).      Sheet 36 cm by 28 cm, volume of 2240 .    leads to , simplify to and solve for .     or (reject because it is outside the domain).    "
 },
@@ -3083,7 +3182,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-applications-of-polynomial-function.html#misc-word-problems-2",
   "type": "Checkpoint",
-  "number": "7.6.2",
+  "number": "8.6.2",
   "title": "Consecutive Odd Integers.",
   "body": " Consecutive Odd Integers   The product of 3 consecutive odd integers is 693. Find the 3 integers.    Leads to , or , solve for .    13, 15, 17.   "
 },
@@ -3092,7 +3191,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-applications-of-polynomial-function.html#misc-word-problems-3",
   "type": "Checkpoint",
-  "number": "7.6.3",
+  "number": "8.6.3",
   "title": "Gift Box Dimensions.",
   "body": " Gift Box Dimensions   The volume of a gift box can be represented by the function , and its height is . Find expressions for the length and the width of the box.    The volume can be factored into length, width, and height. The height being means that is a factor, but we can use instead to make it simpler, and put the negative sign back after. This leads to factoring into .    The length and width are and .   "
 },
@@ -3101,7 +3200,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-applications-of-polynomial-function.html#misc-word-problems-4",
   "type": "Checkpoint",
-  "number": "7.6.4",
+  "number": "8.6.4",
   "title": "Twin Ages Problem.",
   "body": " Twin Ages Problem   Fred and Ted are twins. They were born 3 years after their older sister, Bethany. This year, the product of their three ages is 5726 greater than the sum of their ages. How old are the twins?    Leads to , leading to .    17 years old.   "
 },
@@ -3110,7 +3209,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-polynomial-functions-summary.html",
   "type": "Section",
-  "number": "7.7",
+  "number": "8.7",
   "title": "Polynomial Functions Summary",
   "body": " Polynomial Functions Summary    Summary of Graphing a Polynomial Function     End behavior . Find the end behavior of the polynomial, based on the degree and leading coefficient.     y-Intercept : Find the -intercept, by evaluating (setting and solving for ).     x-Intercept(s) : Find any -intercepts, by finding the zeros of the polynomial (setting and solving for ). Use a scientific calculator, or the integral zero theorem \/ rational root theorem. See .     Multiplicity . Note the multiplicity of each zero. See .    Plot the -intercepts and -intercept.    Plot additional points between zeros (for more detail, if necessary).    Connect all of the points with a smooth curve, while respecting the end behavior and multiplicity at each zero.     "
 },
@@ -3119,7 +3218,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-interval-notation.html",
   "type": "Section",
-  "number": "8.1",
+  "number": "9.1",
   "title": "Interval Notation",
   "body": " Interval Notation   In mathematics, we often work with ranges of numbers. A interval is a range of numbers between two points.  Mathematicians developed a notation to write intervals of numbers concisely and clearly. An interval is made up of:   Two numbers , that represent the start and end of the interval.  Round brackets or square brackets , that indicate if the numbers at the start or end are included or not.    For example,   means all numbers between 3 and 7, including both 3 and 7.     means all numbers between 3 and 7, but not including 3 nor 7.       The type of bracket tells you if the endpoint is included or not:   Square brackets indicate the endpoint is included.  Round brackets (or parentheses ) indicate the endpoint is not included (i.e. is excluded ).    For example,   means all the numbers from to 4, including but not including 4.     means all the numbers from to 4, not including but including 4.       Some intervals have no maximum value, no minimum value, or both. For an interval which has no endpoint, we say that it extends to infinity, and use as the endpoint. We use round brackets for or , since is not a real number, so they are not numbers we can include or reach in our interval.   For example,   For all the numbers greater than 4, not including 4 , we write .     For all the numbers less than or equal to 5 , we write .     For all numbers , we write .         Summary of Interval Notation  In summary,            (the entire real line)    In short, an interval is a shorthand notation for describing all numbers between two endpoints.   Put the smaller number first, and the bigger number second.  Use square brackets when the endpoint is included.  Use round brackets when the endpoint is not included, including for or .   Note that the notation for an interval is the same as a point in the -plane . This is an overloading of notation, however in most cases, the context should make clear which one it's referring to.   "
 },
@@ -3137,7 +3236,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-interval-notation.html#sec-interval-notation-2-4",
   "type": "Example",
-  "number": "8.1.1",
+  "number": "9.1.1",
   "title": "",
   "body": " For example,   means all numbers between 3 and 7, including both 3 and 7.     means all numbers between 3 and 7, but not including 3 nor 7.      "
 },
@@ -3146,7 +3245,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-interval-notation.html#sec-interval-notation-2-7",
   "type": "Example",
-  "number": "8.1.2",
+  "number": "9.1.2",
   "title": "",
   "body": " For example,   means all the numbers from to 4, including but not including 4.     means all the numbers from to 4, not including but including 4.      "
 },
@@ -3155,7 +3254,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-interval-notation.html#sec-interval-notation-2-9",
   "type": "Example",
-  "number": "8.1.3",
+  "number": "9.1.3",
   "title": "",
   "body": " For example,   For all the numbers greater than 4, not including 4 , we write .     For all the numbers less than or equal to 5 , we write .     For all numbers , we write .      "
 },
@@ -3164,7 +3263,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-interval-notation.html#sec-interval-notation-3-3",
   "type": "Definition",
-  "number": "8.1.4",
+  "number": "9.1.4",
   "title": "",
   "body": "          (the entire real line)   "
 },
@@ -3173,7 +3272,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-graphing-rational-functions.html",
   "type": "Section",
-  "number": "9.1",
+  "number": "10.1",
   "title": "Graphing Rational Functions",
   "body": " Graphing Rational Functions    Sketching the Graph of a Rational Function Summary  We can use all the previous properties of rational functions in order to graph them. Then,      Factor and simplify .  If possible, factor the numerator and denominator.  Determine the domain of the function, which is all real numbers, except the roots of the denominator.  Simplify by cancelling any common factors.     Find any holes . Cancelled factors of the form will result in a hole at , and the -coordinate of these holes will come from evaluating the simplified function at .  Find properties of the function:   Find the y-intercept (if it exists) . The -intercept comes from substituting (i.e. finding ) (as long as 0 is in the domain of ).  Find any x-intercepts . Any -intercepts of are zeros of the numerator.  Find any vertical asymptotes . Any vertical asymptotes are from the zeros of the denominator.    Find the horizontal asymptote (or oblique asymptote) . Compare the degree of the numerator and the denominator.  If , then the line (the -axis) is the horizontal asymptote.  If , then the line , the ratio of the leading coefficients, is the horizontal asymptote.   If , then there is no horizontal asymptote.  If , then there is an oblique (slant) asymptote. Find it using synthetic division or long division.          Plot additional points , if necessary. A good guideline is to have at least 1 point on each side of each vertical asymptote. Two points can be better if you need more detail.  Sketch the graph by connecting the points. The graph should get closer and closer to each asymptote. Be sure to not cross any vertical asymptote.     "
 },
@@ -3182,7 +3281,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-solving-radical-equations.html",
   "type": "Section",
-  "number": "10.1",
+  "number": "11.1",
   "title": "Solving Radical Equations",
   "body": " Solving Radical Equations   A radical equation is an equation that contains square roots, cube roots, or any radical, with a variable inside it.  To solve equations with square roots, the key technique is to square both sides of the equation. Squaring and square rooting are basically inverse operations, so squaring can be used to undo or cancel out a square root.   Solving a Basic Radical Equation  Consider . Intuitively, we need to isolate , which is currently trapped inside of the square root. To get it out, we first square both sides of the equation, which cancels the square root,   Then, we can solve the equation just like a regular basic equation, by isolating for ,     An Equation with No Solution  Solve . Notice that the right hand side is negative. On the other hand, the left hand side is a square root, which is never negative. So this equation can never be true. We can conclude immediately that there is no solution, without any squaring or other algebra steps.  If you did square both sides, you would get,   which appears to be a solution, but in fact, it will be extraneous.    In general, if you have,   you can stop right away, and conclude there is no solution. Any solution that comes from squaring the equation will always be extraneous.    Solving Basic Square Root Equations   Isolate the radical (if necessary).  Square both sides of the equation (to cancel out the square root).  Solve the equation.    Basic Square Root Equations   Solve each radical equation.    .  .    .  .    .  .    .  no solution.    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  no solution.    .  .    .  .    .  .    .  no solution.    .  .    .  or .    .  .    .  .      Extraneous Solutions   Identifying an Extraneous Solution  Solve . First, square both sides,   However, in this example, it turns out that not both of these numbers are solutions. Checking by substituting them into the original equation,  For   For   So, is a solution (because both sides are equal), but is not a solution, (because ). This can happen because squaring an equation can introduce new solutions. For example,     is false, but after squaring, we get , which is true.    Consider the (very simple) equation . This has one (true) solution which is (because replacing with 2 gives , which is true). However, if you square both sides, you get , which has 2 solutions ( and ).    Basically, squaring gets rid of negative signs, which can lead to more solutions.   These solutions, which appear when solving algebraically, but don't actually satisfy the original equation, are called extraneous solutions. Intuitively, extraneous means extra .  In general, for radical equations, you need to check your answers to see if they satisfy the original equation. And this is basically because squaring an equation can lead to an equation with another solution that isn't a solution of the original equation.    Solving Square Root Equations with Quadratics   Equations Leading to Quadratics   Solve each radical equation.    .  (reject ).    .  (reject ).    .  .    .  .    .  .    .  .    .  (reject ).    .  (reject ).    .  .    .  .    .  (reject ).    .  or .    .  (reject ).    .  (reject ).    .  .    .  (reject ).    .  .    .  no solution (reject ).    .  (reject ).    .  .    .  (reject ).    .  .    .  .    .  (reject ).    .  .    .  (reject ).    .  .    .  .    .  (reject ).    .  no real solution.    .  (reject ).    .  (reject ).    .  (reject ).    .  (reject ).    .  .      Summary of Solving Radical Equations   Isolate the radical (if there are multiple, choose one to isolate).  Square both sides of the equation (to cancel out the square root).  Simplify, and solve the resulting equation. If the equation still contains a square root, repeat the previous steps (isolate, square, simplify).   When there are no radicals left, typically the resulting equation will be a quadratic equation, so if needed, review the techniques for solving quadratic equations.    Equations with Multiple Square Roots   Equations with Multiple Radicals   Solve each equation.    .  .    .  .    .  (reject ).    .  .    .  .    .  (reject ).    .  .    .  no solution (reject ).    .  no solution (reject ).    .  .    .  (reject ).    .  .    .  .    .  no solution.    .  (reject ).    .  .    .  .    .  no solution (reject ).    .  (reject ).    .  .    .  (reject ).    .  .     Advanced Examples   Solve each equation.    .  .    .  .    .  (reject ).    .  (reject ).     "
 },
@@ -3200,7 +3299,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-radical-equations.html#sec-solving-radical-equations-2-3",
   "type": "Example",
-  "number": "10.1.1",
+  "number": "11.1.1",
   "title": "Solving a Basic Radical Equation.",
   "body": " Solving a Basic Radical Equation  Consider . Intuitively, we need to isolate , which is currently trapped inside of the square root. To get it out, we first square both sides of the equation, which cancels the square root,   Then, we can solve the equation just like a regular basic equation, by isolating for ,   "
 },
@@ -3209,7 +3308,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-radical-equations.html#sec-solving-radical-equations-2-4",
   "type": "Example",
-  "number": "10.1.2",
+  "number": "11.1.2",
   "title": "An Equation with No Solution.",
   "body": " An Equation with No Solution  Solve . Notice that the right hand side is negative. On the other hand, the left hand side is a square root, which is never negative. So this equation can never be true. We can conclude immediately that there is no solution, without any squaring or other algebra steps.  If you did square both sides, you would get,   which appears to be a solution, but in fact, it will be extraneous.   "
 },
@@ -3218,7 +3317,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-radical-equations.html#sec-solving-radical-equations-3-3",
   "type": "Exercise Group",
-  "number": "10.1.1",
+  "number": "11.1.1",
   "title": "Basic Square Root Equations.",
   "body": " Basic Square Root Equations   Solve each radical equation.    .  .    .  .    .  .    .  no solution.    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  no solution.    .  .    .  .    .  .    .  no solution.    .  .    .  or .    .  .    .  .   "
 },
@@ -3227,7 +3326,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-radical-equations.html#sec-solving-radical-equations-4-2",
   "type": "Example",
-  "number": "10.1.3",
+  "number": "11.1.3",
   "title": "Identifying an Extraneous Solution.",
   "body": " Identifying an Extraneous Solution  Solve . First, square both sides,   However, in this example, it turns out that not both of these numbers are solutions. Checking by substituting them into the original equation,  For   For   So, is a solution (because both sides are equal), but is not a solution, (because ). This can happen because squaring an equation can introduce new solutions. For example,     is false, but after squaring, we get , which is true.    Consider the (very simple) equation . This has one (true) solution which is (because replacing with 2 gives , which is true). However, if you square both sides, you get , which has 2 solutions ( and ).    Basically, squaring gets rid of negative signs, which can lead to more solutions.  "
 },
@@ -3245,7 +3344,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-radical-equations.html#sec-solving-radical-equations-5-2",
   "type": "Exercise Group",
-  "number": "10.1.2",
+  "number": "11.1.2",
   "title": "Equations Leading to Quadratics.",
   "body": " Equations Leading to Quadratics   Solve each radical equation.    .  (reject ).    .  (reject ).    .  .    .  .    .  .    .  .    .  (reject ).    .  (reject ).    .  .    .  .    .  (reject ).    .  or .    .  (reject ).    .  (reject ).    .  .    .  (reject ).    .  .    .  no solution (reject ).    .  (reject ).    .  .    .  (reject ).    .  .    .  .    .  (reject ).    .  .    .  (reject ).    .  .    .  .    .  (reject ).    .  no real solution.    .  (reject ).    .  (reject ).    .  (reject ).    .  (reject ).    .  .   "
 },
@@ -3254,7 +3353,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-radical-equations.html#sec-solving-radical-equations-7-2",
   "type": "Exercise Group",
-  "number": "10.1.3",
+  "number": "11.1.3",
   "title": "Equations with Multiple Radicals.",
   "body": " Equations with Multiple Radicals   Solve each equation.    .  .    .  .    .  (reject ).    .  .    .  .    .  (reject ).    .  .    .  no solution (reject ).    .  no solution (reject ).    .  .    .  (reject ).    .  .    .  .    .  no solution.    .  (reject ).    .  .    .  .    .  no solution (reject ).    .  (reject ).    .  .    .  (reject ).    .  .   "
 },
@@ -3263,7 +3362,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-radical-equations.html#sec-solving-radical-equations-7-3",
   "type": "Exercise Group",
-  "number": "10.1.4",
+  "number": "11.1.4",
   "title": "Advanced Examples.",
   "body": " Advanced Examples   Solve each equation.    .  .    .  .    .  (reject ).    .  (reject ).   "
 },
@@ -3272,7 +3371,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-radian-measure.html",
   "type": "Section",
-  "number": "11.1",
+  "number": "12.1",
   "title": "Radian Measure",
   "body": " Radian Measure   There is another unit for measuring angles, called radian , which turns out to be more useful than degrees, particularly in calculus.    Radians are a unit of angles such that,     In other words,   radians is a half-rotation.  radians is a full rotation.       The symbol for radians is rad , however the symbol is often omitted. So, if an angle has no unit, it should be assumed to be radians (and for degrees, use ).   The equivalence can be thought of as a conversion factor, a ratio to convert between these two angle units (analogous to how 1 inch = 2.54 cm, or how 1 hour = 60 minutes).    Converting Between Degrees and Radians    Converting between degrees and radians .        Angle Conversion Practice   Convert each angle from degrees to radians or radians to degrees.    to radians    to degrees    to degrees      Sketching Angles in Radians  To graph an angle in radians, it's easiest to think in terms of fractions of . To start, recall that:   is a full rotation ( )  is a half rotation ( )   Then,   (or half of ) is a quarter rotation (half of a half rotation), which is .  (or a quarter of ) is half of a quarter rotation, which is .  is split into 6 equal pieces, which is .  is split into 3 pieces, which is .    Special-angle arcs on the unit circle.                 For bigger angles, we can count multiples of those smaller angles .   Sketching 2pi\/3  For , first divide into 3 equal pieces, and then count 2 of them counterclockwise,       Sketching 5pi\/6  For , first divide into 6 equal pieces, and then count 5 of them (counterclockwise),       Sketching 7pi\/4  For , first divide into 4 equal pieces, and then count 7 of them counterclockwise,       Sketching Practice   Sketch each angle in standard position.               Motivating Radians  Here, we will step back and explore the intuition behind radians, and how they come about to measure angles.   Alternate Angular Units  First, it is helpful to step back and understand the idea of how angles can be measured.  Degrees are a unit of rotation such that 360 degrees make a full rotation. They are useful practical applications (historically, for navigation, architecture, and astronomy), because you can divide 360 evenly into many numbers (like 2, 3, 4, 5, 6, 8, 9, 10, 12, etc.), so many common angles have whole number values (like , etc.).  However, if we were starting from scratch, with no prior knowledge of degrees, we could consider other useful units of measuring angles. For example:   The gradian , where a quarter rotation is defined to be 100 gradians. Then, a full rotation would be 400 gradians.  Or, 1 turn could be defined as a full rotation. Then, a half rotation is turns, or a quarter rotation is turns.  For units inspired by the fact that a pizza has 8 slices, a unit could be called a slice , defined to be th of a full rotation. Then, 8 slices would be a full rotation.  We could define 1 unit to be a quarter rotation. Then, 4 units is a full rotation.   Ultimately, units are a convention, and what units are useful or most natural depends on the context.   With radians, the idea is that we will measure angles based on how long the arc of the angle is.     The longer the arc is, the bigger the angle that is swept out. The amount you rotate is proportional to how far you travel along the circle.   Small rotation small distance traveled  Big rotation big distance traveled      However, just measuring the arc doesn't fully work, because the arc length depends on the size of the circle (basically, it depends on it's radius).   If you have a small circle, you won't have to walk very far to make a full loop.  If you have a big circle, the same angle will mean you walk a lot farther.      We want a measurement which purely measures rotation, that isn't affected by how big the circle is. The key idea is: even though the arc length changes when the circle gets bigger or smaller, it changes in a very predictable way. In particular, arc length is proportional to the radius.   If you double the radius, the arc length doubles .  If you triple the radius, the arc length triples .    Arc Length Proportionality  For example, for this particular angle below, for cm, the arc is 8 cm, and for cm, the arc is 16 cm.     While the arc lengths are different, in both scenarios, the arc length is 2 radius lengths.   To measure arc length, instead of using meters or centimeters or any other unit of length, we use the radius itself as the unit. In other words, we ask:   For example:   If the radius is 4 m, and the arc length is 12 m, that is radius lengths of rotation.  If the radius is 3 m, and the arc length is 15 m, that is radius lengths of rotation.      In other words, to measure the angle, divide the arc length by the radius length.    Radians  In short, radians measure angles based on how long the arc associated with the angle is, in terms of radius lengths.    One radian is defined to be the angle at the center of a circle such that the arc length associated with it is equal to the radius of the circle,     More generally, an angle with associated radius and arc length is given by,      In fancy math language, we often say that the angle  subtends the arc, or the arc is subtended by the angle .  Radians are technically dimensionless , because they are the ratio of two lengths.    "
 },
@@ -3281,7 +3380,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-radian-measure.html#sec-radian-measure-2-2",
   "type": "Definition",
-  "number": "11.1.1",
+  "number": "12.1.1",
   "title": "",
   "body": "  Radians are a unit of angles such that,    "
 },
@@ -3290,7 +3389,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-radian-measure.html#subsec-converting-between-degrees-and-radians-2",
   "type": "Theorem",
-  "number": "11.1.2",
+  "number": "12.1.2",
   "title": "",
   "body": "  Converting between degrees and radians .      "
 },
@@ -3299,7 +3398,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-radian-measure.html#subsec-converting-between-degrees-and-radians-3",
   "type": "Exercise Group",
-  "number": "11.1.1",
+  "number": "12.1.1",
   "title": "Angle Conversion Practice.",
   "body": " Angle Conversion Practice   Convert each angle from degrees to radians or radians to degrees.    to radians    to degrees    to degrees   "
 },
@@ -3308,7 +3407,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-radian-measure.html#special-angles-row",
   "type": "Figure",
-  "number": "11.1.3",
+  "number": "12.1.3",
   "title": "",
   "body": " Special-angle arcs on the unit circle.                "
 },
@@ -3317,7 +3416,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-radian-measure.html#sketching-radians-8",
   "type": "Example",
-  "number": "11.1.4",
+  "number": "12.1.4",
   "title": "Sketching 2pi\/3.",
   "body": " Sketching 2pi\/3  For , first divide into 3 equal pieces, and then count 2 of them counterclockwise,     "
 },
@@ -3326,7 +3425,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-radian-measure.html#sketching-radians-9",
   "type": "Example",
-  "number": "11.1.5",
+  "number": "12.1.5",
   "title": "Sketching 5pi\/6.",
   "body": " Sketching 5pi\/6  For , first divide into 6 equal pieces, and then count 5 of them (counterclockwise),     "
 },
@@ -3335,7 +3434,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-radian-measure.html#sketching-radians-10",
   "type": "Example",
-  "number": "11.1.6",
+  "number": "12.1.6",
   "title": "Sketching 7pi\/4.",
   "body": " Sketching 7pi\/4  For , first divide into 4 equal pieces, and then count 7 of them counterclockwise,     "
 },
@@ -3344,7 +3443,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-radian-measure.html#sketching-radians-11",
   "type": "Exercise Group",
-  "number": "11.1.2",
+  "number": "12.1.2",
   "title": "Sketching Practice.",
   "body": " Sketching Practice   Sketch each angle in standard position.            "
 },
@@ -3353,7 +3452,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-radian-measure.html#motivating-radians-3",
   "type": "Example",
-  "number": "11.1.7",
+  "number": "12.1.7",
   "title": "Alternate Angular Units.",
   "body": " Alternate Angular Units  First, it is helpful to step back and understand the idea of how angles can be measured.  Degrees are a unit of rotation such that 360 degrees make a full rotation. They are useful practical applications (historically, for navigation, architecture, and astronomy), because you can divide 360 evenly into many numbers (like 2, 3, 4, 5, 6, 8, 9, 10, 12, etc.), so many common angles have whole number values (like , etc.).  However, if we were starting from scratch, with no prior knowledge of degrees, we could consider other useful units of measuring angles. For example:   The gradian , where a quarter rotation is defined to be 100 gradians. Then, a full rotation would be 400 gradians.  Or, 1 turn could be defined as a full rotation. Then, a half rotation is turns, or a quarter rotation is turns.  For units inspired by the fact that a pizza has 8 slices, a unit could be called a slice , defined to be th of a full rotation. Then, 8 slices would be a full rotation.  We could define 1 unit to be a quarter rotation. Then, 4 units is a full rotation.   Ultimately, units are a convention, and what units are useful or most natural depends on the context.  "
 },
@@ -3362,7 +3461,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-radian-measure.html#motivating-radians-14",
   "type": "Example",
-  "number": "11.1.8",
+  "number": "12.1.8",
   "title": "Arc Length Proportionality.",
   "body": " Arc Length Proportionality  For example, for this particular angle below, for cm, the arc is 8 cm, and for cm, the arc is 16 cm.     While the arc lengths are different, in both scenarios, the arc length is 2 radius lengths.  "
 },
@@ -3371,7 +3470,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-radian-measure.html#radians-definition-3",
   "type": "Definition",
-  "number": "11.1.9",
+  "number": "12.1.9",
   "title": "",
   "body": "  One radian is defined to be the angle at the center of a circle such that the arc length associated with it is equal to the radius of the circle,     More generally, an angle with associated radius and arc length is given by,    "
 },
@@ -3389,7 +3488,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-ratios-of-non-acute-angles-reference-angles.html",
   "type": "Section",
-  "number": "11.2",
+  "number": "12.2",
   "title": "Ratios of Non-Acute Angles, Reference Angles",
   "body": " Ratios of Non-Acute Angles, Reference Angles    Exact Values of Trigonometric Ratios (Unit Circle) Practice    Exact Trig-Value Practice   Evaluate exactly:      Your answer:   For square roots, type \"sqrt\", not a decimal approximation (for example, type \"sqrt(3)\", or \"sqrt(2)\").    \/\/ === DEFAULTS === const DEFAULT_UNIT = \"deg\"; \/\/ \"deg\", \"rad\", \"mix\" const DEFAULT_TAN = \"no\"; \/\/ \"yes\", \"no\" const DEFAULT_WRAP = \"no\"; \/\/ \"yes\", \"no\" allow negative or > 1 rotation const DEFAULT_RECIP = \"no\"; \/\/ \"yes\", \"no\" const USE_RADIANS = true; \/\/ keep radians available for \"mix\" \/\/ Keys const KEY_UNIT = \"ptxTrigAngleMode_trig-exact-practice\"; const KEY_TAN = \"ptxTrigIncludeTan_trig-exact-practice\"; const KEY_WRAP = \"ptxTrigAllowWrap_trig-exact-practice\"; const KEY_RECIP = \"ptxTrigIncludeRecip_trig-exact-practice\"; \/\/ Safe localStorage read function getPref(key, fallback) { try { if (typeof window !== \"undefined\" && window.localStorage) { return localStorage.getItem(key) || fallback; } } catch(_) {} return fallback; } const prefUnit = getPref(KEY_UNIT, DEFAULT_UNIT); const prefTan = getPref(KEY_TAN, DEFAULT_TAN); const prefWrap = getPref(KEY_WRAP, DEFAULT_WRAP); const prefRecip = getPref(KEY_RECIP, DEFAULT_RECIP); \/\/ === Exact values === const exact = { sin: { 0: \"0\", 30: \"1\/2\", 45: \"sqrt(2)\/2\", 60: \"sqrt(3)\/2\", 90: \"1\", 120: \"sqrt(3)\/2\", 135: \"sqrt(2)\/2\", 150: \"1\/2\", 180: \"0\", 210: \"-1\/2\", 225: \"-sqrt(2)\/2\", 240: \"-sqrt(3)\/2\", 270: \"-1\", 300: \"-sqrt(3)\/2\", 315: \"-sqrt(2)\/2\", 330: \"-1\/2\" } }; exact.cos = {}; exact.tan = {}; for (let deg in exact.sin) { const s = eval(exact.sin[deg].replace(\"sqrt\", \"Math.sqrt\")); const c = Math.cos(deg * Math.PI \/ 180); const cs = Math.abs(c) < 1e-10 ? \"0\" : Math.abs(c - 0.5) < 1e-10 ? \"1\/2\" : Math.abs(c - Math.sqrt(2)\/2) < 1e-10 ? \"sqrt(2)\/2\" : \"sqrt(3)\/2\"; exact.cos[deg] = c < 0 ? \"-\" + cs : cs; if (Math.abs(c) < 1e-10) { exact.tan[deg] = null; } else { const t = s \/ c; const abs = Math.abs(t); const ts = abs < 1e-10 ? \"0\" : Math.abs(abs - 1) < 1e-10 ? \"1\" : abs < 1 ? \"sqrt(3)\/3\" : \"sqrt(3)\"; exact.tan[deg] = t < 0 ? \"-\" + ts : ts; } } function reciprocal(str) { if (!str || str === \"0\") return null; if (str === \"1\") return \"1\"; if (str === \"sqrt(3)\/3\") return \"sqrt(3)\"; if (str === \"sqrt(3)\") return \"sqrt(3)\/3\"; if (str === \"1\/2\") return \"2\"; if (str === \"sqrt(2)\/2\") return \"sqrt(2)\"; if (str === \"sqrt(3)\/2\") return \"2*sqrt(3)\/3\"; return str.startsWith(\"-\") ? \"-\" + reciprocal(str.slice(1)) : \"1\/(\" + str + \")\"; } exact.csc = Object.fromEntries(Object.entries(exact.sin).map(([d, s]) => [d, reciprocal(s)])); exact.sec = Object.fromEntries(Object.entries(exact.cos).map(([d, s]) => [d, reciprocal(s)])); exact.cot = Object.fromEntries(Object.entries(exact.tan).map(([d, s]) => [d, reciprocal(s)])); \/\/ Build function list from prefs let funcs = [\"sin\", \"cos\"]; if (prefTan === \"yes\") funcs.push(\"tan\"); if (prefRecip === \"yes\") funcs.push(\"csc\", \"sec\", \"cot\"); \/\/ Choose function and angle const baseAngles = Object.keys(exact.sin).map(Number); let func, deg, k, thetaDeg; do { func = funcs[RNG.randInt(0, funcs.length - 1)]; deg = baseAngles[RNG.randInt(0, baseAngles.length - 1)]; if (prefWrap === \"yes\") { k = RNG.randInt(-2, 2); } else { k = 0; } thetaDeg = deg + 360 * k; } while (exact[func][deg] === null); v.func = func; v.answerExpr = exact[func][deg]; function texForDegrees(d) { return d + \"^{\\\\circ}\"; } function texForRadians(d) { const sign = d < 0 ? \"-\" : \"\"; let a = Math.abs(d), b = 180; const gcd = (x, y) => y ? gcd(y, x % y) : x; const g = gcd(a, b); a \/= g; b \/= g; if (a === 0) return \"0\"; if (b === 1) return sign + (a === 1 ? \"\\\\pi\" : (a + \"\\\\pi\")); return sign + (a === 1 ? \"\\\\tfrac{\\\\pi}{\" + b + \"}\" : \"\\\\tfrac{\" + a + \"\\\\pi}{\" + b + \"}\"); } const funcTeX = {sin:\"\\\\sin\", cos:\"\\\\cos\", tan:\"\\\\tan\", csc:\"\\\\csc\", sec:\"\\\\sec\", cot:\"\\\\cot\"}[func]; let useRad; if (prefUnit === \"deg\") useRad = false; else if (prefUnit === \"rad\") useRad = true; else useRad = (USE_RADIANS && RNG.randInt(0,1) === 0); v.exprTeX = funcTeX + \"\\\\bigl(\" + (useRad ? texForRadians(thetaDeg) : texForDegrees(thetaDeg)) + \"\\\\bigr)\"; v.angleTeX = useRad ? texForRadians(thetaDeg) : texForDegrees(thetaDeg);  (function(){ var ex = document.getElementById(\"trig-exact-practice\"); \/\/ Strong cleanup of any legacy UI function removeLegacy(){ if (!ex) return; \/\/ Remove old legacy host entirely var oldHost = ex.querySelector(\"#angle-controls\"); if (oldHost && oldHost.parentNode) oldHost.parentNode.removeChild(oldHost); \/\/ Remove old inputs and their labels if they exist anywhere [\"#deg-only\", \"#rad-only\"].forEach(function(sel){ var input = ex.querySelector(sel); if (input) { var label = input.closest(\"label\"); if (label && label.parentNode) label.parentNode.removeChild(label); } }); \/\/ Remove any leftover \"Angle units:\" title and the old note var strongs = ex.querySelectorAll(\"strong\"); strongs.forEach(function(s){ if (s.textContent.trim().toLowerCase() === \"angle units:\") { \/\/ Try to remove its container row if reasonable var container = s.parentNode; if (container && container.parentNode) { container.parentNode.removeChild(container); } else { s.remove(); } } }); \/\/ Remove the old note text if it survived separately var spans = ex.querySelectorAll(\"span\"); spans.forEach(function(sp){ var t = sp.textContent.trim(); if (t === \" Affects only new questions after you click Randomize.\" || t === \"Affects only new questions after you click Randomize.\") { if (sp.parentNode) sp.parentNode.removeChild(sp); } }); } \/\/ Do cleanup now removeLegacy(); \/\/ Find or create our new host var host = document.getElementById(\"trig-exact-practice-controls\"); if (!host && ex) { host = document.createElement(\"div\"); host.id = \"trig-exact-practice-controls\"; var firstP = ex.querySelector(\"div.statement p, p\"); if (firstP && firstP.parentNode) { firstP.parentNode.insertBefore(host, firstP.nextSibling); } else { ex.appendChild(host); } } if (!host) return; \/\/ Build the new panel var KEY_UNIT = \"ptxTrigAngleMode_trig-exact-practice\"; var KEY_TAN = \"ptxTrigIncludeTan_trig-exact-practice\"; var KEY_WRAP = \"ptxTrigAllowWrap_trig-exact-practice\"; var KEY_RECIP = \"ptxTrigIncludeRecip_trig-exact-practice\"; var DEFAULT_UNIT = \"deg\"; var DEFAULT_TAN = \"no\"; var DEFAULT_WRAP = \"no\"; var DEFAULT_RECIP = \"no\"; function get(key, dflt){ try { return localStorage.getItem(key) || dflt; } catch(_) { return dflt; } } function set(key, val){ try { localStorage.setItem(key, val); } catch(_) {} } function radio(name, id, labelText){ var label = document.createElement(\"label\"); label.style.cursor = \"pointer\"; var input = document.createElement(\"input\"); input.type = \"radio\"; input.name = name; input.id = id; input.style.marginRight = \"0.35rem\"; label.appendChild(input); label.appendChild(document.createTextNode(labelText)); return {label: label, input: input}; } function checkbox(id, text){ var label = document.createElement(\"label\"); label.style.cursor = \"pointer\"; var input = document.createElement(\"input\"); input.type = \"checkbox\"; input.id = id; input.style.marginRight = \"0.35rem\"; label.appendChild(input); label.appendChild(document.createTextNode(text)); return {label: label, input: input}; } host.innerHTML = \"\"; var panel = document.createElement(\"div\"); panel.setAttribute(\"data-ptx-trig-ui\", \"1\"); panel.style.display = \"grid\"; panel.style.gap = \"0.5rem\"; panel.style.margin = \"0.25rem 0 0.5rem\"; var unitTitle = document.createElement(\"strong\"); unitTitle.textContent = \"Units: \"; var unitWrap = document.createElement(\"div\"); unitWrap.style.display = \"flex\"; unitWrap.style.gap = \"1rem\"; var rDeg = radio(\"unit-mode\", \"unit-deg\", \"Degrees only\"); var rRad = radio(\"unit-mode\", \"unit-rad\", \"Radians only\"); var rMix = radio(\"unit-mode\", \"unit-mix\", \"Mixed\"); unitWrap.appendChild(rDeg.label); unitWrap.appendChild(rRad.label); unitWrap.appendChild(rMix.label); var optTitle = document.createElement(\"strong\"); optTitle.textContent = \"Options: \"; var cbTan = checkbox(\"opt-tan\", \"Include tangent\"); var cbWrap = checkbox(\"opt-wrap\", \"Allow negative or more than one full rotation\"); var cbRecip = checkbox(\"opt-recip\", \"Include reciprocal functions\"); var optWrap = document.createElement(\"div\"); optWrap.style.display = \"flex\"; optWrap.style.gap = \"1rem\"; optWrap.style.flexWrap = \"wrap\"; optWrap.appendChild(cbTan.label); optWrap.appendChild(cbWrap.label); optWrap.appendChild(cbRecip.label); var note = document.createElement(\"span\"); note.style.opacity = \"0.8\"; note.style.fontStyle = \"italic\"; note.textContent = \" These settings affect only new questions after you click Randomize.\"; panel.appendChild(unitTitle); panel.appendChild(unitWrap); panel.appendChild(optTitle); panel.appendChild(optWrap); panel.appendChild(note); host.appendChild(panel); \/\/ Load saved values and apply defaults var unit = get(KEY_UNIT, DEFAULT_UNIT); if (unit === \"rad\") rRad.input.checked = true; else if (unit === \"mix\") rMix.input.checked = true; else rDeg.input.checked = true; cbTan.input.checked = get(KEY_TAN, DEFAULT_TAN) === \"yes\"; cbWrap.input.checked = get(KEY_WRAP, DEFAULT_WRAP) === \"yes\"; cbRecip.input.checked = get(KEY_RECIP, DEFAULT_RECIP) === \"yes\"; \/\/ Save on change rDeg.input.addEventListener(\"change\", function(){ if (rDeg.input.checked) set(KEY_UNIT, \"deg\"); }); rRad.input.addEventListener(\"change\", function(){ if (rRad.input.checked) set(KEY_UNIT, \"rad\"); }); rMix.input.addEventListener(\"change\", function(){ if (rMix.input.checked) set(KEY_UNIT, \"mix\"); }); cbTan.input.addEventListener(\"change\", function(){ set(KEY_TAN, cbTan.input.checked ? \"yes\" : \"no\"); }); cbWrap.input.addEventListener(\"change\", function(){ set(KEY_WRAP, cbWrap.input.checked ? \"yes\" : \"no\"); }); cbRecip.input.addEventListener(\"change\", function(){ set(KEY_RECIP, cbRecip.input.checked ? \"yes\" : \"no\"); }); \/\/ Run cleanup once more shortly after load to beat any late legacy script setTimeout(removeLegacy, 60); })();       Correct, great work 🎉    Not quite. Use an exact radical value like , not a decimal.      The exact value is \\ \\!\\bigl( \\bigr) = .        "
 },
@@ -3398,7 +3497,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-ratios-of-non-acute-angles-reference-angles.html#trig-exact-practice",
   "type": "Exercise",
-  "number": "11.2.1.1",
+  "number": "12.2.1.1",
   "title": "Exact Trig-Value Practice.",
   "body": " Exact Trig-Value Practice   Evaluate exactly:      Your answer:   For square roots, type \"sqrt\", not a decimal approximation (for example, type \"sqrt(3)\", or \"sqrt(2)\").    \/\/ === DEFAULTS === const DEFAULT_UNIT = \"deg\"; \/\/ \"deg\", \"rad\", \"mix\" const DEFAULT_TAN = \"no\"; \/\/ \"yes\", \"no\" const DEFAULT_WRAP = \"no\"; \/\/ \"yes\", \"no\" allow negative or > 1 rotation const DEFAULT_RECIP = \"no\"; \/\/ \"yes\", \"no\" const USE_RADIANS = true; \/\/ keep radians available for \"mix\" \/\/ Keys const KEY_UNIT = \"ptxTrigAngleMode_trig-exact-practice\"; const KEY_TAN = \"ptxTrigIncludeTan_trig-exact-practice\"; const KEY_WRAP = \"ptxTrigAllowWrap_trig-exact-practice\"; const KEY_RECIP = \"ptxTrigIncludeRecip_trig-exact-practice\"; \/\/ Safe localStorage read function getPref(key, fallback) { try { if (typeof window !== \"undefined\" && window.localStorage) { return localStorage.getItem(key) || fallback; } } catch(_) {} return fallback; } const prefUnit = getPref(KEY_UNIT, DEFAULT_UNIT); const prefTan = getPref(KEY_TAN, DEFAULT_TAN); const prefWrap = getPref(KEY_WRAP, DEFAULT_WRAP); const prefRecip = getPref(KEY_RECIP, DEFAULT_RECIP); \/\/ === Exact values === const exact = { sin: { 0: \"0\", 30: \"1\/2\", 45: \"sqrt(2)\/2\", 60: \"sqrt(3)\/2\", 90: \"1\", 120: \"sqrt(3)\/2\", 135: \"sqrt(2)\/2\", 150: \"1\/2\", 180: \"0\", 210: \"-1\/2\", 225: \"-sqrt(2)\/2\", 240: \"-sqrt(3)\/2\", 270: \"-1\", 300: \"-sqrt(3)\/2\", 315: \"-sqrt(2)\/2\", 330: \"-1\/2\" } }; exact.cos = {}; exact.tan = {}; for (let deg in exact.sin) { const s = eval(exact.sin[deg].replace(\"sqrt\", \"Math.sqrt\")); const c = Math.cos(deg * Math.PI \/ 180); const cs = Math.abs(c) < 1e-10 ? \"0\" : Math.abs(c - 0.5) < 1e-10 ? \"1\/2\" : Math.abs(c - Math.sqrt(2)\/2) < 1e-10 ? \"sqrt(2)\/2\" : \"sqrt(3)\/2\"; exact.cos[deg] = c < 0 ? \"-\" + cs : cs; if (Math.abs(c) < 1e-10) { exact.tan[deg] = null; } else { const t = s \/ c; const abs = Math.abs(t); const ts = abs < 1e-10 ? \"0\" : Math.abs(abs - 1) < 1e-10 ? \"1\" : abs < 1 ? \"sqrt(3)\/3\" : \"sqrt(3)\"; exact.tan[deg] = t < 0 ? \"-\" + ts : ts; } } function reciprocal(str) { if (!str || str === \"0\") return null; if (str === \"1\") return \"1\"; if (str === \"sqrt(3)\/3\") return \"sqrt(3)\"; if (str === \"sqrt(3)\") return \"sqrt(3)\/3\"; if (str === \"1\/2\") return \"2\"; if (str === \"sqrt(2)\/2\") return \"sqrt(2)\"; if (str === \"sqrt(3)\/2\") return \"2*sqrt(3)\/3\"; return str.startsWith(\"-\") ? \"-\" + reciprocal(str.slice(1)) : \"1\/(\" + str + \")\"; } exact.csc = Object.fromEntries(Object.entries(exact.sin).map(([d, s]) => [d, reciprocal(s)])); exact.sec = Object.fromEntries(Object.entries(exact.cos).map(([d, s]) => [d, reciprocal(s)])); exact.cot = Object.fromEntries(Object.entries(exact.tan).map(([d, s]) => [d, reciprocal(s)])); \/\/ Build function list from prefs let funcs = [\"sin\", \"cos\"]; if (prefTan === \"yes\") funcs.push(\"tan\"); if (prefRecip === \"yes\") funcs.push(\"csc\", \"sec\", \"cot\"); \/\/ Choose function and angle const baseAngles = Object.keys(exact.sin).map(Number); let func, deg, k, thetaDeg; do { func = funcs[RNG.randInt(0, funcs.length - 1)]; deg = baseAngles[RNG.randInt(0, baseAngles.length - 1)]; if (prefWrap === \"yes\") { k = RNG.randInt(-2, 2); } else { k = 0; } thetaDeg = deg + 360 * k; } while (exact[func][deg] === null); v.func = func; v.answerExpr = exact[func][deg]; function texForDegrees(d) { return d + \"^{\\\\circ}\"; } function texForRadians(d) { const sign = d < 0 ? \"-\" : \"\"; let a = Math.abs(d), b = 180; const gcd = (x, y) => y ? gcd(y, x % y) : x; const g = gcd(a, b); a \/= g; b \/= g; if (a === 0) return \"0\"; if (b === 1) return sign + (a === 1 ? \"\\\\pi\" : (a + \"\\\\pi\")); return sign + (a === 1 ? \"\\\\tfrac{\\\\pi}{\" + b + \"}\" : \"\\\\tfrac{\" + a + \"\\\\pi}{\" + b + \"}\"); } const funcTeX = {sin:\"\\\\sin\", cos:\"\\\\cos\", tan:\"\\\\tan\", csc:\"\\\\csc\", sec:\"\\\\sec\", cot:\"\\\\cot\"}[func]; let useRad; if (prefUnit === \"deg\") useRad = false; else if (prefUnit === \"rad\") useRad = true; else useRad = (USE_RADIANS && RNG.randInt(0,1) === 0); v.exprTeX = funcTeX + \"\\\\bigl(\" + (useRad ? texForRadians(thetaDeg) : texForDegrees(thetaDeg)) + \"\\\\bigr)\"; v.angleTeX = useRad ? texForRadians(thetaDeg) : texForDegrees(thetaDeg);  (function(){ var ex = document.getElementById(\"trig-exact-practice\"); \/\/ Strong cleanup of any legacy UI function removeLegacy(){ if (!ex) return; \/\/ Remove old legacy host entirely var oldHost = ex.querySelector(\"#angle-controls\"); if (oldHost && oldHost.parentNode) oldHost.parentNode.removeChild(oldHost); \/\/ Remove old inputs and their labels if they exist anywhere [\"#deg-only\", \"#rad-only\"].forEach(function(sel){ var input = ex.querySelector(sel); if (input) { var label = input.closest(\"label\"); if (label && label.parentNode) label.parentNode.removeChild(label); } }); \/\/ Remove any leftover \"Angle units:\" title and the old note var strongs = ex.querySelectorAll(\"strong\"); strongs.forEach(function(s){ if (s.textContent.trim().toLowerCase() === \"angle units:\") { \/\/ Try to remove its container row if reasonable var container = s.parentNode; if (container && container.parentNode) { container.parentNode.removeChild(container); } else { s.remove(); } } }); \/\/ Remove the old note text if it survived separately var spans = ex.querySelectorAll(\"span\"); spans.forEach(function(sp){ var t = sp.textContent.trim(); if (t === \" Affects only new questions after you click Randomize.\" || t === \"Affects only new questions after you click Randomize.\") { if (sp.parentNode) sp.parentNode.removeChild(sp); } }); } \/\/ Do cleanup now removeLegacy(); \/\/ Find or create our new host var host = document.getElementById(\"trig-exact-practice-controls\"); if (!host && ex) { host = document.createElement(\"div\"); host.id = \"trig-exact-practice-controls\"; var firstP = ex.querySelector(\"div.statement p, p\"); if (firstP && firstP.parentNode) { firstP.parentNode.insertBefore(host, firstP.nextSibling); } else { ex.appendChild(host); } } if (!host) return; \/\/ Build the new panel var KEY_UNIT = \"ptxTrigAngleMode_trig-exact-practice\"; var KEY_TAN = \"ptxTrigIncludeTan_trig-exact-practice\"; var KEY_WRAP = \"ptxTrigAllowWrap_trig-exact-practice\"; var KEY_RECIP = \"ptxTrigIncludeRecip_trig-exact-practice\"; var DEFAULT_UNIT = \"deg\"; var DEFAULT_TAN = \"no\"; var DEFAULT_WRAP = \"no\"; var DEFAULT_RECIP = \"no\"; function get(key, dflt){ try { return localStorage.getItem(key) || dflt; } catch(_) { return dflt; } } function set(key, val){ try { localStorage.setItem(key, val); } catch(_) {} } function radio(name, id, labelText){ var label = document.createElement(\"label\"); label.style.cursor = \"pointer\"; var input = document.createElement(\"input\"); input.type = \"radio\"; input.name = name; input.id = id; input.style.marginRight = \"0.35rem\"; label.appendChild(input); label.appendChild(document.createTextNode(labelText)); return {label: label, input: input}; } function checkbox(id, text){ var label = document.createElement(\"label\"); label.style.cursor = \"pointer\"; var input = document.createElement(\"input\"); input.type = \"checkbox\"; input.id = id; input.style.marginRight = \"0.35rem\"; label.appendChild(input); label.appendChild(document.createTextNode(text)); return {label: label, input: input}; } host.innerHTML = \"\"; var panel = document.createElement(\"div\"); panel.setAttribute(\"data-ptx-trig-ui\", \"1\"); panel.style.display = \"grid\"; panel.style.gap = \"0.5rem\"; panel.style.margin = \"0.25rem 0 0.5rem\"; var unitTitle = document.createElement(\"strong\"); unitTitle.textContent = \"Units: \"; var unitWrap = document.createElement(\"div\"); unitWrap.style.display = \"flex\"; unitWrap.style.gap = \"1rem\"; var rDeg = radio(\"unit-mode\", \"unit-deg\", \"Degrees only\"); var rRad = radio(\"unit-mode\", \"unit-rad\", \"Radians only\"); var rMix = radio(\"unit-mode\", \"unit-mix\", \"Mixed\"); unitWrap.appendChild(rDeg.label); unitWrap.appendChild(rRad.label); unitWrap.appendChild(rMix.label); var optTitle = document.createElement(\"strong\"); optTitle.textContent = \"Options: \"; var cbTan = checkbox(\"opt-tan\", \"Include tangent\"); var cbWrap = checkbox(\"opt-wrap\", \"Allow negative or more than one full rotation\"); var cbRecip = checkbox(\"opt-recip\", \"Include reciprocal functions\"); var optWrap = document.createElement(\"div\"); optWrap.style.display = \"flex\"; optWrap.style.gap = \"1rem\"; optWrap.style.flexWrap = \"wrap\"; optWrap.appendChild(cbTan.label); optWrap.appendChild(cbWrap.label); optWrap.appendChild(cbRecip.label); var note = document.createElement(\"span\"); note.style.opacity = \"0.8\"; note.style.fontStyle = \"italic\"; note.textContent = \" These settings affect only new questions after you click Randomize.\"; panel.appendChild(unitTitle); panel.appendChild(unitWrap); panel.appendChild(optTitle); panel.appendChild(optWrap); panel.appendChild(note); host.appendChild(panel); \/\/ Load saved values and apply defaults var unit = get(KEY_UNIT, DEFAULT_UNIT); if (unit === \"rad\") rRad.input.checked = true; else if (unit === \"mix\") rMix.input.checked = true; else rDeg.input.checked = true; cbTan.input.checked = get(KEY_TAN, DEFAULT_TAN) === \"yes\"; cbWrap.input.checked = get(KEY_WRAP, DEFAULT_WRAP) === \"yes\"; cbRecip.input.checked = get(KEY_RECIP, DEFAULT_RECIP) === \"yes\"; \/\/ Save on change rDeg.input.addEventListener(\"change\", function(){ if (rDeg.input.checked) set(KEY_UNIT, \"deg\"); }); rRad.input.addEventListener(\"change\", function(){ if (rRad.input.checked) set(KEY_UNIT, \"rad\"); }); rMix.input.addEventListener(\"change\", function(){ if (rMix.input.checked) set(KEY_UNIT, \"mix\"); }); cbTan.input.addEventListener(\"change\", function(){ set(KEY_TAN, cbTan.input.checked ? \"yes\" : \"no\"); }); cbWrap.input.addEventListener(\"change\", function(){ set(KEY_WRAP, cbWrap.input.checked ? \"yes\" : \"no\"); }); cbRecip.input.addEventListener(\"change\", function(){ set(KEY_RECIP, cbRecip.input.checked ? \"yes\" : \"no\"); }); \/\/ Run cleanup once more shortly after load to beat any late legacy script setTimeout(removeLegacy, 60); })();       Correct, great work 🎉    Not quite. Use an exact radical value like , not a decimal.      The exact value is \\ \\!\\bigl( \\bigr) = .   "
 },
@@ -3407,7 +3506,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-quadratic-trigonometric-equations.html",
   "type": "Section",
-  "number": "11.3",
+  "number": "12.3",
   "title": "Quadratic Trigonometric Equations",
   "body": " Quadratic Trigonometric Equations   Some trigonometric equations are quadratic in a particular trigonometric function, in that they involve a trigonometric function being squared. In this way, many methods for solving quadratic equations can be used to solve trig equations.    Notation and Other Powers of a Trigonometric Function  Sometimes, we want to write the square of a trig function. For example, , or . It is common to write this more simply as .   Notation Example  For example, means . Then,    This convention saves space and avoids writing so many brackets with expressions that have many powers involving trigonometric functions. This notation applies in general to all trigonometric functions,   This all works the same with higher powers (e.g. ).  This notation often confuses students when first learning it. In particular, the exponent (2 in this case) applies to the entire trigonometric function, not the angle . In other words,   If you like, whenever you see a squared trig function, you can first write it with brackets, before starting with the problem.    Solving Quadratic Trigonometric Equations   Substitution Idea  Consider . To solve this, you can think of replacing with a single variable ( ), to get . To solve this, you would isolate for , and then take the square root of both sides.   More precisely, if is a quadratic equation, then the equation can be put into the form (or another trigonometric function).    Examples  Factor, and then solve the resulting two (linear) trigonometric equations.   Basic quadratic equation   Solve each equation for , and give the general solution.    .  Answer: . General solution: , , , , OR , .    .  Answer: . General solution: , , OR .     Factoring a common factor   Solve each equation for , and give the general solution.    .  Answer: . General solution: OR or .    .  Answer: . General solution: OR or or .    .  Answer: . General solution: OR .    .  Answer: . General solution: OR or or .    .  Answer: . General solution: OR or or .    .  Answer: . General solution: OR or or .    Note that you can't divide by (or any other trig function), because that assumes that , when in fact can equal 0. This is just like how with the equation , you can't divide by and instead have to factor it out.    Trigonometric Equations in Quadratic Form  Again, it is helpful to think about the equation if the trig function was replaced by a single variable (say, ).   Trigonometric equations in quadratic form   Solve each equation for , and give the general solution. Give exact values for special angles, otherwise give a decimal answer rounded to the nearest hundredth.    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: or .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: or .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .      Advanced   Advanced examples   Solve each equation for , and give the general solution. Give exact values for special angles, otherwise give a decimal answer rounded to the nearest hundredth.    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: or .    .  Answer: . General solution: or or .    .  Answer: . General solution: or .    .  Answer: . General solution: or .    .  Answer: . General solution: .    .  Answer: . General solution: .     Finding Coefficients  The equation has solutions , and on the interval . Find the values of and .    Finding More Coefficients  The equation has solutions on the interval . Find the values of and .    Really difficult  Solve . Hint: write in terms of only, to get , and factor using synthetic division. Answer: . General solution: .    "
 },
@@ -3416,7 +3515,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic-trigonometric-equations.html#notation-powers-trig-3",
   "type": "Example",
-  "number": "11.3.1",
+  "number": "12.3.1",
   "title": "Notation Example.",
   "body": " Notation Example  For example, means . Then,   "
 },
@@ -3425,7 +3524,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic-trigonometric-equations.html#solving-quadratic-trig-eqs-2",
   "type": "Example",
-  "number": "11.3.2",
+  "number": "12.3.2",
   "title": "Substitution Idea.",
   "body": " Substitution Idea  Consider . To solve this, you can think of replacing with a single variable ( ), to get . To solve this, you would isolate for , and then take the square root of both sides.  "
 },
@@ -3434,7 +3533,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic-trigonometric-equations.html#basic-quadratic-eqs",
   "type": "Exercise Group",
-  "number": "11.3.1",
+  "number": "12.3.1",
   "title": "Basic quadratic equation.",
   "body": " Basic quadratic equation   Solve each equation for , and give the general solution.    .  Answer: . General solution: , , , , OR , .    .  Answer: . General solution: , , OR .   "
 },
@@ -3443,7 +3542,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic-trigonometric-equations.html#factoring-common-factor",
   "type": "Exercise Group",
-  "number": "11.3.2",
+  "number": "12.3.2",
   "title": "Factoring a common factor.",
   "body": " Factoring a common factor   Solve each equation for , and give the general solution.    .  Answer: . General solution: OR or .    .  Answer: . General solution: OR or or .    .  Answer: . General solution: OR .    .  Answer: . General solution: OR or or .    .  Answer: . General solution: OR or or .    .  Answer: . General solution: OR or or .   "
 },
@@ -3452,7 +3551,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic-trigonometric-equations.html#trig-eqs-quadratic-form",
   "type": "Exercise Group",
-  "number": "11.3.3",
+  "number": "12.3.3",
   "title": "Trigonometric equations in quadratic form.",
   "body": " Trigonometric equations in quadratic form   Solve each equation for , and give the general solution. Give exact values for special angles, otherwise give a decimal answer rounded to the nearest hundredth.    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: or .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: or .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .   "
 },
@@ -3461,7 +3560,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic-trigonometric-equations.html#advanced-quadratic-eqs",
   "type": "Exercise Group",
-  "number": "11.3.4",
+  "number": "12.3.4",
   "title": "Advanced examples.",
   "body": " Advanced examples   Solve each equation for , and give the general solution. Give exact values for special angles, otherwise give a decimal answer rounded to the nearest hundredth.    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: or .    .  Answer: . General solution: or or .    .  Answer: . General solution: or .    .  Answer: . General solution: or .    .  Answer: . General solution: .    .  Answer: . General solution: .   "
 },
@@ -3470,7 +3569,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic-trigonometric-equations.html#find-a-b",
   "type": "Example",
-  "number": "11.3.3",
+  "number": "12.3.3",
   "title": "Finding Coefficients.",
   "body": " Finding Coefficients  The equation has solutions , and on the interval . Find the values of and .  "
 },
@@ -3479,7 +3578,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic-trigonometric-equations.html#find-b-c",
   "type": "Example",
-  "number": "11.3.4",
+  "number": "12.3.4",
   "title": "Finding More Coefficients.",
   "body": " Finding More Coefficients  The equation has solutions on the interval . Find the values of and .  "
 },
@@ -3488,7 +3587,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic-trigonometric-equations.html#difficult-example",
   "type": "Example",
-  "number": "11.3.5",
+  "number": "12.3.5",
   "title": "Really difficult.",
   "body": " Really difficult  Solve . Hint: write in terms of only, to get , and factor using synthetic division. Answer: . General solution: .  "
 },
@@ -3497,7 +3596,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-intro-to-trigonometric-identities.html",
   "type": "Section",
-  "number": "12.1",
+  "number": "13.1",
   "title": "Intro to Trigonometric Identities",
   "body": " Intro to Trigonometric Identities   In algebra, there are various equations which are always true, called identities.   For example,   These two sides are exactly the same, for any value of and . This is called an identity.   In a similar way, we can consider a trigonometric identity , a trigonometric equation that is true for all values of the variable.  We already know some basic identities, which could almost be called definitions.     Pythagorean Identities  There is also the Pythagorean identity, which comes from the unit circle,   Equivalently,   This identity can be used to derive further identities,   At first, you should solve problems with these identities as a reference. With practice, you will naturally remember them.    Simplifying Trigonometric Expressions   Simplifying Expressions   Simplify each trigonometric expression.     quotient identity, cancel.      expand.      quotient, cancel.      expand, Pythagorean identity.      difference of squares, Pythagorean identity.      quotient identity, Pythagorean identity.      distribute, quotient identity, cancel.      ideally factor as a difference of squares, if not then expand and collect like terms.      combine fractions, collect like terms, Pythagorean identity.      reciprocal identity, combine to one fraction, Pythagorean identity, cancel.      factor out , Pythagorean identity, cancel.      Advanced Examples   Simplify each trigonometric expression.     let , factor numerator and denominator, cancel.      difference of squares, factor the denominator, cancel.      factor out a common factor, difference of squares, cancel.      Write as a Single Trigonometric Ratio   Write each as a single trigonometric ratio.                     Factor Each Trigonometric Expression   Factor each trigonometric expression, and simplify if possible.     difference of squares.      difference of cubes, Pythagorean identity.       Solving Equations Using Identities  As you learn more fundamental trigonometric identities, you will be able to solve more trigonometric equations algebraically.   Solve Each Equation   Solve each equation, by finding all solutions in the interval and the general solution.     Pythagorean identity, leads to , factor, leads to or .  . General solution: .     Pythagorean identity, leads to , factor, leads to .  . General solution: .     Pythagorean identity, leads to , factor, leads to or .  . General solution: .     Pythagorean identity, leads to , factor, leads to or .  . General solution: .     quotient and Pythagorean identity, leads to , factor, leads to or .  . General solution: .     Pythagorean identity, leads to , factor, leads to or .  . General solution: .     "
 },
@@ -3506,7 +3605,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-trigonometric-identities.html#sec-intro-to-trigonometric-identities-2-2",
   "type": "Example",
-  "number": "12.1.1",
+  "number": "13.1.1",
   "title": "",
   "body": " For example,   These two sides are exactly the same, for any value of and . This is called an identity.  "
 },
@@ -3524,7 +3623,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-trigonometric-identities.html#project-simplifying-expressions",
   "type": "Exercise Group",
-  "number": "12.1.1",
+  "number": "13.1.1",
   "title": "Simplifying Expressions.",
   "body": " Simplifying Expressions   Simplify each trigonometric expression.     quotient identity, cancel.      expand.      quotient, cancel.      expand, Pythagorean identity.      difference of squares, Pythagorean identity.      quotient identity, Pythagorean identity.      distribute, quotient identity, cancel.      ideally factor as a difference of squares, if not then expand and collect like terms.      combine fractions, collect like terms, Pythagorean identity.      reciprocal identity, combine to one fraction, Pythagorean identity, cancel.      factor out , Pythagorean identity, cancel.    "
 },
@@ -3533,7 +3632,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-trigonometric-identities.html#project-advanced-simplifying",
   "type": "Exercise Group",
-  "number": "12.1.2",
+  "number": "13.1.2",
   "title": "Advanced Examples.",
   "body": " Advanced Examples   Simplify each trigonometric expression.     let , factor numerator and denominator, cancel.      difference of squares, factor the denominator, cancel.      factor out a common factor, difference of squares, cancel.    "
 },
@@ -3542,7 +3641,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-trigonometric-identities.html#project-single-ratio",
   "type": "Exercise Group",
-  "number": "12.1.3",
+  "number": "13.1.3",
   "title": "Write as a Single Trigonometric Ratio.",
   "body": " Write as a Single Trigonometric Ratio   Write each as a single trigonometric ratio.                   "
 },
@@ -3551,7 +3650,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-trigonometric-identities.html#project-factoring",
   "type": "Exercise Group",
-  "number": "12.1.4",
+  "number": "13.1.4",
   "title": "Factor Each Trigonometric Expression.",
   "body": " Factor Each Trigonometric Expression   Factor each trigonometric expression, and simplify if possible.     difference of squares.      difference of cubes, Pythagorean identity.    "
 },
@@ -3560,7 +3659,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-trigonometric-identities.html#project-solving-equations",
   "type": "Exercise Group",
-  "number": "12.1.5",
+  "number": "13.1.5",
   "title": "Solve Each Equation.",
   "body": " Solve Each Equation   Solve each equation, by finding all solutions in the interval and the general solution.     Pythagorean identity, leads to , factor, leads to or .  . General solution: .     Pythagorean identity, leads to , factor, leads to .  . General solution: .     Pythagorean identity, leads to , factor, leads to or .  . General solution: .     Pythagorean identity, leads to , factor, leads to or .  . General solution: .     quotient and Pythagorean identity, leads to , factor, leads to or .  . General solution: .     Pythagorean identity, leads to , factor, leads to or .  . General solution: .   "
 },
@@ -3569,7 +3668,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-intro-to-proving-trigonometric-identities.html",
   "type": "Section",
-  "number": "12.2",
+  "number": "13.2",
   "title": "Intro to Proving Trigonometric Identities",
   "body": " Intro to Proving Trigonometric Identities   We already know a few fundamental trigonometric identities. Using these, we can prove new and more complicated identities.  Proving a trigonometric identity involves manipulating one side of the equation algebraically, to show that both sides of the equation are equivalent.    Verifying a Trigonometric Identity by Graphing  A simple way to verify if an equation is an identity is to graph both sides using a graphing calculator, like Desmos .  If an equation is an identity, then both sides of the equation will be equal for all values of the variable, and so the graph of each side will coincide (i.e. overlap each other).    If both graphs overlap completely, the equation is an identity.    On the other hand, if the two graphs don't match at even a single point, then the equation is not an identity.     Desmos Verification   Verify that using a graphing calculator. Observe how they coincide (overlap): Desmos graph .      Verifying Identities    Verify for .      General Principles for Proving Identities  This topic is often considered one of the most challenging by students, because:    It involves a culmination of a variety of algebra techniques learned over the course of high school math.    It requires some creativity and ingenuity to choose a strategy.    It is more abstract, symbolic reasoning, with basically no visualizations.    Here are some general principles:     Rewrite everything in terms of sine and cosine . All trigonometric ratios can be written in terms of the basic trig ratios sine and cosine.     The one exception is if the entire identity includes only tangent and\/or cotangent, in which case it is usually simpler to convert everything in terms of tangent.     Start with the more complicated side . In general,    Tangent is more complicated than sine and cosine.    Reciprocal trig functions are more complicated than primary trig functions (sine, cosine, tangent).    Multiple terms are more complicated than a single term.    You want to start with the more complicated side, because it is easier to start from something complex and simplify it, rather than start from something simple and make it more complex.     Begin with the end in mind . Look at the form of the desired side before you start, and guide your work toward that structure. Especially helpful if you are stuck and unsure how to continue.    Here are some particular algebraic tactics:    Combine fractions, using a common denominator.    Simplify complex fractions, by clearing denominators (multiply the numerator and denominator by the LCD).    Use algebraic identities, e.g. difference of squares, square of a sum, etc.   For example,    .    .      Convert to or vise versa, using the Pythagorean identity:     Multiply by the conjugate, in order to use the previous strategy (Pythagorean identity). Particularly if you see .    Use all trigonometric identities available to you. When practicing, have a list of them for reference, and you'll naturally be more comfortable with them over time.      Examples   Basic Examples   Prove each trigonometric identity.     rewrite in terms of sine and cosine, cancel common factors.     rewrite in terms of sine and cosine, cancel common factors.     rewrite in terms of sine and cosine, simplify fractions.     rewrite in terms of sine and cosine, cancel common factors.     rewrite in terms of sine and cosine, cancel common factors.     expand, rewrite in terms of sine and cosine.     work with both sides, rewrite in terms of sine and cosine, cancel common factors.     Practice with the Pythagorean Identity   Prove each trigonometric identity.     Pythagorean identity, cancel common factors.     Pythagorean identity, rewrite in terms of sine and cosine.     Pythagorean identity, rewrite in terms of sine and cosine.     expand, Pythagorean identity.     start with LHS, combine fractions, Pythagorean identity.     combine fractions, Pythagorean identity.     rewrite in terms of sine and cosine, cancel common factors, Pythagorean identity.     rewrite in terms of sine and cosine, distribute.     start with either side, combine fractions (or split fraction).     rewrite in terms of sine and cosine, cancel common factors, Pythagorean identity.     rewrite in terms of sine and cosine, combine fractions with a common denominator, Pythagorean identity.     factor out common factor, Pythagorean identity (or rewrite in terms of sine and cosine, cancel common factors, Pythagorean identity).     rewrite in terms of sine and cosine, Pythagorean identity.     work with both sides, Pythagorean identity, combine fraction with a common denominator.     rewrite in terms of sine and cosine, combine fractions, Pythagorean identity.     Mixed Identity Proofs I   Prove each trigonometric identity.     Pythagorean identity, factor difference of squares, cancel common factors.     factor common factor, rewrite in terms of sine and cosine, Pythagorean identity.     start with either side, combine fractions with a common denominator (or split fraction).     multiply by the conjugate, Pythagorean identity, cancel common factors.     rewrite in terms of sine and cosine, simplify complex fractions by clearing denominators, simplify and cancel common factors.     Pythagorean identity, rewrite in terms of sine and cosine, simplify.     start with either side, multiply by the conjugate, Pythagorean identity, cancel common factors.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor common factors, cancel common factors.     multiply by the conjugate, Pythagorean identity, cancel common factors.     multiply by the conjugate, Pythagorean identity, cancel common factors.     factor common factors, Pythagorean identity.     Pythagorean identity, simplify.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor out common factors, cancel common factors.     Mixed Identity Proofs II   Prove each trigonometric identity.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor and cancel common factors.     simplify complex fraction by clearing denominators, factor and cancel common factors.     can start with either side, multiply by the conjugate, Pythagorean identity.     combine fractions with a common denominator, Pythagorean identity.     start with the RHS, rewrite in terms of sine and cosine, combine fractions with a common denominator, Pythagorean identity.     rewrite in terms of tangent, simplify complex fraction by clearing denominators, cancel common factors.     rewrite in terms of sine and cosine, combine fractions with a common denominator, Pythagorean identity, simplify.     rewrite in terms of sine and cosine, combine fractions with a common denominator, cancel common factors.     start with the RHS, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, cancel common factors.     combine fractions with a common denominator, combine like terms, Pythagorean identity.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, combine fractions with a common denominator, Pythagorean identity.     factor common factors, Pythagorean identity.     expand, rewrite in terms of sine and cosine, cancel common factors, combine fractions with a common denominator, Pythagorean identity.     start with the LHS, rewrite in terms of sine and cosine, Pythagorean identity.     start with the LHS, combine fraction with a common denominator.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor and cancel common factors.     multiply by the conjugate, Pythagorean identity, cancel common factors.      Advanced Examples   Advanced Identity Proofs I   Prove each trigonometric identity.     work with both sides, rewrite in terms of sine and cosine, simplify complex fractions by clearing denominators, cancel common factors, factor difference of squares (or multiply by the conjugate).     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, Pythagorean identity.     rewrite in terms of sine and cosine, combine fractions, Pythagorean identity, factor out common factor, cancel common factors.     factor difference of squares, Pythagorean identity.     start with either side, rewrite in terms of sine and cosine, combine fractions with a common denominator.     start with the RHS, rewrite in terms of sine and cosine, combine fractions with a common denominator, Pythagorean identity.     combine fractions with a common denominator, Pythagorean identity, cancel common factors.     rewrite in terms of sine and cosine, simplify complex fractions by clearing denominators, Pythagorean identity.     rewrite in terms of sine and cosine, combine fractions, Pythagorean identity.     difference of squares, Pythagorean identity.     difference of squares, Pythagorean identity, cancel common factors.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, cancel common factors.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators.     start with the LHS, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, cancel common factors.     Advanced Identity Proofs II   Prove each trigonometric identity.     combine fractions with a common denominator, Pythagorean identity, cancel common factors.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, cancel common factors.     start with the LHS, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, multiply by the conjugate, Pythagorean identity.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, Pythagorean identity, cancel common factors.     start with the RHS, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, multiply by the conjugate, Pythagorean identity.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor and cancel common factors.     simplify complex fraction by clearing denominators, Pythagorean identity.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor out common factor, cancel common factors.     start with the LHS but RHS works also, simplify complex fraction by clearing denominators, cancel common factors, Pythagorean identity, factor and cancel.     rewrite in terms of sine and cosine, common denominator, Pythagorean identity, simplify.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, Pythagorean identity, simplify and cancel.     expand, rewrite in terms of sine and cosine, combine fractions, Pythagorean identity, factor difference of squares (or multiply by the conjugate), cancel common factors.     difference of squares, Pythagorean identity, simplify.     work with both sides, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor difference of squares (or multiply by the conjugate), cancel.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, cancel common factors.     start with either side, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, multiply by the conjugate (or factor difference of squares), Pythagorean identity.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, combine fraction with a common denominator.     start with either side, rewrite in terms of sine and cosine, distribute, combine fractions with a common denominator, simplify complex fraction by clearing denominators, multiply by the conjugate, Pythagorean identity.     combine fractions with a common denominator, Pythagorean identity.     "
 },
@@ -3578,7 +3677,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-proving-trigonometric-identities.html#subsec-verifying-graphing-5",
   "type": "Example",
-  "number": "12.2.1",
+  "number": "13.2.1",
   "title": "Desmos Verification.",
   "body": " Desmos Verification   Verify that using a graphing calculator. Observe how they coincide (overlap): Desmos graph .   "
 },
@@ -3587,7 +3686,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-proving-trigonometric-identities.html#subsec-verifying-identities-example-2",
   "type": "Example",
-  "number": "12.2.2",
+  "number": "13.2.2",
   "title": "",
   "body": "  Verify for .   "
 },
@@ -3596,7 +3695,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-proving-trigonometric-identities.html#subsec-identity-examples-2",
   "type": "Exercise Group",
-  "number": "12.2.1",
+  "number": "13.2.1",
   "title": "Basic Examples.",
   "body": " Basic Examples   Prove each trigonometric identity.     rewrite in terms of sine and cosine, cancel common factors.     rewrite in terms of sine and cosine, cancel common factors.     rewrite in terms of sine and cosine, simplify fractions.     rewrite in terms of sine and cosine, cancel common factors.     rewrite in terms of sine and cosine, cancel common factors.     expand, rewrite in terms of sine and cosine.     work with both sides, rewrite in terms of sine and cosine, cancel common factors.   "
 },
@@ -3605,7 +3704,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-proving-trigonometric-identities.html#subsec-identity-examples-3",
   "type": "Exercise Group",
-  "number": "12.2.2",
+  "number": "13.2.2",
   "title": "Practice with the Pythagorean Identity.",
   "body": " Practice with the Pythagorean Identity   Prove each trigonometric identity.     Pythagorean identity, cancel common factors.     Pythagorean identity, rewrite in terms of sine and cosine.     Pythagorean identity, rewrite in terms of sine and cosine.     expand, Pythagorean identity.     start with LHS, combine fractions, Pythagorean identity.     combine fractions, Pythagorean identity.     rewrite in terms of sine and cosine, cancel common factors, Pythagorean identity.     rewrite in terms of sine and cosine, distribute.     start with either side, combine fractions (or split fraction).     rewrite in terms of sine and cosine, cancel common factors, Pythagorean identity.     rewrite in terms of sine and cosine, combine fractions with a common denominator, Pythagorean identity.     factor out common factor, Pythagorean identity (or rewrite in terms of sine and cosine, cancel common factors, Pythagorean identity).     rewrite in terms of sine and cosine, Pythagorean identity.     work with both sides, Pythagorean identity, combine fraction with a common denominator.     rewrite in terms of sine and cosine, combine fractions, Pythagorean identity.   "
 },
@@ -3614,7 +3713,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-proving-trigonometric-identities.html#subsec-identity-examples-4",
   "type": "Exercise Group",
-  "number": "12.2.3",
+  "number": "13.2.3",
   "title": "Mixed Identity Proofs I.",
   "body": " Mixed Identity Proofs I   Prove each trigonometric identity.     Pythagorean identity, factor difference of squares, cancel common factors.     factor common factor, rewrite in terms of sine and cosine, Pythagorean identity.     start with either side, combine fractions with a common denominator (or split fraction).     multiply by the conjugate, Pythagorean identity, cancel common factors.     rewrite in terms of sine and cosine, simplify complex fractions by clearing denominators, simplify and cancel common factors.     Pythagorean identity, rewrite in terms of sine and cosine, simplify.     start with either side, multiply by the conjugate, Pythagorean identity, cancel common factors.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor common factors, cancel common factors.     multiply by the conjugate, Pythagorean identity, cancel common factors.     multiply by the conjugate, Pythagorean identity, cancel common factors.     factor common factors, Pythagorean identity.     Pythagorean identity, simplify.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor out common factors, cancel common factors.   "
 },
@@ -3623,7 +3722,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-proving-trigonometric-identities.html#subsec-identity-examples-5",
   "type": "Exercise Group",
-  "number": "12.2.4",
+  "number": "13.2.4",
   "title": "Mixed Identity Proofs II.",
   "body": " Mixed Identity Proofs II   Prove each trigonometric identity.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor and cancel common factors.     simplify complex fraction by clearing denominators, factor and cancel common factors.     can start with either side, multiply by the conjugate, Pythagorean identity.     combine fractions with a common denominator, Pythagorean identity.     start with the RHS, rewrite in terms of sine and cosine, combine fractions with a common denominator, Pythagorean identity.     rewrite in terms of tangent, simplify complex fraction by clearing denominators, cancel common factors.     rewrite in terms of sine and cosine, combine fractions with a common denominator, Pythagorean identity, simplify.     rewrite in terms of sine and cosine, combine fractions with a common denominator, cancel common factors.     start with the RHS, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, cancel common factors.     combine fractions with a common denominator, combine like terms, Pythagorean identity.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, combine fractions with a common denominator, Pythagorean identity.     factor common factors, Pythagorean identity.     expand, rewrite in terms of sine and cosine, cancel common factors, combine fractions with a common denominator, Pythagorean identity.     start with the LHS, rewrite in terms of sine and cosine, Pythagorean identity.     start with the LHS, combine fraction with a common denominator.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor and cancel common factors.     multiply by the conjugate, Pythagorean identity, cancel common factors.   "
 },
@@ -3632,7 +3731,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-proving-trigonometric-identities.html#subsec-advanced-examples-2",
   "type": "Exercise Group",
-  "number": "12.2.5",
+  "number": "13.2.5",
   "title": "Advanced Identity Proofs I.",
   "body": " Advanced Identity Proofs I   Prove each trigonometric identity.     work with both sides, rewrite in terms of sine and cosine, simplify complex fractions by clearing denominators, cancel common factors, factor difference of squares (or multiply by the conjugate).     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, Pythagorean identity.     rewrite in terms of sine and cosine, combine fractions, Pythagorean identity, factor out common factor, cancel common factors.     factor difference of squares, Pythagorean identity.     start with either side, rewrite in terms of sine and cosine, combine fractions with a common denominator.     start with the RHS, rewrite in terms of sine and cosine, combine fractions with a common denominator, Pythagorean identity.     combine fractions with a common denominator, Pythagorean identity, cancel common factors.     rewrite in terms of sine and cosine, simplify complex fractions by clearing denominators, Pythagorean identity.     rewrite in terms of sine and cosine, combine fractions, Pythagorean identity.     difference of squares, Pythagorean identity.     difference of squares, Pythagorean identity, cancel common factors.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, cancel common factors.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators.     start with the LHS, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, cancel common factors.   "
 },
@@ -3641,7 +3740,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-proving-trigonometric-identities.html#subsec-advanced-examples-3",
   "type": "Exercise Group",
-  "number": "12.2.6",
+  "number": "13.2.6",
   "title": "Advanced Identity Proofs II.",
   "body": " Advanced Identity Proofs II   Prove each trigonometric identity.     combine fractions with a common denominator, Pythagorean identity, cancel common factors.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, cancel common factors.     start with the LHS, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, multiply by the conjugate, Pythagorean identity.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, Pythagorean identity, cancel common factors.     start with the RHS, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, multiply by the conjugate, Pythagorean identity.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor and cancel common factors.     simplify complex fraction by clearing denominators, Pythagorean identity.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor out common factor, cancel common factors.     start with the LHS but RHS works also, simplify complex fraction by clearing denominators, cancel common factors, Pythagorean identity, factor and cancel.     rewrite in terms of sine and cosine, common denominator, Pythagorean identity, simplify.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, Pythagorean identity, simplify and cancel.     expand, rewrite in terms of sine and cosine, combine fractions, Pythagorean identity, factor difference of squares (or multiply by the conjugate), cancel common factors.     difference of squares, Pythagorean identity, simplify.     work with both sides, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor difference of squares (or multiply by the conjugate), cancel.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, cancel common factors.     start with either side, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, multiply by the conjugate (or factor difference of squares), Pythagorean identity.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, combine fraction with a common denominator.     start with either side, rewrite in terms of sine and cosine, distribute, combine fractions with a common denominator, simplify complex fraction by clearing denominators, multiply by the conjugate, Pythagorean identity.     combine fractions with a common denominator, Pythagorean identity.   "
 },
@@ -3650,7 +3749,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-sum-and-difference-identities.html",
   "type": "Section",
-  "number": "12.3",
+  "number": "13.3",
   "title": "Sum and Difference Identities",
   "body": " Sum and Difference Identities   The sum identities say that if you know about two angles and , you can also find sine (or cosine, or tangent) of the two angles added together . The difference identities do the same for the difference (subtraction) .   These identities are maybe the most challenging to remember at first, so definitely keep them available when practicing.  The 6 identities can be written more concisely as,   Notice that for cosine and tangent, the left has while the right has a sign, which means that on the left goes with on the right, and on the left goes with on the right.    Finding Exact Values Examples  The sum and difference identities can be used to find trigonometric ratios (like sine, cosine, and tangent) for several angles not typically found on the unit circle (i.e. not just and their multiples).   Cosine of 105 Degrees  Find . We can calculate this, because is the sum of two special angles (which we know about). Then, the sum identity for cosine says,   This answer is correct, however we can continue to simplify the result into one fraction,   Therefore, .    Tangent of 5 Pi over 12  Find . Here, after some trial and error, . Then,   This answer is correct, however we can continue to simplify the result,   This is a solid final answer. However, some instructors will expect that you rationalize the denominator to fully simplify,   Therefore, .   This works for any angle which can be written as the sum of two special angles (or the difference of two special angles). Here are some of the common ones.        Notice that there is often more than one way to write it (but maybe there is one easier way). For example, , but also . Also, in radians,         Evaluating Trigonometric Ratios   Evaluate each trigonometric ratio exactly, and simplify your answer.             (or rationalized )             (or rationalized, )     is one combination.      is one combination.      is one combination.  or              In fact, there are only a relatively limited number of questions of this type that your teacher can give you. Here are pretty much all of them summarized in a table (between and ),   Of course, you shouldn't memorize this table, but it's just to give you an idea of the question style you should expect, and the style of the final answer.     Exact Values with Variable Angles   Variable Angles Exercises   Find the desired trigonometric ratios in exact value, from the given information.    Let be in quadrant IV with . Find .     Let both be in quadrant I, with . Find and .     Given that , find .  or    If and , with in quadrant II and in quadrant IV, find .     Given that and is in quadrant I, find .     Given is in quadrant 2 and , and is in quadrant 3 and , find , and .  (or rationalized is ), (or rationalized ),    Given is in quadrant II with and is in quadrant III with , find , and .     Given that and is is quadrant 2, and and is in quadrant 4, find .     Given that , find .     Given that and is in quadrant I, find .     If both and are third quadrant angles and , find if .     Given that and is in quadrant II, and and is in quadrant IV, find .     Given that and is in quadrant III, and and is in quadrant II, find .       Simplifying Expressions Using Sum and Difference Identities   Writing as a Single Trigonometric Function   Write each expression as a single trigonometric function.                 Simplify and Find Exact Values   Simplify and find an exact value for each expression.                                                       Simplifying Using Sum or Difference Identities   Simplify each expression using a sum or difference identity.                                                                         Simplifying to Single Function   Simplify each expression into a single trigonometric function.                     Simplifying Complex Expressions   Simplify each expression.                      Proving Identities with Sum and Difference Examples   Proving Trigonometric Identities   Prove each trigonometric identity.     sum and difference identity, expand, collect like terms.     sum and difference identity, expand, collect like terms, Pythagorean identity.     sum and difference identity, collect like terms.     rewrite in terms of sine and cosine, sum and difference identity.                              Solving Equations Using the Sum and Difference Identities   Solving Trigonometric Equations   Solve each equation, for (or ).                                                  Other Examples   Amplitude, Period, and Phase Shift   Find the amplitude, period, and phase shift of each function.     , amplitude is 1, period is , phase shift is 0.     , amplitude is 3, period is 12, phase shift is left 2.     , amplitude is 3, period is 12, phase shift is left 2.     , amplitude is , period is , phase shift is left .     , amplitude is 2, period is , phase shift is left .     , amplitude is 1, period is 8, phase shift is left 4.     "
 },
@@ -3659,7 +3758,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-sum-and-difference-identities.html#subsection-finding-exact-values-3",
   "type": "Example",
-  "number": "12.3.1",
+  "number": "13.3.1",
   "title": "Cosine of 105 Degrees.",
   "body": " Cosine of 105 Degrees  Find . We can calculate this, because is the sum of two special angles (which we know about). Then, the sum identity for cosine says,   This answer is correct, however we can continue to simplify the result into one fraction,   Therefore, .  "
 },
@@ -3668,7 +3767,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-sum-and-difference-identities.html#subsection-finding-exact-values-4",
   "type": "Example",
-  "number": "12.3.2",
+  "number": "13.3.2",
   "title": "Tangent of 5 Pi over 12.",
   "body": " Tangent of 5 Pi over 12  Find . Here, after some trial and error, . Then,   This answer is correct, however we can continue to simplify the result,   This is a solid final answer. However, some instructors will expect that you rationalize the denominator to fully simplify,   Therefore, .  "
 },
@@ -3677,7 +3776,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-sum-and-difference-identities.html#subsection-finding-exact-values-9",
   "type": "Exercise Group",
-  "number": "12.3.1",
+  "number": "13.3.1",
   "title": "Evaluating Trigonometric Ratios.",
   "body": " Evaluating Trigonometric Ratios   Evaluate each trigonometric ratio exactly, and simplify your answer.             (or rationalized )             (or rationalized, )     is one combination.      is one combination.      is one combination.  or            "
 },
@@ -3686,7 +3785,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-sum-and-difference-identities.html#subsection-finding-exact-values-10",
   "type": "Remark",
-  "number": "12.3.3",
+  "number": "13.3.3",
   "title": "",
   "body": " In fact, there are only a relatively limited number of questions of this type that your teacher can give you. Here are pretty much all of them summarized in a table (between and ),   Of course, you shouldn't memorize this table, but it's just to give you an idea of the question style you should expect, and the style of the final answer.  "
 },
@@ -3695,7 +3794,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-sum-and-difference-identities.html#subsection-exact-values-variable-2",
   "type": "Exercise Group",
-  "number": "12.3.2",
+  "number": "13.3.2",
   "title": "Variable Angles Exercises.",
   "body": " Variable Angles Exercises   Find the desired trigonometric ratios in exact value, from the given information.    Let be in quadrant IV with . Find .     Let both be in quadrant I, with . Find and .     Given that , find .  or    If and , with in quadrant II and in quadrant IV, find .     Given that and is in quadrant I, find .     Given is in quadrant 2 and , and is in quadrant 3 and , find , and .  (or rationalized is ), (or rationalized ),    Given is in quadrant II with and is in quadrant III with , find , and .     Given that and is is quadrant 2, and and is in quadrant 4, find .     Given that , find .     Given that and is in quadrant I, find .     If both and are third quadrant angles and , find if .     Given that and is in quadrant II, and and is in quadrant IV, find .     Given that and is in quadrant III, and and is in quadrant II, find .    "
 },
@@ -3704,7 +3803,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-sum-and-difference-identities.html#subsection-simplifying-expressions-2",
   "type": "Exercise Group",
-  "number": "12.3.3",
+  "number": "13.3.3",
   "title": "Writing as a Single Trigonometric Function.",
   "body": " Writing as a Single Trigonometric Function   Write each expression as a single trigonometric function.               "
 },
@@ -3713,7 +3812,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-sum-and-difference-identities.html#subsection-simplifying-expressions-3",
   "type": "Exercise Group",
-  "number": "12.3.4",
+  "number": "13.3.4",
   "title": "Simplify and Find Exact Values.",
   "body": " Simplify and Find Exact Values   Simplify and find an exact value for each expression.                                                     "
 },
@@ -3722,7 +3821,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-sum-and-difference-identities.html#subsection-simplifying-expressions-4",
   "type": "Exercise Group",
-  "number": "12.3.5",
+  "number": "13.3.5",
   "title": "Simplifying Using Sum or Difference Identities.",
   "body": " Simplifying Using Sum or Difference Identities   Simplify each expression using a sum or difference identity.                                                                       "
 },
@@ -3731,7 +3830,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-sum-and-difference-identities.html#subsection-simplifying-expressions-5",
   "type": "Exercise Group",
-  "number": "12.3.6",
+  "number": "13.3.6",
   "title": "Simplifying to Single Function.",
   "body": " Simplifying to Single Function   Simplify each expression into a single trigonometric function.                   "
 },
@@ -3740,7 +3839,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-sum-and-difference-identities.html#subsection-simplifying-expressions-6",
   "type": "Exercise Group",
-  "number": "12.3.7",
+  "number": "13.3.7",
   "title": "Simplifying Complex Expressions.",
   "body": " Simplifying Complex Expressions   Simplify each expression.                   "
 },
@@ -3749,7 +3848,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-sum-and-difference-identities.html#subsection-proving-identities-2",
   "type": "Exercise Group",
-  "number": "12.3.8",
+  "number": "13.3.8",
   "title": "Proving Trigonometric Identities.",
   "body": " Proving Trigonometric Identities   Prove each trigonometric identity.     sum and difference identity, expand, collect like terms.     sum and difference identity, expand, collect like terms, Pythagorean identity.     sum and difference identity, collect like terms.     rewrite in terms of sine and cosine, sum and difference identity.                           "
 },
@@ -3758,7 +3857,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-sum-and-difference-identities.html#subsection-solving-equations-2",
   "type": "Exercise Group",
-  "number": "12.3.9",
+  "number": "13.3.9",
   "title": "Solving Trigonometric Equations.",
   "body": " Solving Trigonometric Equations   Solve each equation, for (or ).                                               "
 },
@@ -3767,7 +3866,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-sum-and-difference-identities.html#subsection-other-examples-2",
   "type": "Exercise Group",
-  "number": "12.3.10",
+  "number": "13.3.10",
   "title": "Amplitude, Period, and Phase Shift.",
   "body": " Amplitude, Period, and Phase Shift   Find the amplitude, period, and phase shift of each function.     , amplitude is 1, period is , phase shift is 0.     , amplitude is 3, period is 12, phase shift is left 2.     , amplitude is 3, period is 12, phase shift is left 2.     , amplitude is , period is , phase shift is left .     , amplitude is 2, period is , phase shift is left .     , amplitude is 1, period is 8, phase shift is left 4.   "
 },
@@ -3776,7 +3875,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-double-angle-identities.html",
   "type": "Section",
-  "number": "12.4",
+  "number": "13.4",
   "title": "Double-Angle Identities",
   "body": " Double-Angle Identities   Identities about double angles can be derived from the sum and difference identities.   These are expressions for the trigonometric ratios of double angles ( , and ), in terms of their associated single angles ( , and ).    Finding Exact Value Examples   Evaluate Expressions Exactly   Evaluate each expression exactly, using a double-angle identity.                             Expand Expressions   Expand each expression, using a double-angle identity.     ( is double )      ( is double )                Exact Values with Variable Angles   Find Exact Values from Information   Find the exact value of each trigonometric ratio, from the given information.    If , where , then find and .     Let and . Find and .     Let be an angle in quadrant III with . find and .     If and is in quadrant III, find and .     If and . Find and .     If and is in quadrant III, find .       Simplify Using Double-Angle Identities   Simplify Expressions   Simplify each expression as a single trigonometric function.                         choose the double angle for cosine which cancels out the 1 in the denominator          choose the double angle for cosine which cancels out the in the numerator          choose the double angle for cosine which cancels out the in the numerator                      use a double-angle identity, do not expand                               Equations Using Double-Angle Identities   Solve Trigonometric Equations   Solve each equation, by finding all solutions in the interval .                                                          Proving Identities with Double Angles   Prove Trigonometric Identities   Prove each trigonometric identity.     Pythagorean identity, double-angle identity     reciprocal identity, double-angle identity     double-angle identity, reciprocal identity     double-angle identities, cancel     expand, Pythagorean identity, double-angle identity     double-angle identity     double-angle identity, rewrite in terms of sine and cosine, distribute, cancel common factors     double-angle identity, cancel common factors     Prove More Trigonometric Identities   Prove each trigonometric identity.     start with both sides, double-angle identity, clear denominators, cancel     convert to sine and cosine, clear denominators, Pythagorean identity, double-angle identity     work with both sides, double-angle identity, cancel common factors     work with both sides, rewrite in terms of tangent, simplify complex fraction by clearing denominators     work with both sides, double-angle identity, factor quadratic trinomial, cancel common factors, rewrite in terms of sine and cosine, combine fractions (or split fraction)     start with the LHS, double-angle identity, factor out common factor, cancel common factors, multiply by the conjugate     work with both sides, double-angle identity, cancel common factors, Pythagorean identity (or rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators)     work with both sides, double-angle identity, rewrite in terms of sine and cosine, distribute, Pythagorean identity      Advanced Examples   Geometric Mean  Find the geometric mean of and , in terms of only. Note: the geometric mean of two numbers and is .     Exact Value with Variables  Given that and is in quadrant , find the exact value of in terms of .      Tangent Expression  Given that and is in quadrant , find an expression for in terms of .  , and simplify the complex fraction     Double Angle Tangent  If and , find .  to find , divide both sides of the equation by      Proofs of Double-Angle Identities  The double-angle identities are derived from the sum and difference identities, by adding the same angle to itself.   Using the sum and difference identities, for   For ,   Then, for the 2nd form of the cosine identity, use the Pythagorean identity,   And, for the 3rd form,   Also, for ,      Triple-Angle Identities  We can also find expressions for and in terms of their associated single angles, using the sum and difference identities and the double-angle identities. In other words, triple-angle identities. We can think of as ,   Here, there are and . For , we have . For , there are 3 options, and we will choose , because we want the final expression to be in terms of cosine only.   We will replace , again because we want everything in terms of cosine only,   In summary,   Similarly, you can find that,    Sine Triple-Angle Identity Proof  Prove the identity .   We can also find an expression for in terms of its associated single angle, using the sum and difference identities and the double-angle identities. In other words, another triple-angle identity. We again think of as ,   Here, there are and . For , we have . For , there are 3 options, and we will choose , because we want the final expression to be in terms of sine only.   We will replace , again because we want everything in terms of sine only,     Similarly, we can find a tangent triple-angle identity,    Tangent Triple-Angle Identity Proof  Prove the identity .   We can also find an expression for in terms of its associated single angle, using the sum and difference identities and the double-angle identities. In other words, another triple-angle identity. We again think of as ,   Here, there is . For we have the double-angle identity   Then,   To simplify this complex fraction, clear denominators by multiplying the numerator and denominator by ,      "
 },
@@ -3785,7 +3884,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-double-angle-identities.html#project-evaluate-exact-expressions",
   "type": "Exercise Group",
-  "number": "12.4.1",
+  "number": "13.4.1",
   "title": "Evaluate Expressions Exactly.",
   "body": " Evaluate Expressions Exactly   Evaluate each expression exactly, using a double-angle identity.                           "
 },
@@ -3794,7 +3893,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-double-angle-identities.html#project-expand-expressions",
   "type": "Exercise Group",
-  "number": "12.4.2",
+  "number": "13.4.2",
   "title": "Expand Expressions.",
   "body": " Expand Expressions   Expand each expression, using a double-angle identity.     ( is double )      ( is double )             "
 },
@@ -3803,7 +3902,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-double-angle-identities.html#project-exact-values-variables",
   "type": "Exercise Group",
-  "number": "12.4.3",
+  "number": "13.4.3",
   "title": "Find Exact Values from Information.",
   "body": " Find Exact Values from Information   Find the exact value of each trigonometric ratio, from the given information.    If , where , then find and .     Let and . Find and .     Let be an angle in quadrant III with . find and .     If and is in quadrant III, find and .     If and . Find and .     If and is in quadrant III, find .    "
 },
@@ -3812,7 +3911,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-double-angle-identities.html#project-simplify-expressions",
   "type": "Exercise Group",
-  "number": "12.4.4",
+  "number": "13.4.4",
   "title": "Simplify Expressions.",
   "body": " Simplify Expressions   Simplify each expression as a single trigonometric function.                         choose the double angle for cosine which cancels out the 1 in the denominator          choose the double angle for cosine which cancels out the in the numerator          choose the double angle for cosine which cancels out the in the numerator                      use a double-angle identity, do not expand                            "
 },
@@ -3821,7 +3920,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-double-angle-identities.html#project-solve-equations",
   "type": "Exercise Group",
-  "number": "12.4.5",
+  "number": "13.4.5",
   "title": "Solve Trigonometric Equations.",
   "body": " Solve Trigonometric Equations   Solve each equation, by finding all solutions in the interval .                                                       "
 },
@@ -3830,7 +3929,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-double-angle-identities.html#project-proving-identities-1",
   "type": "Exercise Group",
-  "number": "12.4.6",
+  "number": "13.4.6",
   "title": "Prove Trigonometric Identities.",
   "body": " Prove Trigonometric Identities   Prove each trigonometric identity.     Pythagorean identity, double-angle identity     reciprocal identity, double-angle identity     double-angle identity, reciprocal identity     double-angle identities, cancel     expand, Pythagorean identity, double-angle identity     double-angle identity     double-angle identity, rewrite in terms of sine and cosine, distribute, cancel common factors     double-angle identity, cancel common factors   "
 },
@@ -3839,7 +3938,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-double-angle-identities.html#project-proving-identities-2",
   "type": "Exercise Group",
-  "number": "12.4.7",
+  "number": "13.4.7",
   "title": "Prove More Trigonometric Identities.",
   "body": " Prove More Trigonometric Identities   Prove each trigonometric identity.     start with both sides, double-angle identity, clear denominators, cancel     convert to sine and cosine, clear denominators, Pythagorean identity, double-angle identity     work with both sides, double-angle identity, cancel common factors     work with both sides, rewrite in terms of tangent, simplify complex fraction by clearing denominators     work with both sides, double-angle identity, factor quadratic trinomial, cancel common factors, rewrite in terms of sine and cosine, combine fractions (or split fraction)     start with the LHS, double-angle identity, factor out common factor, cancel common factors, multiply by the conjugate     work with both sides, double-angle identity, cancel common factors, Pythagorean identity (or rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators)     work with both sides, double-angle identity, rewrite in terms of sine and cosine, distribute, Pythagorean identity   "
 },
@@ -3848,7 +3947,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-double-angle-identities.html#subsection-advanced-examples-2",
   "type": "Checkpoint",
-  "number": "12.4.1",
+  "number": "13.4.1",
   "title": "Geometric Mean.",
   "body": " Geometric Mean  Find the geometric mean of and , in terms of only. Note: the geometric mean of two numbers and is .   "
 },
@@ -3857,7 +3956,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-double-angle-identities.html#subsection-advanced-examples-3",
   "type": "Checkpoint",
-  "number": "12.4.2",
+  "number": "13.4.2",
   "title": "Exact Value with Variables.",
   "body": " Exact Value with Variables  Given that and is in quadrant , find the exact value of in terms of .    "
 },
@@ -3866,7 +3965,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-double-angle-identities.html#subsection-advanced-examples-4",
   "type": "Checkpoint",
-  "number": "12.4.3",
+  "number": "13.4.3",
   "title": "Tangent Expression.",
   "body": " Tangent Expression  Given that and is in quadrant , find an expression for in terms of .  , and simplify the complex fraction   "
 },
@@ -3875,7 +3974,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-double-angle-identities.html#subsection-advanced-examples-5",
   "type": "Checkpoint",
-  "number": "12.4.4",
+  "number": "13.4.4",
   "title": "Double Angle Tangent.",
   "body": " Double Angle Tangent  If and , find .  to find , divide both sides of the equation by   "
 },
@@ -3884,7 +3983,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-double-angle-identities.html#subsection-proofs-double-angle-3",
   "type": "Proof",
-  "number": "12.4.7.1",
+  "number": "13.4.7.1",
   "title": "",
   "body": " Using the sum and difference identities, for   For ,   Then, for the 2nd form of the cosine identity, use the Pythagorean identity,   And, for the 3rd form,   Also, for ,   "
 },
@@ -3893,7 +3992,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-double-angle-identities.html#subsection-triple-angle-identities-12",
   "type": "Example",
-  "number": "12.4.5",
+  "number": "13.4.5",
   "title": "Sine Triple-Angle Identity Proof.",
   "body": " Sine Triple-Angle Identity Proof  Prove the identity .   We can also find an expression for in terms of its associated single angle, using the sum and difference identities and the double-angle identities. In other words, another triple-angle identity. We again think of as ,   Here, there are and . For , we have . For , there are 3 options, and we will choose , because we want the final expression to be in terms of sine only.   We will replace , again because we want everything in terms of sine only,    "
 },
@@ -3902,7 +4001,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-double-angle-identities.html#subsection-triple-angle-identities-15",
   "type": "Example",
-  "number": "12.4.6",
+  "number": "13.4.6",
   "title": "Tangent Triple-Angle Identity Proof.",
   "body": " Tangent Triple-Angle Identity Proof  Prove the identity .   We can also find an expression for in terms of its associated single angle, using the sum and difference identities and the double-angle identities. In other words, another triple-angle identity. We again think of as ,   Here, there is . For we have the double-angle identity   Then,   To simplify this complex fraction, clear denominators by multiplying the numerator and denominator by ,    "
 },
@@ -3911,7 +4010,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-trigonometric-identities-summary.html",
   "type": "Section",
-  "number": "12.5",
+  "number": "13.5",
   "title": "Summary of Trigonometric Identities",
   "body": " Summary of Trigonometric Identities   Summary of Trigonometric Identities    "
 },
@@ -3920,7 +4019,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-infinite-geometric-series.html",
   "type": "Section",
-  "number": "13.1",
+  "number": "14.1",
   "title": "Infinite Geometric Series",
   "body": " Infinite Geometric Series    Application: Bouncing Ball Problem   Bouncing ball problem  A ball is dropped from a height of 10 m. After each bounce, the ball bounces up to 80% of its previous height. Determine the total distance travelled by the ball. Bouncing Ball GeoGebra .  Sketch a picture of the situation. The sum of the distances is, It is better to write out the distances without doing the arithmetic, so that it is easier to recognize the pattern. This is a geometric series, except for the first number 10. Each next term is the same as the previous term, except multiplied by . The first term of , and the common ratio is , Then, using the infinite geometric series formula, Therefore, the total distance travelled is 90 m.    Bouncing ball problem: advanced   Consider the general problem. A ball is dropped from a height of meters, and bounces up to a fraction of the previous bounce (where ). Find the total distance travelled, in terms of and .          "
 },
@@ -3929,7 +4028,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-infinite-geometric-series.html#sec-infinite-geometric-series-2-2",
   "type": "Example",
-  "number": "13.1.1",
+  "number": "14.1.1",
   "title": "Bouncing ball problem.",
   "body": " Bouncing ball problem  A ball is dropped from a height of 10 m. After each bounce, the ball bounces up to 80% of its previous height. Determine the total distance travelled by the ball. Bouncing Ball GeoGebra .  Sketch a picture of the situation. The sum of the distances is, It is better to write out the distances without doing the arithmetic, so that it is easier to recognize the pattern. This is a geometric series, except for the first number 10. Each next term is the same as the previous term, except multiplied by . The first term of , and the common ratio is , Then, using the infinite geometric series formula, Therefore, the total distance travelled is 90 m.  "
 },
@@ -3938,7 +4037,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-infinite-geometric-series.html#bouncing-ball-advanced",
   "type": "Example",
-  "number": "13.1.2",
+  "number": "14.1.2",
   "title": "Bouncing ball problem: advanced.",
   "body": " Bouncing ball problem: advanced   Consider the general problem. A ball is dropped from a height of meters, and bounces up to a fraction of the previous bounce (where ). Find the total distance travelled, in terms of and .        "
 },
@@ -3947,7 +4046,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-word-problem-solving-strategy.html",
   "type": "Section",
-  "number": "14.1",
+  "number": "15.1",
   "title": "Word Problem Solving Strategy",
   "body": " Word Problem Solving Strategy      What do you want to find? What do you know? How can you connect them?     What do you want to find? Give it a name (notation), like . Try to use variable names that match what they represent. E.g. for time use , for distance use , for height use , for the number of people use or .     What do you know? Note all the key information, underline it. Especially the numbers in the problem. Word problems often contain fluff and context that doesn't really affect the problem.     How can you connect them? What equations include both what you want to find and what you know? What formula includes what you're trying to find? There must be some connection between what you're trying to find, and what you know. Is there a theorem or formula that could be helpful?  E.g. if you want to find the area of a triangle, what formula gives you that? .       Sketch a diagram . For many problems, the relationships are much more easily noticed visually. Label the quantities in your diagram, both variables and numbers.  Students often struggle with drawing pictures of the problem. Unfortunately, the only way to improve at this is to practice. Sometimes, it's because they don't understand the terminology involved. On the other hand, sometimes you have to do trial and error, draw and then realize something is wrong, erase and redraw again.     Try to check your answer (ideally) . For equations, you can substitute back in. Does the answer make sense? It is reasonable? What units does it have?     Some notes:     You should always keep in mind what you want to find, i.e. the goal of the problem. Students often overemphasize the knowns of the problem, and then get stuck because they don't know how to use those knowns to do anything. Begin with the end in mind.    In your final answer, don't forget units!      "
 },
@@ -3956,7 +4055,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-solving-equations-graphically.html",
   "type": "Section",
-  "number": "14.2",
+  "number": "15.2",
   "title": "Solving Equations Graphically",
   "body": " Solving Equations Graphically   Graphing calculators, like Desmos , or the TI-84 Plus CE, can solve equations graphically very easily. The basic idea is to graph both sides of the equation, and the solutions are the intersection points.    Solving Equations Using a Graphing Calculator (Intersections)   Solving by Intersection  Solve the equation . To do this, graph both sides of the equation, and ( Desmos graph ). Observe the intersection points are at and . You can check that these are solutions, by plugging in and and verifying that both sides are equal,   Intuitively, this is because the equation is asking,  For which values of do the two expressions give the same number?  Then, a point is an intersection if it lies on both graphs, meaning that for that particular -value, the value for the left side is the same as the -value for the right side. That's what it means for the two sides of the equation to be equal.   In general, we want to solve an equation of the form,   where are expressions involving (that represent the two sides of the equation).   Graph both and .  The solutions are the -values of any intersection points of the two graphs.   In short,     Solving Numerically by Finding Zeros (Reducing to One Graph)  In fact, there is a slightly easier way. The general problem of solving an equation of the form,   can be rewritten by moving everything to one side (say, subtracting from both sides), to get . Then, the equation is in the form of one function equal to 0,   where . This transforms the problem from solving an equation with two separate sides, to finding the root of a (single) function. Then, to solve,   Graph .  The solutions are the -intercepts (zeros) of the graph.   In other words,     Comparing the Two Methods  Both the intersection method and the zeros method are mathematically equivalent, in that both will give you the same answer. However, there are some advantages and disadvantages to each, both practically and conceptually.    The intersection method is more intuitive, because you can visually see where the two functions intersect. If the functions represent some quantity, then it also has a useful interpretation.   Interpretating Intersection  For example, if represents how far each object has gone in seconds, then the intersection point means that after seconds, both objects have travelled the same distance . In contrast, with the zeros method, the -coordinate is always 0 and has no interpretation.     The zeros method is more computationally simpler, because you only have one function. Graphically, you only have to look near the -axis to find solutions. This is especially helpful when the functions are huge, and so you'd have to zoom out a lot to see the intersections.   Solving with the Zeros Method  Solve the equation . Using the intersection method , there is 1 intersection visible, but there is another intersection that is only visible if you zoom out a lot. Instead, using the zeros method, move all terms to one side, to get . Then, graphing this function , you can more easily see the 2 zeros of the graph, which are the solutions.       Solving Equations Graphically on the TI-84 Plus CE  With the TI-84 Plus CE, the strategy is similar to using Desmos, except it requires a few more button presses. Again, you can either do the intersection method ( ) or the zeros method ( ).   Enter the functions : Press [Y=] to to to the function editor. Enter the left side of the equation in Y1 and the right side in Y2. For example, for the equation , put in Y1 and in Y2. If solving , enter the expression in Y1 (and leave Y2 blank).  Adjust the window (if needed): Press [WINDOW] to set appropriate viewing bounds for Xmin, Xmax, Ymin, and Ymax so the graph and intersection points are visible. You can use [ZOOM] 6 (ZStandard) for a default view.  Graph the functions : Press [GRAPH] to display the graphs.   Find the intersection or root : Press [2nd] [TRACE] (CALC menu), then select 5: intersect (for intersection of two functions) or 2: zero (for roots of a single function). It will ask you to set a lower bound (Left Bound?) and upper bound (Right Bound?). These bounds define the interval for where the calculator will search for the solution, so make sure it's between them. Move the cursor with the arrow keys, and press [ENTER] for each.  It will also ask for a Guess?, which doesn't really matter, you can just press [ENTER] again (technically, the guess helps refine the search, but it only really helps for complicated functions that have many roots which are close together).     "
 },
@@ -3965,7 +4064,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-equations-graphically.html#solving-graphing-intersections-2",
   "type": "Example",
-  "number": "14.2.1",
+  "number": "15.2.1",
   "title": "Solving by Intersection.",
   "body": " Solving by Intersection  Solve the equation . To do this, graph both sides of the equation, and ( Desmos graph ). Observe the intersection points are at and . You can check that these are solutions, by plugging in and and verifying that both sides are equal,   Intuitively, this is because the equation is asking,  For which values of do the two expressions give the same number?  Then, a point is an intersection if it lies on both graphs, meaning that for that particular -value, the value for the left side is the same as the -value for the right side. That's what it means for the two sides of the equation to be equal.  "
 },
@@ -3974,7 +4073,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-equations-graphically.html#comparing-methods-3-1-2",
   "type": "Example",
-  "number": "14.2.2",
+  "number": "15.2.2",
   "title": "Interpretating Intersection.",
   "body": " Interpretating Intersection  For example, if represents how far each object has gone in seconds, then the intersection point means that after seconds, both objects have travelled the same distance . In contrast, with the zeros method, the -coordinate is always 0 and has no interpretation.  "
 },
@@ -3983,7 +4082,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-equations-graphically.html#comparing-methods-3-2-2",
   "type": "Example",
-  "number": "14.2.3",
+  "number": "15.2.3",
   "title": "Solving with the Zeros Method.",
   "body": " Solving with the Zeros Method  Solve the equation . Using the intersection method , there is 1 intersection visible, but there is another intersection that is only visible if you zoom out a lot. Instead, using the zeros method, move all terms to one side, to get . Then, graphing this function , you can more easily see the 2 zeros of the graph, which are the solutions.  "
 },
@@ -3992,7 +4091,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-solving-equations-numerically-with-a-calculator.html",
   "type": "Section",
-  "number": "14.3",
+  "number": "15.3",
   "title": "Solving Equations Numerically with a Calculator",
   "body": " Solving Equations Numerically with a Calculator   A large amount of high school mathematics is about solving equations. You learn various techniques to solve equations by hand (also called solving algebraically ), which work for various types of equations. However, for many types of equations, there is no algebraic technique that can solve them.   For example, in fact, these equations can't be solved algebraically:      No matter how hard you try to manipulate the equation, factor, and isolate for , you won't be able to solve for exactly.  If you have learned about exponential functions, logarithmic functions, and\/or trigonometric functions, here are some more examples:          These equations are simple to write down, but none of them can be solved algebraically. More generally, most equations with a combination of exponentials, polynomials, and trigonometric functions are unsolvable algebraically.   In this case, the next best thing is to find an approximate numerical solution.  These make up the two broad approaches to solving equations:     Algebraic \/ analytic \/ exact methods : Manipulating the equation using algebraic rules, to isolate the variable, and find an exact solution.     Approximate \/ numerical methods : Finding a solution which is an approximate decimal number, that is close enough.    Numerical solutions are useful in a few situations:   If an exact solution can't be found (it's just impossible).  If an exact solution is possible but just really difficult to find (especially in applications, an approximate numerical answer is usually good enough)  If you've already solved algebraically, and you want to check that your final answer is correct.     Solving Using a Scientific Calculator  My recommended calculator Casio fx-991ES Plus C 2nd edition (or some other similar scientific calculators) can solve equations numerically. This is truly powerful, because you can check your solutions to any equation.    First, make sure you're in COMP (computation) mode (which is the regular mode), by pressing MODE , then select COMP .    Enter your equation. Use the ALPHA button to get X (look for the button that has X above it). For the sign, use ALPHA then CALC .    Start the SOLVE function, by pressing SHIFT , then CALC .    Provide an initial guess for , such as , then press .    View the solution. The calculator shows the value of . It also displays (left side minus right side), which will be 0 (or at least very close to ) if the solution is accurate.     Solving a Radical Equation  For example, to solve ,    Enter .    Select SOLVE , by pressing SHIFT , then CALC .    Enter an initial guess, like , and press .    The solution should be .     If the solution is not a nice number (like a whole number), the solution will be a decimal like , not symbolic like .    If is anything but 0 (or very close to it), then the calculator couldn't find the solution. Try a different guess.    The initial guess kinda matters, but most reasonable guesses should give you the correct answer. Here are some broad principles:    Ideally, try to give a good guess as you can. For example, a number close to the solution you got from solving by hand.    If there are multiple solutions, the calculator will only give you one of them (each time). This is because the calculator basically pulls your initial guess towards the closest solution. E.g. if the solutions are and , and your initial guess is , you will most likely get . Whereas if you choose initial guess of , you will get .    If you have no idea what the solution should be, try 0 or 1 as a default. Because many equations have solutions near 0.    This feature is truly powerful, because you can check your solutions to any equation.    If the calculator agrees with your algebraic steps, then you know your answer is correct.    If it gives a different solution than what you found, then you know you have a mistake somewhere, and can go back and try to find it. E.g. maybe you dropped a negative sign, or didn't collect like terms properly.    You can also use it to solve an equation if you are stuck, however most tests will require you to show your work as well.   "
 },
@@ -4001,7 +4100,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-equations-numerically-with-a-calculator.html#sec-solving-equations-numerically-with-a-calculator-2-2",
   "type": "Example",
-  "number": "14.3.1",
+  "number": "15.3.1",
   "title": "",
   "body": " For example, in fact, these equations can't be solved algebraically:      No matter how hard you try to manipulate the equation, factor, and isolate for , you won't be able to solve for exactly.  If you have learned about exponential functions, logarithmic functions, and\/or trigonometric functions, here are some more examples:          These equations are simple to write down, but none of them can be solved algebraically. More generally, most equations with a combination of exponentials, polynomials, and trigonometric functions are unsolvable algebraically.  "
 },
@@ -4028,7 +4127,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-equations-numerically-with-a-calculator.html#subsec-solving-using-scientific-calculator-4",
   "type": "Example",
-  "number": "14.3.2",
+  "number": "15.3.2",
   "title": "Solving a Radical Equation.",
   "body": " Solving a Radical Equation  For example, to solve ,    Enter .    Select SOLVE , by pressing SHIFT , then CALC .    Enter an initial guess, like , and press .    The solution should be .  "
 }
