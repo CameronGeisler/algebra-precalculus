@@ -21,7 +21,7 @@
           <p>
             Evaluate exactly: <m><eval obj="exprTeX"/></m>
           </p>
-
+          
           <div id="trig-exact-practice-controls">&#160;</div>
           
           <p>
@@ -76,27 +76,29 @@
             
       exact.cos = {};
       exact.tan = {};
+                  
+      // Build exact cos from exact sin: cos(θ) = sin(θ + 90°)
       for (let deg in exact.sin) {
-        const s = eval(exact.sin[deg].replace("sqrt", "Math.sqrt"));
-        const c = Math.cos(deg * Math.PI / 180);
-        const cs = Math.abs(c) < 1e-10 ? "0"
-                 : Math.abs(c - 0.5) < 1e-10 ? "1/2"
-                 : Math.abs(c - Math.sqrt(2)/2) < 1e-10 ? "sqrt(2)/2"
-                 : "sqrt(3)/2";
-        exact.cos[deg] = c < 0 ? "-" + cs : cs;
-            
+        const d = (Number(deg) + 90) % 360;
+        exact.cos[deg] = exact.sin[d];
+      }
+                  
+      for (let deg in exact.sin) {
+        const s = eval(exact.sin[deg].replace(/sqrt/g, "Math.sqrt"));
+        const c = eval(exact.cos[deg].replace(/sqrt/g, "Math.sqrt"));
+                  
         if (Math.abs(c) < 1e-10) {
           exact.tan[deg] = null;
         } else {
           const t = s / c;
           const abs = Math.abs(t);
           const ts = abs < 1e-10 ? "0"
-                   : Math.abs(abs - 1) < 1e-10 ? "1"
-                   : abs < 1 ? "sqrt(3)/3" : "sqrt(3)";
+                  : Math.abs(abs - 1) < 1e-10 ? "1"
+                  : abs < 1 ? "sqrt(3)/3" : "sqrt(3)";
           exact.tan[deg] = t < 0 ? "-" + ts : ts;
         }
       }
-            
+                 
       function reciprocal(str) {
         if (!str || str === "0") return null;
         if (str === "1") return "1";
