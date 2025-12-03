@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-exponential-equations" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Exponential Equations</title>
+  
+  <introduction>
+    <definition>
+      <title>Exponential Equation</title>
+      <statement>
+        <p>
+          An <term>exponential equation</term> is an equation with a variable in the exponent.
+        </p>
+      </statement>
+    </definition>
+  </introduction>
+  
+  <subsection xml:id="subsection-solving-exponential-equations">
+    <title>Solving Exponential Equations Using Common Bases</title>
+    
+    <p>
+      Some simple exponential equations can be solved by using the intuitive fact that if two powers with the same base are equal, then their exponents must be equal. In other words,
+    </p>
+
+    <md>
+      <mrow>\boxed{\text{If $b^x=b^y$, then $x=y$}}</mrow>
+    </md>
+    
+    <p>
+      This means that if we can write both sides of an exponential equation as a power of the same base, then we can set their exponents equal (<alert>equate exponents</alert>), resulting in a simpler equation that we can solve.
+    </p>
+    
+    <ol>
+      <li>
+        <p>Rewrite both sides using a common base.</p>
+      </li>
+      <li>
+        <p>Simplify using exponent laws.</p>
+      </li>
+      <li>
+        <p>Set the exponents equal.</p>
+      </li>
+      <li>
+        <p>Solve the resulting equation.</p>
+      </li>
+    </ol>
+    
+    <p>
+      The resulting equation could be linear, quadratic, or some other type of equation.
+    </p>
+    
+    <p>
+      Sometimes, both sides can be written as a power of multiple numbers, which result in the same solution.
+    </p>
+  </subsection>
+  
+  <subsection xml:id="subsection-exp-eq-examples">
+    <title>Examples</title>
+    
+    <project>
+      <title>Basic Examples</title>
+      <introduction>
+        <p>Solve each exponential equation.</p>
+      </introduction>
+      <task>
+        <statement><m>2^{x-2} = 64</m></statement>
+        <answer><m>x=8</m></answer>
+      </task>
+      <task>
+        <statement><m>5^x=625</m></statement>
+        <answer><m>x=4</m></answer>
+      </task>
+      <task>
+        <statement><m>2^{2x+2}+7=71</m></statement>
+        <answer><m>x=2</m></answer>
+      </task>
+      <task>
+        <statement><m>81=3^{x+1}</m></statement>
+        <answer><m>x=3</m></answer>
+      </task>
+      <task>
+        <statement><m>3^{x+1}=9^{x-1}</m></statement>
+        <answer><m>x=3</m></answer>
+      </task>
+      <task>
+        <statement><m>2^x=256</m></statement>
+        <answer><m>x=8</m></answer>
+      </task>
+      <task>
+        <statement><m>25^{x-1}=5^{3x}</m></statement>
+        <answer><m>x=-2</m></answer>
+      </task>
+      <task>
+        <statement><m>3^x=9^{x-2}</m></statement>
+        <answer><m>x=4</m></answer>
+      </task>
+      <task>
+        <statement><m>2^x = 8^{x-1}</m></statement>
+        <answer><m>x=\frac{3}{2}</m></answer>
+      </task>
+      <task>
+        <statement><m>4^{x-1}=2^{x+3}</m></statement>
+        <answer><m>x=5</m></answer>
+      </task>
+      <task>
+        <statement><m>27^x=9^{x-2}</m></statement>
+        <answer><m>x=-4</m></answer>
+      </task>
+      <task>
+        <statement><m>2^{5x+3}-64=0</m></statement>
+        <answer><m>x=\frac{3}{5}</m></answer>
+      </task>
+      <task>
+        <statement><m>4^{2x}=8^{x+1}</m></statement>
+        <answer><m>x=3</m></answer>
+      </task>
+      <task>
+        <statement><m>2^{4x}=4^{x+3}</m></statement>
+        <answer><m>x=3</m></answer>
+      </task>
+      <task>
+        <statement><m>4^{3x}=8^{x-3}</m></statement>
+        <answer><m>x=-3</m></answer>
+      </task>
+      <task>
+        <statement><m>4^{x+2}=64^x</m></statement>
+        <answer><m>x=1</m></answer>
+      </task>
+      <task>
+        <statement><m>16^x = 4</m></statement>
+        <answer><m>x=\frac{1}{2}</m></answer>
+      </task>
+      <task>
+        <statement><m>4^x = 8^{x-1}</m></statement>
+        <answer><m>x=3</m></answer>
+      </task>
+      <task>
+        <statement><m>3^{x-3} = 81</m></statement>
+        <answer><m>x=7</m></answer>
+      </task>
+      <task>
+        <statement><m>6^{x-3} = 1</m></statement>
+        <answer><m>x=3</m></answer>
+      </task>
+      <task>
+        <statement><m>64^{2x} = 16^{x+1}</m></statement>
+        <answer><m>x=\frac{1}{2}</m></answer>
+      </task>
+      <task>
+        <statement><m>9^{4x-2} = 81</m></statement>
+        <answer><m>x=1</m></answer>
+      </task>
+      <task>
+        <statement><m>9^{4x-9} = 729</m></statement>
+        <answer><m>x=3</m></answer>
+      </task>
+    </project>
+    
+    <project>
+      <title>Intermediate Examples</title>
+      <introduction>
+        <p>Solve each equation.</p>
+      </introduction>
+      <task>
+        <statement><m>9^{x-1} = 27^{x+3}</m></statement>
+        <answer><m>x=-11</m></answer>
+      </task>
+      <task>
+        <statement><m>4^{2x}=2^{5-x}</m></statement>
+        <answer><m>x=1</m></answer>
+      </task>
+      <task>
+        <statement><m>2^x = \frac{1}{128}</m></statement>
+        <answer><m>x=-7</m></answer>
+      </task>
+      <task>
+        <statement><m>27^{x-4}=9^{x+3}</m></statement>
+        <answer><m>x=18</m></answer>
+      </task>
+      <task>
+        <statement><m>4 (9^{x-1}) = 108</m></statement>
+        <answer><m>x=\frac{5}{2}</m></answer>
+      </task>
+      <task>
+        <statement><m>8^{2x}=16^{x+3}</m></statement>
+        <answer><m>x=6</m></answer>
+      </task>
+      <task>
+        <statement><m>4^{2x}=8^{2x-3}</m></statement>
+        <answer><m>x=\frac{9}{2}</m></answer>
+      </task>
+      <task>
+        <statement><m>4^{2x+1}=8^{2x-1}</m></statement>
+        <answer><m>x=\frac{5}{2}</m></answer>
+      </task>
+      <task>
+        <statement><m>2^{3x}=\frac{1}{2}</m></statement>
+        <answer><m>x=-\frac{1}{3}</m></answer>
+      </task>
+      <task>
+        <statement><m>36^{3x} = 216^{x+7}</m></statement>
+        <answer><m>x = 7</m></answer>
+      </task>
+      <task>
+        <statement><m>4^{2x}=\frac{1}{16}</m></statement>
+        <answer><m>x=-1</m></answer>
+      </task>
+      <task>
+        <statement><m>36^{3x-1}=6^{2x+5}</m></statement>
+        <answer><m>x=\frac{7}{4}</m></answer>
+      </task>
+      <task>
+        <statement><m>16^{2x-3}=32^{x+3}</m></statement>
+        <answer><m>x=9</m></answer>
+      </task>
+      <task>
+        <statement><m>9^{3x+6} = 27^{x-3}</m></statement>
+        <answer><m>x=-7</m></answer>
+      </task>
+      <task>
+        <statement><m>\brac{\frac{1}{7}}^x = 343</m></statement>
+        <answer><m>x=-3</m></answer>
+      </task>
+      <task>
+        <statement><m>9^{x+1}=243^{x+3}</m></statement>
+        <answer><m>x=-\frac{13}{3}</m></answer>
+      </task>
+      <task>
+        <statement><m>125^{2x-1}=25^{x+4}</m></statement>
+        <answer><m>x=\frac{11}{4}</m></answer>
+      </task>
+      <task>
+        <statement><m>25^{x+7} = 625^{x-4}</m></statement>
+        <answer><m>x=15</m></answer>
+      </task>
+      <task>
+        <statement><m>4^{-2x+1}=8^{x-4}</m></statement>
+        <answer><m>x=2</m></answer>
+      </task>
+      <task>
+        <statement><m>5^{3x-6} = 125</m></statement>
+        <answer><m>x=3</m></answer>
+      </task>
+      <task>
+        <statement><m>9^{2x-3}=27^{1-x}</m></statement>
+        <answer><m>x=\frac{9}{7}</m></answer>
+      </task>
+      <task>
+        <statement><m>9^{2x+1}=81\cdot 27^x</m></statement>
+        <answer><m>x=2</m></answer>
+      </task>
+      <task>
+        <statement><m>3^{5x}=27^{x-1}</m></statement>
+        <answer><m>x=-\frac{3}{2}</m></answer>
+      </task>
+    </project>
+    
+    <project>
+      <title>Equations with More Fractions and Radicals</title>
+      <introduction>
+        <p>Solve each equation.</p>
+      </introduction>
+      <task>
+        <statement><m>(\sqrt{3})^{x+1} = 27^x</m></statement>
+        <answer><m>x=\frac{1}{5}</m></answer>
+      </task>
+      <task>
+        <statement><m>2^x=8\sqrt[3]{2}</m></statement>
+        <answer><m>x=\frac{10}{3}</m></answer>
+      </task>
+      <task>
+        <statement><m>\brac{\frac{5}{2}}^x = \frac{8}{125}</m></statement>
+        <answer><m>x=-3</m></answer>
+      </task>
+      <task>
+        <statement><m>8^{x-1}=\sqrt[3]{16}</m></statement>
+        <answer><m>x=\frac{13}{9}</m></answer>
+      </task>
+      <task>
+        <statement><m>81\sqrt{3}=3^x</m></statement>
+        <answer><m>x=\frac{9}{2}</m></answer>
+      </task>
+      <task>
+        <statement><m>20^x = 0.05</m></statement>
+        <answer><m>x=-1</m></answer>
+      </task>
+      <task>
+        <statement><m>2^{x+1}=2\sqrt[3]{4}</m></statement>
+        <answer><m>x=\frac{2}{3}</m></answer>
+      </task>
+      <task>
+        <statement><m>9^{x+1}=27^{2x-3}</m></statement>
+        <answer><m>x=\frac{11}{4}</m></answer>
+      </task>
+      <task>
+        <statement><m>9^x=\sqrt{27}</m></statement>
+        <answer><m>x=\frac{3}{4}</m></answer>
+      </task>
+      <task>
+        <statement><m>3^{2x}=9^{\frac{1}{2}(x-4)}</m></statement>
+        <answer><m>x=-4</m></answer>
+      </task>
+      <task>
+        <statement><m>\brac{\sqrt{7}}^{x+1}=\sqrt[3]{49}</m></statement>
+        <answer><m>x=\frac{1}{3}</m></answer>
+      </task>
+      <task>
+        <statement><m>\brac{\frac{1}{4}}^3=2^x</m></statement>
+        <answer><m>x=-6</m></answer>
+      </task>
+      <task>
+        <statement><m>5^x=\frac{\sqrt[3]{25}}{25}</m></statement>
+        <answer><m>x=-\frac{4}{3}</m></answer>
+      </task>
+      <task>
+        <statement><m>\frac{\sqrt[3]{49}}{343}=7^{x+1}</m></statement>
+        <answer><m>x=-\frac{10}{3}</m></answer>
+      </task>
+      <task>
+        <statement><m>\brac{\frac{1}{9}}^x=3\sqrt{27}</m></statement>
+        <answer><m>x=-\frac{5}{4}</m></answer>
+      </task>
+      <task>
+        <statement><m>49^{x-1}=7\sqrt{7}</m></statement>
+        <answer><m>x=\frac{7}{4}</m></answer>
+      </task>
+      <task>
+        <statement><m>\brac{\frac{1}{4}}^{x+4}=\sqrt{8}</m></statement>
+        <answer><m>x=-\frac{19}{4}</m></answer>
+      </task>
+      <task>
+        <statement><m>2^{3x-4}=0.25</m></statement>
+        <answer><m>x=\frac{2}{3}</m></answer>
+      </task>
+      <task>
+        <statement><m>36^{2x+4}=\brac{\sqrt{1296}}^x</m></statement>
+        <answer><m>x=-4</m></answer>
+      </task>
+    </project>
+    
+    <project>
+      <title>Additional Practice</title>
+      <introduction>
+        <p>Solve each equation.</p>
+      </introduction>
+      <task>
+        <statement><m>\brac{\frac{1}{243}}^{4-x} = 3^{6x+3}</m></statement>
+        <answer><m>x=-23</m></answer>
+      </task>
+      <task>
+        <statement><m>7^{3-5x} = \brac{\frac{1}{49}}^{2x+9}</m></statement>
+        <answer><m>x=21</m></answer>
+      </task>
+      <task>
+        <statement><m>\brac{\frac{1}{8}}^{x+1}=\brac{\sqrt[3]{16}}^x</m></statement>
+        <answer><m>x=-\frac{9}{13}</m></answer>
+      </task>
+      <task>
+        <statement><m>125^{x+2} = \brac{\frac{1}{5}}^{1-5x}</m></statement>
+        <answer><m>x = \frac{7}{2}</m></answer>
+      </task>
+      <task>
+        <statement><m>2^{3-x} \cdot 4^{2x-1} = \frac{1}{16}</m></statement>
+        <answer><m>x=-\frac{5}{3}</m></answer>
+      </task>
+      <task>
+        <statement><m>1024^{2x-1}=16^{x+4}</m></statement>
+        <answer><m>x=\frac{13}{8}</m></answer>
+      </task>
+      <task>
+        <statement><m>\brac{\frac{1}{9}}^{2x-1}=27^{2-x}</m></statement>
+        <answer><m>x=-4</m></answer>
+      </task>
+      <task>
+        <statement><m>8^{1-x}=\frac{\sqrt[3]{16}}{4}</m></statement>
+        <answer><m>x=\frac{11}{9}</m></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt[4]{216}=36^{x-1}</m></statement>
+        <answer><m>x=\frac{11}{8}</m></answer>
+      </task>
+      <task>
+        <statement><m>27^x = 81^{3x-1}</m></statement>
+        <answer><m>x=\frac{4}{9}</m></answer>
+      </task>
+    </project>
+    
+    <project>
+      <title>Quadratic Exponents</title>
+      <introduction>
+        <p>Solve each equation.</p>
+      </introduction>
+      <task>
+        <statement><m>2^{x^2}=16</m></statement>
+        <answer><m>x=-2, 2</m></answer>
+      </task>
+      <task>
+        <statement><m>9^{2x-1}=\brac{\frac{1}{27}}^{x+2}</m></statement>
+        <answer><m>x=-\frac{4}{7}</m></answer>
+      </task>
+      <task>
+        <statement><m>9^{x+4}=3^{x^2}</m></statement>
+        <answer><m>x=-2, 44</m></answer>
+      </task>
+      <task>
+        <statement><m>4^{x^2-2x}=8^{1-x}</m></statement>
+        <answer><m>x=-1, \frac{3}{2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\brac{\frac{1}{8}}^{2x+1}=32^{x-3}</m></statement>
+        <answer><m>x=\frac{12}{11}</m></answer>
+      </task>
+      <task>
+        <statement><m>4^{x^2-x}=1</m></statement>
+        <answer><m>x=0, 1</m></answer>
+      </task>
+      <task>
+        <statement><m>3^{x^2}=9\cdot 3^{-x}</m></statement>
+        <answer><m>x=-2,1</m></answer>
+      </task>
+      <task>
+        <statement><m>8^{2x-1} = \brac{\frac{1}{4}}^x (32)</m></statement>
+        <answer><m>x=1</m></answer>
+      </task>
+      <task>
+        <statement><m>2^{x^2}=32\brac{2^{4x}}</m></statement>
+        <answer><m>x=-1,5</m></answer>
+      </task>
+      <task>
+        <statement><m>3^{x^2+20}=\brac{\frac{1}{27}}^{3x}</m></statement>
+        <answer><m>x=-5,-4</m></answer>
+      </task>
+    </project>
+  </subsection>
+  
+  <subsection xml:id="subsection-exp-eq-advanced-examples">
+    <title>Advanced Examples</title>
+    
+    <exercise>
+      <title>Parameter Value Problem</title>
+      <statement>
+        <p>For what values of <m>k</m> does the equation <m>9^{x^2}=27^{x+k}</m> have no real solution?</p>
+      </statement>
+      <hint>
+        <p><m>2x^2-3x-3k=0</m></p>
+      </hint>
+      <answer>
+        <p>The equation has no real solution when <m>k\lt -\frac{3}{8}</m>.</p>
+      </answer>
+    </exercise>
+    
+    <project>
+      <title>Equations Reducible to Quadratics</title>
+      <introduction>
+        <p>Solve each equation.</p>
+      </introduction>
+      <task>
+        <statement><m>4^x+4^{x+1}=160</m></statement>
+        <answer><m>x = \frac{5}{2}</m></answer>
+      </task>
+      <task>
+        <statement><m>2^{x+2}-2^x=24</m></statement>
+        <answer><m>x=3</m></answer>
+      </task>
+      <task>
+        <statement><m>2^{x+2}+2^x=320</m></statement>
+        <answer><m>x=6</m></answer>
+      </task>
+      <task>
+        <statement><m>2^{x+2}-2^x=96</m></statement>
+        <answer><m>x=5</m></answer>
+      </task>
+      <task>
+        <statement><m>10^{x+1}-10^x=9000</m></statement>
+        <answer><m>x=3</m></answer>
+      </task>
+      <task>
+        <statement><m>3^{x+2}+3^x=30</m></statement>
+        <answer><m>x=1</m></answer>
+      </task>
+      <task>
+        <statement><m>4^{x+3}-4^x=63</m></statement>
+        <answer><m>x=0</m></answer>
+      </task>
+      <task>
+        <statement><m>3^{x+2}+3^x=270</m></statement>
+        <answer><m>x=3</m></answer>
+      </task>
+      <task>
+        <statement><m>3^{4x-2} - 3^{2x+1} = 486</m></statement>
+        <answer><m>x = 2</m></answer>
+      </task>
+    </project>
+    
+    <project>
+      <title>Complex Exponents</title>
+      <introduction>
+        <p>Solve each equation.</p>
+      </introduction>
+      <task>
+        <statement><m>4^{\sqrt{x+1}}=2^{3x-2}</m></statement>
+        <answer><m>x=\frac{16}{9}</m></answer>
+      </task>
+      <task>
+        <statement><m>4^{-|x+1|}=\frac{1}{16}</m></statement>
+        <answer><m>x=-3, 1</m></answer>
+      </task>
+    </project>
+  </subsection>
+  
+</section>

@@ -23,7 +23,7 @@
     <xi:include href="./ch-properties-of-functions.ptx"/>
     <xi:include href="./ch-rational-functions.ptx" />
     <xi:include href="./ch-radical-functions-and-equations.ptx" />
-    <!-- <xi:include href="./ch-exponential-and-logarithmic-functions.ptx" /> -->
+    <xi:include href="./ch-exponential-and-logarithmic-functions.ptx" />
     <xi:include href="./ch-trigonometry-in-the-plane.ptx" />
     <xi:include href="./ch-trigonometric-identities-and-equations.ptx" />
     <xi:include href="./ch-sequences-and-series.ptx" />
