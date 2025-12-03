@@ -12,266 +12,399 @@
   </p>
   </introduction> -->
   
-  <subsection>
+  <subsection xml:id="subsection-simplifying-radical-examples">
     <title>Examples</title>
     
-    <exercises>
-      <exercisegroup>
-        <introduction>
-          <p>Simplify each radical, if possible.</p>
-        </introduction>
-        
-        <exercise>
-          <statement><p><m>\sqrt{8}</m></p></statement>
-          <answer><p><m>2\sqrt{2}</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>\sqrt{12}</m></p></statement>
-          <answer><p><m>2\sqrt{3}</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>\sqrt{32}</m></p></statement>
-          <answer><p><m>4\sqrt{2}</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>\sqrt{50}</m></p></statement>
-          <answer><p><m>5\sqrt{2}</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>\sqrt{18}</m></p></statement>
-          <answer><p><m>3\sqrt{2}</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>\sqrt{27}</m></p></statement>
-          <answer><p><m>3\sqrt{3}</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>\sqrt{48}</m></p></statement>
-          <answer><p><m>4\sqrt{3}</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>\sqrt{75}</m></p></statement>
-          <answer><p><m>5\sqrt{3}</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>\sqrt{90}</m></p></statement>
-          <answer><p><m>3\sqrt{10}</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>\sqrt{73}</m></p></statement>
-          <answer><p><m>\sqrt{73}</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>\sqrt{108}</m></p></statement>
-          <answer><p><m>6\sqrt{3}</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>\sqrt{600}</m></p></statement>
-          <answer><p><m>10\sqrt{6}</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>\sqrt{54}</m></p></statement>
-          <answer><p><m>3\sqrt{6}</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>\sqrt{91}</m></p></statement>
-          <answer><p><m>\sqrt{91}</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>\sqrt{28}</m></p></statement>
-          <answer><p><m>2\sqrt{7}</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>\sqrt{33}</m></p></statement>
-          <answer><p><m>\sqrt{33}</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>\sqrt{112}</m></p></statement>
-          <answer><p><m>4\sqrt{7}</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>\sqrt{24}</m></p></statement>
-          <answer><p><m>2\sqrt{6}</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>\sqrt{80}</m></p></statement>
-          <answer><p><m>4\sqrt{5}</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>\sqrt{98}</m></p></statement>
-          <answer><p><m>7\sqrt{2}</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>\sqrt{200}</m></p></statement>
-          <answer><p><m>10\sqrt{2}</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>\sqrt{392}</m></p></statement>
-          <answer><p><m>14\sqrt{2}</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>\sqrt{1575}</m></p></statement>
-          <answer><p><m>15\sqrt{7}</m></p></answer>
-        </exercise>
-      </exercisegroup>
-      
-      <exercisegroup>
-        <introduction>
-          <p>Simplify each radical, if possible.</p>
-        </introduction>
-        
-        <exercise>
-          <statement><p><m>\sqrt[3]{16}</m></p></statement>
-          <answer><p><m>2\sqrt[3]{2}</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>\sqrt[3]{81}</m></p></statement>
-          <answer><p><m>3\sqrt[3]{3}</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>\sqrt[3]{256}</m></p></statement>
-          <answer><p><m>4\sqrt[3]{4}</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>\sqrt[3]{128}</m></p></statement>
-          <answer><p><m>4\sqrt[3]{2}</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>\sqrt[3]{60}</m></p></statement>
-          <answer><p><m>\sqrt[3]{60}</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>\sqrt[3]{192}</m></p></statement>
-          <answer><p><m>4\sqrt[3]{3}</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>\sqrt[3]{135}</m></p></statement>
-          <answer><p><m>3\sqrt[3]{5}</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>\sqrt[3]{100}</m></p></statement>
-          <answer><p><m>\sqrt[3]{100}</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>\sqrt[3]{500}</m></p></statement>
-          <answer><p><m>5\sqrt[3]{4}</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>\sqrt[3]{375}</m></p></statement>
-          <answer><p><m>5\sqrt[3]{3}</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>\sqrt[4]{48}</m></p></statement>
-          <answer><p><m>2\sqrt[4]{3}</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>\sqrt[4]{405}</m></p></statement>
-          <answer><p><m>3\sqrt[4]{5}</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>\sqrt[4]{1250}</m></p></statement>
-          <answer><p><m>5\sqrt[4]{2}</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>\sqrt[4]{176}</m></p></statement>
-          <answer><p><m>2\sqrt[4]{11}</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>\sqrt[3]{144}</m></p></statement>
-          <answer><p><m>2\sqrt[3]{18}</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>\sqrt[3]{108}</m></p></statement>
-          <answer><p><m>3\sqrt[3]{4}</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>\sqrt[4]{162}</m></p></statement>
-          <answer><p><m>3\sqrt[4]{2}</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>\sqrt[4]{128}</m></p></statement>
-          <answer><p><m>2\sqrt[4]{8}</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>\sqrt[3]{40}</m></p></statement>
-          <answer><p><m>2\sqrt[3]{5}</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>\sqrt[4]{32}</m></p></statement>
-          <answer><p><m>2\sqrt[4]{2}</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>\sqrt[3]{24}</m></p></statement>
-          <answer><p><m>2\sqrt[3]{3}</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>\sqrt[3]{54}</m></p></statement>
-          <answer><p><m>3\sqrt[3]{2}</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>\sqrt[3]{243}</m></p></statement>
-          <answer><p><m>9</m></p></answer>
-        </exercise>
-        <exercise>
-          <statement><p><m>\sqrt[4]{243}</m></p></statement>
-          <answer><p><m>3\sqrt[4]{3}</m></p></answer>
-        </exercise>
-      </exercisegroup>
-    </exercises>
+    <project>
+      <title>Simplifying Square Roots</title>
+      <introduction>
+        <p>Simplify each radical, if possible.</p>
+      </introduction>
+      <task>
+        <statement><m>\sqrt{8}</m></statement>
+        <answer><m>2 \sqrt{2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt{12}</m></statement>
+        <answer><m>2 \sqrt{3}</m></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt{32}</m></statement>
+        <answer><m>4 \sqrt{2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt{50}</m></statement>
+        <answer><m>5 \sqrt{2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt{18}</m></statement>
+        <answer><m>3 \sqrt{2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt{27}</m></statement>
+        <answer><m>3 \sqrt{3}</m></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt{48}</m></statement>
+        <answer><m>4 \sqrt{3}</m></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt{33}</m></statement>
+        <answer><p><m>\sqrt{33}</m> (already simplest)</p></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt{75}</m></statement>
+        <answer><m>5 \sqrt{3}</m></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt{90}</m></statement>
+        <answer><m>3 \sqrt{10}</m></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt{108}</m></statement>
+        <answer><m>6 \sqrt{3}</m></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt{600}</m></statement>
+        <answer><m>10 \sqrt{6}</m></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt{54}</m></statement>
+        <answer><m>3 \sqrt{6}</m></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt{28}</m></statement>
+        <answer><m>2 \sqrt{7}</m></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt{73}</m></statement>
+        <answer><p><m>\sqrt{73}</m> (already simplest)</p></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt{112}</m></statement>
+        <answer><m>4 \sqrt{7}</m></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt{24}</m></statement>
+        <answer><m>2 \sqrt{6}</m></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt{80}</m></statement>
+        <answer><m>4 \sqrt{5}</m></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt{98}</m></statement>
+        <answer><m>7 \sqrt{2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt{56}</m></statement>
+        <answer><m>2 \sqrt{14}</m></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt{91}</m></statement>
+        <answer><p><m>\sqrt{91}</m> (already simplest)</p></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt{200}</m></statement>
+        <answer><m>10 \sqrt{2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt{392}</m></statement>
+        <answer><m>14 \sqrt{2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt{1575}</m></statement>
+        <answer><m>15 \sqrt{7}</m></answer>
+      </task>
+    </project>
+    
+    <project>
+      <title>Simplifying Higher Roots</title>
+      <introduction>
+        <p>Simplify each radical, if possible.</p>
+      </introduction>
+      <task>
+        <statement><m>\sqrt[3]{16}</m></statement>
+        <answer><m>2\sqrt[3]{2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt[3]{81}</m></statement>
+        <answer><m>3\sqrt[3]{3}</m></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt[3]{135}</m></statement>
+        <answer><m>3\sqrt[3]{5}</m></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt[3]{24}</m></statement>
+        <answer><m>2\sqrt[3]{3}</m></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt[3]{256}</m></statement>
+        <answer><m>4\sqrt[3]{4}</m></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt[3]{-128}</m></statement>
+        <answer><m>-4\sqrt[3]{2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt[3]{60}</m></statement>
+        <answer><p><m>\sqrt[3]{60}</m> (already simplest)</p></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt[3]{24}</m></statement>
+        <answer><m>2\sqrt[3]{3}</m></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt[3]{192}</m></statement>
+        <answer><m>4\sqrt[3]{3}</m></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt[4]{32}</m></statement>
+        <answer><m>2\sqrt[4]{2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt[3]{40}</m></statement>
+        <answer><m>2\sqrt[3]{5}</m></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt[4]{32}</m></statement>
+        <answer><m>2\sqrt[4]{2}</m></answer>
+      </task>
+    </project>
+    
+    <project>
+      <title>More Radical Simplification</title>
+      <introduction>
+        <p>Simplify each radical, if possible.</p>
+      </introduction>
+      <task>
+        <statement><m>\sqrt[3]{375}</m></statement>
+        <answer><m>5\sqrt[3]{3}</m></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt[4]{48}</m></statement>
+        <answer><m>2\sqrt[4]{3}</m></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt[3]{54}</m></statement>
+        <answer><m>3\sqrt[3]{2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt[3]{243}</m></statement>
+        <answer><m>3\sqrt[3]{9}</m></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt[3]{40}</m></statement>
+        <answer><m>2\sqrt[3]{5}</m></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt[4]{405}</m></statement>
+        <answer><m>3\sqrt[4]{5}</m></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt[3]{-432}</m></statement>
+        <answer><m>-6\sqrt[3]{2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt[4]{1250}</m></statement>
+        <answer><m>5\sqrt[4]{2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt[3]{100}</m></statement>
+        <answer><p><m>\sqrt[3]{100}</m> (already simplest)</p></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt[4]{176}</m></statement>
+        <answer><m>2\sqrt[4]{11}</m></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt[3]{144}</m></statement>
+        <answer><m>2\sqrt[3]{18}</m></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt[3]{-500}</m></statement>
+        <answer><m>-5\sqrt[3]{4}</m></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt[3]{108}</m></statement>
+        <answer><m>3\sqrt[3]{4}</m></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt[4]{162}</m></statement>
+        <answer><m>3\sqrt[4]{2}</m></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt[4]{128}</m></statement>
+        <answer><m>2\sqrt[4]{8}</m></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt[4]{243}</m></statement>
+        <answer><m>3\sqrt[4]{3}</m></answer>
+      </task>
+    </project>
   </subsection>
   
-  <subsection>
+  <subsection xml:id="subsection-condensing-mixed-radicals">
     <title>Condensing Mixed Radicals, Writing Mixed Radicals as Entire Radicals</title>
+    
     <p>
       Mixed radicals can also be condensed into entire radicals, the reverse process of simplifying radicals.
     </p>
+    
     <p>
-      Any number can be written as the square root of its square. For example, <m>2 = \sqrt{2^2}</m>, <m>3 = \sqrt{3^2}</m>. Similarly, any number can be written as the cube root of its cube, or in general the <m>n</m>th root of its <m>n</m>th power. This property, along with the multiplication property, can be used to condense mixed radicals into entire radicals.
+      Any number can be written as the square root of its square. For example, <m>2 = \sqrt{2^2}</m>, <m>3 = \sqrt{3^2}</m>, etc. This property, along with the multiplication property, can be used to condense mixed radicals into entire radicals.
     </p>
     
-    <exercises>
-      <exercisegroup>
-        <introduction>
-          <p>Write each mixed radical as an entire radical.</p>
-        </introduction>
-        
-        <exercise><statement><p><m>5\sqrt{2}</m></p></statement><answer><p><m>\sqrt{50}</m></p></answer></exercise>
-        <exercise><statement><p><m>6\sqrt{2}</m></p></statement><answer><p><m>\sqrt{72}</m></p></answer></exercise>
-        <exercise><statement><p><m>7\sqrt{2}</m></p></statement><answer><p><m>\sqrt{98}</m></p></answer></exercise>
-        <exercise><statement><p><m>8\sqrt{2}</m></p></statement><answer><p><m>\sqrt{128}</m></p></answer></exercise>
-        <exercise><statement><p><m>5\sqrt{3}</m></p></statement><answer><p><m>\sqrt{75}</m></p></answer></exercise>
-        <exercise><statement><p><m>6\sqrt{3}</m></p></statement><answer><p><m>\sqrt{108}</m></p></answer></exercise>
-        <exercise><statement><p><m>7\sqrt{3}</m></p></statement><answer><p><m>\sqrt{147}</m></p></answer></exercise>
-        <exercise><statement><p><m>8\sqrt{3}</m></p></statement><answer><p><m>\sqrt{192}</m></p></answer></exercise>
-        <exercise><statement><p><m>3\sqrt{2}</m></p></statement><answer><p><m>\sqrt{18}</m></p></answer></exercise>
-        <exercise><statement><p><m>4\sqrt{2}</m></p></statement><answer><p><m>\sqrt{32}</m></p></answer></exercise>
-        <exercise><statement><p><m>6\sqrt{5}</m></p></statement><answer><p><m>\sqrt{180}</m></p></answer></exercise>
-        <exercise><statement><p><m>5\sqrt{6}</m></p></statement><answer><p><m>\sqrt{150}</m></p></answer></exercise>
-        <exercise><statement><p><m>7\sqrt{7}</m></p></statement><answer><p><m>\sqrt{343}</m></p></answer></exercise>
-        <exercise><statement><p><m>2\sqrt[3]{2}</m></p></statement><answer><p><m>\sqrt[3]{16}</m></p></answer></exercise>
-        <exercise><statement><p><m>3\sqrt[3]{3}</m></p></statement><answer><p><m>\sqrt[3]{81}</m></p></answer></exercise>
-        <exercise><statement><p><m>4\sqrt[3]{3}</m></p></statement><answer><p><m>\sqrt[3]{192}</m></p></answer></exercise>
-        <exercise><statement><p><m>5\sqrt[3]{2}</m></p></statement><answer><p><m>\sqrt[3]{250}</m></p></answer></exercise>
-        <exercise><statement><p><m>2\sqrt[3]{9}</m></p></statement><answer><p><m>\sqrt[3]{72}</m></p></answer></exercise>
-        <exercise><statement><p><m>6\sqrt[4]{3}</m></p></statement><answer><p><m>\sqrt[4]{3888}</m></p></answer></exercise>
-        <exercise><statement><p><m>7\sqrt[4]{2}</m></p></statement><answer><p><m>\sqrt[4]{4802}</m></p></answer></exercise>
-        <exercise><statement><p><m>3\sqrt[5]{4}</m></p></statement><answer><p><m>\sqrt[5]{972}</m></p></answer></exercise>
-        <exercise><statement><p><m>4\sqrt[5]{3}</m></p></statement><answer><p><m>\sqrt[5]{3072}</m></p></answer></exercise>
-        <exercise><statement><p><m>7\sqrt{3}</m></p></statement><answer><p><m>\sqrt{147}</m></p></answer></exercise>
-        <exercise><statement><p><m>4\sqrt{3}</m></p></statement><answer><p><m>\sqrt{48}</m></p></answer></exercise>
-        <exercise><statement><p><m>6\sqrt{5}</m></p></statement><answer><p><m>\sqrt{180}</m></p></answer></exercise>
-        <exercise><statement><p><m>3\sqrt[3]{2}</m></p></statement><answer><p><m>\sqrt[3]{54}</m></p></answer></exercise>
-        <exercise><statement><p><m>2\sqrt[5]{2}</m></p></statement><answer><p><m>\sqrt[5]{64}</m></p></answer></exercise>
-        <exercise><statement><p><m>2\sqrt[3]{4}</m></p></statement><answer><p><m>\sqrt[3]{32}</m></p></answer></exercise>
-        <exercise><statement><p><m>3\sqrt[3]{4}</m></p></statement><answer><p><m>\sqrt[3]{108}</m></p></answer></exercise>
-        <exercise><statement><p><m>2\sqrt[5]{3}</m></p></statement><answer><p><m>\sqrt[5]{96}</m></p></answer></exercise>
-        <exercise><statement><p><m>2\sqrt[3]{7}</m></p></statement><answer><p><m>\sqrt[3]{56}</m></p></answer></exercise>
-        <exercise><statement><p><m>10\sqrt[3]{5}</m></p></statement><answer><p><m>\sqrt[3]{5000}</m></p></answer></exercise>
-        <exercise><statement><p><m>4\sqrt[4]{2}</m></p></statement><answer><p><m>\sqrt[4]{512}</m></p></answer></exercise>
-        <exercise><statement><p><m>2\sqrt[4]{5}</m></p></statement><answer><p><m>\sqrt[4]{80}</m></p></answer></exercise>
-      </exercisegroup>
-    </exercises>
+    <project>
+      <title>Mixed to Entire Radicals (Square Roots)</title>
+      <introduction>
+        <p>Write each mixed radical as an entire radical.</p>
+      </introduction>
+      <task>
+        <statement><m>5\sqrt{2}</m></statement>
+        <answer><m>\sqrt{50}</m></answer>
+      </task>
+      <task>
+        <statement><m>6\sqrt{2}</m></statement>
+        <answer><m>\sqrt{72}</m></answer>
+      </task>
+      <task>
+        <statement><m>7\sqrt{2}</m></statement>
+        <answer><m>\sqrt{98}</m></answer>
+      </task>
+      <task>
+        <statement><m>8\sqrt{2}</m></statement>
+        <answer><m>\sqrt{128}</m></answer>
+      </task>
+      <task>
+        <statement><m>5\sqrt{3}</m></statement>
+        <answer><m>\sqrt{75}</m></answer>
+      </task>
+      <task>
+        <statement><m>6\sqrt{3}</m></statement>
+        <answer><m>\sqrt{108}</m></answer>
+      </task>
+      <task>
+        <statement><m>7\sqrt{3}</m></statement>
+        <answer><m>\sqrt{147}</m></answer>
+      </task>
+      <task>
+        <statement><m>4\sqrt{3}</m></statement>
+        <answer><m>\sqrt{48}</m></answer>
+      </task>
+      <task>
+        <statement><m>8\sqrt{3}</m></statement>
+        <answer><m>\sqrt{192}</m></answer>
+      </task>
+      <task>
+        <statement><m>3\sqrt{2}</m></statement>
+        <answer><m>\sqrt{18}</m></answer>
+      </task>
+      <task>
+        <statement><m>4\sqrt{2}</m></statement>
+        <answer><m>\sqrt{32}</m></answer>
+      </task>
+      <task>
+        <statement><m>6\sqrt{5}</m></statement>
+        <answer><m>\sqrt{180}</m></answer>
+      </task>
+      <task>
+        <statement><m>5\sqrt{6}</m></statement>
+        <answer><m>\sqrt{150}</m></answer>
+      </task>
+      <task>
+        <statement><m>7\sqrt{7}</m></statement>
+        <answer><m>\sqrt{343}</m></answer>
+      </task>
+      <task>
+        <statement><m>15\sqrt{6}</m></statement>
+        <answer><m>\sqrt{1350}</m></answer>
+      </task>
+    </project>
+    
+    <p>
+      Similarly, any number can be written as the cube root of its cube, or in general the <m>n</m>th root of its <m>n</m>th power.
+    </p>
+    
+    <project>
+      <title>Mixed to Entire Radicals (Higher Roots)</title>
+      <introduction>
+        <p>Write each mixed radical as an entire radical.</p>
+      </introduction>
+      <task>
+        <statement><m>2\sqrt[3]{2}</m></statement>
+        <answer><m>\sqrt[3]{16}</m></answer>
+      </task>
+      <task>
+        <statement><m>3\sqrt[3]{3}</m></statement>
+        <answer><m>\sqrt[3]{81}</m></answer>
+      </task>
+      <task>
+        <statement><m>4\sqrt[3]{3}</m></statement>
+        <answer><m>\sqrt[3]{192}</m></answer>
+      </task>
+      <task>
+        <statement><m>2\sqrt[5]{2}</m></statement>
+        <answer><m>\sqrt[5]{64}</m></answer>
+      </task>
+      <task>
+        <statement><m>5\sqrt[3]{2}</m></statement>
+        <answer><m>\sqrt[3]{250}</m></answer>
+      </task>
+      <task>
+        <statement><m>2\sqrt[3]{9}</m></statement>
+        <answer><m>\sqrt[3]{72}</m></answer>
+      </task>
+      <task>
+        <statement><m>3\sqrt[5]{4}</m></statement>
+        <answer><m>\sqrt[5]{972}</m></answer>
+      </task>
+      <task>
+        <statement><m>2\sqrt[5]{3}</m></statement>
+        <answer><m>\sqrt[5]{96}</m></answer>
+      </task>
+      <task>
+        <statement><m>3\sqrt[3]{4}</m></statement>
+        <answer><m>\sqrt[3]{108}</m></answer>
+      </task>
+      <task>
+        <statement><m>2\sqrt[3]{7}</m></statement>
+        <answer><m>\sqrt[3]{56}</m></answer>
+      </task>
+      <task>
+        <statement><m>6\sqrt[4]{3}</m></statement>
+        <answer><m>\sqrt[4]{3888}</m></answer>
+      </task>
+      <task>
+        <statement><m>2\sqrt[4]{5}</m></statement>
+        <answer><m>\sqrt[4]{80}</m></answer>
+      </task>
+      <task>
+        <statement><m>7\sqrt[4]{2}</m></statement>
+        <answer><m>\sqrt[4]{4802}</m></answer>
+      </task>
+      <task>
+        <statement><m>4\sqrt[5]{3}</m></statement>
+        <answer><m>\sqrt[5]{3072}</m></answer>
+      </task>
+      <task>
+        <statement><m>3\sqrt[3]{2}</m></statement>
+        <answer><m>\sqrt[3]{54}</m></answer>
+      </task>
+      <task>
+        <statement><m>2\sqrt[3]{4}</m></statement>
+        <answer><m>\sqrt[3]{32}</m></answer>
+      </task>
+      <task>
+        <statement><m>10\sqrt[3]{5}</m></statement>
+        <answer><m>\sqrt[3]{5000}</m></answer>
+      </task>
+      <task>
+        <statement><m>4\sqrt[4]{2}</m></statement>
+        <answer><m>\sqrt[4]{512}</m></answer>
+      </task>
+    </project>
   </subsection>
-  
   
 </section>

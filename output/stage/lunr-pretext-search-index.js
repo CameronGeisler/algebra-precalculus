@@ -3367,11 +3367,101 @@ var ptx_lunr_docs = [
   "body": " Advanced Examples   Solve each equation.    .  .    .  .    .  (reject ).    .  (reject ).   "
 },
 {
+  "id": "sec-exponential-equations",
+  "level": "1",
+  "url": "sec-exponential-equations.html",
+  "type": "Section",
+  "number": "12.1",
+  "title": "Exponential Equations",
+  "body": " Exponential Equations    Exponential Equation   An exponential equation is an equation with a variable in the exponent.      Solving Exponential Equations Using Common Bases  Some simple exponential equations can be solved by using the intuitive fact that if two powers with the same base are equal, then their exponents must be equal. In other words,    If , then   This means that if we can write both sides of an exponential equation as a power of the same base, then we can set their exponents equal ( equate exponents ), resulting in a simpler equation that we can solve.    Rewrite both sides using a common base.    Simplify using exponent laws.    Set the exponents equal.    Solve the resulting equation.    The resulting equation could be linear, quadratic, or some other type of equation.  Sometimes, both sides can be written as a power of multiple numbers, which result in the same solution.    Examples   Basic Examples   Solve each exponential equation.                                                                                                 Intermediate Examples   Solve each equation.                                                                                                 Equations with More Fractions and Radicals   Solve each equation.                                                                                 Additional Practice   Solve each equation.                                             Quadratic Exponents   Solve each equation.                                              Advanced Examples   Parameter Value Problem   For what values of does the equation have no real solution?       The equation has no real solution when .     Equations Reducible to Quadratics   Solve each equation.                                         Complex Exponents   Solve each equation.             "
+},
+{
+  "id": "sec-exponential-equations-2-1",
+  "level": "2",
+  "url": "sec-exponential-equations.html#sec-exponential-equations-2-1",
+  "type": "Definition",
+  "number": "12.1.1",
+  "title": "Exponential Equation.",
+  "body": " Exponential Equation   An exponential equation is an equation with a variable in the exponent.   "
+},
+{
+  "id": "subsection-exp-eq-examples-2",
+  "level": "2",
+  "url": "sec-exponential-equations.html#subsection-exp-eq-examples-2",
+  "type": "Exercise Group",
+  "number": "12.1.1",
+  "title": "Basic Examples.",
+  "body": " Basic Examples   Solve each exponential equation.                                                                                               "
+},
+{
+  "id": "subsection-exp-eq-examples-3",
+  "level": "2",
+  "url": "sec-exponential-equations.html#subsection-exp-eq-examples-3",
+  "type": "Exercise Group",
+  "number": "12.1.2",
+  "title": "Intermediate Examples.",
+  "body": " Intermediate Examples   Solve each equation.                                                                                               "
+},
+{
+  "id": "subsection-exp-eq-examples-4",
+  "level": "2",
+  "url": "sec-exponential-equations.html#subsection-exp-eq-examples-4",
+  "type": "Exercise Group",
+  "number": "12.1.3",
+  "title": "Equations with More Fractions and Radicals.",
+  "body": " Equations with More Fractions and Radicals   Solve each equation.                                                                               "
+},
+{
+  "id": "subsection-exp-eq-examples-5",
+  "level": "2",
+  "url": "sec-exponential-equations.html#subsection-exp-eq-examples-5",
+  "type": "Exercise Group",
+  "number": "12.1.4",
+  "title": "Additional Practice.",
+  "body": " Additional Practice   Solve each equation.                                           "
+},
+{
+  "id": "subsection-exp-eq-examples-6",
+  "level": "2",
+  "url": "sec-exponential-equations.html#subsection-exp-eq-examples-6",
+  "type": "Exercise Group",
+  "number": "12.1.5",
+  "title": "Quadratic Exponents.",
+  "body": " Quadratic Exponents   Solve each equation.                                           "
+},
+{
+  "id": "subsection-exp-eq-advanced-examples-2",
+  "level": "2",
+  "url": "sec-exponential-equations.html#subsection-exp-eq-advanced-examples-2",
+  "type": "Checkpoint",
+  "number": "12.1.2",
+  "title": "Parameter Value Problem.",
+  "body": " Parameter Value Problem   For what values of does the equation have no real solution?       The equation has no real solution when .   "
+},
+{
+  "id": "subsection-exp-eq-advanced-examples-3",
+  "level": "2",
+  "url": "sec-exponential-equations.html#subsection-exp-eq-advanced-examples-3",
+  "type": "Exercise Group",
+  "number": "12.1.6",
+  "title": "Equations Reducible to Quadratics.",
+  "body": " Equations Reducible to Quadratics   Solve each equation.                                       "
+},
+{
+  "id": "subsection-exp-eq-advanced-examples-4",
+  "level": "2",
+  "url": "sec-exponential-equations.html#subsection-exp-eq-advanced-examples-4",
+  "type": "Exercise Group",
+  "number": "12.1.7",
+  "title": "Complex Exponents.",
+  "body": " Complex Exponents   Solve each equation.           "
+},
+{
   "id": "sec-radian-measure",
   "level": "1",
   "url": "sec-radian-measure.html",
   "type": "Section",
-  "number": "12.1",
+  "number": "13.1",
   "title": "Radian Measure",
   "body": " Radian Measure   There is another unit for measuring angles, called radian , which turns out to be more useful than degrees, particularly in calculus.    Radians are a unit of angles such that,     In other words,   radians is a half-rotation.  radians is a full rotation.       The symbol for radians is rad , however the symbol is often omitted. So, if an angle has no unit, it should be assumed to be radians (and for degrees, use ).   The equivalence can be thought of as a conversion factor, a ratio to convert between these two angle units (analogous to how 1 inch = 2.54 cm, or how 1 hour = 60 minutes).    Converting Between Degrees and Radians    Converting between degrees and radians .        Angle Conversion Practice   Convert each angle from degrees to radians or radians to degrees.    to radians    to degrees    to degrees      Sketching Angles in Radians  To graph an angle in radians, it's easiest to think in terms of fractions of . To start, recall that:   is a full rotation ( )  is a half rotation ( )   Then,   (or half of ) is a quarter rotation (half of a half rotation), which is .  (or a quarter of ) is half of a quarter rotation, which is .  is split into 6 equal pieces, which is .  is split into 3 pieces, which is .    Special-angle arcs on the unit circle.                 For bigger angles, we can count multiples of those smaller angles .   Sketching 2pi\/3  For , first divide into 3 equal pieces, and then count 2 of them counterclockwise,       Sketching 5pi\/6  For , first divide into 6 equal pieces, and then count 5 of them (counterclockwise),       Sketching 7pi\/4  For , first divide into 4 equal pieces, and then count 7 of them counterclockwise,       Sketching Practice   Sketch each angle in standard position.               Motivating Radians  Here, we will step back and explore the intuition behind radians, and how they come about to measure angles.   Alternate Angular Units  First, it is helpful to step back and understand the idea of how angles can be measured.  Degrees are a unit of rotation such that 360 degrees make a full rotation. They are useful practical applications (historically, for navigation, architecture, and astronomy), because you can divide 360 evenly into many numbers (like 2, 3, 4, 5, 6, 8, 9, 10, 12, etc.), so many common angles have whole number values (like , etc.).  However, if we were starting from scratch, with no prior knowledge of degrees, we could consider other useful units of measuring angles. For example:   The gradian , where a quarter rotation is defined to be 100 gradians. Then, a full rotation would be 400 gradians.  Or, 1 turn could be defined as a full rotation. Then, a half rotation is turns, or a quarter rotation is turns.  For units inspired by the fact that a pizza has 8 slices, a unit could be called a slice , defined to be th of a full rotation. Then, 8 slices would be a full rotation.  We could define 1 unit to be a quarter rotation. Then, 4 units is a full rotation.   Ultimately, units are a convention, and what units are useful or most natural depends on the context.   With radians, the idea is that we will measure angles based on how long the arc of the angle is.     The longer the arc is, the bigger the angle that is swept out. The amount you rotate is proportional to how far you travel along the circle.   Small rotation small distance traveled  Big rotation big distance traveled      However, just measuring the arc doesn't fully work, because the arc length depends on the size of the circle (basically, it depends on it's radius).   If you have a small circle, you won't have to walk very far to make a full loop.  If you have a big circle, the same angle will mean you walk a lot farther.      We want a measurement which purely measures rotation, that isn't affected by how big the circle is. The key idea is: even though the arc length changes when the circle gets bigger or smaller, it changes in a very predictable way. In particular, arc length is proportional to the radius.   If you double the radius, the arc length doubles .  If you triple the radius, the arc length triples .    Arc Length Proportionality  For example, for this particular angle below, for cm, the arc is 8 cm, and for cm, the arc is 16 cm.     While the arc lengths are different, in both scenarios, the arc length is 2 radius lengths.   To measure arc length, instead of using meters or centimeters or any other unit of length, we use the radius itself as the unit. In other words, we ask:   For example:   If the radius is 4 m, and the arc length is 12 m, that is radius lengths of rotation.  If the radius is 3 m, and the arc length is 15 m, that is radius lengths of rotation.      In other words, to measure the angle, divide the arc length by the radius length.    Radians  In short, radians measure angles based on how long the arc associated with the angle is, in terms of radius lengths.    One radian is defined to be the angle at the center of a circle such that the arc length associated with it is equal to the radius of the circle,     More generally, an angle with associated radius and arc length is given by,      In fancy math language, we often say that the angle  subtends the arc, or the arc is subtended by the angle .  Radians are technically dimensionless , because they are the ratio of two lengths.    "
 },
@@ -3380,7 +3470,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-radian-measure.html#sec-radian-measure-2-2",
   "type": "Definition",
-  "number": "12.1.1",
+  "number": "13.1.1",
   "title": "",
   "body": "  Radians are a unit of angles such that,    "
 },
@@ -3389,7 +3479,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-radian-measure.html#subsec-converting-between-degrees-and-radians-2",
   "type": "Theorem",
-  "number": "12.1.2",
+  "number": "13.1.2",
   "title": "",
   "body": "  Converting between degrees and radians .      "
 },
@@ -3398,7 +3488,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-radian-measure.html#subsec-converting-between-degrees-and-radians-3",
   "type": "Exercise Group",
-  "number": "12.1.1",
+  "number": "13.1.1",
   "title": "Angle Conversion Practice.",
   "body": " Angle Conversion Practice   Convert each angle from degrees to radians or radians to degrees.    to radians    to degrees    to degrees   "
 },
@@ -3407,7 +3497,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-radian-measure.html#special-angles-row",
   "type": "Figure",
-  "number": "12.1.3",
+  "number": "13.1.3",
   "title": "",
   "body": " Special-angle arcs on the unit circle.                "
 },
@@ -3416,7 +3506,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-radian-measure.html#sketching-radians-8",
   "type": "Example",
-  "number": "12.1.4",
+  "number": "13.1.4",
   "title": "Sketching 2pi\/3.",
   "body": " Sketching 2pi\/3  For , first divide into 3 equal pieces, and then count 2 of them counterclockwise,     "
 },
@@ -3425,7 +3515,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-radian-measure.html#sketching-radians-9",
   "type": "Example",
-  "number": "12.1.5",
+  "number": "13.1.5",
   "title": "Sketching 5pi\/6.",
   "body": " Sketching 5pi\/6  For , first divide into 6 equal pieces, and then count 5 of them (counterclockwise),     "
 },
@@ -3434,7 +3524,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-radian-measure.html#sketching-radians-10",
   "type": "Example",
-  "number": "12.1.6",
+  "number": "13.1.6",
   "title": "Sketching 7pi\/4.",
   "body": " Sketching 7pi\/4  For , first divide into 4 equal pieces, and then count 7 of them counterclockwise,     "
 },
@@ -3443,7 +3533,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-radian-measure.html#sketching-radians-11",
   "type": "Exercise Group",
-  "number": "12.1.2",
+  "number": "13.1.2",
   "title": "Sketching Practice.",
   "body": " Sketching Practice   Sketch each angle in standard position.            "
 },
@@ -3452,7 +3542,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-radian-measure.html#motivating-radians-3",
   "type": "Example",
-  "number": "12.1.7",
+  "number": "13.1.7",
   "title": "Alternate Angular Units.",
   "body": " Alternate Angular Units  First, it is helpful to step back and understand the idea of how angles can be measured.  Degrees are a unit of rotation such that 360 degrees make a full rotation. They are useful practical applications (historically, for navigation, architecture, and astronomy), because you can divide 360 evenly into many numbers (like 2, 3, 4, 5, 6, 8, 9, 10, 12, etc.), so many common angles have whole number values (like , etc.).  However, if we were starting from scratch, with no prior knowledge of degrees, we could consider other useful units of measuring angles. For example:   The gradian , where a quarter rotation is defined to be 100 gradians. Then, a full rotation would be 400 gradians.  Or, 1 turn could be defined as a full rotation. Then, a half rotation is turns, or a quarter rotation is turns.  For units inspired by the fact that a pizza has 8 slices, a unit could be called a slice , defined to be th of a full rotation. Then, 8 slices would be a full rotation.  We could define 1 unit to be a quarter rotation. Then, 4 units is a full rotation.   Ultimately, units are a convention, and what units are useful or most natural depends on the context.  "
 },
@@ -3461,7 +3551,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-radian-measure.html#motivating-radians-14",
   "type": "Example",
-  "number": "12.1.8",
+  "number": "13.1.8",
   "title": "Arc Length Proportionality.",
   "body": " Arc Length Proportionality  For example, for this particular angle below, for cm, the arc is 8 cm, and for cm, the arc is 16 cm.     While the arc lengths are different, in both scenarios, the arc length is 2 radius lengths.  "
 },
@@ -3470,7 +3560,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-radian-measure.html#radians-definition-3",
   "type": "Definition",
-  "number": "12.1.9",
+  "number": "13.1.9",
   "title": "",
   "body": "  One radian is defined to be the angle at the center of a circle such that the arc length associated with it is equal to the radius of the circle,     More generally, an angle with associated radius and arc length is given by,    "
 },
@@ -3488,7 +3578,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-ratios-of-non-acute-angles-reference-angles.html",
   "type": "Section",
-  "number": "12.2",
+  "number": "13.2",
   "title": "Ratios of Non-Acute Angles, Reference Angles",
   "body": " Ratios of Non-Acute Angles, Reference Angles    Exact Values of Trigonometric Ratios (Unit Circle) Practice    Exact Trig-Value Practice   Evaluate exactly:      Your answer:   For square roots, type \"sqrt\", not a decimal approximation (for example, type \"sqrt(3)\", or \"sqrt(2)\").    \/\/ === DEFAULTS === const DEFAULT_UNIT = \"deg\"; \/\/ \"deg\", \"rad\", \"mix\" const DEFAULT_TAN = \"no\"; \/\/ \"yes\", \"no\" const DEFAULT_WRAP = \"no\"; \/\/ \"yes\", \"no\" allow negative or > 1 rotation const DEFAULT_RECIP = \"no\"; \/\/ \"yes\", \"no\" const USE_RADIANS = true; \/\/ keep radians available for \"mix\" \/\/ Keys const KEY_UNIT = \"ptxTrigAngleMode_trig-exact-practice\"; const KEY_TAN = \"ptxTrigIncludeTan_trig-exact-practice\"; const KEY_WRAP = \"ptxTrigAllowWrap_trig-exact-practice\"; const KEY_RECIP = \"ptxTrigIncludeRecip_trig-exact-practice\"; \/\/ Safe localStorage read function getPref(key, fallback) { try { if (typeof window !== \"undefined\" && window.localStorage) { return localStorage.getItem(key) || fallback; } } catch(_) {} return fallback; } const prefUnit = getPref(KEY_UNIT, DEFAULT_UNIT); const prefTan = getPref(KEY_TAN, DEFAULT_TAN); const prefWrap = getPref(KEY_WRAP, DEFAULT_WRAP); const prefRecip = getPref(KEY_RECIP, DEFAULT_RECIP); \/\/ === Exact values === const exact = { sin: { 0: \"0\", 30: \"1\/2\", 45: \"sqrt(2)\/2\", 60: \"sqrt(3)\/2\", 90: \"1\", 120: \"sqrt(3)\/2\", 135: \"sqrt(2)\/2\", 150: \"1\/2\", 180: \"0\", 210: \"-1\/2\", 225: \"-sqrt(2)\/2\", 240: \"-sqrt(3)\/2\", 270: \"-1\", 300: \"-sqrt(3)\/2\", 315: \"-sqrt(2)\/2\", 330: \"-1\/2\" } }; exact.cos = {}; exact.tan = {}; \/\/ Build exact cos from exact sin: cos(θ) = sin(θ + 90°) for (let deg in exact.sin) { const d = (Number(deg) + 90) % 360; exact.cos[deg] = exact.sin[d]; } for (let deg in exact.sin) { const s = eval(exact.sin[deg].replace(\/sqrt\/g, \"Math.sqrt\")); const c = eval(exact.cos[deg].replace(\/sqrt\/g, \"Math.sqrt\")); if (Math.abs(c) < 1e-10) { exact.tan[deg] = null; } else { const t = s \/ c; const abs = Math.abs(t); const ts = abs < 1e-10 ? \"0\" : Math.abs(abs - 1) < 1e-10 ? \"1\" : abs < 1 ? \"sqrt(3)\/3\" : \"sqrt(3)\"; exact.tan[deg] = t < 0 ? \"-\" + ts : ts; } } function reciprocal(str) { if (!str || str === \"0\") return null; if (str === \"1\") return \"1\"; if (str === \"sqrt(3)\/3\") return \"sqrt(3)\"; if (str === \"sqrt(3)\") return \"sqrt(3)\/3\"; if (str === \"1\/2\") return \"2\"; if (str === \"sqrt(2)\/2\") return \"sqrt(2)\"; if (str === \"sqrt(3)\/2\") return \"2*sqrt(3)\/3\"; return str.startsWith(\"-\") ? \"-\" + reciprocal(str.slice(1)) : \"1\/(\" + str + \")\"; } exact.csc = Object.fromEntries(Object.entries(exact.sin).map(([d, s]) => [d, reciprocal(s)])); exact.sec = Object.fromEntries(Object.entries(exact.cos).map(([d, s]) => [d, reciprocal(s)])); exact.cot = Object.fromEntries(Object.entries(exact.tan).map(([d, s]) => [d, reciprocal(s)])); \/\/ Build function list from prefs let funcs = [\"sin\", \"cos\"]; if (prefTan === \"yes\") funcs.push(\"tan\"); if (prefRecip === \"yes\") funcs.push(\"csc\", \"sec\", \"cot\"); \/\/ Choose function and angle const baseAngles = Object.keys(exact.sin).map(Number); let func, deg, k, thetaDeg; do { func = funcs[RNG.randInt(0, funcs.length - 1)]; deg = baseAngles[RNG.randInt(0, baseAngles.length - 1)]; if (prefWrap === \"yes\") { k = RNG.randInt(-2, 2); } else { k = 0; } thetaDeg = deg + 360 * k; } while (exact[func][deg] === null); v.func = func; v.answerExpr = exact[func][deg]; function texForDegrees(d) { return d + \"^{\\\\circ}\"; } function texForRadians(d) { const sign = d < 0 ? \"-\" : \"\"; let a = Math.abs(d), b = 180; const gcd = (x, y) => y ? gcd(y, x % y) : x; const g = gcd(a, b); a \/= g; b \/= g; if (a === 0) return \"0\"; if (b === 1) return sign + (a === 1 ? \"\\\\pi\" : (a + \"\\\\pi\")); return sign + (a === 1 ? \"\\\\tfrac{\\\\pi}{\" + b + \"}\" : \"\\\\tfrac{\" + a + \"\\\\pi}{\" + b + \"}\"); } const funcTeX = {sin:\"\\\\sin\", cos:\"\\\\cos\", tan:\"\\\\tan\", csc:\"\\\\csc\", sec:\"\\\\sec\", cot:\"\\\\cot\"}[func]; let useRad; if (prefUnit === \"deg\") useRad = false; else if (prefUnit === \"rad\") useRad = true; else useRad = (USE_RADIANS && RNG.randInt(0,1) === 0); v.exprTeX = funcTeX + \"\\\\bigl(\" + (useRad ? texForRadians(thetaDeg) : texForDegrees(thetaDeg)) + \"\\\\bigr)\"; v.angleTeX = useRad ? texForRadians(thetaDeg) : texForDegrees(thetaDeg);  (function(){ var ex = document.getElementById(\"trig-exact-practice\"); \/\/ Strong cleanup of any legacy UI function removeLegacy(){ if (!ex) return; \/\/ Remove old legacy host entirely var oldHost = ex.querySelector(\"#angle-controls\"); if (oldHost && oldHost.parentNode) oldHost.parentNode.removeChild(oldHost); \/\/ Remove old inputs and their labels if they exist anywhere [\"#deg-only\", \"#rad-only\"].forEach(function(sel){ var input = ex.querySelector(sel); if (input) { var label = input.closest(\"label\"); if (label && label.parentNode) label.parentNode.removeChild(label); } }); \/\/ Remove any leftover \"Angle units:\" title and the old note var strongs = ex.querySelectorAll(\"strong\"); strongs.forEach(function(s){ if (s.textContent.trim().toLowerCase() === \"angle units:\") { \/\/ Try to remove its container row if reasonable var container = s.parentNode; if (container && container.parentNode) { container.parentNode.removeChild(container); } else { s.remove(); } } }); \/\/ Remove the old note text if it survived separately var spans = ex.querySelectorAll(\"span\"); spans.forEach(function(sp){ var t = sp.textContent.trim(); if (t === \" Affects only new questions after you click Randomize.\" || t === \"Affects only new questions after you click Randomize.\") { if (sp.parentNode) sp.parentNode.removeChild(sp); } }); } \/\/ Do cleanup now removeLegacy(); \/\/ Find or create our new host var host = document.getElementById(\"trig-exact-practice-controls\"); if (!host && ex) { host = document.createElement(\"div\"); host.id = \"trig-exact-practice-controls\"; var firstP = ex.querySelector(\"div.statement p, p\"); if (firstP && firstP.parentNode) { firstP.parentNode.insertBefore(host, firstP.nextSibling); } else { ex.appendChild(host); } } if (!host) return; \/\/ Build the new panel var KEY_UNIT = \"ptxTrigAngleMode_trig-exact-practice\"; var KEY_TAN = \"ptxTrigIncludeTan_trig-exact-practice\"; var KEY_WRAP = \"ptxTrigAllowWrap_trig-exact-practice\"; var KEY_RECIP = \"ptxTrigIncludeRecip_trig-exact-practice\"; var DEFAULT_UNIT = \"deg\"; var DEFAULT_TAN = \"no\"; var DEFAULT_WRAP = \"no\"; var DEFAULT_RECIP = \"no\"; function get(key, dflt){ try { return localStorage.getItem(key) || dflt; } catch(_) { return dflt; } } function set(key, val){ try { localStorage.setItem(key, val); } catch(_) {} } function radio(name, id, labelText){ var label = document.createElement(\"label\"); label.style.cursor = \"pointer\"; var input = document.createElement(\"input\"); input.type = \"radio\"; input.name = name; input.id = id; input.style.marginRight = \"0.35rem\"; label.appendChild(input); label.appendChild(document.createTextNode(labelText)); return {label: label, input: input}; } function checkbox(id, text){ var label = document.createElement(\"label\"); label.style.cursor = \"pointer\"; var input = document.createElement(\"input\"); input.type = \"checkbox\"; input.id = id; input.style.marginRight = \"0.35rem\"; label.appendChild(input); label.appendChild(document.createTextNode(text)); return {label: label, input: input}; } host.innerHTML = \"\"; var panel = document.createElement(\"div\"); panel.setAttribute(\"data-ptx-trig-ui\", \"1\"); panel.style.display = \"grid\"; panel.style.gap = \"0.5rem\"; panel.style.margin = \"0.25rem 0 0.5rem\"; var unitTitle = document.createElement(\"strong\"); unitTitle.textContent = \"Units: \"; var unitWrap = document.createElement(\"div\"); unitWrap.style.display = \"flex\"; unitWrap.style.gap = \"1rem\"; var rDeg = radio(\"unit-mode\", \"unit-deg\", \"Degrees only\"); var rRad = radio(\"unit-mode\", \"unit-rad\", \"Radians only\"); var rMix = radio(\"unit-mode\", \"unit-mix\", \"Mixed\"); unitWrap.appendChild(rDeg.label); unitWrap.appendChild(rRad.label); unitWrap.appendChild(rMix.label); var optTitle = document.createElement(\"strong\"); optTitle.textContent = \"Options: \"; var cbTan = checkbox(\"opt-tan\", \"Include tangent\"); var cbWrap = checkbox(\"opt-wrap\", \"Allow negative or more than one full rotation\"); var cbRecip = checkbox(\"opt-recip\", \"Include reciprocal functions\"); var optWrap = document.createElement(\"div\"); optWrap.style.display = \"flex\"; optWrap.style.gap = \"1rem\"; optWrap.style.flexWrap = \"wrap\"; optWrap.appendChild(cbTan.label); optWrap.appendChild(cbWrap.label); optWrap.appendChild(cbRecip.label); var note = document.createElement(\"span\"); note.style.opacity = \"0.8\"; note.style.fontStyle = \"italic\"; note.textContent = \" These settings affect only new questions after you click Randomize.\"; panel.appendChild(unitTitle); panel.appendChild(unitWrap); panel.appendChild(optTitle); panel.appendChild(optWrap); panel.appendChild(note); host.appendChild(panel); \/\/ Load saved values and apply defaults var unit = get(KEY_UNIT, DEFAULT_UNIT); if (unit === \"rad\") rRad.input.checked = true; else if (unit === \"mix\") rMix.input.checked = true; else rDeg.input.checked = true; cbTan.input.checked = get(KEY_TAN, DEFAULT_TAN) === \"yes\"; cbWrap.input.checked = get(KEY_WRAP, DEFAULT_WRAP) === \"yes\"; cbRecip.input.checked = get(KEY_RECIP, DEFAULT_RECIP) === \"yes\"; \/\/ Save on change rDeg.input.addEventListener(\"change\", function(){ if (rDeg.input.checked) set(KEY_UNIT, \"deg\"); }); rRad.input.addEventListener(\"change\", function(){ if (rRad.input.checked) set(KEY_UNIT, \"rad\"); }); rMix.input.addEventListener(\"change\", function(){ if (rMix.input.checked) set(KEY_UNIT, \"mix\"); }); cbTan.input.addEventListener(\"change\", function(){ set(KEY_TAN, cbTan.input.checked ? \"yes\" : \"no\"); }); cbWrap.input.addEventListener(\"change\", function(){ set(KEY_WRAP, cbWrap.input.checked ? \"yes\" : \"no\"); }); cbRecip.input.addEventListener(\"change\", function(){ set(KEY_RECIP, cbRecip.input.checked ? \"yes\" : \"no\"); }); \/\/ Run cleanup once more shortly after load to beat any late legacy script setTimeout(removeLegacy, 60); })();       Correct, great work 🎉    Not quite. Use an exact radical value like , not a decimal.      The exact value is \\ \\!\\bigl( \\bigr) = .        "
 },
@@ -3497,7 +3587,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-ratios-of-non-acute-angles-reference-angles.html#trig-exact-practice",
   "type": "Exercise",
-  "number": "12.2.1.1",
+  "number": "13.2.1.1",
   "title": "Exact Trig-Value Practice.",
   "body": " Exact Trig-Value Practice   Evaluate exactly:      Your answer:   For square roots, type \"sqrt\", not a decimal approximation (for example, type \"sqrt(3)\", or \"sqrt(2)\").    \/\/ === DEFAULTS === const DEFAULT_UNIT = \"deg\"; \/\/ \"deg\", \"rad\", \"mix\" const DEFAULT_TAN = \"no\"; \/\/ \"yes\", \"no\" const DEFAULT_WRAP = \"no\"; \/\/ \"yes\", \"no\" allow negative or > 1 rotation const DEFAULT_RECIP = \"no\"; \/\/ \"yes\", \"no\" const USE_RADIANS = true; \/\/ keep radians available for \"mix\" \/\/ Keys const KEY_UNIT = \"ptxTrigAngleMode_trig-exact-practice\"; const KEY_TAN = \"ptxTrigIncludeTan_trig-exact-practice\"; const KEY_WRAP = \"ptxTrigAllowWrap_trig-exact-practice\"; const KEY_RECIP = \"ptxTrigIncludeRecip_trig-exact-practice\"; \/\/ Safe localStorage read function getPref(key, fallback) { try { if (typeof window !== \"undefined\" && window.localStorage) { return localStorage.getItem(key) || fallback; } } catch(_) {} return fallback; } const prefUnit = getPref(KEY_UNIT, DEFAULT_UNIT); const prefTan = getPref(KEY_TAN, DEFAULT_TAN); const prefWrap = getPref(KEY_WRAP, DEFAULT_WRAP); const prefRecip = getPref(KEY_RECIP, DEFAULT_RECIP); \/\/ === Exact values === const exact = { sin: { 0: \"0\", 30: \"1\/2\", 45: \"sqrt(2)\/2\", 60: \"sqrt(3)\/2\", 90: \"1\", 120: \"sqrt(3)\/2\", 135: \"sqrt(2)\/2\", 150: \"1\/2\", 180: \"0\", 210: \"-1\/2\", 225: \"-sqrt(2)\/2\", 240: \"-sqrt(3)\/2\", 270: \"-1\", 300: \"-sqrt(3)\/2\", 315: \"-sqrt(2)\/2\", 330: \"-1\/2\" } }; exact.cos = {}; exact.tan = {}; \/\/ Build exact cos from exact sin: cos(θ) = sin(θ + 90°) for (let deg in exact.sin) { const d = (Number(deg) + 90) % 360; exact.cos[deg] = exact.sin[d]; } for (let deg in exact.sin) { const s = eval(exact.sin[deg].replace(\/sqrt\/g, \"Math.sqrt\")); const c = eval(exact.cos[deg].replace(\/sqrt\/g, \"Math.sqrt\")); if (Math.abs(c) < 1e-10) { exact.tan[deg] = null; } else { const t = s \/ c; const abs = Math.abs(t); const ts = abs < 1e-10 ? \"0\" : Math.abs(abs - 1) < 1e-10 ? \"1\" : abs < 1 ? \"sqrt(3)\/3\" : \"sqrt(3)\"; exact.tan[deg] = t < 0 ? \"-\" + ts : ts; } } function reciprocal(str) { if (!str || str === \"0\") return null; if (str === \"1\") return \"1\"; if (str === \"sqrt(3)\/3\") return \"sqrt(3)\"; if (str === \"sqrt(3)\") return \"sqrt(3)\/3\"; if (str === \"1\/2\") return \"2\"; if (str === \"sqrt(2)\/2\") return \"sqrt(2)\"; if (str === \"sqrt(3)\/2\") return \"2*sqrt(3)\/3\"; return str.startsWith(\"-\") ? \"-\" + reciprocal(str.slice(1)) : \"1\/(\" + str + \")\"; } exact.csc = Object.fromEntries(Object.entries(exact.sin).map(([d, s]) => [d, reciprocal(s)])); exact.sec = Object.fromEntries(Object.entries(exact.cos).map(([d, s]) => [d, reciprocal(s)])); exact.cot = Object.fromEntries(Object.entries(exact.tan).map(([d, s]) => [d, reciprocal(s)])); \/\/ Build function list from prefs let funcs = [\"sin\", \"cos\"]; if (prefTan === \"yes\") funcs.push(\"tan\"); if (prefRecip === \"yes\") funcs.push(\"csc\", \"sec\", \"cot\"); \/\/ Choose function and angle const baseAngles = Object.keys(exact.sin).map(Number); let func, deg, k, thetaDeg; do { func = funcs[RNG.randInt(0, funcs.length - 1)]; deg = baseAngles[RNG.randInt(0, baseAngles.length - 1)]; if (prefWrap === \"yes\") { k = RNG.randInt(-2, 2); } else { k = 0; } thetaDeg = deg + 360 * k; } while (exact[func][deg] === null); v.func = func; v.answerExpr = exact[func][deg]; function texForDegrees(d) { return d + \"^{\\\\circ}\"; } function texForRadians(d) { const sign = d < 0 ? \"-\" : \"\"; let a = Math.abs(d), b = 180; const gcd = (x, y) => y ? gcd(y, x % y) : x; const g = gcd(a, b); a \/= g; b \/= g; if (a === 0) return \"0\"; if (b === 1) return sign + (a === 1 ? \"\\\\pi\" : (a + \"\\\\pi\")); return sign + (a === 1 ? \"\\\\tfrac{\\\\pi}{\" + b + \"}\" : \"\\\\tfrac{\" + a + \"\\\\pi}{\" + b + \"}\"); } const funcTeX = {sin:\"\\\\sin\", cos:\"\\\\cos\", tan:\"\\\\tan\", csc:\"\\\\csc\", sec:\"\\\\sec\", cot:\"\\\\cot\"}[func]; let useRad; if (prefUnit === \"deg\") useRad = false; else if (prefUnit === \"rad\") useRad = true; else useRad = (USE_RADIANS && RNG.randInt(0,1) === 0); v.exprTeX = funcTeX + \"\\\\bigl(\" + (useRad ? texForRadians(thetaDeg) : texForDegrees(thetaDeg)) + \"\\\\bigr)\"; v.angleTeX = useRad ? texForRadians(thetaDeg) : texForDegrees(thetaDeg);  (function(){ var ex = document.getElementById(\"trig-exact-practice\"); \/\/ Strong cleanup of any legacy UI function removeLegacy(){ if (!ex) return; \/\/ Remove old legacy host entirely var oldHost = ex.querySelector(\"#angle-controls\"); if (oldHost && oldHost.parentNode) oldHost.parentNode.removeChild(oldHost); \/\/ Remove old inputs and their labels if they exist anywhere [\"#deg-only\", \"#rad-only\"].forEach(function(sel){ var input = ex.querySelector(sel); if (input) { var label = input.closest(\"label\"); if (label && label.parentNode) label.parentNode.removeChild(label); } }); \/\/ Remove any leftover \"Angle units:\" title and the old note var strongs = ex.querySelectorAll(\"strong\"); strongs.forEach(function(s){ if (s.textContent.trim().toLowerCase() === \"angle units:\") { \/\/ Try to remove its container row if reasonable var container = s.parentNode; if (container && container.parentNode) { container.parentNode.removeChild(container); } else { s.remove(); } } }); \/\/ Remove the old note text if it survived separately var spans = ex.querySelectorAll(\"span\"); spans.forEach(function(sp){ var t = sp.textContent.trim(); if (t === \" Affects only new questions after you click Randomize.\" || t === \"Affects only new questions after you click Randomize.\") { if (sp.parentNode) sp.parentNode.removeChild(sp); } }); } \/\/ Do cleanup now removeLegacy(); \/\/ Find or create our new host var host = document.getElementById(\"trig-exact-practice-controls\"); if (!host && ex) { host = document.createElement(\"div\"); host.id = \"trig-exact-practice-controls\"; var firstP = ex.querySelector(\"div.statement p, p\"); if (firstP && firstP.parentNode) { firstP.parentNode.insertBefore(host, firstP.nextSibling); } else { ex.appendChild(host); } } if (!host) return; \/\/ Build the new panel var KEY_UNIT = \"ptxTrigAngleMode_trig-exact-practice\"; var KEY_TAN = \"ptxTrigIncludeTan_trig-exact-practice\"; var KEY_WRAP = \"ptxTrigAllowWrap_trig-exact-practice\"; var KEY_RECIP = \"ptxTrigIncludeRecip_trig-exact-practice\"; var DEFAULT_UNIT = \"deg\"; var DEFAULT_TAN = \"no\"; var DEFAULT_WRAP = \"no\"; var DEFAULT_RECIP = \"no\"; function get(key, dflt){ try { return localStorage.getItem(key) || dflt; } catch(_) { return dflt; } } function set(key, val){ try { localStorage.setItem(key, val); } catch(_) {} } function radio(name, id, labelText){ var label = document.createElement(\"label\"); label.style.cursor = \"pointer\"; var input = document.createElement(\"input\"); input.type = \"radio\"; input.name = name; input.id = id; input.style.marginRight = \"0.35rem\"; label.appendChild(input); label.appendChild(document.createTextNode(labelText)); return {label: label, input: input}; } function checkbox(id, text){ var label = document.createElement(\"label\"); label.style.cursor = \"pointer\"; var input = document.createElement(\"input\"); input.type = \"checkbox\"; input.id = id; input.style.marginRight = \"0.35rem\"; label.appendChild(input); label.appendChild(document.createTextNode(text)); return {label: label, input: input}; } host.innerHTML = \"\"; var panel = document.createElement(\"div\"); panel.setAttribute(\"data-ptx-trig-ui\", \"1\"); panel.style.display = \"grid\"; panel.style.gap = \"0.5rem\"; panel.style.margin = \"0.25rem 0 0.5rem\"; var unitTitle = document.createElement(\"strong\"); unitTitle.textContent = \"Units: \"; var unitWrap = document.createElement(\"div\"); unitWrap.style.display = \"flex\"; unitWrap.style.gap = \"1rem\"; var rDeg = radio(\"unit-mode\", \"unit-deg\", \"Degrees only\"); var rRad = radio(\"unit-mode\", \"unit-rad\", \"Radians only\"); var rMix = radio(\"unit-mode\", \"unit-mix\", \"Mixed\"); unitWrap.appendChild(rDeg.label); unitWrap.appendChild(rRad.label); unitWrap.appendChild(rMix.label); var optTitle = document.createElement(\"strong\"); optTitle.textContent = \"Options: \"; var cbTan = checkbox(\"opt-tan\", \"Include tangent\"); var cbWrap = checkbox(\"opt-wrap\", \"Allow negative or more than one full rotation\"); var cbRecip = checkbox(\"opt-recip\", \"Include reciprocal functions\"); var optWrap = document.createElement(\"div\"); optWrap.style.display = \"flex\"; optWrap.style.gap = \"1rem\"; optWrap.style.flexWrap = \"wrap\"; optWrap.appendChild(cbTan.label); optWrap.appendChild(cbWrap.label); optWrap.appendChild(cbRecip.label); var note = document.createElement(\"span\"); note.style.opacity = \"0.8\"; note.style.fontStyle = \"italic\"; note.textContent = \" These settings affect only new questions after you click Randomize.\"; panel.appendChild(unitTitle); panel.appendChild(unitWrap); panel.appendChild(optTitle); panel.appendChild(optWrap); panel.appendChild(note); host.appendChild(panel); \/\/ Load saved values and apply defaults var unit = get(KEY_UNIT, DEFAULT_UNIT); if (unit === \"rad\") rRad.input.checked = true; else if (unit === \"mix\") rMix.input.checked = true; else rDeg.input.checked = true; cbTan.input.checked = get(KEY_TAN, DEFAULT_TAN) === \"yes\"; cbWrap.input.checked = get(KEY_WRAP, DEFAULT_WRAP) === \"yes\"; cbRecip.input.checked = get(KEY_RECIP, DEFAULT_RECIP) === \"yes\"; \/\/ Save on change rDeg.input.addEventListener(\"change\", function(){ if (rDeg.input.checked) set(KEY_UNIT, \"deg\"); }); rRad.input.addEventListener(\"change\", function(){ if (rRad.input.checked) set(KEY_UNIT, \"rad\"); }); rMix.input.addEventListener(\"change\", function(){ if (rMix.input.checked) set(KEY_UNIT, \"mix\"); }); cbTan.input.addEventListener(\"change\", function(){ set(KEY_TAN, cbTan.input.checked ? \"yes\" : \"no\"); }); cbWrap.input.addEventListener(\"change\", function(){ set(KEY_WRAP, cbWrap.input.checked ? \"yes\" : \"no\"); }); cbRecip.input.addEventListener(\"change\", function(){ set(KEY_RECIP, cbRecip.input.checked ? \"yes\" : \"no\"); }); \/\/ Run cleanup once more shortly after load to beat any late legacy script setTimeout(removeLegacy, 60); })();       Correct, great work 🎉    Not quite. Use an exact radical value like , not a decimal.      The exact value is \\ \\!\\bigl( \\bigr) = .   "
 },
@@ -3506,7 +3596,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-quadratic-trigonometric-equations.html",
   "type": "Section",
-  "number": "12.3",
+  "number": "13.3",
   "title": "Quadratic Trigonometric Equations",
   "body": " Quadratic Trigonometric Equations   Some trigonometric equations are quadratic in a particular trigonometric function, in that they involve a trigonometric function being squared. In this way, many methods for solving quadratic equations can be used to solve trig equations.    Notation and Other Powers of a Trigonometric Function  Sometimes, we want to write the square of a trig function. For example, , or . It is common to write this more simply as .   Notation Example  For example, means . Then,    This convention saves space and avoids writing so many brackets with expressions that have many powers involving trigonometric functions. This notation applies in general to all trigonometric functions,   This all works the same with higher powers (e.g. ).  This notation often confuses students when first learning it. In particular, the exponent (2 in this case) applies to the entire trigonometric function, not the angle . In other words,   If you like, whenever you see a squared trig function, you can first write it with brackets, before starting with the problem.    Solving Quadratic Trigonometric Equations   Substitution Idea  Consider . To solve this, you can think of replacing with a single variable ( ), to get . To solve this, you would isolate for , and then take the square root of both sides.   More precisely, if is a quadratic equation, then the equation can be put into the form (or another trigonometric function).    Examples  Factor, and then solve the resulting two (linear) trigonometric equations.   Basic quadratic equation   Solve each equation for , and give the general solution.    .  Answer: . General solution: , , , , OR , .    .  Answer: . General solution: , , OR .     Factoring a common factor   Solve each equation for , and give the general solution.    .  Answer: . General solution: OR or .    .  Answer: . General solution: OR or or .    .  Answer: . General solution: OR .    .  Answer: . General solution: OR or or .    .  Answer: . General solution: OR or or .    .  Answer: . General solution: OR or or .    Note that you can't divide by (or any other trig function), because that assumes that , when in fact can equal 0. This is just like how with the equation , you can't divide by and instead have to factor it out.    Trigonometric Equations in Quadratic Form  Again, it is helpful to think about the equation if the trig function was replaced by a single variable (say, ).   Trigonometric equations in quadratic form   Solve each equation for , and give the general solution. Give exact values for special angles, otherwise give a decimal answer rounded to the nearest hundredth.    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: or .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: or .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .      Advanced   Advanced examples   Solve each equation for , and give the general solution. Give exact values for special angles, otherwise give a decimal answer rounded to the nearest hundredth.    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: or .    .  Answer: . General solution: or or .    .  Answer: . General solution: or .    .  Answer: . General solution: or .    .  Answer: . General solution: .    .  Answer: . General solution: .     Finding Coefficients  The equation has solutions , and on the interval . Find the values of and .    Finding More Coefficients  The equation has solutions on the interval . Find the values of and .    Really difficult  Solve . Hint: write in terms of only, to get , and factor using synthetic division. Answer: . General solution: .    "
 },
@@ -3515,7 +3605,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic-trigonometric-equations.html#notation-powers-trig-3",
   "type": "Example",
-  "number": "12.3.1",
+  "number": "13.3.1",
   "title": "Notation Example.",
   "body": " Notation Example  For example, means . Then,   "
 },
@@ -3524,7 +3614,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic-trigonometric-equations.html#solving-quadratic-trig-eqs-2",
   "type": "Example",
-  "number": "12.3.2",
+  "number": "13.3.2",
   "title": "Substitution Idea.",
   "body": " Substitution Idea  Consider . To solve this, you can think of replacing with a single variable ( ), to get . To solve this, you would isolate for , and then take the square root of both sides.  "
 },
@@ -3533,7 +3623,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic-trigonometric-equations.html#basic-quadratic-eqs",
   "type": "Exercise Group",
-  "number": "12.3.1",
+  "number": "13.3.1",
   "title": "Basic quadratic equation.",
   "body": " Basic quadratic equation   Solve each equation for , and give the general solution.    .  Answer: . General solution: , , , , OR , .    .  Answer: . General solution: , , OR .   "
 },
@@ -3542,7 +3632,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic-trigonometric-equations.html#factoring-common-factor",
   "type": "Exercise Group",
-  "number": "12.3.2",
+  "number": "13.3.2",
   "title": "Factoring a common factor.",
   "body": " Factoring a common factor   Solve each equation for , and give the general solution.    .  Answer: . General solution: OR or .    .  Answer: . General solution: OR or or .    .  Answer: . General solution: OR .    .  Answer: . General solution: OR or or .    .  Answer: . General solution: OR or or .    .  Answer: . General solution: OR or or .   "
 },
@@ -3551,7 +3641,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic-trigonometric-equations.html#trig-eqs-quadratic-form",
   "type": "Exercise Group",
-  "number": "12.3.3",
+  "number": "13.3.3",
   "title": "Trigonometric equations in quadratic form.",
   "body": " Trigonometric equations in quadratic form   Solve each equation for , and give the general solution. Give exact values for special angles, otherwise give a decimal answer rounded to the nearest hundredth.    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: or .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: or .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .   "
 },
@@ -3560,7 +3650,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic-trigonometric-equations.html#advanced-quadratic-eqs",
   "type": "Exercise Group",
-  "number": "12.3.4",
+  "number": "13.3.4",
   "title": "Advanced examples.",
   "body": " Advanced examples   Solve each equation for , and give the general solution. Give exact values for special angles, otherwise give a decimal answer rounded to the nearest hundredth.    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: or .    .  Answer: . General solution: or or .    .  Answer: . General solution: or .    .  Answer: . General solution: or .    .  Answer: . General solution: .    .  Answer: . General solution: .   "
 },
@@ -3569,7 +3659,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic-trigonometric-equations.html#find-a-b",
   "type": "Example",
-  "number": "12.3.3",
+  "number": "13.3.3",
   "title": "Finding Coefficients.",
   "body": " Finding Coefficients  The equation has solutions , and on the interval . Find the values of and .  "
 },
@@ -3578,7 +3668,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic-trigonometric-equations.html#find-b-c",
   "type": "Example",
-  "number": "12.3.4",
+  "number": "13.3.4",
   "title": "Finding More Coefficients.",
   "body": " Finding More Coefficients  The equation has solutions on the interval . Find the values of and .  "
 },
@@ -3587,7 +3677,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic-trigonometric-equations.html#difficult-example",
   "type": "Example",
-  "number": "12.3.5",
+  "number": "13.3.5",
   "title": "Really difficult.",
   "body": " Really difficult  Solve . Hint: write in terms of only, to get , and factor using synthetic division. Answer: . General solution: .  "
 },
@@ -3596,7 +3686,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-intro-to-trigonometric-identities.html",
   "type": "Section",
-  "number": "13.1",
+  "number": "14.1",
   "title": "Intro to Trigonometric Identities",
   "body": " Intro to Trigonometric Identities   In algebra, there are various equations which are always true, called identities.   For example,   These two sides are exactly the same, for any value of and . This is called an identity.   In a similar way, we can consider a trigonometric identity , a trigonometric equation that is true for all values of the variable.  We already know some basic identities, which could almost be called definitions.     Pythagorean Identities  There is also the Pythagorean identity, which comes from the unit circle,   Equivalently,   This identity can be used to derive further identities,   At first, you should solve problems with these identities as a reference. With practice, you will naturally remember them.    Simplifying Trigonometric Expressions   Simplifying Expressions   Simplify each trigonometric expression.     quotient identity, cancel.      expand.      quotient, cancel.      expand, Pythagorean identity.      difference of squares, Pythagorean identity.      quotient identity, Pythagorean identity.      distribute, quotient identity, cancel.      ideally factor as a difference of squares, if not then expand and collect like terms.      combine fractions, collect like terms, Pythagorean identity.      reciprocal identity, combine to one fraction, Pythagorean identity, cancel.      factor out , Pythagorean identity, cancel.      Advanced Examples   Simplify each trigonometric expression.     let , factor numerator and denominator, cancel.      difference of squares, factor the denominator, cancel.      factor out a common factor, difference of squares, cancel.      Write as a Single Trigonometric Ratio   Write each as a single trigonometric ratio.                     Factor Each Trigonometric Expression   Factor each trigonometric expression, and simplify if possible.     difference of squares.      difference of cubes, Pythagorean identity.       Solving Equations Using Identities  As you learn more fundamental trigonometric identities, you will be able to solve more trigonometric equations algebraically.   Solve Each Equation   Solve each equation, by finding all solutions in the interval and the general solution.     Pythagorean identity, leads to , factor, leads to or .  . General solution: .     Pythagorean identity, leads to , factor, leads to .  . General solution: .     Pythagorean identity, leads to , factor, leads to or .  . General solution: .     Pythagorean identity, leads to , factor, leads to or .  . General solution: .     quotient and Pythagorean identity, leads to , factor, leads to or .  . General solution: .     Pythagorean identity, leads to , factor, leads to or .  . General solution: .     "
 },
@@ -3605,7 +3695,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-trigonometric-identities.html#sec-intro-to-trigonometric-identities-2-2",
   "type": "Example",
-  "number": "13.1.1",
+  "number": "14.1.1",
   "title": "",
   "body": " For example,   These two sides are exactly the same, for any value of and . This is called an identity.  "
 },
@@ -3623,7 +3713,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-trigonometric-identities.html#project-simplifying-expressions",
   "type": "Exercise Group",
-  "number": "13.1.1",
+  "number": "14.1.1",
   "title": "Simplifying Expressions.",
   "body": " Simplifying Expressions   Simplify each trigonometric expression.     quotient identity, cancel.      expand.      quotient, cancel.      expand, Pythagorean identity.      difference of squares, Pythagorean identity.      quotient identity, Pythagorean identity.      distribute, quotient identity, cancel.      ideally factor as a difference of squares, if not then expand and collect like terms.      combine fractions, collect like terms, Pythagorean identity.      reciprocal identity, combine to one fraction, Pythagorean identity, cancel.      factor out , Pythagorean identity, cancel.    "
 },
@@ -3632,7 +3722,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-trigonometric-identities.html#project-advanced-simplifying",
   "type": "Exercise Group",
-  "number": "13.1.2",
+  "number": "14.1.2",
   "title": "Advanced Examples.",
   "body": " Advanced Examples   Simplify each trigonometric expression.     let , factor numerator and denominator, cancel.      difference of squares, factor the denominator, cancel.      factor out a common factor, difference of squares, cancel.    "
 },
@@ -3641,7 +3731,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-trigonometric-identities.html#project-single-ratio",
   "type": "Exercise Group",
-  "number": "13.1.3",
+  "number": "14.1.3",
   "title": "Write as a Single Trigonometric Ratio.",
   "body": " Write as a Single Trigonometric Ratio   Write each as a single trigonometric ratio.                   "
 },
@@ -3650,7 +3740,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-trigonometric-identities.html#project-factoring",
   "type": "Exercise Group",
-  "number": "13.1.4",
+  "number": "14.1.4",
   "title": "Factor Each Trigonometric Expression.",
   "body": " Factor Each Trigonometric Expression   Factor each trigonometric expression, and simplify if possible.     difference of squares.      difference of cubes, Pythagorean identity.    "
 },
@@ -3659,7 +3749,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-trigonometric-identities.html#project-solving-equations",
   "type": "Exercise Group",
-  "number": "13.1.5",
+  "number": "14.1.5",
   "title": "Solve Each Equation.",
   "body": " Solve Each Equation   Solve each equation, by finding all solutions in the interval and the general solution.     Pythagorean identity, leads to , factor, leads to or .  . General solution: .     Pythagorean identity, leads to , factor, leads to .  . General solution: .     Pythagorean identity, leads to , factor, leads to or .  . General solution: .     Pythagorean identity, leads to , factor, leads to or .  . General solution: .     quotient and Pythagorean identity, leads to , factor, leads to or .  . General solution: .     Pythagorean identity, leads to , factor, leads to or .  . General solution: .   "
 },
@@ -3668,7 +3758,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-intro-to-proving-trigonometric-identities.html",
   "type": "Section",
-  "number": "13.2",
+  "number": "14.2",
   "title": "Intro to Proving Trigonometric Identities",
   "body": " Intro to Proving Trigonometric Identities   We already know a few fundamental trigonometric identities. Using these, we can prove new and more complicated identities.  Proving a trigonometric identity involves manipulating one side of the equation algebraically, to show that both sides of the equation are equivalent.    Verifying a Trigonometric Identity by Graphing  A simple way to verify if an equation is an identity is to graph both sides using a graphing calculator, like Desmos .  If an equation is an identity, then both sides of the equation will be equal for all values of the variable, and so the graph of each side will coincide (i.e. overlap each other).    If both graphs overlap completely, the equation is an identity.    On the other hand, if the two graphs don't match at even a single point, then the equation is not an identity.     Desmos Verification   Verify that using a graphing calculator. Observe how they coincide (overlap): Desmos graph .      Verifying Identities    Verify for .      General Principles for Proving Identities  This topic is often considered one of the most challenging by students, because:    It involves a culmination of a variety of algebra techniques learned over the course of high school math.    It requires some creativity and ingenuity to choose a strategy.    It is more abstract, symbolic reasoning, with basically no visualizations.    Here are some general principles:     Rewrite everything in terms of sine and cosine . All trigonometric ratios can be written in terms of the basic trig ratios sine and cosine.     The one exception is if the entire identity includes only tangent and\/or cotangent, in which case it is usually simpler to convert everything in terms of tangent.     Start with the more complicated side . In general,    Tangent is more complicated than sine and cosine.    Reciprocal trig functions are more complicated than primary trig functions (sine, cosine, tangent).    Multiple terms are more complicated than a single term.    You want to start with the more complicated side, because it is easier to start from something complex and simplify it, rather than start from something simple and make it more complex.     Begin with the end in mind . Look at the form of the desired side before you start, and guide your work toward that structure. Especially helpful if you are stuck and unsure how to continue.    Here are some particular algebraic tactics:    Combine fractions, using a common denominator.    Simplify complex fractions, by clearing denominators (multiply the numerator and denominator by the LCD).    Use algebraic identities, e.g. difference of squares, square of a sum, etc.   For example,    .    .      Convert to or vise versa, using the Pythagorean identity:     Multiply by the conjugate, in order to use the previous strategy (Pythagorean identity). Particularly if you see .    Use all trigonometric identities available to you. When practicing, have a list of them for reference, and you'll naturally be more comfortable with them over time.      Examples   Basic Examples   Prove each trigonometric identity.     rewrite in terms of sine and cosine, cancel common factors.     rewrite in terms of sine and cosine, cancel common factors.     rewrite in terms of sine and cosine, simplify fractions.     rewrite in terms of sine and cosine, cancel common factors.     rewrite in terms of sine and cosine, cancel common factors.     expand, rewrite in terms of sine and cosine.     work with both sides, rewrite in terms of sine and cosine, cancel common factors.     Practice with the Pythagorean Identity   Prove each trigonometric identity.     Pythagorean identity, cancel common factors.     Pythagorean identity, rewrite in terms of sine and cosine.     Pythagorean identity, rewrite in terms of sine and cosine.     expand, Pythagorean identity.     start with LHS, combine fractions, Pythagorean identity.     combine fractions, Pythagorean identity.     rewrite in terms of sine and cosine, cancel common factors, Pythagorean identity.     rewrite in terms of sine and cosine, distribute.     start with either side, combine fractions (or split fraction).     rewrite in terms of sine and cosine, cancel common factors, Pythagorean identity.     rewrite in terms of sine and cosine, combine fractions with a common denominator, Pythagorean identity.     factor out common factor, Pythagorean identity (or rewrite in terms of sine and cosine, cancel common factors, Pythagorean identity).     rewrite in terms of sine and cosine, Pythagorean identity.     work with both sides, Pythagorean identity, combine fraction with a common denominator.     rewrite in terms of sine and cosine, combine fractions, Pythagorean identity.     Mixed Identity Proofs I   Prove each trigonometric identity.     Pythagorean identity, factor difference of squares, cancel common factors.     factor common factor, rewrite in terms of sine and cosine, Pythagorean identity.     start with either side, combine fractions with a common denominator (or split fraction).     multiply by the conjugate, Pythagorean identity, cancel common factors.     rewrite in terms of sine and cosine, simplify complex fractions by clearing denominators, simplify and cancel common factors.     Pythagorean identity, rewrite in terms of sine and cosine, simplify.     start with either side, multiply by the conjugate, Pythagorean identity, cancel common factors.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor common factors, cancel common factors.     multiply by the conjugate, Pythagorean identity, cancel common factors.     multiply by the conjugate, Pythagorean identity, cancel common factors.     factor common factors, Pythagorean identity.     Pythagorean identity, simplify.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor out common factors, cancel common factors.     Mixed Identity Proofs II   Prove each trigonometric identity.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor and cancel common factors.     simplify complex fraction by clearing denominators, factor and cancel common factors.     can start with either side, multiply by the conjugate, Pythagorean identity.     combine fractions with a common denominator, Pythagorean identity.     start with the RHS, rewrite in terms of sine and cosine, combine fractions with a common denominator, Pythagorean identity.     rewrite in terms of tangent, simplify complex fraction by clearing denominators, cancel common factors.     rewrite in terms of sine and cosine, combine fractions with a common denominator, Pythagorean identity, simplify.     rewrite in terms of sine and cosine, combine fractions with a common denominator, cancel common factors.     start with the RHS, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, cancel common factors.     combine fractions with a common denominator, combine like terms, Pythagorean identity.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, combine fractions with a common denominator, Pythagorean identity.     factor common factors, Pythagorean identity.     expand, rewrite in terms of sine and cosine, cancel common factors, combine fractions with a common denominator, Pythagorean identity.     start with the LHS, rewrite in terms of sine and cosine, Pythagorean identity.     start with the LHS, combine fraction with a common denominator.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor and cancel common factors.     multiply by the conjugate, Pythagorean identity, cancel common factors.      Advanced Examples   Advanced Identity Proofs I   Prove each trigonometric identity.     work with both sides, rewrite in terms of sine and cosine, simplify complex fractions by clearing denominators, cancel common factors, factor difference of squares (or multiply by the conjugate).     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, Pythagorean identity.     rewrite in terms of sine and cosine, combine fractions, Pythagorean identity, factor out common factor, cancel common factors.     factor difference of squares, Pythagorean identity.     start with either side, rewrite in terms of sine and cosine, combine fractions with a common denominator.     start with the RHS, rewrite in terms of sine and cosine, combine fractions with a common denominator, Pythagorean identity.     combine fractions with a common denominator, Pythagorean identity, cancel common factors.     rewrite in terms of sine and cosine, simplify complex fractions by clearing denominators, Pythagorean identity.     rewrite in terms of sine and cosine, combine fractions, Pythagorean identity.     difference of squares, Pythagorean identity.     difference of squares, Pythagorean identity, cancel common factors.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, cancel common factors.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators.     start with the LHS, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, cancel common factors.     Advanced Identity Proofs II   Prove each trigonometric identity.     combine fractions with a common denominator, Pythagorean identity, cancel common factors.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, cancel common factors.     start with the LHS, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, multiply by the conjugate, Pythagorean identity.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, Pythagorean identity, cancel common factors.     start with the RHS, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, multiply by the conjugate, Pythagorean identity.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor and cancel common factors.     simplify complex fraction by clearing denominators, Pythagorean identity.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor out common factor, cancel common factors.     start with the LHS but RHS works also, simplify complex fraction by clearing denominators, cancel common factors, Pythagorean identity, factor and cancel.     rewrite in terms of sine and cosine, common denominator, Pythagorean identity, simplify.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, Pythagorean identity, simplify and cancel.     expand, rewrite in terms of sine and cosine, combine fractions, Pythagorean identity, factor difference of squares (or multiply by the conjugate), cancel common factors.     difference of squares, Pythagorean identity, simplify.     work with both sides, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor difference of squares (or multiply by the conjugate), cancel.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, cancel common factors.     start with either side, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, multiply by the conjugate (or factor difference of squares), Pythagorean identity.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, combine fraction with a common denominator.     start with either side, rewrite in terms of sine and cosine, distribute, combine fractions with a common denominator, simplify complex fraction by clearing denominators, multiply by the conjugate, Pythagorean identity.     combine fractions with a common denominator, Pythagorean identity.     "
 },
@@ -3677,7 +3767,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-proving-trigonometric-identities.html#subsec-verifying-graphing-5",
   "type": "Example",
-  "number": "13.2.1",
+  "number": "14.2.1",
   "title": "Desmos Verification.",
   "body": " Desmos Verification   Verify that using a graphing calculator. Observe how they coincide (overlap): Desmos graph .   "
 },
@@ -3686,7 +3776,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-proving-trigonometric-identities.html#subsec-verifying-identities-example-2",
   "type": "Example",
-  "number": "13.2.2",
+  "number": "14.2.2",
   "title": "",
   "body": "  Verify for .   "
 },
@@ -3695,7 +3785,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-proving-trigonometric-identities.html#subsec-identity-examples-2",
   "type": "Exercise Group",
-  "number": "13.2.1",
+  "number": "14.2.1",
   "title": "Basic Examples.",
   "body": " Basic Examples   Prove each trigonometric identity.     rewrite in terms of sine and cosine, cancel common factors.     rewrite in terms of sine and cosine, cancel common factors.     rewrite in terms of sine and cosine, simplify fractions.     rewrite in terms of sine and cosine, cancel common factors.     rewrite in terms of sine and cosine, cancel common factors.     expand, rewrite in terms of sine and cosine.     work with both sides, rewrite in terms of sine and cosine, cancel common factors.   "
 },
@@ -3704,7 +3794,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-proving-trigonometric-identities.html#subsec-identity-examples-3",
   "type": "Exercise Group",
-  "number": "13.2.2",
+  "number": "14.2.2",
   "title": "Practice with the Pythagorean Identity.",
   "body": " Practice with the Pythagorean Identity   Prove each trigonometric identity.     Pythagorean identity, cancel common factors.     Pythagorean identity, rewrite in terms of sine and cosine.     Pythagorean identity, rewrite in terms of sine and cosine.     expand, Pythagorean identity.     start with LHS, combine fractions, Pythagorean identity.     combine fractions, Pythagorean identity.     rewrite in terms of sine and cosine, cancel common factors, Pythagorean identity.     rewrite in terms of sine and cosine, distribute.     start with either side, combine fractions (or split fraction).     rewrite in terms of sine and cosine, cancel common factors, Pythagorean identity.     rewrite in terms of sine and cosine, combine fractions with a common denominator, Pythagorean identity.     factor out common factor, Pythagorean identity (or rewrite in terms of sine and cosine, cancel common factors, Pythagorean identity).     rewrite in terms of sine and cosine, Pythagorean identity.     work with both sides, Pythagorean identity, combine fraction with a common denominator.     rewrite in terms of sine and cosine, combine fractions, Pythagorean identity.   "
 },
@@ -3713,7 +3803,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-proving-trigonometric-identities.html#subsec-identity-examples-4",
   "type": "Exercise Group",
-  "number": "13.2.3",
+  "number": "14.2.3",
   "title": "Mixed Identity Proofs I.",
   "body": " Mixed Identity Proofs I   Prove each trigonometric identity.     Pythagorean identity, factor difference of squares, cancel common factors.     factor common factor, rewrite in terms of sine and cosine, Pythagorean identity.     start with either side, combine fractions with a common denominator (or split fraction).     multiply by the conjugate, Pythagorean identity, cancel common factors.     rewrite in terms of sine and cosine, simplify complex fractions by clearing denominators, simplify and cancel common factors.     Pythagorean identity, rewrite in terms of sine and cosine, simplify.     start with either side, multiply by the conjugate, Pythagorean identity, cancel common factors.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor common factors, cancel common factors.     multiply by the conjugate, Pythagorean identity, cancel common factors.     multiply by the conjugate, Pythagorean identity, cancel common factors.     factor common factors, Pythagorean identity.     Pythagorean identity, simplify.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor out common factors, cancel common factors.   "
 },
@@ -3722,7 +3812,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-proving-trigonometric-identities.html#subsec-identity-examples-5",
   "type": "Exercise Group",
-  "number": "13.2.4",
+  "number": "14.2.4",
   "title": "Mixed Identity Proofs II.",
   "body": " Mixed Identity Proofs II   Prove each trigonometric identity.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor and cancel common factors.     simplify complex fraction by clearing denominators, factor and cancel common factors.     can start with either side, multiply by the conjugate, Pythagorean identity.     combine fractions with a common denominator, Pythagorean identity.     start with the RHS, rewrite in terms of sine and cosine, combine fractions with a common denominator, Pythagorean identity.     rewrite in terms of tangent, simplify complex fraction by clearing denominators, cancel common factors.     rewrite in terms of sine and cosine, combine fractions with a common denominator, Pythagorean identity, simplify.     rewrite in terms of sine and cosine, combine fractions with a common denominator, cancel common factors.     start with the RHS, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, cancel common factors.     combine fractions with a common denominator, combine like terms, Pythagorean identity.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, combine fractions with a common denominator, Pythagorean identity.     factor common factors, Pythagorean identity.     expand, rewrite in terms of sine and cosine, cancel common factors, combine fractions with a common denominator, Pythagorean identity.     start with the LHS, rewrite in terms of sine and cosine, Pythagorean identity.     start with the LHS, combine fraction with a common denominator.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor and cancel common factors.     multiply by the conjugate, Pythagorean identity, cancel common factors.   "
 },
@@ -3731,7 +3821,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-proving-trigonometric-identities.html#subsec-advanced-examples-2",
   "type": "Exercise Group",
-  "number": "13.2.5",
+  "number": "14.2.5",
   "title": "Advanced Identity Proofs I.",
   "body": " Advanced Identity Proofs I   Prove each trigonometric identity.     work with both sides, rewrite in terms of sine and cosine, simplify complex fractions by clearing denominators, cancel common factors, factor difference of squares (or multiply by the conjugate).     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, Pythagorean identity.     rewrite in terms of sine and cosine, combine fractions, Pythagorean identity, factor out common factor, cancel common factors.     factor difference of squares, Pythagorean identity.     start with either side, rewrite in terms of sine and cosine, combine fractions with a common denominator.     start with the RHS, rewrite in terms of sine and cosine, combine fractions with a common denominator, Pythagorean identity.     combine fractions with a common denominator, Pythagorean identity, cancel common factors.     rewrite in terms of sine and cosine, simplify complex fractions by clearing denominators, Pythagorean identity.     rewrite in terms of sine and cosine, combine fractions, Pythagorean identity.     difference of squares, Pythagorean identity.     difference of squares, Pythagorean identity, cancel common factors.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, cancel common factors.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators.     start with the LHS, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, cancel common factors.   "
 },
@@ -3740,7 +3830,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-proving-trigonometric-identities.html#subsec-advanced-examples-3",
   "type": "Exercise Group",
-  "number": "13.2.6",
+  "number": "14.2.6",
   "title": "Advanced Identity Proofs II.",
   "body": " Advanced Identity Proofs II   Prove each trigonometric identity.     combine fractions with a common denominator, Pythagorean identity, cancel common factors.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, cancel common factors.     start with the LHS, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, multiply by the conjugate, Pythagorean identity.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, Pythagorean identity, cancel common factors.     start with the RHS, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, multiply by the conjugate, Pythagorean identity.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor and cancel common factors.     simplify complex fraction by clearing denominators, Pythagorean identity.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor out common factor, cancel common factors.     start with the LHS but RHS works also, simplify complex fraction by clearing denominators, cancel common factors, Pythagorean identity, factor and cancel.     rewrite in terms of sine and cosine, common denominator, Pythagorean identity, simplify.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, Pythagorean identity, simplify and cancel.     expand, rewrite in terms of sine and cosine, combine fractions, Pythagorean identity, factor difference of squares (or multiply by the conjugate), cancel common factors.     difference of squares, Pythagorean identity, simplify.     work with both sides, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor difference of squares (or multiply by the conjugate), cancel.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, cancel common factors.     start with either side, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, multiply by the conjugate (or factor difference of squares), Pythagorean identity.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, combine fraction with a common denominator.     start with either side, rewrite in terms of sine and cosine, distribute, combine fractions with a common denominator, simplify complex fraction by clearing denominators, multiply by the conjugate, Pythagorean identity.     combine fractions with a common denominator, Pythagorean identity.   "
 },
@@ -3749,7 +3839,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-sum-and-difference-identities.html",
   "type": "Section",
-  "number": "13.3",
+  "number": "14.3",
   "title": "Sum and Difference Identities",
   "body": " Sum and Difference Identities   The sum identities say that if you know about two angles and , you can also find sine (or cosine, or tangent) of the two angles added together . The difference identities do the same for the difference (subtraction) .   These identities are maybe the most challenging to remember at first, so definitely keep them available when practicing.  The 6 identities can be written more concisely as,   Notice that for cosine and tangent, the left has while the right has a sign, which means that on the left goes with on the right, and on the left goes with on the right.    Finding Exact Values Examples  The sum and difference identities can be used to find trigonometric ratios (like sine, cosine, and tangent) for several angles not typically found on the unit circle (i.e. not just and their multiples).   Cosine of 105 Degrees  Find . We can calculate this, because is the sum of two special angles (which we know about). Then, the sum identity for cosine says,   This answer is correct, however we can continue to simplify the result into one fraction,   Therefore, .    Tangent of 5 Pi over 12  Find . Here, after some trial and error, . Then,   This answer is correct, however we can continue to simplify the result,   This is a solid final answer. However, some instructors will expect that you rationalize the denominator to fully simplify,   Therefore, .   This works for any angle which can be written as the sum of two special angles (or the difference of two special angles). Here are some of the common ones.        Notice that there is often more than one way to write it (but maybe there is one easier way). For example, , but also . Also, in radians,         Evaluating Trigonometric Ratios   Evaluate each trigonometric ratio exactly, and simplify your answer.             (or rationalized )             (or rationalized, )     is one combination.      is one combination.      is one combination.  or              In fact, there are only a relatively limited number of questions of this type that your teacher can give you. Here are pretty much all of them summarized in a table (between and ),   Of course, you shouldn't memorize this table, but it's just to give you an idea of the question style you should expect, and the style of the final answer.     Exact Values with Variable Angles   Variable Angles Exercises   Find the desired trigonometric ratios in exact value, from the given information.    Let be in quadrant IV with . Find .     Let both be in quadrant I, with . Find and .     Given that , find .  or    If and , with in quadrant II and in quadrant IV, find .     Given that and is in quadrant I, find .     Given is in quadrant 2 and , and is in quadrant 3 and , find , and .  (or rationalized is ), (or rationalized ),    Given is in quadrant II with and is in quadrant III with , find , and .     Given that and is is quadrant 2, and and is in quadrant 4, find .     Given that , find .     Given that and is in quadrant I, find .     If both and are third quadrant angles and , find if .     Given that and is in quadrant II, and and is in quadrant IV, find .     Given that and is in quadrant III, and and is in quadrant II, find .       Simplifying Expressions Using Sum and Difference Identities   Writing as a Single Trigonometric Function   Write each expression as a single trigonometric function.                 Simplify and Find Exact Values   Simplify and find an exact value for each expression.                                                       Simplifying Using Sum or Difference Identities   Simplify each expression using a sum or difference identity.                                                                         Simplifying to Single Function   Simplify each expression into a single trigonometric function.                     Simplifying Complex Expressions   Simplify each expression.                      Proving Identities with Sum and Difference Examples   Proving Trigonometric Identities   Prove each trigonometric identity.     sum and difference identity, expand, collect like terms.     sum and difference identity, expand, collect like terms, Pythagorean identity.     sum and difference identity, collect like terms.     rewrite in terms of sine and cosine, sum and difference identity.                              Solving Equations Using the Sum and Difference Identities   Solving Trigonometric Equations   Solve each equation, for (or ).                                                  Other Examples   Amplitude, Period, and Phase Shift   Find the amplitude, period, and phase shift of each function.     , amplitude is 1, period is , phase shift is 0.     , amplitude is 3, period is 12, phase shift is left 2.     , amplitude is 3, period is 12, phase shift is left 2.     , amplitude is , period is , phase shift is left .     , amplitude is 2, period is , phase shift is left .     , amplitude is 1, period is 8, phase shift is left 4.     "
 },
@@ -3758,7 +3848,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-sum-and-difference-identities.html#subsection-finding-exact-values-3",
   "type": "Example",
-  "number": "13.3.1",
+  "number": "14.3.1",
   "title": "Cosine of 105 Degrees.",
   "body": " Cosine of 105 Degrees  Find . We can calculate this, because is the sum of two special angles (which we know about). Then, the sum identity for cosine says,   This answer is correct, however we can continue to simplify the result into one fraction,   Therefore, .  "
 },
@@ -3767,7 +3857,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-sum-and-difference-identities.html#subsection-finding-exact-values-4",
   "type": "Example",
-  "number": "13.3.2",
+  "number": "14.3.2",
   "title": "Tangent of 5 Pi over 12.",
   "body": " Tangent of 5 Pi over 12  Find . Here, after some trial and error, . Then,   This answer is correct, however we can continue to simplify the result,   This is a solid final answer. However, some instructors will expect that you rationalize the denominator to fully simplify,   Therefore, .  "
 },
@@ -3776,7 +3866,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-sum-and-difference-identities.html#subsection-finding-exact-values-9",
   "type": "Exercise Group",
-  "number": "13.3.1",
+  "number": "14.3.1",
   "title": "Evaluating Trigonometric Ratios.",
   "body": " Evaluating Trigonometric Ratios   Evaluate each trigonometric ratio exactly, and simplify your answer.             (or rationalized )             (or rationalized, )     is one combination.      is one combination.      is one combination.  or            "
 },
@@ -3785,7 +3875,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-sum-and-difference-identities.html#subsection-finding-exact-values-10",
   "type": "Remark",
-  "number": "13.3.3",
+  "number": "14.3.3",
   "title": "",
   "body": " In fact, there are only a relatively limited number of questions of this type that your teacher can give you. Here are pretty much all of them summarized in a table (between and ),   Of course, you shouldn't memorize this table, but it's just to give you an idea of the question style you should expect, and the style of the final answer.  "
 },
@@ -3794,7 +3884,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-sum-and-difference-identities.html#subsection-exact-values-variable-2",
   "type": "Exercise Group",
-  "number": "13.3.2",
+  "number": "14.3.2",
   "title": "Variable Angles Exercises.",
   "body": " Variable Angles Exercises   Find the desired trigonometric ratios in exact value, from the given information.    Let be in quadrant IV with . Find .     Let both be in quadrant I, with . Find and .     Given that , find .  or    If and , with in quadrant II and in quadrant IV, find .     Given that and is in quadrant I, find .     Given is in quadrant 2 and , and is in quadrant 3 and , find , and .  (or rationalized is ), (or rationalized ),    Given is in quadrant II with and is in quadrant III with , find , and .     Given that and is is quadrant 2, and and is in quadrant 4, find .     Given that , find .     Given that and is in quadrant I, find .     If both and are third quadrant angles and , find if .     Given that and is in quadrant II, and and is in quadrant IV, find .     Given that and is in quadrant III, and and is in quadrant II, find .    "
 },
@@ -3803,7 +3893,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-sum-and-difference-identities.html#subsection-simplifying-expressions-2",
   "type": "Exercise Group",
-  "number": "13.3.3",
+  "number": "14.3.3",
   "title": "Writing as a Single Trigonometric Function.",
   "body": " Writing as a Single Trigonometric Function   Write each expression as a single trigonometric function.               "
 },
@@ -3812,7 +3902,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-sum-and-difference-identities.html#subsection-simplifying-expressions-3",
   "type": "Exercise Group",
-  "number": "13.3.4",
+  "number": "14.3.4",
   "title": "Simplify and Find Exact Values.",
   "body": " Simplify and Find Exact Values   Simplify and find an exact value for each expression.                                                     "
 },
@@ -3821,7 +3911,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-sum-and-difference-identities.html#subsection-simplifying-expressions-4",
   "type": "Exercise Group",
-  "number": "13.3.5",
+  "number": "14.3.5",
   "title": "Simplifying Using Sum or Difference Identities.",
   "body": " Simplifying Using Sum or Difference Identities   Simplify each expression using a sum or difference identity.                                                                       "
 },
@@ -3830,7 +3920,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-sum-and-difference-identities.html#subsection-simplifying-expressions-5",
   "type": "Exercise Group",
-  "number": "13.3.6",
+  "number": "14.3.6",
   "title": "Simplifying to Single Function.",
   "body": " Simplifying to Single Function   Simplify each expression into a single trigonometric function.                   "
 },
@@ -3839,7 +3929,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-sum-and-difference-identities.html#subsection-simplifying-expressions-6",
   "type": "Exercise Group",
-  "number": "13.3.7",
+  "number": "14.3.7",
   "title": "Simplifying Complex Expressions.",
   "body": " Simplifying Complex Expressions   Simplify each expression.                   "
 },
@@ -3848,7 +3938,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-sum-and-difference-identities.html#subsection-proving-identities-2",
   "type": "Exercise Group",
-  "number": "13.3.8",
+  "number": "14.3.8",
   "title": "Proving Trigonometric Identities.",
   "body": " Proving Trigonometric Identities   Prove each trigonometric identity.     sum and difference identity, expand, collect like terms.     sum and difference identity, expand, collect like terms, Pythagorean identity.     sum and difference identity, collect like terms.     rewrite in terms of sine and cosine, sum and difference identity.                           "
 },
@@ -3857,7 +3947,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-sum-and-difference-identities.html#subsection-solving-equations-2",
   "type": "Exercise Group",
-  "number": "13.3.9",
+  "number": "14.3.9",
   "title": "Solving Trigonometric Equations.",
   "body": " Solving Trigonometric Equations   Solve each equation, for (or ).                                               "
 },
@@ -3866,7 +3956,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-sum-and-difference-identities.html#subsection-other-examples-2",
   "type": "Exercise Group",
-  "number": "13.3.10",
+  "number": "14.3.10",
   "title": "Amplitude, Period, and Phase Shift.",
   "body": " Amplitude, Period, and Phase Shift   Find the amplitude, period, and phase shift of each function.     , amplitude is 1, period is , phase shift is 0.     , amplitude is 3, period is 12, phase shift is left 2.     , amplitude is 3, period is 12, phase shift is left 2.     , amplitude is , period is , phase shift is left .     , amplitude is 2, period is , phase shift is left .     , amplitude is 1, period is 8, phase shift is left 4.   "
 },
@@ -3875,7 +3965,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-double-angle-identities.html",
   "type": "Section",
-  "number": "13.4",
+  "number": "14.4",
   "title": "Double-Angle Identities",
   "body": " Double-Angle Identities   Identities about double angles can be derived from the sum and difference identities.   These are expressions for the trigonometric ratios of double angles ( , and ), in terms of their associated single angles ( , and ).    Finding Exact Value Examples   Evaluate Expressions Exactly   Evaluate each expression exactly, using a double-angle identity.                             Expand Expressions   Expand each expression, using a double-angle identity.     ( is double )      ( is double )                Exact Values with Variable Angles   Find Exact Values from Information   Find the exact value of each trigonometric ratio, from the given information.    If , where , then find and .     Let and . Find and .     Let be an angle in quadrant III with . find and .     If and is in quadrant III, find and .     If and . Find and .     If and is in quadrant III, find .       Simplify Using Double-Angle Identities   Simplify Expressions   Simplify each expression as a single trigonometric function.                         choose the double angle for cosine which cancels out the 1 in the denominator          choose the double angle for cosine which cancels out the in the numerator          choose the double angle for cosine which cancels out the in the numerator                      use a double-angle identity, do not expand                               Equations Using Double-Angle Identities   Solve Trigonometric Equations   Solve each equation, by finding all solutions in the interval .                                                          Proving Identities with Double Angles   Prove Trigonometric Identities   Prove each trigonometric identity.     Pythagorean identity, double-angle identity     reciprocal identity, double-angle identity     double-angle identity, reciprocal identity     double-angle identities, cancel     expand, Pythagorean identity, double-angle identity     double-angle identity     double-angle identity, rewrite in terms of sine and cosine, distribute, cancel common factors     double-angle identity, cancel common factors     Prove More Trigonometric Identities   Prove each trigonometric identity.     start with both sides, double-angle identity, clear denominators, cancel     convert to sine and cosine, clear denominators, Pythagorean identity, double-angle identity     work with both sides, double-angle identity, cancel common factors     work with both sides, rewrite in terms of tangent, simplify complex fraction by clearing denominators     work with both sides, double-angle identity, factor quadratic trinomial, cancel common factors, rewrite in terms of sine and cosine, combine fractions (or split fraction)     start with the LHS, double-angle identity, factor out common factor, cancel common factors, multiply by the conjugate     work with both sides, double-angle identity, cancel common factors, Pythagorean identity (or rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators)     work with both sides, double-angle identity, rewrite in terms of sine and cosine, distribute, Pythagorean identity      Advanced Examples   Geometric Mean  Find the geometric mean of and , in terms of only. Note: the geometric mean of two numbers and is .     Exact Value with Variables  Given that and is in quadrant , find the exact value of in terms of .      Tangent Expression  Given that and is in quadrant , find an expression for in terms of .  , and simplify the complex fraction     Double Angle Tangent  If and , find .  to find , divide both sides of the equation by      Proofs of Double-Angle Identities  The double-angle identities are derived from the sum and difference identities, by adding the same angle to itself.   Using the sum and difference identities, for   For ,   Then, for the 2nd form of the cosine identity, use the Pythagorean identity,   And, for the 3rd form,   Also, for ,      Triple-Angle Identities  We can also find expressions for and in terms of their associated single angles, using the sum and difference identities and the double-angle identities. In other words, triple-angle identities. We can think of as ,   Here, there are and . For , we have . For , there are 3 options, and we will choose , because we want the final expression to be in terms of cosine only.   We will replace , again because we want everything in terms of cosine only,   In summary,   Similarly, you can find that,    Sine Triple-Angle Identity Proof  Prove the identity .   We can also find an expression for in terms of its associated single angle, using the sum and difference identities and the double-angle identities. In other words, another triple-angle identity. We again think of as ,   Here, there are and . For , we have . For , there are 3 options, and we will choose , because we want the final expression to be in terms of sine only.   We will replace , again because we want everything in terms of sine only,     Similarly, we can find a tangent triple-angle identity,    Tangent Triple-Angle Identity Proof  Prove the identity .   We can also find an expression for in terms of its associated single angle, using the sum and difference identities and the double-angle identities. In other words, another triple-angle identity. We again think of as ,   Here, there is . For we have the double-angle identity   Then,   To simplify this complex fraction, clear denominators by multiplying the numerator and denominator by ,      "
 },
@@ -3884,7 +3974,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-double-angle-identities.html#project-evaluate-exact-expressions",
   "type": "Exercise Group",
-  "number": "13.4.1",
+  "number": "14.4.1",
   "title": "Evaluate Expressions Exactly.",
   "body": " Evaluate Expressions Exactly   Evaluate each expression exactly, using a double-angle identity.                           "
 },
@@ -3893,7 +3983,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-double-angle-identities.html#project-expand-expressions",
   "type": "Exercise Group",
-  "number": "13.4.2",
+  "number": "14.4.2",
   "title": "Expand Expressions.",
   "body": " Expand Expressions   Expand each expression, using a double-angle identity.     ( is double )      ( is double )             "
 },
@@ -3902,7 +3992,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-double-angle-identities.html#project-exact-values-variables",
   "type": "Exercise Group",
-  "number": "13.4.3",
+  "number": "14.4.3",
   "title": "Find Exact Values from Information.",
   "body": " Find Exact Values from Information   Find the exact value of each trigonometric ratio, from the given information.    If , where , then find and .     Let and . Find and .     Let be an angle in quadrant III with . find and .     If and is in quadrant III, find and .     If and . Find and .     If and is in quadrant III, find .    "
 },
@@ -3911,7 +4001,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-double-angle-identities.html#project-simplify-expressions",
   "type": "Exercise Group",
-  "number": "13.4.4",
+  "number": "14.4.4",
   "title": "Simplify Expressions.",
   "body": " Simplify Expressions   Simplify each expression as a single trigonometric function.                         choose the double angle for cosine which cancels out the 1 in the denominator          choose the double angle for cosine which cancels out the in the numerator          choose the double angle for cosine which cancels out the in the numerator                      use a double-angle identity, do not expand                            "
 },
@@ -3920,7 +4010,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-double-angle-identities.html#project-solve-equations",
   "type": "Exercise Group",
-  "number": "13.4.5",
+  "number": "14.4.5",
   "title": "Solve Trigonometric Equations.",
   "body": " Solve Trigonometric Equations   Solve each equation, by finding all solutions in the interval .                                                       "
 },
@@ -3929,7 +4019,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-double-angle-identities.html#project-proving-identities-1",
   "type": "Exercise Group",
-  "number": "13.4.6",
+  "number": "14.4.6",
   "title": "Prove Trigonometric Identities.",
   "body": " Prove Trigonometric Identities   Prove each trigonometric identity.     Pythagorean identity, double-angle identity     reciprocal identity, double-angle identity     double-angle identity, reciprocal identity     double-angle identities, cancel     expand, Pythagorean identity, double-angle identity     double-angle identity     double-angle identity, rewrite in terms of sine and cosine, distribute, cancel common factors     double-angle identity, cancel common factors   "
 },
@@ -3938,7 +4028,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-double-angle-identities.html#project-proving-identities-2",
   "type": "Exercise Group",
-  "number": "13.4.7",
+  "number": "14.4.7",
   "title": "Prove More Trigonometric Identities.",
   "body": " Prove More Trigonometric Identities   Prove each trigonometric identity.     start with both sides, double-angle identity, clear denominators, cancel     convert to sine and cosine, clear denominators, Pythagorean identity, double-angle identity     work with both sides, double-angle identity, cancel common factors     work with both sides, rewrite in terms of tangent, simplify complex fraction by clearing denominators     work with both sides, double-angle identity, factor quadratic trinomial, cancel common factors, rewrite in terms of sine and cosine, combine fractions (or split fraction)     start with the LHS, double-angle identity, factor out common factor, cancel common factors, multiply by the conjugate     work with both sides, double-angle identity, cancel common factors, Pythagorean identity (or rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators)     work with both sides, double-angle identity, rewrite in terms of sine and cosine, distribute, Pythagorean identity   "
 },
@@ -3947,7 +4037,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-double-angle-identities.html#subsection-advanced-examples-2",
   "type": "Checkpoint",
-  "number": "13.4.1",
+  "number": "14.4.1",
   "title": "Geometric Mean.",
   "body": " Geometric Mean  Find the geometric mean of and , in terms of only. Note: the geometric mean of two numbers and is .   "
 },
@@ -3956,7 +4046,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-double-angle-identities.html#subsection-advanced-examples-3",
   "type": "Checkpoint",
-  "number": "13.4.2",
+  "number": "14.4.2",
   "title": "Exact Value with Variables.",
   "body": " Exact Value with Variables  Given that and is in quadrant , find the exact value of in terms of .    "
 },
@@ -3965,7 +4055,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-double-angle-identities.html#subsection-advanced-examples-4",
   "type": "Checkpoint",
-  "number": "13.4.3",
+  "number": "14.4.3",
   "title": "Tangent Expression.",
   "body": " Tangent Expression  Given that and is in quadrant , find an expression for in terms of .  , and simplify the complex fraction   "
 },
@@ -3974,7 +4064,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-double-angle-identities.html#subsection-advanced-examples-5",
   "type": "Checkpoint",
-  "number": "13.4.4",
+  "number": "14.4.4",
   "title": "Double Angle Tangent.",
   "body": " Double Angle Tangent  If and , find .  to find , divide both sides of the equation by   "
 },
@@ -3983,7 +4073,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-double-angle-identities.html#subsection-proofs-double-angle-3",
   "type": "Proof",
-  "number": "13.4.7.1",
+  "number": "14.4.7.1",
   "title": "",
   "body": " Using the sum and difference identities, for   For ,   Then, for the 2nd form of the cosine identity, use the Pythagorean identity,   And, for the 3rd form,   Also, for ,   "
 },
@@ -3992,7 +4082,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-double-angle-identities.html#subsection-triple-angle-identities-12",
   "type": "Example",
-  "number": "13.4.5",
+  "number": "14.4.5",
   "title": "Sine Triple-Angle Identity Proof.",
   "body": " Sine Triple-Angle Identity Proof  Prove the identity .   We can also find an expression for in terms of its associated single angle, using the sum and difference identities and the double-angle identities. In other words, another triple-angle identity. We again think of as ,   Here, there are and . For , we have . For , there are 3 options, and we will choose , because we want the final expression to be in terms of sine only.   We will replace , again because we want everything in terms of sine only,    "
 },
@@ -4001,7 +4091,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-double-angle-identities.html#subsection-triple-angle-identities-15",
   "type": "Example",
-  "number": "13.4.6",
+  "number": "14.4.6",
   "title": "Tangent Triple-Angle Identity Proof.",
   "body": " Tangent Triple-Angle Identity Proof  Prove the identity .   We can also find an expression for in terms of its associated single angle, using the sum and difference identities and the double-angle identities. In other words, another triple-angle identity. We again think of as ,   Here, there is . For we have the double-angle identity   Then,   To simplify this complex fraction, clear denominators by multiplying the numerator and denominator by ,    "
 },
@@ -4010,7 +4100,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-trigonometric-identities-summary.html",
   "type": "Section",
-  "number": "13.5",
+  "number": "14.5",
   "title": "Summary of Trigonometric Identities",
   "body": " Summary of Trigonometric Identities   Summary of Trigonometric Identities    "
 },
@@ -4019,7 +4109,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-infinite-geometric-series.html",
   "type": "Section",
-  "number": "14.1",
+  "number": "15.1",
   "title": "Infinite Geometric Series",
   "body": " Infinite Geometric Series    Application: Bouncing Ball Problem   Bouncing ball problem  A ball is dropped from a height of 10 m. After each bounce, the ball bounces up to 80% of its previous height. Determine the total distance travelled by the ball. Bouncing Ball GeoGebra .  Sketch a picture of the situation. The sum of the distances is, It is better to write out the distances without doing the arithmetic, so that it is easier to recognize the pattern. This is a geometric series, except for the first number 10. Each next term is the same as the previous term, except multiplied by . The first term of , and the common ratio is , Then, using the infinite geometric series formula, Therefore, the total distance travelled is 90 m.    Bouncing ball problem: advanced   Consider the general problem. A ball is dropped from a height of meters, and bounces up to a fraction of the previous bounce (where ). Find the total distance travelled, in terms of and .          "
 },
@@ -4028,7 +4118,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-infinite-geometric-series.html#sec-infinite-geometric-series-2-2",
   "type": "Example",
-  "number": "14.1.1",
+  "number": "15.1.1",
   "title": "Bouncing ball problem.",
   "body": " Bouncing ball problem  A ball is dropped from a height of 10 m. After each bounce, the ball bounces up to 80% of its previous height. Determine the total distance travelled by the ball. Bouncing Ball GeoGebra .  Sketch a picture of the situation. The sum of the distances is, It is better to write out the distances without doing the arithmetic, so that it is easier to recognize the pattern. This is a geometric series, except for the first number 10. Each next term is the same as the previous term, except multiplied by . The first term of , and the common ratio is , Then, using the infinite geometric series formula, Therefore, the total distance travelled is 90 m.  "
 },
@@ -4037,7 +4127,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-infinite-geometric-series.html#bouncing-ball-advanced",
   "type": "Example",
-  "number": "14.1.2",
+  "number": "15.1.2",
   "title": "Bouncing ball problem: advanced.",
   "body": " Bouncing ball problem: advanced   Consider the general problem. A ball is dropped from a height of meters, and bounces up to a fraction of the previous bounce (where ). Find the total distance travelled, in terms of and .        "
 },
@@ -4046,7 +4136,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-word-problem-solving-strategy.html",
   "type": "Section",
-  "number": "15.1",
+  "number": "16.1",
   "title": "Word Problem Solving Strategy",
   "body": " Word Problem Solving Strategy      What do you want to find? What do you know? How can you connect them?     What do you want to find? Give it a name (notation), like . Try to use variable names that match what they represent. E.g. for time use , for distance use , for height use , for the number of people use or .     What do you know? Note all the key information, underline it. Especially the numbers in the problem. Word problems often contain fluff and context that doesn't really affect the problem.     How can you connect them? What equations include both what you want to find and what you know? What formula includes what you're trying to find? There must be some connection between what you're trying to find, and what you know. Is there a theorem or formula that could be helpful?  E.g. if you want to find the area of a triangle, what formula gives you that? .       Sketch a diagram . For many problems, the relationships are much more easily noticed visually. Label the quantities in your diagram, both variables and numbers.  Students often struggle with drawing pictures of the problem. Unfortunately, the only way to improve at this is to practice. Sometimes, it's because they don't understand the terminology involved. On the other hand, sometimes you have to do trial and error, draw and then realize something is wrong, erase and redraw again.     Try to check your answer (ideally) . For equations, you can substitute back in. Does the answer make sense? It is reasonable? What units does it have?     Some notes:     You should always keep in mind what you want to find, i.e. the goal of the problem. Students often overemphasize the knowns of the problem, and then get stuck because they don't know how to use those knowns to do anything. Begin with the end in mind.    In your final answer, don't forget units!      "
 },
@@ -4055,7 +4145,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-solving-equations-graphically.html",
   "type": "Section",
-  "number": "15.2",
+  "number": "16.2",
   "title": "Solving Equations Graphically",
   "body": " Solving Equations Graphically   Graphing calculators, like Desmos , or the TI-84 Plus CE, can solve equations graphically very easily. The basic idea is to graph both sides of the equation, and the solutions are the intersection points.    Solving Equations Using a Graphing Calculator (Intersections)   Solving by Intersection  Solve the equation . To do this, graph both sides of the equation, and ( Desmos graph ). Observe the intersection points are at and . You can check that these are solutions, by plugging in and and verifying that both sides are equal,   Intuitively, this is because the equation is asking,  For which values of do the two expressions give the same number?  Then, a point is an intersection if it lies on both graphs, meaning that for that particular -value, the value for the left side is the same as the -value for the right side. That's what it means for the two sides of the equation to be equal.   In general, we want to solve an equation of the form,   where are expressions involving (that represent the two sides of the equation).   Graph both and .  The solutions are the -values of any intersection points of the two graphs.   In short,     Solving Numerically by Finding Zeros (Reducing to One Graph)  In fact, there is a slightly easier way. The general problem of solving an equation of the form,   can be rewritten by moving everything to one side (say, subtracting from both sides), to get . Then, the equation is in the form of one function equal to 0,   where . This transforms the problem from solving an equation with two separate sides, to finding the root of a (single) function. Then, to solve,   Graph .  The solutions are the -intercepts (zeros) of the graph.   In other words,     Comparing the Two Methods  Both the intersection method and the zeros method are mathematically equivalent, in that both will give you the same answer. However, there are some advantages and disadvantages to each, both practically and conceptually.    The intersection method is more intuitive, because you can visually see where the two functions intersect. If the functions represent some quantity, then it also has a useful interpretation.   Interpretating Intersection  For example, if represents how far each object has gone in seconds, then the intersection point means that after seconds, both objects have travelled the same distance . In contrast, with the zeros method, the -coordinate is always 0 and has no interpretation.     The zeros method is more computationally simpler, because you only have one function. Graphically, you only have to look near the -axis to find solutions. This is especially helpful when the functions are huge, and so you'd have to zoom out a lot to see the intersections.   Solving with the Zeros Method  Solve the equation . Using the intersection method , there is 1 intersection visible, but there is another intersection that is only visible if you zoom out a lot. Instead, using the zeros method, move all terms to one side, to get . Then, graphing this function , you can more easily see the 2 zeros of the graph, which are the solutions.       Solving Equations Graphically on the TI-84 Plus CE  With the TI-84 Plus CE, the strategy is similar to using Desmos, except it requires a few more button presses. Again, you can either do the intersection method ( ) or the zeros method ( ).   Enter the functions : Press [Y=] to to to the function editor. Enter the left side of the equation in Y1 and the right side in Y2. For example, for the equation , put in Y1 and in Y2. If solving , enter the expression in Y1 (and leave Y2 blank).  Adjust the window (if needed): Press [WINDOW] to set appropriate viewing bounds for Xmin, Xmax, Ymin, and Ymax so the graph and intersection points are visible. You can use [ZOOM] 6 (ZStandard) for a default view.  Graph the functions : Press [GRAPH] to display the graphs.   Find the intersection or root : Press [2nd] [TRACE] (CALC menu), then select 5: intersect (for intersection of two functions) or 2: zero (for roots of a single function). It will ask you to set a lower bound (Left Bound?) and upper bound (Right Bound?). These bounds define the interval for where the calculator will search for the solution, so make sure it's between them. Move the cursor with the arrow keys, and press [ENTER] for each.  It will also ask for a Guess?, which doesn't really matter, you can just press [ENTER] again (technically, the guess helps refine the search, but it only really helps for complicated functions that have many roots which are close together).     "
 },
@@ -4064,7 +4154,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-equations-graphically.html#solving-graphing-intersections-2",
   "type": "Example",
-  "number": "15.2.1",
+  "number": "16.2.1",
   "title": "Solving by Intersection.",
   "body": " Solving by Intersection  Solve the equation . To do this, graph both sides of the equation, and ( Desmos graph ). Observe the intersection points are at and . You can check that these are solutions, by plugging in and and verifying that both sides are equal,   Intuitively, this is because the equation is asking,  For which values of do the two expressions give the same number?  Then, a point is an intersection if it lies on both graphs, meaning that for that particular -value, the value for the left side is the same as the -value for the right side. That's what it means for the two sides of the equation to be equal.  "
 },
@@ -4073,7 +4163,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-equations-graphically.html#comparing-methods-3-1-2",
   "type": "Example",
-  "number": "15.2.2",
+  "number": "16.2.2",
   "title": "Interpretating Intersection.",
   "body": " Interpretating Intersection  For example, if represents how far each object has gone in seconds, then the intersection point means that after seconds, both objects have travelled the same distance . In contrast, with the zeros method, the -coordinate is always 0 and has no interpretation.  "
 },
@@ -4082,7 +4172,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-equations-graphically.html#comparing-methods-3-2-2",
   "type": "Example",
-  "number": "15.2.3",
+  "number": "16.2.3",
   "title": "Solving with the Zeros Method.",
   "body": " Solving with the Zeros Method  Solve the equation . Using the intersection method , there is 1 intersection visible, but there is another intersection that is only visible if you zoom out a lot. Instead, using the zeros method, move all terms to one side, to get . Then, graphing this function , you can more easily see the 2 zeros of the graph, which are the solutions.  "
 },
@@ -4091,7 +4181,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-solving-equations-numerically-with-a-calculator.html",
   "type": "Section",
-  "number": "15.3",
+  "number": "16.3",
   "title": "Solving Equations Numerically with a Calculator",
   "body": " Solving Equations Numerically with a Calculator   A large amount of high school mathematics is about solving equations. You learn various techniques to solve equations by hand (also called solving algebraically ), which work for various types of equations. However, for many types of equations, there is no algebraic technique that can solve them.   For example, in fact, these equations can't be solved algebraically:      No matter how hard you try to manipulate the equation, factor, and isolate for , you won't be able to solve for exactly.  If you have learned about exponential functions, logarithmic functions, and\/or trigonometric functions, here are some more examples:          These equations are simple to write down, but none of them can be solved algebraically. More generally, most equations with a combination of exponentials, polynomials, and trigonometric functions are unsolvable algebraically.   In this case, the next best thing is to find an approximate numerical solution.  These make up the two broad approaches to solving equations:     Algebraic \/ analytic \/ exact methods : Manipulating the equation using algebraic rules, to isolate the variable, and find an exact solution.     Approximate \/ numerical methods : Finding a solution which is an approximate decimal number, that is close enough.    Numerical solutions are useful in a few situations:   If an exact solution can't be found (it's just impossible).  If an exact solution is possible but just really difficult to find (especially in applications, an approximate numerical answer is usually good enough)  If you've already solved algebraically, and you want to check that your final answer is correct.     Solving Using a Scientific Calculator  My recommended calculator Casio fx-991ES Plus C 2nd edition (or some other similar scientific calculators) can solve equations numerically. This is truly powerful, because you can check your solutions to any equation.    First, make sure you're in COMP (computation) mode (which is the regular mode), by pressing MODE , then select COMP .    Enter your equation. Use the ALPHA button to get X (look for the button that has X above it). For the sign, use ALPHA then CALC .    Start the SOLVE function, by pressing SHIFT , then CALC .    Provide an initial guess for , such as , then press .    View the solution. The calculator shows the value of . It also displays (left side minus right side), which will be 0 (or at least very close to ) if the solution is accurate.     Solving a Radical Equation  For example, to solve ,    Enter .    Select SOLVE , by pressing SHIFT , then CALC .    Enter an initial guess, like , and press .    The solution should be .     If the solution is not a nice number (like a whole number), the solution will be a decimal like , not symbolic like .    If is anything but 0 (or very close to it), then the calculator couldn't find the solution. Try a different guess.    The initial guess kinda matters, but most reasonable guesses should give you the correct answer. Here are some broad principles:    Ideally, try to give a good guess as you can. For example, a number close to the solution you got from solving by hand.    If there are multiple solutions, the calculator will only give you one of them (each time). This is because the calculator basically pulls your initial guess towards the closest solution. E.g. if the solutions are and , and your initial guess is , you will most likely get . Whereas if you choose initial guess of , you will get .    If you have no idea what the solution should be, try 0 or 1 as a default. Because many equations have solutions near 0.    This feature is truly powerful, because you can check your solutions to any equation.    If the calculator agrees with your algebraic steps, then you know your answer is correct.    If it gives a different solution than what you found, then you know you have a mistake somewhere, and can go back and try to find it. E.g. maybe you dropped a negative sign, or didn't collect like terms properly.    You can also use it to solve an equation if you are stuck, however most tests will require you to show your work as well.   "
 },
@@ -4100,7 +4190,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-equations-numerically-with-a-calculator.html#sec-solving-equations-numerically-with-a-calculator-2-2",
   "type": "Example",
-  "number": "15.3.1",
+  "number": "16.3.1",
   "title": "",
   "body": " For example, in fact, these equations can't be solved algebraically:      No matter how hard you try to manipulate the equation, factor, and isolate for , you won't be able to solve for exactly.  If you have learned about exponential functions, logarithmic functions, and\/or trigonometric functions, here are some more examples:          These equations are simple to write down, but none of them can be solved algebraically. More generally, most equations with a combination of exponentials, polynomials, and trigonometric functions are unsolvable algebraically.  "
 },
@@ -4127,7 +4217,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-equations-numerically-with-a-calculator.html#subsec-solving-using-scientific-calculator-4",
   "type": "Example",
-  "number": "15.3.2",
+  "number": "16.3.2",
   "title": "Solving a Radical Equation.",
   "body": " Solving a Radical Equation  For example, to solve ,    Enter .    Select SOLVE , by pressing SHIFT , then CALC .    Enter an initial guess, like , and press .    The solution should be .  "
 }
