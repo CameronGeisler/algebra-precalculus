@@ -10,4 +10,6 @@
   <!-- include sections -->
   <xi:include href="sec-exponential-equations.ptx" />
 
+  <xi:include href="sec-intro-to-logarithms.ptx" />
+
 </chapter>
