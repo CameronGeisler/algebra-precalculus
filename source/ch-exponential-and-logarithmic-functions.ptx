@@ -13,7 +13,7 @@
   <xi:include href="sec-intro-to-logarithms.ptx" />
   <!-- <xi:include href="sec-properties-of-logarithms.ptx" /> -->
   <xi:include href="sec-solving-exponential-equations-with-logarithms.ptx" />
-  <!-- <xi:include href="sec-solving-logarithmic-equations.ptx" /> -->
+  <xi:include href="sec-solving-logarithmic-equations.ptx" />
   <!-- <xi:include href="sec-applications-of-exponential-and-logarithmic-functions.ptx" /> -->
 
 </chapter>

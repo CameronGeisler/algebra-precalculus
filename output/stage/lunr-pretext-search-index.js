@@ -2779,7 +2779,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "12.2",
   "title": "Intro to Logarithms",
-  "body": " Intro to Logarithms   Logarithms are a kind of inverse of exponents.   Motivation for logs with base 10  Consider these powers of 10,   These tell you that 10 to an exponent gives a number. Now reverse the question. Instead of asking what equals, ask: to what power equals ? Since , the answer is 3.  Logarithms are a shorthand for this reverse question. By definition, (read this as log base 10 of ) means the exponent you put on 10 to get . Intuitively, is the number of 10s you need to multiply in order to get . So, for example,   In other words,   Powers convert exponents to numbers  Logs convert number to exponent .   In this way, logarithms are a kind of inverse of exponents.    Approximating Logarithms  We know that for the equation , the answer is , because . However, what about the equation ? We know that and , so we expect that the solution is between 3 and 4. Maybe a better guess is in the middle, like . Here, . Using logarithms, we can say that the exact answer is (read as log base 2 of 13 ), which means the exponent you must put on 2 to get 13. With a calculator, we can find this to be about 3.7004. This means that .    Exact Logarithm Examples  Similarly,   , because .  , because .  , because      Logarithms   The logarithm base b of a , denoted by , is the exponent that must be raised to, to get . In other words,       The equations ( logarithmic form ) and ( exponential form ) are two ways of expressing the same relationship between the numbers , and .  With the logarithmic form ,   is called the base of the logarithm.  is called the argument (the value inputted into the function).  is the logarithm (since it equals the logarithmic expression).   With the exponential form ,   is also the base .  is the exponent .  is the result of the power.   Notice that the exponent is equivalent to the logarithm above (since logarithms are an exponent), and that the result is equivalent to the argument above.   Converting Forms   Convert each logarithmic or exponential equation to exponential or logarithmic form.             Logarithms are a name for a certain exponent. In particular, is the exponent to which must be raised, to obtain .  When you see , mentally translate into the exponent you'd put on the base to get what's inside .   Evaluating Logarithms   Evaluate each logarithm.                Logarithm Bases  The two most commonly-used logarithm bases are:   Base 10, denoted by , called the common logarithm , which is used in many applied sciences.  Base , called the natural logarithm , which is often used in calculus.   These are often denoted by simply and , respectively. In other words,   These two logarithms are included on most calculators. The natural logarithm is denoted by because it is an abbreviation of the Latin term logarithmus naturali .  In computer science, often log base 2 is used, or .   Note that previously, functions have been mostly represented by a single letter, such that for or for . For logarithms, we use three letters to denote the common logarithm, and two letters to denote the natural logarithm. In this way, or represents a function just like does. However, we often write logarithms without parentheses as or . If you have seen the trig functions like or , then is a similar kind of notation.  If there are more than one term inside the logarithm, then we use brackets, such as . Or, if there are a lot of factors, e.g. .     Basic Properties of Logarithms   Base Examples  . Also, .    Logarithm of the base    Because the exponent you need to put on to get is 1.     Base 1 Examples  . Also .    Logarithm of 1    Because the exponent you need to put on to get 1 is 0.      Evaluating Logarithms (By Hand)   Practice Evaluating Logarithms   Evaluate each logarithm.                        "
+  "body": " Intro to Logarithms   Logarithms are a kind of inverse of exponents.   Motivation for logs with base 10  Consider these powers of 10,   These tell you that 10 to an exponent gives a number. Now reverse the question. Instead of asking what equals, ask: to what power equals ? Since , the answer is 3.  Logarithms are a shorthand for this reverse question. By definition, (read this as log base 10 of ) means the exponent you put on 10 to get . Intuitively, is the number of 10s you need to multiply in order to get . So, for example,   In other words,   Powers convert exponents to numbers  Logs convert numbers to exponent .   In this way, logarithms are a kind of inverse of exponents.    Approximating Logarithms  We know that for the equation , the answer is , because . However, what about the equation ? We know that and , so we expect that the solution is between 3 and 4. Maybe a better guess is in the middle, like . Here, . Using logarithms, we can say that the exact answer is (read as log base 2 of 13 ), which means the exponent you must put on 2 to get 13. With a calculator, we can find this to be about 3.7004. This means that .    Exact Logarithm Examples  Similarly,   , because .  , because .  , because      Logarithms   The logarithm base b of a , denoted by , is the exponent that must be raised to, to get . In other words,       The equations ( logarithmic form ) and ( exponential form ) are two ways of expressing the same relationship between the numbers , and .  With the logarithmic form ,   is called the base of the logarithm.  is called the argument (the value inputted into the function).  is the logarithm (since it equals the logarithmic expression).   With the exponential form ,   is also the base .  is the exponent .  is the result of the power.   Notice that the exponent is equivalent to the logarithm above (since logarithms are an exponent), and that the result is equivalent to the argument above.   Converting Forms   Convert each logarithmic or exponential equation to exponential or logarithmic form.             Logarithms are a name for a certain exponent. In particular, is the exponent to which must be raised, to obtain .  When you see , mentally translate into the exponent you'd put on the base to get what's inside .   Evaluating Logarithms   Evaluate each logarithm.                Logarithm Bases  The two most commonly-used logarithm bases are:   Base 10, denoted by , called the common logarithm , which is used in many applied sciences.  Base , called the natural logarithm , which is often used in calculus.   These are often denoted by simply and , respectively. In other words,   These two logarithms are included on most calculators. The natural logarithm is denoted by because it is an abbreviation of the Latin term logarithmus naturali .  In computer science, often log base 2 is used, or .   Note that previously, functions have been mostly represented by a single letter, such that for or for . For logarithms, we use three letters to denote the common logarithm, and two letters to denote the natural logarithm. In this way, or represents a function just like does. However, we often write logarithms without parentheses as or . If you have seen the trig functions like or , then is a similar kind of notation.  If there are more than one term inside the logarithm, then we use brackets, such as . Or, if there are a lot of factors, e.g. .     Basic Properties of Logarithms   Base Examples  . Also, .    Logarithm of the base    Because the exponent you need to put on to get is 1.     Base 1 Examples  . Also .    Logarithm of 1    Because the exponent you need to put on to get 1 is 0.      Evaluating Logarithms (By Hand)   Practice Evaluating Logarithms   Evaluate each logarithm.                        "
 },
 {
   "id": "sec-intro-to-logarithms-2-2",
@@ -2788,7 +2788,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "12.2.1",
   "title": "Motivation for logs with base 10.",
-  "body": " Motivation for logs with base 10  Consider these powers of 10,   These tell you that 10 to an exponent gives a number. Now reverse the question. Instead of asking what equals, ask: to what power equals ? Since , the answer is 3.  Logarithms are a shorthand for this reverse question. By definition, (read this as log base 10 of ) means the exponent you put on 10 to get . Intuitively, is the number of 10s you need to multiply in order to get . So, for example,   In other words,   Powers convert exponents to numbers  Logs convert number to exponent .   In this way, logarithms are a kind of inverse of exponents.  "
+  "body": " Motivation for logs with base 10  Consider these powers of 10,   These tell you that 10 to an exponent gives a number. Now reverse the question. Instead of asking what equals, ask: to what power equals ? Since , the answer is 3.  Logarithms are a shorthand for this reverse question. By definition, (read this as log base 10 of ) means the exponent you put on 10 to get . Intuitively, is the number of 10s you need to multiply in order to get . So, for example,   In other words,   Powers convert exponents to numbers  Logs convert numbers to exponent .   In this way, logarithms are a kind of inverse of exponents.  "
 },
 {
   "id": "sec-intro-to-logarithms-2-3",
@@ -2897,6 +2897,60 @@ var ptx_lunr_docs = [
   "number": "12.2.3",
   "title": "Practice Evaluating Logarithms.",
   "body": " Practice Evaluating Logarithms   Evaluate each logarithm.                      "
+},
+{
+  "id": "sec-solving-exponential-equations-with-logarithms",
+  "level": "1",
+  "url": "sec-solving-exponential-equations-with-logarithms.html",
+  "type": "Section",
+  "number": "12.3",
+  "title": "Solving Exponential Equations with Logarithms",
+  "body": " Solving Exponential Equations with Logarithms    Solving Exponential Equations with Logarithms   Basic Equations   Solve each equation. Give answers in exact form and rounded to 2 decimal places.               Equations with Different Bases   Solve each equation. Give answers in exact form and rounded to 2 decimal places.            Complex Exponential Equations   Solve each equation. Give answers in exact form and rounded to 2 decimal places.                   Solving Exponential Equations in Quadratic Form   Quadratic Form Practice   Solve each equation.      quadratic formula   no solution     Advanced Examples  Need to peel off the extra factors.   Isolating Variable Factors   Solve each equation.        "
+},
+{
+  "id": "subsection-basic-exponential-equations-2",
+  "level": "2",
+  "url": "sec-solving-exponential-equations-with-logarithms.html#subsection-basic-exponential-equations-2",
+  "type": "Exercise Group",
+  "number": "12.3.1",
+  "title": "Basic Equations.",
+  "body": " Basic Equations   Solve each equation. Give answers in exact form and rounded to 2 decimal places.             "
+},
+{
+  "id": "subsection-basic-exponential-equations-3",
+  "level": "2",
+  "url": "sec-solving-exponential-equations-with-logarithms.html#subsection-basic-exponential-equations-3",
+  "type": "Exercise Group",
+  "number": "12.3.2",
+  "title": "Equations with Different Bases.",
+  "body": " Equations with Different Bases   Solve each equation. Give answers in exact form and rounded to 2 decimal places.          "
+},
+{
+  "id": "subsection-basic-exponential-equations-4",
+  "level": "2",
+  "url": "sec-solving-exponential-equations-with-logarithms.html#subsection-basic-exponential-equations-4",
+  "type": "Exercise Group",
+  "number": "12.3.3",
+  "title": "Complex Exponential Equations.",
+  "body": " Complex Exponential Equations   Solve each equation. Give answers in exact form and rounded to 2 decimal places.                "
+},
+{
+  "id": "subsection-exp-eq-logs-quadratic-form-2",
+  "level": "2",
+  "url": "sec-solving-exponential-equations-with-logarithms.html#subsection-exp-eq-logs-quadratic-form-2",
+  "type": "Exercise Group",
+  "number": "12.3.4",
+  "title": "Quadratic Form Practice.",
+  "body": " Quadratic Form Practice   Solve each equation.      quadratic formula   no solution  "
+},
+{
+  "id": "subsection-exp-eq-logs-advanced-examples-3",
+  "level": "2",
+  "url": "sec-solving-exponential-equations-with-logarithms.html#subsection-exp-eq-logs-advanced-examples-3",
+  "type": "Exercise Group",
+  "number": "12.3.5",
+  "title": "Isolating Variable Factors.",
+  "body": " Isolating Variable Factors   Solve each equation.      "
 },
 {
   "id": "sec-radian-measure",

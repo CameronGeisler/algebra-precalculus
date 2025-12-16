@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-solving-logarithmic-equations" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Solving Logarithmic Equations</title>
+  
+  <!-- <introduction>
+    <p>
+      This is the introduction to the section.
+    </p>
+  </introduction> -->
+  
+  <subsection xml:id="subsection-log-equations-examples">
+    <title>Examples</title>
+    
+    <project>
+      <title>Basic Equations</title>
+      <introduction>
+        <p>Solve each equation.</p>
+      </introduction>
+      <task><statement><p><m>\log_8(6x-3)=\log_8(4x+7)</m></p></statement><answer><p><m>x=5</m></p></answer></task>
+      <task><statement><p><m>\log{x}+\log{x}=\log{49}</m></p></statement><answer><p><m>x=7</m> (reject <m>x=-7</m>)</p></answer></task>
+      <task><statement><p><m>\log_5{(x+1)} - \log_2{(x-3)} = 1</m></p></statement><answer><p><m>x = 4</m></p></answer></task>
+      <task><statement><p><m>\log_{4}(x^2+1)-\log_{4}{6}=\log_{4}{5}</m></p></statement><answer><p><m>x=\pm\sqrt{29}</m></p></answer></task>
+      <task><statement><p><m>3\log_{6}{x}=\log_{6}{125}</m></p></statement><answer><p><m>x=5</m></p></answer></task>
+    </project>
+    
+    <project>
+      <title>Intermediate Equations</title>
+      <introduction>
+        <p>Solve each equation.</p>
+      </introduction>
+      <task><statement><p><m>\log_{3}(9x) + \log_{3}x = 4</m></p></statement><answer><p><m>x = 3</m> (reject <m>x = -3</m>)</p></answer></task>
+      <task><statement><p><m>\log_{3} x + \log_{3}(x-4) = \log_3 12</m></p></statement><answer><p><m>x = 6</m> (reject <m>x = -2</m>)</p></answer></task>
+      <task><statement><p><m>\log_5{(x-1)}+\log_5{3}=\log_5{x}</m></p></statement><answer><p><m>x=\frac{3}{2}</m></p></answer></task>
+      <task><statement><p><m>\log_{6}(x+3)+\log_{6}(x+4)=1</m></p></statement><answer><p><m>x=-1</m> (reject <m>x=-6</m>)</p></answer></task>
+      <task><statement><p><m>2 \log_3{x}-\log_3(x+2) = 0</m></p></statement><answer><p><m>x=2</m> (reject <m>x=-1</m>)</p></answer></task>
+      <task><statement><p><m>\log_2(x-3)+\log_2{x}=2</m></p></statement><answer><p><m>x=4</m> (reject <m>x=-1</m>)</p></answer></task>
+      <task><statement><p><m>\log{(2x^2-5x+4)}=0</m></p></statement><answer><p><m>x=1, \frac{3}{2}</m></p></answer></task>
+      <task><statement><p><m>\log_3{(x+6)}-\log_3{(x+2)}=\log_3{x}</m></p></statement><answer><p><m>x = 2</m> (reject <m>x = -3</m>)</p></answer></task>
+      <task><statement><p><m>2\log_{2}{x}-\log_{2}{x}=3</m></p></statement><answer><p><m>x=8</m></p></answer></task>
+      <task><statement><p><m>\log(2x+4)-\log(x+2)=\log(x+1)</m></p></statement><answer><p><m>x=1</m> (reject <m>x=-2</m>)</p></answer></task>
+      <task><statement><p><m>2\log_{2}(x-4)-\log_2{x}=1</m></p></statement><answer><p><m>x=8</m> (reject <m>x=2</m>)</p></answer></task>
+      <task><statement><p><m>\log(6x)=\log(x+6)+\log(x-1)</m></p></statement><answer><p><m>x=3</m> (reject <m>x=-2</m>)</p></answer></task>
+      <task><statement><p><m>\log_4(x+7)=2-\log_4(x+1)</m></p></statement><answer><p><m>x=1</m> (reject <m>x = -9</m>)</p></answer></task>
+      <task><statement><p><m>\log_2{(2x+4)}-\log_2{(x-1)}=\log_3{27}</m></p></statement><answer><p><m>x=2</m></p></answer></task>
+      <task><statement><p><m>\log{(x+2)}+\log{(x-1)}=1</m></p></statement><answer><p><m>x=3</m> (reject <m>x=-4</m>)</p></answer></task>
+      <task><statement><p><m>\log_{15}{(x+2)}+\log_{15}{x}=1</m></p></statement><answer><p><m>x=3</m> (reject <m>x=-5</m>)</p></answer></task>
+      <task><statement><p><m>\log_{3}{(x+3)}=1-\log_{3}{(x+5)}</m></p></statement><answer><p><m>x=-2</m> (reject <m>x=-6</m>)</p></answer></task>
+      <task><statement><p><m>\log{(x-3)}+\log{(x+4)}-\log{x}=\log{5}</m></p></statement><answer><p><m>x=6</m> (reject <m>x=-2</m>)</p></answer></task>
+      <task><statement><p><m>\log(x+3)+\log x=1</m></p></statement><answer><p><m>x=2</m> (reject <m>x=-5</m>)</p></answer></task>
+      <task><statement><p><m>\log_3(x+6)-\log_3(x+2)=\log_3{x}</m></p></statement><answer><p><m>x=2</m> (reject <m>x=-3</m>)</p></answer></task>
+    </project>
+    
+    <project>
+      <title>Mixed Equations</title>
+      <introduction>
+        <p>Solve each equation.</p>
+      </introduction>
+      <task><statement><p><m>\log x+\log(29-x)=2</m></p></statement><answer><p><m>x=4,25</m></p></answer></task>
+      <task><statement><p><m>\log_5(2x-1)+\log_5(x-2)=1</m></p></statement><answer><p><m>x=3</m> (reject <m>x=-\frac{1}{2}</m>)</p></answer></task>
+      <task><statement><p><m>\log{(2x+1)}-\log{(-x+1)}=1</m></p></statement><answer><p><m>x=\frac{3}{4}</m></p></answer></task>
+      <task><statement><p><m>\log_5{(x-18)}-\log_5{x}=\log_5{7}</m></p></statement><answer><p>no solution (reject <m>x=-3</m>)</p></answer></task>
+      <task><statement><p><m>2\log_3{(3-x)} = \log_3{4} + \log_3{(6-x)}</m></p></statement><answer><p><m>x = -3</m> (reject <m>x = 5</m>)</p></answer></task>
+      <task><statement><p><m>\log(2x-3)+\log(x-2)=\log(2x-1)</m></p></statement><answer><p><m>x=\frac{7}{2}</m> (reject <m>x=1</m>)</p></answer></task>
+      <task><statement><p><m>\log(x-4)+\log(x+1)=\log(x-8)</m></p></statement><answer><p>no solution (reject <m>x=2</m>)</p></answer></task>
+      <task><statement><p><m>\log_2(2-2x)+\log_2(1-x)=5</m></p></statement><answer><p><m>x=-3</m> (reject <m>x=5</m>)</p></answer></task>
+      <task><statement><p><m>\log_{5}(3x+1)+\log_{5}(x-3)=3</m></p></statement><answer><p><m>x=8</m> (reject <m>x=-\frac{16}{3}</m>)</p></answer></task>
+      <task><statement><p><m>\log_2(3x+1)+\log_2(x-1)=\log_2(10x+14)</m></p></statement><answer><p><m>x=5</m> (reject <m>x=-1</m>)</p></answer></task>
+      <task><statement><p><m>2\log(4-x)-\log{3}=\log(10-x)</m></p></statement><answer><p><m>x=-2</m> (reject <m>x=7</m>)</p></answer></task>
+      <task><statement><p><m>\log_2{(x-3)}+\log_2{(x-2)}=2+\log_2{5}</m></p></statement><answer><p><m>x=7</m> (reject <m>x=-2</m>)</p></answer></task>
+      <task><statement><p><m>\log_2{(\log_{3}{27})}=x</m></p></statement><answer><p><m>x=\log_2{3}</m></p></answer></task>
+      <task><statement><p><m>\log_{2}{(x^2-12)}-\log_{2}{1}=\log_{2}{x}</m></p></statement><answer><p><m>x=4</m> (reject <m>x=-3</m>)</p></answer></task>
+      <task><statement><p><m>2\log_2(x+2)-\log_2(3x-2)=2</m></p></statement><answer><p><m>x=2,6</m></p></answer></task>
+      <task><statement><p><m>2\log_4{x}+\log_4{(x-2)}-\log_4{(2x)}=1</m></p></statement><answer><p><m>x=4</m> (reject <m>x=-2</m>)</p></answer></task>
+      <task><statement><p><m>2\log_3{x}+\log_3{(x-1)}=1+\log_3{(2x)}</m></p></statement><answer><p><m>x=3</m> (reject <m>x=-2</m>)</p></answer></task>
+    </project>
+    
+    <project>
+      <title>Advanced Examples</title>
+      <introduction>
+        <p>Solve each equation.</p>
+      </introduction>
+      <task><statement><p><m>\log_2{(x+1)} + \log_2{x} = \log_2{5}</m></p></statement><hint><p>quadratic equation, solve using the quadratic formula</p></hint><answer><p><m>x = \frac{-1+\sqrt{21}}{2} \approx 1.79</m> (reject <m>x = \frac{-1-\sqrt{21}}{2} \approx -2.79</m>)</p></answer></task>
+      <task><statement><p><m>\log_4(3x^2-5x-2)-\log_4(x-2)=1</m></p></statement><answer><p>no solution (reject <m>x=1,2</m>)</p></answer></task>
+      <task><statement><p><m>\log_{25}(x-1)+\log_{25}(x+3)=\log_7\sqrt{7}</m></p></statement><answer><p><m>x=2</m> (reject <m>x=-4</m>)</p></answer></task>
+      <task><statement><p><m>\frac{1}{2}-\log_{16}(x-3)=\log_{16}x</m></p></statement><answer><p><m>x=4</m> (reject <m>x=-1</m>)</p></answer></task>
+      <task><statement><p><m>\log_{36}(x-2)+\log_{36}(x+1)+\log_{36}(x-3)=\frac{1}{2}</m></p></statement><hint><p>Factor the common factor, and then use the quadratic formula</p></hint><answer><p><m>x=2+\sqrt{3}</m> (reject <m>x=0,2-\sqrt{3}</m>)</p></answer></task>
+      <task><statement><p><m>\log_{1/4}(x^2+2)-\log_{1/4}(x^2-x)=-2</m></p></statement><hint><p><m>15x^2-16x-2=0</m>, use the quadratic formula</p></hint><answer><p><m>x = \frac{8 \pm \sqrt{94}}{15} \approx 1.18, -0.11</m></p></answer></task>
+    </project>
+  </subsection>
+  
+</section>
