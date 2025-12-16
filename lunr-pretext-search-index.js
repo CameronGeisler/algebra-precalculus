@@ -2953,6 +2953,51 @@ var ptx_lunr_docs = [
   "body": " Isolating Variable Factors   Solve each equation.      "
 },
 {
+  "id": "sec-solving-logarithmic-equations",
+  "level": "1",
+  "url": "sec-solving-logarithmic-equations.html",
+  "type": "Section",
+  "number": "12.4",
+  "title": "Solving Logarithmic Equations",
+  "body": " Solving Logarithmic Equations    Examples   Basic Equations   Solve each equation.    (reject )       Intermediate Equations   Solve each equation.   (reject )  (reject )   (reject )  (reject )  (reject )   (reject )   (reject )  (reject )  (reject )  (reject )   (reject )  (reject )  (reject )  (reject )  (reject )  (reject )    Mixed Equations   Solve each equation.    (reject )   no solution (reject )  (reject )  (reject )  no solution (reject )  (reject )  (reject )  (reject )  (reject )  (reject )   (reject )   (reject )  (reject )    Advanced Examples   Solve each equation.   quadratic equation, solve using the quadratic formula (reject )  no solution (reject )  (reject )  (reject )  Factor the common factor, and then use the quadratic formula (reject )  , use the quadratic formula    "
+},
+{
+  "id": "subsection-log-equations-examples-2",
+  "level": "2",
+  "url": "sec-solving-logarithmic-equations.html#subsection-log-equations-examples-2",
+  "type": "Exercise Group",
+  "number": "12.4.1",
+  "title": "Basic Equations.",
+  "body": " Basic Equations   Solve each equation.    (reject )     "
+},
+{
+  "id": "subsection-log-equations-examples-3",
+  "level": "2",
+  "url": "sec-solving-logarithmic-equations.html#subsection-log-equations-examples-3",
+  "type": "Exercise Group",
+  "number": "12.4.2",
+  "title": "Intermediate Equations.",
+  "body": " Intermediate Equations   Solve each equation.   (reject )  (reject )   (reject )  (reject )  (reject )   (reject )   (reject )  (reject )  (reject )  (reject )   (reject )  (reject )  (reject )  (reject )  (reject )  (reject )  "
+},
+{
+  "id": "subsection-log-equations-examples-4",
+  "level": "2",
+  "url": "sec-solving-logarithmic-equations.html#subsection-log-equations-examples-4",
+  "type": "Exercise Group",
+  "number": "12.4.3",
+  "title": "Mixed Equations.",
+  "body": " Mixed Equations   Solve each equation.    (reject )   no solution (reject )  (reject )  (reject )  no solution (reject )  (reject )  (reject )  (reject )  (reject )  (reject )   (reject )   (reject )  (reject )  "
+},
+{
+  "id": "subsection-log-equations-examples-5",
+  "level": "2",
+  "url": "sec-solving-logarithmic-equations.html#subsection-log-equations-examples-5",
+  "type": "Exercise Group",
+  "number": "12.4.4",
+  "title": "Advanced Examples.",
+  "body": " Advanced Examples   Solve each equation.   quadratic equation, solve using the quadratic formula (reject )  no solution (reject )  (reject )  (reject )  Factor the common factor, and then use the quadratic formula (reject )  , use the quadratic formula  "
+},
+{
   "id": "sec-radian-measure",
   "level": "1",
   "url": "sec-radian-measure.html",
