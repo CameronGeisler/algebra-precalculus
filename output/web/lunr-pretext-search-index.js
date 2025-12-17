@@ -2683,11 +2683,92 @@ var ptx_lunr_docs = [
   "body": " Advanced Examples   Solve each equation.    .  .    .  .    .  (reject ).    .  (reject ).   "
 },
 {
+  "id": "sec-intro-to-exponential-functions",
+  "level": "1",
+  "url": "sec-intro-to-exponential-functions.html",
+  "type": "Section",
+  "number": "12.1",
+  "title": "Intro to Exponential Functions",
+  "body": " Intro to Exponential Functions    Graph of f(x) = 2^x  Consider the graph of . First, create a table of values, using -values of , and , and plugging them into the equation.   Then, connect these points with a smooth curve. Here is a graph: Graph of . Observe the -values of . Notice that each time increases by 1, the value of is multiplied by 2.       Graph of f(x) = 3^x  Consider the graph of . First, create a table of values,   Here is a graph: Graph of . Notice that it grows faster than , because each time increases by 1, multiplies by 3 (instead of 2).    Graph of f(x) = (1\/2)^x  Consider the graph of . Creating a table of values,   Here is a graph: Graph of . Here, each time increases by 1, is multiplied by , which means it gets smaller.    Graph of f(x) = (3\/4)^x  Consider the graph of . Creating a table of values,   Here is a graph: Graph of . This graph also decreases, but more slowly than .    Comparing Exponential Functions  Here are all of the 4 functions from the previous examples, graphed together: 4 Examples of Exponential Functions .   What is different about them?  What is similar or the same?    In general, for a function like , each time increases by 1, the output is multiplied by the base .   If , the -values increase .  If , the -values decrease .   Also,   The -intercept is always , because when , the -value is .  There are no -intercepts, because is never equal to 0.  The domain is all real numbers, because you can raise a base to any exponent you want, positive or negative.  The range is all positive numbers, or , because raising a number to the exponent always gives a positive output (even if is negative).   Also, notice that all of the functions flatten out around the -axis. We call this a horizontal asymptote . So, the graph has a horizontal asymptote of the -axis, or the line .    Exponential Functions   An exponential function with base is the function given by, where and .    Examples of Exponential Functions  Some exponential functions include:           Non-examples  Some functions that are not exponential functions include:   ( is not an exponent, this is a polynomial function)  (the base must be positive)  (the base cannot be )  (the base is not a constant)   In particular, note that a power function, of the form , is not an exponential function.  With a power function, the base is the variable , and the exponent is a constant .  For exponential functions, the base is a constant , and the exponent is a variable .       For the exponential function ,   -intercept is .  No -intercepts.  Horizontal asymptote is .  Domain is all real numbers, or .  Range is all positive real numbers, or , or .   Also,   If , then is increasing .  If , then is decreasing .      Some other notes:   The horizontal asymptote is only approached on one side, so you might call it a half horizontal asymptote.   In summary,   Create a table of values for , and plot the points.  Connect the points with a smooth curve.    "
+},
+{
+  "id": "ex-graph-2-x",
+  "level": "2",
+  "url": "sec-intro-to-exponential-functions.html#ex-graph-2-x",
+  "type": "Example",
+  "number": "12.1.1",
+  "title": "Graph of f(x) = 2^x.",
+  "body": " Graph of f(x) = 2^x  Consider the graph of . First, create a table of values, using -values of , and , and plugging them into the equation.   Then, connect these points with a smooth curve. Here is a graph: Graph of . Observe the -values of . Notice that each time increases by 1, the value of is multiplied by 2.     "
+},
+{
+  "id": "ex-graph-3-x",
+  "level": "2",
+  "url": "sec-intro-to-exponential-functions.html#ex-graph-3-x",
+  "type": "Example",
+  "number": "12.1.2",
+  "title": "Graph of f(x) = 3^x.",
+  "body": " Graph of f(x) = 3^x  Consider the graph of . First, create a table of values,   Here is a graph: Graph of . Notice that it grows faster than , because each time increases by 1, multiplies by 3 (instead of 2).  "
+},
+{
+  "id": "ex-graph-half-x",
+  "level": "2",
+  "url": "sec-intro-to-exponential-functions.html#ex-graph-half-x",
+  "type": "Example",
+  "number": "12.1.3",
+  "title": "Graph of f(x) = (1\/2)^x.",
+  "body": " Graph of f(x) = (1\/2)^x  Consider the graph of . Creating a table of values,   Here is a graph: Graph of . Here, each time increases by 1, is multiplied by , which means it gets smaller.  "
+},
+{
+  "id": "ex-graph-three-fourths-x",
+  "level": "2",
+  "url": "sec-intro-to-exponential-functions.html#ex-graph-three-fourths-x",
+  "type": "Example",
+  "number": "12.1.4",
+  "title": "Graph of f(x) = (3\/4)^x.",
+  "body": " Graph of f(x) = (3\/4)^x  Consider the graph of . Creating a table of values,   Here is a graph: Graph of . This graph also decreases, but more slowly than .  "
+},
+{
+  "id": "ex-compare-four-functions",
+  "level": "2",
+  "url": "sec-intro-to-exponential-functions.html#ex-compare-four-functions",
+  "type": "Example",
+  "number": "12.1.5",
+  "title": "Comparing Exponential Functions.",
+  "body": " Comparing Exponential Functions  Here are all of the 4 functions from the previous examples, graphed together: 4 Examples of Exponential Functions .   What is different about them?  What is similar or the same?   "
+},
+{
+  "id": "def-exponential-function",
+  "level": "2",
+  "url": "sec-intro-to-exponential-functions.html#def-exponential-function",
+  "type": "Definition",
+  "number": "12.1.6",
+  "title": "",
+  "body": " An exponential function with base is the function given by, where and .  "
+},
+{
+  "id": "ex-list-exponential",
+  "level": "2",
+  "url": "sec-intro-to-exponential-functions.html#ex-list-exponential",
+  "type": "Example",
+  "number": "12.1.7",
+  "title": "Examples of Exponential Functions.",
+  "body": " Examples of Exponential Functions  Some exponential functions include:         "
+},
+{
+  "id": "ex-non-examples-exponential",
+  "level": "2",
+  "url": "sec-intro-to-exponential-functions.html#ex-non-examples-exponential",
+  "type": "Example",
+  "number": "12.1.8",
+  "title": "Non-examples.",
+  "body": " Non-examples  Some functions that are not exponential functions include:   ( is not an exponent, this is a polynomial function)  (the base must be positive)  (the base cannot be )  (the base is not a constant)   In particular, note that a power function, of the form , is not an exponential function.  With a power function, the base is the variable , and the exponent is a constant .  For exponential functions, the base is a constant , and the exponent is a variable .      "
+},
+{
   "id": "sec-exponential-equations",
   "level": "1",
   "url": "sec-exponential-equations.html",
   "type": "Section",
-  "number": "12.1",
+  "number": "12.2",
   "title": "Exponential Equations",
   "body": " Exponential Equations    Exponential Equation   An exponential equation is an equation with a variable in the exponent.      Solving Exponential Equations Using Common Bases  Some simple exponential equations can be solved by using the intuitive fact that if two powers with the same base are equal, then their exponents must be equal. In other words,   This means that if we can write both sides of an exponential equation as a power of the same base, then we can set their exponents equal ( equate exponents ), resulting in a simpler equation that we can solve.    Rewrite both sides using a common base.    Simplify using exponent laws.    Set the exponents equal.    Solve the resulting equation.    The resulting equation could be linear, quadratic, or some other type of equation.  Sometimes, both sides can be written as a power of multiple numbers, which result in the same solution.    Examples   Basic Examples   Solve each exponential equation.                                                                                                 Intermediate Examples   Solve each equation.                                                                                                 Equations with More Fractions and Radicals   Solve each equation.                                                                                 Additional Practice   Solve each equation.                                             Quadratic Exponents   Solve each equation.                                              Advanced Examples   Parameter Value Problem   For what values of does the equation have no real solution?       The equation has no real solution when .     Equations Reducible to Quadratics   Solve each equation.                                         Complex Exponents   Solve each equation.             "
 },
@@ -2696,7 +2777,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponential-equations.html#sec-exponential-equations-2-1",
   "type": "Definition",
-  "number": "12.1.1",
+  "number": "12.2.1",
   "title": "Exponential Equation.",
   "body": " Exponential Equation   An exponential equation is an equation with a variable in the exponent.   "
 },
@@ -2705,7 +2786,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponential-equations.html#subsection-exp-eq-examples-2",
   "type": "Exercise Group",
-  "number": "12.1.1",
+  "number": "12.2.1",
   "title": "Basic Examples.",
   "body": " Basic Examples   Solve each exponential equation.                                                                                               "
 },
@@ -2714,7 +2795,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponential-equations.html#subsection-exp-eq-examples-3",
   "type": "Exercise Group",
-  "number": "12.1.2",
+  "number": "12.2.2",
   "title": "Intermediate Examples.",
   "body": " Intermediate Examples   Solve each equation.                                                                                               "
 },
@@ -2723,7 +2804,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponential-equations.html#subsection-exp-eq-examples-4",
   "type": "Exercise Group",
-  "number": "12.1.3",
+  "number": "12.2.3",
   "title": "Equations with More Fractions and Radicals.",
   "body": " Equations with More Fractions and Radicals   Solve each equation.                                                                               "
 },
@@ -2732,7 +2813,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponential-equations.html#subsection-exp-eq-examples-5",
   "type": "Exercise Group",
-  "number": "12.1.4",
+  "number": "12.2.4",
   "title": "Additional Practice.",
   "body": " Additional Practice   Solve each equation.                                           "
 },
@@ -2741,7 +2822,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponential-equations.html#subsection-exp-eq-examples-6",
   "type": "Exercise Group",
-  "number": "12.1.5",
+  "number": "12.2.5",
   "title": "Quadratic Exponents.",
   "body": " Quadratic Exponents   Solve each equation.                                           "
 },
@@ -2750,7 +2831,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponential-equations.html#subsection-exp-eq-advanced-examples-2",
   "type": "Checkpoint",
-  "number": "12.1.2",
+  "number": "12.2.2",
   "title": "Parameter Value Problem.",
   "body": " Parameter Value Problem   For what values of does the equation have no real solution?       The equation has no real solution when .   "
 },
@@ -2759,7 +2840,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponential-equations.html#subsection-exp-eq-advanced-examples-3",
   "type": "Exercise Group",
-  "number": "12.1.6",
+  "number": "12.2.6",
   "title": "Equations Reducible to Quadratics.",
   "body": " Equations Reducible to Quadratics   Solve each equation.                                       "
 },
@@ -2768,7 +2849,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponential-equations.html#subsection-exp-eq-advanced-examples-4",
   "type": "Exercise Group",
-  "number": "12.1.7",
+  "number": "12.2.7",
   "title": "Complex Exponents.",
   "body": " Complex Exponents   Solve each equation.           "
 },
@@ -2777,7 +2858,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-intro-to-logarithms.html",
   "type": "Section",
-  "number": "12.2",
+  "number": "12.3",
   "title": "Intro to Logarithms",
   "body": " Intro to Logarithms   Logarithms are a kind of inverse of exponents.   Motivation for logs with base 10  Consider these powers of 10,   These tell you that 10 to an exponent gives a number. Now reverse the question. Instead of asking what equals, ask: to what power equals ? Since , the answer is 3.  Logarithms are a shorthand for this reverse question. By definition, (read this as log base 10 of ) means the exponent you put on 10 to get . Intuitively, is the number of 10s you need to multiply in order to get . So, for example,   In other words,   Powers convert exponents to numbers  Logs convert numbers to exponent .   In this way, logarithms are a kind of inverse of exponents.    Approximating Logarithms  We know that for the equation , the answer is , because . However, what about the equation ? We know that and , so we expect that the solution is between 3 and 4. Maybe a better guess is in the middle, like . Here, . Using logarithms, we can say that the exact answer is (read as log base 2 of 13 ), which means the exponent you must put on 2 to get 13. With a calculator, we can find this to be about 3.7004. This means that .    Exact Logarithm Examples  Similarly,   , because .  , because .  , because      Logarithms   The logarithm base b of a , denoted by , is the exponent that must be raised to, to get . In other words,       The equations ( logarithmic form ) and ( exponential form ) are two ways of expressing the same relationship between the numbers , and .  With the logarithmic form ,   is called the base of the logarithm.  is called the argument (the value inputted into the function).  is the logarithm (since it equals the logarithmic expression).   With the exponential form ,   is also the base .  is the exponent .  is the result of the power.   Notice that the exponent is equivalent to the logarithm above (since logarithms are an exponent), and that the result is equivalent to the argument above.   Converting Forms   Convert each logarithmic or exponential equation to exponential or logarithmic form.             Logarithms are a name for a certain exponent. In particular, is the exponent to which must be raised, to obtain .  When you see , mentally translate into the exponent you'd put on the base to get what's inside .   Evaluating Logarithms   Evaluate each logarithm.                Logarithm Bases  The two most commonly-used logarithm bases are:   Base 10, denoted by , called the common logarithm , which is used in many applied sciences.  Base , called the natural logarithm , which is often used in calculus.   These are often denoted by simply and , respectively. In other words,   These two logarithms are included on most calculators. The natural logarithm is denoted by because it is an abbreviation of the Latin term logarithmus naturali .  In computer science, often log base 2 is used, or .   Note that previously, functions have been mostly represented by a single letter, such that for or for . For logarithms, we use three letters to denote the common logarithm, and two letters to denote the natural logarithm. In this way, or represents a function just like does. However, we often write logarithms without parentheses as or . If you have seen the trig functions like or , then is a similar kind of notation.  If there are more than one term inside the logarithm, then we use brackets, such as . Or, if there are a lot of factors, e.g. .     Basic Properties of Logarithms   Base Examples  . Also, .    Logarithm of the base    Because the exponent you need to put on to get is 1.     Base 1 Examples  . Also .    Logarithm of 1    Because the exponent you need to put on to get 1 is 0.      Evaluating Logarithms (By Hand)   Practice Evaluating Logarithms   Evaluate each logarithm.                        "
 },
@@ -2786,7 +2867,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-logarithms.html#sec-intro-to-logarithms-2-2",
   "type": "Example",
-  "number": "12.2.1",
+  "number": "12.3.1",
   "title": "Motivation for logs with base 10.",
   "body": " Motivation for logs with base 10  Consider these powers of 10,   These tell you that 10 to an exponent gives a number. Now reverse the question. Instead of asking what equals, ask: to what power equals ? Since , the answer is 3.  Logarithms are a shorthand for this reverse question. By definition, (read this as log base 10 of ) means the exponent you put on 10 to get . Intuitively, is the number of 10s you need to multiply in order to get . So, for example,   In other words,   Powers convert exponents to numbers  Logs convert numbers to exponent .   In this way, logarithms are a kind of inverse of exponents.  "
 },
@@ -2795,7 +2876,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-logarithms.html#sec-intro-to-logarithms-2-3",
   "type": "Example",
-  "number": "12.2.2",
+  "number": "12.3.2",
   "title": "Approximating Logarithms.",
   "body": " Approximating Logarithms  We know that for the equation , the answer is , because . However, what about the equation ? We know that and , so we expect that the solution is between 3 and 4. Maybe a better guess is in the middle, like . Here, . Using logarithms, we can say that the exact answer is (read as log base 2 of 13 ), which means the exponent you must put on 2 to get 13. With a calculator, we can find this to be about 3.7004. This means that .  "
 },
@@ -2804,7 +2885,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-logarithms.html#sec-intro-to-logarithms-2-4",
   "type": "Example",
-  "number": "12.2.3",
+  "number": "12.3.3",
   "title": "Exact Logarithm Examples.",
   "body": " Exact Logarithm Examples  Similarly,   , because .  , because .  , because   "
 },
@@ -2813,7 +2894,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-logarithms.html#subsection-logarithms-2",
   "type": "Definition",
-  "number": "12.2.4",
+  "number": "12.3.4",
   "title": "",
   "body": " The logarithm base b of a , denoted by , is the exponent that must be raised to, to get . In other words,   "
 },
@@ -2831,7 +2912,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-logarithms.html#subsection-logarithms-10",
   "type": "Exercise Group",
-  "number": "12.2.1",
+  "number": "12.3.1",
   "title": "Converting Forms.",
   "body": " Converting Forms   Convert each logarithmic or exponential equation to exponential or logarithmic form.            "
 },
@@ -2840,7 +2921,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-logarithms.html#subsection-logarithms-13",
   "type": "Exercise Group",
-  "number": "12.2.2",
+  "number": "12.3.2",
   "title": "Evaluating Logarithms.",
   "body": " Evaluating Logarithms   Evaluate each logarithm.             "
 },
@@ -2849,7 +2930,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-logarithms.html#subsection-logarithm-bases-8",
   "type": "Remark",
-  "number": "12.2.5",
+  "number": "12.3.5",
   "title": "",
   "body": " Note that previously, functions have been mostly represented by a single letter, such that for or for . For logarithms, we use three letters to denote the common logarithm, and two letters to denote the natural logarithm. In this way, or represents a function just like does. However, we often write logarithms without parentheses as or . If you have seen the trig functions like or , then is a similar kind of notation.  If there are more than one term inside the logarithm, then we use brackets, such as . Or, if there are a lot of factors, e.g. .  "
 },
@@ -2858,7 +2939,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-logarithms.html#subsection-basic-properties-logs-2",
   "type": "Example",
-  "number": "12.2.6",
+  "number": "12.3.6",
   "title": "Base Examples.",
   "body": " Base Examples  . Also, .  "
 },
@@ -2867,7 +2948,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-logarithms.html#subsection-basic-properties-logs-3",
   "type": "Theorem",
-  "number": "12.2.7",
+  "number": "12.3.7",
   "title": "Logarithm of the base.",
   "body": " Logarithm of the base    Because the exponent you need to put on to get is 1.   "
 },
@@ -2876,7 +2957,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-logarithms.html#subsection-basic-properties-logs-4",
   "type": "Example",
-  "number": "12.2.8",
+  "number": "12.3.8",
   "title": "Base 1 Examples.",
   "body": " Base 1 Examples  . Also .  "
 },
@@ -2885,7 +2966,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-logarithms.html#subsection-basic-properties-logs-5",
   "type": "Theorem",
-  "number": "12.2.9",
+  "number": "12.3.9",
   "title": "Logarithm of 1.",
   "body": " Logarithm of 1    Because the exponent you need to put on to get 1 is 0.   "
 },
@@ -2894,7 +2975,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-logarithms.html#subsection-evaluating-logs-2",
   "type": "Exercise Group",
-  "number": "12.2.3",
+  "number": "12.3.3",
   "title": "Practice Evaluating Logarithms.",
   "body": " Practice Evaluating Logarithms   Evaluate each logarithm.                      "
 },
@@ -2903,7 +2984,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-solving-exponential-equations-with-logarithms.html",
   "type": "Section",
-  "number": "12.3",
+  "number": "12.4",
   "title": "Solving Exponential Equations with Logarithms",
   "body": " Solving Exponential Equations with Logarithms    Solving Exponential Equations with Logarithms   Basic Equations   Solve each equation. Give answers in exact form and rounded to 2 decimal places.               Equations with Different Bases   Solve each equation. Give answers in exact form and rounded to 2 decimal places.            Complex Exponential Equations   Solve each equation. Give answers in exact form and rounded to 2 decimal places.                   Solving Exponential Equations in Quadratic Form   Quadratic Form Practice   Solve each equation.      quadratic formula   no solution     Advanced Examples  Need to peel off the extra factors.   Isolating Variable Factors   Solve each equation.        "
 },
@@ -2912,7 +2993,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-exponential-equations-with-logarithms.html#subsection-basic-exponential-equations-2",
   "type": "Exercise Group",
-  "number": "12.3.1",
+  "number": "12.4.1",
   "title": "Basic Equations.",
   "body": " Basic Equations   Solve each equation. Give answers in exact form and rounded to 2 decimal places.             "
 },
@@ -2921,7 +3002,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-exponential-equations-with-logarithms.html#subsection-basic-exponential-equations-3",
   "type": "Exercise Group",
-  "number": "12.3.2",
+  "number": "12.4.2",
   "title": "Equations with Different Bases.",
   "body": " Equations with Different Bases   Solve each equation. Give answers in exact form and rounded to 2 decimal places.          "
 },
@@ -2930,7 +3011,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-exponential-equations-with-logarithms.html#subsection-basic-exponential-equations-4",
   "type": "Exercise Group",
-  "number": "12.3.3",
+  "number": "12.4.3",
   "title": "Complex Exponential Equations.",
   "body": " Complex Exponential Equations   Solve each equation. Give answers in exact form and rounded to 2 decimal places.                "
 },
@@ -2939,7 +3020,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-exponential-equations-with-logarithms.html#subsection-exp-eq-logs-quadratic-form-2",
   "type": "Exercise Group",
-  "number": "12.3.4",
+  "number": "12.4.4",
   "title": "Quadratic Form Practice.",
   "body": " Quadratic Form Practice   Solve each equation.      quadratic formula   no solution  "
 },
@@ -2948,7 +3029,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-exponential-equations-with-logarithms.html#subsection-exp-eq-logs-advanced-examples-3",
   "type": "Exercise Group",
-  "number": "12.3.5",
+  "number": "12.4.5",
   "title": "Isolating Variable Factors.",
   "body": " Isolating Variable Factors   Solve each equation.      "
 },
@@ -2957,7 +3038,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-solving-logarithmic-equations.html",
   "type": "Section",
-  "number": "12.4",
+  "number": "12.5",
   "title": "Solving Logarithmic Equations",
   "body": " Solving Logarithmic Equations    Examples   Basic Equations   Solve each equation.    (reject )       Intermediate Equations   Solve each equation.   (reject )  (reject )   (reject )  (reject )  (reject )   (reject )   (reject )  (reject )  (reject )  (reject )   (reject )  (reject )  (reject )  (reject )  (reject )  (reject )    Mixed Equations   Solve each equation.    (reject )   no solution (reject )  (reject )  (reject )  no solution (reject )  (reject )  (reject )  (reject )  (reject )  (reject )   (reject )   (reject )  (reject )    Advanced Examples   Solve each equation.   quadratic equation, solve using the quadratic formula (reject )  no solution (reject )  (reject )  (reject )  Factor the common factor, and then use the quadratic formula (reject )  , use the quadratic formula    "
 },
@@ -2966,7 +3047,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-logarithmic-equations.html#subsection-log-equations-examples-2",
   "type": "Exercise Group",
-  "number": "12.4.1",
+  "number": "12.5.1",
   "title": "Basic Equations.",
   "body": " Basic Equations   Solve each equation.    (reject )     "
 },
@@ -2975,7 +3056,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-logarithmic-equations.html#subsection-log-equations-examples-3",
   "type": "Exercise Group",
-  "number": "12.4.2",
+  "number": "12.5.2",
   "title": "Intermediate Equations.",
   "body": " Intermediate Equations   Solve each equation.   (reject )  (reject )   (reject )  (reject )  (reject )   (reject )   (reject )  (reject )  (reject )  (reject )   (reject )  (reject )  (reject )  (reject )  (reject )  (reject )  "
 },
@@ -2984,7 +3065,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-logarithmic-equations.html#subsection-log-equations-examples-4",
   "type": "Exercise Group",
-  "number": "12.4.3",
+  "number": "12.5.3",
   "title": "Mixed Equations.",
   "body": " Mixed Equations   Solve each equation.    (reject )   no solution (reject )  (reject )  (reject )  no solution (reject )  (reject )  (reject )  (reject )  (reject )  (reject )   (reject )   (reject )  (reject )  "
 },
@@ -2993,7 +3074,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-logarithmic-equations.html#subsection-log-equations-examples-5",
   "type": "Exercise Group",
-  "number": "12.4.4",
+  "number": "12.5.4",
   "title": "Advanced Examples.",
   "body": " Advanced Examples   Solve each equation.   quadratic equation, solve using the quadratic formula (reject )  no solution (reject )  (reject )  (reject )  Factor the common factor, and then use the quadratic formula (reject )  , use the quadratic formula  "
 },

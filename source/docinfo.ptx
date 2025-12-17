@@ -56,6 +56,8 @@
     \usepackage{amsmath}
     \usetikzlibrary{positioning, matrix, arrows, calc, shapes.geometric, arrows.meta, shapes.multipart}
     \usepackage{pgfplots}
+    \usetikzlibrary{tikzmark}
+    <!-- %% for placing invisible reference points inside normal LaTeX, for example to later draw arrows relative to those positions -->
     
     \usetikzlibrary{shapes,decorations,shadows,fadings,patterns} \usetikzlibrary{decorations.markings} 
   </latex-image-preamble>
