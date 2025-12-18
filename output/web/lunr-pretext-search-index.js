@@ -2860,124 +2860,241 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "12.3",
   "title": "Intro to Logarithms",
-  "body": " Intro to Logarithms   Logarithms are a kind of inverse of exponents.   Motivation for logs with base 10  Consider these powers of 10,   These tell you that 10 to an exponent gives a number. Now reverse the question. Instead of asking what equals, ask: to what power equals ? Since , the answer is 3.  Logarithms are a shorthand for this reverse question. By definition, (read this as log base 10 of ) means the exponent you put on 10 to get . Intuitively, is the number of 10s you need to multiply in order to get . So, for example,   In other words,   Powers convert exponents to numbers  Logs convert numbers to exponent .   In this way, logarithms are a kind of inverse of exponents.    Approximating Logarithms  We know that for the equation , the answer is , because . However, what about the equation ? We know that and , so we expect that the solution is between 3 and 4. Maybe a better guess is in the middle, like . Here, . Using logarithms, we can say that the exact answer is (read as log base 2 of 13 ), which means the exponent you must put on 2 to get 13. With a calculator, we can find this to be about 3.7004. This means that .    Exact Logarithm Examples  Similarly,   , because .  , because .  , because      Logarithms   The logarithm base b of a , denoted by , is the exponent that must be raised to, to get . In other words,       The equations ( logarithmic form ) and ( exponential form ) are two ways of expressing the same relationship between the numbers , and .  With the logarithmic form ,   is called the base of the logarithm.  is called the argument (the value inputted into the function).  is the logarithm (since it equals the logarithmic expression).   With the exponential form ,   is also the base .  is the exponent .  is the result of the power.   Notice that the exponent is equivalent to the logarithm above (since logarithms are an exponent), and that the result is equivalent to the argument above.   Converting Forms   Convert each logarithmic or exponential equation to exponential or logarithmic form.             Logarithms are a name for a certain exponent. In particular, is the exponent to which must be raised, to obtain .  When you see , mentally translate into the exponent you'd put on the base to get what's inside .   Evaluating Logarithms   Evaluate each logarithm.                Logarithm Bases  The two most commonly-used logarithm bases are:   Base 10, denoted by , called the common logarithm , which is used in many applied sciences.  Base , called the natural logarithm , which is often used in calculus.   These are often denoted by simply and , respectively. In other words,   These two logarithms are included on most calculators. The natural logarithm is denoted by because it is an abbreviation of the Latin term logarithmus naturali .  In computer science, often log base 2 is used, or .   Note that previously, functions have been mostly represented by a single letter, such that for or for . For logarithms, we use three letters to denote the common logarithm, and two letters to denote the natural logarithm. In this way, or represents a function just like does. However, we often write logarithms without parentheses as or . If you have seen the trig functions like or , then is a similar kind of notation.  If there are more than one term inside the logarithm, then we use brackets, such as . Or, if there are a lot of factors, e.g. .     Basic Properties of Logarithms   Base Examples  . Also, .    Logarithm of the base    Because the exponent you need to put on to get is 1.     Base 1 Examples  . Also .    Logarithm of 1    Because the exponent you need to put on to get 1 is 0.      Evaluating Logarithms (By Hand)   Practice Evaluating Logarithms   Evaluate each logarithm.                        "
+  "body": " Intro to Logarithms   Logarithms are a kind of inverse of exponents.   Motivation for Logs with Base 10  Consider these powers of 10, These tell you that 10 to an exponent gives a number. Now reverse the question. Instead of asking what equals, ask: 10 to what power equals 1000? Since , the answer is 3.  Logarithms are a shorthand for this reverse question. The expression (read this as log base 10 of ) means the exponent you put on 10 to get . Intuitively, is the number of 10s you need to multiply together in order to get . So, for example, In other words,  Powers convert exponents to numbers  Logs convert numbers to exponent .  In this way, logarithms are a kind of inverse of exponents.    Approximating Logarithms  We know that for the equation , the answer is , because . However, what about the equation ?  We know that and , so we expect the solution to be between 3 and 4. Maybe a better guess is in the middle, like . Here, , which is a bit more than 11. Try , and we get , which is a bit less than 11. So, the solution is between 3.4 and 3.5.  Using logarithms, we can say that the exact answer is (read this as log base 2 of 11 ), which means the exponent you must put on 2 to get 11. It turns out that .  You can try this on your calculator. You'll see that , which is very, very close to 11.    Logarithm Examples  Similarly,  , because .  , because .  , because       Logarithms  The logarithm base b of a , denoted by , is the exponent that must be raised to, to get . In other words,      The equations ( logarithmic form ) and ( exponential form ) are two ways of expressing the same relationship between the numbers , and .  With the logarithmic form ,  is called the base of the logarithm.  is called the argument (the value inputted into the function).  is the logarithm (since it equals the logarithmic expression).  With the exponential form ,  is also the base .  is the exponent .  is the result of the power.  Notice that the exponent is equivalent to the logarithm above (since logarithms are an exponent), and that the result is equivalent to the argument above.   Converting Forms  Convert each logarithmic or exponential equation to exponential or logarithmic form.                                       Logarithms are a name for a certain exponent. In particular, is the exponent to which must be raised, to obtain .  When you see , mentally translate into the exponent you'd put on the base to get what's inside .   Evaluating Basic Logarithms  Evaluate each logarithm.    2     5     2     4     4     2     5     6     4     6      Logarithm Bases  The two most commonly-used logarithm bases are:  Base 10, denoted by , called the common logarithm , which is used in many applied sciences.  Base , called the natural logarithm , which is often used in calculus.  These are often denoted by simply and , respectively. In other words, These two logarithms are included on most calculators. The natural logarithm is denoted by because it is an abbreviation of the Latin term logarithmus naturali .   In computer science, often log base 2 is used, or .    For logarithms, we use three letters to denote the common logarithm, and two letters to denote the natural logarithm.  Typically, functions have been represented by a single letter, such that for or for .  In this way, or represents a function just like does. However, we often write logarithms without parentheses as or .  If you have seen the trig functions like or , then is a similar kind of notation: means the log function with as its input, just like means the sine function with as its input. In particular, does not mean times 10 , just like doesn't mean times 30 .  If a log contains more than one term, then we use brackets. For example, . Or, if there are a lot of factors, e.g. .     Basic Properties of Logarithms   Logarithm of the Base  Consider . This means the exponent to put on 5 to get 5. This is 1, since . Similarly         Logarithm of the base   Because, the exponent you need to put on to get is 1.    Logarithm of One  Consider . This means the exponent to put on 3 to get 1. This is 0, because . Similarly,         Logarithm of 1   Because, the exponent you need to put on to get 1 is 0.     Evaluating Logarithms (By Hand)   Evaluating Logarithms  Evaluate each logarithm.        -1     4     -3     -3                                 -2         -4         -3         0     1      Logs of Negative Numbers  It turns out, we can't take the logarithm of a negative number, or 0.   Log of a Negative Number  Consider . This number represents the exponent to put on 2 to get . However, the equation has no solution, because 2 to the power of any number will always result in a positive number, never a negative.    Log of Zero  Consider . This also doesn't work, because has no solution. Again, 2 to the power of any number will always be positive, and so will never equal to 0.   In general, This is because for any base , the expression means the exponent needed to raise to get . Since to the power of any number is always positive, there is only an answer if is positive.    Evaluating Logarithms Using a Calculator  My recommended calculator Casio fx-991ES Plus C 2nd edition (or some other similar scientific calculators, as well as the TI-84 Plus CE) can calculate logarithms of any base.  However, many older and weaker calculators only have buttons for:  Base 10 (common logarithms) denoted by the key  Natural logarithms (base ) denoted by  In fact, base 10 logs are enough to evaluate logs of any base, because of this rule, This allows us to change a log of any base ( ) to something involving logs base 10. It also works for natural logarithms, but you can just stick with logs base 10.   Change-of-base property     Using Change of Base  For example,   (we could have found this one without a calculator)     This equality is a particular case of what is called the change-of-base property, which we'll explore further later on.    Inverse Properties of Logarithms   Logarithm of a Power  Consider . This means the exponent that 3 must be raised, to get . The answer is 5, because literally, 3 to the 5 is 3 to the 5. Similarly,        In general, if you take the log of a power of the base, the answer is the exponent.   Logarithm of a power of the base   Intuitively, is the exponent to put on to get , which is literally .    Power of a Logarithm  Consider . The exponent of represents the exponent to put on 4 to get 11. We are taking 4 to the power of this number, so by definition, we should get 11. Therefore, .  Similarly,         Power of a logarithm with the same base   Intuitively, is the exponent which must be raised to get . So, if we raise to that exponent, we get (literally) .    Evaluating with Inverse Properties  Evaluate each expression.    5     9     8     17     3     19     5     25                  Solving Basic Logarithmic Equations (Finding the Unknown)  To solve for an unknown that involves logs, the main technique is to convert to exponential form.   Solving Equations  Solve each equation.                                                                           In the next examples, if there are multiple logs inside each other, then work from the outside in. Convert to exponential form to unwrap one layer.   Advanced Examples  Solve each equation.                                (note: reject , because the base cannot be negative)     "
 },
 {
-  "id": "sec-intro-to-logarithms-2-2",
+  "id": "ex-motivation-logs-10",
   "level": "2",
-  "url": "sec-intro-to-logarithms.html#sec-intro-to-logarithms-2-2",
+  "url": "sec-intro-to-logarithms.html#ex-motivation-logs-10",
   "type": "Example",
   "number": "12.3.1",
-  "title": "Motivation for logs with base 10.",
-  "body": " Motivation for logs with base 10  Consider these powers of 10,   These tell you that 10 to an exponent gives a number. Now reverse the question. Instead of asking what equals, ask: to what power equals ? Since , the answer is 3.  Logarithms are a shorthand for this reverse question. By definition, (read this as log base 10 of ) means the exponent you put on 10 to get . Intuitively, is the number of 10s you need to multiply in order to get . So, for example,   In other words,   Powers convert exponents to numbers  Logs convert numbers to exponent .   In this way, logarithms are a kind of inverse of exponents.  "
+  "title": "Motivation for Logs with Base 10.",
+  "body": " Motivation for Logs with Base 10  Consider these powers of 10, These tell you that 10 to an exponent gives a number. Now reverse the question. Instead of asking what equals, ask: 10 to what power equals 1000? Since , the answer is 3.  Logarithms are a shorthand for this reverse question. The expression (read this as log base 10 of ) means the exponent you put on 10 to get . Intuitively, is the number of 10s you need to multiply together in order to get . So, for example, In other words,  Powers convert exponents to numbers  Logs convert numbers to exponent .  In this way, logarithms are a kind of inverse of exponents.  "
 },
 {
-  "id": "sec-intro-to-logarithms-2-3",
+  "id": "ex-intro-base-2",
   "level": "2",
-  "url": "sec-intro-to-logarithms.html#sec-intro-to-logarithms-2-3",
+  "url": "sec-intro-to-logarithms.html#ex-intro-base-2",
   "type": "Example",
   "number": "12.3.2",
   "title": "Approximating Logarithms.",
-  "body": " Approximating Logarithms  We know that for the equation , the answer is , because . However, what about the equation ? We know that and , so we expect that the solution is between 3 and 4. Maybe a better guess is in the middle, like . Here, . Using logarithms, we can say that the exact answer is (read as log base 2 of 13 ), which means the exponent you must put on 2 to get 13. With a calculator, we can find this to be about 3.7004. This means that .  "
+  "body": " Approximating Logarithms  We know that for the equation , the answer is , because . However, what about the equation ?  We know that and , so we expect the solution to be between 3 and 4. Maybe a better guess is in the middle, like . Here, , which is a bit more than 11. Try , and we get , which is a bit less than 11. So, the solution is between 3.4 and 3.5.  Using logarithms, we can say that the exact answer is (read this as log base 2 of 11 ), which means the exponent you must put on 2 to get 11. It turns out that .  You can try this on your calculator. You'll see that , which is very, very close to 11.  "
 },
 {
-  "id": "sec-intro-to-logarithms-2-4",
+  "id": "ex-misc-log-examples",
   "level": "2",
-  "url": "sec-intro-to-logarithms.html#sec-intro-to-logarithms-2-4",
+  "url": "sec-intro-to-logarithms.html#ex-misc-log-examples",
   "type": "Example",
   "number": "12.3.3",
-  "title": "Exact Logarithm Examples.",
-  "body": " Exact Logarithm Examples  Similarly,   , because .  , because .  , because   "
+  "title": "Logarithm Examples.",
+  "body": " Logarithm Examples  Similarly,  , because .  , because .  , because    "
 },
 {
-  "id": "subsection-logarithms-2",
+  "id": "sub-logarithms-definition-2",
   "level": "2",
-  "url": "sec-intro-to-logarithms.html#subsection-logarithms-2",
-  "type": "Definition",
-  "number": "12.3.4",
-  "title": "",
-  "body": " The logarithm base b of a , denoted by , is the exponent that must be raised to, to get . In other words,   "
-},
-{
-  "id": "subsection-logarithms-4",
-  "level": "2",
-  "url": "sec-intro-to-logarithms.html#subsection-logarithms-4",
+  "url": "sec-intro-to-logarithms.html#sub-logarithms-definition-2",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "logarithmic form exponential form "
+  "body": "logarithm base b of a "
 },
 {
-  "id": "subsection-logarithms-10",
+  "id": "sub-logarithms-definition-5",
   "level": "2",
-  "url": "sec-intro-to-logarithms.html#subsection-logarithms-10",
+  "url": "sec-intro-to-logarithms.html#sub-logarithms-definition-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "base argument logarithm "
+},
+{
+  "id": "proj-convert-forms",
+  "level": "2",
+  "url": "sec-intro-to-logarithms.html#proj-convert-forms",
   "type": "Exercise Group",
   "number": "12.3.1",
   "title": "Converting Forms.",
-  "body": " Converting Forms   Convert each logarithmic or exponential equation to exponential or logarithmic form.            "
+  "body": " Converting Forms  Convert each logarithmic or exponential equation to exponential or logarithmic form.                                      "
 },
 {
-  "id": "subsection-logarithms-13",
+  "id": "proj-evaluate-logs-basic",
   "level": "2",
-  "url": "sec-intro-to-logarithms.html#subsection-logarithms-13",
+  "url": "sec-intro-to-logarithms.html#proj-evaluate-logs-basic",
   "type": "Exercise Group",
   "number": "12.3.2",
-  "title": "Evaluating Logarithms.",
-  "body": " Evaluating Logarithms   Evaluate each logarithm.             "
+  "title": "Evaluating Basic Logarithms.",
+  "body": " Evaluating Basic Logarithms  Evaluate each logarithm.    2     5     2     4     4     2     5     6     4     6   "
 },
 {
-  "id": "subsection-logarithm-bases-8",
+  "id": "sub-logarithm-bases-2",
   "level": "2",
-  "url": "sec-intro-to-logarithms.html#subsection-logarithm-bases-8",
+  "url": "sec-intro-to-logarithms.html#sub-logarithm-bases-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "common logarithm natural logarithm "
+},
+{
+  "id": "sub-logarithm-bases-3",
+  "level": "2",
+  "url": "sec-intro-to-logarithms.html#sub-logarithm-bases-3",
+  "type": "Remark",
+  "number": "12.3.4",
+  "title": "",
+  "body": " In computer science, often log base 2 is used, or .  "
+},
+{
+  "id": "sub-logarithm-bases-4",
+  "level": "2",
+  "url": "sec-intro-to-logarithms.html#sub-logarithm-bases-4",
   "type": "Remark",
   "number": "12.3.5",
   "title": "",
-  "body": " Note that previously, functions have been mostly represented by a single letter, such that for or for . For logarithms, we use three letters to denote the common logarithm, and two letters to denote the natural logarithm. In this way, or represents a function just like does. However, we often write logarithms without parentheses as or . If you have seen the trig functions like or , then is a similar kind of notation.  If there are more than one term inside the logarithm, then we use brackets, such as . Or, if there are a lot of factors, e.g. .  "
+  "body": " For logarithms, we use three letters to denote the common logarithm, and two letters to denote the natural logarithm.  Typically, functions have been represented by a single letter, such that for or for .  In this way, or represents a function just like does. However, we often write logarithms without parentheses as or .  If you have seen the trig functions like or , then is a similar kind of notation: means the log function with as its input, just like means the sine function with as its input. In particular, does not mean times 10 , just like doesn't mean times 30 .  If a log contains more than one term, then we use brackets. For example, . Or, if there are a lot of factors, e.g. .  "
 },
 {
-  "id": "subsection-basic-properties-logs-2",
+  "id": "ex-log-of-base",
   "level": "2",
-  "url": "sec-intro-to-logarithms.html#subsection-basic-properties-logs-2",
+  "url": "sec-intro-to-logarithms.html#ex-log-of-base",
   "type": "Example",
   "number": "12.3.6",
-  "title": "Base Examples.",
-  "body": " Base Examples  . Also, .  "
+  "title": "Logarithm of the Base.",
+  "body": " Logarithm of the Base  Consider . This means the exponent to put on 5 to get 5. This is 1, since . Similarly       "
 },
 {
-  "id": "subsection-basic-properties-logs-3",
+  "id": "thm-log-base-b-b",
   "level": "2",
-  "url": "sec-intro-to-logarithms.html#subsection-basic-properties-logs-3",
+  "url": "sec-intro-to-logarithms.html#thm-log-base-b-b",
   "type": "Theorem",
   "number": "12.3.7",
   "title": "Logarithm of the base.",
-  "body": " Logarithm of the base    Because the exponent you need to put on to get is 1.   "
+  "body": " Logarithm of the base   Because, the exponent you need to put on to get is 1.  "
 },
 {
-  "id": "subsection-basic-properties-logs-4",
+  "id": "ex-log-of-one",
   "level": "2",
-  "url": "sec-intro-to-logarithms.html#subsection-basic-properties-logs-4",
+  "url": "sec-intro-to-logarithms.html#ex-log-of-one",
   "type": "Example",
   "number": "12.3.8",
-  "title": "Base 1 Examples.",
-  "body": " Base 1 Examples  . Also .  "
+  "title": "Logarithm of One.",
+  "body": " Logarithm of One  Consider . This means the exponent to put on 3 to get 1. This is 0, because . Similarly,       "
 },
 {
-  "id": "subsection-basic-properties-logs-5",
+  "id": "thm-log-base-b-1",
   "level": "2",
-  "url": "sec-intro-to-logarithms.html#subsection-basic-properties-logs-5",
+  "url": "sec-intro-to-logarithms.html#thm-log-base-b-1",
   "type": "Theorem",
   "number": "12.3.9",
   "title": "Logarithm of 1.",
-  "body": " Logarithm of 1    Because the exponent you need to put on to get 1 is 0.   "
+  "body": " Logarithm of 1   Because, the exponent you need to put on to get 1 is 0.  "
 },
 {
-  "id": "subsection-evaluating-logs-2",
+  "id": "proj-evaluate-logs-hand",
   "level": "2",
-  "url": "sec-intro-to-logarithms.html#subsection-evaluating-logs-2",
+  "url": "sec-intro-to-logarithms.html#proj-evaluate-logs-hand",
   "type": "Exercise Group",
   "number": "12.3.3",
-  "title": "Practice Evaluating Logarithms.",
-  "body": " Practice Evaluating Logarithms   Evaluate each logarithm.                      "
+  "title": "Evaluating Logarithms.",
+  "body": " Evaluating Logarithms  Evaluate each logarithm.        -1     4     -3     -3                                 -2         -4         -3         0     1   "
+},
+{
+  "id": "ex-log-negative",
+  "level": "2",
+  "url": "sec-intro-to-logarithms.html#ex-log-negative",
+  "type": "Example",
+  "number": "12.3.10",
+  "title": "Log of a Negative Number.",
+  "body": " Log of a Negative Number  Consider . This number represents the exponent to put on 2 to get . However, the equation has no solution, because 2 to the power of any number will always result in a positive number, never a negative.  "
+},
+{
+  "id": "ex-log-zero",
+  "level": "2",
+  "url": "sec-intro-to-logarithms.html#ex-log-zero",
+  "type": "Example",
+  "number": "12.3.11",
+  "title": "Log of Zero.",
+  "body": " Log of Zero  Consider . This also doesn't work, because has no solution. Again, 2 to the power of any number will always be positive, and so will never equal to 0.  "
+},
+{
+  "id": "thm-change-of-base",
+  "level": "2",
+  "url": "sec-intro-to-logarithms.html#thm-change-of-base",
+  "type": "Theorem",
+  "number": "12.3.12",
+  "title": "Change-of-base property.",
+  "body": " Change-of-base property   "
+},
+{
+  "id": "ex-change-of-base-usage",
+  "level": "2",
+  "url": "sec-intro-to-logarithms.html#ex-change-of-base-usage",
+  "type": "Example",
+  "number": "12.3.13",
+  "title": "Using Change of Base.",
+  "body": " Using Change of Base  For example,   (we could have found this one without a calculator)    "
+},
+{
+  "id": "ex-log-base-power",
+  "level": "2",
+  "url": "sec-intro-to-logarithms.html#ex-log-base-power",
+  "type": "Example",
+  "number": "12.3.14",
+  "title": "Logarithm of a Power.",
+  "body": " Logarithm of a Power  Consider . This means the exponent that 3 must be raised, to get . The answer is 5, because literally, 3 to the 5 is 3 to the 5. Similarly,       "
+},
+{
+  "id": "thm-log-b-bx",
+  "level": "2",
+  "url": "sec-intro-to-logarithms.html#thm-log-b-bx",
+  "type": "Theorem",
+  "number": "12.3.15",
+  "title": "Logarithm of a power of the base.",
+  "body": " Logarithm of a power of the base   Intuitively, is the exponent to put on to get , which is literally .  "
+},
+{
+  "id": "ex-power-of-log",
+  "level": "2",
+  "url": "sec-intro-to-logarithms.html#ex-power-of-log",
+  "type": "Example",
+  "number": "12.3.16",
+  "title": "Power of a Logarithm.",
+  "body": " Power of a Logarithm  Consider . The exponent of represents the exponent to put on 4 to get 11. We are taking 4 to the power of this number, so by definition, we should get 11. Therefore, .  Similarly,       "
+},
+{
+  "id": "thm-b-log-bx",
+  "level": "2",
+  "url": "sec-intro-to-logarithms.html#thm-b-log-bx",
+  "type": "Theorem",
+  "number": "12.3.17",
+  "title": "Power of a logarithm with the same base.",
+  "body": " Power of a logarithm with the same base   Intuitively, is the exponent which must be raised to get . So, if we raise to that exponent, we get (literally) .  "
+},
+{
+  "id": "proj-evaluate-inverse",
+  "level": "2",
+  "url": "sec-intro-to-logarithms.html#proj-evaluate-inverse",
+  "type": "Exercise Group",
+  "number": "12.3.4",
+  "title": "Evaluating with Inverse Properties.",
+  "body": " Evaluating with Inverse Properties  Evaluate each expression.    5     9     8     17     3     19     5     25               "
+},
+{
+  "id": "proj-solve-basic-logs",
+  "level": "2",
+  "url": "sec-intro-to-logarithms.html#proj-solve-basic-logs",
+  "type": "Exercise Group",
+  "number": "12.3.5",
+  "title": "Solving Equations.",
+  "body": " Solving Equations  Solve each equation.                                                                          "
+},
+{
+  "id": "proj-solve-advanced-logs",
+  "level": "2",
+  "url": "sec-intro-to-logarithms.html#proj-solve-advanced-logs",
+  "type": "Exercise Group",
+  "number": "12.3.6",
+  "title": "Advanced Examples.",
+  "body": " Advanced Examples  Solve each equation.                                (note: reject , because the base cannot be negative)   "
 },
 {
   "id": "sec-solving-exponential-equations-with-logarithms",

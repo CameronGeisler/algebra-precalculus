@@ -6,75 +6,69 @@
   <introduction>
     <p>Logarithms are a kind of inverse of exponents.</p>
     
-    <example>
-      <title>Motivation for logs with base 10</title>
-      <p>Consider these powers of 10,</p>
-      <md>
-        <mrow>10^1\amp =10</mrow>
-        <mrow>10^2\amp =100</mrow>
-        <mrow>10^3\amp =1000</mrow>
-        <mrow>10^4\amp =10000</mrow>
-      </md>
-      <p>These tell you that 10 to an exponent gives a number. Now reverse the question. Instead of asking what <m>10^3</m> equals, ask: <m>10</m> to what power equals <m>1000</m>? Since <m>10^3=1000</m>, the answer is 3.</p>
-      <p>Logarithms are a shorthand for this reverse question. By definition, <m>\log_{10}(x)</m> (read this as <q>log base 10 of <m>x</m></q>) means the exponent you put on 10 to get <m>x</m>. Intuitively, <m>\log_{10}{x}</m> is the number of 10s you need to multiply in order to get <m>x</m>. So, for example,</p>
-      <md>
-        <mrow>\begin{array}{lcl}</mrow>
-        <mrow>\amp  \text{means...} \amp  \\</mrow>
-        <mrow>10^3=1000 \amp  \longrightarrow \amp  \log_{10}(1000)=3\\</mrow>
-        <mrow>10^5=100000 \amp  \longrightarrow \amp  \log_{10}(100000)=5\\</mrow>
-        <mrow>10^0=1 \amp  \longrightarrow \amp  \log_{10}(1)=0</mrow>
-        <mrow>\end{array}</mrow>
-      </md>
-      <p>In other words,</p>
-      <ul>
-        <li>Powers convert <em>exponents</em> to <em>numbers</em></li>
-        <li>Logs convert <em>numbers</em> to <em>exponent</em>.</li>
-      </ul>
-      <p>In this way, logarithms are a kind of <em>inverse</em> of exponents.</p>
-    </example>
-    <example>
-      <title>Approximating Logarithms</title>
-      <p>We know that for the equation <m>2^x=8</m>, the answer is <m>x=3</m>, because <m>2^3=8</m>. However, what about the equation <m>2^x=13</m>? We know that <m>2^3=8</m> and <m>2^4=16</m>, so we expect that the solution <m>x</m> is between 3 and 4. Maybe a better guess is in the middle, like <m>x=3.5</m>. Here, <m>2^{3.5} \approx 11.3</m>. Using logarithms, we can say that the exact answer is <m>\log_{2}{13}</m> (read as <q>log base 2 of 13</q>), which means the exponent you must put on 2 to get 13. With a calculator, we can find this to be about 3.7004. This means that <m>2^{3.7004} \approx 13</m>.</p>
+    <example xml:id="ex-motivation-logs-10">
+      <title>Motivation for Logs with Base 10</title>
+      <p>Consider these powers of 10,
+        <md>
+          <mrow>10^1 \amp = 10</mrow>
+          <mrow>10^2 \amp = 100</mrow>
+          <mrow>10^3 \amp = 1000</mrow>
+          <mrow>10^4 \amp = 10000</mrow>
+        </md>
+        These tell you that 10 to an exponent gives a number. Now reverse the question. Instead of asking what <m>10^3</m> equals, ask: 10 to what power equals 1000? Since <m>10^3=1000</m>, the answer is 3.
+      </p>
+      <p>Logarithms are a shorthand for this reverse question. The expression <m>\log_{10}(x)</m> (read this as <q>log base 10 of <m>x</m></q>) means the exponent you put on 10 to get <m>x</m>. Intuitively, <m>\log_{10}{x}</m> is the number of 10s you need to multiply together in order to get <m>x</m>. So, for example,
+        <md>
+          <mrow>\begin{array}{lcl} \amp \text{means...} \amp \\ 10^3=1000 \amp \longrightarrow \amp \log_{10}(1000)=3 \\ 10^5=100000 \amp \longrightarrow \amp \log_{10}(100000)=5 \\ 10^0=1 \amp \longrightarrow \amp \log_{10}(1)=0 \end{array}</mrow>
+        </md>
+        In other words,
+        <ul>
+          <li>Powers convert <em>exponents</em> to <em>numbers</em></li>
+          <li>Logs convert <em>numbers</em> to <em>exponent</em>.</li>
+        </ul>
+        In this way, logarithms are a kind of <em>inverse</em> of exponents.
+      </p>
     </example>
     
-    <example>
-      <title>Exact Logarithm Examples</title>
-      <p>Similarly,</p>
-      <ul>
-        <li><m>\log_{4} 64 = 3</m>, because <m>4^3=64</m>.</li>
-        <li><m>\log_{10}1000000 = 6</m>, because <m>10^6=1000000</m>.</li>
-        <li><m>\log_{1/2}\brac{\frac{1}{8}}=3</m>, because <m>\brac{\frac{1}{2}}^3 = \frac{1}{8}</m></li>
-      </ul>
+    <example xml:id="ex-intro-base-2">
+      <title>Approximating Logarithms</title>
+      <p>We know that for the equation <m>2^x=8</m>, the answer is <m>x=3</m>, because <m>2^3=8</m>. However, what about the equation <m>2^x=11</m>?</p>
+      <p>We know that <m>2^3=8</m> and <m>2^4=16</m>, so we expect the solution <m>x</m> to be between 3 and 4. Maybe a better guess is in the middle, like <m>x=3.5</m>. Here, <m>2^{3.5} \approx 11.3</m>, which is a bit more than 11. Try <m>x=3.4</m>, and we get <m>2^{3.4} \approx 10.6</m>, which is a bit less than 11. So, the solution is between 3.4 and 3.5.</p>
+      <p>Using logarithms, we can say that the exact answer is <m>\log_{2}{11}</m> (read this as <q>log base 2 of 11</q>), which means the exponent you must put on 2 to get 11. It turns out that <m>\log_2{11} \approx 3.45943 \dots</m>.</p>
+      <p>You can try this on your calculator. You'll see that <m>2^{3.45943} = 10.99998766</m>, which is very, very close to 11.</p>
+    </example>
+    
+    <example xml:id="ex-misc-log-examples">
+      <title>Logarithm Examples</title>
+      <p>Similarly,
+        <ul>
+          <li><m>\log_{4} 64 = 3</m>, because <m>4^3=64</m>.</li>
+          <li><m>\log_{10}1000000 = 6</m>, because <m>10^6=1000000</m>.</li>
+          <li><m>\log_{1/2}\left(\frac{1}{8}\right)=3</m>, because <m>\left(\frac{1}{2}\right)^3 = \frac{1}{8}</m></li>
+        </ul>
+      </p>
     </example>
   </introduction>
-
-  <subsection xml:id="subsection-logarithms">
+  
+  <subsection xml:id="sub-logarithms-definition">
     <title>Logarithms</title>
-    <definition>
-      <p>The <term>logarithm base b of a</term>, denoted by <m>\log_{b}a</m>, is the exponent that <m>b</m> must be raised to, to get <m>a</m>. In other words,</p>
-      <me>
-        \boxed{\log_{b}a = c \quad \text{is equivalent to} \quad b^c = a}
-      </me>
-    </definition>
+    <p>The <term>logarithm base b of a</term>, denoted by <m>\log_{b}a</m>, is the exponent that <m>b</m> must be raised to, to get <m>a</m>. In other words,
+      <md>
+        <mrow>\boxed{\log_{b}a = c \quad \text{is equivalent to} \quad b^c = a}</mrow>
+      </md>
+    </p>
     
     <image width="50%">
       <latex-image>
         \begin{tikzpicture}[&gt;=Stealth,thick,scale=0.6]
-        % tighter spacing
         \node[scale=2] (log) {$\log_{b}$};
         \node[scale=2,right=-0.5cm of log] (a) {$a$};
-        \node[scale=2,right=0cm of a]    (eq) {$=$};
-        \node[scale=2,right=0cm of eq]   (c) {$c$};
-        
-        % point near the subscript b
+        \node[scale=2,right=0cm of a]   (eq) {$=$};
+        \node[scale=2,right=0cm of eq]  (c) {$c$};
         \coordinate (bsub) at ($(log.south east)+(-0.5,0.4)$);
-        
-        % top arrow: c -&gt; a (label "equals")
         \draw[very thick,-&gt;]
         (c.north) to[out=120,in=60]
         node[midway,above]{equals} (a.north);
-        
-        % bottom arrow: b -&gt; c (label "to the power of")
         \draw[very thick,-&gt;]
         (bsub) to[out=-20,in=-120,looseness=1.1]
         node[left,below]{to the power of} (c.south);
@@ -82,139 +76,538 @@
       </latex-image>
     </image>
     
-    <p>The equations <m>\log_{b}a = c</m> (<term>logarithmic form</term>) and <m>b^c = a</m> (<term>exponential form</term>) are two ways of expressing the same relationship between the numbers <m>a, b</m>, and <m>c</m>.</p>
-    <p>With the logarithmic form <m>\log_{b}a = c</m>,</p>
-    <ul>
-      <li><m>b</m> is called the <term>base</term> of the logarithm.</li>
-      <li><m>a</m> is called the <term>argument</term> (the value inputted into the function).</li>
-      <li><m>c</m> is the <term>logarithm</term> (since it equals the logarithmic expression).</li>
-    </ul>
-    <p>With the exponential form <m>b^c = a</m>,</p>
-    <ul>
-      <li><m>b</m> is also the <em>base</em>.</li>
-      <li><m>c</m> is the <em>exponent</em>.</li>
-      <li><m>a</m> is the result of the power.</li>
-    </ul>
-    <p>Notice that the exponent <m>c</m> is equivalent to the logarithm above (since logarithms are an exponent), and that the result <m>a</m> is equivalent to the argument above.</p>
+    <p>The equations <m>\log_{b}a = c</m> (<alert>logarithmic form</alert>) and <m>b^c = a</m> (<alert>exponential form</alert>) are two ways of expressing the same relationship between the numbers <m>a, b</m>, and <m>c</m>.</p>
+    <p>With the logarithmic form <m>\log_{b}a = c</m>,
+      <ul>
+        <li><m>b</m> is called the <term>base</term> of the logarithm.</li>
+        <li><m>a</m> is called the <term>argument</term> (the value inputted into the function).</li>
+        <li><m>c</m> is the <term>logarithm</term> (since it equals the logarithmic expression).</li>
+      </ul>
+      With the exponential form <m>b^c = a</m>,
+      <ul>
+        <li><m>b</m> is also the <em>base</em>.</li>
+        <li><m>c</m> is the <em>exponent</em>.</li>
+        <li><m>a</m> is the result of the power.</li>
+      </ul>
+      Notice that the exponent <m>c</m> is equivalent to the logarithm above (since logarithms are an exponent), and that the result <m>a</m> is equivalent to the argument above.
+    </p>
     
-    <project>
+    <project xml:id="proj-convert-forms">
       <title>Converting Forms</title>
-      <introduction>
-        <p>Convert each logarithmic or exponential equation to exponential or logarithmic form.</p>
-      </introduction>
-      <task><statement><p><m>\log 0.1=-1</m></p></statement><answer><p><m>10^{-1}=0.1</m></p></answer></task>
-      <task><statement><p><m>\log_{5}3125=5</m></p></statement><answer><p><m>5^5=3125</m></p></answer></task>
-      <task><statement><p><m>8^0=1</m></p></statement><answer><p><m>\log_{8}{1}=0</m></p></answer></task>
-      <task><statement><p><m>8^{\frac{2}{3}}=4</m></p></statement><answer><p><m>\log_{8}{4}=\frac{2}{3}</m></p></answer></task>
-      <task><statement><p><m>9^{-1}=\frac{1}{9}</m></p></statement><answer><p><m>\log_{9}\brac{\frac{1}{9}}=-1</m></p></answer></task>
-      <task><statement><p><m>\log_3{729}=6</m></p></statement><answer><p><m>3^6=729</m></p></answer></task>
-      <task><statement><p><m>\log_{\sqrt{3}}{3}=2</m></p></statement><answer><p><m>\brac{\sqrt{3}}^2=3</m></p></answer></task>
-      <task><statement><p><m>3^{-2}=\frac{1}{9}</m></p></statement><answer><p><m>\log_{3}\brac{\frac{1}{9}}=-2</m></p></answer></task>
-      <task><statement><p><m>\log_{2x}{(x+1)}=3</m></p></statement><answer><p><m>(2x)^3=x+1</m></p></answer></task>
+      <introduction><p>Convert each logarithmic or exponential equation to exponential or logarithmic form.</p></introduction>
+      <task>
+        <statement><m>\log 0.1=-1</m></statement>
+        <answer><p><m>10^{-1}=0.1</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\log_{5}3125=5</m></statement>
+        <answer><p><m>5^5=3125</m></p></answer>
+      </task>
+      <task>
+        <statement><m>8^0=1</m></statement>
+        <answer><p><m>\log_{8}{1}=0</m></p></answer>
+      </task>
+      <task>
+        <statement><m>8^{\frac{2}{3}}=4</m></statement>
+        <answer><p><m>\log_{8}{4}=\frac{2}{3}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>9^{-1}=\frac{1}{9}</m></statement>
+        <answer><p><m>\log_{9}\left(\frac{1}{9}\right)=-1</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\log_3{729}=6</m></statement>
+        <answer><p><m>3^6=729</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\log_{\sqrt{3}}{3}=2</m></statement>
+        <answer><p><m>\left(\sqrt{3}\right)^2=3</m></p></answer>
+      </task>
+      <task>
+        <statement><m>3^{-2}=\frac{1}{9}</m></statement>
+        <answer><p><m>\log_{3}\left(\frac{1}{9}\right)=-2</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\log_{2x}{(x+1)}=3</m></statement>
+        <answer><p><m>(2x)^3=x+1</m></p></answer>
+      </task>
     </project>
     
     <p>Logarithms are a name for a certain exponent. In particular, <m>\log_b{a}</m> is the exponent to which <m>b</m> must be raised, to obtain <m>a</m>.</p>
-    <p>When you see <m>\log{\text{something}}</m>, mentally translate into <q>the exponent you'd put on the base to get what's inside</q>.</p>
+    <p>When you see <q><m>\log{\text{something}}</m></q>, mentally translate into <q>the exponent you'd put on the base to get what's inside</q>.</p>
     
-    <project>
-      <title>Evaluating Logarithms</title>
-      <introduction>
-        <p>Evaluate each logarithm.</p>
-      </introduction>
-      <task><statement><p><m>\log_{4}16</m></p></statement><answer><p><m>2</m></p></answer></task>
-      <task><statement><p><m>\log_{2}32</m></p></statement><answer><p><m>5</m></p></answer></task>
-      <task><statement><p><m>\log_{3}9</m></p></statement><answer><p><m>2</m></p></answer></task>
-      <task><statement><p><m>\log 10000</m></p></statement><answer><p><m>4</m></p></answer></task>
-      <task><statement><p><m>\log_3{81}</m></p></statement><answer><p><m>4</m></p></answer></task>
-      <task><statement><p><m>\log_{7}49</m></p></statement><answer><p><m>2</m></p></answer></task>
-      <task><statement><p><m>\log_{5}3125</m></p></statement><answer><p><m>5</m></p></answer></task>
-      <task><statement><p><m>\log 1000000</m></p></statement><answer><p><m>6</m></p></answer></task>
-      <task><statement><p><m>\log_{4}256</m></p></statement><answer><p><m>4</m></p></answer></task>
-      <task><statement><p><m>\log_{3}729</m></p></statement><answer><p><m>6</m></p></answer></task>
+    <project xml:id="proj-evaluate-logs-basic">
+      <title>Evaluating Basic Logarithms</title>
+      <introduction><p>Evaluate each logarithm.</p></introduction>
+      <task>
+        <statement><m>\log_{4}16</m></statement>
+        <answer><p>2</p></answer>
+      </task>
+      <task>
+        <statement><m>\log_{2}32</m></statement>
+        <answer><p>5</p></answer>
+      </task>
+      <task>
+        <statement><m>\log_{3}9</m></statement>
+        <answer><p>2</p></answer>
+      </task>
+      <task>
+        <statement><m>\log 10000</m></statement>
+        <answer><p>4</p></answer>
+      </task>
+      <task>
+        <statement><m>\log_3{81}</m></statement>
+        <answer><p>4</p></answer>
+      </task>
+      <task>
+        <statement><m>\log_{7}49</m></statement>
+        <answer><p>2</p></answer>
+      </task>
+      <task>
+        <statement><m>\log_{5}3125</m></statement>
+        <answer><p>5</p></answer>
+      </task>
+      <task>
+        <statement><m>\log 1000000</m></statement>
+        <answer><p>6</p></answer>
+      </task>
+      <task>
+        <statement><m>\log_{4}256</m></statement>
+        <answer><p>4</p></answer>
+      </task>
+      <task>
+        <statement><m>\log_{3}729</m></statement>
+        <answer><p>6</p></answer>
+      </task>
     </project>
   </subsection>
   
-  <subsection xml:id="subsection-logarithm-bases">
+  <subsection xml:id="sub-logarithm-bases">
     <title>Logarithm Bases</title>
-    <p>The two most commonly-used logarithm bases are:</p>
-    <ul>
-      <li>Base 10, denoted by <m>\log_{10}</m>, called the <term>common logarithm</term>, which is used in many applied sciences.</li>
-      <li>Base <m>e</m>, called the <term>natural logarithm</term>, which is often used in calculus.</li>
-    </ul>
-    <p>These are often denoted by simply <m>\log</m> and <m>\ln</m>, respectively. In other words,</p>
-    <md>
-      <mrow>\log{x} = \log_{10}{x} \quad \text{and} \quad \ln{x} = \log_e{x}</mrow>
-    </md>
-    <p>These two logarithms are included on most calculators. The natural logarithm is denoted by <m>\ln</m> because it is an abbreviation of the Latin term <q>logarithmus naturali</q>.</p>
-    <p>In computer science, often log base 2 is used, or <m>\log_2</m>.</p>
+    <p>The two most commonly-used logarithm bases are:
+      <ul>
+        <li>Base 10, denoted by <m>\log_{10}</m>, called the <term>common logarithm</term>, which is used in many applied sciences.</li>
+        <li>Base <m>e</m>, called the <term>natural logarithm</term>, which is often used in calculus.</li>
+      </ul>
+      These are often denoted by simply <m>\log</m> and <m>\ln</m>, respectively. In other words,
+      <md>
+        <mrow>\log{x} = \log_{10}{x} \quad \text{and} \quad \ln{x} = \log_e{x}</mrow>
+      </md>
+      These two logarithms are included on most calculators. The natural logarithm is denoted by <m>\ln</m> because it is an abbreviation of the Latin term <q>logarithmus naturali</q>.
+    </p>
     
     <remark>
-      <p>Note that previously, functions have been mostly represented by a single letter, such that <m>f</m> for <m>f(x)</m> or <m>g</m> for <m>g(x)</m>. For logarithms, we use three letters <m>\log</m> to denote the common logarithm, and two letters <m>\ln</m> to denote the natural logarithm. In this way, <m>\log{(x)}</m> or <m>\log_2{(x)}</m> represents a function just like <m>f(x)</m> does. However, we often write logarithms without parentheses as <m>\log{x}</m> or <m>\log_2{x}</m>. If you have seen the trig functions like <m>\sin{x}</m> or <m>\cos{x}</m>, then <m>\log{x}</m> is a similar kind of notation.</p>
-      <p>If there are more than one term inside the logarithm, then we use brackets, such as <m>\log(x + y)</m>. Or, if there are a lot of factors, e.g. <m>\log\brac{\frac{x^2 y^3}{(x-1)^5}}</m>.</p>
+      <p>In computer science, often log base 2 is used, or <m>\log_2</m>.</p>
+    </remark>
+    
+    <remark>
+      <p>For logarithms, we use three letters <m>\log</m> to denote the common logarithm, and two letters <m>\ln</m> to denote the natural logarithm.</p>
+      <p>Typically, functions have been represented by a single letter, such that <m>f</m> for <m>f(x)</m> or <m>g</m> for <m>g(x)</m>.</p>
+      <p>In this way, <m>\log{(x)}</m> or <m>\log_2{(x)}</m> represents a function just like <m>f(x)</m> does. However, we often write logarithms without parentheses as <m>\log{x}</m> or <m>\log_2{x}</m>.</p>
+      <p>If you have seen the trig functions like <m>\sin{x}</m> or <m>\cos{x}</m>, then <m>\log{x}</m> is a similar kind of notation: <m>\log{x}</m> means the log function with <m>x</m> as its input, just like <m>\sin{x}</m> means the sine function with <m>x</m> as its input. In particular, <m>\log{10}</m> does <em>not</em> mean <q><m>\log</m> times 10</q>, just like <m>\sin{30^{\circ}}</m> doesn't mean <q><m>\sin</m> times 30</q>.</p>
+      <p>If a log contains more than one term, then we use brackets. For example, <m>\log(x + y)</m>. Or, if there are a lot of factors, e.g. <m>\log\left(\frac{x^2 y^3}{(x-1)^5}\right)</m>.</p>
     </remark>
   </subsection>
   
-  <subsection xml:id="subsection-basic-properties-logs">
+  <subsection xml:id="sub-basic-properties">
     <title>Basic Properties of Logarithms</title>
     
-    <example>
-      <title>Base Examples</title>
-      <p><m>\log_5{5}=1</m>. Also, <m>\log_3{3} = 1</m>.</p>
+    <example xml:id="ex-log-of-base">
+      <title>Logarithm of the Base</title>
+      <p>Consider <m>\log_5{5}</m>. This means the exponent to put on 5 to get 5. This is 1, since <m>5^1=5</m>. Similarly
+        <ul>
+          <li><m>\log_3{3} = 1</m></li>
+          <li><m>\log_8{8} = 1</m></li>
+          <li><m>\log{10} = 1</m></li>
+        </ul>
+      </p>
     </example>
     
-    <theorem>
+    <theorem xml:id="thm-log-base-b-b">
       <title>Logarithm of the base</title>
-      <statement>
-        <md>
-          <mrow>\boxed{\log_{b}b = 1} \qquad \text{"log base $b$ of $b$ is 1"}</mrow>
-        </md>
-        <p>Because the exponent you need to put on <m>b</m> to get <m>b</m> is 1.</p>
-      </statement>
+      <md>
+        <mrow>\boxed{\log_{b}b = 1} \qquad \text{<q>log base <m>b</m> of <m>b</m> is 1</q>}</mrow>
+      </md>
+      <p>Because, the exponent you need to put on <m>b</m> to get <m>b</m> is 1.</p>
     </theorem>
     
-    <example>
-      <title>Base 1 Examples</title>
-      <p><m>\log_{3}{1}=0</m>. Also <m>\log_8{1}=0</m>.</p>
+    <example xml:id="ex-log-of-one">
+      <title>Logarithm of One</title>
+      <p>Consider <m>\log_{3}{1}</m>. This means the exponent to put on 3 to get 1. This is 0, because <m>3^0=1</m>. Similarly,
+        <ul>
+          <li><m>\log_8{1}=0</m></li>
+          <li><m>\log_5{1}=0</m></li>
+          <li><m>\log{1}=0</m></li>
+        </ul>
+      </p>
     </example>
     
-    <theorem>
+    <theorem xml:id="thm-log-base-b-1">
       <title>Logarithm of 1</title>
-      <statement>
-        <md>
-          <mrow>\boxed{\log_{b}1 = 0} \qquad \text{"log base $b$ of 1 is 0"}</mrow>
-        </md>
-        <p>Because the exponent you need to put on <m>b</m> to get 1 is 0.</p>
-      </statement>
+      <md>
+        <mrow>\boxed{\log_{b}1 = 0} \qquad \text{<q>log base <m>b</m> of 1 is 0</q>}</mrow>
+      </md>
+      <p>Because, the exponent you need to put on <m>b</m> to get 1 is 0.</p>
     </theorem>
   </subsection>
   
-  <subsection xml:id="subsection-evaluating-logs">
+  <subsection xml:id="sub-evaluating-hand">
     <title>Evaluating Logarithms (By Hand)</title>
     
-    <project>
-      <title>Practice Evaluating Logarithms</title>
-      <introduction>
-        <p>Evaluate each logarithm.</p>
-      </introduction>
-      <task><statement><p><m>\log_{7}\sqrt{7}</m></p></statement><answer><p><m>\frac{1}{2}</m></p></answer></task>
-      <task><statement><p><m>\log_{2}\brac{\frac{1}{2}}</m></p></statement><answer><p><m>-1</m></p></answer></task>
-      <task><statement><p><m>\log_{\sqrt{2}}4</m></p></statement><answer><p><m>4</m></p></answer></task>
-      <task><statement><p><m>\log_{6}\brac{\frac{1}{216}}</m></p></statement><answer><p><m>-3</m></p></answer></task>
-      <task><statement><p><m>\log{0.001}</m></p></statement><answer><p><m>-3</m></p></answer></task>
-      <task><statement><p><m>\log_{4}\brac{\frac{1}{32}}</m></p></statement><answer><p><m>-\frac{5}{2}</m></p></answer></task>
-      <task><statement><p><m>\log_{3}\sqrt{3}</m></p></statement><answer><p><m>\frac{1}{2}</m></p></answer></task>
-      <task><statement><p><m>\log_2{\sqrt{32}}</m></p></statement><answer><p><m>\frac{5}{2}</m></p></answer></task>
-      <task><statement><p><m>\log_{8}\brac{2\sqrt[3]{2}}</m></p></statement><answer><p><m>\frac{4}{9}</m></p></answer></task>
-      <task><statement><p><m>\log_{2}\brac{\sqrt[3]{4}}</m></p></statement><answer><p><m>\frac{2}{3}</m></p></answer></task>
-      <task><statement><p><m>\log_{3}\brac{3\sqrt{3}}</m></p></statement><answer><p><m>\frac{3}{2}</m></p></answer></task>
-      <task><statement><p><m>\log_{9}\brac{3\sqrt{3}}</m></p></statement><answer><p><m>\frac{3}{4}</m></p></answer></task>
-      <task><statement><p><m>\log_{5}\brac{\frac{1}{25}}</m></p></statement><answer><p><m>-2</m></p></answer></task>
-      <task><statement><p><m>\log_{2}\brac{8\sqrt{2}}</m></p></statement><answer><p><m>\frac{7}{2}</m></p></answer></task>
-      <task><statement><p><m>\log_{\frac{1}{2}}16</m></p></statement><answer><p><m>-4</m></p></answer></task>
-      <task><statement><p><m>\log_{27}\brac{3\sqrt{3}}</m></p></statement><answer><p><m>\frac{1}{2}</m></p></answer></task>
-      <task><statement><p><m>\log_{2}\sqrt[6]{32}</m></p></statement><answer><p><m>\frac{5}{6}</m></p></answer></task>
-      <task><statement><p><m>\log_2(\log_3(\log_4{64}))</m></p></statement><answer><p><m>0</m></p></answer></task>
-      <task><statement><p><m>\log_4(\log_2(\log(10^{16})))</m></p></statement><answer><p><m>1</m></p></answer></task>
+    <project xml:id="proj-evaluate-logs-hand">
+      <title>Evaluating Logarithms</title>
+      <introduction><p>Evaluate each logarithm.</p></introduction>
+      <task>
+        <statement><m>\log_{7}\sqrt{7}</m></statement>
+        <answer><p><m>\frac{1}{2}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\log_{2}\left(\frac{1}{2}\right)</m></statement>
+        <answer><p>-1</p></answer>
+      </task>
+      <task>
+        <statement><m>\log_{\sqrt{2}}4</m></statement>
+        <answer><p>4</p></answer>
+      </task>
+      <task>
+        <statement><m>\log_{6}\left(\frac{1}{216}\right)</m></statement>
+        <answer><p>-3</p></answer>
+      </task>
+      <task>
+        <statement><m>\log{0.001}</m></statement>
+        <answer><p>-3</p></answer>
+      </task>
+      <task>
+        <statement><m>\log_{4}\left(\frac{1}{32}\right)</m></statement>
+        <answer><p><m>-\frac{5}{2}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\log_{3}\sqrt{3}</m></statement>
+        <answer><p><m>\frac{1}{2}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\log_2{\sqrt{32}}</m></statement>
+        <answer><p><m>\frac{5}{2}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\log_{8}\left(2\sqrt[3]{2}\right)</m></statement>
+        <answer><p><m>\frac{4}{9}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\log_{2}\left(\sqrt[3]{4}\right)</m></statement>
+        <answer><p><m>\frac{2}{3}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\log_{3}\left(3\sqrt{3}\right)</m></statement>
+        <answer><p><m>\frac{3}{2}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\log_{9}\left(3\sqrt{3}\right)</m></statement>
+        <answer><p><m>\frac{3}{4}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\log_{5}\left(\frac{1}{25}\right)</m></statement>
+        <answer><p>-2</p></answer>
+      </task>
+      <task>
+        <statement><m>\log_{2}\left(8\sqrt{2}\right)</m></statement>
+        <answer><p><m>\frac{7}{2}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\log_{1/2}16</m></statement>
+        <answer><p>-4</p></answer>
+      </task>
+      <task>
+        <statement><m>\log_{27}\left(3\sqrt{3}\right)</m></statement>
+        <answer><p><m>\frac{1}{2}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\log_{1/3}{27}</m></statement>
+        <answer><p>-3</p></answer>
+      </task>
+      <task>
+        <statement><m>\log_{2}\sqrt[6]{32}</m></statement>
+        <answer><p><m>\frac{5}{6}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\log_2(\log_3(\log_4{64}))</m></statement>
+        <answer><p>0</p></answer>
+      </task>
+      <task>
+        <statement><m>\log_4(\log_2(\log(10^{16})))</m></statement>
+        <answer><p>1</p></answer>
+      </task>
+    </project>
+  </subsection>
+  
+  <subsection xml:id="sub-neg-logs">
+    <title>Logs of Negative Numbers</title>
+    <p>It turns out, we can't take the logarithm of a negative number, or 0.</p>
+    
+    <example xml:id="ex-log-negative">
+      <title>Log of a Negative Number</title>
+      <p>Consider <m>\log_2{(-4)}</m>. This number represents the exponent to put on 2 to get <m>-4</m>. However, the equation <m>2^x=-4</m> has no solution, because 2 to the power of any number will always result in a positive number, never a negative.</p>
+    </example>
+    
+    <example xml:id="ex-log-zero">
+      <title>Log of Zero</title>
+      <p>Consider <m>\log_2{0}</m>. This also doesn't work, because <m>2^x=0</m> has no solution. Again, 2 to the power of any number will always be positive, and so will never equal to 0.</p>
+    </example>
+    
+    <p>In general,
+      <md>
+        <mrow>\boxed{\text{You can only take the log of a positive number}}</mrow>
+      </md>
+      This is because for any base <m>b</m>, the expression <m>\log_b{x}</m> means the exponent needed to raise <m>b</m> to get <m>x</m>. Since <m>b</m> to the power of any number is always positive, there is only an answer if <m>x</m> is positive.
+    </p>
+  </subsection>
+  
+  <subsection xml:id="sub-evaluating-calculator">
+    <title>Evaluating Logarithms Using a Calculator</title>
+    <p>My recommended calculator <url href="https://camerongeisler.com/calculator-guide-for-students-how-to-buy-a-calculator/">Casio fx-991ES Plus C 2nd edition</url> (or some other similar scientific calculators, as well as the TI-84 Plus CE) can calculate logarithms of any base.</p>
+    <p>However, many older and weaker calculators only have buttons for:
+      <ul>
+        <li>Base 10 (common logarithms) denoted by the <m>\log</m> key</li>
+        <li>Natural logarithms (base <m>e</m>) denoted by <m>\ln</m></li>
+      </ul>
+      In fact, base 10 logs are enough to evaluate logs of any base, because of this rule,
+      <md>
+        <mrow>\boxed{\log_b{a} = \frac{\log{a}}{\log{b}}}</mrow>
+      </md>
+      This allows us to change a log of any base (<m>b</m>) to something involving logs base 10. It also works for natural logarithms, but you can just stick with logs base 10.
+    </p>
+    
+    <theorem xml:id="thm-change-of-base">
+      <title>Change-of-base property</title>
+      <md>
+        <mrow>\log_b{a} = \frac{\log{a}}{\log{b}} = \frac{\ln{a}}{\ln{b}} \qquad \qquad \text{for any } b \gt 0, b \neq 1</mrow>
+      </md>
+    </theorem>
+    
+    <example xml:id="ex-change-of-base-usage">
+      <title>Using Change of Base</title>
+      <p>For example,
+        <ul>
+          <li><m>\log_2{15} = \frac{\log{15}}{\log{2}} \approx 3.907</m></li>
+          <li><m>\log_2{8} = \frac{\log{8}}{\log{2}} = 3</m> (we could have found this one without a calculator)</li>
+        </ul>
+      </p>
+    </example>
+    
+    <p>This equality is a particular case of what is called the change-of-base property, which we'll explore further later on.</p>
+  </subsection>
+  
+  <subsection xml:id="sub-inverse-properties">
+    <title>Inverse Properties of Logarithms</title>
+    <example xml:id="ex-log-base-power">
+      <title>Logarithm of a Power</title>
+      <p>Consider <m>\log_3(3^5)</m>. This means the exponent that 3 must be raised, to get <m>3^5</m>. The answer is 5, because literally, 3 to the 5 is 3 to the 5. Similarly,
+        <ul>
+          <li><m>\log_5(5^8) = 8</m></li>
+          <li><m>\log_8(8^{100})=100</m></li>
+          <li><m>\log{10^4} = 4</m></li>
+        </ul>
+      </p>
+    </example>
+    
+    <p>In general, if you take the log of a power of the base, the answer is the exponent.</p>
+    
+    <theorem xml:id="thm-log-b-bx">
+      <title>Logarithm of a power of the base</title>
+      <md>
+        <mrow>\boxed{\log_{b}b^x = x} \amp\amp \text{<q>log base <m>b</m> of <m>b</m> to the <m>x</m> is <m>x</m></q>}</mrow>
+      </md>
+      <p>Intuitively, <m>\log_{b}(b^x)</m> is the exponent to put on <m>b</m> to get <m>b^x</m>, which is literally <m>x</m>.</p>
+    </theorem>
+    
+    <example xml:id="ex-power-of-log">
+      <title>Power of a Logarithm</title>
+      <p>Consider <m>4^{\log_4{11}}</m>. The exponent of <m>\log_4{11}</m> represents the exponent to put on 4 to get 11. We are taking 4 to the power of this number, so by definition, we should get 11. Therefore, <m>4^{\log_4{11}}=11</m>.</p>
+      <p>Similarly,
+        <ul>
+          <li><m>5^{\log_5{125}} = 125</m></li>
+          <li><m>3^{\log_3 \frac{1}{16}} = \frac{1}{16}</m></li>
+          <li><m>6^{\log_6{x}} = x</m></li>
+        </ul>
+      </p>
+    </example>
+    
+    <theorem xml:id="thm-b-log-bx">
+      <title>Power of a logarithm with the same base</title>
+      <md>
+        <mrow>\boxed{b^{\log_{b}x} = x} \qquad \text{<q><m>b</m> to the power of log base <m>b</m> of <m>x</m>, is <m>x</m></q>}</mrow>
+      </md>
+      <p>Intuitively, <m>\log_{b}x</m> is the exponent which <m>b</m> must be raised to get <m>x</m>. So, if we raise <m>b</m> to that exponent, we get (literally) <m>x</m>.</p>
+    </theorem>
+    
+    <project xml:id="proj-evaluate-inverse">
+      <title>Evaluating with Inverse Properties</title>
+      <introduction><p>Evaluate each expression.</p></introduction>
+      <task>
+        <statement><m>\log_4 4^5</m></statement>
+        <answer><p>5</p></answer>
+      </task>
+      <task>
+        <statement><m>6^{\log_6 9}</m></statement>
+        <answer><p>9</p></answer>
+      </task>
+      <task>
+        <statement><m>\log_7 7^8</m></statement>
+        <answer><p>8</p></answer>
+      </task>
+      <task>
+        <statement><m>3^{\log_3 17}</m></statement>
+        <answer><p>17</p></answer>
+      </task>
+      <task>
+        <statement><m>\log_b b^3</m></statement>
+        <answer><p>3</p></answer>
+      </task>
+      <task>
+        <statement><m>8^{\log_8 19}</m></statement>
+        <answer><p>19</p></answer>
+      </task>
+      <task>
+        <statement><m>\log_3 3^5</m></statement>
+        <answer><p>5</p></answer>
+      </task>
+      <task>
+        <statement><m>5^{\log_5 25}</m></statement>
+        <answer><p>25</p></answer>
+      </task>
+      <task>
+        <statement><m>4^{\log_4 \frac{1}{16}}</m></statement>
+        <answer><p><m>\frac{1}{16}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\log_m m^n</m></statement>
+        <answer><p><m>n</m></p></answer>
+      </task>
+      <task>
+        <statement><m>a^{\log_a b}</m></statement>
+        <answer><p><m>b</m></p></answer>
+      </task>
+    </project>
+  </subsection>
+  
+  <subsection xml:id="sub-solving-basic-eqs">
+    <title>Solving Basic Logarithmic Equations (Finding the Unknown)</title>
+    <p>To solve for an unknown that involves logs, the main technique is to convert to exponential form.</p>
+    
+    <project xml:id="proj-solve-basic-logs">
+      <title>Solving Equations</title>
+      <introduction><p>Solve each equation.</p></introduction>
+      <task>
+        <statement><m>\log{x}=2</m></statement>
+        <answer><p><m>x=100</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\log_4{x}=2</m></statement>
+        <answer><p><m>x=16</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\log_{x}{32}=\frac{5}{2}</m></statement>
+        <answer><p><m>x=4</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\log_{2}(\log_{x}{256})=3</m></statement>
+        <answer><p><m>x=2</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\log_x{27}=\frac{3}{2}</m></statement>
+        <answer><p><m>x=9</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\log_6{x}=3</m></statement>
+        <answer><p><m>x=216</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\log{x}=0</m></statement>
+        <answer><p><m>x=1</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\log_{64} x = \frac{2}{3}</m></statement>
+        <answer><p><m>x=16</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\log_4 x = -2</m></statement>
+        <answer><p><m>x = \frac{1}{16}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\log_{16} x = -\frac{1}{4}</m></statement>
+        <answer><p><m>x = \frac{1}{2}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\log_x 9 = \frac{2}{3}</m></statement>
+        <answer><p><m>x = 27</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\log{x}=3</m></statement>
+        <answer><p><m>x=1000</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\log_{\sqrt{2}}{32}=x</m></statement>
+        <answer><p><m>x=10</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\log_x 9 = \frac{1}{2}</m></statement>
+        <answer><p><m>x = 81</m></p></answer>
+      </task>
+      <task>
+        <statement><m>5^{\log_{5}{25}}=x</m></statement>
+        <answer><p><m>x=25</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\log_5 x = -3</m></statement>
+        <answer><p><m>x=\frac{1}{125}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\log_x 36 = 2</m></statement>
+        <answer><p><m>x=6</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\log_{\frac{1}{4}} x=-3</m></statement>
+        <answer><p><m>x=64</m></p></answer>
+      </task>
+    </project>
+    
+    <p>In the next examples, if there are multiple logs inside each other, then work from the outside in. Convert to exponential form to unwrap one layer.</p>
+    
+    <project xml:id="proj-solve-advanced-logs">
+      <title>Advanced Examples</title>
+      <introduction><p>Solve each equation.</p></introduction>
+      <task>
+        <statement><m>\log_2\left(\log_{16}\left(\log_3(x)\right)\right)=-1</m></statement>
+        <answer><p><m>x=81</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\log_x 16 = \frac{4}{3}</m></statement>
+        <answer><p><m>x=8</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\log_{x^2}{81}=2</m></statement>
+        <answer><p><m>x=\pm 3</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\log_2(\log_8 x)=-1</m></statement>
+        <answer><p><m>x=2\sqrt{2}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\log_{1/2}(\log_4(\log_2 x))=1</m></statement>
+        <answer><p><m>x=4</m></p></answer>
+      </task>
+      <task>
+        <statement><m>2x+8=5^{\log_{5}{125}}</m></statement>
+        <answer><p><m>x=\frac{117}{2}</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\log_2(\log_x(\log_3 27))=-1</m></statement>
+        <answer><p><m>x=9</m></p></answer>
+      </task>
+      <task>
+        <statement><m>\log_{3x}{27}=2</m></statement>
+        <answer><p><m>x=\sqrt{3}</m> (note: reject <m>x=-\sqrt{3}</m>, because the base cannot be negative)</p></answer>
+      </task>
     </project>
   </subsection>
   
