@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-intro-to-exponential-growth-and-decay" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Intro to Exponential Growth and Decay</title>
+  
+  <introduction>
+    <p>Exponential functions can be used to model amounts that change over time.</p>
+    
+    <example xml:id="ex-population-growth">
+      <title>Population Growth</title>
+      <p>A small town has a population of 12000 people. Each year, the population increases by 10%.</p>
+      <p>
+        <ol marker="(a)">
+          <li>What will be the population of the town after 1 year? 2 years? 3 years?</li>
+          <li>What will be the population after <m>t</m> years?</li>
+        </ol>
+      </p>
+      <p><q>Increase by 10%</q> means that it keeps all of the population it has, and adds 10% more of that number.</p>
+      <p>
+        <ul>
+          <li>100% of the population is the amount it already has</li>
+          <li>10% more means you are at 110% of the original.</li>
+        </ul>
+      </p>
+      <p>As a decimal, <m>110\%=1.10</m>. So, increase by 10% means multiply by 1.10.</p>
+      <p>
+        <ul>
+          <li>At the start (year 0), the population is 12000.</li>
+          <li>After 1 year, the population is <m>12000 \times 1.10 = 13200</m> people.</li>
+          <li>After 2 years, the population is <m>12000 \times 1.10 \times 1.10 = 12000(1.10)^2 = 14520</m> people.</li>
+          <li>After 3 years, the population is <m>12000 \times 1.10 \times 1.10 \times 1.10 = 12000(1.10)^3 = 15972</m> people.</li>
+        </ul>
+      </p>
+      <p>Notice the pattern, which is that we multiply the initial population of 12000 by 1.10 for each year.</p>
+      <p>In general, after <m>t</m> years, we are multiplying by 1.10 precisely <m>t</m> times. So, the general formula for population, we'll call it <m>P(t)</m>, is given by,
+        <md>
+          <mrow>P(t)=12000(1.10)^t</mrow>
+        </md>
+      </p>
+    </example>
+    
+    <example xml:id="ex-smartphone-value">
+      <title>Smartphone Value</title>
+      <p>Suppose you buy a new smartphone for $1400. Each year, its value drops by 35%.</p>
+      <p>
+        <ol marker="(a)">
+          <li>How much will it be worth after 1 year? 2 years? 3 years?</li>
+          <li>How much will it be worth after <m>t</m> years?</li>
+        </ol>
+      </p>
+      <p><q>Drop by 35%</q> means you keep 65% of the value each year, because you start with 100% of its value, take away 35%, and are left with 65%. As a decimal, <m>65\%=0.65</m>, so decreasing by 35% each year means multiply by 0.65 each year.</p>
+      <md>
+        <mrow>A(0) \amp = 1400</mrow>
+        <mrow>A(1) \amp = 1400(0.65)</mrow>
+        <mrow>A(2) \amp = 1400(0.65)^2</mrow>
+        <mrow>A(3) \amp = 1400(0.65)^3</mrow>
+      </md>
+      <p>In general,</p>
+      <md>
+        <mrow>A(t)=1000(0.65)^t</mrow>
+      </md>
+    </example>
+    <p>In general, exponential change has this form,</p>
+    <md>
+      <mrow>\text{amount after $t$ steps} = (\text{starting amount}) \times (\text{multiplier})^t</mrow>
+    </md>
+  </introduction>
+  
+  <subsection xml:id="sub-exponential-modeling">
+    <title>Exponential Growth and Decay Models</title>
+    <p>The <term>exponential growth</term> and <term>exponential decay</term> models are given by,</p>
+    <md>
+      <mrow>\boxed{A = A_0 \cdot b^t \qquad 
+        \begin{cases}
+        A   \amp \text{amount after } t \text{ time steps} \\
+        A_0 \amp \text{initial amount (at } t = 0\text{)} \\
+        b   \amp \text{growth factor for each time step} \\
+        t   \amp \text{number of time steps}
+        \end{cases}}
+      </mrow>
+    </md>
+    
+    <p>The base <m>b</m> is called the <term>growth factor</term>, because it controls how the amount changes from one step to the next.</p>
+    <p>It can also be thought of in terms of the percentage change, as <m>1+r</m>,</p>
+    <md>
+      <mrow>\boxed{A = A_0 \cdot (1+r)^t \qquad 
+        \begin{cases}
+        A   \amp \text{amount after } t \text{ time steps} \\
+        A_0 \amp \text{initial amount (at } t = 0\text{)} \\
+        r   \amp \text{percentage change (as a decimal)} \\
+        t   \amp \text{number of time steps}
+        \end{cases}}
+      </mrow>
+    </md>
+    
+    <p>Here, <m>r</m> represents the percentage change (as a decimal),</p>
+    <ul>
+      <li>If <m>r \gt 0</m>, then it is <term>exponential growth</term>, and <m>r</m> is the <term>growth rate</term>.</li>
+      <li>If <m>r \lt 0</m>, then it is <term>exponential decay</term>, and <m>r</m> is the <term>decay rate</term>.</li>
+    </ul>
+    
+    <p>Exponential functions have applications for,</p>
+    <ul>
+      <li>Population growth (biology), of animals, people, or bacteria.</li>
+      <li>Growth of an investment (economics)</li>
+      <li>Decay of a radioactive substance (chemistry)</li>
+    </ul>
+    <p>In general, anything that changes by a percentage can be modelled by exponential functions.</p>
+    
+    <project xml:id="proj-growth-factor-practice">
+      <title>Percentage to Growth Factor</title>
+      <introduction>
+        <p>Find the growth factor required for each percentage change.</p>
+      </introduction>
+      <task>
+        <statement><m>28\%</m> increase</statement>
+        <answer><m>1.28</m></answer>
+      </task>
+      <task>
+        <statement><m>13\%</m> decrease</statement>
+        <answer><m>0.87</m></answer>
+      </task>
+      <task>
+        <statement><m>55\%</m> decrease</statement>
+        <answer><m>0.45</m></answer>
+      </task>
+      <task>
+        <statement><m>72\%</m> increase</statement>
+        <answer><m>1.72</m></answer>
+      </task>
+      <task>
+        <statement><m>6\%</m> increase</statement>
+        <answer><m>1.06</m></answer>
+      </task>
+      <task>
+        <statement><m>0.24\%</m> increase</statement>
+        <answer><m>1.0024</m></answer>
+      </task>
+    </project>
+  </subsection>
+  
+</section>

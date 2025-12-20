@@ -2764,11 +2764,65 @@ var ptx_lunr_docs = [
   "body": " Non-examples  Some functions that are not exponential functions include:   ( is not an exponent, this is a polynomial function)  (the base must be positive)  (the base cannot be )  (the base is not a constant)   In particular, note that a power function, of the form , is not an exponential function.  With a power function, the base is the variable , and the exponent is a constant .  For exponential functions, the base is a constant , and the exponent is a variable .      "
 },
 {
+  "id": "sec-intro-to-exponential-growth-and-decay",
+  "level": "1",
+  "url": "sec-intro-to-exponential-growth-and-decay.html",
+  "type": "Section",
+  "number": "12.2",
+  "title": "Intro to Exponential Growth and Decay",
+  "body": " Intro to Exponential Growth and Decay   Exponential functions can be used to model amounts that change over time.   Population Growth  A small town has a population of 12000 people. Each year, the population increases by 10%.    What will be the population of the town after 1 year? 2 years? 3 years?  What will be the population after years?    Increase by 10% means that it keeps all of the population it has, and adds 10% more of that number.    100% of the population is the amount it already has  10% more means you are at 110% of the original.    As a decimal, . So, increase by 10% means multiply by 1.10.    At the start (year 0), the population is 12000.  After 1 year, the population is people.  After 2 years, the population is people.  After 3 years, the population is people.    Notice the pattern, which is that we multiply the initial population of 12000 by 1.10 for each year.  In general, after years, we are multiplying by 1.10 precisely times. So, the general formula for population, we'll call it , is given by,     Smartphone Value  Suppose you buy a new smartphone for $1400. Each year, its value drops by 35%.    How much will it be worth after 1 year? 2 years? 3 years?  How much will it be worth after years?    Drop by 35% means you keep 65% of the value each year, because you start with 100% of its value, take away 35%, and are left with 65%. As a decimal, , so decreasing by 35% each year means multiply by 0.65 each year.   In general,    In general, exponential change has this form,     The exponential growth and exponential decay models are given by,   The base is called the growth factor , because it controls how the amount changes from one step to the next.  It can also be thought of in terms of the percentage change, as ,   Here, represents the percentage change (as a decimal),   If , then it is exponential growth , and is the growth rate .  If , then it is exponential decay , and is the decay rate .   Exponential functions have applications for,   Population growth (biology), of animals, people, or bacteria.  Growth of an investment (economics)  Decay of a radioactive substance (chemistry)   In general, anything that changes by a percentage can be modelled by exponential functions.   Percentage to Growth Factor   Find the growth factor required for each percentage change.    increase     decrease     decrease     increase     increase     increase      "
+},
+{
+  "id": "ex-population-growth",
+  "level": "2",
+  "url": "sec-intro-to-exponential-growth-and-decay.html#ex-population-growth",
+  "type": "Example",
+  "number": "12.2.1",
+  "title": "Population Growth.",
+  "body": " Population Growth  A small town has a population of 12000 people. Each year, the population increases by 10%.    What will be the population of the town after 1 year? 2 years? 3 years?  What will be the population after years?    Increase by 10% means that it keeps all of the population it has, and adds 10% more of that number.    100% of the population is the amount it already has  10% more means you are at 110% of the original.    As a decimal, . So, increase by 10% means multiply by 1.10.    At the start (year 0), the population is 12000.  After 1 year, the population is people.  After 2 years, the population is people.  After 3 years, the population is people.    Notice the pattern, which is that we multiply the initial population of 12000 by 1.10 for each year.  In general, after years, we are multiplying by 1.10 precisely times. So, the general formula for population, we'll call it , is given by,   "
+},
+{
+  "id": "ex-smartphone-value",
+  "level": "2",
+  "url": "sec-intro-to-exponential-growth-and-decay.html#ex-smartphone-value",
+  "type": "Example",
+  "number": "12.2.2",
+  "title": "Smartphone Value.",
+  "body": " Smartphone Value  Suppose you buy a new smartphone for $1400. Each year, its value drops by 35%.    How much will it be worth after 1 year? 2 years? 3 years?  How much will it be worth after years?    Drop by 35% means you keep 65% of the value each year, because you start with 100% of its value, take away 35%, and are left with 65%. As a decimal, , so decreasing by 35% each year means multiply by 0.65 each year.   In general,   "
+},
+{
+  "id": "sub-exponential-modeling-1",
+  "level": "2",
+  "url": "sec-intro-to-exponential-growth-and-decay.html#sub-exponential-modeling-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "exponential growth exponential decay "
+},
+{
+  "id": "sub-exponential-modeling-3",
+  "level": "2",
+  "url": "sec-intro-to-exponential-growth-and-decay.html#sub-exponential-modeling-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "growth factor "
+},
+{
+  "id": "proj-growth-factor-practice",
+  "level": "2",
+  "url": "sec-intro-to-exponential-growth-and-decay.html#proj-growth-factor-practice",
+  "type": "Exercise Group",
+  "number": "12.2.1",
+  "title": "Percentage to Growth Factor.",
+  "body": " Percentage to Growth Factor   Find the growth factor required for each percentage change.    increase     decrease     decrease     increase     increase     increase    "
+},
+{
   "id": "sec-exponential-equations",
   "level": "1",
   "url": "sec-exponential-equations.html",
   "type": "Section",
-  "number": "12.2",
+  "number": "12.3",
   "title": "Exponential Equations",
   "body": " Exponential Equations    Exponential Equation   An exponential equation is an equation with a variable in the exponent.      Solving Exponential Equations Using Common Bases  Some simple exponential equations can be solved by using the intuitive fact that if two powers with the same base are equal, then their exponents must be equal. In other words,   This means that if we can write both sides of an exponential equation as a power of the same base, then we can set their exponents equal ( equate exponents ), resulting in a simpler equation that we can solve.    Rewrite both sides using a common base.    Simplify using exponent laws.    Set the exponents equal.    Solve the resulting equation.    The resulting equation could be linear, quadratic, or some other type of equation.  Sometimes, both sides can be written as a power of multiple numbers, which result in the same solution.    Examples   Basic Examples   Solve each exponential equation.                                                                                                 Intermediate Examples   Solve each equation.                                                                                                 Equations with More Fractions and Radicals   Solve each equation.                                                                                 Additional Practice   Solve each equation.                                             Quadratic Exponents   Solve each equation.                                              Advanced Examples   Parameter Value Problem   For what values of does the equation have no real solution?       The equation has no real solution when .     Equations Reducible to Quadratics   Solve each equation.                                         Complex Exponents   Solve each equation.             "
 },
@@ -2777,7 +2831,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponential-equations.html#sec-exponential-equations-2-1",
   "type": "Definition",
-  "number": "12.2.1",
+  "number": "12.3.1",
   "title": "Exponential Equation.",
   "body": " Exponential Equation   An exponential equation is an equation with a variable in the exponent.   "
 },
@@ -2786,7 +2840,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponential-equations.html#subsection-exp-eq-examples-2",
   "type": "Exercise Group",
-  "number": "12.2.1",
+  "number": "12.3.1",
   "title": "Basic Examples.",
   "body": " Basic Examples   Solve each exponential equation.                                                                                               "
 },
@@ -2795,7 +2849,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponential-equations.html#subsection-exp-eq-examples-3",
   "type": "Exercise Group",
-  "number": "12.2.2",
+  "number": "12.3.2",
   "title": "Intermediate Examples.",
   "body": " Intermediate Examples   Solve each equation.                                                                                               "
 },
@@ -2804,7 +2858,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponential-equations.html#subsection-exp-eq-examples-4",
   "type": "Exercise Group",
-  "number": "12.2.3",
+  "number": "12.3.3",
   "title": "Equations with More Fractions and Radicals.",
   "body": " Equations with More Fractions and Radicals   Solve each equation.                                                                               "
 },
@@ -2813,7 +2867,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponential-equations.html#subsection-exp-eq-examples-5",
   "type": "Exercise Group",
-  "number": "12.2.4",
+  "number": "12.3.4",
   "title": "Additional Practice.",
   "body": " Additional Practice   Solve each equation.                                           "
 },
@@ -2822,7 +2876,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponential-equations.html#subsection-exp-eq-examples-6",
   "type": "Exercise Group",
-  "number": "12.2.5",
+  "number": "12.3.5",
   "title": "Quadratic Exponents.",
   "body": " Quadratic Exponents   Solve each equation.                                           "
 },
@@ -2831,7 +2885,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponential-equations.html#subsection-exp-eq-advanced-examples-2",
   "type": "Checkpoint",
-  "number": "12.2.2",
+  "number": "12.3.2",
   "title": "Parameter Value Problem.",
   "body": " Parameter Value Problem   For what values of does the equation have no real solution?       The equation has no real solution when .   "
 },
@@ -2840,7 +2894,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponential-equations.html#subsection-exp-eq-advanced-examples-3",
   "type": "Exercise Group",
-  "number": "12.2.6",
+  "number": "12.3.6",
   "title": "Equations Reducible to Quadratics.",
   "body": " Equations Reducible to Quadratics   Solve each equation.                                       "
 },
@@ -2849,7 +2903,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponential-equations.html#subsection-exp-eq-advanced-examples-4",
   "type": "Exercise Group",
-  "number": "12.2.7",
+  "number": "12.3.7",
   "title": "Complex Exponents.",
   "body": " Complex Exponents   Solve each equation.           "
 },
@@ -2858,7 +2912,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-intro-to-logarithms.html",
   "type": "Section",
-  "number": "12.3",
+  "number": "12.4",
   "title": "Intro to Logarithms",
   "body": " Intro to Logarithms   Logarithms are a kind of inverse of exponents.   Motivation for Logs with Base 10  Consider these powers of 10, These tell you that 10 to an exponent gives a number. Now reverse the question. Instead of asking what equals, ask: 10 to what power equals 1000? Since , the answer is 3.  Logarithms are a shorthand for this reverse question. The expression (read this as log base 10 of ) means the exponent you put on 10 to get . Intuitively, is the number of 10s you need to multiply together in order to get . So, for example, In other words,  Powers convert exponents to numbers  Logs convert numbers to exponent .  In this way, logarithms are a kind of inverse of exponents.    Approximating Logarithms  We know that for the equation , the answer is , because . However, what about the equation ?  We know that and , so we expect the solution to be between 3 and 4. Maybe a better guess is in the middle, like . Here, , which is a bit more than 11. Try , and we get , which is a bit less than 11. So, the solution is between 3.4 and 3.5.  Using logarithms, we can say that the exact answer is (read this as log base 2 of 11 ), which means the exponent you must put on 2 to get 11. It turns out that .  You can try this on your calculator. You'll see that , which is very, very close to 11.    Logarithm Examples  Similarly,  , because .  , because .  , because       Logarithms  The logarithm base b of a , denoted by , is the exponent that must be raised to, to get . In other words,      The equations ( logarithmic form ) and ( exponential form ) are two ways of expressing the same relationship between the numbers , and .  With the logarithmic form ,  is called the base of the logarithm.  is called the argument (the value inputted into the function).  is the logarithm (since it equals the logarithmic expression).  With the exponential form ,  is also the base .  is the exponent .  is the result of the power.  Notice that the exponent is equivalent to the logarithm above (since logarithms are an exponent), and that the result is equivalent to the argument above.   Converting Forms  Convert each logarithmic or exponential equation to exponential or logarithmic form.                                       Logarithms are a name for a certain exponent. In particular, is the exponent to which must be raised, to obtain .  When you see , mentally translate into the exponent you'd put on the base to get what's inside .   Evaluating Basic Logarithms  Evaluate each logarithm.    2     5     2     4     4     2     5     6     4     6      Logarithm Bases  The two most commonly-used logarithm bases are:  Base 10, denoted by , called the common logarithm , which is used in many applied sciences.  Base , called the natural logarithm , which is often used in calculus.  These are often denoted by simply and , respectively. In other words, These two logarithms are included on most calculators. The natural logarithm is denoted by because it is an abbreviation of the Latin term logarithmus naturali .   In computer science, often log base 2 is used, or .    For logarithms, we use three letters to denote the common logarithm, and two letters to denote the natural logarithm.  Typically, functions have been represented by a single letter, such that for or for .  In this way, or represents a function just like does. However, we often write logarithms without parentheses as or .  If you have seen the trig functions like or , then is a similar kind of notation: means the log function with as its input, just like means the sine function with as its input. In particular, does not mean times 10 , just like doesn't mean times 30 .  If a log contains more than one term, then we use brackets. For example, . Or, if there are a lot of factors, e.g. .     Basic Properties of Logarithms   Logarithm of the Base  Consider . This means the exponent to put on 5 to get 5. This is 1, since . Similarly         Logarithm of the base   Because, the exponent you need to put on to get is 1.    Logarithm of One  Consider . This means the exponent to put on 3 to get 1. This is 0, because . Similarly,         Logarithm of 1   Because, the exponent you need to put on to get 1 is 0.     Evaluating Logarithms (By Hand)   Evaluating Logarithms  Evaluate each logarithm.        -1     4     -3     -3                                 -2         -4         -3         0     1      Logs of Negative Numbers  It turns out, we can't take the logarithm of a negative number, or 0.   Log of a Negative Number  Consider . This number represents the exponent to put on 2 to get . However, the equation has no solution, because 2 to the power of any number will always result in a positive number, never a negative.    Log of Zero  Consider . This also doesn't work, because has no solution. Again, 2 to the power of any number will always be positive, and so will never equal to 0.   In general, This is because for any base , the expression means the exponent needed to raise to get . Since to the power of any number is always positive, there is only an answer if is positive.    Evaluating Logarithms Using a Calculator  My recommended calculator Casio fx-991ES Plus C 2nd edition (or some other similar scientific calculators, as well as the TI-84 Plus CE) can calculate logarithms of any base.  However, many older and weaker calculators only have buttons for:  Base 10 (common logarithms) denoted by the key  Natural logarithms (base ) denoted by  In fact, base 10 logs are enough to evaluate logs of any base, because of this rule, This allows us to change a log of any base ( ) to something involving logs base 10. It also works for natural logarithms, but you can just stick with logs base 10.   Change-of-base property     Using Change of Base  For example,   (we could have found this one without a calculator)     This equality is a particular case of what is called the change-of-base property, which we'll explore further later on.    Inverse Properties of Logarithms   Logarithm of a Power  Consider . This means the exponent that 3 must be raised, to get . The answer is 5, because literally, 3 to the 5 is 3 to the 5. Similarly,        In general, if you take the log of a power of the base, the answer is the exponent.   Logarithm of a power of the base   Intuitively, is the exponent to put on to get , which is literally .    Power of a Logarithm  Consider . The exponent of represents the exponent to put on 4 to get 11. We are taking 4 to the power of this number, so by definition, we should get 11. Therefore, .  Similarly,         Power of a logarithm with the same base   Intuitively, is the exponent which must be raised to get . So, if we raise to that exponent, we get (literally) .    Evaluating with Inverse Properties  Evaluate each expression.    5     9     8     17     3     19     5     25                  Solving Basic Logarithmic Equations (Finding the Unknown)  To solve for an unknown that involves logs, the main technique is to convert to exponential form.   Solving Equations  Solve each equation.                                                                           In the next examples, if there are multiple logs inside each other, then work from the outside in. Convert to exponential form to unwrap one layer.   Advanced Examples  Solve each equation.                                (note: reject , because the base cannot be negative)     "
 },
@@ -2867,7 +2921,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-logarithms.html#ex-motivation-logs-10",
   "type": "Example",
-  "number": "12.3.1",
+  "number": "12.4.1",
   "title": "Motivation for Logs with Base 10.",
   "body": " Motivation for Logs with Base 10  Consider these powers of 10, These tell you that 10 to an exponent gives a number. Now reverse the question. Instead of asking what equals, ask: 10 to what power equals 1000? Since , the answer is 3.  Logarithms are a shorthand for this reverse question. The expression (read this as log base 10 of ) means the exponent you put on 10 to get . Intuitively, is the number of 10s you need to multiply together in order to get . So, for example, In other words,  Powers convert exponents to numbers  Logs convert numbers to exponent .  In this way, logarithms are a kind of inverse of exponents.  "
 },
@@ -2876,7 +2930,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-logarithms.html#ex-intro-base-2",
   "type": "Example",
-  "number": "12.3.2",
+  "number": "12.4.2",
   "title": "Approximating Logarithms.",
   "body": " Approximating Logarithms  We know that for the equation , the answer is , because . However, what about the equation ?  We know that and , so we expect the solution to be between 3 and 4. Maybe a better guess is in the middle, like . Here, , which is a bit more than 11. Try , and we get , which is a bit less than 11. So, the solution is between 3.4 and 3.5.  Using logarithms, we can say that the exact answer is (read this as log base 2 of 11 ), which means the exponent you must put on 2 to get 11. It turns out that .  You can try this on your calculator. You'll see that , which is very, very close to 11.  "
 },
@@ -2885,7 +2939,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-logarithms.html#ex-misc-log-examples",
   "type": "Example",
-  "number": "12.3.3",
+  "number": "12.4.3",
   "title": "Logarithm Examples.",
   "body": " Logarithm Examples  Similarly,  , because .  , because .  , because    "
 },
@@ -2912,7 +2966,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-logarithms.html#proj-convert-forms",
   "type": "Exercise Group",
-  "number": "12.3.1",
+  "number": "12.4.1",
   "title": "Converting Forms.",
   "body": " Converting Forms  Convert each logarithmic or exponential equation to exponential or logarithmic form.                                      "
 },
@@ -2921,7 +2975,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-logarithms.html#proj-evaluate-logs-basic",
   "type": "Exercise Group",
-  "number": "12.3.2",
+  "number": "12.4.2",
   "title": "Evaluating Basic Logarithms.",
   "body": " Evaluating Basic Logarithms  Evaluate each logarithm.    2     5     2     4     4     2     5     6     4     6   "
 },
@@ -2939,7 +2993,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-logarithms.html#sub-logarithm-bases-3",
   "type": "Remark",
-  "number": "12.3.4",
+  "number": "12.4.4",
   "title": "",
   "body": " In computer science, often log base 2 is used, or .  "
 },
@@ -2948,7 +3002,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-logarithms.html#sub-logarithm-bases-4",
   "type": "Remark",
-  "number": "12.3.5",
+  "number": "12.4.5",
   "title": "",
   "body": " For logarithms, we use three letters to denote the common logarithm, and two letters to denote the natural logarithm.  Typically, functions have been represented by a single letter, such that for or for .  In this way, or represents a function just like does. However, we often write logarithms without parentheses as or .  If you have seen the trig functions like or , then is a similar kind of notation: means the log function with as its input, just like means the sine function with as its input. In particular, does not mean times 10 , just like doesn't mean times 30 .  If a log contains more than one term, then we use brackets. For example, . Or, if there are a lot of factors, e.g. .  "
 },
@@ -2957,7 +3011,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-logarithms.html#ex-log-of-base",
   "type": "Example",
-  "number": "12.3.6",
+  "number": "12.4.6",
   "title": "Logarithm of the Base.",
   "body": " Logarithm of the Base  Consider . This means the exponent to put on 5 to get 5. This is 1, since . Similarly       "
 },
@@ -2966,7 +3020,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-logarithms.html#thm-log-base-b-b",
   "type": "Theorem",
-  "number": "12.3.7",
+  "number": "12.4.7",
   "title": "Logarithm of the base.",
   "body": " Logarithm of the base   Because, the exponent you need to put on to get is 1.  "
 },
@@ -2975,7 +3029,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-logarithms.html#ex-log-of-one",
   "type": "Example",
-  "number": "12.3.8",
+  "number": "12.4.8",
   "title": "Logarithm of One.",
   "body": " Logarithm of One  Consider . This means the exponent to put on 3 to get 1. This is 0, because . Similarly,       "
 },
@@ -2984,7 +3038,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-logarithms.html#thm-log-base-b-1",
   "type": "Theorem",
-  "number": "12.3.9",
+  "number": "12.4.9",
   "title": "Logarithm of 1.",
   "body": " Logarithm of 1   Because, the exponent you need to put on to get 1 is 0.  "
 },
@@ -2993,7 +3047,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-logarithms.html#proj-evaluate-logs-hand",
   "type": "Exercise Group",
-  "number": "12.3.3",
+  "number": "12.4.3",
   "title": "Evaluating Logarithms.",
   "body": " Evaluating Logarithms  Evaluate each logarithm.        -1     4     -3     -3                                 -2         -4         -3         0     1   "
 },
@@ -3002,7 +3056,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-logarithms.html#ex-log-negative",
   "type": "Example",
-  "number": "12.3.10",
+  "number": "12.4.10",
   "title": "Log of a Negative Number.",
   "body": " Log of a Negative Number  Consider . This number represents the exponent to put on 2 to get . However, the equation has no solution, because 2 to the power of any number will always result in a positive number, never a negative.  "
 },
@@ -3011,7 +3065,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-logarithms.html#ex-log-zero",
   "type": "Example",
-  "number": "12.3.11",
+  "number": "12.4.11",
   "title": "Log of Zero.",
   "body": " Log of Zero  Consider . This also doesn't work, because has no solution. Again, 2 to the power of any number will always be positive, and so will never equal to 0.  "
 },
@@ -3020,7 +3074,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-logarithms.html#thm-change-of-base",
   "type": "Theorem",
-  "number": "12.3.12",
+  "number": "12.4.12",
   "title": "Change-of-base property.",
   "body": " Change-of-base property   "
 },
@@ -3029,7 +3083,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-logarithms.html#ex-change-of-base-usage",
   "type": "Example",
-  "number": "12.3.13",
+  "number": "12.4.13",
   "title": "Using Change of Base.",
   "body": " Using Change of Base  For example,   (we could have found this one without a calculator)    "
 },
@@ -3038,7 +3092,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-logarithms.html#ex-log-base-power",
   "type": "Example",
-  "number": "12.3.14",
+  "number": "12.4.14",
   "title": "Logarithm of a Power.",
   "body": " Logarithm of a Power  Consider . This means the exponent that 3 must be raised, to get . The answer is 5, because literally, 3 to the 5 is 3 to the 5. Similarly,       "
 },
@@ -3047,7 +3101,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-logarithms.html#thm-log-b-bx",
   "type": "Theorem",
-  "number": "12.3.15",
+  "number": "12.4.15",
   "title": "Logarithm of a power of the base.",
   "body": " Logarithm of a power of the base   Intuitively, is the exponent to put on to get , which is literally .  "
 },
@@ -3056,7 +3110,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-logarithms.html#ex-power-of-log",
   "type": "Example",
-  "number": "12.3.16",
+  "number": "12.4.16",
   "title": "Power of a Logarithm.",
   "body": " Power of a Logarithm  Consider . The exponent of represents the exponent to put on 4 to get 11. We are taking 4 to the power of this number, so by definition, we should get 11. Therefore, .  Similarly,       "
 },
@@ -3065,7 +3119,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-logarithms.html#thm-b-log-bx",
   "type": "Theorem",
-  "number": "12.3.17",
+  "number": "12.4.17",
   "title": "Power of a logarithm with the same base.",
   "body": " Power of a logarithm with the same base   Intuitively, is the exponent which must be raised to get . So, if we raise to that exponent, we get (literally) .  "
 },
@@ -3074,7 +3128,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-logarithms.html#proj-evaluate-inverse",
   "type": "Exercise Group",
-  "number": "12.3.4",
+  "number": "12.4.4",
   "title": "Evaluating with Inverse Properties.",
   "body": " Evaluating with Inverse Properties  Evaluate each expression.    5     9     8     17     3     19     5     25               "
 },
@@ -3083,7 +3137,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-logarithms.html#proj-solve-basic-logs",
   "type": "Exercise Group",
-  "number": "12.3.5",
+  "number": "12.4.5",
   "title": "Solving Equations.",
   "body": " Solving Equations  Solve each equation.                                                                          "
 },
@@ -3092,7 +3146,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-intro-to-logarithms.html#proj-solve-advanced-logs",
   "type": "Exercise Group",
-  "number": "12.3.6",
+  "number": "12.4.6",
   "title": "Advanced Examples.",
   "body": " Advanced Examples  Solve each equation.                                (note: reject , because the base cannot be negative)   "
 },
@@ -3101,7 +3155,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-solving-exponential-equations-with-logarithms.html",
   "type": "Section",
-  "number": "12.4",
+  "number": "12.5",
   "title": "Solving Exponential Equations with Logarithms",
   "body": " Solving Exponential Equations with Logarithms    Solving Exponential Equations with Logarithms   Basic Equations   Solve each equation. Give answers in exact form and rounded to 2 decimal places.               Equations with Different Bases   Solve each equation. Give answers in exact form and rounded to 2 decimal places.            Complex Exponential Equations   Solve each equation. Give answers in exact form and rounded to 2 decimal places.                   Solving Exponential Equations in Quadratic Form   Quadratic Form Practice   Solve each equation.      quadratic formula   no solution     Advanced Examples  Need to peel off the extra factors.   Isolating Variable Factors   Solve each equation.        "
 },
@@ -3110,7 +3164,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-exponential-equations-with-logarithms.html#subsection-basic-exponential-equations-2",
   "type": "Exercise Group",
-  "number": "12.4.1",
+  "number": "12.5.1",
   "title": "Basic Equations.",
   "body": " Basic Equations   Solve each equation. Give answers in exact form and rounded to 2 decimal places.             "
 },
@@ -3119,7 +3173,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-exponential-equations-with-logarithms.html#subsection-basic-exponential-equations-3",
   "type": "Exercise Group",
-  "number": "12.4.2",
+  "number": "12.5.2",
   "title": "Equations with Different Bases.",
   "body": " Equations with Different Bases   Solve each equation. Give answers in exact form and rounded to 2 decimal places.          "
 },
@@ -3128,7 +3182,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-exponential-equations-with-logarithms.html#subsection-basic-exponential-equations-4",
   "type": "Exercise Group",
-  "number": "12.4.3",
+  "number": "12.5.3",
   "title": "Complex Exponential Equations.",
   "body": " Complex Exponential Equations   Solve each equation. Give answers in exact form and rounded to 2 decimal places.                "
 },
@@ -3137,7 +3191,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-exponential-equations-with-logarithms.html#subsection-exp-eq-logs-quadratic-form-2",
   "type": "Exercise Group",
-  "number": "12.4.4",
+  "number": "12.5.4",
   "title": "Quadratic Form Practice.",
   "body": " Quadratic Form Practice   Solve each equation.      quadratic formula   no solution  "
 },
@@ -3146,7 +3200,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-exponential-equations-with-logarithms.html#subsection-exp-eq-logs-advanced-examples-3",
   "type": "Exercise Group",
-  "number": "12.4.5",
+  "number": "12.5.5",
   "title": "Isolating Variable Factors.",
   "body": " Isolating Variable Factors   Solve each equation.      "
 },
@@ -3155,7 +3209,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-solving-logarithmic-equations.html",
   "type": "Section",
-  "number": "12.5",
+  "number": "12.6",
   "title": "Solving Logarithmic Equations",
   "body": " Solving Logarithmic Equations    Examples   Basic Equations   Solve each equation.    (reject )       Intermediate Equations   Solve each equation.   (reject )  (reject )   (reject )  (reject )  (reject )   (reject )   (reject )  (reject )  (reject )  (reject )   (reject )  (reject )  (reject )  (reject )  (reject )  (reject )    Mixed Equations   Solve each equation.    (reject )   no solution (reject )  (reject )  (reject )  no solution (reject )  (reject )  (reject )  (reject )  (reject )  (reject )   (reject )   (reject )  (reject )    Advanced Examples   Solve each equation.   quadratic equation, solve using the quadratic formula (reject )  no solution (reject )  (reject )  (reject )  Factor the common factor, and then use the quadratic formula (reject )  , use the quadratic formula    "
 },
@@ -3164,7 +3218,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-logarithmic-equations.html#subsection-log-equations-examples-2",
   "type": "Exercise Group",
-  "number": "12.5.1",
+  "number": "12.6.1",
   "title": "Basic Equations.",
   "body": " Basic Equations   Solve each equation.    (reject )     "
 },
@@ -3173,7 +3227,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-logarithmic-equations.html#subsection-log-equations-examples-3",
   "type": "Exercise Group",
-  "number": "12.5.2",
+  "number": "12.6.2",
   "title": "Intermediate Equations.",
   "body": " Intermediate Equations   Solve each equation.   (reject )  (reject )   (reject )  (reject )  (reject )   (reject )   (reject )  (reject )  (reject )  (reject )   (reject )  (reject )  (reject )  (reject )  (reject )  (reject )  "
 },
@@ -3182,7 +3236,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-logarithmic-equations.html#subsection-log-equations-examples-4",
   "type": "Exercise Group",
-  "number": "12.5.3",
+  "number": "12.6.3",
   "title": "Mixed Equations.",
   "body": " Mixed Equations   Solve each equation.    (reject )   no solution (reject )  (reject )  (reject )  no solution (reject )  (reject )  (reject )  (reject )  (reject )  (reject )   (reject )   (reject )  (reject )  "
 },
@@ -3191,7 +3245,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-logarithmic-equations.html#subsection-log-equations-examples-5",
   "type": "Exercise Group",
-  "number": "12.5.4",
+  "number": "12.6.4",
   "title": "Advanced Examples.",
   "body": " Advanced Examples   Solve each equation.   quadratic equation, solve using the quadratic formula (reject )  no solution (reject )  (reject )  (reject )  Factor the common factor, and then use the quadratic formula (reject )  , use the quadratic formula  "
 },
