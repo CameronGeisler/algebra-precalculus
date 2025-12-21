@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-summary-of-exponential-growth-and-decay" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Summary of Exponential Growth and Decay</title>
+  
+  <introduction>
+    <table>
+      <title>Summary of Exponential Formulas</title>
+      <tabular halign="left" bottom="minor" top="minor" left="minor" right="minor">
+        <col width="30%" />
+        <col width="70%" />
+        <row header="yes">
+          <cell halign="center"><p><alert>Formula</alert></p></cell>
+          <cell><p></p></cell>
+        </row>
+        <row>
+          <cell halign="center"><p><m>A=A_0 b^t</m></p></cell>
+          <cell>
+            <p><m>A \rightarrow</m> amount after time <m>t</m></p>
+            <p><m>A_0 \rightarrow</m> initial amount</p>
+            <p><m>b \rightarrow</m> growth factor (growth if <m>b \gt 1</m>, decay if <m>0 \lt b \lt 1</m>)</p>
+          </cell>
+        </row>
+        <row>
+          <cell halign="center">
+            <p>Percentage change</p>
+            <p><m>A=A_0(1+r)^t</m></p>
+          </cell>
+          <cell>
+            <p><m>A \rightarrow</m> amount after <m>t</m> time periods</p>
+            <p><m>A_0 \rightarrow</m> initial amount</p>
+            <p><m>r \rightarrow</m> rate per period (as a decimal)</p>
+            <p><m>t \rightarrow</m> number of periods</p>
+          </cell>
+        </row>
+        <row>
+          <cell halign="center">
+            <p>Half-life</p>
+            <p><m>A=A_0\brac{\frac{1}{2}}^{t/T}</m></p>
+          </cell>
+          <cell>
+            <p><m>T \rightarrow</m> half-life (time to decay to <m>\frac{1}{2}</m>)</p>
+          </cell>
+        </row>
+        <row>
+          <cell halign="center">
+            <p>Growth over a time interval</p>
+            <p><m>A=A_0 b^{t/T}</m></p>
+          </cell>
+          <cell>
+            <p><m>b \rightarrow</m> growth factor over <m>T</m> time</p>
+            <p><m>T \rightarrow</m> time required to multiply the amount by <m>b</m></p>
+          </cell>
+        </row>
+        <row>
+          <cell halign="center">
+            <p>Continuous growth</p>
+            <p><m>A=A_0 e^{kt}</m></p>
+          </cell>
+          <cell>
+            <p><m>e \approx 2.71</m> (Euler's number)</p>
+            <p><m>k \rightarrow</m> continuous growth or decay rate</p>
+          </cell>
+        </row>
+      </tabular>
+    </table>
+  </introduction>
+  
+  
+  
+  <subsection xml:id="summary-logarithmic-scales">
+    <title>Summary of Logarithmic Scales</title>
+    <tabular halign="left" bottom="minor" top="minor" left="minor" right="minor">
+      <col width="40%" />
+      <col width="60%" />
+      <row header="yes">
+        <cell halign="center"><p><alert>Decibel scale</alert></p></cell>
+        <cell><p></p></cell>
+      </row>
+      <row>
+        <cell halign="center"><p><m>\beta = 10\log\brac{\frac{I}{I_0}}</m></p></cell>
+        <cell>
+          <p><m>\beta \rightarrow</m> sound level in decibels (dB)</p>
+          <p><m>I \rightarrow</m> sound intensity (W/m<m>^2</m>)</p>
+          <p><m>I_0 \rightarrow</m> reference intensity, <m>10^{-12}</m> W/m<m>^2</m> (threshold of hearing)</p>
+        </cell>
+      </row>
+      <row>
+        <cell halign="center"><p><alert>Richter scale</alert></p></cell>
+        <cell><p></p></cell>
+      </row>
+      <row>
+        <cell halign="center"><p><m>M = \log\brac{\frac{I}{I_0}}</m></p></cell>
+        <cell>
+          <p><m>M \rightarrow</m> earthquake magnitude</p>
+          <p><m>I \rightarrow</m> earthquake wave amplitude (microns)</p>
+          <p><m>I_0 \rightarrow</m> reference amplitude (1 micron)</p>
+        </cell>
+      </row>
+      <row>
+        <cell halign="center"><p><alert>pH scale</alert></p></cell>
+        <cell><p></p></cell>
+      </row>
+      <row>
+        <cell halign="center"><p><m>\text{pH} = -\log\brac{[H^+]}</m></p></cell>
+        <cell>
+          <p><m>\text{pH} \rightarrow</m> acidity or basicity of a solution</p>
+          <p><m>[H^+] \rightarrow</m> hydrogen ion concentration (mol/L)</p>
+        </cell>
+      </row>
+    </tabular>
+  </subsection>
+  
+</section>

@@ -2770,7 +2770,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "12.2",
   "title": "Intro to Exponential Growth and Decay",
-  "body": " Intro to Exponential Growth and Decay   Exponential functions can be used to model amounts that change over time.   Population Growth  A small town has a population of 12000 people. Each year, the population increases by 10%.    What will be the population of the town after 1 year? 2 years? 3 years?  What will be the population after years?    Increase by 10% means that it keeps all of the population it has, and adds 10% more of that number.    100% of the population is the amount it already has  10% more means you are at 110% of the original.    As a decimal, . So, increase by 10% means multiply by 1.10.    At the start (year 0), the population is 12000.  After 1 year, the population is people.  After 2 years, the population is people.  After 3 years, the population is people.    Notice the pattern, which is that we multiply the initial population of 12000 by 1.10 for each year.  In general, after years, we are multiplying by 1.10 precisely times. So, the general formula for population, we'll call it , is given by,     Smartphone Value  Suppose you buy a new smartphone for $1400. Each year, its value drops by 35%.    How much will it be worth after 1 year? 2 years? 3 years?  How much will it be worth after years?    Drop by 35% means you keep 65% of the value each year, because you start with 100% of its value, take away 35%, and are left with 65%. As a decimal, , so decreasing by 35% each year means multiply by 0.65 each year.   In general,    In general, exponential change has this form,     The exponential growth and exponential decay models are given by,   The base is called the growth factor , because it controls how the amount changes from one step to the next.  It can also be thought of in terms of the percentage change, as ,   Here, represents the percentage change (as a decimal),   If , then it is exponential growth , and is the growth rate .  If , then it is exponential decay , and is the decay rate .   Exponential functions have applications for,   Population growth (biology), of animals, people, or bacteria.  Growth of an investment (economics)  Decay of a radioactive substance (chemistry)   In general, anything that changes by a percentage can be modelled by exponential functions.   Percentage to Growth Factor   Find the growth factor required for each percentage change.    increase     decrease     decrease     increase     increase     increase      "
+  "body": " Intro to Exponential Growth and Decay   Exponential functions can be used to model amounts that change over time.   Population Growth  A small town has a population of 12000 people. Each year, the population increases by 10%.    What will be the population of the town after 1 year? 2 years? 3 years?  What will be the population after years?    Increase by 10% means that it keeps all of the population it has, and adds 10% more of that number.    100% of the population is the amount it already has  10% more means you are at 110% of the original.    As a decimal, . So, increase by 10% means multiply by 1.10.    At the start (year 0), the population is 12000.  After 1 year, the population is people.  After 2 years, the population is people.  After 3 years, the population is people.    Notice the pattern, which is that we multiply the initial population of 12000 by 1.10 for each year.  In general, after years, we are multiplying by 1.10 precisely times. So, the general formula for population, we'll call it , is given by,     Smartphone Value  Suppose you buy a new smartphone for $1400. Each year, its value drops by 35%.    How much will it be worth after 1 year? 2 years? 3 years?  How much will it be worth after years?    Drop by 35% means you keep 65% of the value each year, because you start with 100% of its value, take away 35%, and are left with 65%. As a decimal, , so decreasing by 35% each year means multiply by 0.65 each year.   In general,    In general, exponential change has this form,     Exponential Growth and Decay Models  The exponential growth and exponential decay models are given by,   The base is called the growth factor , because it controls how the amount changes from one step to the next.  It can also be thought of in terms of the percentage change, as ,   Here, represents the percentage change (as a decimal),   If , then it is exponential growth , and is the growth rate .  If , then it is exponential decay , and is the decay rate .   Exponential functions have applications for,   Population growth (biology), of animals, people, or bacteria.  Growth of an investment (economics)  Decay of a radioactive substance (chemistry)   In general, anything that changes by a percentage can be modelled by exponential functions.   Percentage to Growth Factor   Find the growth factor required for each percentage change.    increase     decrease     decrease     increase     increase     increase      "
 },
 {
   "id": "ex-population-growth",
@@ -2791,18 +2791,18 @@ var ptx_lunr_docs = [
   "body": " Smartphone Value  Suppose you buy a new smartphone for $1400. Each year, its value drops by 35%.    How much will it be worth after 1 year? 2 years? 3 years?  How much will it be worth after years?    Drop by 35% means you keep 65% of the value each year, because you start with 100% of its value, take away 35%, and are left with 65%. As a decimal, , so decreasing by 35% each year means multiply by 0.65 each year.   In general,   "
 },
 {
-  "id": "sub-exponential-modeling-1",
+  "id": "sub-exponential-modeling-2",
   "level": "2",
-  "url": "sec-intro-to-exponential-growth-and-decay.html#sub-exponential-modeling-1",
+  "url": "sec-intro-to-exponential-growth-and-decay.html#sub-exponential-modeling-2",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "exponential growth exponential decay "
 },
 {
-  "id": "sub-exponential-modeling-3",
+  "id": "sub-exponential-modeling-4",
   "level": "2",
-  "url": "sec-intro-to-exponential-growth-and-decay.html#sub-exponential-modeling-3",
+  "url": "sec-intro-to-exponential-growth-and-decay.html#sub-exponential-modeling-4",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -3248,6 +3248,24 @@ var ptx_lunr_docs = [
   "number": "12.6.4",
   "title": "Advanced Examples.",
   "body": " Advanced Examples   Solve each equation.   quadratic equation, solve using the quadratic formula (reject )  no solution (reject )  (reject )  (reject )  Factor the common factor, and then use the quadratic formula (reject )  , use the quadratic formula  "
+},
+{
+  "id": "sec-summary-of-exponential-growth-and-decay",
+  "level": "1",
+  "url": "sec-summary-of-exponential-growth-and-decay.html",
+  "type": "Section",
+  "number": "12.7",
+  "title": "Summary of Exponential Growth and Decay",
+  "body": " Summary of Exponential Growth and Decay    Summary of Exponential Formulas      Formula       amount after time  initial amount  growth factor (growth if , decay if )      Percentage change     amount after time periods  initial amount  rate per period (as a decimal)  number of periods      Half-life     half-life (time to decay to )      Growth over a time interval     growth factor over time  time required to multiply the amount by      Continuous growth     (Euler's number)  continuous growth or decay rate        Summary of Logarithmic Scales      Decibel scale       sound level in decibels (dB)  sound intensity (W\/m )  reference intensity, W\/m (threshold of hearing)     Richter scale       earthquake magnitude  earthquake wave amplitude (microns)  reference amplitude (1 micron)     pH scale       acidity or basicity of a solution  hydrogen ion concentration (mol\/L)      "
+},
+{
+  "id": "sec-summary-of-exponential-growth-and-decay-2-1",
+  "level": "2",
+  "url": "sec-summary-of-exponential-growth-and-decay.html#sec-summary-of-exponential-growth-and-decay-2-1",
+  "type": "Table",
+  "number": "12.7.1",
+  "title": "Summary of Exponential Formulas",
+  "body": " Summary of Exponential Formulas      Formula       amount after time  initial amount  growth factor (growth if , decay if )      Percentage change     amount after time periods  initial amount  rate per period (as a decimal)  number of periods      Half-life     half-life (time to decay to )      Growth over a time interval     growth factor over time  time required to multiply the amount by      Continuous growth     (Euler's number)  continuous growth or decay rate     "
 },
 {
   "id": "sec-radian-measure",
