@@ -505,11 +505,470 @@ var ptx_lunr_docs = [
   "body": " Advanced Polynomial Factoring    Factoring Polynomials Flowchart Summary      "
 },
 {
+  "id": "sec-word-problems-with-quadratics",
+  "level": "1",
+  "url": "sec-word-problems-with-quadratics.html",
+  "type": "Section",
+  "number": "3.7",
+  "title": "Word Problems with Quadratics",
+  "body": " Word Problems with Quadratics    Maximize Product with Fixed Sum   Finding Two Numbers   Find the two numbers whose sum is 20 that produce the greatest possible product.  Intuitively, if two numbers have to add up to 20, then for example, if one of the numbers is 5, the other must be 15. If one is 8, then the other must be 12. In general, to get the 2nd number, take 20 minus the 1st number. We want to know which 2 numbers to pick so that their product (multiplying them together) is as big as possible. For example, let's try guessing and testing,    1 and 19 product of 19    5 and 15 product of 75 (bigger)    8 and 12 product of 96 (even bigger)    10 and 10 product of 100    If you choose the 1st number to be bigger, it repeats the same pattern. For example, 12 and 8 is the same as 8 and 12.    It seems like 10 and 10 gives the biggest product, but we can show this using algebra.    Let be the 1st number. Then, is the 2nd number, because they both must add up to 20. Their product (say, ) is,   We want the maximum of this function, which is its vertex. There are 2 approaches to find its vertex.    It's already in factored form, so its zeros are and . Therefore, its vertex is halfway between them at . Then, the 1st number should be 10 in order to maximize the product. Then, the 2nd number is also 10. The maximum product is .    Expand,   The vertex is at , so,   so the 1st number is 10, the 2nd number is 10, and the maximum product is 100.       Sum of 16   The sum of two numbers is 16. Find the largest possible product between these numbers.    Let the numbers be and , so .    The largest product is , obtained when the numbers are and .     Sum of 29   Two numbers have a sum of 29 and a product that is a maximum. Determine the two numbers and the maximum product.    If the numbers are and , then .    14.5 and 14.5, and the maximum product is .    In turns out that in general, if two numbers have a fixed sum, then their product will be largest when both numbers are exactly half of the sum. In other words, if the sum is , then both numbers should be .    Farmer Fence Problem (Maximizing Area with Fixed Perimeter)   Perimeter 36   Find the rectangle of maximum area that can be constructed with a perimeter of 36 cm.    If one side is , then .    The rectangle is 9 cm by 9 cm, with maximum area .     Fencing 120m   A rectangular play area is to be bounded by 120 m of fencing. Determine the maximum area and the dimensions of this rectangle.    Let the length be and width be . Then and .    The maximum area is 900 m with dimensions 30 m by 30 m.     Divided Area   A rectangular area is divided into 2 rectangles with 450 m of fencing used for the perimeter and the divider. What are the dimensions of the total maximum area?       .    The dimensions that maximize the total area are 75 m by 112.5 m.     Maria's Farm   Maria lives on a farm. She is planning to build an enclosure for her animals that is divided into three equal-sized sections. She has 280 m of fencing to use.     Find the maximum area she can enclose, and the dimensions that lead to the maximum area.    and .    , maximum area is with width 35 m and length 70 m.     Sheep Pen   The area of a rectangular sheep pen is 96 . The pen is divided into two smaller pens by inserting a fence parallel to the width of the pen. A total of 48 m of fencing is used. Determine the dimensions of the pen.    and .    Width 8 m and length 12 m.     Building Pen   A holding pen is being built alongside a long building. The pen requires only three fenced sides, with the building forming the fourth side. There is enough material for 90 m of fencing. Find the maximum possible area, and the dimensions which give the maximum area.    Let be the distance out from the building and be the side parallel to the building. Then and .    Maximum area of 1012.5 m , m, m.     3 Sides Fencing   A rectangular lot is bordered on one side by a building and the other 3 sides by 800 m of fencing. Determine the area of the largest lot possible.    Let the fenced length be and the width be . Then and .    The maximum area is m , achieved with m and m.     String Area   What is the maximum total area that 450 cm of string can enclose if it is used to form the perimeters of two adjoining rectangles as shown?       Let each rectangle have width and height . Then the string length is and the total area is .    cm and cm maximize the total area, and the maximum area is 8437.5 cm .     River Bank   A rancher has 800 m of fencing to enclose a rectangular cattle pen along a river bank. There is no fencing needed along the river bank. Find the dimensions that would enclose the largest area.       If is the width, then .    The maximum area occurs when m and the length is 400 m, so the pen should be 200 m by 400 m.     River Feedlot   A cattle ranch with 6000 metres of fencing wants to enclose a rectangular feedlot that borders on a river. If the cattle will not go into the river, what is the largest area that can be enclosed?    If is the width, then .    The largest area is , with dimensions 1500 m by 3000 m.     Two Corrals   A rancher has 1200 m of fencing to enclose two adjacent rectangular corrals. What dimensions will produce a maximum enclosed area if the common sides are of equal length?    Let be the common side length and be the other side length of each corral. Then and .    Each corral should be 150 m by 200 m.     Complex Fencing   A set of fenced-in areas, as shown in the diagram, is being planned on an open field. A total of 900 m of fencing is available. What measurements will maximize the overall area of the entire enclosure?       With heights labeled and widths labeled in the diagram, the fencing constraint is and the total area is .    m and m maximize the area. The overall enclosure is m wide and m tall, and the maximum total area is 22500 m .     Barn Corral   An equestrian club wants to construct a corral next to a barn, using the side of the barn as part of one side of the corral. The side of the barn is 60 ft long, and the club has 300 ft of fencing for the other three sides. Find the dimensions that give the maximum area.       , so .    90 ft by 90 ft, maximum area of 8100 ft .      Maximizing Revenue with Price Change Problems   Bus Fare   A bus company has 4000 passengers daily, each paying a fare of $2. For each $0.15 increase, the company estimates that it will lose 40 passengers per day. If the company needs to take in $10,450 per day to stay in business, what fare should be charged?    if is the number of $0.15 increases, then .    $2.75.     Concert Promoter   A concert promoter is planning the ticket price for an upcoming concert. At the previous concert, she charged $70 and sold 2000 tickets. She estimates that for every $1 decrease in price, she will sell 50 more tickets. Find the maximum revenue the promoter can expect, what ticket price will give that revenue, and how many tickets will be sold.    if is the number of $1 decreases, then .    Maximum revenue is $151250 at a $55 ticket price, selling 2750 tickets.     Photographer   A student council is planning a fundraising event with a photographer. Last year, they charged $10 per session and booked 400 sessions. They estimate that every $1 increase in price will reduce the number of sessions by 20. Find the maximum revenue they can expect, and what session fee will give that maximum.    if is the number of $1 increases in price, then .    Maximum revenue is $4500 at a $15 session fee.     Bike Store   A bike store manager is setting the price for a new model. If he sets the price at $360, he expects to sell 280 bikes. For every $10 increase, he expects to sell 5 fewer bikes. Find the maximum revenue that the manager can expect, and the price that will give that maximum.    .    Maximum revenue is $105800 at a $460 price.     Pea Yield   A gardener is planting peas in a field. Last year he planted 30 rows and obtained 4000 g of peas per row. He estimates that each additional row will reduce yield per row by 100 g. Find the maximum mass of peas the field can produce, and the number of rows that will yield that maximum.    .    Maximum production is 122500 g (or 122.5 kg) at 35 rows.     School Dance   A ticket to a school dance is $8. Usually, 300 students attend. The dance committee knows that for every $1 increase in the price of a ticket, 30 fewer students attend the dance. Find the ticket price that will maximize the revenue.    Let be the number of $1 increases. Then .    The revenue is maximized when , so the ticket price should be $9.     Bolts Revenue   A company sells bolts for 95 cents each and sells about 10,000 bolts per month. Market research indicates that for every 15 cents increase in price, the company will sell 500 fewer bolts. Find the price of a bolt that will maximize the revenue, and the maximum revenue. Assume the number of 15-cent increases must be a whole number.    .    $2.00 per bolt, giving a revenue of $13,000 per month.     Hotel Room Rate   A 400 room hotel is three-quarters full when the room rate is an average of $80.00 per night. A survey shows that each $5.00 increase in cost will result in 10 fewer rooms occupied. Find the nightly rate and number of rooms occupied that will maximize income.    Let be the number of $5 increases, then .    The maximum income occurs at , so the nightly rate should be $115.00 and 230 rooms should be occupied (maximum income $26,450).     Fish and Game Club   Semiahmoo Fish and Game Club charges its members $200 per year. For each increase over 60 members, the membership cost is decreased by $2. What number of members would produce the maximum revenue for the club?    Let be the number of members over 60. Then .    80 members.     School Play   A school play charges $10 for admission, and on average 80 people attend each show. For each $1 increase, attendance drops by 5 people. Find the price the school should charge to maximize revenue.    Let be the number of $1 increases, then .    The school should charge $13.     Software Sales   When priced at $10, one type of software has annual sales of 500 units. For each dollar the software is increased in price, the store expects to lose sales of 10 units of software. Find the price that will maximize the total revenue.    Let be the number of $1 increases. Then .    $30.     Minibus Trip   It costs a bus company $225 to run a minibus on a ski trip, plus $30 per passenger. The bus has seating for 22 passengers, and the company charges $60 per person if the bus is full. For each empty seat, the company has to increase the ticket price by $5. How many empty seats should the bus run with to maximize profit from this trip?    Let be the number of empty seats. Then profit is .    The profit is maximized when there are 8 empty seats.      Number Problems   Squares Sum   The sum of the squares of two consecutive integers is 685. What could the integers be? List all possibilities.    If the first integer is , then .    18 and 19, or and .     Sum 20 Product 84   Two numbers have a sum of 20 and a product of 84. Use a quadratic equation to determine the numbers.    Let one number be , then the other number is , so .    The numbers are 6 and 14.     Difference 18   Two numbers have a difference of 18. The sum of their squares is a minimum. Determine the numbers.    Let one number be . Then the other is and .    The numbers are and 9.     Square Added   When the square of a number is added to the number, the sum is 3. Find the possible numbers.    .    or .     Difference 13   Two numbers have a difference of 13 and a product that is a minimum. Determine the two numbers and the minimum product.    If the numbers are and , then .    and , and the minimum product is .     Sum 10   The sum of two integers is 10, and the sum of their squares is a minimum. Find the integers.    If the integers are and , minimize .    5 and 5.     Difference 6   Two numbers have a difference of 6 and their product is a minimum. Determine the numbers.    Let one number be . Then the other is and .    and 3.     Difference 8   Find the minimum product of two numbers that differ by 8, and find the numbers.    Let the numbers be and , so .    Minimum product is , from and 4.      Area Geometry Problems   Rectangle 330   A rectangle has an area of 330 m . One side is 7 m longer than the other. What are the dimensions of the rectangle?    If the shorter side is meters, then .    The rectangle is 15 m by 22 m.     Garden Path   A rectangular garden has dimensions 3 m by 4 m. A path is built around the garden. The area of the garden and path is 6 times as great as the area of the garden. What is the width of the path?    .    Width of the path is 2.5 m.     Josie’s Garden   Josie’s rectangular garden measures 9 m by 13 m. She wants to double the area of her garden by adding equal lengths to both dimensions. Determine this length to the nearest centimetre.    .    The length added is m.     Triangle 96   A right triangle has a height 8 cm more than twice the length of the base. If the area of the triangle is , what are the dimensions of the triangle?    If the base is , then the height is , so .    Base is 8 cm, height is 24 cm.     Right Triangle Legs   A right triangle has one leg that is 1 less than 3 times the other leg, and the hypotenuse is 1 more than 3 times that same leg. Find the side lengths of the triangle.    if the leg is , then the other leg is , and the hypotenuse is , then .    12, 35, and 37.     Three Rods   Three rods measure 20 cm, 41 cm, and 44 cm. If the same length is cut off each piece, the remaining lengths can be formed into a right triangle. What length is cut off?    5 cm.     Factory Lawn   A factory is to be built on a lot that measures 80 m by 60 m. A lawn of uniform width, with area equal to the area of the factory, must surround it. How wide is the strip of lawn, and what are the dimensions of the factory?       If the lawn width is m, then .    The lawn is 10 m wide, and the factory dimensions are 60 m by 40 m.     Diagonal 17   The diagonal of a rectangle is 17 cm long. The rectangle is 7 cm longer than it is wide. What are the dimensions of the rectangle?    Let the width be . Then the length is and .    8 cm by 15 cm.     Rectangle 180   A rectangle's length is 3 meters longer than its width, and its area is 180 m . Determine the dimensions of the rectangle.    If the width is meters, then .    12 m by 15 m.     Mowing Strip   Jackie mows a strip of uniform width around her 25 m by 15 m rectangular lawn and leaves a patch of lawn that is 60% of the original area. What is the width of the strip?    If the strip has width meters, then the remaining lawn is m by m and .    Strip width is about 2.1 m.     Matting   Brian is placing a photograph behind a 12-in. by 12-in. piece of matting. He positions the photograph so the matting is twice as wide at the top and bottom as it is at the sides. The visible area of the photograph is 54 sq. in. What are the dimensions of the photograph?    if is the width of the matting at the sides, then .    Width is 9 in, height is 6 in.     Rectangle 40   A rectangle has an area of 40 cm , and its length is 1 cm less than twice its width. Find its dimensions, and round your answers to the nearest tenth.    If the width be . Then the length is and .    4.7 cm by 8.5 cm.     Perimeter 60   The perimeter of a right triangle is 60 cm. The length of the hypotenuse is 6 cm more than twice the length of one of the other sides. Find the lengths of all three sides.    and , and also .    10 cm, 24 cm, 26 cm.     Track Field   A high school is planning to build a new playing field surrounded by a running track. The track coach wants two laps around the track to be 1000 m. The football coach wants the rectangular infield area to be as large as possible. Can both coaches be satisfied. Explain your answer.       One lap is 500 m, so , and the rectangular infield area is .    Yes. With , the infield area is , which is maximized at and . So the largest rectangular infield is m by m, with maximum area .     "
+},
+{
+  "id": "subsec-maximize-product-2",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-maximize-product-2",
+  "type": "Example",
+  "number": "3.7.1",
+  "title": "Finding Two Numbers.",
+  "body": " Finding Two Numbers   Find the two numbers whose sum is 20 that produce the greatest possible product.  Intuitively, if two numbers have to add up to 20, then for example, if one of the numbers is 5, the other must be 15. If one is 8, then the other must be 12. In general, to get the 2nd number, take 20 minus the 1st number. We want to know which 2 numbers to pick so that their product (multiplying them together) is as big as possible. For example, let's try guessing and testing,    1 and 19 product of 19    5 and 15 product of 75 (bigger)    8 and 12 product of 96 (even bigger)    10 and 10 product of 100    If you choose the 1st number to be bigger, it repeats the same pattern. For example, 12 and 8 is the same as 8 and 12.    It seems like 10 and 10 gives the biggest product, but we can show this using algebra.    Let be the 1st number. Then, is the 2nd number, because they both must add up to 20. Their product (say, ) is,   We want the maximum of this function, which is its vertex. There are 2 approaches to find its vertex.    It's already in factored form, so its zeros are and . Therefore, its vertex is halfway between them at . Then, the 1st number should be 10 in order to maximize the product. Then, the 2nd number is also 10. The maximum product is .    Expand,   The vertex is at , so,   so the 1st number is 10, the 2nd number is 10, and the maximum product is 100.     "
+},
+{
+  "id": "subsec-maximize-product-3",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-maximize-product-3",
+  "type": "Checkpoint",
+  "number": "3.7.2",
+  "title": "Sum of 16.",
+  "body": " Sum of 16   The sum of two numbers is 16. Find the largest possible product between these numbers.    Let the numbers be and , so .    The largest product is , obtained when the numbers are and .   "
+},
+{
+  "id": "subsec-maximize-product-4",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-maximize-product-4",
+  "type": "Checkpoint",
+  "number": "3.7.3",
+  "title": "Sum of 29.",
+  "body": " Sum of 29   Two numbers have a sum of 29 and a product that is a maximum. Determine the two numbers and the maximum product.    If the numbers are and , then .    14.5 and 14.5, and the maximum product is .   "
+},
+{
+  "id": "subsec-farmer-fence-2",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-farmer-fence-2",
+  "type": "Checkpoint",
+  "number": "3.7.4",
+  "title": "Perimeter 36.",
+  "body": " Perimeter 36   Find the rectangle of maximum area that can be constructed with a perimeter of 36 cm.    If one side is , then .    The rectangle is 9 cm by 9 cm, with maximum area .   "
+},
+{
+  "id": "subsec-farmer-fence-3",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-farmer-fence-3",
+  "type": "Checkpoint",
+  "number": "3.7.5",
+  "title": "Fencing 120m.",
+  "body": " Fencing 120m   A rectangular play area is to be bounded by 120 m of fencing. Determine the maximum area and the dimensions of this rectangle.    Let the length be and width be . Then and .    The maximum area is 900 m with dimensions 30 m by 30 m.   "
+},
+{
+  "id": "subsec-farmer-fence-4",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-farmer-fence-4",
+  "type": "Checkpoint",
+  "number": "3.7.6",
+  "title": "Divided Area.",
+  "body": " Divided Area   A rectangular area is divided into 2 rectangles with 450 m of fencing used for the perimeter and the divider. What are the dimensions of the total maximum area?       .    The dimensions that maximize the total area are 75 m by 112.5 m.   "
+},
+{
+  "id": "subsec-farmer-fence-5",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-farmer-fence-5",
+  "type": "Checkpoint",
+  "number": "3.7.7",
+  "title": "Maria’s Farm.",
+  "body": " Maria's Farm   Maria lives on a farm. She is planning to build an enclosure for her animals that is divided into three equal-sized sections. She has 280 m of fencing to use.     Find the maximum area she can enclose, and the dimensions that lead to the maximum area.    and .    , maximum area is with width 35 m and length 70 m.   "
+},
+{
+  "id": "subsec-farmer-fence-6",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-farmer-fence-6",
+  "type": "Checkpoint",
+  "number": "3.7.8",
+  "title": "Sheep Pen.",
+  "body": " Sheep Pen   The area of a rectangular sheep pen is 96 . The pen is divided into two smaller pens by inserting a fence parallel to the width of the pen. A total of 48 m of fencing is used. Determine the dimensions of the pen.    and .    Width 8 m and length 12 m.   "
+},
+{
+  "id": "subsec-farmer-fence-7",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-farmer-fence-7",
+  "type": "Checkpoint",
+  "number": "3.7.9",
+  "title": "Building Pen.",
+  "body": " Building Pen   A holding pen is being built alongside a long building. The pen requires only three fenced sides, with the building forming the fourth side. There is enough material for 90 m of fencing. Find the maximum possible area, and the dimensions which give the maximum area.    Let be the distance out from the building and be the side parallel to the building. Then and .    Maximum area of 1012.5 m , m, m.   "
+},
+{
+  "id": "subsec-farmer-fence-8",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-farmer-fence-8",
+  "type": "Checkpoint",
+  "number": "3.7.10",
+  "title": "3 Sides Fencing.",
+  "body": " 3 Sides Fencing   A rectangular lot is bordered on one side by a building and the other 3 sides by 800 m of fencing. Determine the area of the largest lot possible.    Let the fenced length be and the width be . Then and .    The maximum area is m , achieved with m and m.   "
+},
+{
+  "id": "subsec-farmer-fence-9",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-farmer-fence-9",
+  "type": "Checkpoint",
+  "number": "3.7.11",
+  "title": "String Area.",
+  "body": " String Area   What is the maximum total area that 450 cm of string can enclose if it is used to form the perimeters of two adjoining rectangles as shown?       Let each rectangle have width and height . Then the string length is and the total area is .    cm and cm maximize the total area, and the maximum area is 8437.5 cm .   "
+},
+{
+  "id": "subsec-farmer-fence-10",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-farmer-fence-10",
+  "type": "Checkpoint",
+  "number": "3.7.12",
+  "title": "River Bank.",
+  "body": " River Bank   A rancher has 800 m of fencing to enclose a rectangular cattle pen along a river bank. There is no fencing needed along the river bank. Find the dimensions that would enclose the largest area.       If is the width, then .    The maximum area occurs when m and the length is 400 m, so the pen should be 200 m by 400 m.   "
+},
+{
+  "id": "subsec-farmer-fence-11",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-farmer-fence-11",
+  "type": "Checkpoint",
+  "number": "3.7.13",
+  "title": "River Feedlot.",
+  "body": " River Feedlot   A cattle ranch with 6000 metres of fencing wants to enclose a rectangular feedlot that borders on a river. If the cattle will not go into the river, what is the largest area that can be enclosed?    If is the width, then .    The largest area is , with dimensions 1500 m by 3000 m.   "
+},
+{
+  "id": "subsec-farmer-fence-12",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-farmer-fence-12",
+  "type": "Checkpoint",
+  "number": "3.7.14",
+  "title": "Two Corrals.",
+  "body": " Two Corrals   A rancher has 1200 m of fencing to enclose two adjacent rectangular corrals. What dimensions will produce a maximum enclosed area if the common sides are of equal length?    Let be the common side length and be the other side length of each corral. Then and .    Each corral should be 150 m by 200 m.   "
+},
+{
+  "id": "subsec-farmer-fence-13",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-farmer-fence-13",
+  "type": "Checkpoint",
+  "number": "3.7.15",
+  "title": "Complex Fencing.",
+  "body": " Complex Fencing   A set of fenced-in areas, as shown in the diagram, is being planned on an open field. A total of 900 m of fencing is available. What measurements will maximize the overall area of the entire enclosure?       With heights labeled and widths labeled in the diagram, the fencing constraint is and the total area is .    m and m maximize the area. The overall enclosure is m wide and m tall, and the maximum total area is 22500 m .   "
+},
+{
+  "id": "subsec-farmer-fence-14",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-farmer-fence-14",
+  "type": "Checkpoint",
+  "number": "3.7.16",
+  "title": "Barn Corral.",
+  "body": " Barn Corral   An equestrian club wants to construct a corral next to a barn, using the side of the barn as part of one side of the corral. The side of the barn is 60 ft long, and the club has 300 ft of fencing for the other three sides. Find the dimensions that give the maximum area.       , so .    90 ft by 90 ft, maximum area of 8100 ft .   "
+},
+{
+  "id": "subsec-max-revenue-2",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-max-revenue-2",
+  "type": "Checkpoint",
+  "number": "3.7.17",
+  "title": "Bus Fare.",
+  "body": " Bus Fare   A bus company has 4000 passengers daily, each paying a fare of $2. For each $0.15 increase, the company estimates that it will lose 40 passengers per day. If the company needs to take in $10,450 per day to stay in business, what fare should be charged?    if is the number of $0.15 increases, then .    $2.75.   "
+},
+{
+  "id": "subsec-max-revenue-3",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-max-revenue-3",
+  "type": "Checkpoint",
+  "number": "3.7.18",
+  "title": "Concert Promoter.",
+  "body": " Concert Promoter   A concert promoter is planning the ticket price for an upcoming concert. At the previous concert, she charged $70 and sold 2000 tickets. She estimates that for every $1 decrease in price, she will sell 50 more tickets. Find the maximum revenue the promoter can expect, what ticket price will give that revenue, and how many tickets will be sold.    if is the number of $1 decreases, then .    Maximum revenue is $151250 at a $55 ticket price, selling 2750 tickets.   "
+},
+{
+  "id": "subsec-max-revenue-4",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-max-revenue-4",
+  "type": "Checkpoint",
+  "number": "3.7.19",
+  "title": "Photographer.",
+  "body": " Photographer   A student council is planning a fundraising event with a photographer. Last year, they charged $10 per session and booked 400 sessions. They estimate that every $1 increase in price will reduce the number of sessions by 20. Find the maximum revenue they can expect, and what session fee will give that maximum.    if is the number of $1 increases in price, then .    Maximum revenue is $4500 at a $15 session fee.   "
+},
+{
+  "id": "subsec-max-revenue-5",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-max-revenue-5",
+  "type": "Checkpoint",
+  "number": "3.7.20",
+  "title": "Bike Store.",
+  "body": " Bike Store   A bike store manager is setting the price for a new model. If he sets the price at $360, he expects to sell 280 bikes. For every $10 increase, he expects to sell 5 fewer bikes. Find the maximum revenue that the manager can expect, and the price that will give that maximum.    .    Maximum revenue is $105800 at a $460 price.   "
+},
+{
+  "id": "subsec-max-revenue-6",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-max-revenue-6",
+  "type": "Checkpoint",
+  "number": "3.7.21",
+  "title": "Pea Yield.",
+  "body": " Pea Yield   A gardener is planting peas in a field. Last year he planted 30 rows and obtained 4000 g of peas per row. He estimates that each additional row will reduce yield per row by 100 g. Find the maximum mass of peas the field can produce, and the number of rows that will yield that maximum.    .    Maximum production is 122500 g (or 122.5 kg) at 35 rows.   "
+},
+{
+  "id": "subsec-max-revenue-7",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-max-revenue-7",
+  "type": "Checkpoint",
+  "number": "3.7.22",
+  "title": "School Dance.",
+  "body": " School Dance   A ticket to a school dance is $8. Usually, 300 students attend. The dance committee knows that for every $1 increase in the price of a ticket, 30 fewer students attend the dance. Find the ticket price that will maximize the revenue.    Let be the number of $1 increases. Then .    The revenue is maximized when , so the ticket price should be $9.   "
+},
+{
+  "id": "subsec-max-revenue-8",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-max-revenue-8",
+  "type": "Checkpoint",
+  "number": "3.7.23",
+  "title": "Bolts Revenue.",
+  "body": " Bolts Revenue   A company sells bolts for 95 cents each and sells about 10,000 bolts per month. Market research indicates that for every 15 cents increase in price, the company will sell 500 fewer bolts. Find the price of a bolt that will maximize the revenue, and the maximum revenue. Assume the number of 15-cent increases must be a whole number.    .    $2.00 per bolt, giving a revenue of $13,000 per month.   "
+},
+{
+  "id": "subsec-max-revenue-9",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-max-revenue-9",
+  "type": "Checkpoint",
+  "number": "3.7.24",
+  "title": "Hotel Room Rate.",
+  "body": " Hotel Room Rate   A 400 room hotel is three-quarters full when the room rate is an average of $80.00 per night. A survey shows that each $5.00 increase in cost will result in 10 fewer rooms occupied. Find the nightly rate and number of rooms occupied that will maximize income.    Let be the number of $5 increases, then .    The maximum income occurs at , so the nightly rate should be $115.00 and 230 rooms should be occupied (maximum income $26,450).   "
+},
+{
+  "id": "subsec-max-revenue-10",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-max-revenue-10",
+  "type": "Checkpoint",
+  "number": "3.7.25",
+  "title": "Fish and Game Club.",
+  "body": " Fish and Game Club   Semiahmoo Fish and Game Club charges its members $200 per year. For each increase over 60 members, the membership cost is decreased by $2. What number of members would produce the maximum revenue for the club?    Let be the number of members over 60. Then .    80 members.   "
+},
+{
+  "id": "subsec-max-revenue-11",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-max-revenue-11",
+  "type": "Checkpoint",
+  "number": "3.7.26",
+  "title": "School Play.",
+  "body": " School Play   A school play charges $10 for admission, and on average 80 people attend each show. For each $1 increase, attendance drops by 5 people. Find the price the school should charge to maximize revenue.    Let be the number of $1 increases, then .    The school should charge $13.   "
+},
+{
+  "id": "subsec-max-revenue-12",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-max-revenue-12",
+  "type": "Checkpoint",
+  "number": "3.7.27",
+  "title": "Software Sales.",
+  "body": " Software Sales   When priced at $10, one type of software has annual sales of 500 units. For each dollar the software is increased in price, the store expects to lose sales of 10 units of software. Find the price that will maximize the total revenue.    Let be the number of $1 increases. Then .    $30.   "
+},
+{
+  "id": "subsec-max-revenue-13",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-max-revenue-13",
+  "type": "Checkpoint",
+  "number": "3.7.28",
+  "title": "Minibus Trip.",
+  "body": " Minibus Trip   It costs a bus company $225 to run a minibus on a ski trip, plus $30 per passenger. The bus has seating for 22 passengers, and the company charges $60 per person if the bus is full. For each empty seat, the company has to increase the ticket price by $5. How many empty seats should the bus run with to maximize profit from this trip?    Let be the number of empty seats. Then profit is .    The profit is maximized when there are 8 empty seats.   "
+},
+{
+  "id": "subsec-number-problems-2",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-number-problems-2",
+  "type": "Checkpoint",
+  "number": "3.7.29",
+  "title": "Squares Sum.",
+  "body": " Squares Sum   The sum of the squares of two consecutive integers is 685. What could the integers be? List all possibilities.    If the first integer is , then .    18 and 19, or and .   "
+},
+{
+  "id": "subsec-number-problems-3",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-number-problems-3",
+  "type": "Checkpoint",
+  "number": "3.7.30",
+  "title": "Sum 20 Product 84.",
+  "body": " Sum 20 Product 84   Two numbers have a sum of 20 and a product of 84. Use a quadratic equation to determine the numbers.    Let one number be , then the other number is , so .    The numbers are 6 and 14.   "
+},
+{
+  "id": "subsec-number-problems-4",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-number-problems-4",
+  "type": "Checkpoint",
+  "number": "3.7.31",
+  "title": "Difference 18.",
+  "body": " Difference 18   Two numbers have a difference of 18. The sum of their squares is a minimum. Determine the numbers.    Let one number be . Then the other is and .    The numbers are and 9.   "
+},
+{
+  "id": "subsec-number-problems-5",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-number-problems-5",
+  "type": "Checkpoint",
+  "number": "3.7.32",
+  "title": "Square Added.",
+  "body": " Square Added   When the square of a number is added to the number, the sum is 3. Find the possible numbers.    .    or .   "
+},
+{
+  "id": "subsec-number-problems-6",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-number-problems-6",
+  "type": "Checkpoint",
+  "number": "3.7.33",
+  "title": "Difference 13.",
+  "body": " Difference 13   Two numbers have a difference of 13 and a product that is a minimum. Determine the two numbers and the minimum product.    If the numbers are and , then .    and , and the minimum product is .   "
+},
+{
+  "id": "subsec-number-problems-7",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-number-problems-7",
+  "type": "Checkpoint",
+  "number": "3.7.34",
+  "title": "Sum 10.",
+  "body": " Sum 10   The sum of two integers is 10, and the sum of their squares is a minimum. Find the integers.    If the integers are and , minimize .    5 and 5.   "
+},
+{
+  "id": "subsec-number-problems-8",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-number-problems-8",
+  "type": "Checkpoint",
+  "number": "3.7.35",
+  "title": "Difference 6.",
+  "body": " Difference 6   Two numbers have a difference of 6 and their product is a minimum. Determine the numbers.    Let one number be . Then the other is and .    and 3.   "
+},
+{
+  "id": "subsec-number-problems-9",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-number-problems-9",
+  "type": "Checkpoint",
+  "number": "3.7.36",
+  "title": "Difference 8.",
+  "body": " Difference 8   Find the minimum product of two numbers that differ by 8, and find the numbers.    Let the numbers be and , so .    Minimum product is , from and 4.   "
+},
+{
+  "id": "subsec-area-geometry-2",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-area-geometry-2",
+  "type": "Checkpoint",
+  "number": "3.7.37",
+  "title": "Rectangle 330.",
+  "body": " Rectangle 330   A rectangle has an area of 330 m . One side is 7 m longer than the other. What are the dimensions of the rectangle?    If the shorter side is meters, then .    The rectangle is 15 m by 22 m.   "
+},
+{
+  "id": "subsec-area-geometry-3",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-area-geometry-3",
+  "type": "Checkpoint",
+  "number": "3.7.38",
+  "title": "Garden Path.",
+  "body": " Garden Path   A rectangular garden has dimensions 3 m by 4 m. A path is built around the garden. The area of the garden and path is 6 times as great as the area of the garden. What is the width of the path?    .    Width of the path is 2.5 m.   "
+},
+{
+  "id": "subsec-area-geometry-4",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-area-geometry-4",
+  "type": "Checkpoint",
+  "number": "3.7.39",
+  "title": "Josie’s Garden.",
+  "body": " Josie’s Garden   Josie’s rectangular garden measures 9 m by 13 m. She wants to double the area of her garden by adding equal lengths to both dimensions. Determine this length to the nearest centimetre.    .    The length added is m.   "
+},
+{
+  "id": "subsec-area-geometry-5",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-area-geometry-5",
+  "type": "Checkpoint",
+  "number": "3.7.40",
+  "title": "Triangle 96.",
+  "body": " Triangle 96   A right triangle has a height 8 cm more than twice the length of the base. If the area of the triangle is , what are the dimensions of the triangle?    If the base is , then the height is , so .    Base is 8 cm, height is 24 cm.   "
+},
+{
+  "id": "subsec-area-geometry-6",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-area-geometry-6",
+  "type": "Checkpoint",
+  "number": "3.7.41",
+  "title": "Right Triangle Legs.",
+  "body": " Right Triangle Legs   A right triangle has one leg that is 1 less than 3 times the other leg, and the hypotenuse is 1 more than 3 times that same leg. Find the side lengths of the triangle.    if the leg is , then the other leg is , and the hypotenuse is , then .    12, 35, and 37.   "
+},
+{
+  "id": "subsec-area-geometry-7",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-area-geometry-7",
+  "type": "Checkpoint",
+  "number": "3.7.42",
+  "title": "Three Rods.",
+  "body": " Three Rods   Three rods measure 20 cm, 41 cm, and 44 cm. If the same length is cut off each piece, the remaining lengths can be formed into a right triangle. What length is cut off?    5 cm.   "
+},
+{
+  "id": "subsec-area-geometry-8",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-area-geometry-8",
+  "type": "Checkpoint",
+  "number": "3.7.43",
+  "title": "Factory Lawn.",
+  "body": " Factory Lawn   A factory is to be built on a lot that measures 80 m by 60 m. A lawn of uniform width, with area equal to the area of the factory, must surround it. How wide is the strip of lawn, and what are the dimensions of the factory?       If the lawn width is m, then .    The lawn is 10 m wide, and the factory dimensions are 60 m by 40 m.   "
+},
+{
+  "id": "subsec-area-geometry-9",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-area-geometry-9",
+  "type": "Checkpoint",
+  "number": "3.7.44",
+  "title": "Diagonal 17.",
+  "body": " Diagonal 17   The diagonal of a rectangle is 17 cm long. The rectangle is 7 cm longer than it is wide. What are the dimensions of the rectangle?    Let the width be . Then the length is and .    8 cm by 15 cm.   "
+},
+{
+  "id": "subsec-area-geometry-10",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-area-geometry-10",
+  "type": "Checkpoint",
+  "number": "3.7.45",
+  "title": "Rectangle 180.",
+  "body": " Rectangle 180   A rectangle's length is 3 meters longer than its width, and its area is 180 m . Determine the dimensions of the rectangle.    If the width is meters, then .    12 m by 15 m.   "
+},
+{
+  "id": "subsec-area-geometry-11",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-area-geometry-11",
+  "type": "Checkpoint",
+  "number": "3.7.46",
+  "title": "Mowing Strip.",
+  "body": " Mowing Strip   Jackie mows a strip of uniform width around her 25 m by 15 m rectangular lawn and leaves a patch of lawn that is 60% of the original area. What is the width of the strip?    If the strip has width meters, then the remaining lawn is m by m and .    Strip width is about 2.1 m.   "
+},
+{
+  "id": "subsec-area-geometry-12",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-area-geometry-12",
+  "type": "Checkpoint",
+  "number": "3.7.47",
+  "title": "Matting.",
+  "body": " Matting   Brian is placing a photograph behind a 12-in. by 12-in. piece of matting. He positions the photograph so the matting is twice as wide at the top and bottom as it is at the sides. The visible area of the photograph is 54 sq. in. What are the dimensions of the photograph?    if is the width of the matting at the sides, then .    Width is 9 in, height is 6 in.   "
+},
+{
+  "id": "subsec-area-geometry-13",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-area-geometry-13",
+  "type": "Checkpoint",
+  "number": "3.7.48",
+  "title": "Rectangle 40.",
+  "body": " Rectangle 40   A rectangle has an area of 40 cm , and its length is 1 cm less than twice its width. Find its dimensions, and round your answers to the nearest tenth.    If the width be . Then the length is and .    4.7 cm by 8.5 cm.   "
+},
+{
+  "id": "subsec-area-geometry-14",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-area-geometry-14",
+  "type": "Checkpoint",
+  "number": "3.7.49",
+  "title": "Perimeter 60.",
+  "body": " Perimeter 60   The perimeter of a right triangle is 60 cm. The length of the hypotenuse is 6 cm more than twice the length of one of the other sides. Find the lengths of all three sides.    and , and also .    10 cm, 24 cm, 26 cm.   "
+},
+{
+  "id": "subsec-area-geometry-15",
+  "level": "2",
+  "url": "sec-word-problems-with-quadratics.html#subsec-area-geometry-15",
+  "type": "Checkpoint",
+  "number": "3.7.50",
+  "title": "Track Field.",
+  "body": " Track Field   A high school is planning to build a new playing field surrounded by a running track. The track coach wants two laps around the track to be 1000 m. The football coach wants the rectangular infield area to be as large as possible. Can both coaches be satisfied. Explain your answer.       One lap is 500 m, so , and the rectangular infield area is .    Yes. With , the infield area is , which is maximized at and . So the largest rectangular infield is m by m, with maximum area .   "
+},
+{
   "id": "quadratic-inequalities-in-one-variable",
   "level": "1",
   "url": "quadratic-inequalities-in-one-variable.html",
   "type": "Section",
-  "number": "3.7",
+  "number": "3.8",
   "title": "Quadratic Inequalities in One Variable",
   "body": " Quadratic Inequalities in One Variable   In addition to quadratic equations, we can also consider quadratic inequalities, which are related.   Motivation: graphical method  Consider the inequality,   The goal is to find all of the values of such that . In simple terms, this means all numbers , where if you substitute it into , the result is positive. This is most intuitive by visualizing the graph of the quadratic function ,     Then, determining where is equivalent to determining the where the -coordinate of the parabola is positive. Observe that the -intercepts of the graph are . So, the graph is positive when or when . Therefore, the solution is or .       Motivation: sign analysis with roots  Consider the inequality . Like before, first, find the roots of the parabola, by making it an equals sign, and factoring,   So, the roots are and . Since has a positive leading coefficient (+1), the parabola opens up. This means that the quadratic roughly looks like this,     From this, the parabola is negative when is between and , or .   To solve the inequality, we don't need to graph the entire parabola precisely. Instead, we only need to find the roots, and know the basic shape (opening up or down).  A quadratic expression can only change sign at its roots. This means, if a quadratic has two roots, then:    If the quadratic is positive in one interval, it will switch to negative when crossing a root.    After crossing the second root, it switches back to positive.    If the quadratic opens down, then the pattern is reversed: it first is negative, then positive, then negative. The pattern of signs follows,     Solving Quadratic Inequalities with Scientific Calculator (INEQ Mode)  My recommended calculator Casio fx-991ES PLUS C 2nd edition (or another similar model) can actually solve quadratic inequalities for you. You can use this to check your answers after solving by hand.    Press MODE and use the down arrow key to go to the next page.    Press 1 for inequality mode ( INEQ )    Press 1 for a quadratic inequality ( ).    Next, the calculator will show options for the type of inequality:    Press 1 for (greater than)    Press 2 for (less than)    Press 3 for (greater than or equal to)    Press 4 for (less than or equal to)      Enter the coefficients , , and for your inequality.    Press = to solve.    The calculator will show the interval(s) of that satisfy the inequality.     Example  For example, to solve :    Press MODE , scroll down, and select INEQ .    Choose 1 for quadratic.    Choose 1 for .    Input , , .    Press = to solve. The calculator will show the solution as:     Make sure your inequality is written in the correct form (everything on one side of the inequality, on the other).     Solving Quadratic Inequalities Summary   A quadratic inequality is an inequality that can be written in one of the forms,      (If necessary) Arrange the quadratic inequality in standard form, with on one side, and 0 on the other.    Find the critical values (the roots of the quadratic expression), by solving the corresponding quadratic equation .    Sketch a number line, and mark the critical values to split it into 3 intervals.    Find where the quadratic is positive or negative    If it opens up ( ), the sign pattern is .    If it opens down ( ), the sign pattern is .      Choose the intervals that match the inequality symbol (greater than or less than).    Include the endpoints if the inequality is or (non-strict inequality). Otherwise, don't include the endpoints if it's or .     "
 },
@@ -518,7 +977,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "quadratic-inequalities-in-one-variable.html#quadratic-inequalities-in-one-variable-2-2",
   "type": "Example",
-  "number": "3.7.1",
+  "number": "3.8.1",
   "title": "Motivation: graphical method.",
   "body": " Motivation: graphical method  Consider the inequality,   The goal is to find all of the values of such that . In simple terms, this means all numbers , where if you substitute it into , the result is positive. This is most intuitive by visualizing the graph of the quadratic function ,     Then, determining where is equivalent to determining the where the -coordinate of the parabola is positive. Observe that the -intercepts of the graph are . So, the graph is positive when or when . Therefore, the solution is or .     "
 },
@@ -527,7 +986,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "quadratic-inequalities-in-one-variable.html#quadratic-inequalities-in-one-variable-2-3",
   "type": "Example",
-  "number": "3.7.2",
+  "number": "3.8.2",
   "title": "Motivation: sign analysis with roots.",
   "body": " Motivation: sign analysis with roots  Consider the inequality . Like before, first, find the roots of the parabola, by making it an equals sign, and factoring,   So, the roots are and . Since has a positive leading coefficient (+1), the parabola opens up. This means that the quadratic roughly looks like this,     From this, the parabola is negative when is between and , or .  "
 },
@@ -536,7 +995,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "quadratic-inequalities-in-one-variable.html#quad-ineq-calculator-4",
   "type": "Example",
-  "number": "3.7.3",
+  "number": "3.8.3",
   "title": "Example.",
   "body": " Example  For example, to solve :    Press MODE , scroll down, and select INEQ .    Choose 1 for quadratic.    Choose 1 for .    Input , , .    Press = to solve. The calculator will show the solution as:     Make sure your inequality is written in the correct form (everything on one side of the inequality, on the other).  "
 },
@@ -545,7 +1004,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "quadratic-inequalities-in-one-variable.html#quad-ineq-summary-2",
   "type": "Definition",
-  "number": "3.7.4",
+  "number": "3.8.4",
   "title": "",
   "body": " A quadratic inequality is an inequality that can be written in one of the forms,   "
 },

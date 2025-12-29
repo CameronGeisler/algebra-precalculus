@@ -1,0 +1,870 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-word-problems-with-quadratics" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Word Problems with Quadratics</title>
+  
+  <!-- <introduction>
+  <p>
+  This is the introduction to the section.
+  </p>
+  </introduction> -->
+  
+  <subsection xml:id="subsec-maximize-product">
+    <title>Maximize Product with Fixed Sum</title>
+    
+    <example>
+      <title>Finding Two Numbers</title>
+      <statement>
+        <p>
+          Find the two numbers whose sum is 20 that produce the greatest possible product.
+        </p>
+        <p>
+          Intuitively, if two numbers have to add up to 20, then for example, if one of the numbers is 5, the other must be 15. If one is 8, then the other must be 12. In general, to get the 2nd number, take 20 minus the 1st number. We want to know which 2 numbers to pick so that their product (multiplying them together) is as big as possible. For example, let's try guessing and testing,
+        </p>
+        <ul>
+          <li>
+            <p>1 and 19 <m>\rightarrow</m> product of 19</p>
+          </li>
+          <li>
+            <p>5 and 15 <m>\rightarrow</m> product of 75 (bigger)</p>
+          </li>
+          <li>
+            <p>8 and 12 <m>\rightarrow</m> product of 96 (even bigger)</p>
+          </li>
+          <li>
+            <p>10 and 10 <m>\rightarrow</m> product of 100</p>
+          </li>
+          <li>
+            <p>If you choose the 1st number to be bigger, it repeats the same pattern. For example, 12 and 8 is the same as 8 and 12.</p>
+          </li>
+          <li>
+            <p>It seems like 10 and 10 gives the biggest product, but we can show this using algebra.</p>
+          </li>
+        </ul>
+        <p>
+          Let <m>x</m> be the 1st number. Then, <m>20-x</m> is the 2nd number, because they both must add up to 20. Their product (say, <m>P</m>) is,
+        </p>
+        <md>
+          <mrow>P = x(20-x)</mrow>
+        </md>
+        <p>
+          We want the maximum of this function, which is its vertex. There are 2 approaches to find its vertex.
+        </p>
+        <ul>
+          <li>
+            <p>It's already in factored form, so its zeros are <m>x=0</m> and <m>x=20</m>. Therefore, its vertex is halfway between them at <m>x=10</m>. Then, the 1st number should be 10 in order to maximize the product. Then, the 2nd number is also 10. The maximum product is <m>10 \cdot 10 = 100</m>.</p>
+          </li>
+          <li>
+            <p>Expand,</p>
+            <md>
+              <mrow>P \amp = 20x-x^2</mrow>
+              <mrow>\amp = -x^2+20x</mrow>
+            </md>
+            <p>The vertex is at <m>x=-\frac{b}{2a}</m>, so,</p>
+            <md>
+              <mrow>x \amp = -\frac{20}{2(-1)} = 10</mrow>
+            </md>
+            <p>so the 1st number is 10, the 2nd number is 10, and the maximum product is 100.</p>
+          </li>
+        </ul>
+      </statement>
+    </example>
+    
+    <exercise>
+      <title>Sum of 16</title>
+      <statement>
+        <p>The sum of two numbers is 16. Find the largest possible product between these numbers.</p>
+      </statement>
+      <hint>
+        <p>Let the numbers be <m>x</m> and <m>16-x</m>, so <m>P(x)=x(16-x)</m>.</p>
+      </hint>
+      <answer>
+        <p>The largest product is <m>64</m>, obtained when the numbers are <m>8</m> and <m>8</m>.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Sum of 29</title>
+      <statement>
+        <p>Two numbers have a sum of 29 and a product that is a maximum. Determine the two numbers and the maximum product.</p>
+      </statement>
+      <hint>
+        <p>If the numbers are <m>x</m> and <m>29-x</m>, then <m>P=x(29-x)</m>.</p>
+      </hint>
+      <answer>
+        <p>14.5 and 14.5, and the maximum product is <m>\frac{841}{4}=210.25</m>.</p>
+      </answer>
+    </exercise>
+    
+    <p>
+      In turns out that in general, if two numbers have a fixed sum, then their product will be largest when both numbers are exactly half of the sum. In other words, if the sum is <m>S</m>, then both numbers should be <m>\frac{S}{2}</m>.
+    </p>
+  </subsection>
+  
+  <subsection xml:id="subsec-farmer-fence">
+    <title>Farmer Fence Problem (Maximizing Area with Fixed Perimeter)</title>
+    
+    <exercise>
+      <title>Perimeter 36</title>
+      <statement>
+        <p>Find the rectangle of maximum area that can be constructed with a perimeter of 36 cm.</p>
+      </statement>
+      <hint>
+        <p>If one side is <m>x</m>, then <m>A=x(18-x)</m>.</p>
+      </hint>
+      <answer>
+        <p>The rectangle is 9 cm by 9 cm, with maximum area <m>81\text{ cm}^2</m>.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Fencing 120m</title>
+      <statement>
+        <p>A rectangular play area is to be bounded by 120 m of fencing. Determine the maximum area and the dimensions of this rectangle.</p>
+      </statement>
+      <hint>
+        <p>Let the length be <m>l</m> and width be <m>w</m>. Then <m>2l+2w=120</m> and <m>A=lw</m>.</p>
+      </hint>
+      <answer>
+        <p>The maximum area is 900 m<m>^2</m> with dimensions 30 m by 30 m.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Divided Area</title>
+      <statement>
+        <p>A rectangular area is divided into 2 rectangles with 450 m of fencing used for the perimeter and the divider. What are the dimensions of the total maximum area?</p>
+        <image width="100%">
+          <latex-image>
+            \begin{tikzpicture}[scale=0.5]
+            % outer rectangle
+            \draw (0,0) rectangle (8,3);
+            % divider (vertical fence)
+            \draw (6,0) -- (6,3);
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+      </statement>
+      <hint>
+        <p><m>A=w\left(\frac{450-3w}{2}\right)</m>.</p>
+      </hint>
+      <answer>
+        <p>The dimensions that maximize the total area are 75 m by 112.5 m.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Maria's Farm</title>
+      <statement>
+        <p>Maria lives on a farm. She is planning to build an enclosure for her animals that is divided into three equal-sized sections. She has 280 m of fencing to use.</p>
+        <image width="100%">
+          <latex-image>
+            \begin{tikzpicture}[scale=0.7]
+            % outer rectangle
+            \draw (0,0) rectangle (6,3);
+            % interior dividing fences
+            \draw (2,0) -- (2,3);
+            \draw (4,0) -- (4,3);
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+        <p>Find the maximum area she can enclose, and the dimensions that lead to the maximum area.</p>
+      </statement>
+      <hint>
+        <p><m>2l+4w=280</m> and <m>A=lw</m>.</p>
+      </hint>
+      <answer>
+        <p><m>A=-2w^2+140w</m>, maximum area is <m>2450\text{ m}^2</m> with width 35 m and length 70 m.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Sheep Pen</title>
+      <statement>
+        <p>The area of a rectangular sheep pen is 96 <m>\text{ m}^2</m>. The pen is divided into two smaller pens by inserting a fence parallel to the width of the pen. A total of 48 m of fencing is used. Determine the dimensions of the pen.</p>
+      </statement>
+      <hint>
+        <p><m>lw=96</m> and <m>3w+2l=48</m>.</p>
+      </hint>
+      <answer>
+        <p>Width 8 m and length 12 m.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Building Pen</title>
+      <statement>
+        <p>A holding pen is being built alongside a long building. The pen requires only three fenced sides, with the building forming the fourth side. There is enough material for 90 m of fencing. Find the maximum possible area, and the dimensions which give the maximum area.</p>
+      </statement>
+      <hint>
+        <p>Let <m>x</m> be the distance out from the building and <m>y</m> be the side parallel to the building. Then <m>2x+y=90</m> and <m>A=x(90-2x)</m>.</p>
+      </hint>
+      <answer>
+        <p>Maximum area of 1012.5 m<m>^2</m>, <m>x=22.5</m> m, <m>y=45</m> m.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>3 Sides Fencing</title>
+      <statement>
+        <p>A rectangular lot is bordered on one side by a building and the other 3 sides by 800 m of fencing. Determine the area of the largest lot possible.</p>
+      </statement>
+      <hint>
+        <p>Let the fenced length be <m>l</m> and the width be <m>w</m>. Then <m>2l+w=800</m> and <m>A=lw</m>.</p>
+      </hint>
+      <answer>
+        <p>The maximum area is <m>80000</m> m<m>^2</m>, achieved with <m>l=200</m> m and <m>w=400</m> m.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>String Area</title>
+      <statement>
+        <p>What is the maximum total area that 450 cm of string can enclose if it is used to form the perimeters of two adjoining rectangles as shown?</p>
+        <image width="100%">
+          <latex-image>
+            \begin{tikzpicture}[scale=0.15]
+            % outer rectangle
+            \draw (0,0) rectangle (12,8);
+            % middle dividing line
+            \draw (6,0) -- (6,8);
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+      </statement>
+      <hint>
+        <p>Let each rectangle have width <m>x</m> and height <m>y</m>. Then the string length is <m>4x+3y=450</m> and the total area is <m>A=2xy</m>.</p>
+      </hint>
+      <answer>
+        <p><m>x=\frac{225}{4}</m> cm and <m>y=75</m> cm maximize the total area, and the maximum area is 8437.5 cm<m>^2</m>.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>River Bank</title>
+      <statement>
+        <p>A rancher has 800 m of fencing to enclose a rectangular cattle pen along a river bank. There is no fencing needed along the river bank. Find the dimensions that would enclose the largest area.</p>
+        <image width="100%">
+          <latex-image>
+            \begin{tikzpicture}[scale=0.6]
+            % pen (3-sided rectangle)
+            \draw (0,0) -- (0,3);
+            \draw (6,0) -- (6,3);
+            \draw (0,3) -- (6,3);
+            % river bank
+            \draw[decorate,decoration={snake,amplitude=1.2mm,segment length=6mm}] (-0.4,0) -- (6.4,0);
+            % labels
+            \node[above] at (3,3) {$800-2x$};
+            \node[left] at (0,1.5) {$x$};
+            \node[right] at (6,1.5) {$x$};
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+      </statement>
+      <hint>
+        <p>If <m>x</m> is the width, then <m>A=x(800-2x)</m>.</p>
+      </hint>
+      <answer>
+        <p>The maximum area occurs when <m>x=200</m> m and the length is 400 m, so the pen should be 200 m by 400 m.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>River Feedlot</title>
+      <statement>
+        <p>A cattle ranch with 6000 metres of fencing wants to enclose a rectangular feedlot that borders on a river. If the cattle will not go into the river, what is the largest area that can be enclosed?</p>
+      </statement>
+      <hint>
+        <p>If <m>x</m> is the width, then <m>A(x)=x(6000-2x)</m>.</p>
+      </hint>
+      <answer>
+        <p>The largest area is <m>4,500,000\text{ m}^2</m>, with dimensions 1500 m by 3000 m.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Two Corrals</title>
+      <statement>
+        <p>A rancher has 1200 m of fencing to enclose two adjacent rectangular corrals. What dimensions will produce a maximum enclosed area if the common sides are of equal length?</p>
+      </statement>
+      <hint>
+        <p>Let <m>w</m> be the common side length and <m>l</m> be the other side length of each corral. Then <m>4l+3w=1200</m> and <m>A(w)=2lw=2w\left(\frac{1200-3w}{4}\right)</m>.</p>
+      </hint>
+      <answer>
+        <p>Each corral should be 150 m by 200 m.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Complex Fencing</title>
+      <statement>
+        <p>A set of fenced-in areas, as shown in the diagram, is being planned on an open field. A total of 900 m of fencing is available. What measurements will maximize the overall area of the entire enclosure?</p>
+        <image width="100%">
+          <latex-image>
+            \begin{tikzpicture}[scale=0.5]
+            % outer rectangle
+            \draw (0,0) rectangle (6,6);
+            % middle horizontal fence
+            \draw (0,3) -- (6,3);
+            % vertical interior fences
+            \draw (2,0) -- (2,3);
+            \draw (4,0) -- (4,3);
+            % x labels on the left
+            \node[left]  at (0,1.5) {$x$};
+            \node[left]  at (0,4.5) {$x$};
+            % y labels along the bottom
+            \node[below] at (1,0) {$y$};
+            \node[below] at (3,0) {$y$};
+            \node[below] at (5,0) {$y$};
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+      </statement>
+      <hint>
+        <p>With heights labeled <m>x</m> and widths labeled <m>y</m> in the diagram, the fencing constraint is <m>6x+9y=900</m> and the total area is <m>A=6xy</m>.</p>
+      </hint>
+      <answer>
+        <p><m>x=75</m> m and <m>y=50</m> m maximize the area. The overall enclosure is <m>3y=150</m> m wide and <m>2x=150</m> m tall, and the maximum total area is 22500 m<m>^2</m>.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Barn Corral</title>
+      <statement>
+        <p>An equestrian club wants to construct a corral next to a barn, using the side of the barn as part of one side of the corral. The side of the barn is 60 ft long, and the club has 300 ft of fencing for the other three sides. Find the dimensions that give the maximum area.</p>
+        <image width="100%">
+          <latex-image>
+            \begin{tikzpicture}[scale=0.6,line join=round]
+            % corral rectangle
+            \draw (0,0) rectangle (5,4);
+            
+            % barn wall segment (thick) on the top
+            \draw[line width=4pt] (0,4) -- (4,4);
+            
+            % remaining top segment
+            \draw (4,4) -- (5,4);
+            
+            % top side labels
+            \node[above] at (2,4) {60 ft};
+            \node[above] at (4.5,4) {$x$};
+            
+            % side labels
+            \node[right] at (5,2) {$y$};
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+      </statement>
+      <hint>
+        <p><m>2x+60+2y=300</m>, so <m>A=(x+60)(120-x)</m>.</p>
+      </hint>
+      <answer>
+        <p>90 ft by 90 ft, maximum area of 8100 ft<m>^2</m>.</p>
+      </answer>
+    </exercise>
+  </subsection>
+  
+  <subsection xml:id="subsec-max-revenue">
+    <title>Maximizing Revenue with Price Change Problems</title>
+    
+    <exercise>
+      <title>Bus Fare</title>
+      <statement>
+        <p>A bus company has 4000 passengers daily, each paying a fare of $2. For each $0.15 increase, the company estimates that it will lose 40 passengers per day. If the company needs to take in $10,450 per day to stay in business, what fare should be charged?</p>
+      </statement>
+      <hint>
+        <p>if <m>x</m> is the number of $0.15 increases, then <m>(2+0.15x)(4000-40x)=10450</m>.</p>
+      </hint>
+      <answer>
+        <p>$2.75.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Concert Promoter</title>
+      <statement>
+        <p>A concert promoter is planning the ticket price for an upcoming concert. At the previous concert, she charged $70 and sold 2000 tickets. She estimates that for every $1 decrease in price, she will sell 50 more tickets. Find the maximum revenue the promoter can expect, what ticket price will give that revenue, and how many tickets will be sold.</p>
+      </statement>
+      <hint>
+        <p>if <m>x</m> is the number of $1 decreases, then <m>R(x)=(70-x)(2000+50x)</m>.</p>
+      </hint>
+      <answer>
+        <p>Maximum revenue is $151250 at a $55 ticket price, selling 2750 tickets.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Photographer</title>
+      <statement>
+        <p>A student council is planning a fundraising event with a photographer. Last year, they charged $10 per session and booked 400 sessions. They estimate that every $1 increase in price will reduce the number of sessions by 20. Find the maximum revenue they can expect, and what session fee will give that maximum.</p>
+      </statement>
+      <hint>
+        <p>if <m>x</m> is the number of $1 increases in price, then <m>R=(10+x)(400-20x)</m>.</p>
+      </hint>
+      <answer>
+        <p>Maximum revenue is $4500 at a $15 session fee.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Bike Store</title>
+      <statement>
+        <p>A bike store manager is setting the price for a new model. If he sets the price at $360, he expects to sell 280 bikes. For every $10 increase, he expects to sell 5 fewer bikes. Find the maximum revenue that the manager can expect, and the price that will give that maximum.</p>
+      </statement>
+      <hint>
+        <p><m>R=(360+10x)(280-5x)</m>.</p>
+      </hint>
+      <answer>
+        <p>Maximum revenue is $105800 at a $460 price.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Pea Yield</title>
+      <statement>
+        <p>A gardener is planting peas in a field. Last year he planted 30 rows and obtained 4000 g of peas per row. He estimates that each additional row will reduce yield per row by 100 g. Find the maximum mass of peas the field can produce, and the number of rows that will yield that maximum.</p>
+      </statement>
+      <hint>
+        <p><m>P=(30+x)(4000-100x)</m>.</p>
+      </hint>
+      <answer>
+        <p>Maximum production is 122500 g (or 122.5 kg) at 35 rows.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>School Dance</title>
+      <statement>
+        <p>A ticket to a school dance is $8. Usually, 300 students attend. The dance committee knows that for every $1 increase in the price of a ticket, 30 fewer students attend the dance. Find the ticket price that will maximize the revenue.</p>
+      </statement>
+      <hint>
+        <p>Let <m>x</m> be the number of $1 increases. Then <m>R=(8+x)(300-30x)</m>.</p>
+      </hint>
+      <answer>
+        <p>The revenue is maximized when <m>x=1</m>, so the ticket price should be $9.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Bolts Revenue</title>
+      <statement>
+        <p>A company sells bolts for 95 cents each and sells about 10,000 bolts per month. Market research indicates that for every 15 cents increase in price, the company will sell 500 fewer bolts. Find the price of a bolt that will maximize the revenue, and the maximum revenue. Assume the number of 15-cent increases must be a whole number.</p>
+      </statement>
+      <hint>
+        <p><m>R=(0.95+0.15x)(10000-500x)</m>.</p>
+      </hint>
+      <answer>
+        <p>$2.00 per bolt, giving a revenue of $13,000 per month.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Hotel Room Rate</title>
+      <statement>
+        <p>A 400 room hotel is three-quarters full when the room rate is an average of $80.00 per night. A survey shows that each $5.00 increase in cost will result in 10 fewer rooms occupied. Find the nightly rate and number of rooms occupied that will maximize income.</p>
+      </statement>
+      <hint>
+        <p>Let <m>x</m> be the number of $5 increases, then <m>I=(300-10x)(80+5x)</m>.</p>
+      </hint>
+      <answer>
+        <p>The maximum income occurs at <m>x=7</m>, so the nightly rate should be $115.00 and 230 rooms should be occupied (maximum income $26,450).</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Fish and Game Club</title>
+      <statement>
+        <p>Semiahmoo Fish and Game Club charges its members $200 per year. For each increase over 60 members, the membership cost is decreased by $2. What number of members would produce the maximum revenue for the club?</p>
+      </statement>
+      <hint>
+        <p>Let <m>x</m> be the number of members over 60. Then <m>R(x)=(60+x)(200-2x)</m>.</p>
+      </hint>
+      <answer>
+        <p>80 members.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>School Play</title>
+      <statement>
+        <p>A school play charges $10 for admission, and on average 80 people attend each show. For each $1 increase, attendance drops by 5 people. Find the price the school should charge to maximize revenue.</p>
+      </statement>
+      <hint>
+        <p>Let <m>x</m> be the number of $1 increases, then <m>R(x)=(10+x)(80-5x)</m>.</p>
+      </hint>
+      <answer>
+        <p>The school should charge $13.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Software Sales</title>
+      <statement>
+        <p>When priced at $10, one type of software has annual sales of 500 units. For each dollar the software is increased in price, the store expects to lose sales of 10 units of software. Find the price that will maximize the total revenue.</p>
+      </statement>
+      <hint>
+        <p>Let <m>x</m> be the number of $1 increases. Then <m>R(x)=(10+x)(500-10x)</m>.</p>
+      </hint>
+      <answer>
+        <p>$30.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Minibus Trip</title>
+      <statement>
+        <p>It costs a bus company $225 to run a minibus on a ski trip, plus $30 per passenger. The bus has seating for 22 passengers, and the company charges $60 per person if the bus is full. For each empty seat, the company has to increase the ticket price by $5. How many empty seats should the bus run with to maximize profit from this trip?</p>
+      </statement>
+      <hint>
+        <p>Let <m>x</m> be the number of empty seats. Then profit is <m>P(x)=(60+5x)(22-x)-\bigl(225+30(22-x)\bigr)</m>.</p>
+      </hint>
+      <answer>
+        <p>The profit is maximized when there are 8 empty seats.</p>
+      </answer>
+    </exercise>
+  </subsection>
+  
+  <subsection xml:id="subsec-number-problems">
+    <title>Number Problems</title>
+    
+    <exercise>
+      <title>Squares Sum</title>
+      <statement>
+        <p>The sum of the squares of two consecutive integers is 685. What could the integers be? List all possibilities.</p>
+      </statement>
+      <hint>
+        <p>If the first integer is <m>n</m>, then <m>n^2+(n+1)^2=685</m>.</p>
+      </hint>
+      <answer>
+        <p>18 and 19, or <m>-19</m> and <m>-18</m>.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Sum 20 Product 84</title>
+      <statement>
+        <p>Two numbers have a sum of 20 and a product of 84. Use a quadratic equation to determine the numbers.</p>
+      </statement>
+      <hint>
+        <p>Let one number be <m>x</m>, then the other number is <m>20-x</m>, so <m>x(20-x)=84</m>.</p>
+      </hint>
+      <answer>
+        <p>The numbers are 6 and 14.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Difference 18</title>
+      <statement>
+        <p>Two numbers have a difference of 18. The sum of their squares is a minimum. Determine the numbers.</p>
+      </statement>
+      <hint>
+        <p>Let one number be <m>x</m>. Then the other is <m>x+18</m> and <m>S=x^2+(x+18)^2</m>.</p>
+      </hint>
+      <answer>
+        <p>The numbers are <m>-9</m> and 9.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Square Added</title>
+      <statement>
+        <p>When the square of a number is added to the number, the sum is 3. Find the possible numbers.</p>
+      </statement>
+      <hint>
+        <p><m>x^2+x=3</m>.</p>
+      </hint>
+      <answer>
+        <p><m>\frac{-1-\sqrt{13}}{2}</m> or <m>\frac{-1+\sqrt{13}}{2}</m>.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Difference 13</title>
+      <statement>
+        <p>Two numbers have a difference of 13 and a product that is a minimum. Determine the two numbers and the minimum product.</p>
+      </statement>
+      <hint>
+        <p>If the numbers are <m>x</m> and <m>x-13</m>, then <m>P=x(x-13)</m>.</p>
+      </hint>
+      <answer>
+        <p><m>\frac{13}{2}=6.5</m> and <m>-\frac{13}{2}=-6.5</m>, and the minimum product is <m>-\frac{169}{4}=-42.25</m>.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Sum 10</title>
+      <statement>
+        <p>The sum of two integers is 10, and the sum of their squares is a minimum. Find the integers.</p>
+      </statement>
+      <hint>
+        <p>If the integers are <m>x</m> and <m>10-x</m>, minimize <m>S(x)=x^2+(10-x)^2</m>.</p>
+      </hint>
+      <answer>
+        <p>5 and 5.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Difference 6</title>
+      <statement>
+        <p>Two numbers have a difference of 6 and their product is a minimum. Determine the numbers.</p>
+      </statement>
+      <hint>
+        <p>Let one number be <m>x</m>. Then the other is <m>x+6</m> and <m>P=x(x+6)</m>.</p>
+      </hint>
+      <answer>
+        <p><m>-3</m> and 3.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Difference 8</title>
+      <statement>
+        <p>Find the minimum product of two numbers that differ by 8, and find the numbers.</p>
+      </statement>
+      <hint>
+        <p>Let the numbers be <m>x</m> and <m>x+8</m>, so <m>P(x)=x(x+8)</m>.</p>
+      </hint>
+      <answer>
+        <p>Minimum product is <m>-16</m>, from <m>-4</m> and 4.</p>
+      </answer>
+    </exercise>
+  </subsection>
+  
+  <subsection xml:id="subsec-area-geometry">
+    <title>Area Geometry Problems</title>
+    
+    <exercise>
+      <title>Rectangle 330</title>
+      <statement>
+        <p>A rectangle has an area of 330 m<m>^2</m>. One side is 7 m longer than the other. What are the dimensions of the rectangle?</p>
+      </statement>
+      <hint>
+        <p>If the shorter side is <m>x</m> meters, then <m>x(x+7)=330</m>.</p>
+      </hint>
+      <answer>
+        <p>The rectangle is 15 m by 22 m.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Garden Path</title>
+      <statement>
+        <p>A rectangular garden has dimensions 3 m by 4 m. A path is built around the garden. The area of the garden and path is 6 times as great as the area of the garden. What is the width of the path?</p>
+      </statement>
+      <hint>
+        <p><m>(3+2x)(4+2x)=72</m>.</p>
+      </hint>
+      <answer>
+        <p>Width of the path is 2.5 m.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Josie’s Garden</title>
+      <statement>
+        <p>Josie’s rectangular garden measures 9 m by 13 m. She wants to double the area of her garden by adding equal lengths to both dimensions. Determine this length to the nearest centimetre.</p>
+      </statement>
+      <hint>
+        <p><m>(x+9)(x+13)=234</m>.</p>
+      </hint>
+      <answer>
+        <p>The length added is <m>-11+\sqrt{238}\approx 4.43</m> m.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Triangle 96</title>
+      <statement>
+        <p>A right triangle has a height 8 cm more than twice the length of the base. If the area of the triangle is <m>96\text{ cm}^2</m>, what are the dimensions of the triangle?</p>
+      </statement>
+      <hint>
+        <p>If the base is <m>x</m>, then the height is <m>2x+8</m>, so <m>\frac{1}{2}x(2x+8)=96</m>.</p>
+      </hint>
+      <answer>
+        <p>Base is 8 cm, height is 24 cm.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Right Triangle Legs</title>
+      <statement>
+        <p>A right triangle has one leg that is 1 less than 3 times the other leg, and the hypotenuse is 1 more than 3 times that same leg. Find the side lengths of the triangle.</p>
+      </statement>
+      <hint>
+        <p>if the leg is <m>x</m>, then the other leg is <m>3x-1</m>, and the hypotenuse is <m>3x+1</m>, then <m>x^2+(3x-1)^2=(3x+1)^2</m>.</p>
+      </hint>
+      <answer>
+        <p>12, 35, and 37.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Three Rods</title>
+      <statement>
+        <p>Three rods measure 20 cm, 41 cm, and 44 cm. If the same length is cut off each piece, the remaining lengths can be formed into a right triangle. What length is cut off?</p>
+      </statement>
+      <answer>
+        <p>5 cm.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Factory Lawn</title>
+      <statement>
+        <p>A factory is to be built on a lot that measures 80 m by 60 m. A lawn of uniform width, with area equal to the area of the factory, must surround it. How wide is the strip of lawn, and what are the dimensions of the factory?</p>
+        <image width="100%">
+          <latex-image>
+            \begin{tikzpicture}[scale=0.05]
+            
+            % lot (80 m by 60 m)
+            \fill[green!60] (0,0) rectangle (80,60);
+            \draw[thick] (0,0) rectangle (80,60);
+            
+            % factory, surrounded by a uniform lawn
+            % (shift these numbers if you want a different lawn width)
+            \fill[gray!40] (10,10) rectangle (70,50);
+            \draw[thick] (10,10) rectangle (70,50);
+            
+            % 80 m label along the top
+            \draw[&lt;-&gt;] (0,70) -- (80,70);
+            \node[above] at (40,70) {80 m};
+            
+            % 60 m label along the right side
+            \draw[&lt;-&gt;] (90,0) -- (90,60);
+            \node[right] at (90,30) {60 m};
+            
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+      </statement>
+      <hint>
+        <p>If the lawn width is <m>x</m> m, then <m>(80-2x)(60-2x)=\frac{80\cdot 60}{2}</m>.</p>
+      </hint>
+      <answer>
+        <p>The lawn is 10 m wide, and the factory dimensions are 60 m by 40 m.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Diagonal 17</title>
+      <statement>
+        <p>The diagonal of a rectangle is 17 cm long. The rectangle is 7 cm longer than it is wide. What are the dimensions of the rectangle?</p>
+      </statement>
+      <hint>
+        <p>Let the width be <m>x</m>. Then the length is <m>x+7</m> and <m>x^2+(x+7)^2=17^2</m>.</p>
+      </hint>
+      <answer>
+        <p>8 cm by 15 cm.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Rectangle 180</title>
+      <statement>
+        <p>A rectangle's length is 3 meters longer than its width, and its area is 180 m<m>^2</m>. Determine the dimensions of the rectangle.</p>
+      </statement>
+      <hint>
+        <p>If the width is <m>x</m> meters, then <m>x(x+3)=180</m>.</p>
+      </hint>
+      <answer>
+        <p>12 m by 15 m.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Mowing Strip</title>
+      <statement>
+        <p>Jackie mows a strip of uniform width around her 25 m by 15 m rectangular lawn and leaves a patch of lawn that is 60% of the original area. What is the width of the strip?</p>
+      </statement>
+      <hint>
+        <p>If the strip has width <m>x</m> meters, then the remaining lawn is <m>(25-2x)</m> m by <m>(15-2x)</m> m and <m>(25-2x)(15-2x)=225</m>.</p>
+      </hint>
+      <answer>
+        <p>Strip width is about 2.1 m.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Matting</title>
+      <statement>
+        <p>Brian is placing a photograph behind a 12-in. by 12-in. piece of matting. He positions the photograph so the matting is twice as wide at the top and bottom as it is at the sides. The visible area of the photograph is 54 sq. in. What are the dimensions of the photograph?</p>
+      </statement>
+      <hint>
+        <p>if <m>x</m> is the width of the matting at the sides, then <m>(12-2x)(12-4x)=54</m>.</p>
+      </hint>
+      <answer>
+        <p>Width is 9 in, height is 6 in.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Rectangle 40</title>
+      <statement>
+        <p>A rectangle has an area of 40 cm<m>^2</m>, and its length is 1 cm less than twice its width. Find its dimensions, and round your answers to the nearest tenth.</p>
+      </statement>
+      <hint>
+        <p>If the width be <m>w</m>. Then the length is <m>2w-1</m> and <m>w(2w-1)=40</m>.</p>
+      </hint>
+      <answer>
+        <p>4.7 cm by 8.5 cm.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Perimeter 60</title>
+      <statement>
+        <p>The perimeter of a right triangle is 60 cm. The length of the hypotenuse is 6 cm more than twice the length of one of the other sides. Find the lengths of all three sides.</p>
+      </statement>
+      <hint>
+        <p><m>c = 2a + 6</m> and <m>a^2 + b^2 = c^2</m>, and also <m>a+b+c=60</m>.</p>
+      </hint>
+      <answer>
+        <p>10 cm, 24 cm, 26 cm.</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <title>Track Field</title>
+      <statement>
+        <p>A high school is planning to build a new playing field surrounded by a running track. The track coach wants two laps around the track to be 1000 m. The football coach wants the rectangular infield area to be as large as possible. Can both coaches be satisfied. Explain your answer.</p>
+        <image width="100%">
+          <latex-image>
+            \begin{tikzpicture}[scale=0.8,line join=round]
+            \def\r{1.4}  % radius
+            \def\L{6.5}  % straight length (diagram only)
+            
+            % top and bottom straight segments
+            \draw (-\L/2,\r) -- (\L/2,\r);
+            \draw (-\L/2,-\r) -- (\L/2,-\r);
+            
+            % right semicircle bulges outward
+            \draw (\L/2,\r) arc (90:-90:\r);
+            
+            % left semicircle bulges outward (to the left)
+            \draw (-\L/2,-\r) arc (90:-90:-\r);
+            
+            % dashed verticals at the rectangle ends
+            \draw[dashed] (-\L/2,\r) -- (-\L/2,-\r);
+            \draw[dashed] (\L/2,\r) -- (\L/2,-\r);
+            
+            % label L
+            \draw[&lt;-&gt;] (-\L/2,\r+0.6) -- (\L/2,\r+0.6);
+            \node[above] at (0,\r+0.6) {$L$};
+            
+            % label W (diameter)
+            \draw[&lt;-&gt;] (\L/2+\r+0.6,-\r) -- (\L/2+\r+0.6,\r);
+            \node[right] at (\L/2+\r+0.6,0) {$W$};
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+      </statement>
+      <hint>
+        <p>One lap is 500 m, so <m>2L+\pi W=500</m>, and the rectangular infield area is <m>A=LW</m>.</p>
+      </hint>
+      <answer>
+        <p>Yes. With <m>2L+\pi W=500</m>, the infield area is <m>A(W)=W\left(\frac{500-\pi W}{2}\right)=250W-\frac{\pi}{2}W^2</m>, which is maximized at <m>W=\frac{250}{\pi}</m> and <m>L=125</m>. So the largest rectangular infield is <m>125</m> m by <m>\frac{250}{\pi}</m> m, with maximum area <m>\frac{31250}{\pi}\text{ m}^2</m>.</p>
+      </answer>
+    </exercise>
+  </subsection>
+</section>
