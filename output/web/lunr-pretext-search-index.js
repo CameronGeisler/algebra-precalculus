@@ -3643,52 +3643,115 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "12.5",
   "title": "Solving Exponential Equations with Logarithms",
-  "body": " Solving Exponential Equations with Logarithms    Solving Exponential Equations with Logarithms   Basic Equations   Solve each equation. Give answers in exact form and rounded to 2 decimal places.               Equations with Different Bases   Solve each equation. Give answers in exact form and rounded to 2 decimal places.            Complex Exponential Equations   Solve each equation. Give answers in exact form and rounded to 2 decimal places.                   Solving Exponential Equations in Quadratic Form   Quadratic Form Practice   Solve each equation.      quadratic formula   no solution     Advanced Examples  Need to peel off the extra factors.   Isolating Variable Factors   Solve each equation.        "
+  "body": " Solving Exponential Equations with Logarithms   Recall that if an exponential equation can be written with both sides having equal bases, then it can be solved by equating exponents .  However, if both sides don't have the same base, then logarithms are needed. In fact, most exponential equations in applications will not contain convenient whole number bases where you can equate exponents.   Solving Exponential Equations with Different Bases  Consider the equation . Here, the variable is in the exponent, but 15 is not a power of 4 (or 2). However, we can solve this by converting this equation to logarithmic form, to get . This is the solution for . In other words,   Note that , and so is reasonable.  Alternatively, we can take the log of both sides, just like in the same way we would take the square root of both sides, or multiply both sides by 2. Here, using log base 10,   Then, using the power law for logarithms, on the left side, we can bring the into the front,   Both methods give you the correct answer.    Solving an Equation with Binomial Exponent  Consider the equation . Taking the log of both sides,   Bringing the exponent into the front,   Next, expand by distributing into the brackets,   Then, isolate the term involving . Subtract from both sides,   Finally, divide both sides by ,   This is an exact final answer, and you can put it in your calculator to get .   In general, when the variable is in the exponent, taking the log of both sides pulls down the variable from the exponent to the ground level of the equation, allowing you to solve for it, using algebra.    The standard convention is to take the common logarithm (base 10) of both sides, because that is included on calculators. However, in principle, you could use any base that is convenient (if your calculator allows you to input logarithms of any base), and you will still get the same correct answer.    When solving equations by taking logs of both sides, there are often multiple ways to write the final answer, because there are multiple ways to do the algebra to isolate for (which are all equivalent and correct). If you're unsure if your answer is equivalent to a different-looking answer, you can check by typing both into your calculator and seeing if the decimal number is the same.     Examples   Basic Equations   Solve each equation. Give answers in exact form and rounded to 2 decimal places.                                                         For your final answer, there is no need to combine logs together (it is not considered more simple or something like that).   Sometimes, you need to isolate the exponential first, and then take logs of both sides.   Isolating the Exponential   Solve each equation. Give answers in exact form and rounded to 2 decimal places.                 Variables in Both Exponents  Consider the equation . Again, the variable is in the exponent, so we'll take the log of both sides,   Bringing the exponents to the front,   Next, expand by distributing,   Then, to isolate for , collect all terms involving on one side, and move all terms without to the other side   On the left side, there are 2 terms with in them (as a factor), which means we can factor out ,   Finally, divide both sides by ,   This is an exact final answer, and you can put it in your calculator to get .    Variables in Both Exponents Practice   Solve each equation. Give answers in exact form and rounded to 2 decimal places.                                                             Mixed Exponential Equations   Solve each equation. Give answers in exact form and rounded to 2 decimal places.                                                          Solving Exponential Equations in Quadratic Form   Quadratic Form Practice   Solve each equation.             split      quadratic formula          no solution      Advanced Examples  Need to peel off the extra factors.   Peeling Off Extra Factors   Solve each equation.     and differ by 3 factors of 2      , use quadratic form          "
 },
 {
-  "id": "subsection-basic-exponential-equations-2",
+  "id": "sec-solving-exponential-equations-with-logarithms-2-3",
   "level": "2",
-  "url": "sec-solving-exponential-equations-with-logarithms.html#subsection-basic-exponential-equations-2",
+  "url": "sec-solving-exponential-equations-with-logarithms.html#sec-solving-exponential-equations-with-logarithms-2-3",
+  "type": "Example",
+  "number": "12.5.1",
+  "title": "Solving Exponential Equations with Different Bases.",
+  "body": " Solving Exponential Equations with Different Bases  Consider the equation . Here, the variable is in the exponent, but 15 is not a power of 4 (or 2). However, we can solve this by converting this equation to logarithmic form, to get . This is the solution for . In other words,   Note that , and so is reasonable.  Alternatively, we can take the log of both sides, just like in the same way we would take the square root of both sides, or multiply both sides by 2. Here, using log base 10,   Then, using the power law for logarithms, on the left side, we can bring the into the front,   Both methods give you the correct answer.  "
+},
+{
+  "id": "sec-solving-exponential-equations-with-logarithms-2-4",
+  "level": "2",
+  "url": "sec-solving-exponential-equations-with-logarithms.html#sec-solving-exponential-equations-with-logarithms-2-4",
+  "type": "Example",
+  "number": "12.5.2",
+  "title": "Solving an Equation with Binomial Exponent.",
+  "body": " Solving an Equation with Binomial Exponent  Consider the equation . Taking the log of both sides,   Bringing the exponent into the front,   Next, expand by distributing into the brackets,   Then, isolate the term involving . Subtract from both sides,   Finally, divide both sides by ,   This is an exact final answer, and you can put it in your calculator to get .  "
+},
+{
+  "id": "sec-solving-exponential-equations-with-logarithms-2-7",
+  "level": "2",
+  "url": "sec-solving-exponential-equations-with-logarithms.html#sec-solving-exponential-equations-with-logarithms-2-7",
+  "type": "Remark",
+  "number": "12.5.3",
+  "title": "",
+  "body": " The standard convention is to take the common logarithm (base 10) of both sides, because that is included on calculators. However, in principle, you could use any base that is convenient (if your calculator allows you to input logarithms of any base), and you will still get the same correct answer.  "
+},
+{
+  "id": "sec-solving-exponential-equations-with-logarithms-2-8",
+  "level": "2",
+  "url": "sec-solving-exponential-equations-with-logarithms.html#sec-solving-exponential-equations-with-logarithms-2-8",
+  "type": "Remark",
+  "number": "12.5.4",
+  "title": "",
+  "body": " When solving equations by taking logs of both sides, there are often multiple ways to write the final answer, because there are multiple ways to do the algebra to isolate for (which are all equivalent and correct). If you're unsure if your answer is equivalent to a different-looking answer, you can check by typing both into your calculator and seeing if the decimal number is the same.  "
+},
+{
+  "id": "subsec-exponential-equations-with-logs-examples-2",
+  "level": "2",
+  "url": "sec-solving-exponential-equations-with-logarithms.html#subsec-exponential-equations-with-logs-examples-2",
   "type": "Exercise Group",
   "number": "12.5.1",
   "title": "Basic Equations.",
-  "body": " Basic Equations   Solve each equation. Give answers in exact form and rounded to 2 decimal places.             "
+  "body": " Basic Equations   Solve each equation. Give answers in exact form and rounded to 2 decimal places.                                                       "
 },
 {
-  "id": "subsection-basic-exponential-equations-3",
+  "id": "subsec-exponential-equations-with-logs-examples-3",
   "level": "2",
-  "url": "sec-solving-exponential-equations-with-logarithms.html#subsection-basic-exponential-equations-3",
+  "url": "sec-solving-exponential-equations-with-logarithms.html#subsec-exponential-equations-with-logs-examples-3",
+  "type": "Remark",
+  "number": "12.5.5",
+  "title": "",
+  "body": " For your final answer, there is no need to combine logs together (it is not considered more simple or something like that).  "
+},
+{
+  "id": "subsec-exponential-equations-with-logs-examples-5",
+  "level": "2",
+  "url": "sec-solving-exponential-equations-with-logarithms.html#subsec-exponential-equations-with-logs-examples-5",
   "type": "Exercise Group",
   "number": "12.5.2",
-  "title": "Equations with Different Bases.",
-  "body": " Equations with Different Bases   Solve each equation. Give answers in exact form and rounded to 2 decimal places.          "
+  "title": "Isolating the Exponential.",
+  "body": " Isolating the Exponential   Solve each equation. Give answers in exact form and rounded to 2 decimal places.               "
 },
 {
-  "id": "subsection-basic-exponential-equations-4",
+  "id": "subsec-exponential-equations-with-logs-examples-6",
   "level": "2",
-  "url": "sec-solving-exponential-equations-with-logarithms.html#subsection-basic-exponential-equations-4",
+  "url": "sec-solving-exponential-equations-with-logarithms.html#subsec-exponential-equations-with-logs-examples-6",
+  "type": "Example",
+  "number": "12.5.6",
+  "title": "Variables in Both Exponents.",
+  "body": " Variables in Both Exponents  Consider the equation . Again, the variable is in the exponent, so we'll take the log of both sides,   Bringing the exponents to the front,   Next, expand by distributing,   Then, to isolate for , collect all terms involving on one side, and move all terms without to the other side   On the left side, there are 2 terms with in them (as a factor), which means we can factor out ,   Finally, divide both sides by ,   This is an exact final answer, and you can put it in your calculator to get .  "
+},
+{
+  "id": "subsec-exponential-equations-with-logs-examples-7",
+  "level": "2",
+  "url": "sec-solving-exponential-equations-with-logarithms.html#subsec-exponential-equations-with-logs-examples-7",
   "type": "Exercise Group",
   "number": "12.5.3",
-  "title": "Complex Exponential Equations.",
-  "body": " Complex Exponential Equations   Solve each equation. Give answers in exact form and rounded to 2 decimal places.                "
+  "title": "Variables in Both Exponents Practice.",
+  "body": " Variables in Both Exponents Practice   Solve each equation. Give answers in exact form and rounded to 2 decimal places.                                                           "
 },
 {
-  "id": "subsection-exp-eq-logs-quadratic-form-2",
+  "id": "subsec-exponential-equations-with-logs-examples-8",
   "level": "2",
-  "url": "sec-solving-exponential-equations-with-logarithms.html#subsection-exp-eq-logs-quadratic-form-2",
+  "url": "sec-solving-exponential-equations-with-logarithms.html#subsec-exponential-equations-with-logs-examples-8",
   "type": "Exercise Group",
   "number": "12.5.4",
-  "title": "Quadratic Form Practice.",
-  "body": " Quadratic Form Practice   Solve each equation.      quadratic formula   no solution  "
+  "title": "Mixed Exponential Equations.",
+  "body": " Mixed Exponential Equations   Solve each equation. Give answers in exact form and rounded to 2 decimal places.                                                       "
 },
 {
-  "id": "subsection-exp-eq-logs-advanced-examples-3",
+  "id": "subsection-solving-quadratic-form-2",
   "level": "2",
-  "url": "sec-solving-exponential-equations-with-logarithms.html#subsection-exp-eq-logs-advanced-examples-3",
+  "url": "sec-solving-exponential-equations-with-logarithms.html#subsection-solving-quadratic-form-2",
   "type": "Exercise Group",
   "number": "12.5.5",
-  "title": "Isolating Variable Factors.",
-  "body": " Isolating Variable Factors   Solve each equation.      "
+  "title": "Quadratic Form Practice.",
+  "body": " Quadratic Form Practice   Solve each equation.             split      quadratic formula          no solution   "
+},
+{
+  "id": "subsection-exp-eqs-with-logs-advanced-examples-3",
+  "level": "2",
+  "url": "sec-solving-exponential-equations-with-logarithms.html#subsection-exp-eqs-with-logs-advanced-examples-3",
+  "type": "Exercise Group",
+  "number": "12.5.6",
+  "title": "Peeling Off Extra Factors.",
+  "body": " Peeling Off Extra Factors   Solve each equation.     and differ by 3 factors of 2      , use quadratic form        "
 },
 {
   "id": "sec-solving-logarithmic-equations",

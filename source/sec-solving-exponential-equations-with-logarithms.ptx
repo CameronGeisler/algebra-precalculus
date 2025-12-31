@@ -3,97 +3,433 @@
 <section xml:id="sec-solving-exponential-equations-with-logarithms" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Solving Exponential Equations with Logarithms</title>
   
-  <!-- <introduction>
+  <introduction>
     <p>
-      This is the introduction to the section.
+      Recall that if an exponential equation can be written with both sides having equal bases, then it can be solved by <em>equating exponents</em>.
     </p>
-  </introduction> -->
-  
-  <subsection xml:id="subsection-basic-exponential-equations">
-    <title>Solving Exponential Equations with Logarithms</title>
     
+    <p>
+      However, if both sides don't have the same base, then logarithms are needed. In fact, most exponential equations in applications will not contain convenient whole number bases where you can equate exponents.
+    </p>
+    
+    <example>
+      <title>Solving Exponential Equations with Different Bases</title>
+      <p>
+        Consider the equation <m>4^x = 15</m>. Here, the variable is in the exponent, but 15 is not a power of 4 (or 2). However, we can solve this by converting this equation to logarithmic form, to get <m>x = \log_{4}15</m>. This is the solution for <m>x</m>. In other words,
+      </p>
+      <md>
+        <mrow>x = \log_{4}15 = \frac{\log{15}}{\log{4}} \approx 1.95</mrow>
+      </md>
+      <p>
+        Note that <m>4^2 = 16</m>, and so <m>x \approx 1.95 \approx 2</m> is reasonable.
+      </p>
+      <p>
+        Alternatively, we can take the log of both sides, just like in the same way we would take the square root of both sides, or multiply both sides by 2. Here, using log base 10,
+      </p>
+      <md>
+        <mrow>4^x \amp = 15</mrow>
+        <mrow>\log{(4^x)} \amp = \log{15} \amp\amp \text{taking the log of both sides}</mrow>
+      </md>
+      <p>
+        Then, using the power law for logarithms, on the left side, we can bring the <m>x</m> into the front,
+      </p>
+      <md>
+        <mrow>x \cdot \log{4} \amp = \log{15} \amp\amp \text{using the power law}</mrow>
+        <mrow>x \amp = \frac{\log{15}}{\log{4}} \approx 1.95 \amp\amp \text{solving for $x$}</mrow>
+      </md>
+      <p>
+        Both methods give you the correct answer.
+      </p>
+    </example>
+    
+    <example>
+      <title>Solving an Equation with Binomial Exponent</title>
+      <p>
+        Consider the equation <m>5^{x+3} = 7</m>. Taking the log of both sides,
+      </p>
+      <md>
+        <mrow>\log\brac{5^{x+3}} \amp = \log{7} \amp\amp \text{taking the log of both sides}</mrow>
+      </md>
+      <p>
+        Bringing the exponent <m>x+3</m> into the front,
+      </p>
+      <md>
+        <mrow>(x+3)\log{5} \amp = \log{7} \amp\amp \text{using the power law}</mrow>
+      </md>
+      <p>
+        Next, expand by distributing <m>\log{5}</m> into the brackets,
+      </p>
+      <md>
+        <mrow>x\log{5} + 3\log{5} = \log{7}</mrow>
+      </md>
+      <p>
+        Then, isolate the term involving <m>x</m>. Subtract <m>3\log 5</m> from both sides,
+      </p>
+      <md>
+        <mrow>x\log{5} = \log{7} - 3\log{5}</mrow>
+      </md>
+      <p>
+        Finally, divide both sides by <m>\log 5</m>,
+      </p>
+      <md>
+        <mrow>x = \frac{\log 7 - 3\log{5}}{\log 5}</mrow>
+      </md>
+      <p>
+        This is an exact final answer, and you can put it in your calculator to get <m>x \approx -1.79</m>.
+      </p>
+    </example>
+    
+    <p>
+      In general, when the variable is in the exponent, taking the log of both sides <q>pulls down</q> the variable from the exponent to the <q>ground level</q> of the equation, allowing you to solve for it, using algebra.
+    </p>
+    <md>
+      <mrow>\boxed{\text{If the variable is in the exponent, take logs of both sides}}</mrow>
+    </md>
+    
+    <remark>
+      <p>
+        The standard convention is to take the common logarithm (base 10) of both sides, because that is included on calculators. However, in principle, you could use any base that is convenient (if your calculator allows you to input logarithms of any base), and you will still get the same correct answer.
+      </p>
+    </remark>
+    
+    <remark>
+      <p>
+        When solving equations by taking logs of both sides, there are often multiple ways to write the final answer, because there are multiple ways to do the algebra to isolate for <m>x</m> (which are all equivalent and correct). If you're unsure if your answer is equivalent to a different-looking answer, you can check by typing both into your calculator and seeing if the decimal number is the same.
+      </p>
+    </remark>
+  </introduction>
+  
+  <subsection xml:id="subsec-exponential-equations-with-logs-examples">
+    <title>Examples</title>
     <project>
       <title>Basic Equations</title>
       <introduction>
-        <p>Solve each equation. Give answers in exact form and rounded to 2 decimal places.</p>
+        <p>
+          Solve each equation. Give answers in exact form and rounded to 2 decimal places.
+        </p>
       </introduction>
-      <task><statement><p><m>3=7^x</m></p></statement><answer><p><m>x=\frac{\log 3}{\log 7}\approx 0.56</m></p></answer></task>
-      <task><statement><p><m>6^{x-3}=3</m></p></statement><answer><p><m>x=\frac{3\log{6} + \log 3}{\log 6}\approx 3.61</m></p></answer></task>
-      <task><statement><p><m>2^x=8</m></p></statement><answer><p><m>x=3</m></p></answer></task>
-      <task><statement><p><m>3^x=11</m></p></statement><answer><p><m>x=\frac{\log 11}{\log 3}\approx 2.18</m></p></answer></task>
-      <task><statement><p><m>4^{x+3} = 7</m></p></statement><answer><p><m>x=\frac{\log 7 - 3\log{4}}{\log 4}\approx -1.60</m></p></answer></task>
-      <task><statement><p><m>9^x = 51</m></p></statement><answer><p><m>x=\frac{\log 51}{\log 9}\approx 1.79</m></p></answer></task>
-      <task><statement><p><m>3^{x/4}=42</m></p></statement><answer><p><m>x=\frac{4\log 42}{\log 3}\approx 13.61</m></p></answer></task>
-      <task><statement><p><m>13^{x+2}=7</m></p></statement><answer><p><m>x=\frac{\log 7-2\log 13}{\log 13}\approx -1.24</m></p></answer></task>
-      <task><statement><p><m>5^x=8</m></p></statement><answer><p><m>x=\frac{\log 8}{\log 5}\approx 1.29</m></p></answer></task>
-      <task><statement><p><m>4^{x+3} = 260</m></p></statement><answer><p><m>x=\frac{\log 260 - 3 \log{4}}{\log 4}\approx 1.01</m></p></answer></task>
+      <task>
+        <statement><m>7^x=3</m></statement>
+        <answer><m>x=\frac{\log 3}{\log 7}\approx 0.56</m></answer>
+      </task>
+      <task>
+        <statement><m>6^{x-3}=3</m></statement>
+        <answer><m>x=\frac{3\log{6} + \log 3}{\log 6}\approx 3.61</m></answer>
+      </task>
+      <task>
+        <statement><m>2^x=8</m></statement>
+        <answer><m>x=3</m></answer>
+      </task>
+      <task>
+        <statement><m>3^x=11</m></statement>
+        <answer><m>x=\frac{\log 11}{\log 3}\approx 2.18</m></answer>
+      </task>
+      <task>
+        <statement><m>9^x = 51</m></statement>
+        <answer><m>x=\frac{\log 51}{\log 9}\approx 1.79</m></answer>
+      </task>
+      <task>
+        <statement><m>3^{x/4}=42</m></statement>
+        <answer><m>x=\frac{4\log 42}{\log 3}\approx 13.61</m></answer>
+      </task>
+      <task>
+        <statement><m>13^{x+2}=7</m></statement>
+        <answer><m>x=\frac{\log 7-2\log 13}{\log 13}\approx -1.24</m></answer>
+      </task>
+      <task>
+        <statement><m>5^x=8</m></statement>
+        <answer><m>x=\frac{\log 8}{\log 5}\approx 1.29</m></answer>
+      </task>
+      <task>
+        <statement><m>4^{x+3} = 260</m></statement>
+        <answer><m>x=\frac{\log 260 - 3 \log{4}}{\log 4}\approx 1.01</m></answer>
+      </task>
+      <task>
+        <statement><m>2^{\frac{x}{3}}=11</m></statement>
+        <answer><m>x=\frac{3\log11}{\log2}\approx 10.38</m></answer>
+      </task>
+      <task>
+        <statement><m>6^{x-1}=271</m></statement>
+        <answer><m>x=\frac{\log6+\log271}{\log6}\approx 4.13</m></answer>
+      </task>
+      <task>
+        <statement><m>4^{2x+1}=54</m></statement>
+        <answer><m>x=\frac{\log54-\log4}{2\log4}\approx 0.94</m></answer>
+      </task>
+      <task>
+        <statement><m>5^{x-3}=1700</m></statement>
+        <answer><m>x=\frac{3\log5+\log1700}{\log5}\approx 7.62</m></answer>
+      </task>
+    </project>
+    
+    <remark>
+      <p>
+        For your final answer, there is no need to combine logs together (it is not considered more <q>simple</q> or something like that).
+      </p>
+    </remark>
+    
+    <p>
+      Sometimes, you need to isolate the exponential first, and then take logs of both sides.
+    </p>
+    
+    <project>
+      <title>Isolating the Exponential</title>
+      <introduction>
+        <p>
+          Solve each equation. Give answers in exact form and rounded to 2 decimal places.
+        </p>
+      </introduction>
+      <task>
+        <statement><m>4(7^x)=92</m></statement>
+        <answer><m>x=\frac{\log23}{\log7}\approx 1.61</m></answer>
+      </task>
+      <task>
+        <statement><m>8(3^{2x})=568</m></statement>
+        <answer><m>x=\frac{\log71}{2\log3}\approx 1.94</m></answer>
+      </task>
+      <task>
+        <statement><m>5+2\cdot3^{4x}=10</m></statement>
+        <answer><m>x=\frac{\log{\brac{\frac{5}{2}}}}{4\log{3}} \approx 0.21</m></answer>
+      </task>
+    </project>
+    
+    <example>
+      <title>Variables in Both Exponents</title>
+      <p>
+        Consider the equation <m>4^{2x-3}=7^{x+1}</m>. Again, the variable is in the exponent, so we'll take the log of both sides,
+      </p>
+      <md>
+        <mrow>\log\brac{4^{2x-3}} \amp=\log\brac{7^{x+1}} \amp\amp \text{taking the log of both sides}</mrow>
+      </md>
+      <p>
+        Bringing the exponents to the front,
+      </p>
+      <md>
+        <mrow>(2x-3)\log 4\amp=(x+1)\log 7 \amp\amp \text{using the power law}</mrow>
+      </md>
+      <p>
+        Next, expand by distributing,
+      </p>
+      <md>
+        <mrow>2x\log 4-3\log 4\amp=x\log 7+\log 7</mrow>
+      </md>
+      <p>
+        Then, to isolate for <m>x</m>, collect all terms involving <m>x</m> on one side, and move all terms without <m>x</m> to the other side
+      </p>
+      <md>
+        <mrow>2x\log 4-x\log 7\amp=\log 7+3\log 4</mrow>
+      </md>
+      <p>
+        On the left side, there are 2 terms with <m>x</m> in them (as a factor), which means we can factor out <m>x</m>,
+      </p>
+      <md>
+        <mrow>x\brac{2\log 4-\log 7}\amp=\log 7+3\log 4</mrow>
+      </md>
+      <p>
+        Finally, divide both sides by <m>2\log 4-\log 7</m>,
+      </p>
+      <md>
+        <mrow>x\amp=\frac{\log 7+3\log 4}{2\log 4-\log 7}</mrow>
+      </md>
+      <p>
+        This is an exact final answer, and you can put it in your calculator to get <m>x\approx 7.38</m>.
+      </p>
+    </example>
+    
+    <project>
+      <title>Variables in Both Exponents Practice</title>
+      <introduction>
+        <p>
+          Solve each equation. Give answers in exact form and rounded to 2 decimal places.
+        </p>
+      </introduction>
+      <task>
+        <statement><m>3^x=5^{x+1}</m></statement>
+        <answer><m>x=\frac{\log 5}{\log 3-\log 5}\approx -3.15</m></answer>
+      </task>
+      <task>
+        <statement><m>5^{x+2} = 3^{2x-1}</m></statement>
+        <answer><m>x=\frac{2\log 5+\log 3}{2\log 3-\log 5}\approx 7.35</m></answer>
+      </task>
+      <task>
+        <statement><m>7^x=8^{x+1}</m></statement>
+        <answer><m>x=\frac{\log 8}{\log 7-\log 8}\approx -15.57</m></answer>
+      </task>
+      <task>
+        <statement><m>2^{3x} = 5^{x-1}</m></statement>
+        <answer><m>x=\frac{\log 5}{\log 5-3\log 2}\approx -3.42</m></answer>
+      </task>
+      <task>
+        <statement><m>7^{2x-1} = 17^x</m></statement>
+        <answer><m>x=\frac{\log 7}{2\log 7-\log 17}\approx 1.84</m></answer>
+      </task>
+      <task>
+        <statement><m>4^{2x-1} = 3^{x+2}</m></statement>
+        <answer><m>x=\frac{\log 4+2\log 3}{2\log 4-\log 3}\approx 2.14</m></answer>
+      </task>
+      <task>
+        <statement><m>12^{x-1}=2\cdot 6^x</m></statement>
+        <answer><m>x=\frac{\log{2}+\log{12}}{\log{12}-\log{6}}\approx 4.58</m></answer>
+      </task>
+      <task>
+        <statement><m>6^{3x+1}=8^{x+3}</m></statement>
+        <answer><m>x=\frac{3\log8-\log6}{3\log6-\log8}\approx 1.35</m></answer>
+      </task>
+      <task>
+        <statement><m>7^{2x}=2^{x+3}</m></statement>
+        <answer><m>x=\frac{3\log2}{2\log7-\log2}\approx 0.65</m></answer>
+      </task>
+      <task>
+        <statement><m>1.6^{x-4}=5^{3x}</m></statement>
+        <answer><m>x=\frac{4\log1.6}{\log1.6-3\log5}\approx -0.43</m></answer>
+      </task>
+      <task>
+        <statement><m>9^{2x-1}=71^{x+2}</m></statement>
+        <answer><m>x=\frac{\log9+2\log71}{2\log9-\log71}\approx 81.37</m></answer>
+      </task>
+      <task>
+        <statement><m>7^{x+1}=4^{2x-1}</m></statement>
+        <answer><m>x=\frac{\log4+\log7}{2\log4-\log7}\approx 4.03</m></answer>
+      </task>
+      <task>
+        <statement><m>12^{x-2}=3^{2x+1}</m></statement>
+        <answer><m>x=\frac{2\log12+\log3}{\log12-2\log3}\approx 21.09</m></answer>
+      </task>
+      <task>
+        <statement><m>5^{x-2} = 4^{2x+3}</m></statement>
+        <answer><m>x=\frac{2\log 5+3\log 4}{\log 5-2\log 4}\approx -6.34</m></answer>
+      </task>
     </project>
     
     <project>
-      <title>Equations with Different Bases</title>
+      <title>Mixed Exponential Equations</title>
       <introduction>
-        <p>Solve each equation. Give answers in exact form and rounded to 2 decimal places.</p>
+        <p>
+          Solve each equation. Give answers in exact form and rounded to 2 decimal places.
+        </p>
       </introduction>
-      <task><statement><p><m>3^x=5^{x+1}</m></p></statement><answer><p><m>x=\frac{\log 5}{\log 3-\log 5}\approx -3.15</m></p></answer></task>
-      <task><statement><p><m>5^{x+2} = 3^{2x-1}</m></p></statement><answer><p><m>x=\frac{2\log 5+\log 3}{2\log 3-\log 5}\approx 7.35</m></p></answer></task>
-      <task><statement><p><m>7^x=8^{x+1}</m></p></statement><answer><p><m>x=\frac{\log 8}{\log 7-\log 8}\approx -15.57</m></p></answer></task>
-      <task><statement><p><m>2^{3x} = 5^{x-1}</m></p></statement><answer><p><m>x=\frac{\log 5}{\log 5-3\log 2}\approx -3.42</m></p></answer></task>
-      <task><statement><p><m>7^{2x-1} = 17^x</m></p></statement><answer><p><m>x=\frac{\log 7}{2\log 7-\log 17}\approx 1.84</m></p></answer></task>
-      <task><statement><p><m>4^{2x-1} = 3^{x+2}</m></p></statement><answer><p><m>x=\frac{\log 4+2\log 3}{2\log 4-\log 3}\approx 2.14</m></p></answer></task>
-      <task><statement><p><m>12^{x-1}=2\cdot 6^x</m></p></statement><answer><p><m>x=\frac{\log{2}+\log{12}}{\log{12}-\log{6}}\approx 4.58</m></p></answer></task>
-    </project>
-    
-    <project>
-      <title>Complex Exponential Equations</title>
-      <introduction>
-        <p>Solve each equation. Give answers in exact form and rounded to 2 decimal places.</p>
-      </introduction>
-      <task><statement><p><m>5^{x-2} = 4^{2x + 3}</m></p></statement><answer><p><m>x=\frac{2\log 5+3\log 4}{\log 5-2\log 4}\approx -6.34</m></p></answer></task>
-      <task><statement><p><m>3^{2x+7} = 2^{x-2}</m></p></statement><answer><p><m>x=\frac{-7\log 3-2\log 2}{2\log 3-\log 2}\approx -6.03</m></p></answer></task>
-      <task><statement><p><m>2\cdot 6^x = 5^{x+1}</m></p></statement><answer><p><m>x=\frac{\log 5-\log 2}{\log 6-\log 5}\approx 5.03</m></p></answer></task>
-      <task><statement><p><m>3^{x+1} = 5^{x-2}</m></p></statement><answer><p><m>x=\frac{-2\log 5-\log 3}{\log 3-\log 5}\approx 8.45</m></p></answer></task>
-      <task><statement><p><m>6^{x-5}=2\cdot 7^x</m></p></statement><answer><p><m>x=\frac{\log 2+5\log 6}{\log 6-\log 7}\approx -62.61</m></p></answer></task>
-      <task><statement><p><m>3\cdot 2^{2x}=5\cdot 7^{x+1}</m></p></statement><answer><p><m>x=\frac{\log{7}+\log{5}-\log{3}}{2\log 2-\log 7}\approx -4.39</m></p></answer></task>
-      <task><statement><p><m>3\cdot 4^{x+1}=5^{2x-3}</m></p></statement><answer><p><m>x=\frac{-3\log 5-\log 4-\log 3}{\log 4-2\log 5}\approx 3.99</m></p></answer></task>
-      <task><statement><p><m>3\cdot 5^{x+2}=8^{2x}</m></p></statement><answer><p><m>x=\frac{\log 75}{2\log 8-\log 5}\approx 1.69</m></p></answer></task>
-      <task><statement><p><m>2\cdot 7^{3x-1}=\brac{\frac{1}{3}}^{5x}</m></p></statement><answer><p><m>x=\frac{\log 7-\log 2}{3\log 7-5\log\brac{\frac{1}{3}}}\approx 0.11</m></p></answer></task>
-      <task><statement><p><m>4^x\cdot 6^{x-1}=9^{x+5}</m></p></statement><answer><p><m>x=\frac{\log 2+11\log 3}{3\log 2-\log 3}\approx 13.03</m></p></answer></task>
-      <task><statement><p><m>3\cdot 2^{x-2} = 6^x</m></p></statement><answer><p><m>x=\frac{\log 4-\log 3}{\log 2-\log 6}\approx -0.26</m></p></answer></task>
-      <task><statement><p><m>3^{x-1} = 9\cdot 10^x</m></p></statement><answer><p><m>x=\frac{\log 3 + \log{9}}{\log{3}-1}\approx -2.74</m></p></answer></task>
-      <task><statement><p><m>7^{x-1} = 2\cdot 5^{1-2x}</m></p></statement><answer><p><m>x=\frac{\log 2+\log 5+\log 7}{\log 7+2\log 5}\approx 0.82</m></p></answer></task>
+      <task>
+        <statement><m>3^{2x+7} = 2^{x-2}</m></statement>
+        <answer><m>x=\frac{-7\log 3-2\log 2}{2\log 3-\log 2}\approx -6.03</m></answer>
+      </task>
+      <task>
+        <statement><m>2\cdot 6^x = 5^{x+1}</m></statement>
+        <answer><m>x=\frac{\log 5-\log 2}{\log 6-\log 5}\approx 5.03</m></answer>
+      </task>
+      <task>
+        <statement><m>3^{x+1} = 5^{x-2}</m></statement>
+        <answer><m>x=\frac{-2\log 5-\log 3}{\log 3-\log 5}\approx 8.45</m></answer>
+      </task>
+      <task>
+        <statement><m>6^{x-5}=2\cdot 7^x</m></statement>
+        <answer><m>x=\frac{\log 2+5\log 6}{\log 6-\log 7}\approx -62.61</m></answer>
+      </task>
+      <task>
+        <statement><m>3\cdot 2^{2x}=5\cdot 7^{x+1}</m></statement>
+        <answer><m>x=\frac{\log{7}+\log{5}-\log{3}}{2\log 2-\log 7}\approx -4.39</m></answer>
+      </task>
+      <task>
+        <statement><m>3\cdot 4^{x+1}=5^{2x-3}</m></statement>
+        <answer><m>x=\frac{-3\log 5-\log 4-\log 3}{\log 4-2\log 5}\approx 3.99</m></answer>
+      </task>
+      <task>
+        <statement><m>3\cdot 5^{x+2}=8^{2x}</m></statement>
+        <answer><m>x=\frac{-\log3-2\log5}{\log 5-\log8}\approx 1.69</m></answer>
+      </task>
+      <task>
+        <statement><m>2\cdot 7^{3x-1}=\brac{\frac{1}{3}}^{5x}</m></statement>
+        <answer><m>x=\frac{\log 7-\log 2}{3\log 7-5\log\brac{\frac{1}{3}}}\approx 0.11</m></answer>
+      </task>
+      <task>
+        <statement><m>4^x\cdot 6^{x-1}=9^{x+5}</m></statement>
+        <answer><m>x=\frac{\log 6+5\log 9}{\log 4+\log6-\log9} \approx 13.03</m></answer>
+      </task>
+      <task>
+        <statement><m>3\cdot 2^{x-2} = 6^x</m></statement>
+        <answer><m>x=\frac{2\log 2-\log 3}{\log 2-\log 6}\approx -0.26</m></answer>
+      </task>
+      <task>
+        <statement><m>4(7^{x+2})=9^{2x-3}</m></statement>
+        <answer><m>x=\frac{3\log9+2\log7+\log4}{2\log9-\log7}\approx 4.85</m></answer>
+      </task>
+      <task>
+        <statement><m>3^{x-1} = 9\cdot 10^x</m></statement>
+        <answer><m>x=\frac{\log 3 + \log{9}}{\log{3}-1}\approx -2.74</m></answer>
+      </task>
+      <task>
+        <statement><m>7^{x-1} = 2\cdot 5^{1-2x}</m></statement>
+        <answer><m>x=\frac{\log 2+\log 5+\log 7}{\log 7+2\log 5}\approx 0.82</m></answer>
+      </task>
     </project>
   </subsection>
   
-  <subsection xml:id="subsection-exp-eq-logs-quadratic-form">
+  <subsection xml:id="subsection-solving-quadratic-form">
     <title>Solving Exponential Equations in Quadratic Form</title>
     
     <project>
       <title>Quadratic Form Practice</title>
       <introduction>
-        <p>Solve each equation.</p>
+        <p>
+          Solve each equation.
+        </p>
       </introduction>
-      <task><statement><p><m>2^{2x}-7\cdot2^x+12=0</m></p></statement><answer><p><m>x=\frac{\log{3}}{\log{2}}, 2</m></p></answer></task>
-      <task><statement><p><m>2 \cdot 3^{2x} - 11 \cdot 3^x + 5 = 0</m></p></statement><answer><p><m>x = \frac{\log{5}}{\log{3}}, -\frac{\log{2}}{\log{3}}</m></p></answer></task>
-      <task><statement><p><m>2^{2x+1} + 5 \cdot 2^x - 3 = 0</m></p></statement><answer><p><m>x=-1</m></p></answer></task>
-      <task><statement><p><m>100^x + 10^{x+1} - 8 = 0</m></p></statement><hint><p>quadratic formula</p></hint><answer><p><m>x = \log{(-5+\sqrt{33})}</m></p></answer></task>
-      <task><statement><p><m>36^x - 16 \cdot 6^x = -64</m></p></statement><answer><p><m>x = \frac{\log{8}}{\log{6}}</m></p></answer></task>
-      <task><statement><p><m>2 \cdot 49^x + 6 \cdot 7^x + 9 = 0</m></p></statement><answer><p>no solution</p></answer></task>
+      <task>
+        <statement><m>2^{2x}-7\cdot2^x+12=0</m></statement>
+        <answer><m>x=\frac{\log{3}}{\log{2}}, 2</m></answer>
+      </task>
+      <task>
+        <statement><m>2 \cdot 3^{2x} - 11 \cdot 3^x + 5 = 0</m></statement>
+        <answer><m>x = \frac{\log{5}}{\log{3}}, -\frac{\log{2}}{\log{3}}</m></answer>
+      </task>
+      <task>
+        <statement><m>2^{2x+1} + 5 \cdot 2^x - 3 = 0</m></statement>
+        <hint><p>split <m>2^{2x+1} = 2^{2x} \cdot 2</m></p></hint>
+        <answer><m>x=-1</m></answer>
+      </task>
+      <task>
+        <statement><m>100^x + 10^{x+1} - 8 = 0</m></statement>
+        <hint><p>quadratic formula</p></hint>
+        <answer><m>x = \log{(-5+\sqrt{33})}</m></answer>
+      </task>
+      <task>
+        <statement><m>36^x - 16 \cdot 6^x = -64</m></statement>
+        <answer><m>x = \frac{\log{8}}{\log{6}}</m></answer>
+      </task>
+      <task>
+        <statement><m>2 \cdot 49^x + 6 \cdot 7^x + 9 = 0</m></statement>
+        <answer>no solution</answer>
+      </task>
     </project>
   </subsection>
   
-  <subsection xml:id="subsection-exp-eq-logs-advanced-examples">
+  <subsection xml:id="subsection-exp-eqs-with-logs-advanced-examples">
     <title>Advanced Examples</title>
     
-    <p>Need to peel off the extra factors.</p>
+    <p>
+      Need to peel off the extra factors.
+    </p>
     
     <project>
-      <title>Isolating Variable Factors</title>
+      <title>Peeling Off Extra Factors</title>
       <introduction>
-        <p>Solve each equation.</p>
+        <p>
+          Solve each equation.
+        </p>
       </introduction>
-      <task><statement><p><m>12 + 5 \cdot 2^{x+2} - 6 \cdot 2^{x-1} = 40</m></p></statement><answer><p><m>x = \frac{\log\brac{\frac{28}{17}}}{\log{2}} \approx 0.72</m></p></answer></task>
-      <task><statement><p><m>3^{2x+1}+20\cdot3^x=21</m></p></statement><answer><p><m>x=\log_3{\brac{\frac{-10+\sqrt{163}}{3}}} \approx -0.07</m></p></answer></task>
-      <task><statement><p><m>3^{x+3}+3^{x+2}=1458</m></p></statement><answer><p><m>x=\frac{\log{\brac{\frac{729}{2}}}-2\log{3}}{\log{3}} \approx 3.37</m></p></answer></task>
+      <task>
+        <statement><m>12 + 5 \cdot 2^{x+2} - 6 \cdot 2^{x-1} = 40</m></statement>
+        <hint><p><m>2^{x+2}</m> and <m>2^{x-1}</m> differ by 3 factors of 2</p></hint>
+        <answer><m>x = \frac{\log\brac{\frac{28}{17}}}{\log{2}} \approx 0.72</m></answer>
+      </task>
+      <task>
+        <statement><m>3^{2x+1}+20\cdot3^x=21</m></statement>
+        <hint><p><m>3^{2x+1} = 3^{2x} \cdot 3 = 3 (3^x)^2</m>, use quadratic form</p></hint>
+        <answer><m>x=\log_3{\brac{\frac{-10+\sqrt{163}}{3}}} \approx -0.07</m></answer>
+      </task>
+      <task>
+        <statement><m>3^{x+3}+3^{x+2}=1458</m></statement>
+        <answer><m>x=\frac{\log{\brac{\frac{729}{2}}}-2\log{3}}{\log{3}} \approx 3.37</m></answer>
+      </task>
     </project>
   </subsection>
   
