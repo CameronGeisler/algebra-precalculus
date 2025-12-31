@@ -4,249 +4,820 @@
   <title>Intro to Exponential Functions</title>
   
   <introduction>
-    <example xml:id="ex-graph-2-x">
-      <title>Graph of f(x) = 2^x</title>
+    <example>
+      <title>Graph of <m>f(x) = 2^x</m></title>
       <p>
-        Consider the graph of <m>f(x) = 2^x</m>. First, create a table of values, using <m>x</m>-values of <m>-2, -1, 0, 1</m>, and <m>2</m>, and plugging them into the equation.
+        Consider the graph of <m>f(x) = 2^x</m>. First, create a table of values, using <m>x</m>-values of <m>-2, -1, 0, 1</m>, and 2, and plugging them into the equation.
       </p>
       <md>
-        <mrow>\begin{array}{c|l} x \amp f(x) \\ \hline -2 \amp 2^{-2} = \frac{1}{4} = 0.25 \\[4pt] -1 \amp 2^{-1} = \frac{1}{2} = 0.5 \\[4pt] 0 \amp 2^0 = 1 \\ 1 \amp 2^1 = 2 \\ 2 \amp 2^2 = 4 \end{array}</mrow>
+        <mrow>
+          \begin{array}{c|l}
+          x \amp f(x) \\
+          \hline
+          -2 \amp 2^{-2} = \frac{1}{4} = 0.25 \\[4pt]
+          -1 \amp 2^{-1} = \frac{1}{2} = 0.5 \\[4pt]
+          0 \amp 2^0 = 1 \\
+          1 \amp 2^1 = 2 \\
+          2 \amp 2^2 = 4
+          \end{array}
+        </mrow>
       </md>
       <p>
-        Then, connect these points with a smooth curve. Here is a graph: <url href="https://www.desmos.com/calculator/ckryy4hneu">Graph of <m>f(x)=2^x</m></url>. Observe the <m>y</m>-values of <m>0.25, 0.5, 1, 2, 4</m>. Notice that each time <m>x</m> increases by 1, the value of <m>y</m> is multiplied by 2.
+        Then, connect these points with a smooth curve. Here is a graph: <url href="https://www.desmos.com/calculator/ckryy4hneu">Graph of <m>f(x)=2^x</m></url>. Observe the <m>y</m>-values of <m>0.25, 0.5, 1, 2, 4</m>. Notice that each time <m>x</m> increases by 1, <m>y</m> is multiplied by 2.
       </p>
-      <image width="50%">
-        <latex-image>
-          \begin{tikzpicture}[>=stealth, baseline=(T.base)]
-          \node[inner sep=0pt] (T) {$
-            \renewcommand{\arraystretch}{1.1}
-            \begin{array}{c|c}
-            x \amp f(x) \\
-            \hline
-            -2 \amp 0.25 \\
-            -1 \amp 0.5 \\
-            0 \amp 1 \\
-            1 \amp 2 \\
-            2 \amp 4
-            \end{array}
-            $};
-            
-            % row centers along the right edge (6 rows total: header + 5 data rows)
-            \pgfmathsetmacro{\tA}{1.5/6}
-            \pgfmathsetmacro{\tB}{2.5/6}
-            \pgfmathsetmacro{\tC}{3.5/6}
-            \pgfmathsetmacro{\tD}{4.5/6}
-            \pgfmathsetmacro{\tE}{5.5/6}
-            
-            \coordinate (rA) at ($(T.north east)!\tA!(T.south east)$);
-            \coordinate (rB) at ($(T.north east)!\tB!(T.south east)$);
-            \coordinate (rC) at ($(T.north east)!\tC!(T.south east)$);
-            \coordinate (rD) at ($(T.north east)!\tD!(T.south east)$);
-            \coordinate (rE) at ($(T.north east)!\tE!(T.south east)$);
-            
-            \foreach \a/\b in {rA/rB,rB/rC,rC/rD,rD/rE}{
-              \draw[->]
-              (\a) to[out=0,in=0,looseness=1.5]
-              node[midway,right]{$\times 2$}
-              (\b);
-            }
-            \end{tikzpicture}
-          </latex-image>
-        </image>
-      </example>
-      
-      <example xml:id="ex-graph-3-x">
-        <title>Graph of f(x) = 3^x</title>
-        <p>
-          Consider the graph of <m>f(x) = 3^x</m>. First, create a table of values,
-        </p>
-        <md>
-          <mrow>\begin{array}{c|c} x \amp f(x) \\ \hline -2 \amp 3^{-2} = \frac{1}{9} \approx 0.11 \\[4pt] -1 \amp 3^{-1} = \frac{1}{3} \approx 0.33 \\[4pt] 0 \amp 3^0 = 1 \\ 1 \amp 3^1 = 3 \\ 2 \amp 3^2 = 9 \end{array}</mrow>
-        </md>
-        <p>
-          Here is a graph: <url href="https://www.desmos.com/calculator/1yzfw670rx">Graph of <m>f(x)=3^x</m></url>. Notice that it grows faster than <m>2^x</m>, because each time <m>x</m> increases by 1, <m>y</m> multiplies by 3 (instead of 2).
-        </p>
-      </example>
-      
-      <example xml:id="ex-graph-half-x">
-        <title>Graph of f(x) = (1/2)^x</title>
-        <p>
-          Consider the graph of <m>f(x) = \brac{\frac{1}{2}}^x</m>. Creating a table of values,
-        </p>
-        <md>
-          <mrow>\begin{array}{c|l} x \amp f(x) \\ \hline -2 \amp \brac{\frac{1}{2}}^{-2} = 4 \\ -1 \amp \brac{\frac{1}{2}}^{-1} = 2 \\ 0 \amp \brac{\frac{1}{2}}^0 = 1 \\ 1 \amp \brac{\frac{1}{2}}^1 = \frac{1}{2} = 0.5 \\ 2 \amp \brac{\frac{1}{2}}^2 = \frac{1}{4} = 0.25 \end{array}</mrow>
-        </md>
-        <p>
-          Here is a graph: <url href="https://www.desmos.com/calculator/liceudb2ol">Graph of <m>f(x)=\brac{\frac{1}{2}}^x</m></url>. Here, each time <m>x</m> increases by 1, <m>y</m> is multiplied by <m>\frac{1}{2}</m>, which means it gets smaller.
-        </p>
-      </example>
-      
-      <example xml:id="ex-graph-three-fourths-x">
-        <title>Graph of f(x) = (3/4)^x</title>
-        <p>
-          Consider the graph of <m>f(x) = \brac{\frac{3}{4}}^x</m>. Creating a table of values,
-        </p>
-        <md>
-          <mrow>\begin{array}{c|l} x \amp f(x) \\ \hline -2 \amp \brac{\frac{3}{4}}^{-2} = \frac{16}{9} \approx 1.78 \\ -1 \amp \brac{\frac{3}{4}}^{-1} = \frac{4}{3} \approx 1.33 \\ 0 \amp \brac{\frac{3}{4}}^0 = 1 \\ 1 \amp \brac{\frac{3}{4}}^1 = \frac{3}{4} = 0.75 \\ 2 \amp \brac{\frac{3}{4}}^2 = \frac{9}{16} \approx 0.56 \end{array}</mrow>
-        </md>
-        <p>
-          Here is a graph: <url href="https://www.desmos.com/calculator/af8qc50vbe">Graph of <m>f(x)=\brac{\frac{3}{4}}^x</m></url>. This graph also decreases, but more slowly than <m>\brac{\frac{1}{2}}^x</m>.
-        </p>
-      </example>
-      
-      <example xml:id="ex-compare-four-functions">
-        <title>Comparing Exponential Functions</title>
-        <p>
-          Here are all of the 4 functions from the previous examples, graphed together: <url href="https://www.desmos.com/calculator/rgv9ryb5ig">4 Examples of Exponential Functions</url>.
-        </p>
-        <ul>
-          <li>What is different about them?</li>
-          <li>What is similar or the same?</li>
-        </ul>
-      </example>
-      
-      <p>
-        In general, for a function like <m>f(x)=b^x</m>, each time <m>x</m> increases by 1, the output is <em>multiplied</em> by the base <m>b</m>.
-      </p>
-      <ul>
-        <li>If <m>b \gt 1</m>, the <m>y</m>-values <em>increase</em>.</li>
-        <li>If <m>b \lt 1</m>, the <m>y</m>-values <em>decrease</em>.</li>
-      </ul>
-      <p>
-        Also,
-      </p>
-      <ul>
-        <li>The <m>y</m>-intercept is always <m>(0,1)</m>, because when <m>x=0</m>, the <m>y</m>-value is <m>b^0 = 1</m>.</li>
-        <li>There are no <m>x</m>-intercepts, because <m>b^x</m> is never equal to 0.</li>
-        <li>The domain is all real numbers, because you can raise a base to any exponent you want, positive or negative.</li>
-        <li>The range is all positive numbers, or <m>y \gt 0</m>, because raising a number <m>b</m> to the exponent <m>x</m> always gives a positive output (even if <m>x</m> is negative).</li>
-      </ul>
-      <p>
-        Also, notice that all of the functions <q>flatten out</q> around the <m>x</m>-axis. We call this a <em>horizontal asymptote</em>. So, the graph has a horizontal asymptote of the <m>x</m>-axis, or the line <m>y=0</m>.
-      </p>
-    </introduction>
-    
-    <subsection xml:id="sub-exponential-functions">
-      <title>Exponential Functions</title>
-      <definition xml:id="def-exponential-function">
-        <p>
-          An <term>exponential function</term> with base <m>b</m> is the function given by,
-          <md>
-            <mrow>\boxed{f(x) = b^x}</mrow>
-          </md>
-          where <m>b \gt 0</m> and <m>b \neq 1</m>.
-        </p>
-      </definition>
-      
-      <example xml:id="ex-list-exponential">
-        <title>Examples of Exponential Functions</title>
-        <p>
-          Some exponential functions include:
-        </p>
-        <ul>
-          <li><m>f(x) = 2^x</m></li>
-          <li><m>f(x) = 5^x</m></li>
-          <li><m>f(x) = 1.13^x</m></li>
-          <li><m>f(x) = \brac{\frac{1}{2}}^x</m></li>
-          <li><m>f(x) = 0.78^x</m></li>
-        </ul>
-      </example>
-      
-      <example xml:id="ex-non-examples-exponential">
-        <title>Non-examples</title>
-        <p>
-          Some functions that are not exponential functions include:
-        </p>
-        <ul>
-          <li><m>f(x) = x^2</m> (<m>x</m> is not an exponent, this is a polynomial function)</li>
-          <li><m>f(x) = (-2)^x</m> (the base <m>b</m> must be positive)</li>
-          <li><m>f(x) = 1^x</m> (the base <m>b</m> cannot be <m>1</m>)</li>
-          <li><m>f(x) = x^x</m> (the base is not a constant)</li>
-          <li>
-            <p>
-              In particular, note that a power function, of the form <m>f(x) = x^n</m>, is not an exponential function.
-              <ul>
-                <li>With a power function, the base is the variable <m>x</m>, and the exponent is a constant <m>n</m>.</li>
-                <li>For exponential functions, the base is a constant <m>b</m>, and the exponent is a variable <m>x</m>.</li>
-              </ul>
-            </p>
-          </li>
-        </ul>
-      </example>
-      
-      <p>
-        For the exponential function <m>f(x)=b^x</m>,
-      </p>
-      
-      <ul>
-        <li><m>y</m>-intercept is <m>(0,1)</m>.</li>
-        <li>No <m>x</m>-intercepts.</li>
-        <li>Horizontal asymptote is <m>y = 0</m>.</li>
-        <li>Domain is all real numbers, or <m>x \in \mathbb{R}</m>.</li>
-        <li>Range is all positive real numbers, or <m>y \gt 0</m>, or <m>(0,\infty)</m>.</li>
-      </ul>
-      <p>
-        Also,
-      </p>
-      <ul>
-        <li>If <m>b \gt 1</m>, then <m>f</m> is <em>increasing</em>.</li>
-        <li>If <m>0 \lt b \lt 1</m>, then <m>f</m> is <em>decreasing</em>.</li>
-      </ul>
-      
       <image width="100%">
         <latex-image>
-          \begin{tikzpicture}[>=stealth]
+          \begin{tikzpicture}[&gt;=stealth, baseline=(T.base)]
+          \node[inner sep=0pt] (T){
+            $
+            \renewcommand{\arraystretch}{1.1}
+            \begin{array}{c|c}
+            x &amp; f(x) \\
+            \hline
+            -2 &amp; 0.25 \\
+            -1 &amp; 0.5 \\
+            0  &amp; 1 \\
+            1  &amp; 2 \\
+            2  &amp; 4
+            \end{array}
+            $
+          };
           
-          % -------------------- left: y = b^x, b&gt;1 --------------------
-          \begin{scope}
-          \def\b{1.7} % slower growth
+          % row centers along the right edge (6 rows total: header + 5 data rows)
+          \pgfmathsetmacro{\tA}{1.5/6}
+          \pgfmathsetmacro{\tB}{2.5/6}
+          \pgfmathsetmacro{\tC}{3.5/6}
+          \pgfmathsetmacro{\tD}{4.5/6}
+          \pgfmathsetmacro{\tE}{5.5/6}
           
-          % axes (no tick marks)
-          \draw[&lt;-&gt;] (-2.4,0) -- (2.4,0) node[right]{$x$};
-          \draw[-&gt;] (0,-0.3) -- (0,3.5) node[above]{$y$};
+          \coordinate (rA) at ($(T.north east)!\tA!(T.south east)$);
+          \coordinate (rB) at ($(T.north east)!\tB!(T.south east)$);
+          \coordinate (rC) at ($(T.north east)!\tC!(T.south east)$);
+          \coordinate (rD) at ($(T.north east)!\tD!(T.south east)$);
+          \coordinate (rE) at ($(T.north east)!\tE!(T.south east)$);
           
-          % curve (arrows on both ends)
-          \draw[thick,&lt;-&gt;,domain=-2:2,samples=120]
-          plot (\x,{pow(\b,\x)});
-          
-          % point and labels
-          \node[above right] at (0.9,3.2) {$y=b^x,\ b&gt;1$};
-          \end{scope}
-          
-          % -------------------- right: y = b^x, 0&lt;b&lt;1 --------------------
-          \begin{scope}[xshift=7.2cm]
-          \def\b{0.6} % slower decay
-          
-          % axes (no tick marks)
-          \draw[&lt;-&gt;] (-2.4,0) -- (2.4,0) node[right]{$x$};
-          \draw[-&gt;] (0,-0.3) -- (0,3.5) node[above]{$y$};
-          
-          % curve (arrows on both ends)
-          \draw[thick,&lt;-&gt;,domain=-2:2,samples=120]
-          plot (\x,{pow(\b,\x)});
-          
-          % point and labels
-          \node[above right] at (0.9,2) {$y=b^x,\ 0&lt;b&lt;1$};
-          \end{scope}
-          
+          \foreach \a/\b in {rA/rB,rB/rC,rC/rD,rD/rE}{
+            \draw[-&gt;]
+            (\a) to[out=0,in=0,looseness=1.5]
+            node[midway,right]{$\times 2$}
+            (\b);
+          }
           \end{tikzpicture}
         </latex-image>
       </image>
-      
+    </example>
+    
+    <example>
+      <title>Graph of <m>f(x) = 3^x</m></title>
       <p>
-        Some other notes:
+        Consider the graph of <m>f(x) = 3^x</m>. First, create a table of values,
+      </p>
+      <md>
+        <mrow>
+          \begin{array}{c|c}
+          x \amp f(x) \\
+          \hline
+          -2 \amp 3^{-2} = \frac{1}{9} \approx 0.11 \\[4pt]
+          -1 \amp 3^{-1} = \frac{1}{3} \approx 0.33 \\[4pt]
+          0 \amp 3^0 = 1 \\
+          1 \amp 3^1 = 3 \\
+          2 \amp 3^2 = 9
+          \end{array}
+        </mrow>
+      </md>
+      <p>
+        Here is a graph: <url href="https://www.desmos.com/calculator/1yzfw670rx">Graph of <m>f(x)=3^x</m></url>. Notice that it grows faster than <m>2^x</m>, because each time <m>x</m> increases by 1, <m>y</m> multiplies by 3 (instead of 2).
+      </p>
+    </example>
+    
+    <example>
+      <title>Graph of <m>f(x) = \brac{\frac{1}{2}}^x</m></title>
+      <p>
+        Consider the graph of <m>f(x) = \brac{\frac{1}{2}}^x</m>. Creating a table of values,
+      </p>
+      <md>
+        <mrow>
+          \begin{array}{c|l}
+          x \amp f(x) \\
+          \hline
+          -2 \amp \brac{\frac{1}{2}}^{-2} = 4 \\
+          -1 \amp \brac{\frac{1}{2}}^{-1} = 2 \\
+          0 \amp \brac{\frac{1}{2}}^0 = 1 \\
+          1 \amp \brac{\frac{1}{2}}^1 = \frac{1}{2} = 0.5 \\
+          2 \amp \brac{\frac{1}{2}}^2 = \frac{1}{4} = 0.25
+          \end{array}
+        </mrow>
+      </md>
+      <p>
+        Here is a graph: <url href="https://www.desmos.com/calculator/liceudb2ol">Graph of <m>f(x)=\brac{\frac{1}{2}}^x</m></url>. Here, each time <m>x</m> increases by 1, <m>y</m> is multiplied by <m>\frac{1}{2}</m>, which means it gets smaller.
+      </p>
+    </example>
+    
+    <example>
+      <title>Graph of <m>f(x) = \brac{\frac{3}{4}}^x</m></title>
+      <p>
+        Consider the graph of <m>f(x) = \brac{\frac{3}{4}}^x</m>. Creating a table of values,
+      </p>
+      <md>
+        <mrow>
+          \renewcommand{\arraystretch}{1.2}
+          \begin{array}{c|l}
+          x \amp f(x) \\
+          \hline
+          -2 \amp \frac{16}{9} \approx 1.78 \\
+          -1 \amp \frac{4}{3} \approx 1.33 \\
+          0 \amp 1 \\
+          1 \amp \frac{3}{4} = 0.75 \\
+          2 \amp \frac{9}{16} \approx 0.56
+          \end{array}
+        </mrow>
+      </md>
+      <p>
+        Here is a graph: <url href="https://www.desmos.com/calculator/af8qc50vbe">Graph of <m>f(x)=\brac{\frac{3}{4}}^x</m></url>. This graph also decreases, but more slowly than <m>\brac{\frac{1}{2}}^x</m>.
+      </p>
+      <image width="100%">
+        <latex-image>
+          \begin{tikzpicture}[&gt;=stealth, baseline=(T.base)]
+          \node[inner sep=0pt] (T) {
+            $
+            \renewcommand{\arraystretch}{1.2}
+            \begin{array}{c|c}
+            x &amp; f(x) \\
+            \hline
+            -2 &amp; \frac{16}{9} \approx 1.78 \\
+            -1 &amp; \frac{4}{3} \approx 1.33 \\
+            0  &amp; 1 \\
+            1  &amp; \frac{3}{4} = 0.75 \\
+            2  &amp; \frac{9}{16} \approx 0.56
+            \end{array}
+            $
+          };
+          
+          % row centers along the right edge (6 rows total: header + 5 data rows)
+          \pgfmathsetmacro{\tA}{1.5/6}
+          \pgfmathsetmacro{\tB}{2.5/6}
+          \pgfmathsetmacro{\tC}{3.5/6}
+          \pgfmathsetmacro{\tD}{4.5/6}
+          \pgfmathsetmacro{\tE}{5.5/6}
+          
+          \coordinate (rA) at ($(T.north east)!\tA!(T.south east)$);
+          \coordinate (rB) at ($(T.north east)!\tB!(T.south east)$);
+          \coordinate (rC) at ($(T.north east)!\tC!(T.south east)$);
+          \coordinate (rD) at ($(T.north east)!\tD!(T.south east)$);
+          \coordinate (rE) at ($(T.north east)!\tE!(T.south east)$);
+          
+          \foreach \a/\b in {rA/rB,rB/rC,rC/rD,rD/rE}{
+            \draw[-&gt;]
+            (\a) to[out=0,in=0,looseness=1.5]
+            node[midway,right]{$\times \frac{3}{4}$}
+            (\b);
+          }
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+    </example>
+    
+    <example>
+      <title>Comparison of Graphs</title>
+      <p>
+        Here are all 4 functions from the previous examples, graphed together: <url href="https://www.desmos.com/calculator/rgv9ryb5ig">4 Examples of Exponential Functions</url>.
       </p>
       <ul>
-        <li>The horizontal asymptote is only approached on one side, so you might call it a <q>half</q> horizontal asymptote.</li>
+        <li>
+          <p>What is different about them?</p>
+        </li>
+        <li>
+          <p>What is similar or the same?</p>
+        </li>
       </ul>
-      
-      <p>
-        In summary,
-      </p>
-      <ol>
-        <li>Create a table of values for <m>x = -2, -1, 0, 1, 2</m>, and plot the points.</li>
-        <li>Connect the points with a smooth curve.</li>
-      </ol>
-    </subsection>
+    </example>
     
-  </section>
+    <example>
+      <title>Desmos Exploration</title>
+      <p>
+        Here is a Desmos graph that allows you to graph <m>f(x)=b^x</m>, where you can use the slider to change the value of <m>b</m>: <url href="https://www.desmos.com/calculator/jjczohyv5m">Exponential Functions</url>.
+      </p>
+      <ul>
+        <li>
+          <p>How does the graph change, based on your choice of <m>b</m>?</p>
+        </li>
+      </ul>
+    </example>
+    
+    <p>
+      In general, for a function like <m>f(x)=b^x</m>, each time <m>x</m> increases by 1, the output is <em>multiplied</em> by the base <m>b</m>.
+    </p>
+    <ul>
+      <li>
+        <p>If <m>b \gt 1</m>, the <m>y</m>-values <em>increase</em>.</p>
+      </li>
+      <li>
+        <p>If <m>b \lt 1</m>, the <m>y</m>-values <em>decrease</em>.</p>
+      </li>
+    </ul>
+    <p>
+      Also,
+    </p>
+    <ul>
+      <li>
+        <p>The <m>y</m>-intercept is always <m>(0,1)</m>, because when <m>x=0</m>, the <m>y</m>-value is <m>b^0 = 1</m>.</p>
+      </li>
+      <li>
+        <p>There are no <m>x</m>-intercepts, because <m>b^x</m> is never equal to 0.</p>
+      </li>
+      <li>
+        <p>The domain is all real numbers, because you can raise a base to any exponent you want, positive or negative.</p>
+      </li>
+      <li>
+        <p>The range is all positive numbers, or <m>y \gt 0</m>, because raising a number <m>b</m> to the exponent <m>x</m> always gives a positive output (even if <m>x</m> is negative).</p>
+      </li>
+    </ul>
+    <p>
+      Also, notice that all of the functions <q>flatten out</q> around the <m>x</m>-axis. We call this a <em>horizontal asymptote</em>. So, the graph has a horizontal asymptote of the <m>x</m>-axis, or the line <m>y=0</m>.
+    </p>
+  </introduction>
+  
+  <subsection xml:id="subsec-exponential-functions">
+    <title>Exponential Functions</title>
+    <definition>
+      <statement>
+        <p>
+          An <term>exponential function</term> with base <m>b</m> is given by,
+        </p>
+        <md>
+          <mrow>
+            \boxed{f(x) = b^x} \qquad \text{where $b \gt 0$ and $b \neq 1$}
+          </mrow>
+        </md>
+      </statement>
+    </definition>
+    
+    <example>
+      <title>Examples</title>
+      <p>
+        Some exponential functions include:
+      </p>
+      <ul>
+        <li>
+          <p><m>f(x) = 2^x</m></p>
+        </li>
+        <li>
+          <p><m>f(x) = 5^x</m></p>
+        </li>
+        <li>
+          <p><m>f(x) = 1.13^x</m></p>
+        </li>
+        <li>
+          <p><m>f(x) = \brac{\frac{1}{2}}^x</m></p>
+        </li>
+        <li>
+          <p><m>f(x) = 0.78^x</m></p>
+        </li>
+      </ul>
+    </example>
+    
+    <example>
+      <title>Non-examples</title>
+      <p>
+        <alert>Non-examples</alert>. Some functions that are not exponential functions include:
+      </p>
+      <ul>
+        <li>
+          <p><m>f(x) = x^2</m> (<m>x</m> is not an exponent, this is a polynomial function)</p>
+        </li>
+        <li>
+          <p><m>f(x) = (-2)^x</m> (the base <m>b</m> must be positive)</p>
+        </li>
+        <li>
+          <p><m>f(x) = 1^x</m> (the base <m>b</m> cannot be <m>1</m>)</p>
+        </li>
+        <li>
+          <p><m>f(x) = x^x</m> (the base is not a constant)</p>
+        </li>
+      </ul>
+      <p>
+        In particular, note that a power function, of the form <m>f(x) = x^n</m>, is not an exponential function.
+      </p>
+      <ul>
+        <li>
+          <p>With a power function, the base is the variable <m>x</m>, and the exponent is a constant <m>n</m>.</p>
+        </li>
+        <li>
+          <p>For exponential functions, the base is a constant <m>b</m>, and the exponent is a variable <m>x</m>.</p>
+        </li>
+      </ul>
+    </example>
+    
+    <p>
+      For the exponential function <m>f(x)=b^x</m>, its graph looks like an increasing or decreasing curve with a horizontal asymptote.
+    </p>
+    
+    <ul>
+      <li>
+        <p><m>y</m>-intercept is <m>(0,1)</m>.</p>
+      </li>
+      <li>
+        <p>No <m>x</m>-intercepts.</p>
+      </li>
+      <li>
+        <p>Horizontal asymptote is <m>y = 0</m>.</p>
+      </li>
+      <li>
+        <p>Domain is all real numbers, or <m>x \in \mathbb{R}</m>.</p>
+      </li>
+      <li>
+        <p>Range is all positive real numbers, or <m>y \gt 0</m>, or <m>(0,\infty)</m>.</p>
+      </li>
+    </ul>
+    <p>
+      The base <m>b</m> is called the <alert>growth factor</alert>, because it is the number you multiply to see how the function changes.
+    </p>
+    <ul>
+      <li>
+        <p>If <m>b \gt 1</m>, it is <em>increasing</em>. We call this <alert>exponential growth</alert>.</p>
+      </li>
+      <li>
+        <p>If <m>0 \lt b \lt 1</m>, it is <em>decreasing</em>. We call this <alert>exponential decay</alert>.</p>
+      </li>
+    </ul>
+    
+    <image width="100%">
+      <latex-image>
+        \begin{tikzpicture}[&gt;=stealth]
+        
+        % -------------------- left: y = b^x, b&gt;1 --------------------
+        \begin{scope}
+        \def\b{1.7} % slower growth
+        
+        % axes (no tick marks)
+        \draw[&lt;-&gt;] (-2.4,0) -- (2.4,0) node[right]{$x$};
+        \draw[-&gt;] (0,-0.3) -- (0,3.5) node[above]{$y$};
+        
+        % curve (arrows on both ends)
+        \draw[thick,&lt;-&gt;,domain=-2:2,samples=120]
+        plot (\x,{pow(\b,\x)});
+        
+        % point and labels
+        \node[above right] at (0.9,3.2) {$y=b^x,\ b&gt;1$};
+        \end{scope}
+        
+        % -------------------- right: y = b^x, 0&lt;b&lt;1 --------------------
+        \begin{scope}[xshift=7.2cm]
+        \def\b{0.6} % slower decay
+        
+        % axes (no tick marks)
+        \draw[&lt;-&gt;] (-2.4,0) -- (2.4,0) node[right]{$x$};
+        \draw[-&gt;] (0,-0.3) -- (0,3.5) node[above]{$y$};
+        
+        % curve (arrows on both ends)
+        \draw[thick,&lt;-&gt;,domain=-2:2,samples=120]
+        plot (\x,{pow(\b,\x)});
+        
+        % point and labels
+        \node[above right] at (0.9,2) {$y=b^x,\ 0&lt;b&lt;1$};
+        \end{scope}
+        
+        \end{tikzpicture}
+      </latex-image>
+    </image>
+    
+    <p>
+      In summary,
+    </p>
+    <ol>
+      <li>
+        <p>Create a table of values for <m>x = -2, -1, 0, 1, 2</m>, and plot the points.</p>
+      </li>
+      <li>
+        <p>Connect the points with a smooth curve.</p>
+      </li>
+    </ol>
+    
+    <remark>
+      <p>
+        For an exponential function, it is only approached on one side, so you might call it a <q>half</q> horizontal asymptote.
+      </p>
+      <figure>
+        <caption>An exponential graph approaches the horizontal asymptote <m>y=0</m> only on one side</caption>
+        <image width="100%">
+          <latex-image>
+            \begin{tikzpicture}
+            \begin{axis}[
+            axis lines=middle,
+            xmin=-4, xmax=3,
+            ymin=-2.5, ymax=6,
+            xlabel={$x$}, ylabel={$y$},
+            ticks=none,
+            width=10cm, height=5cm
+            ]
+            \addplot[thick, domain=-4:3, samples=200] {2*1.7^x};
+            
+            % Half horizontal asymptote (thicker and more visible)
+            \addplot[dashed, line width=2.2pt, domain=-4:0, samples=2] {0};
+            
+            \node[anchor=north] at (axis cs:-2.7,0) {$y=0$};
+            \node[anchor=east] at (axis cs:0.2,4.7) {$y=2\cdot 1.7^x$};
+            \end{axis}
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+      </figure>
+    </remark>
+    
+    <remark>
+      <p>
+        Exponential functions have no vertical asymptotes, because the domain of an exponential function is all real numbers.
+      </p>
+    </remark>
+    
+    <project>
+      <title>Which functions are exponential?</title>
+      <task>
+        <statement><m>f(x)=x^3</m></statement>
+        <answer><p>no</p></answer>
+      </task>
+      <task>
+        <statement><m>f(x)=6^x</m></statement>
+        <answer><p>yes</p></answer>
+      </task>
+      <task>
+        <statement><m>f(x)=x^{1/2}</m></statement>
+        <answer><p>no</p></answer>
+      </task>
+      <task>
+        <statement><m>f(x)=0.75^x</m></statement>
+        <answer><p>yes</p></answer>
+      </task>
+    </project>
+    
+    <project>
+      <title>Determine whether each graph represents an exponential function</title>
+      <introduction>
+        <p>If exponential, say whether it is increasing or decreasing. If not, state what type of function it is.</p>
+      </introduction>
+      <task>
+        <statement>
+          <image width="100%">
+            <latex-image>
+              \begin{tikzpicture}[scale=0.3]
+              \def\xmin{-4}\def\xmax{4}\def\ymin{-4}\def\ymax{8}
+              \draw[step=1,gray!30,very thin] (\xmin,\ymin) grid (\xmax,\ymax);
+              \draw[-&gt;] (\xmin,0) -- (\xmax+0.3,0) node[right] {$x$};
+              \draw[-&gt;] (0,\ymin) -- (0,\ymax+0.3) node[above] {$y$};
+              
+              \foreach \x in {-4,-2,2,4} \node[below] at (\x,0) {\x};
+              \foreach \y in {-4,-2,2,4,6,8} \node[left] at (0,\y) {\y};
+              
+              \clip (\xmin,\ymin) rectangle (\xmax,\ymax);
+              \draw[very thick,blue,&lt;-&gt;] (-0.6,8.8) -- (1.1,-4.8);
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </statement>
+        <answer><p>No. It is a linear function</p></answer>
+      </task>
+      <task>
+        <statement>
+          <image width="100%">
+            <latex-image>
+              \begin{tikzpicture}[scale=0.3]
+              \def\xmin{-8}\def\xmax{4}\def\ymin{-4}\def\ymax{6}
+              \draw[step=1,gray!30,very thin] (\xmin,\ymin) grid (\xmax,\ymax);
+              \draw[-&gt;] (\xmin,0) -- (\xmax+0.3,0) node[right] {$x$};
+              \draw[-&gt;] (0,\ymin) -- (0,\ymax+0.3) node[above] {$y$};
+              
+              \foreach \x in {-8,-6,-4,-2,2,4} \node[below] at (\x,0) {\x};
+              \foreach \y in {-4,-2,2,4,6} \node[left] at (0,\y) {\y};
+              
+              \clip (\xmin,\ymin) rectangle (\xmax,\ymax);
+              \draw[very thick,blue,-&gt;,domain=-8:3.2,samples=120]
+              plot (\x,{pow(2,\x)});
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </statement>
+        <answer><p>Yes. It is increasing</p></answer>
+      </task>
+      <task>
+        <statement>
+          <image width="100%">
+            <latex-image>
+              \begin{tikzpicture}[scale=0.3]
+              \def\xmin{-4}\def\xmax{4}\def\ymin{-4}\def\ymax{8}
+              \draw[step=1,gray!30,very thin] (\xmin,\ymin) grid (\xmax,\ymax);
+              \draw[-&gt;] (\xmin,0) -- (\xmax+0.3,0) node[right] {$x$};
+              \draw[-&gt;] (0,\ymin) -- (0,\ymax+0.3) node[above] {$y$};
+              
+              \foreach \x in {-4,-2,2,4} \node[below] at (\x,0) {\x};
+              \foreach \y in {-4,-2,2,4,6,8} \node[left] at (0,\y) {\y};
+              
+              \clip (\xmin,\ymin) rectangle (\xmax,\ymax);
+              \draw[very thick,blue,domain=-3.4:3.4,samples=120]
+              plot (\x,{(\x)^2-4});
+              \draw[very thick,blue,-&gt;] (-3.2,{(-3.2)^2-4}) -- (-3.5,{(-3.5)^2-4});
+              \draw[very thick,blue,-&gt;] (3.2,{(3.2)^2-4}) -- (3.5,{(3.5)^2-4});
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </statement>
+        <answer><p>No. It is a quadratic function</p></answer>
+      </task>
+      <task>
+        <statement>
+          <image width="100%">
+            <latex-image>
+              \begin{tikzpicture}[scale=0.3]
+              \def\xmin{-4}\def\xmax{4}\def\ymin{-4}\def\ymax{8}
+              \draw[step=1,gray!30,very thin] (\xmin,\ymin) grid (\xmax,\ymax);
+              \draw[-&gt;] (\xmin,0) -- (\xmax+0.3,0) node[right] {$x$};
+              \draw[-&gt;] (0,\ymin) -- (0,\ymax+0.3) node[above] {$y$};
+              
+              \foreach \x in {-4,-2,2,4} \node[below] at (\x,0) {\x};
+              \foreach \y in {-4,-2,2,4,6,8} \node[left] at (0,\y) {\y};
+              
+              \clip (\xmin,\ymin) rectangle (\xmax,\ymax);
+              \draw[very thick,blue,&lt;-&gt;,domain=-1.7:2.1,samples=120]
+              plot (\x,{(\x)^3});
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </statement>
+        <answer><p>No. It is a cubic function (or polynomial function)</p></answer>
+      </task>
+      <task>
+        <statement>
+          <image width="100%">
+            <latex-image>
+              \begin{tikzpicture}[scale=0.3]
+              \def\xmin{-4}\def\xmax{8}\def\ymin{-4}\def\ymax{8}
+              \draw[step=1,gray!30,very thin] (\xmin,\ymin) grid (\xmax,\ymax);
+              \draw[-&gt;] (\xmin,0) -- (\xmax+0.3,0) node[right] {$x$};
+              \draw[-&gt;] (0,\ymin) -- (0,\ymax+0.3) node[above] {$y$};
+              
+              \foreach \x in {-4,-2,2,4,6,8} \node[below] at (\x,0) {\x};
+              \foreach \y in {-4,-2,2,4,6,8} \node[left] at (0,\y) {\y};
+              
+              \clip (\xmin,\ymin) rectangle (\xmax,\ymax);
+              \draw[very thick,blue,&lt;-&gt;,domain=-3.1:8,samples=140]
+              plot (\x,{pow(2,-\x)});
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </statement>
+        <answer><p>Yes. It is decreasing</p></answer>
+      </task>
+      <task>
+        <statement>
+          <image width="100%">
+            <latex-image>
+              \begin{tikzpicture}[scale=0.3]
+              \def\xmin{-8}\def\xmax{4}\def\ymin{-8}\def\ymax{4}
+              \draw[step=1,gray!30,very thin] (\xmin,\ymin) grid (\xmax,\ymax);
+              \draw[-&gt;] (\xmin,0) -- (\xmax+0.3,0) node[right] {$x$};
+              \draw[-&gt;] (0,\ymin) -- (0,\ymax+0.3) node[above] {$y$};
+              
+              \foreach \x in {-8,-6,-4,-2,2,4} \node[below] at (\x,0) {\x};
+              \foreach \y in {-8,-6,-4,-2,2,4} \node[left] at (0,\y) {\y};
+              
+              \clip (\xmin,\ymin) rectangle (\xmax,\ymax);
+              \draw[very thick,blue,&lt;-&gt;,domain=-7.6:-0.4,samples=140]
+              plot (\x,{-(\x+4)^2+3});
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </statement>
+        <answer><p>No. It is a quadratic function</p></answer>
+      </task>
+    </project>
+  </subsection>
+  
+  <subsection xml:id="subsec-exp-initial-value">
+    <title>Exponential Functions with an Initial Value</title>
+    
+    <example>
+      <title>Example 1</title>
+      <statement><m>f(x)=3 \cdot 2^x</m></statement>
+    </example>
+    
+    <example>
+      <title>Example 2</title>
+      <statement><m>f(x)=2 \cdot 4^x</m></statement>
+    </example>
+    
+    <example>
+      <title>Example 3</title>
+      <statement><m>f(x)=8\brac{\frac{1}{4}}^x</m></statement>
+    </example>
+    
+    <example>
+      <title>Example 4</title>
+      <statement><m>f(x)=9\brac{\frac{2}{3}}^x</m></statement>
+    </example>
+    
+    <p>
+      In general, a function of the form <m>f(x)=a\cdot b^x</m> has a <m>y</m>-intercept of <m>a</m>, and a growth factor of <m>b</m>.
+    </p>
+    <md>
+      <mrow>
+        \boxed{f(x)=a\cdot b^x \quad
+          \begin{cases}
+          a \amp \rightarrow y\text{-intercept} \\
+          b \amp \rightarrow \text{growth factor}
+          \end{cases}
+        }
+      </mrow>
+    </md>
+    
+    <example>
+      <title>Desmos Exploration</title>
+      <p>
+        This Desmos activity lets you explore the exponential function <m>f(x)=a \cdot b^x</m>: <url href="https://www.desmos.com/calculator/wrjnbhpnnx">Exponential Function of the form <m>f(x) = a \cdot b^x</m></url>.
+      </p>
+      <ul>
+        <li>
+          <p>The slider <m>a</m> controls the <m>y</m>-intercept (or the starting value).</p>
+        </li>
+        <li>
+          <p>The slider <m>b</m> controls the growth factor (how fast the function grows or decays).</p>
+        </li>
+      </ul>
+    </example>
+    
+    <figure>
+      <caption>Exponential functions <m>f(x)=a\cdot b^x</m>, all with the same <m>y</m>-intercept <m>a</m>, but with different growth factors <m>b</m></caption>
+      <image width="100%">
+        <latex-image>
+          \begin{tikzpicture}
+          \begin{axis}[
+          width=12cm,
+          height=7cm,
+          axis lines=middle,
+          xmin=-2, xmax=3.2,
+          ymin=0, ymax=14,
+          xlabel={$x$},
+          ylabel={$y$},
+          samples=200,
+          domain=-2:3,
+          clip=true,
+          xtick=\empty,
+          ytick=\empty
+          ]
+          % Choose a numeric value for plotting
+          \def\a{4}
+          
+          % Tick mark and label for the y-intercept (0, a)
+          \draw[thick] (axis cs:-0.2,\a) -- (axis cs:0.2,\a);
+          \fill (axis cs:0,\a) circle (4pt);
+          \node[above left] at (axis cs:0,\a+0.6) {\Huge $a$};
+          
+          % Three growth curves (b&gt;1)
+          \addplot[thick,red] {(\a)*(1.2^x)}
+          node[pos=0.9, above left] {$b=1.2$};
+          \addplot[thick,blue] {(\a)*(1.5^x)}
+          node[pos=0.75, above left] {$b=1.5$};
+          \addplot[thick,green!60!black] {(\a)*(2^x)}
+          node[pos=0.33, above left] {$b=2$};
+          
+          % Two decay curves (0&lt;b&lt;1)
+          \addplot[thick,orange] {(\a)*(0.8^x)}
+          node[pos=0.85, above] {$b=0.8$};
+          \addplot[thick,purple] {(\a)*(0.5^x)}
+          node[pos=0.85, below left] {$b=0.5$};
+          \end{axis}
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+    </figure>
+    
+    <project>
+      <title>Sketching Exponential Functions</title>
+      <introduction>
+        <p>Sketch the graph of each exponential function, using its <m>y</m>-intercept and 1 more point. State the <m>y</m>-intercept, increasing/decreasing, domain, and range.</p>
+      </introduction>
+      <task>
+        <statement><m>y=10(2^x)</m></statement>
+        <answer><p><m>y</m>-intercept <m>(0,10)</m>, increasing, domain <m>(-\infty,\infty)</m>, range <m>(0,\infty)</m></p></answer>
+      </task>
+      <task>
+        <statement><m>y=6(2^x)</m></statement>
+        <answer><p><m>y</m>-intercept <m>(0,6)</m>, increasing, domain <m>(-\infty,\infty)</m>, range <m>(0,\infty)</m></p></answer>
+      </task>
+      <task>
+        <statement><m>y=27\brac{\frac{1}{3}}^x</m></statement>
+        <answer><p><m>y</m>-intercept <m>(0,27)</m>, decreasing, domain <m>(-\infty,\infty)</m>, range <m>(0,\infty)</m></p></answer>
+      </task>
+      <task>
+        <statement><m>y=4\brac{\frac{1}{2}}^x</m></statement>
+        <answer><p><m>y</m>-intercept <m>(0,4)</m>, decreasing, domain <m>(-\infty,\infty)</m>, range <m>(0,\infty)</m></p></answer>
+      </task>
+    </project>
+  </subsection>
+  
+  <subsection xml:id="subsec-solving-exp-eq">
+    <title>Solving Exponential Equations (Numerically)</title>
+    
+    <p>
+      <alert>Trial-and-error</alert>: A basic method is to approximate the solution using trial and error. Choose an initial guess for the solution and plug it in, and see if it equals the other side. Then, adjust your solution up or down, depending on if your output is too high or low.
+    </p>
+    <project>
+      <title>Solve each equation by trial and error</title>
+      <introduction>
+        <p>Round answers to 1 decimal place.</p>
+      </introduction>
+      <task>
+        <statement><m>2^x=11</m></statement>
+        <answer><m>x\approx 3.5</m></answer>
+      </task>
+      <task>
+        <statement><m>3^x=15</m></statement>
+        <answer><m>x\approx 2.5</m></answer>
+      </task>
+      <task>
+        <statement><m>4^x+5=10</m></statement>
+        <answer><m>x\approx 1.2</m></answer>
+      </task>
+      <task>
+        <statement><m>3^{x+2}=4</m></statement>
+        <answer><m>x\approx -0.7</m></answer>
+      </task>
+    </project>
+    
+    <p>
+      This method really only works for simple equations.
+    </p>
+    <p>
+      <alert>Graphically</alert>: Another method is to solve graphically (just like any other type of equation). Graph each side of the equation, and the solution is the point where they intersect. You can do this using Desmos, or a graphing calculator like the TI-84 Plus CE. In particular, the solution is the <m>x</m>-coordinate of the intersection point.
+    </p>
+    <example>
+      <title>Solving Graphically</title>
+      <p>
+        To solve <m>3^x=7</m> graphically, graph <m>y=3^x</m> and <m>y=7</m> on the same graph: <url href="https://www.desmos.com/calculator/so2iuqovbw">Graph of <m>y=3^x</m> and <m>y=7</m></url>. The intersection point is about <m>x \approx 1.77</m>, which is the answer.
+      </p>
+    </example>
+    
+    <p>
+      In general, to solve <m>f(x)=k</m>, plot <m>y=f(x)</m> and <m>y=k</m>, and find the <m>x</m>-value where they intersect,
+    </p>
+    <image width="50%">
+      <latex-image>
+        \begin{tikzpicture}[scale=0.8]
+        % Axes
+        \draw[-&gt;] (-0.5,0) -- (5.5,0) node[right] {$x$};
+        \draw[-&gt;] (0,-0.5) -- (0,4.5) node[below right] {$y$};
+        
+        % Exponential curve
+        \draw[thick, domain=0:5, smooth] plot (\x,{0.4*exp(0.5*\x)});
+        
+        % Horizontal line y = k
+        \draw[dashed] (0,3) -- (4,3);
+        \node[left] at (0,3) {$k$};
+        
+        % Intersection point
+        \fill (4,3) circle (2pt);
+        
+        % Vertical dashed line to x-axis
+        \draw[dashed] (4,0) -- (4,3);
+        
+        % Tick mark on x-axis for solution
+        \draw (4,0.1) -- (4,-0.1);
+        \node[below] at (4,0) {solution};
+        
+        \end{tikzpicture}
+      </latex-image>
+    </image>
+    
+    <p>
+      For more about solving graphically, see <url href="https://camerongeisler.github.io/algebra-precalculus/sec-solving-equations-graphically.html">Solving Equations Graphically</url>.
+    </p>
+    <p>
+      <alert>Solving by scientific calculator</alert>. My recommended calculator can solve exponential equations numerically (just like any other equation). For details, see <url href="https://camerongeisler.github.io/algebra-precalculus/sec-solving-equations-numerically-with-a-calculator.html#subsec-solving-using-scientific-calculator">Solving Equations with a Scientific Calculator</url>.
+    </p>
+    <project>
+      <title>Solve each equation using a scientific calculator</title>
+      <introduction>
+        <p>Round answers to 1 decimal place.</p>
+      </introduction>
+      <task>
+        <statement><m>5\cdot 2^x=18</m></statement>
+        <answer><m>x\approx 1.8</m></answer>
+      </task>
+      <task>
+        <statement><m>3^{-x}=0.9</m></statement>
+        <answer><m>x\approx 0.1</m></answer>
+      </task>
+      <task>
+        <statement><m>2\cdot 3^{x-2}=176</m></statement>
+        <answer><m>x\approx 6.1</m></answer>
+      </task>
+      <task>
+        <statement><m>24\cdot (0.95)^x=2</m></statement>
+        <answer><m>x\approx 48.4</m></answer>
+      </task>
+      <task>
+        <statement><m>2000\cdot (1.04)^x=5000</m></statement>
+        <answer><m>x\approx 23.4</m></answer>
+      </task>
+    </project>
+  </subsection>
+  
+</section>
