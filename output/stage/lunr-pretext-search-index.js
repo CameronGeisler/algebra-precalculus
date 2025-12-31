@@ -3175,79 +3175,214 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "12.1",
   "title": "Intro to Exponential Functions",
-  "body": " Intro to Exponential Functions    Graph of f(x) = 2^x  Consider the graph of . First, create a table of values, using -values of , and , and plugging them into the equation.   Then, connect these points with a smooth curve. Here is a graph: Graph of . Observe the -values of . Notice that each time increases by 1, the value of is multiplied by 2.       Graph of f(x) = 3^x  Consider the graph of . First, create a table of values,   Here is a graph: Graph of . Notice that it grows faster than , because each time increases by 1, multiplies by 3 (instead of 2).    Graph of f(x) = (1\/2)^x  Consider the graph of . Creating a table of values,   Here is a graph: Graph of . Here, each time increases by 1, is multiplied by , which means it gets smaller.    Graph of f(x) = (3\/4)^x  Consider the graph of . Creating a table of values,   Here is a graph: Graph of . This graph also decreases, but more slowly than .    Comparing Exponential Functions  Here are all of the 4 functions from the previous examples, graphed together: 4 Examples of Exponential Functions .   What is different about them?  What is similar or the same?    In general, for a function like , each time increases by 1, the output is multiplied by the base .   If , the -values increase .  If , the -values decrease .   Also,   The -intercept is always , because when , the -value is .  There are no -intercepts, because is never equal to 0.  The domain is all real numbers, because you can raise a base to any exponent you want, positive or negative.  The range is all positive numbers, or , because raising a number to the exponent always gives a positive output (even if is negative).   Also, notice that all of the functions flatten out around the -axis. We call this a horizontal asymptote . So, the graph has a horizontal asymptote of the -axis, or the line .    Exponential Functions   An exponential function with base is the function given by, where and .    Examples of Exponential Functions  Some exponential functions include:           Non-examples  Some functions that are not exponential functions include:   ( is not an exponent, this is a polynomial function)  (the base must be positive)  (the base cannot be )  (the base is not a constant)   In particular, note that a power function, of the form , is not an exponential function.  With a power function, the base is the variable , and the exponent is a constant .  For exponential functions, the base is a constant , and the exponent is a variable .       For the exponential function ,   -intercept is .  No -intercepts.  Horizontal asymptote is .  Domain is all real numbers, or .  Range is all positive real numbers, or , or .   Also,   If , then is increasing .  If , then is decreasing .      Some other notes:   The horizontal asymptote is only approached on one side, so you might call it a half horizontal asymptote.   In summary,   Create a table of values for , and plot the points.  Connect the points with a smooth curve.    "
+  "body": " Intro to Exponential Functions    Graph of  Consider the graph of . First, create a table of values, using -values of , and 2, and plugging them into the equation.   Then, connect these points with a smooth curve. Here is a graph: Graph of . Observe the -values of . Notice that each time increases by 1, is multiplied by 2.       Graph of  Consider the graph of . First, create a table of values,   Here is a graph: Graph of . Notice that it grows faster than , because each time increases by 1, multiplies by 3 (instead of 2).    Graph of  Consider the graph of . Creating a table of values,   Here is a graph: Graph of . Here, each time increases by 1, is multiplied by , which means it gets smaller.    Graph of  Consider the graph of . Creating a table of values,   Here is a graph: Graph of . This graph also decreases, but more slowly than .       Comparison of Graphs  Here are all 4 functions from the previous examples, graphed together: 4 Examples of Exponential Functions .    What is different about them?    What is similar or the same?      Desmos Exploration  Here is a Desmos graph that allows you to graph , where you can use the slider to change the value of : Exponential Functions .    How does the graph change, based on your choice of ?     In general, for a function like , each time increases by 1, the output is multiplied by the base .    If , the -values increase .    If , the -values decrease .    Also,    The -intercept is always , because when , the -value is .    There are no -intercepts, because is never equal to 0.    The domain is all real numbers, because you can raise a base to any exponent you want, positive or negative.    The range is all positive numbers, or , because raising a number to the exponent always gives a positive output (even if is negative).    Also, notice that all of the functions flatten out around the -axis. We call this a horizontal asymptote . So, the graph has a horizontal asymptote of the -axis, or the line .    Exponential Functions    An exponential function with base is given by,      Examples  Some exponential functions include:                     Non-examples   Non-examples . Some functions that are not exponential functions include:    ( is not an exponent, this is a polynomial function)    (the base must be positive)    (the base cannot be )    (the base is not a constant)    In particular, note that a power function, of the form , is not an exponential function.    With a power function, the base is the variable , and the exponent is a constant .    For exponential functions, the base is a constant , and the exponent is a variable .     For the exponential function , its graph looks like an increasing or decreasing curve with a horizontal asymptote.    -intercept is .    No -intercepts.    Horizontal asymptote is .    Domain is all real numbers, or .    Range is all positive real numbers, or , or .    The base is called the growth factor , because it is the number you multiply to see how the function changes.    If , it is increasing . We call this exponential growth .    If , it is decreasing . We call this exponential decay .       In summary,    Create a table of values for , and plot the points.    Connect the points with a smooth curve.     For an exponential function, it is only approached on one side, so you might call it a half horizontal asymptote.   An exponential graph approaches the horizontal asymptote only on one side        Exponential functions have no vertical asymptotes, because the domain of an exponential function is all real numbers.    Which functions are exponential?    no     yes     no     yes     Determine whether each graph represents an exponential function   If exponential, say whether it is increasing or decreasing. If not, state what type of function it is.         No. It is a linear function         Yes. It is increasing         No. It is a quadratic function         No. It is a cubic function (or polynomial function)         Yes. It is decreasing         No. It is a quadratic function      Exponential Functions with an Initial Value   Example 1     Example 2     Example 3     Example 4    In general, a function of the form has a -intercept of , and a growth factor of .    Desmos Exploration  This Desmos activity lets you explore the exponential function : Exponential Function of the form .    The slider controls the -intercept (or the starting value).    The slider controls the growth factor (how fast the function grows or decays).      Exponential functions , all with the same -intercept , but with different growth factors       Sketching Exponential Functions   Sketch the graph of each exponential function, using its -intercept and 1 more point. State the -intercept, increasing\/decreasing, domain, and range.     -intercept , increasing, domain , range     -intercept , increasing, domain , range     -intercept , decreasing, domain , range     -intercept , decreasing, domain , range      Solving Exponential Equations (Numerically)   Trial-and-error : A basic method is to approximate the solution using trial and error. Choose an initial guess for the solution and plug it in, and see if it equals the other side. Then, adjust your solution up or down, depending on if your output is too high or low.   Solve each equation by trial and error   Round answers to 1 decimal place.                    This method really only works for simple equations.   Graphically : Another method is to solve graphically (just like any other type of equation). Graph each side of the equation, and the solution is the point where they intersect. You can do this using Desmos, or a graphing calculator like the TI-84 Plus CE. In particular, the solution is the -coordinate of the intersection point.   Solving Graphically  To solve graphically, graph and on the same graph: Graph of and . The intersection point is about , which is the answer.   In general, to solve , plot and , and find the -value where they intersect,     For more about solving graphically, see Solving Equations Graphically .   Solving by scientific calculator . My recommended calculator can solve exponential equations numerically (just like any other equation). For details, see Solving Equations with a Scientific Calculator .   Solve each equation using a scientific calculator   Round answers to 1 decimal place.                         "
 },
 {
-  "id": "ex-graph-2-x",
+  "id": "sec-intro-to-exponential-functions-2-1",
   "level": "2",
-  "url": "sec-intro-to-exponential-functions.html#ex-graph-2-x",
+  "url": "sec-intro-to-exponential-functions.html#sec-intro-to-exponential-functions-2-1",
   "type": "Example",
   "number": "12.1.1",
-  "title": "Graph of f(x) = 2^x.",
-  "body": " Graph of f(x) = 2^x  Consider the graph of . First, create a table of values, using -values of , and , and plugging them into the equation.   Then, connect these points with a smooth curve. Here is a graph: Graph of . Observe the -values of . Notice that each time increases by 1, the value of is multiplied by 2.     "
+  "title": "Graph of <span class=\"process-math\">\\(f(x) = 2^x\\)<\/span>.",
+  "body": " Graph of  Consider the graph of . First, create a table of values, using -values of , and 2, and plugging them into the equation.   Then, connect these points with a smooth curve. Here is a graph: Graph of . Observe the -values of . Notice that each time increases by 1, is multiplied by 2.     "
 },
 {
-  "id": "ex-graph-3-x",
+  "id": "sec-intro-to-exponential-functions-2-2",
   "level": "2",
-  "url": "sec-intro-to-exponential-functions.html#ex-graph-3-x",
+  "url": "sec-intro-to-exponential-functions.html#sec-intro-to-exponential-functions-2-2",
   "type": "Example",
   "number": "12.1.2",
-  "title": "Graph of f(x) = 3^x.",
-  "body": " Graph of f(x) = 3^x  Consider the graph of . First, create a table of values,   Here is a graph: Graph of . Notice that it grows faster than , because each time increases by 1, multiplies by 3 (instead of 2).  "
+  "title": "Graph of <span class=\"process-math\">\\(f(x) = 3^x\\)<\/span>.",
+  "body": " Graph of  Consider the graph of . First, create a table of values,   Here is a graph: Graph of . Notice that it grows faster than , because each time increases by 1, multiplies by 3 (instead of 2).  "
 },
 {
-  "id": "ex-graph-half-x",
+  "id": "sec-intro-to-exponential-functions-2-3",
   "level": "2",
-  "url": "sec-intro-to-exponential-functions.html#ex-graph-half-x",
+  "url": "sec-intro-to-exponential-functions.html#sec-intro-to-exponential-functions-2-3",
   "type": "Example",
   "number": "12.1.3",
-  "title": "Graph of f(x) = (1\/2)^x.",
-  "body": " Graph of f(x) = (1\/2)^x  Consider the graph of . Creating a table of values,   Here is a graph: Graph of . Here, each time increases by 1, is multiplied by , which means it gets smaller.  "
+  "title": "Graph of <span class=\"process-math\">\\(f(x) = \\brac{\\frac{1}{2}}^x\\)<\/span>.",
+  "body": " Graph of  Consider the graph of . Creating a table of values,   Here is a graph: Graph of . Here, each time increases by 1, is multiplied by , which means it gets smaller.  "
 },
 {
-  "id": "ex-graph-three-fourths-x",
+  "id": "sec-intro-to-exponential-functions-2-4",
   "level": "2",
-  "url": "sec-intro-to-exponential-functions.html#ex-graph-three-fourths-x",
+  "url": "sec-intro-to-exponential-functions.html#sec-intro-to-exponential-functions-2-4",
   "type": "Example",
   "number": "12.1.4",
-  "title": "Graph of f(x) = (3\/4)^x.",
-  "body": " Graph of f(x) = (3\/4)^x  Consider the graph of . Creating a table of values,   Here is a graph: Graph of . This graph also decreases, but more slowly than .  "
+  "title": "Graph of <span class=\"process-math\">\\(f(x) = \\brac{\\frac{3}{4}}^x\\)<\/span>.",
+  "body": " Graph of  Consider the graph of . Creating a table of values,   Here is a graph: Graph of . This graph also decreases, but more slowly than .     "
 },
 {
-  "id": "ex-compare-four-functions",
+  "id": "sec-intro-to-exponential-functions-2-5",
   "level": "2",
-  "url": "sec-intro-to-exponential-functions.html#ex-compare-four-functions",
+  "url": "sec-intro-to-exponential-functions.html#sec-intro-to-exponential-functions-2-5",
   "type": "Example",
   "number": "12.1.5",
-  "title": "Comparing Exponential Functions.",
-  "body": " Comparing Exponential Functions  Here are all of the 4 functions from the previous examples, graphed together: 4 Examples of Exponential Functions .   What is different about them?  What is similar or the same?   "
+  "title": "Comparison of Graphs.",
+  "body": " Comparison of Graphs  Here are all 4 functions from the previous examples, graphed together: 4 Examples of Exponential Functions .    What is different about them?    What is similar or the same?    "
 },
 {
-  "id": "def-exponential-function",
+  "id": "sec-intro-to-exponential-functions-2-6",
   "level": "2",
-  "url": "sec-intro-to-exponential-functions.html#def-exponential-function",
-  "type": "Definition",
-  "number": "12.1.6",
-  "title": "",
-  "body": " An exponential function with base is the function given by, where and .  "
-},
-{
-  "id": "ex-list-exponential",
-  "level": "2",
-  "url": "sec-intro-to-exponential-functions.html#ex-list-exponential",
+  "url": "sec-intro-to-exponential-functions.html#sec-intro-to-exponential-functions-2-6",
   "type": "Example",
-  "number": "12.1.7",
-  "title": "Examples of Exponential Functions.",
-  "body": " Examples of Exponential Functions  Some exponential functions include:         "
+  "number": "12.1.6",
+  "title": "Desmos Exploration.",
+  "body": " Desmos Exploration  Here is a Desmos graph that allows you to graph , where you can use the slider to change the value of : Exponential Functions .    How does the graph change, based on your choice of ?    "
 },
 {
-  "id": "ex-non-examples-exponential",
+  "id": "subsec-exponential-functions-2",
   "level": "2",
-  "url": "sec-intro-to-exponential-functions.html#ex-non-examples-exponential",
+  "url": "sec-intro-to-exponential-functions.html#subsec-exponential-functions-2",
+  "type": "Definition",
+  "number": "12.1.7",
+  "title": "",
+  "body": "  An exponential function with base is given by,    "
+},
+{
+  "id": "subsec-exponential-functions-3",
+  "level": "2",
+  "url": "sec-intro-to-exponential-functions.html#subsec-exponential-functions-3",
   "type": "Example",
   "number": "12.1.8",
+  "title": "Examples.",
+  "body": " Examples  Some exponential functions include:                   "
+},
+{
+  "id": "subsec-exponential-functions-4",
+  "level": "2",
+  "url": "sec-intro-to-exponential-functions.html#subsec-exponential-functions-4",
+  "type": "Example",
+  "number": "12.1.9",
   "title": "Non-examples.",
-  "body": " Non-examples  Some functions that are not exponential functions include:   ( is not an exponent, this is a polynomial function)  (the base must be positive)  (the base cannot be )  (the base is not a constant)   In particular, note that a power function, of the form , is not an exponential function.  With a power function, the base is the variable , and the exponent is a constant .  For exponential functions, the base is a constant , and the exponent is a variable .      "
+  "body": " Non-examples   Non-examples . Some functions that are not exponential functions include:    ( is not an exponent, this is a polynomial function)    (the base must be positive)    (the base cannot be )    (the base is not a constant)    In particular, note that a power function, of the form , is not an exponential function.    With a power function, the base is the variable , and the exponent is a constant .    For exponential functions, the base is a constant , and the exponent is a variable .    "
+},
+{
+  "id": "subsec-exponential-functions-12",
+  "level": "2",
+  "url": "sec-intro-to-exponential-functions.html#subsec-exponential-functions-12",
+  "type": "Remark",
+  "number": "12.1.10",
+  "title": "",
+  "body": " For an exponential function, it is only approached on one side, so you might call it a half horizontal asymptote.   An exponential graph approaches the horizontal asymptote only on one side      "
+},
+{
+  "id": "subsec-exponential-functions-13",
+  "level": "2",
+  "url": "sec-intro-to-exponential-functions.html#subsec-exponential-functions-13",
+  "type": "Remark",
+  "number": "12.1.12",
+  "title": "",
+  "body": " Exponential functions have no vertical asymptotes, because the domain of an exponential function is all real numbers.  "
+},
+{
+  "id": "subsec-exponential-functions-14",
+  "level": "2",
+  "url": "sec-intro-to-exponential-functions.html#subsec-exponential-functions-14",
+  "type": "Exercise Group",
+  "number": "12.1.1",
+  "title": "Which functions are exponential?",
+  "body": " Which functions are exponential?    no     yes     no     yes   "
+},
+{
+  "id": "subsec-exponential-functions-15",
+  "level": "2",
+  "url": "sec-intro-to-exponential-functions.html#subsec-exponential-functions-15",
+  "type": "Exercise Group",
+  "number": "12.1.2",
+  "title": "Determine whether each graph represents an exponential function.",
+  "body": " Determine whether each graph represents an exponential function   If exponential, say whether it is increasing or decreasing. If not, state what type of function it is.         No. It is a linear function         Yes. It is increasing         No. It is a quadratic function         No. It is a cubic function (or polynomial function)         Yes. It is decreasing         No. It is a quadratic function   "
+},
+{
+  "id": "subsec-exp-initial-value-2",
+  "level": "2",
+  "url": "sec-intro-to-exponential-functions.html#subsec-exp-initial-value-2",
+  "type": "Example",
+  "number": "12.1.13",
+  "title": "Example 1.",
+  "body": " Example 1   "
+},
+{
+  "id": "subsec-exp-initial-value-3",
+  "level": "2",
+  "url": "sec-intro-to-exponential-functions.html#subsec-exp-initial-value-3",
+  "type": "Example",
+  "number": "12.1.14",
+  "title": "Example 2.",
+  "body": " Example 2   "
+},
+{
+  "id": "subsec-exp-initial-value-4",
+  "level": "2",
+  "url": "sec-intro-to-exponential-functions.html#subsec-exp-initial-value-4",
+  "type": "Example",
+  "number": "12.1.15",
+  "title": "Example 3.",
+  "body": " Example 3   "
+},
+{
+  "id": "subsec-exp-initial-value-5",
+  "level": "2",
+  "url": "sec-intro-to-exponential-functions.html#subsec-exp-initial-value-5",
+  "type": "Example",
+  "number": "12.1.16",
+  "title": "Example 4.",
+  "body": " Example 4   "
+},
+{
+  "id": "subsec-exp-initial-value-8",
+  "level": "2",
+  "url": "sec-intro-to-exponential-functions.html#subsec-exp-initial-value-8",
+  "type": "Example",
+  "number": "12.1.17",
+  "title": "Desmos Exploration.",
+  "body": " Desmos Exploration  This Desmos activity lets you explore the exponential function : Exponential Function of the form .    The slider controls the -intercept (or the starting value).    The slider controls the growth factor (how fast the function grows or decays).    "
+},
+{
+  "id": "subsec-exp-initial-value-9",
+  "level": "2",
+  "url": "sec-intro-to-exponential-functions.html#subsec-exp-initial-value-9",
+  "type": "Figure",
+  "number": "12.1.18",
+  "title": "",
+  "body": " Exponential functions , all with the same -intercept , but with different growth factors     "
+},
+{
+  "id": "subsec-exp-initial-value-10",
+  "level": "2",
+  "url": "sec-intro-to-exponential-functions.html#subsec-exp-initial-value-10",
+  "type": "Exercise Group",
+  "number": "12.1.3",
+  "title": "Sketching Exponential Functions.",
+  "body": " Sketching Exponential Functions   Sketch the graph of each exponential function, using its -intercept and 1 more point. State the -intercept, increasing\/decreasing, domain, and range.     -intercept , increasing, domain , range     -intercept , increasing, domain , range     -intercept , decreasing, domain , range     -intercept , decreasing, domain , range   "
+},
+{
+  "id": "subsec-solving-exp-eq-3",
+  "level": "2",
+  "url": "sec-intro-to-exponential-functions.html#subsec-solving-exp-eq-3",
+  "type": "Exercise Group",
+  "number": "12.1.4",
+  "title": "Solve each equation by trial and error.",
+  "body": " Solve each equation by trial and error   Round answers to 1 decimal place.                   "
+},
+{
+  "id": "subsec-solving-exp-eq-6",
+  "level": "2",
+  "url": "sec-intro-to-exponential-functions.html#subsec-solving-exp-eq-6",
+  "type": "Example",
+  "number": "12.1.19",
+  "title": "Solving Graphically.",
+  "body": " Solving Graphically  To solve graphically, graph and on the same graph: Graph of and . The intersection point is about , which is the answer.  "
+},
+{
+  "id": "subsec-solving-exp-eq-11",
+  "level": "2",
+  "url": "sec-intro-to-exponential-functions.html#subsec-solving-exp-eq-11",
+  "type": "Exercise Group",
+  "number": "12.1.5",
+  "title": "Solve each equation using a scientific calculator.",
+  "body": " Solve each equation using a scientific calculator   Round answers to 1 decimal place.                       "
 },
 {
   "id": "sec-intro-to-exponential-growth-and-decay",
