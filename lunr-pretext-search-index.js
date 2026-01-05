@@ -3391,52 +3391,304 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "12.2",
   "title": "Intro to Exponential Growth and Decay",
-  "body": " Intro to Exponential Growth and Decay   Exponential functions can be used to model amounts that change over time.   Population Growth  A small town has a population of 12000 people. Each year, the population increases by 10%.    What will be the population of the town after 1 year? 2 years? 3 years?  What will be the population after years?    Increase by 10% means that it keeps all of the population it has, and adds 10% more of that number.    100% of the population is the amount it already has  10% more means you are at 110% of the original.    As a decimal, . So, increase by 10% means multiply by 1.10.    At the start (year 0), the population is 12000.  After 1 year, the population is people.  After 2 years, the population is people.  After 3 years, the population is people.    Notice the pattern, which is that we multiply the initial population of 12000 by 1.10 for each year.  In general, after years, we are multiplying by 1.10 precisely times. So, the general formula for population, we'll call it , is given by,     Smartphone Value  Suppose you buy a new smartphone for $1400. Each year, its value drops by 35%.    How much will it be worth after 1 year? 2 years? 3 years?  How much will it be worth after years?    Drop by 35% means you keep 65% of the value each year, because you start with 100% of its value, take away 35%, and are left with 65%. As a decimal, , so decreasing by 35% each year means multiply by 0.65 each year.   In general,    In general, exponential change has this form,     Exponential Growth and Decay Models  The exponential growth and exponential decay models are given by,   The base is called the growth factor , because it controls how the amount changes from one step to the next.  It can also be thought of in terms of the percentage change, as ,   Here, represents the percentage change (as a decimal),   If , then it is exponential growth , and is the growth rate .  If , then it is exponential decay , and is the decay rate .   Exponential functions have applications for,   Population growth (biology), of animals, people, or bacteria.  Growth of an investment (economics)  Decay of a radioactive substance (chemistry)   In general, anything that changes by a percentage can be modelled by exponential functions.   Percentage to Growth Factor   Find the growth factor required for each percentage change.    increase     decrease     decrease     increase     increase     increase      "
+  "body": " Intro to Exponential Growth and Decay   Exponential functions can be used to model amounts that change over time.   Population Growth  A small town has a population of 12000 people. Each year, the population increases by 10%.    What will be the population of the town after 1 year? 2 years? 3 years?    What will be the population after years?     Increase by 10% means that it keeps all of the population it has, and adds 10% more of that number.    100% of the population is the amount it already has    10% more means you are at 110% of the original.    As a decimal, . So, increase by 10% means multiply by 1.10.    At the start (year 0), the population is 12000.    After 1 year, the population is people.    After 2 years, the population is people.    After 3 years, the population is people.    Notice the pattern, which is that we multiply the initial population of 12000 by 1.10 for each year.  In general, after years, we are multiplying by 1.10 precisely times. So, the general formula for population, we'll call it , is given by,     Smartphone Depreciation  Suppose you buy a new smartphone for $1400. Each year, its value drops by 35%.    How much will it be worth after 1 year? 2 years? 3 years?    How much will it be worth after years?     Drop by 35% means you keep 65% of the value each year, because you start with 100% of its value, take away 35%, and are left with 65%. As a decimal, , so decreasing by 35% each year means multiply by 0.65 each year.   In general,    In general, exponential change has this form,     Exponential Growth and Decay Models  The exponential growth and exponential decay models are given by,   The base is called the growth factor , because it controls how the amount changes from one step to the next.  It can also be thought of in terms of the percentage change, as ,   Here, represents the percentage change (as a decimal),    If , then it is exponential growth , and is the growth rate .    If , then it is exponential decay , and is the decay rate .    In simple terms,   Exponential functions have applications for,    Population growth (biology), of animals, people, or bacteria.    Growth of an investment (economics)    Decay of a radioactive substance (chemistry)    In general, anything that changes by a percentage can be modelled by exponential functions.   Finding Growth Factors   Find the growth factor required for each percentage change.    28% increase  1.28    13% decrease  0.87    55% decrease  0.45    72% increase  1.72    6% increase  1.06    0.24% increase  1.0024      Examples   Bacteria Population Growth   A microbiologist cultures a type of bacteria in a petri dish. The population (in millions of bacteria) after hours is modeled by .    What is the initial bacteria population?  million    What is the growth rate per hour?  35% per hour    Find the bacteria population after 2 hours.  million    Find the bacteria population after 5 hours.  million    Find the bacteria population after 8 hours.  million    Sketch a graph of the bacteria population over time using the previous parts.  An increasing exponential curve with -intercept , passing through approximately , , and .    Estimate how long it will take for the bacteria population to reach 200 million, using a graphing calculator, or guess and test.  hours    What is the domain and range of the function in this context?  Domain is , range is .     Insect Colony Population Growth   An ecologist monitors a colony of insects in a controlled habitat. The population (in thousands of insects) after days is modeled by .    What is the initial insect population?  thousand insects    What is the growth rate per day?  22% per day    Find the insect population after 4 days.  thousand insects    Find the insect population after 8 days.  thousand insects    Sketch a graph of the insect population over time using the previous parts.  An increasing exponential curve with -intercept , passing through approximately and .    Estimate how long it will take for the insect population to reach 80 thousand insects, using a graphing calculator, or guess and test.  days     Coffee and Caffeine   A cup of coffee contains 160 mg of caffeine. Caffeine in the body decreases with exponential decay, where the amount of caffeine in the body decreases by 13% per hour.    Write an equation that gives the amount of caffeine after hours of drinking a cup of coffee.     How much caffeine remains in the body after 2 hours? After 5 hours?  mg and mg    Research shows that by bedtime, you should have at most 30 mg of caffeine in your body (to avoid it negatively affecting your sleep quality). How long will it take to reach 30 mg?  hours    Suppose that instead, you drink 2 cups of coffee. Estimate how long it will take for your body to have only 30 mg left, using a graphing calculator or guess and test.  hours     Flu Virus Spreading   A flu virus spreads in a school. The number of people infected after days is given by .    What is the initial number of people infected?     What is the growth rate of people infected per day?  33.2%    Find the number of people who were infected after 16 days.  people    There are 1200 people in the school. Estimate the time it will take for everybody in the school to catch the flu, using a graphing calculator, or guess and test.  days     Depreciation of a Car   A car was purchased for $15,500. The car decreases in value by 15% each year.    Write an equation that would give the value of the car years after it was purchased.     How many years would the car be worth one quarter of its original value?  , find when  years    How many years would it take the car to be worth $2500?  , find when  years     Availability of Light Under Water   As a scuba diver, the deeper you dive, the less light available to you (because the more light is absorbed by the water above you). Suppose that the amount of light available decreases by 12% for every 10 m that you descend.    Write the exponential function that relates the amount, , as a percent expressed as a decimal, of light available to the depth, , in 10-m increments.  Each 10 m multiplies the light by , and     Sketch a graph of the function.  The graph is a decreasing exponential curve, with a -intercept of 1.    What are the domain and range of the function in this context?  Domain is , range is .    What percent of light will reach you if you dive to a depth of 25 m?  25 m is increments of 10 m, so  , so about 73% of the surface light      Compound Interest  Another application of exponential growth is compound interest , where your interest also earns interest.  When a bank pays interest, it adds some money to your account. If you leave that interest in the account, then the next time interest is calculated, it’s calculated on a bigger amount than before. So the amount grows faster over time because it’s not just the original money earning interest, but the added interest also starts earning interest. This is precisely exponential growth.   Suppose that you deposit $2500 and your account earns 4% per year. After 1 year, the bank will pay you,   This means that after 1 year, your new total is,   Just like other examples of exponential growth, we can think of adding this interest like a growth factor. In this case, it is , because to increase by 4% each year, we have to multiply by 1.04. Then, the amount of money after years is given by,    In general,    Compound Interest Calculation  You deposit $2450 into a savings account that earns 3.2% interest per year, compounded annually. Write an equation for the amount after years, and find the amount after 4 years.  Use with and  and    Scholarship Fund  A scholarship fund has $3175 invested at 2.7% interest per year, compounded annually. How much will be in the fund after 2 years and after 7 years?  Use and evaluate at and  and    Total Interest Earned  You invest $4325 at 4.2% interest per year, compounded annually, for 6 years. How much interest did you earn in total?  First find , then subtract your principal  About    Yearly Interest  You deposit $5200 into an account that earns 4.5% interest per year, compounded annually. How much interest is earned in the first year, and how much interest is earned in the fifth year only?  , first-year interest is , and fifth-year interest is  first-year interest , and fifth-year interest    Future Value Goal  You want to have $12000 in 9 years. The account pays 3.8% interest per year, compounded annually. What single deposit do you need to make today?  Use and solve for     Saving for Laptop  A student wants $5000 for a laptop in 4 years. A savings account pays 5.5% interest per year, compounded annually. What single deposit is needed today?  Use and solve     Time to Reach Goal  You deposit $1500 into an account that earns 6% interest per year, compounded annually. Estimate how long will it take for the account to reach $2500, using a graphing calculator or guess and test.  , find when  years    Doubling Time  You deposit $2400 into an account that earns 7% interest per year, compounded annually. About how long will it take for the money to double?  Set up  years    Finding Interest Rate  An investment grows from $5000 to $5800 in 3 years with compound interest compounded annually. Estimate the annual interest rate .  Set up and use guess and test for .  , so about    Finding Initial Deposit  An account has $8420 after 6 years at 3.9% interest per year, compounded annually. What was the initial deposit?  Use and solve for     Investment Growth Time  You invest $6800 at 4.2% interest per year, compounded annually. About how long will it take to reach $9000?  , find when  years     More Examples   Grasshopper Plague   A scientist monitoring a grasshopper plague notices that the area affected by the grasshoppers is given by hectares, where is the number of weeks after the initial observation.    What is the original affected area?  hectares    What is the growth rate per week for the affected area?  15%    Find the affected area after 5 weeks.  hectares    Find the affected area after 10 weeks.  hectares    Sketch a graph of the affected area over time.  An increasing exponential curve with -intercept , passing through approximately and .    Use a graphing calculator to find how long it will take for the affected area to reach 8000 hectares.  weeks     Bacteria Weight   The weight of bacteria in a culture hours after establishment is given by grams.    Find the initial weight.  grams    Find the weight after 4 hours.  grams    Find the weight after 10 hours.  grams    Find the weight after 24 hours.  grams    Sketch a graph of the bacteria weight over time using the results of the previous parts.  An increasing exponential curve with -intercept and points , , .     Pygmy Possum Population   A breeding program to ensure the survival of pygmy possums is established with an initial population of 50 (25 pairs). From a previous program, the expected population in years time is given by .    What is the value of ?     Find the expected population after 2 years.     Find the expected population after 5 years.     Find the expected population after 10 years.     Sketch a graph of the population over time using the previous parts.  An increasing exponential curve with -intercept and points , , .    Find the approximate time needed for the population to reach 500, using a graphing calculator or guess and test.  years     Bear Population   A species of bear is introduced to a large island off Alaska where previously there were no bears. In 1998, 6 pairs of bears were introduced. It is expected that the population will increase according to where is the time, in years, since the introduction.    Find .     Find the expected bear population in 2018.  , so bears    Find the expected percentage increase in population from 2008 to 2018.  In 2008, , so bears  From to , the increase is about    Find how long approximately it will take for the population to reach 200, using a graphing calculator or guess and test.  years     Light Intensity Depth  The intensity of light is reduced by 2% for each metre that a diver descends below the surface of the water. At what depth is the intensity of light only 10% of that at the surface?  , find when  , m    World Population Growth  Statistics indicate that the world population since 1995 has been growing at a rate of about 1.27% per year. United Nations records estimate that the world population in 2011 was approximately 7 billion. Assuming the same exponential growth rate, when will the population of the world be 9 billion?  Use , find when , where is years after 2011  , so about the year 2031    Krumbein Phi Scale   The Krumbein phi scale is used in geology to classify sediments such as silt, sand, and gravel by particle size. The scale is modelled by the function , where is the diameter of the particle, in millimetres, and is the Krumbein scale value. Fine sand has a Krumbein scale value of approximately 3. Coarse gravel has a Krumbein scale value of approximately .    Why would a coarse material have a negative scale value?  Coarser material has a larger diameter . Since , making negative makes positive, which increases and therefore increases the diameter.    How does the diameter of fine sand compare to the diameter of coarse gravel?  mm and mm, so , meaning coarse gravel has a diameter 256 times the diameter of fine sand     "
 },
 {
-  "id": "ex-population-growth",
+  "id": "sec-intro-to-exponential-growth-and-decay-2-2",
   "level": "2",
-  "url": "sec-intro-to-exponential-growth-and-decay.html#ex-population-growth",
+  "url": "sec-intro-to-exponential-growth-and-decay.html#sec-intro-to-exponential-growth-and-decay-2-2",
   "type": "Example",
   "number": "12.2.1",
   "title": "Population Growth.",
-  "body": " Population Growth  A small town has a population of 12000 people. Each year, the population increases by 10%.    What will be the population of the town after 1 year? 2 years? 3 years?  What will be the population after years?    Increase by 10% means that it keeps all of the population it has, and adds 10% more of that number.    100% of the population is the amount it already has  10% more means you are at 110% of the original.    As a decimal, . So, increase by 10% means multiply by 1.10.    At the start (year 0), the population is 12000.  After 1 year, the population is people.  After 2 years, the population is people.  After 3 years, the population is people.    Notice the pattern, which is that we multiply the initial population of 12000 by 1.10 for each year.  In general, after years, we are multiplying by 1.10 precisely times. So, the general formula for population, we'll call it , is given by,   "
+  "body": " Population Growth  A small town has a population of 12000 people. Each year, the population increases by 10%.    What will be the population of the town after 1 year? 2 years? 3 years?    What will be the population after years?     Increase by 10% means that it keeps all of the population it has, and adds 10% more of that number.    100% of the population is the amount it already has    10% more means you are at 110% of the original.    As a decimal, . So, increase by 10% means multiply by 1.10.    At the start (year 0), the population is 12000.    After 1 year, the population is people.    After 2 years, the population is people.    After 3 years, the population is people.    Notice the pattern, which is that we multiply the initial population of 12000 by 1.10 for each year.  In general, after years, we are multiplying by 1.10 precisely times. So, the general formula for population, we'll call it , is given by,   "
 },
 {
-  "id": "ex-smartphone-value",
+  "id": "sec-intro-to-exponential-growth-and-decay-2-3",
   "level": "2",
-  "url": "sec-intro-to-exponential-growth-and-decay.html#ex-smartphone-value",
+  "url": "sec-intro-to-exponential-growth-and-decay.html#sec-intro-to-exponential-growth-and-decay-2-3",
   "type": "Example",
   "number": "12.2.2",
-  "title": "Smartphone Value.",
-  "body": " Smartphone Value  Suppose you buy a new smartphone for $1400. Each year, its value drops by 35%.    How much will it be worth after 1 year? 2 years? 3 years?  How much will it be worth after years?    Drop by 35% means you keep 65% of the value each year, because you start with 100% of its value, take away 35%, and are left with 65%. As a decimal, , so decreasing by 35% each year means multiply by 0.65 each year.   In general,   "
+  "title": "Smartphone Depreciation.",
+  "body": " Smartphone Depreciation  Suppose you buy a new smartphone for $1400. Each year, its value drops by 35%.    How much will it be worth after 1 year? 2 years? 3 years?    How much will it be worth after years?     Drop by 35% means you keep 65% of the value each year, because you start with 100% of its value, take away 35%, and are left with 65%. As a decimal, , so decreasing by 35% each year means multiply by 0.65 each year.   In general,   "
 },
 {
-  "id": "sub-exponential-modeling-2",
+  "id": "subsec-growth-decay-models-2",
   "level": "2",
-  "url": "sec-intro-to-exponential-growth-and-decay.html#sub-exponential-modeling-2",
+  "url": "sec-intro-to-exponential-growth-and-decay.html#subsec-growth-decay-models-2",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "exponential growth exponential decay "
 },
 {
-  "id": "sub-exponential-modeling-4",
+  "id": "subsec-growth-decay-models-4",
   "level": "2",
-  "url": "sec-intro-to-exponential-growth-and-decay.html#sub-exponential-modeling-4",
+  "url": "sec-intro-to-exponential-growth-and-decay.html#subsec-growth-decay-models-4",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "growth factor "
 },
 {
-  "id": "proj-growth-factor-practice",
+  "id": "subsec-growth-decay-models-8-1-1",
   "level": "2",
-  "url": "sec-intro-to-exponential-growth-and-decay.html#proj-growth-factor-practice",
+  "url": "sec-intro-to-exponential-growth-and-decay.html#subsec-growth-decay-models-8-1-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "exponential growth growth rate "
+},
+{
+  "id": "subsec-growth-decay-models-8-2-1",
+  "level": "2",
+  "url": "sec-intro-to-exponential-growth-and-decay.html#subsec-growth-decay-models-8-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "exponential decay decay rate "
+},
+{
+  "id": "project-growth-factors",
+  "level": "2",
+  "url": "sec-intro-to-exponential-growth-and-decay.html#project-growth-factors",
   "type": "Exercise Group",
   "number": "12.2.1",
-  "title": "Percentage to Growth Factor.",
-  "body": " Percentage to Growth Factor   Find the growth factor required for each percentage change.    increase     decrease     decrease     increase     increase     increase    "
+  "title": "Finding Growth Factors.",
+  "body": " Finding Growth Factors   Find the growth factor required for each percentage change.    28% increase  1.28    13% decrease  0.87    55% decrease  0.45    72% increase  1.72    6% increase  1.06    0.24% increase  1.0024   "
+},
+{
+  "id": "subsec-examples-2",
+  "level": "2",
+  "url": "sec-intro-to-exponential-growth-and-decay.html#subsec-examples-2",
+  "type": "Checkpoint",
+  "number": "12.2.3",
+  "title": "Bacteria Population Growth.",
+  "body": " Bacteria Population Growth   A microbiologist cultures a type of bacteria in a petri dish. The population (in millions of bacteria) after hours is modeled by .    What is the initial bacteria population?  million    What is the growth rate per hour?  35% per hour    Find the bacteria population after 2 hours.  million    Find the bacteria population after 5 hours.  million    Find the bacteria population after 8 hours.  million    Sketch a graph of the bacteria population over time using the previous parts.  An increasing exponential curve with -intercept , passing through approximately , , and .    Estimate how long it will take for the bacteria population to reach 200 million, using a graphing calculator, or guess and test.  hours    What is the domain and range of the function in this context?  Domain is , range is .   "
+},
+{
+  "id": "subsec-examples-3",
+  "level": "2",
+  "url": "sec-intro-to-exponential-growth-and-decay.html#subsec-examples-3",
+  "type": "Checkpoint",
+  "number": "12.2.4",
+  "title": "Insect Colony Population Growth.",
+  "body": " Insect Colony Population Growth   An ecologist monitors a colony of insects in a controlled habitat. The population (in thousands of insects) after days is modeled by .    What is the initial insect population?  thousand insects    What is the growth rate per day?  22% per day    Find the insect population after 4 days.  thousand insects    Find the insect population after 8 days.  thousand insects    Sketch a graph of the insect population over time using the previous parts.  An increasing exponential curve with -intercept , passing through approximately and .    Estimate how long it will take for the insect population to reach 80 thousand insects, using a graphing calculator, or guess and test.  days   "
+},
+{
+  "id": "subsec-examples-4",
+  "level": "2",
+  "url": "sec-intro-to-exponential-growth-and-decay.html#subsec-examples-4",
+  "type": "Checkpoint",
+  "number": "12.2.5",
+  "title": "Coffee and Caffeine.",
+  "body": " Coffee and Caffeine   A cup of coffee contains 160 mg of caffeine. Caffeine in the body decreases with exponential decay, where the amount of caffeine in the body decreases by 13% per hour.    Write an equation that gives the amount of caffeine after hours of drinking a cup of coffee.     How much caffeine remains in the body after 2 hours? After 5 hours?  mg and mg    Research shows that by bedtime, you should have at most 30 mg of caffeine in your body (to avoid it negatively affecting your sleep quality). How long will it take to reach 30 mg?  hours    Suppose that instead, you drink 2 cups of coffee. Estimate how long it will take for your body to have only 30 mg left, using a graphing calculator or guess and test.  hours   "
+},
+{
+  "id": "subsec-examples-5",
+  "level": "2",
+  "url": "sec-intro-to-exponential-growth-and-decay.html#subsec-examples-5",
+  "type": "Checkpoint",
+  "number": "12.2.6",
+  "title": "Flu Virus Spreading.",
+  "body": " Flu Virus Spreading   A flu virus spreads in a school. The number of people infected after days is given by .    What is the initial number of people infected?     What is the growth rate of people infected per day?  33.2%    Find the number of people who were infected after 16 days.  people    There are 1200 people in the school. Estimate the time it will take for everybody in the school to catch the flu, using a graphing calculator, or guess and test.  days   "
+},
+{
+  "id": "subsec-examples-6",
+  "level": "2",
+  "url": "sec-intro-to-exponential-growth-and-decay.html#subsec-examples-6",
+  "type": "Checkpoint",
+  "number": "12.2.7",
+  "title": "Depreciation of a Car.",
+  "body": " Depreciation of a Car   A car was purchased for $15,500. The car decreases in value by 15% each year.    Write an equation that would give the value of the car years after it was purchased.     How many years would the car be worth one quarter of its original value?  , find when  years    How many years would it take the car to be worth $2500?  , find when  years   "
+},
+{
+  "id": "subsec-examples-7",
+  "level": "2",
+  "url": "sec-intro-to-exponential-growth-and-decay.html#subsec-examples-7",
+  "type": "Checkpoint",
+  "number": "12.2.8",
+  "title": "Availability of Light Under Water.",
+  "body": " Availability of Light Under Water   As a scuba diver, the deeper you dive, the less light available to you (because the more light is absorbed by the water above you). Suppose that the amount of light available decreases by 12% for every 10 m that you descend.    Write the exponential function that relates the amount, , as a percent expressed as a decimal, of light available to the depth, , in 10-m increments.  Each 10 m multiplies the light by , and     Sketch a graph of the function.  The graph is a decreasing exponential curve, with a -intercept of 1.    What are the domain and range of the function in this context?  Domain is , range is .    What percent of light will reach you if you dive to a depth of 25 m?  25 m is increments of 10 m, so  , so about 73% of the surface light   "
+},
+{
+  "id": "subsec-compound-interest-2",
+  "level": "2",
+  "url": "sec-intro-to-exponential-growth-and-decay.html#subsec-compound-interest-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "compound interest "
+},
+{
+  "id": "subsec-compound-interest-4",
+  "level": "2",
+  "url": "sec-intro-to-exponential-growth-and-decay.html#subsec-compound-interest-4",
+  "type": "Example",
+  "number": "12.2.9",
+  "title": "",
+  "body": " Suppose that you deposit $2500 and your account earns 4% per year. After 1 year, the bank will pay you,   This means that after 1 year, your new total is,   Just like other examples of exponential growth, we can think of adding this interest like a growth factor. In this case, it is , because to increase by 4% each year, we have to multiply by 1.04. Then, the amount of money after years is given by,   "
+},
+{
+  "id": "subsec-compound-interest-7",
+  "level": "2",
+  "url": "sec-intro-to-exponential-growth-and-decay.html#subsec-compound-interest-7",
+  "type": "Checkpoint",
+  "number": "12.2.10",
+  "title": "Compound Interest Calculation.",
+  "body": " Compound Interest Calculation  You deposit $2450 into a savings account that earns 3.2% interest per year, compounded annually. Write an equation for the amount after years, and find the amount after 4 years.  Use with and  and  "
+},
+{
+  "id": "subsec-compound-interest-8",
+  "level": "2",
+  "url": "sec-intro-to-exponential-growth-and-decay.html#subsec-compound-interest-8",
+  "type": "Checkpoint",
+  "number": "12.2.11",
+  "title": "Scholarship Fund.",
+  "body": " Scholarship Fund  A scholarship fund has $3175 invested at 2.7% interest per year, compounded annually. How much will be in the fund after 2 years and after 7 years?  Use and evaluate at and  and  "
+},
+{
+  "id": "subsec-compound-interest-9",
+  "level": "2",
+  "url": "sec-intro-to-exponential-growth-and-decay.html#subsec-compound-interest-9",
+  "type": "Checkpoint",
+  "number": "12.2.12",
+  "title": "Total Interest Earned.",
+  "body": " Total Interest Earned  You invest $4325 at 4.2% interest per year, compounded annually, for 6 years. How much interest did you earn in total?  First find , then subtract your principal  About  "
+},
+{
+  "id": "subsec-compound-interest-10",
+  "level": "2",
+  "url": "sec-intro-to-exponential-growth-and-decay.html#subsec-compound-interest-10",
+  "type": "Checkpoint",
+  "number": "12.2.13",
+  "title": "Yearly Interest.",
+  "body": " Yearly Interest  You deposit $5200 into an account that earns 4.5% interest per year, compounded annually. How much interest is earned in the first year, and how much interest is earned in the fifth year only?  , first-year interest is , and fifth-year interest is  first-year interest , and fifth-year interest  "
+},
+{
+  "id": "subsec-compound-interest-11",
+  "level": "2",
+  "url": "sec-intro-to-exponential-growth-and-decay.html#subsec-compound-interest-11",
+  "type": "Checkpoint",
+  "number": "12.2.14",
+  "title": "Future Value Goal.",
+  "body": " Future Value Goal  You want to have $12000 in 9 years. The account pays 3.8% interest per year, compounded annually. What single deposit do you need to make today?  Use and solve for   "
+},
+{
+  "id": "subsec-compound-interest-12",
+  "level": "2",
+  "url": "sec-intro-to-exponential-growth-and-decay.html#subsec-compound-interest-12",
+  "type": "Checkpoint",
+  "number": "12.2.15",
+  "title": "Saving for Laptop.",
+  "body": " Saving for Laptop  A student wants $5000 for a laptop in 4 years. A savings account pays 5.5% interest per year, compounded annually. What single deposit is needed today?  Use and solve   "
+},
+{
+  "id": "subsec-compound-interest-13",
+  "level": "2",
+  "url": "sec-intro-to-exponential-growth-and-decay.html#subsec-compound-interest-13",
+  "type": "Checkpoint",
+  "number": "12.2.16",
+  "title": "Time to Reach Goal.",
+  "body": " Time to Reach Goal  You deposit $1500 into an account that earns 6% interest per year, compounded annually. Estimate how long will it take for the account to reach $2500, using a graphing calculator or guess and test.  , find when  years  "
+},
+{
+  "id": "subsec-compound-interest-14",
+  "level": "2",
+  "url": "sec-intro-to-exponential-growth-and-decay.html#subsec-compound-interest-14",
+  "type": "Checkpoint",
+  "number": "12.2.17",
+  "title": "Doubling Time.",
+  "body": " Doubling Time  You deposit $2400 into an account that earns 7% interest per year, compounded annually. About how long will it take for the money to double?  Set up  years  "
+},
+{
+  "id": "subsec-compound-interest-15",
+  "level": "2",
+  "url": "sec-intro-to-exponential-growth-and-decay.html#subsec-compound-interest-15",
+  "type": "Checkpoint",
+  "number": "12.2.18",
+  "title": "Finding Interest Rate.",
+  "body": " Finding Interest Rate  An investment grows from $5000 to $5800 in 3 years with compound interest compounded annually. Estimate the annual interest rate .  Set up and use guess and test for .  , so about  "
+},
+{
+  "id": "subsec-compound-interest-16",
+  "level": "2",
+  "url": "sec-intro-to-exponential-growth-and-decay.html#subsec-compound-interest-16",
+  "type": "Checkpoint",
+  "number": "12.2.19",
+  "title": "Finding Initial Deposit.",
+  "body": " Finding Initial Deposit  An account has $8420 after 6 years at 3.9% interest per year, compounded annually. What was the initial deposit?  Use and solve for   "
+},
+{
+  "id": "subsec-compound-interest-17",
+  "level": "2",
+  "url": "sec-intro-to-exponential-growth-and-decay.html#subsec-compound-interest-17",
+  "type": "Checkpoint",
+  "number": "12.2.20",
+  "title": "Investment Growth Time.",
+  "body": " Investment Growth Time  You invest $6800 at 4.2% interest per year, compounded annually. About how long will it take to reach $9000?  , find when  years  "
+},
+{
+  "id": "subsec-more-examples-2",
+  "level": "2",
+  "url": "sec-intro-to-exponential-growth-and-decay.html#subsec-more-examples-2",
+  "type": "Checkpoint",
+  "number": "12.2.21",
+  "title": "Grasshopper Plague.",
+  "body": " Grasshopper Plague   A scientist monitoring a grasshopper plague notices that the area affected by the grasshoppers is given by hectares, where is the number of weeks after the initial observation.    What is the original affected area?  hectares    What is the growth rate per week for the affected area?  15%    Find the affected area after 5 weeks.  hectares    Find the affected area after 10 weeks.  hectares    Sketch a graph of the affected area over time.  An increasing exponential curve with -intercept , passing through approximately and .    Use a graphing calculator to find how long it will take for the affected area to reach 8000 hectares.  weeks   "
+},
+{
+  "id": "subsec-more-examples-3",
+  "level": "2",
+  "url": "sec-intro-to-exponential-growth-and-decay.html#subsec-more-examples-3",
+  "type": "Checkpoint",
+  "number": "12.2.22",
+  "title": "Bacteria Weight.",
+  "body": " Bacteria Weight   The weight of bacteria in a culture hours after establishment is given by grams.    Find the initial weight.  grams    Find the weight after 4 hours.  grams    Find the weight after 10 hours.  grams    Find the weight after 24 hours.  grams    Sketch a graph of the bacteria weight over time using the results of the previous parts.  An increasing exponential curve with -intercept and points , , .   "
+},
+{
+  "id": "subsec-more-examples-4",
+  "level": "2",
+  "url": "sec-intro-to-exponential-growth-and-decay.html#subsec-more-examples-4",
+  "type": "Checkpoint",
+  "number": "12.2.23",
+  "title": "Pygmy Possum Population.",
+  "body": " Pygmy Possum Population   A breeding program to ensure the survival of pygmy possums is established with an initial population of 50 (25 pairs). From a previous program, the expected population in years time is given by .    What is the value of ?     Find the expected population after 2 years.     Find the expected population after 5 years.     Find the expected population after 10 years.     Sketch a graph of the population over time using the previous parts.  An increasing exponential curve with -intercept and points , , .    Find the approximate time needed for the population to reach 500, using a graphing calculator or guess and test.  years   "
+},
+{
+  "id": "subsec-more-examples-5",
+  "level": "2",
+  "url": "sec-intro-to-exponential-growth-and-decay.html#subsec-more-examples-5",
+  "type": "Checkpoint",
+  "number": "12.2.24",
+  "title": "Bear Population.",
+  "body": " Bear Population   A species of bear is introduced to a large island off Alaska where previously there were no bears. In 1998, 6 pairs of bears were introduced. It is expected that the population will increase according to where is the time, in years, since the introduction.    Find .     Find the expected bear population in 2018.  , so bears    Find the expected percentage increase in population from 2008 to 2018.  In 2008, , so bears  From to , the increase is about    Find how long approximately it will take for the population to reach 200, using a graphing calculator or guess and test.  years   "
+},
+{
+  "id": "subsec-more-examples-6",
+  "level": "2",
+  "url": "sec-intro-to-exponential-growth-and-decay.html#subsec-more-examples-6",
+  "type": "Checkpoint",
+  "number": "12.2.25",
+  "title": "Light Intensity Depth.",
+  "body": " Light Intensity Depth  The intensity of light is reduced by 2% for each metre that a diver descends below the surface of the water. At what depth is the intensity of light only 10% of that at the surface?  , find when  , m  "
+},
+{
+  "id": "subsec-more-examples-7",
+  "level": "2",
+  "url": "sec-intro-to-exponential-growth-and-decay.html#subsec-more-examples-7",
+  "type": "Checkpoint",
+  "number": "12.2.26",
+  "title": "World Population Growth.",
+  "body": " World Population Growth  Statistics indicate that the world population since 1995 has been growing at a rate of about 1.27% per year. United Nations records estimate that the world population in 2011 was approximately 7 billion. Assuming the same exponential growth rate, when will the population of the world be 9 billion?  Use , find when , where is years after 2011  , so about the year 2031  "
+},
+{
+  "id": "subsec-more-examples-8",
+  "level": "2",
+  "url": "sec-intro-to-exponential-growth-and-decay.html#subsec-more-examples-8",
+  "type": "Checkpoint",
+  "number": "12.2.27",
+  "title": "Krumbein Phi Scale.",
+  "body": " Krumbein Phi Scale   The Krumbein phi scale is used in geology to classify sediments such as silt, sand, and gravel by particle size. The scale is modelled by the function , where is the diameter of the particle, in millimetres, and is the Krumbein scale value. Fine sand has a Krumbein scale value of approximately 3. Coarse gravel has a Krumbein scale value of approximately .    Why would a coarse material have a negative scale value?  Coarser material has a larger diameter . Since , making negative makes positive, which increases and therefore increases the diameter.    How does the diameter of fine sand compare to the diameter of coarse gravel?  mm and mm, so , meaning coarse gravel has a diameter 256 times the diameter of fine sand   "
 },
 {
   "id": "sec-exponential-equations",
