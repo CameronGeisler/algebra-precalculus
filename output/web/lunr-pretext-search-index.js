@@ -2905,25 +2905,61 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "8.5",
   "title": "Factoring and Graphing Polynomials",
-  "body": " Factoring and Graphing Polynomials    Finding Roots of a Polynomial (Factoring Completely) Examples   Factoring Polynomials Examples   Find the roots of each polynomial function by factoring completely.    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .     Examples with irrational roots or irreducible quadratic factors   Find the roots of each polynomial function by factoring completely.    .  .    .  .    .  .    .  .    .  .    .  .    .  .      Summary of Factoring Higher-Degree Polynomial Functions    (If necessary) Write the polynomial in descending power order.    Check for common factors. If there are any common factors, either a variable, number, or both. If so, factor out the greatest common factor (GCF).   e.g. .  e.g. .  If the leading coefficient is negative, factor out from all its terms.  Especially check if the numbers in the equation are big!     Find one factor, by testing potential zeros until you find a zero. If is a zero, then is a factor (factor theorem).   Can find zeros using your scientific calculator (if allowed) with TABLE mode.   List all of the potential roots to show your work (if required).   If the leading coefficient is 1, then all potential integer roots are the factors of the constant term (integral zero theorem).   If the leading coefficient is not 1, then the possible roots are all fractions of the form , where:   is a factor of the constant term  is a factor of the leading coefficient   (rational root theorem)      Divide out the factor, using synthetic division, so that the resulting polynomial has a degree 1 lower than originally.    Repeat the steps, until the resulting polynomial is quadratic.   You can stack multiple synthetic divisions together for conciseness.  If is a zero, it could still be a zero again (if it is a repeated zero).     Factor the quadratic. If it's not factorable, use the quadratic formula to check for potential irrational zeros.    Note: Also keep in mind other special factoring patterns, which can sometimes be used instead of synthetic divison:    Difference of squares, sum of cubes, difference of cubes.     Quadratic form (e.g. or ).    Factor by grouping.    Some remarks:   The order you find the factors doesn't really matter, in that any order will eventually lead you to the same final factored form. However, if testing zeros, it is often easier and more systematic to start from the simplest and smallest zeros, like 1 or , maybe 2 or , etc.  If you test a number and it is a root, it can still be a root again for the reduced polynomial (if it is a multiple root). However, if you test it and it's not a root, then you can skip that for the reduced polynomial.    "
+  "body": " Factoring and Graphing Polynomials    Finding Cubic Roots with Scientific Calculator (EQN Mode)  My recommended calculator Casio fx-991ES Plus C 2nd edition (or some other similar scientific calculators) can find the zeros of a cubic function for you. You can use this to at least check your work, or help you out if you're stuck. This is similar to how it can calculate the zeros of a quadratic function .   Press MODE , and go to equation mode by pressing EQN . A menu will appear which shows the various equation types. Press 4 to choose the cubic equation option .  The calculator will show entry fields for , , , and . Enter each coefficient in order, pressing = after each one. After entering all coefficients, press = to compute the solutions.  The calculator will display the first root (e.g., followed by the value). Use the up\/down arrow keys to scroll through the roots.    Solving   For example, to solve ,   Enter EQN mode and select cubic (option 4).  Input coefficients: , , , .  Press = to solve. The calculator will show: .     This will always work, except,   If the roots are fractions or irrational, the calculator will only give you a decimal approximation (not exact fractions or radicals).  If there are repeated roots, the calculator will only show the distinct roots, and not tell you which is repeated.   To exit EQN mode, press MODE and select another mode (e.g., COMP ).    Finding Roots of a Polynomial (Factoring Completely) Examples   Factoring Practice 1   Find the roots of each polynomial function by factoring completely.   ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,    Factoring Practice 2   Find the roots of each polynomial function by factoring completely.   ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,    Factoring Practice 3   Find the roots of each polynomial function by factoring completely.   ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,    Polynomials with Irrational Roots or Irreducible Quadratic Factors   Find the roots of each polynomial function by factoring completely.   ,  ,  ,   ,  ,   is a zero, you can use synthetic division or long division. ,     Summary of Factoring Higher-Degree Polynomial Functions   (If necessary) Write the polynomial in descending power order.   Check for common factors. If there are any common factors, either a variable, number, or both. If so, factor out the greatest common factor (GCF).   e.g. .  e.g. .  If the leading coefficient is negative, factor out from all its terms.  Especially check if the numbers in the equation are big!     Find one factor, by testing potential zeros until you find a zero. If is a zero, then is a factor (factor theorem).   Can find zeros using your scientific calculator (if allowed) with TABLE mode.   List all of the potential roots to show your work (if required).   If the leading coefficient is 1, then all potential integer roots are the factors of the constant term (integral zero theorem).   If the leading coefficient is not 1, then the possible roots are all fractions of the form , where:   is a factor of the constant term  is a factor of the leading coefficient   (rational root theorem)     Divide out the factor, using synthetic division, so that the resulting polynomial has a degree 1 lower than originally.  Repeat the steps, until the resulting polynomial is quadratic.  Factor the quadratic. If it's not factorable, use the quadratic formula to check for potential irrational zeros.   Note: Also keep in mind other special factoring patterns, which can sometimes be used instead of synthetic division:    Difference of squares, sum of cubes, difference of cubes.    Quadratic form (e.g. or ).  Factor by grouping.   Some remarks:   The order you find the factors doesn't really matter, in that any order will eventually lead you to the same final factored form. However, if testing zeros, it is often easier and more systematic to start from the simplest and smallest zeros, like 1 or , maybe 2 or , etc.  If you test a number and it is a root, it can still be a root again for the reduced polynomial (if it is a repeated root). On the other hand, if you test it and it's not a root, then it is guaranteed to be not a root for the reduced polynomial, so you can skip it.  With multiple synthetic division steps, you can stack multiple of them together, for conciseness.     Word Problems   Box Volume Problem   If the volume of an open topped box is given by and the length can be expressed as , what are the possible expressions for the dimensions of the box in terms of ? What is the volume of the box if ?     "
 },
 {
-  "id": "sec-factoring-and-graphing-polynomials-2-2",
+  "id": "subsection-finding-cubic-roots-calculator-4",
   "level": "2",
-  "url": "sec-factoring-and-graphing-polynomials.html#sec-factoring-and-graphing-polynomials-2-2",
+  "url": "sec-factoring-and-graphing-polynomials.html#subsection-finding-cubic-roots-calculator-4",
+  "type": "Example",
+  "number": "8.5.1",
+  "title": "Solving <span class=\"process-math\">\\(x^3 - 2x^2 - x + 2 = 0\\)<\/span>.",
+  "body": " Solving   For example, to solve ,   Enter EQN mode and select cubic (option 4).  Input coefficients: , , , .  Press = to solve. The calculator will show: .    "
+},
+{
+  "id": "subsection-finding-roots-polynomial-examples-2",
+  "level": "2",
+  "url": "sec-factoring-and-graphing-polynomials.html#subsection-finding-roots-polynomial-examples-2",
   "type": "Exercise Group",
   "number": "8.5.1",
-  "title": "Factoring Polynomials Examples.",
-  "body": " Factoring Polynomials Examples   Find the roots of each polynomial function by factoring completely.    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .    .  .   "
+  "title": "Factoring Practice 1.",
+  "body": " Factoring Practice 1   Find the roots of each polynomial function by factoring completely.   ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  "
 },
 {
-  "id": "sec-factoring-and-graphing-polynomials-2-3",
+  "id": "subsection-finding-roots-polynomial-examples-3",
   "level": "2",
-  "url": "sec-factoring-and-graphing-polynomials.html#sec-factoring-and-graphing-polynomials-2-3",
+  "url": "sec-factoring-and-graphing-polynomials.html#subsection-finding-roots-polynomial-examples-3",
   "type": "Exercise Group",
   "number": "8.5.2",
-  "title": "Examples with irrational roots or irreducible quadratic factors.",
-  "body": " Examples with irrational roots or irreducible quadratic factors   Find the roots of each polynomial function by factoring completely.    .  .    .  .    .  .    .  .    .  .    .  .    .  .   "
+  "title": "Factoring Practice 2.",
+  "body": " Factoring Practice 2   Find the roots of each polynomial function by factoring completely.   ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  "
+},
+{
+  "id": "subsection-finding-roots-polynomial-examples-4",
+  "level": "2",
+  "url": "sec-factoring-and-graphing-polynomials.html#subsection-finding-roots-polynomial-examples-4",
+  "type": "Exercise Group",
+  "number": "8.5.3",
+  "title": "Factoring Practice 3.",
+  "body": " Factoring Practice 3   Find the roots of each polynomial function by factoring completely.   ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  "
+},
+{
+  "id": "subsection-finding-roots-polynomial-examples-5",
+  "level": "2",
+  "url": "sec-factoring-and-graphing-polynomials.html#subsection-finding-roots-polynomial-examples-5",
+  "type": "Exercise Group",
+  "number": "8.5.4",
+  "title": "Polynomials with Irrational Roots or Irreducible Quadratic Factors.",
+  "body": " Polynomials with Irrational Roots or Irreducible Quadratic Factors   Find the roots of each polynomial function by factoring completely.   ,  ,  ,   ,  ,   is a zero, you can use synthetic division or long division. ,  "
+},
+{
+  "id": "subsection-factoring-and-graphing-word-problems-2",
+  "level": "2",
+  "url": "sec-factoring-and-graphing-polynomials.html#subsection-factoring-and-graphing-word-problems-2",
+  "type": "Example",
+  "number": "8.5.2",
+  "title": "Box Volume Problem.",
+  "body": " Box Volume Problem   If the volume of an open topped box is given by and the length can be expressed as , what are the possible expressions for the dimensions of the box in terms of ? What is the volume of the box if ?   "
 },
 {
   "id": "sec-applications-of-polynomial-function",
@@ -2980,13 +3016,13 @@ var ptx_lunr_docs = [
   "body": " Twin Ages Problem   Fred and Ted are twins. They were born 3 years after their older sister, Bethany. This year, the product of their three ages is 5726 greater than the sum of their ages. How old are the twins?    Leads to , leading to .    17 years old.   "
 },
 {
-  "id": "sec-polynomial-functions-summary",
+  "id": "sec-summary-of-polynomial-functions",
   "level": "1",
-  "url": "sec-polynomial-functions-summary.html",
+  "url": "sec-summary-of-polynomial-functions.html",
   "type": "Section",
   "number": "8.7",
-  "title": "Polynomial Functions Summary",
-  "body": " Polynomial Functions Summary    Summary of Graphing a Polynomial Function     End behavior . Find the end behavior of the polynomial, based on the degree and leading coefficient.     y-Intercept : Find the -intercept, by evaluating (setting and solving for ).     x-Intercept(s) : Find any -intercepts, by finding the zeros of the polynomial (setting and solving for ). Use a scientific calculator, or the integral zero theorem \/ rational root theorem. See .     Multiplicity . Note the multiplicity of each zero. See .    Plot the -intercepts and -intercept.    Plot additional points between zeros (for more detail, if necessary).    Connect all of the points with a smooth curve, while respecting the end behavior and multiplicity at each zero.     "
+  "title": "Summary of Polynomial Functions",
+  "body": " Summary of Polynomial Functions    Summary of Graphing a Polynomial Function     End behavior . Find the end behavior of the polynomial, based on the degree and leading coefficient.     y-Intercept : Find the -intercept, by evaluating (setting and solving for ).     x-Intercept(s) : Find any -intercepts, by finding the zeros of the polynomial (setting and solving for ). Use a scientific calculator, or the integral zero theorem \/ rational root theorem. See .     Multiplicity . Note the multiplicity of each zero. See .    Plot the -intercepts and -intercept.    Plot additional points between zeros (for more detail, if necessary).    Connect all of the points with a smooth curve, while respecting the end behavior and multiplicity at each zero.     "
 },
 {
   "id": "sec-interval-notation",

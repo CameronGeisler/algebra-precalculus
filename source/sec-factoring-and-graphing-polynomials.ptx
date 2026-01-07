@@ -12,198 +12,116 @@
   </p>
   </introduction> -->
   
-  <subsection>
+  <subsection xml:id="subsection-finding-cubic-roots-calculator">
+    <title>Finding Cubic Roots with Scientific Calculator (EQN Mode)</title>
+    <p>
+      My recommended calculator <url href="https://camerongeisler.com/calculator-guide-for-students-how-to-buy-a-calculator/">Casio fx-991ES Plus C 2nd edition</url> (or some other similar scientific calculators) can find the zeros of a cubic function for you. You can use this to at least check your work, or help you out if you're stuck. This is similar to how it can <url href="https://camerongeisler.github.io/algebra-precalculus/sec-zeros-of-quadratic-functions-intro.html#subsection-calculator-quadratic">calculate the zeros of a quadratic function</url>.
+    </p>
+    <ol>
+      <li><p>Press <alert>MODE</alert>, and go to equation mode by pressing <alert>EQN</alert>. A menu will appear which shows the various equation types. Press <alert>4</alert> to choose the cubic equation option <m>aX^3 + bX^2 + cX + d = 0</m>.</p></li>
+      <li><p>The calculator will show entry fields for <m>a</m>, <m>b</m>, <m>c</m>, and <m>d</m>. Enter each coefficient in order, pressing <alert>=</alert> after each one. After entering all coefficients, press <alert>=</alert> to compute the solutions.</p></li>
+      <li><p>The calculator will display the first root (e.g., <m>X_1 =</m> followed by the value). Use the up/down arrow keys to scroll through the roots.</p></li>
+    </ol>
+    <example>
+      <title>Solving <m>x^3 - 2x^2 - x + 2 = 0</m></title>
+      <statement>
+        <p>For example, to solve <m>x^3 - 2x^2 - x + 2 = 0</m>,</p>
+        <ul>
+          <li>Enter EQN mode and select cubic (option 4).</li>
+          <li>Input coefficients: <m>1 =</m> , <m>-2 =</m> , <m>-1 =</m> , <m>2 =</m>.</li>
+          <li>Press <alert>=</alert> to solve. The calculator will show: <m>X_1 = -1, \quad X_2 = 1, \quad X_3 = 2</m>.</li>
+        </ul>
+      </statement>
+    </example>
+    <p>This will always work, except,</p>
+    <ul>
+      <li>If the roots are fractions or irrational, the calculator will only give you a decimal approximation (not exact fractions or radicals).</li>
+      <li>If there are repeated roots, the calculator will only show the distinct roots, and not tell you which is repeated.</li>
+    </ul>
+    <p>To exit EQN mode, press <alert>MODE</alert> and select another mode (e.g., <alert>COMP</alert>).</p>
+  </subsection>
+  
+  <subsection xml:id="subsection-finding-roots-polynomial-examples">
     <title>Finding Roots of a Polynomial (Factoring Completely) Examples</title>
     
     <project>
-      <title>Factoring Polynomials Examples</title>
+      <title>Factoring Practice 1</title>
       <introduction>
         <p>Find the roots of each polynomial function by factoring completely.</p>
       </introduction>
-      <task>
-        <statement><m>f(x) = x^3-3x^2-x+3</m>.</statement>
-        <answer><m>f(x) = (x-1)(x-3)(x+1), x=-1,1,3</m>.</answer>
-      </task>
-      <task>
-        <statement><m>f(x) = x^3+2x^2-5x-6</m>.</statement>
-        <answer><m>f(x) = (x+1)(x-2)(x+3), x=-3,-1,2</m>.</answer>
-      </task>
-      <task>
-        <statement><m>f(x) = x^4 + x^3 - 13x^2 - 25x - 12</m>.</statement>
-        <answer><m>f(x) = (x+1)^2(x-4)(x+3), x=-1,4,-3</m>.</answer>
-      </task>
-      <task>
-        <statement><m>f(x) = 2x^3-5x^2-4x+3</m>.</statement>
-        <answer><m>f(x) = (x+1)(2x-1)(x-3), x=-1,\frac{1}{2},3</m>.</answer>
-      </task>
-      <task>
-        <statement><m>f(x) = x^3 + 5x^2 + 2x - 8</m>.</statement>
-        <answer><m>f(x) = (x-1)(x+2)(x+4), x=1,-2,-4</m>.</answer>
-      </task>
-      <task>
-        <statement><m>f(x) = 2x^3-15x^2+22x+15</m>.</statement>
-        <answer><m>f(x) = (x-3)(2x+1)(x-5), x=3,-\frac{1}{2},5</m>.</answer>
-      </task>
-      <task>
-        <statement><m>f(x) = -x^3 - x^2 + 22x + 40</m>.</statement>
-        <answer><m>f(x) = -(x+2)(x+4)(x-5), x=-2,-4,5</m>.</answer>
-      </task>
-      <task>
-        <statement><m>f(x) = 3x^3 - 4x^2 - 59x + 20</m>.</statement>
-        <answer><m>f(x) = (x+4)(x-5)(3x-1), x=-4,5,\frac{1}{3}</m>.</answer>
-      </task>
-      <task>
-        <statement><m>f(x) = 3x^3 - 4x^2 - 5x + 2</m>.</statement>
-        <answer><m>f(x) = (x+1)(x-2)(3x-1), x=-1,2,\frac{1}{3}</m>.</answer>
-      </task>
-      <task>
-        <statement><m>f(x) = x^4-5x^3+2x^2+20x-24</m>.</statement>
-        <answer><m>f(x) = (x-2)^2(x+2)(x-3), x=2,-2,3</m>.</answer>
-      </task>
-      <task>
-        <statement><m>f(x) = x^4-3x^3-7x^2+15x+18</m>.</statement>
-        <answer><m>f(x) = (x+1)(x+2)(x-3)^2, x=-1,-2,3</m>.</answer>
-      </task>
-      <task>
-        <statement><m>f(x)=x^3-6x^2+11x-6</m>.</statement>
-        <answer><m>f(x)=(x-1)(x-2)(x-3), x=1,2,3</m>.</answer>
-      </task>
-      <task>
-        <statement><m>f(x)=x^3+3x^2-4</m>.</statement>
-        <answer><m>f(x)=(x-1)(x+2)^2, x=1,-2</m>.</answer>
-      </task>
-      <task>
-        <statement><m>f(x)=x^3+2x^2-x-2</m>.</statement>
-        <answer><m>f(x)=(x-1)(x+1)(x+2), x=-2,-1,1</m>.</answer>
-      </task>
-      <task>
-        <statement><m>f(x)=x^3+x^2-16x-16</m>.</statement>
-        <answer><m>f(x)=(x-4)(x+1)(x+4), x=-4,-1,4</m>.</answer>
-      </task>
-      <task>
-        <statement><m>f(x)=x^4+4x^3-7x^2-34x-24</m>.</statement>
-        <answer><m>f(x)=(x-3)(x+1)(x+2)(x+4), x=-4,-2,-1,3</m>.</answer>
-      </task>
-      <task>
-        <statement><m>f(x)=3x^3 + x^2 - 20x + 12</m>.</statement>
-        <answer><m>f(x)=(x-2)(x+3)(3x-2), x=2,-3,\frac{2}{3}</m>.</answer>
-      </task>
-      <task>
-        <statement><m>f(x)=x^5+3x^4-5x^3-15x^2+4x+12</m>.</statement>
-        <answer><m>f(x)=(x-2)(x-1)(x+1)(x+2)(x+3), x=-3,-2,-1,1,2</m>.</answer>
-      </task>
-      <task>
-        <statement><m>f(x)=x^4-4x^2</m>.</statement>
-        <answer><m>f(x) = x^2(x-2)(x+2), x=0,2,-2</m>.</answer>
-      </task>
-      <task>
-        <statement><m>f(x)=x^5+3x^4-x^3-7x^2 + 4</m>.</statement>
-        <answer><m>f(x)=(x-1)^2(x+1)(x+2)^2, x=-2,-1,1</m>.</answer>
-      </task>
-      <task>
-        <statement><m>f(x)=x^3-2x^2-9x+18</m>.</statement>
-        <answer><m>f(x)=(x-3)(x-2)(x+3), x=-3,2,3</m>.</answer>
-      </task>
-      <task>
-        <statement><m>f(x) = x^3 + 7x^2 + 16x + 12</m>.</statement>
-        <answer><m>f(x) = (x+2)^2(x+3), x=-3,-2</m>.</answer>
-      </task>
-      <task>
-        <statement><m>f(x)=x^3-7x^2+7x+15</m>.</statement>
-        <answer><m>f(x)=(x-5)(x-3)(x+1), x=5,3,-1</m>.</answer>
-      </task>
-      <task>
-        <statement><m>f(x)=x^3-7x^2-41x-33</m>.</statement>
-        <answer><m>f(x)=(x-11)(x+1)(x+3), x=11,-1,-3</m>.</answer>
-      </task>
-      <task>
-        <statement><m>f(x)=x^4+2x^3-7x^2-8x+12</m>.</statement>
-        <answer><m>f(x)=(x-2)(x-1)(x+2)(x+3), x=2,1,-2,-3</m>.</answer>
-      </task>
-      <task>
-        <statement><m>f(x) = x^3 - 4x^2 - 45x</m>.</statement>
-        <answer><m>f(x) = x(x - 9)(x + 5), x=0,9,-5</m>.</answer>
-      </task>
-      <task>
-        <statement><m>f(x) = x^4 - 81x^2</m>.</statement>
-        <answer><m>f(x) = x^2(x - 9)(x + 9), x=0,9,-9</m>.</answer>
-      </task>
-      <task>
-        <statement><m>f(x) = x^3 + 3x^2 - x - 3</m>.</statement>
-        <answer><m>f(x) = (x - 1)(x + 1)(x + 3), x=1,-1,-3</m>.</answer>
-      </task>
-      <task>
-        <statement><m>f(x) = -x^4 - 2x^3 + 7x^2 + 8x - 12</m>.</statement>
-        <answer><m>f(x) = -(x - 2)(x - 1)(x + 2)(x + 3), x=2,1,-2,-3</m>.</answer>
-      </task>
-      <task>
-        <statement><m>f(x) = x^4 - 4x^3 + x^2 + 6x</m>.</statement>
-        <answer><m>f(x) = x(x - 3)(x - 2)(x + 1), x=0,3,2,-1</m>.</answer>
-      </task>
-      <task>
-        <statement><m>f(x) = x^3 + 3x^2 - 6x - 8</m>.</statement>
-        <answer><m>f(x) = (x - 2)(x + 1)(x + 4), x=2,-1,-4</m>.</answer>
-      </task>
-      <task>
-        <statement><m>f(x) = x^3 - 4x^2 + x + 6</m>.</statement>
-        <answer><m>f(x) = (x - 3)(x - 2)(x + 1), x=3,2,-1</m>.</answer>
-      </task>
-      <task>
-        <statement><m>f(x) = -x^3 + 5x^2 - 7x + 3</m>.</statement>
-        <answer><m>f(x) = -(x - 3)(x - 1)^2, x=3,1</m>.</answer>
-      </task>
-      <task>
-        <statement><m>f(x) = -x^4 - 2x^3 + 3x^2 + 4x - 4</m>.</statement>
-        <answer><m>f(x) = -(x - 1)^2(x + 2)^2, x=1,-2</m>.</answer>
-      </task>
+      <task><statement><m>f(x)=x^3-3x^2-x+3</m></statement><answer><p><m>f(x)=(x-1)(x-3)(x+1)</m>, <m>x=-1,1,3</m></p></answer></task>
+      <task><statement><m>f(x)=x^3-6x^2+11x-6</m></statement><answer><p><m>f(x)=(x-1)(x-2)(x-3)</m>, <m>x=1,2,3</m></p></answer></task>
+      <task><statement><m>f(x)=x^3+2x^2-x-2</m></statement><answer><p><m>f(x)=(x-1)(x+1)(x+2)</m>, <m>x=-2,-1,1</m></p></answer></task>
+      <task><statement><m>f(x)=x^3+x^2-16x-16</m></statement><answer><p><m>f(x)=(x-4)(x+1)(x+4)</m>, <m>x=-4,-1,4</m></p></answer></task>
+      <task><statement><m>f(x)=x^4-4x^2</m></statement><answer><p><m>f(x)=x^2(x-2)(x+2)</m>, <m>x=0,2,-2</m></p></answer></task>
+      <task><statement><m>f(x)=x^3-2x^2-9x+18</m></statement><answer><p><m>f(x)=(x-3)(x-2)(x+3)</m>, <m>x=-3,2,3</m></p></answer></task>
+      <task><statement><m>f(x)=x^3-4x^2-45x</m></statement><answer><p><m>f(x)=x(x-9)(x+5)</m>, <m>x=0,9,-5</m></p></answer></task>
+      <task><statement><m>f(x)=x^4-81x^2</m></statement><answer><p><m>f(x)=x^2(x-9)(x+9)</m>, <m>x=0,9,-9</m></p></answer></task>
+      <task><statement><m>f(x)=x^3+3x^2-x-3</m></statement><answer><p><m>f(x)=(x-1)(x+1)(x+3)</m>, <m>x=1,-1,-3</m></p></answer></task>
+      <task><statement><m>f(x)=x^4-4x^3+x^2+6x</m></statement><answer><p><m>f(x)=x(x-3)(x-2)(x+1)</m>, <m>x=0,3,2,-1</m></p></answer></task>
+      <task><statement><m>f(x)=x^3+3x^2-6x-8</m></statement><answer><p><m>f(x)=(x-2)(x+1)(x+4)</m>, <m>x=2,-1,-4</m></p></answer></task>
+      <task><statement><m>f(x)=x^3-4x^2+x+6</m></statement><answer><p><m>f(x)=(x-3)(x-2)(x+1)</m>, <m>x=3,2,-1</m></p></answer></task>
     </project>
     
     <project>
-      <title>Examples with irrational roots or irreducible quadratic factors</title>
+      <title>Factoring Practice 2</title>
       <introduction>
         <p>Find the roots of each polynomial function by factoring completely.</p>
       </introduction>
-      <task>
-        <statement><m>f(x)=x^5 - 3x^4 + 8x^2 - 9x + 3</m>.</statement>
-        <answer><m>f(x)=(x-1)^3(x^2-3), x=1, \sqrt{3}, -\sqrt{3}</m>.</answer>
-      </task>
-      <task>
-        <statement><m>f(x)=x^3-27x+10</m>.</statement>
-        <answer><m>f(x)=(x-5)(x^2+5x-2), x=5, x=\frac{-5\pm\sqrt{33}}{2}</m>.</answer>
-      </task>
-      <task>
-        <statement><m>f(x)=x^4+5x^3+2x^2+7x-15</m>.</statement>
-        <answer><m>f(x)=(x-1)(x+5)(x^2+x+3), x=1,-5</m>.</answer>
-      </task>
-      <task>
-        <statement><m>f(x) = 2x^3 - 8x^2 - x + 4</m>.</statement>
-        <answer><m>f(x) = (x-4)(2x^2-1), x = 4, \pm \frac{1}{\sqrt{2}}</m>.</answer>
-      </task>
-      <task>
-        <statement><m>f(x)=x^4+9x^3+12x^2-11x+21</m>.</statement>
-        <answer><m>f(x)=(x+3)(x+7)(x^2-x+1), x=-3,-7</m>.</answer>
-      </task>
-      <task>
-        <statement><m>f(x)=3x^3+5x^2-3x-2</m>.</statement>
-        <answer><m>f(x)=(x+2)(3x^2-x-1), x=-2, \frac{1\pm\sqrt{13}}{6}</m>.</answer>
-      </task>
-      <task>
-        <statement><m>f(x) = -2x^4 + 4x^3 + 15x^2 - 16x - 28</m>.</statement>
-        <answer><m>f(x) = (x-2)(x+2)(-2x^2 + 4x + 7), x = 2, -2, \frac{2 \pm 3\sqrt{2}}{2}</m>.</answer>
-      </task>
+      <task><statement><m>f(x)=x^3+2x^2-5x-6</m></statement><answer><p><m>f(x)=(x+1)(x-2)(x+3)</m>, <m>x=-3,-1,2</m></p></answer></task>
+      <task><statement><m>f(x)=x^4+x^3-13x^2-25x-12</m></statement><answer><p><m>f(x)=(x+1)^2(x-4)(x+3)</m>, <m>x=-1,4,-3</m></p></answer></task>
+      <task><statement><m>f(x)=x^3+5x^2+2x-8</m></statement><answer><p><m>f(x)=(x-1)(x+2)(x+4)</m>, <m>x=1,-2,-4</m></p></answer></task>
+      <task><statement><m>f(x)=-x^3-x^2+22x+40</m></statement><answer><p><m>f(x)=-(x+2)(x+4)(x-5)</m>, <m>x=-2,-4,5</m></p></answer></task>
+      <task><statement><m>f(x)=x^4-5x^3+2x^2+20x-24</m></statement><answer><p><m>f(x)=(x-2)^2(x+2)(x-3)</m>, <m>x=2,-2,3</m></p></answer></task>
+      <task><statement><m>f(x)=x^4-3x^3-7x^2+15x+18</m></statement><answer><p><m>f(x)=(x+1)(x+2)(x-3)^2</m>, <m>x=-1,-2,3</m></p></answer></task>
+      <task><statement><m>f(x)=x^3+3x^2-4</m></statement><answer><p><m>f(x)=(x-1)(x+2)^2</m>, <m>x=1,-2</m></p></answer></task>
+      <task><statement><m>f(x)=x^3+7x^2+16x+12</m></statement><answer><p><m>f(x)=(x+2)^2(x+3)</m>, <m>x=-3,-2</m></p></answer></task>
+      <task><statement><m>f(x)=x^3-7x^2+7x+15</m></statement><answer><p><m>f(x)=(x-5)(x-3)(x+1)</m>, <m>x=5,3,-1</m></p></answer></task>
+      <task><statement><m>f(x)=x^3-7x^2-41x-33</m></statement><answer><p><m>f(x)=(x-11)(x+1)(x+3)</m>, <m>x=11,-1,-3</m></p></answer></task>
+      <task><statement><m>f(x)=-x^3+5x^2-7x+3</m></statement><answer><p><m>f(x)=-(x-3)(x-1)^2</m>, <m>x=3,1</m></p></answer></task>
+      <task><statement><m>f(x)=-x^4-2x^3+3x^2+4x-4</m></statement><answer><p><m>f(x)=-(x-1)^2(x+2)^2</m>, <m>x=1,-2</m></p></answer></task>
+    </project>
+    
+    <project>
+      <title>Factoring Practice 3</title>
+      <introduction>
+        <p>Find the roots of each polynomial function by factoring completely.</p>
+      </introduction>
+      <task><statement><m>f(x)=2x^3-5x^2-4x+3</m></statement><answer><p><m>f(x)=(x+1)(2x-1)(x-3)</m>, <m>x=-1,\frac{1}{2},3</m></p></answer></task>
+      <task><statement><m>f(x)=2x^3-15x^2+22x+15</m></statement><answer><p><m>f(x)=(x-3)(2x+1)(x-5)</m>, <m>x=3,-\frac{1}{2},5</m></p></answer></task>
+      <task><statement><m>f(x)=3x^3-4x^2-59x+20</m></statement><answer><p><m>f(x)=(x+4)(x-5)(3x-1)</m>, <m>x=-4,5,\frac{1}{3}</m></p></answer></task>
+      <task><statement><m>f(x)=3x^3-4x^2-5x+2</m></statement><answer><p><m>f(x)=(x+1)(x-2)(3x-1)</m>, <m>x=-1,2,\frac{1}{3}</m></p></answer></task>
+      <task><statement><m>f(x)=3x^3+x^2-20x+12</m></statement><answer><p><m>f(x)=(x-2)(x+3)(3x-2)</m>, <m>x=2,-3,\frac{2}{3}</m></p></answer></task>
+      <task><statement><m>f(x)=x^5+3x^4-5x^3-15x^2+4x+12</m></statement><answer><p><m>f(x)=(x-2)(x-1)(x+1)(x+2)(x+3)</m>, <m>x=-3,-2,-1,1,2</m></p></answer></task>
+      <task><statement><m>f(x)=x^5+3x^4-x^3-7x^2+4</m></statement><answer><p><m>f(x)=(x-1)^2(x+1)(x+2)^2</m>, <m>x=-2,-1,1</m></p></answer></task>
+      <task><statement><m>f(x)=x^4+4x^3-7x^2-34x-24</m></statement><answer><p><m>f(x)=(x-3)(x+1)(x+2)(x+4)</m>, <m>x=-4,-2,-1,3</m></p></answer></task>
+      <task><statement><m>f(x)=x^4+2x^3-7x^2-8x+12</m></statement><answer><p><m>f(x)=(x-2)(x-1)(x+2)(x+3)</m>, <m>x=2,1,-2,-3</m></p></answer></task>
+      <task><statement><m>f(x)=-x^4-2x^3+7x^2+8x-12</m></statement><answer><p><m>f(x)=-(x-2)(x-1)(x+2)(x+3)</m>, <m>x=2,1,-2,-3</m></p></answer></task>
+      <task><statement><m>f(x)=2x^4-x^3-14x^2+19x-6</m></statement><answer><p><m>f(x)=(x-1)(x-2)(2x-1)(x+3)</m>, <m>x=1,2,\frac{1}{2},-3</m></p></answer></task>
+    </project>
+    
+    <project>
+      <title>Polynomials with Irrational Roots or Irreducible Quadratic Factors</title>
+      <introduction>
+        <p>Find the roots of each polynomial function by factoring completely.</p>
+      </introduction>
+      <task><statement><m>f(x)=x^5-3x^4+8x^2-9x+3</m></statement><answer><p><m>f(x)=(x-1)^3(x^2-3)</m>, <m>x=1,\sqrt{3},-\sqrt{3}</m></p></answer></task>
+      <task><statement><m>f(x)=x^3-27x+10</m></statement><answer><p><m>f(x)=(x-5)(x^2+5x-2)</m>, <m>x=5, x=\frac{-5\pm\sqrt{33}}{2}</m></p></answer></task>
+      <task><statement><m>f(x)=x^4+5x^3+2x^2+7x-15</m></statement><answer><p><m>f(x)=(x-1)(x+5)(x^2+x+3)</m>, <m>x=1,-5</m></p></answer></task>
+      <task><statement><m>f(x) = 2x^3 - 8x^2 - x + 4</m></statement><answer><p><m>f(x) = (x-4)(2x^2-1), x = 4, \pm \frac{1}{\sqrt{2}}</m></p></answer></task>
+      <task><statement><m>f(x)=x^4+9x^3+12x^2-11x+21</m></statement><answer><p><m>f(x)=(x+3)(x+7)(x^2-x+1)</m>, <m>x=-3,-7</m></p></answer></task>
+      <task><statement><m>f(x)=3x^3+5x^2-3x-2</m></statement><answer><p><m>f(x)=(x+2)(3x^2-x-1)</m>, <m>x=-2, \frac{1\pm\sqrt{13}}{6}</m></p></answer></task>
+      <task><statement><m>f(x) = -2x^4 + 4x^3 + 15x^2 - 16x - 28</m></statement><answer><p><m>f(x) = (x-2)(x+2)(-2x^2 + 4x + 7), x = 2, -2, \frac{2 \pm 3\sqrt{2}}{2}</m></p></answer></task>
+      <task><statement><m>f(x)=3x^2+x^2-9x-3</m></statement><hint><p><m>x=-\frac{1}{3}</m> is a zero, you can use synthetic division or long division.</p></hint><answer><p><m>f(x)=(3x+1)(x^2-3)</m>, <m>x=-\frac{1}{3}, \sqrt{3},-\sqrt{3}</m></p></answer></task>
     </project>
   </subsection>
   
   <subsection xml:id="summary-of-factoring-polynomials">
     <title>Summary of Factoring Higher-Degree Polynomial Functions</title>
     <ol>
+      <li><p>(If necessary) Write the polynomial in descending power order.</p></li>
       <li>
-        <p>(If necessary) Write the polynomial in descending power order.</p>
-      </li>
-      <li>
-        <p>
-          Check for common factors. If there are any common factors, either a variable, number, or both. If so, factor out the greatest common factor (GCF).
-        </p>
+        <p>Check for common factors. If there are any common factors, either a variable, number, or both. If so, factor out the greatest common factor (GCF).</p>
         <ul>
           <li>e.g. <m>f(x) = 6x^3 - 12x^2 + 18x = 6x(x^2-2x+3)</m>.</li>
           <li>e.g. <m>f(x) = x^4 - 2x^3 - 11x^2 + 12x = x(x^3-2x^2-11x+12)</m>.</li>
@@ -212,76 +130,56 @@
         </ul>
       </li>
       <li>
-        <p>
-          Find one factor, by testing potential zeros until you find a zero. If <m>x = a</m> is a zero, then <m>x-a</m> is a factor (factor theorem).
-        </p>
+        <p>Find one factor, by testing potential zeros until you find a zero. If <m>x = a</m> is a zero, then <m>x-a</m> is a factor (factor theorem).</p>
         <ul>
           <li>Can find zeros using your scientific calculator (if allowed) with TABLE mode.</li>
         </ul>
-        <p>
-          List all of the potential roots to show your work (if required).
-        </p>
+        <p>List all of the potential roots to show your work (if required).</p>
         <ul>
           <li>If the leading coefficient is 1, then all potential integer roots are the factors of the constant term (integral zero theorem).</li>
           <li>
-            <p>
-              If the leading coefficient is not 1, then the possible roots are all fractions of the form <m>\frac{p}{q}</m>, where:
-            </p>
+            <p>If the leading coefficient is not 1, then the possible roots are all fractions of the form <m>\frac{p}{q}</m>, where:</p>
             <ul>
               <li><m>p</m> is a factor of the constant term</li>
               <li><m>q</m> is a factor of the leading coefficient</li>
             </ul>
-            <p>
-              (rational root theorem)
-            </p>
+            <p>(rational root theorem)</p>
           </li>
         </ul>
       </li>
-      <li>
-        <p>Divide out the factor, using synthetic division, so that the resulting polynomial has a degree 1 lower than originally.</p>
-      </li>
-      <li>
-        <p>
-          Repeat the steps, until the resulting polynomial is quadratic.
-        </p>
-        <ul>
-          <li>You can stack multiple synthetic divisions together for conciseness.</li>
-          <li>If <m>x=a</m> is a zero, it could still be a zero again (if it is a repeated zero).</li>
-        </ul>
-      </li>
-      <li>
-        <p>Factor the quadratic. If it's not factorable, use the quadratic formula to check for potential irrational zeros.</p>
-      </li>
+      <li><p>Divide out the factor, using synthetic division, so that the resulting polynomial has a degree 1 lower than originally.</p></li>
+      <li><p>Repeat the steps, until the resulting polynomial is quadratic.</p></li>
+      <li><p>Factor the quadratic. If it's not factorable, use the quadratic formula to check for potential irrational zeros.</p></li>
     </ol>
-    <p>
-      Note: Also keep in mind other special factoring patterns, which can sometimes be used instead of synthetic divison:
-    </p>
+    <p>Note: Also keep in mind other special factoring patterns, which can sometimes be used instead of synthetic division:</p>
     <ul>
       <li>
-        <p>
-          Difference of squares, sum of cubes, difference of cubes.
-        </p>
+        <p>Difference of squares, sum of cubes, difference of cubes.</p>
         <md>
           <mrow>a^2 - b^2 \amp = (a + b)(a - b) \amp x^2 - 9 \amp= (x+3)(x-3)</mrow>
           <mrow>a^3 + b^3 \amp = (a + b)(a^2 - ab + b^2) \amp x^3 + 8 \amp= (x+2)(x^2 - 2x + 4)</mrow>
           <mrow>a^3 - b^3 \amp = (a - b)(a^2 + ab + b^2) \amp x^3 - 27 \amp= (x-3)(x^2+3x+9)</mrow>
         </md>
       </li>
-      <li>
-        <p>Quadratic form (e.g. <m>u = x^2</m> or <m>u = x^3</m>).</p>
-      </li>
-      <li>
-        <p>Factor by grouping.</p>
-      </li>
+      <li>Quadratic form (e.g. <m>u = x^2</m> or <m>u = x^3</m>).</li>
+      <li>Factor by grouping.</li>
     </ul>
-    
-    <p>
-      Some remarks:
-    </p>
+    <p>Some remarks:</p>
     <ul>
       <li>The order you find the factors doesn't really matter, in that any order will eventually lead you to the same final factored form. However, if testing zeros, it is often easier and more systematic to start from the simplest and smallest zeros, like 1 or <m>-1</m>, maybe 2 or <m>-2</m>, etc.</li>
-      <li>If you test a number and it is a root, it can still be a root again for the reduced polynomial (if it is a multiple root). However, if you test it and it's not a root, then you can skip that for the reduced polynomial.</li>
+      <li>If you test a number and it is a root, it can still be a root again for the reduced polynomial (if it is a repeated root). On the other hand, if you test it and it's not a root, then it is guaranteed to be not a root for the reduced polynomial, so you can skip it.</li>
+      <li>With multiple synthetic division steps, you can stack multiple of them together, for conciseness.</li>
     </ul>
+  </subsection>
+  
+  <subsection xml:id="subsection-factoring-and-graphing-word-problems">
+    <title>Word Problems</title>
+    <example>
+      <title>Box Volume Problem</title>
+      <statement>
+        <p>If the volume of an open topped box is given by <m>V(x)=x^3+5x^2+2x-8</m> and the length can be expressed as <m>x+4</m>, what are the possible expressions for the dimensions of the box in terms of <m>x</m>? What is the volume of the box if <m>x=4</m>?</p>
+      </statement>
+    </example>
   </subsection>
   
 </section>
