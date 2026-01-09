@@ -4177,11 +4177,182 @@ var ptx_lunr_docs = [
   "body": " Peeling Off Extra Factors   Solve each equation.     and differ by 3 factors of 2      , use quadratic form        "
 },
 {
+  "id": "sec-carbon-dating-and-half-life",
+  "level": "1",
+  "url": "sec-carbon-dating-and-half-life.html",
+  "type": "Section",
+  "number": "12.6",
+  "title": "Carbon Dating and Half-Life",
+  "body": " Carbon Dating and Half-Life    Application: Carbon Dating   Carbon dating is a method for estimating how long ago a living thing died. Using it, we can estimate how long ago animals like mammoths lived, or ancient humans, without having actual records of them.   All living things contain carbon, and there are different types of carbon.    One is called carbon-12 , which is the normal type of carbon.    Another is carbon-14 , which is a radioactive type of carbon (called an isotope), which decays over time into a different element.    When a plant or animal is alive, it always has roughly the same amount of carbon-14. However, when it dies, it stops taking in new carbon-14 (or any carbon at all). Over time, its amount of carbon-14 decreases. It turns out that it decreases exponentially.  To measure the rate of exponential decay, instead of using a percentage, we use its half-life , which is the time it takes for the amount to decay to half its initial amount.  Carbon-14 has a half-life of 5730 years. This means that:    After 5730 years, half of the carbon-14 is gone.    After another 5730 years, half of what's left is gone (so 25% of the initial amount is left).    Then half again, and again, and so on.    This means if we start with 100% of the carbon-14, then the percent of carbon-14 remaining after years is given by,     The growth factor is because we want to multiply the amount by    represents the number of half-lives in years. For example, if , that is half-lives.    The idea behind carbon dating is that if we measure how much carbon-14 the dead organism has, and also know how much it had when alive, we can estimate how long the carbon-14 has been decaying for, and therefore how long ago it died.     Carbon-14 has a half-life of 5730 years. Find the approximate age of a dead organism that has 20% of its original carbon-14 in its tissues.    , find when    Approximately 13308 years     Carbon dating works for organisms that are up to about 60000 years old, as anything older than that has too little carbon-14 to measure. It was developed in 1949 by Willard Libby (1908-1980), American chemist, and it revolutionized archaeology and paleontology.     Application: Radioactive Decay  Many elements have radioactive isotopes , which are versions of the element which are radioactive. These radioactive isotopes decay over time into regular, non-radioactive elements. They decay continuously at a constant percentage, and so they can be modelled using exponential decay.  The half-life of a substance is the time required for a decaying amount to decay to half its initial amount.   Half-life is analogous to doubling time for exponential growth.      represents the growth factor (or decay factor, since it is exponential decay).    represents the number of times that factor is applied (in other words, the number of half-lives in time ).     If a radioactive substance starts with 100g, after 1 half-life it will decay to 50g. After another half-life, that 50g will decay to 25g (half of 50g), and so on.    # of half-lives  Amount (g)    0  100    1  50    2  25    3  12.5    4  6.25    5  3.125    6  1.5625       How many half-lives does it take for a radioactive sample to decay to 12.5% of its original element?    3 half-lives      After 40 years, an original sample of 100 kg has decayed to 25 kg. What is this material's half-life?    to go from 100 kg to 25 kg, that is 2 half-lives    20 years      Americium (Am) is a radioactive element that is used in household smoke detectors. Am-241 has a half-life of approximately 432 years. The average smoke detector contains 0.28 of Am-241. Find an equation for the amount of Am-241 in a smoke detector after years.         Radioactive argon-39 has a half-life of 275 years. If we initially have 84 grams of argon-39, how much remains after 1600 years?    Use , and    Approximately 1.49 grams      Radioactive phosphorus-32 is used to study liver function. It has a half-life of 14.3 days. If a small amount of phosphorus-32 is injected into a person’s body, find how long it will take for the level of radiation to drop to 5% of its original value.    , find when    days     How long would it take 70% of a radioactive substance to decay if its half-life was 20 hours?    , find when    hours     A radioactive substance is produced from nuclear fallout. If 300 g of this substance decays to 120 g in 30 years, what is the half-life of this substance?    , and when , , and solve for    years     The half-life of an element is 15.9 hours. A medical clinic purchases a 50 gram sample of this element. How long until there would be only 12.5 grams left? Solve without using logs.    50g to 12.5g is 2 half-lives    31.8 hours      An element has a half-life of 30 days. How long would it take until 20% of the original amount remained?    , find when    days     A radioactive sample with an initial mass of 72 mg has a half-life of 10 days.     Write a function to relate the amount remaining, , in milligrams, to the time, , in days.         What amount of the radioactive sample will remain after 20 days?    About 18 mg      What amount of the radioactive sample was there 30 days ago?    About 576 mg      How long, to the nearest day, will it take for there to be 0.07 mg of the initial sample remaining?    days     "
+},
+{
+  "id": "application-carbon-dating-2",
+  "level": "2",
+  "url": "sec-carbon-dating-and-half-life.html#application-carbon-dating-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Carbon dating "
+},
+{
+  "id": "application-carbon-dating-3",
+  "level": "2",
+  "url": "sec-carbon-dating-and-half-life.html#application-carbon-dating-3",
+  "type": "Example",
+  "number": "12.6.1",
+  "title": "",
+  "body": " All living things contain carbon, and there are different types of carbon.    One is called carbon-12 , which is the normal type of carbon.    Another is carbon-14 , which is a radioactive type of carbon (called an isotope), which decays over time into a different element.    When a plant or animal is alive, it always has roughly the same amount of carbon-14. However, when it dies, it stops taking in new carbon-14 (or any carbon at all). Over time, its amount of carbon-14 decreases. It turns out that it decreases exponentially.  To measure the rate of exponential decay, instead of using a percentage, we use its half-life , which is the time it takes for the amount to decay to half its initial amount.  Carbon-14 has a half-life of 5730 years. This means that:    After 5730 years, half of the carbon-14 is gone.    After another 5730 years, half of what's left is gone (so 25% of the initial amount is left).    Then half again, and again, and so on.    This means if we start with 100% of the carbon-14, then the percent of carbon-14 remaining after years is given by,     The growth factor is because we want to multiply the amount by    represents the number of half-lives in years. For example, if , that is half-lives.    The idea behind carbon dating is that if we measure how much carbon-14 the dead organism has, and also know how much it had when alive, we can estimate how long the carbon-14 has been decaying for, and therefore how long ago it died.  "
+},
+{
+  "id": "application-carbon-dating-4",
+  "level": "2",
+  "url": "sec-carbon-dating-and-half-life.html#application-carbon-dating-4",
+  "type": "Checkpoint",
+  "number": "12.6.2",
+  "title": "",
+  "body": "  Carbon-14 has a half-life of 5730 years. Find the approximate age of a dead organism that has 20% of its original carbon-14 in its tissues.    , find when    Approximately 13308 years   "
+},
+{
+  "id": "application-carbon-dating-5",
+  "level": "2",
+  "url": "sec-carbon-dating-and-half-life.html#application-carbon-dating-5",
+  "type": "Remark",
+  "number": "12.6.3",
+  "title": "",
+  "body": " Carbon dating works for organisms that are up to about 60000 years old, as anything older than that has too little carbon-14 to measure. It was developed in 1949 by Willard Libby (1908-1980), American chemist, and it revolutionized archaeology and paleontology.  "
+},
+{
+  "id": "application-radioactive-decay-3",
+  "level": "2",
+  "url": "sec-carbon-dating-and-half-life.html#application-radioactive-decay-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "half-life "
+},
+{
+  "id": "application-radioactive-decay-4",
+  "level": "2",
+  "url": "sec-carbon-dating-and-half-life.html#application-radioactive-decay-4",
+  "type": "Remark",
+  "number": "12.6.4",
+  "title": "",
+  "body": " Half-life is analogous to doubling time for exponential growth.  "
+},
+{
+  "id": "application-radioactive-decay-6-1-1",
+  "level": "2",
+  "url": "sec-carbon-dating-and-half-life.html#application-radioactive-decay-6-1-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "growth factor "
+},
+{
+  "id": "application-radioactive-decay-7",
+  "level": "2",
+  "url": "sec-carbon-dating-and-half-life.html#application-radioactive-decay-7",
+  "type": "Example",
+  "number": "12.6.5",
+  "title": "",
+  "body": " If a radioactive substance starts with 100g, after 1 half-life it will decay to 50g. After another half-life, that 50g will decay to 25g (half of 50g), and so on.    # of half-lives  Amount (g)    0  100    1  50    2  25    3  12.5    4  6.25    5  3.125    6  1.5625    "
+},
+{
+  "id": "application-radioactive-decay-8",
+  "level": "2",
+  "url": "sec-carbon-dating-and-half-life.html#application-radioactive-decay-8",
+  "type": "Checkpoint",
+  "number": "12.6.6",
+  "title": "",
+  "body": "  How many half-lives does it take for a radioactive sample to decay to 12.5% of its original element?    3 half-lives   "
+},
+{
+  "id": "application-radioactive-decay-9",
+  "level": "2",
+  "url": "sec-carbon-dating-and-half-life.html#application-radioactive-decay-9",
+  "type": "Checkpoint",
+  "number": "12.6.7",
+  "title": "",
+  "body": "  After 40 years, an original sample of 100 kg has decayed to 25 kg. What is this material's half-life?    to go from 100 kg to 25 kg, that is 2 half-lives    20 years   "
+},
+{
+  "id": "application-radioactive-decay-10",
+  "level": "2",
+  "url": "sec-carbon-dating-and-half-life.html#application-radioactive-decay-10",
+  "type": "Checkpoint",
+  "number": "12.6.8",
+  "title": "",
+  "body": "  Americium (Am) is a radioactive element that is used in household smoke detectors. Am-241 has a half-life of approximately 432 years. The average smoke detector contains 0.28 of Am-241. Find an equation for the amount of Am-241 in a smoke detector after years.      "
+},
+{
+  "id": "application-radioactive-decay-11",
+  "level": "2",
+  "url": "sec-carbon-dating-and-half-life.html#application-radioactive-decay-11",
+  "type": "Checkpoint",
+  "number": "12.6.9",
+  "title": "",
+  "body": "  Radioactive argon-39 has a half-life of 275 years. If we initially have 84 grams of argon-39, how much remains after 1600 years?    Use , and    Approximately 1.49 grams   "
+},
+{
+  "id": "application-radioactive-decay-12",
+  "level": "2",
+  "url": "sec-carbon-dating-and-half-life.html#application-radioactive-decay-12",
+  "type": "Checkpoint",
+  "number": "12.6.10",
+  "title": "",
+  "body": "  Radioactive phosphorus-32 is used to study liver function. It has a half-life of 14.3 days. If a small amount of phosphorus-32 is injected into a person’s body, find how long it will take for the level of radiation to drop to 5% of its original value.    , find when    days  "
+},
+{
+  "id": "application-radioactive-decay-13",
+  "level": "2",
+  "url": "sec-carbon-dating-and-half-life.html#application-radioactive-decay-13",
+  "type": "Checkpoint",
+  "number": "12.6.11",
+  "title": "",
+  "body": "  How long would it take 70% of a radioactive substance to decay if its half-life was 20 hours?    , find when    hours  "
+},
+{
+  "id": "application-radioactive-decay-14",
+  "level": "2",
+  "url": "sec-carbon-dating-and-half-life.html#application-radioactive-decay-14",
+  "type": "Checkpoint",
+  "number": "12.6.12",
+  "title": "",
+  "body": "  A radioactive substance is produced from nuclear fallout. If 300 g of this substance decays to 120 g in 30 years, what is the half-life of this substance?    , and when , , and solve for    years  "
+},
+{
+  "id": "application-radioactive-decay-15",
+  "level": "2",
+  "url": "sec-carbon-dating-and-half-life.html#application-radioactive-decay-15",
+  "type": "Checkpoint",
+  "number": "12.6.13",
+  "title": "",
+  "body": "  The half-life of an element is 15.9 hours. A medical clinic purchases a 50 gram sample of this element. How long until there would be only 12.5 grams left? Solve without using logs.    50g to 12.5g is 2 half-lives    31.8 hours   "
+},
+{
+  "id": "application-radioactive-decay-16",
+  "level": "2",
+  "url": "sec-carbon-dating-and-half-life.html#application-radioactive-decay-16",
+  "type": "Checkpoint",
+  "number": "12.6.14",
+  "title": "",
+  "body": "  An element has a half-life of 30 days. How long would it take until 20% of the original amount remained?    , find when    days  "
+},
+{
+  "id": "application-radioactive-decay-17",
+  "level": "2",
+  "url": "sec-carbon-dating-and-half-life.html#application-radioactive-decay-17",
+  "type": "Checkpoint",
+  "number": "12.6.15",
+  "title": "",
+  "body": "  A radioactive sample with an initial mass of 72 mg has a half-life of 10 days.     Write a function to relate the amount remaining, , in milligrams, to the time, , in days.         What amount of the radioactive sample will remain after 20 days?    About 18 mg      What amount of the radioactive sample was there 30 days ago?    About 576 mg      How long, to the nearest day, will it take for there to be 0.07 mg of the initial sample remaining?    days   "
+},
+{
   "id": "sec-solving-logarithmic-equations",
   "level": "1",
   "url": "sec-solving-logarithmic-equations.html",
   "type": "Section",
-  "number": "12.6",
+  "number": "12.7",
   "title": "Solving Logarithmic Equations",
   "body": " Solving Logarithmic Equations    Examples   Basic Equations   Solve each equation.    (reject )       Intermediate Equations   Solve each equation.   (reject )  (reject )   (reject )  (reject )  (reject )   (reject )   (reject )  (reject )  (reject )  (reject )   (reject )  (reject )  (reject )  (reject )  (reject )  (reject )    Mixed Equations   Solve each equation.    (reject )   no solution (reject )  (reject )  (reject )  no solution (reject )  (reject )  (reject )  (reject )  (reject )  (reject )   (reject )   (reject )  (reject )    Advanced Examples   Solve each equation.   quadratic equation, solve using the quadratic formula (reject )  no solution (reject )  (reject )  (reject )  Factor the common factor, and then use the quadratic formula (reject )  , use the quadratic formula    "
 },
@@ -4190,7 +4361,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-logarithmic-equations.html#subsection-log-equations-examples-2",
   "type": "Exercise Group",
-  "number": "12.6.1",
+  "number": "12.7.1",
   "title": "Basic Equations.",
   "body": " Basic Equations   Solve each equation.    (reject )     "
 },
@@ -4199,7 +4370,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-logarithmic-equations.html#subsection-log-equations-examples-3",
   "type": "Exercise Group",
-  "number": "12.6.2",
+  "number": "12.7.2",
   "title": "Intermediate Equations.",
   "body": " Intermediate Equations   Solve each equation.   (reject )  (reject )   (reject )  (reject )  (reject )   (reject )   (reject )  (reject )  (reject )  (reject )   (reject )  (reject )  (reject )  (reject )  (reject )  (reject )  "
 },
@@ -4208,7 +4379,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-logarithmic-equations.html#subsection-log-equations-examples-4",
   "type": "Exercise Group",
-  "number": "12.6.3",
+  "number": "12.7.3",
   "title": "Mixed Equations.",
   "body": " Mixed Equations   Solve each equation.    (reject )   no solution (reject )  (reject )  (reject )  no solution (reject )  (reject )  (reject )  (reject )  (reject )  (reject )   (reject )   (reject )  (reject )  "
 },
@@ -4217,7 +4388,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-logarithmic-equations.html#subsection-log-equations-examples-5",
   "type": "Exercise Group",
-  "number": "12.6.4",
+  "number": "12.7.4",
   "title": "Advanced Examples.",
   "body": " Advanced Examples   Solve each equation.   quadratic equation, solve using the quadratic formula (reject )  no solution (reject )  (reject )  (reject )  Factor the common factor, and then use the quadratic formula (reject )  , use the quadratic formula  "
 },
@@ -4226,7 +4397,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-summary-of-exponential-growth-and-decay.html",
   "type": "Section",
-  "number": "12.7",
+  "number": "12.8",
   "title": "Summary of Exponential Growth and Decay",
   "body": " Summary of Exponential Growth and Decay    Summary of Exponential Formulas      Formula       amount after time  initial amount  growth factor (growth if , decay if )      Percentage change     amount after time periods  initial amount  rate per period (as a decimal)  number of periods      Half-life     half-life (time to decay to )      Growth over a time interval     growth factor over time  time required to multiply the amount by      Continuous growth     (Euler's number)  continuous growth or decay rate        Summary of Logarithmic Scales      Decibel scale       sound level in decibels (dB)  sound intensity (W\/m )  reference intensity, W\/m (threshold of hearing)     Richter scale       earthquake magnitude  earthquake wave amplitude (microns)  reference amplitude (1 micron)     pH scale       acidity or basicity of a solution  hydrogen ion concentration (mol\/L)      "
 },
@@ -4235,7 +4406,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-summary-of-exponential-growth-and-decay.html#sec-summary-of-exponential-growth-and-decay-2-1",
   "type": "Table",
-  "number": "12.7.1",
+  "number": "12.8.1",
   "title": "Summary of Exponential Formulas",
   "body": " Summary of Exponential Formulas      Formula       amount after time  initial amount  growth factor (growth if , decay if )      Percentage change     amount after time periods  initial amount  rate per period (as a decimal)  number of periods      Half-life     half-life (time to decay to )      Growth over a time interval     growth factor over time  time required to multiply the amount by      Continuous growth     (Euler's number)  continuous growth or decay rate     "
 },
