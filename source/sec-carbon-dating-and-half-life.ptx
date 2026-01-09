@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-carbon-dating-and-half-life" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Carbon Dating and Half-Life</title>
+  
+  <!-- <introduction>
+    <p>
+      <term>Carbon dating</term> is a method for estimating how long ago a living thing died. Using it, we can estimate how long ago animals like mammoths lived, or ancient humans, without having actual records of them.
+    </p>
+    
+    <example>
+      <p>
+        All living things contain carbon, and there are different types of carbon.
+      </p>
+      <ul>
+        <li><p>One is called <term>carbon-12</term>, which is the <q>normal</q> type of carbon.</p></li>
+        <li><p>Another is <term>carbon-14</term>, which is a radioactive type of carbon (called an isotope), which decays over time into a different element.</p></li>
+      </ul>
+      <p>
+        When a plant or animal is alive, it always has roughly the same amount of carbon-14. However, when it dies, it stops taking in new carbon-14 (or any carbon at all). Over time, its amount of carbon-14 decreases. It turns out that it decreases exponentially.
+      </p>
+      <p>
+        To measure the rate of exponential decay, instead of using a percentage, we use its <term>half-life</term>, which is the time it takes for the amount to decay to <em>half</em> its initial amount.
+      </p>
+      <p>
+        Carbon-14 has a half-life of 5730 years. This means that after 5730 years, half of the carbon-14 is gone. After another 5730 years, half of what's left is gone (so 25% of the initial amount is left). Then half again, and again, and so on.
+      </p>
+      <p>
+        This means the percent of carbon-14 remaining after <m>t</m> years is given by,
+      </p>
+      <md>
+        <mrow>P(t) = 100 \brac{\frac{1}{2}}^{\frac{t}{5730}}</mrow>
+      </md>
+      <p>
+        where our initial amount is 100%.
+      </p>
+      <p>
+        The idea behind carbon dating is that if we measure how much carbon-14 the dead organism has, and also know how much it had when alive, we can estimate how long the carbon-14 has been decaying for, and therefore how long ago it died.
+      </p>
+    </example>
+    
+    <exercise>
+      <statement>
+        <p>
+          Carbon-14 has a half-life of 5730 years. Find the approximate age of a dead organism that has 20% of its original carbon-14 in its tissues.
+        </p>
+      </statement>
+      <hint><p><m>A=A_0 \brac{\frac{1}{2}}^{t/5730}</m>, find <m>t</m> when <m>A=0.2A_0</m></p></hint>
+      <answer><p>Approximately 13308 years</p></answer>
+    </exercise>
+    
+    <remark>
+      <p>
+        Carbon dating works for organisms that are up to about 60000 years old, as anything older than that has too little carbon-14 to measure. It was developed in 1949 by <alert>Willard Libby</alert> (1908-1980), American chemist, and it revolutionized archaeology and paleontology.
+      </p>
+    </remark>
+  </introduction> -->
+  
+  <subsection xml:id="application-carbon-dating">
+    <title>Application: Carbon Dating</title>
+    
+    <p>
+      <term>Carbon dating</term> is a method for estimating how long ago a living thing died. Using it, we can estimate how long ago animals like mammoths lived, or ancient humans, without having actual records of them.
+    </p>
+    
+    <example>
+      <p>
+        All living things contain carbon, and there are different types of carbon.
+      </p>
+      <ul>
+        <li>
+          <p>One is called <term>carbon-12</term>, which is the <q>normal</q> type of carbon.</p>
+        </li>
+        <li>
+          <p>Another is <term>carbon-14</term>, which is a radioactive type of carbon (called an isotope), which decays over time into a different element.</p>
+        </li>
+      </ul>
+      <p>
+        When a plant or animal is alive, it always has roughly the same amount of carbon-14. However, when it dies, it stops taking in new carbon-14 (or any carbon at all). Over time, its amount of carbon-14 decreases. It turns out that it decreases exponentially.
+      </p>
+      <p>
+        To measure the rate of exponential decay, instead of using a percentage, we use its <term>half-life</term>, which is the time it takes for the amount to decay to <em>half</em> its initial amount.
+      </p>
+      <p>
+        Carbon-14 has a half-life of 5730 years. This means that:
+      </p>
+      <ul>
+        <li>
+          <p>After 5730 years, half of the carbon-14 is gone.</p>
+        </li>
+        <li>
+          <p>After another 5730 years, half of what's left is gone (so 25% of the initial amount is left).</p>
+        </li>
+        <li>
+          <p>Then half again, and again, and so on.</p>
+        </li>
+      </ul>
+      <p>
+        This means if we start with 100% of the carbon-14, then the percent of carbon-14 remaining after <m>t</m> years is given by,
+      </p>
+      <md>
+        <mrow>P(t) = 100 \brac{\frac{1}{2}}^{\frac{t}{5730}}</mrow>
+      </md>
+      <ul>
+        <li>
+          <p>The growth factor is <m>\frac{1}{2}</m> because we want to multiply the amount by <m>\frac{1}{2}</m></p>
+        </li>
+        <li>
+          <p><m>\frac{t}{5730}</m> represents the number of half-lives in <m>t</m> years. For example, if <m>t=5730</m>, that is <m>\frac{5730}{5730}=1</m> half-lives.</p>
+        </li>
+      </ul>
+      <p>
+        The idea behind carbon dating is that if we measure how much carbon-14 the dead organism has, and also know how much it had when alive, we can estimate how long the carbon-14 has been decaying for, and therefore how long ago it died.
+      </p>
+    </example>
+    
+    <exercise>
+      <statement>
+        <p>
+          Carbon-14 has a half-life of 5730 years. Find the approximate age of a dead organism that has 20% of its original carbon-14 in its tissues.
+        </p>
+      </statement>
+      <hint>
+        <p><m>A=A_0 \brac{\frac{1}{2}}^{t/5730}</m>, find <m>t</m> when <m>A=0.2A_0</m></p>
+      </hint>
+      <answer>
+        <p>Approximately 13308 years</p>
+      </answer>
+    </exercise>
+    
+    <remark>
+      <p>
+        Carbon dating works for organisms that are up to about 60000 years old, as anything older than that has too little carbon-14 to measure. It was developed in 1949 by <alert>Willard Libby</alert> (1908-1980), American chemist, and it revolutionized archaeology and paleontology.
+      </p>
+    </remark>
+  </subsection>
+  
+  <subsection xml:id="application-radioactive-decay">
+    <title>Application: Radioactive Decay</title>
+    
+    <p>
+      Many elements have radioactive <em>isotopes</em>, which are versions of the element which are radioactive. These radioactive isotopes decay over time into regular, non-radioactive elements. They decay continuously at a constant percentage, and so they can be modelled using exponential decay.
+    </p>
+    <p>
+      The <term>half-life</term> of a substance is the time required for a decaying amount to decay to half its initial amount.
+    </p>
+    <remark>
+      <p>
+        Half-life is analogous to <em>doubling time</em> for exponential growth.
+      </p>
+    </remark>
+    <md>
+      <mrow>\boxed{A = A_0 \brac{\frac{1}{2}}^{t/T} \quad \longrightarrow
+        \begin{cases}
+        A   &amp; \text{amount after time } t \\
+        A_0 &amp; \text{initial amount (at } t = 0\text{)} \\
+        t   &amp; \text{time that has passed} \\
+        T   &amp; \text{half-life (time to reduce to half)}
+        \end{cases}}
+      </mrow>
+    </md>
+    
+    <ul>
+      <li>
+        <p><m>\frac{1}{2}</m> represents the <term>growth factor</term> (or decay factor, since it is exponential decay).</p>
+      </li>
+      <li>
+        <p><m>\frac{t}{T}</m> represents the <em>number of times</em> that factor is applied (in other words, the number of half-lives in time <m>t</m>).</p>
+      </li>
+    </ul>
+    
+    <example>
+      <p>
+        If a radioactive substance starts with 100g, after 1 half-life it will decay to 50g. After another half-life, that 50g will decay to 25g (half of 50g), and so on.
+      </p>
+      <tabular halign="center">
+        <row bottom="minor">
+          <cell><alert># of half-lives</alert></cell>
+          <cell><alert>Amount (g)</alert></cell>
+        </row>
+        <row>
+          <cell>0</cell>
+          <cell>100</cell>
+        </row>
+        <row>
+          <cell>1</cell>
+          <cell>50</cell>
+        </row>
+        <row>
+          <cell>2</cell>
+          <cell>25</cell>
+        </row>
+        <row>
+          <cell>3</cell>
+          <cell>12.5</cell>
+        </row>
+        <row>
+          <cell>4</cell>
+          <cell>6.25</cell>
+        </row>
+        <row>
+          <cell>5</cell>
+          <cell>3.125</cell>
+        </row>
+        <row>
+          <cell>6</cell>
+          <cell>1.5625</cell>
+        </row>
+      </tabular>
+    </example>
+    
+    <exercise>
+      <statement>
+        <p>
+          How many half-lives does it take for a radioactive sample to decay to 12.5% of its original element?
+        </p>
+      </statement>
+      <answer>
+        <p>3 half-lives</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <statement>
+        <p>
+          After 40 years, an original sample of 100 kg has decayed to 25 kg. What is this material's half-life?
+        </p>
+      </statement>
+      <hint>
+        <p>to go from 100 kg to 25 kg, that is 2 half-lives</p>
+      </hint>
+      <answer>
+        <p>20 years</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <statement>
+        <p>
+          Americium (Am) is a radioactive element that is used in household smoke detectors. Am-241 has a half-life of approximately 432 years. The average smoke detector contains 0.28 <m>\mu\text{g}</m> of Am-241. Find an equation for the amount <m>A</m> of Am-241 in a smoke detector after <m>t</m> years.
+        </p>
+      </statement>
+      <answer>
+        <m>A=0.28\brac{\frac{1}{2}}^{\frac{t}{432}}</m>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <statement>
+        <p>
+          Radioactive argon-39 has a half-life of 275 years. If we initially have 84 grams of argon-39, how much remains after 1600 years?
+        </p>
+      </statement>
+      <hint>
+        <p>Use <m>A=84\brac{\frac{1}{2}}^{\frac{t}{275}}</m>, and <m>t=1600</m></p>
+      </hint>
+      <answer>
+        <p>Approximately 1.49 grams</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <statement>
+        <p>
+          Radioactive phosphorus-32 is used to study liver function. It has a half-life of 14.3 days. If a small amount of phosphorus-32 is injected into a person’s body, find how long it will take for the level of radiation to drop to 5% of its original value.
+        </p>
+      </statement>
+      <hint>
+        <p><m>A=A_0\brac{\frac{1}{2}}^{t/14.3}</m>, find <m>t</m> when <m>A=0.05 A_0</m></p>
+      </hint>
+      <answer>
+        <m>t = \frac{14.3\log{0.05}}{\log{\brac{\frac{1}{2}}}} \approx 61.8</m> days
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <statement>
+        <p>
+          How long would it take 70% of a radioactive substance to decay if its half-life was 20 hours?
+        </p>
+      </statement>
+      <hint>
+        <p><m>A=A_0\brac{\frac{1}{2}}^{t/20}</m>, find <m>t</m> when <m>A=0.3 A_0</m></p>
+      </hint>
+      <answer>
+        <m>t=\frac{20\log(0.30)}{\log\brac{\frac{1}{2}}}\approx 34.7</m> hours
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <statement>
+        <p>
+          A radioactive substance is produced from nuclear fallout. If 300 g of this substance decays to 120 g in 30 years, what is the half-life of this substance?
+        </p>
+      </statement>
+      <hint>
+        <p><m>A=300\brac{\frac{1}{2}}^{t/T}</m>, and when <m>t=30</m>, <m>A=120</m>, and solve for <m>T</m></p>
+      </hint>
+      <answer>
+        <m>T=\frac{30\log\brac{\frac{1}{2}}}{\log\brac{\frac{2}{5}}} \approx 22.7</m> years
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <statement>
+        <p>
+          The half-life of an element is 15.9 hours. A medical clinic purchases a 50 gram sample of this element. How long until there would be only 12.5 grams left? Solve without using logs.
+        </p>
+      </statement>
+      <hint>
+        <p>50g to 12.5g is 2 half-lives</p>
+      </hint>
+      <answer>
+        <p>31.8 hours</p>
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <statement>
+        <p>
+          An element has a half-life of 30 days. How long would it take until 20% of the original amount remained?
+        </p>
+      </statement>
+      <hint>
+        <p><m>A=A_0\brac{\frac{1}{2}}^{t/30}</m>, find <m>t</m> when <m>A=0.2A_0</m></p>
+      </hint>
+      <answer>
+        <m>t = \frac{30\log\brac{\frac{1}{5}}}{\log\brac{\frac{1}{2}}} \approx 69.7</m> days
+      </answer>
+    </exercise>
+    
+    <exercise>
+      <statement>
+        <p>
+          A radioactive sample with an initial mass of 72 mg has a half-life of 10 days.
+        </p>
+      </statement>
+      <task>
+        <statement>
+          <p>Write a function to relate the amount remaining, <m>A</m>, in milligrams, to the time, <m>t</m>, in days.</p>
+        </statement>
+        <answer>
+          <m>A(t)=72\brac{\frac{1}{2}}^{\frac{t}{10}}</m>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p>What amount of the radioactive sample will remain after 20 days?</p>
+        </statement>
+        <answer>
+          <p>About 18 mg</p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p>What amount of the radioactive sample was there 30 days ago?</p>
+        </statement>
+        <answer>
+          <p>About 576 mg</p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p>How long, to the nearest day, will it take for there to be 0.07 mg of the initial sample remaining?</p>
+        </statement>
+        <answer>
+          <m>t=\frac{10\log\brac{\frac{0.07}{72}}}{\log\brac{\frac{1}{2}}}\approx 100</m> days
+        </answer>
+      </task>
+    </exercise>
+  </subsection>
+  
+</section>

@@ -1,8 +1,0 @@
-<xml>
-  <dynamic-substitution id="trig-exact-practice">
-    <eval-subst obj="exprTeX">\sin\bigl(30^{\circ}\bigr)</eval-subst>
-    <eval-subst obj="answerExpr">1/2</eval-subst>
-    <eval-subst obj="func">sin</eval-subst>
-    <eval-subst obj="angleTeX">30^{\circ}</eval-subst>
-  </dynamic-substitution>
-</xml>
