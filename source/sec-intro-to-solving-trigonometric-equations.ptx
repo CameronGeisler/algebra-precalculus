@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-intro-to-solving-trigonometric-equations" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Introduction to Solving Trigonometric Equations</title>
+  
+  <!-- <introduction>
+    <p>
+      This is the introduction to the section.
+    </p>
+  </introduction> -->
+  
+  <subsection xml:id="subsection-basic-trigonometric-equations">
+    <title>Basic Trigonometric Equations</title>
+    
+    <project>
+      <title>Solving Basic Equations</title>
+      <introduction>
+        <p>Solve each equation, by finding all solutions in the interval <m>[0,2\pi)</m> and the general solution.</p>
+      </introduction>
+      <task>
+        <statement><m>\sin{x} = \frac{1}{2}</m></statement>
+        <answer><p><m>x = \frac{\pi}{6}, \frac{5\pi}{6}</m>. General solution: <m>x = \frac{\pi}{6} + 2\pi n, x = \frac{5\pi}{6} + 2\pi n, n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>\cos{x} = -\frac{1}{\sqrt{2}}</m></statement>
+        <answer><p><m>x = \frac{3\pi}{4}, \frac{5\pi}{4}</m>. General solution: <m>x = \frac{3\pi}{4} + 2\pi n, x = \frac{5\pi}{4} + 2\pi n, n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>\sin{x} = -\frac{\sqrt{3}}{2}</m></statement>
+        <answer><p><m>x = \frac{4\pi}{3}, \frac{5\pi}{3}</m>. General solution: <m>x = \frac{4\pi}{3} + 2\pi n, x = \frac{5\pi}{3} + 2\pi n, n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>\cos{x} = 1</m></statement>
+        <answer><p><m>x = 0</m>. General solution: <m>x = 2\pi n, n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>\sin{x} = \frac{\sqrt{3}}{2}</m></statement>
+        <answer><p><m>x = \frac{\pi}{3}, \frac{2\pi}{3}</m>. General solution: <m>x = \frac{\pi}{3} + 2\pi n, x = \frac{2\pi}{3} + 2\pi n, n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>\sin{x} = 1</m></statement>
+        <answer><p><m>x = \frac{\pi}{2}</m>. General solution: <m>x = \frac{\pi}{2} + 2\pi n, n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>\tan{x} = 0</m></statement>
+        <answer><p><m>x = 0, \pi</m>. General solution: <m>x = \pi n, n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>\sin{x} = 0</m></statement>
+        <answer><p><m>x = 0, \pi</m>. General solution: <m>x = \pi n, n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>\tan{x} = \sqrt{3}</m></statement>
+        <answer><p><m>x = \frac{\pi}{3}, \frac{4\pi}{3}</m>. General solution: <m>x = \frac{\pi}{3} + \pi n, n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>\sin{x} = -\frac{1}{2}</m></statement>
+        <answer><p><m>x = \frac{7\pi}{6}, \frac{11\pi}{6}</m>. General solution: <m>x = \frac{7\pi}{6} + 2\pi n, x = \frac{11\pi}{6} + 2\pi n, n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>\cos{x} = \frac{1}{2}</m></statement>
+        <answer><p><m>x = \frac{\pi}{3}, \frac{5\pi}{3}</m>. General solution: <m>x = \frac{\pi}{3} + 2\pi n, x = \frac{5\pi}{3} + 2\pi n, n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>\sin{x} = -1</m></statement>
+        <answer><p><m>x = \frac{3\pi}{2}</m>. General solution: <m>x = \frac{3\pi}{2} + 2\pi n, n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>\cos{x} = -\frac{1}{2}</m></statement>
+        <answer><p><m>x = \frac{2\pi}{3}, \frac{4\pi}{3}</m>. General solution: <m>x = \frac{2\pi}{3} + 2\pi n, x = \frac{4\pi}{3} + 2\pi n, n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>\cos{x} = -1</m></statement>
+        <answer><p><m>x = \pi</m>. General solution: <m>x = \pi + 2\pi n, n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>\cos{x} = \frac{\sqrt{3}}{2}</m></statement>
+        <answer><p><m>x = \frac{\pi}{6}, \frac{11\pi}{6}</m>. General solution: <m>x = \frac{\pi}{6} + 2\pi n, x = \frac{11\pi}{6} + 2\pi n, n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>\tan{x} = 1</m></statement>
+        <answer><p><m>x = \frac{\pi}{4}, \frac{5\pi}{4}</m>. General solution: <m>x = \frac{\pi}{4} + \pi n, n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>\sin{x} = \frac{1}{\sqrt{2}}</m></statement>
+        <answer><p><m>x = \frac{\pi}{4}, \frac{3\pi}{4}</m>. General solution: <m>x = \frac{\pi}{4} + 2\pi n, x = \frac{3\pi}{4} + 2\pi n, n \in \mathbb{I}</m>.</p></answer>
+      </task>
+    </project>
+  </subsection>
+  
+  <subsection xml:id="subsection-basic-trig-equations-examples">
+    <title>Examples</title>
+    
+    <project>
+      <title>Isolating Trigonometric Functions</title>
+      <introduction>
+        <p>Solve each equation, by finding all solutions in the interval <m>[0,2\pi)</m> and the general solution.</p>
+      </introduction>
+      <task>
+        <statement><m>2\sin{x}=-1</m></statement>
+        <answer><p><m>x=\frac{7\pi}{6},\frac{11\pi}{6}</m>. General solution: <m>x=\frac{7\pi}{6}+2\pi n,x=\frac{11\pi}{6}+2\pi n,n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>\cos{x}-1=-\cos{x}</m></statement>
+        <answer><p><m>x=\frac{\pi}{3},\frac{5\pi}{3}</m>. General solution: <m>x=\frac{\pi}{3}+2\pi n,x=\frac{5\pi}{3}+2\pi n,n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>3\sin{x}=\sin{x}+1</m></statement>
+        <answer><p><m>x=\frac{\pi}{6},\frac{5\pi}{6}</m>. General solution: <m>x=\frac{\pi}{6}+2\pi n,x=\frac{5\pi}{6}+2\pi n,n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>5\cos{x}-\sqrt{3}=3\cos{x}</m></statement>
+        <answer><p><m>x=\frac{\pi}{6},\frac{11\pi}{6}</m>. General solution: <m>x=\frac{\pi}{6}+2\pi n,x=\frac{11\pi}{6}+2\pi n,n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>5\sin{x}+1=3\sin{x}</m></statement>
+        <answer><p><m>x=\frac{7\pi}{6},\frac{11\pi}{6}</m>. General solution: <m>x=\frac{7\pi}{6}+2\pi n,x=\frac{11\pi}{6}+2\pi n,n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>5\sin{x}+1=6</m></statement>
+        <answer><p><m>x=\frac{\pi}{2}</m>. General solution: <m>x=\frac{\pi}{2}+2\pi n,n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>5\tan{x}+5=0</m></statement>
+        <answer><p><m>x=\frac{3\pi}{4},\frac{7\pi}{4}</m>. General solution: <m>x=\frac{3\pi}{4}+\pi n,n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>6\sin{x}-8=2\sqrt{3}+2\sin{x}-8</m></statement>
+        <answer><p><m>x=\frac{\pi}{3},\frac{2\pi}{3}</m>. General solution: <m>x=\frac{\pi}{3}+2\pi n,x=\frac{2\pi}{3}+2\pi n,n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>\sin{x}=\sqrt{3}-\sin{x}</m></statement>
+        <answer><p><m>x=\frac{\pi}{3},\frac{2\pi}{3}</m>. General solution: <m>x=\frac{\pi}{3}+2\pi n,x=\frac{2\pi}{3}+2\pi n,n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt{3}\tan{x}=-1</m></statement>
+        <answer><p><m>x=\frac{5\pi}{6},\frac{11\pi}{6}</m>. General solution: <m>x=\frac{5\pi}{6}+\pi n,n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>\cos{x}=\sqrt{3}-\cos{x}</m></statement>
+        <answer><p><m>x=\frac{\pi}{6},\frac{11\pi}{6}</m>. General solution: <m>x=\frac{\pi}{6}+2\pi n,x=\frac{11\pi}{6}+2\pi n,n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>5(1+2\sin{x})=2\sin{x}+1</m></statement>
+        <answer><p><m>x=\frac{7\pi}{6},\frac{11\pi}{6}</m>. General solution: <m>x=\frac{7\pi}{6}+2\pi n,x=\frac{11\pi}{6}+2\pi n,n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>\sqrt{3}\tan{x}+5=6</m></statement>
+        <answer><p><m>x=\frac{\pi}{6},\frac{7\pi}{6}</m>. General solution: <m>x=\frac{\pi}{6}+\pi n,n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>3\tan{x}-3=5\tan{x}-1</m></statement>
+        <answer><p><m>x=\frac{3\pi}{4},\frac{7\pi}{4}</m>. General solution: <m>x=\frac{3\pi}{4}+\pi n,n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>2-2\cot{x}=0</m></statement>
+        <answer><p><m>x=\frac{\pi}{4},\frac{5\pi}{4}</m>. General solution: <m>x=\frac{\pi}{4}+\pi n,n \in \mathbb{I}</m>.</p></answer>
+      </task>
+    </project>
+    
+    <p>If the ratio is not of a special angle, then you need to use your calculator's inverse trig functions to find the reference angle.</p>
+    
+    <project>
+      <title>Using Inverse Trigonometric Functions</title>
+      <introduction>
+        <p>Solve each equation, by finding all solutions in the interval <m>[0,2\pi)</m> and the general solution.</p>
+      </introduction>
+      <task>
+        <statement><m>\sin{x}=0.159</m></statement>
+        <answer><p><m>x\approx0.16,2.98</m>. General solution: <m>x\approx0.16+2\pi n, x\approx2.98+2\pi n, n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>\cos{x}=-0.513</m></statement>
+        <answer><p><m>x\approx2.11,4.17</m>. General solution: <m>x\approx2.11+2\pi n, x\approx4.17+2\pi n, n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>\tan{x}=5.23</m></statement>
+        <answer><p><m>x\approx1.38,4.52</m>. General solution: <m>x\approx1.38+\pi n, n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>\sin{x}=-0.373</m></statement>
+        <answer><p><m>x\approx3.52,5.90</m>. General solution: <m>x\approx3.52+2\pi n, x\approx5.90+2\pi n, n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>\cos{x}=0.276</m></statement>
+        <answer><p><m>x\approx1.29,4.99</m>. General solution: <m>x\approx1.29+2\pi n, x\approx4.99+2\pi n, n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>\tan{x}=-0.618</m></statement>
+        <answer><p><m>x\approx2.59,5.73</m>. General solution: <m>x\approx2.59+\pi n, n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>\cos{x}=\frac{1}{3}</m></statement>
+        <answer><p><m>x\approx1.23,5.05</m>. General solution: <m>x\approx1.23+2\pi n, x\approx5.05+2\pi n, n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>\sin{x}=-\frac{2}{3}</m></statement>
+        <answer><p><m>x\approx3.87,5.55</m>. General solution: <m>x\approx3.87+2\pi n, x\approx5.55+2\pi n, n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>\tan{x}=-4.87</m></statement>
+        <answer><p><m>x\approx1.77,4.91</m>. General solution: <m>x\approx1.77+\pi n, n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>\tan{x}=4.36</m></statement>
+        <answer><p><m>x\approx1.35,4.49</m>. General solution: <m>x\approx1.35+\pi n, n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>\cos{x}=-0.19</m></statement>
+        <answer><p><m>x\approx1.76,4.52</m>. General solution: <m>x\approx1.76+2\pi n, x\approx4.52+2\pi n, n \in \mathbb{I}</m>.</p></answer>
+      </task>
+    </project>
+    
+    <project>
+      <title>Solving in a Specific Interval</title>
+      <introduction>
+        <p>Solve each equation, by finding all solutions in the interval <m>[0,2\pi)</m>.</p>
+      </introduction>
+      <task>
+        <statement><m>3\cos{x}=-2</m></statement>
+        <answer><m>x\approx2.30,3.98</m></answer>
+      </task>
+      <task>
+        <statement><m>2\tan{x}=3</m></statement>
+        <answer><m>x\approx0.98,4.12</m></answer>
+      </task>
+      <task>
+        <statement><m>-3\sin{x}-1=1</m></statement>
+        <answer><m>x\approx3.87,5.55</m></answer>
+      </task>
+      <task>
+        <statement><m>3\tan{x}+5=0</m></statement>
+        <answer><m>x\approx2.11,5.25</m></answer>
+      </task>
+      <task>
+        <statement><m>3(\tan{x}+1)=2</m></statement>
+        <answer><m>x\approx2.82,5.96</m></answer>
+      </task>
+      <task>
+        <statement><m>-5\cos{x}+3=2</m></statement>
+        <answer><m>x\approx1.37,4.91</m></answer>
+      </task>
+      <task>
+        <statement><m>8-\tan{x}=10</m></statement>
+        <answer><m>x\approx2.03,5.18</m></answer>
+      </task>
+    </project>
+  </subsection>
+  
+  <subsection xml:id="subsection-solving-equations-with-a-multiple-of-the-angle">
+    <title>Solving Equations with a Multiple of the Angle</title>
+    
+    <project>
+      <title>Equations with Multiple Angles</title>
+      <introduction>
+        <p>Solve each equation, by finding all solutions in the interval <m>[0,2\pi)</m> and the general solution.</p>
+      </introduction>
+      <task>
+        <statement><m>\sin{(2x)}=\frac{\sqrt{3}}{2}</m></statement>
+        <answer><p><m>x=\frac{\pi}{6},\frac{\pi}{3},\frac{7\pi}{6},\frac{4\pi}{3}</m>. General solution: <m>x=\frac{\pi}{6}+\pi n, x=\frac{\pi}{3}+\pi n, n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>\tan{(3x)}=-1</m></statement>
+        <answer><p><m>x=\frac{\pi}{4},\frac{7\pi}{12},\frac{11\pi}{12},\frac{5\pi}{4},\frac{19\pi}{12},\frac{23\pi}{12}</m>. General solution: <m>x=\frac{\pi}{4}+\frac{2\pi}{3}n, x=\frac{7\pi}{12}+\frac{2\pi}{3}n, n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>\cos{(2x)}=-\frac{1}{2}</m></statement>
+        <answer><p><m>x=\frac{\pi}{3},\frac{2\pi}{3},\frac{4\pi}{3},\frac{5\pi}{3}</m>. General solution: <m>x=\frac{\pi}{3}+\pi n, x=\frac{2\pi}{3}+\pi n, n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>\tan{(4x)}=\sqrt{3}</m></statement>
+        <answer><p><m>x=\frac{\pi}{12},\frac{\pi}{3},\frac{7\pi}{12},\frac{5\pi}{6},\frac{13\pi}{12},\frac{4\pi}{3},\frac{19\pi}{12},\frac{11\pi}{6}</m>. General solution: <m>x=\frac{\pi}{12}+\frac{\pi}{4}n, n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>\cos{(2x)}=0</m></statement>
+        <answer><p><m>x=\frac{\pi}{4},\frac{3\pi}{4},\frac{5\pi}{4},\frac{7\pi}{4}</m>. General solution: <m>x=\frac{\pi}{4}+\frac{\pi}{2}n, n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>\cos{(4x)}=\frac{\sqrt{2}}{2}</m></statement>
+        <answer><p><m>x=\frac{\pi}{16},\frac{7\pi}{16},\frac{9\pi}{16},\frac{15\pi}{16},\frac{17\pi}{16},\frac{23\pi}{16},\frac{25\pi}{16},\frac{31\pi}{16}</m>. General solution: <m>x=\frac{\pi}{16}+\frac{\pi}{2}n, x=\frac{7\pi}{16}+\frac{\pi}{2}n, n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>\sin{(3x)}=0</m></statement>
+        <answer><p><m>x=0,\frac{\pi}{3},\frac{2\pi}{3},\pi,\frac{4\pi}{3},\frac{5\pi}{3}</m>. General solution: <m>x=\frac{\pi}{3}n, n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>\sin{(2x)}=-\frac{1}{2}</m></statement>
+        <answer><p><m>x=\frac{7\pi}{12},\frac{11\pi}{12},\frac{19\pi}{12},\frac{23\pi}{12}</m>. General solution: <m>x=\frac{7\pi}{12}+\pi n, x=\frac{11\pi}{12}+\pi n, n \in \mathbb{I}</m>.</p></answer>
+      </task>
+      <task>
+        <statement><m>\tan{\left(\frac{1}{2}x\right)}=-\sqrt{3}</m></statement>
+        <answer><p><m>x=\frac{4\pi}{3}</m>. General solution: <m>x=\frac{4\pi}{3}+2\pi n, n \in \mathbb{I}</m>.</p></answer>
+      </task>
+    </project>
+    
+    <project>
+      <title>Complex Arguments</title>
+      <introduction>
+        <p>Solve each equation, by finding all solutions in the interval <m>[0,2\pi)</m>.</p>
+      </introduction>
+      <task>
+        <statement><m>2\cos{(2x)}-1=0</m></statement>
+        <answer><m>x=\frac{\pi}{6},\frac{5\pi}{6},\frac{7\pi}{6},\frac{11\pi}{6}</m></answer>
+      </task>
+      <task>
+        <statement><m>\cos{(3x)}-1=5\cos{(3x)}+2</m></statement>
+        <answer><m>x\approx 0.81, 1.29, 2.90, 3.38, 5.00, 5.48</m></answer>
+      </task>
+      <task>
+        <statement><m>3\sin{(4x)}=3-2\sin{(4x)}</m></statement>
+        <answer><m>x\approx 0.16, 0.62, 1.73, 2.20, 3.30, 3.77, 4.87, 5.34</m></answer>
+      </task>
+    </project>
+  </subsection>
+  
+</section>
