@@ -4546,11 +4546,74 @@ var ptx_lunr_docs = [
   "body": " Exact Trig-Value Practice   Evaluate exactly:      Your answer:   For square roots, type \"sqrt\", not a decimal approximation (for example, type \"sqrt(3)\", or \"sqrt(2)\").    \/\/ === DEFAULTS === const DEFAULT_UNIT = \"deg\"; \/\/ \"deg\", \"rad\", \"mix\" const DEFAULT_TAN = \"no\"; \/\/ \"yes\", \"no\" const DEFAULT_WRAP = \"no\"; \/\/ \"yes\", \"no\" allow negative or > 1 rotation const DEFAULT_RECIP = \"no\"; \/\/ \"yes\", \"no\" const USE_RADIANS = true; \/\/ keep radians available for \"mix\" \/\/ Keys const KEY_UNIT = \"ptxTrigAngleMode_trig-exact-practice\"; const KEY_TAN = \"ptxTrigIncludeTan_trig-exact-practice\"; const KEY_WRAP = \"ptxTrigAllowWrap_trig-exact-practice\"; const KEY_RECIP = \"ptxTrigIncludeRecip_trig-exact-practice\"; \/\/ Safe localStorage read function getPref(key, fallback) { try { if (typeof window !== \"undefined\" && window.localStorage) { return localStorage.getItem(key) || fallback; } } catch(_) {} return fallback; } const prefUnit = getPref(KEY_UNIT, DEFAULT_UNIT); const prefTan = getPref(KEY_TAN, DEFAULT_TAN); const prefWrap = getPref(KEY_WRAP, DEFAULT_WRAP); const prefRecip = getPref(KEY_RECIP, DEFAULT_RECIP); \/\/ === Exact values === const exact = { sin: { 0: \"0\", 30: \"1\/2\", 45: \"sqrt(2)\/2\", 60: \"sqrt(3)\/2\", 90: \"1\", 120: \"sqrt(3)\/2\", 135: \"sqrt(2)\/2\", 150: \"1\/2\", 180: \"0\", 210: \"-1\/2\", 225: \"-sqrt(2)\/2\", 240: \"-sqrt(3)\/2\", 270: \"-1\", 300: \"-sqrt(3)\/2\", 315: \"-sqrt(2)\/2\", 330: \"-1\/2\" } }; exact.cos = {}; exact.tan = {}; \/\/ Build exact cos from exact sin: cos(θ) = sin(θ + 90°) for (let deg in exact.sin) { const d = (Number(deg) + 90) % 360; exact.cos[deg] = exact.sin[d]; } for (let deg in exact.sin) { const s = eval(exact.sin[deg].replace(\/sqrt\/g, \"Math.sqrt\")); const c = eval(exact.cos[deg].replace(\/sqrt\/g, \"Math.sqrt\")); if (Math.abs(c) < 1e-10) { exact.tan[deg] = null; } else { const t = s \/ c; const abs = Math.abs(t); const ts = abs < 1e-10 ? \"0\" : Math.abs(abs - 1) < 1e-10 ? \"1\" : abs < 1 ? \"sqrt(3)\/3\" : \"sqrt(3)\"; exact.tan[deg] = t < 0 ? \"-\" + ts : ts; } } function reciprocal(str) { if (!str || str === \"0\") return null; if (str === \"1\") return \"1\"; if (str === \"sqrt(3)\/3\") return \"sqrt(3)\"; if (str === \"sqrt(3)\") return \"sqrt(3)\/3\"; if (str === \"1\/2\") return \"2\"; if (str === \"sqrt(2)\/2\") return \"sqrt(2)\"; if (str === \"sqrt(3)\/2\") return \"2*sqrt(3)\/3\"; return str.startsWith(\"-\") ? \"-\" + reciprocal(str.slice(1)) : \"1\/(\" + str + \")\"; } exact.csc = Object.fromEntries(Object.entries(exact.sin).map(([d, s]) => [d, reciprocal(s)])); exact.sec = Object.fromEntries(Object.entries(exact.cos).map(([d, s]) => [d, reciprocal(s)])); exact.cot = Object.fromEntries(Object.entries(exact.tan).map(([d, s]) => [d, reciprocal(s)])); \/\/ Build function list from prefs let funcs = [\"sin\", \"cos\"]; if (prefTan === \"yes\") funcs.push(\"tan\"); if (prefRecip === \"yes\") funcs.push(\"csc\", \"sec\", \"cot\"); \/\/ Choose function and angle const baseAngles = Object.keys(exact.sin).map(Number); let func, deg, k, thetaDeg; do { func = funcs[RNG.randInt(0, funcs.length - 1)]; deg = baseAngles[RNG.randInt(0, baseAngles.length - 1)]; if (prefWrap === \"yes\") { k = RNG.randInt(-2, 2); } else { k = 0; } thetaDeg = deg + 360 * k; } while (exact[func][deg] === null); v.func = func; v.answerExpr = exact[func][deg]; function texForDegrees(d) { return d + \"^{\\\\circ}\"; } function texForRadians(d) { const sign = d < 0 ? \"-\" : \"\"; let a = Math.abs(d), b = 180; const gcd = (x, y) => y ? gcd(y, x % y) : x; const g = gcd(a, b); a \/= g; b \/= g; if (a === 0) return \"0\"; if (b === 1) return sign + (a === 1 ? \"\\\\pi\" : (a + \"\\\\pi\")); return sign + (a === 1 ? \"\\\\tfrac{\\\\pi}{\" + b + \"}\" : \"\\\\tfrac{\" + a + \"\\\\pi}{\" + b + \"}\"); } const funcTeX = {sin:\"\\\\sin\", cos:\"\\\\cos\", tan:\"\\\\tan\", csc:\"\\\\csc\", sec:\"\\\\sec\", cot:\"\\\\cot\"}[func]; let useRad; if (prefUnit === \"deg\") useRad = false; else if (prefUnit === \"rad\") useRad = true; else useRad = (USE_RADIANS && RNG.randInt(0,1) === 0); v.exprTeX = funcTeX + \"\\\\bigl(\" + (useRad ? texForRadians(thetaDeg) : texForDegrees(thetaDeg)) + \"\\\\bigr)\"; v.angleTeX = useRad ? texForRadians(thetaDeg) : texForDegrees(thetaDeg);  (function(){ var ex = document.getElementById(\"trig-exact-practice\"); \/\/ Strong cleanup of any legacy UI function removeLegacy(){ if (!ex) return; \/\/ Remove old legacy host entirely var oldHost = ex.querySelector(\"#angle-controls\"); if (oldHost && oldHost.parentNode) oldHost.parentNode.removeChild(oldHost); \/\/ Remove old inputs and their labels if they exist anywhere [\"#deg-only\", \"#rad-only\"].forEach(function(sel){ var input = ex.querySelector(sel); if (input) { var label = input.closest(\"label\"); if (label && label.parentNode) label.parentNode.removeChild(label); } }); \/\/ Remove any leftover \"Angle units:\" title and the old note var strongs = ex.querySelectorAll(\"strong\"); strongs.forEach(function(s){ if (s.textContent.trim().toLowerCase() === \"angle units:\") { \/\/ Try to remove its container row if reasonable var container = s.parentNode; if (container && container.parentNode) { container.parentNode.removeChild(container); } else { s.remove(); } } }); \/\/ Remove the old note text if it survived separately var spans = ex.querySelectorAll(\"span\"); spans.forEach(function(sp){ var t = sp.textContent.trim(); if (t === \" Affects only new questions after you click Randomize.\" || t === \"Affects only new questions after you click Randomize.\") { if (sp.parentNode) sp.parentNode.removeChild(sp); } }); } \/\/ Do cleanup now removeLegacy(); \/\/ Find or create our new host var host = document.getElementById(\"trig-exact-practice-controls\"); if (!host && ex) { host = document.createElement(\"div\"); host.id = \"trig-exact-practice-controls\"; var firstP = ex.querySelector(\"div.statement p, p\"); if (firstP && firstP.parentNode) { firstP.parentNode.insertBefore(host, firstP.nextSibling); } else { ex.appendChild(host); } } if (!host) return; \/\/ Build the new panel var KEY_UNIT = \"ptxTrigAngleMode_trig-exact-practice\"; var KEY_TAN = \"ptxTrigIncludeTan_trig-exact-practice\"; var KEY_WRAP = \"ptxTrigAllowWrap_trig-exact-practice\"; var KEY_RECIP = \"ptxTrigIncludeRecip_trig-exact-practice\"; var DEFAULT_UNIT = \"deg\"; var DEFAULT_TAN = \"no\"; var DEFAULT_WRAP = \"no\"; var DEFAULT_RECIP = \"no\"; function get(key, dflt){ try { return localStorage.getItem(key) || dflt; } catch(_) { return dflt; } } function set(key, val){ try { localStorage.setItem(key, val); } catch(_) {} } function radio(name, id, labelText){ var label = document.createElement(\"label\"); label.style.cursor = \"pointer\"; var input = document.createElement(\"input\"); input.type = \"radio\"; input.name = name; input.id = id; input.style.marginRight = \"0.35rem\"; label.appendChild(input); label.appendChild(document.createTextNode(labelText)); return {label: label, input: input}; } function checkbox(id, text){ var label = document.createElement(\"label\"); label.style.cursor = \"pointer\"; var input = document.createElement(\"input\"); input.type = \"checkbox\"; input.id = id; input.style.marginRight = \"0.35rem\"; label.appendChild(input); label.appendChild(document.createTextNode(text)); return {label: label, input: input}; } host.innerHTML = \"\"; var panel = document.createElement(\"div\"); panel.setAttribute(\"data-ptx-trig-ui\", \"1\"); panel.style.display = \"grid\"; panel.style.gap = \"0.5rem\"; panel.style.margin = \"0.25rem 0 0.5rem\"; var unitTitle = document.createElement(\"strong\"); unitTitle.textContent = \"Units: \"; var unitWrap = document.createElement(\"div\"); unitWrap.style.display = \"flex\"; unitWrap.style.gap = \"1rem\"; var rDeg = radio(\"unit-mode\", \"unit-deg\", \"Degrees only\"); var rRad = radio(\"unit-mode\", \"unit-rad\", \"Radians only\"); var rMix = radio(\"unit-mode\", \"unit-mix\", \"Mixed\"); unitWrap.appendChild(rDeg.label); unitWrap.appendChild(rRad.label); unitWrap.appendChild(rMix.label); var optTitle = document.createElement(\"strong\"); optTitle.textContent = \"Options: \"; var cbTan = checkbox(\"opt-tan\", \"Include tangent\"); var cbWrap = checkbox(\"opt-wrap\", \"Allow negative or more than one full rotation\"); var cbRecip = checkbox(\"opt-recip\", \"Include reciprocal functions\"); var optWrap = document.createElement(\"div\"); optWrap.style.display = \"flex\"; optWrap.style.gap = \"1rem\"; optWrap.style.flexWrap = \"wrap\"; optWrap.appendChild(cbTan.label); optWrap.appendChild(cbWrap.label); optWrap.appendChild(cbRecip.label); var note = document.createElement(\"span\"); note.style.opacity = \"0.8\"; note.style.fontStyle = \"italic\"; note.textContent = \" These settings affect only new questions after you click Randomize.\"; panel.appendChild(unitTitle); panel.appendChild(unitWrap); panel.appendChild(optTitle); panel.appendChild(optWrap); panel.appendChild(note); host.appendChild(panel); \/\/ Load saved values and apply defaults var unit = get(KEY_UNIT, DEFAULT_UNIT); if (unit === \"rad\") rRad.input.checked = true; else if (unit === \"mix\") rMix.input.checked = true; else rDeg.input.checked = true; cbTan.input.checked = get(KEY_TAN, DEFAULT_TAN) === \"yes\"; cbWrap.input.checked = get(KEY_WRAP, DEFAULT_WRAP) === \"yes\"; cbRecip.input.checked = get(KEY_RECIP, DEFAULT_RECIP) === \"yes\"; \/\/ Save on change rDeg.input.addEventListener(\"change\", function(){ if (rDeg.input.checked) set(KEY_UNIT, \"deg\"); }); rRad.input.addEventListener(\"change\", function(){ if (rRad.input.checked) set(KEY_UNIT, \"rad\"); }); rMix.input.addEventListener(\"change\", function(){ if (rMix.input.checked) set(KEY_UNIT, \"mix\"); }); cbTan.input.addEventListener(\"change\", function(){ set(KEY_TAN, cbTan.input.checked ? \"yes\" : \"no\"); }); cbWrap.input.addEventListener(\"change\", function(){ set(KEY_WRAP, cbWrap.input.checked ? \"yes\" : \"no\"); }); cbRecip.input.addEventListener(\"change\", function(){ set(KEY_RECIP, cbRecip.input.checked ? \"yes\" : \"no\"); }); \/\/ Run cleanup once more shortly after load to beat any late legacy script setTimeout(removeLegacy, 60); })();       Correct, great work 🎉    Not quite. Use an exact radical value like , not a decimal.      The exact value is \\ \\!\\bigl( \\bigr) = .   "
 },
 {
+  "id": "sec-intro-to-solving-trigonometric-equations",
+  "level": "1",
+  "url": "sec-intro-to-solving-trigonometric-equations.html",
+  "type": "Section",
+  "number": "13.3",
+  "title": "Introduction to Solving Trigonometric Equations",
+  "body": " Introduction to Solving Trigonometric Equations    Basic Trigonometric Equations   Solving Basic Equations   Solve each equation, by finding all solutions in the interval and the general solution.     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .      Examples   Isolating Trigonometric Functions   Solve each equation, by finding all solutions in the interval and the general solution.     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .    If the ratio is not of a special angle, then you need to use your calculator's inverse trig functions to find the reference angle.   Using Inverse Trigonometric Functions   Solve each equation, by finding all solutions in the interval and the general solution.     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     Solving in a Specific Interval   Solve each equation, by finding all solutions in the interval .                                  Solving Equations with a Multiple of the Angle   Equations with Multiple Angles   Solve each equation, by finding all solutions in the interval and the general solution.     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     Complex Arguments   Solve each equation, by finding all solutions in the interval .                 "
+},
+{
+  "id": "subsection-basic-trigonometric-equations-2",
+  "level": "2",
+  "url": "sec-intro-to-solving-trigonometric-equations.html#subsection-basic-trigonometric-equations-2",
+  "type": "Exercise Group",
+  "number": "13.3.1",
+  "title": "Solving Basic Equations.",
+  "body": " Solving Basic Equations   Solve each equation, by finding all solutions in the interval and the general solution.     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .   "
+},
+{
+  "id": "subsection-basic-trig-equations-examples-2",
+  "level": "2",
+  "url": "sec-intro-to-solving-trigonometric-equations.html#subsection-basic-trig-equations-examples-2",
+  "type": "Exercise Group",
+  "number": "13.3.2",
+  "title": "Isolating Trigonometric Functions.",
+  "body": " Isolating Trigonometric Functions   Solve each equation, by finding all solutions in the interval and the general solution.     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .   "
+},
+{
+  "id": "subsection-basic-trig-equations-examples-4",
+  "level": "2",
+  "url": "sec-intro-to-solving-trigonometric-equations.html#subsection-basic-trig-equations-examples-4",
+  "type": "Exercise Group",
+  "number": "13.3.3",
+  "title": "Using Inverse Trigonometric Functions.",
+  "body": " Using Inverse Trigonometric Functions   Solve each equation, by finding all solutions in the interval and the general solution.     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .   "
+},
+{
+  "id": "subsection-basic-trig-equations-examples-5",
+  "level": "2",
+  "url": "sec-intro-to-solving-trigonometric-equations.html#subsection-basic-trig-equations-examples-5",
+  "type": "Exercise Group",
+  "number": "13.3.4",
+  "title": "Solving in a Specific Interval.",
+  "body": " Solving in a Specific Interval   Solve each equation, by finding all solutions in the interval .                               "
+},
+{
+  "id": "subsection-solving-equations-with-a-multiple-of-the-angle-2",
+  "level": "2",
+  "url": "sec-intro-to-solving-trigonometric-equations.html#subsection-solving-equations-with-a-multiple-of-the-angle-2",
+  "type": "Exercise Group",
+  "number": "13.3.5",
+  "title": "Equations with Multiple Angles.",
+  "body": " Equations with Multiple Angles   Solve each equation, by finding all solutions in the interval and the general solution.     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .     . General solution: .   "
+},
+{
+  "id": "subsection-solving-equations-with-a-multiple-of-the-angle-3",
+  "level": "2",
+  "url": "sec-intro-to-solving-trigonometric-equations.html#subsection-solving-equations-with-a-multiple-of-the-angle-3",
+  "type": "Exercise Group",
+  "number": "13.3.6",
+  "title": "Complex Arguments.",
+  "body": " Complex Arguments   Solve each equation, by finding all solutions in the interval .               "
+},
+{
   "id": "sec-quadratic-trigonometric-equations",
   "level": "1",
   "url": "sec-quadratic-trigonometric-equations.html",
   "type": "Section",
-  "number": "13.3",
+  "number": "13.4",
   "title": "Quadratic Trigonometric Equations",
   "body": " Quadratic Trigonometric Equations   Some trigonometric equations are quadratic in a particular trigonometric function, in that they involve a trigonometric function being squared. In this way, many methods for solving quadratic equations can be used to solve trig equations.    Notation and Other Powers of a Trigonometric Function  Sometimes, we want to write the square of a trig function. For example, , or . It is common to write this more simply as .   Notation Example  For example, means . Then,    This convention saves space and avoids writing so many brackets with expressions that have many powers involving trigonometric functions. This notation applies in general to all trigonometric functions,   This all works the same with higher powers (e.g. ).  This notation often confuses students when first learning it. In particular, the exponent (2 in this case) applies to the entire trigonometric function, not the angle . In other words,   If you like, whenever you see a squared trig function, you can first write it with brackets, before starting with the problem.    Solving Quadratic Trigonometric Equations   Substitution Idea  Consider . To solve this, you can think of replacing with a single variable ( ), to get . To solve this, you would isolate for , and then take the square root of both sides.   More precisely, if is a quadratic equation, then the equation can be put into the form (or another trigonometric function).    Examples  Factor, and then solve the resulting two (linear) trigonometric equations.   Basic quadratic equation   Solve each equation for , and give the general solution.    .  Answer: . General solution: , , , , OR , .    .  Answer: . General solution: , , OR .     Factoring a common factor   Solve each equation for , and give the general solution.    .  Answer: . General solution: OR or .    .  Answer: . General solution: OR or or .    .  Answer: . General solution: OR .    .  Answer: . General solution: OR or or .    .  Answer: . General solution: OR or or .    .  Answer: . General solution: OR or or .    Note that you can't divide by (or any other trig function), because that assumes that , when in fact can equal 0. This is just like how with the equation , you can't divide by and instead have to factor it out.    Trigonometric Equations in Quadratic Form  Again, it is helpful to think about the equation if the trig function was replaced by a single variable (say, ).   Trigonometric equations in quadratic form   Solve each equation for , and give the general solution. Give exact values for special angles, otherwise give a decimal answer rounded to the nearest hundredth.    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: or .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: or .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .      Advanced   Advanced examples   Solve each equation for , and give the general solution. Give exact values for special angles, otherwise give a decimal answer rounded to the nearest hundredth.    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: or .    .  Answer: . General solution: or or .    .  Answer: . General solution: or .    .  Answer: . General solution: or .    .  Answer: . General solution: .    .  Answer: . General solution: .     Finding Coefficients  The equation has solutions , and on the interval . Find the values of and .    Finding More Coefficients  The equation has solutions on the interval . Find the values of and .    Really difficult  Solve . Hint: write in terms of only, to get , and factor using synthetic division. Answer: . General solution: .    "
 },
@@ -4559,7 +4622,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic-trigonometric-equations.html#notation-powers-trig-3",
   "type": "Example",
-  "number": "13.3.1",
+  "number": "13.4.1",
   "title": "Notation Example.",
   "body": " Notation Example  For example, means . Then,   "
 },
@@ -4568,7 +4631,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic-trigonometric-equations.html#solving-quadratic-trig-eqs-2",
   "type": "Example",
-  "number": "13.3.2",
+  "number": "13.4.2",
   "title": "Substitution Idea.",
   "body": " Substitution Idea  Consider . To solve this, you can think of replacing with a single variable ( ), to get . To solve this, you would isolate for , and then take the square root of both sides.  "
 },
@@ -4577,7 +4640,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic-trigonometric-equations.html#basic-quadratic-eqs",
   "type": "Exercise Group",
-  "number": "13.3.1",
+  "number": "13.4.1",
   "title": "Basic quadratic equation.",
   "body": " Basic quadratic equation   Solve each equation for , and give the general solution.    .  Answer: . General solution: , , , , OR , .    .  Answer: . General solution: , , OR .   "
 },
@@ -4586,7 +4649,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic-trigonometric-equations.html#factoring-common-factor",
   "type": "Exercise Group",
-  "number": "13.3.2",
+  "number": "13.4.2",
   "title": "Factoring a common factor.",
   "body": " Factoring a common factor   Solve each equation for , and give the general solution.    .  Answer: . General solution: OR or .    .  Answer: . General solution: OR or or .    .  Answer: . General solution: OR .    .  Answer: . General solution: OR or or .    .  Answer: . General solution: OR or or .    .  Answer: . General solution: OR or or .   "
 },
@@ -4595,7 +4658,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic-trigonometric-equations.html#trig-eqs-quadratic-form",
   "type": "Exercise Group",
-  "number": "13.3.3",
+  "number": "13.4.3",
   "title": "Trigonometric equations in quadratic form.",
   "body": " Trigonometric equations in quadratic form   Solve each equation for , and give the general solution. Give exact values for special angles, otherwise give a decimal answer rounded to the nearest hundredth.    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: or .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: or .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .   "
 },
@@ -4604,7 +4667,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic-trigonometric-equations.html#advanced-quadratic-eqs",
   "type": "Exercise Group",
-  "number": "13.3.4",
+  "number": "13.4.4",
   "title": "Advanced examples.",
   "body": " Advanced examples   Solve each equation for , and give the general solution. Give exact values for special angles, otherwise give a decimal answer rounded to the nearest hundredth.    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: .    .  Answer: . General solution: or .    .  Answer: . General solution: or or .    .  Answer: . General solution: or .    .  Answer: . General solution: or .    .  Answer: . General solution: .    .  Answer: . General solution: .   "
 },
@@ -4613,7 +4676,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic-trigonometric-equations.html#find-a-b",
   "type": "Example",
-  "number": "13.3.3",
+  "number": "13.4.3",
   "title": "Finding Coefficients.",
   "body": " Finding Coefficients  The equation has solutions , and on the interval . Find the values of and .  "
 },
@@ -4622,7 +4685,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic-trigonometric-equations.html#find-b-c",
   "type": "Example",
-  "number": "13.3.4",
+  "number": "13.4.4",
   "title": "Finding More Coefficients.",
   "body": " Finding More Coefficients  The equation has solutions on the interval . Find the values of and .  "
 },
@@ -4631,7 +4694,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic-trigonometric-equations.html#difficult-example",
   "type": "Example",
-  "number": "13.3.5",
+  "number": "13.4.5",
   "title": "Really difficult.",
   "body": " Really difficult  Solve . Hint: write in terms of only, to get , and factor using synthetic division. Answer: . General solution: .  "
 },
