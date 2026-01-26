@@ -403,43 +403,97 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.3",
   "title": "Factoring Special Patterns",
-  "body": " Factoring Special Patterns    Difference of Squares   Motivation  When multiplying two binomials that are almost the same, except for one having a positive sign and one having a negative, there is a special pattern. Observe the following expansions,   Notice that the middle terms and cancel out.   In general, when expanding an expression of the form (where the two numbers are opposites of each other), the middle two terms always cancel out, because they are opposites of each other. The result is squared, minus the number squared.   In general,   This identity for expanding can be thought of in reverse, as a identity for factoring,   In other words, for an expression of the form (where there are two things being squared, and they're subtracted), it can be factored as . It's called difference of squares , difference because of the minus sign, and squares because both terms are perfect squares.   Difference of Squares Practice   Factor each expression.                                                                    In general, difference of squares applies when:    There are two terms.    There is a minus sign between them.    Each term is a perfect square.    If an expression has only 2 terms, then this is a good indicator that it could be factored using difference of squares.   More Examples   Factor each expression fully.                                                                             Advanced Examples   Factor each expression fully.                         "
+  "body": " Factoring Special Patterns    Difference of Squares   Intro Examples  When multiplying two binomials that are almost the same, except for one having a positive sign and one having a negative, there is a special pattern. Observe the expansion,   Notice that the middle terms and cancel out.   In general, when expanding an expression of the form (where the two numbers are opposites of each other), the middle two terms always cancel out, because they are opposites of each other. The result is squared, minus the number squared.   In general,   This identity for expanding can be thought of in reverse, as an identity for factoring,   In other words, for an expression of the form (where there are two things being squared, and they're subtracted), it can be factored as . It's called difference of squares , difference because of the minus sign, and squares because both terms are perfect squares.   For example, is a difference of squares, because it's squared, and 9 is , so,     Factor Each Expression   Factor each expression.                                First factor out the common factor of 2.                            First factor out the common factor of 3.                 You can write the minus factor or the plus factor first. The order doesn't matter. For example,     Factor  Here, we have instead of . However, it is still a difference of squares, because and .   This basically means that we're applying the same difference of squares pattern , where and .   In general, difference of squares applies when:    There are two terms.    There is a minus sign between them.    Each term is a perfect square (the square of something).    A term is a perfect square if both its coefficient (the number part) and its variable part are perfect squares. In general, to figure out what goes in the brackets, rewrite each term as a square,    Ask: What squares to make the first term? This is the first thing in the brackets.    Ask: What squares to make the second term? This is the second thing in the brackets.    Then, write those two answers twice, one with a minus and one with a plus.     Factor Each Expression   Factor each expression.                                                                                                                                                            If an expression has only 2 terms, this is a good indicator that difference of squares could work.   Factor Each Expression Fully   Factor each expression fully.                                                                                                                                                     Factor Each Expression Fully   Factor each expression fully.                                                                                                                     Advanced Examples   Factor each expression fully.                                                     The sum of squares has no factorization pattern. In other words, there is no pattern for . For example, these have no factorization:               "
 },
 {
-  "id": "difference-of-squares-2",
+  "id": "subsection-difference-of-squares-2",
   "level": "2",
-  "url": "sec-factoring-special-patterns.html#difference-of-squares-2",
+  "url": "sec-factoring-special-patterns.html#subsection-difference-of-squares-2",
   "type": "Example",
   "number": "3.3.1",
-  "title": "Motivation.",
-  "body": " Motivation  When multiplying two binomials that are almost the same, except for one having a positive sign and one having a negative, there is a special pattern. Observe the following expansions,   Notice that the middle terms and cancel out.   In general, when expanding an expression of the form (where the two numbers are opposites of each other), the middle two terms always cancel out, because they are opposites of each other. The result is squared, minus the number squared.  "
+  "title": "Intro Examples.",
+  "body": " Intro Examples  When multiplying two binomials that are almost the same, except for one having a positive sign and one having a negative, there is a special pattern. Observe the expansion,   Notice that the middle terms and cancel out.   In general, when expanding an expression of the form (where the two numbers are opposites of each other), the middle two terms always cancel out, because they are opposites of each other. The result is squared, minus the number squared.  "
 },
 {
-  "id": "difference-of-squares-8",
+  "id": "subsection-difference-of-squares-8",
   "level": "2",
-  "url": "sec-factoring-special-patterns.html#difference-of-squares-8",
+  "url": "sec-factoring-special-patterns.html#subsection-difference-of-squares-8",
+  "type": "Example",
+  "number": "3.3.2",
+  "title": "",
+  "body": " For example, is a difference of squares, because it's squared, and 9 is , so,   "
+},
+{
+  "id": "project-factor-simple",
+  "level": "2",
+  "url": "sec-factoring-special-patterns.html#project-factor-simple",
   "type": "Exercise Group",
   "number": "3.3.1",
-  "title": "Difference of Squares Practice.",
-  "body": " Difference of Squares Practice   Factor each expression.                                                                   "
+  "title": "Factor Each Expression.",
+  "body": " Factor Each Expression   Factor each expression.                                First factor out the common factor of 2.                            First factor out the common factor of 3.               "
 },
 {
-  "id": "difference-of-squares-12",
+  "id": "subsection-difference-of-squares-10",
   "level": "2",
-  "url": "sec-factoring-special-patterns.html#difference-of-squares-12",
+  "url": "sec-factoring-special-patterns.html#subsection-difference-of-squares-10",
+  "type": "Remark",
+  "number": "3.3.3",
+  "title": "",
+  "body": " You can write the minus factor or the plus factor first. The order doesn't matter. For example,   "
+},
+{
+  "id": "subsection-difference-of-squares-11",
+  "level": "2",
+  "url": "sec-factoring-special-patterns.html#subsection-difference-of-squares-11",
+  "type": "Example",
+  "number": "3.3.4",
+  "title": "Factor <span class=\"process-math\">\\(4x^2-25\\)<\/span>.",
+  "body": " Factor  Here, we have instead of . However, it is still a difference of squares, because and .   This basically means that we're applying the same difference of squares pattern , where and .  "
+},
+{
+  "id": "project-factor-coefficients",
+  "level": "2",
+  "url": "sec-factoring-special-patterns.html#project-factor-coefficients",
   "type": "Exercise Group",
   "number": "3.3.2",
-  "title": "More Examples.",
-  "body": " More Examples   Factor each expression fully.                                                                           "
+  "title": "Factor Each Expression.",
+  "body": " Factor Each Expression   Factor each expression.                                                                                                                                                           "
 },
 {
-  "id": "difference-of-squares-13",
+  "id": "project-factor-fully",
   "level": "2",
-  "url": "sec-factoring-special-patterns.html#difference-of-squares-13",
+  "url": "sec-factoring-special-patterns.html#project-factor-fully",
   "type": "Exercise Group",
   "number": "3.3.3",
+  "title": "Factor Each Expression Fully.",
+  "body": " Factor Each Expression Fully   Factor each expression fully.                                                                                                                                                   "
+},
+{
+  "id": "project-factor-mixed",
+  "level": "2",
+  "url": "sec-factoring-special-patterns.html#project-factor-mixed",
+  "type": "Exercise Group",
+  "number": "3.3.4",
+  "title": "Factor Each Expression Fully.",
+  "body": " Factor Each Expression Fully   Factor each expression fully.                                                                                                                   "
+},
+{
+  "id": "project-difference-of-squares-advanced-examples",
+  "level": "2",
+  "url": "sec-factoring-special-patterns.html#project-difference-of-squares-advanced-examples",
+  "type": "Exercise Group",
+  "number": "3.3.5",
   "title": "Advanced Examples.",
-  "body": " Advanced Examples   Factor each expression fully.                       "
+  "body": " Advanced Examples   Factor each expression fully.                                                   "
+},
+{
+  "id": "subsection-difference-of-squares-21",
+  "level": "2",
+  "url": "sec-factoring-special-patterns.html#subsection-difference-of-squares-21",
+  "type": "Remark",
+  "number": "3.3.5",
+  "title": "",
+  "body": " The sum of squares has no factorization pattern. In other words, there is no pattern for . For example, these have no factorization:             "
 },
 {
   "id": "sec-solving-quadratic-equations-by-factoring",
