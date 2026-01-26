@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-domain-and-range" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Domain and Range of Functions</title>
+
+  <introduction>
+    <p>When working with functions, we need to understand what inputs are allowed and what outputs are possible. The <term>domain</term> of a function is the set of all possible input values (typically <m>x</m>-values), and the <term>range</term> is the set of all possible output values (typically <m>y</m>-values or <m>f(x)</m>-values).</p>
+
+    <p>Think of a function as a machine: the domain is all the items you're allowed to put into the machine, and the range is all the possible items that can come out of the machine.</p>
+
+    <definition xml:id="def-domain-range">
+      <title>Domain and Range</title>
+      <statement>
+        <p>For a function <m>f</m>:</p>
+        <ul>
+          <li>The <term>domain</term> of <m>f</m> is the set of all possible input values: <m>\set{x : f(x) \text{ is defined}}</m></li>
+          <li>The <term>range</term> of <m>f</m> is the set of all possible output values: <m>\set{y : y = f(x) \text{ for some } x \text{ in the domain}}</m></li>
+        </ul>
+      </statement>
+    </definition>
+
+    <p>We will use interval notation to express domains and ranges. Recall from the previous section that interval notation provides a concise way to describe sets of numbers.</p>
+  </introduction>
+
+  <subsection xml:id="subsec-finding-domain">
+    <title>Finding the Domain of a Function</title>
+
+    <p>To find the domain of a function, we need to identify which values of <m>x</m> make the function undefined. The most common restrictions are:</p>
+    <ul>
+      <li><alert>Division by zero:</alert> We cannot divide by zero, so any value that makes a denominator equal to zero must be excluded from the domain.</li>
+      <li><alert>Even roots of negative numbers:</alert> We cannot take the square root (or any even root) of a negative number in the real number system, so the expression under an even root must be non-negative.</li>
+      <li><alert>Logarithms of non-positive numbers:</alert> We can only take logarithms of positive numbers (covered in a later chapter).</li>
+    </ul>
+
+    <p>Let's look at examples of finding domains for different types of functions.</p>
+
+    <example xml:id="ex-domain-polynomial-1">
+      <title>Domain of Polynomial Functions</title>
+      <statement>
+        <p>Find the domain of <m>f(x) = x^2 + 3x - 5</m>.</p>
+      </statement>
+      <solution>
+        <p>Polynomial functions have no restrictions. We can substitute any real number for <m>x</m> and get a valid output.</p>
+        <p>Therefore, the domain is <m>(-\infty, \infty)</m> or <m>\R</m> (all real numbers).</p>
+      </solution>
+    </example>
+
+    <example xml:id="ex-domain-polynomial-2">
+      <title>Domain of Another Polynomial</title>
+      <statement>
+        <p>Find the domain of <m>p(x) = 2x^3 - 4x + 1</m>.</p>
+      </statement>
+      <solution>
+        <p>Again, this is a polynomial function with no restrictions.</p>
+        <p>Domain: <m>(-\infty, \infty)</m></p>
+      </solution>
+    </example>
+
+    <example xml:id="ex-domain-rational-1">
+      <title>Domain of a Simple Rational Function</title>
+      <statement>
+        <p>Find the domain of <m>f(x) = \frac{1}{x-3}</m>.</p>
+      </statement>
+      <solution>
+        <p>This function has a variable in the denominator. We need to find where the denominator equals zero:</p>
+        <md>
+          <mrow>x - 3 \amp= 0</mrow>
+          <mrow>x \amp= 3</mrow>
+        </md>
+        <p>The function is undefined when <m>x = 3</m>, so we must exclude this value from the domain.</p>
+        <p>Domain: <m>(-\infty, 3) \cup (3, \infty)</m></p>
+        <p>In words: all real numbers except 3.</p>
+      </solution>
+    </example>
+
+    <example xml:id="ex-domain-rational-2">
+      <title>Domain with Two Restrictions</title>
+      <statement>
+        <p>Find the domain of <m>g(x) = \frac{x+2}{x^2-4}</m>.</p>
+      </statement>
+      <solution>
+        <p>First, we factor the denominator:</p>
+        <me>x^2 - 4 = \brac{x-2}\brac{x+2}</me>
+        <p>The denominator equals zero when:</p>
+        <md>
+          <mrow>x - 2 = 0 \quad \amp\text{or} \quad x + 2 = 0</mrow>
+          <mrow>x = 2 \quad \amp\text{or} \quad x = -2</mrow>
+        </md>
+        <p>We must exclude both values from the domain.</p>
+        <p>Domain: <m>(-\infty, -2) \cup (-2, 2) \cup (2, \infty)</m></p>
+        <p>In words: all real numbers except <m>-2</m> and <m>2</m>.</p>
+      </solution>
+    </example>
+
+    <example xml:id="ex-domain-rational-3">
+      <title>Domain with No Restrictions</title>
+      <statement>
+        <p>Find the domain of <m>h(x) = \frac{5}{x^2+1}</m>.</p>
+      </statement>
+      <solution>
+        <p>We check if the denominator can equal zero:</p>
+        <md>
+          <mrow>x^2 + 1 \amp= 0</mrow>
+          <mrow>x^2 \amp= -1</mrow>
+        </md>
+        <p>Since <m>x^2</m> is always non-negative for real numbers, <m>x^2 + 1</m> is always at least 1. The denominator never equals zero.</p>
+        <p>Domain: <m>(-\infty, \infty)</m></p>
+      </solution>
+    </example>
+
+    <example xml:id="ex-domain-radical-1">
+      <title>Domain of a Square Root Function</title>
+      <statement>
+        <p>Find the domain of <m>f(x) = \sqrt{x-2}</m>.</p>
+      </statement>
+      <solution>
+        <p>The expression under the square root must be non-negative:</p>
+        <md>
+          <mrow>x - 2 \amp\geq 0</mrow>
+          <mrow>x \amp\geq 2</mrow>
+        </md>
+        <p>Domain: <m>[2, \infty)</m></p>
+      </solution>
+    </example>
+
+    <example xml:id="ex-domain-radical-2">
+      <title>Domain of Another Radical Function</title>
+      <statement>
+        <p>Find the domain of <m>g(x) = \sqrt{5-2x}</m>.</p>
+      </statement>
+      <solution>
+        <p>We need <m>5 - 2x \geq 0</m>:</p>
+        <md>
+          <mrow>5 - 2x \amp\geq 0</mrow>
+          <mrow>5 \amp\geq 2x</mrow>
+          <mrow>\frac{5}{2} \amp\geq x</mrow>
+        </md>
+        <p>Domain: <m>(-\infty, \frac{5}{2}]</m></p>
+      </solution>
+    </example>
+
+    <example xml:id="ex-domain-radical-3">
+      <title>Domain of a Cube Root Function</title>
+      <statement>
+        <p>Find the domain of <m>h(x) = \sqrt[3]{x+4}</m>.</p>
+      </statement>
+      <solution>
+        <p>Cube roots (odd roots) of negative numbers are defined in the real number system. For example, <m>\sqrt[3]{-8} = -2</m>.</p>
+        <p>Therefore, there are no restrictions on the domain.</p>
+        <p>Domain: <m>(-\infty, \infty)</m></p>
+      </solution>
+    </example>
+
+    <example xml:id="ex-domain-combined">
+      <title>Domain with Combined Restrictions</title>
+      <statement>
+        <p>Find the domain of <m>f(x) = \frac{\sqrt{x+1}}{x-2}</m>.</p>
+      </statement>
+      <solution>
+        <p>This function has two types of restrictions:</p>
+        <p><alert>From the square root:</alert> We need <m>x + 1 \geq 0</m>, so <m>x \geq -1</m>.</p>
+        <p><alert>From the denominator:</alert> We need <m>x - 2 \neq 0</m>, so <m>x \neq 2</m>.</p>
+        <p>Combining both restrictions: <m>x \geq -1</m> AND <m>x \neq 2</m>.</p>
+        <p>Domain: <m>[-1, 2) \cup (2, \infty)</m></p>
+      </solution>
+    </example>
+
+    <project xml:id="project-domain-basic">
+      <title>Finding Domain I: Basic Functions</title>
+      <introduction>
+        <p>Find the domain of each function. Express your answer in interval notation.</p>
+      </introduction>
+      <task>
+        <statement><m>f(x) = 3x - 7</m></statement>
+        <answer><m>(-\infty, \infty)</m></answer>
+      </task>
+      <task>
+        <statement><m>g(x) = x^2 - 5x + 6</m></statement>
+        <answer><m>(-\infty, \infty)</m></answer>
+      </task>
+      <task>
+        <statement><m>h(x) = \frac{1}{x+4}</m></statement>
+        <answer><m>(-\infty, -4) \cup (-4, \infty)</m></answer>
+      </task>
+      <task>
+        <statement><m>p(x) = \frac{2}{x-5}</m></statement>
+        <answer><m>(-\infty, 5) \cup (5, \infty)</m></answer>
+      </task>
+      <task>
+        <statement><m>f(x) = \frac{x+1}{2x-6}</m></statement>
+        <answer><m>(-\infty, 3) \cup (3, \infty)</m></answer>
+      </task>
+      <task>
+        <statement><m>g(x) = \frac{3x}{x^2-9}</m></statement>
+        <answer><m>(-\infty, -3) \cup (-3, 3) \cup (3, \infty)</m></answer>
+      </task>
+      <task>
+        <statement><m>h(x) = \frac{1}{x^2+4}</m></statement>
+        <answer><m>(-\infty, \infty)</m></answer>
+      </task>
+      <task>
+        <statement><m>f(x) = \frac{x-1}{x^2+1}</m></statement>
+        <answer><m>(-\infty, \infty)</m></answer>
+      </task>
+      <task>
+        <statement><m>g(x) = \frac{2x+3}{x^2-x-6}</m></statement>
+        <answer><m>(-\infty, -2) \cup (-2, 3) \cup (3, \infty)</m></answer>
+      </task>
+      <task>
+        <statement><m>h(x) = \frac{5}{x^2-7x+10}</m></statement>
+        <answer><m>(-\infty, 2) \cup (2, 5) \cup (5, \infty)</m></answer>
+      </task>
+    </project>
+
+    <project xml:id="project-domain-radicals">
+      <title>Finding Domain II: Radical Functions</title>
+      <introduction>
+        <p>Find the domain of each function. Express your answer in interval notation.</p>
+      </introduction>
+      <task>
+        <statement><m>f(x) = \sqrt{x}</m></statement>
+        <answer><m>[0, \infty)</m></answer>
+      </task>
+      <task>
+        <statement><m>g(x) = \sqrt{x+3}</m></statement>
+        <answer><m>[-3, \infty)</m></answer>
+      </task>
+      <task>
+        <statement><m>h(x) = \sqrt{2x-8}</m></statement>
+        <answer><m>[4, \infty)</m></answer>
+      </task>
+      <task>
+        <statement><m>f(x) = \sqrt{10-x}</m></statement>
+        <answer><m>(-\infty, 10]</m></answer>
+      </task>
+      <task>
+        <statement><m>g(x) = \sqrt{4-3x}</m></statement>
+        <answer><m>(-\infty, \frac{4}{3}]</m></answer>
+      </task>
+      <task>
+        <statement><m>h(x) = \sqrt[3]{x-5}</m></statement>
+        <answer><m>(-\infty, \infty)</m></answer>
+      </task>
+      <task>
+        <statement><m>f(x) = \sqrt{x^2-16}</m></statement>
+        <answer><m>(-\infty, -4] \cup [4, \infty)</m></answer>
+      </task>
+      <task>
+        <statement><m>g(x) = \sqrt{9-x^2}</m></statement>
+        <answer><m>[-3, 3]</m></answer>
+      </task>
+      <task>
+        <statement><m>h(x) = \sqrt{x^2+4}</m></statement>
+        <answer><m>(-\infty, \infty)</m></answer>
+      </task>
+      <task>
+        <statement><m>f(x) = \sqrt{2x+5}</m></statement>
+        <answer><m>[-\frac{5}{2}, \infty)</m></answer>
+      </task>
+    </project>
+
+    <project xml:id="project-domain-mixed">
+      <title>Finding Domain III: Mixed Functions</title>
+      <introduction>
+        <p>Find the domain of each function. Express your answer in interval notation.</p>
+      </introduction>
+      <task>
+        <statement><m>f(x) = \frac{\sqrt{x}}{x-1}</m></statement>
+        <answer><m>[0, 1) \cup (1, \infty)</m></answer>
+      </task>
+      <task>
+        <statement><m>g(x) = \frac{\sqrt{x+2}}{x+5}</m></statement>
+        <answer><m>[-2, -5) \cup (-5, \infty)</m></answer>
+      </task>
+      <task>
+        <statement><m>h(x) = \sqrt{\frac{1}{x}}</m></statement>
+        <answer><m>(0, \infty)</m></answer>
+      </task>
+      <task>
+        <statement><m>f(x) = \frac{1}{\sqrt{x-3}}</m></statement>
+        <answer><m>(3, \infty)</m></answer>
+      </task>
+      <task>
+        <statement><m>g(x) = \frac{\sqrt{x-1}}{x-4}</m></statement>
+        <answer><m>[1, 4) \cup (4, \infty)</m></answer>
+      </task>
+      <task>
+        <statement><m>h(x) = \sqrt{x} + \frac{1}{x}</m></statement>
+        <answer><m>(0, \infty)</m></answer>
+      </task>
+      <task>
+        <statement><m>f(x) = \frac{x}{\sqrt{x+4}}</m></statement>
+        <answer><m>(-4, \infty)</m></answer>
+      </task>
+      <task>
+        <statement><m>g(x) = \sqrt{\frac{x+2}{x-3}}</m></statement>
+        <answer><m>(-\infty, -2] \cup (3, \infty)</m></answer>
+      </task>
+      <task>
+        <statement><m>h(x) = \frac{2}{\sqrt{5-x}}</m></statement>
+        <answer><m>(-\infty, 5)</m></answer>
+      </task>
+      <task>
+        <statement><m>f(x) = \sqrt{x^2-5x+6}</m></statement>
+        <answer><m>(-\infty, 2] \cup [3, \infty)</m></answer>
+      </task>
+      <task>
+        <statement><m>g(x) = \frac{\sqrt{4-x^2}}{x+1}</m></statement>
+        <answer><m>[-2, -1) \cup (-1, 2]</m></answer>
+      </task>
+      <task>
+        <statement><m>h(x) = \sqrt{6x-x^2}</m></statement>
+        <answer><m>[0, 6]</m></answer>
+      </task>
+    </project>
+
+  </subsection>
+
+  <subsection xml:id="subsec-finding-range">
+    <title>Finding the Range of a Function</title>
+
+    <p>Finding the range of a function is generally more challenging than finding the domain. We need to determine all possible output values. There are several strategies:</p>
+    <ul>
+      <li>For simple functions, analyze the behavior algebraically</li>
+      <li>For transformed functions, use knowledge of transformations</li>
+      <li>For complex functions, use graphing or calculus techniques</li>
+    </ul>
+
+    <example xml:id="ex-range-linear">
+      <title>Range of a Linear Function</title>
+      <statement>
+        <p>Find the range of <m>f(x) = 2x + 3</m>.</p>
+      </statement>
+      <solution>
+        <p>Linear functions (with non-zero slope) take on all real number values. As <m>x</m> goes from <m>-\infty</m> to <m>\infty</m>, the function values also go from <m>-\infty</m> to <m>\infty</m>.</p>
+        <p>Range: <m>(-\infty, \infty)</m></p>
+      </solution>
+    </example>
+
+    <example xml:id="ex-range-quadratic-1">
+      <title>Range of a Quadratic Function (Opens Up)</title>
+      <statement>
+        <p>Find the range of <m>f(x) = x^2</m>.</p>
+      </statement>
+      <solution>
+        <p>The function <m>f(x) = x^2</m> has a minimum value at <m>x = 0</m>, where <m>f(0) = 0</m>.</p>
+        <p>Since <m>x^2 \geq 0</m> for all real <m>x</m>, the function values are never negative.</p>
+        <p>As <m>x</m> gets larger (in either direction), <m>f(x)</m> increases without bound.</p>
+        <p>Range: <m>[0, \infty)</m></p>
+      </solution>
+    </example>
+
+    <example xml:id="ex-range-quadratic-2">
+      <title>Range of a Quadratic Function (Opens Down)</title>
+      <statement>
+        <p>Find the range of <m>g(x) = -\brac{x-2}^2 + 5</m>.</p>
+      </statement>
+      <solution>
+        <p>This is a quadratic function in vertex form with vertex <m>(2, 5)</m>.</p>
+        <p>Since the coefficient of the squared term is negative (<m>-1</m>), the parabola opens downward.</p>
+        <p>The maximum value occurs at the vertex: <m>g(2) = 5</m>.</p>
+        <p>As <m>x</m> moves away from 2 (in either direction), <m>g(x)</m> decreases without bound.</p>
+        <p>Range: <m>(-\infty, 5]</m></p>
+      </solution>
+    </example>
+
+    <example xml:id="ex-range-rational-1">
+      <title>Range of a Simple Rational Function</title>
+      <statement>
+        <p>Find the range of <m>f(x) = \frac{1}{x}</m>.</p>
+      </statement>
+      <solution>
+        <p>For <m>f(x) = \frac{1}{x}</m>:</p>
+        <ul>
+          <li>When <m>x \gt 0</m>, we have <m>f(x) \gt 0</m></li>
+          <li>When <m>x \lt 0</m>, we have <m>f(x) \lt 0</m></li>
+          <li>As <m>x</m> approaches 0, <m>\abs{f(x)}</m> grows without bound</li>
+          <li>As <m>\abs{x}</m> grows large, <m>f(x)</m> approaches 0 but never equals 0</li>
+        </ul>
+        <p>The function can output any non-zero value, but never 0.</p>
+        <p>Range: <m>(-\infty, 0) \cup (0, \infty)</m></p>
+      </solution>
+    </example>
+
+    <example xml:id="ex-range-rational-2">
+      <title>Range of a Transformed Rational Function</title>
+      <statement>
+        <p>Find the range of <m>g(x) = 2 + \frac{3}{x-1}</m>.</p>
+      </statement>
+      <solution>
+        <p>This function is a transformation of <m>\frac{1}{x}</m>:</p>
+        <ul>
+          <li>The <m>\frac{3}{x-1}</m> part can take any non-zero value (similar to <m>\frac{1}{x}</m>)</li>
+          <li>Adding 2 shifts all values up by 2</li>
+        </ul>
+        <p>If <m>\frac{3}{x-1}</m> can be any value except 0, then <m>2 + \frac{3}{x-1}</m> can be any value except <m>2 + 0 = 2</m>.</p>
+        <p>Range: <m>(-\infty, 2) \cup (2, \infty)</m></p>
+      </solution>
+    </example>
+
+    <example xml:id="ex-range-radical-1">
+      <title>Range of a Square Root Function</title>
+      <statement>
+        <p>Find the range of <m>f(x) = \sqrt{x}</m>.</p>
+      </statement>
+      <solution>
+        <p>The square root function produces only non-negative outputs.</p>
+        <p>The minimum value is <m>f(0) = 0</m>, and as <m>x</m> increases, <m>f(x)</m> increases without bound.</p>
+        <p>Range: <m>[0, \infty)</m></p>
+      </solution>
+    </example>
+
+    <example xml:id="ex-range-radical-2">
+      <title>Range of a Transformed Radical Function</title>
+      <statement>
+        <p>Find the range of <m>g(x) = 3 - \sqrt{x+2}</m>.</p>
+      </statement>
+      <solution>
+        <p>First, note the domain is <m>x \geq -2</m> (so the square root is defined).</p>
+        <p>The expression <m>\sqrt{x+2}</m> has range <m>[0, \infty)</m> over this domain.</p>
+        <p>Therefore, <m>-\sqrt{x+2}</m> has range <m>(-\infty, 0]</m>.</p>
+        <p>Adding 3: <m>3 - \sqrt{x+2}</m> has range <m>(-\infty, 3]</m>.</p>
+        <p>We can verify:</p>
+        <ul>
+          <li>Maximum: when <m>x = -2</m>, <m>g(-2) = 3 - \sqrt{0} = 3</m></li>
+          <li>As <m>x \to \infty</m>, <m>g(x) \to -\infty</m></li>
+        </ul>
+        <p>Range: <m>(-\infty, 3]</m></p>
+      </solution>
+    </example>
+
+    <project xml:id="project-range-basic">
+      <title>Finding Range I</title>
+      <introduction>
+        <p>Find the range of each function. Express your answer in interval notation.</p>
+      </introduction>
+      <task>
+        <statement><m>f(x) = 5x - 2</m></statement>
+        <answer><m>(-\infty, \infty)</m></answer>
+      </task>
+      <task>
+        <statement><m>g(x) = -3x + 7</m></statement>
+        <answer><m>(-\infty, \infty)</m></answer>
+      </task>
+      <task>
+        <statement><m>h(x) = x^2 + 4</m></statement>
+        <answer><m>[4, \infty)</m></answer>
+      </task>
+      <task>
+        <statement><m>f(x) = \brac{x-1}^2</m></statement>
+        <answer><m>[0, \infty)</m></answer>
+      </task>
+      <task>
+        <statement><m>g(x) = -x^2 + 3</m></statement>
+        <answer><m>(-\infty, 3]</m></answer>
+      </task>
+      <task>
+        <statement><m>h(x) = \brac{x+2}^2 - 5</m></statement>
+        <answer><m>[-5, \infty)</m></answer>
+      </task>
+      <task>
+        <statement><m>f(x) = -2\brac{x-3}^2 + 1</m></statement>
+        <answer><m>(-\infty, 1]</m></answer>
+      </task>
+      <task>
+        <statement><m>g(x) = \sqrt{x-4}</m></statement>
+        <answer><m>[0, \infty)</m></answer>
+      </task>
+      <task>
+        <statement><m>h(x) = \sqrt{x} + 2</m></statement>
+        <answer><m>[2, \infty)</m></answer>
+      </task>
+      <task>
+        <statement><m>f(x) = -\sqrt{x+1}</m></statement>
+        <answer><m>(-\infty, 0]</m></answer>
+      </task>
+    </project>
+
+    <project xml:id="project-domain-and-range">
+      <title>Finding Both Domain and Range</title>
+      <introduction>
+        <p>Find both the domain and range of each function. Express your answers in interval notation.</p>
+      </introduction>
+      <task>
+        <statement><m>f(x) = x^2 - 6x + 5</m></statement>
+        <answer>
+          <p>Domain: <m>(-\infty, \infty)</m></p>
+          <p>Range: <m>[-4, \infty)</m> (vertex form: <m>\brac{x-3}^2 - 4</m>)</p>
+        </answer>
+      </task>
+      <task>
+        <statement><m>g(x) = \frac{2}{x+3}</m></statement>
+        <answer>
+          <p>Domain: <m>(-\infty, -3) \cup (-3, \infty)</m></p>
+          <p>Range: <m>(-\infty, 0) \cup (0, \infty)</m></p>
+        </answer>
+      </task>
+      <task>
+        <statement><m>h(x) = \sqrt{x-5} + 1</m></statement>
+        <answer>
+          <p>Domain: <m>[5, \infty)</m></p>
+          <p>Range: <m>[1, \infty)</m></p>
+        </answer>
+      </task>
+      <task>
+        <statement><m>f(x) = -3\brac{x+1}^2 + 2</m></statement>
+        <answer>
+          <p>Domain: <m>(-\infty, \infty)</m></p>
+          <p>Range: <m>(-\infty, 2]</m></p>
+        </answer>
+      </task>
+      <task>
+        <statement><m>g(x) = \frac{1}{x^2+1}</m></statement>
+        <answer>
+          <p>Domain: <m>(-\infty, \infty)</m></p>
+          <p>Range: <m>(0, 1]</m> (maximum when <m>x=0</m>)</p>
+        </answer>
+      </task>
+      <task>
+        <statement><m>h(x) = 2 - \sqrt{4-x}</m></statement>
+        <answer>
+          <p>Domain: <m>(-\infty, 4]</m></p>
+          <p>Range: <m>(-\infty, 2]</m></p>
+        </answer>
+      </task>
+      <task>
+        <statement><m>f(x) = \frac{x+1}{x-2}</m></statement>
+        <answer>
+          <p>Domain: <m>(-\infty, 2) \cup (2, \infty)</m></p>
+          <p>Range: <m>(-\infty, 1) \cup (1, \infty)</m></p>
+        </answer>
+      </task>
+      <task>
+        <statement><m>g(x) = \abs{x} - 3</m></statement>
+        <answer>
+          <p>Domain: <m>(-\infty, \infty)</m></p>
+          <p>Range: <m>[-3, \infty)</m></p>
+        </answer>
+      </task>
+      <task>
+        <statement><m>h(x) = 3\sqrt{x+2} - 1</m></statement>
+        <answer>
+          <p>Domain: <m>[-2, \infty)</m></p>
+          <p>Range: <m>[-1, \infty)</m></p>
+        </answer>
+      </task>
+      <task>
+        <statement><m>f(x) = \frac{5}{2x-1} + 3</m></statement>
+        <answer>
+          <p>Domain: <m>(-\infty, \frac{1}{2}) \cup (\frac{1}{2}, \infty)</m></p>
+          <p>Range: <m>(-\infty, 3) \cup (3, \infty)</m></p>
+        </answer>
+      </task>
+    </project>
+
+  </subsection>
+
+  <subsection xml:id="subsec-domain-range-summary">
+    <title>Summary and Strategies</title>
+
+    <p>Here are the key strategies for finding domain and range:</p>
+
+    <assemblage xml:id="assemblage-domain-strategies">
+      <title>Strategies for Finding Domain</title>
+      <p><alert>Step 1:</alert> Identify the type of function.</p>
+      <p><alert>Step 2:</alert> Check for restrictions:</p>
+      <ul>
+        <li>If there's a denominator, set it equal to zero and solve. Exclude these values.</li>
+        <li>If there's an even root (square root, 4th root, etc.), set the expression inside greater than or equal to zero and solve.</li>
+        <li>If there's an odd root (cube root, 5th root, etc.), there are no restrictions from the root.</li>
+        <li>For logarithms, the argument must be positive (covered in later chapters).</li>
+      </ul>
+      <p><alert>Step 3:</alert> Combine all restrictions using interval notation.</p>
+    </assemblage>
+
+    <assemblage xml:id="assemblage-range-strategies">
+      <title>Strategies for Finding Range</title>
+      <p><alert>For linear functions:</alert> The range is all real numbers (unless it's a horizontal line).</p>
+      <p><alert>For quadratic functions:</alert> Find the vertex. If the parabola opens up, the range is <m>[k, \infty)</m> where <m>k</m> is the <m>y</m>-coordinate of the vertex. If it opens down, the range is <m>(-\infty, k]</m>.</p>
+      <p><alert>For rational functions of the form <m>\frac{a}{x-h} + k</m>:</alert> The range is all real numbers except <m>k</m>.</p>
+      <p><alert>For square root functions of the form <m>a\sqrt{x-h} + k</m>:</alert></p>
+      <ul>
+        <li>If <m>a \gt 0</m>, the range is <m>[k, \infty)</m></li>
+        <li>If <m>a \lt 0</m>, the range is <m>(-\infty, k]</m></li>
+      </ul>
+      <p><alert>General strategy:</alert> Think about the minimum and maximum values the function can achieve, either through algebra, graphing, or calculus techniques.</p>
+    </assemblage>
+
+    <assemblage xml:id="assemblage-common-functions">
+      <title>Quick Reference: Common Functions</title>
+      <tabular>
+        <row header="yes">
+          <cell>Function Type</cell>
+          <cell>Example</cell>
+          <cell>Domain</cell>
+          <cell>Range</cell>
+        </row>
+        <row>
+          <cell>Polynomial</cell>
+          <cell><m>x^2 + 3x - 5</m></cell>
+          <cell><m>(-\infty, \infty)</m></cell>
+          <cell>Depends on degree and leading coefficient</cell>
+        </row>
+        <row>
+          <cell>Rational</cell>
+          <cell><m>\frac{1}{x-2}</m></cell>
+          <cell>All reals except where denominator = 0</cell>
+          <cell>Usually all reals except horizontal asymptote value</cell>
+        </row>
+        <row>
+          <cell>Square Root</cell>
+          <cell><m>\sqrt{x-3}</m></cell>
+          <cell>Where expression under root <m>\geq 0</m></cell>
+          <cell><m>[0, \infty)</m> or <m>(-\infty, 0]</m> (depends on sign)</cell>
+        </row>
+        <row>
+          <cell>Absolute Value</cell>
+          <cell><m>\abs{x}</m></cell>
+          <cell><m>(-\infty, \infty)</m></cell>
+          <cell><m>[0, \infty)</m> for basic form</cell>
+        </row>
+      </tabular>
+    </assemblage>
+
+  </subsection>
+
+</section>

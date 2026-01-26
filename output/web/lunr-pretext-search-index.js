@@ -3106,6 +3106,222 @@ var ptx_lunr_docs = [
   "body": "          (the entire real line)   "
 },
 {
+  "id": "sec-domain-and-range",
+  "level": "1",
+  "url": "sec-domain-and-range.html",
+  "type": "Section",
+  "number": "9.2",
+  "title": "Domain and Range of Functions",
+  "body": " Domain and Range of Functions   When working with functions, we need to understand what inputs are allowed and what outputs are possible. The domain of a function is the set of all possible input values (typically -values), and the range is the set of all possible output values (typically -values or -values).  Think of a function as a machine: the domain is all the items you're allowed to put into the machine, and the range is all the possible items that can come out of the machine.   Domain and Range   For a function :   The domain of is the set of all possible input values:  The range of is the set of all possible output values:     We will use interval notation to express domains and ranges. Recall from the previous section that interval notation provides a concise way to describe sets of numbers.    Finding the Domain of a Function  To find the domain of a function, we need to identify which values of make the function undefined. The most common restrictions are:   Division by zero: We cannot divide by zero, so any value that makes a denominator equal to zero must be excluded from the domain.  Even roots of negative numbers: We cannot take the square root (or any even root) of a negative number in the real number system, so the expression under an even root must be non-negative.  Logarithms of non-positive numbers: We can only take logarithms of positive numbers (covered in a later chapter).   Let's look at examples of finding domains for different types of functions.   Domain of Polynomial Functions   Find the domain of .    Polynomial functions have no restrictions. We can substitute any real number for and get a valid output.  Therefore, the domain is or (all real numbers).     Domain of Another Polynomial   Find the domain of .    Again, this is a polynomial function with no restrictions.  Domain:     Domain of a Simple Rational Function   Find the domain of .    This function has a variable in the denominator. We need to find where the denominator equals zero:   The function is undefined when , so we must exclude this value from the domain.  Domain:  In words: all real numbers except 3.     Domain with Two Restrictions   Find the domain of .    First, we factor the denominator:   The denominator equals zero when:   We must exclude both values from the domain.  Domain:  In words: all real numbers except and .     Domain with No Restrictions   Find the domain of .    We check if the denominator can equal zero:   Since is always non-negative for real numbers, is always at least 1. The denominator never equals zero.  Domain:     Domain of a Square Root Function   Find the domain of .    The expression under the square root must be non-negative:   Domain:     Domain of Another Radical Function   Find the domain of .    We need :   Domain:     Domain of a Cube Root Function   Find the domain of .    Cube roots (odd roots) of negative numbers are defined in the real number system. For example, .  Therefore, there are no restrictions on the domain.  Domain:     Domain with Combined Restrictions   Find the domain of .    This function has two types of restrictions:  From the square root: We need , so .  From the denominator: We need , so .  Combining both restrictions: AND .  Domain:     Finding Domain I: Basic Functions   Find the domain of each function. Express your answer in interval notation.                                             Finding Domain II: Radical Functions   Find the domain of each function. Express your answer in interval notation.                                             Finding Domain III: Mixed Functions   Find the domain of each function. Express your answer in interval notation.                                                      Finding the Range of a Function  Finding the range of a function is generally more challenging than finding the domain. We need to determine all possible output values. There are several strategies:   For simple functions, analyze the behavior algebraically  For transformed functions, use knowledge of transformations  For complex functions, use graphing or calculus techniques    Range of a Linear Function   Find the range of .    Linear functions (with non-zero slope) take on all real number values. As goes from to , the function values also go from to .  Range:     Range of a Quadratic Function (Opens Up)   Find the range of .    The function has a minimum value at , where .  Since for all real , the function values are never negative.  As gets larger (in either direction), increases without bound.  Range:     Range of a Quadratic Function (Opens Down)   Find the range of .    This is a quadratic function in vertex form with vertex .  Since the coefficient of the squared term is negative ( ), the parabola opens downward.  The maximum value occurs at the vertex: .  As moves away from 2 (in either direction), decreases without bound.  Range:     Range of a Simple Rational Function   Find the range of .    For :   When , we have  When , we have  As approaches 0, grows without bound  As grows large, approaches 0 but never equals 0   The function can output any non-zero value, but never 0.  Range:     Range of a Transformed Rational Function   Find the range of .    This function is a transformation of :   The part can take any non-zero value (similar to )  Adding 2 shifts all values up by 2   If can be any value except 0, then can be any value except .  Range:     Range of a Square Root Function   Find the range of .    The square root function produces only non-negative outputs.  The minimum value is , and as increases, increases without bound.  Range:     Range of a Transformed Radical Function   Find the range of .    First, note the domain is (so the square root is defined).  The expression has range over this domain.  Therefore, has range .  Adding 3: has range .  We can verify:   Maximum: when ,  As ,   Range:     Finding Range I   Find the range of each function. Express your answer in interval notation.                                             Finding Both Domain and Range   Find both the domain and range of each function. Express your answers in interval notation.      Domain:  Range: (vertex form: )       Domain:  Range:       Domain:  Range:       Domain:  Range:       Domain:  Range: (maximum when )       Domain:  Range:       Domain:  Range:       Domain:  Range:       Domain:  Range:       Domain:  Range:       Summary and Strategies  Here are the key strategies for finding domain and range:   Strategies for Finding Domain  Step 1: Identify the type of function.  Step 2: Check for restrictions:   If there's a denominator, set it equal to zero and solve. Exclude these values.  If there's an even root (square root, 4th root, etc.), set the expression inside greater than or equal to zero and solve.  If there's an odd root (cube root, 5th root, etc.), there are no restrictions from the root.  For logarithms, the argument must be positive (covered in later chapters).   Step 3: Combine all restrictions using interval notation.    Strategies for Finding Range  For linear functions: The range is all real numbers (unless it's a horizontal line).  For quadratic functions: Find the vertex. If the parabola opens up, the range is where is the -coordinate of the vertex. If it opens down, the range is .  For rational functions of the form : The range is all real numbers except .  For square root functions of the form :   If , the range is  If , the range is   General strategy: Think about the minimum and maximum values the function can achieve, either through algebra, graphing, or calculus techniques.    Quick Reference: Common Functions    Function Type  Example  Domain  Range    Polynomial    Depends on degree and leading coefficient    Rational   All reals except where denominator = 0  Usually all reals except horizontal asymptote value    Square Root   Where expression under root  or (depends on sign)    Absolute Value    for basic form      "
+},
+{
+  "id": "sec-domain-and-range-2-1",
+  "level": "2",
+  "url": "sec-domain-and-range.html#sec-domain-and-range-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "domain range "
+},
+{
+  "id": "def-domain-range",
+  "level": "2",
+  "url": "sec-domain-and-range.html#def-domain-range",
+  "type": "Definition",
+  "number": "9.2.1",
+  "title": "Domain and Range.",
+  "body": " Domain and Range   For a function :   The domain of is the set of all possible input values:  The range of is the set of all possible output values:    "
+},
+{
+  "id": "ex-domain-polynomial-1",
+  "level": "2",
+  "url": "sec-domain-and-range.html#ex-domain-polynomial-1",
+  "type": "Example",
+  "number": "9.2.2",
+  "title": "Domain of Polynomial Functions.",
+  "body": " Domain of Polynomial Functions   Find the domain of .    Polynomial functions have no restrictions. We can substitute any real number for and get a valid output.  Therefore, the domain is or (all real numbers).   "
+},
+{
+  "id": "ex-domain-polynomial-2",
+  "level": "2",
+  "url": "sec-domain-and-range.html#ex-domain-polynomial-2",
+  "type": "Example",
+  "number": "9.2.3",
+  "title": "Domain of Another Polynomial.",
+  "body": " Domain of Another Polynomial   Find the domain of .    Again, this is a polynomial function with no restrictions.  Domain:   "
+},
+{
+  "id": "ex-domain-rational-1",
+  "level": "2",
+  "url": "sec-domain-and-range.html#ex-domain-rational-1",
+  "type": "Example",
+  "number": "9.2.4",
+  "title": "Domain of a Simple Rational Function.",
+  "body": " Domain of a Simple Rational Function   Find the domain of .    This function has a variable in the denominator. We need to find where the denominator equals zero:   The function is undefined when , so we must exclude this value from the domain.  Domain:  In words: all real numbers except 3.   "
+},
+{
+  "id": "ex-domain-rational-2",
+  "level": "2",
+  "url": "sec-domain-and-range.html#ex-domain-rational-2",
+  "type": "Example",
+  "number": "9.2.5",
+  "title": "Domain with Two Restrictions.",
+  "body": " Domain with Two Restrictions   Find the domain of .    First, we factor the denominator:   The denominator equals zero when:   We must exclude both values from the domain.  Domain:  In words: all real numbers except and .   "
+},
+{
+  "id": "ex-domain-rational-3",
+  "level": "2",
+  "url": "sec-domain-and-range.html#ex-domain-rational-3",
+  "type": "Example",
+  "number": "9.2.6",
+  "title": "Domain with No Restrictions.",
+  "body": " Domain with No Restrictions   Find the domain of .    We check if the denominator can equal zero:   Since is always non-negative for real numbers, is always at least 1. The denominator never equals zero.  Domain:   "
+},
+{
+  "id": "ex-domain-radical-1",
+  "level": "2",
+  "url": "sec-domain-and-range.html#ex-domain-radical-1",
+  "type": "Example",
+  "number": "9.2.7",
+  "title": "Domain of a Square Root Function.",
+  "body": " Domain of a Square Root Function   Find the domain of .    The expression under the square root must be non-negative:   Domain:   "
+},
+{
+  "id": "ex-domain-radical-2",
+  "level": "2",
+  "url": "sec-domain-and-range.html#ex-domain-radical-2",
+  "type": "Example",
+  "number": "9.2.8",
+  "title": "Domain of Another Radical Function.",
+  "body": " Domain of Another Radical Function   Find the domain of .    We need :   Domain:   "
+},
+{
+  "id": "ex-domain-radical-3",
+  "level": "2",
+  "url": "sec-domain-and-range.html#ex-domain-radical-3",
+  "type": "Example",
+  "number": "9.2.9",
+  "title": "Domain of a Cube Root Function.",
+  "body": " Domain of a Cube Root Function   Find the domain of .    Cube roots (odd roots) of negative numbers are defined in the real number system. For example, .  Therefore, there are no restrictions on the domain.  Domain:   "
+},
+{
+  "id": "ex-domain-combined",
+  "level": "2",
+  "url": "sec-domain-and-range.html#ex-domain-combined",
+  "type": "Example",
+  "number": "9.2.10",
+  "title": "Domain with Combined Restrictions.",
+  "body": " Domain with Combined Restrictions   Find the domain of .    This function has two types of restrictions:  From the square root: We need , so .  From the denominator: We need , so .  Combining both restrictions: AND .  Domain:   "
+},
+{
+  "id": "project-domain-basic",
+  "level": "2",
+  "url": "sec-domain-and-range.html#project-domain-basic",
+  "type": "Exercise Group",
+  "number": "9.2.1",
+  "title": "Finding Domain I: Basic Functions.",
+  "body": " Finding Domain I: Basic Functions   Find the domain of each function. Express your answer in interval notation.                                           "
+},
+{
+  "id": "project-domain-radicals",
+  "level": "2",
+  "url": "sec-domain-and-range.html#project-domain-radicals",
+  "type": "Exercise Group",
+  "number": "9.2.2",
+  "title": "Finding Domain II: Radical Functions.",
+  "body": " Finding Domain II: Radical Functions   Find the domain of each function. Express your answer in interval notation.                                           "
+},
+{
+  "id": "project-domain-mixed",
+  "level": "2",
+  "url": "sec-domain-and-range.html#project-domain-mixed",
+  "type": "Exercise Group",
+  "number": "9.2.3",
+  "title": "Finding Domain III: Mixed Functions.",
+  "body": " Finding Domain III: Mixed Functions   Find the domain of each function. Express your answer in interval notation.                                                   "
+},
+{
+  "id": "ex-range-linear",
+  "level": "2",
+  "url": "sec-domain-and-range.html#ex-range-linear",
+  "type": "Example",
+  "number": "9.2.11",
+  "title": "Range of a Linear Function.",
+  "body": " Range of a Linear Function   Find the range of .    Linear functions (with non-zero slope) take on all real number values. As goes from to , the function values also go from to .  Range:   "
+},
+{
+  "id": "ex-range-quadratic-1",
+  "level": "2",
+  "url": "sec-domain-and-range.html#ex-range-quadratic-1",
+  "type": "Example",
+  "number": "9.2.12",
+  "title": "Range of a Quadratic Function (Opens Up).",
+  "body": " Range of a Quadratic Function (Opens Up)   Find the range of .    The function has a minimum value at , where .  Since for all real , the function values are never negative.  As gets larger (in either direction), increases without bound.  Range:   "
+},
+{
+  "id": "ex-range-quadratic-2",
+  "level": "2",
+  "url": "sec-domain-and-range.html#ex-range-quadratic-2",
+  "type": "Example",
+  "number": "9.2.13",
+  "title": "Range of a Quadratic Function (Opens Down).",
+  "body": " Range of a Quadratic Function (Opens Down)   Find the range of .    This is a quadratic function in vertex form with vertex .  Since the coefficient of the squared term is negative ( ), the parabola opens downward.  The maximum value occurs at the vertex: .  As moves away from 2 (in either direction), decreases without bound.  Range:   "
+},
+{
+  "id": "ex-range-rational-1",
+  "level": "2",
+  "url": "sec-domain-and-range.html#ex-range-rational-1",
+  "type": "Example",
+  "number": "9.2.14",
+  "title": "Range of a Simple Rational Function.",
+  "body": " Range of a Simple Rational Function   Find the range of .    For :   When , we have  When , we have  As approaches 0, grows without bound  As grows large, approaches 0 but never equals 0   The function can output any non-zero value, but never 0.  Range:   "
+},
+{
+  "id": "ex-range-rational-2",
+  "level": "2",
+  "url": "sec-domain-and-range.html#ex-range-rational-2",
+  "type": "Example",
+  "number": "9.2.15",
+  "title": "Range of a Transformed Rational Function.",
+  "body": " Range of a Transformed Rational Function   Find the range of .    This function is a transformation of :   The part can take any non-zero value (similar to )  Adding 2 shifts all values up by 2   If can be any value except 0, then can be any value except .  Range:   "
+},
+{
+  "id": "ex-range-radical-1",
+  "level": "2",
+  "url": "sec-domain-and-range.html#ex-range-radical-1",
+  "type": "Example",
+  "number": "9.2.16",
+  "title": "Range of a Square Root Function.",
+  "body": " Range of a Square Root Function   Find the range of .    The square root function produces only non-negative outputs.  The minimum value is , and as increases, increases without bound.  Range:   "
+},
+{
+  "id": "ex-range-radical-2",
+  "level": "2",
+  "url": "sec-domain-and-range.html#ex-range-radical-2",
+  "type": "Example",
+  "number": "9.2.17",
+  "title": "Range of a Transformed Radical Function.",
+  "body": " Range of a Transformed Radical Function   Find the range of .    First, note the domain is (so the square root is defined).  The expression has range over this domain.  Therefore, has range .  Adding 3: has range .  We can verify:   Maximum: when ,  As ,   Range:   "
+},
+{
+  "id": "project-range-basic",
+  "level": "2",
+  "url": "sec-domain-and-range.html#project-range-basic",
+  "type": "Exercise Group",
+  "number": "9.2.4",
+  "title": "Finding Range I.",
+  "body": " Finding Range I   Find the range of each function. Express your answer in interval notation.                                           "
+},
+{
+  "id": "project-domain-and-range",
+  "level": "2",
+  "url": "sec-domain-and-range.html#project-domain-and-range",
+  "type": "Exercise Group",
+  "number": "9.2.5",
+  "title": "Finding Both Domain and Range.",
+  "body": " Finding Both Domain and Range   Find both the domain and range of each function. Express your answers in interval notation.      Domain:  Range: (vertex form: )       Domain:  Range:       Domain:  Range:       Domain:  Range:       Domain:  Range: (maximum when )       Domain:  Range:       Domain:  Range:       Domain:  Range:       Domain:  Range:       Domain:  Range:    "
+},
+{
   "id": "sec-graphing-rational-functions",
   "level": "1",
   "url": "sec-graphing-rational-functions.html",

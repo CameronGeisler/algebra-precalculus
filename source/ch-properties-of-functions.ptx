@@ -9,5 +9,6 @@
 
   <!-- include sections -->
   <xi:include href="sec-interval-notation.ptx" />
+  <xi:include href="sec-domain-and-range.ptx" />
 
 </chapter>
