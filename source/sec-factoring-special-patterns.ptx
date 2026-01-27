@@ -467,39 +467,6 @@
       <mrow>a^2 + 2ab + b^2 \amp= (a+b)^2</mrow>
       <mrow>a^2 - 2ab + b^2 \amp= (a-b)^2</mrow>
     </md>
-    <p>These are called <term>perfect square trinomials</term>, because they can be written as a perfect square. To recognize if it is one,</p>
-    <ul>
-      <li><p>Are the 1st and 3rd terms squares?</p></li>
-      <li><p>Is the middle term double the product? Take the square roots of the first and last terms, multiply them together, and multiply by 2. If it matches the middle term, then it is a perfect square trinomial.</p></li>
-    </ul>
-
-    <p>Technically, recognizing perfect square trinomials is optional, since you could instead just factor it as a trinomial instead (for example, using the cross method). However, being able to recognize this pattern can save a bit of time from trial-and-error.</p>
-
-    <example xml:id="ex-fill-in-middle-term">
-      <title>Completing a Perfect Square Trinomial (Middle Term)</title>
-      <statement>
-        <p>Fill in the missing term to create a perfect square trinomial, and then factor it.</p>
-      </statement>
-      <solution>
-        <p><m>x^2 + \_\_\_ + 9</m>. Answer: <m>x^2 - 6x + 9 = (x-3)^2</m>.</p>
-        <p><m>x^2 + \_\_\_ + 49</m>. Answer: <m>x^2 + 14x + 49 = (x+7)^2</m>.</p>
-        <p><m>4x^2 + \_\_\_ + 9</m>. Answer: <m>4x^2 - 12x + 9 = (2x-3)^2</m>.</p>
-        <p><m>36x^2 + \_\_\_ + 25</m>. Answer: <m>36x^2 + 60x + 25 = (6x+5)^2</m>.</p>
-      </solution>
-    </example>
-
-    <example xml:id="ex-fill-in-last-term">
-      <title>Completing a Perfect Square Trinomial (Last Term)</title>
-      <statement>
-        <p>Fill in the missing term to create a perfect square trinomial, and then factor it.</p>
-      </statement>
-      <solution>
-        <p><m>x^2 + 4x + \_\_\_</m>. Answer: <m>x^2 + 4x + 4 = (x+2)^2</m>.</p>
-        <p><m>x^2 - 10x + \_\_\_</m>. Answer: <m>x^2 - 10x + 25 = (x-5)^2</m>.</p>
-        <p><m>16x^2 - 8x + \_\_\_</m>. Answer: <m>16x^2 - 8x + 1 = (4x-1)^2</m>.</p>
-        <p><m>9x^2 + 30x + \_\_\_</m>. Answer: <m>9x^2 + 30x + 25 = (3x+5)^2</m>.</p>
-      </solution>
-    </example>
 
     <project xml:id="project-factor-perfect-square-trinomials-1">
       <title>Factoring Perfect Square Trinomials I</title>
@@ -528,10 +495,18 @@
       </task>
     </project>
 
+    <p>These are called <term>perfect square trinomials</term>, because they can be written as a perfect square. To recognize if it is one,</p>
+    <ul>
+      <li><p>Are the 1st and 3rd terms squares?</p></li>
+      <li><p>Is the middle term double the product? Take the square roots of the first and last terms, multiply them together, and multiply by 2. If it matches the middle term, then it is a perfect square trinomial.</p></li>
+    </ul>
+
+    <p>Sometimes, you must first factor out a GCF, before the remaining expression is a perfect square.</p>
+
     <project xml:id="project-factor-perfect-square-trinomials-2">
       <title>Factoring Perfect Square Trinomials II</title>
       <introduction>
-        <p>Factor each perfect square trinomial.</p>
+        <p>Factor each expression fully.</p>
       </introduction>
       <task>
         <statement><m>16x^2-56x+49</m></statement>
@@ -571,10 +546,12 @@
       </task>
     </project>
 
+    <p>Technically, recognizing perfect square trinomials is optional, since you could instead just factor it as a trinomial instead (for example, using the cross method). However, being able to recognize this pattern can save a bit of time from trial-and-error.</p>
+
     <project xml:id="project-factor-perfect-square-trinomials-3">
       <title>Factoring Perfect Square Trinomials III</title>
       <introduction>
-        <p>Factor each perfect square trinomial.</p>
+        <p>Factor each expression fully.</p>
       </introduction>
       <task>
         <statement><m>32x^2-80x+50</m></statement>
@@ -595,6 +572,52 @@
       <task>
         <statement><m>x^6+20x^3+100</m></statement>
         <answer><m>(x^3+10)^2</m></answer>
+      </task>
+    </project>
+
+    <project xml:id="project-complete-middle-term">
+      <title>Completing a Perfect Square Trinomial (Middle Term)</title>
+      <introduction>
+        <p>Fill in the missing term to create a perfect square trinomial, and then factor it.</p>
+      </introduction>
+      <task>
+        <statement><m>x^2 + \_\_\_ + 9</m></statement>
+        <answer><m>x^2 \pm 6x + 9 = (x \pm 3)^2</m></answer>
+      </task>
+      <task>
+        <statement><m>x^2 + \_\_\_ + 49</m></statement>
+        <answer><m>x^2 \pm 14x + 49 = (x \pm 7)^2</m></answer>
+      </task>
+      <task>
+        <statement><m>4x^2 + \_\_\_ + 9</m></statement>
+        <answer><m>4x^2 \pm 12x + 9 = (2x \pm 3)^2</m></answer>
+      </task>
+      <task>
+        <statement><m>36x^2 + \_\_\_ + 25</m></statement>
+        <answer><m>36x^2 \pm 60x + 25 = (6x \pm 5)^2</m></answer>
+      </task>
+    </project>
+
+    <project xml:id="project-complete-last-term">
+      <title>Completing a Perfect Square Trinomial (Last Term)</title>
+      <introduction>
+        <p>Fill in the missing term to create a perfect square trinomial, and then factor it.</p>
+      </introduction>
+      <task>
+        <statement><m>x^2 + 4x + \_\_\_</m></statement>
+        <answer><m>x^2 + 4x + 4 = (x+2)^2</m></answer>
+      </task>
+      <task>
+        <statement><m>x^2 - 10x + \_\_\_</m></statement>
+        <answer><m>x^2 - 10x + 25 = (x-5)^2</m></answer>
+      </task>
+      <task>
+        <statement><m>16x^2 - 8x + \_\_\_</m></statement>
+        <answer><m>16x^2 - 8x + 1 = (4x-1)^2</m></answer>
+      </task>
+      <task>
+        <statement><m>9x^2 + 30x + \_\_\_</m></statement>
+        <answer><m>9x^2 + 30x + 25 = (3x+5)^2</m></answer>
       </task>
     </project>
 

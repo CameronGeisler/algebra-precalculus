@@ -2,122 +2,343 @@
 
 <section xml:id="sec-completing-the-square" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Completing the Square</title>
-  
-  <!-- <introduction>
-  <p>
-  This is the introduction to the section.
-  </p>
-  </introduction> -->
-  
+
+  <subsection xml:id="subsection-solving-by-completing-square">
+    <title>Solving by Completing the Square</title>
+
+    <p>So far, we have considered a few algebraic techniques to solve some kinds of quadratic equations:</p>
+    <ul>
+      <li><p>Taking the square root of both sides.</p></li>
+      <li><p>Factoring.</p></li>
+    </ul>
+    <p>However, in fact, many quadratic expressions are <em>not</em> factorable, and not nicely written as a square. In this case, we'll develop another technique, called <em>completing the square</em>.</p>
+
+    <example xml:id="ex-completing-square-motivation">
+      <title>Motivation for Completing the Square</title>
+      <p>Recall that we have solved quadratic equations of the form <m>(x - h)^2 = k</m> by taking the square root of both sides. For example, to solve <m>(x-3)^2=5</m>,</p>
+      <md>
+        <mrow>(x - 3)^2 \amp= 5</mrow>
+        <mrow>x - 3 \amp= \pm \sqrt{5} \amp\amp\text{by the square root property}</mrow>
+        <mrow>x \amp= 3 \pm \sqrt{5} \amp\amp\text{solving for } x</mrow>
+      </md>
+      <p>Therefore, if we could convert an equation to this form, we could solve it. To see how to do this, expand the left side first, and write it in standard form,</p>
+      <md>
+        <mrow>(x - 3)^2 \amp= 5</mrow>
+        <mrow>x^2 - 6x + 9 \amp= 5</mrow>
+        <mrow>x^2 - 6x + 4 \amp= 0</mrow>
+      </md>
+      <p>This means the equations <m>x^2 - 6x + 4 = 0</m> and <m>(x - 3)^2 = 5</m> are equivalent. The expression <m>x^2 - 6x + 4</m> can't be factored nicely (there are no factors of 4 that add up to <m>-6</m>). However, observe that all of the algebra steps are reversible. That is,</p>
+      <md>
+        <mrow>x^2 - 6x + 4 \amp= 0</mrow>
+        <mrow>x^2 - 6x + 9 \amp= 5 \amp\amp\text{subtracting 4 from both sides, then adding 9 to both sides}</mrow>
+        <mrow>(x - 3)^2 \amp= 5 \amp\amp\text{rewriting the left-hand side as a square}</mrow>
+        <mrow>x - 3 \amp= \pm \sqrt{5} \amp\amp\text{taking the square root of both sides}</mrow>
+        <mrow>x \amp= 3 \pm \sqrt{5} \amp\amp\text{solving for } x \text{, by adding 3 to both sides}</mrow>
+      </md>
+      <p>This is a strategy to solve the equation. However, how would we know what number to add to the left-hand side? In other words, how would we know that we need <m>+9</m> so that <m>x^2-6x+9</m> can be rewritten as <m>(x-3)^2</m>? We need a number to add to <m>x^2-6x</m> to make it a perfect square.</p>
+    </example>
+
+    <example xml:id="ex-perfect-square-trinomial-pattern">
+      <title>Perfect Square Trinomial Pattern</title>
+      <p>Recall that a <term>perfect square trinomial</term> is one that can be factored as a square. For example,</p>
+      <md>
+        <mrow>x^2+8x+16 \amp= (x+4)^2</mrow>
+        <mrow>x^2-10x+25 \amp= (x-5)^2</mrow>
+        <mrow>x^2+12x+36 \amp= (x+6)^2</mrow>
+        <mrow>x^2-6x+9 \amp= (x-3)^2</mrow>
+      </md>
+      <p>Observe the pattern of how each left side and right side looks like. To go from the number in front of <m>x</m> (the <q><m>b</m></q> number), to the constant number, you need to divide <m>b</m> by 2, and square it (multiply it by itself). Also, the number inside the brackets is just the <q>half</q> number (the <m>b</m> number divided by 2).</p>
+    </example>
+
+    <remark>
+      <p>For more about perfect square trinomials, see <url href="https://camerongeisler.github.io/algebra-precalculus/sec-factoring-special-patterns.html#subsection-perfect-square-trinomials">Factoring Special Patterns</url>.</p>
+    </remark>
+
+    <p>In general, for a perfect square trinomial of this form, the constant term is <m>\frac{1}{2}</m> of the coefficient of the <m>x</m> term, squared. In other words,</p>
+    <me>x^2 + bx + \brac{\frac{b}{2}}^2 = \brac{x + \frac{b}{2}}^2</me>
+    <p>This means to get the correct constant term, take the coefficient of <m>x</m>,</p>
+    <ul>
+      <li><p>Divide it by 2 (or take 1/2 of it)</p></li>
+      <li><p>Square it.</p></li>
+    </ul>
+
+    <example xml:id="ex-completing-square-worked">
+      <title>Solve <m>x^2 + 8x + 5 = 0</m></title>
+      <p>The expression <m>x^2 + 8x + 5</m> is not factorable, so we'll use this technique. First, move the constant to the other side,</p>
+      <md>
+        <mrow>x^2 + 8x + 5 \amp= 0</mrow>
+        <mrow>x^2 + 8x \amp= -5</mrow>
+      </md>
+      <p>Next, we want to add a number to both sides so that the left side becomes a perfect square trinomial. The coefficient of <m>x</m> is 8. Half of 8 is 4, and <m>4^2 = 16</m>. So we add 16 to both sides,</p>
+      <md>
+        <mrow>x^2 + 8x + 16 \amp= -5 + 16</mrow>
+        <mrow>x^2 + 8x + 16 \amp= 11</mrow>
+      </md>
+      <p>Now the left side is a perfect square trinomial, which factors as <m>(x + 4)^2</m>,</p>
+      <me>(x + 4)^2 = 11</me>
+      <p>Now we can use the square root property,</p>
+      <md>
+        <mrow>x + 4 \amp= \pm\sqrt{11}</mrow>
+        <mrow>x \amp= -4 \pm \sqrt{11}</mrow>
+      </md>
+      <p>Therefore, <m>x = -4 + \sqrt{11}</m> or <m>x = -4 - \sqrt{11}</m>.</p>
+    </example>
+
+    <p>This process is called <term>completing the square</term>, because we are literally <q>completing</q> a perfect square by adding a number to it.</p>
+
+    <example xml:id="ex-completing-square-no-solution">
+      <title>Solve <m>x^2 + 4x + 7 = 0</m></title>
+      <p>First, move the constant to the other side,</p>
+      <md>
+        <mrow>x^2 + 4x + 7 \amp= 0</mrow>
+        <mrow>x^2 + 4x \amp= -7</mrow>
+      </md>
+      <p>The coefficient of <m>x</m> is 4. Half of 4 is 2, and <m>2^2 = 4</m>. So we add 4 to both sides,</p>
+      <md>
+        <mrow>x^2 + 4x + 4 \amp= -7 + 4</mrow>
+        <mrow>x^2 + 4x + 4 \amp= -3</mrow>
+        <mrow>(x + 2)^2 \amp= -3</mrow>
+      </md>
+      <p>Now we need to take the square root of both sides. However, there is no real number whose square is <m>-3</m>, because the square of any real number is always positive (or 0). Therefore, there is no solution.</p>
+    </example>
+
+    <project xml:id="project-complete-square-pattern">
+      <title>Recognizing Perfect Square Trinomials</title>
+      <introduction>
+        <p>Find a number that makes the expression a perfect square of the form <m>(x+h)^2</m>.</p>
+      </introduction>
+      <task><statement><m>x^2+2x+\_\_\_</m></statement><answer><m>1</m></answer></task>
+      <task><statement><m>x^2-2x+\_\_\_</m></statement><answer><m>1</m></answer></task>
+      <task><statement><m>x^2+4x+\_\_\_</m></statement><answer><m>4</m></answer></task>
+      <task><statement><m>x^2-4x+\_\_\_</m></statement><answer><m>4</m></answer></task>
+      <task><statement><m>x^2+5x+\_\_\_</m></statement><answer><m>\frac{25}{4}</m></answer></task>
+      <task><statement><m>x^2-7x+\_\_\_</m></statement><answer><m>\frac{49}{4}</m></answer></task>
+      <task><statement><m>x^2+bx+\_\_\_</m></statement><answer><m>\frac{b^2}{4}</m></answer></task>
+      <task><statement><m>x^2-bx+\_\_\_</m></statement><answer><m>\frac{b^2}{4}</m></answer></task>
+    </project>
+
+    <p>This gives a technique for solving quadratic equations:</p>
+    <ol>
+      <li><p>Isolate the terms involving <m>x</m>, by moving the constant to the other side.</p></li>
+      <li><p>Find <m>\brac{\frac{b}{2}}^2</m>, and add it to both sides of the equation.</p></li>
+      <li><p>Take square roots of both sides (don't forget <m>\pm</m>)</p></li>
+      <li><p>Isolate for <m>x</m>.</p></li>
+    </ol>
+
+    <project xml:id="project-solve-complete-square-1">
+      <title>Solve by Completing the Square I</title>
+      <introduction>
+        <p>Solve each equation by completing the square.</p>
+      </introduction>
+      <task><statement><m>x^2 - 8x + 5 = 0</m></statement><answer><m>x = 4 \pm \sqrt{11}</m></answer></task>
+      <task><statement><m>x^2 + 10x + 4 = 0</m></statement><answer><m>x = -5 \pm \sqrt{21}</m></answer></task>
+      <task><statement><m>x^2+4x+2=0</m></statement><answer><m>x=-2\pm\sqrt{2}</m></answer></task>
+      <task><statement><m>x^2 - 12x + 9 = 0</m></statement><answer><m>x = 6 \pm 3\sqrt{3}</m></answer></task>
+      <task><statement><m>x^2 - 2x - 15 = 0</m></statement><answer><m>x = -3, 5</m></answer></task>
+      <task><statement><m>x^2-6x-1=0</m></statement><answer><m>x = 3 \pm \sqrt{10}</m></answer></task>
+      <task><statement><m>x^2+2x+7=0</m></statement><answer><p>no solution</p></answer></task>
+      <task><statement><m>x^2 - 8x - 4 = 0</m></statement><answer><m>x = 4 \pm 2\sqrt{5}</m></answer></task>
+      <task><statement><m>x^2-8x+3=0</m></statement><answer><m>x=4\pm\sqrt{13}</m></answer></task>
+      <task><statement><m>x^2-2x-1=0</m></statement><answer><m>x=1\pm\sqrt{2}</m></answer></task>
+      <task><statement><m>x^2 - 8x + 13 = 0</m></statement><answer><m>x = 4 \pm \sqrt{3}</m></answer></task>
+    </project>
+
+    <project xml:id="project-solve-complete-square-2">
+      <title>Solve by Completing the Square II</title>
+      <introduction>
+        <p>Solve each equation by completing the square.</p>
+      </introduction>
+      <task><statement><m>-x^2+6x-7=0</m></statement><answer><m>x=3\pm\sqrt{2}</m></answer></task>
+      <task><statement><m>x^2-5x+3=0</m></statement><answer><m>x=\frac{5}{2}\pm\frac{\sqrt{13}}{2}</m></answer></task>
+      <task><statement><m>x^2-x-8=0</m></statement><answer><m>x=\frac{1}{2}\pm\frac{\sqrt{33}}{2}</m></answer></task>
+    </project>
+
+    <example xml:id="ex-completing-square-factorable">
+      <title>Solve <m>x^2 - 6x + 5 = 0</m></title>
+      <p>This equation could be solved by factoring, as,</p>
+      <md>
+        <mrow>x^2-6x+5 \amp= 0</mrow>
+        <mrow>(x-1)(x-5) \amp= 0</mrow>
+        <mrow>x \amp= 1, 5</mrow>
+      </md>
+      <p>However, completing the square also works in this simpler case. First, move the constant to the other side,</p>
+      <md>
+        <mrow>x^2 - 6x + 5 \amp= 0</mrow>
+        <mrow>x^2 - 6x \amp= -5</mrow>
+      </md>
+      <p>The coefficient of <m>x</m> is <m>-6</m>. Half of <m>-6</m> is <m>-3</m>, and <m>(-3)^2 = 9</m>. So we add 9 to both sides,</p>
+      <md>
+        <mrow>x^2 - 6x + 9 \amp= -5 + 9</mrow>
+        <mrow>x^2 - 6x + 9 \amp= 4</mrow>
+      </md>
+      <p>Now the left side is a perfect square trinomial, which factors as <m>(x - 3)^2</m>,</p>
+      <me>(x - 3)^2 = 4</me>
+      <p>Now we can take the square root of both sides,</p>
+      <md>
+        <mrow>x - 3 \amp= \pm 2</mrow>
+        <mrow>x \amp= 3 \pm 2</mrow>
+      </md>
+      <p>Therefore, <m>x = 3 + 2 = 5</m> or <m>x = 3 - 2 = 1</m>.</p>
+    </example>
+
+    <example xml:id="ex-completing-square-leading-coeff">
+      <title>Solve <m>2x^2 - 8x + 2 = 0</m></title>
+      <p>Notice here, the leading coefficient (<m>a</m>) is not 1 (it is 2). In this case, first divide both sides by that number.</p>
+      <md>
+        <mrow>2x^2 - 8x + 2 \amp= 0</mrow>
+        <mrow>x^2 - 4x + 1 \amp= 0 \amp\amp\text{dividing both sides by 2}</mrow>
+      </md>
+      <p>Now, we can complete the square just like before. Move the constant to the other side,</p>
+      <me>x^2 - 4x = -1</me>
+      <p>The coefficient of <m>x</m> is <m>-4</m>. Half of <m>-4</m> is <m>-2</m>, and <m>(-2)^2 = 4</m>. So we add 4 to both sides,</p>
+      <md>
+        <mrow>x^2 - 4x + 4 \amp= -1 + 4</mrow>
+        <mrow>x^2 - 4x + 4 \amp= 3</mrow>
+        <mrow>(x - 2)^2 \amp= 3 \amp\amp\text{factoring as a perfect square}</mrow>
+        <mrow>x - 2 \amp= \pm\sqrt{3} \amp\amp\text{taking the square root of both sides}</mrow>
+        <mrow>x \amp= 2 \pm \sqrt{3}</mrow>
+      </md>
+      <p>Therefore, <m>x = 2 + \sqrt{3}</m> or <m>x = 2 - \sqrt{3}</m>.</p>
+    </example>
+
+    <p>In general, if the leading coefficient is not 1 (in other words, if <m>a \neq 1</m>), then first divide by that number on both sides, and continue just like before.</p>
+
+    <project xml:id="project-solve-complete-square-3">
+      <title>Solve by Completing the Square III</title>
+      <introduction>
+        <p>Solve each equation by completing the square.</p>
+      </introduction>
+      <task><statement><m>2x^2-8x+1=0</m></statement><answer><m>x=2\pm\frac{\sqrt{14}}{2}</m> (<m>x\approx3.87,0.13</m>)</answer></task>
+      <task><statement><m>3x^2+6x+1=0</m></statement><answer><m>x=-1\pm\frac{\sqrt{6}}{3}</m> (<m>x\approx-0.18,-1.82</m>)</answer></task>
+      <task><statement><m>-2x^2+4x+3=0</m></statement><answer><m>x=1\pm\frac{\sqrt{10}}{2}</m> (<m>x\approx2.58,-0.58</m>)</answer></task>
+      <task><statement><m>5x^2+5x+1=0</m></statement><answer><m>x=-\frac{1}{2}\pm\frac{\sqrt{5}}{10}</m> (<m>x\approx-0.28,-0.72</m>)</answer></task>
+      <task><statement><m>\frac{1}{2}x^2+3x-6=0</m></statement><answer><m>x=-3\pm\sqrt{21}</m> (<m>x\approx1.58,-7.58</m>)</answer></task>
+      <task><statement><m>-2x^2+x-1=0</m></statement><answer><p>no solution</p></answer></task>
+      <task><statement><m>2x^2+3x-7=0</m></statement><answer><m>x=-\frac{3}{4}\pm\frac{\sqrt{65}}{4}</m> (<m>x\approx1.27,-2.77</m>)</answer></task>
+    </project>
+
+    <p><term>Summary of Solving by Completing the Square</term></p>
+
+    <p>In summary, completing the square is a general technique for solving quadratic equations, particularly those which <em>can't</em> be factored. It also works for equations which can be factored, but it is overkill (because factoring is easier).</p>
+
+    <tabular halign="left">
+      <col width="45%"/>
+      <col width="55%"/>
+      <row header="yes" bottom="minor">
+        <cell><term>Steps</term></cell>
+        <cell><term>Example: Solve <m>2x^2 + 12x - 5 = 0</m></term></cell>
+      </row>
+      <row>
+        <cell>1. Move the number to the other side of the equation.</cell>
+        <cell><m>2x^2 + 12x = 5</m> (add 5 to both sides)</cell>
+      </row>
+      <row>
+        <cell>2. If <m>a \neq 1</m>, divide both sides by <m>a</m>, to make the leading coefficient equal to 1.</cell>
+        <cell><m>x^2 + 6x = \frac{5}{2}</m> (divide by 2)</cell>
+      </row>
+      <row>
+        <cell>3. Find <m>\brac{\frac{b}{2}}^2</m>, and add it to both sides.</cell>
+        <cell><m>x^2 + 6x + 9 = \frac{5}{2} + 9 = \frac{23}{2}</m> (half of 6 is 3, and <m>3^2 = 9</m>)</cell>
+      </row>
+      <row>
+        <cell>4. Factor the perfect square trinomial.</cell>
+        <cell><m>(x + 3)^2 = \frac{23}{2}</m></cell>
+      </row>
+      <row>
+        <cell>5. Take the square root of both sides (don't forget <m>\pm</m>).</cell>
+        <cell><m>x + 3 = \pm\sqrt{\frac{23}{2}}</m></cell>
+      </row>
+      <row>
+        <cell>6. Isolate <m>x</m>.</cell>
+        <cell><m>x = -3 \pm \sqrt{\frac{23}{2}}</m> (subtract 3)</cell>
+      </row>
+    </tabular>
+
+    <remark>
+      <p>You can check your final answers, by plugging them in for <m>x</m> in the original equation, and seeing if both sides are equal.</p>
+    </remark>
+
+    <project xml:id="project-solve-complete-square-4">
+      <title>Solve by Completing the Square IV</title>
+      <introduction>
+        <p>Solve each equation by completing the square.</p>
+      </introduction>
+      <task><statement><m>-3x^2+4x+5=0</m></statement><answer><m>x=\frac{2}{3}\pm\frac{\sqrt{19}}{3}</m> (<m>x\approx2.12,-0.79</m>)</answer></task>
+      <task><statement><m>2x^2+8x+4=0</m></statement><answer><m>x=-2\pm\sqrt{2}</m> (<m>x\approx-0.59,-3.41</m>)</answer></task>
+      <task><statement><m>\frac{1}{2}x^2-6x-5=0</m></statement><answer><m>x=6\pm\sqrt{46}</m> (<m>x\approx12.78,-0.78</m>)</answer></task>
+      <task><statement><m>3x^2+12x-5=0</m></statement><answer><m>x=-2\pm\frac{\sqrt{51}}{3}</m> (<m>x\approx0.38,-4.38</m>)</answer></task>
+      <task><statement><m>\frac{1}{2}x^2-3x+5=0</m></statement><answer><p>no solution</p></answer></task>
+      <task><statement><m>5x^2-20x-1=0</m></statement><answer><m>x=2\pm\frac{\sqrt{105}}{5}</m> (<m>x\approx4.05,-0.05</m>)</answer></task>
+    </project>
+
+    <project xml:id="project-solve-complete-square-5">
+      <title>Solve by Completing the Square V</title>
+      <introduction>
+        <p>Solve each equation by completing the square.</p>
+      </introduction>
+      <task><statement><m>2x^2+7x+\frac{9}{2}=0</m></statement><answer><m>x=-\frac{7}{4}\pm\sqrt{\frac{13}{16}}</m> (<m>x\approx-0.85,-2.65</m>)</answer></task>
+      <task><statement><m>2x^2+4x-1=0</m></statement><answer><m>x=-1\pm\sqrt{\frac{3}{2}}</m> (<m>x\approx0.22,-2.22</m>)</answer></task>
+      <task><statement><m>5x^2-4x+\frac{1}{5}=0</m></statement><answer><m>x=\frac{2}{5}\pm\sqrt{\frac{3}{25}}</m> (<m>x\approx0.75,0.05</m>)</answer></task>
+      <task><statement><m>x^2+\frac{3}{2}x-\frac{7}{8}=0</m></statement><answer><m>x=-\frac{3}{4}\pm\sqrt{\frac{23}{16}}</m> (<m>x\approx0.45,-1.95</m>)</answer></task>
+      <task><statement><m>-9x^2+12x+14=0</m></statement><answer><m>x=\frac{2}{3}\pm\sqrt{2}</m> (<m>x\approx2.08,-0.75</m>)</answer></task>
+      <task><statement><m>\frac{3}{4}x^2+6x+1=0</m></statement><answer><m>x=-4\pm\sqrt{\frac{44}{3}}</m> (<m>x\approx-0.17,-7.83</m>)</answer></task>
+      <task><statement><m>x^2-\frac{7}{2}x+\frac{5}{8}=0</m></statement><answer><m>x=\frac{7}{4}\pm\sqrt{\frac{39}{16}}</m> (<m>x\approx3.31,0.19</m>)</answer></task>
+      <task><statement><m>-4x^2+4x+99=0</m></statement><answer><m>x=\frac{11}{2},-\frac{9}{2}</m> (<m>x=5.5,-4.5</m>)</answer></task>
+      <task><statement><m>-9x^2+18x-3=0</m></statement><answer><m>x=1\pm\sqrt{\frac{2}{3}}</m> (<m>x\approx1.82,0.18</m>)</answer></task>
+    </project>
+
+  </subsection>
+
   <subsection xml:id="subsection-converting-vertex-form">
     <title>Converting to Vertex Form by Completing the Square</title>
-    
+
+    <p>Another application of completing the square is to convert a quadratic function from standard form <m>f(x) = ax^2 + bx + c</m> to vertex form <m>f(x) = a(x - h)^2 + k</m>. This allows us to identify the vertex <m>(h, k)</m> of the parabola.</p>
+
+    <p>The process is similar to solving equations, with a few key differences:</p>
+    <ul>
+      <li><p>Factor out <m>a</m> from the first two terms, and leave some space to add and subtract.</p></li>
+      <li><p>Complete the square inside the brackets.</p></li>
+      <li><p>If you factor out <m>a</m>, you must add the constant inside the bracket, but you're really adding <m>a \cdot \text{(that constant)}</m> to the expression, so also subtract <m>a \cdot \text{(that constant)}</m> to maintain equality.</p></li>
+      <li><p>The final bracket inherits the sign from <m>b</m> (if <m>b</m> is positive, then positive; if <m>b</m> is negative, then negative).</p></li>
+    </ul>
+
     <project xml:id="project-vertex-form-1">
       <title>Converting to Vertex Form I</title>
       <introduction>
         <p>Find the vertex of each quadratic function, by completing the square to convert each to vertex form.</p>
       </introduction>
-      <task>
-        <statement><m>f(x)=x^2+4x+3</m></statement>
-        <answer><p><m>f(x)=(x+2)^2-1</m>, vertex <m>(-2,-1)</m></p></answer>
-      </task>
-      <task>
-        <statement><m>f(x)=x^2-8x+15</m></statement>
-        <answer><p><m>f(x)=(x-4)^2-1</m>, vertex <m>(4,-1)</m></p></answer>
-      </task>
-      <task>
-        <statement><m>f(x)=x^2+6x+10</m></statement>
-        <answer><p><m>f(x)=(x+3)^2+1</m>, vertex <m>(-3,1)</m></p></answer>
-      </task>
-      <task>
-        <statement><m>f(x)=x^2-10x+18</m></statement>
-        <answer><p><m>f(x)=(x-5)^2-7</m>, vertex <m>(5,-7)</m></p></answer>
-      </task>
-      <task>
-        <statement><m>f(x)=x^2+3x-8</m></statement>
-        <answer><p><m>f(x)=\brac{x+\frac{3}{2}}^2-\frac{41}{4}</m>, vertex <m>\brac{-\frac{3}{2},-\frac{41}{4}}</m></p></answer>
-      </task>
-      <task>
-        <statement><m>f(x)=3x^2-18x+25</m></statement>
-        <answer><p><m>f(x)=3(x-3)^2-2</m>, vertex <m>(3,-2)</m></p></answer>
-      </task>
-      <task>
-        <statement><m>f(x)=2x^2+4x-1</m></statement>
-        <answer><p><m>f(x)=2(x+1)^2-3</m>, vertex <m>(-1,-3)</m></p></answer>
-      </task>
-      <task>
-        <statement><m>f(x)=-x^2+6x-5</m></statement>
-        <answer><p><m>f(x)=-(x-3)^2+4</m>, vertex <m>(3,4)</m></p></answer>
-      </task>
-      <task>
-        <statement><m>f(x)=2x^2-12x</m></statement>
-        <answer><p><m>f(x)=2(x-3)^2-18</m>, vertex <m>(3,-18)</m></p></answer>
-      </task>
-      <task>
-        <statement><m>f(x)=-3x^2+5x-3</m></statement>
-        <answer><p><m>f(x)=-3\brac{x-\frac{5}{6}}^2-\frac{11}{12}</m>, vertex <m>\brac{\frac{5}{6},-\frac{11}{12}}</m></p></answer>
-      </task>
-      <task>
-        <statement><m>f(x)=x^2+3x-18</m></statement>
-        <answer><p><m>f(x)=\brac{x+\frac{3}{2}}^2-\frac{81}{4}</m>, vertex <m>\brac{-\frac{3}{2},-\frac{81}{4}}</m></p></answer>
-      </task>
+      <task><statement><m>f(x) = x^2 + 4x + 3</m></statement><answer><p><m>f(x) = (x+2)^2 - 1</m>, vertex <m>(-2, -1)</m></p></answer></task>
+      <task><statement><m>f(x) = x^2 - 8x + 15</m></statement><answer><p><m>f(x) = (x-4)^2 - 1</m>, vertex <m>(4, -1)</m></p></answer></task>
+      <task><statement><m>f(x) = x^2 + 6x + 10</m></statement><answer><p><m>f(x) = (x+3)^2 + 1</m>, vertex <m>(-3, 1)</m></p></answer></task>
+      <task><statement><m>f(x) = x^2 - 10x + 18</m></statement><answer><p><m>f(x) = (x-5)^2 - 7</m>, vertex <m>(5, -7)</m></p></answer></task>
+      <task><statement><m>f(x) = x^2 + 3x - 8</m></statement><answer><p><m>f(x) = \brac{x + \frac{3}{2}}^2 - \frac{41}{4}</m>, vertex <m>\brac{-\frac{3}{2}, -\frac{41}{4}}</m></p></answer></task>
+      <task><statement><m>f(x) = 3x^2 - 18x + 25</m></statement><answer><p><m>f(x) = 3(x-3)^2 - 2</m>, vertex <m>(3, -2)</m></p></answer></task>
+      <task><statement><m>f(x) = 2x^2 + 4x - 1</m></statement><answer><p><m>f(x) = 2(x+1)^2 - 3</m>, vertex <m>(-1, -3)</m></p></answer></task>
+      <task><statement><m>f(x) = -x^2 + 6x - 5</m></statement><answer><p><m>f(x) = -(x-3)^2 + 4</m>, vertex <m>(3, 4)</m></p></answer></task>
+      <task><statement><m>f(x) = 2x^2 - 12x</m></statement><answer><p><m>f(x) = 2(x-3)^2 - 18</m>, vertex <m>(3, -18)</m></p></answer></task>
+      <task><statement><m>f(x) = -3x^2 + 5x - 3</m></statement><answer><p><m>f(x) = -3\brac{x - \frac{5}{6}}^2 - \frac{11}{12}</m>, vertex <m>\brac{\frac{5}{6}, -\frac{11}{12}}</m></p></answer></task>
+      <task><statement><m>f(x) = x^2 + 3x - 18</m></statement><answer><p><m>f(x) = \brac{x + \frac{3}{2}}^2 - \frac{81}{4}</m>, vertex <m>\brac{-\frac{3}{2}, -\frac{81}{4}}</m></p></answer></task>
     </project>
-    
+
     <project xml:id="project-vertex-form-2">
       <title>Converting to Vertex Form II</title>
       <introduction>
         <p>Find the vertex of each quadratic function, by completing the square to convert each to vertex form.</p>
       </introduction>
-      <task>
-        <statement><m>f(x)=\frac{1}{2}x^2-3x+4</m></statement>
-        <answer><p><m>f(x)=\frac{1}{2}(x-3)^2-\frac{1}{2}</m>, vertex <m>\brac{3,-\frac{1}{2}}</m></p></answer>
-      </task>
-      <task>
-        <statement><m>f(x)=-x^2-3x+5</m></statement>
-        <answer><p><m>f(x)=-\brac{x+\frac{3}{2}}^2+\frac{29}{4}</m>, vertex <m>\brac{-\frac{3}{2},\frac{29}{4}}</m></p></answer>
-      </task>
-      <task>
-        <statement><m>f(x)=3x^2-12x+1</m></statement>
-        <answer><p><m>f(x)=3(x-2)^2-11</m>, vertex <m>(2,-11)</m></p></answer>
-      </task>
-      <task>
-        <statement><m>f(x)=-\frac{2}{3}x^2+4x-1</m></statement>
-        <answer><p><m>f(x)=-\frac{2}{3}(x-3)^2+5</m>, vertex <m>(3,5)</m></p></answer>
-      </task>
-      <task>
-        <statement><m>f(x)=0.6x^2+2x-3</m></statement>
-        <answer><p><m>f(x)=\frac{3}{5}\brac{x+\frac{5}{3}}^2-\frac{14}{3}</m>, vertex <m>\brac{-\frac{5}{3},-\frac{14}{3}}</m></p></answer>
-      </task>
-      <task>
-        <statement><m>f(x)=3x^2+36x+13</m></statement>
-        <answer><p><m>f(x)=3(x+6)^2-95</m>, vertex <m>(-6,-95)</m></p></answer>
-      </task>
-      <task>
-        <statement><m>f(x)=-\frac{3}{4}x^2+\frac{2}{3}x+\frac{1}{2}</m></statement>
-        <answer><p><m>f(x)=-\frac{3}{4}\brac{x-\frac{4}{9}}^2+\frac{35}{54}</m>, vertex <m>\brac{\frac{4}{9},\frac{35}{54}}</m></p></answer>
-      </task>
-      <task>
-        <statement><m>f(x)=2x^2-7x+5</m></statement>
-        <answer><p><m>f(x)=2\brac{x-\frac{7}{4}}^2-\frac{9}{8}</m>, vertex <m>\brac{\frac{7}{4},-\frac{9}{8}}</m></p></answer>
-      </task>
-      <task>
-        <statement><m>f(x)=3x^2-6x+4</m></statement>
-        <answer><p><m>f(x)=3(x-1)^2+1</m>, vertex <m>(1,1)</m></p></answer>
-      </task>
-      <task>
-        <statement><m>f(x)=6x^2+24x+17</m></statement>
-        <answer><p><m>f(x)=6(x+2)^2-7</m>, vertex <m>(-2,-7)</m></p></answer>
-      </task>
-      <task>
-        <statement><m>f(x)=-10x^2-40x</m></statement>
-        <answer><p><m>f(x)=-10(x+2)^2+40</m>, vertex <m>(-2,40)</m></p></answer>
-      </task>
-      <task>
-        <statement><m>f(x)=-7x^2+182x-70</m></statement>
-        <answer><p><m>f(x)=-7(x-13)^2+1113</m>, vertex <m>(13,1113)</m></p></answer>
-      </task>
+      <task><statement><m>f(x) = \frac{1}{2}x^2 - 3x + 4</m></statement><answer><p><m>f(x) = \frac{1}{2}(x-3)^2 - \frac{1}{2}</m>, vertex <m>\brac{3, -\frac{1}{2}}</m></p></answer></task>
+      <task><statement><m>f(x) = -x^2 - 3x + 5</m></statement><answer><p><m>f(x) = -\brac{x + \frac{3}{2}}^2 + \frac{29}{4}</m>, vertex <m>\brac{-\frac{3}{2}, \frac{29}{4}}</m></p></answer></task>
+      <task><statement><m>f(x) = 3x^2 - 12x + 1</m></statement><answer><p><m>f(x) = 3(x-2)^2 - 11</m>, vertex <m>(2, -11)</m></p></answer></task>
+      <task><statement><m>f(x) = -\frac{2}{3}x^2 + 4x - 1</m></statement><answer><p><m>f(x) = -\frac{2}{3}(x-3)^2 + 5</m>, vertex <m>(3, 5)</m></p></answer></task>
+      <task><statement><m>f(x) = 0.6x^2 + 2x - 3</m></statement><answer><p><m>f(x) = \frac{3}{5}\brac{x + \frac{5}{3}}^2 - \frac{14}{3}</m>, vertex <m>\brac{-\frac{5}{3}, -\frac{14}{3}}</m></p></answer></task>
+      <task><statement><m>f(x) = 3x^2 + 36x + 13</m></statement><answer><p><m>f(x) = 3(x+6)^2 - 95</m>, vertex <m>(-6, -95)</m></p></answer></task>
+      <task><statement><m>f(x) = -\frac{3}{4}x^2 + \frac{2}{3}x + \frac{1}{2}</m></statement><answer><p><m>f(x) = -\frac{3}{4}\brac{x - \frac{4}{9}}^2 + \frac{35}{54}</m>, vertex <m>\brac{\frac{4}{9}, \frac{35}{54}}</m></p></answer></task>
+      <task><statement><m>f(x) = 2x^2 - 7x + 5</m></statement><answer><p><m>f(x) = 2\brac{x - \frac{7}{4}}^2 - \frac{9}{8}</m>, vertex <m>\brac{\frac{7}{4}, -\frac{9}{8}}</m></p></answer></task>
+      <task><statement><m>f(x) = 3x^2 - 6x + 4</m></statement><answer><p><m>f(x) = 3(x-1)^2 + 1</m>, vertex <m>(1, 1)</m></p></answer></task>
+      <task><statement><m>f(x) = 6x^2 + 24x + 17</m></statement><answer><p><m>f(x) = 6(x+2)^2 - 7</m>, vertex <m>(-2, -7)</m></p></answer></task>
+      <task><statement><m>f(x) = -10x^2 - 40x</m></statement><answer><p><m>f(x) = -10(x+2)^2 + 40</m>, vertex <m>(-2, 40)</m></p></answer></task>
+      <task><statement><m>f(x) = -7x^2 + 182x - 70</m></statement><answer><p><m>f(x) = -7(x-13)^2 + 1113</m>, vertex <m>(13, 1113)</m></p></answer></task>
     </project>
-    
+
   </subsection>
-  
+
 </section>
