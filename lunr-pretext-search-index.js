@@ -403,7 +403,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.3",
   "title": "Factoring Special Patterns",
-  "body": " Factoring Special Patterns    Difference of Squares   Intro Examples  When multiplying two binomials that are almost the same, except for one having a positive sign and one having a negative, there is a special pattern. Observe the expansion,   Notice that the middle terms and cancel out.   In general, when expanding an expression of the form (where the two numbers are opposites of each other), the middle two terms always cancel out, because they are opposites of each other. The result is squared, minus the number squared.   In general,   This identity for expanding can be thought of in reverse, as an identity for factoring,   In other words, for an expression of the form (where there are two things being squared, and they're subtracted), it can be factored as . It's called difference of squares , difference because of the minus sign, and squares because both terms are perfect squares.   For example, is a difference of squares, because it's squared, and 9 is , so,     Factor Each Expression   Factor each expression.                                First factor out the common factor of 2.                            First factor out the common factor of 3.                 You can write the minus factor or the plus factor first. The order doesn't matter. For example,     Factor  Here, we have instead of . However, it is still a difference of squares, because and .   This basically means that we're applying the same difference of squares pattern , where and .   In general, difference of squares applies when:    There are two terms.    There is a minus sign between them.    Each term is a perfect square (the square of something).    A term is a perfect square if both its coefficient (the number part) and its variable part are perfect squares. In general, to figure out what goes in the brackets, rewrite each term as a square,    Ask: What squares to make the first term? This is the first thing in the brackets.    Ask: What squares to make the second term? This is the second thing in the brackets.    Then, write those two answers twice, one with a minus and one with a plus.     Factor Each Expression   Factor each expression.                                                                                                                                                            If an expression has only 2 terms, this is a good indicator that difference of squares could work.   Factor Each Expression Fully   Factor each expression fully.                                                                                                                                                     Factor Each Expression Fully   Factor each expression fully.                                                                                                                     Advanced Examples   Factor each expression fully.                                                     The sum of squares has no factorization pattern. In other words, there is no pattern for . For example, these have no factorization:               "
+  "body": " Factoring Special Patterns    Difference of Squares   Intro Examples  When multiplying two binomials that are almost the same, except for one having a positive sign and one having a negative, there is a special pattern. Observe the expansion,   Notice that the middle terms and cancel out.   In general, when expanding an expression of the form (where the two numbers are opposites of each other), the middle two terms always cancel out, because they are opposites of each other. The result is squared, minus the number squared.   In general,   This identity for expanding can be thought of in reverse, as an identity for factoring,   In other words, for an expression of the form (where there are two things being squared, and they're subtracted), it can be factored as . It's called difference of squares , difference because of the minus sign, and squares because both terms are perfect squares.   For example, is a difference of squares, because it's squared, and 9 is , so,     Factor Each Expression   Factor each expression.                 First factor out the common factor of 2.              First factor out the common factor of 3.          You can write the minus factor or the plus factor first. The order doesn't matter. For example,     Factor  Here, we have instead of . However, it is still a difference of squares, because and .   This basically means that we're applying the same difference of squares pattern , where and .   In general, difference of squares applies when:    There are two terms.    There is a minus sign between them.    Each term is a perfect square (the square of something).    A term is a perfect square if both its coefficient (the number part) and its variable part are perfect squares. In general, to figure out what goes in the brackets, rewrite each term as a square,    Ask: What squares to make the first term? This is the first thing in the brackets.    Ask: What squares to make the second term? This is the second thing in the brackets.    Then, write those two answers twice, one with a minus and one with a plus.     Factor Each Expression   Factor each expression.                                                                                If an expression has only 2 terms, this is a good indicator that difference of squares could work.   Factor Each Expression Fully   Factor each expression fully.                                                                             Factor Each Expression Fully   Factor each expression fully.                                                             Advanced Examples   Factor each expression fully.                             The sum of squares has no factorization pattern. In other words, there is no pattern for . For example, these have no factorization:                Perfect Square Trinomials  Another special pattern comes from expanding the square of a binomial.   Expanding Squares of Binomials   Consider these expansions,   Observe the pattern of the 3 resulting terms.   The 1st term is the square of the 1st term in the binomial.  The 3rd term is the square of the 2nd term in the binomial.  The middle (2nd) term is the product of the 2 terms in the binomial, multiplied by 2.     In general,   Also, if there is a negative number, we can say,   Reversing this identity gives a factoring identity for trinomials of this special form.    Factoring Perfect Square Trinomials I   Factor each perfect square trinomial.                        These are called perfect square trinomials , because they can be written as a perfect square. To recognize if it is one,   Are the 1st and 3rd terms squares?  Is the middle term double the product? Take the square roots of the first and last terms, multiply them together, and multiply by 2. If it matches the middle term, then it is a perfect square trinomial.   Sometimes, you must first factor out a GCF, before the remaining expression is a perfect square.   Factoring Perfect Square Trinomials II   Factor each expression fully.                                        Technically, recognizing perfect square trinomials is optional, since you could instead just factor it as a trinomial instead (for example, using the cross method). However, being able to recognize this pattern can save a bit of time from trial-and-error.   Factoring Perfect Square Trinomials III   Factor each expression fully.                         Completing a Perfect Square Trinomial (Middle Term)   Fill in the missing term to create a perfect square trinomial, and then factor it.                     Completing a Perfect Square Trinomial (Last Term)   Fill in the missing term to create a perfect square trinomial, and then factor it.                     "
 },
 {
   "id": "subsection-difference-of-squares-2",
@@ -430,7 +430,7 @@ var ptx_lunr_docs = [
   "type": "Exercise Group",
   "number": "3.3.1",
   "title": "Factor Each Expression.",
-  "body": " Factor Each Expression   Factor each expression.                                First factor out the common factor of 2.                            First factor out the common factor of 3.               "
+  "body": " Factor Each Expression   Factor each expression.                 First factor out the common factor of 2.              First factor out the common factor of 3.        "
 },
 {
   "id": "subsection-difference-of-squares-10",
@@ -457,7 +457,7 @@ var ptx_lunr_docs = [
   "type": "Exercise Group",
   "number": "3.3.2",
   "title": "Factor Each Expression.",
-  "body": " Factor Each Expression   Factor each expression.                                                                                                                                                           "
+  "body": " Factor Each Expression   Factor each expression.                                                                               "
 },
 {
   "id": "project-factor-fully",
@@ -466,7 +466,7 @@ var ptx_lunr_docs = [
   "type": "Exercise Group",
   "number": "3.3.3",
   "title": "Factor Each Expression Fully.",
-  "body": " Factor Each Expression Fully   Factor each expression fully.                                                                                                                                                   "
+  "body": " Factor Each Expression Fully   Factor each expression fully.                                                                           "
 },
 {
   "id": "project-factor-mixed",
@@ -475,7 +475,7 @@ var ptx_lunr_docs = [
   "type": "Exercise Group",
   "number": "3.3.4",
   "title": "Factor Each Expression Fully.",
-  "body": " Factor Each Expression Fully   Factor each expression fully.                                                                                                                   "
+  "body": " Factor Each Expression Fully   Factor each expression fully.                                                           "
 },
 {
   "id": "project-difference-of-squares-advanced-examples",
@@ -484,7 +484,7 @@ var ptx_lunr_docs = [
   "type": "Exercise Group",
   "number": "3.3.5",
   "title": "Advanced Examples.",
-  "body": " Advanced Examples   Factor each expression fully.                                                   "
+  "body": " Advanced Examples   Factor each expression fully.                           "
 },
 {
   "id": "subsection-difference-of-squares-21",
@@ -494,6 +494,69 @@ var ptx_lunr_docs = [
   "number": "3.3.5",
   "title": "",
   "body": " The sum of squares has no factorization pattern. In other words, there is no pattern for . For example, these have no factorization:             "
+},
+{
+  "id": "ex-perfect-square-expansion",
+  "level": "2",
+  "url": "sec-factoring-special-patterns.html#ex-perfect-square-expansion",
+  "type": "Example",
+  "number": "3.3.6",
+  "title": "Expanding Squares of Binomials.",
+  "body": " Expanding Squares of Binomials   Consider these expansions,   Observe the pattern of the 3 resulting terms.   The 1st term is the square of the 1st term in the binomial.  The 3rd term is the square of the 2nd term in the binomial.  The middle (2nd) term is the product of the 2 terms in the binomial, multiplied by 2.    "
+},
+{
+  "id": "project-factor-perfect-square-trinomials-1",
+  "level": "2",
+  "url": "sec-factoring-special-patterns.html#project-factor-perfect-square-trinomials-1",
+  "type": "Exercise Group",
+  "number": "3.3.6",
+  "title": "Factoring Perfect Square Trinomials I.",
+  "body": " Factoring Perfect Square Trinomials I   Factor each perfect square trinomial.                       "
+},
+{
+  "id": "subsection-perfect-square-trinomials-11",
+  "level": "2",
+  "url": "sec-factoring-special-patterns.html#subsection-perfect-square-trinomials-11",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "perfect square trinomials "
+},
+{
+  "id": "project-factor-perfect-square-trinomials-2",
+  "level": "2",
+  "url": "sec-factoring-special-patterns.html#project-factor-perfect-square-trinomials-2",
+  "type": "Exercise Group",
+  "number": "3.3.7",
+  "title": "Factoring Perfect Square Trinomials II.",
+  "body": " Factoring Perfect Square Trinomials II   Factor each expression fully.                                       "
+},
+{
+  "id": "project-factor-perfect-square-trinomials-3",
+  "level": "2",
+  "url": "sec-factoring-special-patterns.html#project-factor-perfect-square-trinomials-3",
+  "type": "Exercise Group",
+  "number": "3.3.8",
+  "title": "Factoring Perfect Square Trinomials III.",
+  "body": " Factoring Perfect Square Trinomials III   Factor each expression fully.                       "
+},
+{
+  "id": "project-complete-middle-term",
+  "level": "2",
+  "url": "sec-factoring-special-patterns.html#project-complete-middle-term",
+  "type": "Exercise Group",
+  "number": "3.3.9",
+  "title": "Completing a Perfect Square Trinomial (Middle Term).",
+  "body": " Completing a Perfect Square Trinomial (Middle Term)   Fill in the missing term to create a perfect square trinomial, and then factor it.                   "
+},
+{
+  "id": "project-complete-last-term",
+  "level": "2",
+  "url": "sec-factoring-special-patterns.html#project-complete-last-term",
+  "type": "Exercise Group",
+  "number": "3.3.10",
+  "title": "Completing a Perfect Square Trinomial (Last Term).",
+  "body": " Completing a Perfect Square Trinomial (Last Term)   Fill in the missing term to create a perfect square trinomial, and then factor it.                   "
 },
 {
   "id": "sec-solving-quadratic-equations-by-factoring",
