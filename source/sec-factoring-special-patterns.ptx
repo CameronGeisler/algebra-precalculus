@@ -63,79 +63,41 @@
     <project xml:id="project-factor-simple">
       <title>Factor Each Expression</title>
       <introduction>
-        <p>
-          Factor each expression.
-        </p>
+        <p>Factor each expression.</p>
       </introduction>
       <task>
-        <statement>
-          <m>x^2-4</m>
-        </statement>
-        <answer>
-          <m>(x-2)(x+2)</m>
-        </answer>
+        <statement><m>x^2-4</m></statement>
+        <answer><m>(x-2)(x+2)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>x^2-16</m>
-        </statement>
-        <answer>
-          <m>(x-4)(x+4)</m>
-        </answer>
+        <statement><m>x^2-16</m></statement>
+        <answer><m>(x-4)(x+4)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>x^2-1</m>
-        </statement>
-        <answer>
-          <m>(x-1)(x+1)</m>
-        </answer>
+        <statement><m>x^2-1</m></statement>
+        <answer><m>(x-1)(x+1)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>2x^2-18</m>
-        </statement>
-        <hint>
-          <p>First factor out the common factor of 2.</p>
-        </hint>
-        <answer>
-          <m>2(x-3)(x+3)</m>
-        </answer>
+        <statement><m>2x^2-18</m></statement>
+        <hint><p>First factor out the common factor of 2.</p></hint>
+        <answer><m>2(x-3)(x+3)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>x^2-25</m>
-        </statement>
-        <answer>
-          <m>(x-5)(x+5)</m>
-        </answer>
+        <statement><m>x^2-25</m></statement>
+        <answer><m>(x-5)(x+5)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>x^2-49</m>
-        </statement>
-        <answer>
-          <m>(x-7)(x+7)</m>
-        </answer>
+        <statement><m>x^2-49</m></statement>
+        <answer><m>(x-7)(x+7)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>3x^2-12</m>
-        </statement>
-        <hint>
-          <p>First factor out the common factor of 3.</p>
-        </hint>
-        <answer>
-          <m>3(x-2)(x+2)</m>
-        </answer>
+        <statement><m>3x^2-12</m></statement>
+        <hint><p>First factor out the common factor of 3.</p></hint>
+        <answer><m>3(x-2)(x+2)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>x^2-81</m>
-        </statement>
-        <answer>
-          <m>(x-9)(x+9)</m>
-        </answer>
+        <statement><m>x^2-81</m></statement>
+        <answer><m>(x-9)(x+9)</m></answer>
       </task>
     </project>
     
@@ -196,161 +158,83 @@
     <project xml:id="project-factor-coefficients">
       <title>Factor Each Expression</title>
       <introduction>
-        <p>
-          Factor each expression.
-        </p>
+        <p>Factor each expression.</p>
       </introduction>
       <task>
-        <statement>
-          <m>25x^2-36</m>
-        </statement>
-        <answer>
-          <m>(5x-6)(5x+6)</m>
-        </answer>
+        <statement><m>25x^2-36</m></statement>
+        <answer><m>(5x-6)(5x+6)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>4x^2-121</m>
-        </statement>
-        <answer>
-          <m>(2x-11)(2x+11)</m>
-        </answer>
+        <statement><m>4x^2-121</m></statement>
+        <answer><m>(2x-11)(2x+11)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>x^2-49</m>
-        </statement>
-        <answer>
-          <m>(x-7)(x+7)</m>
-        </answer>
+        <statement><m>x^2-49</m></statement>
+        <answer><m>(x-7)(x+7)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>36x^2-49</m>
-        </statement>
-        <answer>
-          <m>(6x-7)(6x+7)</m>
-        </answer>
+        <statement><m>36x^2-49</m></statement>
+        <answer><m>(6x-7)(6x+7)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>144x^2-1</m>
-        </statement>
-        <answer>
-          <m>(12x-1)(12x+1)</m>
-        </answer>
+        <statement><m>144x^2-1</m></statement>
+        <answer><m>(12x-1)(12x+1)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>16x^2-25</m>
-        </statement>
-        <answer>
-          <m>(4x-5)(4x+5)</m>
-        </answer>
+        <statement><m>16x^2-25</m></statement>
+        <answer><m>(4x-5)(4x+5)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>100x^2-81</m>
-        </statement>
-        <answer>
-          <m>(10x-9)(10x+9)</m>
-        </answer>
+        <statement><m>100x^2-81</m></statement>
+        <answer><m>(10x-9)(10x+9)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>28-7x^2</m>
-        </statement>
-        <answer>
-          <m>7(2-x)(2+x)</m>
-        </answer>
+        <statement><m>28-7x^2</m></statement>
+        <answer><m>7(2-x)(2+x)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>4x^2-9</m>
-        </statement>
-        <answer>
-          <m>(2x-3)(2x+3)</m>
-        </answer>
+        <statement><m>4x^2-9</m></statement>
+        <answer><m>(2x-3)(2x+3)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>x^2-121</m>
-        </statement>
-        <answer>
-          <m>(x-11)(x+11)</m>
-        </answer>
+        <statement><m>x^2-121</m></statement>
+        <answer><m>(x-11)(x+11)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>16-144x^2</m>
-        </statement>
-        <answer>
-          <m>16(1-3x)(1+3x)</m>
-        </answer>
+        <statement><m>16-144x^2</m></statement>
+        <answer><m>16(1-3x)(1+3x)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>1-81x^2</m>
-        </statement>
-        <answer>
-          <m>(1-9x)(1+9x)</m>
-        </answer>
+        <statement><m>1-81x^2</m></statement>
+        <answer><m>(1-9x)(1+9x)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>16x^2-121</m>
-        </statement>
-        <answer>
-          <m>(4x-11)(4x+11)</m>
-        </answer>
+        <statement><m>16x^2-121</m></statement>
+        <answer><m>(4x-11)(4x+11)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>49-x^2</m>
-        </statement>
-        <answer>
-          <m>(7-x)(7+x)</m>
-        </answer>
+        <statement><m>49-x^2</m></statement>
+        <answer><m>(7-x)(7+x)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>x^2-100</m>
-        </statement>
-        <answer>
-          <m>(x-10)(x+10)</m>
-        </answer>
+        <statement><m>x^2-100</m></statement>
+        <answer><m>(x-10)(x+10)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>x^2-36</m>
-        </statement>
-        <answer>
-          <m>(x-6)(x+6)</m>
-        </answer>
+        <statement><m>x^2-36</m></statement>
+        <answer><m>(x-6)(x+6)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>9x^2-16</m>
-        </statement>
-        <answer>
-          <m>(3x-4)(3x+4)</m>
-        </answer>
+        <statement><m>9x^2-16</m></statement>
+        <answer><m>(3x-4)(3x+4)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>49x^2-9</m>
-        </statement>
-        <answer>
-          <m>(7x-3)(7x+3)</m>
-        </answer>
+        <statement><m>49x^2-9</m></statement>
+        <answer><m>(7x-3)(7x+3)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>9x^2-36</m>
-        </statement>
-        <answer>
-          <m>9(x-2)(x+2)</m>
-        </answer>
+        <statement><m>9x^2-36</m></statement>
+        <answer><m>9(x-2)(x+2)</m></answer>
       </task>
     </project>
     
@@ -361,331 +245,173 @@
     <project xml:id="project-factor-fully">
       <title>Factor Each Expression Fully</title>
       <introduction>
-        <p>
-          Factor each expression fully.
-        </p>
+        <p>Factor each expression fully.</p>
       </introduction>
       <task>
-        <statement>
-          <m>(x+2)^2-9</m>
-        </statement>
-        <answer>
-          <m>(x-1)(x+5)</m>
-        </answer>
+        <statement><m>(x+2)^2-9</m></statement>
+        <answer><m>(x-1)(x+5)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>(x+3)^2-4</m>
-        </statement>
-        <answer>
-          <m>(x+1)(x+5)</m>
-        </answer>
+        <statement><m>(x+3)^2-4</m></statement>
+        <answer><m>(x+1)(x+5)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>25-(x-2)^2</m>
-        </statement>
-        <answer>
-          <m>(7-x)(x+3)</m>
-        </answer>
+        <statement><m>25-(x-2)^2</m></statement>
+        <answer><m>(7-x)(x+3)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>(x-2)^2-25</m>
-        </statement>
-        <answer>
-          <m>(x-7)(x+3)</m>
-        </answer>
+        <statement><m>(x-2)^2-25</m></statement>
+        <answer><m>(x-7)(x+3)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>16-(x+1)^2</m>
-        </statement>
-        <answer>
-          <m>(3-x)(x+5)</m>
-        </answer>
+        <statement><m>16-(x+1)^2</m></statement>
+        <answer><m>(3-x)(x+5)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>(x+5)^2-4x^2</m>
-        </statement>
-        <answer>
-          <m>(5-x)(3x+5)</m>
-        </answer>
+        <statement><m>(x+5)^2-4x^2</m></statement>
+        <answer><m>(5-x)(3x+5)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>36-(x-3)^2</m>
-        </statement>
-        <answer>
-          <m>(9-x)(x+3)</m>
-        </answer>
+        <statement><m>36-(x-3)^2</m></statement>
+        <answer><m>(9-x)(x+3)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>(x+1)^2-9</m>
-        </statement>
-        <answer>
-          <m>(x-2)(x+4)</m>
-        </answer>
+        <statement><m>(x+1)^2-9</m></statement>
+        <answer><m>(x-2)(x+4)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>9x^2-(x+2)^2</m>
-        </statement>
-        <answer>
-          <m>4(x-1)(2x+1)</m>
-        </answer>
+        <statement><m>9x^2-(x+2)^2</m></statement>
+        <answer><m>4(x-1)(2x+1)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>(x+4)^2-1</m>
-        </statement>
-        <answer>
-          <m>(x+3)(x+5)</m>
-        </answer>
+        <statement><m>(x+4)^2-1</m></statement>
+        <answer><m>(x+3)(x+5)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>(x-4)^2-25</m>
-        </statement>
-        <answer>
-          <m>(x-9)(x+1)</m>
-        </answer>
+        <statement><m>(x-4)^2-25</m></statement>
+        <answer><m>(x-9)(x+1)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>(x+2)^2-36</m>
-        </statement>
-        <answer>
-          <m>(x-4)(x+8)</m>
-        </answer>
+        <statement><m>(x+2)^2-36</m></statement>
+        <answer><m>(x-4)(x+8)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>1-(x-4)^2</m>
-        </statement>
-        <answer>
-          <m>(5-x)(x-3)</m>
-        </answer>
+        <statement><m>1-(x-4)^2</m></statement>
+        <answer><m>(5-x)(x-3)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>(4x-5)^2-(x-1)^2</m>
-        </statement>
-        <answer>
-          <m>(3x-4)(5x-6)</m>
-        </answer>
+        <statement><m>(4x-5)^2-(x-1)^2</m></statement>
+        <answer><m>(3x-4)(5x-6)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>81-16(x+1)^2</m>
-        </statement>
-        <answer>
-          <m>(5-4x)(4x+13)</m>
-        </answer>
+        <statement><m>81-16(x+1)^2</m></statement>
+        <answer><m>(5-4x)(4x+13)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>(x+3)^2-(x+1)^2</m>
-        </statement>
-        <answer>
-          <m>4(x+2)</m>
-        </answer>
+        <statement><m>(x+3)^2-(x+1)^2</m></statement>
+        <answer><m>4(x+2)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>4(x+1)^2-(2-x)^2</m>
-        </statement>
-        <answer>
-          <m>3x(x+4)</m>
-        </answer>
+        <statement><m>4(x+1)^2-(2-x)^2</m></statement>
+        <answer><m>3x(x+4)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>4(x+1)^2-9(x-1)^2</m>
-        </statement>
-        <answer>
-          <m>(5-x)(5x-1)</m>
-        </answer>
+        <statement><m>4(x+1)^2-9(x-1)^2</m></statement>
+        <answer><m>(5-x)(5x-1)</m></answer>
       </task>
     </project>
     
     <project xml:id="project-factor-mixed">
       <title>Factor Each Expression Fully</title>
       <introduction>
-        <p>
-          Factor each expression fully.
-        </p>
+        <p>Factor each expression fully.</p>
       </introduction>
       <task>
-        <statement>
-          <m>m^2-49n^2</m>
-        </statement>
-        <answer>
-          <m>(m-7n)(m+7n)</m>
-        </answer>
+        <statement><m>m^2-49n^2</m></statement>
+        <answer><m>(m-7n)(m+7n)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>h^2-25d^2</m>
-        </statement>
-        <answer>
-          <m>(h-5d)(h+5d)</m>
-        </answer>
+        <statement><m>h^2-25d^2</m></statement>
+        <answer><m>(h-5d)(h+5d)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>100-9c^2</m>
-        </statement>
-        <answer>
-          <m>(10-3c)(10+3c)</m>
-        </answer>
+        <statement><m>100-9c^2</m></statement>
+        <answer><m>(10-3c)(10+3c)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>169a^2-49b^2</m>
-        </statement>
-        <answer>
-          <m>(13a-7b)(13a+7b)</m>
-        </answer>
+        <statement><m>169a^2-49b^2</m></statement>
+        <answer><m>(13a-7b)(13a+7b)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>25x^2-36y^2</m>
-        </statement>
-        <answer>
-          <m>(5x-6y)(5x+6y)</m>
-        </answer>
+        <statement><m>25x^2-36y^2</m></statement>
+        <answer><m>(5x-6y)(5x+6y)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>16c^2-9d^2</m>
-        </statement>
-        <answer>
-          <m>(4c-3d)(4c+3d)</m>
-        </answer>
+        <statement><m>16c^2-9d^2</m></statement>
+        <answer><m>(4c-3d)(4c+3d)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>162-8s^2</m>
-        </statement>
-        <answer>
-          <m>2(9-2s)(9+2s)</m>
-        </answer>
+        <statement><m>162-8s^2</m></statement>
+        <answer><m>2(9-2s)(9+2s)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>75h^2-27g^2</m>
-        </statement>
-        <answer>
-          <m>3(5h-3g)(5h+3g)</m>
-        </answer>
+        <statement><m>75h^2-27g^2</m></statement>
+        <answer><m>3(5h-3g)(5h+3g)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>9w^2-25x^2</m>
-        </statement>
-        <answer>
-          <m>(3w-5x)(3w+5x)</m>
-        </answer>
+        <statement><m>9w^2-25x^2</m></statement>
+        <answer><m>(3w-5x)(3w+5x)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>98a^2-450b^2</m>
-        </statement>
-        <answer>
-          <m>2(7a-15b)(7a+15b)</m>
-        </answer>
+        <statement><m>98a^2-450b^2</m></statement>
+        <answer><m>2(7a-15b)(7a+15b)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>144b^2-25k^2</m>
-        </statement>
-        <answer>
-          <m>(12b-5k)(12b+5k)</m>
-        </answer>
+        <statement><m>144b^2-25k^2</m></statement>
+        <answer><m>(12b-5k)(12b+5k)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>4n^2-49p^2</m>
-        </statement>
-        <answer>
-          <m>(2n-7p)(2n+7p)</m>
-        </answer>
+        <statement><m>4n^2-49p^2</m></statement>
+        <answer><m>(2n-7p)(2n+7p)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>(x-4)^2-16</m>
-        </statement>
-        <answer>
-          <m>x(x-8)</m>
-        </answer>
+        <statement><m>(x-4)^2-16</m></statement>
+        <answer><m>x(x-8)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>25x^4-9y^4</m>
-        </statement>
-        <answer>
-          <m>(5x^2-3y^2)(5x^2+3y^2)</m>
-        </answer>
+        <statement><m>25x^4-9y^4</m></statement>
+        <answer><m>(5x^2-3y^2)(5x^2+3y^2)</m></answer>
       </task>
     </project>
     
     <project xml:id="project-difference-of-squares-advanced-examples">
       <title>Advanced Examples</title>
       <introduction>
-        <p>
-          Factor each expression fully.
-        </p>
+        <p>Factor each expression fully.</p>
       </introduction>
       <task>
-        <statement>
-          <m>x^4-16</m>
-        </statement>
-        <answer>
-          <m>(x^2+4)(x+2)(x-2)</m>
-        </answer>
+        <statement><m>x^4-16</m></statement>
+        <answer><m>(x^2+4)(x+2)(x-2)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>x^8-1</m>
-        </statement>
-        <answer>
-          <m>(x^4+1)(x^2+1)(x+1)(x-1)</m>
-        </answer>
+        <statement><m>x^8-1</m></statement>
+        <answer><m>(x^4+1)(x^2+1)(x+1)(x-1)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>(x-13)^2-49y^2</m>
-        </statement>
-        <answer>
-          <m>(x-13-7y)(x-13+7y)</m>
-        </answer>
+        <statement><m>(x-13)^2-49y^2</m></statement>
+        <answer><m>(x-13-7y)(x-13+7y)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>4x^2-12x+9-36y^2</m>
-        </statement>
-        <answer>
-          <m>(2x-3-6y)(2x-3+6y)</m>
-        </answer>
+        <statement><m>4x^2-12x+9-36y^2</m></statement>
+        <answer><m>(2x-3-6y)(2x-3+6y)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>1-16x^4</m>
-        </statement>
-        <answer>
-          <m>(1-2x)(1+2x)(1+4x^2)</m>
-        </answer>
+        <statement><m>1-16x^4</m></statement>
+        <answer><m>(1-2x)(1+2x)(1+4x^2)</m></answer>
       </task>
       <task>
-        <statement>
-          <m>9(a^2-4)^2-25(7b)^2</m>
-        </statement>
-        <answer>
-          <m>(3a^2-12+35b)(3a^2-12-35b)</m>
-        </answer>
+        <statement><m>9(a^2-4)^2-25(7b)^2</m></statement>
+        <answer><m>(3a^2-12+35b)(3a^2-12-35b)</m></answer>
       </task>
     </project>
     
@@ -706,5 +432,172 @@
       </ul>
     </remark>
   </subsection>
-  
+
+  <subsection xml:id="subsection-perfect-square-trinomials">
+    <title>Perfect Square Trinomials</title>
+
+    <p>Another special pattern comes from expanding the square of a binomial.</p>
+
+    <example xml:id="ex-perfect-square-expansion">
+      <title>Expanding Squares of Binomials</title>
+      <statement>
+        <p>Consider these expansions,</p>
+        <md>
+          <mrow>(x+3)^2 \amp= (x+3)(x+3) = x^2 + 6x + 9</mrow>
+          <mrow>(x-5)^2 \amp= (x-5)(x-5) = x^2 - 10x + 25</mrow>
+          <mrow>(x+6)^2 \amp= (x+6)(x+6) = x^2 + 12x + 36</mrow>
+          <mrow>(2x-5)^2 \amp= (2x-5)(2x-5) = 4x^2 - 20x + 25</mrow>
+          <mrow>(3x+4)^2 \amp= (3x+4)(3x+4) = 9x^2 + 24x + 16</mrow>
+        </md>
+        <p>Observe the pattern of the 3 resulting terms.</p>
+        <ul>
+          <li><p>The 1st term is the square of the 1st term in the binomial.</p></li>
+          <li><p>The 3rd term is the square of the 2nd term in the binomial.</p></li>
+          <li><p>The middle (2nd) term is the product of the 2 terms in the binomial, multiplied by 2.</p></li>
+        </ul>
+      </statement>
+    </example>
+
+    <p>In general,</p>
+    <me>(a + b)^2 = a^2 + 2ab + b^2</me>
+    <p>Also, if there is a negative number, we can say,</p>
+    <me>(a - b)^2 = a^2 - 2ab + b^2</me>
+    <p>Reversing this identity gives a factoring identity for trinomials of this special form.</p>
+    <md>
+      <mrow>a^2 + 2ab + b^2 \amp= (a+b)^2</mrow>
+      <mrow>a^2 - 2ab + b^2 \amp= (a-b)^2</mrow>
+    </md>
+    <p>These are called <term>perfect square trinomials</term>, because they can be written as a perfect square. To recognize if it is one,</p>
+    <ul>
+      <li><p>Are the 1st and 3rd terms squares?</p></li>
+      <li><p>Is the middle term double the product? Take the square roots of the first and last terms, multiply them together, and multiply by 2. If it matches the middle term, then it is a perfect square trinomial.</p></li>
+    </ul>
+
+    <p>Technically, recognizing perfect square trinomials is optional, since you could instead just factor it as a trinomial instead (for example, using the cross method). However, being able to recognize this pattern can save a bit of time from trial-and-error.</p>
+
+    <example xml:id="ex-fill-in-middle-term">
+      <title>Completing a Perfect Square Trinomial (Middle Term)</title>
+      <statement>
+        <p>Fill in the missing term to create a perfect square trinomial, and then factor it.</p>
+      </statement>
+      <solution>
+        <p><m>x^2 + \_\_\_ + 9</m>. Answer: <m>x^2 - 6x + 9 = (x-3)^2</m>.</p>
+        <p><m>x^2 + \_\_\_ + 49</m>. Answer: <m>x^2 + 14x + 49 = (x+7)^2</m>.</p>
+        <p><m>4x^2 + \_\_\_ + 9</m>. Answer: <m>4x^2 - 12x + 9 = (2x-3)^2</m>.</p>
+        <p><m>36x^2 + \_\_\_ + 25</m>. Answer: <m>36x^2 + 60x + 25 = (6x+5)^2</m>.</p>
+      </solution>
+    </example>
+
+    <example xml:id="ex-fill-in-last-term">
+      <title>Completing a Perfect Square Trinomial (Last Term)</title>
+      <statement>
+        <p>Fill in the missing term to create a perfect square trinomial, and then factor it.</p>
+      </statement>
+      <solution>
+        <p><m>x^2 + 4x + \_\_\_</m>. Answer: <m>x^2 + 4x + 4 = (x+2)^2</m>.</p>
+        <p><m>x^2 - 10x + \_\_\_</m>. Answer: <m>x^2 - 10x + 25 = (x-5)^2</m>.</p>
+        <p><m>16x^2 - 8x + \_\_\_</m>. Answer: <m>16x^2 - 8x + 1 = (4x-1)^2</m>.</p>
+        <p><m>9x^2 + 30x + \_\_\_</m>. Answer: <m>9x^2 + 30x + 25 = (3x+5)^2</m>.</p>
+      </solution>
+    </example>
+
+    <project xml:id="project-factor-perfect-square-trinomials-1">
+      <title>Factoring Perfect Square Trinomials I</title>
+      <introduction>
+        <p>Factor each perfect square trinomial.</p>
+      </introduction>
+      <task>
+        <statement><m>x^2+6x+9</m></statement>
+        <answer><m>(x+3)^2</m></answer>
+      </task>
+      <task>
+        <statement><m>x^2-8x+16</m></statement>
+        <answer><m>(x-4)^2</m></answer>
+      </task>
+      <task>
+        <statement><m>4x^2+12x+9</m></statement>
+        <answer><m>(2x+3)^2</m></answer>
+      </task>
+      <task>
+        <statement><m>25x^2-60x+36</m></statement>
+        <answer><m>(5x-6)^2</m></answer>
+      </task>
+      <task>
+        <statement><m>x^2+14x+49</m></statement>
+        <answer><m>(x+7)^2</m></answer>
+      </task>
+    </project>
+
+    <project xml:id="project-factor-perfect-square-trinomials-2">
+      <title>Factoring Perfect Square Trinomials II</title>
+      <introduction>
+        <p>Factor each perfect square trinomial.</p>
+      </introduction>
+      <task>
+        <statement><m>16x^2-56x+49</m></statement>
+        <answer><m>(4x-7)^2</m></answer>
+      </task>
+      <task>
+        <statement><m>5x^2-20x+20</m></statement>
+        <answer><m>5(x-2)^2</m></answer>
+      </task>
+      <task>
+        <statement><m>4-12x+9x^2</m></statement>
+        <answer><m>(3x-2)^2</m></answer>
+      </task>
+      <task>
+        <statement><m>9x^2+6x+1</m></statement>
+        <answer><m>(3x+1)^2</m></answer>
+      </task>
+      <task>
+        <statement><m>8x^2+112x+392</m></statement>
+        <answer><m>8(x+7)^2</m></answer>
+      </task>
+      <task>
+        <statement><m>9x^2+48x+64</m></statement>
+        <answer><m>(3x+8)^2</m></answer>
+      </task>
+      <task>
+        <statement><m>3x^2+30x+75</m></statement>
+        <answer><m>3(x+5)^2</m></answer>
+      </task>
+      <task>
+        <statement><m>25x^2-20x+4</m></statement>
+        <answer><m>(5x-2)^2</m></answer>
+      </task>
+      <task>
+        <statement><m>16x^2+40x+25</m></statement>
+        <answer><m>(4x+5)^2</m></answer>
+      </task>
+    </project>
+
+    <project xml:id="project-factor-perfect-square-trinomials-3">
+      <title>Factoring Perfect Square Trinomials III</title>
+      <introduction>
+        <p>Factor each perfect square trinomial.</p>
+      </introduction>
+      <task>
+        <statement><m>32x^2-80x+50</m></statement>
+        <answer><m>2(4x-5)^2</m></answer>
+      </task>
+      <task>
+        <statement><m>100-140x+49x^2</m></statement>
+        <answer><m>(7x-10)^2</m></answer>
+      </task>
+      <task>
+        <statement><m>48x^2+120x+75</m></statement>
+        <answer><m>3(4x+5)^2</m></answer>
+      </task>
+      <task>
+        <statement><m>x^4-8x^2+16</m></statement>
+        <answer><m>(x-2)^2(x+2)^2</m></answer>
+      </task>
+      <task>
+        <statement><m>x^6+20x^3+100</m></statement>
+        <answer><m>(x^3+10)^2</m></answer>
+      </task>
+    </project>
+
+  </subsection>
+
 </section>
