@@ -1342,6 +1342,132 @@ var ptx_lunr_docs = [
   "body": "critical values "
 },
 {
+  "id": "sec-quadratics-summary",
+  "level": "1",
+  "url": "sec-quadratics-summary.html",
+  "type": "Section",
+  "number": "3.10",
+  "title": "Summary of Quadratics",
+  "body": " Summary of Quadratics   Forms of a Quadratic Function       Form  Name  Why it's useful     Standard form (general form)    The -intercept is  Vertex at , i.e.       Vertex form    Gives the vertex directly as the point       Factored form (intercept form)    Roots (zeros, -intercepts) are and  Vertex is halfway between zeros:       Converting between forms of a quadratic function        Solving Quadratic Equations  There are many techniques used to solve quadratic equations. Some apply more broadly and some only to specific cases.  In short,   Move all terms to one side, so the other side is 0 (convert to standard form).  Use either (a) factoring, or (b) the quadratic formula.   Factoring. If can be factored easily, then factor and use the zero-product property to split it into two equations, and solve.   Solving by Factoring     Solving by Factoring (with )    Quadratic formula. If cannot be factored, or factoring is difficult, then use the quadratic formula,    Using the Quadratic Formula     Using the Quadratic Formula    To find if it is factorable, check if the discriminant is a perfect square.   If it is a perfect square (like 1, 4, 9, 16, 25, 36, ), it is factorable.  If not, it's not factorable.   Special cases:  Missing term. If there is no term, then isolate , and take the square root of both sides (don't forget ).   Vertex form. Slightly more generally, if it is in vertex form , then take the square root of both sides, and solve for .   In this case, you could also expand the brackets, and try to use factoring or the quadratic formula, but this method uses fewer steps.  Missing constant term. If there is no constant term, , then factor out the common factor of , and set each equal to 0.   Missing Constant Term    Some notes:   Always look for common factors that you can divide out, especially if the numbers are big!  The quadratic formula always works, in that it can be used in all cases. However, it is sometimes overkill, applying a complicated formula to a simple situation unnecessarily, where a simpler technique would have worked.  Remember: if you want to find , you can always plug in to find it!  Here is a classic math rap song: Do the Quad Solve , which is a parody of Do the John Wall by Troop 41 .  Quadratic Formula Rap by Mr. 2Pi.    "
+},
+{
+  "id": "subsec-forms-of-quadratic-function-2-5-2-1",
+  "level": "2",
+  "url": "sec-quadratics-summary.html#subsec-forms-of-quadratic-function-2-5-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Standard form "
+},
+{
+  "id": "subsec-forms-of-quadratic-function-2-6-2-1",
+  "level": "2",
+  "url": "sec-quadratics-summary.html#subsec-forms-of-quadratic-function-2-6-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Vertex form "
+},
+{
+  "id": "subsec-forms-of-quadratic-function-2-7-2-1",
+  "level": "2",
+  "url": "sec-quadratics-summary.html#subsec-forms-of-quadratic-function-2-7-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Factored form "
+},
+{
+  "id": "fig-quadratic-forms-diagram",
+  "level": "2",
+  "url": "sec-quadratics-summary.html#fig-quadratic-forms-diagram",
+  "type": "Figure",
+  "number": "3.10.1",
+  "title": "",
+  "body": " Converting between forms of a quadratic function     "
+},
+{
+  "id": "subsec-solving-quadratic-equations-summary-5",
+  "level": "2",
+  "url": "sec-quadratics-summary.html#subsec-solving-quadratic-equations-summary-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Factoring. "
+},
+{
+  "id": "subsec-solving-quadratic-equations-summary-6",
+  "level": "2",
+  "url": "sec-quadratics-summary.html#subsec-solving-quadratic-equations-summary-6",
+  "type": "Example",
+  "number": "3.10.2",
+  "title": "Solving by Factoring.",
+  "body": " Solving by Factoring   "
+},
+{
+  "id": "subsec-solving-quadratic-equations-summary-7",
+  "level": "2",
+  "url": "sec-quadratics-summary.html#subsec-solving-quadratic-equations-summary-7",
+  "type": "Example",
+  "number": "3.10.3",
+  "title": "Solving by Factoring (with <span class=\"process-math\">\\(a \\neq 1\\)<\/span>).",
+  "body": " Solving by Factoring (with )   "
+},
+{
+  "id": "subsec-solving-quadratic-equations-summary-8",
+  "level": "2",
+  "url": "sec-quadratics-summary.html#subsec-solving-quadratic-equations-summary-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Quadratic formula. "
+},
+{
+  "id": "subsec-solving-quadratic-equations-summary-10",
+  "level": "2",
+  "url": "sec-quadratics-summary.html#subsec-solving-quadratic-equations-summary-10",
+  "type": "Example",
+  "number": "3.10.4",
+  "title": "Using the Quadratic Formula.",
+  "body": " Using the Quadratic Formula   "
+},
+{
+  "id": "subsec-solving-quadratic-equations-summary-11",
+  "level": "2",
+  "url": "sec-quadratics-summary.html#subsec-solving-quadratic-equations-summary-11",
+  "type": "Example",
+  "number": "3.10.5",
+  "title": "Using the Quadratic Formula.",
+  "body": " Using the Quadratic Formula   "
+},
+{
+  "id": "subsec-solving-quadratic-equations-summary-14",
+  "level": "2",
+  "url": "sec-quadratics-summary.html#subsec-solving-quadratic-equations-summary-14",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Special cases: "
+},
+{
+  "id": "subsec-solving-quadratic-equations-summary-21",
+  "level": "2",
+  "url": "sec-quadratics-summary.html#subsec-solving-quadratic-equations-summary-21",
+  "type": "Example",
+  "number": "3.10.6",
+  "title": "Missing Constant Term.",
+  "body": " Missing Constant Term   "
+},
+{
+  "id": "subsec-solving-quadratic-equations-summary-22",
+  "level": "2",
+  "url": "sec-quadratics-summary.html#subsec-solving-quadratic-equations-summary-22",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Some notes: "
+},
+{
   "id": "sec-quadratic-systems",
   "level": "1",
   "url": "sec-quadratic-systems.html",
