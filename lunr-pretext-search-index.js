@@ -1294,43 +1294,43 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.9",
   "title": "Quadratic Inequalities in One Variable",
-  "body": " Quadratic Inequalities in One Variable   In addition to quadratic equations, we can also consider quadratic inequalities, which are related.   Motivation: graphical method  Consider the inequality,   The goal is to find all of the values of such that . In simple terms, this means all numbers , where if you substitute it into , the result is positive. This is most intuitive by visualizing the graph of the quadratic function ,     Then, determining where is equivalent to determining the where the -coordinate of the parabola is positive. Observe that the -intercepts of the graph are . So, the graph is positive when or when . Therefore, the solution is or .       Motivation: sign analysis with roots  Consider the inequality . Like before, first, find the roots of the parabola, by making it an equals sign, and factoring,   So, the roots are and . Since has a positive leading coefficient (+1), the parabola opens up. This means that the quadratic roughly looks like this,     From this, the parabola is negative when is between and , or .   To solve the inequality, we don't need to graph the entire parabola precisely. Instead, we only need to find the roots, and know the basic shape (opening up or down).  A quadratic expression can only change sign at its roots. This means, if a quadratic has two roots, then:    If the quadratic is positive in one interval, it will switch to negative when crossing a root.    After crossing the second root, it switches back to positive.    If the quadratic opens down, then the pattern is reversed: it first is negative, then positive, then negative. The pattern of signs follows,     Solving Quadratic Inequalities with Scientific Calculator (INEQ Mode)  My recommended calculator Casio fx-991ES PLUS C 2nd edition (or another similar model) can actually solve quadratic inequalities for you. You can use this to check your answers after solving by hand.    Press MODE and use the down arrow key to go to the next page.    Press 1 for inequality mode ( INEQ )    Press 1 for a quadratic inequality ( ).    Next, the calculator will show options for the type of inequality:    Press 1 for (greater than)    Press 2 for (less than)    Press 3 for (greater than or equal to)    Press 4 for (less than or equal to)      Enter the coefficients , , and for your inequality.    Press = to solve.    The calculator will show the interval(s) of that satisfy the inequality.     Example  For example, to solve :    Press MODE , scroll down, and select INEQ .    Choose 1 for quadratic.    Choose 1 for .    Input , , .    Press = to solve. The calculator will show the solution as:     Make sure your inequality is written in the correct form (everything on one side of the inequality, on the other).     Solving Quadratic Inequalities Summary   A quadratic inequality is an inequality that can be written in one of the forms,      (If necessary) Arrange the quadratic inequality in standard form, with on one side, and 0 on the other.    Find the critical values (the roots of the quadratic expression), by solving the corresponding quadratic equation .    Sketch a number line, and mark the critical values to split it into 3 intervals.    Find where the quadratic is positive or negative    If it opens up ( ), the sign pattern is .    If it opens down ( ), the sign pattern is .      Choose the intervals that match the inequality symbol (greater than or less than).    Include the endpoints if the inequality is or (non-strict inequality). Otherwise, don't include the endpoints if it's or .     "
+  "body": " Quadratic Inequalities in One Variable   In addition to quadratic equations, we can also consider quadratic inequalities, which are closely related.   Motivational Example: Solving with a Graph  Consider the inequality,   The goal is to find all of the values of such that . In simple terms, this means all numbers , where if you substitute it into , the result is positive. This is most intuitive by visualizing the graph of the quadratic function ,     Then, determining where is equivalent to determining the where the -coordinate of the parabola is positive. Observe that the -intercepts of the graph are . So, the graph is positive when or when . Therefore, the solution is or .       Motivation: sign analysis with roots  Consider the inequality . Like before, first, find the roots of the parabola, by making it an equals sign, and factoring,   So, the roots are and . Since has a positive leading coefficient (+1), the parabola opens up. This means that the quadratic roughly looks like this,     From this, the parabola is negative when is between and , or .   To solve the inequality, we don't need to graph the entire parabola precisely. Instead, we only need to find the roots, and know the basic shape (opening up or down).  A quadratic expression can only change sign at its roots. This means, if a quadratic has two roots, then:   If the quadratic is positive in one interval, it will switch to negative when crossing a root.  After crossing the second root, it switches back to positive.   If the quadratic opens down, then the pattern is reversed: it first is negative, then positive, then negative. The pattern of signs follows,     Solving Quadratic Inequalities with Scientific Calculator (INEQ Mode)  My recommended calculator Casio fx-991ES PLUS C 2nd edition (or another similar model) can actually solve quadratic inequalities for you. You can use this to check your answers after solving by hand.   Press MODE and use the down arrow key to go to the next page.  Press 1 for inequality mode ( INEQ )  Press 1 for a quadratic inequality ( ).   Next, the calculator will show options for the type of inequality:   Press 1 for (greater than)  Press 2 for (less than)  Press 3 for (greater than or equal to)  Press 4 for (less than or equal to)    Enter the coefficients , , and for your inequality.  Press = to solve.  The calculator will show the interval(s) of that satisfy the inequality.    For example, to solve :   Press MODE , scroll down, and select INEQ .  Choose 1 for quadratic.  Choose 1 for .  Input , , .   Press = to solve. The calculator will show the solution as:     Make sure your inequality is written in the correct form (everything on one side of the inequality, on the other).     Solving Quadratic Inequalities Summary    A quadratic inequality is an inequality that can be written in one of the forms,      (If necessary) Arrange the quadratic inequality in standard form, with on one side, and 0 on the other.  Find the critical values (the roots of the quadratic expression), by solving the corresponding quadratic equation .  Sketch a number line, and mark the critical values to split it into 3 intervals.   Find where the quadratic is positive or negative   If it opens up ( ), the sign pattern is .  If it opens down ( ), the sign pattern is .    Choose the intervals that match the inequality symbol (greater than or less than).  Include the endpoints if the inequality is or (non-strict inequality). Don't include the endpoints if it's or .     Solving Using Sign Chart and Test Points  There is another method to solve a quadratic inequality, that is more systematic and general, but less efficient for quadratic inequalities, called the sign chart method , or test point method .   Consider the inequality . Similar to before, first find the critical values, by factoring,   So, the critical values are and . Set up a number line, with these roots marked,     These roots split up the number line into 3 intervals: , , and . For each of these intervals, the quadratic will either be positive everywhere, or negative everywhere. So, it is enough to test a single point, and see if the quadratic is positive or negative. For example,    For , choose :     For , choose :     For , choose :     To illustrate these results, we can put a or above each interval, depending if it's positive or negative.     This means that the solution is or . We can denote this graphically by highlighting those regions.     We use open circles (basically, hollow circles) to indicate that and are not included in the solution, because the inequality is .  In fact, when doing test points, we only need to know the sign of the output (whether it is positive or negative). Its exact value as a number isn't necessary. Recall that with multiplying positive and negative numbers,   Then, testing points could look like this,   Test :  Test :  Test :     The roots of the parabola are called critical points , because they are the important points that indicate where the parabola can change sign from positive to negative, or vice versa.  The number line with labelled and intervals is called a sign chart , and this method is sometimes called the test point method .   In summary, after finding the critical values,   Choose a test point in each interval, and evaluate the quadratic function there to determine if it is positive or negative, i.e. if that interval is in the solution set.    Some teachers require you to use a more elaborate table to do a sign chart. I personally believe this chart is excessively tedious and doesn't add much, but some teachers require it to properly show your work.      Examples   Solve  First, find the critical values by solving the corresponding equation,   So, the critical values are and . These divide the number line into three intervals. Since the leading coefficient is positive ( ), the parabola opens up, so the sign pattern is .     We want where the expression is greater than or equal to zero, which is the positive parts, so it's when or when . We include the endpoints, because the inequality includes equals. Therefore, or .    Solve  The goal is to find all values of such that . First, find the critical values by solving the corresponding equation,   So, the critical values are and . These divide the number line into three intervals. Notice that the leading coefficient is negative ( , from the term), so the parabola opens down. This means the sign pattern is .     We want where the expression is greater than or equal to zero, which is the positive part, and so when is between and 3. We also include the endpoints, because the inequality is . Therefore, the solution is .    Solve Quadratic Inequalities I   Solve each quadratic inequality.   , or  , or  or , or  or , or    Solve Quadratic Inequalities II   Solve each quadratic inequality.   or , or  , or  , or  or , or  or , or  or , or  , or  , or  or , or  or , or  , or  , or    Solve Quadratic Inequalities III   Solve each quadratic inequality.   or , or  , or  or , or  or , or    Solve Quadratic Inequalities IV   Solve each quadratic inequality.   or , or  or , or  , or  or , or  , or  , or  or , or  , or  or , or  or , or    Solve Quadratic Inequalities V   Solve each quadratic inequality.   or , or  no solution  or , or  , or  or , or  , or  or , or  or , or  or , or    Creating an Inequality Given Its Solution   Write a quadratic inequality with the given solution, in standard form.   , which in standard form is  , which in standard form is  or , which in standard form is  , which in standard form is  or , which in standard form is  , which in standard form is  or , which in standard form is  or , which in standard form is  (all real numbers)  no solution     Word Problems   Right Triangle Area   For a right triangle, one leg is 2 cm longer than the other leg. How long should the shorter leg be so that the area of the triangle is greater than or equal to 4 cm ?       At least 2 cm.     Projectile Motion   A ball is thrown upward at 15 m\/s from a height of 2 m. Its height at time seconds after being thrown, can be modelled by the function . Find how long the ball was in the air for before it hit the ground, rounded to the nearest tenth of a second.    3.2 seconds.     "
 },
 {
-  "id": "quadratic-inequalities-in-one-variable-2-2",
+  "id": "ex-quad-ineq-graphical",
   "level": "2",
-  "url": "quadratic-inequalities-in-one-variable.html#quadratic-inequalities-in-one-variable-2-2",
+  "url": "quadratic-inequalities-in-one-variable.html#ex-quad-ineq-graphical",
   "type": "Example",
   "number": "3.9.1",
-  "title": "Motivation: graphical method.",
-  "body": " Motivation: graphical method  Consider the inequality,   The goal is to find all of the values of such that . In simple terms, this means all numbers , where if you substitute it into , the result is positive. This is most intuitive by visualizing the graph of the quadratic function ,     Then, determining where is equivalent to determining the where the -coordinate of the parabola is positive. Observe that the -intercepts of the graph are . So, the graph is positive when or when . Therefore, the solution is or .     "
+  "title": "Motivational Example: Solving with a Graph.",
+  "body": " Motivational Example: Solving with a Graph  Consider the inequality,   The goal is to find all of the values of such that . In simple terms, this means all numbers , where if you substitute it into , the result is positive. This is most intuitive by visualizing the graph of the quadratic function ,     Then, determining where is equivalent to determining the where the -coordinate of the parabola is positive. Observe that the -intercepts of the graph are . So, the graph is positive when or when . Therefore, the solution is or .     "
 },
 {
-  "id": "quadratic-inequalities-in-one-variable-2-3",
+  "id": "ex-quad-ineq-sign-analysis",
   "level": "2",
-  "url": "quadratic-inequalities-in-one-variable.html#quadratic-inequalities-in-one-variable-2-3",
+  "url": "quadratic-inequalities-in-one-variable.html#ex-quad-ineq-sign-analysis",
   "type": "Example",
   "number": "3.9.2",
   "title": "Motivation: sign analysis with roots.",
   "body": " Motivation: sign analysis with roots  Consider the inequality . Like before, first, find the roots of the parabola, by making it an equals sign, and factoring,   So, the roots are and . Since has a positive leading coefficient (+1), the parabola opens up. This means that the quadratic roughly looks like this,     From this, the parabola is negative when is between and , or .  "
 },
 {
-  "id": "quad-ineq-calculator-4",
+  "id": "ex-quad-ineq-calculator",
   "level": "2",
-  "url": "quadratic-inequalities-in-one-variable.html#quad-ineq-calculator-4",
+  "url": "quadratic-inequalities-in-one-variable.html#ex-quad-ineq-calculator",
   "type": "Example",
   "number": "3.9.3",
-  "title": "Example.",
-  "body": " Example  For example, to solve :    Press MODE , scroll down, and select INEQ .    Choose 1 for quadratic.    Choose 1 for .    Input , , .    Press = to solve. The calculator will show the solution as:     Make sure your inequality is written in the correct form (everything on one side of the inequality, on the other).  "
+  "title": "",
+  "body": " For example, to solve :   Press MODE , scroll down, and select INEQ .  Choose 1 for quadratic.  Choose 1 for .  Input , , .   Press = to solve. The calculator will show the solution as:     Make sure your inequality is written in the correct form (everything on one side of the inequality, on the other).  "
 },
 {
-  "id": "quad-ineq-summary-2",
+  "id": "def-quadratic-inequality",
   "level": "2",
-  "url": "quadratic-inequalities-in-one-variable.html#quad-ineq-summary-2",
+  "url": "quadratic-inequalities-in-one-variable.html#def-quadratic-inequality",
   "type": "Definition",
   "number": "3.9.4",
   "title": "",
-  "body": " A quadratic inequality is an inequality that can be written in one of the forms,   "
+  "body": "  A quadratic inequality is an inequality that can be written in one of the forms,    "
 },
 {
   "id": "quad-ineq-summary-3-2-1",
@@ -1340,6 +1340,141 @@ var ptx_lunr_docs = [
   "number": "",
   "title": "",
   "body": "critical values "
+},
+{
+  "id": "quad-ineq-sign-chart-2",
+  "level": "2",
+  "url": "quadratic-inequalities-in-one-variable.html#quad-ineq-sign-chart-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "sign chart method test point method "
+},
+{
+  "id": "ex-quad-ineq-test-points",
+  "level": "2",
+  "url": "quadratic-inequalities-in-one-variable.html#ex-quad-ineq-test-points",
+  "type": "Example",
+  "number": "3.9.5",
+  "title": "",
+  "body": " Consider the inequality . Similar to before, first find the critical values, by factoring,   So, the critical values are and . Set up a number line, with these roots marked,     These roots split up the number line into 3 intervals: , , and . For each of these intervals, the quadratic will either be positive everywhere, or negative everywhere. So, it is enough to test a single point, and see if the quadratic is positive or negative. For example,    For , choose :     For , choose :     For , choose :     To illustrate these results, we can put a or above each interval, depending if it's positive or negative.     This means that the solution is or . We can denote this graphically by highlighting those regions.     We use open circles (basically, hollow circles) to indicate that and are not included in the solution, because the inequality is .  In fact, when doing test points, we only need to know the sign of the output (whether it is positive or negative). Its exact value as a number isn't necessary. Recall that with multiplying positive and negative numbers,   Then, testing points could look like this,   Test :  Test :  Test :   "
+},
+{
+  "id": "quad-ineq-sign-chart-4-1-1",
+  "level": "2",
+  "url": "quadratic-inequalities-in-one-variable.html#quad-ineq-sign-chart-4-1-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "critical points "
+},
+{
+  "id": "quad-ineq-sign-chart-4-2-1",
+  "level": "2",
+  "url": "quadratic-inequalities-in-one-variable.html#quad-ineq-sign-chart-4-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "sign chart test point method "
+},
+{
+  "id": "quad-ineq-sign-chart-7",
+  "level": "2",
+  "url": "quadratic-inequalities-in-one-variable.html#quad-ineq-sign-chart-7",
+  "type": "Remark",
+  "number": "3.9.6",
+  "title": "",
+  "body": " Some teachers require you to use a more elaborate table to do a sign chart. I personally believe this chart is excessively tedious and doesn't add much, but some teachers require it to properly show your work.   "
+},
+{
+  "id": "ex-quad-ineq-x2-minus-4",
+  "level": "2",
+  "url": "quadratic-inequalities-in-one-variable.html#ex-quad-ineq-x2-minus-4",
+  "type": "Example",
+  "number": "3.9.7",
+  "title": "Solve <span class=\"process-math\">\\(x^2 - 4 \\geq 0\\)<\/span>.",
+  "body": " Solve  First, find the critical values by solving the corresponding equation,   So, the critical values are and . These divide the number line into three intervals. Since the leading coefficient is positive ( ), the parabola opens up, so the sign pattern is .     We want where the expression is greater than or equal to zero, which is the positive parts, so it's when or when . We include the endpoints, because the inequality includes equals. Therefore, or .  "
+},
+{
+  "id": "ex-quad-ineq-9-minus-x2",
+  "level": "2",
+  "url": "quadratic-inequalities-in-one-variable.html#ex-quad-ineq-9-minus-x2",
+  "type": "Example",
+  "number": "3.9.8",
+  "title": "Solve <span class=\"process-math\">\\(9 - x^2 \\geq 0\\)<\/span>.",
+  "body": " Solve  The goal is to find all values of such that . First, find the critical values by solving the corresponding equation,   So, the critical values are and . These divide the number line into three intervals. Notice that the leading coefficient is negative ( , from the term), so the parabola opens down. This means the sign pattern is .     We want where the expression is greater than or equal to zero, which is the positive part, and so when is between and 3. We also include the endpoints, because the inequality is . Therefore, the solution is .  "
+},
+{
+  "id": "project-quad-ineq-1",
+  "level": "2",
+  "url": "quadratic-inequalities-in-one-variable.html#project-quad-ineq-1",
+  "type": "Exercise Group",
+  "number": "3.9.1",
+  "title": "Solve Quadratic Inequalities I.",
+  "body": " Solve Quadratic Inequalities I   Solve each quadratic inequality.   , or  , or  or , or  or , or  "
+},
+{
+  "id": "project-quad-ineq-2",
+  "level": "2",
+  "url": "quadratic-inequalities-in-one-variable.html#project-quad-ineq-2",
+  "type": "Exercise Group",
+  "number": "3.9.2",
+  "title": "Solve Quadratic Inequalities II.",
+  "body": " Solve Quadratic Inequalities II   Solve each quadratic inequality.   or , or  , or  , or  or , or  or , or  or , or  , or  , or  or , or  or , or  , or  , or  "
+},
+{
+  "id": "project-quad-ineq-3",
+  "level": "2",
+  "url": "quadratic-inequalities-in-one-variable.html#project-quad-ineq-3",
+  "type": "Exercise Group",
+  "number": "3.9.3",
+  "title": "Solve Quadratic Inequalities III.",
+  "body": " Solve Quadratic Inequalities III   Solve each quadratic inequality.   or , or  , or  or , or  or , or  "
+},
+{
+  "id": "project-quad-ineq-4",
+  "level": "2",
+  "url": "quadratic-inequalities-in-one-variable.html#project-quad-ineq-4",
+  "type": "Exercise Group",
+  "number": "3.9.4",
+  "title": "Solve Quadratic Inequalities IV.",
+  "body": " Solve Quadratic Inequalities IV   Solve each quadratic inequality.   or , or  or , or  , or  or , or  , or  , or  or , or  , or  or , or  or , or  "
+},
+{
+  "id": "project-quad-ineq-5",
+  "level": "2",
+  "url": "quadratic-inequalities-in-one-variable.html#project-quad-ineq-5",
+  "type": "Exercise Group",
+  "number": "3.9.5",
+  "title": "Solve Quadratic Inequalities V.",
+  "body": " Solve Quadratic Inequalities V   Solve each quadratic inequality.   or , or  no solution  or , or  , or  or , or  , or  or , or  or , or  or , or  "
+},
+{
+  "id": "project-quad-ineq-create",
+  "level": "2",
+  "url": "quadratic-inequalities-in-one-variable.html#project-quad-ineq-create",
+  "type": "Exercise Group",
+  "number": "3.9.6",
+  "title": "Creating an Inequality Given Its Solution.",
+  "body": " Creating an Inequality Given Its Solution   Write a quadratic inequality with the given solution, in standard form.   , which in standard form is  , which in standard form is  or , which in standard form is  , which in standard form is  or , which in standard form is  , which in standard form is  or , which in standard form is  or , which in standard form is  (all real numbers)  no solution  "
+},
+{
+  "id": "ex-quad-ineq-triangle",
+  "level": "2",
+  "url": "quadratic-inequalities-in-one-variable.html#ex-quad-ineq-triangle",
+  "type": "Example",
+  "number": "3.9.9",
+  "title": "Right Triangle Area.",
+  "body": " Right Triangle Area   For a right triangle, one leg is 2 cm longer than the other leg. How long should the shorter leg be so that the area of the triangle is greater than or equal to 4 cm ?       At least 2 cm.   "
+},
+{
+  "id": "ex-quad-ineq-projectile",
+  "level": "2",
+  "url": "quadratic-inequalities-in-one-variable.html#ex-quad-ineq-projectile",
+  "type": "Example",
+  "number": "3.9.10",
+  "title": "Projectile Motion.",
+  "body": " Projectile Motion   A ball is thrown upward at 15 m\/s from a height of 2 m. Its height at time seconds after being thrown, can be modelled by the function . Find how long the ball was in the air for before it hit the ground, rounded to the nearest tenth of a second.    3.2 seconds.   "
 },
 {
   "id": "sec-quadratics-summary",
