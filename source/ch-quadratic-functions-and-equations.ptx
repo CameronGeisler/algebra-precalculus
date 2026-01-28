@@ -20,6 +20,7 @@
   <xi:include href="./sec-word-problems-with-quadratics.ptx" />
 
   <xi:include href="./sec-quadratic-inequalities-in-one-variable.ptx" />
-   
+
+  <xi:include href="./sec-quadratics-summary.ptx" />
 
 </chapter>

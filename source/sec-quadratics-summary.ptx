@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-quadratics-summary" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Summary of Quadratics</title>
+
+  <subsection xml:id="subsec-forms-of-quadratic-function">
+    <title>Forms of a Quadratic Function</title>
+
+    <tabular halign="left">
+      <col width="32%"/>
+      <col width="20%" halign="center"/>
+      <col width="48%"/>
+      <row header="yes" bottom="minor">
+        <cell><term>Form</term></cell>
+        <cell><term>Name</term></cell>
+        <cell><term>Why it's useful</term></cell>
+      </row>
+      <row>
+        <cell><p><m>f(x) = ax^2 + bx + c</m></p></cell>
+        <cell><p><term>Standard form</term> (general form)</p></cell>
+        <cell>
+          <p><ul>
+            <li><p>The <m>y</m>-intercept is <m>c</m></p></li>
+            <li><p>Vertex at <m>x = -\frac{b}{2a}</m>, i.e. <m>\brac{-\frac{b}{2a},\,f\brac{-\frac{b}{2a}}}</m></p></li>
+          </ul></p>
+        </cell>
+      </row>
+      <row>
+        <cell><p><m>f(x) = a(x - h)^2 + k</m></p></cell>
+        <cell><p><term>Vertex form</term></p></cell>
+        <cell>
+          <p><ul>
+            <li><p>Gives the vertex directly as the point <m>(h,k)</m></p></li>
+          </ul></p>
+        </cell>
+      </row>
+      <row>
+        <cell><p><m>f(x) = a(x - r_1)(x - r_2)</m></p></cell>
+        <cell><p><term>Factored form</term> (intercept form)</p></cell>
+        <cell>
+          <p><ul>
+            <li><p>Roots (zeros, <m>x</m>-intercepts) are <m>r_1</m> and <m>r_2</m></p></li>
+            <li><p>Vertex is halfway between zeros: <m>x = \frac{r_1 + r_2}{2}</m></p></li>
+          </ul></p>
+        </cell>
+      </row>
+    </tabular>
+
+    <figure xml:id="fig-quadratic-forms-diagram">
+      <caption>Converting between forms of a quadratic function</caption>
+      <image width="100%">
+        <latex-image>
+          \begin{tikzpicture}[
+            quadbox/.style={draw,rounded corners,align=center,inner sep=8pt},
+            >=Stealth,
+            bend angle=15
+          ]
+            % nodes
+            \node[quadbox] (std) {Standard Form \\ $f(x)=ax^2+bx+c$};
+            \node[quadbox] (vert) [below left=2cm and 1cm of std]
+              {Vertex Form \\ $f(x)=a(x-h)^2+k$};
+            \node[quadbox] (fact) [below right=2cm and 1cm of std]
+              {Factored Form \\ $f(x)=a(x-r_1)(x-r_2)$};
+
+            % arrows
+            \draw[->,bend right]  (std) to
+              node[midway,above left,font=\small]{Complete square} (vert);
+            \draw[->,bend right]  (vert) to
+              node[midway,below right,font=\small]{Expand} (std);
+            \draw[->,bend left] (std) to
+              node[midway,above right,font=\small]{Factor} (fact);
+            \draw[->,bend left] (fact) to
+              node[midway,below left,font=\small]{Expand} (std);
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+    </figure>
+
+  </subsection>
+
+  <subsection xml:id="subsec-solving-quadratic-equations-summary">
+    <title>Solving Quadratic Equations</title>
+
+    <p>There are many techniques used to solve quadratic equations. Some apply more broadly and some only to specific cases.</p>
+
+    <p>In short,</p>
+    <ol>
+      <li><p>Move all terms to one side, so the other side is 0 (convert to standard form).</p></li>
+      <li><p>Use either (a) factoring, or (b) the quadratic formula.</p></li>
+    </ol>
+
+    <p><term>Factoring.</term> If <m>ax^2 + bx + c</m> can be factored easily, then factor and use the zero-product property to split it into two equations, and solve.</p>
+
+    <example>
+      <title>Solving by Factoring</title>
+      <md>
+        <mrow>x^2 - 5x + 6 \amp= 0</mrow>
+        <mrow>(x - 2)(x - 3) \amp= 0</mrow>
+        <mrow>x - 2 = 0 \qquad x - 3 \amp= 0</mrow>
+        <mrow>x = 2 \qquad x \amp= 3</mrow>
+      </md>
+    </example>
+
+    <example>
+      <title>Solving by Factoring (with <m>a \neq 1</m>)</title>
+      <md>
+        <mrow>2x^2 + x - 3 \amp= 0</mrow>
+        <mrow>(2x+3)(x-1) \amp= 0</mrow>
+        <mrow>2x+3 = 0 \qquad x-1 \amp= 0</mrow>
+        <mrow>x = -\frac{3}{2} \qquad x \amp= 1</mrow>
+      </md>
+    </example>
+
+    <p><term>Quadratic formula.</term> If <m>ax^2 + bx + c</m> cannot be factored, or factoring is difficult, then use the quadratic formula,</p>
+    <me>\boxed{x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}}</me>
+
+    <example>
+      <title>Using the Quadratic Formula</title>
+      <md>
+        <mrow>2x^2 - 4x - 3 \amp= 0</mrow>
+        <mrow>x \amp= \frac{-(-4) \pm \sqrt{(-4)^2 - 4(2)(-3)}}{2(2)}</mrow>
+        <mrow>\amp= \frac{4 \pm \sqrt{40}}{4}</mrow>
+        <mrow>\amp= \frac{4 \pm 2 \sqrt{10}}{4} \amp\amp\text{simplifying the radical}</mrow>
+        <mrow>x \amp= \frac{2 \pm \sqrt{10}}{2} \amp\amp\text{cancelling a common factor of 2}</mrow>
+      </md>
+    </example>
+
+    <example>
+      <title>Using the Quadratic Formula</title>
+      <md>
+        <mrow>3x^2 + 7x - 2 \amp= 0</mrow>
+        <mrow>x \amp= \frac{-7 \pm \sqrt{7^2 - 4(3)(-2)}}{2(3)}</mrow>
+        <mrow>\amp= \frac{-7 \pm \sqrt{49+24}}{6}</mrow>
+        <mrow>\amp= \frac{-7 \pm \sqrt{73}}{6}</mrow>
+      </md>
+    </example>
+
+    <p>To find if it is factorable, check if the discriminant <m>b^2 - 4ac</m> is a perfect square.</p>
+    <ul>
+      <li><p>If it is a perfect square (like 1, 4, 9, 16, 25, 36, <m>\dots</m>), it is factorable.</p></li>
+      <li><p>If not, it's not factorable.</p></li>
+    </ul>
+
+    <p><term>Special cases:</term></p>
+
+    <p><em>Missing <m>x</m> term.</em> If there is no <m>x</m> term, then isolate <m>x^2</m>, and take the square root of both sides (don't forget <m>\pm</m>).</p>
+    <md>
+      <mrow>3x^2 - 12 \amp= 0</mrow>
+      <mrow>3x^2 \amp= 12</mrow>
+      <mrow>x^2 \amp= 4</mrow>
+      <mrow>x \amp= \pm 2</mrow>
+    </md>
+
+    <p><em>Vertex form.</em> Slightly more generally, if it is in vertex form <m>(x - h)^2 + k = 0</m>, then take the square root of both sides, and solve for <m>x</m>.</p>
+    <md>
+      <mrow>(x - 3)^2 - 7 \amp= 0</mrow>
+      <mrow>(x - 3)^2 \amp= 7</mrow>
+      <mrow>x - 3 \amp= \pm \sqrt{7}</mrow>
+      <mrow>x \amp= 3 \pm \sqrt{7}</mrow>
+    </md>
+    <p>In this case, you could also expand the brackets, and try to use factoring or the quadratic formula, but this method uses fewer steps.</p>
+
+    <p><em>Missing constant term.</em> If there is no constant term, <m>ax^2 + bx = 0</m>, then factor out the common factor of <m>x</m>, and set each equal to 0.</p>
+
+    <example>
+      <title>Missing Constant Term</title>
+      <md>
+        <mrow>2x^2 + 4x \amp= 0</mrow>
+        <mrow>2x(x + 2) \amp= 0</mrow>
+        <mrow>x = 0 \qquad x + 2 \amp= 0</mrow>
+        <mrow>x = 0 \qquad x \amp= -2</mrow>
+      </md>
+    </example>
+
+    <p><term>Some notes:</term></p>
+    <ul>
+      <li><p>Always look for common factors that you can divide out, especially if the numbers are big!</p></li>
+      <li><p>The quadratic formula always works, in that it can be used in all cases. However, it is sometimes overkill, applying a complicated formula to a simple situation unnecessarily, where a simpler technique would have worked.</p></li>
+      <li><p>Remember: if you want to find <m>y</m>, you can always plug in <m>x</m> to find it!</p></li>
+      <li><p>Here is a classic math rap song: <url href="https://www.youtube.com/watch?v=jGJrH49Z2ZA">Do the Quad Solve</url>, which is a parody of <url href="https://www.youtube.com/watch?v=meYIbAt2iaQ">Do the John Wall by Troop 41</url>.</p></li>
+      <li><p><url href="https://www.youtube.com/watch?v=cjZpGM7veW4">Quadratic Formula Rap</url> by Mr. 2Pi.</p></li>
+    </ul>
+
+  </subsection>
+
+</section>
