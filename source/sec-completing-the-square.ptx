@@ -51,16 +51,35 @@
     </example>
 
     <remark>
-      <p>For more about perfect square trinomials, see <url href="https://camerongeisler.github.io/algebra-precalculus/sec-factoring-special-patterns.html#subsection-perfect-square-trinomials">Factoring Special Patterns</url>.</p>
+      <p>For more about perfect square trinomials, see <xref ref="subsection-perfect-square-trinomials"/>.</p>
     </remark>
 
     <p>In general, for a perfect square trinomial of this form, the constant term is <m>\frac{1}{2}</m> of the coefficient of the <m>x</m> term, squared. In other words,</p>
-    <me>x^2 + bx + \brac{\frac{b}{2}}^2 = \brac{x + \frac{b}{2}}^2</me>
+    <me>\boxed{x^2 + bx + \brac{\frac{b}{2}}^2 = \brac{x + \frac{b}{2}}^2}</me>
     <p>This means to get the correct constant term, take the coefficient of <m>x</m>,</p>
     <ul>
       <li><p>Divide it by 2 (or take 1/2 of it)</p></li>
       <li><p>Square it.</p></li>
     </ul>
+
+    <project xml:id="project-complete-square-pattern">
+      <title>Recognizing Perfect Square Trinomials</title>
+      <introduction>
+        <p>Find a number that makes the expression a perfect square of the form <m>(x+h)^2</m>.</p>
+      </introduction>
+      <task><statement><m>x^2+2x+\_\_\_</m></statement><answer><m>1</m></answer></task>
+      <task><statement><m>x^2-2x+\_\_\_</m></statement><answer><m>1</m></answer></task>
+      <task><statement><m>x^2+4x+\_\_\_</m></statement><answer><m>4</m></answer></task>
+      <task><statement><m>x^2-4x+\_\_\_</m></statement><answer><m>4</m></answer></task>
+      <task><statement><m>x^2+6x+\_\_\_</m></statement><answer><m>9</m></answer></task>
+      <task><statement><m>x^2-6x+\_\_\_</m></statement><answer><m>9</m></answer></task>
+      <task><statement><m>x^2+10x+\_\_\_</m></statement><answer><m>25</m></answer></task>
+      <task><statement><m>x^2-10x+\_\_\_</m></statement><answer><m>25</m></answer></task>
+      <task><statement><m>x^2+5x+\_\_\_</m></statement><answer><m>\frac{25}{4}</m></answer></task>
+      <task><statement><m>x^2-7x+\_\_\_</m></statement><answer><m>\frac{49}{4}</m></answer></task>
+      <task><statement><m>x^2+bx+\_\_\_</m></statement><answer><m>\frac{b^2}{4}</m></answer></task>
+      <task><statement><m>x^2-bx+\_\_\_</m></statement><answer><m>\frac{b^2}{4}</m></answer></task>
+    </project>
 
     <example xml:id="ex-completing-square-worked">
       <title>Solve <m>x^2 + 8x + 5 = 0</m></title>
@@ -102,25 +121,11 @@
       <p>Now we need to take the square root of both sides. However, there is no real number whose square is <m>-3</m>, because the square of any real number is always positive (or 0). Therefore, there is no solution.</p>
     </example>
 
-    <project xml:id="project-complete-square-pattern">
-      <title>Recognizing Perfect Square Trinomials</title>
-      <introduction>
-        <p>Find a number that makes the expression a perfect square of the form <m>(x+h)^2</m>.</p>
-      </introduction>
-      <task><statement><m>x^2+2x+\_\_\_</m></statement><answer><m>1</m></answer></task>
-      <task><statement><m>x^2-2x+\_\_\_</m></statement><answer><m>1</m></answer></task>
-      <task><statement><m>x^2+4x+\_\_\_</m></statement><answer><m>4</m></answer></task>
-      <task><statement><m>x^2-4x+\_\_\_</m></statement><answer><m>4</m></answer></task>
-      <task><statement><m>x^2+5x+\_\_\_</m></statement><answer><m>\frac{25}{4}</m></answer></task>
-      <task><statement><m>x^2-7x+\_\_\_</m></statement><answer><m>\frac{49}{4}</m></answer></task>
-      <task><statement><m>x^2+bx+\_\_\_</m></statement><answer><m>\frac{b^2}{4}</m></answer></task>
-      <task><statement><m>x^2-bx+\_\_\_</m></statement><answer><m>\frac{b^2}{4}</m></answer></task>
-    </project>
-
     <p>This gives a technique for solving quadratic equations:</p>
     <ol>
       <li><p>Isolate the terms involving <m>x</m>, by moving the constant to the other side.</p></li>
       <li><p>Find <m>\brac{\frac{b}{2}}^2</m>, and add it to both sides of the equation.</p></li>
+      <li><p>Factor the perfect square trinomial.</p></li>
       <li><p>Take square roots of both sides (don't forget <m>\pm</m>)</p></li>
       <li><p>Isolate for <m>x</m>.</p></li>
     </ol>
@@ -130,6 +135,7 @@
       <introduction>
         <p>Solve each equation by completing the square.</p>
       </introduction>
+      <task><statement><m>x^2 + 6x + 4 = 0</m></statement><answer><m>x = -3 \pm \sqrt{5}</m></answer></task>
       <task><statement><m>x^2 - 8x + 5 = 0</m></statement><answer><m>x = 4 \pm \sqrt{11}</m></answer></task>
       <task><statement><m>x^2 + 10x + 4 = 0</m></statement><answer><m>x = -5 \pm \sqrt{21}</m></answer></task>
       <task><statement><m>x^2+4x+2=0</m></statement><answer><m>x=-2\pm\sqrt{2}</m></answer></task>
@@ -222,35 +228,35 @@
     <p>In summary, completing the square is a general technique for solving quadratic equations, particularly those which <em>can't</em> be factored. It also works for equations which can be factored, but it is overkill (because factoring is easier).</p>
 
     <tabular halign="left">
-      <col width="45%"/>
-      <col width="55%"/>
+      <col width="50%"/>
+      <col width="50%"/>
       <row header="yes" bottom="minor">
         <cell><term>Steps</term></cell>
         <cell><term>Example: Solve <m>2x^2 + 12x - 5 = 0</m></term></cell>
       </row>
       <row>
-        <cell>1. Move the number to the other side of the equation.</cell>
-        <cell><m>2x^2 + 12x = 5</m> (add 5 to both sides)</cell>
+        <cell><p>1. Move the constant to the other side.</p></cell>
+        <cell><p><m>2x^2 + 12x = 5</m></p></cell>
       </row>
       <row>
-        <cell>2. If <m>a \neq 1</m>, divide both sides by <m>a</m>, to make the leading coefficient equal to 1.</cell>
-        <cell><m>x^2 + 6x = \frac{5}{2}</m> (divide by 2)</cell>
+        <cell><p>2. If <m>a \neq 1</m>, divide both sides by <m>a</m>.</p></cell>
+        <cell><p><m>x^2 + 6x = \frac{5}{2}</m></p></cell>
       </row>
       <row>
-        <cell>3. Find <m>\brac{\frac{b}{2}}^2</m>, and add it to both sides.</cell>
-        <cell><m>x^2 + 6x + 9 = \frac{5}{2} + 9 = \frac{23}{2}</m> (half of 6 is 3, and <m>3^2 = 9</m>)</cell>
+        <cell><p>3. Find <m>\brac{\frac{b}{2}}^2</m>, add it to both sides.</p></cell>
+        <cell><p><m>x^2 + 6x + 9 = \frac{23}{2}</m></p></cell>
       </row>
       <row>
-        <cell>4. Factor the perfect square trinomial.</cell>
-        <cell><m>(x + 3)^2 = \frac{23}{2}</m></cell>
+        <cell><p>4. Factor the perfect square trinomial.</p></cell>
+        <cell><p><m>(x + 3)^2 = \frac{23}{2}</m></p></cell>
       </row>
       <row>
-        <cell>5. Take the square root of both sides (don't forget <m>\pm</m>).</cell>
-        <cell><m>x + 3 = \pm\sqrt{\frac{23}{2}}</m></cell>
+        <cell><p>5. Take square roots (don't forget <m>\pm</m>).</p></cell>
+        <cell><p><m>x + 3 = \pm\sqrt{\frac{23}{2}}</m></p></cell>
       </row>
       <row>
-        <cell>6. Isolate <m>x</m>.</cell>
-        <cell><m>x = -3 \pm \sqrt{\frac{23}{2}}</m> (subtract 3)</cell>
+        <cell><p>6. Isolate <m>x</m>.</p></cell>
+        <cell><p><m>x = -3 \pm \sqrt{\frac{23}{2}}</m></p></cell>
       </row>
     </tabular>
 
@@ -290,9 +296,57 @@
   </subsection>
 
   <subsection xml:id="subsection-converting-vertex-form">
-    <title>Converting to Vertex Form by Completing the Square</title>
+    <title>Converting to Vertex Form</title>
 
-    <p>Another application of completing the square is to convert a quadratic function from standard form <m>f(x) = ax^2 + bx + c</m> to vertex form <m>f(x) = a(x - h)^2 + k</m>. This allows us to identify the vertex <m>(h, k)</m> of the parabola.</p>
+    <introduction>
+      <p>Another application of completing the square is to convert a quadratic function from standard form <m>f(x) = ax^2 + bx + c</m> to vertex form <m>f(x) = a(x - h)^2 + k</m>. This allows us to identify the vertex <m>(h, k)</m> of the parabola.</p>
+    </introduction>
+
+    <example xml:id="ex-vertex-form-intro-1">
+      <title>Convert <m>f(x) = x^2 + 6x + 5</m> to Vertex Form</title>
+      <p>The key insight is that we can use the same <q>completing the square</q> technique, but on a function expression rather than an equation. The goal is to rewrite <m>x^2 + 6x + 5</m> in the form <m>(x - h)^2 + k</m>.</p>
+      <p>We need to add a number to <m>x^2 + 6x</m> to make it a perfect square. Half of 6 is 3, and <m>3^2 = 9</m>. But if we add 9, we must also subtract 9 to keep the expression equal:</p>
+      <md>
+        <mrow>f(x) \amp= x^2 + 6x + 5</mrow>
+        <mrow>\amp= (x^2 + 6x + 9) - 9 + 5 \amp\amp\text{adding and subtracting 9}</mrow>
+        <mrow>\amp= (x + 3)^2 - 4 \amp\amp\text{factoring and simplifying}</mrow>
+      </md>
+      <p>The vertex is <m>(-3, -4)</m>.</p>
+    </example>
+
+    <example xml:id="ex-vertex-form-intro-2">
+      <title>Convert <m>f(x) = 2x^2 - 12x + 13</m> to Vertex Form</title>
+      <p>When <m>a \neq 1</m>, we first factor out <m>a</m> from the <m>x</m> terms:</p>
+      <md>
+        <mrow>f(x) \amp= 2x^2 - 12x + 13</mrow>
+        <mrow>\amp= 2(x^2 - 6x) + 13 \amp\amp\text{factoring 2 from first two terms}</mrow>
+      </md>
+      <p>Now complete the square <em>inside</em> the parentheses. Half of <m>-6</m> is <m>-3</m>, and <m>(-3)^2 = 9</m>:</p>
+      <md>
+        <mrow>\amp= 2(x^2 - 6x + 9 - 9) + 13 \amp\amp\text{adding and subtracting 9 inside}</mrow>
+        <mrow>\amp= 2(x^2 - 6x + 9) - 2(9) + 13 \amp\amp\text{distributing the 2}</mrow>
+        <mrow>\amp= 2(x - 3)^2 - 18 + 13</mrow>
+        <mrow>\amp= 2(x - 3)^2 - 5</mrow>
+      </md>
+      <p>The vertex is <m>(3, -5)</m>.</p>
+    </example>
+
+    <example xml:id="ex-vertex-form-intro-3">
+      <title>Convert <m>f(x) = -x^2 + 4x + 1</m> to Vertex Form</title>
+      <p>When <m>a</m> is negative, we factor out the negative:</p>
+      <md>
+        <mrow>f(x) \amp= -x^2 + 4x + 1</mrow>
+        <mrow>\amp= -(x^2 - 4x) + 1 \amp\amp\text{factoring } -1 \text{ from first two terms}</mrow>
+      </md>
+      <p>Complete the square inside. Half of <m>-4</m> is <m>-2</m>, and <m>(-2)^2 = 4</m>:</p>
+      <md>
+        <mrow>\amp= -(x^2 - 4x + 4 - 4) + 1</mrow>
+        <mrow>\amp= -(x^2 - 4x + 4) - (-1)(4) + 1 \amp\amp\text{the } -4 \text{ comes out with a sign change}</mrow>
+        <mrow>\amp= -(x - 2)^2 + 4 + 1</mrow>
+        <mrow>\amp= -(x - 2)^2 + 5</mrow>
+      </md>
+      <p>The vertex is <m>(2, 5)</m>.</p>
+    </example>
 
     <p>The process is similar to solving equations, with a few key differences:</p>
     <ul>
@@ -338,6 +392,41 @@
       <task><statement><m>f(x) = -10x^2 - 40x</m></statement><answer><p><m>f(x) = -10(x+2)^2 + 40</m>, vertex <m>(-2, 40)</m></p></answer></task>
       <task><statement><m>f(x) = -7x^2 + 182x - 70</m></statement><answer><p><m>f(x) = -7(x-13)^2 + 1113</m>, vertex <m>(13, 1113)</m></p></answer></task>
     </project>
+
+    <p><term>Summary of Converting to Vertex Form</term></p>
+
+    <tabular halign="left">
+      <col width="50%"/>
+      <col width="50%"/>
+      <row header="yes" bottom="minor">
+        <cell><term>Steps</term></cell>
+        <cell><term>Example: <m>f(x) = 2x^2 - 12x + 13</m></term></cell>
+      </row>
+      <row>
+        <cell><p>1. Factor out <m>a</m> from the first two terms.</p></cell>
+        <cell><p><m>f(x) = 2(x^2 - 6x) + 13</m></p></cell>
+      </row>
+      <row>
+        <cell><p>2. Find <m>\brac{\frac{b}{2}}^2</m> where <m>b</m> is the coefficient of <m>x</m> inside.</p></cell>
+        <cell><p>Half of <m>-6</m> is <m>-3</m>, and <m>(-3)^2 = 9</m></p></cell>
+      </row>
+      <row>
+        <cell><p>3. Add and subtract this number inside the parentheses.</p></cell>
+        <cell><p><m>f(x) = 2(x^2 - 6x + 9 - 9) + 13</m></p></cell>
+      </row>
+      <row>
+        <cell><p>4. Distribute the <m>a</m> to the subtracted term.</p></cell>
+        <cell><p><m>f(x) = 2(x^2 - 6x + 9) - 2(9) + 13</m></p></cell>
+      </row>
+      <row>
+        <cell><p>5. Factor the perfect square and simplify.</p></cell>
+        <cell><p><m>f(x) = 2(x - 3)^2 - 5</m></p></cell>
+      </row>
+      <row>
+        <cell><p>6. Read off the vertex <m>(h, k)</m>.</p></cell>
+        <cell><p>Vertex: <m>(3, -5)</m></p></cell>
+      </row>
+    </tabular>
 
   </subsection>
 
