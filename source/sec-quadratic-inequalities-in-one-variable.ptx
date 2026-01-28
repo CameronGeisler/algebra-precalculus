@@ -2,19 +2,18 @@
 
 <section xml:id="quadratic-inequalities-in-one-variable" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Quadratic Inequalities in One Variable</title>
-  
+
   <introduction>
     <p>
-      In addition to quadratic equations, we can also consider quadratic inequalities, which are related.
+      In addition to quadratic equations, we can also consider quadratic inequalities, which are closely related.
     </p>
-    <example>
-      <title>Motivation: graphical method</title>
+
+    <example xml:id="ex-quad-ineq-graphical">
+      <title>Motivational Example: Solving with a Graph</title>
       <p>
         Consider the inequality,
       </p>
-      <md>
-        <mrow>x^2-4x+3 \gt 0</mrow>
-      </md>
+      <me>x^2-4x+3 \gt 0</me>
       <p>
         The goal is to find all of the values of <m>x</m> such that <m>x^2 - 4x + 3 \gt 0</m>. In simple terms, this means all numbers <m>x</m>, where if you substitute it into <m>x^2-4x+3</m>, the result is positive. This is most intuitive by visualizing the graph of the quadratic function <m>y = x^2 - 4x + 3</m>,
       </p>
@@ -65,11 +64,11 @@
           ]
           % Plot the quadratic function
           \addplot[blue, thick] {x^2 - 4*x + 3};
-          
+
           % Highlight solution regions on the x-axis (thicker and longer)
           \addplot[ultra thick, red] coordinates {(-3,0) (1,0)};
           \addplot[ultra thick, red] coordinates {(3,0) (7,0)};
-          
+
           % Mark the critical points
           \addplot[only marks, red] coordinates {(1,0) (3,0)};
           \end{axis}
@@ -77,38 +76,38 @@
         </latex-image>
       </image>
     </example>
-    
-    <example>
+
+    <example xml:id="ex-quad-ineq-sign-analysis">
       <title>Motivation: sign analysis with roots</title>
       <p>
         Consider the inequality <m>x^2-x-6 \lt 0</m>. Like before, first, find the roots of the parabola, by making it an equals sign, and factoring,
       </p>
       <md>
-        <mrow>x^2 - x - 6 \amp = 0</mrow>
-        <mrow>(x-3)(x+2) \amp = 0</mrow>
+        <mrow>x^2 - x - 6 \amp= 0</mrow>
+        <mrow>(x-3)(x+2) \amp= 0</mrow>
       </md>
       <p>
         So, the roots are <m>x = 3</m> and <m>x = -2</m>. Since <m>x^2-x-6</m> has a positive leading coefficient (+1), the parabola opens up. This means that the quadratic roughly looks like this,
       </p>
-      <image>
+      <image width="60%">
         <latex-image>
           \begin{tikzpicture}[scale=0.8, font=\small, baseline=(current bounding box.center)]
           % Draw a horizontal number line from x=-5 to x=5
           \draw[&lt;-&gt;, thick] (-5,0) -- (5,0);
-          
+
           % Mark the roots at -2 and 3
           \draw (-2,0.15) -- (-2,-0.15);
           \draw ( 3,0.15) -- ( 3,-0.15);
-          
+
           % Label the roots below
           \node[below] at (-2,-0.15) {$-2$};
           \node[below] at (3,-0.15) {$3$};
-          
+
           % Put the + / - / + signs above the number line
           \node[above] at (-3,0) {$+$};
           \node[above] at ( 0,0) {$-$};
           \node[above] at ( 4,0) {$+$};
-          
+
           \draw[smooth, domain=-3:4, samples=100, thick, blue]
           plot(\x, {0.2*(\x+2)*(\x-3)});
           \end{tikzpicture}
@@ -118,7 +117,7 @@
         From this, the parabola is negative when <m>x</m> is between <m>-2</m> and <m>3</m>, or <m>-2 \lt x \lt 3</m>.
       </p>
     </example>
-    
+
     <p>
       To solve the inequality, we don't need to graph the entire parabola precisely. Instead, we only need to find the roots, and know the basic shape (opening up or down).
     </p>
@@ -126,122 +125,50 @@
       A quadratic expression can only change sign at its roots. This means, if a quadratic has two roots, then:
     </p>
     <ul>
-      <li>
-        <p>
-          If the quadratic is positive in one interval, it will switch to negative when crossing a root.
-        </p>
-      </li>
-      <li>
-        <p>
-          After crossing the second root, it switches back to positive.
-        </p>
-      </li>
+      <li><p>If the quadratic is positive in one interval, it will switch to negative when crossing a root.</p></li>
+      <li><p>After crossing the second root, it switches back to positive.</p></li>
     </ul>
     <p>
       If the quadratic opens down, then the pattern is reversed: it first is negative, then positive, then negative. The pattern of signs follows,
     </p>
-    <md>
-      <mrow>\text{either} \quad + \, - \, + \quad \text{or} \quad - \, + \, -</mrow>
-    </md>
+    <me>\text{either} \quad + \, - \, + \quad \text{or} \quad - \, + \, -</me>
   </introduction>
-  
+
   <subsection xml:id="quad-ineq-calculator">
     <title>Solving Quadratic Inequalities with Scientific Calculator (INEQ Mode)</title>
     <p>
       My recommended calculator <url href="https://camerongeisler.com/calculator-guide-for-students-how-to-buy-a-calculator/">Casio fx-991ES PLUS C 2nd edition</url> (or another similar model) can actually solve quadratic inequalities for you. You can use this to check your answers after solving by hand.
     </p>
     <ol>
+      <li><p>Press <alert>MODE</alert> and use the down arrow key to go to the next page.</p></li>
+      <li><p>Press <alert>1</alert> for inequality mode (<alert>INEQ</alert>)</p></li>
+      <li><p>Press <alert>1</alert> for a quadratic inequality (<m>ax^2 + bx + c</m>).</p></li>
       <li>
-        <p>
-          Press <alert>MODE</alert> and use the down arrow key to go to the next page.
-        </p>
-      </li>
-      <li>
-        <p>
-          Press <alert>1</alert> for inequality mode (<alert>INEQ</alert>)
-        </p>
-      </li>
-      <li>
-        <p>
-          Press <alert>1</alert> for a quadratic inequality (<m>ax^2 + bx + c</m>).
-        </p>
-      </li>
-      <li>
-        <p>
-          Next, the calculator will show options for the type of inequality:
-        </p>
+        <p>Next, the calculator will show options for the type of inequality:</p>
         <ul>
-          <li>
-            <p>
-              Press <alert>1</alert> for <m>\gt</m> (greater than)
-            </p>
-          </li>
-          <li>
-            <p>
-              Press <alert>2</alert> for <m>\lt</m> (less than)
-            </p>
-          </li>
-          <li>
-            <p>
-              Press <alert>3</alert> for <m>\geq</m> (greater than or equal to)
-            </p>
-          </li>
-          <li>
-            <p>
-              Press <alert>4</alert> for <m>\leq</m> (less than or equal to)
-            </p>
-          </li>
+          <li><p>Press <alert>1</alert> for <m>\gt</m> (greater than)</p></li>
+          <li><p>Press <alert>2</alert> for <m>\lt</m> (less than)</p></li>
+          <li><p>Press <alert>3</alert> for <m>\geq</m> (greater than or equal to)</p></li>
+          <li><p>Press <alert>4</alert> for <m>\leq</m> (less than or equal to)</p></li>
         </ul>
       </li>
-      <li>
-        <p>
-          Enter the coefficients <m>a</m>, <m>b</m>, and <m>c</m> for your inequality.
-        </p>
-      </li>
-      <li>
-        <p>
-          Press <alert>=</alert> to solve.
-        </p>
-      </li>
-      <li>
-        <p>
-          The calculator will show the interval(s) of <m>x</m> that satisfy the inequality.
-        </p>
-      </li>
+      <li><p>Enter the coefficients <m>a</m>, <m>b</m>, and <m>c</m> for your inequality.</p></li>
+      <li><p>Press <alert>=</alert> to solve.</p></li>
+      <li><p>The calculator will show the interval(s) of <m>x</m> that satisfy the inequality.</p></li>
     </ol>
-    <example>
-      <title>Example</title>
+
+    <example xml:id="ex-quad-ineq-calculator">
       <p>
         For example, to solve <m>x^2 - 3x + 2 \gt 0</m>:
       </p>
       <ul>
+        <li><p>Press <alert>MODE</alert>, scroll down, and select <alert>INEQ</alert>.</p></li>
+        <li><p>Choose <alert>1</alert> for quadratic.</p></li>
+        <li><p>Choose <alert>1</alert> for <m>\gt</m>.</p></li>
+        <li><p>Input <m>a = 1</m>, <m>b = -3</m>, <m>c = 2</m>.</p></li>
         <li>
-          <p>
-            Press <alert>MODE</alert>, scroll down, and select <alert>INEQ</alert>.
-          </p>
-        </li>
-        <li>
-          <p>
-            Choose <alert>1</alert> for quadratic.
-          </p>
-        </li>
-        <li>
-          <p>
-            Choose <alert>1</alert> for <m>\gt</m>.
-          </p>
-        </li>
-        <li>
-          <p>
-            Input <m>a = 1</m>, <m>b = -3</m>, <m>c = 2</m>.
-          </p>
-        </li>
-        <li>
-          <p>
-            Press <alert>=</alert> to solve. The calculator will show the solution as:
-          </p>
-          <md>
-            <mrow>x \lt 1 \quad \text{or} \quad x \gt 2</mrow>
-          </md>
+          <p>Press <alert>=</alert> to solve. The calculator will show the solution as:</p>
+          <me>x \lt 1 \quad \text{or} \quad x \gt 2</me>
         </li>
       </ul>
       <p>
@@ -249,64 +176,403 @@
       </p>
     </example>
   </subsection>
-  
+
   <subsection xml:id="quad-ineq-summary">
     <title>Solving Quadratic Inequalities Summary</title>
-    <definition>
-      <p>
-        A <term>quadratic inequality</term> is an inequality that can be written in one of the forms,
-      </p>
-      <md>
-        <mrow>ax^2 + bx + c \amp \leq 0</mrow>
-        <mrow>ax^2 + bx + c \amp \lt 0</mrow>
-        <mrow>ax^2 + bx + c \amp \geq 0</mrow>
-        <mrow>ax^2 + bx + c \amp \gt 0</mrow>
-      </md>
+    <definition xml:id="def-quadratic-inequality">
+      <statement>
+        <p>
+          A <term>quadratic inequality</term> is an inequality that can be written in one of the forms,
+        </p>
+        <md>
+          <mrow>ax^2 + bx + c \amp\leq 0</mrow>
+          <mrow>ax^2 + bx + c \amp\lt 0</mrow>
+          <mrow>ax^2 + bx + c \amp\geq 0</mrow>
+          <mrow>ax^2 + bx + c \amp\gt 0</mrow>
+        </md>
+      </statement>
     </definition>
+
     <ol>
+      <li><p>(If necessary) Arrange the quadratic inequality in standard form, with <m>ax^2 + bx + c</m> on one side, and 0 on the other.</p></li>
+      <li><p>Find the <term>critical values</term> (the roots of the quadratic expression), by solving the corresponding quadratic equation <m>ax^2 + bx + c = 0</m>.</p></li>
+      <li><p>Sketch a number line, and mark the critical values to split it into 3 intervals.</p></li>
       <li>
-        <p>
-          (If necessary) Arrange the quadratic inequality in standard form, with <m>ax^2 + bx + c</m> on one side, and 0 on the other.
-        </p>
-      </li>
-      <li>
-        <p>
-          Find the <term>critical values</term> (the roots of the quadratic expression), by solving the corresponding quadratic equation <m>ax^2 + bx + c = 0</m>.
-        </p>
-      </li>
-      <li>
-        <p>
-          Sketch a number line, and mark the critical values to split it into 3 intervals.
-        </p>
-      </li>
-      <li>
-        <p>
-          Find where the quadratic is positive or negative
-        </p>
+        <p>Find where the quadratic is positive or negative</p>
         <ul>
-          <li>
-            <p>
-              If it opens up (<m>a \gt 0</m>), the sign pattern is <m>= \, - \, +</m>.
-            </p>
-          </li>
-          <li>
-            <p>
-              If it opens down (<m>a \lt 0</m>), the sign pattern is <m>- \, + \, -</m>.
-            </p>
-          </li>
+          <li><p>If it opens up (<m>a \gt 0</m>), the sign pattern is <m>+ \, - \, +</m>.</p></li>
+          <li><p>If it opens down (<m>a \lt 0</m>), the sign pattern is <m>- \, + \, -</m>.</p></li>
         </ul>
       </li>
-      <li>
-        <p>
-          Choose the intervals that match the inequality symbol (greater than or less than).
-        </p>
-      </li>
-      <li>
-        <p>
-          Include the endpoints if the inequality is <m>\geq</m> or <m>\leq</m> (non-strict inequality). Otherwise, don't include the endpoints if it's <m>\gt</m> or <m>\lt</m>.
-        </p>
-      </li>
+      <li><p>Choose the intervals that match the inequality symbol (greater than or less than).</p></li>
+      <li><p>Include the endpoints if the inequality is <m>\geq</m> or <m>\leq</m> (non-strict inequality). Don't include the endpoints if it's <m>\gt</m> or <m>\lt</m>.</p></li>
     </ol>
   </subsection>
-  
+
+  <subsection xml:id="quad-ineq-sign-chart">
+    <title>Solving Using Sign Chart and Test Points</title>
+    <p>
+      There is another method to solve a quadratic inequality, that is more systematic and general, but less efficient for quadratic inequalities, called the <term>sign chart method</term>, or <term>test point method</term>.
+    </p>
+
+    <example xml:id="ex-quad-ineq-test-points">
+      <p>
+        Consider the inequality <m>x^2 - 6x + 8 \gt 0</m>. Similar to before, first find the critical values, by factoring,
+      </p>
+      <md>
+        <mrow>x^2 - 6x + 8 \amp= 0</mrow>
+        <mrow>(x-2)(x-4) \amp= 0</mrow>
+      </md>
+      <p>
+        So, the critical values are <m>x = 2</m> and <m>x = 4</m>. Set up a number line, with these roots marked,
+      </p>
+      <image width="50%">
+        <latex-image>
+          \begin{tikzpicture}[font=\small, baseline=(current bounding box.center)]
+          % Draw a horizontal number line
+          \draw[&lt;-&gt;, thick] (-3,0) -- (3,0);
+
+          % Mark the points (evenly spaced, not to scale)
+          \draw (-1,0.15) -- (-1,-0.15);
+          \draw (1,0.15) -- (1,-0.15);
+
+          % Label the points below the number line
+          \node[below] at (-1,-0.15) {$2$};
+          \node[below] at (1,-0.15) {$4$};
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+      <p>
+        These roots split up the number line into 3 intervals: <m>x \lt 2</m>, <m>2 \lt x \lt 4</m>, and <m>x \gt 4</m>. For each of these intervals, the quadratic will either be positive everywhere, or negative everywhere. So, it is enough to test a single point, and see if the quadratic is positive or negative. For example,
+      </p>
+      <ul>
+        <li>
+          <p>For <m>x \lt 2</m>, choose <m>x = 1</m>:</p>
+          <me>(1 - 2)(1 - 4) = (-1)(-3) = 3 \gt 0 \quad \text{(positive)}</me>
+        </li>
+        <li>
+          <p>For <m>2 \lt x \lt 4</m>, choose <m>x = 3</m>:</p>
+          <me>(3 - 2)(3 - 4) = (1)(-1) = -1 \lt 0 \quad \text{(negative)}</me>
+        </li>
+        <li>
+          <p>For <m>x \gt 4</m>, choose <m>x = 5</m>:</p>
+          <me>(5 - 2)(5 - 4) = (3)(1) = 3 \gt 0 \quad \text{(positive)}</me>
+        </li>
+      </ul>
+      <p>
+        To illustrate these results, we can put a <m>+</m> or <m>-</m> above each interval, depending if it's positive or negative.
+      </p>
+      <image width="50%">
+        <latex-image>
+          \begin{tikzpicture}[scale=1, font=\small, baseline=(current bounding box.center)]
+          % Draw a horizontal number line
+          \draw[&lt;-&gt;, thick] (-3,0) -- (3,0);
+
+          % Mark the points (evenly spaced, not to scale)
+          \draw (-1,0.15) -- (-1,-0.15);
+          \draw (1,0.15) -- (1,-0.15);
+
+          % Label the points below the number line
+          \node[below] at (-1,-0.15) {$2$};
+          \node[below] at (1,-0.15) {$4$};
+
+          % Put the + / - / + signs above the number line
+          \node[above] at (-2,0) {$+$};
+          \node[above] at (0,0) {$-$};
+          \node[above] at (2,0) {$+$};
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+      <p>
+        This means that the solution is <m>x \lt 2</m> or <m>x \gt 4</m>. We can denote this graphically by highlighting those regions.
+      </p>
+      <image width="50%">
+        <latex-image>
+          \begin{tikzpicture}[scale=1, font=\small, baseline=(current bounding box.center)]
+          % Draw a horizontal number line
+          \draw[&lt;-&gt;, thick] (-3,0) -- (3,0);
+
+          % Highlight the regions x &lt; 2 and x &gt; 4 in thick red
+          \draw[red, very thick] (-3,0) -- (-1,0);
+          \draw[red, very thick] (1,0) -- (3,0);
+
+          % Mark the points (evenly spaced, not to scale)
+          \draw (-1,0.15) -- (-1,-0.15);
+          \draw (1,0.15) -- (1,-0.15);
+
+          % Draw open circles at x=2 and x=4
+          \draw[red, thick, fill=white] (-1,0) circle (3pt);
+          \draw[red, thick, fill=white] (1,0) circle (3pt);
+
+          % Label the points below the number line
+          \node[below] at (-1,-0.15) {$2$};
+          \node[below] at (1,-0.15) {$4$};
+
+          % Put the + / - / + signs above the number line
+          \node[above] at (-2,0) {$+$};
+          \node[above] at (0,0) {$-$};
+          \node[above] at (2,0) {$+$};
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+      <p>
+        We use open circles (basically, hollow circles) to indicate that <m>x=2</m> and <m>x=4</m> are not included in the solution, because the inequality is <m>\lt</m>.
+      </p>
+      <p>
+        In fact, when doing test points, we only need to know the sign of the output (whether it is positive or negative). Its exact value as a number isn't necessary. Recall that with multiplying positive and negative numbers,
+      </p>
+      <md>
+        <mrow>(+)(+) \amp= +</mrow>
+        <mrow>(+)(-) \amp= - \quad \text{and} \quad (-)(+) = -</mrow>
+        <mrow>(-)(-) \amp= +</mrow>
+      </md>
+      <p>
+        Then, testing points could look like this,
+      </p>
+      <ul>
+        <li><p>Test <m>x = 1</m>: <m>(1 - 2)(1 - 4) = (-)(-) = +</m></p></li>
+        <li><p>Test <m>x = 3</m>: <m>(3 - 2)(3 - 4) = (+)(-) = -</m></p></li>
+        <li><p>Test <m>x = 5</m>: <m>(5 - 2)(5 - 4) = (+)(+) = +</m></p></li>
+      </ul>
+    </example>
+
+    <ul>
+      <li><p>The roots of the parabola are called <term>critical points</term>, because they are the important points that indicate where the parabola can change sign from positive to negative, or vice versa.</p></li>
+      <li><p>The number line with labelled <m>+</m> and <m>-</m> intervals is called a <term>sign chart</term>, and this method is sometimes called the <term>test point method</term>.</p></li>
+    </ul>
+
+    <p>
+      In summary, after finding the critical values,
+    </p>
+    <ul>
+      <li><p>Choose a test point in each interval, and evaluate the quadratic function there to determine if it is positive or negative, i.e. if that interval is in the solution set.</p></li>
+    </ul>
+
+    <remark>
+      <p>
+        Some teachers require you to use a more elaborate table to do a sign chart. I personally believe this chart is excessively tedious and doesn't add much, but some teachers require it to properly show your work.
+      </p>
+      <me>
+        \begin{array}{c|c|c|c}
+         \amp x\lt 2 \amp 2\lt x\lt 4 \amp x\gt 4 \\ \hline
+        x-2 \amp - \amp + \amp + \\
+        x-4 \amp - \amp - \amp + \\ \hline
+        (x-2)(x-4) \amp + \amp - \amp +
+        \end{array}
+      </me>
+    </remark>
+  </subsection>
+
+  <subsection xml:id="quad-ineq-examples">
+    <title>Examples</title>
+
+    <example xml:id="ex-quad-ineq-x2-minus-4">
+      <title>Solve <m>x^2 - 4 \geq 0</m></title>
+      <p>
+        First, find the critical values by solving the corresponding equation,
+      </p>
+      <md>
+        <mrow>x^2 - 4 \amp= 0</mrow>
+        <mrow>x^2 \amp= 4</mrow>
+        <mrow>x \amp= \pm 2</mrow>
+      </md>
+      <p>
+        So, the critical values are <m>x = 2</m> and <m>x = -2</m>. These divide the number line into three intervals. Since the leading coefficient is positive (<m>+1</m>), the parabola opens up, so the sign pattern is <m>+ \, - \, +</m>.
+      </p>
+      <image width="60%">
+        <latex-image>
+          \begin{tikzpicture}[scale=0.8, font=\small, baseline=(current bounding box.center)]
+          % Draw a horizontal number line
+          \draw[&lt;-&gt;, thick] (-5,0) -- (5,0);
+
+          % Mark the critical values
+          \draw (-2,0.15) -- (-2,-0.15);
+          \draw (2,0.15) -- (2,-0.15);
+
+          % Label the critical values below
+          \node[below] at (-2,-0.15) {$-2$};
+          \node[below] at (2,-0.15) {$2$};
+
+          % Put the + / - / + signs above the number line
+          \node[above] at (-3.5,0) {$+$};
+          \node[above] at (0,0) {$-$};
+          \node[above] at (3.5,0) {$+$};
+
+          % Draw the parabola
+          \draw[smooth, domain=-3.5:3.5, samples=100, thick, blue]
+              plot(\x, {0.15*(\x+2)*(\x-2)});
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+      <p>
+        We want where the expression is greater than or equal to zero, which is the positive parts, so it's when <m>x \leq -2</m> or when <m>x \geq 2</m>. We include the endpoints, because the inequality includes equals. Therefore, <m>x \leq -2</m> or <m>x \geq 2</m>.
+      </p>
+    </example>
+
+    <example xml:id="ex-quad-ineq-9-minus-x2">
+      <title>Solve <m>9 - x^2 \geq 0</m></title>
+      <p>
+        The goal is to find all values of <m>x</m> such that <m>9 - x^2 \geq 0</m>. First, find the critical values by solving the corresponding equation,
+      </p>
+      <md>
+        <mrow>9 - x^2 \amp= 0</mrow>
+        <mrow>9 \amp= x^2</mrow>
+        <mrow>x \amp= \pm 3</mrow>
+      </md>
+      <p>
+        So, the critical values are <m>x = 3</m> and <m>x = -3</m>. These divide the number line into three intervals. Notice that the leading coefficient is negative (<m>-1</m>, from the <m>-x^2</m> term), so the parabola opens down. This means the sign pattern is <m>- \, + \, -</m>.
+      </p>
+      <image width="60%">
+        <latex-image>
+          \begin{tikzpicture}[scale=0.8, font=\small, baseline=(current bounding box.center)]
+          % Draw a horizontal number line
+          \draw[&lt;-&gt;, thick] (-5,0) -- (5,0);
+
+          % Mark the critical values
+          \draw (-3,0.15) -- (-3,-0.15);
+          \draw (3,0.15) -- (3,-0.15);
+
+          % Label the critical values below
+          \node[below] at (-3,-0.15) {$-3$};
+          \node[below] at (3,-0.15) {$3$};
+
+          % Put the - / + / - signs above the number line
+          \node[above] at (-4,0) {$-$};
+          \node[above] at (0,0) {$+$};
+          \node[above] at (4,0) {$-$};
+
+          % Draw the parabola (opens down)
+          \draw[smooth, domain=-4.2:4.2, samples=100, thick, blue]
+              plot(\x, {-0.15*(\x+3)*(\x-3)});
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+      <p>
+        We want where the expression is greater than or equal to zero, which is the positive part, and so when <m>x</m> is between <m>-3</m> and 3. We also include the endpoints, because the inequality is <m>\geq</m>. Therefore, the solution is <m>-3 \leq x \leq 3</m>.
+      </p>
+    </example>
+
+    <project xml:id="project-quad-ineq-1">
+      <title>Solve Quadratic Inequalities I</title>
+      <introduction>
+        <p>Solve each quadratic inequality.</p>
+      </introduction>
+      <task><statement><m>12-2x^2 \geq 0</m></statement><answer><m>-\sqrt{6} \leq x \leq \sqrt{6}</m>, or <m>[-\sqrt{6}, \sqrt{6}]</m></answer></task>
+      <task><statement><m>25-x^2 \geq 0</m></statement><answer><m>-5 \leq x \leq 5</m>, or <m>[-5, 5]</m></answer></task>
+      <task><statement><m>4x^2-25 \geq 0</m></statement><answer><m>x \leq -\frac{5}{2}</m> or <m>x \geq \frac{5}{2}</m>, or <m>(-\infty, -\frac{5}{2}] \cup [\frac{5}{2}, \infty)</m></answer></task>
+      <task><statement><m>x^2 \geq 3x</m></statement><answer><m>x \leq 0</m> or <m>x \geq 3</m>, or <m>(-\infty, 0] \cup [3, \infty)</m></answer></task>
+    </project>
+
+    <project xml:id="project-quad-ineq-2">
+      <title>Solve Quadratic Inequalities II</title>
+      <introduction>
+        <p>Solve each quadratic inequality.</p>
+      </introduction>
+      <task><statement><m>(x-9)(x+2) \gt 0</m></statement><answer><m>x \lt -2</m> or <m>x \gt 9</m>, or <m>(-\infty, -2) \cup (9, \infty)</m></answer></task>
+      <task><statement><m>(x - 6)(x + 5) \lt 0</m></statement><answer><m>-5 \lt x \lt 6</m>, or <m>(-5, 6)</m></answer></task>
+      <task><statement><m>x^2 + 2x \lt 3</m></statement><answer><m>-3 \lt x \lt 1</m>, or <m>(-3, 1)</m></answer></task>
+      <task><statement><m>x^2 - 11x + 28 \gt 0</m></statement><answer><m>x \lt 4</m> or <m>x \gt 7</m>, or <m>(-\infty, 4) \cup (7, \infty)</m></answer></task>
+      <task><statement><m>x^2 + 6x + 5 \geq 0</m></statement><answer><m>x \leq -5</m> or <m>x \geq -1</m>, or <m>(-\infty, -5] \cup [-1, \infty)</m></answer></task>
+      <task><statement><m>-x^2 - 14x - 24 \lt 0</m></statement><answer><m>x \lt -12</m> or <m>x \gt -2</m>, or <m>(-\infty, -12) \cup (-2, \infty)</m></answer></task>
+      <task><statement><m>x^2 + 3x \leq 18</m></statement><answer><m>-6 \leq x \leq 3</m>, or <m>[-6, 3]</m></answer></task>
+      <task><statement><m>4x^2 + 21x - 18 \lt 0</m></statement><answer><m>-6 \lt x \lt \frac{3}{4}</m>, or <m>(-6, \frac{3}{4})</m></answer></task>
+      <task><statement><m>x^2 - 6x + 9 \gt 0</m></statement><answer><m>x \lt 3</m> or <m>x \gt 3</m>, or <m>(-\infty, 3) \cup (3, \infty)</m></answer></task>
+      <task><statement><m>x^2 + 13x \gt -12</m></statement><answer><m>x \lt -12</m> or <m>x \gt -1</m>, or <m>(-\infty, -12) \cup (-1, \infty)</m></answer></task>
+      <task><statement><m>x^2 - 10x + 16 \lt 0</m></statement><answer><m>2 \lt x \lt 8</m>, or <m>(2, 8)</m></answer></task>
+      <task><statement><m>x^2 - 2x - 15 \lt 0</m></statement><answer><m>-3 \lt x \lt 5</m>, or <m>(-3, 5)</m></answer></task>
+    </project>
+
+    <project xml:id="project-quad-ineq-3">
+      <title>Solve Quadratic Inequalities III</title>
+      <introduction>
+        <p>Solve each quadratic inequality.</p>
+      </introduction>
+      <task><statement><m>12x^2 - 11x - 15 \gt 0</m></statement><answer><m>x \lt -\frac{3}{4}</m> or <m>x \gt \frac{5}{3}</m>, or <m>(-\infty, -\frac{3}{4}) \cup (\frac{5}{3}, \infty)</m></answer></task>
+      <task><statement><m>3x^2 + 13x - 10 \lt 0</m></statement><answer><m>-5 \lt x \lt \frac{2}{3}</m>, or <m>(-5, \frac{2}{3})</m></answer></task>
+      <task><statement><m>-x^2 + 2x + 5 \leq 0</m></statement><answer><m>x \leq 1-\sqrt{6}</m> or <m>x \geq 1+\sqrt{6}</m>, or <m>(-\infty, 1-\sqrt{6}] \cup [1+\sqrt{6}, \infty)</m></answer></task>
+      <task><statement><m>5x^2 - 6x \geq 0</m></statement><answer><m>x \leq 0</m> or <m>x \geq \frac{6}{5}</m>, or <m>(-\infty, 0] \cup [\frac{6}{5}, \infty)</m></answer></task>
+    </project>
+
+    <project xml:id="project-quad-ineq-4">
+      <title>Solve Quadratic Inequalities IV</title>
+      <introduction>
+        <p>Solve each quadratic inequality.</p>
+      </introduction>
+      <task><statement><m>x(x + 6) \geq 40</m></statement><answer><m>x \leq -10</m> or <m>x \geq 4</m>, or <m>(-\infty, -10] \cup [4, \infty)</m></answer></task>
+      <task><statement><m>6x^2 \gt 11x + 35</m></statement><answer><m>x \lt -\frac{5}{3}</m> or <m>x \gt \frac{7}{2}</m>, or <m>(-\infty, -\frac{5}{3}) \cup (\frac{7}{2}, \infty)</m></answer></task>
+      <task><statement><m>8x + 5 \leq -2x^2</m></statement><answer><m>-2-\frac{\sqrt{6}}{2} \leq x \leq -2+\frac{\sqrt{6}}{2}</m>, or <m>[-2-\frac{\sqrt{6}}{2}, -2+\frac{\sqrt{6}}{2}]</m></answer></task>
+      <task><statement><m>x^2 + 3 \geq -4x</m></statement><answer><m>x \leq -3</m> or <m>x \geq -1</m>, or <m>(-\infty, -3] \cup [-1, \infty)</m></answer></task>
+      <task><statement><m>4x^2 - 27x + 18 \lt 0</m></statement><answer><m>\frac{3}{4} \lt x \lt 6</m>, or <m>(\frac{3}{4}, 6)</m></answer></task>
+      <task><statement><m>-6x \geq x^2 - 16</m></statement><answer><m>-8 \leq x \leq 2</m>, or <m>[-8, 2]</m></answer></task>
+      <task><statement><m>2x^2 \geq 8 - 15x</m></statement><answer><m>x \leq -8</m> or <m>x \geq \frac{1}{2}</m>, or <m>(-\infty, -8] \cup [\frac{1}{2}, \infty)</m></answer></task>
+      <task><statement><m>x^2 + 14x + 48 \leq 0</m></statement><answer><m>-8 \leq x \leq -6</m>, or <m>[-8, -6]</m></answer></task>
+      <task><statement><m>2x^2-6x+4 \geq 0</m></statement><answer><m>x \leq 1</m> or <m>x \geq 2</m>, or <m>(-\infty, 1] \cup [2, \infty)</m></answer></task>
+      <task><statement><m>x^2 \geq 3x + 28</m></statement><answer><m>x \leq -4</m> or <m>x \geq 7</m>, or <m>(-\infty, -4] \cup [7, \infty)</m></answer></task>
+    </project>
+
+    <project xml:id="project-quad-ineq-5">
+      <title>Solve Quadratic Inequalities V</title>
+      <introduction>
+        <p>Solve each quadratic inequality.</p>
+      </introduction>
+      <task><statement><m>4x(x - 1) \gt 63</m></statement><answer><m>x \lt -\frac{7}{2}</m> or <m>x \gt \frac{9}{2}</m>, or <m>(-\infty, -\frac{7}{2}) \cup (\frac{9}{2}, \infty)</m></answer></task>
+      <task><statement><m>-7x^2 + x - 6 \geq 0</m></statement><answer>no solution</answer></task>
+      <task><statement><m>x^2 + 5x - 10 \gt 0</m></statement><answer><m>x \lt \frac{-5-\sqrt{65}}{2}</m> or <m>x \gt \frac{-5+\sqrt{65}}{2}</m>, or <m>(-\infty, \frac{-5-\sqrt{65}}{2}) \cup (\frac{-5+\sqrt{65}}{2}, \infty)</m></answer></task>
+      <task><statement><m>x^2 - 2x - 12 \leq 0</m></statement><answer><m>1-\sqrt{13} \leq x \leq 1+\sqrt{13}</m>, or <m>[1-\sqrt{13}, 1+\sqrt{13}]</m></answer></task>
+      <task><statement><m>2x^2 + 12x - 11 \gt x^2 + 2x + 13</m></statement><answer><m>x \lt -12</m> or <m>x \gt 2</m>, or <m>(-\infty, -12) \cup (2, \infty)</m></answer></task>
+      <task><statement><m>x^2 - 3x + 6 \leq 10x</m></statement><answer><m>\frac{13-\sqrt{145}}{2} \leq x \leq \frac{13+\sqrt{145}}{2}</m>, or <m>[\frac{13-\sqrt{145}}{2}, \frac{13+\sqrt{145}}{2}]</m></answer></task>
+      <task><statement><m>x^2 - 5x \lt 3x^2 - 18x + 20</m></statement><answer><m>x \lt \frac{5}{2}</m> or <m>x \gt 4</m>, or <m>(-\infty, \frac{5}{2}) \cup (4, \infty)</m></answer></task>
+      <task><statement><m>-3(x^2 + 4) \leq 3x^2 - 5x - 68</m></statement><answer><m>x \leq -\frac{8}{3}</m> or <m>x \geq \frac{7}{2}</m>, or <m>(-\infty, -\frac{8}{3}] \cup [\frac{7}{2}, \infty)</m></answer></task>
+      <task><statement><m>-3x^2 \leq -9x+6</m></statement><answer><m>x \leq 1</m> or <m>x \geq 2</m>, or <m>(-\infty, 1] \cup [2, \infty)</m></answer></task>
+    </project>
+
+    <project xml:id="project-quad-ineq-create">
+      <title>Creating an Inequality Given Its Solution</title>
+      <introduction>
+        <p>Write a quadratic inequality with the given solution, in standard form.</p>
+      </introduction>
+      <task><statement><m>-1 \lt x \lt 2</m></statement><answer><m>(x-2)(x+1) \lt 0</m>, which in standard form is <m>x^2 - x - 2 \lt 0</m></answer></task>
+      <task><statement><m>[-\frac{1}{2}, 5]</m></statement><answer><m>(2x+1)(x-5) \leq 0</m>, which in standard form is <m>2x^2 - 9x - 5 \leq 0</m></answer></task>
+      <task><statement><m>x \leq -4</m> or <m>x \geq 3</m></statement><answer><m>(x+4)(x-3) \geq 0</m>, which in standard form is <m>x^2 + x - 12 \geq 0</m></answer></task>
+      <task><statement><m>-2 \leq x \leq 7</m></statement><answer><m>(x+2)(x-7) \leq 0</m>, which in standard form is <m>x^2 - 5x - 14 \leq 0</m></answer></task>
+      <task><statement><m>x \lt 1</m> or <m>x \gt 10</m></statement><answer><m>(x-1)(x-10) \gt 0</m>, which in standard form is <m>x^2 - 11x + 10 \gt 0</m></answer></task>
+      <task><statement><m>\frac{5}{3} \leq x \leq 6</m></statement><answer><m>(3x-5)(x-6) \leq 0</m>, which in standard form is <m>3x^2 - 23x + 30 \leq 0</m></answer></task>
+      <task><statement><m>x \lt -\frac{3}{4}</m> or <m>x \gt -\frac{1}{5}</m></statement><answer><m>(4x+3)(5x+1) \gt 0</m>, which in standard form is <m>20x^2 + 19x + 3 \gt 0</m></answer></task>
+      <task><statement><m>x \leq -3 - \sqrt{7}</m> or <m>x \geq -3 + \sqrt{7}</m></statement><answer><m>(x+3-\sqrt{7})(x+3+\sqrt{7}) \geq 0</m>, which in standard form is <m>x^2 + 6x + 2 \geq 0</m></answer></task>
+      <task><statement><m>x \in \mathbb{R}</m> (all real numbers)</statement><answer><m>x^2 + 1 \gt 0</m></answer></task>
+      <task><statement>no solution</statement><answer><m>x^2 + 1 \lt 0</m></answer></task>
+    </project>
+  </subsection>
+
+  <subsection xml:id="quad-ineq-word-problems">
+    <title>Word Problems</title>
+
+    <example xml:id="ex-quad-ineq-triangle">
+      <title>Right Triangle Area</title>
+      <statement>
+        <p>
+          For a right triangle, one leg is 2 cm longer than the other leg. How long should the shorter leg be so that the area of the triangle is greater than or equal to 4 cm<m>^2</m>?
+        </p>
+      </statement>
+      <hint>
+        <p><m>\frac{1}{2} x(x+2) \geq 4</m></p>
+      </hint>
+      <answer>
+        <p>At least 2 cm.</p>
+      </answer>
+    </example>
+
+    <example xml:id="ex-quad-ineq-projectile">
+      <title>Projectile Motion</title>
+      <statement>
+        <p>
+          A ball is thrown upward at 15 m/s from a height of 2 m. Its height <m>h</m> at time <m>t</m> seconds after being thrown, can be modelled by the function <m>h(t) = -4.9t^2 + 15t + 2</m>. Find how long the ball was in the air for before it hit the ground, rounded to the nearest tenth of a second.
+        </p>
+      </statement>
+      <answer>
+        <p>3.2 seconds.</p>
+      </answer>
+    </example>
+  </subsection>
+
 </section>
