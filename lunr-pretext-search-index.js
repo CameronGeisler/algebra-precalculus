@@ -628,7 +628,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.7",
   "title": "Completing the Square",
-  "body": " Completing the Square   Solving by Completing the Square  So far, we have considered a few algebraic techniques to solve some kinds of quadratic equations:   Taking the square root of both sides.  Factoring.   However, in fact, many quadratic expressions are not factorable, and not nicely written as a square. In this case, we'll develop another technique, called completing the square .   Motivation for Completing the Square  Recall that we have solved quadratic equations of the form by taking the square root of both sides. For example, to solve ,   Therefore, if we could convert an equation to this form, we could solve it. To see how to do this, expand the left side first, and write it in standard form,   This means the equations and are equivalent. The expression can't be factored nicely (there are no factors of 4 that add up to ). However, observe that all of the algebra steps are reversible. That is,   This is a strategy to solve the equation. However, how would we know what number to add to the left-hand side? In other words, how would we know that we need so that can be rewritten as ? We need a number to add to to make it a perfect square.    Perfect Square Trinomial Pattern  Recall that a perfect square trinomial is one that can be factored as a square. For example,   Observe the pattern of how each left side and right side looks like. To go from the number in front of (the number), to the constant number, you need to divide by 2, and square it (multiply it by itself). Also, the number inside the brackets is just the half number (the number divided by 2).    For more about perfect square trinomials, see Factoring Special Patterns .   In general, for a perfect square trinomial of this form, the constant term is of the coefficient of the term, squared. In other words,   This means to get the correct constant term, take the coefficient of ,   Divide it by 2 (or take 1\/2 of it)  Square it.    Solve  The expression is not factorable, so we'll use this technique. First, move the constant to the other side,   Next, we want to add a number to both sides so that the left side becomes a perfect square trinomial. The coefficient of is 8. Half of 8 is 4, and . So we add 16 to both sides,   Now the left side is a perfect square trinomial, which factors as ,   Now we can use the square root property,   Therefore, or .   This process is called completing the square , because we are literally completing a perfect square by adding a number to it.   Solve  First, move the constant to the other side,   The coefficient of is 4. Half of 4 is 2, and . So we add 4 to both sides,   Now we need to take the square root of both sides. However, there is no real number whose square is , because the square of any real number is always positive (or 0). Therefore, there is no solution.    Recognizing Perfect Square Trinomials   Find a number that makes the expression a perfect square of the form .            This gives a technique for solving quadratic equations:   Isolate the terms involving , by moving the constant to the other side.  Find , and add it to both sides of the equation.  Take square roots of both sides (don't forget )  Isolate for .    Solve by Completing the Square I   Solve each equation by completing the square.         no solution        Solve by Completing the Square II   Solve each equation by completing the square.        Solve  This equation could be solved by factoring, as,   However, completing the square also works in this simpler case. First, move the constant to the other side,   The coefficient of is . Half of is , and . So we add 9 to both sides,   Now the left side is a perfect square trinomial, which factors as ,   Now we can take the square root of both sides,   Therefore, or .    Solve  Notice here, the leading coefficient ( ) is not 1 (it is 2). In this case, first divide both sides by that number.   Now, we can complete the square just like before. Move the constant to the other side,   The coefficient of is . Half of is , and . So we add 4 to both sides,   Therefore, or .   In general, if the leading coefficient is not 1 (in other words, if ), then first divide by that number on both sides, and continue just like before.   Solve by Completing the Square III   Solve each equation by completing the square.   ( )  ( )  ( )  ( )  ( )  no solution  ( )   Summary of Solving by Completing the Square  In summary, completing the square is a general technique for solving quadratic equations, particularly those which can't be factored. It also works for equations which can be factored, but it is overkill (because factoring is easier).      Steps  Example: Solve    1. Move the number to the other side of the equation.  (add 5 to both sides)    2. If , divide both sides by , to make the leading coefficient equal to 1.  (divide by 2)    3. Find , and add it to both sides.  (half of 6 is 3, and )    4. Factor the perfect square trinomial.     5. Take the square root of both sides (don't forget ).     6. Isolate .  (subtract 3)     You can check your final answers, by plugging them in for in the original equation, and seeing if both sides are equal.    Solve by Completing the Square IV   Solve each equation by completing the square.   ( )  ( )  ( )  ( )  no solution  ( )    Solve by Completing the Square V   Solve each equation by completing the square.   ( )  ( )  ( )  ( )  ( )  ( )  ( )  ( )  ( )     Converting to Vertex Form by Completing the Square  Another application of completing the square is to convert a quadratic function from standard form to vertex form . This allows us to identify the vertex of the parabola.  The process is similar to solving equations, with a few key differences:   Factor out from the first two terms, and leave some space to add and subtract.  Complete the square inside the brackets.  If you factor out , you must add the constant inside the bracket, but you're really adding to the expression, so also subtract to maintain equality.  The final bracket inherits the sign from (if is positive, then positive; if is negative, then negative).    Converting to Vertex Form I   Find the vertex of each quadratic function, by completing the square to convert each to vertex form.   , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex    Converting to Vertex Form II   Find the vertex of each quadratic function, by completing the square to convert each to vertex form.   , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex    "
+  "body": " Completing the Square   Solving by Completing the Square  So far, we have considered a few algebraic techniques to solve some kinds of quadratic equations:   Taking the square root of both sides.  Factoring.   However, in fact, many quadratic expressions are not factorable, and not nicely written as a square. In this case, we'll develop another technique, called completing the square .   Motivation for Completing the Square  Recall that we have solved quadratic equations of the form by taking the square root of both sides. For example, to solve ,   Therefore, if we could convert an equation to this form, we could solve it. To see how to do this, expand the left side first, and write it in standard form,   This means the equations and are equivalent. The expression can't be factored nicely (there are no factors of 4 that add up to ). However, observe that all of the algebra steps are reversible. That is,   This is a strategy to solve the equation. However, how would we know what number to add to the left-hand side? In other words, how would we know that we need so that can be rewritten as ? We need a number to add to to make it a perfect square.    Perfect Square Trinomial Pattern  Recall that a perfect square trinomial is one that can be factored as a square. For example,   Observe the pattern of how each left side and right side looks like. To go from the number in front of (the number), to the constant number, you need to divide by 2, and square it (multiply it by itself). Also, the number inside the brackets is just the half number (the number divided by 2).    For more about perfect square trinomials, see .   In general, for a perfect square trinomial of this form, the constant term is of the coefficient of the term, squared. In other words,   This means to get the correct constant term, take the coefficient of ,   Divide it by 2 (or take 1\/2 of it)  Square it.    Recognizing Perfect Square Trinomials   Find a number that makes the expression a perfect square of the form .                 Solve  The expression is not factorable, so we'll use this technique. First, move the constant to the other side,   Next, we want to add a number to both sides so that the left side becomes a perfect square trinomial. The coefficient of is 8. Half of 8 is 4, and . So we add 16 to both sides,   Now the left side is a perfect square trinomial, which factors as ,   Now we can use the square root property,   Therefore, or .   This process is called completing the square , because we are literally completing a perfect square by adding a number to it.   Solve  First, move the constant to the other side,   The coefficient of is 4. Half of 4 is 2, and . So we add 4 to both sides,   Now we need to take the square root of both sides. However, there is no real number whose square is , because the square of any real number is always positive (or 0). Therefore, there is no solution.   This gives a technique for solving quadratic equations:   Isolate the terms involving , by moving the constant to the other side.  Find , and add it to both sides of the equation.  Factor the perfect square trinomial.  Take square roots of both sides (don't forget )  Isolate for .    Solve by Completing the Square I   Solve each equation by completing the square.          no solution        Solve by Completing the Square II   Solve each equation by completing the square.        Solve  This equation could be solved by factoring, as,   However, completing the square also works in this simpler case. First, move the constant to the other side,   The coefficient of is . Half of is , and . So we add 9 to both sides,   Now the left side is a perfect square trinomial, which factors as ,   Now we can take the square root of both sides,   Therefore, or .    Solve  Notice here, the leading coefficient ( ) is not 1 (it is 2). In this case, first divide both sides by that number.   Now, we can complete the square just like before. Move the constant to the other side,   The coefficient of is . Half of is , and . So we add 4 to both sides,   Therefore, or .   In general, if the leading coefficient is not 1 (in other words, if ), then first divide by that number on both sides, and continue just like before.   Solve by Completing the Square III   Solve each equation by completing the square.   ( )  ( )  ( )  ( )  ( )  no solution  ( )   Summary of Solving by Completing the Square  In summary, completing the square is a general technique for solving quadratic equations, particularly those which can't be factored. It also works for equations which can be factored, but it is overkill (because factoring is easier).      Steps  Example: Solve    1. Move the constant to the other side.     2. If , divide both sides by .     3. Find , add it to both sides.     4. Factor the perfect square trinomial.     5. Take square roots (don't forget ).     6. Isolate .      You can check your final answers, by plugging them in for in the original equation, and seeing if both sides are equal.    Solve by Completing the Square IV   Solve each equation by completing the square.   ( )  ( )  ( )  ( )  no solution  ( )    Solve by Completing the Square V   Solve each equation by completing the square.   ( )  ( )  ( )  ( )  ( )  ( )  ( )  ( )  ( )     Converting to Vertex Form   Another application of completing the square is to convert a quadratic function from standard form to vertex form . This allows us to identify the vertex of the parabola.    Convert to Vertex Form  The key insight is that we can use the same completing the square technique, but on a function expression rather than an equation. The goal is to rewrite in the form .  We need to add a number to to make it a perfect square. Half of 6 is 3, and . But if we add 9, we must also subtract 9 to keep the expression equal:   The vertex is .    Convert to Vertex Form  When , we first factor out from the terms:   Now complete the square inside the parentheses. Half of is , and :   The vertex is .    Convert to Vertex Form  When is negative, we factor out the negative:   Complete the square inside. Half of is , and :   The vertex is .   The process is similar to solving equations, with a few key differences:   Factor out from the first two terms, and leave some space to add and subtract.  Complete the square inside the brackets.  If you factor out , you must add the constant inside the bracket, but you're really adding to the expression, so also subtract to maintain equality.  The final bracket inherits the sign from (if is positive, then positive; if is negative, then negative).    Converting to Vertex Form I   Find the vertex of each quadratic function, by completing the square to convert each to vertex form.   , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex    Converting to Vertex Form II   Find the vertex of each quadratic function, by completing the square to convert each to vertex form.   , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex   Summary of Converting to Vertex Form      Steps  Example:    1. Factor out from the first two terms.     2. Find where is the coefficient of inside.  Half of is , and    3. Add and subtract this number inside the parentheses.     4. Distribute the to the subtracted term.     5. Factor the perfect square and simplify.     6. Read off the vertex .  Vertex:     "
 },
 {
   "id": "ex-completing-square-motivation",
@@ -655,7 +655,16 @@ var ptx_lunr_docs = [
   "type": "Remark",
   "number": "3.7.3",
   "title": "",
-  "body": " For more about perfect square trinomials, see Factoring Special Patterns .  "
+  "body": " For more about perfect square trinomials, see .  "
+},
+{
+  "id": "project-complete-square-pattern",
+  "level": "2",
+  "url": "sec-completing-the-square.html#project-complete-square-pattern",
+  "type": "Exercise Group",
+  "number": "3.7.1",
+  "title": "Recognizing Perfect Square Trinomials.",
+  "body": " Recognizing Perfect Square Trinomials   Find a number that makes the expression a perfect square of the form .               "
 },
 {
   "id": "ex-completing-square-worked",
@@ -667,9 +676,9 @@ var ptx_lunr_docs = [
   "body": " Solve  The expression is not factorable, so we'll use this technique. First, move the constant to the other side,   Next, we want to add a number to both sides so that the left side becomes a perfect square trinomial. The coefficient of is 8. Half of 8 is 4, and . So we add 16 to both sides,   Now the left side is a perfect square trinomial, which factors as ,   Now we can use the square root property,   Therefore, or .  "
 },
 {
-  "id": "subsection-solving-by-completing-square-13",
+  "id": "subsection-solving-by-completing-square-14",
   "level": "2",
-  "url": "sec-completing-the-square.html#subsection-solving-by-completing-square-13",
+  "url": "sec-completing-the-square.html#subsection-solving-by-completing-square-14",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -685,22 +694,13 @@ var ptx_lunr_docs = [
   "body": " Solve  First, move the constant to the other side,   The coefficient of is 4. Half of 4 is 2, and . So we add 4 to both sides,   Now we need to take the square root of both sides. However, there is no real number whose square is , because the square of any real number is always positive (or 0). Therefore, there is no solution.  "
 },
 {
-  "id": "project-complete-square-pattern",
-  "level": "2",
-  "url": "sec-completing-the-square.html#project-complete-square-pattern",
-  "type": "Exercise Group",
-  "number": "3.7.1",
-  "title": "Recognizing Perfect Square Trinomials.",
-  "body": " Recognizing Perfect Square Trinomials   Find a number that makes the expression a perfect square of the form .           "
-},
-{
   "id": "project-solve-complete-square-1",
   "level": "2",
   "url": "sec-completing-the-square.html#project-solve-complete-square-1",
   "type": "Exercise Group",
   "number": "3.7.2",
   "title": "Solve by Completing the Square I.",
-  "body": " Solve by Completing the Square I   Solve each equation by completing the square.         no solution      "
+  "body": " Solve by Completing the Square I   Solve each equation by completing the square.          no solution      "
 },
 {
   "id": "project-solve-complete-square-2",
@@ -775,6 +775,33 @@ var ptx_lunr_docs = [
   "body": " Solve by Completing the Square V   Solve each equation by completing the square.   ( )  ( )  ( )  ( )  ( )  ( )  ( )  ( )  ( )  "
 },
 {
+  "id": "ex-vertex-form-intro-1",
+  "level": "2",
+  "url": "sec-completing-the-square.html#ex-vertex-form-intro-1",
+  "type": "Example",
+  "number": "3.7.9",
+  "title": "Convert <span class=\"process-math\">\\(f(x) = x^2 + 6x + 5\\)<\/span> to Vertex Form.",
+  "body": " Convert to Vertex Form  The key insight is that we can use the same completing the square technique, but on a function expression rather than an equation. The goal is to rewrite in the form .  We need to add a number to to make it a perfect square. Half of 6 is 3, and . But if we add 9, we must also subtract 9 to keep the expression equal:   The vertex is .  "
+},
+{
+  "id": "ex-vertex-form-intro-2",
+  "level": "2",
+  "url": "sec-completing-the-square.html#ex-vertex-form-intro-2",
+  "type": "Example",
+  "number": "3.7.10",
+  "title": "Convert <span class=\"process-math\">\\(f(x) = 2x^2 - 12x + 13\\)<\/span> to Vertex Form.",
+  "body": " Convert to Vertex Form  When , we first factor out from the terms:   Now complete the square inside the parentheses. Half of is , and :   The vertex is .  "
+},
+{
+  "id": "ex-vertex-form-intro-3",
+  "level": "2",
+  "url": "sec-completing-the-square.html#ex-vertex-form-intro-3",
+  "type": "Example",
+  "number": "3.7.11",
+  "title": "Convert <span class=\"process-math\">\\(f(x) = -x^2 + 4x + 1\\)<\/span> to Vertex Form.",
+  "body": " Convert to Vertex Form  When is negative, we factor out the negative:   Complete the square inside. Half of is , and :   The vertex is .  "
+},
+{
   "id": "project-vertex-form-1",
   "level": "2",
   "url": "sec-completing-the-square.html#project-vertex-form-1",
@@ -791,6 +818,15 @@ var ptx_lunr_docs = [
   "number": "3.7.8",
   "title": "Converting to Vertex Form II.",
   "body": " Converting to Vertex Form II   Find the vertex of each quadratic function, by completing the square to convert each to vertex form.   , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  "
+},
+{
+  "id": "subsection-converting-vertex-form-10",
+  "level": "2",
+  "url": "sec-completing-the-square.html#subsection-converting-vertex-form-10",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Summary of Converting to Vertex Form "
 },
 {
   "id": "sec-word-problems-with-quadratics",
