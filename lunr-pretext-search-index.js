@@ -619,7 +619,106 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.6",
   "title": "Advanced Polynomial Factoring",
-  "body": " Advanced Polynomial Factoring    Factoring Polynomials Flowchart Summary      "
+  "body": " Advanced Polynomial Factoring   Factoring Polynomials in Multiple Variables Using the Cross Method  The cross method still works, even if the polynomial has multiple variables.   Factoring Multivariable Polynomials   Factor each expression.                                                              Factor by Grouping  Some polynomials with 4 terms can be factored by grouping them into pairs of terms. This is a special technique.   Introduction to Factor by Grouping  Consider the polynomial . First, group the terms into the first 2 and last 2. Notice that first two terms have a common factor , and the last two terms have a common factor . Factoring out these common factors from both pairs,   Then, both terms have a common factor of ,   Then, we can factor it out, leaving and left,   This might seem a bit strange. However, factoring out works exactly the same as factoring out a single variable like .    Factoring out  Factoring out            What is common to both terms gets pulled out, and whatever is left behind stays inside the other bracket. If it helps, you can mentally substitute and it becomes the same problem.   In general,    Split the polynomial into 2 groups of terms (the first 2, and the last 2).    Factor out the GCF from each group.    If both groups now have the same binomial factor, then factor that common factor out.     Factor by Grouping Practice I   Factor each expression.                                                                                    Determining if a polynomial can be factored by grouping involves some intuition.    The polynomial must have 4 terms (not 3, or 2, like previous techniques). This is a good indicator it can be factored by grouping.    Then, roughly, if the first two terms look like the last two terms, then it probably can be factored by grouping.     Factor by Grouping Practice II   Factor each expression.                                                    In general, factor by grouping has the form:     Factoring a Sum or Difference of Cubes  There are also special factoring patterns for a difference of cubes, as well as a sum of cubes.        To verify that this identity is true, you can expand the right side, and check it is equivalent to the left side.   To help remember the pattern of the positive and negative signs, there is a mnemonic:   SOAP : s ame signs, o pposite signs, a lways p ositive.   For example,     Factoring Sum or Difference of Cubes   Factor each sum or difference of cubes.                                                                            These two identities can be summarized as,   where the operations on top all go together, and the bottom operations all go together.    Factoring Polynomials Flowchart Summary    (If necessary) Write the polynomial in descending power order.   e.g.     If there is a GCF, factor it out.   e.g.     How many terms does the polynomial have?    2 terms: Try factoring as a difference of squares, or a sum or difference of cubes,     3 terms:    , determine factors of (numbers which multiply to ) which add to   e.g.     , use the cross method (or box method, or -method)   e.g.     Ideally, recognize perfect square trinomials,       4 terms: factor by grouping (probably).   e.g.       Double-check if there are any factors with multiple terms that can be factored again. If so, factor completely.   e.g.          Mixed Examples   Mixed Factoring Practice   Factor each polynomial.        Common factor, then trinomial factoring.            Trinomial factoring, then difference of squares.            Common factor, then difference of cubes.            Common factor, then trinomial factoring (perfect square).            Common factor, then difference of squares.            Difference of squares, difference of cubes, sum of cubes.            Common factor, then trinomial factoring.            Common factor, then difference of squares.         Advanced Examples   Factor each polynomial.        Force a difference of cubes pattern by putting next to .         "
+},
+{
+  "id": "project-multivariable-cross-method",
+  "level": "2",
+  "url": "sec-advanced-polynomial-factoring.html#project-multivariable-cross-method",
+  "type": "Exercise Group",
+  "number": "3.6.1",
+  "title": "Factoring Multivariable Polynomials.",
+  "body": " Factoring Multivariable Polynomials   Factor each expression.                                                           "
+},
+{
+  "id": "example-factor-by-grouping-intro",
+  "level": "2",
+  "url": "sec-advanced-polynomial-factoring.html#example-factor-by-grouping-intro",
+  "type": "Example",
+  "number": "3.6.1",
+  "title": "Introduction to Factor by Grouping.",
+  "body": " Introduction to Factor by Grouping  Consider the polynomial . First, group the terms into the first 2 and last 2. Notice that first two terms have a common factor , and the last two terms have a common factor . Factoring out these common factors from both pairs,   Then, both terms have a common factor of ,   Then, we can factor it out, leaving and left,   This might seem a bit strange. However, factoring out works exactly the same as factoring out a single variable like .    Factoring out  Factoring out            What is common to both terms gets pulled out, and whatever is left behind stays inside the other bracket. If it helps, you can mentally substitute and it becomes the same problem.  "
+},
+{
+  "id": "project-factor-by-grouping-1",
+  "level": "2",
+  "url": "sec-advanced-polynomial-factoring.html#project-factor-by-grouping-1",
+  "type": "Exercise Group",
+  "number": "3.6.2",
+  "title": "Factor by Grouping Practice I.",
+  "body": " Factor by Grouping Practice I   Factor each expression.                                                                                   "
+},
+{
+  "id": "project-factor-by-grouping-2",
+  "level": "2",
+  "url": "sec-advanced-polynomial-factoring.html#project-factor-by-grouping-2",
+  "type": "Exercise Group",
+  "number": "3.6.3",
+  "title": "Factor by Grouping Practice II.",
+  "body": " Factor by Grouping Practice II   Factor each expression.                                                   "
+},
+{
+  "id": "thm-sum-difference-cubes",
+  "level": "2",
+  "url": "sec-advanced-polynomial-factoring.html#thm-sum-difference-cubes",
+  "type": "Theorem",
+  "number": "3.6.2",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "subsec-sum-difference-of-cubes-4",
+  "level": "2",
+  "url": "sec-advanced-polynomial-factoring.html#subsec-sum-difference-of-cubes-4",
+  "type": "Remark",
+  "number": "3.6.3",
+  "title": "",
+  "body": " To verify that this identity is true, you can expand the right side, and check it is equivalent to the left side.  "
+},
+{
+  "id": "subsec-sum-difference-of-cubes-6",
+  "level": "2",
+  "url": "sec-advanced-polynomial-factoring.html#subsec-sum-difference-of-cubes-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "SOAP s o a p "
+},
+{
+  "id": "example-difference-cubes-simple",
+  "level": "2",
+  "url": "sec-advanced-polynomial-factoring.html#example-difference-cubes-simple",
+  "type": "Example",
+  "number": "3.6.4",
+  "title": "",
+  "body": " For example,   "
+},
+{
+  "id": "project-sum-difference-cubes",
+  "level": "2",
+  "url": "sec-advanced-polynomial-factoring.html#project-sum-difference-cubes",
+  "type": "Exercise Group",
+  "number": "3.6.4",
+  "title": "Factoring Sum or Difference of Cubes.",
+  "body": " Factoring Sum or Difference of Cubes   Factor each sum or difference of cubes.                                                                           "
+},
+{
+  "id": "project-mixed-factoring",
+  "level": "2",
+  "url": "sec-advanced-polynomial-factoring.html#project-mixed-factoring",
+  "type": "Exercise Group",
+  "number": "3.6.5",
+  "title": "Mixed Factoring Practice.",
+  "body": " Mixed Factoring Practice   Factor each polynomial.        Common factor, then trinomial factoring.            Trinomial factoring, then difference of squares.            Common factor, then difference of cubes.            Common factor, then trinomial factoring (perfect square).            Common factor, then difference of squares.            Difference of squares, difference of cubes, sum of cubes.            Common factor, then trinomial factoring.            Common factor, then difference of squares.       "
+},
+{
+  "id": "project-advanced-factoring",
+  "level": "2",
+  "url": "sec-advanced-polynomial-factoring.html#project-advanced-factoring",
+  "type": "Exercise Group",
+  "number": "3.6.6",
+  "title": "Advanced Examples.",
+  "body": " Advanced Examples   Factor each polynomial.        Force a difference of cubes pattern by putting next to .       "
 },
 {
   "id": "sec-completing-the-square",

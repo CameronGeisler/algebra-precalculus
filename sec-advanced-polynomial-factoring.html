@@ -102,14 +102,14 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.11.11';
+eBookConfig.runestone_version = '7.11.12';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.fc0e080e84d54281.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.e2abc79debce15fd.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<script src="_static/prefix-runtime.0d5f811896ddeac1.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.e2abc79debce15fd.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.6ec5960970d8b364.css">
 <script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
@@ -234,7 +234,13 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section contains-active">
 <div class="toc-title-box"><a href="sec-advanced-polynomial-factoring.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Advanced Polynomial Factoring</span></a></div>
-<ul class="structural toc-item-list active"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-advanced-polynomial-factoring.html#subsec-factoring-polynomials-flowchart-summary" class="internal"><span class="codenumber">3.6.1</span> <span class="title">Factoring Polynomials Flowchart Summary</span></a></div></li></ul>
+<ul class="structural toc-item-list active">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-advanced-polynomial-factoring.html#subsec-factoring-multivariable-cross-method" class="internal"><span class="codenumber">3.6.1</span> <span class="title">Factoring Polynomials in Multiple Variables Using the Cross Method</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-advanced-polynomial-factoring.html#subsec-factor-by-grouping" class="internal"><span class="codenumber">3.6.2</span> <span class="title">Factor by Grouping</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-advanced-polynomial-factoring.html#subsec-sum-difference-of-cubes" class="internal"><span class="codenumber">3.6.3</span> <span class="title">Factoring a Sum or Difference of Cubes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-advanced-polynomial-factoring.html#subsec-factoring-polynomials-flowchart-summary" class="internal"><span class="codenumber">3.6.4</span> <span class="title">Factoring Polynomials Flowchart Summary</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-advanced-polynomial-factoring.html#subsec-mixed-factoring-examples" class="internal"><span class="codenumber">3.6.5</span> <span class="title">Mixed Examples</span></a></div></li>
+</ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-completing-the-square.html" class="internal"><span class="codenumber">3.7</span> <span class="title">Completing the Square</span></a></div>
@@ -643,11 +649,740 @@ eBookConfig.enable_chatcodes =  false;
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-advanced-polynomial-factoring"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.6</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Advanced Polynomial Factoring</span>
 </h2>
-<section class="subsection" id="subsec-factoring-polynomials-flowchart-summary"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.6.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Factoring Polynomials Flowchart Summary</span>
+<section class="subsection" id="subsec-factoring-multivariable-cross-method"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.6.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Factoring Polynomials in Multiple Variables Using the Cross Method</span>
 </h3>
-<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/subsec-factoring-polynomials-flowchart-summary-2.svg" role="img" class="contained"></div>
-<div class="autopermalink" data-description="Subsection 3.6.1: Factoring Polynomials Flowchart Summary"><a href="#subsec-factoring-polynomials-flowchart-summary" title="Copy heading and permalink for Subsection 3.6.1: Factoring Polynomials Flowchart Summary" aria-label="Copy heading and permalink for Subsection 3.6.1: Factoring Polynomials Flowchart Summary">🔗</a></div></section><div class="autopermalink" data-description="Section 3.6: Advanced Polynomial Factoring"><a href="#sec-advanced-polynomial-factoring" title="Copy heading and permalink for Section 3.6: Advanced Polynomial Factoring" aria-label="Copy heading and permalink for Section 3.6: Advanced Polynomial Factoring">🔗</a></div></section></div>
+<div class="para" id="subsec-factoring-multivariable-cross-method-2">The cross method still works, even if the polynomial has multiple variables.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-factoring-multivariable-cross-method-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<details id="project-multivariable-cross-method" class="project project-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Exercise Group</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.6.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Factoring Multivariable Polynomials.</span>
+</h4></summary><article class="project project-like knowl__content"><div class="introduction" id="project-multivariable-cross-method-2"><div class="para" id="project-multivariable-cross-method-2-1">Factor each expression.<div class="autopermalink" data-description="Paragraph"><a href="#project-multivariable-cross-method-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="project-multivariable-cross-method-3"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="project-multivariable-cross-method-3-1-1">
+<span class="process-math">\(4x^2 + 4xy - 15y^2\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-multivariable-cross-method-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="project-multivariable-cross-method-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="project-multivariable-cross-method-3-2-1">
+<span class="process-math">\((2x+5y)(2x-3y)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-multivariable-cross-method-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.6.1.a.1"><a href="#project-multivariable-cross-method-3-2" title="Copy heading and permalink for Answer 3.6.1.a.1" aria-label="Copy heading and permalink for Answer 3.6.1.a.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Task 3.6.1.a"><a href="#project-multivariable-cross-method-3" title="Copy heading and permalink for Task 3.6.1.a" aria-label="Copy heading and permalink for Task 3.6.1.a">🔗</a></div></article><article class="task exercise-like" id="project-multivariable-cross-method-4"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="project-multivariable-cross-method-4-1-1">
+<span class="process-math">\(12x^2 - 15xy + 3y^2\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-multivariable-cross-method-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="project-multivariable-cross-method-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="project-multivariable-cross-method-4-2-1">
+<span class="process-math">\(3(x-y)(4x-y)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-multivariable-cross-method-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.6.1.b.1"><a href="#project-multivariable-cross-method-4-2" title="Copy heading and permalink for Answer 3.6.1.b.1" aria-label="Copy heading and permalink for Answer 3.6.1.b.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Task 3.6.1.b"><a href="#project-multivariable-cross-method-4" title="Copy heading and permalink for Task 3.6.1.b" aria-label="Copy heading and permalink for Task 3.6.1.b">🔗</a></div></article><article class="task exercise-like" id="project-multivariable-cross-method-5"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="project-multivariable-cross-method-5-1-1">
+<span class="process-math">\(-x^2 - 3xy - 2y^2\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-multivariable-cross-method-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="project-multivariable-cross-method-5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="project-multivariable-cross-method-5-2-1">
+<span class="process-math">\(-(x+y)(x+2y)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-multivariable-cross-method-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.6.1.c.1"><a href="#project-multivariable-cross-method-5-2" title="Copy heading and permalink for Answer 3.6.1.c.1" aria-label="Copy heading and permalink for Answer 3.6.1.c.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Task 3.6.1.c"><a href="#project-multivariable-cross-method-5" title="Copy heading and permalink for Task 3.6.1.c" aria-label="Copy heading and permalink for Task 3.6.1.c">🔗</a></div></article><article class="task exercise-like" id="project-multivariable-cross-method-6"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="project-multivariable-cross-method-6-1-1">
+<span class="process-math">\(-3x^2 + 3xy + 90y^2\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-multivariable-cross-method-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="project-multivariable-cross-method-6-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="project-multivariable-cross-method-6-2-1">
+<span class="process-math">\(-3(x-6y)(x+5y)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-multivariable-cross-method-6-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.6.1.d.1"><a href="#project-multivariable-cross-method-6-2" title="Copy heading and permalink for Answer 3.6.1.d.1" aria-label="Copy heading and permalink for Answer 3.6.1.d.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Task 3.6.1.d"><a href="#project-multivariable-cross-method-6" title="Copy heading and permalink for Task 3.6.1.d" aria-label="Copy heading and permalink for Task 3.6.1.d">🔗</a></div></article><article class="task exercise-like" id="project-multivariable-cross-method-7"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="project-multivariable-cross-method-7-1-1">
+<span class="process-math">\(8x^2 - 21xy - 9y^2\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-multivariable-cross-method-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="project-multivariable-cross-method-7-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="project-multivariable-cross-method-7-2-1">
+<span class="process-math">\((8x+3y)(x-3y)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-multivariable-cross-method-7-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.6.1.e.1"><a href="#project-multivariable-cross-method-7-2" title="Copy heading and permalink for Answer 3.6.1.e.1" aria-label="Copy heading and permalink for Answer 3.6.1.e.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Task 3.6.1.e"><a href="#project-multivariable-cross-method-7" title="Copy heading and permalink for Task 3.6.1.e" aria-label="Copy heading and permalink for Task 3.6.1.e">🔗</a></div></article><article class="task exercise-like" id="project-multivariable-cross-method-8"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<div class="para" id="project-multivariable-cross-method-8-1-1">
+<span class="process-math">\(-10a^2 + 31ab + 14b^2\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-multivariable-cross-method-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="project-multivariable-cross-method-8-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="project-multivariable-cross-method-8-2-1">
+<span class="process-math">\((7b-2a)(5a+2b)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-multivariable-cross-method-8-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.6.1.f.1"><a href="#project-multivariable-cross-method-8-2" title="Copy heading and permalink for Answer 3.6.1.f.1" aria-label="Copy heading and permalink for Answer 3.6.1.f.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Task 3.6.1.f"><a href="#project-multivariable-cross-method-8" title="Copy heading and permalink for Task 3.6.1.f" aria-label="Copy heading and permalink for Task 3.6.1.f">🔗</a></div></article><article class="task exercise-like" id="project-multivariable-cross-method-9"><h5 class="heading"><span class="codenumber">(g)</span></h5>
+<div class="para" id="project-multivariable-cross-method-9-1-1">
+<span class="process-math">\(35x^2 + 250xy - 240y^2\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-multivariable-cross-method-9-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="project-multivariable-cross-method-9-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="project-multivariable-cross-method-9-2-1">
+<span class="process-math">\(5(x+8y)(7x-6y)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-multivariable-cross-method-9-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.6.1.g.1"><a href="#project-multivariable-cross-method-9-2" title="Copy heading and permalink for Answer 3.6.1.g.1" aria-label="Copy heading and permalink for Answer 3.6.1.g.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Task 3.6.1.g"><a href="#project-multivariable-cross-method-9" title="Copy heading and permalink for Task 3.6.1.g" aria-label="Copy heading and permalink for Task 3.6.1.g">🔗</a></div></article><div class="autopermalink" data-description="Exercise Group 3.6.1: Factoring Multivariable Polynomials"><a href="#project-multivariable-cross-method" title="Copy heading and permalink for Exercise Group 3.6.1: Factoring Multivariable Polynomials" aria-label="Copy heading and permalink for Exercise Group 3.6.1: Factoring Multivariable Polynomials">🔗</a></div></article></details><div class="autopermalink" data-description="Subsection 3.6.1: Factoring Polynomials in Multiple Variables Using the Cross Method"><a href="#subsec-factoring-multivariable-cross-method" title="Copy heading and permalink for Subsection 3.6.1: Factoring Polynomials in Multiple Variables Using the Cross Method" aria-label="Copy heading and permalink for Subsection 3.6.1: Factoring Polynomials in Multiple Variables Using the Cross Method">🔗</a></div></section><section class="subsection" id="subsec-factor-by-grouping"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.6.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Factor by Grouping</span>
+</h3>
+<div class="para" id="subsec-factor-by-grouping-2">Some polynomials with 4 terms can be factored by grouping them into pairs of terms. This is a special technique.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-factor-by-grouping-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<details id="example-factor-by-grouping-intro" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.6.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Introduction to Factor by Grouping.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="example-factor-by-grouping-intro-2">Consider the polynomial <span class="process-math">\(x^3+5x^2-2x-10\text{.}\)</span> First, group the terms into the first 2 and last 2. Notice that first two terms <span class="process-math">\(x^3 + 5x^2\)</span> have a common factor <span class="process-math">\(x^2\text{,}\)</span> and the last two terms <span class="process-math">\(-2x - 10\)</span> have a common factor <span class="process-math">\(-2\text{.}\)</span> Factoring out these common factors from both pairs,<div class="autopermalink" data-description="Paragraph"><a href="#example-factor-by-grouping-intro-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="example-factor-by-grouping-intro-3">
+\begin{gather*}
+x^3 + 5x^2 - 2x - 10\\
+= x^2(x + 5) - 2(x + 5)
+\end{gather*}
+</div>
+<div class="para" id="example-factor-by-grouping-intro-4">Then, both terms have a common factor of <span class="process-math">\(x+5\text{,}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#example-factor-by-grouping-intro-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="example-factor-by-grouping-intro-5">
+\begin{gather*}
+= x^2\underbrace{(x + 5)} - 2\underbrace{(x + 5)}
+\end{gather*}
+</div>
+<div class="para" id="example-factor-by-grouping-intro-6">Then, we can factor it out, leaving <span class="process-math">\(x^2\)</span> and <span class="process-math">\(-2\)</span> left,<div class="autopermalink" data-description="Paragraph"><a href="#example-factor-by-grouping-intro-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="example-factor-by-grouping-intro-7">
+\begin{gather*}
+= (x+5)(x^2-2)
+\end{gather*}
+</div>
+<div class="para" id="example-factor-by-grouping-intro-8">This might seem a bit strange. However, factoring out <span class="process-math">\((x+5)\)</span> works exactly the same as factoring out a single variable like <span class="process-math">\(y\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#example-factor-by-grouping-intro-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b0 r0 l0 t0 lines">Factoring out <span class="process-math">\(y\)</span>
+</th>
+<th scope="col" class="c m b0 r0 l0 t0 lines">Factoring out <span class="process-math">\((x+5)\)</span>
+</th>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(x^2 y - 2y\)</span></td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(x^2(x+5) - 2(x+5)\)</span></td>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(= y(x^2 - 2)\)</span></td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(= (x+5)(x^2 - 2)\)</span></td>
+</tr>
+</table></div>
+<div class="para" id="example-factor-by-grouping-intro-10">What is common to both terms gets pulled out, and whatever is left behind stays inside the other bracket. If it helps, you can mentally substitute <span class="process-math">\(y = x + 5\)</span> and it becomes the same problem.<div class="autopermalink" data-description="Paragraph"><a href="#example-factor-by-grouping-intro-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 3.6.1: Introduction to Factor by Grouping"><a href="#example-factor-by-grouping-intro" title="Copy heading and permalink for Example 3.6.1: Introduction to Factor by Grouping" aria-label="Copy heading and permalink for Example 3.6.1: Introduction to Factor by Grouping">🔗</a></div></article></details><div class="para" id="subsec-factor-by-grouping-4">In general,<div class="autopermalink" data-description="Paragraph"><a href="#subsec-factor-by-grouping-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ul class="disc" id="subsec-factor-by-grouping-5">
+<li id="subsec-factor-by-grouping-5-1">
+<div class="para" id="subsec-factor-by-grouping-5-1-1">Split the polynomial into 2 groups of terms (the first 2, and the last 2).<div class="autopermalink" data-description="Paragraph"><a href="#subsec-factor-by-grouping-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#subsec-factor-by-grouping-5-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="subsec-factor-by-grouping-5-2">
+<div class="para" id="subsec-factor-by-grouping-5-2-1">Factor out the GCF from each group.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-factor-by-grouping-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#subsec-factor-by-grouping-5-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="subsec-factor-by-grouping-5-3">
+<div class="para" id="subsec-factor-by-grouping-5-3-1">If both groups now have the same binomial factor, then factor that common factor out.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-factor-by-grouping-5-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#subsec-factor-by-grouping-5-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<details id="project-factor-by-grouping-1" class="project project-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Exercise Group</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.6.2</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Factor by Grouping Practice I.</span>
+</h4></summary><article class="project project-like knowl__content"><div class="introduction" id="project-factor-by-grouping-1-2"><div class="para" id="project-factor-by-grouping-1-2-1">Factor each expression.<div class="autopermalink" data-description="Paragraph"><a href="#project-factor-by-grouping-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="project-factor-by-grouping-1-3"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="project-factor-by-grouping-1-3-1-1">
+<span class="process-math">\(x^3+x^2-4x-4\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-factor-by-grouping-1-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="project-factor-by-grouping-1-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="project-factor-by-grouping-1-3-2-1">
+<span class="process-math">\((x-2)(x+2)(x+1)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-factor-by-grouping-1-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.6.2.a.1"><a href="#project-factor-by-grouping-1-3-2" title="Copy heading and permalink for Answer 3.6.2.a.1" aria-label="Copy heading and permalink for Answer 3.6.2.a.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Task 3.6.2.a"><a href="#project-factor-by-grouping-1-3" title="Copy heading and permalink for Task 3.6.2.a" aria-label="Copy heading and permalink for Task 3.6.2.a">🔗</a></div></article><article class="task exercise-like" id="project-factor-by-grouping-1-4"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="project-factor-by-grouping-1-4-1-1">
+<span class="process-math">\(3x^3-x^2-27x+9\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-factor-by-grouping-1-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="project-factor-by-grouping-1-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="project-factor-by-grouping-1-4-2-1">
+<span class="process-math">\((x-3)(x+3)(3x-1)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-factor-by-grouping-1-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.6.2.b.1"><a href="#project-factor-by-grouping-1-4-2" title="Copy heading and permalink for Answer 3.6.2.b.1" aria-label="Copy heading and permalink for Answer 3.6.2.b.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Task 3.6.2.b"><a href="#project-factor-by-grouping-1-4" title="Copy heading and permalink for Task 3.6.2.b" aria-label="Copy heading and permalink for Task 3.6.2.b">🔗</a></div></article><article class="task exercise-like" id="project-factor-by-grouping-1-5"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="project-factor-by-grouping-1-5-1-1">
+<span class="process-math">\(x^3-3x^2+7x-21\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-factor-by-grouping-1-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="project-factor-by-grouping-1-5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="project-factor-by-grouping-1-5-2-1">
+<span class="process-math">\((x^2+7)(x-3)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-factor-by-grouping-1-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.6.2.c.1"><a href="#project-factor-by-grouping-1-5-2" title="Copy heading and permalink for Answer 3.6.2.c.1" aria-label="Copy heading and permalink for Answer 3.6.2.c.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Task 3.6.2.c"><a href="#project-factor-by-grouping-1-5" title="Copy heading and permalink for Task 3.6.2.c" aria-label="Copy heading and permalink for Task 3.6.2.c">🔗</a></div></article><article class="task exercise-like" id="project-factor-by-grouping-1-6"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="project-factor-by-grouping-1-6-1-1">
+<span class="process-math">\(64x^3+128x^2-x-2\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-factor-by-grouping-1-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="project-factor-by-grouping-1-6-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="project-factor-by-grouping-1-6-2-1">
+<span class="process-math">\((8x-1)(8x+1)(x+2)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-factor-by-grouping-1-6-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.6.2.d.1"><a href="#project-factor-by-grouping-1-6-2" title="Copy heading and permalink for Answer 3.6.2.d.1" aria-label="Copy heading and permalink for Answer 3.6.2.d.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Task 3.6.2.d"><a href="#project-factor-by-grouping-1-6" title="Copy heading and permalink for Task 3.6.2.d" aria-label="Copy heading and permalink for Task 3.6.2.d">🔗</a></div></article><article class="task exercise-like" id="project-factor-by-grouping-1-7"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="project-factor-by-grouping-1-7-1-1">
+<span class="process-math">\(x^3+2x^2+7x+14\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-factor-by-grouping-1-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="project-factor-by-grouping-1-7-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="project-factor-by-grouping-1-7-2-1">
+<span class="process-math">\((x+2)(x^2+7)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-factor-by-grouping-1-7-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.6.2.e.1"><a href="#project-factor-by-grouping-1-7-2" title="Copy heading and permalink for Answer 3.6.2.e.1" aria-label="Copy heading and permalink for Answer 3.6.2.e.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Task 3.6.2.e"><a href="#project-factor-by-grouping-1-7" title="Copy heading and permalink for Task 3.6.2.e" aria-label="Copy heading and permalink for Task 3.6.2.e">🔗</a></div></article><article class="task exercise-like" id="project-factor-by-grouping-1-8"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<div class="para" id="project-factor-by-grouping-1-8-1-1">
+<span class="process-math">\(2x^3+8x^2-3x-12\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-factor-by-grouping-1-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="project-factor-by-grouping-1-8-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="project-factor-by-grouping-1-8-2-1">
+<span class="process-math">\((x+4)(2x^2-3)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-factor-by-grouping-1-8-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.6.2.f.1"><a href="#project-factor-by-grouping-1-8-2" title="Copy heading and permalink for Answer 3.6.2.f.1" aria-label="Copy heading and permalink for Answer 3.6.2.f.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Task 3.6.2.f"><a href="#project-factor-by-grouping-1-8" title="Copy heading and permalink for Task 3.6.2.f" aria-label="Copy heading and permalink for Task 3.6.2.f">🔗</a></div></article><article class="task exercise-like" id="project-factor-by-grouping-1-9"><h5 class="heading"><span class="codenumber">(g)</span></h5>
+<div class="para" id="project-factor-by-grouping-1-9-1-1">
+<span class="process-math">\(3x^3+x^2-6x-2\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-factor-by-grouping-1-9-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="project-factor-by-grouping-1-9-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="project-factor-by-grouping-1-9-2-1">
+<span class="process-math">\((3x+1)(x^2-2)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-factor-by-grouping-1-9-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.6.2.g.1"><a href="#project-factor-by-grouping-1-9-2" title="Copy heading and permalink for Answer 3.6.2.g.1" aria-label="Copy heading and permalink for Answer 3.6.2.g.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Task 3.6.2.g"><a href="#project-factor-by-grouping-1-9" title="Copy heading and permalink for Task 3.6.2.g" aria-label="Copy heading and permalink for Task 3.6.2.g">🔗</a></div></article><article class="task exercise-like" id="project-factor-by-grouping-1-10"><h5 class="heading"><span class="codenumber">(h)</span></h5>
+<div class="para" id="project-factor-by-grouping-1-10-1-1">
+<span class="process-math">\(x^3+8x^2+4x+32\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-factor-by-grouping-1-10-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="project-factor-by-grouping-1-10-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="project-factor-by-grouping-1-10-2-1">
+<span class="process-math">\((x^2+4)(x+8)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-factor-by-grouping-1-10-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.6.2.h.1"><a href="#project-factor-by-grouping-1-10-2" title="Copy heading and permalink for Answer 3.6.2.h.1" aria-label="Copy heading and permalink for Answer 3.6.2.h.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Task 3.6.2.h"><a href="#project-factor-by-grouping-1-10" title="Copy heading and permalink for Task 3.6.2.h" aria-label="Copy heading and permalink for Task 3.6.2.h">🔗</a></div></article><article class="task exercise-like" id="project-factor-by-grouping-1-11"><h5 class="heading"><span class="codenumber">(i)</span></h5>
+<div class="para" id="project-factor-by-grouping-1-11-1-1">
+<span class="process-math">\(2x^3+8x^2+7x+28\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-factor-by-grouping-1-11-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="project-factor-by-grouping-1-11-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="project-factor-by-grouping-1-11-2-1">
+<span class="process-math">\((2x^2+7)(x+4)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-factor-by-grouping-1-11-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.6.2.i.1"><a href="#project-factor-by-grouping-1-11-2" title="Copy heading and permalink for Answer 3.6.2.i.1" aria-label="Copy heading and permalink for Answer 3.6.2.i.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Task 3.6.2.i"><a href="#project-factor-by-grouping-1-11" title="Copy heading and permalink for Task 3.6.2.i" aria-label="Copy heading and permalink for Task 3.6.2.i">🔗</a></div></article><article class="task exercise-like" id="project-factor-by-grouping-1-12"><h5 class="heading"><span class="codenumber">(j)</span></h5>
+<div class="para" id="project-factor-by-grouping-1-12-1-1">
+<span class="process-math">\(35x^3+21x^2+40x+24\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-factor-by-grouping-1-12-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="project-factor-by-grouping-1-12-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="project-factor-by-grouping-1-12-2-1">
+<span class="process-math">\((7x^2+8)(5x+3)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-factor-by-grouping-1-12-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.6.2.j.1"><a href="#project-factor-by-grouping-1-12-2" title="Copy heading and permalink for Answer 3.6.2.j.1" aria-label="Copy heading and permalink for Answer 3.6.2.j.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Task 3.6.2.j"><a href="#project-factor-by-grouping-1-12" title="Copy heading and permalink for Task 3.6.2.j" aria-label="Copy heading and permalink for Task 3.6.2.j">🔗</a></div></article><div class="autopermalink" data-description="Exercise Group 3.6.2: Factor by Grouping Practice I"><a href="#project-factor-by-grouping-1" title="Copy heading and permalink for Exercise Group 3.6.2: Factor by Grouping Practice I" aria-label="Copy heading and permalink for Exercise Group 3.6.2: Factor by Grouping Practice I">🔗</a></div></article></details><div class="para" id="subsec-factor-by-grouping-7">Determining if a polynomial can be factored by grouping involves some intuition.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-factor-by-grouping-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ul class="disc" id="subsec-factor-by-grouping-8">
+<li id="subsec-factor-by-grouping-8-1">
+<div class="para" id="subsec-factor-by-grouping-8-1-1">The polynomial must have 4 terms (not 3, or 2, like previous techniques). This is a good indicator it can be factored by grouping.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-factor-by-grouping-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#subsec-factor-by-grouping-8-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="subsec-factor-by-grouping-8-2">
+<div class="para" id="subsec-factor-by-grouping-8-2-1">Then, roughly, if the first two terms “look like” the last two terms, then it probably can be factored by grouping.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-factor-by-grouping-8-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#subsec-factor-by-grouping-8-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<details id="project-factor-by-grouping-2" class="project project-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Exercise Group</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.6.3</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Factor by Grouping Practice II.</span>
+</h4></summary><article class="project project-like knowl__content"><div class="introduction" id="project-factor-by-grouping-2-2"><div class="para" id="project-factor-by-grouping-2-2-1">Factor each expression.<div class="autopermalink" data-description="Paragraph"><a href="#project-factor-by-grouping-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="project-factor-by-grouping-2-3"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="project-factor-by-grouping-2-3-1-1">
+<span class="process-math">\(-x^2 y + 3xy + 2x - 6\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-factor-by-grouping-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="project-factor-by-grouping-2-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="project-factor-by-grouping-2-3-2-1">
+<span class="process-math">\((x - 3)(-xy + 2)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-factor-by-grouping-2-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.6.3.a.1"><a href="#project-factor-by-grouping-2-3-2" title="Copy heading and permalink for Answer 3.6.3.a.1" aria-label="Copy heading and permalink for Answer 3.6.3.a.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Task 3.6.3.a"><a href="#project-factor-by-grouping-2-3" title="Copy heading and permalink for Task 3.6.3.a" aria-label="Copy heading and permalink for Task 3.6.3.a">🔗</a></div></article><article class="task exercise-like" id="project-factor-by-grouping-2-4"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="project-factor-by-grouping-2-4-1-1">
+<span class="process-math">\(3xy + 21x - 2y - 14\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-factor-by-grouping-2-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="project-factor-by-grouping-2-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="project-factor-by-grouping-2-4-2-1">
+<span class="process-math">\((y + 7)(3x - 2)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-factor-by-grouping-2-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.6.3.b.1"><a href="#project-factor-by-grouping-2-4-2" title="Copy heading and permalink for Answer 3.6.3.b.1" aria-label="Copy heading and permalink for Answer 3.6.3.b.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Task 3.6.3.b"><a href="#project-factor-by-grouping-2-4" title="Copy heading and permalink for Task 3.6.3.b" aria-label="Copy heading and permalink for Task 3.6.3.b">🔗</a></div></article><article class="task exercise-like" id="project-factor-by-grouping-2-5"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="project-factor-by-grouping-2-5-1-1">
+<span class="process-math">\(16p^3 - 40p^2 - 32p + 80\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-factor-by-grouping-2-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="project-factor-by-grouping-2-5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="project-factor-by-grouping-2-5-2-1">
+<span class="process-math">\(8(p^2 - 2)(2p - 5)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-factor-by-grouping-2-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.6.3.c.1"><a href="#project-factor-by-grouping-2-5-2" title="Copy heading and permalink for Answer 3.6.3.c.1" aria-label="Copy heading and permalink for Answer 3.6.3.c.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Task 3.6.3.c"><a href="#project-factor-by-grouping-2-5" title="Copy heading and permalink for Task 3.6.3.c" aria-label="Copy heading and permalink for Task 3.6.3.c">🔗</a></div></article><article class="task exercise-like" id="project-factor-by-grouping-2-6"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="project-factor-by-grouping-2-6-1-1">
+<span class="process-math">\(36ph + 24pf^2 - 27qh - 18qf^2\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-factor-by-grouping-2-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="project-factor-by-grouping-2-6-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="project-factor-by-grouping-2-6-2-1">
+<span class="process-math">\(3(4p - 3q)(3h + 2f^2)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-factor-by-grouping-2-6-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.6.3.d.1"><a href="#project-factor-by-grouping-2-6-2" title="Copy heading and permalink for Answer 3.6.3.d.1" aria-label="Copy heading and permalink for Answer 3.6.3.d.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Task 3.6.3.d"><a href="#project-factor-by-grouping-2-6" title="Copy heading and permalink for Task 3.6.3.d" aria-label="Copy heading and permalink for Task 3.6.3.d">🔗</a></div></article><article class="task exercise-like" id="project-factor-by-grouping-2-7"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="project-factor-by-grouping-2-7-1-1">
+<span class="process-math">\(42ab + 16 + 28a + 24b\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-factor-by-grouping-2-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="project-factor-by-grouping-2-7-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="project-factor-by-grouping-2-7-2-1">
+<span class="process-math">\(2(7a + 4)(3b + 2)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-factor-by-grouping-2-7-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.6.3.e.1"><a href="#project-factor-by-grouping-2-7-2" title="Copy heading and permalink for Answer 3.6.3.e.1" aria-label="Copy heading and permalink for Answer 3.6.3.e.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Task 3.6.3.e"><a href="#project-factor-by-grouping-2-7" title="Copy heading and permalink for Task 3.6.3.e" aria-label="Copy heading and permalink for Task 3.6.3.e">🔗</a></div></article><article class="task exercise-like" id="project-factor-by-grouping-2-8"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<div class="para" id="project-factor-by-grouping-2-8-1-1">
+<span class="process-math">\(2ac - 2ad + bc - bd\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-factor-by-grouping-2-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="project-factor-by-grouping-2-8-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="project-factor-by-grouping-2-8-2-1">
+<span class="process-math">\((2a+b)(c-d)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-factor-by-grouping-2-8-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.6.3.f.1"><a href="#project-factor-by-grouping-2-8-2" title="Copy heading and permalink for Answer 3.6.3.f.1" aria-label="Copy heading and permalink for Answer 3.6.3.f.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Task 3.6.3.f"><a href="#project-factor-by-grouping-2-8" title="Copy heading and permalink for Task 3.6.3.f" aria-label="Copy heading and permalink for Task 3.6.3.f">🔗</a></div></article><div class="autopermalink" data-description="Exercise Group 3.6.3: Factor by Grouping Practice II"><a href="#project-factor-by-grouping-2" title="Copy heading and permalink for Exercise Group 3.6.3: Factor by Grouping Practice II" aria-label="Copy heading and permalink for Exercise Group 3.6.3: Factor by Grouping Practice II">🔗</a></div></article></details><div class="para" id="subsec-factor-by-grouping-10">In general, factor by grouping has the form:<div class="autopermalink" data-description="Paragraph"><a href="#subsec-factor-by-grouping-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="subsec-factor-by-grouping-11">
+\begin{gather*}
+ax + ay + bx + by\\
+= a(x + y) + b(x + y)\\
+= (a + b)(x + y)
+\end{gather*}
+</div>
+<div class="autopermalink" data-description="Subsection 3.6.2: Factor by Grouping"><a href="#subsec-factor-by-grouping" title="Copy heading and permalink for Subsection 3.6.2: Factor by Grouping" aria-label="Copy heading and permalink for Subsection 3.6.2: Factor by Grouping">🔗</a></div></section><section class="subsection" id="subsec-sum-difference-of-cubes"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.6.3</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Factoring a Sum or Difference of Cubes</span>
+</h3>
+<div class="para" id="subsec-sum-difference-of-cubes-2">There are also special factoring patterns for a difference of cubes, as well as a sum of cubes.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-sum-difference-of-cubes-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="theorem theorem-like" id="thm-sum-difference-cubes"><h4 class="heading">
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.6.2</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4>
+<div class="displaymath process-math" id="thm-sum-difference-cubes-1-1">
+\begin{align*}
+a^3 + b^3 \amp = (a + b)(a^2 - ab + b^2)\\
+a^3 - b^3 \amp = (a - b)(a^2 + ab + b^2)
+\end{align*}
+</div>
+<div class="autopermalink" data-description="Theorem 3.6.2"><a href="#thm-sum-difference-cubes" title="Copy heading and permalink for Theorem 3.6.2" aria-label="Copy heading and permalink for Theorem 3.6.2">🔗</a></div></article><details id="subsec-sum-difference-of-cubes-4" class="remark remark-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Remark</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.6.3</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4></summary><article class="remark remark-like knowl__content"><div class="para" id="subsec-sum-difference-of-cubes-4-1">To verify that this identity is true, you can expand the right side, and check it is equivalent to the left side.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-sum-difference-of-cubes-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Remark 3.6.3"><a href="#subsec-sum-difference-of-cubes-4" title="Copy heading and permalink for Remark 3.6.3" aria-label="Copy heading and permalink for Remark 3.6.3">🔗</a></div></article></details><div class="para" id="subsec-sum-difference-of-cubes-5">To help remember the pattern of the positive and negative signs, there is a mnemonic:<div class="autopermalink" data-description="Paragraph"><a href="#subsec-sum-difference-of-cubes-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec-sum-difference-of-cubes-6">
+<dfn class="terminology">SOAP</dfn>: <dfn class="terminology">s</dfn>ame signs, <dfn class="terminology">o</dfn>pposite signs, <dfn class="terminology">a</dfn>lways <dfn class="terminology">p</dfn>ositive.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-sum-difference-of-cubes-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<details id="example-difference-cubes-simple" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.6.4</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="example-difference-cubes-simple-1">For example,<div class="autopermalink" data-description="Paragraph"><a href="#example-difference-cubes-simple-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="example-difference-cubes-simple-2">
+\begin{gather*}
+x^3 - 1 = (x - 1)(x^2 + x + 1)
+\end{gather*}
+</div>
+<div class="autopermalink" data-description="Example 3.6.4"><a href="#example-difference-cubes-simple" title="Copy heading and permalink for Example 3.6.4" aria-label="Copy heading and permalink for Example 3.6.4">🔗</a></div></article></details><details id="project-sum-difference-cubes" class="project project-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Exercise Group</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.6.4</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Factoring Sum or Difference of Cubes.</span>
+</h4></summary><article class="project project-like knowl__content"><div class="introduction" id="project-sum-difference-cubes-2"><div class="para" id="project-sum-difference-cubes-2-1">Factor each sum or difference of cubes.<div class="autopermalink" data-description="Paragraph"><a href="#project-sum-difference-cubes-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="project-sum-difference-cubes-3"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="project-sum-difference-cubes-3-1-1">
+<span class="process-math">\(x^3+1\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-sum-difference-cubes-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="project-sum-difference-cubes-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="project-sum-difference-cubes-3-2-1">
+<span class="process-math">\((x+1)(x^2-x+1)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-sum-difference-cubes-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.6.4.a.1"><a href="#project-sum-difference-cubes-3-2" title="Copy heading and permalink for Answer 3.6.4.a.1" aria-label="Copy heading and permalink for Answer 3.6.4.a.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Task 3.6.4.a"><a href="#project-sum-difference-cubes-3" title="Copy heading and permalink for Task 3.6.4.a" aria-label="Copy heading and permalink for Task 3.6.4.a">🔗</a></div></article><article class="task exercise-like" id="project-sum-difference-cubes-4"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="project-sum-difference-cubes-4-1-1">
+<span class="process-math">\(x^3+8\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-sum-difference-cubes-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="project-sum-difference-cubes-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="project-sum-difference-cubes-4-2-1">
+<span class="process-math">\((x+2)(x^2-2x+4)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-sum-difference-cubes-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.6.4.b.1"><a href="#project-sum-difference-cubes-4-2" title="Copy heading and permalink for Answer 3.6.4.b.1" aria-label="Copy heading and permalink for Answer 3.6.4.b.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Task 3.6.4.b"><a href="#project-sum-difference-cubes-4" title="Copy heading and permalink for Task 3.6.4.b" aria-label="Copy heading and permalink for Task 3.6.4.b">🔗</a></div></article><article class="task exercise-like" id="project-sum-difference-cubes-5"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="project-sum-difference-cubes-5-1-1">
+<span class="process-math">\(64x^3-125\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-sum-difference-cubes-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="project-sum-difference-cubes-5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="project-sum-difference-cubes-5-2-1">
+<span class="process-math">\((4x-5)(16x^2+20x+25)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-sum-difference-cubes-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.6.4.c.1"><a href="#project-sum-difference-cubes-5-2" title="Copy heading and permalink for Answer 3.6.4.c.1" aria-label="Copy heading and permalink for Answer 3.6.4.c.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Task 3.6.4.c"><a href="#project-sum-difference-cubes-5" title="Copy heading and permalink for Task 3.6.4.c" aria-label="Copy heading and permalink for Task 3.6.4.c">🔗</a></div></article><article class="task exercise-like" id="project-sum-difference-cubes-6"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="project-sum-difference-cubes-6-1-1">
+<span class="process-math">\(125x^3-8\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-sum-difference-cubes-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="project-sum-difference-cubes-6-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="project-sum-difference-cubes-6-2-1">
+<span class="process-math">\((5x-2)(25x^2+10x+4)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-sum-difference-cubes-6-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.6.4.d.1"><a href="#project-sum-difference-cubes-6-2" title="Copy heading and permalink for Answer 3.6.4.d.1" aria-label="Copy heading and permalink for Answer 3.6.4.d.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Task 3.6.4.d"><a href="#project-sum-difference-cubes-6" title="Copy heading and permalink for Task 3.6.4.d" aria-label="Copy heading and permalink for Task 3.6.4.d">🔗</a></div></article><article class="task exercise-like" id="project-sum-difference-cubes-7"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="project-sum-difference-cubes-7-1-1">
+<span class="process-math">\(27x^3+125\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-sum-difference-cubes-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="project-sum-difference-cubes-7-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="project-sum-difference-cubes-7-2-1">
+<span class="process-math">\((3x+5)(9x^2-15x+25)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-sum-difference-cubes-7-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.6.4.e.1"><a href="#project-sum-difference-cubes-7-2" title="Copy heading and permalink for Answer 3.6.4.e.1" aria-label="Copy heading and permalink for Answer 3.6.4.e.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Task 3.6.4.e"><a href="#project-sum-difference-cubes-7" title="Copy heading and permalink for Task 3.6.4.e" aria-label="Copy heading and permalink for Task 3.6.4.e">🔗</a></div></article><article class="task exercise-like" id="project-sum-difference-cubes-8"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<div class="para" id="project-sum-difference-cubes-8-1-1">
+<span class="process-math">\(64x^3-27\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-sum-difference-cubes-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="project-sum-difference-cubes-8-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="project-sum-difference-cubes-8-2-1">
+<span class="process-math">\((4x-3)(16x^2+12x+9)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-sum-difference-cubes-8-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.6.4.f.1"><a href="#project-sum-difference-cubes-8-2" title="Copy heading and permalink for Answer 3.6.4.f.1" aria-label="Copy heading and permalink for Answer 3.6.4.f.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Task 3.6.4.f"><a href="#project-sum-difference-cubes-8" title="Copy heading and permalink for Task 3.6.4.f" aria-label="Copy heading and permalink for Task 3.6.4.f">🔗</a></div></article><article class="task exercise-like" id="project-sum-difference-cubes-9"><h5 class="heading"><span class="codenumber">(g)</span></h5>
+<div class="para" id="project-sum-difference-cubes-9-1-1">
+<span class="process-math">\(27x^3-8\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-sum-difference-cubes-9-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="project-sum-difference-cubes-9-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="project-sum-difference-cubes-9-2-1">
+<span class="process-math">\((3x-2)(9x^2+6x+4)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-sum-difference-cubes-9-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.6.4.g.1"><a href="#project-sum-difference-cubes-9-2" title="Copy heading and permalink for Answer 3.6.4.g.1" aria-label="Copy heading and permalink for Answer 3.6.4.g.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Task 3.6.4.g"><a href="#project-sum-difference-cubes-9" title="Copy heading and permalink for Task 3.6.4.g" aria-label="Copy heading and permalink for Task 3.6.4.g">🔗</a></div></article><article class="task exercise-like" id="project-sum-difference-cubes-10"><h5 class="heading"><span class="codenumber">(h)</span></h5>
+<div class="para" id="project-sum-difference-cubes-10-1-1">
+<span class="process-math">\(1+64x^3\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-sum-difference-cubes-10-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="project-sum-difference-cubes-10-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="project-sum-difference-cubes-10-2-1">
+<span class="process-math">\((1+4x)(1-4x+16x^2)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-sum-difference-cubes-10-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.6.4.h.1"><a href="#project-sum-difference-cubes-10-2" title="Copy heading and permalink for Answer 3.6.4.h.1" aria-label="Copy heading and permalink for Answer 3.6.4.h.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Task 3.6.4.h"><a href="#project-sum-difference-cubes-10" title="Copy heading and permalink for Task 3.6.4.h" aria-label="Copy heading and permalink for Task 3.6.4.h">🔗</a></div></article><article class="task exercise-like" id="project-sum-difference-cubes-11"><h5 class="heading"><span class="codenumber">(i)</span></h5>
+<div class="para" id="project-sum-difference-cubes-11-1-1">
+<span class="process-math">\(64x^3+\frac{8}{27}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-sum-difference-cubes-11-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="project-sum-difference-cubes-11-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="project-sum-difference-cubes-11-2-1">
+<span class="process-math">\(\left(4x+\frac{2}{3}\right)\left(16x^2-\frac{8x}{3}+\frac{4}{9}\right)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-sum-difference-cubes-11-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.6.4.i.1"><a href="#project-sum-difference-cubes-11-2" title="Copy heading and permalink for Answer 3.6.4.i.1" aria-label="Copy heading and permalink for Answer 3.6.4.i.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Task 3.6.4.i"><a href="#project-sum-difference-cubes-11" title="Copy heading and permalink for Task 3.6.4.i" aria-label="Copy heading and permalink for Task 3.6.4.i">🔗</a></div></article><div class="autopermalink" data-description="Exercise Group 3.6.4: Factoring Sum or Difference of Cubes"><a href="#project-sum-difference-cubes" title="Copy heading and permalink for Exercise Group 3.6.4: Factoring Sum or Difference of Cubes" aria-label="Copy heading and permalink for Exercise Group 3.6.4: Factoring Sum or Difference of Cubes">🔗</a></div></article></details><div class="para" id="subsec-sum-difference-of-cubes-9">These two identities can be summarized as,<div class="autopermalink" data-description="Paragraph"><a href="#subsec-sum-difference-of-cubes-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+a^3 \pm b^3 = (a \pm b)(a^2 \mp ab + b^2)
+\end{equation*}
+</div>
+<div class="para" id="subsec-sum-difference-of-cubes-11">where the operations on top <span class="process-math">\(+, +, -\)</span> all go together, and the bottom operations <span class="process-math">\(-, -, +\)</span> all go together.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-sum-difference-of-cubes-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection 3.6.3: Factoring a Sum or Difference of Cubes"><a href="#subsec-sum-difference-of-cubes" title="Copy heading and permalink for Subsection 3.6.3: Factoring a Sum or Difference of Cubes" aria-label="Copy heading and permalink for Subsection 3.6.3: Factoring a Sum or Difference of Cubes">🔗</a></div></section><section class="subsection" id="subsec-factoring-polynomials-flowchart-summary"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.6.4</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Factoring Polynomials Flowchart Summary</span>
+</h3>
+<ol class="decimal" id="subsec-factoring-polynomials-flowchart-summary-2">
+<li id="subsec-factoring-polynomials-flowchart-summary-2-1">
+<div class="para" id="subsec-factoring-polynomials-flowchart-summary-2-1-1">(If necessary) Write the polynomial in descending power order.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-factoring-polynomials-flowchart-summary-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ul class="disc" id="subsec-factoring-polynomials-flowchart-summary-2-1-2"><li id="subsec-factoring-polynomials-flowchart-summary-2-1-2-1">
+<div class="para" id="subsec-factoring-polynomials-flowchart-summary-2-1-2-1-1">e.g. <span class="process-math">\(-2 - 6x + x^2 = x^2 - 6x - 2\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-factoring-polynomials-flowchart-summary-2-1-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#subsec-factoring-polynomials-flowchart-summary-2-1-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li></ul>
+<div class="autopermalink" data-description="Item 1"><a href="#subsec-factoring-polynomials-flowchart-summary-2-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
+</li>
+<li id="subsec-factoring-polynomials-flowchart-summary-2-2">
+<div class="para" id="subsec-factoring-polynomials-flowchart-summary-2-2-1">If there is a GCF, factor it out.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-factoring-polynomials-flowchart-summary-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ul class="disc" id="subsec-factoring-polynomials-flowchart-summary-2-2-2"><li id="subsec-factoring-polynomials-flowchart-summary-2-2-2-1">
+<div class="para" id="subsec-factoring-polynomials-flowchart-summary-2-2-2-1-1">e.g. <span class="process-math">\(6x^2 + 9x = 3x(2x+3)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-factoring-polynomials-flowchart-summary-2-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#subsec-factoring-polynomials-flowchart-summary-2-2-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li></ul>
+<div class="autopermalink" data-description="Item 2"><a href="#subsec-factoring-polynomials-flowchart-summary-2-2" title="Copy heading and permalink for Item 2" aria-label="Copy heading and permalink for Item 2">🔗</a></div>
+</li>
+<li id="subsec-factoring-polynomials-flowchart-summary-2-3">
+<div class="para" id="subsec-factoring-polynomials-flowchart-summary-2-3-1">How many terms does the polynomial have?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-factoring-polynomials-flowchart-summary-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ol class="lower-alpha ol-marker-1" id="subsec-factoring-polynomials-flowchart-summary-2-3-2">
+<li id="subsec-factoring-polynomials-flowchart-summary-2-3-2-1">
+<div class="para" id="subsec-factoring-polynomials-flowchart-summary-2-3-2-1-1">2 terms: Try factoring as a difference of squares, or a sum or difference of cubes,<div class="autopermalink" data-description="Paragraph"><a href="#subsec-factoring-polynomials-flowchart-summary-2-3-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="subsec-factoring-polynomials-flowchart-summary-2-3-2-1-2">
+\begin{align*}
+a^2 - b^2 \amp = (a + b)(a - b) \amp x^2 - 9 \amp = (x+3)(x-3)\\
+a^3 + b^3 \amp = (a + b)(a^2 - ab + b^2) \amp x^3 + 8 \amp = (x+2)(x^2 - 2x + 4)\\
+a^3 - b^3 \amp = (a - b)(a^2 + ab + b^2) \amp x^3 - 27 \amp = (x-3)(x^2+3x+9)
+\end{align*}
+</div>
+<div class="autopermalink" data-description="Item 3.a"><a href="#subsec-factoring-polynomials-flowchart-summary-2-3-2-1" title="Copy heading and permalink for Item 3.a" aria-label="Copy heading and permalink for Item 3.a">🔗</a></div>
+</li>
+<li id="subsec-factoring-polynomials-flowchart-summary-2-3-2-2">
+<div class="para" id="subsec-factoring-polynomials-flowchart-summary-2-3-2-2-1">3 terms:<div class="autopermalink" data-description="Paragraph"><a href="#subsec-factoring-polynomials-flowchart-summary-2-3-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ul class="disc" id="subsec-factoring-polynomials-flowchart-summary-2-3-2-2-2">
+<li id="subsec-factoring-polynomials-flowchart-summary-2-3-2-2-2-1">
+<div class="para" id="subsec-factoring-polynomials-flowchart-summary-2-3-2-2-2-1-1">
+<span class="process-math">\(ax^2 + bx + c, a = 1\text{,}\)</span> determine factors of <span class="process-math">\(c\)</span> (numbers which multiply to <span class="process-math">\(c\)</span>) which add to <span class="process-math">\(b\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-factoring-polynomials-flowchart-summary-2-3-2-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ul class="circle" id="subsec-factoring-polynomials-flowchart-summary-2-3-2-2-2-1-2"><li id="subsec-factoring-polynomials-flowchart-summary-2-3-2-2-2-1-2-1">
+<div class="para" id="subsec-factoring-polynomials-flowchart-summary-2-3-2-2-2-1-2-1-1">e.g. <span class="process-math">\(x^2 + 5x + 6 = (x+2)(x+3)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-factoring-polynomials-flowchart-summary-2-3-2-2-2-1-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#subsec-factoring-polynomials-flowchart-summary-2-3-2-2-2-1-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li></ul>
+<div class="autopermalink" data-description="Item"><a href="#subsec-factoring-polynomials-flowchart-summary-2-3-2-2-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="subsec-factoring-polynomials-flowchart-summary-2-3-2-2-2-2">
+<div class="para" id="subsec-factoring-polynomials-flowchart-summary-2-3-2-2-2-2-1">
+<span class="process-math">\(ax^2 + bx + c, a \neq 1\text{,}\)</span> use the cross method (or box method, or <span class="process-math">\(ac\)</span>-method)<div class="autopermalink" data-description="Paragraph"><a href="#subsec-factoring-polynomials-flowchart-summary-2-3-2-2-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ul class="circle" id="subsec-factoring-polynomials-flowchart-summary-2-3-2-2-2-2-2"><li id="subsec-factoring-polynomials-flowchart-summary-2-3-2-2-2-2-2-1">
+<div class="para" id="subsec-factoring-polynomials-flowchart-summary-2-3-2-2-2-2-2-1-1">e.g. <span class="process-math">\(2x^2 + 7x + 3 = (2x+1)(x+3)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-factoring-polynomials-flowchart-summary-2-3-2-2-2-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#subsec-factoring-polynomials-flowchart-summary-2-3-2-2-2-2-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li></ul>
+<div class="autopermalink" data-description="Item"><a href="#subsec-factoring-polynomials-flowchart-summary-2-3-2-2-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="subsec-factoring-polynomials-flowchart-summary-2-3-2-2-2-3">
+<div class="para" id="subsec-factoring-polynomials-flowchart-summary-2-3-2-2-2-3-1">Ideally, recognize perfect square trinomials,<div class="autopermalink" data-description="Paragraph"><a href="#subsec-factoring-polynomials-flowchart-summary-2-3-2-2-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="subsec-factoring-polynomials-flowchart-summary-2-3-2-2-2-3-2">
+\begin{align*}
+a^2 + 2ab + b^2 \amp = (a + b)^2 \amp \text{e.g. } x^2 + 6x + 9 \amp = (x+3)^2\\
+a^2 - 2ab + b^2 \amp = (a - b)^2 \amp \text{e.g. } 4x^2 - 12x + 9 \amp = (2x-3)^2
+\end{align*}
+</div>
+<div class="autopermalink" data-description="Item"><a href="#subsec-factoring-polynomials-flowchart-summary-2-3-2-2-2-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Item 3.b"><a href="#subsec-factoring-polynomials-flowchart-summary-2-3-2-2" title="Copy heading and permalink for Item 3.b" aria-label="Copy heading and permalink for Item 3.b">🔗</a></div>
+</li>
+<li id="subsec-factoring-polynomials-flowchart-summary-2-3-2-3">
+<div class="para" id="subsec-factoring-polynomials-flowchart-summary-2-3-2-3-1">4 terms: factor by grouping (probably).<div class="autopermalink" data-description="Paragraph"><a href="#subsec-factoring-polynomials-flowchart-summary-2-3-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ul class="disc" id="subsec-factoring-polynomials-flowchart-summary-2-3-2-3-2"><li id="subsec-factoring-polynomials-flowchart-summary-2-3-2-3-2-1">
+<div class="para" id="subsec-factoring-polynomials-flowchart-summary-2-3-2-3-2-1-1">e.g. <span class="process-math">\(x^3 + 3x^2 + 2x + 6 = (x^2+2)(x+3)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-factoring-polynomials-flowchart-summary-2-3-2-3-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#subsec-factoring-polynomials-flowchart-summary-2-3-2-3-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li></ul>
+<div class="autopermalink" data-description="Item 3.c"><a href="#subsec-factoring-polynomials-flowchart-summary-2-3-2-3" title="Copy heading and permalink for Item 3.c" aria-label="Copy heading and permalink for Item 3.c">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Item 3"><a href="#subsec-factoring-polynomials-flowchart-summary-2-3" title="Copy heading and permalink for Item 3" aria-label="Copy heading and permalink for Item 3">🔗</a></div>
+</li>
+<li id="subsec-factoring-polynomials-flowchart-summary-2-4">
+<div class="para" id="subsec-factoring-polynomials-flowchart-summary-2-4-1">Double-check if there are any factors with multiple terms that can be factored again. If so, factor completely.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-factoring-polynomials-flowchart-summary-2-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ul class="disc" id="subsec-factoring-polynomials-flowchart-summary-2-4-2"><li id="subsec-factoring-polynomials-flowchart-summary-2-4-2-1">
+<div class="para" id="subsec-factoring-polynomials-flowchart-summary-2-4-2-1-1">e.g. <span class="process-math">\(x^4 - 16 = (x^2+4)(x+2)(x-2)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-factoring-polynomials-flowchart-summary-2-4-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#subsec-factoring-polynomials-flowchart-summary-2-4-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li></ul>
+<div class="autopermalink" data-description="Item 4"><a href="#subsec-factoring-polynomials-flowchart-summary-2-4" title="Copy heading and permalink for Item 4" aria-label="Copy heading and permalink for Item 4">🔗</a></div>
+</li>
+</ol>
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/subsec-factoring-polynomials-flowchart-summary-3.svg" role="img" class="contained"></div>
+<div class="autopermalink" data-description="Subsection 3.6.4: Factoring Polynomials Flowchart Summary"><a href="#subsec-factoring-polynomials-flowchart-summary" title="Copy heading and permalink for Subsection 3.6.4: Factoring Polynomials Flowchart Summary" aria-label="Copy heading and permalink for Subsection 3.6.4: Factoring Polynomials Flowchart Summary">🔗</a></div></section><section class="subsection" id="subsec-mixed-factoring-examples"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.6.5</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Mixed Examples</span>
+</h3>
+<details id="project-mixed-factoring" class="project project-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Exercise Group</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.6.5</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Mixed Factoring Practice.</span>
+</h4></summary><article class="project project-like knowl__content"><div class="introduction" id="project-mixed-factoring-2"><div class="para" id="project-mixed-factoring-2-1">Factor each polynomial.<div class="autopermalink" data-description="Paragraph"><a href="#project-mixed-factoring-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="project-mixed-factoring-3"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="project-mixed-factoring-3-1-1">
+<span class="process-math">\(4x^3 - 6x^2 + 2x\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-mixed-factoring-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="project-mixed-factoring-3-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="project-mixed-factoring-3-2-1">Common factor, then trinomial factoring.<div class="autopermalink" data-description="Paragraph"><a href="#project-mixed-factoring-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 3.6.5.a.1"><a href="#project-mixed-factoring-3-2" title="Copy heading and permalink for Hint 3.6.5.a.1" aria-label="Copy heading and permalink for Hint 3.6.5.a.1">🔗</a></div>
+</div></details><details id="project-mixed-factoring-3-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="project-mixed-factoring-3-3-1">
+<span class="process-math">\(2x(2x-1)(x-1)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-mixed-factoring-3-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.6.5.a.1"><a href="#project-mixed-factoring-3-3" title="Copy heading and permalink for Answer 3.6.5.a.1" aria-label="Copy heading and permalink for Answer 3.6.5.a.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" data-description="Task 3.6.5.a"><a href="#project-mixed-factoring-3" title="Copy heading and permalink for Task 3.6.5.a" aria-label="Copy heading and permalink for Task 3.6.5.a">🔗</a></div></article><article class="task exercise-like" id="project-mixed-factoring-4"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="project-mixed-factoring-4-1-1">
+<span class="process-math">\(x^2 + 6xy + 9y^2 - 25z^2\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-mixed-factoring-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="project-mixed-factoring-4-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="project-mixed-factoring-4-2-1">Trinomial factoring, then difference of squares.<div class="autopermalink" data-description="Paragraph"><a href="#project-mixed-factoring-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 3.6.5.b.1"><a href="#project-mixed-factoring-4-2" title="Copy heading and permalink for Hint 3.6.5.b.1" aria-label="Copy heading and permalink for Hint 3.6.5.b.1">🔗</a></div>
+</div></details><details id="project-mixed-factoring-4-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="project-mixed-factoring-4-3-1">
+<span class="process-math">\((x + 3y - 5z)(x + 3y + 5z)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-mixed-factoring-4-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.6.5.b.1"><a href="#project-mixed-factoring-4-3" title="Copy heading and permalink for Answer 3.6.5.b.1" aria-label="Copy heading and permalink for Answer 3.6.5.b.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" data-description="Task 3.6.5.b"><a href="#project-mixed-factoring-4" title="Copy heading and permalink for Task 3.6.5.b" aria-label="Copy heading and permalink for Task 3.6.5.b">🔗</a></div></article><article class="task exercise-like" id="project-mixed-factoring-5"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="project-mixed-factoring-5-1-1">
+<span class="process-math">\(x - 8x^4\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-mixed-factoring-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="project-mixed-factoring-5-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="project-mixed-factoring-5-2-1">Common factor, then difference of cubes.<div class="autopermalink" data-description="Paragraph"><a href="#project-mixed-factoring-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 3.6.5.c.1"><a href="#project-mixed-factoring-5-2" title="Copy heading and permalink for Hint 3.6.5.c.1" aria-label="Copy heading and permalink for Hint 3.6.5.c.1">🔗</a></div>
+</div></details><details id="project-mixed-factoring-5-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="project-mixed-factoring-5-3-1">
+<span class="process-math">\(x(1-2x)(1+2x+4x^2)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-mixed-factoring-5-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.6.5.c.1"><a href="#project-mixed-factoring-5-3" title="Copy heading and permalink for Answer 3.6.5.c.1" aria-label="Copy heading and permalink for Answer 3.6.5.c.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" data-description="Task 3.6.5.c"><a href="#project-mixed-factoring-5" title="Copy heading and permalink for Task 3.6.5.c" aria-label="Copy heading and permalink for Task 3.6.5.c">🔗</a></div></article><article class="task exercise-like" id="project-mixed-factoring-6"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="project-mixed-factoring-6-1-1">
+<span class="process-math">\(4x^3-20x^2+25x\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-mixed-factoring-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="project-mixed-factoring-6-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="project-mixed-factoring-6-2-1">Common factor, then trinomial factoring (perfect square).<div class="autopermalink" data-description="Paragraph"><a href="#project-mixed-factoring-6-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 3.6.5.d.1"><a href="#project-mixed-factoring-6-2" title="Copy heading and permalink for Hint 3.6.5.d.1" aria-label="Copy heading and permalink for Hint 3.6.5.d.1">🔗</a></div>
+</div></details><details id="project-mixed-factoring-6-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="project-mixed-factoring-6-3-1">
+<span class="process-math">\(x (2x - 5)^2\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-mixed-factoring-6-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.6.5.d.1"><a href="#project-mixed-factoring-6-3" title="Copy heading and permalink for Answer 3.6.5.d.1" aria-label="Copy heading and permalink for Answer 3.6.5.d.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" data-description="Task 3.6.5.d"><a href="#project-mixed-factoring-6" title="Copy heading and permalink for Task 3.6.5.d" aria-label="Copy heading and permalink for Task 3.6.5.d">🔗</a></div></article><article class="task exercise-like" id="project-mixed-factoring-7"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="project-mixed-factoring-7-1-1">
+<span class="process-math">\(2(5x+1)^2 - 18\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-mixed-factoring-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="project-mixed-factoring-7-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="project-mixed-factoring-7-2-1">Common factor, then difference of squares.<div class="autopermalink" data-description="Paragraph"><a href="#project-mixed-factoring-7-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 3.6.5.e.1"><a href="#project-mixed-factoring-7-2" title="Copy heading and permalink for Hint 3.6.5.e.1" aria-label="Copy heading and permalink for Hint 3.6.5.e.1">🔗</a></div>
+</div></details><details id="project-mixed-factoring-7-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="project-mixed-factoring-7-3-1">
+<span class="process-math">\(2(5x+4)(5x-2)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-mixed-factoring-7-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.6.5.e.1"><a href="#project-mixed-factoring-7-3" title="Copy heading and permalink for Answer 3.6.5.e.1" aria-label="Copy heading and permalink for Answer 3.6.5.e.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" data-description="Task 3.6.5.e"><a href="#project-mixed-factoring-7" title="Copy heading and permalink for Task 3.6.5.e" aria-label="Copy heading and permalink for Task 3.6.5.e">🔗</a></div></article><article class="task exercise-like" id="project-mixed-factoring-8"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<div class="para" id="project-mixed-factoring-8-1-1">
+<span class="process-math">\(x^6 - 64\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-mixed-factoring-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="project-mixed-factoring-8-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="project-mixed-factoring-8-2-1">Difference of squares, difference of cubes, sum of cubes.<div class="autopermalink" data-description="Paragraph"><a href="#project-mixed-factoring-8-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 3.6.5.f.1"><a href="#project-mixed-factoring-8-2" title="Copy heading and permalink for Hint 3.6.5.f.1" aria-label="Copy heading and permalink for Hint 3.6.5.f.1">🔗</a></div>
+</div></details><details id="project-mixed-factoring-8-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="project-mixed-factoring-8-3-1">
+<span class="process-math">\((x-2)(x^2+2x+4)(x+2)(x^2-2x+4)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-mixed-factoring-8-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.6.5.f.1"><a href="#project-mixed-factoring-8-3" title="Copy heading and permalink for Answer 3.6.5.f.1" aria-label="Copy heading and permalink for Answer 3.6.5.f.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" data-description="Task 3.6.5.f"><a href="#project-mixed-factoring-8" title="Copy heading and permalink for Task 3.6.5.f" aria-label="Copy heading and permalink for Task 3.6.5.f">🔗</a></div></article><article class="task exercise-like" id="project-mixed-factoring-9"><h5 class="heading"><span class="codenumber">(g)</span></h5>
+<div class="para" id="project-mixed-factoring-9-1-1">
+<span class="process-math">\(6x^3 - 48x^2 + 90x\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-mixed-factoring-9-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="project-mixed-factoring-9-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="project-mixed-factoring-9-2-1">Common factor, then trinomial factoring.<div class="autopermalink" data-description="Paragraph"><a href="#project-mixed-factoring-9-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 3.6.5.g.1"><a href="#project-mixed-factoring-9-2" title="Copy heading and permalink for Hint 3.6.5.g.1" aria-label="Copy heading and permalink for Hint 3.6.5.g.1">🔗</a></div>
+</div></details><details id="project-mixed-factoring-9-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="project-mixed-factoring-9-3-1">
+<span class="process-math">\(6x(x - 3)(x - 5)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-mixed-factoring-9-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.6.5.g.1"><a href="#project-mixed-factoring-9-3" title="Copy heading and permalink for Answer 3.6.5.g.1" aria-label="Copy heading and permalink for Answer 3.6.5.g.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" data-description="Task 3.6.5.g"><a href="#project-mixed-factoring-9" title="Copy heading and permalink for Task 3.6.5.g" aria-label="Copy heading and permalink for Task 3.6.5.g">🔗</a></div></article><article class="task exercise-like" id="project-mixed-factoring-10"><h5 class="heading"><span class="codenumber">(h)</span></h5>
+<div class="para" id="project-mixed-factoring-10-1-1">
+<span class="process-math">\(12x^3 - 3x^5\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-mixed-factoring-10-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="project-mixed-factoring-10-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="project-mixed-factoring-10-2-1">Common factor, then difference of squares.<div class="autopermalink" data-description="Paragraph"><a href="#project-mixed-factoring-10-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 3.6.5.h.1"><a href="#project-mixed-factoring-10-2" title="Copy heading and permalink for Hint 3.6.5.h.1" aria-label="Copy heading and permalink for Hint 3.6.5.h.1">🔗</a></div>
+</div></details><details id="project-mixed-factoring-10-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="project-mixed-factoring-10-3-1">
+<span class="process-math">\(3x^3(2-x)(2+x)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-mixed-factoring-10-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.6.5.h.1"><a href="#project-mixed-factoring-10-3" title="Copy heading and permalink for Answer 3.6.5.h.1" aria-label="Copy heading and permalink for Answer 3.6.5.h.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" data-description="Task 3.6.5.h"><a href="#project-mixed-factoring-10" title="Copy heading and permalink for Task 3.6.5.h" aria-label="Copy heading and permalink for Task 3.6.5.h">🔗</a></div></article><div class="autopermalink" data-description="Exercise Group 3.6.5: Mixed Factoring Practice"><a href="#project-mixed-factoring" title="Copy heading and permalink for Exercise Group 3.6.5: Mixed Factoring Practice" aria-label="Copy heading and permalink for Exercise Group 3.6.5: Mixed Factoring Practice">🔗</a></div></article></details><details id="project-advanced-factoring" class="project project-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Exercise Group</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.6.6</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Advanced Examples.</span>
+</h4></summary><article class="project project-like knowl__content"><div class="introduction" id="project-advanced-factoring-2"><div class="para" id="project-advanced-factoring-2-1">Factor each polynomial.<div class="autopermalink" data-description="Paragraph"><a href="#project-advanced-factoring-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="project-advanced-factoring-3"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="project-advanced-factoring-3-1-1">
+<span class="process-math">\(x^3 - 4x + 3\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-advanced-factoring-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="project-advanced-factoring-3-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="project-advanced-factoring-3-2-1">“Force” a difference of cubes pattern by putting <span class="process-math">\(-1\)</span> next to <span class="process-math">\(x^3\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-advanced-factoring-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 3.6.6.a.1"><a href="#project-advanced-factoring-3-2" title="Copy heading and permalink for Hint 3.6.6.a.1" aria-label="Copy heading and permalink for Hint 3.6.6.a.1">🔗</a></div>
+</div></details><details id="project-advanced-factoring-3-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="project-advanced-factoring-3-3-1">
+<span class="process-math">\((x-1)(x^2+x-3)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#project-advanced-factoring-3-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.6.6.a.1"><a href="#project-advanced-factoring-3-3" title="Copy heading and permalink for Answer 3.6.6.a.1" aria-label="Copy heading and permalink for Answer 3.6.6.a.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" data-description="Task 3.6.6.a"><a href="#project-advanced-factoring-3" title="Copy heading and permalink for Task 3.6.6.a" aria-label="Copy heading and permalink for Task 3.6.6.a">🔗</a></div></article><div class="autopermalink" data-description="Exercise Group 3.6.6: Advanced Examples"><a href="#project-advanced-factoring" title="Copy heading and permalink for Exercise Group 3.6.6: Advanced Examples" aria-label="Copy heading and permalink for Exercise Group 3.6.6: Advanced Examples">🔗</a></div></article></details><div class="autopermalink" data-description="Subsection 3.6.5: Mixed Examples"><a href="#subsec-mixed-factoring-examples" title="Copy heading and permalink for Subsection 3.6.5: Mixed Examples" aria-label="Copy heading and permalink for Subsection 3.6.5: Mixed Examples">🔗</a></div></section><div class="autopermalink" data-description="Section 3.6: Advanced Polynomial Factoring"><a href="#sec-advanced-polynomial-factoring" title="Copy heading and permalink for Section 3.6: Advanced Polynomial Factoring" aria-label="Copy heading and permalink for Section 3.6: Advanced Polynomial Factoring">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="sec-factoring-quadratics-summary.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-completing-the-square.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
