@@ -2,15 +2,498 @@
 
 <section xml:id="sec-advanced-polynomial-factoring" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Advanced Polynomial Factoring</title>
-  
-  <!-- <introduction>
+
+  <subsection xml:id="subsec-factoring-multivariable-cross-method">
+    <title>Factoring Polynomials in Multiple Variables Using the Cross Method</title>
     <p>
-      This is the introduction to the section.
+      The cross method still works, even if the polynomial has multiple variables.
     </p>
-  </introduction> -->
-  
+
+    <project xml:id="project-multivariable-cross-method">
+      <title>Factoring Multivariable Polynomials</title>
+      <introduction>
+        <p>Factor each expression.</p>
+      </introduction>
+      <task>
+        <statement>
+          <p><m>4x^2 + 4xy - 15y^2</m></p>
+        </statement>
+        <answer>
+          <p><m>(2x+5y)(2x-3y)</m></p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p><m>12x^2 - 15xy + 3y^2</m></p>
+        </statement>
+        <answer>
+          <p><m>3(x-y)(4x-y)</m></p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p><m>-x^2 - 3xy - 2y^2</m></p>
+        </statement>
+        <answer>
+          <p><m>-(x+y)(x+2y)</m></p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p><m>-3x^2 + 3xy + 90y^2</m></p>
+        </statement>
+        <answer>
+          <p><m>-3(x-6y)(x+5y)</m></p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p><m>8x^2 - 21xy - 9y^2</m></p>
+        </statement>
+        <answer>
+          <p><m>(8x+3y)(x-3y)</m></p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p><m>-10a^2 + 31ab + 14b^2</m></p>
+        </statement>
+        <answer>
+          <p><m>(7b-2a)(5a+2b)</m></p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p><m>35x^2 + 250xy - 240y^2</m></p>
+        </statement>
+        <answer>
+          <p><m>5(x+8y)(7x-6y)</m></p>
+        </answer>
+      </task>
+    </project>
+  </subsection>
+
+  <subsection xml:id="subsec-factor-by-grouping">
+    <title>Factor by Grouping</title>
+    <p>
+      Some polynomials with 4 terms can be factored by grouping them into pairs of terms. This is a special technique.
+    </p>
+
+    <example xml:id="example-factor-by-grouping-intro">
+      <title>Introduction to Factor by Grouping</title>
+      <p>
+        Consider the polynomial <m>x^3+5x^2-2x-10</m>. First, group the terms into the first 2 and last 2. Notice that first two terms <m>x^3 + 5x^2</m> have a common factor <m>x^2</m>, and the last two terms <m>-2x - 10</m> have a common factor <m>-2</m>. Factoring out these common factors from both pairs,
+      </p>
+      <md>
+        <mrow>x^3 + 5x^2 - 2x - 10</mrow>
+        <mrow>= x^2(x + 5) - 2(x + 5)</mrow>
+      </md>
+      <p>
+        Then, both terms have a common factor of <m>x+5</m>,
+      </p>
+      <md>
+        <mrow>= x^2\underbrace{(x + 5)} - 2\underbrace{(x + 5)}</mrow>
+      </md>
+      <p>
+        Then, we can factor it out, leaving <m>x^2</m> and <m>-2</m> left,
+      </p>
+      <md>
+        <mrow>= (x+5)(x^2-2)</mrow>
+      </md>
+      <p>
+        This might seem a bit strange. However, factoring out <m>(x+5)</m> works exactly the same as factoring out a single variable like <m>y</m>.
+      </p>
+      <tabular halign="center">
+        <row header="yes">
+          <cell>Factoring out <m>y</m></cell>
+          <cell>Factoring out <m>(x+5)</m></cell>
+        </row>
+        <row>
+          <cell><m>x^2 y - 2y</m></cell>
+          <cell><m>x^2(x+5) - 2(x+5)</m></cell>
+        </row>
+        <row>
+          <cell><m>= y(x^2 - 2)</m></cell>
+          <cell><m>= (x+5)(x^2 - 2)</m></cell>
+        </row>
+      </tabular>
+      <p>
+        What is common to both terms gets pulled out, and whatever is left behind stays inside the other bracket. If it helps, you can mentally substitute <m>y = x + 5</m> and it becomes the same problem.
+      </p>
+    </example>
+
+    <p>
+      In general,
+    </p>
+    <ul>
+      <li>
+        <p>Split the polynomial into 2 groups of terms (the first 2, and the last 2).</p>
+      </li>
+      <li>
+        <p>Factor out the GCF from each group.</p>
+      </li>
+      <li>
+        <p>If both groups now have the same binomial factor, then factor that common factor out.</p>
+      </li>
+    </ul>
+
+    <project xml:id="project-factor-by-grouping-1">
+      <title>Factor by Grouping Practice I</title>
+      <introduction>
+        <p>Factor each expression.</p>
+      </introduction>
+      <task>
+        <statement>
+          <p><m>x^3+x^2-4x-4</m></p>
+        </statement>
+        <answer>
+          <p><m>(x-2)(x+2)(x+1)</m></p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p><m>3x^3-x^2-27x+9</m></p>
+        </statement>
+        <answer>
+          <p><m>(x-3)(x+3)(3x-1)</m></p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p><m>x^3-3x^2+7x-21</m></p>
+        </statement>
+        <answer>
+          <p><m>(x^2+7)(x-3)</m></p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p><m>64x^3+128x^2-x-2</m></p>
+        </statement>
+        <answer>
+          <p><m>(8x-1)(8x+1)(x+2)</m></p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p><m>x^3+2x^2+7x+14</m></p>
+        </statement>
+        <answer>
+          <p><m>(x+2)(x^2+7)</m></p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p><m>2x^3+8x^2-3x-12</m></p>
+        </statement>
+        <answer>
+          <p><m>(x+4)(2x^2-3)</m></p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p><m>3x^3+x^2-6x-2</m></p>
+        </statement>
+        <answer>
+          <p><m>(3x+1)(x^2-2)</m></p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p><m>x^3+8x^2+4x+32</m></p>
+        </statement>
+        <answer>
+          <p><m>(x^2+4)(x+8)</m></p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p><m>2x^3+8x^2+7x+28</m></p>
+        </statement>
+        <answer>
+          <p><m>(2x^2+7)(x+4)</m></p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p><m>35x^3+21x^2+40x+24</m></p>
+        </statement>
+        <answer>
+          <p><m>(7x^2+8)(5x+3)</m></p>
+        </answer>
+      </task>
+    </project>
+
+    <p>
+      Determining if a polynomial can be factored by grouping involves some intuition.
+    </p>
+    <ul>
+      <li>
+        <p>The polynomial must have 4 terms (not 3, or 2, like previous techniques). This is a good indicator it can be factored by grouping.</p>
+      </li>
+      <li>
+        <p>Then, roughly, if the first two terms <q>look like</q> the last two terms, then it probably can be factored by grouping.</p>
+      </li>
+    </ul>
+
+    <project xml:id="project-factor-by-grouping-2">
+      <title>Factor by Grouping Practice II</title>
+      <introduction>
+        <p>Factor each expression.</p>
+      </introduction>
+      <task>
+        <statement>
+          <p><m>-x^2 y + 3xy + 2x - 6</m></p>
+        </statement>
+        <answer>
+          <p><m>(x - 3)(-xy + 2)</m></p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p><m>3xy + 21x - 2y - 14</m></p>
+        </statement>
+        <answer>
+          <p><m>(y + 7)(3x - 2)</m></p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p><m>16p^3 - 40p^2 - 32p + 80</m></p>
+        </statement>
+        <answer>
+          <p><m>8(p^2 - 2)(2p - 5)</m></p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p><m>36ph + 24pf^2 - 27qh - 18qf^2</m></p>
+        </statement>
+        <answer>
+          <p><m>3(4p - 3q)(3h + 2f^2)</m></p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p><m>42ab + 16 + 28a + 24b</m></p>
+        </statement>
+        <answer>
+          <p><m>2(7a + 4)(3b + 2)</m></p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p><m>2ac - 2ad + bc - bd</m></p>
+        </statement>
+        <answer>
+          <p><m>(2a+b)(c-d)</m></p>
+        </answer>
+      </task>
+    </project>
+
+    <p>
+      In general, factor by grouping has the form:
+    </p>
+    <md>
+      <mrow>ax + ay + bx + by</mrow>
+      <mrow>= a(x + y) + b(x + y)</mrow>
+      <mrow>= (a + b)(x + y)</mrow>
+    </md>
+  </subsection>
+
+  <subsection xml:id="subsec-sum-difference-of-cubes">
+    <title>Factoring a Sum or Difference of Cubes</title>
+    <p>
+      There are also special factoring patterns for a difference of cubes, as well as a sum of cubes.
+    </p>
+
+    <theorem xml:id="thm-sum-difference-cubes">
+      <statement>
+        <md>
+          <mrow>a^3 + b^3 \amp = (a + b)(a^2 - ab + b^2)</mrow>
+          <mrow>a^3 - b^3 \amp = (a - b)(a^2 + ab + b^2)</mrow>
+        </md>
+      </statement>
+    </theorem>
+
+    <remark>
+      <p>
+        To verify that this identity is true, you can expand the right side, and check it is equivalent to the left side.
+      </p>
+    </remark>
+
+    <p>
+      To help remember the pattern of the positive and negative signs, there is a mnemonic:
+    </p>
+    <p>
+      <term>SOAP</term>: <term>s</term>ame signs, <term>o</term>pposite signs, <term>a</term>lways <term>p</term>ositive.
+    </p>
+
+    <example xml:id="example-difference-cubes-simple">
+      <p>
+        For example,
+      </p>
+      <md>
+        <mrow>x^3 - 1 = (x - 1)(x^2 + x + 1)</mrow>
+      </md>
+    </example>
+
+    <project xml:id="project-sum-difference-cubes">
+      <title>Factoring Sum or Difference of Cubes</title>
+      <introduction>
+        <p>Factor each sum or difference of cubes.</p>
+      </introduction>
+      <task>
+        <statement>
+          <p><m>x^3+1</m></p>
+        </statement>
+        <answer>
+          <p><m>(x+1)(x^2-x+1)</m></p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p><m>x^3+8</m></p>
+        </statement>
+        <answer>
+          <p><m>(x+2)(x^2-2x+4)</m></p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p><m>64x^3-125</m></p>
+        </statement>
+        <answer>
+          <p><m>(4x-5)(16x^2+20x+25)</m></p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p><m>125x^3-8</m></p>
+        </statement>
+        <answer>
+          <p><m>(5x-2)(25x^2+10x+4)</m></p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p><m>27x^3+125</m></p>
+        </statement>
+        <answer>
+          <p><m>(3x+5)(9x^2-15x+25)</m></p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p><m>64x^3-27</m></p>
+        </statement>
+        <answer>
+          <p><m>(4x-3)(16x^2+12x+9)</m></p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p><m>27x^3-8</m></p>
+        </statement>
+        <answer>
+          <p><m>(3x-2)(9x^2+6x+4)</m></p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p><m>1+64x^3</m></p>
+        </statement>
+        <answer>
+          <p><m>(1+4x)(1-4x+16x^2)</m></p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p><m>64x^3+\frac{8}{27}</m></p>
+        </statement>
+        <answer>
+          <p><m>\left(4x+\frac{2}{3}\right)\left(16x^2-\frac{8x}{3}+\frac{4}{9}\right)</m></p>
+        </answer>
+      </task>
+    </project>
+
+    <p>
+      These two identities can be summarized as,
+    </p>
+    <me>
+      a^3 \pm b^3 = (a \pm b)(a^2 \mp ab + b^2)
+    </me>
+    <p>
+      where the operations on top <m>+, +, -</m> all go together, and the bottom operations <m>-, -, +</m> all go together.
+    </p>
+  </subsection>
+
   <subsection xml:id="subsec-factoring-polynomials-flowchart-summary">
     <title>Factoring Polynomials Flowchart Summary</title>
+    <ol>
+      <li>
+        <p>(If necessary) Write the polynomial in descending power order.</p>
+        <ul>
+          <li><p>e.g. <m>-2 - 6x + x^2 = x^2 - 6x - 2</m></p></li>
+        </ul>
+      </li>
+      <li>
+        <p>If there is a GCF, factor it out.</p>
+        <ul>
+          <li><p>e.g. <m>6x^2 + 9x = 3x(2x+3)</m></p></li>
+        </ul>
+      </li>
+      <li>
+        <p>How many terms does the polynomial have?</p>
+        <ol marker="(a)">
+          <li>
+            <p>2 terms: Try factoring as a difference of squares, or a sum or difference of cubes,</p>
+            <md>
+              <mrow>a^2 - b^2 \amp = (a + b)(a - b) \amp x^2 - 9 \amp = (x+3)(x-3)</mrow>
+              <mrow>a^3 + b^3 \amp = (a + b)(a^2 - ab + b^2) \amp x^3 + 8 \amp = (x+2)(x^2 - 2x + 4)</mrow>
+              <mrow>a^3 - b^3 \amp = (a - b)(a^2 + ab + b^2) \amp x^3 - 27 \amp = (x-3)(x^2+3x+9)</mrow>
+            </md>
+          </li>
+          <li>
+            <p>3 terms:</p>
+            <ul>
+              <li>
+                <p><m>ax^2 + bx + c, a = 1</m>, determine factors of <m>c</m> (numbers which multiply to <m>c</m>) which add to <m>b</m></p>
+                <ul>
+                  <li><p>e.g. <m>x^2 + 5x + 6 = (x+2)(x+3)</m></p></li>
+                </ul>
+              </li>
+              <li>
+                <p><m>ax^2 + bx + c, a \neq 1</m>, use the cross method (or box method, or <m>ac</m>-method)</p>
+                <ul>
+                  <li><p>e.g. <m>2x^2 + 7x + 3 = (2x+1)(x+3)</m></p></li>
+                </ul>
+              </li>
+              <li>
+                <p>Ideally, recognize perfect square trinomials,</p>
+                <md>
+                  <mrow>a^2 + 2ab + b^2 \amp = (a + b)^2 \amp \text{e.g. } x^2 + 6x + 9 \amp = (x+3)^2</mrow>
+                  <mrow>a^2 - 2ab + b^2 \amp = (a - b)^2 \amp \text{e.g. } 4x^2 - 12x + 9 \amp = (2x-3)^2</mrow>
+                </md>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <p>4 terms: factor by grouping (probably).</p>
+            <ul>
+              <li><p>e.g. <m>x^3 + 3x^2 + 2x + 6 = (x^2+2)(x+3)</m></p></li>
+            </ul>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <p>Double-check if there are any factors with multiple terms that can be factored again. If so, factor completely.</p>
+        <ul>
+          <li><p>e.g. <m>x^4 - 16 = (x^2+4)(x+2)(x-2)</m></p></li>
+        </ul>
+      </li>
+    </ol>
+
     <image>
       <latex-image>
         \resizebox{\linewidth}{!}{
@@ -24,17 +507,17 @@
           processWideLeft/.style={rectangle,rounded corners,draw,align=left,inner sep=4pt,text width=5.6cm}]
           % Top step
           \node[process,text width=10cm] (order) {Write the polynomial in descending power order if needed. \\ $\text{e.g. } -2-6x+x^2 = x^2-6x-2$};
-          
+
           % GCF decision (diamond), a bit up
           \node[process,below=0.9cm of order] (gcfq) {\textbf{Is there a GCF?}};
-          
+
           % Yes and No boxes, lowered and closer to center
           \node[process,left=1.2cm of gcfq, yshift=-2cm] (gcfy) {Factor out the GCF. \\ $\text{e.g. } 6x^2+9x=3x(2x+3)$};
           \node[process,right=1.2cm of gcfq, yshift=-2cm] (gcfno) {Go to the next step};
-          
+
           % How many terms
           \node[process,below=3cm of gcfq] (terms) {\textbf{How many terms does the polynomial have?}};
-          
+
           % Bottom three, wider and with left-aligned body, centered headings
           \node[processWideLeft,below left=1.1cm and 0.8cm of terms] (two) {% \makebox[\linewidth]{\textbf{Two terms (binomial)}}\\[2pt]
           Try a difference of squares or a sum or difference of cubes.\\[2pt]
@@ -44,7 +527,7 @@
           $\text{e.g. } x^3+8=(x+2)(x^2-2x+4)$\\[8pt]
           $\displaystyle a^3-b^3=(a-b)(a^2+ab+b^2)$\\
           $\text{e.g. } x^3-27=(x-3)(x^2+3x+9)$};
-          
+
           \node[processWideLeft,below=1.1cm of terms] (three) {% \makebox[\linewidth]{\textbf{Three terms (trinomial)}}\\[2pt]
           $\bullet$ If $a=1$: pick factors of $c$ that add to $b$.\\
           $\text{e.g. } x^2+5x+6=(x+2)(x+3)$\\[3pt]
@@ -53,7 +536,7 @@
           $\bullet$ (Optional) Recognize perfect square trinomials.\\
           $\displaystyle a^2+2ab+b^2=(a+b)^2$\\ $\text{e.g. } x^2+6x+9=(x+3)^2$\\[5pt]
           $\displaystyle a^2-2ab+b^2=(a-b)^2$\\ $\text{e.g. } 4x^2-12x+9=(2x-3)^2$};
-          
+
           \node[processWideLeft,below right=1.1cm and 0.8cm of terms] (four) {% \makebox[\linewidth]{\textbf{Four terms}}\\[2.5pt]
           Factor by grouping.\\
           $\bullet$ Group the first 2 and last 2 terms\\
@@ -62,10 +545,10 @@
           $\text{e.g. } x^3+3x^2+2x+6=$\\
           $= x^2(x+3) + 2(x+3)$\\
           $= (x+3)(x^2+2)$};
-          
+
           % Final check
           \node[processWideLeft,below=1cm of three] (again) {Double-check if anything can be factored again, if so then factor completely. \\ $\text{e.g. } x^4-16$ \\ $=(x^2+4)(x^2-4)$ \\ $=(x^2+4)(x+2)(x-2)$};
-          
+
           % Arrows
           \draw[line] (order) -- (gcfq);
           \draw[line] (gcfq) -- node[midway,above] {\textbf{Yes}} (gcfy);
@@ -83,5 +566,122 @@
       </latex-image>
     </image>
   </subsection>
-  
+
+  <subsection xml:id="subsec-mixed-factoring-examples">
+    <title>Mixed Examples</title>
+
+    <project xml:id="project-mixed-factoring">
+      <title>Mixed Factoring Practice</title>
+      <introduction>
+        <p>Factor each polynomial.</p>
+      </introduction>
+      <task>
+        <statement>
+          <p><m>4x^3 - 6x^2 + 2x</m></p>
+        </statement>
+        <hint>
+          <p>Common factor, then trinomial factoring.</p>
+        </hint>
+        <answer>
+          <p><m>2x(2x-1)(x-1)</m></p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p><m>x^2 + 6xy + 9y^2 - 25z^2</m></p>
+        </statement>
+        <hint>
+          <p>Trinomial factoring, then difference of squares.</p>
+        </hint>
+        <answer>
+          <p><m>(x + 3y - 5z)(x + 3y + 5z)</m></p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p><m>x - 8x^4</m></p>
+        </statement>
+        <hint>
+          <p>Common factor, then difference of cubes.</p>
+        </hint>
+        <answer>
+          <p><m>x(1-2x)(1+2x+4x^2)</m></p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p><m>4x^3-20x^2+25x</m></p>
+        </statement>
+        <hint>
+          <p>Common factor, then trinomial factoring (perfect square).</p>
+        </hint>
+        <answer>
+          <p><m>x (2x - 5)^2</m></p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p><m>2(5x+1)^2 - 18</m></p>
+        </statement>
+        <hint>
+          <p>Common factor, then difference of squares.</p>
+        </hint>
+        <answer>
+          <p><m>2(5x+4)(5x-2)</m></p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p><m>x^6 - 64</m></p>
+        </statement>
+        <hint>
+          <p>Difference of squares, difference of cubes, sum of cubes.</p>
+        </hint>
+        <answer>
+          <p><m>(x-2)(x^2+2x+4)(x+2)(x^2-2x+4)</m></p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p><m>6x^3 - 48x^2 + 90x</m></p>
+        </statement>
+        <hint>
+          <p>Common factor, then trinomial factoring.</p>
+        </hint>
+        <answer>
+          <p><m>6x(x - 3)(x - 5)</m></p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p><m>12x^3 - 3x^5</m></p>
+        </statement>
+        <hint>
+          <p>Common factor, then difference of squares.</p>
+        </hint>
+        <answer>
+          <p><m>3x^3(2-x)(2+x)</m></p>
+        </answer>
+      </task>
+    </project>
+
+    <project xml:id="project-advanced-factoring">
+      <title>Advanced Examples</title>
+      <introduction>
+        <p>Factor each polynomial.</p>
+      </introduction>
+      <task>
+        <statement>
+          <p><m>x^3 - 4x + 3</m></p>
+        </statement>
+        <hint>
+          <p><q>Force</q> a difference of cubes pattern by putting <m>-1</m> next to <m>x^3</m>.</p>
+        </hint>
+        <answer>
+          <p><m>(x-1)(x^2+x-3)</m></p>
+        </answer>
+      </task>
+    </project>
+  </subsection>
+
 </section>
