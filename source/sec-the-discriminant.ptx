@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-the-discriminant" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>The Discriminant</title>
+
+  <introduction>
+    <p>Sometimes, a quadratic equation has only 1 or 0 solutions.</p>
+        <example xml:id="ex-discriminant-one-solution">
+      <title>A Quadratic with One Solution</title>
+      <p>Solve <m>-2x^2+12x-18=0</m>. Using the quadratic formula, we have,</p>
+      <md>
+        <mrow>x \amp= \frac{-12 \pm \sqrt{12^2 - 4(-2)(-18)}}{2(-2)}</mrow>
+        <mrow>\amp= \frac{-12 \pm \sqrt{0}}{-4}</mrow>
+        <mrow>\amp= \frac{-12 \pm 0}{-4}</mrow>
+        <mrow>\amp= \frac{-12}{-4}</mrow>
+        <mrow>\amp= 3</mrow>
+      </md>
+      <p>Therefore, there is only 1 solution, <m>x = 3</m>. Notice that the part under the square root was 0 in this case, which caused the <q><m>\pm</m></q> to disappear, and led to 1 solution.</p>
+    </example>
+
+    <example xml:id="ex-discriminant-no-solution">
+      <title>A Quadratic with No Solutions</title>
+      <p>Solve <m>x^2 + 4x + 5 = 0</m>. Using the quadratic formula, we have,</p>
+      <md>
+        <mrow>x \amp= \frac{-4 \pm \sqrt{4^2 - 4(1)(5)}}{2(1)}</mrow>
+        <mrow>\amp= \frac{-4 \pm \sqrt{-4}}{2}</mrow>
+      </md>
+      <p>We can't take the square root of a negative number, so there are no solutions.</p>
+    </example>
+
+    <p>In general,</p>
+    <ul>
+      <li><p><em>0 solutions</em> if you try to use the quadratic formula and get a negative number under the square root.</p></li>
+      <li><p><em>1 solution</em> if you use the quadratic formula and get a 0 under the square root.</p></li>
+    </ul>
+
+    <p>In general, in the quadratic formula,</p>
+    <me>x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}</me>
+    <p>The expression under the square root sign, <m>b^2 - 4ac</m>, can tell you how many solutions there are.</p>
+
+    <ul>
+      <li><p>If <m>b^2 - 4ac \gt 0</m>, then there are two real solutions, given by the quadratic formula, one with the <m>+</m> sign and the other with the <m>-</m> sign. This is the <q>normal</q> case.</p></li>
+      <li><p>If instead, <m>b^2 - 4ac = 0</m>, then <m>\sqrt{b^2 - 4ac} = 0</m>, and the quadratic equation simplifies to <m>x = -\frac{b}{2a}</m>, a single (real) solution.</p></li>
+      <li><p>Finally, if <m>b^2 - 4ac \lt 0</m>, then we can't take the square root of a negative <m>\sqrt{b^2 - 4ac}</m>, so there are no solutions.</p></li>
+    </ul>
+
+    <p>This quantity <m>b^2 - 4ac</m> is called the <term>discriminant</term>.</p>
+  </introduction>
+
+  <subsection xml:id="subsec-discriminant-definition">
+    <title>Definition and Theorem</title>
+
+    <definition xml:id="def-discriminant">
+      <title>Discriminant</title>
+      <statement>
+        <p>The <term>discriminant</term> <m>D</m> of a quadratic expression <m>ax^2 + bx + c</m> is given by,</p>
+        <me>D = b^2 - 4ac</me>
+      </statement>
+    </definition>
+
+    <p>The discriminant is also sometimes denoted by the Greek letter delta <m>\Delta</m>, because delta and discriminant both start with <q>d</q>.</p>
+
+    <theorem xml:id="thm-discriminant">
+      <title>Discriminant and Number of Solutions</title>
+      <statement>
+        <p>Let <m>ax^2 + bx + c = 0</m> be a quadratic equation, <m>a \neq 0</m>, and let <m>D = b^2 - 4ac</m> be its discriminant.</p>
+        <ul>
+          <li><p>If <m>D \gt 0</m>, the equation has <em>2</em> solutions.</p></li>
+          <li><p>If <m>D = 0</m>, the equation has <em>1</em> (repeated) solution.</p></li>
+          <li><p>If <m>D \lt 0</m>, the equation has <em>0</em> solutions.</p></li>
+        </ul>
+      </statement>
+    </theorem>
+
+    <p>In this way, the discriminant quite literally helps us <q>discriminate</q> (in other words, distinguish apart) between the possible types of roots of an equation.</p>
+
+    <project xml:id="proj-discriminant-zeros">
+      <title>Determining Number of Zeros</title>
+      <introduction>
+        <p>Find the number of zeros of each quadratic function, using the discriminant.</p>
+      </introduction>
+      <task><statement><p><m>f(x) = 2x^2 - 6x - 7</m></p></statement><answer><p><m>D = 92 \gt 0</m>, two zeros</p></answer></task>
+      <task><statement><p><m>f(x) = 3x^2 + 2x + 7</m></p></statement><answer><p><m>D = -80 \lt 0</m>, no real zeros</p></answer></task>
+      <task><statement><p><m>f(x) = x^2 + 8x + 16</m></p></statement><answer><p><m>D = 0</m>, one zero</p></answer></task>
+      <task><statement><p><m>f(x) = 9x^2 - 14.4x + 5.76</m></p></statement><answer><p><m>D = 0</m>, one zero</p></answer></task>
+    </project>
+
+    <project xml:id="proj-discriminant-zeros-2">
+      <title>Determining Number of Zeros II</title>
+      <introduction>
+        <p>Find the value of the discriminant to determine the number of zeros of each quadratic function.</p>
+      </introduction>
+      <task><statement><p><m>f(x) = 2x^2 - 3x - 5</m></p></statement><answer><p><m>D = 49 \gt 0</m>, two zeros</p></answer></task>
+      <task><statement><p><m>f(x) = 4x^2 + 4x + 1</m></p></statement><answer><p><m>D = 0</m>, one zero</p></answer></task>
+      <task><statement><p><m>f(x) = -5x^2 + x - 2</m></p></statement><answer><p><m>D = -39 \lt 0</m>, no real zeros</p></answer></task>
+    </project>
+  </subsection>
+
+  <subsection xml:id="subsec-discriminant-examples">
+    <title>Examples</title>
+
+    <p>Don't forget, with inequalities, dividing by a negative means you flip the inequality sign!</p>
+
+    <example xml:id="ex-find-k-one-intercept">
+      <title>Finding k for One x-Intercept</title>
+      <statement>
+        <p>Find the value(s) of <m>k</m> such that the function <m>f(x) = 3x^2 - 4x + k</m> has one <m>x</m>-intercept.</p>
+      </statement>
+      <hint><p>Leads to <m>16 - 12k = 0</m>.</p></hint>
+      <answer><p><m>k = \frac{4}{3}</m></p></answer>
+    </example>
+
+    <example xml:id="ex-find-k-no-zeros">
+      <title>Finding k for No Zeros</title>
+      <statement>
+        <p>For what value(s) of <m>k</m> will the function <m>f(x) = kx^2 - 4x + k</m> have no zeros?</p>
+      </statement>
+      <hint><p>Leads to <m>16 - 4k^2 \lt 0</m>.</p></hint>
+      <answer><p><m>k \gt 2</m> or <m>k \lt -2</m></p></answer>
+    </example>
+
+    <example xml:id="ex-find-k-one-zero">
+      <title>Finding k for One Zero</title>
+      <statement>
+        <p>Determine the value of <m>k</m> so that the quadratic function <m>f(x) = x^2 - kx + 3</m> has only one zero.</p>
+      </statement>
+      <hint><p>Set <m>D = 0</m>.</p></hint>
+      <answer><p><m>k = \pm 2\sqrt{3}</m></p></answer>
+    </example>
+
+    <example xml:id="ex-find-k-all-cases">
+      <title>Finding k for All Cases</title>
+      <statement>
+        <p>For what values of <m>k</m> will the function <m>f(x) = 3x^2 + 4x + k</m> have no zeros, one zero, or two zeros?</p>
+      </statement>
+      <answer><p>Two zeros for <m>k \lt \frac{4}{3}</m>, one zero for <m>k = \frac{4}{3}</m>, and no zeros for <m>k \gt \frac{4}{3}</m>.</p></answer>
+    </example>
+
+    <example xml:id="ex-graph-touches-x-axis">
+      <title>Graph Touches x-Axis</title>
+      <statement>
+        <p>The graph of the function <m>f(x) = x^2 - kx + k + 8</m> touches the <m>x</m>-axis at one point. What are the possible values of <m>k</m>?</p>
+      </statement>
+      <hint><p>Leads to <m>k^2 - 4k - 32 = 0</m>.</p></hint>
+      <answer><p><m>k = 8, -4</m></p></answer>
+    </example>
+
+    <example xml:id="ex-break-even">
+      <title>Break-Even Analysis</title>
+      <statement>
+        <p>A market researcher predicted that the profit function for the first year of a new business would be <m>P(x) = -0.3x^2 + 3x - 15</m>, where <m>x</m> is based on the number of items produced. Will it be possible for the business to break even in its first year?</p>
+      </statement>
+      <hint><p>Break even means <m>P(x) = 0</m>.</p></hint>
+      <answer><p>No, because <m>D = -9 \lt 0</m>, so there are no zeros.</p></answer>
+    </example>
+
+    <example xml:id="ex-possible-equality">
+      <title>Is an Equality Possible?</title>
+      <statement>
+        <p>Is it possible for <m>n^2 + 25</m> to equal <m>-8n</m>?</p>
+      </statement>
+      <answer><p>No, because if <m>n^2 + 25 = -8n</m>, then <m>n^2 + 8n + 25 = 0</m>, and its discriminant is <m>-36 \lt 0</m>, so there are no solutions.</p></answer>
+    </example>
+
+    <example xml:id="ex-find-k-two-solutions">
+      <title>Finding k for Two Solutions</title>
+      <statement>
+        <p>Find the values of <m>k</m> such that the equation <m>-x^2-5x+2=k</m> has 2 solutions.</p>
+      </statement>
+      <answer><p><m>k \lt \frac{49}{4}</m></p></answer>
+    </example>
+
+    <example xml:id="ex-find-k-two-solutions-2">
+      <title>Finding k for Two Solutions II</title>
+      <statement>
+        <p>Find the values of <m>k</m> such that the equation <m>2x^2-2kx+4=0</m> has 2 solutions.</p>
+      </statement>
+      <answer><p><m>k \gt \sqrt{8}</m> or <m>k \lt -\sqrt{8}</m></p></answer>
+    </example>
+  </subsection>
+
+  <subsection xml:id="subsec-discriminant-factorable">
+    <title>Discriminant and Factorable Equations</title>
+
+    <p>We have seen that some quadratics are factorable, and some are not. Up to now, the only way to know if it isn't factorable is to try every combination and check it doesn't work. In fact, the discriminant also provides insight about this.</p>
+
+    <p>If the discriminant is positive and is a <em>perfect square</em> (that is, its square root is a rational number), then <m>\sqrt{b^2 - 4ac}</m> is rational, and this means that both solutions provided by the quadratic formula are rational. This means that the equation is factorable.</p>
+
+    <theorem xml:id="thm-discriminant-factorable">
+      <title>Discriminant and Rational Solutions</title>
+      <statement>
+        <p>Let <m>ax^2 + bx + c = 0</m> be a quadratic equation (with rational coefficients). If <m>b^2 - 4ac \gt 0</m> is a perfect square, then the equation has 2 rational solutions.</p>
+      </statement>
+    </theorem>
+
+    <example xml:id="ex-factorable-discriminant">
+      <title>Determining if Factorable</title>
+      <statement>
+        <p>Determine whether the quadratic equation <m>6x^2-13x+5=0</m> is factorable over the rational numbers, using the discriminant.</p>
+      </statement>
+      <answer><p>Yes, because the discriminant is <m>(-13)^2 - 4(6)(5) = 169 - 120 = 49</m>, which is a perfect square.</p></answer>
+    </example>
+  </subsection>
+
+</section>

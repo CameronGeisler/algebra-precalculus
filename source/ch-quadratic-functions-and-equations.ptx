@@ -16,6 +16,7 @@
   <xi:include href="./sec-advanced-polynomial-factoring.ptx" />
 
   <xi:include href="./sec-completing-the-square.ptx" />
+  <xi:include href="./sec-the-discriminant.ptx" />
 
   <xi:include href="./sec-word-problems-with-quadratics.ptx" />
 

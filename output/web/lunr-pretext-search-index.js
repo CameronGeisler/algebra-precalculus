@@ -403,7 +403,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.3",
   "title": "Factoring Special Patterns",
-  "body": " Factoring Special Patterns    Difference of Squares   Intro Examples  When multiplying two binomials that are almost the same, except for one having a positive sign and one having a negative, there is a special pattern. Observe the expansion,   Notice that the middle terms and cancel out.   In general, when expanding an expression of the form (where the two numbers are opposites of each other), the middle two terms always cancel out, because they are opposites of each other. The result is squared, minus the number squared.   In general,   This identity for expanding can be thought of in reverse, as an identity for factoring,   In other words, for an expression of the form (where there are two things being squared, and they're subtracted), it can be factored as . It's called difference of squares , difference because of the minus sign, and squares because both terms are perfect squares.   For example, is a difference of squares, because it's squared, and 9 is , so,     Factor Each Expression   Factor each expression.                                First factor out the common factor of 2.                            First factor out the common factor of 3.                 You can write the minus factor or the plus factor first. The order doesn't matter. For example,     Factor  Here, we have instead of . However, it is still a difference of squares, because and .   This basically means that we're applying the same difference of squares pattern , where and .   In general, difference of squares applies when:    There are two terms.    There is a minus sign between them.    Each term is a perfect square (the square of something).    A term is a perfect square if both its coefficient (the number part) and its variable part are perfect squares. In general, to figure out what goes in the brackets, rewrite each term as a square,    Ask: What squares to make the first term? This is the first thing in the brackets.    Ask: What squares to make the second term? This is the second thing in the brackets.    Then, write those two answers twice, one with a minus and one with a plus.     Factor Each Expression   Factor each expression.                                                                                                                                                            If an expression has only 2 terms, this is a good indicator that difference of squares could work.   Factor Each Expression Fully   Factor each expression fully.                                                                                                                                                     Factor Each Expression Fully   Factor each expression fully.                                                                                                                     Advanced Examples   Factor each expression fully.                                                     The sum of squares has no factorization pattern. In other words, there is no pattern for . For example, these have no factorization:               "
+  "body": " Factoring Special Patterns    Difference of Squares   Intro Examples  When multiplying two binomials that are almost the same, except for one having a positive sign and one having a negative, there is a special pattern. Observe the expansion,   Notice that the middle terms and cancel out.   In general, when expanding an expression of the form (where the two numbers are opposites of each other), the middle two terms always cancel out, because they are opposites of each other. The result is squared, minus the number squared.   In general,   This identity for expanding can be thought of in reverse, as an identity for factoring,   In other words, for an expression of the form (where there are two things being squared, and they're subtracted), it can be factored as . It's called difference of squares , difference because of the minus sign, and squares because both terms are perfect squares.   For example, is a difference of squares, because it's squared, and 9 is , so,     Factor Each Expression   Factor each expression.                 First factor out the common factor of 2.              First factor out the common factor of 3.          You can write the minus factor or the plus factor first. The order doesn't matter. For example,     Factor  Here, we have instead of . However, it is still a difference of squares, because and .   This basically means that we're applying the same difference of squares pattern , where and .   In general, difference of squares applies when:    There are two terms.    There is a minus sign between them.    Each term is a perfect square (the square of something).    A term is a perfect square if both its coefficient (the number part) and its variable part are perfect squares. In general, to figure out what goes in the brackets, rewrite each term as a square,    Ask: What squares to make the first term? This is the first thing in the brackets.    Ask: What squares to make the second term? This is the second thing in the brackets.    Then, write those two answers twice, one with a minus and one with a plus.     Factor Each Expression   Factor each expression.                                                                                If an expression has only 2 terms, this is a good indicator that difference of squares could work.   Factor Each Expression Fully   Factor each expression fully.                                                                             Factor Each Expression Fully   Factor each expression fully.                                                             Advanced Examples   Factor each expression fully.                             The sum of squares has no factorization pattern. In other words, there is no pattern for . For example, these have no factorization:                Perfect Square Trinomials  Another special pattern comes from expanding the square of a binomial.   Expanding Squares of Binomials   Consider these expansions,   Observe the pattern of the 3 resulting terms.   The 1st term is the square of the 1st term in the binomial.  The 3rd term is the square of the 2nd term in the binomial.  The middle (2nd) term is the product of the 2 terms in the binomial, multiplied by 2.     In general,   Also, if there is a negative number, we can say,   Reversing this identity gives a factoring identity for trinomials of this special form.    Factoring Perfect Square Trinomials I   Factor each perfect square trinomial.                        These are called perfect square trinomials , because they can be written as a perfect square. To recognize if it is one,   Are the 1st and 3rd terms squares?  Is the middle term double the product? Take the square roots of the first and last terms, multiply them together, and multiply by 2. If it matches the middle term, then it is a perfect square trinomial.   Sometimes, you must first factor out a GCF, before the remaining expression is a perfect square.   Factoring Perfect Square Trinomials II   Factor each expression fully.                                        Technically, recognizing perfect square trinomials is optional, since you could instead just factor it as a trinomial instead (for example, using the cross method). However, being able to recognize this pattern can save a bit of time from trial-and-error.   Factoring Perfect Square Trinomials III   Factor each expression fully.                         Completing a Perfect Square Trinomial (Middle Term)   Fill in the missing term to create a perfect square trinomial, and then factor it.                     Completing a Perfect Square Trinomial (Last Term)   Fill in the missing term to create a perfect square trinomial, and then factor it.                     "
 },
 {
   "id": "subsection-difference-of-squares-2",
@@ -430,7 +430,7 @@ var ptx_lunr_docs = [
   "type": "Exercise Group",
   "number": "3.3.1",
   "title": "Factor Each Expression.",
-  "body": " Factor Each Expression   Factor each expression.                                First factor out the common factor of 2.                            First factor out the common factor of 3.               "
+  "body": " Factor Each Expression   Factor each expression.                 First factor out the common factor of 2.              First factor out the common factor of 3.        "
 },
 {
   "id": "subsection-difference-of-squares-10",
@@ -457,7 +457,7 @@ var ptx_lunr_docs = [
   "type": "Exercise Group",
   "number": "3.3.2",
   "title": "Factor Each Expression.",
-  "body": " Factor Each Expression   Factor each expression.                                                                                                                                                           "
+  "body": " Factor Each Expression   Factor each expression.                                                                               "
 },
 {
   "id": "project-factor-fully",
@@ -466,7 +466,7 @@ var ptx_lunr_docs = [
   "type": "Exercise Group",
   "number": "3.3.3",
   "title": "Factor Each Expression Fully.",
-  "body": " Factor Each Expression Fully   Factor each expression fully.                                                                                                                                                   "
+  "body": " Factor Each Expression Fully   Factor each expression fully.                                                                           "
 },
 {
   "id": "project-factor-mixed",
@@ -475,7 +475,7 @@ var ptx_lunr_docs = [
   "type": "Exercise Group",
   "number": "3.3.4",
   "title": "Factor Each Expression Fully.",
-  "body": " Factor Each Expression Fully   Factor each expression fully.                                                                                                                   "
+  "body": " Factor Each Expression Fully   Factor each expression fully.                                                           "
 },
 {
   "id": "project-difference-of-squares-advanced-examples",
@@ -484,7 +484,7 @@ var ptx_lunr_docs = [
   "type": "Exercise Group",
   "number": "3.3.5",
   "title": "Advanced Examples.",
-  "body": " Advanced Examples   Factor each expression fully.                                                   "
+  "body": " Advanced Examples   Factor each expression fully.                           "
 },
 {
   "id": "subsection-difference-of-squares-21",
@@ -494,6 +494,69 @@ var ptx_lunr_docs = [
   "number": "3.3.5",
   "title": "",
   "body": " The sum of squares has no factorization pattern. In other words, there is no pattern for . For example, these have no factorization:             "
+},
+{
+  "id": "ex-perfect-square-expansion",
+  "level": "2",
+  "url": "sec-factoring-special-patterns.html#ex-perfect-square-expansion",
+  "type": "Example",
+  "number": "3.3.6",
+  "title": "Expanding Squares of Binomials.",
+  "body": " Expanding Squares of Binomials   Consider these expansions,   Observe the pattern of the 3 resulting terms.   The 1st term is the square of the 1st term in the binomial.  The 3rd term is the square of the 2nd term in the binomial.  The middle (2nd) term is the product of the 2 terms in the binomial, multiplied by 2.    "
+},
+{
+  "id": "project-factor-perfect-square-trinomials-1",
+  "level": "2",
+  "url": "sec-factoring-special-patterns.html#project-factor-perfect-square-trinomials-1",
+  "type": "Exercise Group",
+  "number": "3.3.6",
+  "title": "Factoring Perfect Square Trinomials I.",
+  "body": " Factoring Perfect Square Trinomials I   Factor each perfect square trinomial.                       "
+},
+{
+  "id": "subsection-perfect-square-trinomials-11",
+  "level": "2",
+  "url": "sec-factoring-special-patterns.html#subsection-perfect-square-trinomials-11",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "perfect square trinomials "
+},
+{
+  "id": "project-factor-perfect-square-trinomials-2",
+  "level": "2",
+  "url": "sec-factoring-special-patterns.html#project-factor-perfect-square-trinomials-2",
+  "type": "Exercise Group",
+  "number": "3.3.7",
+  "title": "Factoring Perfect Square Trinomials II.",
+  "body": " Factoring Perfect Square Trinomials II   Factor each expression fully.                                       "
+},
+{
+  "id": "project-factor-perfect-square-trinomials-3",
+  "level": "2",
+  "url": "sec-factoring-special-patterns.html#project-factor-perfect-square-trinomials-3",
+  "type": "Exercise Group",
+  "number": "3.3.8",
+  "title": "Factoring Perfect Square Trinomials III.",
+  "body": " Factoring Perfect Square Trinomials III   Factor each expression fully.                       "
+},
+{
+  "id": "project-complete-middle-term",
+  "level": "2",
+  "url": "sec-factoring-special-patterns.html#project-complete-middle-term",
+  "type": "Exercise Group",
+  "number": "3.3.9",
+  "title": "Completing a Perfect Square Trinomial (Middle Term).",
+  "body": " Completing a Perfect Square Trinomial (Middle Term)   Fill in the missing term to create a perfect square trinomial, and then factor it.                   "
+},
+{
+  "id": "project-complete-last-term",
+  "level": "2",
+  "url": "sec-factoring-special-patterns.html#project-complete-last-term",
+  "type": "Exercise Group",
+  "number": "3.3.10",
+  "title": "Completing a Perfect Square Trinomial (Last Term).",
+  "body": " Completing a Perfect Square Trinomial (Last Term)   Fill in the missing term to create a perfect square trinomial, and then factor it.                   "
 },
 {
   "id": "sec-solving-quadratic-equations-by-factoring",
@@ -556,7 +619,106 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.6",
   "title": "Advanced Polynomial Factoring",
-  "body": " Advanced Polynomial Factoring    Factoring Polynomials Flowchart Summary      "
+  "body": " Advanced Polynomial Factoring   Factoring Polynomials in Multiple Variables Using the Cross Method  The cross method still works, even if the polynomial has multiple variables.   Factoring Multivariable Polynomials   Factor each expression.                                                              Factor by Grouping  Some polynomials with 4 terms can be factored by grouping them into pairs of terms. This is a special technique.   Introduction to Factor by Grouping  Consider the polynomial . First, group the terms into the first 2 and last 2. Notice that first two terms have a common factor , and the last two terms have a common factor . Factoring out these common factors from both pairs,   Then, both terms have a common factor of ,   Then, we can factor it out, leaving and left,   This might seem a bit strange. However, factoring out works exactly the same as factoring out a single variable like .    Factoring out  Factoring out            What is common to both terms gets pulled out, and whatever is left behind stays inside the other bracket. If it helps, you can mentally substitute and it becomes the same problem.   In general,    Split the polynomial into 2 groups of terms (the first 2, and the last 2).    Factor out the GCF from each group.    If both groups now have the same binomial factor, then factor that common factor out.     Factor by Grouping Practice I   Factor each expression.                                                                                    Determining if a polynomial can be factored by grouping involves some intuition.    The polynomial must have 4 terms (not 3, or 2, like previous techniques). This is a good indicator it can be factored by grouping.    Then, roughly, if the first two terms look like the last two terms, then it probably can be factored by grouping.     Factor by Grouping Practice II   Factor each expression.                                                    In general, factor by grouping has the form:     Factoring a Sum or Difference of Cubes  There are also special factoring patterns for a difference of cubes, as well as a sum of cubes.        To verify that this identity is true, you can expand the right side, and check it is equivalent to the left side.   To help remember the pattern of the positive and negative signs, there is a mnemonic:   SOAP : s ame signs, o pposite signs, a lways p ositive.   For example,     Factoring Sum or Difference of Cubes   Factor each sum or difference of cubes.                                                                            These two identities can be summarized as,   where the operations on top all go together, and the bottom operations all go together.    Factoring Polynomials Flowchart Summary    (If necessary) Write the polynomial in descending power order.   e.g.     If there is a GCF, factor it out.   e.g.     How many terms does the polynomial have?    2 terms: Try factoring as a difference of squares, or a sum or difference of cubes,     3 terms:    , determine factors of (numbers which multiply to ) which add to   e.g.     , use the cross method (or box method, or -method)   e.g.     Ideally, recognize perfect square trinomials,       4 terms: factor by grouping (probably).   e.g.       Double-check if there are any factors with multiple terms that can be factored again. If so, factor completely.   e.g.          Mixed Examples   Mixed Factoring Practice   Factor each polynomial.        Common factor, then trinomial factoring.            Trinomial factoring, then difference of squares.            Common factor, then difference of cubes.            Common factor, then trinomial factoring (perfect square).            Common factor, then difference of squares.            Difference of squares, difference of cubes, sum of cubes.            Common factor, then trinomial factoring.            Common factor, then difference of squares.         Advanced Examples   Factor each polynomial.        Force a difference of cubes pattern by putting next to .         "
+},
+{
+  "id": "project-multivariable-cross-method",
+  "level": "2",
+  "url": "sec-advanced-polynomial-factoring.html#project-multivariable-cross-method",
+  "type": "Exercise Group",
+  "number": "3.6.1",
+  "title": "Factoring Multivariable Polynomials.",
+  "body": " Factoring Multivariable Polynomials   Factor each expression.                                                           "
+},
+{
+  "id": "example-factor-by-grouping-intro",
+  "level": "2",
+  "url": "sec-advanced-polynomial-factoring.html#example-factor-by-grouping-intro",
+  "type": "Example",
+  "number": "3.6.1",
+  "title": "Introduction to Factor by Grouping.",
+  "body": " Introduction to Factor by Grouping  Consider the polynomial . First, group the terms into the first 2 and last 2. Notice that first two terms have a common factor , and the last two terms have a common factor . Factoring out these common factors from both pairs,   Then, both terms have a common factor of ,   Then, we can factor it out, leaving and left,   This might seem a bit strange. However, factoring out works exactly the same as factoring out a single variable like .    Factoring out  Factoring out            What is common to both terms gets pulled out, and whatever is left behind stays inside the other bracket. If it helps, you can mentally substitute and it becomes the same problem.  "
+},
+{
+  "id": "project-factor-by-grouping-1",
+  "level": "2",
+  "url": "sec-advanced-polynomial-factoring.html#project-factor-by-grouping-1",
+  "type": "Exercise Group",
+  "number": "3.6.2",
+  "title": "Factor by Grouping Practice I.",
+  "body": " Factor by Grouping Practice I   Factor each expression.                                                                                   "
+},
+{
+  "id": "project-factor-by-grouping-2",
+  "level": "2",
+  "url": "sec-advanced-polynomial-factoring.html#project-factor-by-grouping-2",
+  "type": "Exercise Group",
+  "number": "3.6.3",
+  "title": "Factor by Grouping Practice II.",
+  "body": " Factor by Grouping Practice II   Factor each expression.                                                   "
+},
+{
+  "id": "thm-sum-difference-cubes",
+  "level": "2",
+  "url": "sec-advanced-polynomial-factoring.html#thm-sum-difference-cubes",
+  "type": "Theorem",
+  "number": "3.6.2",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "subsec-sum-difference-of-cubes-4",
+  "level": "2",
+  "url": "sec-advanced-polynomial-factoring.html#subsec-sum-difference-of-cubes-4",
+  "type": "Remark",
+  "number": "3.6.3",
+  "title": "",
+  "body": " To verify that this identity is true, you can expand the right side, and check it is equivalent to the left side.  "
+},
+{
+  "id": "subsec-sum-difference-of-cubes-6",
+  "level": "2",
+  "url": "sec-advanced-polynomial-factoring.html#subsec-sum-difference-of-cubes-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "SOAP s o a p "
+},
+{
+  "id": "example-difference-cubes-simple",
+  "level": "2",
+  "url": "sec-advanced-polynomial-factoring.html#example-difference-cubes-simple",
+  "type": "Example",
+  "number": "3.6.4",
+  "title": "",
+  "body": " For example,   "
+},
+{
+  "id": "project-sum-difference-cubes",
+  "level": "2",
+  "url": "sec-advanced-polynomial-factoring.html#project-sum-difference-cubes",
+  "type": "Exercise Group",
+  "number": "3.6.4",
+  "title": "Factoring Sum or Difference of Cubes.",
+  "body": " Factoring Sum or Difference of Cubes   Factor each sum or difference of cubes.                                                                           "
+},
+{
+  "id": "project-mixed-factoring",
+  "level": "2",
+  "url": "sec-advanced-polynomial-factoring.html#project-mixed-factoring",
+  "type": "Exercise Group",
+  "number": "3.6.5",
+  "title": "Mixed Factoring Practice.",
+  "body": " Mixed Factoring Practice   Factor each polynomial.        Common factor, then trinomial factoring.            Trinomial factoring, then difference of squares.            Common factor, then difference of cubes.            Common factor, then trinomial factoring (perfect square).            Common factor, then difference of squares.            Difference of squares, difference of cubes, sum of cubes.            Common factor, then trinomial factoring.            Common factor, then difference of squares.       "
+},
+{
+  "id": "project-advanced-factoring",
+  "level": "2",
+  "url": "sec-advanced-polynomial-factoring.html#project-advanced-factoring",
+  "type": "Exercise Group",
+  "number": "3.6.6",
+  "title": "Advanced Examples.",
+  "body": " Advanced Examples   Factor each polynomial.        Force a difference of cubes pattern by putting next to .       "
 },
 {
   "id": "sec-completing-the-square",
@@ -565,32 +727,383 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.7",
   "title": "Completing the Square",
-  "body": " Completing the Square    Converting to Vertex Form by Completing the Square   Converting to Vertex Form I   Find the vertex of each quadratic function, by completing the square to convert each to vertex form.     , vertex     , vertex     , vertex     , vertex     , vertex     , vertex     , vertex     , vertex     , vertex     , vertex     , vertex     Converting to Vertex Form II   Find the vertex of each quadratic function, by completing the square to convert each to vertex form.     , vertex     , vertex     , vertex     , vertex     , vertex     , vertex     , vertex     , vertex     , vertex     , vertex     , vertex     , vertex     "
+  "body": " Completing the Square   Solving by Completing the Square  So far, we have considered a few algebraic techniques to solve some kinds of quadratic equations:   Taking the square root of both sides.  Factoring.   However, in fact, many quadratic expressions are not factorable, and not nicely written as a square. In this case, we'll develop another technique, called completing the square .   Motivation for Completing the Square  Recall that we have solved quadratic equations of the form by taking the square root of both sides. For example, to solve ,   Therefore, if we could convert an equation to this form, we could solve it. To see how to do this, expand the left side first, and write it in standard form,   This means the equations and are equivalent. The expression can't be factored nicely (there are no factors of 4 that add up to ). However, observe that all of the algebra steps are reversible. That is,   This is a strategy to solve the equation. However, how would we know what number to add to the left-hand side? In other words, how would we know that we need so that can be rewritten as ? We need a number to add to to make it a perfect square.    Perfect Square Trinomial Pattern  Recall that a perfect square trinomial is one that can be factored as a square. For example,   Observe the pattern of how each left side and right side looks like. To go from the number in front of (the number), to the constant number, you need to divide by 2, and square it (multiply it by itself). Also, the number inside the brackets is just the half number (the number divided by 2).    For more about perfect square trinomials, see .   In general, for a perfect square trinomial of this form, the constant term is of the coefficient of the term, squared. In other words,   This means to get the correct constant term, take the coefficient of ,   Divide it by 2 (or take 1\/2 of it)  Square it.    Recognizing Perfect Square Trinomials   Find a number that makes the expression a perfect square of the form .                 Solve  The expression is not factorable, so we'll use this technique. First, move the constant to the other side,   Next, we want to add a number to both sides so that the left side becomes a perfect square trinomial. The coefficient of is 8. Half of 8 is 4, and . So we add 16 to both sides,   Now the left side is a perfect square trinomial, which factors as ,   Now we can use the square root property,   Therefore, or .   This process is called completing the square , because we are literally completing a perfect square by adding a number to it.   Solve  First, move the constant to the other side,   The coefficient of is 4. Half of 4 is 2, and . So we add 4 to both sides,   Now we need to take the square root of both sides. However, there is no real number whose square is , because the square of any real number is always positive (or 0). Therefore, there is no solution.   This gives a technique for solving quadratic equations:   Isolate the terms involving , by moving the constant to the other side.  Find , and add it to both sides of the equation.  Factor the perfect square trinomial.  Take square roots of both sides (don't forget )  Isolate for .    Solve by Completing the Square I   Solve each equation by completing the square.          no solution        Solve by Completing the Square II   Solve each equation by completing the square.        Solve  This equation could be solved by factoring, as,   However, completing the square also works in this simpler case. First, move the constant to the other side,   The coefficient of is . Half of is , and . So we add 9 to both sides,   Now the left side is a perfect square trinomial, which factors as ,   Now we can take the square root of both sides,   Therefore, or .    Solve  Notice here, the leading coefficient ( ) is not 1 (it is 2). In this case, first divide both sides by that number.   Now, we can complete the square just like before. Move the constant to the other side,   The coefficient of is . Half of is , and . So we add 4 to both sides,   Therefore, or .   In general, if the leading coefficient is not 1 (in other words, if ), then first divide by that number on both sides, and continue just like before.   Solve by Completing the Square III   Solve each equation by completing the square.   ( )  ( )  ( )  ( )  ( )  no solution  ( )   Summary of Solving by Completing the Square  In summary, completing the square is a general technique for solving quadratic equations, particularly those which can't be factored. It also works for equations which can be factored, but it is overkill (because factoring is easier).      Steps  Example: Solve    1. Move the constant to the other side.     2. If , divide both sides by .     3. Find , add it to both sides.     4. Factor the perfect square trinomial.     5. Take square roots (don't forget ).     6. Isolate .      You can check your final answers, by plugging them in for in the original equation, and seeing if both sides are equal.    Solve by Completing the Square IV   Solve each equation by completing the square.   ( )  ( )  ( )  ( )  no solution  ( )    Solve by Completing the Square V   Solve each equation by completing the square.   ( )  ( )  ( )  ( )  ( )  ( )  ( )  ( )  ( )     Converting to Vertex Form   Another application of completing the square is to convert a quadratic function from standard form to vertex form . This allows us to identify the vertex of the parabola.    Convert to Vertex Form  The key insight is that we can use the same completing the square technique, but on a function expression rather than an equation. The goal is to rewrite in the form .  We need to add a number to to make it a perfect square. Half of 6 is 3, and . But if we add 9, we must also subtract 9 to keep the expression equal:   The vertex is .    Convert to Vertex Form  When , we first factor out from the terms:   Now complete the square inside the parentheses. Half of is , and :   The vertex is .    Convert to Vertex Form  When is negative, we factor out the negative:   Complete the square inside. Half of is , and :   The vertex is .   The process is similar to solving equations, with a few key differences:   Factor out from the first two terms, and leave some space to add and subtract.  Complete the square inside the brackets.  If you factor out , you must add the constant inside the bracket, but you're really adding to the expression, so also subtract to maintain equality.  The final bracket inherits the sign from (if is positive, then positive; if is negative, then negative).    Converting to Vertex Form I   Find the vertex of each quadratic function, by completing the square to convert each to vertex form.   , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex    Converting to Vertex Form II   Find the vertex of each quadratic function, by completing the square to convert each to vertex form.   , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex   Summary of Converting to Vertex Form      Steps  Example:    1. Factor out from the first two terms.     2. Find where is the coefficient of inside.  Half of is , and    3. Add and subtract this number inside the parentheses.     4. Distribute the to the subtracted term.     5. Factor the perfect square and simplify.     6. Read off the vertex .  Vertex:     "
+},
+{
+  "id": "ex-completing-square-motivation",
+  "level": "2",
+  "url": "sec-completing-the-square.html#ex-completing-square-motivation",
+  "type": "Example",
+  "number": "3.7.1",
+  "title": "Motivation for Completing the Square.",
+  "body": " Motivation for Completing the Square  Recall that we have solved quadratic equations of the form by taking the square root of both sides. For example, to solve ,   Therefore, if we could convert an equation to this form, we could solve it. To see how to do this, expand the left side first, and write it in standard form,   This means the equations and are equivalent. The expression can't be factored nicely (there are no factors of 4 that add up to ). However, observe that all of the algebra steps are reversible. That is,   This is a strategy to solve the equation. However, how would we know what number to add to the left-hand side? In other words, how would we know that we need so that can be rewritten as ? We need a number to add to to make it a perfect square.  "
+},
+{
+  "id": "ex-perfect-square-trinomial-pattern",
+  "level": "2",
+  "url": "sec-completing-the-square.html#ex-perfect-square-trinomial-pattern",
+  "type": "Example",
+  "number": "3.7.2",
+  "title": "Perfect Square Trinomial Pattern.",
+  "body": " Perfect Square Trinomial Pattern  Recall that a perfect square trinomial is one that can be factored as a square. For example,   Observe the pattern of how each left side and right side looks like. To go from the number in front of (the number), to the constant number, you need to divide by 2, and square it (multiply it by itself). Also, the number inside the brackets is just the half number (the number divided by 2).  "
+},
+{
+  "id": "subsection-solving-by-completing-square-7",
+  "level": "2",
+  "url": "sec-completing-the-square.html#subsection-solving-by-completing-square-7",
+  "type": "Remark",
+  "number": "3.7.3",
+  "title": "",
+  "body": " For more about perfect square trinomials, see .  "
+},
+{
+  "id": "project-complete-square-pattern",
+  "level": "2",
+  "url": "sec-completing-the-square.html#project-complete-square-pattern",
+  "type": "Exercise Group",
+  "number": "3.7.1",
+  "title": "Recognizing Perfect Square Trinomials.",
+  "body": " Recognizing Perfect Square Trinomials   Find a number that makes the expression a perfect square of the form .               "
+},
+{
+  "id": "ex-completing-square-worked",
+  "level": "2",
+  "url": "sec-completing-the-square.html#ex-completing-square-worked",
+  "type": "Example",
+  "number": "3.7.4",
+  "title": "Solve <span class=\"process-math\">\\(x^2 + 8x + 5 = 0\\)<\/span>.",
+  "body": " Solve  The expression is not factorable, so we'll use this technique. First, move the constant to the other side,   Next, we want to add a number to both sides so that the left side becomes a perfect square trinomial. The coefficient of is 8. Half of 8 is 4, and . So we add 16 to both sides,   Now the left side is a perfect square trinomial, which factors as ,   Now we can use the square root property,   Therefore, or .  "
+},
+{
+  "id": "subsection-solving-by-completing-square-14",
+  "level": "2",
+  "url": "sec-completing-the-square.html#subsection-solving-by-completing-square-14",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "completing the square "
+},
+{
+  "id": "ex-completing-square-no-solution",
+  "level": "2",
+  "url": "sec-completing-the-square.html#ex-completing-square-no-solution",
+  "type": "Example",
+  "number": "3.7.5",
+  "title": "Solve <span class=\"process-math\">\\(x^2 + 4x + 7 = 0\\)<\/span>.",
+  "body": " Solve  First, move the constant to the other side,   The coefficient of is 4. Half of 4 is 2, and . So we add 4 to both sides,   Now we need to take the square root of both sides. However, there is no real number whose square is , because the square of any real number is always positive (or 0). Therefore, there is no solution.  "
+},
+{
+  "id": "project-solve-complete-square-1",
+  "level": "2",
+  "url": "sec-completing-the-square.html#project-solve-complete-square-1",
+  "type": "Exercise Group",
+  "number": "3.7.2",
+  "title": "Solve by Completing the Square I.",
+  "body": " Solve by Completing the Square I   Solve each equation by completing the square.          no solution      "
+},
+{
+  "id": "project-solve-complete-square-2",
+  "level": "2",
+  "url": "sec-completing-the-square.html#project-solve-complete-square-2",
+  "type": "Exercise Group",
+  "number": "3.7.3",
+  "title": "Solve by Completing the Square II.",
+  "body": " Solve by Completing the Square II   Solve each equation by completing the square.      "
+},
+{
+  "id": "ex-completing-square-factorable",
+  "level": "2",
+  "url": "sec-completing-the-square.html#ex-completing-square-factorable",
+  "type": "Example",
+  "number": "3.7.6",
+  "title": "Solve <span class=\"process-math\">\\(x^2 - 6x + 5 = 0\\)<\/span>.",
+  "body": " Solve  This equation could be solved by factoring, as,   However, completing the square also works in this simpler case. First, move the constant to the other side,   The coefficient of is . Half of is , and . So we add 9 to both sides,   Now the left side is a perfect square trinomial, which factors as ,   Now we can take the square root of both sides,   Therefore, or .  "
+},
+{
+  "id": "ex-completing-square-leading-coeff",
+  "level": "2",
+  "url": "sec-completing-the-square.html#ex-completing-square-leading-coeff",
+  "type": "Example",
+  "number": "3.7.7",
+  "title": "Solve <span class=\"process-math\">\\(2x^2 - 8x + 2 = 0\\)<\/span>.",
+  "body": " Solve  Notice here, the leading coefficient ( ) is not 1 (it is 2). In this case, first divide both sides by that number.   Now, we can complete the square just like before. Move the constant to the other side,   The coefficient of is . Half of is , and . So we add 4 to both sides,   Therefore, or .  "
+},
+{
+  "id": "project-solve-complete-square-3",
+  "level": "2",
+  "url": "sec-completing-the-square.html#project-solve-complete-square-3",
+  "type": "Exercise Group",
+  "number": "3.7.4",
+  "title": "Solve by Completing the Square III.",
+  "body": " Solve by Completing the Square III   Solve each equation by completing the square.   ( )  ( )  ( )  ( )  ( )  no solution  ( )  "
+},
+{
+  "id": "subsection-solving-by-completing-square-24",
+  "level": "2",
+  "url": "sec-completing-the-square.html#subsection-solving-by-completing-square-24",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Summary of Solving by Completing the Square "
+},
+{
+  "id": "subsection-solving-by-completing-square-27",
+  "level": "2",
+  "url": "sec-completing-the-square.html#subsection-solving-by-completing-square-27",
+  "type": "Remark",
+  "number": "3.7.8",
+  "title": "",
+  "body": " You can check your final answers, by plugging them in for in the original equation, and seeing if both sides are equal.  "
+},
+{
+  "id": "project-solve-complete-square-4",
+  "level": "2",
+  "url": "sec-completing-the-square.html#project-solve-complete-square-4",
+  "type": "Exercise Group",
+  "number": "3.7.5",
+  "title": "Solve by Completing the Square IV.",
+  "body": " Solve by Completing the Square IV   Solve each equation by completing the square.   ( )  ( )  ( )  ( )  no solution  ( )  "
+},
+{
+  "id": "project-solve-complete-square-5",
+  "level": "2",
+  "url": "sec-completing-the-square.html#project-solve-complete-square-5",
+  "type": "Exercise Group",
+  "number": "3.7.6",
+  "title": "Solve by Completing the Square V.",
+  "body": " Solve by Completing the Square V   Solve each equation by completing the square.   ( )  ( )  ( )  ( )  ( )  ( )  ( )  ( )  ( )  "
+},
+{
+  "id": "ex-vertex-form-intro-1",
+  "level": "2",
+  "url": "sec-completing-the-square.html#ex-vertex-form-intro-1",
+  "type": "Example",
+  "number": "3.7.9",
+  "title": "Convert <span class=\"process-math\">\\(f(x) = x^2 + 6x + 5\\)<\/span> to Vertex Form.",
+  "body": " Convert to Vertex Form  The key insight is that we can use the same completing the square technique, but on a function expression rather than an equation. The goal is to rewrite in the form .  We need to add a number to to make it a perfect square. Half of 6 is 3, and . But if we add 9, we must also subtract 9 to keep the expression equal:   The vertex is .  "
+},
+{
+  "id": "ex-vertex-form-intro-2",
+  "level": "2",
+  "url": "sec-completing-the-square.html#ex-vertex-form-intro-2",
+  "type": "Example",
+  "number": "3.7.10",
+  "title": "Convert <span class=\"process-math\">\\(f(x) = 2x^2 - 12x + 13\\)<\/span> to Vertex Form.",
+  "body": " Convert to Vertex Form  When , we first factor out from the terms:   Now complete the square inside the parentheses. Half of is , and :   The vertex is .  "
+},
+{
+  "id": "ex-vertex-form-intro-3",
+  "level": "2",
+  "url": "sec-completing-the-square.html#ex-vertex-form-intro-3",
+  "type": "Example",
+  "number": "3.7.11",
+  "title": "Convert <span class=\"process-math\">\\(f(x) = -x^2 + 4x + 1\\)<\/span> to Vertex Form.",
+  "body": " Convert to Vertex Form  When is negative, we factor out the negative:   Complete the square inside. Half of is , and :   The vertex is .  "
 },
 {
   "id": "project-vertex-form-1",
   "level": "2",
   "url": "sec-completing-the-square.html#project-vertex-form-1",
   "type": "Exercise Group",
-  "number": "3.7.1",
+  "number": "3.7.7",
   "title": "Converting to Vertex Form I.",
-  "body": " Converting to Vertex Form I   Find the vertex of each quadratic function, by completing the square to convert each to vertex form.     , vertex     , vertex     , vertex     , vertex     , vertex     , vertex     , vertex     , vertex     , vertex     , vertex     , vertex   "
+  "body": " Converting to Vertex Form I   Find the vertex of each quadratic function, by completing the square to convert each to vertex form.   , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  "
 },
 {
   "id": "project-vertex-form-2",
   "level": "2",
   "url": "sec-completing-the-square.html#project-vertex-form-2",
   "type": "Exercise Group",
-  "number": "3.7.2",
+  "number": "3.7.8",
   "title": "Converting to Vertex Form II.",
-  "body": " Converting to Vertex Form II   Find the vertex of each quadratic function, by completing the square to convert each to vertex form.     , vertex     , vertex     , vertex     , vertex     , vertex     , vertex     , vertex     , vertex     , vertex     , vertex     , vertex     , vertex   "
+  "body": " Converting to Vertex Form II   Find the vertex of each quadratic function, by completing the square to convert each to vertex form.   , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  , vertex  "
+},
+{
+  "id": "subsection-converting-vertex-form-10",
+  "level": "2",
+  "url": "sec-completing-the-square.html#subsection-converting-vertex-form-10",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Summary of Converting to Vertex Form "
+},
+{
+  "id": "sec-the-discriminant",
+  "level": "1",
+  "url": "sec-the-discriminant.html",
+  "type": "Section",
+  "number": "3.8",
+  "title": "The Discriminant",
+  "body": " The Discriminant   Sometimes, a quadratic equation has only 1 or 0 solutions.   A Quadratic with One Solution  Solve . Using the quadratic formula, we have,   Therefore, there is only 1 solution, . Notice that the part under the square root was 0 in this case, which caused the to disappear, and led to 1 solution.    A Quadratic with No Solutions  Solve . Using the quadratic formula, we have,   We can't take the square root of a negative number, so there are no solutions.   In general,   0 solutions if you try to use the quadratic formula and get a negative number under the square root.  1 solution if you use the quadratic formula and get a 0 under the square root.   In general, in the quadratic formula,   The expression under the square root sign, , can tell you how many solutions there are.   If , then there are two real solutions, given by the quadratic formula, one with the sign and the other with the sign. This is the normal case.  If instead, , then , and the quadratic equation simplifies to , a single (real) solution.  Finally, if , then we can't take the square root of a negative , so there are no solutions.   This quantity is called the discriminant .    Definition and Theorem   Discriminant   The discriminant  of a quadratic expression is given by,     The discriminant is also sometimes denoted by the Greek letter delta , because delta and discriminant both start with d .   Discriminant and Number of Solutions   Let be a quadratic equation, , and let be its discriminant.   If , the equation has 2 solutions.  If , the equation has 1 (repeated) solution.  If , the equation has 0 solutions.     In this way, the discriminant quite literally helps us discriminate (in other words, distinguish apart) between the possible types of roots of an equation.   Determining Number of Zeros   Find the number of zeros of each quadratic function, using the discriminant.   , two zeros  , no real zeros  , one zero  , one zero    Determining Number of Zeros II   Find the value of the discriminant to determine the number of zeros of each quadratic function.   , two zeros  , one zero  , no real zeros     Examples  Don't forget, with inequalities, dividing by a negative means you flip the inequality sign!   Finding k for One x-Intercept   Find the value(s) of such that the function has one -intercept.   Leads to .     Finding k for No Zeros   For what value(s) of will the function have no zeros?   Leads to .  or    Finding k for One Zero   Determine the value of so that the quadratic function has only one zero.   Set .     Finding k for All Cases   For what values of will the function have no zeros, one zero, or two zeros?   Two zeros for , one zero for , and no zeros for .    Graph Touches x-Axis   The graph of the function touches the -axis at one point. What are the possible values of ?   Leads to .     Break-Even Analysis   A market researcher predicted that the profit function for the first year of a new business would be , where is based on the number of items produced. Will it be possible for the business to break even in its first year?   Break even means .  No, because , so there are no zeros.    Is an Equality Possible?   Is it possible for to equal ?   No, because if , then , and its discriminant is , so there are no solutions.    Finding k for Two Solutions   Find the values of such that the equation has 2 solutions.      Finding k for Two Solutions II   Find the values of such that the equation has 2 solutions.   or     Discriminant and Factorable Equations  We have seen that some quadratics are factorable, and some are not. Up to now, the only way to know if it isn't factorable is to try every combination and check it doesn't work. In fact, the discriminant also provides insight about this.  If the discriminant is positive and is a perfect square (that is, its square root is a rational number), then is rational, and this means that both solutions provided by the quadratic formula are rational. This means that the equation is factorable.   Discriminant and Rational Solutions   Let be a quadratic equation (with rational coefficients). If is a perfect square, then the equation has 2 rational solutions.     Determining if Factorable   Determine whether the quadratic equation is factorable over the rational numbers, using the discriminant.   Yes, because the discriminant is , which is a perfect square.    "
+},
+{
+  "id": "ex-discriminant-one-solution",
+  "level": "2",
+  "url": "sec-the-discriminant.html#ex-discriminant-one-solution",
+  "type": "Example",
+  "number": "3.8.1",
+  "title": "A Quadratic with One Solution.",
+  "body": " A Quadratic with One Solution  Solve . Using the quadratic formula, we have,   Therefore, there is only 1 solution, . Notice that the part under the square root was 0 in this case, which caused the to disappear, and led to 1 solution.  "
+},
+{
+  "id": "ex-discriminant-no-solution",
+  "level": "2",
+  "url": "sec-the-discriminant.html#ex-discriminant-no-solution",
+  "type": "Example",
+  "number": "3.8.2",
+  "title": "A Quadratic with No Solutions.",
+  "body": " A Quadratic with No Solutions  Solve . Using the quadratic formula, we have,   We can't take the square root of a negative number, so there are no solutions.  "
+},
+{
+  "id": "sec-the-discriminant-2-10",
+  "level": "2",
+  "url": "sec-the-discriminant.html#sec-the-discriminant-2-10",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "discriminant "
+},
+{
+  "id": "def-discriminant",
+  "level": "2",
+  "url": "sec-the-discriminant.html#def-discriminant",
+  "type": "Definition",
+  "number": "3.8.3",
+  "title": "Discriminant.",
+  "body": " Discriminant   The discriminant  of a quadratic expression is given by,    "
+},
+{
+  "id": "thm-discriminant",
+  "level": "2",
+  "url": "sec-the-discriminant.html#thm-discriminant",
+  "type": "Theorem",
+  "number": "3.8.4",
+  "title": "Discriminant and Number of Solutions.",
+  "body": " Discriminant and Number of Solutions   Let be a quadratic equation, , and let be its discriminant.   If , the equation has 2 solutions.  If , the equation has 1 (repeated) solution.  If , the equation has 0 solutions.    "
+},
+{
+  "id": "proj-discriminant-zeros",
+  "level": "2",
+  "url": "sec-the-discriminant.html#proj-discriminant-zeros",
+  "type": "Exercise Group",
+  "number": "3.8.1",
+  "title": "Determining Number of Zeros.",
+  "body": " Determining Number of Zeros   Find the number of zeros of each quadratic function, using the discriminant.   , two zeros  , no real zeros  , one zero  , one zero  "
+},
+{
+  "id": "proj-discriminant-zeros-2",
+  "level": "2",
+  "url": "sec-the-discriminant.html#proj-discriminant-zeros-2",
+  "type": "Exercise Group",
+  "number": "3.8.2",
+  "title": "Determining Number of Zeros II.",
+  "body": " Determining Number of Zeros II   Find the value of the discriminant to determine the number of zeros of each quadratic function.   , two zeros  , one zero  , no real zeros  "
+},
+{
+  "id": "ex-find-k-one-intercept",
+  "level": "2",
+  "url": "sec-the-discriminant.html#ex-find-k-one-intercept",
+  "type": "Example",
+  "number": "3.8.5",
+  "title": "Finding k for One x-Intercept.",
+  "body": " Finding k for One x-Intercept   Find the value(s) of such that the function has one -intercept.   Leads to .   "
+},
+{
+  "id": "ex-find-k-no-zeros",
+  "level": "2",
+  "url": "sec-the-discriminant.html#ex-find-k-no-zeros",
+  "type": "Example",
+  "number": "3.8.6",
+  "title": "Finding k for No Zeros.",
+  "body": " Finding k for No Zeros   For what value(s) of will the function have no zeros?   Leads to .  or  "
+},
+{
+  "id": "ex-find-k-one-zero",
+  "level": "2",
+  "url": "sec-the-discriminant.html#ex-find-k-one-zero",
+  "type": "Example",
+  "number": "3.8.7",
+  "title": "Finding k for One Zero.",
+  "body": " Finding k for One Zero   Determine the value of so that the quadratic function has only one zero.   Set .   "
+},
+{
+  "id": "ex-find-k-all-cases",
+  "level": "2",
+  "url": "sec-the-discriminant.html#ex-find-k-all-cases",
+  "type": "Example",
+  "number": "3.8.8",
+  "title": "Finding k for All Cases.",
+  "body": " Finding k for All Cases   For what values of will the function have no zeros, one zero, or two zeros?   Two zeros for , one zero for , and no zeros for .  "
+},
+{
+  "id": "ex-graph-touches-x-axis",
+  "level": "2",
+  "url": "sec-the-discriminant.html#ex-graph-touches-x-axis",
+  "type": "Example",
+  "number": "3.8.9",
+  "title": "Graph Touches x-Axis.",
+  "body": " Graph Touches x-Axis   The graph of the function touches the -axis at one point. What are the possible values of ?   Leads to .   "
+},
+{
+  "id": "ex-break-even",
+  "level": "2",
+  "url": "sec-the-discriminant.html#ex-break-even",
+  "type": "Example",
+  "number": "3.8.10",
+  "title": "Break-Even Analysis.",
+  "body": " Break-Even Analysis   A market researcher predicted that the profit function for the first year of a new business would be , where is based on the number of items produced. Will it be possible for the business to break even in its first year?   Break even means .  No, because , so there are no zeros.  "
+},
+{
+  "id": "ex-possible-equality",
+  "level": "2",
+  "url": "sec-the-discriminant.html#ex-possible-equality",
+  "type": "Example",
+  "number": "3.8.11",
+  "title": "Is an Equality Possible?",
+  "body": " Is an Equality Possible?   Is it possible for to equal ?   No, because if , then , and its discriminant is , so there are no solutions.  "
+},
+{
+  "id": "ex-find-k-two-solutions",
+  "level": "2",
+  "url": "sec-the-discriminant.html#ex-find-k-two-solutions",
+  "type": "Example",
+  "number": "3.8.12",
+  "title": "Finding k for Two Solutions.",
+  "body": " Finding k for Two Solutions   Find the values of such that the equation has 2 solutions.    "
+},
+{
+  "id": "ex-find-k-two-solutions-2",
+  "level": "2",
+  "url": "sec-the-discriminant.html#ex-find-k-two-solutions-2",
+  "type": "Example",
+  "number": "3.8.13",
+  "title": "Finding k for Two Solutions II.",
+  "body": " Finding k for Two Solutions II   Find the values of such that the equation has 2 solutions.   or  "
+},
+{
+  "id": "thm-discriminant-factorable",
+  "level": "2",
+  "url": "sec-the-discriminant.html#thm-discriminant-factorable",
+  "type": "Theorem",
+  "number": "3.8.14",
+  "title": "Discriminant and Rational Solutions.",
+  "body": " Discriminant and Rational Solutions   Let be a quadratic equation (with rational coefficients). If is a perfect square, then the equation has 2 rational solutions.   "
+},
+{
+  "id": "ex-factorable-discriminant",
+  "level": "2",
+  "url": "sec-the-discriminant.html#ex-factorable-discriminant",
+  "type": "Example",
+  "number": "3.8.15",
+  "title": "Determining if Factorable.",
+  "body": " Determining if Factorable   Determine whether the quadratic equation is factorable over the rational numbers, using the discriminant.   Yes, because the discriminant is , which is a perfect square.  "
 },
 {
   "id": "sec-word-problems-with-quadratics",
   "level": "1",
   "url": "sec-word-problems-with-quadratics.html",
   "type": "Section",
-  "number": "3.8",
+  "number": "3.9",
   "title": "Word Problems with Quadratics",
   "body": " Word Problems with Quadratics    Maximize Product with Fixed Sum   Finding Two Numbers   Find the two numbers whose sum is 20 that produce the greatest possible product.  Intuitively, if two numbers have to add up to 20, then for example, if one of the numbers is 5, the other must be 15. If one is 8, then the other must be 12. In general, to get the 2nd number, take 20 minus the 1st number. We want to know which 2 numbers to pick so that their product (multiplying them together) is as big as possible. For example, let's try guessing and testing,    1 and 19 product of 19    5 and 15 product of 75 (bigger)    8 and 12 product of 96 (even bigger)    10 and 10 product of 100    If you choose the 1st number to be bigger, it repeats the same pattern. For example, 12 and 8 is the same as 8 and 12.    It seems like 10 and 10 gives the biggest product, but we can show this using algebra.    Let be the 1st number. Then, is the 2nd number, because they both must add up to 20. Their product (say, ) is,   We want the maximum of this function, which is its vertex. There are 2 approaches to find its vertex.    It's already in factored form, so its zeros are and . Therefore, its vertex is halfway between them at . Then, the 1st number should be 10 in order to maximize the product. Then, the 2nd number is also 10. The maximum product is .    Expand,   The vertex is at , so,   so the 1st number is 10, the 2nd number is 10, and the maximum product is 100.       Sum of 16   The sum of two numbers is 16. Find the largest possible product between these numbers.    Let the numbers be and , so .    The largest product is , obtained when the numbers are and .     Sum of 29   Two numbers have a sum of 29 and a product that is a maximum. Determine the two numbers and the maximum product.    If the numbers are and , then .    14.5 and 14.5, and the maximum product is .    In turns out that in general, if two numbers have a fixed sum, then their product will be largest when both numbers are exactly half of the sum. In other words, if the sum is , then both numbers should be .    Farmer Fence Problem (Maximizing Area with Fixed Perimeter)   Perimeter 36   Find the rectangle of maximum area that can be constructed with a perimeter of 36 cm.    If one side is , then .    The rectangle is 9 cm by 9 cm, with maximum area .     Fencing 120m   A rectangular play area is to be bounded by 120 m of fencing. Determine the maximum area and the dimensions of this rectangle.    Let the length be and width be . Then and .    The maximum area is 900 m with dimensions 30 m by 30 m.     Divided Area   A rectangular area is divided into 2 rectangles with 450 m of fencing used for the perimeter and the divider. What are the dimensions of the total maximum area?       .    The dimensions that maximize the total area are 75 m by 112.5 m.     Maria's Farm   Maria lives on a farm. She is planning to build an enclosure for her animals that is divided into three equal-sized sections. She has 280 m of fencing to use.     Find the maximum area she can enclose, and the dimensions that lead to the maximum area.    and .    , maximum area is with width 35 m and length 70 m.     Sheep Pen   The area of a rectangular sheep pen is 96 . The pen is divided into two smaller pens by inserting a fence parallel to the width of the pen. A total of 48 m of fencing is used. Determine the dimensions of the pen.    and .    Width 8 m and length 12 m.     Building Pen   A holding pen is being built alongside a long building. The pen requires only three fenced sides, with the building forming the fourth side. There is enough material for 90 m of fencing. Find the maximum possible area, and the dimensions which give the maximum area.    Let be the distance out from the building and be the side parallel to the building. Then and .    Maximum area of 1012.5 m , m, m.     3 Sides Fencing   A rectangular lot is bordered on one side by a building and the other 3 sides by 800 m of fencing. Determine the area of the largest lot possible.    Let the fenced length be and the width be . Then and .    The maximum area is m , achieved with m and m.     String Area   What is the maximum total area that 450 cm of string can enclose if it is used to form the perimeters of two adjoining rectangles as shown?       Let each rectangle have width and height . Then the string length is and the total area is .    cm and cm maximize the total area, and the maximum area is 8437.5 cm .     River Bank   A rancher has 800 m of fencing to enclose a rectangular cattle pen along a river bank. There is no fencing needed along the river bank. Find the dimensions that would enclose the largest area.       If is the width, then .    The maximum area occurs when m and the length is 400 m, so the pen should be 200 m by 400 m.     River Feedlot   A cattle ranch with 6000 metres of fencing wants to enclose a rectangular feedlot that borders on a river. If the cattle will not go into the river, what is the largest area that can be enclosed?    If is the width, then .    The largest area is , with dimensions 1500 m by 3000 m.     Two Corrals   A rancher has 1200 m of fencing to enclose two adjacent rectangular corrals. What dimensions will produce a maximum enclosed area if the common sides are of equal length?    Let be the common side length and be the other side length of each corral. Then and .    Each corral should be 150 m by 200 m.     Complex Fencing   A set of fenced-in areas, as shown in the diagram, is being planned on an open field. A total of 900 m of fencing is available. What measurements will maximize the overall area of the entire enclosure?       With heights labeled and widths labeled in the diagram, the fencing constraint is and the total area is .    m and m maximize the area. The overall enclosure is m wide and m tall, and the maximum total area is 22500 m .     Barn Corral   An equestrian club wants to construct a corral next to a barn, using the side of the barn as part of one side of the corral. The side of the barn is 60 ft long, and the club has 300 ft of fencing for the other three sides. Find the dimensions that give the maximum area.       , so .    90 ft by 90 ft, maximum area of 8100 ft .      Maximizing Revenue with Price Change Problems   Bus Fare   A bus company has 4000 passengers daily, each paying a fare of $2. For each $0.15 increase, the company estimates that it will lose 40 passengers per day. If the company needs to take in $10,450 per day to stay in business, what fare should be charged?    if is the number of $0.15 increases, then .    $2.75.     Concert Promoter   A concert promoter is planning the ticket price for an upcoming concert. At the previous concert, she charged $70 and sold 2000 tickets. She estimates that for every $1 decrease in price, she will sell 50 more tickets. Find the maximum revenue the promoter can expect, what ticket price will give that revenue, and how many tickets will be sold.    if is the number of $1 decreases, then .    Maximum revenue is $151250 at a $55 ticket price, selling 2750 tickets.     Photographer   A student council is planning a fundraising event with a photographer. Last year, they charged $10 per session and booked 400 sessions. They estimate that every $1 increase in price will reduce the number of sessions by 20. Find the maximum revenue they can expect, and what session fee will give that maximum.    if is the number of $1 increases in price, then .    Maximum revenue is $4500 at a $15 session fee.     Bike Store   A bike store manager is setting the price for a new model. If he sets the price at $360, he expects to sell 280 bikes. For every $10 increase, he expects to sell 5 fewer bikes. Find the maximum revenue that the manager can expect, and the price that will give that maximum.    .    Maximum revenue is $105800 at a $460 price.     Pea Yield   A gardener is planting peas in a field. Last year he planted 30 rows and obtained 4000 g of peas per row. He estimates that each additional row will reduce yield per row by 100 g. Find the maximum mass of peas the field can produce, and the number of rows that will yield that maximum.    .    Maximum production is 122500 g (or 122.5 kg) at 35 rows.     School Dance   A ticket to a school dance is $8. Usually, 300 students attend. The dance committee knows that for every $1 increase in the price of a ticket, 30 fewer students attend the dance. Find the ticket price that will maximize the revenue.    Let be the number of $1 increases. Then .    The revenue is maximized when , so the ticket price should be $9.     Bolts Revenue   A company sells bolts for 95 cents each and sells about 10,000 bolts per month. Market research indicates that for every 15 cents increase in price, the company will sell 500 fewer bolts. Find the price of a bolt that will maximize the revenue, and the maximum revenue. Assume the number of 15-cent increases must be a whole number.    .    $2.00 per bolt, giving a revenue of $13,000 per month.     Hotel Room Rate   A 400 room hotel is three-quarters full when the room rate is an average of $80.00 per night. A survey shows that each $5.00 increase in cost will result in 10 fewer rooms occupied. Find the nightly rate and number of rooms occupied that will maximize income.    Let be the number of $5 increases, then .    The maximum income occurs at , so the nightly rate should be $115.00 and 230 rooms should be occupied (maximum income $26,450).     Fish and Game Club   Semiahmoo Fish and Game Club charges its members $200 per year. For each increase over 60 members, the membership cost is decreased by $2. What number of members would produce the maximum revenue for the club?    Let be the number of members over 60. Then .    80 members.     School Play   A school play charges $10 for admission, and on average 80 people attend each show. For each $1 increase, attendance drops by 5 people. Find the price the school should charge to maximize revenue.    Let be the number of $1 increases, then .    The school should charge $13.     Software Sales   When priced at $10, one type of software has annual sales of 500 units. For each dollar the software is increased in price, the store expects to lose sales of 10 units of software. Find the price that will maximize the total revenue.    Let be the number of $1 increases. Then .    $30.     Minibus Trip   It costs a bus company $225 to run a minibus on a ski trip, plus $30 per passenger. The bus has seating for 22 passengers, and the company charges $60 per person if the bus is full. For each empty seat, the company has to increase the ticket price by $5. How many empty seats should the bus run with to maximize profit from this trip?    Let be the number of empty seats. Then profit is .    The profit is maximized when there are 8 empty seats.      Number Problems   Squares Sum   The sum of the squares of two consecutive integers is 685. What could the integers be? List all possibilities.    If the first integer is , then .    18 and 19, or and .     Sum 20 Product 84   Two numbers have a sum of 20 and a product of 84. Use a quadratic equation to determine the numbers.    Let one number be , then the other number is , so .    The numbers are 6 and 14.     Difference 18   Two numbers have a difference of 18. The sum of their squares is a minimum. Determine the numbers.    Let one number be . Then the other is and .    The numbers are and 9.     Square Added   When the square of a number is added to the number, the sum is 3. Find the possible numbers.    .    or .     Difference 13   Two numbers have a difference of 13 and a product that is a minimum. Determine the two numbers and the minimum product.    If the numbers are and , then .    and , and the minimum product is .     Sum 10   The sum of two integers is 10, and the sum of their squares is a minimum. Find the integers.    If the integers are and , minimize .    5 and 5.     Difference 6   Two numbers have a difference of 6 and their product is a minimum. Determine the numbers.    Let one number be . Then the other is and .    and 3.     Difference 8   Find the minimum product of two numbers that differ by 8, and find the numbers.    Let the numbers be and , so .    Minimum product is , from and 4.      Area Geometry Problems   Rectangle 330   A rectangle has an area of 330 m . One side is 7 m longer than the other. What are the dimensions of the rectangle?    If the shorter side is meters, then .    The rectangle is 15 m by 22 m.     Garden Path   A rectangular garden has dimensions 3 m by 4 m. A path is built around the garden. The area of the garden and path is 6 times as great as the area of the garden. What is the width of the path?    .    Width of the path is 2.5 m.     Josie’s Garden   Josie’s rectangular garden measures 9 m by 13 m. She wants to double the area of her garden by adding equal lengths to both dimensions. Determine this length to the nearest centimetre.    .    The length added is m.     Triangle 96   A right triangle has a height 8 cm more than twice the length of the base. If the area of the triangle is , what are the dimensions of the triangle?    If the base is , then the height is , so .    Base is 8 cm, height is 24 cm.     Right Triangle Legs   A right triangle has one leg that is 1 less than 3 times the other leg, and the hypotenuse is 1 more than 3 times that same leg. Find the side lengths of the triangle.    if the leg is , then the other leg is , and the hypotenuse is , then .    12, 35, and 37.     Three Rods   Three rods measure 20 cm, 41 cm, and 44 cm. If the same length is cut off each piece, the remaining lengths can be formed into a right triangle. What length is cut off?    5 cm.     Factory Lawn   A factory is to be built on a lot that measures 80 m by 60 m. A lawn of uniform width, with area equal to the area of the factory, must surround it. How wide is the strip of lawn, and what are the dimensions of the factory?       If the lawn width is m, then .    The lawn is 10 m wide, and the factory dimensions are 60 m by 40 m.     Diagonal 17   The diagonal of a rectangle is 17 cm long. The rectangle is 7 cm longer than it is wide. What are the dimensions of the rectangle?    Let the width be . Then the length is and .    8 cm by 15 cm.     Rectangle 180   A rectangle's length is 3 meters longer than its width, and its area is 180 m . Determine the dimensions of the rectangle.    If the width is meters, then .    12 m by 15 m.     Mowing Strip   Jackie mows a strip of uniform width around her 25 m by 15 m rectangular lawn and leaves a patch of lawn that is 60% of the original area. What is the width of the strip?    If the strip has width meters, then the remaining lawn is m by m and .    Strip width is about 2.1 m.     Matting   Brian is placing a photograph behind a 12-in. by 12-in. piece of matting. He positions the photograph so the matting is twice as wide at the top and bottom as it is at the sides. The visible area of the photograph is 54 sq. in. What are the dimensions of the photograph?    if is the width of the matting at the sides, then .    Width is 9 in, height is 6 in.     Rectangle 40   A rectangle has an area of 40 cm , and its length is 1 cm less than twice its width. Find its dimensions, and round your answers to the nearest tenth.    If the width be . Then the length is and .    4.7 cm by 8.5 cm.     Perimeter 60   The perimeter of a right triangle is 60 cm. The length of the hypotenuse is 6 cm more than twice the length of one of the other sides. Find the lengths of all three sides.    and , and also .    10 cm, 24 cm, 26 cm.     Track Field   A high school is planning to build a new playing field surrounded by a running track. The track coach wants two laps around the track to be 1000 m. The football coach wants the rectangular infield area to be as large as possible. Can both coaches be satisfied. Explain your answer.       One lap is 500 m, so , and the rectangular infield area is .    Yes. With , the infield area is , which is maximized at and . So the largest rectangular infield is m by m, with maximum area .     "
 },
@@ -599,7 +1112,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-maximize-product-2",
   "type": "Example",
-  "number": "3.8.1",
+  "number": "3.9.1",
   "title": "Finding Two Numbers.",
   "body": " Finding Two Numbers   Find the two numbers whose sum is 20 that produce the greatest possible product.  Intuitively, if two numbers have to add up to 20, then for example, if one of the numbers is 5, the other must be 15. If one is 8, then the other must be 12. In general, to get the 2nd number, take 20 minus the 1st number. We want to know which 2 numbers to pick so that their product (multiplying them together) is as big as possible. For example, let's try guessing and testing,    1 and 19 product of 19    5 and 15 product of 75 (bigger)    8 and 12 product of 96 (even bigger)    10 and 10 product of 100    If you choose the 1st number to be bigger, it repeats the same pattern. For example, 12 and 8 is the same as 8 and 12.    It seems like 10 and 10 gives the biggest product, but we can show this using algebra.    Let be the 1st number. Then, is the 2nd number, because they both must add up to 20. Their product (say, ) is,   We want the maximum of this function, which is its vertex. There are 2 approaches to find its vertex.    It's already in factored form, so its zeros are and . Therefore, its vertex is halfway between them at . Then, the 1st number should be 10 in order to maximize the product. Then, the 2nd number is also 10. The maximum product is .    Expand,   The vertex is at , so,   so the 1st number is 10, the 2nd number is 10, and the maximum product is 100.     "
 },
@@ -608,7 +1121,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-maximize-product-3",
   "type": "Checkpoint",
-  "number": "3.8.2",
+  "number": "3.9.2",
   "title": "Sum of 16.",
   "body": " Sum of 16   The sum of two numbers is 16. Find the largest possible product between these numbers.    Let the numbers be and , so .    The largest product is , obtained when the numbers are and .   "
 },
@@ -617,7 +1130,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-maximize-product-4",
   "type": "Checkpoint",
-  "number": "3.8.3",
+  "number": "3.9.3",
   "title": "Sum of 29.",
   "body": " Sum of 29   Two numbers have a sum of 29 and a product that is a maximum. Determine the two numbers and the maximum product.    If the numbers are and , then .    14.5 and 14.5, and the maximum product is .   "
 },
@@ -626,7 +1139,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-farmer-fence-2",
   "type": "Checkpoint",
-  "number": "3.8.4",
+  "number": "3.9.4",
   "title": "Perimeter 36.",
   "body": " Perimeter 36   Find the rectangle of maximum area that can be constructed with a perimeter of 36 cm.    If one side is , then .    The rectangle is 9 cm by 9 cm, with maximum area .   "
 },
@@ -635,7 +1148,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-farmer-fence-3",
   "type": "Checkpoint",
-  "number": "3.8.5",
+  "number": "3.9.5",
   "title": "Fencing 120m.",
   "body": " Fencing 120m   A rectangular play area is to be bounded by 120 m of fencing. Determine the maximum area and the dimensions of this rectangle.    Let the length be and width be . Then and .    The maximum area is 900 m with dimensions 30 m by 30 m.   "
 },
@@ -644,7 +1157,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-farmer-fence-4",
   "type": "Checkpoint",
-  "number": "3.8.6",
+  "number": "3.9.6",
   "title": "Divided Area.",
   "body": " Divided Area   A rectangular area is divided into 2 rectangles with 450 m of fencing used for the perimeter and the divider. What are the dimensions of the total maximum area?       .    The dimensions that maximize the total area are 75 m by 112.5 m.   "
 },
@@ -653,7 +1166,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-farmer-fence-5",
   "type": "Checkpoint",
-  "number": "3.8.7",
+  "number": "3.9.7",
   "title": "Maria’s Farm.",
   "body": " Maria's Farm   Maria lives on a farm. She is planning to build an enclosure for her animals that is divided into three equal-sized sections. She has 280 m of fencing to use.     Find the maximum area she can enclose, and the dimensions that lead to the maximum area.    and .    , maximum area is with width 35 m and length 70 m.   "
 },
@@ -662,7 +1175,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-farmer-fence-6",
   "type": "Checkpoint",
-  "number": "3.8.8",
+  "number": "3.9.8",
   "title": "Sheep Pen.",
   "body": " Sheep Pen   The area of a rectangular sheep pen is 96 . The pen is divided into two smaller pens by inserting a fence parallel to the width of the pen. A total of 48 m of fencing is used. Determine the dimensions of the pen.    and .    Width 8 m and length 12 m.   "
 },
@@ -671,7 +1184,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-farmer-fence-7",
   "type": "Checkpoint",
-  "number": "3.8.9",
+  "number": "3.9.9",
   "title": "Building Pen.",
   "body": " Building Pen   A holding pen is being built alongside a long building. The pen requires only three fenced sides, with the building forming the fourth side. There is enough material for 90 m of fencing. Find the maximum possible area, and the dimensions which give the maximum area.    Let be the distance out from the building and be the side parallel to the building. Then and .    Maximum area of 1012.5 m , m, m.   "
 },
@@ -680,7 +1193,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-farmer-fence-8",
   "type": "Checkpoint",
-  "number": "3.8.10",
+  "number": "3.9.10",
   "title": "3 Sides Fencing.",
   "body": " 3 Sides Fencing   A rectangular lot is bordered on one side by a building and the other 3 sides by 800 m of fencing. Determine the area of the largest lot possible.    Let the fenced length be and the width be . Then and .    The maximum area is m , achieved with m and m.   "
 },
@@ -689,7 +1202,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-farmer-fence-9",
   "type": "Checkpoint",
-  "number": "3.8.11",
+  "number": "3.9.11",
   "title": "String Area.",
   "body": " String Area   What is the maximum total area that 450 cm of string can enclose if it is used to form the perimeters of two adjoining rectangles as shown?       Let each rectangle have width and height . Then the string length is and the total area is .    cm and cm maximize the total area, and the maximum area is 8437.5 cm .   "
 },
@@ -698,7 +1211,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-farmer-fence-10",
   "type": "Checkpoint",
-  "number": "3.8.12",
+  "number": "3.9.12",
   "title": "River Bank.",
   "body": " River Bank   A rancher has 800 m of fencing to enclose a rectangular cattle pen along a river bank. There is no fencing needed along the river bank. Find the dimensions that would enclose the largest area.       If is the width, then .    The maximum area occurs when m and the length is 400 m, so the pen should be 200 m by 400 m.   "
 },
@@ -707,7 +1220,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-farmer-fence-11",
   "type": "Checkpoint",
-  "number": "3.8.13",
+  "number": "3.9.13",
   "title": "River Feedlot.",
   "body": " River Feedlot   A cattle ranch with 6000 metres of fencing wants to enclose a rectangular feedlot that borders on a river. If the cattle will not go into the river, what is the largest area that can be enclosed?    If is the width, then .    The largest area is , with dimensions 1500 m by 3000 m.   "
 },
@@ -716,7 +1229,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-farmer-fence-12",
   "type": "Checkpoint",
-  "number": "3.8.14",
+  "number": "3.9.14",
   "title": "Two Corrals.",
   "body": " Two Corrals   A rancher has 1200 m of fencing to enclose two adjacent rectangular corrals. What dimensions will produce a maximum enclosed area if the common sides are of equal length?    Let be the common side length and be the other side length of each corral. Then and .    Each corral should be 150 m by 200 m.   "
 },
@@ -725,7 +1238,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-farmer-fence-13",
   "type": "Checkpoint",
-  "number": "3.8.15",
+  "number": "3.9.15",
   "title": "Complex Fencing.",
   "body": " Complex Fencing   A set of fenced-in areas, as shown in the diagram, is being planned on an open field. A total of 900 m of fencing is available. What measurements will maximize the overall area of the entire enclosure?       With heights labeled and widths labeled in the diagram, the fencing constraint is and the total area is .    m and m maximize the area. The overall enclosure is m wide and m tall, and the maximum total area is 22500 m .   "
 },
@@ -734,7 +1247,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-farmer-fence-14",
   "type": "Checkpoint",
-  "number": "3.8.16",
+  "number": "3.9.16",
   "title": "Barn Corral.",
   "body": " Barn Corral   An equestrian club wants to construct a corral next to a barn, using the side of the barn as part of one side of the corral. The side of the barn is 60 ft long, and the club has 300 ft of fencing for the other three sides. Find the dimensions that give the maximum area.       , so .    90 ft by 90 ft, maximum area of 8100 ft .   "
 },
@@ -743,7 +1256,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-max-revenue-2",
   "type": "Checkpoint",
-  "number": "3.8.17",
+  "number": "3.9.17",
   "title": "Bus Fare.",
   "body": " Bus Fare   A bus company has 4000 passengers daily, each paying a fare of $2. For each $0.15 increase, the company estimates that it will lose 40 passengers per day. If the company needs to take in $10,450 per day to stay in business, what fare should be charged?    if is the number of $0.15 increases, then .    $2.75.   "
 },
@@ -752,7 +1265,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-max-revenue-3",
   "type": "Checkpoint",
-  "number": "3.8.18",
+  "number": "3.9.18",
   "title": "Concert Promoter.",
   "body": " Concert Promoter   A concert promoter is planning the ticket price for an upcoming concert. At the previous concert, she charged $70 and sold 2000 tickets. She estimates that for every $1 decrease in price, she will sell 50 more tickets. Find the maximum revenue the promoter can expect, what ticket price will give that revenue, and how many tickets will be sold.    if is the number of $1 decreases, then .    Maximum revenue is $151250 at a $55 ticket price, selling 2750 tickets.   "
 },
@@ -761,7 +1274,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-max-revenue-4",
   "type": "Checkpoint",
-  "number": "3.8.19",
+  "number": "3.9.19",
   "title": "Photographer.",
   "body": " Photographer   A student council is planning a fundraising event with a photographer. Last year, they charged $10 per session and booked 400 sessions. They estimate that every $1 increase in price will reduce the number of sessions by 20. Find the maximum revenue they can expect, and what session fee will give that maximum.    if is the number of $1 increases in price, then .    Maximum revenue is $4500 at a $15 session fee.   "
 },
@@ -770,7 +1283,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-max-revenue-5",
   "type": "Checkpoint",
-  "number": "3.8.20",
+  "number": "3.9.20",
   "title": "Bike Store.",
   "body": " Bike Store   A bike store manager is setting the price for a new model. If he sets the price at $360, he expects to sell 280 bikes. For every $10 increase, he expects to sell 5 fewer bikes. Find the maximum revenue that the manager can expect, and the price that will give that maximum.    .    Maximum revenue is $105800 at a $460 price.   "
 },
@@ -779,7 +1292,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-max-revenue-6",
   "type": "Checkpoint",
-  "number": "3.8.21",
+  "number": "3.9.21",
   "title": "Pea Yield.",
   "body": " Pea Yield   A gardener is planting peas in a field. Last year he planted 30 rows and obtained 4000 g of peas per row. He estimates that each additional row will reduce yield per row by 100 g. Find the maximum mass of peas the field can produce, and the number of rows that will yield that maximum.    .    Maximum production is 122500 g (or 122.5 kg) at 35 rows.   "
 },
@@ -788,7 +1301,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-max-revenue-7",
   "type": "Checkpoint",
-  "number": "3.8.22",
+  "number": "3.9.22",
   "title": "School Dance.",
   "body": " School Dance   A ticket to a school dance is $8. Usually, 300 students attend. The dance committee knows that for every $1 increase in the price of a ticket, 30 fewer students attend the dance. Find the ticket price that will maximize the revenue.    Let be the number of $1 increases. Then .    The revenue is maximized when , so the ticket price should be $9.   "
 },
@@ -797,7 +1310,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-max-revenue-8",
   "type": "Checkpoint",
-  "number": "3.8.23",
+  "number": "3.9.23",
   "title": "Bolts Revenue.",
   "body": " Bolts Revenue   A company sells bolts for 95 cents each and sells about 10,000 bolts per month. Market research indicates that for every 15 cents increase in price, the company will sell 500 fewer bolts. Find the price of a bolt that will maximize the revenue, and the maximum revenue. Assume the number of 15-cent increases must be a whole number.    .    $2.00 per bolt, giving a revenue of $13,000 per month.   "
 },
@@ -806,7 +1319,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-max-revenue-9",
   "type": "Checkpoint",
-  "number": "3.8.24",
+  "number": "3.9.24",
   "title": "Hotel Room Rate.",
   "body": " Hotel Room Rate   A 400 room hotel is three-quarters full when the room rate is an average of $80.00 per night. A survey shows that each $5.00 increase in cost will result in 10 fewer rooms occupied. Find the nightly rate and number of rooms occupied that will maximize income.    Let be the number of $5 increases, then .    The maximum income occurs at , so the nightly rate should be $115.00 and 230 rooms should be occupied (maximum income $26,450).   "
 },
@@ -815,7 +1328,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-max-revenue-10",
   "type": "Checkpoint",
-  "number": "3.8.25",
+  "number": "3.9.25",
   "title": "Fish and Game Club.",
   "body": " Fish and Game Club   Semiahmoo Fish and Game Club charges its members $200 per year. For each increase over 60 members, the membership cost is decreased by $2. What number of members would produce the maximum revenue for the club?    Let be the number of members over 60. Then .    80 members.   "
 },
@@ -824,7 +1337,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-max-revenue-11",
   "type": "Checkpoint",
-  "number": "3.8.26",
+  "number": "3.9.26",
   "title": "School Play.",
   "body": " School Play   A school play charges $10 for admission, and on average 80 people attend each show. For each $1 increase, attendance drops by 5 people. Find the price the school should charge to maximize revenue.    Let be the number of $1 increases, then .    The school should charge $13.   "
 },
@@ -833,7 +1346,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-max-revenue-12",
   "type": "Checkpoint",
-  "number": "3.8.27",
+  "number": "3.9.27",
   "title": "Software Sales.",
   "body": " Software Sales   When priced at $10, one type of software has annual sales of 500 units. For each dollar the software is increased in price, the store expects to lose sales of 10 units of software. Find the price that will maximize the total revenue.    Let be the number of $1 increases. Then .    $30.   "
 },
@@ -842,7 +1355,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-max-revenue-13",
   "type": "Checkpoint",
-  "number": "3.8.28",
+  "number": "3.9.28",
   "title": "Minibus Trip.",
   "body": " Minibus Trip   It costs a bus company $225 to run a minibus on a ski trip, plus $30 per passenger. The bus has seating for 22 passengers, and the company charges $60 per person if the bus is full. For each empty seat, the company has to increase the ticket price by $5. How many empty seats should the bus run with to maximize profit from this trip?    Let be the number of empty seats. Then profit is .    The profit is maximized when there are 8 empty seats.   "
 },
@@ -851,7 +1364,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-number-problems-2",
   "type": "Checkpoint",
-  "number": "3.8.29",
+  "number": "3.9.29",
   "title": "Squares Sum.",
   "body": " Squares Sum   The sum of the squares of two consecutive integers is 685. What could the integers be? List all possibilities.    If the first integer is , then .    18 and 19, or and .   "
 },
@@ -860,7 +1373,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-number-problems-3",
   "type": "Checkpoint",
-  "number": "3.8.30",
+  "number": "3.9.30",
   "title": "Sum 20 Product 84.",
   "body": " Sum 20 Product 84   Two numbers have a sum of 20 and a product of 84. Use a quadratic equation to determine the numbers.    Let one number be , then the other number is , so .    The numbers are 6 and 14.   "
 },
@@ -869,7 +1382,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-number-problems-4",
   "type": "Checkpoint",
-  "number": "3.8.31",
+  "number": "3.9.31",
   "title": "Difference 18.",
   "body": " Difference 18   Two numbers have a difference of 18. The sum of their squares is a minimum. Determine the numbers.    Let one number be . Then the other is and .    The numbers are and 9.   "
 },
@@ -878,7 +1391,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-number-problems-5",
   "type": "Checkpoint",
-  "number": "3.8.32",
+  "number": "3.9.32",
   "title": "Square Added.",
   "body": " Square Added   When the square of a number is added to the number, the sum is 3. Find the possible numbers.    .    or .   "
 },
@@ -887,7 +1400,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-number-problems-6",
   "type": "Checkpoint",
-  "number": "3.8.33",
+  "number": "3.9.33",
   "title": "Difference 13.",
   "body": " Difference 13   Two numbers have a difference of 13 and a product that is a minimum. Determine the two numbers and the minimum product.    If the numbers are and , then .    and , and the minimum product is .   "
 },
@@ -896,7 +1409,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-number-problems-7",
   "type": "Checkpoint",
-  "number": "3.8.34",
+  "number": "3.9.34",
   "title": "Sum 10.",
   "body": " Sum 10   The sum of two integers is 10, and the sum of their squares is a minimum. Find the integers.    If the integers are and , minimize .    5 and 5.   "
 },
@@ -905,7 +1418,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-number-problems-8",
   "type": "Checkpoint",
-  "number": "3.8.35",
+  "number": "3.9.35",
   "title": "Difference 6.",
   "body": " Difference 6   Two numbers have a difference of 6 and their product is a minimum. Determine the numbers.    Let one number be . Then the other is and .    and 3.   "
 },
@@ -914,7 +1427,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-number-problems-9",
   "type": "Checkpoint",
-  "number": "3.8.36",
+  "number": "3.9.36",
   "title": "Difference 8.",
   "body": " Difference 8   Find the minimum product of two numbers that differ by 8, and find the numbers.    Let the numbers be and , so .    Minimum product is , from and 4.   "
 },
@@ -923,7 +1436,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-area-geometry-2",
   "type": "Checkpoint",
-  "number": "3.8.37",
+  "number": "3.9.37",
   "title": "Rectangle 330.",
   "body": " Rectangle 330   A rectangle has an area of 330 m . One side is 7 m longer than the other. What are the dimensions of the rectangle?    If the shorter side is meters, then .    The rectangle is 15 m by 22 m.   "
 },
@@ -932,7 +1445,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-area-geometry-3",
   "type": "Checkpoint",
-  "number": "3.8.38",
+  "number": "3.9.38",
   "title": "Garden Path.",
   "body": " Garden Path   A rectangular garden has dimensions 3 m by 4 m. A path is built around the garden. The area of the garden and path is 6 times as great as the area of the garden. What is the width of the path?    .    Width of the path is 2.5 m.   "
 },
@@ -941,7 +1454,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-area-geometry-4",
   "type": "Checkpoint",
-  "number": "3.8.39",
+  "number": "3.9.39",
   "title": "Josie’s Garden.",
   "body": " Josie’s Garden   Josie’s rectangular garden measures 9 m by 13 m. She wants to double the area of her garden by adding equal lengths to both dimensions. Determine this length to the nearest centimetre.    .    The length added is m.   "
 },
@@ -950,7 +1463,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-area-geometry-5",
   "type": "Checkpoint",
-  "number": "3.8.40",
+  "number": "3.9.40",
   "title": "Triangle 96.",
   "body": " Triangle 96   A right triangle has a height 8 cm more than twice the length of the base. If the area of the triangle is , what are the dimensions of the triangle?    If the base is , then the height is , so .    Base is 8 cm, height is 24 cm.   "
 },
@@ -959,7 +1472,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-area-geometry-6",
   "type": "Checkpoint",
-  "number": "3.8.41",
+  "number": "3.9.41",
   "title": "Right Triangle Legs.",
   "body": " Right Triangle Legs   A right triangle has one leg that is 1 less than 3 times the other leg, and the hypotenuse is 1 more than 3 times that same leg. Find the side lengths of the triangle.    if the leg is , then the other leg is , and the hypotenuse is , then .    12, 35, and 37.   "
 },
@@ -968,7 +1481,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-area-geometry-7",
   "type": "Checkpoint",
-  "number": "3.8.42",
+  "number": "3.9.42",
   "title": "Three Rods.",
   "body": " Three Rods   Three rods measure 20 cm, 41 cm, and 44 cm. If the same length is cut off each piece, the remaining lengths can be formed into a right triangle. What length is cut off?    5 cm.   "
 },
@@ -977,7 +1490,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-area-geometry-8",
   "type": "Checkpoint",
-  "number": "3.8.43",
+  "number": "3.9.43",
   "title": "Factory Lawn.",
   "body": " Factory Lawn   A factory is to be built on a lot that measures 80 m by 60 m. A lawn of uniform width, with area equal to the area of the factory, must surround it. How wide is the strip of lawn, and what are the dimensions of the factory?       If the lawn width is m, then .    The lawn is 10 m wide, and the factory dimensions are 60 m by 40 m.   "
 },
@@ -986,7 +1499,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-area-geometry-9",
   "type": "Checkpoint",
-  "number": "3.8.44",
+  "number": "3.9.44",
   "title": "Diagonal 17.",
   "body": " Diagonal 17   The diagonal of a rectangle is 17 cm long. The rectangle is 7 cm longer than it is wide. What are the dimensions of the rectangle?    Let the width be . Then the length is and .    8 cm by 15 cm.   "
 },
@@ -995,7 +1508,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-area-geometry-10",
   "type": "Checkpoint",
-  "number": "3.8.45",
+  "number": "3.9.45",
   "title": "Rectangle 180.",
   "body": " Rectangle 180   A rectangle's length is 3 meters longer than its width, and its area is 180 m . Determine the dimensions of the rectangle.    If the width is meters, then .    12 m by 15 m.   "
 },
@@ -1004,7 +1517,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-area-geometry-11",
   "type": "Checkpoint",
-  "number": "3.8.46",
+  "number": "3.9.46",
   "title": "Mowing Strip.",
   "body": " Mowing Strip   Jackie mows a strip of uniform width around her 25 m by 15 m rectangular lawn and leaves a patch of lawn that is 60% of the original area. What is the width of the strip?    If the strip has width meters, then the remaining lawn is m by m and .    Strip width is about 2.1 m.   "
 },
@@ -1013,7 +1526,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-area-geometry-12",
   "type": "Checkpoint",
-  "number": "3.8.47",
+  "number": "3.9.47",
   "title": "Matting.",
   "body": " Matting   Brian is placing a photograph behind a 12-in. by 12-in. piece of matting. He positions the photograph so the matting is twice as wide at the top and bottom as it is at the sides. The visible area of the photograph is 54 sq. in. What are the dimensions of the photograph?    if is the width of the matting at the sides, then .    Width is 9 in, height is 6 in.   "
 },
@@ -1022,7 +1535,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-area-geometry-13",
   "type": "Checkpoint",
-  "number": "3.8.48",
+  "number": "3.9.48",
   "title": "Rectangle 40.",
   "body": " Rectangle 40   A rectangle has an area of 40 cm , and its length is 1 cm less than twice its width. Find its dimensions, and round your answers to the nearest tenth.    If the width be . Then the length is and .    4.7 cm by 8.5 cm.   "
 },
@@ -1031,7 +1544,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-area-geometry-14",
   "type": "Checkpoint",
-  "number": "3.8.49",
+  "number": "3.9.49",
   "title": "Perimeter 60.",
   "body": " Perimeter 60   The perimeter of a right triangle is 60 cm. The length of the hypotenuse is 6 cm more than twice the length of one of the other sides. Find the lengths of all three sides.    and , and also .    10 cm, 24 cm, 26 cm.   "
 },
@@ -1040,7 +1553,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-word-problems-with-quadratics.html#subsec-area-geometry-15",
   "type": "Checkpoint",
-  "number": "3.8.50",
+  "number": "3.9.50",
   "title": "Track Field.",
   "body": " Track Field   A high school is planning to build a new playing field surrounded by a running track. The track coach wants two laps around the track to be 1000 m. The football coach wants the rectangular infield area to be as large as possible. Can both coaches be satisfied. Explain your answer.       One lap is 500 m, so , and the rectangular infield area is .    Yes. With , the infield area is , which is maximized at and . So the largest rectangular infield is m by m, with maximum area .   "
 },
@@ -1049,45 +1562,45 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "quadratic-inequalities-in-one-variable.html",
   "type": "Section",
-  "number": "3.9",
+  "number": "3.10",
   "title": "Quadratic Inequalities in One Variable",
-  "body": " Quadratic Inequalities in One Variable   In addition to quadratic equations, we can also consider quadratic inequalities, which are related.   Motivation: graphical method  Consider the inequality,   The goal is to find all of the values of such that . In simple terms, this means all numbers , where if you substitute it into , the result is positive. This is most intuitive by visualizing the graph of the quadratic function ,     Then, determining where is equivalent to determining the where the -coordinate of the parabola is positive. Observe that the -intercepts of the graph are . So, the graph is positive when or when . Therefore, the solution is or .       Motivation: sign analysis with roots  Consider the inequality . Like before, first, find the roots of the parabola, by making it an equals sign, and factoring,   So, the roots are and . Since has a positive leading coefficient (+1), the parabola opens up. This means that the quadratic roughly looks like this,     From this, the parabola is negative when is between and , or .   To solve the inequality, we don't need to graph the entire parabola precisely. Instead, we only need to find the roots, and know the basic shape (opening up or down).  A quadratic expression can only change sign at its roots. This means, if a quadratic has two roots, then:    If the quadratic is positive in one interval, it will switch to negative when crossing a root.    After crossing the second root, it switches back to positive.    If the quadratic opens down, then the pattern is reversed: it first is negative, then positive, then negative. The pattern of signs follows,     Solving Quadratic Inequalities with Scientific Calculator (INEQ Mode)  My recommended calculator Casio fx-991ES PLUS C 2nd edition (or another similar model) can actually solve quadratic inequalities for you. You can use this to check your answers after solving by hand.    Press MODE and use the down arrow key to go to the next page.    Press 1 for inequality mode ( INEQ )    Press 1 for a quadratic inequality ( ).    Next, the calculator will show options for the type of inequality:    Press 1 for (greater than)    Press 2 for (less than)    Press 3 for (greater than or equal to)    Press 4 for (less than or equal to)      Enter the coefficients , , and for your inequality.    Press = to solve.    The calculator will show the interval(s) of that satisfy the inequality.     Example  For example, to solve :    Press MODE , scroll down, and select INEQ .    Choose 1 for quadratic.    Choose 1 for .    Input , , .    Press = to solve. The calculator will show the solution as:     Make sure your inequality is written in the correct form (everything on one side of the inequality, on the other).     Solving Quadratic Inequalities Summary   A quadratic inequality is an inequality that can be written in one of the forms,      (If necessary) Arrange the quadratic inequality in standard form, with on one side, and 0 on the other.    Find the critical values (the roots of the quadratic expression), by solving the corresponding quadratic equation .    Sketch a number line, and mark the critical values to split it into 3 intervals.    Find where the quadratic is positive or negative    If it opens up ( ), the sign pattern is .    If it opens down ( ), the sign pattern is .      Choose the intervals that match the inequality symbol (greater than or less than).    Include the endpoints if the inequality is or (non-strict inequality). Otherwise, don't include the endpoints if it's or .     "
+  "body": " Quadratic Inequalities in One Variable   In addition to quadratic equations, we can also consider quadratic inequalities, which are closely related.   Motivational Example: Solving with a Graph  Consider the inequality,   The goal is to find all of the values of such that . In simple terms, this means all numbers , where if you substitute it into , the result is positive. This is most intuitive by visualizing the graph of the quadratic function ,     Then, determining where is equivalent to determining the where the -coordinate of the parabola is positive. Observe that the -intercepts of the graph are . So, the graph is positive when or when . Therefore, the solution is or .       Motivation: sign analysis with roots  Consider the inequality . Like before, first, find the roots of the parabola, by making it an equals sign, and factoring,   So, the roots are and . Since has a positive leading coefficient (+1), the parabola opens up. This means that the quadratic roughly looks like this,     From this, the parabola is negative when is between and , or .   To solve the inequality, we don't need to graph the entire parabola precisely. Instead, we only need to find the roots, and know the basic shape (opening up or down).  A quadratic expression can only change sign at its roots. This means, if a quadratic has two roots, then:   If the quadratic is positive in one interval, it will switch to negative when crossing a root.  After crossing the second root, it switches back to positive.   If the quadratic opens down, then the pattern is reversed: it first is negative, then positive, then negative. The pattern of signs follows,     Solving Quadratic Inequalities with Scientific Calculator (INEQ Mode)  My recommended calculator Casio fx-991ES PLUS C 2nd edition (or another similar model) can actually solve quadratic inequalities for you. You can use this to check your answers after solving by hand.   Press MODE and use the down arrow key to go to the next page.  Press 1 for inequality mode ( INEQ )  Press 1 for a quadratic inequality ( ).   Next, the calculator will show options for the type of inequality:   Press 1 for (greater than)  Press 2 for (less than)  Press 3 for (greater than or equal to)  Press 4 for (less than or equal to)    Enter the coefficients , , and for your inequality.  Press = to solve.  The calculator will show the interval(s) of that satisfy the inequality.    For example, to solve :   Press MODE , scroll down, and select INEQ .  Choose 1 for quadratic.  Choose 1 for .  Input , , .   Press = to solve. The calculator will show the solution as:     Make sure your inequality is written in the correct form (everything on one side of the inequality, on the other).     Solving Quadratic Inequalities Summary    A quadratic inequality is an inequality that can be written in one of the forms,      (If necessary) Arrange the quadratic inequality in standard form, with on one side, and 0 on the other.  Find the critical values (the roots of the quadratic expression), by solving the corresponding quadratic equation .  Sketch a number line, and mark the critical values to split it into 3 intervals.   Find where the quadratic is positive or negative   If it opens up ( ), the sign pattern is .  If it opens down ( ), the sign pattern is .    Choose the intervals that match the inequality symbol (greater than or less than).  Include the endpoints if the inequality is or (non-strict inequality). Don't include the endpoints if it's or .     Solving Using Sign Chart and Test Points  There is another method to solve a quadratic inequality, that is more systematic and general, but less efficient for quadratic inequalities, called the sign chart method , or test point method .   Consider the inequality . Similar to before, first find the critical values, by factoring,   So, the critical values are and . Set up a number line, with these roots marked,     These roots split up the number line into 3 intervals: , , and . For each of these intervals, the quadratic will either be positive everywhere, or negative everywhere. So, it is enough to test a single point, and see if the quadratic is positive or negative. For example,    For , choose :     For , choose :     For , choose :     To illustrate these results, we can put a or above each interval, depending if it's positive or negative.     This means that the solution is or . We can denote this graphically by highlighting those regions.     We use open circles (basically, hollow circles) to indicate that and are not included in the solution, because the inequality is .  In fact, when doing test points, we only need to know the sign of the output (whether it is positive or negative). Its exact value as a number isn't necessary. Recall that with multiplying positive and negative numbers,   Then, testing points could look like this,   Test :  Test :  Test :     The roots of the parabola are called critical points , because they are the important points that indicate where the parabola can change sign from positive to negative, or vice versa.  The number line with labelled and intervals is called a sign chart , and this method is sometimes called the test point method .   In summary, after finding the critical values,   Choose a test point in each interval, and evaluate the quadratic function there to determine if it is positive or negative, i.e. if that interval is in the solution set.    Some teachers require you to use a more elaborate table to do a sign chart. I personally believe this chart is excessively tedious and doesn't add much, but some teachers require it to properly show your work.      Examples   Solve  First, find the critical values by solving the corresponding equation,   So, the critical values are and . These divide the number line into three intervals. Since the leading coefficient is positive ( ), the parabola opens up, so the sign pattern is .     We want where the expression is greater than or equal to zero, which is the positive parts, so it's when or when . We include the endpoints, because the inequality includes equals. Therefore, or .    Solve  The goal is to find all values of such that . First, find the critical values by solving the corresponding equation,   So, the critical values are and . These divide the number line into three intervals. Notice that the leading coefficient is negative ( , from the term), so the parabola opens down. This means the sign pattern is .     We want where the expression is greater than or equal to zero, which is the positive part, and so when is between and 3. We also include the endpoints, because the inequality is . Therefore, the solution is .    Solve Quadratic Inequalities I   Solve each quadratic inequality.   , or  , or  or , or  or , or    Solve Quadratic Inequalities II   Solve each quadratic inequality.   or , or  , or  , or  or , or  or , or  or , or  , or  , or  or , or  or , or  , or  , or    Solve Quadratic Inequalities III   Solve each quadratic inequality.   or , or  , or  or , or  or , or    Solve Quadratic Inequalities IV   Solve each quadratic inequality.   or , or  or , or  , or  or , or  , or  , or  or , or  , or  or , or  or , or    Solve Quadratic Inequalities V   Solve each quadratic inequality.   or , or  no solution  or , or  , or  or , or  , or  or , or  or , or  or , or    Creating an Inequality Given Its Solution   Write a quadratic inequality with the given solution, in standard form.   , which in standard form is  , which in standard form is  or , which in standard form is  , which in standard form is  or , which in standard form is  , which in standard form is  or , which in standard form is  or , which in standard form is  (all real numbers)  no solution     Word Problems   Right Triangle Area   For a right triangle, one leg is 2 cm longer than the other leg. How long should the shorter leg be so that the area of the triangle is greater than or equal to 4 cm ?       At least 2 cm.     Projectile Motion   A ball is thrown upward at 15 m\/s from a height of 2 m. Its height at time seconds after being thrown, can be modelled by the function . Find how long the ball was in the air for before it hit the ground, rounded to the nearest tenth of a second.    3.2 seconds.     "
 },
 {
-  "id": "quadratic-inequalities-in-one-variable-2-2",
+  "id": "ex-quad-ineq-graphical",
   "level": "2",
-  "url": "quadratic-inequalities-in-one-variable.html#quadratic-inequalities-in-one-variable-2-2",
+  "url": "quadratic-inequalities-in-one-variable.html#ex-quad-ineq-graphical",
   "type": "Example",
-  "number": "3.9.1",
-  "title": "Motivation: graphical method.",
-  "body": " Motivation: graphical method  Consider the inequality,   The goal is to find all of the values of such that . In simple terms, this means all numbers , where if you substitute it into , the result is positive. This is most intuitive by visualizing the graph of the quadratic function ,     Then, determining where is equivalent to determining the where the -coordinate of the parabola is positive. Observe that the -intercepts of the graph are . So, the graph is positive when or when . Therefore, the solution is or .     "
+  "number": "3.10.1",
+  "title": "Motivational Example: Solving with a Graph.",
+  "body": " Motivational Example: Solving with a Graph  Consider the inequality,   The goal is to find all of the values of such that . In simple terms, this means all numbers , where if you substitute it into , the result is positive. This is most intuitive by visualizing the graph of the quadratic function ,     Then, determining where is equivalent to determining the where the -coordinate of the parabola is positive. Observe that the -intercepts of the graph are . So, the graph is positive when or when . Therefore, the solution is or .     "
 },
 {
-  "id": "quadratic-inequalities-in-one-variable-2-3",
+  "id": "ex-quad-ineq-sign-analysis",
   "level": "2",
-  "url": "quadratic-inequalities-in-one-variable.html#quadratic-inequalities-in-one-variable-2-3",
+  "url": "quadratic-inequalities-in-one-variable.html#ex-quad-ineq-sign-analysis",
   "type": "Example",
-  "number": "3.9.2",
+  "number": "3.10.2",
   "title": "Motivation: sign analysis with roots.",
   "body": " Motivation: sign analysis with roots  Consider the inequality . Like before, first, find the roots of the parabola, by making it an equals sign, and factoring,   So, the roots are and . Since has a positive leading coefficient (+1), the parabola opens up. This means that the quadratic roughly looks like this,     From this, the parabola is negative when is between and , or .  "
 },
 {
-  "id": "quad-ineq-calculator-4",
+  "id": "ex-quad-ineq-calculator",
   "level": "2",
-  "url": "quadratic-inequalities-in-one-variable.html#quad-ineq-calculator-4",
+  "url": "quadratic-inequalities-in-one-variable.html#ex-quad-ineq-calculator",
   "type": "Example",
-  "number": "3.9.3",
-  "title": "Example.",
-  "body": " Example  For example, to solve :    Press MODE , scroll down, and select INEQ .    Choose 1 for quadratic.    Choose 1 for .    Input , , .    Press = to solve. The calculator will show the solution as:     Make sure your inequality is written in the correct form (everything on one side of the inequality, on the other).  "
+  "number": "3.10.3",
+  "title": "",
+  "body": " For example, to solve :   Press MODE , scroll down, and select INEQ .  Choose 1 for quadratic.  Choose 1 for .  Input , , .   Press = to solve. The calculator will show the solution as:     Make sure your inequality is written in the correct form (everything on one side of the inequality, on the other).  "
 },
 {
-  "id": "quad-ineq-summary-2",
+  "id": "def-quadratic-inequality",
   "level": "2",
-  "url": "quadratic-inequalities-in-one-variable.html#quad-ineq-summary-2",
+  "url": "quadratic-inequalities-in-one-variable.html#def-quadratic-inequality",
   "type": "Definition",
-  "number": "3.9.4",
+  "number": "3.10.4",
   "title": "",
-  "body": " A quadratic inequality is an inequality that can be written in one of the forms,   "
+  "body": "  A quadratic inequality is an inequality that can be written in one of the forms,    "
 },
 {
   "id": "quad-ineq-summary-3-2-1",
@@ -1097,6 +1610,267 @@ var ptx_lunr_docs = [
   "number": "",
   "title": "",
   "body": "critical values "
+},
+{
+  "id": "quad-ineq-sign-chart-2",
+  "level": "2",
+  "url": "quadratic-inequalities-in-one-variable.html#quad-ineq-sign-chart-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "sign chart method test point method "
+},
+{
+  "id": "ex-quad-ineq-test-points",
+  "level": "2",
+  "url": "quadratic-inequalities-in-one-variable.html#ex-quad-ineq-test-points",
+  "type": "Example",
+  "number": "3.10.5",
+  "title": "",
+  "body": " Consider the inequality . Similar to before, first find the critical values, by factoring,   So, the critical values are and . Set up a number line, with these roots marked,     These roots split up the number line into 3 intervals: , , and . For each of these intervals, the quadratic will either be positive everywhere, or negative everywhere. So, it is enough to test a single point, and see if the quadratic is positive or negative. For example,    For , choose :     For , choose :     For , choose :     To illustrate these results, we can put a or above each interval, depending if it's positive or negative.     This means that the solution is or . We can denote this graphically by highlighting those regions.     We use open circles (basically, hollow circles) to indicate that and are not included in the solution, because the inequality is .  In fact, when doing test points, we only need to know the sign of the output (whether it is positive or negative). Its exact value as a number isn't necessary. Recall that with multiplying positive and negative numbers,   Then, testing points could look like this,   Test :  Test :  Test :   "
+},
+{
+  "id": "quad-ineq-sign-chart-4-1-1",
+  "level": "2",
+  "url": "quadratic-inequalities-in-one-variable.html#quad-ineq-sign-chart-4-1-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "critical points "
+},
+{
+  "id": "quad-ineq-sign-chart-4-2-1",
+  "level": "2",
+  "url": "quadratic-inequalities-in-one-variable.html#quad-ineq-sign-chart-4-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "sign chart test point method "
+},
+{
+  "id": "quad-ineq-sign-chart-7",
+  "level": "2",
+  "url": "quadratic-inequalities-in-one-variable.html#quad-ineq-sign-chart-7",
+  "type": "Remark",
+  "number": "3.10.6",
+  "title": "",
+  "body": " Some teachers require you to use a more elaborate table to do a sign chart. I personally believe this chart is excessively tedious and doesn't add much, but some teachers require it to properly show your work.   "
+},
+{
+  "id": "ex-quad-ineq-x2-minus-4",
+  "level": "2",
+  "url": "quadratic-inequalities-in-one-variable.html#ex-quad-ineq-x2-minus-4",
+  "type": "Example",
+  "number": "3.10.7",
+  "title": "Solve <span class=\"process-math\">\\(x^2 - 4 \\geq 0\\)<\/span>.",
+  "body": " Solve  First, find the critical values by solving the corresponding equation,   So, the critical values are and . These divide the number line into three intervals. Since the leading coefficient is positive ( ), the parabola opens up, so the sign pattern is .     We want where the expression is greater than or equal to zero, which is the positive parts, so it's when or when . We include the endpoints, because the inequality includes equals. Therefore, or .  "
+},
+{
+  "id": "ex-quad-ineq-9-minus-x2",
+  "level": "2",
+  "url": "quadratic-inequalities-in-one-variable.html#ex-quad-ineq-9-minus-x2",
+  "type": "Example",
+  "number": "3.10.8",
+  "title": "Solve <span class=\"process-math\">\\(9 - x^2 \\geq 0\\)<\/span>.",
+  "body": " Solve  The goal is to find all values of such that . First, find the critical values by solving the corresponding equation,   So, the critical values are and . These divide the number line into three intervals. Notice that the leading coefficient is negative ( , from the term), so the parabola opens down. This means the sign pattern is .     We want where the expression is greater than or equal to zero, which is the positive part, and so when is between and 3. We also include the endpoints, because the inequality is . Therefore, the solution is .  "
+},
+{
+  "id": "project-quad-ineq-1",
+  "level": "2",
+  "url": "quadratic-inequalities-in-one-variable.html#project-quad-ineq-1",
+  "type": "Exercise Group",
+  "number": "3.10.1",
+  "title": "Solve Quadratic Inequalities I.",
+  "body": " Solve Quadratic Inequalities I   Solve each quadratic inequality.   , or  , or  or , or  or , or  "
+},
+{
+  "id": "project-quad-ineq-2",
+  "level": "2",
+  "url": "quadratic-inequalities-in-one-variable.html#project-quad-ineq-2",
+  "type": "Exercise Group",
+  "number": "3.10.2",
+  "title": "Solve Quadratic Inequalities II.",
+  "body": " Solve Quadratic Inequalities II   Solve each quadratic inequality.   or , or  , or  , or  or , or  or , or  or , or  , or  , or  or , or  or , or  , or  , or  "
+},
+{
+  "id": "project-quad-ineq-3",
+  "level": "2",
+  "url": "quadratic-inequalities-in-one-variable.html#project-quad-ineq-3",
+  "type": "Exercise Group",
+  "number": "3.10.3",
+  "title": "Solve Quadratic Inequalities III.",
+  "body": " Solve Quadratic Inequalities III   Solve each quadratic inequality.   or , or  , or  or , or  or , or  "
+},
+{
+  "id": "project-quad-ineq-4",
+  "level": "2",
+  "url": "quadratic-inequalities-in-one-variable.html#project-quad-ineq-4",
+  "type": "Exercise Group",
+  "number": "3.10.4",
+  "title": "Solve Quadratic Inequalities IV.",
+  "body": " Solve Quadratic Inequalities IV   Solve each quadratic inequality.   or , or  or , or  , or  or , or  , or  , or  or , or  , or  or , or  or , or  "
+},
+{
+  "id": "project-quad-ineq-5",
+  "level": "2",
+  "url": "quadratic-inequalities-in-one-variable.html#project-quad-ineq-5",
+  "type": "Exercise Group",
+  "number": "3.10.5",
+  "title": "Solve Quadratic Inequalities V.",
+  "body": " Solve Quadratic Inequalities V   Solve each quadratic inequality.   or , or  no solution  or , or  , or  or , or  , or  or , or  or , or  or , or  "
+},
+{
+  "id": "project-quad-ineq-create",
+  "level": "2",
+  "url": "quadratic-inequalities-in-one-variable.html#project-quad-ineq-create",
+  "type": "Exercise Group",
+  "number": "3.10.6",
+  "title": "Creating an Inequality Given Its Solution.",
+  "body": " Creating an Inequality Given Its Solution   Write a quadratic inequality with the given solution, in standard form.   , which in standard form is  , which in standard form is  or , which in standard form is  , which in standard form is  or , which in standard form is  , which in standard form is  or , which in standard form is  or , which in standard form is  (all real numbers)  no solution  "
+},
+{
+  "id": "ex-quad-ineq-triangle",
+  "level": "2",
+  "url": "quadratic-inequalities-in-one-variable.html#ex-quad-ineq-triangle",
+  "type": "Example",
+  "number": "3.10.9",
+  "title": "Right Triangle Area.",
+  "body": " Right Triangle Area   For a right triangle, one leg is 2 cm longer than the other leg. How long should the shorter leg be so that the area of the triangle is greater than or equal to 4 cm ?       At least 2 cm.   "
+},
+{
+  "id": "ex-quad-ineq-projectile",
+  "level": "2",
+  "url": "quadratic-inequalities-in-one-variable.html#ex-quad-ineq-projectile",
+  "type": "Example",
+  "number": "3.10.10",
+  "title": "Projectile Motion.",
+  "body": " Projectile Motion   A ball is thrown upward at 15 m\/s from a height of 2 m. Its height at time seconds after being thrown, can be modelled by the function . Find how long the ball was in the air for before it hit the ground, rounded to the nearest tenth of a second.    3.2 seconds.   "
+},
+{
+  "id": "sec-quadratics-summary",
+  "level": "1",
+  "url": "sec-quadratics-summary.html",
+  "type": "Section",
+  "number": "3.11",
+  "title": "Summary of Quadratics",
+  "body": " Summary of Quadratics   Forms of a Quadratic Function       Form  Name  Why it's useful     Standard form (general form)    The -intercept is  Vertex at , i.e.       Vertex form    Gives the vertex directly as the point       Factored form (intercept form)    Roots (zeros, -intercepts) are and  Vertex is halfway between zeros:       Converting between forms of a quadratic function        Solving Quadratic Equations  There are many techniques used to solve quadratic equations. Some apply more broadly and some only to specific cases.  In short,   Move all terms to one side, so the other side is 0 (convert to standard form).  Use either (a) factoring, or (b) the quadratic formula.   Factoring. If can be factored easily, then factor and use the zero-product property to split it into two equations, and solve.   Solving by Factoring     Solving by Factoring (with )    Quadratic formula. If cannot be factored, or factoring is difficult, then use the quadratic formula,    Using the Quadratic Formula     Using the Quadratic Formula    To find if it is factorable, check if the discriminant is a perfect square.   If it is a perfect square (like 1, 4, 9, 16, 25, 36, ), it is factorable.  If not, it's not factorable.   Special cases:  Missing term. If there is no term, then isolate , and take the square root of both sides (don't forget ).   Vertex form. Slightly more generally, if it is in vertex form , then take the square root of both sides, and solve for .   In this case, you could also expand the brackets, and try to use factoring or the quadratic formula, but this method uses fewer steps.  Missing constant term. If there is no constant term, , then factor out the common factor of , and set each equal to 0.   Missing Constant Term    Some notes:   Always look for common factors that you can divide out, especially if the numbers are big!  The quadratic formula always works, in that it can be used in all cases. However, it is sometimes overkill, applying a complicated formula to a simple situation unnecessarily, where a simpler technique would have worked.  Remember: if you want to find , you can always plug in to find it!  Here is a classic math rap song: Do the Quad Solve , which is a parody of Do the John Wall by Troop 41 .  Quadratic Formula Rap by Mr. 2Pi.    "
+},
+{
+  "id": "subsec-forms-of-quadratic-function-2-5-2-1",
+  "level": "2",
+  "url": "sec-quadratics-summary.html#subsec-forms-of-quadratic-function-2-5-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Standard form "
+},
+{
+  "id": "subsec-forms-of-quadratic-function-2-6-2-1",
+  "level": "2",
+  "url": "sec-quadratics-summary.html#subsec-forms-of-quadratic-function-2-6-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Vertex form "
+},
+{
+  "id": "subsec-forms-of-quadratic-function-2-7-2-1",
+  "level": "2",
+  "url": "sec-quadratics-summary.html#subsec-forms-of-quadratic-function-2-7-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Factored form "
+},
+{
+  "id": "fig-quadratic-forms-diagram",
+  "level": "2",
+  "url": "sec-quadratics-summary.html#fig-quadratic-forms-diagram",
+  "type": "Figure",
+  "number": "3.11.1",
+  "title": "",
+  "body": " Converting between forms of a quadratic function     "
+},
+{
+  "id": "subsec-solving-quadratic-equations-summary-5",
+  "level": "2",
+  "url": "sec-quadratics-summary.html#subsec-solving-quadratic-equations-summary-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Factoring. "
+},
+{
+  "id": "subsec-solving-quadratic-equations-summary-6",
+  "level": "2",
+  "url": "sec-quadratics-summary.html#subsec-solving-quadratic-equations-summary-6",
+  "type": "Example",
+  "number": "3.11.2",
+  "title": "Solving by Factoring.",
+  "body": " Solving by Factoring   "
+},
+{
+  "id": "subsec-solving-quadratic-equations-summary-7",
+  "level": "2",
+  "url": "sec-quadratics-summary.html#subsec-solving-quadratic-equations-summary-7",
+  "type": "Example",
+  "number": "3.11.3",
+  "title": "Solving by Factoring (with <span class=\"process-math\">\\(a \\neq 1\\)<\/span>).",
+  "body": " Solving by Factoring (with )   "
+},
+{
+  "id": "subsec-solving-quadratic-equations-summary-8",
+  "level": "2",
+  "url": "sec-quadratics-summary.html#subsec-solving-quadratic-equations-summary-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Quadratic formula. "
+},
+{
+  "id": "subsec-solving-quadratic-equations-summary-10",
+  "level": "2",
+  "url": "sec-quadratics-summary.html#subsec-solving-quadratic-equations-summary-10",
+  "type": "Example",
+  "number": "3.11.4",
+  "title": "Using the Quadratic Formula.",
+  "body": " Using the Quadratic Formula   "
+},
+{
+  "id": "subsec-solving-quadratic-equations-summary-11",
+  "level": "2",
+  "url": "sec-quadratics-summary.html#subsec-solving-quadratic-equations-summary-11",
+  "type": "Example",
+  "number": "3.11.5",
+  "title": "Using the Quadratic Formula.",
+  "body": " Using the Quadratic Formula   "
+},
+{
+  "id": "subsec-solving-quadratic-equations-summary-14",
+  "level": "2",
+  "url": "sec-quadratics-summary.html#subsec-solving-quadratic-equations-summary-14",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Special cases: "
+},
+{
+  "id": "subsec-solving-quadratic-equations-summary-21",
+  "level": "2",
+  "url": "sec-quadratics-summary.html#subsec-solving-quadratic-equations-summary-21",
+  "type": "Example",
+  "number": "3.11.6",
+  "title": "Missing Constant Term.",
+  "body": " Missing Constant Term   "
+},
+{
+  "id": "subsec-solving-quadratic-equations-summary-22",
+  "level": "2",
+  "url": "sec-quadratics-summary.html#subsec-solving-quadratic-equations-summary-22",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Some notes: "
 },
 {
   "id": "sec-quadratic-systems",
@@ -2602,11 +3376,200 @@ var ptx_lunr_docs = [
   "body": " Polygon Angles  The measure (in degrees) of each angle in a regular polygon with sides is given by the equation . When each angle in a regular polygon is , how many sides does the polygon have?  .  20 sides.  "
 },
 {
+  "id": "sec-law-of-sines",
+  "level": "1",
+  "url": "sec-law-of-sines.html",
+  "type": "Section",
+  "number": "7.1",
+  "title": "Law of Sines",
+  "body": " Law of Sines   The Law of Sines relates the sides and angles of any triangle (not just right triangles).   Law of Sines (Sine Law)   Let be the measures of the angles of a triangle, and let be the lengths of the sides opposite those angles, respectively. Then,     In other words, the ratio of a side to the sine of its opposite angle is equal for all three sides of the triangle.  The law of sines can also be rewritten with the side lengths in the denominator,   This is because you can take the reciprocal of all three sides of the equation (in other words, flip them all upside down).  By convention, you should always label the triangle to align with the law of sines, so that each side letter is opposite its angle letter. In other words, side is opposite angle , side is opposite angle , and side is opposite angle .   Standard triangle labeling for Law of Sines        Placeholder Formulas in Trigonometry  When using the law of sines, the letters don't dictate a specific angle or side. You could swap and and the formula would still be valid. You just have to swap and also. The only requirement is that must be the side across from angle , across from , and across from .  This means that the law of sines can be summarized in only one statement,   Basically, in any triangle, the ratio of side over sine of its opposite angle, equals any other side over the sine of its opposite angle.   Placeholder Formulas  This means that law of sines is a so-called placeholder formula , in that the symbols and do not necessarily refer to specific sides or angles. They are just placeholders or stand-ins for the 3 sides and angles of a triangle. In contrast, some formulas use variables that have a universally agreed-upon meaning. For example, in the quadratic formula,   The letter always represents the coefficient of , is the coefficient of , and is the constant. You can't switch and without changing the meaning of the formula.     Examples   Finding a Side (AAS)   In triangle , , , and mm. Determine the length of .   Triangle with angles 35° and 88°       mm    Finding a Side with Obtuse Angle   In triangle , , , and m. Determine the length of .   Triangle with obtuse angle 118°       m    Finding an Angle   In triangle , , m, and m. Determine the measure of angle .   Triangle with known angle and two sides          Finding an Angle (Obtuse Given Angle)   In triangle , , m, and m. Determine the measure of angle .   Triangle with obtuse angle 98°         To solve an oblique triangle means to determine the lengths of all of its sides and the measure of all of its angles.   Solving a Triangle (AAS)   Solve the triangle: , m, and m.   Triangle to solve       , , m    Solving a Triangle (ASA)   Solve the triangle: , , and m.   Triangle with two known angles       , m, m    Solving a Triangle with Obtuse Angle   Solve the triangle: , , and mm.   Triangle with small angle       , mm, mm    Solving a Triangle   Solve the triangle: , , and cm.   Triangle to solve       , cm, cm     Practice Problems   Finding Sides with Law of Sines  Sketch each triangle and determine the measure of the indicated side.  In , , , and cm. Find the length of . cm  In , , , and cm. Find the length of . cm  In , , , and m. Find the length of . m  In , , , and cm. Find the length of . cm    "
+},
+{
+  "id": "thm-law-of-sines",
+  "level": "2",
+  "url": "sec-law-of-sines.html#thm-law-of-sines",
+  "type": "Theorem",
+  "number": "7.1.1",
+  "title": "Law of Sines (Sine Law).",
+  "body": " Law of Sines (Sine Law)   Let be the measures of the angles of a triangle, and let be the lengths of the sides opposite those angles, respectively. Then,    "
+},
+{
+  "id": "fig-law-of-sines-labeling",
+  "level": "2",
+  "url": "sec-law-of-sines.html#fig-law-of-sines-labeling",
+  "type": "Figure",
+  "number": "7.1.2",
+  "title": "",
+  "body": " Standard triangle labeling for Law of Sines     "
+},
+{
+  "id": "rem-placeholder-formula",
+  "level": "2",
+  "url": "sec-law-of-sines.html#rem-placeholder-formula",
+  "type": "Remark",
+  "number": "7.1.3",
+  "title": "Placeholder Formulas.",
+  "body": " Placeholder Formulas  This means that law of sines is a so-called placeholder formula , in that the symbols and do not necessarily refer to specific sides or angles. They are just placeholders or stand-ins for the 3 sides and angles of a triangle. In contrast, some formulas use variables that have a universally agreed-upon meaning. For example, in the quadratic formula,   The letter always represents the coefficient of , is the coefficient of , and is the constant. You can't switch and without changing the meaning of the formula.  "
+},
+{
+  "id": "ex-los-find-side-1",
+  "level": "2",
+  "url": "sec-law-of-sines.html#ex-los-find-side-1",
+  "type": "Example",
+  "number": "7.1.4",
+  "title": "Finding a Side (AAS).",
+  "body": " Finding a Side (AAS)   In triangle , , , and mm. Determine the length of .   Triangle with angles 35° and 88°       mm  "
+},
+{
+  "id": "ex-los-find-side-2",
+  "level": "2",
+  "url": "sec-law-of-sines.html#ex-los-find-side-2",
+  "type": "Example",
+  "number": "7.1.6",
+  "title": "Finding a Side with Obtuse Angle.",
+  "body": " Finding a Side with Obtuse Angle   In triangle , , , and m. Determine the length of .   Triangle with obtuse angle 118°       m  "
+},
+{
+  "id": "ex-los-find-angle-1",
+  "level": "2",
+  "url": "sec-law-of-sines.html#ex-los-find-angle-1",
+  "type": "Example",
+  "number": "7.1.8",
+  "title": "Finding an Angle.",
+  "body": " Finding an Angle   In triangle , , m, and m. Determine the measure of angle .   Triangle with known angle and two sides        "
+},
+{
+  "id": "ex-los-find-angle-2",
+  "level": "2",
+  "url": "sec-law-of-sines.html#ex-los-find-angle-2",
+  "type": "Example",
+  "number": "7.1.10",
+  "title": "Finding an Angle (Obtuse Given Angle).",
+  "body": " Finding an Angle (Obtuse Given Angle)   In triangle , , m, and m. Determine the measure of angle .   Triangle with obtuse angle 98°        "
+},
+{
+  "id": "subsec-law-of-sines-examples-6",
+  "level": "2",
+  "url": "sec-law-of-sines.html#subsec-law-of-sines-examples-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "solve "
+},
+{
+  "id": "ex-los-solve-triangle-1",
+  "level": "2",
+  "url": "sec-law-of-sines.html#ex-los-solve-triangle-1",
+  "type": "Example",
+  "number": "7.1.12",
+  "title": "Solving a Triangle (AAS).",
+  "body": " Solving a Triangle (AAS)   Solve the triangle: , m, and m.   Triangle to solve       , , m  "
+},
+{
+  "id": "ex-los-solve-triangle-2",
+  "level": "2",
+  "url": "sec-law-of-sines.html#ex-los-solve-triangle-2",
+  "type": "Example",
+  "number": "7.1.14",
+  "title": "Solving a Triangle (ASA).",
+  "body": " Solving a Triangle (ASA)   Solve the triangle: , , and m.   Triangle with two known angles       , m, m  "
+},
+{
+  "id": "ex-los-solve-triangle-3",
+  "level": "2",
+  "url": "sec-law-of-sines.html#ex-los-solve-triangle-3",
+  "type": "Example",
+  "number": "7.1.16",
+  "title": "Solving a Triangle with Obtuse Angle.",
+  "body": " Solving a Triangle with Obtuse Angle   Solve the triangle: , , and mm.   Triangle with small angle       , mm, mm  "
+},
+{
+  "id": "ex-los-solve-triangle-4",
+  "level": "2",
+  "url": "sec-law-of-sines.html#ex-los-solve-triangle-4",
+  "type": "Example",
+  "number": "7.1.18",
+  "title": "Solving a Triangle.",
+  "body": " Solving a Triangle   Solve the triangle: , , and cm.   Triangle to solve       , cm, cm  "
+},
+{
+  "id": "proj-los-find-sides",
+  "level": "2",
+  "url": "sec-law-of-sines.html#proj-los-find-sides",
+  "type": "Exercise Group",
+  "number": "7.1.1",
+  "title": "Finding Sides with Law of Sines.",
+  "body": " Finding Sides with Law of Sines  Sketch each triangle and determine the measure of the indicated side.  In , , , and cm. Find the length of . cm  In , , , and cm. Find the length of . cm  In , , , and m. Find the length of . m  In , , , and cm. Find the length of . cm  "
+},
+{
+  "id": "sec-ambiguous-case",
+  "level": "1",
+  "url": "sec-ambiguous-case.html",
+  "type": "Section",
+  "number": "7.2",
+  "title": "The Ambiguous Case (SSA)",
+  "body": " The Ambiguous Case (SSA)   Until now, knowing the information of the triangle allowed us to solve it completely. However, there is one case where the information could lead to 2 different possible triangles. In particular, when given 2 sides an a non-included angle (the SSA case), there could be 2 triangles, or even 0 possible triangles. This is called the ambiguous case , because it's not clear what the triangle is, or even if one exists.    Consider a triangle with angle , side , and side . How many triangles are possible, and what are their dimensions?    There is a systematic way to solve problems with the ambiguous case. While it's not absolutely necessary, it helps to keep things organized. First, sketch the known angle ( ) in the bottom-left corner, with side above it, and the unknown side horizontally. You should have something like this,     Notice that the bottom length is unknown, so just extend it a bit to the right (we don't know how long). Then, the other side is opposite angle , so it'll go from the top point down to the right.     You should aim to sketch so it's a bit shorter than (because 7 is smaller than 10), however, it doesn't have to be perfect. Now, attach side to point and swing it down until it touches the base ,     Now, we have one triangle. However, this is not the only possibility! In fact, can swing the other way to create a different triangle,     This setup also works with the given measurements. Therefore, there are 2 possible triangles with the given information.  Now, to solve both triangles, we can work on them side-by-side . On your paper, draw a vertical line down the middle. The left column is for Triangle 1 (where swings to the right), and the right column is for Triangle 2 (where swings to the left). We'll do the same steps for both, and the only difference is whether we use the angle from inverse sine directly, or its supplement.  First, use the law of sines to find . This step is the same for both triangles,   Now, here's where the two triangles differ. Recall that , but there are two angles with the same sine value: and its supplement . You can organize the 2 triangles nicely in 2 columns,      Triangle 1  Triangle 2        Find :  Find :            Find using law of sines:  Find using law of sines:        In summary,    Triangle 1       Triangle 2          However, there are not always 2 solutions.   How can you tell how many triangles there are? It will always be the SSA (or ASS) case that is ambiguous. First, calculate the height . Then, compare to and to determine the number of solutions.  In general, if is the known angle, and are the known sides. Sketch the angle in the bottom-left corner, the side above, the base along the bottom of unknown length, and side will be opposite .     To determine how many triangles are possible, first calculate the height of the triangle, using . Then, compare the measurements:   If , then there are 0 solutions. The side is too short to reach the base.  If , then there are 2 solutions. The side is longer than , but shorter than . Basically, side can swing in 2 different directions.  If , then there is 1 solution, and it's a right triangle.  If , then there is 1 triangle.   Here is a number line for the length showing the different cases,      Here is a Desmos applet for visualizing the ambiguous case: SSA Ambiguous Case . Input your given values for angle , side , and side to see how many triangles are possible.  Here is another applet for visualizing the ambiguous case: SSA triangle: The Ambiguous Case .  If the given angle is obtuse, there can be at most 1 triangle.     Examples   Determining Number of Solutions  For each triangle, determine whether there is no solution, one solution, or two solutions.  In , , cm, and cm. 2 solutions ( , and )  In , , cm, and cm. obtuse angle 1 solution ( is obtuse and )  In , , cm, and cm. 1 solution ( is obtuse and )  In , , cm, and cm. no solution ( and , so is too short)    Solving Triangles with Ambiguous Case  Determine the unknown side and angles in each triangle. If two solutions are possible, give both.  In , , cm, and cm. Two solutions. Triangle 1: , , cm. Triangle 2: , , cm.  In , , cm, and cm. Two solutions. Triangle 1: , , cm. Triangle 2: , , cm.  In , , cm, and cm. No solution ( )  In triangle , , , and . Two solutions. Triangle 1: , , . Triangle 2: , , .    Solve Each Triangle  Solve each triangle, if possible.  , , . , ,  , , . obtuse case , ,    "
+},
+{
+  "id": "sec-ambiguous-case-2-1",
+  "level": "2",
+  "url": "sec-ambiguous-case.html#sec-ambiguous-case-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "ambiguous case "
+},
+{
+  "id": "ex-ambiguous-case-main",
+  "level": "2",
+  "url": "sec-ambiguous-case.html#ex-ambiguous-case-main",
+  "type": "Example",
+  "number": "7.2.1",
+  "title": "",
+  "body": "  Consider a triangle with angle , side , and side . How many triangles are possible, and what are their dimensions?    There is a systematic way to solve problems with the ambiguous case. While it's not absolutely necessary, it helps to keep things organized. First, sketch the known angle ( ) in the bottom-left corner, with side above it, and the unknown side horizontally. You should have something like this,     Notice that the bottom length is unknown, so just extend it a bit to the right (we don't know how long). Then, the other side is opposite angle , so it'll go from the top point down to the right.     You should aim to sketch so it's a bit shorter than (because 7 is smaller than 10), however, it doesn't have to be perfect. Now, attach side to point and swing it down until it touches the base ,     Now, we have one triangle. However, this is not the only possibility! In fact, can swing the other way to create a different triangle,     This setup also works with the given measurements. Therefore, there are 2 possible triangles with the given information.  Now, to solve both triangles, we can work on them side-by-side . On your paper, draw a vertical line down the middle. The left column is for Triangle 1 (where swings to the right), and the right column is for Triangle 2 (where swings to the left). We'll do the same steps for both, and the only difference is whether we use the angle from inverse sine directly, or its supplement.  First, use the law of sines to find . This step is the same for both triangles,   Now, here's where the two triangles differ. Recall that , but there are two angles with the same sine value: and its supplement . You can organize the 2 triangles nicely in 2 columns,      Triangle 1  Triangle 2        Find :  Find :            Find using law of sines:  Find using law of sines:        In summary,    Triangle 1       Triangle 2        "
+},
+{
+  "id": "ex-ambiguous-not-always-two",
+  "level": "2",
+  "url": "sec-ambiguous-case.html#ex-ambiguous-not-always-two",
+  "type": "Example",
+  "number": "7.2.4",
+  "title": "",
+  "body": " However, there are not always 2 solutions.  "
+},
+{
+  "id": "proj-ambiguous-determine-solutions",
+  "level": "2",
+  "url": "sec-ambiguous-case.html#proj-ambiguous-determine-solutions",
+  "type": "Exercise Group",
+  "number": "7.2.1",
+  "title": "Determining Number of Solutions.",
+  "body": " Determining Number of Solutions  For each triangle, determine whether there is no solution, one solution, or two solutions.  In , , cm, and cm. 2 solutions ( , and )  In , , cm, and cm. obtuse angle 1 solution ( is obtuse and )  In , , cm, and cm. 1 solution ( is obtuse and )  In , , cm, and cm. no solution ( and , so is too short)  "
+},
+{
+  "id": "proj-ambiguous-solve-triangles",
+  "level": "2",
+  "url": "sec-ambiguous-case.html#proj-ambiguous-solve-triangles",
+  "type": "Exercise Group",
+  "number": "7.2.2",
+  "title": "Solving Triangles with Ambiguous Case.",
+  "body": " Solving Triangles with Ambiguous Case  Determine the unknown side and angles in each triangle. If two solutions are possible, give both.  In , , cm, and cm. Two solutions. Triangle 1: , , cm. Triangle 2: , , cm.  In , , cm, and cm. Two solutions. Triangle 1: , , cm. Triangle 2: , , cm.  In , , cm, and cm. No solution ( )  In triangle , , , and . Two solutions. Triangle 1: , , . Triangle 2: , , .  "
+},
+{
+  "id": "proj-ambiguous-solve-if-possible",
+  "level": "2",
+  "url": "sec-ambiguous-case.html#proj-ambiguous-solve-if-possible",
+  "type": "Exercise Group",
+  "number": "7.2.3",
+  "title": "Solve Each Triangle.",
+  "body": " Solve Each Triangle  Solve each triangle, if possible.  , , . , ,  , , . obtuse case , ,  "
+},
+{
   "id": "sec-oblique-triangles-summary",
   "level": "1",
   "url": "sec-oblique-triangles-summary.html",
   "type": "Section",
-  "number": "7.1",
+  "number": "7.3",
   "title": "Oblique Triangles Summary",
   "body": " Oblique Triangles Summary   Here is a simple summary of how to solve (oblique) triangles.  In short,   If you know an side-angle pair (side and it's opposite angle), use the law of sines .  Otherwise, use the law of cosines .   More specifically, based on the information given:    Type   First steps    Two angles and non-included side  AAS  law of sines    Two angles and included side  ASA  solve for remaining angle, then law of sines    Two sides and opposite angle  SSA  law of sines    Two sides and included angle  SAS  law of cosines (solve for side first)    Three sides  SSS  law of cosines (solve for an angle first)    Some additional notes:   If you know 2 angles, you can solve for the 3rd (subtract 180 minus the other two angles).  The SSA case also can be the ambiguous case if the triangle structure is unknown, with either 0, 1, or 2 solutions.  Be careful with rounding in intermediate steps, because it can lead to bigger rounding error in future calculations. A good guideline is to round intermediate calculations to at least 1 more decimal place than what the final answer asks for.    "
 },
@@ -5002,7 +5965,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "14.1",
   "title": "Intro to Trigonometric Identities",
-  "body": " Intro to Trigonometric Identities   In algebra, there are various equations which are always true, called identities.   For example,   These two sides are exactly the same, for any value of and . This is called an identity.   In a similar way, we can consider a trigonometric identity , a trigonometric equation that is true for all values of the variable.  We already know some basic identities, which could almost be called definitions.     Pythagorean Identities  There is also the Pythagorean identity, which comes from the unit circle,   Equivalently,   This identity can be used to derive further identities,   At first, you should solve problems with these identities as a reference. With practice, you will naturally remember them.    Simplifying Trigonometric Expressions   Simplifying Expressions   Simplify each trigonometric expression.     quotient identity, cancel.      expand.      quotient, cancel.      expand, Pythagorean identity.      difference of squares, Pythagorean identity.      quotient identity, Pythagorean identity.      distribute, quotient identity, cancel.      ideally factor as a difference of squares, if not then expand and collect like terms.      combine fractions, collect like terms, Pythagorean identity.      reciprocal identity, combine to one fraction, Pythagorean identity, cancel.      factor out , Pythagorean identity, cancel.      Advanced Examples   Simplify each trigonometric expression.     let , factor numerator and denominator, cancel.      difference of squares, factor the denominator, cancel.      factor out a common factor, difference of squares, cancel.      Write as a Single Trigonometric Ratio   Write each as a single trigonometric ratio.                     Factor Each Trigonometric Expression   Factor each trigonometric expression, and simplify if possible.     difference of squares.      difference of cubes, Pythagorean identity.       Solving Equations Using Identities  As you learn more fundamental trigonometric identities, you will be able to solve more trigonometric equations algebraically.   Solve Each Equation   Solve each equation, by finding all solutions in the interval and the general solution.     Pythagorean identity, leads to , factor, leads to or .  . General solution: .     Pythagorean identity, leads to , factor, leads to .  . General solution: .     Pythagorean identity, leads to , factor, leads to or .  . General solution: .     Pythagorean identity, leads to , factor, leads to or .  . General solution: .     quotient and Pythagorean identity, leads to , factor, leads to or .  . General solution: .     Pythagorean identity, leads to , factor, leads to or .  . General solution: .     "
+  "body": " Intro to Trigonometric Identities   In algebra, there are various equations which are always true, called identities.   For example,   These two sides are exactly the same, for any value of and . In other words, it is true no matter what numbers and are. This is called an identity. Another identity is,    We can also consider trigonometric identities , which are trigonometric equations that are true for all values of the variable.  We already know some basic identities, which could almost be called definitions.     Pythagorean Identities  There is also the Pythagorean identity, which comes from the unit circle,   This basically means that if you see in an expression, you can replace it with simply 1.  This identity can also be rearranged, to isolate for either or ,   We can also derive further identities, using this identity,   At first, when you're solving problems, have all of these identities available as a reference. Here is a summary of all common trigonometric identities: Summary of Trigonometric Identities . We will learn the remaining identities in the next few sections. On a test, most instructors will give you a formula sheet with all of the trigonometric identities (similar to my summary). However, with practice, you will naturally remember most of them.    Simplifying Trigonometric Expressions   Simplifying Expressions I   Simplify each trigonometric expression.     Convert everything to sine and cosine, cancel common factors.          Expand.      Convert everything to sine and cosine, cancel common factors.      Distribute, convert everything to sine and cosine, cancel common factors.      Convert everything to sine and cosine, cancel common factors.      Simplifying Expressions II   Simplify each trigonometric expression.     Expand, Pythagorean identity.      Factor difference of squares, Pythagorean identity.      Convert everything to sine and cosine, Pythagorean identity.      Ideally factor difference of squares, if not then expand and collect like terms.      Combine fractions with a common denominator, collect like terms, Pythagorean identity.      Convert everything to sine and cosine, combine fractions, Pythagorean identity, cancel common factors.      Factor common factors, Pythagorean identity, cancel common factors.          Pythagorean identity.      Convert everything to sine and cosine, simplify complex fraction by clearing denominators, Pythagorean identity.      Convert everything to tangent, simplify complex fraction by clearing denominators, cancel common factors.      Pythagorean identity, convert everything to sine and cosine.      Pythagorean identity, convert everything to sine and cosine.      Factor common factors, convert everything to sine and cosine, cancel common factors, Pythagorean identity.      Factor common factors, Pythagorean identity.      Convert everything to sine and cosine, cancel common factors.      Convert everything to sine and cosine, cancel common factors.      Expand, cancel like terms, Pythagorean identity.      Write as a Single Trigonometric Ratio   Simplify each expression as a single trigonometric ratio.                                 Factor Each Trigonometric Expression   Factor each trigonometric expression, and simplify if possible.                 Difference of squares.          Difference of cubes, Pythagorean identity.      Advanced Examples   Simplify each trigonometric expression.     Let , factor numerator and denominator, cancel.          Difference of squares, factor the denominator, cancel.      Factor out a common factor, difference of squares, cancel.       Solving Equations Using Identities  As you learn more fundamental trigonometric identities, you will be able to solve more trigonometric equations algebraically.   Solve Each Equation I   Solve each equation, by finding all solutions in the interval .     Pythagorean identity, leads to , factor, leads to or .  . General solution: .     Pythagorean identity, leads to , factor, leads to or .  . General solution: .     Pythagorean identity, leads to , factor, leads to .  . General solution: .     Pythagorean identity, leads to , factor.  . General solution: .     Solve Each Equation II   Solve each equation, by finding all solutions in the interval .     Pythagorean identity, leads to , factor, leads to or .  .     Rewrite in terms of sine and cosine, and Pythagorean identity, leads to which is in quadratic form, factor, leads to or .  .     Pythagorean identity, leads to , factor, leads to or (or, convert to sine and cosine, leads to ).  .     Leads to , cubic equation, solve by factor by grouping, leads to .  .     Clear denominators by multiplying by the lowest common denominator, Pythagorean identity, factor by grouping, which leads to .  (reject ).     Let , then .  .     Let , then .  .      Non-Permissible Values  In algebra, we know that division by zero is undefined. For example, is undefined when . In a similar way, trig expressions can have values where they are undefined.  A non-permissible value is a value of the variable that makes an expression undefined (sometimes, it is also called a restriction ). For trigonometric expressions, this happens whenever a denominator equals zero.   Non-Permissible Values of  Find any non-permissible values of .  Using the quotient identity, . The denominator is , so we set it equal to zero,   This occurs when , or in general, where .  Therefore, the non-permissible values are .   To find non-permissible values, basically:    Convert everything to sine and cosine (using the quotient and reciprocal identities).    Find where each denominator is 0, by setting them equal to zero and solving.    Non-Permissible Values of  Find any non-permissible values of .  First, rewrite in terms of sine and cosine:   Even though we could try to simplify this, the non-permissible values come from the original expression. The expression is undefined when:   is undefined, which is when  itself is undefined when (again).  is in a denominator, so we need , which means .   Then,   Setting gives  Setting gives .   Combined, the non-permissible values are (every multiple of ).    When simplifying trigonometric expressions, always find non-permissible values from the original expression before simplifying. This is because the simplified form might cancel some things out which can't be 0 in the original expression.    Find Non-Permissible Values   Find any non-permissible values of each expression.     or .  .     or .  and .     .  .     or .  .     or .  .     None.     or .  .     or .  .     or .  and .     .  .     or .  .      Verifying a Trigonometric Identity by Graphing  Not all equations are identities. Actually, if you write down a random equation with a combination of trig functions, it probably won't be an identity.  A simple way to verify if an equation is an identity is to graph both sides using a graphing calculator, like Desmos .  If an equation is an identity, then both sides of the equation will be equal for all values of the variable, and so the graph of each side will coincide (i.e. overlap each other).   If both graphs overlap completely, the equation is an identity.  On the other hand, if the two graphs don't match at even a single point, then the equation is not an identity.    Verify by Graphing  Verify that using a graphing calculator. Observe how they coincide (overlap): Desmos graph .     Verifying Identities   Verify for a Single Value  Verify for .    Is Checking One Value Enough?  Mark claimed that is an identity. Marcia let and found that both sides of the equation worked out to . She said that this proves that the equation is an identity. Is Marcia's reasoning correct? Explain.  Answer: No. Checking only shows the equality holds at one value, but an identity must hold for all in its domain. However, it is true this is an identity, it's just not proven by checking only one value.    Verify for  Verify for .  Answer: For , both sides are .    "
 },
 {
   "id": "sec-intro-to-trigonometric-identities-2-2",
@@ -5011,7 +5974,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "14.1.1",
   "title": "",
-  "body": " For example,   These two sides are exactly the same, for any value of and . This is called an identity.  "
+  "body": " For example,   These two sides are exactly the same, for any value of and . In other words, it is true no matter what numbers and are. This is called an identity. Another identity is,   "
 },
 {
   "id": "sec-intro-to-trigonometric-identities-2-3",
@@ -5020,25 +5983,25 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "trigonometric identity "
+  "body": "trigonometric identities "
 },
 {
-  "id": "project-simplifying-expressions",
+  "id": "project-simplifying-expressions-1",
   "level": "2",
-  "url": "sec-intro-to-trigonometric-identities.html#project-simplifying-expressions",
+  "url": "sec-intro-to-trigonometric-identities.html#project-simplifying-expressions-1",
   "type": "Exercise Group",
   "number": "14.1.1",
-  "title": "Simplifying Expressions.",
-  "body": " Simplifying Expressions   Simplify each trigonometric expression.     quotient identity, cancel.      expand.      quotient, cancel.      expand, Pythagorean identity.      difference of squares, Pythagorean identity.      quotient identity, Pythagorean identity.      distribute, quotient identity, cancel.      ideally factor as a difference of squares, if not then expand and collect like terms.      combine fractions, collect like terms, Pythagorean identity.      reciprocal identity, combine to one fraction, Pythagorean identity, cancel.      factor out , Pythagorean identity, cancel.    "
+  "title": "Simplifying Expressions I.",
+  "body": " Simplifying Expressions I   Simplify each trigonometric expression.     Convert everything to sine and cosine, cancel common factors.          Expand.      Convert everything to sine and cosine, cancel common factors.      Distribute, convert everything to sine and cosine, cancel common factors.      Convert everything to sine and cosine, cancel common factors.    "
 },
 {
-  "id": "project-advanced-simplifying",
+  "id": "project-simplifying-expressions-2",
   "level": "2",
-  "url": "sec-intro-to-trigonometric-identities.html#project-advanced-simplifying",
+  "url": "sec-intro-to-trigonometric-identities.html#project-simplifying-expressions-2",
   "type": "Exercise Group",
   "number": "14.1.2",
-  "title": "Advanced Examples.",
-  "body": " Advanced Examples   Simplify each trigonometric expression.     let , factor numerator and denominator, cancel.      difference of squares, factor the denominator, cancel.      factor out a common factor, difference of squares, cancel.    "
+  "title": "Simplifying Expressions II.",
+  "body": " Simplifying Expressions II   Simplify each trigonometric expression.     Expand, Pythagorean identity.      Factor difference of squares, Pythagorean identity.      Convert everything to sine and cosine, Pythagorean identity.      Ideally factor difference of squares, if not then expand and collect like terms.      Combine fractions with a common denominator, collect like terms, Pythagorean identity.      Convert everything to sine and cosine, combine fractions, Pythagorean identity, cancel common factors.      Factor common factors, Pythagorean identity, cancel common factors.          Pythagorean identity.      Convert everything to sine and cosine, simplify complex fraction by clearing denominators, Pythagorean identity.      Convert everything to tangent, simplify complex fraction by clearing denominators, cancel common factors.      Pythagorean identity, convert everything to sine and cosine.      Pythagorean identity, convert everything to sine and cosine.      Factor common factors, convert everything to sine and cosine, cancel common factors, Pythagorean identity.      Factor common factors, Pythagorean identity.      Convert everything to sine and cosine, cancel common factors.      Convert everything to sine and cosine, cancel common factors.      Expand, cancel like terms, Pythagorean identity.    "
 },
 {
   "id": "project-single-ratio",
@@ -5047,7 +6010,7 @@ var ptx_lunr_docs = [
   "type": "Exercise Group",
   "number": "14.1.3",
   "title": "Write as a Single Trigonometric Ratio.",
-  "body": " Write as a Single Trigonometric Ratio   Write each as a single trigonometric ratio.                   "
+  "body": " Write as a Single Trigonometric Ratio   Simplify each expression as a single trigonometric ratio.                               "
 },
 {
   "id": "project-factoring",
@@ -5056,16 +6019,115 @@ var ptx_lunr_docs = [
   "type": "Exercise Group",
   "number": "14.1.4",
   "title": "Factor Each Trigonometric Expression.",
-  "body": " Factor Each Trigonometric Expression   Factor each trigonometric expression, and simplify if possible.     difference of squares.      difference of cubes, Pythagorean identity.    "
+  "body": " Factor Each Trigonometric Expression   Factor each trigonometric expression, and simplify if possible.                 Difference of squares.          Difference of cubes, Pythagorean identity.    "
 },
 {
-  "id": "project-solving-equations",
+  "id": "project-advanced-simplifying",
   "level": "2",
-  "url": "sec-intro-to-trigonometric-identities.html#project-solving-equations",
+  "url": "sec-intro-to-trigonometric-identities.html#project-advanced-simplifying",
   "type": "Exercise Group",
   "number": "14.1.5",
-  "title": "Solve Each Equation.",
-  "body": " Solve Each Equation   Solve each equation, by finding all solutions in the interval and the general solution.     Pythagorean identity, leads to , factor, leads to or .  . General solution: .     Pythagorean identity, leads to , factor, leads to .  . General solution: .     Pythagorean identity, leads to , factor, leads to or .  . General solution: .     Pythagorean identity, leads to , factor, leads to or .  . General solution: .     quotient and Pythagorean identity, leads to , factor, leads to or .  . General solution: .     Pythagorean identity, leads to , factor, leads to or .  . General solution: .   "
+  "title": "Advanced Examples.",
+  "body": " Advanced Examples   Simplify each trigonometric expression.     Let , factor numerator and denominator, cancel.          Difference of squares, factor the denominator, cancel.      Factor out a common factor, difference of squares, cancel.    "
+},
+{
+  "id": "project-solving-equations-1",
+  "level": "2",
+  "url": "sec-intro-to-trigonometric-identities.html#project-solving-equations-1",
+  "type": "Exercise Group",
+  "number": "14.1.6",
+  "title": "Solve Each Equation I.",
+  "body": " Solve Each Equation I   Solve each equation, by finding all solutions in the interval .     Pythagorean identity, leads to , factor, leads to or .  . General solution: .     Pythagorean identity, leads to , factor, leads to or .  . General solution: .     Pythagorean identity, leads to , factor, leads to .  . General solution: .     Pythagorean identity, leads to , factor.  . General solution: .   "
+},
+{
+  "id": "project-solving-equations-2",
+  "level": "2",
+  "url": "sec-intro-to-trigonometric-identities.html#project-solving-equations-2",
+  "type": "Exercise Group",
+  "number": "14.1.7",
+  "title": "Solve Each Equation II.",
+  "body": " Solve Each Equation II   Solve each equation, by finding all solutions in the interval .     Pythagorean identity, leads to , factor, leads to or .  .     Rewrite in terms of sine and cosine, and Pythagorean identity, leads to which is in quadratic form, factor, leads to or .  .     Pythagorean identity, leads to , factor, leads to or (or, convert to sine and cosine, leads to ).  .     Leads to , cubic equation, solve by factor by grouping, leads to .  .     Clear denominators by multiplying by the lowest common denominator, Pythagorean identity, factor by grouping, which leads to .  (reject ).     Let , then .  .     Let , then .  .   "
+},
+{
+  "id": "trig-non-permissible-values-3",
+  "level": "2",
+  "url": "sec-intro-to-trigonometric-identities.html#trig-non-permissible-values-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "non-permissible value restriction "
+},
+{
+  "id": "ex-npv-cotx",
+  "level": "2",
+  "url": "sec-intro-to-trigonometric-identities.html#ex-npv-cotx",
+  "type": "Example",
+  "number": "14.1.2",
+  "title": "Non-Permissible Values of <span class=\"process-math\">\\(\\cot{x}\\)<\/span>.",
+  "body": " Non-Permissible Values of  Find any non-permissible values of .  Using the quotient identity, . The denominator is , so we set it equal to zero,   This occurs when , or in general, where .  Therefore, the non-permissible values are .  "
+},
+{
+  "id": "ex-npv-complex",
+  "level": "2",
+  "url": "sec-intro-to-trigonometric-identities.html#ex-npv-complex",
+  "type": "Example",
+  "number": "14.1.3",
+  "title": "Non-Permissible Values of <span class=\"process-math\">\\(\\dfrac{\\sec{x}+\\sin{x}}{\\tan{x}}\\)<\/span>.",
+  "body": " Non-Permissible Values of  Find any non-permissible values of .  First, rewrite in terms of sine and cosine:   Even though we could try to simplify this, the non-permissible values come from the original expression. The expression is undefined when:   is undefined, which is when  itself is undefined when (again).  is in a denominator, so we need , which means .   Then,   Setting gives  Setting gives .   Combined, the non-permissible values are (every multiple of ).  "
+},
+{
+  "id": "trig-non-permissible-values-8",
+  "level": "2",
+  "url": "sec-intro-to-trigonometric-identities.html#trig-non-permissible-values-8",
+  "type": "Remark",
+  "number": "14.1.4",
+  "title": "",
+  "body": " When simplifying trigonometric expressions, always find non-permissible values from the original expression before simplifying. This is because the simplified form might cancel some things out which can't be 0 in the original expression.  "
+},
+{
+  "id": "project-npv",
+  "level": "2",
+  "url": "sec-intro-to-trigonometric-identities.html#project-npv",
+  "type": "Exercise Group",
+  "number": "14.1.8",
+  "title": "Find Non-Permissible Values.",
+  "body": " Find Non-Permissible Values   Find any non-permissible values of each expression.     or .  .     or .  and .     .  .     or .  .     or .  .     None.     or .  .     or .  .     or .  and .     .  .     or .  .   "
+},
+{
+  "id": "ex-verify-graphing",
+  "level": "2",
+  "url": "sec-intro-to-trigonometric-identities.html#ex-verify-graphing",
+  "type": "Example",
+  "number": "14.1.5",
+  "title": "Verify by Graphing.",
+  "body": " Verify by Graphing  Verify that using a graphing calculator. Observe how they coincide (overlap): Desmos graph .  "
+},
+{
+  "id": "ex-verify-single-value",
+  "level": "2",
+  "url": "sec-intro-to-trigonometric-identities.html#ex-verify-single-value",
+  "type": "Example",
+  "number": "14.1.6",
+  "title": "Verify for a Single Value.",
+  "body": " Verify for a Single Value  Verify for .  "
+},
+{
+  "id": "ex-marcia-reasoning",
+  "level": "2",
+  "url": "sec-intro-to-trigonometric-identities.html#ex-marcia-reasoning",
+  "type": "Example",
+  "number": "14.1.7",
+  "title": "Is Checking One Value Enough?",
+  "body": " Is Checking One Value Enough?  Mark claimed that is an identity. Marcia let and found that both sides of the equation worked out to . She said that this proves that the equation is an identity. Is Marcia's reasoning correct? Explain.  Answer: No. Checking only shows the equality holds at one value, but an identity must hold for all in its domain. However, it is true this is an identity, it's just not proven by checking only one value.  "
+},
+{
+  "id": "ex-verify-150",
+  "level": "2",
+  "url": "sec-intro-to-trigonometric-identities.html#ex-verify-150",
+  "type": "Example",
+  "number": "14.1.8",
+  "title": "Verify for <span class=\"process-math\">\\(x=150°\\)<\/span>.",
+  "body": " Verify for  Verify for .  Answer: For , both sides are .  "
 },
 {
   "id": "sec-intro-to-proving-trigonometric-identities",
@@ -5074,79 +6136,61 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "14.2",
   "title": "Intro to Proving Trigonometric Identities",
-  "body": " Intro to Proving Trigonometric Identities   We already know a few fundamental trigonometric identities. Using these, we can prove new and more complicated identities.  Proving a trigonometric identity involves manipulating one side of the equation algebraically, to show that both sides of the equation are equivalent.    Verifying a Trigonometric Identity by Graphing  A simple way to verify if an equation is an identity is to graph both sides using a graphing calculator, like Desmos .  If an equation is an identity, then both sides of the equation will be equal for all values of the variable, and so the graph of each side will coincide (i.e. overlap each other).    If both graphs overlap completely, the equation is an identity.    On the other hand, if the two graphs don't match at even a single point, then the equation is not an identity.     Desmos Verification   Verify that using a graphing calculator. Observe how they coincide (overlap): Desmos graph .      Verifying Identities    Verify for .      General Principles for Proving Identities  This topic is often considered one of the most challenging by students, because:    It involves a culmination of a variety of algebra techniques learned over the course of high school math.    It requires some creativity and ingenuity to choose a strategy.    It is more abstract, symbolic reasoning, with basically no visualizations.    Here are some general principles:     Rewrite everything in terms of sine and cosine . All trigonometric ratios can be written in terms of the basic trig ratios sine and cosine.     The one exception is if the entire identity includes only tangent and\/or cotangent, in which case it is usually simpler to convert everything in terms of tangent.     Start with the more complicated side . In general,    Tangent is more complicated than sine and cosine.    Reciprocal trig functions are more complicated than primary trig functions (sine, cosine, tangent).    Multiple terms are more complicated than a single term.    You want to start with the more complicated side, because it is easier to start from something complex and simplify it, rather than start from something simple and make it more complex.     Begin with the end in mind . Look at the form of the desired side before you start, and guide your work toward that structure. Especially helpful if you are stuck and unsure how to continue.    Here are some particular algebraic tactics:    Combine fractions, using a common denominator.    Simplify complex fractions, by clearing denominators (multiply the numerator and denominator by the LCD).    Use algebraic identities, e.g. difference of squares, square of a sum, etc.   For example,    .    .      Convert to or vise versa, using the Pythagorean identity:     Multiply by the conjugate, in order to use the previous strategy (Pythagorean identity). Particularly if you see .    Use all trigonometric identities available to you. When practicing, have a list of them for reference, and you'll naturally be more comfortable with them over time.      Examples   Basic Examples   Prove each trigonometric identity.     rewrite in terms of sine and cosine, cancel common factors.     rewrite in terms of sine and cosine, cancel common factors.     rewrite in terms of sine and cosine, simplify fractions.     rewrite in terms of sine and cosine, cancel common factors.     rewrite in terms of sine and cosine, cancel common factors.     expand, rewrite in terms of sine and cosine.     work with both sides, rewrite in terms of sine and cosine, cancel common factors.     Practice with the Pythagorean Identity   Prove each trigonometric identity.     Pythagorean identity, cancel common factors.     Pythagorean identity, rewrite in terms of sine and cosine.     Pythagorean identity, rewrite in terms of sine and cosine.     expand, Pythagorean identity.     start with LHS, combine fractions, Pythagorean identity.     combine fractions, Pythagorean identity.     rewrite in terms of sine and cosine, cancel common factors, Pythagorean identity.     rewrite in terms of sine and cosine, distribute.     start with either side, combine fractions (or split fraction).     rewrite in terms of sine and cosine, cancel common factors, Pythagorean identity.     rewrite in terms of sine and cosine, combine fractions with a common denominator, Pythagorean identity.     factor out common factor, Pythagorean identity (or rewrite in terms of sine and cosine, cancel common factors, Pythagorean identity).     rewrite in terms of sine and cosine, Pythagorean identity.     work with both sides, Pythagorean identity, combine fraction with a common denominator.     rewrite in terms of sine and cosine, combine fractions, Pythagorean identity.     Mixed Identity Proofs I   Prove each trigonometric identity.     Pythagorean identity, factor difference of squares, cancel common factors.     factor common factor, rewrite in terms of sine and cosine, Pythagorean identity.     start with either side, combine fractions with a common denominator (or split fraction).     multiply by the conjugate, Pythagorean identity, cancel common factors.     rewrite in terms of sine and cosine, simplify complex fractions by clearing denominators, simplify and cancel common factors.     Pythagorean identity, rewrite in terms of sine and cosine, simplify.     start with either side, multiply by the conjugate, Pythagorean identity, cancel common factors.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor common factors, cancel common factors.     multiply by the conjugate, Pythagorean identity, cancel common factors.     multiply by the conjugate, Pythagorean identity, cancel common factors.     factor common factors, Pythagorean identity.     Pythagorean identity, simplify.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor out common factors, cancel common factors.     Mixed Identity Proofs II   Prove each trigonometric identity.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor and cancel common factors.     simplify complex fraction by clearing denominators, factor and cancel common factors.     can start with either side, multiply by the conjugate, Pythagorean identity.     combine fractions with a common denominator, Pythagorean identity.     start with the RHS, rewrite in terms of sine and cosine, combine fractions with a common denominator, Pythagorean identity.     rewrite in terms of tangent, simplify complex fraction by clearing denominators, cancel common factors.     rewrite in terms of sine and cosine, combine fractions with a common denominator, Pythagorean identity, simplify.     rewrite in terms of sine and cosine, combine fractions with a common denominator, cancel common factors.     start with the RHS, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, cancel common factors.     combine fractions with a common denominator, combine like terms, Pythagorean identity.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, combine fractions with a common denominator, Pythagorean identity.     factor common factors, Pythagorean identity.     expand, rewrite in terms of sine and cosine, cancel common factors, combine fractions with a common denominator, Pythagorean identity.     start with the LHS, rewrite in terms of sine and cosine, Pythagorean identity.     start with the LHS, combine fraction with a common denominator.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor and cancel common factors.     multiply by the conjugate, Pythagorean identity, cancel common factors.      Advanced Examples   Advanced Identity Proofs I   Prove each trigonometric identity.     work with both sides, rewrite in terms of sine and cosine, simplify complex fractions by clearing denominators, cancel common factors, factor difference of squares (or multiply by the conjugate).     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, Pythagorean identity.     rewrite in terms of sine and cosine, combine fractions, Pythagorean identity, factor out common factor, cancel common factors.     factor difference of squares, Pythagorean identity.     start with either side, rewrite in terms of sine and cosine, combine fractions with a common denominator.     start with the RHS, rewrite in terms of sine and cosine, combine fractions with a common denominator, Pythagorean identity.     combine fractions with a common denominator, Pythagorean identity, cancel common factors.     rewrite in terms of sine and cosine, simplify complex fractions by clearing denominators, Pythagorean identity.     rewrite in terms of sine and cosine, combine fractions, Pythagorean identity.     difference of squares, Pythagorean identity.     difference of squares, Pythagorean identity, cancel common factors.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, cancel common factors.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators.     start with the LHS, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, cancel common factors.     Advanced Identity Proofs II   Prove each trigonometric identity.     combine fractions with a common denominator, Pythagorean identity, cancel common factors.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, cancel common factors.     start with the LHS, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, multiply by the conjugate, Pythagorean identity.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, Pythagorean identity, cancel common factors.     start with the RHS, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, multiply by the conjugate, Pythagorean identity.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor and cancel common factors.     simplify complex fraction by clearing denominators, Pythagorean identity.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor out common factor, cancel common factors.     start with the LHS but RHS works also, simplify complex fraction by clearing denominators, cancel common factors, Pythagorean identity, factor and cancel.     rewrite in terms of sine and cosine, common denominator, Pythagorean identity, simplify.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, Pythagorean identity, simplify and cancel.     expand, rewrite in terms of sine and cosine, combine fractions, Pythagorean identity, factor difference of squares (or multiply by the conjugate), cancel common factors.     difference of squares, Pythagorean identity, simplify.     work with both sides, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor difference of squares (or multiply by the conjugate), cancel.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, cancel common factors.     start with either side, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, multiply by the conjugate (or factor difference of squares), Pythagorean identity.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, combine fraction with a common denominator.     start with either side, rewrite in terms of sine and cosine, distribute, combine fractions with a common denominator, simplify complex fraction by clearing denominators, multiply by the conjugate, Pythagorean identity.     combine fractions with a common denominator, Pythagorean identity.     "
+  "body": " Intro to Proving Trigonometric Identities   We already know a few fundamental trig identities. Using these, we can prove new and more complicated identities.  Proving a trigonometric identity involves manipulating each side of the equation algebraically, to show that both sides of the equation are equivalent.    General Principles for Proving Identities  This topic is often considered one of the most challenging by students, because:   It involves a culmination of a variety of algebra techniques learned over the course of high school math.  It requires some creativity to choose a strategy.  It involves more abstract and symbolic reasoning, with basically no visualizations.   Here are some general principles:    Rewrite everything in terms of sine and cosine . All trigonometric ratios can be written in terms of the basic trig ratios sine and cosine.     The one exception is if the entire identity includes only tangent and\/or cotangent, in which case it is usually simpler to convert everything in terms of tangent.    Start with the more complicated side . In general,   Tangent is more complicated than sine and cosine.  Reciprocal trig functions are more complicated than primary trig functions (sine, cosine, tangent).  Multiple terms are more complicated than a single term.   You want to start with the more complicated side, because it is easier to start from something complex and simplify it, rather than start from something simple and make it more complex.    Begin with the end in mind . Look at the form of the desired side before you start, and guide your work toward that structure. Especially helpful if you are stuck and unsure how to continue.    Here are some particular algebraic tactics:   Combine fractions, using a common denominator.  Simplify complex fractions, by clearing denominators (multiply the numerator and denominator by the LCD).   Use algebraic identities, e.g. difference of squares, square of a sum, etc.   For example,   .  .     Convert to or vice versa, using the Pythagorean identity:     Multiply by the conjugate, in order to use the Pythagorean identity (converting to , or to ). In particular, if the identity includes,    Use all trigonometric identities available to you. When practicing, have a list of them for reference, and you'll naturally be more comfortable with them over time.     Examples   Basic Examples   Prove each trigonometric identity.     Rewrite in terms of sine and cosine, cancel common factors.     Rewrite in terms of sine and cosine, cancel common factors.     Rewrite in terms of sine and cosine, simplify fractions.     Rewrite in terms of sine and cosine, cancel common factors.     Rewrite in terms of sine and cosine, cancel common factors.     Expand, rewrite in terms of sine and cosine.     Work with both sides, rewrite in terms of sine and cosine, cancel common factors.     Practice with the Pythagorean Identity   Prove each trigonometric identity.     Pythagorean identity, cancel common factors.     Pythagorean identity, rewrite in terms of sine and cosine.     Pythagorean identity, rewrite in terms of sine and cosine.     Expand, Pythagorean identity.     Start with LHS, combine fractions, Pythagorean identity.     Combine fractions, Pythagorean identity.     Rewrite in terms of sine and cosine, cancel common factors, Pythagorean identity.     Rewrite in terms of sine and cosine, distribute.     Start with either side, combine fractions (or split fraction).     Rewrite in terms of sine and cosine, cancel common factors, Pythagorean identity.     Rewrite in terms of sine and cosine, combine fractions with a common denominator, Pythagorean identity.     Factor out common factor, Pythagorean identity (or rewrite in terms of sine and cosine, cancel common factors, Pythagorean identity).     Rewrite in terms of sine and cosine, Pythagorean identity.     Work with both sides, Pythagorean identity, combine fraction with a common denominator.     Rewrite in terms of sine and cosine, combine fractions, Pythagorean identity.     Mixed Identity Proofs I   Prove each trigonometric identity.     Pythagorean identity, factor difference of squares, cancel common factors.     Factor common factor, rewrite in terms of sine and cosine, Pythagorean identity.     Start with either side, combine fractions with a common denominator (or split fraction).     Multiply by the conjugate, Pythagorean identity, cancel common factors.     Rewrite in terms of sine and cosine, simplify complex fractions by clearing denominators, simplify and cancel common factors.     Pythagorean identity, rewrite in terms of sine and cosine, simplify.     Start with either side, multiply by the conjugate, Pythagorean identity, cancel common factors.     Rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor common factors, cancel common factors.     Multiply by the conjugate, Pythagorean identity, cancel common factors.     Multiply by the conjugate, Pythagorean identity, cancel common factors.     Factor common factors, Pythagorean identity.     Pythagorean identity, simplify.     Rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor out common factors, cancel common factors.     Mixed Identity Proofs II   Prove each trigonometric identity.     Rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor and cancel common factors.     Simplify complex fraction by clearing denominators, factor and cancel common factors.     Can start with either side, multiply by the conjugate, Pythagorean identity.     Combine fractions with a common denominator, Pythagorean identity.     Start with the RHS, rewrite in terms of sine and cosine, combine fractions with a common denominator, Pythagorean identity.     Rewrite in terms of tangent, simplify complex fraction by clearing denominators, cancel common factors.     Rewrite in terms of sine and cosine, combine fractions with a common denominator, Pythagorean identity, simplify.     Rewrite in terms of sine and cosine, combine fractions with a common denominator, cancel common factors.     Start with the RHS, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, cancel common factors.     Combine fractions with a common denominator, combine like terms, Pythagorean identity.     Rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, combine fractions with a common denominator, Pythagorean identity.     Factor common factors, Pythagorean identity.     Expand, rewrite in terms of sine and cosine, cancel common factors, combine fractions with a common denominator, Pythagorean identity.     Start with the LHS, rewrite in terms of sine and cosine, Pythagorean identity.     Start with the LHS, combine fraction with a common denominator.     Rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor and cancel common factors.     Multiply by the conjugate, Pythagorean identity, cancel common factors.     Advanced Identity Proofs I   Prove each trigonometric identity.     Work with both sides, rewrite in terms of sine and cosine, simplify complex fractions by clearing denominators, cancel common factors, factor difference of squares (or multiply by the conjugate).     Rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, Pythagorean identity.     Rewrite in terms of sine and cosine, combine fractions, Pythagorean identity, factor out common factor, cancel common factors.     Factor difference of squares, Pythagorean identity.     Start with either side, rewrite in terms of sine and cosine, combine fractions with a common denominator.     Start with the RHS, rewrite in terms of sine and cosine, combine fractions with a common denominator, Pythagorean identity.     Combine fractions with a common denominator, Pythagorean identity, cancel common factors.     Rewrite in terms of sine and cosine, simplify complex fractions by clearing denominators, Pythagorean identity.     Rewrite in terms of sine and cosine, combine fractions, Pythagorean identity.     Difference of squares, Pythagorean identity.     Difference of squares, Pythagorean identity, cancel common factors.     Rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, cancel common factors.     Rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators.     Start with the LHS, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, cancel common factors.     Advanced Identity Proofs II   Prove each trigonometric identity.     Combine fractions with a common denominator, Pythagorean identity, cancel common factors.     Rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, cancel common factors.     Start with the LHS, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, multiply by the conjugate, Pythagorean identity.     Rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, Pythagorean identity, cancel common factors.     Start with the RHS, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, multiply by the conjugate, Pythagorean identity.     Rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor and cancel common factors.     Simplify complex fraction by clearing denominators, Pythagorean identity.     Rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor out common factor, cancel common factors.     Start with the LHS but RHS works also, simplify complex fraction by clearing denominators, cancel common factors, Pythagorean identity, factor and cancel.     Rewrite in terms of sine and cosine, common denominator, Pythagorean identity, simplify.     Rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, Pythagorean identity, simplify and cancel.     Expand, rewrite in terms of sine and cosine, combine fractions, Pythagorean identity, factor difference of squares (or multiply by the conjugate), cancel common factors.     Difference of squares, Pythagorean identity, simplify.     Work with both sides, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor difference of squares (or multiply by the conjugate), cancel.     Rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, cancel common factors.     Start with either side, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, multiply by the conjugate (or factor difference of squares), Pythagorean identity.     Rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, combine fraction with a common denominator.     Work with both sides, rewrite in terms of sine and cosine, distribute, combine fractions with a common denominator, simplify complex fraction by clearing denominators, multiply by the conjugate, Pythagorean identity.     Combine fractions with a common denominator, Pythagorean identity.     "
 },
 {
-  "id": "subsec-verifying-graphing-5",
+  "id": "project-prove-basic",
   "level": "2",
-  "url": "sec-intro-to-proving-trigonometric-identities.html#subsec-verifying-graphing-5",
-  "type": "Example",
-  "number": "14.2.1",
-  "title": "Desmos Verification.",
-  "body": " Desmos Verification   Verify that using a graphing calculator. Observe how they coincide (overlap): Desmos graph .   "
-},
-{
-  "id": "subsec-verifying-identities-example-2",
-  "level": "2",
-  "url": "sec-intro-to-proving-trigonometric-identities.html#subsec-verifying-identities-example-2",
-  "type": "Example",
-  "number": "14.2.2",
-  "title": "",
-  "body": "  Verify for .   "
-},
-{
-  "id": "subsec-identity-examples-2",
-  "level": "2",
-  "url": "sec-intro-to-proving-trigonometric-identities.html#subsec-identity-examples-2",
+  "url": "sec-intro-to-proving-trigonometric-identities.html#project-prove-basic",
   "type": "Exercise Group",
   "number": "14.2.1",
   "title": "Basic Examples.",
-  "body": " Basic Examples   Prove each trigonometric identity.     rewrite in terms of sine and cosine, cancel common factors.     rewrite in terms of sine and cosine, cancel common factors.     rewrite in terms of sine and cosine, simplify fractions.     rewrite in terms of sine and cosine, cancel common factors.     rewrite in terms of sine and cosine, cancel common factors.     expand, rewrite in terms of sine and cosine.     work with both sides, rewrite in terms of sine and cosine, cancel common factors.   "
+  "body": " Basic Examples   Prove each trigonometric identity.     Rewrite in terms of sine and cosine, cancel common factors.     Rewrite in terms of sine and cosine, cancel common factors.     Rewrite in terms of sine and cosine, simplify fractions.     Rewrite in terms of sine and cosine, cancel common factors.     Rewrite in terms of sine and cosine, cancel common factors.     Expand, rewrite in terms of sine and cosine.     Work with both sides, rewrite in terms of sine and cosine, cancel common factors.   "
 },
 {
-  "id": "subsec-identity-examples-3",
+  "id": "project-prove-pythagorean",
   "level": "2",
-  "url": "sec-intro-to-proving-trigonometric-identities.html#subsec-identity-examples-3",
+  "url": "sec-intro-to-proving-trigonometric-identities.html#project-prove-pythagorean",
   "type": "Exercise Group",
   "number": "14.2.2",
   "title": "Practice with the Pythagorean Identity.",
-  "body": " Practice with the Pythagorean Identity   Prove each trigonometric identity.     Pythagorean identity, cancel common factors.     Pythagorean identity, rewrite in terms of sine and cosine.     Pythagorean identity, rewrite in terms of sine and cosine.     expand, Pythagorean identity.     start with LHS, combine fractions, Pythagorean identity.     combine fractions, Pythagorean identity.     rewrite in terms of sine and cosine, cancel common factors, Pythagorean identity.     rewrite in terms of sine and cosine, distribute.     start with either side, combine fractions (or split fraction).     rewrite in terms of sine and cosine, cancel common factors, Pythagorean identity.     rewrite in terms of sine and cosine, combine fractions with a common denominator, Pythagorean identity.     factor out common factor, Pythagorean identity (or rewrite in terms of sine and cosine, cancel common factors, Pythagorean identity).     rewrite in terms of sine and cosine, Pythagorean identity.     work with both sides, Pythagorean identity, combine fraction with a common denominator.     rewrite in terms of sine and cosine, combine fractions, Pythagorean identity.   "
+  "body": " Practice with the Pythagorean Identity   Prove each trigonometric identity.     Pythagorean identity, cancel common factors.     Pythagorean identity, rewrite in terms of sine and cosine.     Pythagorean identity, rewrite in terms of sine and cosine.     Expand, Pythagorean identity.     Start with LHS, combine fractions, Pythagorean identity.     Combine fractions, Pythagorean identity.     Rewrite in terms of sine and cosine, cancel common factors, Pythagorean identity.     Rewrite in terms of sine and cosine, distribute.     Start with either side, combine fractions (or split fraction).     Rewrite in terms of sine and cosine, cancel common factors, Pythagorean identity.     Rewrite in terms of sine and cosine, combine fractions with a common denominator, Pythagorean identity.     Factor out common factor, Pythagorean identity (or rewrite in terms of sine and cosine, cancel common factors, Pythagorean identity).     Rewrite in terms of sine and cosine, Pythagorean identity.     Work with both sides, Pythagorean identity, combine fraction with a common denominator.     Rewrite in terms of sine and cosine, combine fractions, Pythagorean identity.   "
 },
 {
-  "id": "subsec-identity-examples-4",
+  "id": "project-prove-mixed-1",
   "level": "2",
-  "url": "sec-intro-to-proving-trigonometric-identities.html#subsec-identity-examples-4",
+  "url": "sec-intro-to-proving-trigonometric-identities.html#project-prove-mixed-1",
   "type": "Exercise Group",
   "number": "14.2.3",
   "title": "Mixed Identity Proofs I.",
-  "body": " Mixed Identity Proofs I   Prove each trigonometric identity.     Pythagorean identity, factor difference of squares, cancel common factors.     factor common factor, rewrite in terms of sine and cosine, Pythagorean identity.     start with either side, combine fractions with a common denominator (or split fraction).     multiply by the conjugate, Pythagorean identity, cancel common factors.     rewrite in terms of sine and cosine, simplify complex fractions by clearing denominators, simplify and cancel common factors.     Pythagorean identity, rewrite in terms of sine and cosine, simplify.     start with either side, multiply by the conjugate, Pythagorean identity, cancel common factors.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor common factors, cancel common factors.     multiply by the conjugate, Pythagorean identity, cancel common factors.     multiply by the conjugate, Pythagorean identity, cancel common factors.     factor common factors, Pythagorean identity.     Pythagorean identity, simplify.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor out common factors, cancel common factors.   "
+  "body": " Mixed Identity Proofs I   Prove each trigonometric identity.     Pythagorean identity, factor difference of squares, cancel common factors.     Factor common factor, rewrite in terms of sine and cosine, Pythagorean identity.     Start with either side, combine fractions with a common denominator (or split fraction).     Multiply by the conjugate, Pythagorean identity, cancel common factors.     Rewrite in terms of sine and cosine, simplify complex fractions by clearing denominators, simplify and cancel common factors.     Pythagorean identity, rewrite in terms of sine and cosine, simplify.     Start with either side, multiply by the conjugate, Pythagorean identity, cancel common factors.     Rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor common factors, cancel common factors.     Multiply by the conjugate, Pythagorean identity, cancel common factors.     Multiply by the conjugate, Pythagorean identity, cancel common factors.     Factor common factors, Pythagorean identity.     Pythagorean identity, simplify.     Rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor out common factors, cancel common factors.   "
 },
 {
-  "id": "subsec-identity-examples-5",
+  "id": "project-prove-mixed-2",
   "level": "2",
-  "url": "sec-intro-to-proving-trigonometric-identities.html#subsec-identity-examples-5",
+  "url": "sec-intro-to-proving-trigonometric-identities.html#project-prove-mixed-2",
   "type": "Exercise Group",
   "number": "14.2.4",
   "title": "Mixed Identity Proofs II.",
-  "body": " Mixed Identity Proofs II   Prove each trigonometric identity.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor and cancel common factors.     simplify complex fraction by clearing denominators, factor and cancel common factors.     can start with either side, multiply by the conjugate, Pythagorean identity.     combine fractions with a common denominator, Pythagorean identity.     start with the RHS, rewrite in terms of sine and cosine, combine fractions with a common denominator, Pythagorean identity.     rewrite in terms of tangent, simplify complex fraction by clearing denominators, cancel common factors.     rewrite in terms of sine and cosine, combine fractions with a common denominator, Pythagorean identity, simplify.     rewrite in terms of sine and cosine, combine fractions with a common denominator, cancel common factors.     start with the RHS, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, cancel common factors.     combine fractions with a common denominator, combine like terms, Pythagorean identity.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, combine fractions with a common denominator, Pythagorean identity.     factor common factors, Pythagorean identity.     expand, rewrite in terms of sine and cosine, cancel common factors, combine fractions with a common denominator, Pythagorean identity.     start with the LHS, rewrite in terms of sine and cosine, Pythagorean identity.     start with the LHS, combine fraction with a common denominator.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor and cancel common factors.     multiply by the conjugate, Pythagorean identity, cancel common factors.   "
+  "body": " Mixed Identity Proofs II   Prove each trigonometric identity.     Rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor and cancel common factors.     Simplify complex fraction by clearing denominators, factor and cancel common factors.     Can start with either side, multiply by the conjugate, Pythagorean identity.     Combine fractions with a common denominator, Pythagorean identity.     Start with the RHS, rewrite in terms of sine and cosine, combine fractions with a common denominator, Pythagorean identity.     Rewrite in terms of tangent, simplify complex fraction by clearing denominators, cancel common factors.     Rewrite in terms of sine and cosine, combine fractions with a common denominator, Pythagorean identity, simplify.     Rewrite in terms of sine and cosine, combine fractions with a common denominator, cancel common factors.     Start with the RHS, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, cancel common factors.     Combine fractions with a common denominator, combine like terms, Pythagorean identity.     Rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, combine fractions with a common denominator, Pythagorean identity.     Factor common factors, Pythagorean identity.     Expand, rewrite in terms of sine and cosine, cancel common factors, combine fractions with a common denominator, Pythagorean identity.     Start with the LHS, rewrite in terms of sine and cosine, Pythagorean identity.     Start with the LHS, combine fraction with a common denominator.     Rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor and cancel common factors.     Multiply by the conjugate, Pythagorean identity, cancel common factors.   "
 },
 {
-  "id": "subsec-advanced-examples-2",
+  "id": "project-prove-advanced-1",
   "level": "2",
-  "url": "sec-intro-to-proving-trigonometric-identities.html#subsec-advanced-examples-2",
+  "url": "sec-intro-to-proving-trigonometric-identities.html#project-prove-advanced-1",
   "type": "Exercise Group",
   "number": "14.2.5",
   "title": "Advanced Identity Proofs I.",
-  "body": " Advanced Identity Proofs I   Prove each trigonometric identity.     work with both sides, rewrite in terms of sine and cosine, simplify complex fractions by clearing denominators, cancel common factors, factor difference of squares (or multiply by the conjugate).     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, Pythagorean identity.     rewrite in terms of sine and cosine, combine fractions, Pythagorean identity, factor out common factor, cancel common factors.     factor difference of squares, Pythagorean identity.     start with either side, rewrite in terms of sine and cosine, combine fractions with a common denominator.     start with the RHS, rewrite in terms of sine and cosine, combine fractions with a common denominator, Pythagorean identity.     combine fractions with a common denominator, Pythagorean identity, cancel common factors.     rewrite in terms of sine and cosine, simplify complex fractions by clearing denominators, Pythagorean identity.     rewrite in terms of sine and cosine, combine fractions, Pythagorean identity.     difference of squares, Pythagorean identity.     difference of squares, Pythagorean identity, cancel common factors.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, cancel common factors.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators.     start with the LHS, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, cancel common factors.   "
+  "body": " Advanced Identity Proofs I   Prove each trigonometric identity.     Work with both sides, rewrite in terms of sine and cosine, simplify complex fractions by clearing denominators, cancel common factors, factor difference of squares (or multiply by the conjugate).     Rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, Pythagorean identity.     Rewrite in terms of sine and cosine, combine fractions, Pythagorean identity, factor out common factor, cancel common factors.     Factor difference of squares, Pythagorean identity.     Start with either side, rewrite in terms of sine and cosine, combine fractions with a common denominator.     Start with the RHS, rewrite in terms of sine and cosine, combine fractions with a common denominator, Pythagorean identity.     Combine fractions with a common denominator, Pythagorean identity, cancel common factors.     Rewrite in terms of sine and cosine, simplify complex fractions by clearing denominators, Pythagorean identity.     Rewrite in terms of sine and cosine, combine fractions, Pythagorean identity.     Difference of squares, Pythagorean identity.     Difference of squares, Pythagorean identity, cancel common factors.     Rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, cancel common factors.     Rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators.     Start with the LHS, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, cancel common factors.   "
 },
 {
-  "id": "subsec-advanced-examples-3",
+  "id": "project-prove-advanced-2",
   "level": "2",
-  "url": "sec-intro-to-proving-trigonometric-identities.html#subsec-advanced-examples-3",
+  "url": "sec-intro-to-proving-trigonometric-identities.html#project-prove-advanced-2",
   "type": "Exercise Group",
   "number": "14.2.6",
   "title": "Advanced Identity Proofs II.",
-  "body": " Advanced Identity Proofs II   Prove each trigonometric identity.     combine fractions with a common denominator, Pythagorean identity, cancel common factors.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, cancel common factors.     start with the LHS, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, multiply by the conjugate, Pythagorean identity.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, Pythagorean identity, cancel common factors.     start with the RHS, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, multiply by the conjugate, Pythagorean identity.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor and cancel common factors.     simplify complex fraction by clearing denominators, Pythagorean identity.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor out common factor, cancel common factors.     start with the LHS but RHS works also, simplify complex fraction by clearing denominators, cancel common factors, Pythagorean identity, factor and cancel.     rewrite in terms of sine and cosine, common denominator, Pythagorean identity, simplify.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, Pythagorean identity, simplify and cancel.     expand, rewrite in terms of sine and cosine, combine fractions, Pythagorean identity, factor difference of squares (or multiply by the conjugate), cancel common factors.     difference of squares, Pythagorean identity, simplify.     work with both sides, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor difference of squares (or multiply by the conjugate), cancel.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, cancel common factors.     start with either side, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, multiply by the conjugate (or factor difference of squares), Pythagorean identity.     rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, combine fraction with a common denominator.     start with either side, rewrite in terms of sine and cosine, distribute, combine fractions with a common denominator, simplify complex fraction by clearing denominators, multiply by the conjugate, Pythagorean identity.     combine fractions with a common denominator, Pythagorean identity.   "
+  "body": " Advanced Identity Proofs II   Prove each trigonometric identity.     Combine fractions with a common denominator, Pythagorean identity, cancel common factors.     Rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, cancel common factors.     Start with the LHS, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, multiply by the conjugate, Pythagorean identity.     Rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, Pythagorean identity, cancel common factors.     Start with the RHS, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, multiply by the conjugate, Pythagorean identity.     Rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor and cancel common factors.     Simplify complex fraction by clearing denominators, Pythagorean identity.     Rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor out common factor, cancel common factors.     Start with the LHS but RHS works also, simplify complex fraction by clearing denominators, cancel common factors, Pythagorean identity, factor and cancel.     Rewrite in terms of sine and cosine, common denominator, Pythagorean identity, simplify.     Rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, Pythagorean identity, simplify and cancel.     Expand, rewrite in terms of sine and cosine, combine fractions, Pythagorean identity, factor difference of squares (or multiply by the conjugate), cancel common factors.     Difference of squares, Pythagorean identity, simplify.     Work with both sides, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, factor difference of squares (or multiply by the conjugate), cancel.     Rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, cancel common factors.     Start with either side, rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, multiply by the conjugate (or factor difference of squares), Pythagorean identity.     Rewrite in terms of sine and cosine, simplify complex fraction by clearing denominators, combine fraction with a common denominator.     Work with both sides, rewrite in terms of sine and cosine, distribute, combine fractions with a common denominator, simplify complex fraction by clearing denominators, multiply by the conjugate, Pythagorean identity.     Combine fractions with a common denominator, Pythagorean identity.   "
 },
 {
   "id": "sec-sum-and-difference-identities",

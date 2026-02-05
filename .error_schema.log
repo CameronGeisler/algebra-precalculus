@@ -1,5 +1,5 @@
-file:/C:/Users/CKG/Documents/pretext_math/algebra-precalculus/source/main.ptx:3:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element idx, got section
-file:/C:/Users/CKG/Documents/pretext_math/algebra-precalculus/source/main.ptx:3:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element section there
-file:/C:/Users/CKG/Documents/pretext_math/algebra-precalculus/source/main.ptx:3:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element sidebyside, got section
-file:/C:/Users/CKG/Documents/pretext_math/algebra-precalculus/source/main.ptx:3:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element proof, got section
-file:/C:/Users/CKG/Documents/pretext_math/algebra-precalculus/source/main.ptx:3:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element exercise, got section
+<string>:3:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element idx, got section
+<string>:3:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element section there
+<string>:3:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element sidebyside, got section
+<string>:3:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element proof, got section
+<string>:3:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element exercise, got section
