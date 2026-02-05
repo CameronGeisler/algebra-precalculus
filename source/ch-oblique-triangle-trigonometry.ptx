@@ -8,6 +8,8 @@
   </introduction> -->
 
   <!-- include sections -->
+  <xi:include href="sec-law-of-sines.ptx" />
+  <xi:include href="sec-ambiguous-case.ptx" />
   <xi:include href="sec-oblique-triangles-summary.ptx" />
 
 </chapter>

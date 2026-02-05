@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-law-of-sines" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Law of Sines</title>
+  
+  <introduction>
+    <p>The Law of Sines relates the sides and angles of any triangle (not just right triangles).</p>
+    
+    <theorem xml:id="thm-law-of-sines">
+      <title>Law of Sines (Sine Law)</title>
+      <statement>
+        <p>Let <m>A, B, C</m> be the measures of the angles of a triangle, and let <m>a, b, c</m> be the lengths of the sides opposite those angles, respectively. Then,</p>
+        <me>\frac{a}{\sin{A}} = \frac{b}{\sin{B}} = \frac{c}{\sin{C}}</me>
+      </statement>
+    </theorem>
+    
+    <p>In other words, the ratio of a side to the sine of its opposite angle is equal for all three sides of the triangle.</p>
+    
+    <p>The law of sines can also be rewritten with the side lengths in the denominator,</p>
+    <me>\frac{\sin{A}}{a} = \frac{\sin{B}}{b} = \frac{\sin{C}}{c}</me>
+    <p>This is because you can take the reciprocal of all three sides of the equation (in other words, flip them all upside down).</p>
+    
+    <p>By convention, you should always label the triangle to align with the law of sines, so that each side letter is opposite its angle letter. In other words, side <m>a</m> is opposite angle <m>A</m>, side <m>b</m> is opposite angle <m>B</m>, and side <m>c</m> is opposite angle <m>C</m>.</p>
+    
+    <figure xml:id="fig-law-of-sines-labeling">
+      <caption>Standard triangle labeling for Law of Sines</caption>
+      <image width="50%">
+        <latex-image>
+          \begin{tikzpicture}
+          \tkzDefPoints{0/0/A, 4/0/B}
+          \tkzDefTriangle[two angles = 50 and 60](A,B) \tkzGetPoint{C}
+          \tkzDrawPolygon(A,B,C)
+          \tkzMarkAngle[size=0.7](B,A,C)
+          \tkzLabelAngle[pos=1.1](B,A,C){$A$}
+          \tkzMarkAngle[size=0.5](C,B,A)
+          \tkzLabelAngle[pos=0.9](C,B,A){$B$}
+          \tkzMarkAngle[size=0.6](A,C,B)
+          \tkzLabelAngle[pos=1.0](A,C,B){$C$}
+          \tkzLabelSegment[above left](A,C){$b$}
+          \tkzLabelSegment[above right](B,C){$a$}
+          \tkzLabelSegment[below](A,B){$c$}
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+    </figure>
+  </introduction>
+  
+  <subsection xml:id="subsec-placeholder-formulas">
+    <title>Placeholder Formulas in Trigonometry</title>
+    
+    <p>When using the law of sines, the letters don't dictate a specific angle or side. You could swap <m>A</m> and <m>C</m> and the formula would still be valid. You just have to swap <m>a</m> and <m>c</m> also. The <em>only</em> requirement is that <m>a</m> must be the side across from angle <m>A</m>, <m>b</m> across from <m>B</m>, and <m>c</m> across from <m>C</m>.</p>
+    
+    <p>This means that the law of sines can be summarized in only one statement,</p>
+    <me>\frac{a}{\sin{A}} = \frac{b}{\sin{B}}</me>
+    <p>Basically, in any triangle, the ratio of side over sine of its opposite angle, equals any other side over the sine of its opposite angle.</p>
+    
+    <remark xml:id="rem-placeholder-formula">
+      <title>Placeholder Formulas</title>
+      <p>This means that law of sines is a so-called <q>placeholder formula</q>, in that the symbols <m>A, B, C</m> and <m>a, b, c</m> do not necessarily refer to specific sides or angles. They are just placeholders or <q>stand-ins</q> for the 3 sides and angles of a triangle. In contrast, some formulas use variables that have a universally agreed-upon meaning. For example, in the quadratic formula,</p>
+      <me>ax^2 + bx + c = 0 \quad \rightarrow \quad x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}</me>
+      <p>The letter <m>a</m> always represents the coefficient of <m>x^2</m>, <m>b</m> is the coefficient of <m>x</m>, and <m>c</m> is the constant. You can't switch <m>a</m> and <m>b</m> without changing the meaning of the formula.</p>
+    </remark>
+  </subsection>
+  
+  <subsection xml:id="subsec-law-of-sines-examples">
+    <title>Examples</title>
+    
+    <example xml:id="ex-los-find-side-1">
+      <title>Finding a Side (AAS)</title>
+      <statement>
+        <p>In triangle <m>ABC</m>, <m>\angle A = 35°</m>, <m>\angle B = 88°</m>, and <m>AC = 44</m> mm. Determine the length of <m>AB</m>.</p>
+        <figure xml:id="fig-los-ex1">
+          <caption>Triangle with angles 35° and 88°</caption>
+          <image width="50%">
+            <latex-image>
+              \begin{tikzpicture}[scale=1]
+              \tkzDefPoints{0/0/A, 4/0/B}
+              \tkzDefTriangle[two angles = 35 and 88](A,B) \tkzGetPoint{C}
+              \tkzDrawPolygon(A,B,C)
+              \tkzLabelPoints[below left](A)
+              \tkzLabelPoints[below right](B)
+              \tkzLabelPoints[above](C)
+              \tkzMarkAngle[size=0.7](B,A,C)
+              \tkzLabelAngle[pos=1.1](B,A,C){$35^\circ$}
+              \tkzMarkAngle[size=0.5](C,B,A)
+              \tkzLabelAngle[pos=0.9](C,B,A){$88^\circ$}
+              \tkzLabelSegment[left](A,C){44 mm}
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </figure>
+      </statement>
+      <answer><p><m>AB \approx 36.9</m> mm</p></answer>
+    </example>
+    
+    <example xml:id="ex-los-find-side-2">
+      <title>Finding a Side with Obtuse Angle</title>
+      <statement>
+        <p>In triangle <m>ABC</m>, <m>\angle A = 52°</m>, <m>\angle B = 118°</m>, and <m>BC = 45</m> m. Determine the length of <m>AB</m>.</p>
+        <figure xml:id="fig-los-ex2">
+          <caption>Triangle with obtuse angle 118°</caption>
+          <image width="40%">
+            <latex-image>
+              \begin{tikzpicture}[scale=1]
+              \tkzDefPoints{0/0/A, 1.2/0/B}
+              \tkzDefTriangle[two angles = 52 and 118](A,B) \tkzGetPoint{C}
+              \tkzDrawPolygon(A,B,C)
+              \tkzLabelPoints[below left](A)
+              \tkzLabelPoints[below right](B)
+              \tkzLabelPoints[above](C)
+              \tkzMarkAngle[size=0.3](B,A,C)
+              \tkzLabelAngle[pos=0.55](B,A,C){$52^\circ$}
+              \tkzMarkAngle[size=0.25, arc=ll](C,B,A)
+              \tkzLabelAngle[pos=0.5](C,B,A){$118^\circ$}
+              \tkzLabelSegment[right](B,C){45 m}
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </figure>
+      </statement>
+      <answer><p><m>AB \approx 9.9</m> m</p></answer>
+    </example>
+    
+    <example xml:id="ex-los-find-angle-1">
+      <title>Finding an Angle</title>
+      <statement>
+        <p>In triangle <m>ABC</m>, <m>\angle B = 62°</m>, <m>AC = 28</m> m, and <m>BC = 31</m> m. Determine the measure of angle <m>A</m>.</p>
+        <figure xml:id="fig-los-ex3">
+          <caption>Triangle with known angle and two sides</caption>
+          <image width="50%">
+            <latex-image>
+              \begin{tikzpicture}[scale=1]
+              \tkzDefPoints{0/0/A, 4/0/B}
+              \tkzDefTriangle[two angles = 78.9 and 62](A,B) \tkzGetPoint{C}
+              \tkzDrawPolygon(A,B,C)
+              \tkzLabelPoints[below left](A)
+              \tkzLabelPoints[below right](B)
+              \tkzLabelPoints[above](C)
+              \tkzMarkAngle[size=0.6](B,A,C)
+              \tkzLabelAngle[pos=1.0](B,A,C){?}
+              \tkzMarkAngle[size=0.5](C,B,A)
+              \tkzLabelAngle[pos=0.9](C,B,A){$62^\circ$}
+              \tkzLabelSegment[left](A,C){28 m}
+              \tkzLabelSegment[right](B,C){31 m}
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </figure>
+      </statement>
+      <answer><p><m>A \approx 78.9°</m></p></answer>
+    </example>
+    
+    <example xml:id="ex-los-find-angle-2">
+      <title>Finding an Angle (Obtuse Given Angle)</title>
+      <statement>
+        <p>In triangle <m>ABC</m>, <m>\angle B = 98°</m>, <m>AC = 17.5</m> m, and <m>BC = 15</m> m. Determine the measure of angle <m>A</m>.</p>
+        <figure xml:id="fig-los-ex4">
+          <caption>Triangle with obtuse angle 98°</caption>
+          <image width="45%">
+            <latex-image>
+              \begin{tikzpicture}[scale=1]
+              \tkzDefPoints{0/0/A, 2.5/0/B}
+              \tkzDefTriangle[two angles = 58 and 98](A,B) \tkzGetPoint{C}
+              \tkzDrawPolygon(A,B,C)
+              \tkzLabelPoints[below left](A)
+              \tkzLabelPoints[below right](B)
+              \tkzLabelPoints[above](C)
+              \tkzMarkAngle[size=0.6](B,A,C)
+              \tkzLabelAngle[pos=1.0](B,A,C){?}
+              \tkzMarkAngle[size=0.4, arc=ll](C,B,A)
+              \tkzLabelAngle[pos=0.7](C,B,A){$98^\circ$}
+              \tkzLabelSegment[left](A,C){17.5 m}
+              \tkzLabelSegment[right](B,C){15 m}
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </figure>
+      </statement>
+      <answer><p><m>A \approx 58.0°</m></p></answer>
+    </example>
+    
+    <p>To <term>solve</term> an oblique triangle means to determine the lengths of all of its sides and the measure of all of its angles.</p>
+    
+    <example xml:id="ex-los-solve-triangle-1">
+      <title>Solving a Triangle (AAS)</title>
+      <statement>
+        <p>Solve the triangle: <m>\angle B = 67°</m>, <m>AC = 13</m> m, and <m>BC = 12</m> m.</p>
+        <figure xml:id="fig-los-ex5">
+          <caption>Triangle to solve</caption>
+          <image width="50%">
+            <latex-image>
+              \begin{tikzpicture}[scale=1]
+              \tkzDefPoints{0/0/A, 4/0/B}
+              \tkzDefTriangle[two angles = 58.5 and 67](A,B) \tkzGetPoint{C}
+              \tkzDrawPolygon(A,B,C)
+              \tkzLabelPoints[below left](A)
+              \tkzLabelPoints[below right](B)
+              \tkzLabelPoints[above](C)
+              \tkzMarkAngle[size=0.5](C,B,A)
+              \tkzLabelAngle[pos=0.9](C,B,A){$67^\circ$}
+              \tkzLabelSegment[left](A,C){13 m}
+              \tkzLabelSegment[right](B,C){12 m}
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </figure>
+      </statement>
+      <answer><p><m>A \approx 58.5°</m>, <m>C \approx 54.5°</m>, <m>AB \approx 11.6</m> m</p></answer>
+    </example>
+    
+    <example xml:id="ex-los-solve-triangle-2">
+      <title>Solving a Triangle (ASA)</title>
+      <statement>
+        <p>Solve the triangle: <m>\angle A = 42°</m>, <m>\angle B = 64°</m>, and <m>AC = 50</m> m.</p>
+        <figure xml:id="fig-los-ex6">
+          <caption>Triangle with two known angles</caption>
+          <image width="50%">
+            <latex-image>
+              \begin{tikzpicture}[scale=1]
+              \tkzDefPoints{0/0/A, 4/0/B}
+              \tkzDefTriangle[two angles = 42 and 64](A,B) \tkzGetPoint{C}
+              \tkzDrawPolygon(A,B,C)
+              \tkzLabelPoints[below left](A)
+              \tkzLabelPoints[below right](B)
+              \tkzLabelPoints[above](C)
+              \tkzMarkAngle[size=0.6](B,A,C)
+              \tkzLabelAngle[pos=1.0](B,A,C){$42^\circ$}
+              \tkzMarkAngle[size=0.5](C,B,A)
+              \tkzLabelAngle[pos=0.9](C,B,A){$64^\circ$}
+              \tkzLabelSegment[left](A,C){50 m}
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </figure>
+      </statement>
+      <answer><p><m>C = 74°</m>, <m>AB \approx 53.5</m> m, <m>BC \approx 37.2</m> m</p></answer>
+    </example>
+    
+    <example xml:id="ex-los-solve-triangle-3">
+      <title>Solving a Triangle with Obtuse Angle</title>
+      <statement>
+        <p>Solve the triangle: <m>\angle A = 22°</m>, <m>\angle C = 39°</m>, and <m>AB = 29</m> mm.</p>
+        <figure xml:id="fig-los-ex7">
+          <caption>Triangle with small angle</caption>
+          <image width="45%">
+            <latex-image>
+              \begin{tikzpicture}[scale=1]
+              \tkzDefPoints{0/0/A, 3/0/B}
+              \tkzDefTriangle[two angles = 22 and 119](A,B) \tkzGetPoint{C}
+              \tkzDrawPolygon(A,B,C)
+              \tkzLabelPoints[below left](A)
+              \tkzLabelPoints[below right](B)
+              \tkzLabelPoints[above](C)
+              \tkzMarkAngle[size=0.7](B,A,C)
+              \tkzLabelAngle[pos=1.1](B,A,C){$22^\circ$}
+              \tkzMarkAngle[size=0.5](A,C,B)
+              \tkzLabelAngle[pos=0.9](A,C,B){$39^\circ$}
+              \tkzLabelSegment[below](A,B){29 mm}
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </figure>
+      </statement>
+      <answer><p><m>B = 119°</m>, <m>AC \approx 40.3</m> mm, <m>BC \approx 17.3</m> mm</p></answer>
+    </example>
+    
+    <example xml:id="ex-los-solve-triangle-4">
+      <title>Solving a Triangle</title>
+      <statement>
+        <p>Solve the triangle: <m>\angle A = 48°</m>, <m>\angle C = 61°</m>, and <m>AB = 21</m> cm.</p>
+        <figure xml:id="fig-los-ex8">
+          <caption>Triangle to solve</caption>
+          <image width="50%">
+            <latex-image>
+              \begin{tikzpicture}[scale=1]
+              \tkzDefPoints{0/0/A, 4/0/B}
+              \tkzDefTriangle[two angles = 48 and 71](A,B) \tkzGetPoint{C}
+              \tkzDrawPolygon(A,B,C)
+              \tkzLabelPoints[below left](A)
+              \tkzLabelPoints[below right](B)
+              \tkzLabelPoints[above](C)
+              \tkzMarkAngle[size=0.6](B,A,C)
+              \tkzLabelAngle[pos=1.0](B,A,C){$48^\circ$}
+              \tkzMarkAngle[size=0.5](A,C,B)
+              \tkzLabelAngle[pos=0.9](A,C,B){$61^\circ$}
+              \tkzLabelSegment[below](A,B){21 cm}
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </figure>
+      </statement>
+      <answer><p><m>B = 71°</m>, <m>AC \approx 22.7</m> cm, <m>BC \approx 17.8</m> cm</p></answer>
+    </example>
+  </subsection>
+  
+  <subsection xml:id="subsec-law-of-sines-practice">
+    <title>Practice Problems</title>
+    
+    <project xml:id="proj-los-find-sides">
+      <title>Finding Sides with Law of Sines</title>
+      <introduction><p>Sketch each triangle and determine the measure of the indicated side.</p></introduction>
+      <task><statement><p>In <m>\triangle ABC</m>, <m>\angle A = 57°</m>, <m>\angle B = 73°</m>, and <m>AB = 24</m> cm. Find the length of <m>AC</m>.</p></statement><answer><p><m>AC \approx 27.4</m> cm</p></answer></task>
+      <task><statement><p>In <m>\triangle ABC</m>, <m>\angle B = 38°</m>, <m>\angle C = 56°</m>, and <m>BC = 63</m> cm. Find the length of <m>AB</m>.</p></statement><answer><p><m>AB \approx 75.7</m> cm</p></answer></task>
+      <task><statement><p>In <m>\triangle ABC</m>, <m>\angle A = 50°</m>, <m>\angle B = 50°</m>, and <m>AC = 27</m> m. Find the length of <m>AB</m>.</p></statement><answer><p><m>AB = 27</m> m</p></answer></task>
+      <task><statement><p>In <m>\triangle ABC</m>, <m>\angle A = 23°</m>, <m>\angle C = 78°</m>, and <m>AB = 15</m> cm. Find the length of <m>BC</m>.</p></statement><answer><p><m>BC \approx 6.0</m> cm</p></answer></task>
+    </project>
+  </subsection>
+  
+</section>

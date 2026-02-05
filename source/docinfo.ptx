@@ -58,8 +58,9 @@
     \usepackage{pgfplots}
     \usetikzlibrary{tikzmark}
     <!-- %% for placing invisible reference points inside normal LaTeX, for example to later draw arrows relative to those positions -->
-    
-    \usetikzlibrary{shapes,decorations,shadows,fadings,patterns} \usetikzlibrary{decorations.markings} 
+
+    \usetikzlibrary{shapes,decorations,shadows,fadings,patterns} \usetikzlibrary{decorations.markings}
+    \usepackage{tkz-euclide}
   </latex-image-preamble>
   
   <!-- It is possible to rename elements: -->

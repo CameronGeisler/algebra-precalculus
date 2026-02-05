@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-ambiguous-case" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>The Ambiguous Case (SSA)</title>
+
+  <introduction>
+  <p>Until now, knowing the information of the triangle allowed us to solve it completely. However, there is one case where the information could lead to 2 different possible triangles. In particular, when given 2 sides an a non-included angle (the SSA case), there could be 2 triangles, or even 0 possible triangles. This is called the <term>ambiguous case</term>, because it's not clear what the triangle is, or even if one exists.</p>
+
+  <example xml:id="ex-ambiguous-case-main">
+    <statement>
+      <p>Consider a triangle with angle <m>A = 40^\circ</m>, side <m>a = 7</m>, and side <m>b = 10</m>. How many triangles are possible, and what are their dimensions?</p>
+    </statement>
+    <solution>
+      <p>There is a systematic way to solve problems with the ambiguous case. While it's not absolutely necessary, it helps to keep things organized. First, sketch the known angle (<m>A = 40^\circ</m>) in the bottom-left corner, with side <m>b = 10</m> above it, and the unknown side <m>c</m> horizontally. You should have something like this,</p>
+
+      <image width="50%">
+        <latex-image>
+          \begin{tikzpicture}[scale=1.8]
+              % Point A at origin
+              \coordinate (A) at (0,0);
+
+              % Side b going up at 40 degrees from horizontal
+              \coordinate (B) at (40:3);
+
+              % Horizontal line c extending to the right (shorter, then indefinite)
+              \draw[thick] (A) -- (3.5,0);
+              \draw[thick, dashed, -&gt;] (3.5,0) -- (4,0);
+
+              % Side b from A
+              \draw[thick] (A) -- (B) node[midway, above left] {$b = 10$};
+
+              % Mark angle A
+              \draw (0.7,0) arc[start angle=0, end angle=40, radius=0.7];
+              \node at (1,0.25) {$40^\circ$};
+
+              % Label for side c
+              \node at (2,-0.35) {$c$};
+
+              % Point A label
+              \node[below left] at (A) {$A$};
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+
+      <p>Notice that the bottom length <m>c</m> is unknown, so just extend it a bit to the right (we don't know how long). Then, the other side <m>a</m> is opposite angle <m>A</m>, so it'll go from the top point down to the right.</p>
+
+      <image width="50%">
+        <latex-image>
+          \begin{tikzpicture}[scale=1.8]
+              % Point A at origin
+              \coordinate (A) at (0,0);
+
+              % Side b going up at 40 degrees from horizontal
+              \coordinate (B) at (40:3);
+
+              % Horizontal line c extending to the right (shorter, then indefinite)
+              \draw[thick] (A) -- (3.5,0);
+              \draw[thick, dashed, -&gt;] (3.5,0) -- (4,0);
+
+              % Side b from A
+              \draw[thick] (A) -- (B) node[midway, above left] {$b = 10$};
+
+              % Side a completely detached, floating to the right
+              \draw[thick, blue] (3,2) -- +(-50:2.1) node[midway, above right] {$a = 7$};
+
+              % Mark angle A
+              \draw (0.7,0) arc[start angle=0, end angle=40, radius=0.7];
+              \node at (1,0.25) {$40^\circ$};
+
+              % Label for side c
+              \node at (2,-0.35) {$c$};
+
+              % Point A label
+              \node[below left] at (A) {$A$};
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+
+      <p>You should aim to sketch <m>a</m> so it's a bit shorter than <m>b</m> (because 7 is smaller than 10), however, it doesn't have to be perfect. Now, attach side <m>a</m> to point <m>B</m> and swing it down until it touches the base <m>c</m>,</p>
+
+      <image width="50%">
+        <latex-image>
+          \begin{tikzpicture}[scale=1.8]
+              % Point A at origin
+              \coordinate (A) at (0,0);
+
+              % Side b going up at 40 degrees from horizontal
+              \coordinate (C) at (40:3);
+
+              % Point B on the x-axis where side a lands
+              \coordinate (B) at (3.13,0);
+
+              % Side c from A to B
+              \draw[thick] (A) -- (B) node[midway, below] {$c$};
+
+              % Side b from A to C
+              \draw[thick] (A) -- (C) node[midway, above left] {$b = 10$};
+
+              % Side a from B to C
+              \draw[thick, blue] (C) -- (B) node[midway, right] {$a = 7$};
+
+              % Mark angle A
+              \draw (0.7,0) arc[start angle=0, end angle=40, radius=0.7];
+              \node at (1,0.25) {$40^\circ$};
+
+              % Point labels
+              \node[below left] at (A) {$A$};
+              \node[below right] at (B) {$B$};
+              \node[above] at (C) {$C$};
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+
+      <p>Now, we have one triangle. However, this is not the only possibility! In fact, <m>a</m> can swing the other way to create a different triangle,</p>
+
+      <image width="50%">
+        <latex-image>
+          \begin{tikzpicture}[scale=1.8]
+              % Point A at origin
+              \coordinate (A) at (0,0);
+
+              % Side b going up at 40 degrees from horizontal
+              \coordinate (C) at (40:3);
+
+              % Point B2 on the x-axis where side a lands in second position
+              \coordinate (B2) at (1.47,0);
+
+              % Side c from A to B2
+              \draw[thick] (A) -- (B2) node[midway, below] {$c$};
+
+              % Side b from A to C
+              \draw[thick] (A) -- (C) node[midway, above left] {$b = 10$};
+
+              % Side a from C to B2
+              \draw[thick, blue] (C) -- (B2) node[midway, below right] {$a = 7$};
+
+              % Mark angle A
+              \draw (0.7,0) arc[start angle=0, end angle=40, radius=0.7];
+              \node at (1,0.25) {$40^\circ$};
+
+              % Dashed lines showing where the other triangle was
+              \coordinate (B1) at (3.13,0);
+              \draw[dashed, gray] (B2) -- (B1); % extended c
+              \draw[dashed, gray] (C) -- (B1); % old position of a
+
+              % Point labels
+              \node[below left] at (A) {$A$};
+              \node[above] at (C) {$C$};
+              \node[below right] at (B2) {$B$};
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+
+      <p>This setup also works with the given measurements. Therefore, there are 2 possible triangles with the given information.</p>
+
+      <p>Now, to solve both triangles, we can work on them <em>side-by-side</em>. On your paper, draw a vertical line down the middle. The left column is for Triangle 1 (where <m>a</m> swings to the right), and the right column is for Triangle 2 (where <m>a</m> swings to the left). We'll do the same steps for both, and the only difference is whether we use the angle from inverse sine directly, or its supplement.</p>
+
+      <p>First, use the law of sines to find <m>\sin{B}</m>. This step is the same for both triangles,</p>
+      <md>
+        <mrow>\frac{7}{\sin{40^\circ}} \amp= \frac{10}{\sin{B}}</mrow>
+        <mrow>\sin{B} \amp= \frac{10 \sin{40^\circ}}{7} \approx 0.9165</mrow>
+      </md>
+
+      <p>Now, here's where the two triangles differ. Recall that <m>\sin^{-1}(0.9165) \approx 66.7^\circ</m>, but there are two angles with the same sine value: <m>66.7^\circ</m> and its supplement <m>180^\circ - 66.7^\circ = 113.3^\circ</m>. You can organize the 2 triangles nicely in 2 columns,</p>
+
+      <tabular halign="left">
+        <col width="50%"/>
+        <col width="50%"/>
+        <row header="yes" bottom="minor">
+          <cell><alert>Triangle 1</alert></cell>
+          <cell><alert>Triangle 2</alert></cell>
+        </row>
+        <row>
+          <cell><p><m>B_1 \approx 66.7^\circ</m></p></cell>
+          <cell><p><m>B_2 \approx 180^\circ - 66.7^\circ = 113.3^\circ</m></p></cell>
+        </row>
+        <row>
+          <cell><p>Find <m>C_1</m>:</p></cell>
+          <cell><p>Find <m>C_2</m>:</p></cell>
+        </row>
+        <row>
+          <cell><p><m>C_1 = 180^\circ - 40^\circ - 66.7^\circ</m></p></cell>
+          <cell><p><m>C_2 = 180^\circ - 40^\circ - 113.3^\circ</m></p></cell>
+        </row>
+        <row>
+          <cell><p><m>C_1 \approx 73.3^\circ</m></p></cell>
+          <cell><p><m>C_2 \approx 26.7^\circ</m></p></cell>
+        </row>
+        <row>
+          <cell><p>Find <m>c_1</m> using law of sines:</p></cell>
+          <cell><p>Find <m>c_2</m> using law of sines:</p></cell>
+        </row>
+        <row>
+          <cell><p><m>c_1 = \dfrac{7 \sin{73.3^\circ}}{\sin{40^\circ}} \approx 10.4</m></p></cell>
+          <cell><p><m>c_2 = \dfrac{7 \sin{26.7^\circ}}{\sin{40^\circ}} \approx 4.9</m></p></cell>
+        </row>
+      </tabular>
+
+      <p>In summary,</p>
+
+      <sidebyside widths="48% 48%">
+        <figure xml:id="fig-ambiguous-triangle-1">
+          <caption>Triangle 1</caption>
+          <image>
+            <latex-image>
+              \begin{tikzpicture}[scale=1.8]
+                  \coordinate (A) at (0,0);
+                  \coordinate (C) at (40:3.12);
+                  \coordinate (B) at (3,0);
+
+                  % Sides (standard convention: a=BC, b=AC, c=AB)
+                  \draw[thick] (A) -- (B) node[midway, below] {\textcolor{red}{$c \approx 10.4$}};
+                  \draw[thick] (A) -- (C) node[midway, above left] {$b = 10$};
+                  \draw[thick, blue] (C) -- (B) node[midway, right] {$a = 7$};
+
+                  % Angle A
+                  \draw (0.5,0) arc[start angle=0, end angle=40, radius=0.5];
+                  \node at (0.8,0.22) {$40^\circ$};
+
+                  % Angle B (geometric angle ~66.7 degrees)
+                  \draw ($(B)+(180:0.5)$) arc[start angle=180, end angle=107, radius=0.5];
+                  \node at ($(B)+(143:0.8)$) {\textcolor{red}{$66.7^\circ$}};
+
+                  % Angle C (geometric angle ~73.3 degrees)
+                  \draw ($(C)+(-140:0.5)$) arc[start angle=-140, end angle=-73, radius=0.5];
+                  \node at ($(C)+(-107:0.8)$) {\textcolor{red}{$73.3^\circ$}};
+
+                  % Point labels
+                  \node[below left] at (A) {$A$};
+                  \node[above] at (C) {$C$};
+                  \node[below right] at (B) {$B$};
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </figure>
+        <figure xml:id="fig-ambiguous-triangle-2">
+          <caption>Triangle 2</caption>
+          <image>
+            <latex-image>
+              \begin{tikzpicture}[scale=2]
+                  \coordinate (A) at (0,0);
+                  \coordinate (C) at (40:3);
+                  \coordinate (B) at (1.47,0);
+
+                  % Sides (standard convention: a=BC, b=AC, c=AB)
+                  \draw[thick] (A) -- (B) node[midway, below] {\textcolor{red}{$c \approx 4.9$}};
+                  \draw[thick] (A) -- (C) node[midway, above left] {$b = 10$};
+                  \draw[thick, blue] (C) -- (B) node[midway, below right] {$a = 7$};
+
+                  % Angle A
+                  \draw (0.5,0) arc[start angle=0, end angle=40, radius=0.5];
+                  \node at (0.8,0.22) {$40^\circ$};
+
+                  % Angle B (geometric angle ~113.3 degrees)
+                  \draw ($(B)+(180:0.2)$) arc[start angle=180, end angle=67, radius=0.2];
+                  \node at ($(B)+(123:0.35)$) {\textcolor{red}{$113.3^\circ$}};
+
+                  % Angle C (geometric angle ~26.7 degrees)
+                  \draw ($(C)+(-140:0.4)$) arc[start angle=-140, end angle=-113, radius=0.4];
+                  \node at ($(C)+(-127:0.9)$) {\textcolor{red}{$26.7^\circ$}};
+
+                  % Point labels
+                  \node[below left] at (A) {$A$};
+                  \node[above] at (C) {$C$};
+                  \node[below right] at (B) {$B$};
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </figure>
+      </sidebyside>
+    </solution>
+  </example>
+
+  <example xml:id="ex-ambiguous-not-always-two">
+    <p>However, there are not always 2 solutions.</p>
+  </example>
+
+  <p>How can you tell how many triangles there are? It will always be the SSA (or ASS) case that is ambiguous. First, calculate the height <m>h = b \sin{A}</m>. Then, compare <m>a</m> to <m>h</m> and <m>b</m> to determine the number of solutions.</p>
+
+  <p>In general, if <m>A</m> is the known angle, and <m>a, b</m> are the known sides. Sketch the angle <m>A</m> in the bottom-left corner, the side <m>b</m> above, the base along the bottom of unknown length, and side <m>a</m> will be opposite <m>A</m>.</p>
+
+  <image width="50%">
+    <latex-image>
+      \begin{tikzpicture}[scale=1.8]
+          % Point A at origin
+          \coordinate (A) at (0,0);
+
+          % Side b going up at angle A from horizontal
+          \coordinate (C) at (40:3);
+
+          % Horizontal line c extending to the right (shorter, then indefinite)
+          \draw[thick] (A) -- (3.5,0);
+          \draw[thick, dashed, -&gt;] (3.5,0) -- (4,0);
+
+          % Side b from A
+          \draw[thick] (A) -- (C) node[midway, above left] {$b$};
+
+          % Side a completely detached, floating to the right
+          \draw[thick, blue] (3,2) -- +(-50:2.1) node[midway, above right] {$a$};
+
+          % Mark angle A
+          \draw (0.7,0) arc[start angle=0, end angle=40, radius=0.7];
+          \node at (0.8,0.3) {$A$};
+
+          % Label for side c
+          \node at (2,-0.35) {$c$};
+
+          % Point A label
+          \node[below left] at (A) {$A$};
+      \end{tikzpicture}
+    </latex-image>
+  </image>
+
+  <p>To determine how many triangles are possible, first calculate the height <m>h</m> of the triangle, using <m>h = b \sin{A}</m>. Then, compare the measurements:</p>
+  <ol>
+    <li><p>If <m>a \lt h</m>, then there are 0 solutions. The side <m>a</m> is too short to reach the base.</p></li>
+    <li><p>If <m>h \lt a \lt b</m>, then there are 2 solutions. The side <m>a</m> is longer than <m>h</m>, but shorter than <m>b</m>. Basically, side <m>a</m> can swing in 2 different directions.</p></li>
+    <li><p>If <m>a = h</m>, then there is 1 solution, and it's a right triangle.</p></li>
+    <li><p>If <m>a \geq b</m>, then there is 1 triangle.</p></li>
+  </ol>
+
+  <p>Here is a number line for the length <m>a</m> showing the different cases,</p>
+
+  <image width="70%">
+    <latex-image>
+      \begin{tikzpicture}
+          % Draw the number line
+          \draw[thick, -&gt;] (0,0) -- (10,0) node[right] {$a$};
+
+          % Mark points
+          \draw[thick] (0,0.1) -- (0,-0.1) node[below] {0};
+          \draw[thick] (3,0.1) -- (3,-0.1) node[below] {$h$};
+          \draw[thick] (6.5,0.1) -- (6.5,-0.1) node[below] {$b$};
+
+          % Labels for regions (number of solutions)
+          \node at (1.5,0.5) {0 solutions};
+          \node at (4.75,0.5) {2 solutions};
+          \node at (8,0.5) {1 solution};
+
+          % Underbraces with descriptions
+          \draw[decorate, decoration={brace, amplitude=5pt, mirror}] (0,-0.7) -- (3,-0.7) node[midway, below=5pt] {\small too short};
+          \draw[decorate, decoration={brace, amplitude=5pt, mirror}] (3,-0.7) -- (6.5,-0.7) node[midway, below=5pt] {\small 2 triangles};
+          \draw[decorate, decoration={brace, amplitude=5pt, mirror}] (6.5,-0.7) -- (9.5,-0.7) node[midway, below=5pt] {\small long enough};
+      \end{tikzpicture}
+    </latex-image>
+  </image>
+
+  <ul>
+    <li><p>Here is a Desmos applet for visualizing the ambiguous case: <url href="https://www.desmos.com/calculator/lnmwqa5rlm">SSA Ambiguous Case</url>. Input your given values for angle <m>A</m>, side <m>b</m>, and side <m>a</m> to see how many triangles are possible.</p></li>
+    <li><p>Here is another applet for visualizing the ambiguous case: <url href="https://www.geogebra.org/m/CvtkyRM5">SSA triangle: The Ambiguous Case</url>.</p></li>
+    <li><p>If the given angle is obtuse, there can be at most 1 triangle.</p></li>
+  </ul>
+  </introduction>
+
+  <subsection xml:id="subsec-ambiguous-examples">
+    <title>Examples</title>
+
+    <project xml:id="proj-ambiguous-determine-solutions">
+      <title>Determining Number of Solutions</title>
+      <introduction><p>For each triangle, determine whether there is no solution, one solution, or two solutions.</p></introduction>
+      <task><statement><p>In <m>\triangle ABC</m>, <m>\angle A = 39^\circ</m>, <m>a = 10</m> cm, and <m>b = 14</m> cm.</p></statement><hint><p><m>h = b\sin{A}</m></p></hint><answer><p>2 solutions (<m>h \approx 8.81</m>, and <m>h \lt a \lt b</m>)</p></answer></task>
+      <task><statement><p>In <m>\triangle ABC</m>, <m>\angle A = 123^\circ</m>, <m>a = 23</m> cm, and <m>b = 12</m> cm.</p></statement><hint><p>obtuse angle</p></hint><answer><p>1 solution (<m>A</m> is obtuse and <m>a \gt b</m>)</p></answer></task>
+      <task><statement><p>In <m>\triangle ABC</m>, <m>\angle A = 145^\circ</m>, <m>a = 18</m> cm, and <m>b = 10</m> cm.</p></statement><answer><p>1 solution (<m>A</m> is obtuse and <m>a \gt b</m>)</p></answer></task>
+      <task><statement><p>In <m>\triangle ABC</m>, <m>\angle A = 124^\circ</m>, <m>a = 1</m> cm, and <m>b = 2</m> cm.</p></statement><answer><p>no solution (<m>h \approx 1.66</m> and <m>a \lt h</m>, so <m>a</m> is too short)</p></answer></task>
+    </project>
+
+    <project xml:id="proj-ambiguous-solve-triangles">
+      <title>Solving Triangles with Ambiguous Case</title>
+      <introduction><p>Determine the unknown side and angles in each triangle. If two solutions are possible, give both.</p></introduction>
+      <task><statement><p>In <m>\triangle ABC</m>, <m>\angle C = 31^\circ</m>, <m>a = 5.6</m> cm, and <m>c = 3.9</m> cm.</p></statement><answer><p>Two solutions. Triangle 1: <m>A_1 \approx 47.6^\circ</m>, <m>B_1 \approx 101.4^\circ</m>, <m>b_1 \approx 7.4</m> cm. Triangle 2: <m>A_2 \approx 132.4^\circ</m>, <m>B_2 \approx 16.6^\circ</m>, <m>b_2 \approx 2.2</m> cm.</p></answer></task>
+      <task><statement><p>In <m>\triangle PQR</m>, <m>\angle Q = 43^\circ</m>, <m>p = 20</m> cm, and <m>q = 15</m> cm.</p></statement><answer><p>Two solutions. Triangle 1: <m>P_1 \approx 65.4^\circ</m>, <m>R_1 \approx 71.6^\circ</m>, <m>r_1 \approx 20.9</m> cm. Triangle 2: <m>P_2 \approx 114.6^\circ</m>, <m>R_2 \approx 22.4^\circ</m>, <m>r_2 \approx 8.4</m> cm.</p></answer></task>
+      <task><statement><p>In <m>\triangle XYZ</m>, <m>\angle X = 53^\circ</m>, <m>x = 8.5</m> cm, and <m>z = 12.3</m> cm.</p></statement><answer><p>No solution (<m>\sin{Z} \approx 1.16 \gt 1</m>)</p></answer></task>
+      <task><statement><p>In triangle <m>\triangle ABC</m>, <m>A = 30^\circ</m>, <m>a = 4</m>, and <m>b = 5</m>.</p></statement><answer><p>Two solutions. Triangle 1: <m>B_1 \approx 38.7^\circ</m>, <m>C_1 \approx 111.3^\circ</m>, <m>c_1 \approx 7.5</m>. Triangle 2: <m>B_2 \approx 141.3^\circ</m>, <m>C_2 \approx 8.7^\circ</m>, <m>c_2 \approx 1.2</m>.</p></answer></task>
+    </project>
+
+    <project xml:id="proj-ambiguous-solve-if-possible">
+      <title>Solve Each Triangle</title>
+      <introduction><p>Solve each triangle, if possible.</p></introduction>
+      <task><statement><p><m>A = 110^\circ</m>, <m>c = 19</m>, <m>a = 32</m>.</p></statement><answer><p><m>C \approx 33.9^\circ</m>, <m>B \approx 36.1^\circ</m>, <m>b \approx 20.1</m></p></answer></task>
+      <task><statement><p><m>A = 131^\circ</m>, <m>a = 25</m>, <m>c = 8</m>.</p></statement><hint><p>obtuse case</p></hint><answer><p><m>C \approx 14.0^\circ</m>, <m>B \approx 35.0^\circ</m>, <m>b \approx 19.0</m></p></answer></task>
+    </project>
+
+  </subsection>
+
+</section>
