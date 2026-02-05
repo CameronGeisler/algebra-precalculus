@@ -2,23 +2,19 @@
 
 <section xml:id="sec-oblique-triangles-summary" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Oblique Triangles Summary</title>
-  
-  <introduction>
-    <p>
-      Here is a simple summary of how to solve (oblique) triangles.
-    </p>
-    <p>
-      In short,
-    </p>
+
+  <subsection xml:id="subsec-solving-oblique-summary">
+    <title>Summary of Solving Oblique Triangles</title>
+
+    <p>A good guideline is that for your first step, in short,</p>
     <ul>
-      <li>If you know an side-angle pair (side and it's opposite angle), use the <em>law of sines</em>.</li>
-      <li>Otherwise, use the <em>law of cosines</em>.</li>
+      <li><p>If you know a side-angle pair (side length and its opposite angle), use the <em>law of sines</em>.</p></li>
+      <li><p>Otherwise, use the <em>law of cosines</em>.</p></li>
     </ul>
-    <p>
-      More specifically, based on the information given:
-    </p>
+
+    <p>More precisely, here are the first steps to take based on what information you have,</p>
     <tabular halign="left">
-      <row bottom="minor">
+      <row header="yes" bottom="minor">
         <cell><alert>Type</alert></cell>
         <cell></cell>
         <cell><alert>First steps</alert></cell>
@@ -49,14 +45,63 @@
         <cell>law of cosines (solve for an angle first)</cell>
       </row>
     </tabular>
-    <p>
-      Some additional notes:
-    </p>
+
+    <p>Some additional notes:</p>
     <ul>
-      <li>If you know 2 angles, you can solve for the 3rd (subtract 180 minus the other two angles).</li>
-      <li>The SSA case also can be the ambiguous case if the triangle structure is unknown, with either 0, 1, or 2 solutions.</li>
-      <li>Be careful with rounding in intermediate steps, because it can lead to bigger rounding error in future calculations. A good guideline is to round intermediate calculations to at least 1 more decimal place than what the final answer asks for.</li>
+      <li><p>Remember: If you know 2 angles, you can solve for the 3rd! Just subtract 180 minus the other two angles.</p></li>
+      <li><p>If it is a <em>right</em> triangle, then remember that you can simply use SOH-CAH-TOA! No need to use law of sines or law of cosines.</p></li>
+      <li><p>The SSA case also can be the ambiguous case if the triangle structure is unknown, with possibly 2, 1, or 0 solutions.</p></li>
+      <li><p>Be careful with rounding in intermediate steps, because it can lead to bigger rounding error in future calculations. A good guideline is to round intermediate calculations to at least 1 more decimal place than what the final answer asks for. So, if the final answer should be rounded to 1 decimal place, keep at least 2 decimal places your calculations, until the end.</p></li>
+      <li><p>Here is a triangle solver, which you can use to check your answers: <url href="https://www.geogebra.org/m/z6neks9e">Triangle Solver</url>.</p></li>
     </ul>
-  </introduction>
-  
+  </subsection>
+
+  <subsection xml:id="subsec-oblique-examples">
+    <title>Examples</title>
+
+    <example xml:id="ex-oblique-summary-1">
+      <p>Triangle <m>ABC</m> has <m>a = 8</m>, <m>b = 7</m>, and <m>A = 39°</m>. Find all missing sides and angles, rounding to one decimal place as needed.</p>
+    </example>
+
+    <example xml:id="ex-oblique-summary-2">
+      <p>A surveyor is mapping a plot of land. From their position, they determine it is 1200 feet to a post that marks the property border. The surveyor then turns by 72° to see an oak tree, which marks another corner of the property, that is 1800 feet away. What is the distance between the post and the oak tree? Hint: law of cosines.</p>
+    </example>
+
+    <example xml:id="ex-oblique-summary-3">
+      <p>Matt measures the angle of elevation of the peak of a mountain as <m>35°</m>. Susie, who is 1200 feet closer on a straight level path, measures the angle of elevation as <m>42°</m>. How high is the mountain?</p>
+    </example>
+
+    <example xml:id="ex-oblique-summary-4">
+      <p>A bicycle wheel has a radius of 35 cm. The wheel's spokes are evenly spaced so that each pair of adjacent spokes forms a <m>30°</m> angle at the center. Find the distance between two adjacent spokes where they meet the rim. Hint: law of sines (or law of cosines). Answer: 18.1 cm.</p>
+    </example>
+
+    <example xml:id="ex-oblique-summary-5">
+      <p>A circle with radius 4 cm is inscribed in an equilateral triangle. Find the side length of the triangle. Hint: an equilateral triangle has angles of <m>60°</m>. Answer: <m>8\sqrt{3}</m> cm.</p>
+      <figure xml:id="fig-inscribed-circle">
+        <caption>Inscribed circle in equilateral triangle</caption>
+        <image width="40%">
+          <latex-image>
+            \begin{tikzpicture}[scale=0.7]
+              % vertices of equilateral triangle (side length 6)
+              \coordinate (A) at (0,0);
+              \coordinate (B) at (6,0);
+              \coordinate (C) at (3,{3*sqrt(3)});
+              % incenter (same as centroid/circumcenter for equilateral)
+              \coordinate (O) at (3,{sqrt(3)});
+              % draw triangle
+              \draw (A) -- (B) -- (C) -- cycle;
+              % draw incircle
+              \draw (O) circle[radius={sqrt(3)}];
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+      </figure>
+    </example>
+
+    <example xml:id="ex-oblique-summary-6">
+      <p>A clock has an hour hand of length 12 cm and a minute hand of length 15 cm. Find the distance between the tips of the two hands when it is 4:00. Hint: At 4:00, the minute hand points straight up and the hour hand points at <m>120°</m> from the minute hand. Use the law of cosines. Answer: about 23.4 cm.</p>
+    </example>
+
+  </subsection>
+
 </section>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-law-of-cosines" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Law of Cosines</title>
+
+  <introduction>
+    <p>With the law of sines, we can solve many triangles. However, some triangles can't be solved only with the law of sines.</p>
+
+    <example xml:id="ex-loc-motivation">
+      <p>For example,</p>
+      <figure xml:id="fig-loc-motivation">
+        <caption>Triangle with three known sides</caption>
+        <image width="50%">
+          <latex-image>
+            \begin{tikzpicture}[scale=1.0]
+              \coordinate (A) at (0,0);
+              \coordinate (B) at (5,0);
+              \coordinate (C) at (2,3);
+              \draw[thick] (A) -- (B) -- (C) -- cycle;
+              \node[below left] at (A) {$A$};
+              \node[below right] at (B) {$B$};
+              \node[above] at (C) {$C$};
+              \node[below] at ($(A)!0.5!(B)$) {6};
+              \node[right] at ($(B)!0.5!(C)$) {7};
+              \node[left] at ($(C)!0.5!(A)$) {5};
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+      </figure>
+      <p>This triangle has known side lengths of 5, 6, and 7. However, there is no angle given, so we can't use the law of sines.</p>
+    </example>
+  </introduction>
+
+  <subsection xml:id="subsec-law-of-cosines-theorem">
+    <title>Law of Cosines</title>
+
+    <theorem xml:id="thm-law-of-cosines">
+      <title>Law of Cosines</title>
+      <statement>
+        <p>Let <m>A, B, C</m> be the measures of the angles of a triangle, <m>a, b, c</m> be the lengths of the sides opposite those angles, respectively. Then,</p>
+        <me>c^2 = a^2 + b^2 - 2ab \cos{C}</me>
+      </statement>
+    </theorem>
+
+    <p>The law of cosines is like the Pythagorean theorem, except it is a generalization, because it works for any triangle, not just a right triangle. If the angle <m>C = 90°</m> is a right angle, then <m>\cos{C} = \cos{90°} = 0</m>, and then the law of cosines reduces down to <m>c^2 = a^2 + b^2</m>, which is the Pythagorean theorem.</p>
+
+    <p>The law of cosines can be written equivalently as,</p>
+    <md>
+      <mrow>b^2 \amp= a^2 + c^2 - 2ac \cos{B}</mrow>
+      <mrow>a^2 \amp= b^2 + c^2 - 2bc \cos{A}</mrow>
+    </md>
+  </subsection>
+
+  <subsection xml:id="subsec-loc-placeholder">
+    <title>Law of Cosines as a Placeholder Formula</title>
+
+    <p>Again, the law of cosines is somewhat of a placeholder formula, in that labelling of the sides and angles are somewhat arbitrary, but their relative positions matter. Recall that the law of cosines says that,</p>
+    <me>c^2 = a^2 + b^2 - 2ab \cos{C}</me>
+    <p>This means that the square of the side opposite a given angle (<m>c</m> opposite <m>C</m>) is equal to the sum of the squares of the other two sides (<m>a</m> and <m>b</m>), minus two times the product of those two sides and the cosine of the given angle (<m>C</m>).</p>
+
+    <p>The crucial requirement is that the angle <m>C</m> must be opposite to the side <m>c</m> specified on the left-hand side of the equation. The roles of <m>a</m> and <m>b</m> are symmetrical, so it doesn't matter which of the other two sides you choose as <m>a</m> or <m>b</m>. In other words, the law of cosines says that the side on the LHS must be opposite the angle included in the formula.</p>
+  </subsection>
+
+  <subsection xml:id="subsec-loc-solving-for-angle">
+    <title>Law of Cosines Solving for Angle</title>
+
+    <p>As written, the law of cosines is made to solve for the side <m>c</m>. However, sometimes, we want to solve for the angle, in particular for the SSS case when we know <m>a, b</m>, and <m>c</m>. To do this, solve for <m>\cos{C}</m>, and then use the inverse cosine,</p>
+    <me>c^2 = a^2 + b^2 - 2ab \cos{C}</me>
+    <p>First, move <m>a^2</m> and <m>b^2</m> to the left-hand side,</p>
+    <me>c^2 - a^2 - b^2 = -2ab \cos{C}</me>
+    <p>Then, divide both sides of the equation by <m>-2ab</m>, to isolate <m>\cos{C}</m>,</p>
+    <me>\frac{c^2 - a^2 - b^2}{-2ab} = \cos{C}</me>
+    <p>Then, <m>\cos{C}</m> is isolated, and we can rewrite the equation to make it look a bit nicer,</p>
+    <me>\cos{C} = \frac{a^2 + b^2 - c^2}{2ab}</me>
+    <p>Then, to solve for the angle <m>C</m>, we use the cosine inverse function <m>\cos^{-1}</m>,</p>
+    <me>C = \cos^{-1}\left(\frac{a^2 + b^2 - c^2}{2ab}\right)</me>
+
+    <ul>
+      <li><p>When using law of cosines in the SSS case, you can solve for any of the 3 angles at first. However, because of the issue with acute and obtuse angles, it is ideal to start with solving for the largest angle first, to determine if it's obtuse or acute. That way, you know the other two angles will be acute, and don't have to worry about acute or obtuse for those angles (with the law of sines). To do this, note that the largest angle will always be opposite the largest side of the triangle (e.g. if <m>b</m> is the largest side, then <m>B</m> will be the largest angle).</p></li>
+      <li><p>Ideally, use the law of cosines only when you can't use the law of sines, because of the law of sines is easier.</p></li>
+    </ul>
+  </subsection>
+
+</section>
