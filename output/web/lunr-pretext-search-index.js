@@ -3565,11 +3565,38 @@ var ptx_lunr_docs = [
   "body": " Solve Each Triangle  Solve each triangle, if possible.  , , . , ,  , , . obtuse case , ,  "
 },
 {
+  "id": "sec-law-of-cosines",
+  "level": "1",
+  "url": "sec-law-of-cosines.html",
+  "type": "Section",
+  "number": "7.3",
+  "title": "Law of Cosines",
+  "body": " Law of Cosines   With the law of sines, we can solve many triangles. However, some triangles can't be solved only with the law of sines.   For example,   Triangle with three known sides      This triangle has known side lengths of 5, 6, and 7. However, there is no angle given, so we can't use the law of sines.     Law of Cosines   Law of Cosines   Let be the measures of the angles of a triangle, be the lengths of the sides opposite those angles, respectively. Then,     The law of cosines is like the Pythagorean theorem, except it is a generalization, because it works for any triangle, not just a right triangle. If the angle is a right angle, then , and then the law of cosines reduces down to , which is the Pythagorean theorem.  The law of cosines can be written equivalently as,     Law of Cosines as a Placeholder Formula  Again, the law of cosines is somewhat of a placeholder formula, in that labelling of the sides and angles are somewhat arbitrary, but their relative positions matter. Recall that the law of cosines says that,   This means that the square of the side opposite a given angle ( opposite ) is equal to the sum of the squares of the other two sides ( and ), minus two times the product of those two sides and the cosine of the given angle ( ).  The crucial requirement is that the angle must be opposite to the side specified on the left-hand side of the equation. The roles of and are symmetrical, so it doesn't matter which of the other two sides you choose as or . In other words, the law of cosines says that the side on the LHS must be opposite the angle included in the formula.    Law of Cosines Solving for Angle  As written, the law of cosines is made to solve for the side . However, sometimes, we want to solve for the angle, in particular for the SSS case when we know , and . To do this, solve for , and then use the inverse cosine,   First, move and to the left-hand side,   Then, divide both sides of the equation by , to isolate ,   Then, is isolated, and we can rewrite the equation to make it look a bit nicer,   Then, to solve for the angle , we use the cosine inverse function ,    When using law of cosines in the SSS case, you can solve for any of the 3 angles at first. However, because of the issue with acute and obtuse angles, it is ideal to start with solving for the largest angle first, to determine if it's obtuse or acute. That way, you know the other two angles will be acute, and don't have to worry about acute or obtuse for those angles (with the law of sines). To do this, note that the largest angle will always be opposite the largest side of the triangle (e.g. if is the largest side, then will be the largest angle).  Ideally, use the law of cosines only when you can't use the law of sines, because of the law of sines is easier.     Examples    "
+},
+{
+  "id": "ex-loc-motivation",
+  "level": "2",
+  "url": "sec-law-of-cosines.html#ex-loc-motivation",
+  "type": "Example",
+  "number": "7.3.1",
+  "title": "",
+  "body": " For example,   Triangle with three known sides      This triangle has known side lengths of 5, 6, and 7. However, there is no angle given, so we can't use the law of sines.  "
+},
+{
+  "id": "thm-law-of-cosines",
+  "level": "2",
+  "url": "sec-law-of-cosines.html#thm-law-of-cosines",
+  "type": "Theorem",
+  "number": "7.3.3",
+  "title": "Law of Cosines.",
+  "body": " Law of Cosines   Let be the measures of the angles of a triangle, be the lengths of the sides opposite those angles, respectively. Then,    "
+},
+{
   "id": "sec-oblique-triangles-summary",
   "level": "1",
   "url": "sec-oblique-triangles-summary.html",
   "type": "Section",
-  "number": "7.3",
+  "number": "7.4",
   "title": "Oblique Triangles Summary",
   "body": " Oblique Triangles Summary   Here is a simple summary of how to solve (oblique) triangles.  In short,   If you know an side-angle pair (side and it's opposite angle), use the law of sines .  Otherwise, use the law of cosines .   More specifically, based on the information given:    Type   First steps    Two angles and non-included side  AAS  law of sines    Two angles and included side  ASA  solve for remaining angle, then law of sines    Two sides and opposite angle  SSA  law of sines    Two sides and included angle  SAS  law of cosines (solve for side first)    Three sides  SSS  law of cosines (solve for an angle first)    Some additional notes:   If you know 2 angles, you can solve for the 3rd (subtract 180 minus the other two angles).  The SSA case also can be the ambiguous case if the triangle structure is unknown, with either 0, 1, or 2 solutions.  Be careful with rounding in intermediate steps, because it can lead to bigger rounding error in future calculations. A good guideline is to round intermediate calculations to at least 1 more decimal place than what the final answer asks for.    "
 },
