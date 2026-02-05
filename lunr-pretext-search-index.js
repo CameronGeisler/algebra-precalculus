@@ -3376,11 +3376,227 @@ var ptx_lunr_docs = [
   "body": " Polygon Angles  The measure (in degrees) of each angle in a regular polygon with sides is given by the equation . When each angle in a regular polygon is , how many sides does the polygon have?  .  20 sides.  "
 },
 {
+  "id": "sec-law-of-sines",
+  "level": "1",
+  "url": "sec-law-of-sines.html",
+  "type": "Section",
+  "number": "7.1",
+  "title": "Law of Sines",
+  "body": " Law of Sines   The Law of Sines relates the sides and angles of any triangle (not just right triangles).   Law of Sines (Sine Law)   Let be the measures of the angles of a triangle, and let be the lengths of the sides opposite those angles, respectively. Then,     In other words, the ratio of a side to the sine of its opposite angle is equal for all three sides of the triangle.  The law of sines can also be rewritten with the side lengths in the denominator,   This is because you can take the reciprocal of all three sides of the equation (in other words, flip them all upside down).  By convention, you should always label the triangle to align with the law of sines, so that each side letter is opposite its angle letter. In other words, side is opposite angle , side is opposite angle , and side is opposite angle .   Standard triangle labeling for Law of Sines        Placeholder Formulas in Trigonometry  When using the law of sines, the letters don't dictate a specific angle or side. You could swap and and the formula would still be valid. You just have to swap and also. The only requirement is that must be the side across from angle , across from , and across from .  This means that the law of sines can be summarized in only one statement,   Basically, in any triangle, the ratio of side over sine of its opposite angle, equals any other side over the sine of its opposite angle.   Placeholder Formulas  This means that law of sines is a so-called placeholder formula , in that the symbols and do not necessarily refer to specific sides or angles. They are just placeholders or stand-ins for the 3 sides and angles of a triangle. In contrast, some formulas use variables that have a universally agreed-upon meaning. For example, in the quadratic formula,   The letter always represents the coefficient of , is the coefficient of , and is the constant. You can't switch and without changing the meaning of the formula.     Examples   Finding a Side (AAS)   In triangle , , , and mm. Determine the length of .   Triangle with angles 35° and 88°       mm    Finding a Side with Obtuse Angle   In triangle , , , and m. Determine the length of .   Triangle with obtuse angle 118°       m    Finding an Angle   In triangle , , m, and m. Determine the measure of angle .   Triangle with known angle and two sides          Finding an Angle (Obtuse Given Angle)   In triangle , , m, and m. Determine the measure of angle .   Triangle with obtuse angle 98°         To solve an oblique triangle means to determine the lengths of all of its sides and the measure of all of its angles.   Solving a Triangle (AAS)   Solve the triangle: , m, and m.   Triangle to solve       , , m    Solving a Triangle (ASA)   Solve the triangle: , , and m.   Triangle with two known angles       , m, m    Solving a Triangle with Obtuse Angle   Solve the triangle: , , and mm.   Triangle with small angle       , mm, mm    Solving a Triangle   Solve the triangle: , , and cm.   Triangle to solve       , cm, cm     Practice Problems   Finding Sides with Law of Sines  Sketch each triangle and determine the measure of the indicated side.  In , , , and cm. Find the length of . cm  In , , , and cm. Find the length of . cm  In , , , and m. Find the length of . m  In , , , and cm. Find the length of . cm    "
+},
+{
+  "id": "thm-law-of-sines",
+  "level": "2",
+  "url": "sec-law-of-sines.html#thm-law-of-sines",
+  "type": "Theorem",
+  "number": "7.1.1",
+  "title": "Law of Sines (Sine Law).",
+  "body": " Law of Sines (Sine Law)   Let be the measures of the angles of a triangle, and let be the lengths of the sides opposite those angles, respectively. Then,    "
+},
+{
+  "id": "fig-law-of-sines-labeling",
+  "level": "2",
+  "url": "sec-law-of-sines.html#fig-law-of-sines-labeling",
+  "type": "Figure",
+  "number": "7.1.2",
+  "title": "",
+  "body": " Standard triangle labeling for Law of Sines     "
+},
+{
+  "id": "rem-placeholder-formula",
+  "level": "2",
+  "url": "sec-law-of-sines.html#rem-placeholder-formula",
+  "type": "Remark",
+  "number": "7.1.3",
+  "title": "Placeholder Formulas.",
+  "body": " Placeholder Formulas  This means that law of sines is a so-called placeholder formula , in that the symbols and do not necessarily refer to specific sides or angles. They are just placeholders or stand-ins for the 3 sides and angles of a triangle. In contrast, some formulas use variables that have a universally agreed-upon meaning. For example, in the quadratic formula,   The letter always represents the coefficient of , is the coefficient of , and is the constant. You can't switch and without changing the meaning of the formula.  "
+},
+{
+  "id": "ex-los-find-side-1",
+  "level": "2",
+  "url": "sec-law-of-sines.html#ex-los-find-side-1",
+  "type": "Example",
+  "number": "7.1.4",
+  "title": "Finding a Side (AAS).",
+  "body": " Finding a Side (AAS)   In triangle , , , and mm. Determine the length of .   Triangle with angles 35° and 88°       mm  "
+},
+{
+  "id": "ex-los-find-side-2",
+  "level": "2",
+  "url": "sec-law-of-sines.html#ex-los-find-side-2",
+  "type": "Example",
+  "number": "7.1.6",
+  "title": "Finding a Side with Obtuse Angle.",
+  "body": " Finding a Side with Obtuse Angle   In triangle , , , and m. Determine the length of .   Triangle with obtuse angle 118°       m  "
+},
+{
+  "id": "ex-los-find-angle-1",
+  "level": "2",
+  "url": "sec-law-of-sines.html#ex-los-find-angle-1",
+  "type": "Example",
+  "number": "7.1.8",
+  "title": "Finding an Angle.",
+  "body": " Finding an Angle   In triangle , , m, and m. Determine the measure of angle .   Triangle with known angle and two sides        "
+},
+{
+  "id": "ex-los-find-angle-2",
+  "level": "2",
+  "url": "sec-law-of-sines.html#ex-los-find-angle-2",
+  "type": "Example",
+  "number": "7.1.10",
+  "title": "Finding an Angle (Obtuse Given Angle).",
+  "body": " Finding an Angle (Obtuse Given Angle)   In triangle , , m, and m. Determine the measure of angle .   Triangle with obtuse angle 98°        "
+},
+{
+  "id": "subsec-law-of-sines-examples-6",
+  "level": "2",
+  "url": "sec-law-of-sines.html#subsec-law-of-sines-examples-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "solve "
+},
+{
+  "id": "ex-los-solve-triangle-1",
+  "level": "2",
+  "url": "sec-law-of-sines.html#ex-los-solve-triangle-1",
+  "type": "Example",
+  "number": "7.1.12",
+  "title": "Solving a Triangle (AAS).",
+  "body": " Solving a Triangle (AAS)   Solve the triangle: , m, and m.   Triangle to solve       , , m  "
+},
+{
+  "id": "ex-los-solve-triangle-2",
+  "level": "2",
+  "url": "sec-law-of-sines.html#ex-los-solve-triangle-2",
+  "type": "Example",
+  "number": "7.1.14",
+  "title": "Solving a Triangle (ASA).",
+  "body": " Solving a Triangle (ASA)   Solve the triangle: , , and m.   Triangle with two known angles       , m, m  "
+},
+{
+  "id": "ex-los-solve-triangle-3",
+  "level": "2",
+  "url": "sec-law-of-sines.html#ex-los-solve-triangle-3",
+  "type": "Example",
+  "number": "7.1.16",
+  "title": "Solving a Triangle with Obtuse Angle.",
+  "body": " Solving a Triangle with Obtuse Angle   Solve the triangle: , , and mm.   Triangle with small angle       , mm, mm  "
+},
+{
+  "id": "ex-los-solve-triangle-4",
+  "level": "2",
+  "url": "sec-law-of-sines.html#ex-los-solve-triangle-4",
+  "type": "Example",
+  "number": "7.1.18",
+  "title": "Solving a Triangle.",
+  "body": " Solving a Triangle   Solve the triangle: , , and cm.   Triangle to solve       , cm, cm  "
+},
+{
+  "id": "proj-los-find-sides",
+  "level": "2",
+  "url": "sec-law-of-sines.html#proj-los-find-sides",
+  "type": "Exercise Group",
+  "number": "7.1.1",
+  "title": "Finding Sides with Law of Sines.",
+  "body": " Finding Sides with Law of Sines  Sketch each triangle and determine the measure of the indicated side.  In , , , and cm. Find the length of . cm  In , , , and cm. Find the length of . cm  In , , , and m. Find the length of . m  In , , , and cm. Find the length of . cm  "
+},
+{
+  "id": "sec-ambiguous-case",
+  "level": "1",
+  "url": "sec-ambiguous-case.html",
+  "type": "Section",
+  "number": "7.2",
+  "title": "The Ambiguous Case (SSA)",
+  "body": " The Ambiguous Case (SSA)   Until now, knowing the information of the triangle allowed us to solve it completely. However, there is one case where the information could lead to 2 different possible triangles. In particular, when given 2 sides an a non-included angle (the SSA case), there could be 2 triangles, or even 0 possible triangles. This is called the ambiguous case , because it's not clear what the triangle is, or even if one exists.    Consider a triangle with angle , side , and side . How many triangles are possible, and what are their dimensions?    There is a systematic way to solve problems with the ambiguous case. While it's not absolutely necessary, it helps to keep things organized. First, sketch the known angle ( ) in the bottom-left corner, with side above it, and the unknown side horizontally. You should have something like this,     Notice that the bottom length is unknown, so just extend it a bit to the right (we don't know how long). Then, the other side is opposite angle , so it'll go from the top point down to the right.     You should aim to sketch so it's a bit shorter than (because 7 is smaller than 10), however, it doesn't have to be perfect. Now, attach side to point and swing it down until it touches the base ,     Now, we have one triangle. However, this is not the only possibility! In fact, can swing the other way to create a different triangle,     This setup also works with the given measurements. Therefore, there are 2 possible triangles with the given information.  Now, to solve both triangles, we can work on them side-by-side . On your paper, draw a vertical line down the middle. The left column is for Triangle 1 (where swings to the right), and the right column is for Triangle 2 (where swings to the left). We'll do the same steps for both, and the only difference is whether we use the angle from inverse sine directly, or its supplement.  First, use the law of sines to find . This step is the same for both triangles,   Now, here's where the two triangles differ. Recall that , but there are two angles with the same sine value: and its supplement . You can organize the 2 triangles nicely in 2 columns,      Triangle 1  Triangle 2        Find :  Find :            Find using law of sines:  Find using law of sines:        In summary,    Triangle 1       Triangle 2          However, there are not always 2 solutions.   How can you tell how many triangles there are? It will always be the SSA (or ASS) case that is ambiguous. First, calculate the height . Then, compare to and to determine the number of solutions.  In general, if is the known angle, and are the known sides. Sketch the angle in the bottom-left corner, the side above, the base along the bottom of unknown length, and side will be opposite .     To determine how many triangles are possible, first calculate the height of the triangle, using . Then, compare the measurements:   If , then there are 0 solutions. The side is too short to reach the base.  If , then there are 2 solutions. The side is longer than , but shorter than . Basically, side can swing in 2 different directions.  If , then there is 1 solution, and it's a right triangle.  If , then there is 1 triangle.   Here is a number line for the length showing the different cases,      Here is a Desmos applet for visualizing the ambiguous case: SSA Ambiguous Case . Input your given values for angle , side , and side to see how many triangles are possible.  Here is another applet for visualizing the ambiguous case: SSA triangle: The Ambiguous Case .  If the given angle is obtuse, there can be at most 1 triangle.     Examples   Determining Number of Solutions  For each triangle, determine whether there is no solution, one solution, or two solutions.  In , , cm, and cm. 2 solutions ( , and )  In , , cm, and cm. obtuse angle 1 solution ( is obtuse and )  In , , cm, and cm. 1 solution ( is obtuse and )  In , , cm, and cm. no solution ( and , so is too short)    Solving Triangles with Ambiguous Case  Determine the unknown side and angles in each triangle. If two solutions are possible, give both.  In , , cm, and cm. Two solutions. Triangle 1: , , cm. Triangle 2: , , cm.  In , , cm, and cm. Two solutions. Triangle 1: , , cm. Triangle 2: , , cm.  In , , cm, and cm. No solution ( )  In triangle , , , and . Two solutions. Triangle 1: , , . Triangle 2: , , .    Solve Each Triangle  Solve each triangle, if possible.  , , . , ,  , , . obtuse case , ,    "
+},
+{
+  "id": "sec-ambiguous-case-2-1",
+  "level": "2",
+  "url": "sec-ambiguous-case.html#sec-ambiguous-case-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "ambiguous case "
+},
+{
+  "id": "ex-ambiguous-case-main",
+  "level": "2",
+  "url": "sec-ambiguous-case.html#ex-ambiguous-case-main",
+  "type": "Example",
+  "number": "7.2.1",
+  "title": "",
+  "body": "  Consider a triangle with angle , side , and side . How many triangles are possible, and what are their dimensions?    There is a systematic way to solve problems with the ambiguous case. While it's not absolutely necessary, it helps to keep things organized. First, sketch the known angle ( ) in the bottom-left corner, with side above it, and the unknown side horizontally. You should have something like this,     Notice that the bottom length is unknown, so just extend it a bit to the right (we don't know how long). Then, the other side is opposite angle , so it'll go from the top point down to the right.     You should aim to sketch so it's a bit shorter than (because 7 is smaller than 10), however, it doesn't have to be perfect. Now, attach side to point and swing it down until it touches the base ,     Now, we have one triangle. However, this is not the only possibility! In fact, can swing the other way to create a different triangle,     This setup also works with the given measurements. Therefore, there are 2 possible triangles with the given information.  Now, to solve both triangles, we can work on them side-by-side . On your paper, draw a vertical line down the middle. The left column is for Triangle 1 (where swings to the right), and the right column is for Triangle 2 (where swings to the left). We'll do the same steps for both, and the only difference is whether we use the angle from inverse sine directly, or its supplement.  First, use the law of sines to find . This step is the same for both triangles,   Now, here's where the two triangles differ. Recall that , but there are two angles with the same sine value: and its supplement . You can organize the 2 triangles nicely in 2 columns,      Triangle 1  Triangle 2        Find :  Find :            Find using law of sines:  Find using law of sines:        In summary,    Triangle 1       Triangle 2        "
+},
+{
+  "id": "ex-ambiguous-not-always-two",
+  "level": "2",
+  "url": "sec-ambiguous-case.html#ex-ambiguous-not-always-two",
+  "type": "Example",
+  "number": "7.2.4",
+  "title": "",
+  "body": " However, there are not always 2 solutions.  "
+},
+{
+  "id": "proj-ambiguous-determine-solutions",
+  "level": "2",
+  "url": "sec-ambiguous-case.html#proj-ambiguous-determine-solutions",
+  "type": "Exercise Group",
+  "number": "7.2.1",
+  "title": "Determining Number of Solutions.",
+  "body": " Determining Number of Solutions  For each triangle, determine whether there is no solution, one solution, or two solutions.  In , , cm, and cm. 2 solutions ( , and )  In , , cm, and cm. obtuse angle 1 solution ( is obtuse and )  In , , cm, and cm. 1 solution ( is obtuse and )  In , , cm, and cm. no solution ( and , so is too short)  "
+},
+{
+  "id": "proj-ambiguous-solve-triangles",
+  "level": "2",
+  "url": "sec-ambiguous-case.html#proj-ambiguous-solve-triangles",
+  "type": "Exercise Group",
+  "number": "7.2.2",
+  "title": "Solving Triangles with Ambiguous Case.",
+  "body": " Solving Triangles with Ambiguous Case  Determine the unknown side and angles in each triangle. If two solutions are possible, give both.  In , , cm, and cm. Two solutions. Triangle 1: , , cm. Triangle 2: , , cm.  In , , cm, and cm. Two solutions. Triangle 1: , , cm. Triangle 2: , , cm.  In , , cm, and cm. No solution ( )  In triangle , , , and . Two solutions. Triangle 1: , , . Triangle 2: , , .  "
+},
+{
+  "id": "proj-ambiguous-solve-if-possible",
+  "level": "2",
+  "url": "sec-ambiguous-case.html#proj-ambiguous-solve-if-possible",
+  "type": "Exercise Group",
+  "number": "7.2.3",
+  "title": "Solve Each Triangle.",
+  "body": " Solve Each Triangle  Solve each triangle, if possible.  , , . , ,  , , . obtuse case , ,  "
+},
+{
+  "id": "sec-law-of-cosines",
+  "level": "1",
+  "url": "sec-law-of-cosines.html",
+  "type": "Section",
+  "number": "7.3",
+  "title": "Law of Cosines",
+  "body": " Law of Cosines   With the law of sines, we can solve many triangles. However, some triangles can't be solved only with the law of sines.   For example,   Triangle with three known sides      This triangle has known side lengths of 5, 6, and 7. However, there is no angle given, so we can't use the law of sines.     Law of Cosines   Law of Cosines   Let be the measures of the angles of a triangle, be the lengths of the sides opposite those angles, respectively. Then,     The law of cosines is like the Pythagorean theorem, except it is a generalization, because it works for any triangle, not just a right triangle. If the angle is a right angle, then , and then the law of cosines reduces down to , which is the Pythagorean theorem.  The law of cosines can be written equivalently as,     Law of Cosines as a Placeholder Formula  Again, the law of cosines is somewhat of a placeholder formula, in that labelling of the sides and angles are somewhat arbitrary, but their relative positions matter. Recall that the law of cosines says that,   This means that the square of the side opposite a given angle ( opposite ) is equal to the sum of the squares of the other two sides ( and ), minus two times the product of those two sides and the cosine of the given angle ( ).  The crucial requirement is that the angle must be opposite to the side specified on the left-hand side of the equation. The roles of and are symmetrical, so it doesn't matter which of the other two sides you choose as or . In other words, the law of cosines says that the side on the LHS must be opposite the angle included in the formula.    Law of Cosines Solving for Angle  As written, the law of cosines is made to solve for the side . However, sometimes, we want to solve for the angle, in particular for the SSS case when we know , and . To do this, solve for , and then use the inverse cosine,   First, move and to the left-hand side,   Then, divide both sides of the equation by , to isolate ,   Then, is isolated, and we can rewrite the equation to make it look a bit nicer,   Then, to solve for the angle , we use the cosine inverse function ,    When using law of cosines in the SSS case, you can solve for any of the 3 angles at first. However, because of the issue with acute and obtuse angles, it is ideal to start with solving for the largest angle first, to determine if it's obtuse or acute. That way, you know the other two angles will be acute, and don't have to worry about acute or obtuse for those angles (with the law of sines). To do this, note that the largest angle will always be opposite the largest side of the triangle (e.g. if is the largest side, then will be the largest angle).  Ideally, use the law of cosines only when you can't use the law of sines, because of the law of sines is easier.     Examples    "
+},
+{
+  "id": "ex-loc-motivation",
+  "level": "2",
+  "url": "sec-law-of-cosines.html#ex-loc-motivation",
+  "type": "Example",
+  "number": "7.3.1",
+  "title": "",
+  "body": " For example,   Triangle with three known sides      This triangle has known side lengths of 5, 6, and 7. However, there is no angle given, so we can't use the law of sines.  "
+},
+{
+  "id": "thm-law-of-cosines",
+  "level": "2",
+  "url": "sec-law-of-cosines.html#thm-law-of-cosines",
+  "type": "Theorem",
+  "number": "7.3.3",
+  "title": "Law of Cosines.",
+  "body": " Law of Cosines   Let be the measures of the angles of a triangle, be the lengths of the sides opposite those angles, respectively. Then,    "
+},
+{
   "id": "sec-oblique-triangles-summary",
   "level": "1",
   "url": "sec-oblique-triangles-summary.html",
   "type": "Section",
-  "number": "7.1",
+  "number": "7.4",
   "title": "Oblique Triangles Summary",
   "body": " Oblique Triangles Summary   Here is a simple summary of how to solve (oblique) triangles.  In short,   If you know an side-angle pair (side and it's opposite angle), use the law of sines .  Otherwise, use the law of cosines .   More specifically, based on the information given:    Type   First steps    Two angles and non-included side  AAS  law of sines    Two angles and included side  ASA  solve for remaining angle, then law of sines    Two sides and opposite angle  SSA  law of sines    Two sides and included angle  SAS  law of cosines (solve for side first)    Three sides  SSS  law of cosines (solve for an angle first)    Some additional notes:   If you know 2 angles, you can solve for the 3rd (subtract 180 minus the other two angles).  The SSA case also can be the ambiguous case if the triangle structure is unknown, with either 0, 1, or 2 solutions.  Be careful with rounding in intermediate steps, because it can lead to bigger rounding error in future calculations. A good guideline is to round intermediate calculations to at least 1 more decimal place than what the final answer asks for.    "
 },
