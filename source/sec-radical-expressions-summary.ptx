@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-radical-expressions-summary" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Radical Expressions Summary</title>
+  
+  <introduction>
+    <p>
+      <ul>
+        <li><p>Adding/subtracting like radicals <m>\rightarrow</m> add the front numbers</p></li>
+        <li><p>Multiply radicals <m>\rightarrow</m> multiply everything together</p></li>
+      </ul>
+    </p>
+  </introduction>
+  
+  <subsection xml:id="subsec-radical-expressions-summary-examples">
+    <title>Examples</title>
+    
+    <example xml:id="ex-rectangle-area-radicals">
+      <statement>
+        <p>A rectangle has dimensions <m>6+\sqrt{3}</m> and <m>6-\sqrt{3}</m>. Find its area.</p>
+      </statement>
+      <answer><p>33</p></answer>
+    </example>
+    
+    <example xml:id="ex-reciprocal-radical">
+      <statement>
+        <p>Show that the reciprocal of <m>\sqrt{26}-5</m> is 10 greater than <m>\sqrt{26}-5</m>.</p>
+      </statement>
+      <hint><p>Take the reciprocal and rationalize the denominator.</p></hint>
+    </example>
+    
+    <example xml:id="ex-rectangle-diagonal-radicals">
+      <statement>
+        <p>Determine the value of <m>x</m> if the diagonal of Rectangle 2 is three times the length of the diagonal of Rectangle 1.</p>
+        <figure xml:id="fig-two-rectangles-diagonals">
+          <caption>Two rectangles with radical dimensions</caption>
+          <image width="70%">
+            <latex-image>
+              \begin{tikzpicture}
+              % Rectangle 1
+              \draw (0,0) rectangle (2,1.2);
+              \draw[dashed] (0,0) -- (2,1.2);
+              \node at (1,-0.4) {$\sqrt{x+1}$};
+              \node at (2.3,0.6) {$1$};
+              \node at (1,2) {Rectangle 1};
+              
+              % Rectangle 2
+              \draw (5,0) rectangle (9,2);
+              \draw[dashed] (5,0) -- (9,2);
+              \node at (7,-0.4) {$\sqrt{14x}$};
+              \node at (9.5,1) {$\sqrt{4x}$};
+              \node at (7,2.8) {Rectangle 2};
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </figure>
+      </statement>
+      <hint><p>First find an expression for each diagonal, using the Pythagorean theorem, then set up an equation.</p></hint>
+      <answer><p><m>x=2</m></p></answer>
+    </example>
+    
+    <example xml:id="ex-point-on-y-axis-distances">
+      <statement>
+        <p>The point <m>P</m> lies on the <m>y</m>-axis. The coordinates of <m>R</m> and <m>S</m> are <m>(-21, 0)</m> and <m>(15, 0)</m> respectively. The sum of <m>PR</m> and <m>PS</m> is 54 units. Determine the coordinates of <m>P</m>.</p>
+        <figure xml:id="fig-point-on-y-axis">
+          <caption>Point P on the y-axis with distances to R and S</caption>
+          <image width="50%">
+            <latex-image>
+              \begin{tikzpicture}[scale=0.12]
+              % Axes
+              \draw[-&gt;] (-25,0) -- (20,0) node[right] {$x$};
+              \draw[-&gt;] (0,-5) -- (0,25) node[above] {$y$};
+              
+              % Points
+              \fill (-21,0) circle (8pt) node[below] {$R(-21,0)$};
+              \fill (15,0) circle (8pt) node[below] {$S(15,0)$};
+              \fill (0,20) circle (8pt) node[right] {$P(0,y)$};
+              
+              % Lines
+              \draw[dashed] (-21,0) -- (0,20) node[midway, above left] {$PR$};
+              \draw[dashed] (15,0) -- (0,20) node[midway, above right] {$PS$};
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </figure>
+      </statement>
+      <hint><p>Using the distance formula, <m>\sqrt{441+y^2}+\sqrt{225+y^2}=54</m>, then solve for <m>y</m>.</p></hint>
+      <answer><p><m>P = (0, 20)</m> or <m>P = (0, -20)</m></p></answer>
+    </example>
+    
+    <example xml:id="ex-triangle-area-radicals">
+      <statement>
+        <p>The area of the given triangle is 30 m<m>^2</m>. Determine the value of <m>x</m>.</p>
+        <figure xml:id="fig-right-triangle-radical-sides">
+          <caption>Right triangle with radical side lengths</caption>
+          <image width="40%">
+            <latex-image>
+              \begin{tikzpicture}[scale=0.8]
+              % Right triangle
+              \draw (0,0) -- (4,0) -- (4,3) -- cycle;
+              \draw (3.7,0) -- (3.7,0.3) -- (4,0.3); % right angle marker
+              
+              % Labels
+              \node at (2,-0.4) {$\sqrt{x-55}$ m};
+              \node at (5.5,1.5) {$\sqrt{2x-16}$ m};
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </figure>
+      </statement>
+      <hint><p>Use the triangle area formula <m>A = \frac{1}{2}bh</m>, then solve the resulting quadratic equation.</p></hint>
+      <answer><p><m>x = 80</m></p></answer>
+    </example>
+    
+  </subsection>
+  
+</section>

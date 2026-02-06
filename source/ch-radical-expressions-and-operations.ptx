@@ -10,5 +10,6 @@
   include sections
   <!-- <xi:include href="sec-adding-and-subtracting-radical-expressions.ptx" /> -->
   <xi:include href="sec-multiplying-and-dividing-radical-expressions.ptx" />
+  <xi:include href="sec-radical-expressions-summary.ptx" />
 
 </chapter>
