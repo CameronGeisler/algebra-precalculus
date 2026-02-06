@@ -1999,6 +1999,60 @@ var ptx_lunr_docs = [
   "body": " Reciprocal Proof   Show that the reciprocal of is 10 greater than .    take the reciprocal and rationalize the denominator.   "
 },
 {
+  "id": "sec-radical-expressions-summary",
+  "level": "1",
+  "url": "sec-radical-expressions-summary.html",
+  "type": "Section",
+  "number": "5.2",
+  "title": "Radical Expressions Summary",
+  "body": " Radical Expressions Summary     Adding\/subtracting like radicals add the front numbers  Multiply radicals multiply everything together      Examples    A rectangle has dimensions and . Find its area.   33     Show that the reciprocal of is 10 greater than .   Take the reciprocal and rationalize the denominator.     Determine the value of if the diagonal of Rectangle 2 is three times the length of the diagonal of Rectangle 1.   Two rectangles with radical dimensions       First find an expression for each diagonal, using the Pythagorean theorem, then set up an equation.      The point lies on the -axis. The coordinates of and are and respectively. The sum of and is 54 units. Determine the coordinates of .   Point P on the y-axis with distances to R and S       Using the distance formula, , then solve for .  or     The area of the given triangle is 30 m . Determine the value of .   Right triangle with radical side lengths       Use the triangle area formula , then solve the resulting quadratic equation.     "
+},
+{
+  "id": "ex-rectangle-area-radicals",
+  "level": "2",
+  "url": "sec-radical-expressions-summary.html#ex-rectangle-area-radicals",
+  "type": "Example",
+  "number": "5.2.1",
+  "title": "",
+  "body": "  A rectangle has dimensions and . Find its area.   33  "
+},
+{
+  "id": "ex-reciprocal-radical",
+  "level": "2",
+  "url": "sec-radical-expressions-summary.html#ex-reciprocal-radical",
+  "type": "Example",
+  "number": "5.2.2",
+  "title": "",
+  "body": "  Show that the reciprocal of is 10 greater than .   Take the reciprocal and rationalize the denominator.  "
+},
+{
+  "id": "ex-rectangle-diagonal-radicals",
+  "level": "2",
+  "url": "sec-radical-expressions-summary.html#ex-rectangle-diagonal-radicals",
+  "type": "Example",
+  "number": "5.2.3",
+  "title": "",
+  "body": "  Determine the value of if the diagonal of Rectangle 2 is three times the length of the diagonal of Rectangle 1.   Two rectangles with radical dimensions       First find an expression for each diagonal, using the Pythagorean theorem, then set up an equation.   "
+},
+{
+  "id": "ex-point-on-y-axis-distances",
+  "level": "2",
+  "url": "sec-radical-expressions-summary.html#ex-point-on-y-axis-distances",
+  "type": "Example",
+  "number": "5.2.5",
+  "title": "",
+  "body": "  The point lies on the -axis. The coordinates of and are and respectively. The sum of and is 54 units. Determine the coordinates of .   Point P on the y-axis with distances to R and S       Using the distance formula, , then solve for .  or  "
+},
+{
+  "id": "ex-triangle-area-radicals",
+  "level": "2",
+  "url": "sec-radical-expressions-summary.html#ex-triangle-area-radicals",
+  "type": "Example",
+  "number": "5.2.7",
+  "title": "",
+  "body": "  The area of the given triangle is 30 m . Determine the value of .   Right triangle with radical side lengths       Use the triangle area formula , then solve the resulting quadratic equation.   "
+},
+{
   "id": "sec-intro-to-rational-expressions",
   "level": "1",
   "url": "sec-intro-to-rational-expressions.html",
@@ -3571,7 +3625,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.3",
   "title": "Law of Cosines",
-  "body": " Law of Cosines   With the law of sines, we can solve many triangles. However, some triangles can't be solved only with the law of sines.   For example,   Triangle with three known sides      This triangle has known side lengths of 5, 6, and 7. However, there is no angle given, so we can't use the law of sines.     Law of Cosines   Law of Cosines   Let be the measures of the angles of a triangle, be the lengths of the sides opposite those angles, respectively. Then,     The law of cosines is like the Pythagorean theorem, except it is a generalization, because it works for any triangle, not just a right triangle. If the angle is a right angle, then , and then the law of cosines reduces down to , which is the Pythagorean theorem.  The law of cosines can be written equivalently as,     Law of Cosines as a Placeholder Formula  Again, the law of cosines is somewhat of a placeholder formula, in that labelling of the sides and angles are somewhat arbitrary, but their relative positions matter. Recall that the law of cosines says that,   This means that the square of the side opposite a given angle ( opposite ) is equal to the sum of the squares of the other two sides ( and ), minus two times the product of those two sides and the cosine of the given angle ( ).  The crucial requirement is that the angle must be opposite to the side specified on the left-hand side of the equation. The roles of and are symmetrical, so it doesn't matter which of the other two sides you choose as or . In other words, the law of cosines says that the side on the LHS must be opposite the angle included in the formula.    Law of Cosines Solving for Angle  As written, the law of cosines is made to solve for the side . However, sometimes, we want to solve for the angle, in particular for the SSS case when we know , and . To do this, solve for , and then use the inverse cosine,   First, move and to the left-hand side,   Then, divide both sides of the equation by , to isolate ,   Then, is isolated, and we can rewrite the equation to make it look a bit nicer,   Then, to solve for the angle , we use the cosine inverse function ,    When using law of cosines in the SSS case, you can solve for any of the 3 angles at first. However, because of the issue with acute and obtuse angles, it is ideal to start with solving for the largest angle first, to determine if it's obtuse or acute. That way, you know the other two angles will be acute, and don't have to worry about acute or obtuse for those angles (with the law of sines). To do this, note that the largest angle will always be opposite the largest side of the triangle (e.g. if is the largest side, then will be the largest angle).  Ideally, use the law of cosines only when you can't use the law of sines, because of the law of sines is easier.     Examples    "
+  "body": " Law of Cosines   With the law of sines, we can solve many triangles. However, some triangles can't be solved only with the law of sines.   For example,   Triangle with three known sides      This triangle has known side lengths of 5, 6, and 7. However, there is no angle given, so we can't use the law of sines.     Law of Cosines   Law of Cosines   Let be the measures of the angles of a triangle, be the lengths of the sides opposite those angles, respectively. Then,     The law of cosines is like the Pythagorean theorem, except it is a generalization, because it works for any triangle, not just a right triangle. If the angle is a right angle, then , and then the law of cosines reduces down to , which is the Pythagorean theorem.  The law of cosines can be written equivalently as,     Law of Cosines as a Placeholder Formula  Again, the law of cosines is somewhat of a placeholder formula, in that labelling of the sides and angles are somewhat arbitrary, but their relative positions matter. Recall that the law of cosines says that,   This means that the square of the side opposite a given angle ( opposite ) is equal to the sum of the squares of the other two sides ( and ), minus two times the product of those two sides and the cosine of the given angle ( ).  The crucial requirement is that the angle must be opposite to the side specified on the left-hand side of the equation. The roles of and are symmetrical, so it doesn't matter which of the other two sides you choose as or . In other words, the law of cosines says that the side on the LHS must be opposite the angle included in the formula.    Law of Cosines Solving for Angle  As written, the law of cosines is made to solve for the side . However, sometimes, we want to solve for the angle, in particular for the SSS case when we know , and . To do this, solve for , and then use the inverse cosine,   First, move and to the left-hand side,   Then, divide both sides of the equation by , to isolate ,   Then, is isolated, and we can rewrite the equation to make it look a bit nicer,   Then, to solve for the angle , we use the cosine inverse function ,    When using law of cosines in the SSS case, you can solve for any of the 3 angles at first. However, because of the issue with acute and obtuse angles, it is ideal to start with solving for the largest angle first, to determine if it's obtuse or acute. That way, you know the other two angles will be acute, and don't have to worry about acute or obtuse for those angles (with the law of sines). To do this, note that the largest angle will always be opposite the largest side of the triangle (e.g. if is the largest side, then will be the largest angle).  Ideally, use the law of cosines only when you can't use the law of sines, because of the law of sines is easier.    "
 },
 {
   "id": "ex-loc-motivation",
@@ -3598,7 +3652,61 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.4",
   "title": "Oblique Triangles Summary",
-  "body": " Oblique Triangles Summary   Here is a simple summary of how to solve (oblique) triangles.  In short,   If you know an side-angle pair (side and it's opposite angle), use the law of sines .  Otherwise, use the law of cosines .   More specifically, based on the information given:    Type   First steps    Two angles and non-included side  AAS  law of sines    Two angles and included side  ASA  solve for remaining angle, then law of sines    Two sides and opposite angle  SSA  law of sines    Two sides and included angle  SAS  law of cosines (solve for side first)    Three sides  SSS  law of cosines (solve for an angle first)    Some additional notes:   If you know 2 angles, you can solve for the 3rd (subtract 180 minus the other two angles).  The SSA case also can be the ambiguous case if the triangle structure is unknown, with either 0, 1, or 2 solutions.  Be careful with rounding in intermediate steps, because it can lead to bigger rounding error in future calculations. A good guideline is to round intermediate calculations to at least 1 more decimal place than what the final answer asks for.    "
+  "body": " Oblique Triangles Summary   Summary of Solving Oblique Triangles  A good guideline is that for your first step, in short,   If you know a side-angle pair (side length and its opposite angle), use the law of sines .  Otherwise, use the law of cosines .   More precisely, here are the first steps to take based on what information you have,    Type   First steps    Two angles and non-included side  AAS  law of sines    Two angles and included side  ASA  solve for remaining angle, then law of sines    Two sides and opposite angle  SSA  law of sines    Two sides and included angle  SAS  law of cosines (solve for side first)    Three sides  SSS  law of cosines (solve for an angle first)    Some additional notes:   Remember: If you know 2 angles, you can solve for the 3rd! Just subtract 180 minus the other two angles.  If it is a right triangle, then remember that you can simply use SOH-CAH-TOA! No need to use law of sines or law of cosines.  The SSA case also can be the ambiguous case if the triangle structure is unknown, with possibly 2, 1, or 0 solutions.  Be careful with rounding in intermediate steps, because it can lead to bigger rounding error in future calculations. A good guideline is to round intermediate calculations to at least 1 more decimal place than what the final answer asks for. So, if the final answer should be rounded to 1 decimal place, keep at least 2 decimal places your calculations, until the end.  Here is a triangle solver, which you can use to check your answers: Triangle Solver .     Examples   Triangle has , , and . Find all missing sides and angles, rounding to one decimal place as needed.    A surveyor is mapping a plot of land. From their position, they determine it is 1200 feet to a post that marks the property border. The surveyor then turns by 72° to see an oak tree, which marks another corner of the property, that is 1800 feet away. What is the distance between the post and the oak tree? Hint: law of cosines.    Matt measures the angle of elevation of the peak of a mountain as . Susie, who is 1200 feet closer on a straight level path, measures the angle of elevation as . How high is the mountain?    A bicycle wheel has a radius of 35 cm. The wheel's spokes are evenly spaced so that each pair of adjacent spokes forms a angle at the center. Find the distance between two adjacent spokes where they meet the rim. Hint: law of sines (or law of cosines). Answer: 18.1 cm.    A circle with radius 4 cm is inscribed in an equilateral triangle. Find the side length of the triangle. Hint: an equilateral triangle has angles of . Answer: cm.   Inscribed circle in equilateral triangle        A clock has an hour hand of length 12 cm and a minute hand of length 15 cm. Find the distance between the tips of the two hands when it is 4:00. Hint: At 4:00, the minute hand points straight up and the hour hand points at from the minute hand. Use the law of cosines. Answer: about 23.4 cm.    "
+},
+{
+  "id": "ex-oblique-summary-1",
+  "level": "2",
+  "url": "sec-oblique-triangles-summary.html#ex-oblique-summary-1",
+  "type": "Example",
+  "number": "7.4.1",
+  "title": "",
+  "body": " Triangle has , , and . Find all missing sides and angles, rounding to one decimal place as needed.  "
+},
+{
+  "id": "ex-oblique-summary-2",
+  "level": "2",
+  "url": "sec-oblique-triangles-summary.html#ex-oblique-summary-2",
+  "type": "Example",
+  "number": "7.4.2",
+  "title": "",
+  "body": " A surveyor is mapping a plot of land. From their position, they determine it is 1200 feet to a post that marks the property border. The surveyor then turns by 72° to see an oak tree, which marks another corner of the property, that is 1800 feet away. What is the distance between the post and the oak tree? Hint: law of cosines.  "
+},
+{
+  "id": "ex-oblique-summary-3",
+  "level": "2",
+  "url": "sec-oblique-triangles-summary.html#ex-oblique-summary-3",
+  "type": "Example",
+  "number": "7.4.3",
+  "title": "",
+  "body": " Matt measures the angle of elevation of the peak of a mountain as . Susie, who is 1200 feet closer on a straight level path, measures the angle of elevation as . How high is the mountain?  "
+},
+{
+  "id": "ex-oblique-summary-4",
+  "level": "2",
+  "url": "sec-oblique-triangles-summary.html#ex-oblique-summary-4",
+  "type": "Example",
+  "number": "7.4.4",
+  "title": "",
+  "body": " A bicycle wheel has a radius of 35 cm. The wheel's spokes are evenly spaced so that each pair of adjacent spokes forms a angle at the center. Find the distance between two adjacent spokes where they meet the rim. Hint: law of sines (or law of cosines). Answer: 18.1 cm.  "
+},
+{
+  "id": "ex-oblique-summary-5",
+  "level": "2",
+  "url": "sec-oblique-triangles-summary.html#ex-oblique-summary-5",
+  "type": "Example",
+  "number": "7.4.5",
+  "title": "",
+  "body": " A circle with radius 4 cm is inscribed in an equilateral triangle. Find the side length of the triangle. Hint: an equilateral triangle has angles of . Answer: cm.   Inscribed circle in equilateral triangle      "
+},
+{
+  "id": "ex-oblique-summary-6",
+  "level": "2",
+  "url": "sec-oblique-triangles-summary.html#ex-oblique-summary-6",
+  "type": "Example",
+  "number": "7.4.7",
+  "title": "",
+  "body": " A clock has an hour hand of length 12 cm and a minute hand of length 15 cm. Find the distance between the tips of the two hands when it is 4:00. Hint: At 4:00, the minute hand points straight up and the hour hand points at from the minute hand. Use the law of cosines. Answer: about 23.4 cm.  "
 },
 {
   "id": "sec-polynomial-functions-intro",
