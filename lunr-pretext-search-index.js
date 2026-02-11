@@ -6688,11 +6688,74 @@ var ptx_lunr_docs = [
   "body": " Bouncing ball problem: advanced   Consider the general problem. A ball is dropped from a height of meters, and bounces up to a fraction of the previous bounce (where ). Find the total distance travelled, in terms of and .        "
 },
 {
+  "id": "sec-volume-and-surface-area",
+  "level": "1",
+  "url": "sec-volume-and-surface-area.html",
+  "type": "Section",
+  "number": "16.1",
+  "title": "Volume and Surface Area",
+  "body": " Volume and Surface Area   For every 3-dimensional shape, we want to answer two fundamental questions:   How much space does it take up?  How much surface does it have?   These are the ideas of volume and surface area.   Volume is the amount of space a 3-dimensional object occupies. It is measured in cubic units, such as or .  Surface area is the total area of the boundary of a 3-dimensional object. It is measured in square units, such as or .   In everyday terms,   Volume tells you how much water a container can hold.  Surface area tells you how much paint you need to cover it.     Units   Units  Volume is measured in cubic units. For example, is the volume of a cube with side length . Volume can also be measured in liters (L) and milliliters (mL), which are more common for liquids. The conversion between these units is:   Surface area is measured in square units (e.g. , ).     Families of 3D Shapes  We will analyze the volume and surface area of a bunch of different 3-dimensional shapes. These shapes fall into two families, plus one special shape.  The prism family includes shapes with two identical bases connected by flat (or curved) sides:   Cubes and rectangular prisms  More general prisms (e.g. with a triangular base)  Cylinders (a prism with a circular base)   The pyramid family consists of shapes that taper to a point:   Pyramids (with a polygonal base)  Cones (a pyramid with a circular base)   The sphere stands on its own, as it has no base and no edges.   The prism family: cube, rectangular prism, triangular prism, cylinder       The pyramid family and the sphere: pyramid, cone, sphere       The Pattern  We will see that pointed shapes (pyramids, cones) always have exactly the volume of their flat-topped counterparts (prisms, cylinders) with the same base and height. This is a recurring theme throughout the chapter.    "
+},
+{
+  "id": "sec-volume-and-surface-area-2-4-1-1",
+  "level": "2",
+  "url": "sec-volume-and-surface-area.html#sec-volume-and-surface-area-2-4-1-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Volume "
+},
+{
+  "id": "sec-volume-and-surface-area-2-4-2-1",
+  "level": "2",
+  "url": "sec-volume-and-surface-area.html#sec-volume-and-surface-area-2-4-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Surface area "
+},
+{
+  "id": "subsec-units-2",
+  "level": "2",
+  "url": "sec-volume-and-surface-area.html#subsec-units-2",
+  "type": "Remark",
+  "number": "16.1.1",
+  "title": "Units.",
+  "body": " Units  Volume is measured in cubic units. For example, is the volume of a cube with side length . Volume can also be measured in liters (L) and milliliters (mL), which are more common for liquids. The conversion between these units is:   Surface area is measured in square units (e.g. , ).  "
+},
+{
+  "id": "fig-prism-family",
+  "level": "2",
+  "url": "sec-volume-and-surface-area.html#fig-prism-family",
+  "type": "Figure",
+  "number": "16.1.2",
+  "title": "",
+  "body": " The prism family: cube, rectangular prism, triangular prism, cylinder     "
+},
+{
+  "id": "fig-pyramid-family-and-sphere",
+  "level": "2",
+  "url": "sec-volume-and-surface-area.html#fig-pyramid-family-and-sphere",
+  "type": "Figure",
+  "number": "16.1.3",
+  "title": "",
+  "body": " The pyramid family and the sphere: pyramid, cone, sphere     "
+},
+{
+  "id": "subsec-families-of-3d-shapes-10",
+  "level": "2",
+  "url": "sec-volume-and-surface-area.html#subsec-families-of-3d-shapes-10",
+  "type": "Remark",
+  "number": "16.1.4",
+  "title": "The <span class=\"process-math\">\\(\\frac{1}{3}\\)<\/span> Pattern.",
+  "body": " The Pattern  We will see that pointed shapes (pyramids, cones) always have exactly the volume of their flat-topped counterparts (prisms, cylinders) with the same base and height. This is a recurring theme throughout the chapter.  "
+},
+{
   "id": "sec-word-problem-solving-strategy",
   "level": "1",
   "url": "sec-word-problem-solving-strategy.html",
   "type": "Section",
-  "number": "16.1",
+  "number": "17.1",
   "title": "Word Problem Solving Strategy",
   "body": " Word Problem Solving Strategy      What do you want to find? What do you know? How can you connect them?     What do you want to find? Give it a name (notation), like . Try to use variable names that match what they represent. E.g. for time use , for distance use , for height use , for the number of people use or .     What do you know? Note all the key information, underline it. Especially the numbers in the problem. Word problems often contain fluff and context that doesn't really affect the problem.     How can you connect them? What equations include both what you want to find and what you know? What formula includes what you're trying to find? There must be some connection between what you're trying to find, and what you know. Is there a theorem or formula that could be helpful?  E.g. if you want to find the area of a triangle, what formula gives you that? .       Sketch a diagram . For many problems, the relationships are much more easily noticed visually. Label the quantities in your diagram, both variables and numbers.  Students often struggle with drawing pictures of the problem. Unfortunately, the only way to improve at this is to practice. Sometimes, it's because they don't understand the terminology involved. On the other hand, sometimes you have to do trial and error, draw and then realize something is wrong, erase and redraw again.     Try to check your answer (ideally) . For equations, you can substitute back in. Does the answer make sense? It is reasonable? What units does it have?     Some notes:     You should always keep in mind what you want to find, i.e. the goal of the problem. Students often overemphasize the knowns of the problem, and then get stuck because they don't know how to use those knowns to do anything. Begin with the end in mind.    In your final answer, don't forget units!      "
 },
@@ -6701,7 +6764,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-solving-equations-graphically.html",
   "type": "Section",
-  "number": "16.2",
+  "number": "17.2",
   "title": "Solving Equations Graphically",
   "body": " Solving Equations Graphically   Graphing calculators, like Desmos , or the TI-84 Plus CE, can solve equations graphically very easily. The basic idea is to graph both sides of the equation, and the solutions are the intersection points.    Solving Equations Using a Graphing Calculator (Intersections)   Solving by Intersection  Solve the equation . To do this, graph both sides of the equation, and ( Desmos graph ). Observe the intersection points are at and . You can check that these are solutions, by plugging in and and verifying that both sides are equal,   Intuitively, this is because the equation is asking,  For which values of do the two expressions give the same number?  Then, a point is an intersection if it lies on both graphs, meaning that for that particular -value, the value for the left side is the same as the -value for the right side. That's what it means for the two sides of the equation to be equal.   In general, we want to solve an equation of the form,   where are expressions involving (that represent the two sides of the equation).   Graph both and .  The solutions are the -values of any intersection points of the two graphs.   In short,     Solving Numerically by Finding Zeros (Reducing to One Graph)  In fact, there is a slightly easier way. The general problem of solving an equation of the form,   can be rewritten by moving everything to one side (say, subtracting from both sides), to get . Then, the equation is in the form of one function equal to 0,   where . This transforms the problem from solving an equation with two separate sides, to finding the root of a (single) function. Then, to solve,   Graph .  The solutions are the -intercepts (zeros) of the graph.   In other words,     Comparing the Two Methods  Both the intersection method and the zeros method are mathematically equivalent, in that both will give you the same answer. However, there are some advantages and disadvantages to each, both practically and conceptually.    The intersection method is more intuitive, because you can visually see where the two functions intersect. If the functions represent some quantity, then it also has a useful interpretation.   Interpretating Intersection  For example, if represents how far each object has gone in seconds, then the intersection point means that after seconds, both objects have travelled the same distance . In contrast, with the zeros method, the -coordinate is always 0 and has no interpretation.     The zeros method is more computationally simpler, because you only have one function. Graphically, you only have to look near the -axis to find solutions. This is especially helpful when the functions are huge, and so you'd have to zoom out a lot to see the intersections.   Solving with the Zeros Method  Solve the equation . Using the intersection method , there is 1 intersection visible, but there is another intersection that is only visible if you zoom out a lot. Instead, using the zeros method, move all terms to one side, to get . Then, graphing this function , you can more easily see the 2 zeros of the graph, which are the solutions.       Solving Equations Graphically on the TI-84 Plus CE  With the TI-84 Plus CE, the strategy is similar to using Desmos, except it requires a few more button presses. Again, you can either do the intersection method ( ) or the zeros method ( ).   Enter the functions : Press [Y=] to to to the function editor. Enter the left side of the equation in Y1 and the right side in Y2. For example, for the equation , put in Y1 and in Y2. If solving , enter the expression in Y1 (and leave Y2 blank).  Adjust the window (if needed): Press [WINDOW] to set appropriate viewing bounds for Xmin, Xmax, Ymin, and Ymax so the graph and intersection points are visible. You can use [ZOOM] 6 (ZStandard) for a default view.  Graph the functions : Press [GRAPH] to display the graphs.   Find the intersection or root : Press [2nd] [TRACE] (CALC menu), then select 5: intersect (for intersection of two functions) or 2: zero (for roots of a single function). It will ask you to set a lower bound (Left Bound?) and upper bound (Right Bound?). These bounds define the interval for where the calculator will search for the solution, so make sure it's between them. Move the cursor with the arrow keys, and press [ENTER] for each.  It will also ask for a Guess?, which doesn't really matter, you can just press [ENTER] again (technically, the guess helps refine the search, but it only really helps for complicated functions that have many roots which are close together).     "
 },
@@ -6710,7 +6773,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-equations-graphically.html#solving-graphing-intersections-2",
   "type": "Example",
-  "number": "16.2.1",
+  "number": "17.2.1",
   "title": "Solving by Intersection.",
   "body": " Solving by Intersection  Solve the equation . To do this, graph both sides of the equation, and ( Desmos graph ). Observe the intersection points are at and . You can check that these are solutions, by plugging in and and verifying that both sides are equal,   Intuitively, this is because the equation is asking,  For which values of do the two expressions give the same number?  Then, a point is an intersection if it lies on both graphs, meaning that for that particular -value, the value for the left side is the same as the -value for the right side. That's what it means for the two sides of the equation to be equal.  "
 },
@@ -6719,7 +6782,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-equations-graphically.html#comparing-methods-3-1-2",
   "type": "Example",
-  "number": "16.2.2",
+  "number": "17.2.2",
   "title": "Interpretating Intersection.",
   "body": " Interpretating Intersection  For example, if represents how far each object has gone in seconds, then the intersection point means that after seconds, both objects have travelled the same distance . In contrast, with the zeros method, the -coordinate is always 0 and has no interpretation.  "
 },
@@ -6728,7 +6791,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-equations-graphically.html#comparing-methods-3-2-2",
   "type": "Example",
-  "number": "16.2.3",
+  "number": "17.2.3",
   "title": "Solving with the Zeros Method.",
   "body": " Solving with the Zeros Method  Solve the equation . Using the intersection method , there is 1 intersection visible, but there is another intersection that is only visible if you zoom out a lot. Instead, using the zeros method, move all terms to one side, to get . Then, graphing this function , you can more easily see the 2 zeros of the graph, which are the solutions.  "
 },
@@ -6737,7 +6800,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-solving-equations-numerically-with-a-calculator.html",
   "type": "Section",
-  "number": "16.3",
+  "number": "17.3",
   "title": "Solving Equations Numerically with a Calculator",
   "body": " Solving Equations Numerically with a Calculator   A large amount of high school mathematics is about solving equations. You learn various techniques to solve equations by hand (also called solving algebraically ), which work for various types of equations. However, for many types of equations, there is no algebraic technique that can solve them.   For example, in fact, these equations can't be solved algebraically:      No matter how hard you try to manipulate the equation, factor, and isolate for , you won't be able to solve for exactly.  If you have learned about exponential functions, logarithmic functions, and\/or trigonometric functions, here are some more examples:          These equations are simple to write down, but none of them can be solved algebraically. More generally, most equations with a combination of exponentials, polynomials, and trigonometric functions are unsolvable algebraically.   In this case, the next best thing is to find an approximate numerical solution.  These make up the two broad approaches to solving equations:     Algebraic \/ analytic \/ exact methods : Manipulating the equation using algebraic rules, to isolate the variable, and find an exact solution.     Approximate \/ numerical methods : Finding a solution which is an approximate decimal number, that is close enough.    Numerical solutions are useful in a few situations:   If an exact solution can't be found (it's just impossible).  If an exact solution is possible but just really difficult to find (especially in applications, an approximate numerical answer is usually good enough)  If you've already solved algebraically, and you want to check that your final answer is correct.     Solving Using a Scientific Calculator  My recommended calculator Casio fx-991ES Plus C 2nd edition (or some other similar scientific calculators) can solve equations numerically. This is truly powerful, because you can check your solutions to any equation.    First, make sure you're in COMP (computation) mode (which is the regular mode), by pressing MODE , then select COMP .    Enter your equation. Use the ALPHA button to get X (look for the button that has X above it). For the sign, use ALPHA then CALC .    Start the SOLVE function, by pressing SHIFT , then CALC .    Provide an initial guess for , such as , then press .    View the solution. The calculator shows the value of . It also displays (left side minus right side), which will be 0 (or at least very close to ) if the solution is accurate.     Solving a Radical Equation  For example, to solve ,    Enter .    Select SOLVE , by pressing SHIFT , then CALC .    Enter an initial guess, like , and press .    The solution should be .     If the solution is not a nice number (like a whole number), the solution will be a decimal like , not symbolic like .    If is anything but 0 (or very close to it), then the calculator couldn't find the solution. Try a different guess.    The initial guess kinda matters, but most reasonable guesses should give you the correct answer. Here are some broad principles:    Ideally, try to give a good guess as you can. For example, a number close to the solution you got from solving by hand.    If there are multiple solutions, the calculator will only give you one of them (each time). This is because the calculator basically pulls your initial guess towards the closest solution. E.g. if the solutions are and , and your initial guess is , you will most likely get . Whereas if you choose initial guess of , you will get .    If you have no idea what the solution should be, try 0 or 1 as a default. Because many equations have solutions near 0.    This feature is truly powerful, because you can check your solutions to any equation.    If the calculator agrees with your algebraic steps, then you know your answer is correct.    If it gives a different solution than what you found, then you know you have a mistake somewhere, and can go back and try to find it. E.g. maybe you dropped a negative sign, or didn't collect like terms properly.    You can also use it to solve an equation if you are stuck, however most tests will require you to show your work as well.   "
 },
@@ -6746,7 +6809,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-equations-numerically-with-a-calculator.html#sec-solving-equations-numerically-with-a-calculator-2-2",
   "type": "Example",
-  "number": "16.3.1",
+  "number": "17.3.1",
   "title": "",
   "body": " For example, in fact, these equations can't be solved algebraically:      No matter how hard you try to manipulate the equation, factor, and isolate for , you won't be able to solve for exactly.  If you have learned about exponential functions, logarithmic functions, and\/or trigonometric functions, here are some more examples:          These equations are simple to write down, but none of them can be solved algebraically. More generally, most equations with a combination of exponentials, polynomials, and trigonometric functions are unsolvable algebraically.  "
 },
@@ -6773,7 +6836,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-equations-numerically-with-a-calculator.html#subsec-solving-using-scientific-calculator-4",
   "type": "Example",
-  "number": "16.3.2",
+  "number": "17.3.2",
   "title": "Solving a Radical Equation.",
   "body": " Solving a Radical Equation  For example, to solve ,    Enter .    Select SOLVE , by pressing SHIFT , then CALC .    Enter an initial guess, like , and press .    The solution should be .  "
 }
