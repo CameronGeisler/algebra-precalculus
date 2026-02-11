@@ -27,6 +27,7 @@
     <xi:include href="./ch-trigonometry-in-the-plane.ptx" />
     <xi:include href="./ch-trigonometric-identities-and-equations.ptx" />
     <xi:include href="./ch-sequences-and-series.ptx" />
+    <xi:include href="./ch-3d-geometry.ptx" />
 
     <xi:include href="./ch-math-tools-and-techniques.ptx" />
     
