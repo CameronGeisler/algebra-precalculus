@@ -14,6 +14,7 @@
     <!-- Include chapters -->
     <xi:include href="./ch-algebra-review.ptx" />
     <xi:include href="./ch-radicals-and-rational-exponents.ptx" />
+    <xi:include href="./ch-3d-geometry.ptx" />
     <xi:include href="./ch-quadratic-functions-and-equations.ptx" />'
     <xi:include href="./ch-quadratic-systems.ptx" />
     <xi:include href="./ch-radical-expressions-and-operations.ptx" />
@@ -27,7 +28,6 @@
     <xi:include href="./ch-trigonometry-in-the-plane.ptx" />
     <xi:include href="./ch-trigonometric-identities-and-equations.ptx" />
     <xi:include href="./ch-sequences-and-series.ptx" />
-    <xi:include href="./ch-3d-geometry.ptx" />
 
     <xi:include href="./ch-math-tools-and-techniques.ptx" />
     
