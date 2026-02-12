@@ -5,5 +5,6 @@
 
   <!-- include sections -->
   <xi:include href="sec-volume-and-surface-area.ptx" />
+  <xi:include href="sec-cubes-and-right-prisms.ptx" />
 
 </chapter>
