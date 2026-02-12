@@ -289,6 +289,330 @@ var ptx_lunr_docs = [
   "body": " The Pattern  We will see that pointed shapes (pyramids, cones) always have exactly the volume of their flat-topped counterparts (prisms, cylinders) with the same base and height. This is a recurring theme throughout the chapter.  "
 },
 {
+  "id": "sec-cubes-and-right-prisms",
+  "level": "1",
+  "url": "sec-cubes-and-right-prisms.html",
+  "type": "Section",
+  "number": "3.2",
+  "title": "Cubes and Right Prisms",
+  "body": " Cubes and Right Prisms   First, we'll analyze shapes like cubes, boxes, and other prisms .   Three types of right prisms      Notice that all of these shapes have 2 bases, that are connected by flat rectangular faces. This type of shape is called a right prism . The word right means the sides are perpendicular to the base (they are at right angles to the base).     Cube  A cube is a right prism where all 6 faces are identical squares. If the side length is , then the base area is and the height is , so,   The volume of a cube with side length is,    Volume of a Cube   Find the volume of a cube with side length 4 cm.      .    Cubing a Number  This is why raising a number to the third power is called cubing the number: it gives the volume of a cube with that side length.      Rectangular Prism  A rectangular prism has the shape of a box. If the length is , width is , and height is , then the base area is , so,   The volume of a rectangular prism with length , width , and height is,   In other words, to find the volume of a rectangular prism, multiply all 3 of its dimensions together (length, width, height).   Volume of a Rectangular Prism   Find the volume of a rectangular prism with length 6 cm, width 4 cm, and height 3 cm.      .      Volume of a General Right Prism  More generally, the volume of a prism is the area of its base multiplied by its height.   Intuitively, a prism is a stack of identical cross-sections, so the volume is the area of one cross-section times the height of the stack.   A prism as a stack of identical cross-sections      The volume of a right prism with base area and height is,   This formula works for prisms with any base shape: triangular, pentagonal, hexagonal, etc. Simply compute the area of the base and multiply by the height.   Volume of a Triangular Prism  Find the volume of a triangular prism whose base is a right triangle with legs 3 cm and 4 cm, and whose height is 10 cm.     Answer: The base is a right triangle with area . So,       Surface Area of a Prism   The surface area of a prism is found by adding the areas of all of its faces.     Cube  A cube has 6 square faces which are all the same size. To see this, imagine cutting the cube along its edges and unfolding it flat. The result is called a net ,   A cube and its net      Each of the 6 faces is a square with area . So,    The surface area of a cube with side length is,      Volume and Surface Area of a Cube  Find the volume and surface area of a cube with side length 5 cm.     The volume is,   The surface area is,       Rectangular Prism  A rectangular prism has 3 pairs of rectangular faces. Unfolding it into a net, we can see all 6 faces,   A rectangular prism and its net      Two faces have area , two have area , and two have area . So,    The surface area of a rectangular prism with length , width , and height is,      Rectangular Prism  A shipping box is 30 cm long, 20 cm wide, and 15 cm tall. Find its volume and surface area.     The volume is,   The surface area is,       General Right Prism  For a general right prism, imagine unfolding the shape. The two bases each have area . The lateral (side) surface, when unrolled flat, forms a rectangle whose width is the perimeter of the base and whose height is ,   A triangular prism and its net      So the lateral area is , and the total surface area is,    The surface area of a right prism with base area , base perimeter , and height is,      Triangular Prism  A right prism has a triangular base with legs 3 cm and 4 cm (a right triangle), and the prism has height 10 cm. Find its volume and surface area.     First, find the base area. The base is a right triangle with legs 3 and 4, so,   The volume is,   For the surface area, we need the perimeter of the base. By the Pythagorean theorem, the hypotenuse of the triangle is,   So the perimeter is cm. Then,        Examples   Volume and Surface Area of Prisms  Find the volume and surface area of each prism.    A cube with side length 8 cm.      , .     A rectangular prism with length 12 cm, width 8 cm, and height 5 cm.      , .    A rectangular prism with dimensions .  , .    A right prism with a triangular base. The base is an equilateral triangle with side length 6 cm, and the prism has height 14 cm.  The area of an equilateral triangle with side is .  , .     Reverse Problems  Solve each problem.   A cube has surface area . Find its side length and volume.  , solve for .  , so cm. .    A rectangular prism has volume , length 15 cm, and width 10 cm. Find its height.  cm.    A cube has volume . Find its side length to the nearest tenth.  cm.     Unit Conversions  Solve each problem.   A rectangular fish tank is 60 cm long, 30 cm wide, and 40 cm tall. Find the volume of the tank in , then convert to litres.  .    A rectangular container is . How many litres of water can it hold?  .     Cube: Reverse Problem  A cube has volume . Find its side length and surface area.  Since , we have,   Then, the surface area is,     Hexagonal Prism   A right prism has a regular hexagonal base with side length 4 cm and height 12 cm. Find its volume.      A regular hexagon with side length has area .  . .    Finding Height from Surface Area  A closed box has a surface area of . The base of the box is 5 in by 3 in. Sketch a diagram and find the height of the box.  Set up the SA formula and solve for .  . So , giving in.    Finding Width from Surface Area  A rectangular prism has SA and dimensions . Find .  . So , giving cm.    Cube with Same Volume  A rectangular prism has dimensions . A cube is to be made with the same volume. What is the side length of the cube?  . , so in.      Word Problems   Painting a Room  A room is 5 m long, 4 m wide, and 3 m tall. How many litres of paint are needed if 1 litre covers ? Assume you paint the four walls and the ceiling, but not the floor.     First, compute the area to be painted. The four walls have a combined area equal to the perimeter of the floor times the height,   The ceiling has area,   The total area to paint is,   Then, the number of litres needed is,   So you would need to buy at least 8 litres of paint.    Wrapping Paper   A gift box is 25 cm long, 18 cm wide, and 10 cm tall. How much wrapping paper is needed to cover the box (ignoring overlap)?      .    Storage Unit  A storage unit is 3 m long, 2.5 m wide, and 2.4 m tall. How many cubic metres of storage space does it have? How many boxes measuring can fit inside (assuming perfect packing)?  . Each box has . Along length: . Along width: . Along height: (with 0.4 m unused). So boxes.    Aquarium  An aquarium is 80 cm long, 40 cm wide, and 50 cm tall. It is filled with water to a height of 45 cm. How many litres of water are in the aquarium?  .    Comparing Lockers  At a recreation centre, you choose between two types of lockers. A single locker from a double stack measures 0.4 m wide by 0.6 m deep, and the full stack is 1.8 m tall. A single locker from a triple stack measures 30 in wide by 15 in deep, and the full stack is 41 in tall. Which type of locker gives you more space, and how much more (in cubic metres)?  Find the height of one locker in each stack, then convert all dimensions to metres ( ).  Double-stack locker: . Triple-stack: height in, so dimensions cm. Volume . The double-stack gives about more space.    Storage Cabinet  A wooden storage cabinet is a right rectangular prism, 6 ft tall, 3 ft wide, and 30 in deep. Calculate the volume of the cabinet. Then, if the height is reduced by one quarter (keeping width and depth the same), what is the new volume? How does reducing one dimension by a factor of affect the volume?  Depth ft. . New height ft. New . The new volume is of the original. In general, multiplying one dimension by multiplies the volume by .    Dogsled Kennels  For a dogsled race, a competitor builds a trailer that is a right rectangular prism measuring 2 m wide, 1.6 m high, and 3.2 m long. The trailer is divided into 16 identical kennels (in 2 rows of 8). How much material is needed to build the kennels?  Account for the outer walls and the interior dividing walls.  Outer shell: . Interior: one lengthwise divider , seven crosswise dividers . Total .    Maximum Volume from Material  You have of material. What is the maximum volume of a cube you can make with this material?  The SA of a cube is , solve for .  , so cm. .    "
+},
+{
+  "id": "fig-three-prisms",
+  "level": "2",
+  "url": "sec-cubes-and-right-prisms.html#fig-three-prisms",
+  "type": "Figure",
+  "number": "3.2.1",
+  "title": "",
+  "body": " Three types of right prisms     "
+},
+{
+  "id": "sec-cubes-and-right-prisms-2-3",
+  "level": "2",
+  "url": "sec-cubes-and-right-prisms.html#sec-cubes-and-right-prisms-2-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "right prism "
+},
+{
+  "id": "subsec-cube-volume-2",
+  "level": "2",
+  "url": "sec-cubes-and-right-prisms.html#subsec-cube-volume-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "cube "
+},
+{
+  "id": "subsec-cube-volume-6",
+  "level": "2",
+  "url": "sec-cubes-and-right-prisms.html#subsec-cube-volume-6",
+  "type": "Checkpoint",
+  "number": "3.2.2",
+  "title": "Volume of a Cube.",
+  "body": " Volume of a Cube   Find the volume of a cube with side length 4 cm.      .  "
+},
+{
+  "id": "subsec-cube-volume-7",
+  "level": "2",
+  "url": "sec-cubes-and-right-prisms.html#subsec-cube-volume-7",
+  "type": "Remark",
+  "number": "3.2.3",
+  "title": "Cubing a Number.",
+  "body": " Cubing a Number  This is why raising a number to the third power is called cubing the number: it gives the volume of a cube with that side length.  "
+},
+{
+  "id": "subsec-rect-prism-volume-2",
+  "level": "2",
+  "url": "sec-cubes-and-right-prisms.html#subsec-rect-prism-volume-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "rectangular prism "
+},
+{
+  "id": "subsec-rect-prism-volume-7",
+  "level": "2",
+  "url": "sec-cubes-and-right-prisms.html#subsec-rect-prism-volume-7",
+  "type": "Checkpoint",
+  "number": "3.2.4",
+  "title": "Volume of a Rectangular Prism.",
+  "body": " Volume of a Rectangular Prism   Find the volume of a rectangular prism with length 6 cm, width 4 cm, and height 3 cm.      .  "
+},
+{
+  "id": "fig-prism-cross-sections",
+  "level": "2",
+  "url": "sec-cubes-and-right-prisms.html#fig-prism-cross-sections",
+  "type": "Figure",
+  "number": "3.2.5",
+  "title": "",
+  "body": " A prism as a stack of identical cross-sections     "
+},
+{
+  "id": "subsec-general-prism-volume-9",
+  "level": "2",
+  "url": "sec-cubes-and-right-prisms.html#subsec-general-prism-volume-9",
+  "type": "Example",
+  "number": "3.2.6",
+  "title": "Volume of a Triangular Prism.",
+  "body": " Volume of a Triangular Prism  Find the volume of a triangular prism whose base is a right triangle with legs 3 cm and 4 cm, and whose height is 10 cm.     Answer: The base is a right triangle with area . So,   "
+},
+{
+  "id": "subsubsec-cube-sa-2",
+  "level": "2",
+  "url": "sec-cubes-and-right-prisms.html#subsubsec-cube-sa-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "net "
+},
+{
+  "id": "fig-cube-net",
+  "level": "2",
+  "url": "sec-cubes-and-right-prisms.html#fig-cube-net",
+  "type": "Figure",
+  "number": "3.2.7",
+  "title": "",
+  "body": " A cube and its net     "
+},
+{
+  "id": "thm-sa-cube",
+  "level": "2",
+  "url": "sec-cubes-and-right-prisms.html#thm-sa-cube",
+  "type": "Theorem",
+  "number": "3.2.8",
+  "title": "",
+  "body": "  The surface area of a cube with side length is,    "
+},
+{
+  "id": "subsubsec-cube-sa-6",
+  "level": "2",
+  "url": "sec-cubes-and-right-prisms.html#subsubsec-cube-sa-6",
+  "type": "Example",
+  "number": "3.2.9",
+  "title": "Volume and Surface Area of a Cube.",
+  "body": " Volume and Surface Area of a Cube  Find the volume and surface area of a cube with side length 5 cm.     The volume is,   The surface area is,   "
+},
+{
+  "id": "fig-rect-prism-net",
+  "level": "2",
+  "url": "sec-cubes-and-right-prisms.html#fig-rect-prism-net",
+  "type": "Figure",
+  "number": "3.2.10",
+  "title": "",
+  "body": " A rectangular prism and its net     "
+},
+{
+  "id": "thm-sa-rect-prism",
+  "level": "2",
+  "url": "sec-cubes-and-right-prisms.html#thm-sa-rect-prism",
+  "type": "Theorem",
+  "number": "3.2.11",
+  "title": "",
+  "body": "  The surface area of a rectangular prism with length , width , and height is,    "
+},
+{
+  "id": "subsubsec-rect-prism-sa-6",
+  "level": "2",
+  "url": "sec-cubes-and-right-prisms.html#subsubsec-rect-prism-sa-6",
+  "type": "Example",
+  "number": "3.2.12",
+  "title": "Rectangular Prism.",
+  "body": " Rectangular Prism  A shipping box is 30 cm long, 20 cm wide, and 15 cm tall. Find its volume and surface area.     The volume is,   The surface area is,   "
+},
+{
+  "id": "fig-general-prism-net",
+  "level": "2",
+  "url": "sec-cubes-and-right-prisms.html#fig-general-prism-net",
+  "type": "Figure",
+  "number": "3.2.13",
+  "title": "",
+  "body": " A triangular prism and its net     "
+},
+{
+  "id": "thm-sa-general-prism",
+  "level": "2",
+  "url": "sec-cubes-and-right-prisms.html#thm-sa-general-prism",
+  "type": "Theorem",
+  "number": "3.2.14",
+  "title": "",
+  "body": "  The surface area of a right prism with base area , base perimeter , and height is,    "
+},
+{
+  "id": "subsubsec-general-prism-sa-6",
+  "level": "2",
+  "url": "sec-cubes-and-right-prisms.html#subsubsec-general-prism-sa-6",
+  "type": "Example",
+  "number": "3.2.15",
+  "title": "Triangular Prism.",
+  "body": " Triangular Prism  A right prism has a triangular base with legs 3 cm and 4 cm (a right triangle), and the prism has height 10 cm. Find its volume and surface area.     First, find the base area. The base is a right triangle with legs 3 and 4, so,   The volume is,   For the surface area, we need the perimeter of the base. By the Pythagorean theorem, the hypotenuse of the triangle is,   So the perimeter is cm. Then,   "
+},
+{
+  "id": "subsec-prism-examples-2",
+  "level": "2",
+  "url": "sec-cubes-and-right-prisms.html#subsec-prism-examples-2",
+  "type": "Exercise Group",
+  "number": "3.2.1",
+  "title": "Volume and Surface Area of Prisms.",
+  "body": " Volume and Surface Area of Prisms  Find the volume and surface area of each prism.    A cube with side length 8 cm.      , .     A rectangular prism with length 12 cm, width 8 cm, and height 5 cm.      , .    A rectangular prism with dimensions .  , .    A right prism with a triangular base. The base is an equilateral triangle with side length 6 cm, and the prism has height 14 cm.  The area of an equilateral triangle with side is .  , .   "
+},
+{
+  "id": "subsec-prism-examples-3",
+  "level": "2",
+  "url": "sec-cubes-and-right-prisms.html#subsec-prism-examples-3",
+  "type": "Exercise Group",
+  "number": "3.2.2",
+  "title": "Reverse Problems.",
+  "body": " Reverse Problems  Solve each problem.   A cube has surface area . Find its side length and volume.  , solve for .  , so cm. .    A rectangular prism has volume , length 15 cm, and width 10 cm. Find its height.  cm.    A cube has volume . Find its side length to the nearest tenth.  cm.   "
+},
+{
+  "id": "subsec-prism-examples-4",
+  "level": "2",
+  "url": "sec-cubes-and-right-prisms.html#subsec-prism-examples-4",
+  "type": "Exercise Group",
+  "number": "3.2.3",
+  "title": "Unit Conversions.",
+  "body": " Unit Conversions  Solve each problem.   A rectangular fish tank is 60 cm long, 30 cm wide, and 40 cm tall. Find the volume of the tank in , then convert to litres.  .    A rectangular container is . How many litres of water can it hold?  .   "
+},
+{
+  "id": "subsec-prism-examples-5",
+  "level": "2",
+  "url": "sec-cubes-and-right-prisms.html#subsec-prism-examples-5",
+  "type": "Example",
+  "number": "3.2.16",
+  "title": "Cube: Reverse Problem.",
+  "body": " Cube: Reverse Problem  A cube has volume . Find its side length and surface area.  Since , we have,   Then, the surface area is,   "
+},
+{
+  "id": "subsec-prism-examples-6",
+  "level": "2",
+  "url": "sec-cubes-and-right-prisms.html#subsec-prism-examples-6",
+  "type": "Checkpoint",
+  "number": "3.2.17",
+  "title": "Hexagonal Prism.",
+  "body": " Hexagonal Prism   A right prism has a regular hexagonal base with side length 4 cm and height 12 cm. Find its volume.      A regular hexagon with side length has area .  . .  "
+},
+{
+  "id": "subsec-prism-examples-7",
+  "level": "2",
+  "url": "sec-cubes-and-right-prisms.html#subsec-prism-examples-7",
+  "type": "Checkpoint",
+  "number": "3.2.18",
+  "title": "Finding Height from Surface Area.",
+  "body": " Finding Height from Surface Area  A closed box has a surface area of . The base of the box is 5 in by 3 in. Sketch a diagram and find the height of the box.  Set up the SA formula and solve for .  . So , giving in.  "
+},
+{
+  "id": "subsec-prism-examples-8",
+  "level": "2",
+  "url": "sec-cubes-and-right-prisms.html#subsec-prism-examples-8",
+  "type": "Checkpoint",
+  "number": "3.2.19",
+  "title": "Finding Width from Surface Area.",
+  "body": " Finding Width from Surface Area  A rectangular prism has SA and dimensions . Find .  . So , giving cm.  "
+},
+{
+  "id": "subsec-prism-examples-9",
+  "level": "2",
+  "url": "sec-cubes-and-right-prisms.html#subsec-prism-examples-9",
+  "type": "Checkpoint",
+  "number": "3.2.20",
+  "title": "Cube with Same Volume.",
+  "body": " Cube with Same Volume  A rectangular prism has dimensions . A cube is to be made with the same volume. What is the side length of the cube?  . , so in.  "
+},
+{
+  "id": "subsec-prism-word-problems-2",
+  "level": "2",
+  "url": "sec-cubes-and-right-prisms.html#subsec-prism-word-problems-2",
+  "type": "Example",
+  "number": "3.2.21",
+  "title": "Painting a Room.",
+  "body": " Painting a Room  A room is 5 m long, 4 m wide, and 3 m tall. How many litres of paint are needed if 1 litre covers ? Assume you paint the four walls and the ceiling, but not the floor.     First, compute the area to be painted. The four walls have a combined area equal to the perimeter of the floor times the height,   The ceiling has area,   The total area to paint is,   Then, the number of litres needed is,   So you would need to buy at least 8 litres of paint.  "
+},
+{
+  "id": "subsec-prism-word-problems-3",
+  "level": "2",
+  "url": "sec-cubes-and-right-prisms.html#subsec-prism-word-problems-3",
+  "type": "Checkpoint",
+  "number": "3.2.22",
+  "title": "Wrapping Paper.",
+  "body": " Wrapping Paper   A gift box is 25 cm long, 18 cm wide, and 10 cm tall. How much wrapping paper is needed to cover the box (ignoring overlap)?      .  "
+},
+{
+  "id": "subsec-prism-word-problems-4",
+  "level": "2",
+  "url": "sec-cubes-and-right-prisms.html#subsec-prism-word-problems-4",
+  "type": "Checkpoint",
+  "number": "3.2.23",
+  "title": "Storage Unit.",
+  "body": " Storage Unit  A storage unit is 3 m long, 2.5 m wide, and 2.4 m tall. How many cubic metres of storage space does it have? How many boxes measuring can fit inside (assuming perfect packing)?  . Each box has . Along length: . Along width: . Along height: (with 0.4 m unused). So boxes.  "
+},
+{
+  "id": "subsec-prism-word-problems-5",
+  "level": "2",
+  "url": "sec-cubes-and-right-prisms.html#subsec-prism-word-problems-5",
+  "type": "Checkpoint",
+  "number": "3.2.24",
+  "title": "Aquarium.",
+  "body": " Aquarium  An aquarium is 80 cm long, 40 cm wide, and 50 cm tall. It is filled with water to a height of 45 cm. How many litres of water are in the aquarium?  .  "
+},
+{
+  "id": "subsec-prism-word-problems-6",
+  "level": "2",
+  "url": "sec-cubes-and-right-prisms.html#subsec-prism-word-problems-6",
+  "type": "Checkpoint",
+  "number": "3.2.25",
+  "title": "Comparing Lockers.",
+  "body": " Comparing Lockers  At a recreation centre, you choose between two types of lockers. A single locker from a double stack measures 0.4 m wide by 0.6 m deep, and the full stack is 1.8 m tall. A single locker from a triple stack measures 30 in wide by 15 in deep, and the full stack is 41 in tall. Which type of locker gives you more space, and how much more (in cubic metres)?  Find the height of one locker in each stack, then convert all dimensions to metres ( ).  Double-stack locker: . Triple-stack: height in, so dimensions cm. Volume . The double-stack gives about more space.  "
+},
+{
+  "id": "subsec-prism-word-problems-7",
+  "level": "2",
+  "url": "sec-cubes-and-right-prisms.html#subsec-prism-word-problems-7",
+  "type": "Checkpoint",
+  "number": "3.2.26",
+  "title": "Storage Cabinet.",
+  "body": " Storage Cabinet  A wooden storage cabinet is a right rectangular prism, 6 ft tall, 3 ft wide, and 30 in deep. Calculate the volume of the cabinet. Then, if the height is reduced by one quarter (keeping width and depth the same), what is the new volume? How does reducing one dimension by a factor of affect the volume?  Depth ft. . New height ft. New . The new volume is of the original. In general, multiplying one dimension by multiplies the volume by .  "
+},
+{
+  "id": "subsec-prism-word-problems-8",
+  "level": "2",
+  "url": "sec-cubes-and-right-prisms.html#subsec-prism-word-problems-8",
+  "type": "Checkpoint",
+  "number": "3.2.27",
+  "title": "Dogsled Kennels.",
+  "body": " Dogsled Kennels  For a dogsled race, a competitor builds a trailer that is a right rectangular prism measuring 2 m wide, 1.6 m high, and 3.2 m long. The trailer is divided into 16 identical kennels (in 2 rows of 8). How much material is needed to build the kennels?  Account for the outer walls and the interior dividing walls.  Outer shell: . Interior: one lengthwise divider , seven crosswise dividers . Total .  "
+},
+{
+  "id": "subsec-prism-word-problems-9",
+  "level": "2",
+  "url": "sec-cubes-and-right-prisms.html#subsec-prism-word-problems-9",
+  "type": "Checkpoint",
+  "number": "3.2.28",
+  "title": "Maximum Volume from Material.",
+  "body": " Maximum Volume from Material  You have of material. What is the maximum volume of a cube you can make with this material?  The SA of a cube is , solve for .  , so cm. .  "
+},
+{
   "id": "sec-zeros-of-quadratic-functions-intro",
   "level": "1",
   "url": "sec-zeros-of-quadratic-functions-intro.html",

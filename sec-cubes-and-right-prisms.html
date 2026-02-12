@@ -1,0 +1,1280 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Cubes and Right Prisms</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Algebra and Precalculus">
+<meta property="book:author" content="Cameron Geisler">
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.11.14';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.d892923478694492.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.1d6e4aba17c2c7f2.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.6ec5960970d8b364.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="home.html"><span class="title">Algebra and Precalculus</span> <span class="subtitle">A Practical Guide</span></a></h1>
+<p class="byline">Cameron Geisler</p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec-volume-and-surface-area.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-3d-geometry.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="ch-quadratic-functions-and-equations.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+\newcommand{\abs}[1]{\left\lvert #1 \right\rvert}
+\newcommand{\set}[1]{\left\{ #1 \right\}}
+\renewcommand{\neg}{\sim}
+\newcommand{\brac}[1]{\left( #1 \right)}
+\newcommand{\rad}[1]{#1 \ \text{rad}}
+\newcommand{\eval}[1]{\left. #1 \right|}
+\newcommand{\floor}[1]{\left\lfloor #1 \right\rfloor}
+\newcommand{\ceil}[1]{\left\lceil #1 \right\rceil}
+\newcommand{\ang}[1]{#1^\circ}
+
+
+\newcommand{\crossmethod}[4]{
+  \begin{tikzpicture}[baseline=(M.base)]
+  
+  \node (M) at (0,0)    {$#1$};   
+  \node (P) at (0,-1)   {$#2$};   
+  \node (N) at (1.5,0)  {$#3$};   
+  \node (Q) at (1.5,-1) {$#4$};   
+  
+  \draw (M) -- (Q);
+  \draw (P) -- (N);
+  \end{tikzpicture}
+}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-algebra-review.html" class="internal"><span class="codenumber">1</span> <span class="title">Algebra Review</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-solving-linear-equations.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Solving Linear Equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-solving-linear-equations.html#equations-with-fractions" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Equations with Fractions</span></a></div></li></ul>
+</li></ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-radicals-and-rational-exponents.html" class="internal"><span class="codenumber">2</span> <span class="title">Radicals and Rational Exponents</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-rational-exponents-and-radicals.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Rational Exponents and Radicals</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-rational-exponents-and-radicals.html#sec-rational-exponents-and-radicals-3" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Rational Exponents</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-rational-exponents-and-radicals.html#sec-rational-exponents-and-radicals-4" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Summary of Rational Exponents and Exponent Laws</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-rational-exponents-and-radicals.html#sec-rational-exponents-and-radicals-5" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Converting Between Rational Exponents and Radicals</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-rational-exponents-and-radicals.html#sec-rational-exponents-and-radicals-6" class="internal"><span class="codenumber">2.1.4</span> <span class="title">Evaluating Rational Exponents Exact Values Examples</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-rational-exponents-and-radicals.html#sec-rational-exponents-and-radicals-7" class="internal"><span class="codenumber">2.1.5</span> <span class="title">Rational Exponents Using a Calculator</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-rational-exponents-and-radicals.html#sec-rational-exponents-and-radicals-8" class="internal"><span class="codenumber">2.1.6</span> <span class="title">Simplifying Algebraic Expressions with Rational Exponents</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-simplifying-radicals.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Simplifying Radicals</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-simplifying-radicals.html#subsection-simplifying-radical-examples" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-simplifying-radicals.html#subsection-condensing-mixed-radicals" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Condensing Mixed Radicals, Writing Mixed Radicals as Entire Radicals</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-3d-geometry.html" class="internal"><span class="codenumber">3</span> <span class="title">3D Geometry</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-volume-and-surface-area.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Volume and Surface Area</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-volume-and-surface-area.html#subsec-units" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Units</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-volume-and-surface-area.html#subsec-families-of-3d-shapes" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Families of 3D Shapes</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="sec-cubes-and-right-prisms.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Cubes and Right Prisms</span></a></div>
+<ul class="structural toc-item-list active">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-cubes-and-right-prisms.html#subsec-cube-volume" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Cube</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-cubes-and-right-prisms.html#subsec-rect-prism-volume" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Rectangular Prism</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-cubes-and-right-prisms.html#subsec-general-prism-volume" class="internal"><span class="codenumber">3.2.3</span> <span class="title">Volume of a General Right Prism</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-cubes-and-right-prisms.html#subsec-prism-surface-area" class="internal"><span class="codenumber">3.2.4</span> <span class="title">Surface Area of a Prism</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-cubes-and-right-prisms.html#subsubsec-cube-sa" class="internal"><span class="codenumber">3.2.4.1</span> <span class="title">Cube</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-cubes-and-right-prisms.html#subsubsec-rect-prism-sa" class="internal"><span class="codenumber">3.2.4.2</span> <span class="title">Rectangular Prism</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-cubes-and-right-prisms.html#subsubsec-general-prism-sa" class="internal"><span class="codenumber">3.2.4.3</span> <span class="title">General Right Prism</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-cubes-and-right-prisms.html#subsec-prism-examples" class="internal"><span class="codenumber">3.2.5</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-cubes-and-right-prisms.html#subsec-prism-word-problems" class="internal"><span class="codenumber">3.2.6</span> <span class="title">Word Problems</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-quadratic-functions-and-equations.html" class="internal"><span class="codenumber">4</span> <span class="title">Quadratic Functions and Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-zeros-of-quadratic-functions-intro.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Zeros of Quadratic Functions Intro</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-zeros-of-quadratic-functions-intro.html#subsection-calculator-quadratic" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Solving Quadratic Equations with Scientific Calculator (EQN Mode)</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-factoring-quadratic-trinomials.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Factoring Quadratic Trinomials</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factoring-quadratic-trinomials.html#factoring-x-squared-sum-product" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Factoring <span class="process-math">\(x^2+bx+c\)</span> (Sum and Product Method)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factoring-quadratic-trinomials.html#factoring-with-common-factors" class="internal"><span class="codenumber">4.2.2</span> <span class="title">Factoring Trinomials with Common Factors</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factoring-quadratic-trinomials.html#factoring-general-quadratics" class="internal"><span class="codenumber">4.2.3</span> <span class="title">Factoring Polynomials of the form <span class="process-math">\(ax^2 + bx + c\text{,}\)</span> <span class="process-math">\(a \neq 1\)</span></span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factoring-quadratic-trinomials.html#the-cross-method" class="internal"><span class="codenumber">4.2.4</span> <span class="title">The Cross Method</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factoring-quadratic-trinomials.html#summary-of-factoring" class="internal"><span class="codenumber">4.2.5</span> <span class="title">Summary of Factoring <span class="process-math">\(ax^2 + bx + c\)</span></span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-factoring-special-patterns.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Factoring Special Patterns</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factoring-special-patterns.html#subsection-difference-of-squares" class="internal"><span class="codenumber">4.3.1</span> <span class="title">Difference of Squares</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factoring-special-patterns.html#subsection-perfect-square-trinomials" class="internal"><span class="codenumber">4.3.2</span> <span class="title">Perfect Square Trinomials</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-solving-quadratic-equations-by-factoring.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Solving Quadratic Equations by Factoring</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-solving-quadratic-equations-by-factoring.html#summary-strategy" class="internal"><span class="codenumber">4.4.1</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-solving-quadratic-equations-by-factoring.html#equations-cross-method" class="internal"><span class="codenumber">4.4.2</span> <span class="title">Equations Requiring the Cross Method</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-factoring-quadratics-summary.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Factoring Quadratics Summary</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factoring-quadratics-summary.html#factoring-flowchart" class="internal"><span class="codenumber">4.5.1</span> <span class="title">Factoring Quadratics Flowchart</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-advanced-polynomial-factoring.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Advanced Polynomial Factoring</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-advanced-polynomial-factoring.html#subsec-factoring-multivariable-cross-method" class="internal"><span class="codenumber">4.6.1</span> <span class="title">Factoring Polynomials in Multiple Variables Using the Cross Method</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-advanced-polynomial-factoring.html#subsec-factor-by-grouping" class="internal"><span class="codenumber">4.6.2</span> <span class="title">Factor by Grouping</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-advanced-polynomial-factoring.html#subsec-sum-difference-of-cubes" class="internal"><span class="codenumber">4.6.3</span> <span class="title">Factoring a Sum or Difference of Cubes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-advanced-polynomial-factoring.html#subsec-factoring-polynomials-flowchart-summary" class="internal"><span class="codenumber">4.6.4</span> <span class="title">Factoring Polynomials Flowchart Summary</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-advanced-polynomial-factoring.html#subsec-mixed-factoring-examples" class="internal"><span class="codenumber">4.6.5</span> <span class="title">Mixed Examples</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-completing-the-square.html" class="internal"><span class="codenumber">4.7</span> <span class="title">Completing the Square</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-completing-the-square.html#subsection-solving-by-completing-square" class="internal"><span class="codenumber">4.7.1</span> <span class="title">Solving by Completing the Square</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-completing-the-square.html#subsection-converting-vertex-form" class="internal"><span class="codenumber">4.7.2</span> <span class="title">Converting to Vertex Form</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-the-discriminant.html" class="internal"><span class="codenumber">4.8</span> <span class="title">The Discriminant</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-the-discriminant.html#subsec-discriminant-definition" class="internal"><span class="codenumber">4.8.1</span> <span class="title">Definition and Theorem</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-the-discriminant.html#subsec-discriminant-examples" class="internal"><span class="codenumber">4.8.2</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-the-discriminant.html#subsec-discriminant-factorable" class="internal"><span class="codenumber">4.8.3</span> <span class="title">Discriminant and Factorable Equations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-word-problems-with-quadratics.html" class="internal"><span class="codenumber">4.9</span> <span class="title">Word Problems with Quadratics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-word-problems-with-quadratics.html#subsec-maximize-product" class="internal"><span class="codenumber">4.9.1</span> <span class="title">Maximize Product with Fixed Sum</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-word-problems-with-quadratics.html#subsec-farmer-fence" class="internal"><span class="codenumber">4.9.2</span> <span class="title">Farmer Fence Problem (Maximizing Area with Fixed Perimeter)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-word-problems-with-quadratics.html#subsec-max-revenue" class="internal"><span class="codenumber">4.9.3</span> <span class="title">Maximizing Revenue with Price Change Problems</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-word-problems-with-quadratics.html#subsec-number-problems" class="internal"><span class="codenumber">4.9.4</span> <span class="title">Number Problems</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-word-problems-with-quadratics.html#subsec-area-geometry" class="internal"><span class="codenumber">4.9.5</span> <span class="title">Area Geometry Problems</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="quadratic-inequalities-in-one-variable.html" class="internal"><span class="codenumber">4.10</span> <span class="title">Quadratic Inequalities in One Variable</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="quadratic-inequalities-in-one-variable.html#quad-ineq-calculator" class="internal"><span class="codenumber">4.10.1</span> <span class="title">Solving Quadratic Inequalities with Scientific Calculator (INEQ Mode)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="quadratic-inequalities-in-one-variable.html#quad-ineq-summary" class="internal"><span class="codenumber">4.10.2</span> <span class="title">Solving Quadratic Inequalities Summary</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="quadratic-inequalities-in-one-variable.html#quad-ineq-sign-chart" class="internal"><span class="codenumber">4.10.3</span> <span class="title">Solving Using Sign Chart and Test Points</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="quadratic-inequalities-in-one-variable.html#quad-ineq-examples" class="internal"><span class="codenumber">4.10.4</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="quadratic-inequalities-in-one-variable.html#quad-ineq-word-problems" class="internal"><span class="codenumber">4.10.5</span> <span class="title">Word Problems</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-quadratics-summary.html" class="internal"><span class="codenumber">4.11</span> <span class="title">Summary of Quadratics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-quadratics-summary.html#subsec-forms-of-quadratic-function" class="internal"><span class="codenumber">4.11.1</span> <span class="title">Forms of a Quadratic Function</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-quadratics-summary.html#subsec-solving-quadratic-equations-summary" class="internal"><span class="codenumber">4.11.2</span> <span class="title">Solving Quadratic Equations</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-quadratic-systems.html" class="internal"><span class="codenumber">5</span> <span class="title">Quadratic Systems</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-quadratic-systems.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Quadratic Systems</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-quadratic-systems.html#solving-by-substitution" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Solving by Substitution</span></a></div></li></ul>
+</li></ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-radical-expressions-and-operations.html" class="internal"><span class="codenumber">6</span> <span class="title">Radical Expressions and Operations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-multiplying-and-dividing-radical-expressions.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Multiplying and Dividing Radical Expressions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-multiplying-and-dividing-radical-expressions.html#rationalizing-denominator" class="internal"><span class="codenumber">6.1.1</span> <span class="title">Rationalizing the Denominator</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-multiplying-and-dividing-radical-expressions.html#rationalizing-denominator-binomial" class="internal"><span class="codenumber">6.1.2</span> <span class="title">Rationalizing the Denominator with Binomial Denominator</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-multiplying-and-dividing-radical-expressions.html#rationalizing-higher-roots" class="internal"><span class="codenumber">6.1.3</span> <span class="title">Rationalizing the Denominator with Higher Roots</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-multiplying-and-dividing-radical-expressions.html#historical-note" class="internal"><span class="codenumber">6.1.4</span> <span class="title">Rationalizing the Denominator Historical Note</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-multiplying-and-dividing-radical-expressions.html#word-problems" class="internal"><span class="codenumber">6.1.5</span> <span class="title">Word Problems</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-radical-expressions-summary.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Radical Expressions Summary</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-radical-expressions-summary.html#subsec-radical-expressions-summary-examples" class="internal"><span class="codenumber">6.2.1</span> <span class="title">Examples</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-rational-expressions.html" class="internal"><span class="codenumber">7</span> <span class="title">Rational Expressions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-intro-to-rational-expressions.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Intro to Rational Expressions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-to-rational-expressions.html#rational-expressions" class="internal"><span class="codenumber">7.1.1</span> <span class="title">Rational Expressions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-to-rational-expressions.html#non-permissible-values" class="internal"><span class="codenumber">7.1.2</span> <span class="title">Non-Permissible Values</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-simplifying-rational-expressions.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Simplifying Rational Expressions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-simplifying-rational-expressions.html#subsection-simplifying-monomials" class="internal"><span class="codenumber">7.2.1</span> <span class="title">Simplifying Expressions with Monomials</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-simplifying-rational-expressions.html#subsection-factoring-polynomials" class="internal"><span class="codenumber">7.2.2</span> <span class="title">Simplifying Expressions with Polynomials by Factoring</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-simplifying-rational-expressions.html#subsection-common-mistake" class="internal"><span class="codenumber">7.2.3</span> <span class="title">Common Mistake: Cancelling “Common Terms”</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-simplifying-rational-expressions.html#subsection-summary" class="internal"><span class="codenumber">7.2.4</span> <span class="title">Summary of Simplifying Rational Expressions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-simplifying-rational-expressions.html#subsection-word-problems" class="internal"><span class="codenumber">7.2.5</span> <span class="title">Word Problems</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-simplifying-rational-expressions.html#subsection-two-variables" class="internal"><span class="codenumber">7.2.6</span> <span class="title">Simplifying with Two Variables</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-multiplying-and-dividing-rational-expressions.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Multiplying and Dividing Rational Expressions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-multiplying-and-dividing-rational-expressions.html#mult-rational-expr" class="internal"><span class="codenumber">7.3.1</span> <span class="title">Multiplying Rational Expressions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-multiplying-and-dividing-rational-expressions.html#div-rational-expr" class="internal"><span class="codenumber">7.3.2</span> <span class="title">Dividing Rational Expressions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-multiplying-and-dividing-rational-expressions.html#mult-div-monomials" class="internal"><span class="codenumber">7.3.3</span> <span class="title">Multiplying and Dividing with Monomials</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-multiplying-and-dividing-rational-expressions.html#mult-div-poly-factor" class="internal"><span class="codenumber">7.3.4</span> <span class="title">Multiplying and Dividing with Polynomials by Factoring</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-multiplying-and-dividing-rational-expressions.html#mult-div-two-vars" class="internal"><span class="codenumber">7.3.5</span> <span class="title">Multiplying and Dividing with Two Variables</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-adding-and-subtracting-rational-expressions.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Adding and Subtracting Rational Expressions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-adding-and-subtracting-rational-expressions.html#subsection-adding-rational-expressions" class="internal"><span class="codenumber">7.4.1</span> <span class="title">Adding Rational Expressions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-adding-and-subtracting-rational-expressions.html#subsection-summary-rational-expressions" class="internal"><span class="codenumber">7.4.2</span> <span class="title">Summary of Adding or Subtracting Rational Expressions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-adding-and-subtracting-rational-expressions.html#subsection-add-sub-monomial-denominators" class="internal"><span class="codenumber">7.4.3</span> <span class="title">Adding and Subtracting with Monomial Denominators</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-adding-and-subtracting-rational-expressions.html#subsection-add-sub-like-denominators" class="internal"><span class="codenumber">7.4.4</span> <span class="title">Adding and Subtracting with Like Denominators</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-adding-and-subtracting-rational-expressions.html#subsection-add-sub-polynomials-factoring" class="internal"><span class="codenumber">7.4.5</span> <span class="title">Adding and Subtracting with Polynomials (Factoring)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-adding-and-subtracting-rational-expressions.html#subsection-add-sub-two-variables" class="internal"><span class="codenumber">7.4.6</span> <span class="title">Adding and Subtracting with Two Variables</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-mixed-operations.html" class="internal"><span class="codenumber">7.5</span> <span class="title">Mixed Operations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-mixed-operations.html#mixed-operations-practice" class="internal"><span class="codenumber">7.5.1</span> <span class="title">Mixed Operations Practice</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-solving-rational-equations.html" class="internal"><span class="codenumber">7.6</span> <span class="title">Solving Rational Equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-solving-rational-equations.html#examples-rational-equations" class="internal"><span class="codenumber">7.6.1</span> <span class="title">Examples</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-word-problems-with-rational-equations.html" class="internal"><span class="codenumber">7.7</span> <span class="title">Word Problems with Rational Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-word-problems-with-rational-equations.html#subsec-work-problems" class="internal"><span class="codenumber">7.7.1</span> <span class="title">Work Problems (Combined Work Rate)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-word-problems-with-rational-equations.html#subsec-relative-speed" class="internal"><span class="codenumber">7.7.2</span> <span class="title">Relative Speed Comparison Problems</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-word-problems-with-rational-equations.html#subsec-current-wind" class="internal"><span class="codenumber">7.7.3</span> <span class="title">Current/Wind Travel Problems</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-word-problems-with-rational-equations.html#subsec-avg-speed" class="internal"><span class="codenumber">7.7.4</span> <span class="title">Average Speed and Mixed-Rate Problems</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-word-problems-with-rational-equations.html#subsec-reciprocals" class="internal"><span class="codenumber">7.7.5</span> <span class="title">Number Problems Involving Reciprocals</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-word-problems-with-rational-equations.html#subsec-mixture" class="internal"><span class="codenumber">7.7.6</span> <span class="title">Mixture Problems</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-word-problems-with-rational-equations.html#subsec-misc" class="internal"><span class="codenumber">7.7.7</span> <span class="title">Misc Word Problems</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-oblique-triangle-trigonometry.html" class="internal"><span class="codenumber">8</span> <span class="title">Oblique Triangle Trigonometry</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-law-of-sines.html" class="internal"><span class="codenumber">8.1</span> <span class="title">Law of Sines</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-law-of-sines.html#subsec-placeholder-formulas" class="internal"><span class="codenumber">8.1.1</span> <span class="title">Placeholder Formulas in Trigonometry</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-law-of-sines.html#subsec-law-of-sines-examples" class="internal"><span class="codenumber">8.1.2</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-law-of-sines.html#subsec-law-of-sines-practice" class="internal"><span class="codenumber">8.1.3</span> <span class="title">Practice Problems</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-ambiguous-case.html" class="internal"><span class="codenumber">8.2</span> <span class="title">The Ambiguous Case (SSA)</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-ambiguous-case.html#subsec-ambiguous-examples" class="internal"><span class="codenumber">8.2.1</span> <span class="title">Examples</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-law-of-cosines.html" class="internal"><span class="codenumber">8.3</span> <span class="title">Law of Cosines</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-law-of-cosines.html#subsec-law-of-cosines-theorem" class="internal"><span class="codenumber">8.3.1</span> <span class="title">Law of Cosines</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-law-of-cosines.html#subsec-loc-placeholder" class="internal"><span class="codenumber">8.3.2</span> <span class="title">Law of Cosines as a Placeholder Formula</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-law-of-cosines.html#subsec-loc-solving-for-angle" class="internal"><span class="codenumber">8.3.3</span> <span class="title">Law of Cosines Solving for Angle</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-oblique-triangles-summary.html" class="internal"><span class="codenumber">8.4</span> <span class="title">Oblique Triangles Summary</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-oblique-triangles-summary.html#subsec-solving-oblique-summary" class="internal"><span class="codenumber">8.4.1</span> <span class="title">Summary of Solving Oblique Triangles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-oblique-triangles-summary.html#subsec-oblique-examples" class="internal"><span class="codenumber">8.4.2</span> <span class="title">Examples</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-polynomial-functions.html" class="internal"><span class="codenumber">9</span> <span class="title">Polynomial Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polynomial-functions-intro.html" class="internal"><span class="codenumber">9.1</span> <span class="title">Polynomial Functions Intro</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polynomial-functions-intro.html#sec-polynomial-functions-intro-3" class="internal"><span class="codenumber">9.1.1</span> <span class="title">Polynomial Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polynomial-functions-intro.html#sec-polynomial-functions-intro-4" class="internal"><span class="codenumber">9.1.2</span> <span class="title">Turning Points of a Polynomial</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polynomial-functions-intro.html#sec-polynomial-functions-intro-5" class="internal"><span class="codenumber">9.1.3</span> <span class="title">End Behavior of a Polynomial</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polynomial-functions-intro.html#sec-polynomial-functions-intro-6" class="internal"><span class="codenumber">9.1.4</span> <span class="title">y-Intercept of a Polynomial</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polynomial-functions-intro.html#sec-polynomial-functions-intro-7" class="internal"><span class="codenumber">9.1.5</span> <span class="title">x-Intercepts (Zeros) of a Polynomial</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polynomial-zeros-factored-form.html" class="internal"><span class="codenumber">9.2</span> <span class="title">Polynomial Zeros, Factored Form</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polynomial-zeros-factored-form.html#sec-polynomial-zeros-factored-form-3" class="internal"><span class="codenumber">9.2.1</span> <span class="title">Zeros by Technology/Graphing Calculator/Desmos</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polynomial-zeros-factored-form.html#sec-polynomial-zeros-factored-form-4" class="internal"><span class="codenumber">9.2.2</span> <span class="title">Solving Polynomial Equations in Factored Form</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-factoring-and-roots-of-polynomial-functions.html" class="internal"><span class="codenumber">9.3</span> <span class="title">Factoring and Roots of Polynomial Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-3" class="internal"><span class="codenumber">9.3.1</span> <span class="title">Factor Theorem</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factoring-and-roots-of-polynomial-functions.html#sec-factoring-and-roots-of-polynomial-functions-4" class="internal"><span class="codenumber">9.3.2</span> <span class="title">The Remainder Theorem</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-more-polynomial-functions.html" class="internal"><span class="codenumber">9.4</span> <span class="title">More Polynomial Functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-more-polynomial-functions.html#sec-more-polynomial-functions-2" class="internal"><span class="codenumber">9.4.1</span> <span class="title">Multiplicity of Roots (Order)</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-factoring-and-graphing-polynomials.html" class="internal"><span class="codenumber">9.5</span> <span class="title">Factoring and Graphing Polynomials</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factoring-and-graphing-polynomials.html#subsection-finding-cubic-roots-calculator" class="internal"><span class="codenumber">9.5.1</span> <span class="title">Finding Cubic Roots with Scientific Calculator (EQN Mode)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factoring-and-graphing-polynomials.html#subsection-finding-roots-polynomial-examples" class="internal"><span class="codenumber">9.5.2</span> <span class="title">Finding Roots of a Polynomial (Factoring Completely) Examples</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factoring-and-graphing-polynomials.html#summary-of-factoring-polynomials" class="internal"><span class="codenumber">9.5.3</span> <span class="title">Summary of Factoring Higher-Degree Polynomial Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factoring-and-graphing-polynomials.html#subsection-factoring-and-graphing-word-problems" class="internal"><span class="codenumber">9.5.4</span> <span class="title">Word Problems</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-applications-of-polynomial-function.html" class="internal"><span class="codenumber">9.6</span> <span class="title">Applications of Polynomial Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-applications-of-polynomial-function.html#box-problem-open-top" class="internal"><span class="codenumber">9.6.1</span> <span class="title">Box Problem (Open-Top Box)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-applications-of-polynomial-function.html#misc-word-problems" class="internal"><span class="codenumber">9.6.2</span> <span class="title">Misc Word Problems</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-applications-of-polynomial-function.html#remarks" class="internal"><span class="codenumber">9.6.3</span> <span class="title">Remarks</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-summary-of-polynomial-functions.html" class="internal"><span class="codenumber">9.7</span> <span class="title">Summary of Polynomial Functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-summary-of-polynomial-functions.html#sec-summary-of-polynomial-functions-2" class="internal"><span class="codenumber">9.7.1</span> <span class="title">Summary of Graphing a Polynomial Function</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-properties-of-functions.html" class="internal"><span class="codenumber">10</span> <span class="title">Properties of Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-interval-notation.html" class="internal"><span class="codenumber">10.1</span> <span class="title">Interval Notation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-interval-notation.html#sec-interval-notation-3" class="internal"><span class="codenumber">10.1.1</span> <span class="title">Summary of Interval Notation</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-domain-and-range.html" class="internal"><span class="codenumber">10.2</span> <span class="title">Domain and Range of Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-domain-and-range.html#subsec-finding-domain" class="internal"><span class="codenumber">10.2.1</span> <span class="title">Finding the Domain of a Function</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-domain-and-range.html#subsec-finding-range" class="internal"><span class="codenumber">10.2.2</span> <span class="title">Finding the Range of a Function</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-domain-and-range.html#subsec-domain-range-summary" class="internal"><span class="codenumber">10.2.3</span> <span class="title">Summary and Strategies</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-rational-functions.html" class="internal"><span class="codenumber">11</span> <span class="title">Rational Functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-graphing-rational-functions.html" class="internal"><span class="codenumber">11.1</span> <span class="title">Graphing Rational Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-graphing-rational-functions.html#sec-graphing-rational-functions-2" class="internal"><span class="codenumber">11.1.1</span> <span class="title">Sketching the Graph of a Rational Function Summary</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-graphing-rational-functions.html#subsection-examples" class="internal"><span class="codenumber">11.1.2</span> <span class="title">Examples</span></a></div></li>
+</ul>
+</li></ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-radical-functions-and-equations.html" class="internal"><span class="codenumber">12</span> <span class="title">Radical Functions and Equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-solving-radical-equations.html" class="internal"><span class="codenumber">12.1</span> <span class="title">Solving Radical Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-solving-radical-equations.html#sec-solving-radical-equations-3" class="internal"><span class="codenumber">12.1.1</span> <span class="title">Solving Basic Square Root Equations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-solving-radical-equations.html#sec-solving-radical-equations-4" class="internal"><span class="codenumber">12.1.2</span> <span class="title">Extraneous Solutions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-solving-radical-equations.html#sec-solving-radical-equations-5" class="internal"><span class="codenumber">12.1.3</span> <span class="title">Solving Square Root Equations with Quadratics</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-solving-radical-equations.html#sec-solving-radical-equations-6" class="internal"><span class="codenumber">12.1.4</span> <span class="title">Summary of Solving Radical Equations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-solving-radical-equations.html#sec-solving-radical-equations-7" class="internal"><span class="codenumber">12.1.5</span> <span class="title">Equations with Multiple Square Roots</span></a></div></li>
+</ul>
+</li></ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-exponential-and-logarithmic-functions.html" class="internal"><span class="codenumber">13</span> <span class="title">Exponential and Logarithmic Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-intro-to-exponential-functions.html" class="internal"><span class="codenumber">13.1</span> <span class="title">Intro to Exponential Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-to-exponential-functions.html#subsec-exponential-functions" class="internal"><span class="codenumber">13.1.1</span> <span class="title">Exponential Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-to-exponential-functions.html#subsec-exp-initial-value" class="internal"><span class="codenumber">13.1.2</span> <span class="title">Exponential Functions with an Initial Value</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-to-exponential-functions.html#subsec-solving-exp-eq" class="internal"><span class="codenumber">13.1.3</span> <span class="title">Solving Exponential Equations (Numerically)</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-intro-to-exponential-growth-and-decay.html" class="internal"><span class="codenumber">13.2</span> <span class="title">Intro to Exponential Growth and Decay</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-to-exponential-growth-and-decay.html#subsec-growth-decay-models" class="internal"><span class="codenumber">13.2.1</span> <span class="title">Exponential Growth and Decay Models</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-to-exponential-growth-and-decay.html#subsec-examples" class="internal"><span class="codenumber">13.2.2</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-to-exponential-growth-and-decay.html#subsec-compound-interest" class="internal"><span class="codenumber">13.2.3</span> <span class="title">Compound Interest</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-to-exponential-growth-and-decay.html#subsec-more-examples" class="internal"><span class="codenumber">13.2.4</span> <span class="title">More Examples</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-exponential-equations.html" class="internal"><span class="codenumber">13.3</span> <span class="title">Exponential Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exponential-equations.html#subsection-solving-exponential-equations" class="internal"><span class="codenumber">13.3.1</span> <span class="title">Solving Exponential Equations Using Common Bases</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exponential-equations.html#subsection-exp-eq-examples" class="internal"><span class="codenumber">13.3.2</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exponential-equations.html#subsection-exp-eq-advanced-examples" class="internal"><span class="codenumber">13.3.3</span> <span class="title">Advanced Examples</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-intro-to-logarithms.html" class="internal"><span class="codenumber">13.4</span> <span class="title">Intro to Logarithms</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-to-logarithms.html#sub-logarithms-definition" class="internal"><span class="codenumber">13.4.1</span> <span class="title">Logarithms</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-to-logarithms.html#sub-logarithm-bases" class="internal"><span class="codenumber">13.4.2</span> <span class="title">Logarithm Bases</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-to-logarithms.html#sub-basic-properties" class="internal"><span class="codenumber">13.4.3</span> <span class="title">Basic Properties of Logarithms</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-to-logarithms.html#sub-evaluating-hand" class="internal"><span class="codenumber">13.4.4</span> <span class="title">Evaluating Logarithms (By Hand)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-to-logarithms.html#sub-neg-logs" class="internal"><span class="codenumber">13.4.5</span> <span class="title">Logs of Negative Numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-to-logarithms.html#sub-evaluating-calculator" class="internal"><span class="codenumber">13.4.6</span> <span class="title">Evaluating Logarithms Using a Calculator</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-to-logarithms.html#sub-inverse-properties" class="internal"><span class="codenumber">13.4.7</span> <span class="title">Inverse Properties of Logarithms</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-to-logarithms.html#sub-solving-basic-eqs" class="internal"><span class="codenumber">13.4.8</span> <span class="title">Solving Basic Logarithmic Equations (Finding the Unknown)</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-solving-exponential-equations-with-logarithms.html" class="internal"><span class="codenumber">13.5</span> <span class="title">Solving Exponential Equations with Logarithms</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-solving-exponential-equations-with-logarithms.html#subsec-exponential-equations-with-logs-examples" class="internal"><span class="codenumber">13.5.1</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-solving-exponential-equations-with-logarithms.html#subsection-solving-quadratic-form" class="internal"><span class="codenumber">13.5.2</span> <span class="title">Solving Exponential Equations in Quadratic Form</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-solving-exponential-equations-with-logarithms.html#subsection-exp-eqs-with-logs-advanced-examples" class="internal"><span class="codenumber">13.5.3</span> <span class="title">Advanced Examples</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-carbon-dating-and-half-life.html" class="internal"><span class="codenumber">13.6</span> <span class="title">Carbon Dating and Half-Life</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-carbon-dating-and-half-life.html#application-carbon-dating" class="internal"><span class="codenumber">13.6.1</span> <span class="title">Application: Carbon Dating</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-carbon-dating-and-half-life.html#application-radioactive-decay" class="internal"><span class="codenumber">13.6.2</span> <span class="title">Application: Radioactive Decay</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-solving-logarithmic-equations.html" class="internal"><span class="codenumber">13.7</span> <span class="title">Solving Logarithmic Equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-solving-logarithmic-equations.html#subsection-log-equations-examples" class="internal"><span class="codenumber">13.7.1</span> <span class="title">Examples</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-summary-of-exponential-growth-and-decay.html" class="internal"><span class="codenumber">13.8</span> <span class="title">Summary of Exponential Growth and Decay</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-summary-of-exponential-growth-and-decay.html#summary-logarithmic-scales" class="internal"><span class="codenumber">13.8.1</span> <span class="title">Summary of Logarithmic Scales</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-trigonometry-in-the-plane.html" class="internal"><span class="codenumber">14</span> <span class="title">Trigonometry in the Plane</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-radian-measure.html" class="internal"><span class="codenumber">14.1</span> <span class="title">Radian Measure</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-radian-measure.html#subsec-converting-between-degrees-and-radians" class="internal"><span class="codenumber">14.1.1</span> <span class="title">Converting Between Degrees and Radians</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-radian-measure.html#sketching-radians" class="internal"><span class="codenumber">14.1.2</span> <span class="title">Sketching Angles in Radians</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-radian-measure.html#motivating-radians" class="internal"><span class="codenumber">14.1.3</span> <span class="title">Motivating Radians</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-radian-measure.html#radians-definition" class="internal"><span class="codenumber">14.1.4</span> <span class="title">Radians</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-ratios-of-non-acute-angles-reference-angles.html" class="internal"><span class="codenumber">14.2</span> <span class="title">Ratios of Non-Acute Angles, Reference Angles</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-ratios-of-non-acute-angles-reference-angles.html#subsec-practice-trig-value" class="internal"><span class="codenumber">14.2.1</span> <span class="title">Exact Values of Trigonometric Ratios (Unit Circle) Practice</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-ratios-of-non-acute-angles-reference-angles.html#subsec-practice-trig-value-2" class="internal"><span class="codenumber">14.2.1</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-ratios-of-non-acute-angles-reference-angles.html#exercises-working-version" class="internal"><span class="codenumber">14.2.1</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-intro-to-solving-trigonometric-equations.html" class="internal"><span class="codenumber">14.3</span> <span class="title">Introduction to Solving Trigonometric Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-to-solving-trigonometric-equations.html#subsection-basic-trigonometric-equations" class="internal"><span class="codenumber">14.3.1</span> <span class="title">Basic Trigonometric Equations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-to-solving-trigonometric-equations.html#subsection-basic-trig-equations-examples" class="internal"><span class="codenumber">14.3.2</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-to-solving-trigonometric-equations.html#subsection-solving-equations-with-a-multiple-of-the-angle" class="internal"><span class="codenumber">14.3.3</span> <span class="title">Solving Equations with a Multiple of the Angle</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-quadratic-trigonometric-equations.html" class="internal"><span class="codenumber">14.4</span> <span class="title">Quadratic Trigonometric Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-quadratic-trigonometric-equations.html#notation-powers-trig" class="internal"><span class="codenumber">14.4.1</span> <span class="title">Notation <span class="process-math">\(\sin^2{x}\)</span> and Other Powers of a Trigonometric Function</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-quadratic-trigonometric-equations.html#solving-quadratic-trig-eqs" class="internal"><span class="codenumber">14.4.2</span> <span class="title">Solving Quadratic Trigonometric Equations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-quadratic-trigonometric-equations.html#examples-quadratic-trig-eqs" class="internal"><span class="codenumber">14.4.3</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-quadratic-trigonometric-equations.html#quadratic-form-eqs" class="internal"><span class="codenumber">14.4.4</span> <span class="title">Trigonometric Equations in Quadratic Form</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-quadratic-trigonometric-equations.html#advanced-examples" class="internal"><span class="codenumber">14.4.5</span> <span class="title">Advanced</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-trigonometric-identities-and-equations.html" class="internal"><span class="codenumber">15</span> <span class="title">Trigonometric Identities and Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-intro-to-trigonometric-identities.html" class="internal"><span class="codenumber">15.1</span> <span class="title">Intro to Trigonometric Identities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-to-trigonometric-identities.html#pythagorean-identities" class="internal"><span class="codenumber">15.1.1</span> <span class="title">Pythagorean Identities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-to-trigonometric-identities.html#simplifying-expressions" class="internal"><span class="codenumber">15.1.2</span> <span class="title">Simplifying Trigonometric Expressions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-to-trigonometric-identities.html#solving-equations" class="internal"><span class="codenumber">15.1.3</span> <span class="title">Solving Equations Using Identities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-to-trigonometric-identities.html#trig-non-permissible-values" class="internal"><span class="codenumber">15.1.4</span> <span class="title">Non-Permissible Values</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-to-trigonometric-identities.html#verifying-graphing" class="internal"><span class="codenumber">15.1.5</span> <span class="title">Verifying a Trigonometric Identity by Graphing</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-to-trigonometric-identities.html#verifying-identities" class="internal"><span class="codenumber">15.1.6</span> <span class="title">“Verifying” Identities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-intro-to-proving-trigonometric-identities.html" class="internal"><span class="codenumber">15.2</span> <span class="title">Intro to Proving Trigonometric Identities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-to-proving-trigonometric-identities.html#subsec-principles-proving-identities" class="internal"><span class="codenumber">15.2.1</span> <span class="title">General Principles for Proving Identities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-to-proving-trigonometric-identities.html#subsec-identity-examples" class="internal"><span class="codenumber">15.2.2</span> <span class="title">Examples</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-sum-and-difference-identities.html" class="internal"><span class="codenumber">15.3</span> <span class="title">Sum and Difference Identities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-sum-and-difference-identities.html#subsection-finding-exact-values-examples" class="internal"><span class="codenumber">15.3.1</span> <span class="title">Finding Exact Values Examples</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-sum-and-difference-identities.html#subsection-exact-values-with-variable-angles" class="internal"><span class="codenumber">15.3.2</span> <span class="title">Exact Values with Variable Angles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-sum-and-difference-identities.html#subsection-simplifying-expressions-using-sum-and-difference-identities" class="internal"><span class="codenumber">15.3.3</span> <span class="title">Simplifying Expressions Using Sum and Difference Identities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-sum-and-difference-identities.html#subsection-proving-identities-with-sum-and-difference-examples" class="internal"><span class="codenumber">15.3.4</span> <span class="title">Proving Identities with Sum and Difference Examples</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-sum-and-difference-identities.html#subsection-solving-equations-using-the-sum-and-difference-identities" class="internal"><span class="codenumber">15.3.5</span> <span class="title">Solving Equations Using the Sum and Difference Identities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-sum-and-difference-identities.html#subsection-other-examples" class="internal"><span class="codenumber">15.3.6</span> <span class="title">Other Examples</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-double-angle-identities.html" class="internal"><span class="codenumber">15.4</span> <span class="title">Double-Angle Identities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-double-angle-identities.html#subsec-finding-exact-value-examples" class="internal"><span class="codenumber">15.4.1</span> <span class="title">Finding Exact Value Examples</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-double-angle-identities.html#subsec-exact-values-variable-angles" class="internal"><span class="codenumber">15.4.2</span> <span class="title">Exact Values with Variable Angles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-double-angle-identities.html#subsec-simplify-double-angle-identities" class="internal"><span class="codenumber">15.4.3</span> <span class="title">Simplify Using Double-Angle Identities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-double-angle-identities.html#subsec-equations-double-angle-identities" class="internal"><span class="codenumber">15.4.4</span> <span class="title">Equations with Double-Angle Identities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-double-angle-identities.html#subsec-proving-identities-double-angles" class="internal"><span class="codenumber">15.4.5</span> <span class="title">Proving Identities with Double Angles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-double-angle-identities.html#subsec-double-angle-advanced-examples" class="internal"><span class="codenumber">15.4.6</span> <span class="title">Advanced Examples</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-double-angle-identities.html#subsec-proofs-double-angle-identities" class="internal"><span class="codenumber">15.4.7</span> <span class="title">Proofs of Double-Angle Identities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-double-angle-identities.html#subsec-triple-angle-identities" class="internal"><span class="codenumber">15.4.8</span> <span class="title">Triple-Angle Identities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-trigonometric-identities-summary.html" class="internal"><span class="codenumber">15.5</span> <span class="title">Summary of Trigonometric Identities</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trigonometric-identities-summary.html#sec-trigonometric-identities-summary-2" class="internal"><span class="codenumber">15.5.1</span> <span class="title">Summary of Trigonometric Identities</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-sequences-and-series.html" class="internal"><span class="codenumber">16</span> <span class="title">Sequences and Series</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-infinite-geometric-series.html" class="internal"><span class="codenumber">16.1</span> <span class="title">Infinite Geometric Series</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-infinite-geometric-series.html#sec-infinite-geometric-series-2" class="internal"><span class="codenumber">16.1.1</span> <span class="title">Application: Bouncing Ball Problem</span></a></div></li></ul>
+</li></ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-math-tools-and-techniques.html" class="internal"><span class="codenumber">17</span> <span class="title">Appendix: Math Tools and Techniques</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-word-problem-solving-strategy.html" class="internal"><span class="codenumber">17.1</span> <span class="title">Word Problem Solving Strategy</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-solving-equations-graphically.html" class="internal"><span class="codenumber">17.2</span> <span class="title">Solving Equations Graphically</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-solving-equations-graphically.html#solving-graphing-intersections" class="internal"><span class="codenumber">17.2.1</span> <span class="title">Solving Equations Using a Graphing Calculator (Intersections)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-solving-equations-graphically.html#solving-graphing-zeros" class="internal"><span class="codenumber">17.2.2</span> <span class="title">Solving Numerically by Finding Zeros (Reducing to One Graph)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-solving-equations-graphically.html#comparing-methods" class="internal"><span class="codenumber">17.2.3</span> <span class="title">Comparing the Two Methods</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-solving-equations-graphically.html#ti-84-guide" class="internal"><span class="codenumber">17.2.4</span> <span class="title">Solving Equations Graphically on the TI-84 Plus CE</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-solving-equations-numerically-with-a-calculator.html" class="internal"><span class="codenumber">17.3</span> <span class="title">Solving Equations Numerically with a Calculator</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-solving-equations-numerically-with-a-calculator.html#subsec-solving-using-scientific-calculator" class="internal"><span class="codenumber">17.3.1</span> <span class="title">Solving Using a Scientific Calculator</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-cubes-and-right-prisms"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Cubes and Right Prisms</span>
+</h2>
+<section class="introduction" id="sec-cubes-and-right-prisms-2"><div class="para" id="sec-cubes-and-right-prisms-2-1">First, we’ll analyze shapes like cubes, boxes, and other “prisms”.<div class="autopermalink" data-description="Paragraph"><a href="#sec-cubes-and-right-prisms-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="fig-three-prisms"><div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="generated/latex-image/fig-three-prisms-2.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Three types of right prisms<div class="autopermalink" data-description="Figure 3.2.1"><a href="#fig-three-prisms" title="Copy heading and permalink for Figure 3.2.1" aria-label="Copy heading and permalink for Figure 3.2.1">🔗</a></div></figcaption></figure><div class="para" id="sec-cubes-and-right-prisms-2-3">Notice that all of these shapes have 2 bases, that are connected by flat rectangular faces. This type of shape is called a <dfn class="terminology">right prism</dfn>. The word “right” means the sides are perpendicular to the base (they are at right angles to the base).<div class="autopermalink" data-description="Paragraph"><a href="#sec-cubes-and-right-prisms-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><section class="subsection" id="subsec-cube-volume"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Cube</span>
+</h3>
+<div class="para" id="subsec-cube-volume-2">A <dfn class="terminology">cube</dfn> is a right prism where all 6 faces are identical squares. If the side length is <span class="process-math">\(x\text{,}\)</span> then the base area is <span class="process-math">\(x^2\)</span> and the height is <span class="process-math">\(x\text{,}\)</span> so,<div class="autopermalink" data-description="Paragraph"><a href="#subsec-cube-volume-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="subsec-cube-volume-3">
+\begin{equation*}
+V = x^2 \cdot x = x^3
+\end{equation*}
+</div>
+<div class="para" id="subsec-cube-volume-4">The volume of a cube with side length <span class="process-math">\(x\)</span> is,<div class="autopermalink" data-description="Paragraph"><a href="#subsec-cube-volume-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="subsec-cube-volume-5">
+\begin{equation*}
+\boxed{V_{\text{cube}} = x^3}
+\end{equation*}
+</div>
+<details id="subsec-cube-volume-6" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.2</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Volume of a Cube.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="subsec-cube-volume-6-2-1">Find the volume of a cube with side length 4 cm.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-cube-volume-6-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="generated/latex-image/subsec-cube-volume-6-2-2.svg" role="img" class="contained"></div>
+<div class="solutions"><details id="subsec-cube-volume-6-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="subsec-cube-volume-6-3-1">
+<span class="process-math">\(V = 4^3 = 64 \text{ cm}^3\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-cube-volume-6-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.2.2.1"><a href="#subsec-cube-volume-6-3" title="Copy heading and permalink for Answer 3.2.2.1" aria-label="Copy heading and permalink for Answer 3.2.2.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Checkpoint 3.2.2: Volume of a Cube"><a href="#subsec-cube-volume-6" title="Copy heading and permalink for Checkpoint 3.2.2: Volume of a Cube" aria-label="Copy heading and permalink for Checkpoint 3.2.2: Volume of a Cube">🔗</a></div></article></details><details id="subsec-cube-volume-7" class="remark remark-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Remark</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.3</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Cubing a Number.</span>
+</h4></summary><article class="remark remark-like knowl__content"><div class="para" id="subsec-cube-volume-7-2">This is why raising a number to the third power is called “cubing” the number: it gives the volume of a cube with that side length.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-cube-volume-7-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Remark 3.2.3: Cubing a Number"><a href="#subsec-cube-volume-7" title="Copy heading and permalink for Remark 3.2.3: Cubing a Number" aria-label="Copy heading and permalink for Remark 3.2.3: Cubing a Number">🔗</a></div></article></details><div class="autopermalink" data-description="Subsection 3.2.1: Cube"><a href="#subsec-cube-volume" title="Copy heading and permalink for Subsection 3.2.1: Cube" aria-label="Copy heading and permalink for Subsection 3.2.1: Cube">🔗</a></div></section><section class="subsection" id="subsec-rect-prism-volume"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Rectangular Prism</span>
+</h3>
+<div class="para" id="subsec-rect-prism-volume-2">A <dfn class="terminology">rectangular prism</dfn> has the shape of a box. If the length is <span class="process-math">\(l\text{,}\)</span> width is <span class="process-math">\(w\text{,}\)</span> and height is <span class="process-math">\(h\text{,}\)</span> then the base area is <span class="process-math">\(lw\text{,}\)</span> so,<div class="autopermalink" data-description="Paragraph"><a href="#subsec-rect-prism-volume-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="subsec-rect-prism-volume-3">
+\begin{equation*}
+V = lw \cdot h = lwh
+\end{equation*}
+</div>
+<div class="para" id="subsec-rect-prism-volume-4">The volume of a rectangular prism with length <span class="process-math">\(l\text{,}\)</span> width <span class="process-math">\(w\text{,}\)</span> and height <span class="process-math">\(h\)</span> is,<div class="autopermalink" data-description="Paragraph"><a href="#subsec-rect-prism-volume-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="subsec-rect-prism-volume-5">
+\begin{equation*}
+\boxed{V_{\text{rect.\ prism}} = lwh}
+\end{equation*}
+</div>
+<div class="para" id="subsec-rect-prism-volume-6">In other words, to find the volume of a rectangular prism, multiply all 3 of its dimensions together (length, width, height).<div class="autopermalink" data-description="Paragraph"><a href="#subsec-rect-prism-volume-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<details id="subsec-rect-prism-volume-7" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.4</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Volume of a Rectangular Prism.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="subsec-rect-prism-volume-7-2-1">Find the volume of a rectangular prism with length 6 cm, width 4 cm, and height 3 cm.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-rect-prism-volume-7-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="generated/latex-image/subsec-rect-prism-volume-7-2-2.svg" role="img" class="contained"></div>
+<div class="solutions"><details id="subsec-rect-prism-volume-7-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="subsec-rect-prism-volume-7-3-1">
+<span class="process-math">\(V = (6)(4)(3) = 72 \text{ cm}^3\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-rect-prism-volume-7-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.2.4.1"><a href="#subsec-rect-prism-volume-7-3" title="Copy heading and permalink for Answer 3.2.4.1" aria-label="Copy heading and permalink for Answer 3.2.4.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Checkpoint 3.2.4: Volume of a Rectangular Prism"><a href="#subsec-rect-prism-volume-7" title="Copy heading and permalink for Checkpoint 3.2.4: Volume of a Rectangular Prism" aria-label="Copy heading and permalink for Checkpoint 3.2.4: Volume of a Rectangular Prism">🔗</a></div></article></details><div class="autopermalink" data-description="Subsection 3.2.2: Rectangular Prism"><a href="#subsec-rect-prism-volume" title="Copy heading and permalink for Subsection 3.2.2: Rectangular Prism" aria-label="Copy heading and permalink for Subsection 3.2.2: Rectangular Prism">🔗</a></div></section><section class="subsection" id="subsec-general-prism-volume"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.3</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Volume of a General Right Prism</span>
+</h3>
+<div class="para" id="subsec-general-prism-volume-2">More generally, the volume of a prism is the area of its base multiplied by its height.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-general-prism-volume-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="subsec-general-prism-volume-3">
+\begin{equation*}
+\boxed{V_{\text{prism}} = \text{(area of base)} \times \text{(height)}}
+\end{equation*}
+</div>
+<div class="para" id="subsec-general-prism-volume-4">Intuitively, a prism is a “stack” of identical cross-sections, so the volume is the area of one cross-section times the height of the stack.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-general-prism-volume-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="fig-prism-cross-sections"><div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="generated/latex-image/fig-prism-cross-sections-2.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>A prism as a stack of identical cross-sections<div class="autopermalink" data-description="Figure 3.2.5"><a href="#fig-prism-cross-sections" title="Copy heading and permalink for Figure 3.2.5" aria-label="Copy heading and permalink for Figure 3.2.5">🔗</a></div></figcaption></figure><div class="para" id="subsec-general-prism-volume-6">The volume of a right prism with base area <span class="process-math">\(B\)</span> and height <span class="process-math">\(h\)</span> is,<div class="autopermalink" data-description="Paragraph"><a href="#subsec-general-prism-volume-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="subsec-general-prism-volume-7">
+\begin{equation*}
+\boxed{V_{\text{prism}} = Bh}
+\end{equation*}
+</div>
+<div class="para" id="subsec-general-prism-volume-8">This formula works for prisms with any base shape: triangular, pentagonal, hexagonal, etc. Simply compute the area of the base and multiply by the height.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-general-prism-volume-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<details id="subsec-general-prism-volume-9" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.6</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Volume of a Triangular Prism.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-general-prism-volume-9-2">Find the volume of a triangular prism whose base is a right triangle with legs 3 cm and 4 cm, and whose height is 10 cm.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-general-prism-volume-9-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="generated/latex-image/subsec-general-prism-volume-9-3.svg" role="img" class="contained"></div>
+<div class="para" id="subsec-general-prism-volume-9-4">Answer: The base is a right triangle with area <span class="process-math">\(B = \frac{1}{2}(3)(4) = 6 \text{ cm}^2\text{.}\)</span> So,<div class="autopermalink" data-description="Paragraph"><a href="#subsec-general-prism-volume-9-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="subsec-general-prism-volume-9-5">
+\begin{equation*}
+V = Bh = (6)(10) = 60 \text{ cm}^3.
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Example 3.2.6: Volume of a Triangular Prism"><a href="#subsec-general-prism-volume-9" title="Copy heading and permalink for Example 3.2.6: Volume of a Triangular Prism" aria-label="Copy heading and permalink for Example 3.2.6: Volume of a Triangular Prism">🔗</a></div></article></details><div class="autopermalink" data-description="Subsection 3.2.3: Volume of a General Right Prism"><a href="#subsec-general-prism-volume" title="Copy heading and permalink for Subsection 3.2.3: Volume of a General Right Prism" aria-label="Copy heading and permalink for Subsection 3.2.3: Volume of a General Right Prism">🔗</a></div></section><section class="subsection" id="subsec-prism-surface-area"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.4</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Surface Area of a Prism</span>
+</h3>
+<section class="introduction" id="subsec-prism-surface-area-2"><div class="para" id="subsec-prism-surface-area-2-1">The surface area of a prism is found by adding the areas of all of its faces.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-surface-area-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><section class="subsubsection" id="subsubsec-cube-sa"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.4.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Cube</span>
+</h4>
+<div class="para" id="subsubsec-cube-sa-2">A cube has 6 square faces which are all the same size. To see this, imagine cutting the cube along its edges and unfolding it flat. The result is called a <dfn class="terminology">net</dfn>,<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-cube-sa-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="fig-cube-net"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/fig-cube-net-2.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.7<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>A cube and its net<div class="autopermalink" data-description="Figure 3.2.7"><a href="#fig-cube-net" title="Copy heading and permalink for Figure 3.2.7" aria-label="Copy heading and permalink for Figure 3.2.7">🔗</a></div></figcaption></figure><div class="para" id="subsubsec-cube-sa-4">Each of the 6 faces is a square with area <span class="process-math">\(x^2\text{.}\)</span> So,<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-cube-sa-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="theorem theorem-like" id="thm-sa-cube"><h5 class="heading">
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.8</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h5>
+<div class="para" id="thm-sa-cube-1-1">The surface area of a cube with side length <span class="process-math">\(x\)</span> is,<div class="autopermalink" data-description="Paragraph"><a href="#thm-sa-cube-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="thm-sa-cube-1-2">
+\begin{equation*}
+\boxed{SA_{\text{cube}} = 6x^2}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Theorem 3.2.8"><a href="#thm-sa-cube" title="Copy heading and permalink for Theorem 3.2.8" aria-label="Copy heading and permalink for Theorem 3.2.8">🔗</a></div></article><details id="subsubsec-cube-sa-6" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h5 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.9</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Volume and Surface Area of a Cube.</span>
+</h5></summary><article class="example example-like knowl__content"><div class="para" id="subsubsec-cube-sa-6-2">Find the volume and surface area of a cube with side length 5 cm.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-cube-sa-6-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="generated/latex-image/subsubsec-cube-sa-6-3.svg" role="img" class="contained"></div>
+<div class="para" id="subsubsec-cube-sa-6-4">The volume is,<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-cube-sa-6-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="subsubsec-cube-sa-6-5">
+\begin{align*}
+V \amp= x^3\\
+\amp= 5^3\\
+\amp= 125 \text{ cm}^3
+\end{align*}
+</div>
+<div class="para" id="subsubsec-cube-sa-6-6">The surface area is,<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-cube-sa-6-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="subsubsec-cube-sa-6-7">
+\begin{align*}
+SA \amp= 6x^2\\
+\amp= 6(5)^2\\
+\amp= 6(25)\\
+\amp= 150 \text{ cm}^2
+\end{align*}
+</div>
+<div class="autopermalink" data-description="Example 3.2.9: Volume and Surface Area of a Cube"><a href="#subsubsec-cube-sa-6" title="Copy heading and permalink for Example 3.2.9: Volume and Surface Area of a Cube" aria-label="Copy heading and permalink for Example 3.2.9: Volume and Surface Area of a Cube">🔗</a></div></article></details><div class="autopermalink" data-description="Subsubsection 3.2.4.1: Cube"><a href="#subsubsec-cube-sa" title="Copy heading and permalink for Subsubsection 3.2.4.1: Cube" aria-label="Copy heading and permalink for Subsubsection 3.2.4.1: Cube">🔗</a></div></section><section class="subsubsection" id="subsubsec-rect-prism-sa"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.4.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Rectangular Prism</span>
+</h4>
+<div class="para" id="subsubsec-rect-prism-sa-2">A rectangular prism has 3 pairs of rectangular faces. Unfolding it into a net, we can see all 6 faces,<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-rect-prism-sa-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="fig-rect-prism-net"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/fig-rect-prism-net-2.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.10<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>A rectangular prism and its net<div class="autopermalink" data-description="Figure 3.2.10"><a href="#fig-rect-prism-net" title="Copy heading and permalink for Figure 3.2.10" aria-label="Copy heading and permalink for Figure 3.2.10">🔗</a></div></figcaption></figure><div class="para" id="subsubsec-rect-prism-sa-4">Two faces have area <span class="process-math">\(lw\text{,}\)</span> two have area <span class="process-math">\(lh\text{,}\)</span> and two have area <span class="process-math">\(wh\text{.}\)</span> So,<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-rect-prism-sa-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="theorem theorem-like" id="thm-sa-rect-prism"><h5 class="heading">
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.11</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h5>
+<div class="para" id="thm-sa-rect-prism-1-1">The surface area of a rectangular prism with length <span class="process-math">\(l\text{,}\)</span> width <span class="process-math">\(w\text{,}\)</span> and height <span class="process-math">\(h\)</span> is,<div class="autopermalink" data-description="Paragraph"><a href="#thm-sa-rect-prism-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="thm-sa-rect-prism-1-2">
+\begin{equation*}
+\boxed{SA_{\text{rect.\ prism}} = 2lw + 2lh + 2wh}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Theorem 3.2.11"><a href="#thm-sa-rect-prism" title="Copy heading and permalink for Theorem 3.2.11" aria-label="Copy heading and permalink for Theorem 3.2.11">🔗</a></div></article><details id="subsubsec-rect-prism-sa-6" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h5 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.12</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Rectangular Prism.</span>
+</h5></summary><article class="example example-like knowl__content"><div class="para" id="subsubsec-rect-prism-sa-6-2">A shipping box is 30 cm long, 20 cm wide, and 15 cm tall. Find its volume and surface area.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-rect-prism-sa-6-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 45%; margin-left: 27.5%; margin-right: 27.5%;"><img src="generated/latex-image/subsubsec-rect-prism-sa-6-3.svg" role="img" class="contained"></div>
+<div class="para" id="subsubsec-rect-prism-sa-6-4">The volume is,<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-rect-prism-sa-6-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="subsubsec-rect-prism-sa-6-5">
+\begin{align*}
+V \amp= lwh\\
+\amp= (30)(20)(15)\\
+\amp= 9000 \text{ cm}^3
+\end{align*}
+</div>
+<div class="para" id="subsubsec-rect-prism-sa-6-6">The surface area is,<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-rect-prism-sa-6-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="subsubsec-rect-prism-sa-6-7">
+\begin{align*}
+SA \amp= 2lw + 2lh + 2wh\\
+\amp= 2(30)(20) + 2(30)(15) + 2(20)(15)\\
+\amp= 1200 + 900 + 600\\
+\amp= 2700 \text{ cm}^2
+\end{align*}
+</div>
+<div class="autopermalink" data-description="Example 3.2.12: Rectangular Prism"><a href="#subsubsec-rect-prism-sa-6" title="Copy heading and permalink for Example 3.2.12: Rectangular Prism" aria-label="Copy heading and permalink for Example 3.2.12: Rectangular Prism">🔗</a></div></article></details><div class="autopermalink" data-description="Subsubsection 3.2.4.2: Rectangular Prism"><a href="#subsubsec-rect-prism-sa" title="Copy heading and permalink for Subsubsection 3.2.4.2: Rectangular Prism" aria-label="Copy heading and permalink for Subsubsection 3.2.4.2: Rectangular Prism">🔗</a></div></section><section class="subsubsection" id="subsubsec-general-prism-sa"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.4.3</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">General Right Prism</span>
+</h4>
+<div class="para" id="subsubsec-general-prism-sa-2">For a general right prism, imagine unfolding the shape. The two bases each have area <span class="process-math">\(B\text{.}\)</span> The lateral (side) surface, when unrolled flat, forms a rectangle whose width is the perimeter <span class="process-math">\(P\)</span> of the base and whose height is <span class="process-math">\(h\text{,}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-general-prism-sa-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="fig-general-prism-net"><div class="image-box" style="width: 90%; margin-left: 5%; margin-right: 5%;"><img src="generated/latex-image/fig-general-prism-net-2.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.13<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>A triangular prism and its net<div class="autopermalink" data-description="Figure 3.2.13"><a href="#fig-general-prism-net" title="Copy heading and permalink for Figure 3.2.13" aria-label="Copy heading and permalink for Figure 3.2.13">🔗</a></div></figcaption></figure><div class="para" id="subsubsec-general-prism-sa-4">So the lateral area is <span class="process-math">\(Ph\text{,}\)</span> and the total surface area is,<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-general-prism-sa-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="theorem theorem-like" id="thm-sa-general-prism"><h5 class="heading">
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.14</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h5>
+<div class="para" id="thm-sa-general-prism-1-1">The surface area of a right prism with base area <span class="process-math">\(B\text{,}\)</span> base perimeter <span class="process-math">\(P\text{,}\)</span> and height <span class="process-math">\(h\)</span> is,<div class="autopermalink" data-description="Paragraph"><a href="#thm-sa-general-prism-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="thm-sa-general-prism-1-2">
+\begin{equation*}
+\boxed{SA_{\text{prism}} = 2B + Ph}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Theorem 3.2.14"><a href="#thm-sa-general-prism" title="Copy heading and permalink for Theorem 3.2.14" aria-label="Copy heading and permalink for Theorem 3.2.14">🔗</a></div></article><details id="subsubsec-general-prism-sa-6" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h5 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.15</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Triangular Prism.</span>
+</h5></summary><article class="example example-like knowl__content"><div class="para" id="subsubsec-general-prism-sa-6-2">A right prism has a triangular base with legs 3 cm and 4 cm (a right triangle), and the prism has height 10 cm. Find its volume and surface area.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-general-prism-sa-6-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="generated/latex-image/subsubsec-general-prism-sa-6-3.svg" role="img" class="contained"></div>
+<div class="para" id="subsubsec-general-prism-sa-6-4">First, find the base area. The base is a right triangle with legs 3 and 4, so,<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-general-prism-sa-6-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="subsubsec-general-prism-sa-6-5">
+\begin{equation*}
+B = \frac{1}{2}(3)(4) = 6 \text{ cm}^2
+\end{equation*}
+</div>
+<div class="para" id="subsubsec-general-prism-sa-6-6">The volume is,<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-general-prism-sa-6-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="subsubsec-general-prism-sa-6-7">
+\begin{equation*}
+V = Bh = 6 \times 10 = 60 \text{ cm}^3
+\end{equation*}
+</div>
+<div class="para" id="subsubsec-general-prism-sa-6-8">For the surface area, we need the perimeter of the base. By the Pythagorean theorem, the hypotenuse of the triangle is,<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-general-prism-sa-6-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="subsubsec-general-prism-sa-6-9">
+\begin{equation*}
+c = \sqrt{3^2 + 4^2} = \sqrt{9 + 16} = \sqrt{25} = 5 \text{ cm}
+\end{equation*}
+</div>
+<div class="para" id="subsubsec-general-prism-sa-6-10">So the perimeter is <span class="process-math">\(P = 3 + 4 + 5 = 12\)</span> cm. Then,<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-general-prism-sa-6-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="subsubsec-general-prism-sa-6-11">
+\begin{align*}
+SA \amp= 2B + Ph\\
+\amp= 2(6) + 12(10)\\
+\amp= 12 + 120\\
+\amp= 132 \text{ cm}^2
+\end{align*}
+</div>
+<div class="autopermalink" data-description="Example 3.2.15: Triangular Prism"><a href="#subsubsec-general-prism-sa-6" title="Copy heading and permalink for Example 3.2.15: Triangular Prism" aria-label="Copy heading and permalink for Example 3.2.15: Triangular Prism">🔗</a></div></article></details><div class="autopermalink" data-description="Subsubsection 3.2.4.3: General Right Prism"><a href="#subsubsec-general-prism-sa" title="Copy heading and permalink for Subsubsection 3.2.4.3: General Right Prism" aria-label="Copy heading and permalink for Subsubsection 3.2.4.3: General Right Prism">🔗</a></div></section><div class="autopermalink" data-description="Subsection 3.2.4: Surface Area of a Prism"><a href="#subsec-prism-surface-area" title="Copy heading and permalink for Subsection 3.2.4: Surface Area of a Prism" aria-label="Copy heading and permalink for Subsection 3.2.4: Surface Area of a Prism">🔗</a></div></section><section class="subsection" id="subsec-prism-examples"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.5</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Examples</span>
+</h3>
+<details id="subsec-prism-examples-2" class="project project-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Exercise Group</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Volume and Surface Area of Prisms.</span>
+</h4></summary><article class="project project-like knowl__content"><div class="introduction" id="subsec-prism-examples-2-2"><div class="para" id="subsec-prism-examples-2-2-1">Find the volume and surface area of each prism.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-examples-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="subsec-prism-examples-2-3"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="subsec-prism-examples-2-3-1-1">A cube with side length 8 cm.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-examples-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="generated/latex-image/subsec-prism-examples-2-3-1-2.svg" role="img" class="contained"></div>
+<div class="solutions"><details id="subsec-prism-examples-2-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="subsec-prism-examples-2-3-2-1">
+<span class="process-math">\(V = 512 \text{ cm}^3\text{,}\)</span> <span class="process-math">\(SA = 384 \text{ cm}^2\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-examples-2-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.2.1.a.1"><a href="#subsec-prism-examples-2-3-2" title="Copy heading and permalink for Answer 3.2.1.a.1" aria-label="Copy heading and permalink for Answer 3.2.1.a.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Task 3.2.1.a"><a href="#subsec-prism-examples-2-3" title="Copy heading and permalink for Task 3.2.1.a" aria-label="Copy heading and permalink for Task 3.2.1.a">🔗</a></div></article><article class="task exercise-like" id="subsec-prism-examples-2-4"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="subsec-prism-examples-2-4-1-1">A rectangular prism with length 12 cm, width 8 cm, and height 5 cm.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-examples-2-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="generated/latex-image/subsec-prism-examples-2-4-1-2.svg" role="img" class="contained"></div>
+<div class="solutions"><details id="subsec-prism-examples-2-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="subsec-prism-examples-2-4-2-1">
+<span class="process-math">\(V = 480 \text{ cm}^3\text{,}\)</span> <span class="process-math">\(SA = 392 \text{ cm}^2\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-examples-2-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.2.1.b.1"><a href="#subsec-prism-examples-2-4-2" title="Copy heading and permalink for Answer 3.2.1.b.1" aria-label="Copy heading and permalink for Answer 3.2.1.b.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Task 3.2.1.b"><a href="#subsec-prism-examples-2-4" title="Copy heading and permalink for Task 3.2.1.b" aria-label="Copy heading and permalink for Task 3.2.1.b">🔗</a></div></article><article class="task exercise-like" id="subsec-prism-examples-2-5"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="subsec-prism-examples-2-5-1-1">A rectangular prism with dimensions <span class="process-math">\(2.5 \text{ m} \times 3.2 \text{ m} \times 4.0 \text{ m}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-examples-2-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="subsec-prism-examples-2-5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="subsec-prism-examples-2-5-2-1">
+<span class="process-math">\(V = 32 \text{ m}^3\text{,}\)</span> <span class="process-math">\(SA = 62.8 \text{ m}^2\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-examples-2-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.2.1.c.1"><a href="#subsec-prism-examples-2-5-2" title="Copy heading and permalink for Answer 3.2.1.c.1" aria-label="Copy heading and permalink for Answer 3.2.1.c.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Task 3.2.1.c"><a href="#subsec-prism-examples-2-5" title="Copy heading and permalink for Task 3.2.1.c" aria-label="Copy heading and permalink for Task 3.2.1.c">🔗</a></div></article><article class="task exercise-like" id="subsec-prism-examples-2-6"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="subsec-prism-examples-2-6-1-1">A right prism with a triangular base. The base is an equilateral triangle with side length 6 cm, and the prism has height 14 cm.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-examples-2-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="subsec-prism-examples-2-6-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="subsec-prism-examples-2-6-2-1">The area of an equilateral triangle with side <span class="process-math">\(a\)</span> is <span class="process-math">\(\frac{\sqrt{3}}{4}a^2\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-examples-2-6-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 3.2.1.d.1"><a href="#subsec-prism-examples-2-6-2" title="Copy heading and permalink for Hint 3.2.1.d.1" aria-label="Copy heading and permalink for Hint 3.2.1.d.1">🔗</a></div>
+</div></details><details id="subsec-prism-examples-2-6-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="subsec-prism-examples-2-6-3-1">
+<span class="process-math">\(V = 9\sqrt{3} \times 14 = 126\sqrt{3} \approx 218.2 \text{ cm}^3\text{,}\)</span> <span class="process-math">\(SA = 18\sqrt{3} + 252 \approx 283.2 \text{ cm}^2\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-examples-2-6-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.2.1.d.1"><a href="#subsec-prism-examples-2-6-3" title="Copy heading and permalink for Answer 3.2.1.d.1" aria-label="Copy heading and permalink for Answer 3.2.1.d.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" data-description="Task 3.2.1.d"><a href="#subsec-prism-examples-2-6" title="Copy heading and permalink for Task 3.2.1.d" aria-label="Copy heading and permalink for Task 3.2.1.d">🔗</a></div></article><div class="autopermalink" data-description="Exercise Group 3.2.1: Volume and Surface Area of Prisms"><a href="#subsec-prism-examples-2" title="Copy heading and permalink for Exercise Group 3.2.1: Volume and Surface Area of Prisms" aria-label="Copy heading and permalink for Exercise Group 3.2.1: Volume and Surface Area of Prisms">🔗</a></div></article></details><details id="subsec-prism-examples-3" class="project project-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Exercise Group</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.2</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Reverse Problems.</span>
+</h4></summary><article class="project project-like knowl__content"><div class="introduction" id="subsec-prism-examples-3-2"><div class="para" id="subsec-prism-examples-3-2-1">Solve each problem.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-examples-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="subsec-prism-examples-3-3"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="subsec-prism-examples-3-3-1-1">A cube has surface area <span class="process-math">\(294 \text{ cm}^2\text{.}\)</span> Find its side length and volume.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-examples-3-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="subsec-prism-examples-3-3-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="subsec-prism-examples-3-3-2-1">
+<span class="process-math">\(SA = 6x^2\text{,}\)</span> solve for <span class="process-math">\(x\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-examples-3-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 3.2.2.a.1"><a href="#subsec-prism-examples-3-3-2" title="Copy heading and permalink for Hint 3.2.2.a.1" aria-label="Copy heading and permalink for Hint 3.2.2.a.1">🔗</a></div>
+</div></details><details id="subsec-prism-examples-3-3-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="subsec-prism-examples-3-3-3-1">
+<span class="process-math">\(x^2 = 49\text{,}\)</span> so <span class="process-math">\(x = 7\)</span> cm. <span class="process-math">\(V = 343 \text{ cm}^3\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-examples-3-3-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.2.2.a.1"><a href="#subsec-prism-examples-3-3-3" title="Copy heading and permalink for Answer 3.2.2.a.1" aria-label="Copy heading and permalink for Answer 3.2.2.a.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" data-description="Task 3.2.2.a"><a href="#subsec-prism-examples-3-3" title="Copy heading and permalink for Task 3.2.2.a" aria-label="Copy heading and permalink for Task 3.2.2.a">🔗</a></div></article><article class="task exercise-like" id="subsec-prism-examples-3-4"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="subsec-prism-examples-3-4-1-1">A rectangular prism has volume <span class="process-math">\(1200 \text{ cm}^3\text{,}\)</span> length 15 cm, and width 10 cm. Find its height.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-examples-3-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="subsec-prism-examples-3-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="subsec-prism-examples-3-4-2-1">
+<span class="process-math">\(h = \frac{1200}{15 \times 10} = 8\)</span> cm.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-examples-3-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.2.2.b.1"><a href="#subsec-prism-examples-3-4-2" title="Copy heading and permalink for Answer 3.2.2.b.1" aria-label="Copy heading and permalink for Answer 3.2.2.b.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Task 3.2.2.b"><a href="#subsec-prism-examples-3-4" title="Copy heading and permalink for Task 3.2.2.b" aria-label="Copy heading and permalink for Task 3.2.2.b">🔗</a></div></article><article class="task exercise-like" id="subsec-prism-examples-3-5"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="subsec-prism-examples-3-5-1-1">A cube has volume <span class="process-math">\(1000 \text{ cm}^3\text{.}\)</span> Find its side length to the nearest tenth.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-examples-3-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="subsec-prism-examples-3-5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="subsec-prism-examples-3-5-2-1">
+<span class="process-math">\(x = \sqrt[3]{1000} = 10\)</span> cm.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-examples-3-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.2.2.c.1"><a href="#subsec-prism-examples-3-5-2" title="Copy heading and permalink for Answer 3.2.2.c.1" aria-label="Copy heading and permalink for Answer 3.2.2.c.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Task 3.2.2.c"><a href="#subsec-prism-examples-3-5" title="Copy heading and permalink for Task 3.2.2.c" aria-label="Copy heading and permalink for Task 3.2.2.c">🔗</a></div></article><div class="autopermalink" data-description="Exercise Group 3.2.2: Reverse Problems"><a href="#subsec-prism-examples-3" title="Copy heading and permalink for Exercise Group 3.2.2: Reverse Problems" aria-label="Copy heading and permalink for Exercise Group 3.2.2: Reverse Problems">🔗</a></div></article></details><details id="subsec-prism-examples-4" class="project project-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Exercise Group</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.3</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Unit Conversions.</span>
+</h4></summary><article class="project project-like knowl__content"><div class="introduction" id="subsec-prism-examples-4-2"><div class="para" id="subsec-prism-examples-4-2-1">Solve each problem.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-examples-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="subsec-prism-examples-4-3"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="subsec-prism-examples-4-3-1-1">A rectangular fish tank is 60 cm long, 30 cm wide, and 40 cm tall. Find the volume of the tank in <span class="process-math">\(\text{cm}^3\text{,}\)</span> then convert to litres.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-examples-4-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="subsec-prism-examples-4-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="subsec-prism-examples-4-3-2-1">
+<span class="process-math">\(V = 60 \times 30 \times 40 = 72{,}000 \text{ cm}^3 = 72 \text{ L}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-examples-4-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.2.3.a.1"><a href="#subsec-prism-examples-4-3-2" title="Copy heading and permalink for Answer 3.2.3.a.1" aria-label="Copy heading and permalink for Answer 3.2.3.a.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Task 3.2.3.a"><a href="#subsec-prism-examples-4-3" title="Copy heading and permalink for Task 3.2.3.a" aria-label="Copy heading and permalink for Task 3.2.3.a">🔗</a></div></article><article class="task exercise-like" id="subsec-prism-examples-4-4"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="subsec-prism-examples-4-4-1-1">A rectangular container is <span class="process-math">\(1.2 \text{ m} \times 0.8 \text{ m} \times 0.5 \text{ m}\text{.}\)</span> How many litres of water can it hold?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-examples-4-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="subsec-prism-examples-4-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="subsec-prism-examples-4-4-2-1">
+<span class="process-math">\(V = 1.2 \times 0.8 \times 0.5 = 0.48 \text{ m}^3 = 480 \text{ L}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-examples-4-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.2.3.b.1"><a href="#subsec-prism-examples-4-4-2" title="Copy heading and permalink for Answer 3.2.3.b.1" aria-label="Copy heading and permalink for Answer 3.2.3.b.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Task 3.2.3.b"><a href="#subsec-prism-examples-4-4" title="Copy heading and permalink for Task 3.2.3.b" aria-label="Copy heading and permalink for Task 3.2.3.b">🔗</a></div></article><div class="autopermalink" data-description="Exercise Group 3.2.3: Unit Conversions"><a href="#subsec-prism-examples-4" title="Copy heading and permalink for Exercise Group 3.2.3: Unit Conversions" aria-label="Copy heading and permalink for Exercise Group 3.2.3: Unit Conversions">🔗</a></div></article></details><details id="subsec-prism-examples-5" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.16</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Cube: Reverse Problem.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-prism-examples-5-2">A cube has volume <span class="process-math">\(64 \text{ cm}^3\text{.}\)</span> Find its side length and surface area.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-examples-5-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec-prism-examples-5-3">Since <span class="process-math">\(V = x^3\text{,}\)</span> we have,<div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-examples-5-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="subsec-prism-examples-5-4">
+\begin{align*}
+x^3 \amp= 64\\
+x \amp= \sqrt[3]{64}\\
+x \amp= 4 \text{ cm}
+\end{align*}
+</div>
+<div class="para" id="subsec-prism-examples-5-5">Then, the surface area is,<div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-examples-5-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="subsec-prism-examples-5-6">
+\begin{equation*}
+SA = 6x^2 = 6(4)^2 = 6(16) = 96 \text{ cm}^2
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Example 3.2.16: Cube: Reverse Problem"><a href="#subsec-prism-examples-5" title="Copy heading and permalink for Example 3.2.16: Cube: Reverse Problem" aria-label="Copy heading and permalink for Example 3.2.16: Cube: Reverse Problem">🔗</a></div></article></details><details id="subsec-prism-examples-6" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.17</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Hexagonal Prism.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="subsec-prism-examples-6-2-1">A right prism has a regular hexagonal base with side length 4 cm and height 12 cm. Find its volume.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-examples-6-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="generated/latex-image/subsec-prism-examples-6-2-2.svg" role="img" class="contained"></div>
+<div class="solutions">
+<details id="subsec-prism-examples-6-3" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="subsec-prism-examples-6-3-1">A regular hexagon with side length <span class="process-math">\(a\)</span> has area <span class="process-math">\(\frac{3\sqrt{3}}{2}a^2\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-examples-6-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 3.2.17.1"><a href="#subsec-prism-examples-6-3" title="Copy heading and permalink for Hint 3.2.17.1" aria-label="Copy heading and permalink for Hint 3.2.17.1">🔗</a></div>
+</div></details><details id="subsec-prism-examples-6-4" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="subsec-prism-examples-6-4-1">
+<span class="process-math">\(B = \frac{3\sqrt{3}}{2}(4)^2 = 24\sqrt{3}\text{.}\)</span> <span class="process-math">\(V = 24\sqrt{3} \times 12 = 288\sqrt{3} \approx 498.8 \text{ cm}^3\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-examples-6-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.2.17.1"><a href="#subsec-prism-examples-6-4" title="Copy heading and permalink for Answer 3.2.17.1" aria-label="Copy heading and permalink for Answer 3.2.17.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" data-description="Checkpoint 3.2.17: Hexagonal Prism"><a href="#subsec-prism-examples-6" title="Copy heading and permalink for Checkpoint 3.2.17: Hexagonal Prism" aria-label="Copy heading and permalink for Checkpoint 3.2.17: Hexagonal Prism">🔗</a></div></article></details><details id="subsec-prism-examples-7" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.18</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Finding Height from Surface Area.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="subsec-prism-examples-7-2-1">A closed box has a surface area of <span class="process-math">\(126 \text{ in}^2\text{.}\)</span> The base of the box is 5 in by 3 in. Sketch a diagram and find the height of the box.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-examples-7-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="subsec-prism-examples-7-3" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="subsec-prism-examples-7-3-1">Set up the SA formula and solve for <span class="process-math">\(h\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-examples-7-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 3.2.18.1"><a href="#subsec-prism-examples-7-3" title="Copy heading and permalink for Hint 3.2.18.1" aria-label="Copy heading and permalink for Hint 3.2.18.1">🔗</a></div>
+</div></details><details id="subsec-prism-examples-7-4" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="subsec-prism-examples-7-4-1">
+<span class="process-math">\(126 = 2(15) + 2(5h) + 2(3h) = 30 + 10h + 6h = 30 + 16h\text{.}\)</span> So <span class="process-math">\(16h = 96\text{,}\)</span> giving <span class="process-math">\(h = 6\)</span> in.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-examples-7-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.2.18.1"><a href="#subsec-prism-examples-7-4" title="Copy heading and permalink for Answer 3.2.18.1" aria-label="Copy heading and permalink for Answer 3.2.18.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" data-description="Checkpoint 3.2.18: Finding Height from Surface Area"><a href="#subsec-prism-examples-7" title="Copy heading and permalink for Checkpoint 3.2.18: Finding Height from Surface Area" aria-label="Copy heading and permalink for Checkpoint 3.2.18: Finding Height from Surface Area">🔗</a></div></article></details><details id="subsec-prism-examples-8" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.19</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Finding Width from Surface Area.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="subsec-prism-examples-8-2-1">A rectangular prism has SA <span class="process-math">\(= 6020 \text{ cm}^2\)</span> and dimensions <span class="process-math">\(34 \text{ cm} \times 20 \text{ cm} \times w\text{.}\)</span> Find <span class="process-math">\(w\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-examples-8-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="subsec-prism-examples-8-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="subsec-prism-examples-8-3-1">
+<span class="process-math">\(6020 = 2(680) + 2(34w) + 2(20w) = 1360 + 68w + 40w = 1360 + 108w\text{.}\)</span> So <span class="process-math">\(108w = 4660\text{,}\)</span> giving <span class="process-math">\(w \approx 43.1\)</span> cm.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-examples-8-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.2.19.1"><a href="#subsec-prism-examples-8-3" title="Copy heading and permalink for Answer 3.2.19.1" aria-label="Copy heading and permalink for Answer 3.2.19.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Checkpoint 3.2.19: Finding Width from Surface Area"><a href="#subsec-prism-examples-8" title="Copy heading and permalink for Checkpoint 3.2.19: Finding Width from Surface Area" aria-label="Copy heading and permalink for Checkpoint 3.2.19: Finding Width from Surface Area">🔗</a></div></article></details><details id="subsec-prism-examples-9" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.20</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Cube with Same Volume.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="subsec-prism-examples-9-2-1">A rectangular prism has dimensions <span class="process-math">\(9 \text{ in} \times 4 \text{ in} \times 6 \text{ in}\text{.}\)</span> A cube is to be made with the same volume. What is the side length of the cube?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-examples-9-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="subsec-prism-examples-9-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="subsec-prism-examples-9-3-1">
+<span class="process-math">\(V = 9 \times 4 \times 6 = 216 \text{ in}^3\text{.}\)</span> <span class="process-math">\(x^3 = 216\text{,}\)</span> so <span class="process-math">\(x = 6\)</span> in.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-examples-9-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.2.20.1"><a href="#subsec-prism-examples-9-3" title="Copy heading and permalink for Answer 3.2.20.1" aria-label="Copy heading and permalink for Answer 3.2.20.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Checkpoint 3.2.20: Cube with Same Volume"><a href="#subsec-prism-examples-9" title="Copy heading and permalink for Checkpoint 3.2.20: Cube with Same Volume" aria-label="Copy heading and permalink for Checkpoint 3.2.20: Cube with Same Volume">🔗</a></div></article></details><div class="autopermalink" data-description="Subsection 3.2.5: Examples"><a href="#subsec-prism-examples" title="Copy heading and permalink for Subsection 3.2.5: Examples" aria-label="Copy heading and permalink for Subsection 3.2.5: Examples">🔗</a></div></section><section class="subsection" id="subsec-prism-word-problems"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.6</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Word Problems</span>
+</h3>
+<details id="subsec-prism-word-problems-2" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.21</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Painting a Room.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-prism-word-problems-2-2">A room is 5 m long, 4 m wide, and 3 m tall. How many litres of paint are needed if 1 litre covers <span class="process-math">\(10 \text{ m}^2\text{?}\)</span> Assume you paint the four walls and the ceiling, but not the floor.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-word-problems-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 45%; margin-left: 27.5%; margin-right: 27.5%;"><img src="generated/latex-image/subsec-prism-word-problems-2-3.svg" role="img" class="contained"></div>
+<div class="para" id="subsec-prism-word-problems-2-4">First, compute the area to be painted. The four walls have a combined area equal to the perimeter of the floor times the height,<div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-word-problems-2-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="subsec-prism-word-problems-2-5">
+\begin{align*}
+A_{\text{walls}} \amp= P \times h\\
+\amp= 2(5 + 4) \times 3\\
+\amp= 2(9)(3)\\
+\amp= 54 \text{ m}^2
+\end{align*}
+</div>
+<div class="para" id="subsec-prism-word-problems-2-6">The ceiling has area,<div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-word-problems-2-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="subsec-prism-word-problems-2-7">
+\begin{equation*}
+A_{\text{ceiling}} = 5 \times 4 = 20 \text{ m}^2
+\end{equation*}
+</div>
+<div class="para" id="subsec-prism-word-problems-2-8">The total area to paint is,<div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-word-problems-2-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="subsec-prism-word-problems-2-9">
+\begin{equation*}
+A_{\text{total}} = 54 + 20 = 74 \text{ m}^2
+\end{equation*}
+</div>
+<div class="para" id="subsec-prism-word-problems-2-10">Then, the number of litres needed is,<div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-word-problems-2-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="subsec-prism-word-problems-2-11">
+\begin{equation*}
+\text{litres} = \frac{74}{10} = 7.4 \text{ L}
+\end{equation*}
+</div>
+<div class="para" id="subsec-prism-word-problems-2-12">So you would need to buy at least 8 litres of paint.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-word-problems-2-12" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 3.2.21: Painting a Room"><a href="#subsec-prism-word-problems-2" title="Copy heading and permalink for Example 3.2.21: Painting a Room" aria-label="Copy heading and permalink for Example 3.2.21: Painting a Room">🔗</a></div></article></details><details id="subsec-prism-word-problems-3" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.22</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Wrapping Paper.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="subsec-prism-word-problems-3-2-1">A gift box is 25 cm long, 18 cm wide, and 10 cm tall. How much wrapping paper is needed to cover the box (ignoring overlap)?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-word-problems-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="generated/latex-image/subsec-prism-word-problems-3-2-2.svg" role="img" class="contained"></div>
+<div class="solutions"><details id="subsec-prism-word-problems-3-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="subsec-prism-word-problems-3-3-1">
+<span class="process-math">\(SA = 2(25)(18) + 2(25)(10) + 2(18)(10) = 900 + 500 + 360 = 1760 \text{ cm}^2\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-word-problems-3-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.2.22.1"><a href="#subsec-prism-word-problems-3-3" title="Copy heading and permalink for Answer 3.2.22.1" aria-label="Copy heading and permalink for Answer 3.2.22.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Checkpoint 3.2.22: Wrapping Paper"><a href="#subsec-prism-word-problems-3" title="Copy heading and permalink for Checkpoint 3.2.22: Wrapping Paper" aria-label="Copy heading and permalink for Checkpoint 3.2.22: Wrapping Paper">🔗</a></div></article></details><details id="subsec-prism-word-problems-4" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.23</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Storage Unit.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="subsec-prism-word-problems-4-2-1">A storage unit is 3 m long, 2.5 m wide, and 2.4 m tall. How many cubic metres of storage space does it have? How many boxes measuring <span class="process-math">\(0.5 \text{ m} \times 0.5 \text{ m} \times 0.5 \text{ m}\)</span> can fit inside (assuming perfect packing)?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-word-problems-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="subsec-prism-word-problems-4-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="subsec-prism-word-problems-4-3-1">
+<span class="process-math">\(V_{\text{unit}} = 3 \times 2.5 \times 2.4 = 18 \text{ m}^3\text{.}\)</span> Each box has <span class="process-math">\(V = 0.125 \text{ m}^3\text{.}\)</span> Along length: <span class="process-math">\(3/0.5 = 6\text{.}\)</span> Along width: <span class="process-math">\(2.5/0.5 = 5\text{.}\)</span> Along height: <span class="process-math">\(2.4/0.5 = 4\)</span> (with 0.4 m unused). So <span class="process-math">\(6 \times 5 \times 4 = 120\)</span> boxes.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-word-problems-4-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.2.23.1"><a href="#subsec-prism-word-problems-4-3" title="Copy heading and permalink for Answer 3.2.23.1" aria-label="Copy heading and permalink for Answer 3.2.23.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Checkpoint 3.2.23: Storage Unit"><a href="#subsec-prism-word-problems-4" title="Copy heading and permalink for Checkpoint 3.2.23: Storage Unit" aria-label="Copy heading and permalink for Checkpoint 3.2.23: Storage Unit">🔗</a></div></article></details><details id="subsec-prism-word-problems-5" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.24</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Aquarium.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="subsec-prism-word-problems-5-2-1">An aquarium is 80 cm long, 40 cm wide, and 50 cm tall. It is filled with water to a height of 45 cm. How many litres of water are in the aquarium?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-word-problems-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="subsec-prism-word-problems-5-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="subsec-prism-word-problems-5-3-1">
+<span class="process-math">\(V = 80 \times 40 \times 45 = 144{,}000 \text{ cm}^3 = 144 \text{ L}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-word-problems-5-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.2.24.1"><a href="#subsec-prism-word-problems-5-3" title="Copy heading and permalink for Answer 3.2.24.1" aria-label="Copy heading and permalink for Answer 3.2.24.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Checkpoint 3.2.24: Aquarium"><a href="#subsec-prism-word-problems-5" title="Copy heading and permalink for Checkpoint 3.2.24: Aquarium" aria-label="Copy heading and permalink for Checkpoint 3.2.24: Aquarium">🔗</a></div></article></details><details id="subsec-prism-word-problems-6" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.25</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Comparing Lockers.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="subsec-prism-word-problems-6-2-1">At a recreation centre, you choose between two types of lockers. A single locker from a double stack measures 0.4 m wide by 0.6 m deep, and the full stack is 1.8 m tall. A single locker from a triple stack measures 30 in wide by 15 in deep, and the full stack is 41 in tall. Which type of locker gives you more space, and how much more (in cubic metres)?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-word-problems-6-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="subsec-prism-word-problems-6-3" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="subsec-prism-word-problems-6-3-1">Find the height of one locker in each stack, then convert all dimensions to metres (<span class="process-math">\(1 \text{ in} \approx 2.54 \text{ cm}\)</span>).<div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-word-problems-6-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 3.2.25.1"><a href="#subsec-prism-word-problems-6-3" title="Copy heading and permalink for Hint 3.2.25.1" aria-label="Copy heading and permalink for Hint 3.2.25.1">🔗</a></div>
+</div></details><details id="subsec-prism-word-problems-6-4" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="subsec-prism-word-problems-6-4-1">Double-stack locker: <span class="process-math">\(0.9 \times 0.4 \times 0.6 = 0.216 \text{ m}^3\text{.}\)</span> Triple-stack: height <span class="process-math">\(= \frac{41}{3} \approx 13.67\)</span> in, so dimensions <span class="process-math">\(\approx 76.2 \times 38.1 \times 34.7\)</span> cm. Volume <span class="process-math">\(\approx 0.101 \text{ m}^3\text{.}\)</span> The double-stack gives about <span class="process-math">\(0.12 \text{ m}^3\)</span> more space.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-word-problems-6-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.2.25.1"><a href="#subsec-prism-word-problems-6-4" title="Copy heading and permalink for Answer 3.2.25.1" aria-label="Copy heading and permalink for Answer 3.2.25.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" data-description="Checkpoint 3.2.25: Comparing Lockers"><a href="#subsec-prism-word-problems-6" title="Copy heading and permalink for Checkpoint 3.2.25: Comparing Lockers" aria-label="Copy heading and permalink for Checkpoint 3.2.25: Comparing Lockers">🔗</a></div></article></details><details id="subsec-prism-word-problems-7" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.26</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Storage Cabinet.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="subsec-prism-word-problems-7-2-1">A wooden storage cabinet is a right rectangular prism, 6 ft tall, 3 ft wide, and 30 in deep. Calculate the volume of the cabinet. Then, if the height is reduced by one quarter (keeping width and depth the same), what is the new volume? How does reducing one dimension by a factor of <span class="process-math">\(k\)</span> affect the volume?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-word-problems-7-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="subsec-prism-word-problems-7-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="subsec-prism-word-problems-7-3-1">Depth <span class="process-math">\(= 30 \text{ in} = 2.5\)</span> ft. <span class="process-math">\(V = 6 \times 3 \times 2.5 = 45 \text{ ft}^3\text{.}\)</span> New height <span class="process-math">\(= 6 \times \frac{3}{4} = 4.5\)</span> ft. New <span class="process-math">\(V = 4.5 \times 3 \times 2.5 = 33.75 \text{ ft}^3\text{.}\)</span> The new volume is <span class="process-math">\(\frac{3}{4}\)</span> of the original. In general, multiplying one dimension by <span class="process-math">\(k\)</span> multiplies the volume by <span class="process-math">\(k\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-word-problems-7-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.2.26.1"><a href="#subsec-prism-word-problems-7-3" title="Copy heading and permalink for Answer 3.2.26.1" aria-label="Copy heading and permalink for Answer 3.2.26.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Checkpoint 3.2.26: Storage Cabinet"><a href="#subsec-prism-word-problems-7" title="Copy heading and permalink for Checkpoint 3.2.26: Storage Cabinet" aria-label="Copy heading and permalink for Checkpoint 3.2.26: Storage Cabinet">🔗</a></div></article></details><details id="subsec-prism-word-problems-8" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.27</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Dogsled Kennels.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="subsec-prism-word-problems-8-2-1">For a dogsled race, a competitor builds a trailer that is a right rectangular prism measuring 2 m wide, 1.6 m high, and 3.2 m long. The trailer is divided into 16 identical kennels (in 2 rows of 8). How much material is needed to build the kennels?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-word-problems-8-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="subsec-prism-word-problems-8-3" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="subsec-prism-word-problems-8-3-1">Account for the outer walls and the interior dividing walls.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-word-problems-8-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 3.2.27.1"><a href="#subsec-prism-word-problems-8-3" title="Copy heading and permalink for Hint 3.2.27.1" aria-label="Copy heading and permalink for Hint 3.2.27.1">🔗</a></div>
+</div></details><details id="subsec-prism-word-problems-8-4" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="subsec-prism-word-problems-8-4-1">Outer shell: <span class="process-math">\(SA = 2(3.2)(2) + 2(3.2)(1.6) + 2(2)(1.6) = 12.8 + 10.24 + 6.4 = 29.44 \text{ m}^2\text{.}\)</span> Interior: one lengthwise divider <span class="process-math">\(= 3.2 \times 1.6 = 5.12 \text{ m}^2\text{,}\)</span> seven crosswise dividers <span class="process-math">\(= 7(2 \times 1.6) = 22.4 \text{ m}^2\text{.}\)</span> Total <span class="process-math">\(\approx 56.96 \text{ m}^2\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-word-problems-8-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.2.27.1"><a href="#subsec-prism-word-problems-8-4" title="Copy heading and permalink for Answer 3.2.27.1" aria-label="Copy heading and permalink for Answer 3.2.27.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" data-description="Checkpoint 3.2.27: Dogsled Kennels"><a href="#subsec-prism-word-problems-8" title="Copy heading and permalink for Checkpoint 3.2.27: Dogsled Kennels" aria-label="Copy heading and permalink for Checkpoint 3.2.27: Dogsled Kennels">🔗</a></div></article></details><details id="subsec-prism-word-problems-9" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.28</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Maximum Volume from Material.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="subsec-prism-word-problems-9-2-1">You have <span class="process-math">\(500 \text{ cm}^2\)</span> of material. What is the maximum volume of a cube you can make with this material?<div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-word-problems-9-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions">
+<details id="subsec-prism-word-problems-9-3" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="subsec-prism-word-problems-9-3-1">The SA of a cube is <span class="process-math">\(6x^2\text{,}\)</span> solve for <span class="process-math">\(x\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-word-problems-9-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 3.2.28.1"><a href="#subsec-prism-word-problems-9-3" title="Copy heading and permalink for Hint 3.2.28.1" aria-label="Copy heading and permalink for Hint 3.2.28.1">🔗</a></div>
+</div></details><details id="subsec-prism-word-problems-9-4" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="subsec-prism-word-problems-9-4-1">
+<span class="process-math">\(6x^2 = 500\text{,}\)</span> so <span class="process-math">\(x = \sqrt{\frac{500}{6}} \approx 9.13\)</span> cm. <span class="process-math">\(V = x^3 \approx 760.7 \text{ cm}^3\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-prism-word-problems-9-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Answer 3.2.28.1"><a href="#subsec-prism-word-problems-9-4" title="Copy heading and permalink for Answer 3.2.28.1" aria-label="Copy heading and permalink for Answer 3.2.28.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" data-description="Checkpoint 3.2.28: Maximum Volume from Material"><a href="#subsec-prism-word-problems-9" title="Copy heading and permalink for Checkpoint 3.2.28: Maximum Volume from Material" aria-label="Copy heading and permalink for Checkpoint 3.2.28: Maximum Volume from Material">🔗</a></div></article></details><div class="autopermalink" data-description="Subsection 3.2.6: Word Problems"><a href="#subsec-prism-word-problems" title="Copy heading and permalink for Subsection 3.2.6: Word Problems" aria-label="Copy heading and permalink for Subsection 3.2.6: Word Problems">🔗</a></div></section><div class="autopermalink" data-description="Section 3.2: Cubes and Right Prisms"><a href="#sec-cubes-and-right-prisms" title="Copy heading and permalink for Section 3.2: Cubes and Right Prisms" aria-label="Copy heading and permalink for Section 3.2: Cubes and Right Prisms">🔗</a></div></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="sec-volume-and-surface-area.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="ch-quadratic-functions-and-equations.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>
