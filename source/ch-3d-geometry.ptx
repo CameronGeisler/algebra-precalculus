@@ -6,5 +6,10 @@
   <!-- include sections -->
   <xi:include href="sec-volume-and-surface-area.ptx" />
   <xi:include href="sec-cubes-and-right-prisms.ptx" />
+  <xi:include href="sec-cylinders.ptx" />
+  <xi:include href="sec-pyramids.ptx" />
+  <xi:include href="sec-cones.ptx" />
+  <xi:include href="sec-spheres.ptx" />
+  <xi:include href="sec-3d-geometry-summary.ptx" />
 
 </chapter>

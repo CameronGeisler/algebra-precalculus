@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-spheres" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Spheres</title>
+
+  <introduction>
+    <p>A <term>sphere</term> is a 3D shape that is perfectly round, like a ball. Basketballs, globes, bubbles, and planets are all approximately spherical.</p>
+
+    <p>Unlike prisms, pyramids, cylinders, and cones, a sphere is completely curved, and has no base, no edges, and no flat faces.</p>
+
+    <p>It turns out that this makes it more complicated conceptually, and requiring more creativity.</p>
+  </introduction>
+
+  <!-- ============================== -->
+  <subsection xml:id="subsec-sphere-volume">
+    <title>Volume of a Sphere</title>
+
+    <p>In fact, the volume of a sphere is</p>
+
+    <example>
+      <title>Deriving the Volume Formula</title>
+      <p>It turns out, we can derive the volume of a sphere from 2 formulas we already know: the volume of a cylinder and the volume of a cone.</p>
+
+      <p>Consider a sphere, with a radius <m>r</m>. It fits exactly inside a cylinder of radius <m>r</m> and height <m>2r</m> (like a ball in a can).</p>
+
+      <image width="40%">
+        <latex-image>
+          \begin{tikzpicture}[scale=0.7]
+              % Back elements (behind sphere)
+              \draw[dashed, gray] (-2.5,0) arc (180:0:2.5 and 0.7);
+              \draw[dashed, gray] (-2.5,5) arc (180:0:2.5 and 0.7);
+              \draw[dashed, gray] (-2.5,0) -- (-2.5,5);
+              \draw[dashed, gray] (2.5,0) -- (2.5,5);
+              % Sphere (back equator, body, front equator)
+              \draw[dashed, blue] (-2.5,2.5) arc (180:0:2.5 and 0.7);
+              \draw[thick, blue] (0,2.5) circle (2.5);
+              \draw[thick, blue] (-2.5,2.5) arc (180:360:2.5 and 0.7);
+              % Front elements (in front of sphere)
+              \draw[dashed, gray] (-2.5,0) arc (180:360:2.5 and 0.7);
+              \draw[dashed, gray] (-2.5,5) arc (180:360:2.5 and 0.7);
+              % Dimension arrows
+              \draw[&lt;-&gt;] (0,5.8) -- (2.5,5.8) node[midway, above] {$r$};
+              \draw[&lt;-&gt;] (3.2,0) -- (3.2,5) node[midway, right] {$2r$};
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+
+      <p>The key fascinating insight is: the volume of the sphere can be thought of as the volume of the entire cylinder, minus the volume of two cones, each with base radius <m>r</m> and height <m>r</m>, placed inside the cylinder with their tips meeting at the center of the sphere.</p>
+
+      <image width="90%">
+        <latex-image>
+          \begin{tikzpicture}[scale=0.55]
+              % --- Left: cylinder with sphere ---
+              % Back elements (behind sphere)
+              \draw[dashed, gray] (-2.5,0) arc (180:0:2.5 and 0.7);
+              \draw[dashed, gray] (-2.5,5) arc (180:0:2.5 and 0.7);
+              \draw[dashed, gray] (-2.5,0) -- (-2.5,5);
+              \draw[dashed, gray] (2.5,0) -- (2.5,5);
+              % Sphere (back equator, fill+body, front equator)
+              \draw[dashed, blue] (-2.5,2.5) arc (180:0:2.5 and 0.7);
+              \fill[blue!10] (0,2.5) circle (2.5);
+              \draw[thick, blue] (0,2.5) circle (2.5);
+              \draw[dashed, blue] (-2.5,2.5) arc (180:0:2.5 and 0.7);
+              \draw[thick, blue] (-2.5,2.5) arc (180:360:2.5 and 0.7);
+              % Front elements (in front of sphere)
+              \draw[dashed, gray] (-2.5,0) arc (180:360:2.5 and 0.7);
+              \draw[dashed, gray] (-2.5,5) arc (180:360:2.5 and 0.7);
+              % Labels
+              \node[below] at (0,-0.8) {sphere inside cylinder};
+
+              % --- Equals sign ---
+              \node at (5.5,2.5) {\Large $=$};
+
+              % --- Middle: cylinder alone ---
+              % Cylinder (red) - fill body and top cap
+              \fill[red!10] (7,0) -- (7,5) arc (180:360:2.5 and 0.7) -- (12,0) arc (360:180:2.5 and 0.7);
+              \fill[red!15] (9.5,5) ellipse (2.5 and 0.7);
+              % Cylinder (red)
+              \draw[thick, red!70!black] (7,0) -- (7,5);
+              \draw[thick, red!70!black] (12,0) -- (12,5);
+              \draw[thick, red!70!black] (7,0) arc (180:360:2.5 and 0.7);
+              \draw[dashed, red!70!black] (7,0) arc (180:0:2.5 and 0.7);
+              \draw[thick, red!70!black] (7,5) arc (180:360:2.5 and 0.7);
+              \draw[thick, red!70!black] (7,5) arc (180:0:2.5 and 0.7);
+              \node[below] at (9.5,-0.8) {cylinder};
+
+              % --- Minus sign ---
+              \node at (13.5,2.5) {\Large $-$};
+
+              % --- Right: two cones ---
+              % Cylinder outline (dashed, gray)
+              \draw[dashed, gray] (15,0) -- (15,5);
+              \draw[dashed, gray] (20,0) -- (20,5);
+              \draw[dashed, gray] (15,0) arc (180:360:2.5 and 0.7);
+              \draw[dashed, gray] (15,0) arc (180:0:2.5 and 0.7);
+              \draw[dashed, gray] (15,5) arc (180:360:2.5 and 0.7);
+              \draw[dashed, gray] (15,5) arc (180:0:2.5 and 0.7);
+              % Cone fills
+              \fill[green!10] (15,0) arc (180:360:2.5 and 0.7) -- (17.5,2.5) -- cycle;
+              \fill[green!10] (15,5) arc (180:360:2.5 and 0.7) -- (17.5,2.5) -- cycle;
+              % Bottom cone (tip at center, green)
+              \draw[thick, green!50!black] (15,0) arc (180:360:2.5 and 0.7);
+              \draw[dashed, green!50!black] (15,0) arc (180:0:2.5 and 0.7);
+              \draw[thick, green!50!black] (15,0) -- (17.5,2.5);
+              \draw[thick, green!50!black] (20,0) -- (17.5,2.5);
+              % Top cone (tip at center, green)
+              \draw[thick, green!50!black] (15,5) arc (180:360:2.5 and 0.7);
+              \draw[thick, green!50!black] (15,5) arc (180:0:2.5 and 0.7);
+              \draw[thick, green!50!black] (15,5) -- (17.5,2.5);
+              \draw[thick, green!50!black] (20,5) -- (17.5,2.5);
+              \node[below] at (17.5,-0.8) {two cones};
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+
+      <p>To see why, slice all three shapes at the same height. At each level, the sphere's cross-section has the same area as the cylinder's cross-section, minus the cones' cross-section,</p>
+
+      <image width="90%">
+        <latex-image>
+          \begin{tikzpicture}[scale=0.55]
+              % Slice at y=4 (1.5 above center)
+              % Sphere cross-section radius: sqrt(2.5^2 - 1.5^2) = 2
+              % Cylinder cross-section radius: 2.5
+              % Cone cross-section radius: 1.5
+
+              % --- Horizontal slice plane across all shapes (3D rectangle) ---
+              \fill[gray!8] (-3.5,3.5) -- (21,3.5) -- (22,4.5) -- (-2.5,4.5) -- cycle;
+              \draw[dashed, gray] (-3.5,3.5) -- (21,3.5) -- (22,4.5) -- (-2.5,4.5) -- cycle;
+
+              % --- Left: Sphere ---
+              \draw[blue!80] (0,2.5) circle (2.5);
+              \draw[blue!60] (-2.5,2.5) arc (180:360:2.5 and 0.7);
+              \draw[dashed, blue!20] (-2.5,2.5) arc (180:0:2.5 and 0.7);
+              % Cross-section (filled)
+              \fill[blue!25] (0,4) ellipse (2 and 0.56);
+              \draw[thick, blue] (-2,4) arc (180:360:2 and 0.56);
+              \draw[thick, dashed, blue] (-2,4) arc (180:0:2 and 0.56);
+              \node[below] at (0,-0.8) {sphere};
+
+              % --- Equals ---
+              \node at (5.5,2.5) {\Large $=$};
+
+              % --- Middle: Cylinder ---
+              \draw[red!30!black] (7,0) -- (7,5);
+              \draw[red!30!black] (12,0) -- (12,5);
+              \draw[red!30!black] (7,0) arc (180:360:2.5 and 0.7);
+              \draw[dashed, red!20!black] (7,0) arc (180:0:2.5 and 0.7);
+              \draw[red!30!black] (7,5) arc (180:360:2.5 and 0.7);
+              \draw[red!30!black] (7,5) arc (180:0:2.5 and 0.7);
+              % Cross-section (filled)
+              \fill[red!20] (9.5,4) ellipse (2.5 and 0.7);
+              \draw[thick, red!70!black] (7,4) arc (180:360:2.5 and 0.7);
+              \draw[thick, dashed, red!70!black] (7,4) arc (180:0:2.5 and 0.7);
+              \node[below] at (9.5,-0.8) {cylinder};
+
+              % --- Minus ---
+              \node at (13.5,2.5) {\Large $-$};
+
+              % --- Right: Two cones ---
+              \draw[green!30!black] (15,0) -- (17.5,2.5);
+              \draw[green!30!black] (20,0) -- (17.5,2.5);
+              \draw[green!30!black] (15,5) -- (17.5,2.5);
+              \draw[green!30!black] (20,5) -- (17.5,2.5);
+              \draw[green!30!black] (15,0) arc (180:360:2.5 and 0.7);
+              \draw[dashed, green!20!black] (15,0) arc (180:0:2.5 and 0.7);
+              \draw[green!30!black] (15,5) arc (180:360:2.5 and 0.7);
+              \draw[green!30!black] (15,5) arc (180:0:2.5 and 0.7);
+              % Cross-section (filled)
+              \fill[green!25] (17.5,4) ellipse (1.5 and 0.42);
+              \draw[thick, green!50!black] (16,4) arc (180:360:1.5 and 0.42);
+              \draw[thick, dashed, green!50!black] (16,4) arc (180:0:1.5 and 0.42);
+              \node[below] at (17.5,-0.8) {two cones};
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+
+      <p>This means that the volume of the sphere is the volume of the cylinder, minus the volume of the two cones.</p>
+
+      <ul>
+        <li>
+          <p>The cylinder has volume,</p>
+          <me>V_{\text{cyl}} = \pi r^2 \cdot 2r = 2\pi r^3</me>
+        </li>
+        <li>
+          <p>Each cone has base radius <m>r</m> and height <m>r</m>. The total volume of the two cones is,</p>
+          <md>
+            <mrow>V_{2 \text{ cones}} \amp= 2 \cdot \frac{1}{3}\pi r^2 \cdot r</mrow>
+            <mrow>\amp= \frac{2}{3}\pi r^3</mrow>
+          </md>
+        </li>
+      </ul>
+
+      <p>Then, to get the volume of the sphere, subtract the volume of the 2 cones from the volume of the cylinder,</p>
+      <md>
+        <mrow>V_{\text{sphere}} \amp= V_{\text{cyl}} - V_{2 \text{ cones}}</mrow>
+        <mrow>\amp= 2\pi r^3 - \frac{2}{3}\pi r^3</mrow>
+        <mrow>\amp= \frac{4}{3}\pi r^3</mrow>
+      </md>
+    </example>
+
+    <p>The volume of a sphere is,</p>
+    <me>\boxed{V_{\text{sphere}} = \frac{4}{3}\pi r^3 \qquad r \rightarrow \text{radius}}</me>
+
+    <example>
+      <title>Volume of a Sphere</title>
+      <p>Find the volume of a sphere with radius 3 cm.</p>
+
+      <image width="30%">
+        <latex-image>
+          \begin{tikzpicture}[scale=0.7]
+              \draw[thick] (0,0) circle (1.5);
+              \draw[dashed] (-1.5,0) arc (180:360:1.5 and 0.45);
+              \draw[dashed] (-1.5,0) arc (180:0:1.5 and 0.45);
+              \draw[&lt;-&gt;] (0,-2) -- (1.5,-2) node[midway,below] {$3$};
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+
+      <md>
+        <mrow>V \amp= \frac{4}{3}\pi r^3</mrow>
+        <mrow>\amp= \frac{4}{3}\pi(3)^3</mrow>
+        <mrow>\amp= 36\pi</mrow>
+        <mrow>\amp\approx 113.1 \text{ cm}^3</mrow>
+      </md>
+      <p>So, the volume is about 113.1 cm<m>^3</m>.</p>
+    </example>
+
+    <example>
+      <title>Finding the Radius from Volume</title>
+      <p>A sphere has volume <m>288\pi \text{ cm}^3</m>. Find its radius.</p>
+
+      <p>Starting from the volume formula, plug in <m>V = 288\pi</m>,</p>
+      <me>\frac{4}{3}\pi r^3 = 288\pi</me>
+      <p>We want to solve for <m>r</m>. First, divide both sides by <m>\pi</m>,</p>
+      <me>\frac{4}{3} r^3 = 288</me>
+      <p>To get rid of <m>\frac{4}{3}</m> on the left, multiply both sides by <m>\frac{3}{4}</m>,</p>
+      <me>r^3 = 288 \times \frac{3}{4} = 216</me>
+      <p>Finally, to isolate <m>r</m>, take the cube root of both sides,</p>
+      <me>r = \sqrt[3]{216} = 6 \text{ cm}</me>
+    </example>
+  </subsection>
+
+  <!-- ============================== -->
+  <subsection xml:id="subsec-sphere-surface-area">
+    <title>Surface Area of a Sphere</title>
+
+    <p>In fact, the surface area of a sphere, is 4 times the area of a circle with the same radius.</p>
+
+    <example>
+      <title>Why the Formula Works</title>
+      <p>The best way to explore why this formula works, is with this video by 3Blue1Brown: <url href="https://www.youtube.com/watch?v=GNcFjFmqEc8">But why is a sphere's surface area four times its shadow?</url>.</p>
+    </example>
+
+    <p>The surface area of a sphere is,</p>
+    <me>\boxed{SA_{\text{sphere}} = 4\pi r^2 \qquad r \rightarrow \text{radius}}</me>
+
+    <example>
+      <title>Surface Area of a Sphere</title>
+      <p>Find the surface area of a sphere with radius 6 cm.</p>
+
+      <image width="30%">
+        <latex-image>
+          \begin{tikzpicture}[scale=0.6]
+              \draw[thick] (0,0) circle (2);
+              \draw[dashed] (-2,0) arc (180:360:2 and 0.6);
+              \draw[thick] (-2,0) arc (180:0:2 and 0.6);
+              \draw[&lt;-&gt;] (0,0) -- (2,0) node[midway,above] {$6$};
+              \fill (0,0) circle (1.5pt);
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+
+      <md>
+        <mrow>SA \amp= 4\pi r^2</mrow>
+        <mrow>\amp= 4\pi(6)^2</mrow>
+        <mrow>\amp= 4\pi(36)</mrow>
+        <mrow>\amp= 144\pi</mrow>
+        <mrow>\amp\approx 452.4 \text{ cm}^2</mrow>
+      </md>
+    </example>
+
+    <example>
+      <title>Surface Area Given Diameter</title>
+      <p>A basketball has diameter 24 cm. Find its surface area.</p>
+
+      <p>First, <m>r = \frac{d}{2} = \frac{24}{2} = 12</m> cm. Then,</p>
+      <md>
+        <mrow>SA \amp= 4\pi r^2</mrow>
+        <mrow>\amp= 4\pi(12)^2</mrow>
+        <mrow>\amp= 4\pi(144)</mrow>
+        <mrow>\amp= 576\pi</mrow>
+        <mrow>\amp\approx 1809.6 \text{ cm}^2</mrow>
+      </md>
+    </example>
+
+    <remark>
+      <title>Hemispheres</title>
+      <p>A <term>hemisphere</term> is half of a sphere. Its volume is <m>V = \frac{1}{2} \cdot \frac{4}{3}\pi r^3 = \frac{2}{3}\pi r^3</m>. Its total surface area includes the curved part (<m>2\pi r^2</m>, half of <m>4\pi r^2</m>) plus the flat circular face (<m>\pi r^2</m>), giving,</p>
+      <me>SA_{\text{hemisphere}} = 2\pi r^2 + \pi r^2 = 3\pi r^2</me>
+    </remark>
+
+    <example>
+      <title>Hemisphere</title>
+      <p>Find the total surface area and volume of a hemisphere with radius 8 cm.</p>
+
+      <image width="30%">
+        <latex-image>
+          \begin{tikzpicture}[scale=0.6]
+              % Flat base
+              \draw[thick] (-2,0) arc (180:360:2 and 0.6);
+              \draw[dashed] (-2,0) arc (180:0:2 and 0.6);
+              % Top half of sphere
+              \draw[thick] (-2,0) arc (180:0:2);
+              % Radius
+              \draw[&lt;-&gt;] (0,-1) -- (2,-1) node[midway,below] {$8$};
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+
+      <p>The total surface area is the curved part plus the flat circular base,</p>
+      <md>
+        <mrow>SA \amp= 2\pi r^2 + \pi r^2</mrow>
+        <mrow>\amp= 2\pi(64) + \pi(64)</mrow>
+        <mrow>\amp= 128\pi + 64\pi</mrow>
+        <mrow>\amp= 192\pi</mrow>
+        <mrow>\amp\approx 603.2 \text{ cm}^2</mrow>
+      </md>
+      <p>The volume is half the volume of a full sphere,</p>
+      <md>
+        <mrow>V \amp= \frac{2}{3}\pi r^3</mrow>
+        <mrow>\amp= \frac{2}{3}\pi(8)^3</mrow>
+        <mrow>\amp= \frac{1024\pi}{3}</mrow>
+        <mrow>\amp\approx 1072.3 \text{ cm}^3</mrow>
+      </md>
+    </example>
+
+    <example>
+      <title>Surface Area from Circumference</title>
+      <p>A ball has circumference 69.1 cm. Find its surface area.</p>
+
+      <p>First, find the radius from the circumference <m>C = 2\pi r</m>,</p>
+      <md>
+        <mrow>r \amp= \frac{C}{2\pi}</mrow>
+        <mrow>\amp= \frac{69.1}{2\pi}</mrow>
+        <mrow>\amp\approx 11.0 \text{ cm}</mrow>
+      </md>
+      <p>Then,</p>
+      <md>
+        <mrow>SA \amp= 4\pi r^2</mrow>
+        <mrow>\amp= 4\pi(11.0)^2</mrow>
+        <mrow>\amp= 484\pi</mrow>
+        <mrow>\amp\approx 1520.5 \text{ cm}^2</mrow>
+      </md>
+    </example>
+  </subsection>
+
+  <!-- ============================== -->
+  <subsection xml:id="subsec-sphere-examples">
+    <title>Examples</title>
+
+    <project>
+      <title>Surface Area and Volume of Spheres</title>
+      <introduction><p>Find the surface area and volume of each sphere. Give exact answers and decimal approximations.</p></introduction>
+
+      <task>
+        <statement>
+          <p>Radius 5 cm.</p>
+          <image width="25%">
+            <latex-image>
+              \begin{tikzpicture}[scale=0.5]
+                  \draw[thick] (0,0) circle (1.5);
+                  \draw[dashed] (-1.5,0) arc (180:360:1.5 and 0.45);
+                  \draw[thick] (-1.5,0) arc (180:0:1.5 and 0.45);
+                  \draw[&lt;-&gt;] (0,0) -- (1.5,0) node[midway,above] {$5$};
+                  \fill (0,0) circle (1.5pt);
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </statement>
+        <answer><p><m>SA = 4\pi(25) = 100\pi \approx 314.2 \text{ cm}^2</m>. <m>V = \frac{4}{3}\pi(125) = \frac{500\pi}{3} \approx 523.6 \text{ cm}^3</m>.</p></answer>
+      </task>
+
+      <task>
+        <statement><p>Radius 10 m.</p></statement>
+        <answer><p><m>SA = 400\pi \approx 1256.6 \text{ m}^2</m>. <m>V = \frac{4000\pi}{3} \approx 4188.8 \text{ m}^3</m>.</p></answer>
+      </task>
+
+      <task>
+        <statement><p>Diameter 24.8 cm.</p></statement>
+        <answer><p><m>r = 12.4</m>. <m>SA = 4\pi(153.76) = 615.04\pi \approx 1932.1 \text{ cm}^2</m>. <m>V = \frac{4}{3}\pi(1906.624) = \frac{7626.496\pi}{3} \approx 7985.7 \text{ cm}^3</m>.</p></answer>
+      </task>
+
+      <task>
+        <statement><p>Diameter 18 cm.</p></statement>
+        <answer><p><m>r = 9</m>. <m>SA = 4\pi(81) = 324\pi \approx 1017.9 \text{ cm}^2</m>. <m>V = \frac{4}{3}\pi(729) = 972\pi \approx 3053.6 \text{ cm}^3</m>.</p></answer>
+      </task>
+    </project>
+
+    <project>
+      <title>Reverse Problems</title>
+      <introduction><p>Find the missing dimension.</p></introduction>
+
+      <task>
+        <statement><p>A sphere has surface area <m>196\pi \text{ cm}^2</m>. Find the radius.</p></statement>
+        <answer><p><m>4\pi r^2 = 196\pi</m>, so <m>r^2 = 49</m>, giving <m>r = 7</m> cm.</p></answer>
+      </task>
+
+      <task>
+        <statement><p>A sphere has volume <m>\frac{4000\pi}{3} \text{ cm}^3</m>. Find the radius.</p></statement>
+        <answer><p><m>\frac{4}{3}\pi r^3 = \frac{4000\pi}{3}</m>, so <m>r^3 = 1000</m>, giving <m>r = 10</m> cm.</p></answer>
+      </task>
+
+      <task>
+        <statement><p>A sphere has surface area <m>\frac{7744}{\pi} \text{ cm}^2</m>. Find the diameter. Hint: a bowling ball has surface area approximately <m>2464 \text{ cm}^2</m>.</p></statement>
+        <answer><p>If <m>SA = 2464</m>, then <m>4\pi r^2 = 2464</m>, so <m>r^2 = \frac{2464}{4\pi} = \frac{616}{\pi} \approx 196.1</m>, giving <m>r \approx 14.0</m> cm, <m>d \approx 28.0</m> cm.</p></answer>
+      </task>
+
+      <task>
+        <statement><p>An exercise ball has volume approximately <m>14{,}137 \text{ cm}^3</m>. Find its diameter.</p></statement>
+        <answer><p><m>\frac{4}{3}\pi r^3 = 14137</m>, so <m>r^3 = \frac{14137 \times 3}{4\pi} = \frac{42411}{4\pi} \approx 3375.1</m>. Then <m>r \approx \sqrt[3]{3375} = 15.0</m> cm, so <m>d \approx 30</m> cm.</p></answer>
+      </task>
+    </project>
+
+    <project>
+      <title>Hemisphere Problems</title>
+      <introduction><p>Find the missing dimensions.</p></introduction>
+
+      <task>
+        <statement>
+          <p>Find the total surface area and volume of a hemisphere with diameter 2.4 cm.</p>
+          <image width="25%">
+            <latex-image>
+              \begin{tikzpicture}[scale=0.7]
+                  \draw[thick] (-1.5,0) arc (180:360:1.5 and 0.45);
+                  \draw[dashed] (-1.5,0) arc (180:0:1.5 and 0.45);
+                  \draw[thick] (-1.5,0) arc (180:0:1.5);
+                  \draw[&lt;-&gt;] (-1.5,-0.5) -- (1.5,-0.5) node[midway,below] {$d = 2.4$};
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </statement>
+        <answer><p><m>r = 1.2</m>. <m>SA = 3\pi(1.44) = 4.32\pi \approx 13.6 \text{ cm}^2</m>. <m>V = \frac{2}{3}\pi(1.728) = 1.152\pi \approx 3.6 \text{ cm}^3</m>.</p></answer>
+      </task>
+
+      <task>
+        <statement><p>A hemispherical bowl has radius 12 cm. How many mL of soup can it hold?</p></statement>
+        <answer><p><m>V = \frac{2}{3}\pi(12)^3 = \frac{2}{3}\pi(1728) = 1152\pi \approx 3619.1 \text{ cm}^3 = 3619 \text{ mL} \approx 3.6 \text{ L}</m>.</p></answer>
+      </task>
+    </project>
+
+    <project>
+      <title>Algebra Practice</title>
+      <introduction><p>Find the missing dimension.</p></introduction>
+
+      <task>
+        <statement><p>The surface area of a tennis ball is approximately <m>127 \text{ cm}^2</m>. What is the radius of the tennis ball to the nearest tenth?</p></statement>
+        <answer><p><m>4\pi r^2 = 127</m>, so <m>r^2 = \frac{127}{4\pi} \approx 10.11</m>, giving <m>r \approx 3.2</m> cm.</p></answer>
+      </task>
+
+      <task>
+        <statement><p>A sphere has a surface area of 452 square inches. What is its diameter to the nearest inch?</p></statement>
+        <answer><p><m>4\pi r^2 = 452</m>, so <m>r^2 = \frac{452}{4\pi} \approx 36.0</m>, giving <m>r \approx 6.0</m> in and <m>d \approx 12</m> in.</p></answer>
+      </task>
+
+      <task>
+        <statement><p>A sphere has surface area <m>385 \text{ cm}^2</m>. Find the radius.</p></statement>
+        <answer><p><m>4\pi r^2 = 385</m>, so <m>r^2 = \frac{385}{4\pi} \approx 30.64</m>, giving <m>r \approx 5.5</m> cm.</p></answer>
+      </task>
+
+      <task>
+        <statement><p>A sphere has volume <m>48 \text{ cm}^3</m>. Find the radius.</p></statement>
+        <answer><p><m>\frac{4}{3}\pi r^3 = 48</m>, so <m>r^3 = \frac{36}{\pi} \approx 11.46</m>, giving <m>r \approx 2.3</m> cm.</p></answer>
+      </task>
+    </project>
+
+    <exercise>
+      <title>Circumference to Surface Area</title>
+      <statement><p>A ball has circumference 95.8 cm. Find its surface area.</p></statement>
+      <answer><p><m>r = \frac{95.8}{2\pi} \approx 15.24</m> cm. <m>SA = 4\pi(15.24)^2 = 4\pi(232.3) \approx 2919.5 \text{ cm}^2</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Marble Volume</title>
+      <statement><p>A marble has diameter 1.5 cm. Find its volume.</p></statement>
+      <answer><p><m>r = 0.75</m>. <m>V = \frac{4}{3}\pi(0.75)^3 = \frac{4}{3}\pi(0.421875) = 0.5625\pi \approx 1.77 \text{ cm}^3</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Spherical Tank Radius</title>
+      <statement><p>A spherical tank has volume <m>500 \text{ m}^3</m>. Find the radius to the nearest tenth.</p></statement>
+      <answer><p><m>\frac{4}{3}\pi r^3 = 500</m>, so <m>r^3 = \frac{1500}{4\pi} = \frac{375}{\pi} \approx 119.37</m>. Then <m>r \approx \sqrt[3]{119.37} \approx 4.9</m> m.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Hemisphere Circumference</title>
+      <statement><p>A hemisphere has circumference 47.1 m (measured around the flat face). Find its surface area and volume.</p></statement>
+      <answer><p><m>r = \frac{47.1}{2\pi} \approx 7.5</m> m. <m>SA = 3\pi(56.25) = 168.75\pi \approx 530.1 \text{ m}^2</m>. <m>V = \frac{2}{3}\pi(421.875) = 281.25\pi \approx 883.6 \text{ m}^3</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Sphere vs Hemisphere Surface Area</title>
+      <statement><p>A sphere has a radius of 5.0 cm. What is the radius of a hemisphere that has the same surface area as the sphere?</p></statement>
+      <hint><p>The sphere has <m>SA = 4\pi(5)^2 = 100\pi</m>. A hemisphere has <m>SA = 3\pi r^2</m>.</p></hint>
+      <answer><p><m>3\pi r^2 = 100\pi</m>, so <m>r^2 = \frac{100}{3}</m>, giving <m>r = \sqrt{\frac{100}{3}} \approx 5.8</m> cm.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Comparing Sphere and Hemisphere</title>
+      <statement><p>A sphere has diameter 12 cm and a hemisphere has radius 8 cm. Which has the greater surface area? Which has the greater volume?</p></statement>
+      <answer><p>Sphere: <m>SA = 4\pi(36) = 144\pi \approx 452.4 \text{ cm}^2</m>, <m>V = \frac{4}{3}\pi(216) = 288\pi \approx 904.8 \text{ cm}^3</m>. Hemisphere: <m>SA = 3\pi(64) = 192\pi \approx 603.2 \text{ cm}^2</m>, <m>V = \frac{2}{3}\pi(512) = \frac{1024\pi}{3} \approx 1072.3 \text{ cm}^3</m>. The hemisphere has both greater SA and greater V.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Scaling a Balloon</title>
+      <statement><p>A spherical balloon has radius 10 cm. It is blown up to 3 times its radius. Compare the circumference, surface area, and volume of the two sizes.</p></statement>
+      <answer><p>Old: <m>C = 20\pi</m>, <m>SA = 400\pi</m>, <m>V = \frac{4000\pi}{3}</m>. New (<m>r = 30</m>): <m>C = 60\pi</m>, <m>SA = 3600\pi</m>, <m>V = 36{,}000\pi</m>. The circumference is <m>3\times</m> larger, the SA is <m>9\times</m> larger, and the volume is <m>27\times</m> larger. In general, scaling the radius by <m>k</m> scales <m>C</m> by <m>k</m>, <m>SA</m> by <m>k^2</m>, and <m>V</m> by <m>k^3</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Glass Bead</title>
+      <statement><p>A glass bead has diameter 11 mm. What is its surface area?</p></statement>
+      <answer><p><m>r = 5.5</m>. <m>SA = 4\pi(30.25) = 121\pi \approx 380.1 \text{ mm}^2</m>.</p></answer>
+    </exercise>
+  </subsection>
+
+  <!-- ============================== -->
+  <subsection xml:id="subsec-sphere-word-problems">
+    <title>Word Problems</title>
+
+    <example>
+      <title>Water Balloon</title>
+      <p>A spherical water balloon has radius 8 cm. How many mL of water does it hold?</p>
+
+      <md>
+        <mrow>V \amp= \frac{4}{3}\pi r^3</mrow>
+        <mrow>\amp= \frac{4}{3}\pi(8)^3</mrow>
+        <mrow>\amp= \frac{2048\pi}{3}</mrow>
+        <mrow>\amp\approx 2144.7 \text{ cm}^3</mrow>
+      </md>
+      <p>Since <m>1 \text{ cm}^3 = 1 \text{ mL}</m>, the balloon holds approximately 2145 mL (about 2.1 L) of water.</p>
+    </example>
+
+    <exercise>
+      <title>Inflated Balloon</title>
+      <statement><p>A spherical balloon is inflated to a radius of 15 cm. How many litres of air does it contain?</p></statement>
+      <answer><p><m>V = \frac{4}{3}\pi(15)^3 = 4500\pi \approx 14{,}137 \text{ cm}^3 = 14.1 \text{ L}</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Baseball Leather</title>
+      <statement><p>An official baseball has a diameter of 7.4 cm. How much leather is needed to cover the ball, to the nearest tenth of a square centimetre?</p></statement>
+      <answer><p><m>r = 3.7</m>. <m>SA = 4\pi(3.7)^2 = 4\pi(13.69) = 54.76\pi \approx 172.0 \text{ cm}^2</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Globe Varnish</title>
+      <statement><p>A spherical globe has circumference 158 cm. The surface is to be painted with a high-gloss varnish. What is the area to be painted, to the nearest square centimetre?</p></statement>
+      <answer><p><m>r = \frac{158}{2\pi} \approx 25.15</m> cm. <m>SA = 4\pi(25.15)^2 \approx 7946 \text{ cm}^2</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Volleyball vs Basketball</title>
+      <statement>
+        <p>The size of a ball used in sport is often given by its circumference. A volleyball has a circumference of 66 cm and a basketball has a circumference of <m>29\frac{1}{2}</m> in.</p>
+        <ol marker="(i)">
+          <li><p>Find the radius of each ball to the nearest unit.</p></li>
+          <li><p>Find the surface area of each ball to the nearest square unit.</p></li>
+          <li><p>Which ball is larger?</p></li>
+        </ol>
+      </statement>
+      <answer><p>Volleyball: <m>r = \frac{66}{2\pi} \approx 10.5</m> cm. <m>SA \approx 1386 \text{ cm}^2</m>. Basketball: <m>r = \frac{29.5}{2\pi} \approx 4.7</m> in <m>\approx 11.9</m> cm. <m>SA \approx 277 \text{ in}^2 \approx 1788 \text{ cm}^2</m>. The basketball is larger.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Spherical Tree House</title>
+      <statement>
+        <p>A spherical tree house has an outside diameter of 3.20 m and an inside diameter of 3.15 m.</p>
+        <ol marker="(i)">
+          <li><p>Calculate the volume of the inside of the shell to the nearest tenth of a cubic metre.</p></li>
+          <li><p>What is the difference between the outside and inside surface areas, to the nearest tenth of a square metre?</p></li>
+        </ol>
+      </statement>
+      <answer><p><m>V_{\text{inside}} = \frac{4}{3}\pi(1.575)^3 = \frac{4}{3}\pi(3.909) \approx 16.4 \text{ m}^3</m>. Outside SA <m>= 4\pi(1.60)^2 = 10.24\pi \approx 32.2 \text{ m}^2</m>. Inside SA <m>= 4\pi(1.575)^2 = 9.92\pi \approx 31.2 \text{ m}^2</m>. Difference <m>\approx 1.0 \text{ m}^2</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Earth</title>
+      <statement>
+        <p>Earth approximates a sphere with mean diameter approximately 12,756 km.</p>
+        <ol marker="(i)">
+          <li><p>Determine the surface area of Earth to the nearest thousand square kilometres.</p></li>
+          <li><p>About 70% of Earth's surface is covered in water. What is this area?</p></li>
+          <li><p>Determine the volume of Earth to the nearest thousand cubic kilometres.</p></li>
+          <li><p>The inner core of Earth has a radius of approximately 1278 km. What volume of Earth is <em>not</em> part of the inner core?</p></li>
+        </ol>
+      </statement>
+      <answer><p><m>r = 6378</m> km. (i) <m>SA = 4\pi(6378)^2 \approx 511{,}186{,}000 \text{ km}^2</m>. (ii) Water area <m>\approx 0.70 \times 511{,}186{,}000 \approx 357{,}830{,}000 \text{ km}^2</m>. (iii) <m>V = \frac{4}{3}\pi(6378)^3 \approx 1.087 \times 10^{12} \text{ km}^3</m>. (iv) <m>V_{\text{core}} = \frac{4}{3}\pi(1278)^3 \approx 8.75 \times 10^{9} \text{ km}^3</m>. Not core <m>\approx 1.087 \times 10^{12} - 8.75 \times 10^{9} \approx 1.078 \times 10^{12} \text{ km}^3</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Maximum Volume from Material</title>
+      <statement><p>You have <m>500 \text{ cm}^2</m> of material available to cover a sphere. What is the maximum volume of the sphere you can make?</p></statement>
+      <hint><p>First find the radius from <m>4\pi r^2 = 500</m>.</p></hint>
+      <answer><p><m>r^2 = \frac{500}{4\pi} = \frac{125}{\pi} \approx 39.79</m>, so <m>r \approx 6.31</m> cm. <m>V = \frac{4}{3}\pi(6.31)^3 \approx \frac{4}{3}\pi(251.2) \approx 1053 \text{ cm}^3</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Hemispherical Bowl</title>
+      <statement><p>A hemispherical glass bowl has diameter 20 cm. What is its capacity to the nearest tenth of a litre? Approximately how many cups is this, if <m>1 \text{ cup} \approx 250</m> mL?</p></statement>
+      <answer><p><m>r = 10</m>. <m>V = \frac{2}{3}\pi(1000) = \frac{2000\pi}{3} \approx 2094 \text{ cm}^3 \approx 2.1 \text{ L} \approx 8.4</m> cups.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Volume of the Moon</title>
+      <statement><p>The moon approximates a sphere with diameter 2160 miles. What is the approximate volume of the moon?</p></statement>
+      <answer><p><m>r = 1080</m>. <m>V = \frac{4}{3}\pi(1080)^3 = \frac{4}{3}\pi(1{,}259{,}712{,}000) \approx 5.28 \times 10^{9} \text{ mi}^3</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Snowball</title>
+      <statement><p>A snowball has circumference 18 cm. Find its volume.</p></statement>
+      <answer><p><m>r = \frac{18}{2\pi} \approx 2.86</m> cm. <m>V = \frac{4}{3}\pi(2.86)^3 \approx 98 \text{ cm}^3</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Gazing Ball</title>
+      <statement><p>A "gazing ball" garden ornament has a mirrored surface area of approximately <m>314 \text{ in}^2</m>. Find its volume to the nearest cubic inch.</p></statement>
+      <answer><p><m>4\pi r^2 = 314</m>, so <m>r^2 \approx 25</m>, <m>r = 5</m> in. <m>V = \frac{4}{3}\pi(125) = \frac{500\pi}{3} \approx 524 \text{ in}^3</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Glazing Pastries</title>
+      <statement><p>Small spherical pastries have diameter 2.5 cm each. A baker has 4710 cm<m>^2</m> of glaze. How many pastries can be glazed?</p></statement>
+      <answer><p><m>r = 1.25</m>. <m>SA_{\text{one}} = 4\pi(1.5625) = 6.25\pi \approx 19.63 \text{ cm}^2</m>. Number <m>= \frac{4710}{19.63} \approx 240</m> pastries.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Fitness Ball Pump</title>
+      <statement><p>A fitness ball has diameter 28 cm. A pump delivers <m>280 \text{ cm}^3</m> of air per pump. How many pumps does it take to fully inflate the ball?</p></statement>
+      <answer><p><m>r = 14</m>. <m>V = \frac{4}{3}\pi(2744) = \frac{10{,}976\pi}{3} \approx 11{,}494 \text{ cm}^3</m>. Pumps <m>= \frac{11{,}494}{280} \approx 41</m> pumps.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Cookie Dough Scoops</title>
+      <statement><p>A cylindrical pail of cookie dough has diameter 17 cm and height 13 cm. Each cookie is made by scooping a ball of dough with diameter 5 cm. Approximately how many cookies can be made from one pail?</p></statement>
+      <answer><p><m>V_{\text{pail}} = \pi(8.5)^2(13) = \pi(72.25)(13) = 939.25\pi \approx 2950 \text{ cm}^3</m>. <m>V_{\text{scoop}} = \frac{4}{3}\pi(2.5)^3 = \frac{4}{3}\pi(15.625) \approx 65.4 \text{ cm}^3</m>. Cookies <m>\approx \frac{2950}{65.4} \approx 45</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Sphere Carved from Wood Block</title>
+      <statement><p>A block of wood measures <m>14 \times 12 \times 10</m> cm. A sphere is carved from it (the largest sphere that fits). What percentage of the wood is wasted?</p></statement>
+      <answer><p>The largest sphere has diameter <m>= 10</m> cm (the smallest dimension), so <m>r = 5</m>. <m>V_{\text{block}} = 1680 \text{ cm}^3</m>. <m>V_{\text{sphere}} = \frac{4}{3}\pi(125) = \frac{500\pi}{3} \approx 523.6 \text{ cm}^3</m>. Waste <m>= \frac{1680 - 523.6}{1680} \times 100 \approx 68.8\%</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Deflated Beach Ball</title>
+      <statement><p>A deflated beach ball holds 70% of its maximum volume. If 70% of the volume is <m>420 \text{ in}^3</m>, find the radius of the beach ball when fully inflated.</p></statement>
+      <answer><p><m>V_{\text{max}} = \frac{420}{0.7} = 600 \text{ in}^3</m>. <m>\frac{4}{3}\pi r^3 = 600</m>, so <m>r^3 = \frac{450}{\pi} \approx 143.2</m>, giving <m>r \approx 5.2</m> in.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Bead Necklace</title>
+      <statement><p>A bead necklace has 100 spherical beads, each with diameter 7 mm. What is the total volume of all the beads?</p></statement>
+      <answer><p><m>r = 3.5</m> mm. <m>V_{\text{one}} = \frac{4}{3}\pi(42.875) \approx 179.6 \text{ mm}^3</m>. Total <m>= 100 \times 179.6 = 17{,}960 \text{ mm}^3 \approx 18.0 \text{ cm}^3</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Squash Ball Tolerances</title>
+      <statement><p>A squash ball has a regulation diameter of <m>40 \pm 0.5</m> mm. What are the minimum and maximum possible surface areas?</p></statement>
+      <answer><p>Min: <m>r = 19.75</m>. <m>SA = 4\pi(390.06) \approx 4901 \text{ mm}^2</m>. Max: <m>r = 20.25</m>. <m>SA = 4\pi(410.06) \approx 5152 \text{ mm}^2</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Crystal Souvenir</title>
+      <statement><p>A crystal souvenir is a cube with side length 4 cm that has a sphere (diameter 4 cm) carved out of its center. What is the volume of the remaining crystal?</p></statement>
+      <answer><p><m>V_{\text{cube}} = 64 \text{ cm}^3</m>. <m>V_{\text{sphere}} = \frac{4}{3}\pi(8) = \frac{32\pi}{3} \approx 33.5 \text{ cm}^3</m>. <m>V_{\text{remaining}} = 64 - 33.5 \approx 30.5 \text{ cm}^3</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Gas Storage Tank</title>
+      <statement><p>A spherical gas storage tank has diameter 15.8 m. Find its surface area and its capacity in litres.</p></statement>
+      <answer><p><m>r = 7.9</m>. <m>SA = 4\pi(62.41) = 249.64\pi \approx 784.3 \text{ m}^2</m>. <m>V = \frac{4}{3}\pi(493.04) = 657.4\pi \approx 2065 \text{ m}^3 = 2{,}065{,}000 \text{ L}</m>.</p></answer>
+    </exercise>
+  </subsection>
+
+</section>

@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-cones" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Cones</title>
+
+  <introduction>
+    <p>A <term>cone</term> is a 3D object with a round base, and a curved surface that goes to a point.</p>
+
+    <p>A cone can be thought of as a pyramid with a circular base. Just like pyramids,</p>
+    <ul>
+      <li><p>The tip of the cone is called the <term>apex</term> (just like a pyramid).</p></li>
+      <li><p>The <term>height</term> is the distance from the apex to the base.</p></li>
+      <li><p>The <term>slant height</term> is the length along the side of the cone.</p></li>
+    </ul>
+
+    <image width="40%">
+      <latex-image>
+        \begin{tikzpicture}[scale=0.8]
+          % Base ellipse
+          \draw[thick] (-2,0) arc (180:360:2 and 0.7);
+          \draw[dashed] (-2,0) arc (180:0:2 and 0.7);
+          % Sides
+          \draw[thick] (-2,0) -- (0,5);
+          \draw[thick] (2,0) -- (0,5);
+          % Height (dashed)
+          \draw[dashed] (0,0) -- (0,5);
+          % Labels
+          \draw[&lt;-&gt;] (0,-0.1) -- (2,-0.1) node[midway,below] {$r$};
+          \node[left] at (-1.8,2.5) {height};
+          \draw[-&gt;, bend right=20] (-1.7,2.4) to (-0.15,2.3);
+          \node[right] at (1.2,2.7) {slant height};
+          \node[above] at (0,5) {apex};
+        \end{tikzpicture}
+      </latex-image>
+    </image>
+
+    <p>We will only consider a cone with a circular base, and whose tip is right above the center of the base, which is called a <term>right circular cone</term> (or simply <term>right cone</term>).</p>
+  </introduction>
+
+  <subsection xml:id="subsec-cone-volume">
+    <title>Volume of a Cone</title>
+
+    <p>Recall that the volume of a pyramid is <m>\frac{1}{3}</m> the volume of a prism with the same base and height. The same relationship holds for cones and cylinders.</p>
+
+    <image width="70%">
+      <latex-image>
+        \begin{tikzpicture}[scale=0.6]
+          % --- Prism (left) ---
+          % Front face
+          \draw[thick] (0,0) -- (2,0) -- (2,3) -- (0,3) -- cycle;
+          % Back face (visible edges)
+          \draw[thick] (0.8,0.6) -- (2.8,0.6) -- (2.8,3.6) -- (0.8,3.6) -- cycle;
+          % Connecting edges
+          \draw[thick] (0,0) -- (0.8,0.6);
+          \draw[thick] (2,0) -- (2.8,0.6);
+          \draw[thick] (2,3) -- (2.8,3.6);
+          \draw[thick] (0,3) -- (0.8,3.6);
+          \node[below] at (1.4, -0.3) {prism};
+
+          % --- Arrow from prism to pyramid ---
+          \draw[-&gt;, very thick] (3.5, 1.8) -- (5, 1.8);
+          \node[above] at (4.25, 1.8) {$\times \frac{1}{3}$};
+
+          % --- Pyramid (right of arrow) ---
+          \coordinate (PFL) at (5.5, 0);
+          \coordinate (PFR) at (7.5, 0);
+          \coordinate (PBR) at (8.3, 0.6);
+          \coordinate (PBL) at (6.3, 0.6);
+          \coordinate (Papex) at (7.15, 3.3);
+          % Base
+          \draw[thick] (PFL) -- (PFR) -- (PBR);
+          \draw[dashed] (PBR) -- (PBL) -- (PFL);
+          % Lateral edges
+          \draw[thick] (PFL) -- (Papex);
+          \draw[thick] (PFR) -- (Papex);
+          \draw[thick] (PBR) -- (Papex);
+          \draw[dashed] (PBL) -- (Papex);
+          \node[below] at (7.15, -0.3) {pyramid};
+
+          % --- Cylinder (below left) ---
+          \begin{scope}[yshift=-5.5cm]
+          \draw[thick] (-0.2,0) arc (180:360:1.4 and 0.5);
+          \draw[dashed] (-0.2,0) arc (180:0:1.4 and 0.5);
+          \draw[thick] (-0.2,0) -- (-0.2,3);
+          \draw[thick] (2.6,0) -- (2.6,3);
+          \draw[thick] (-0.2,3) arc (180:360:1.4 and 0.5);
+          \draw[thick] (-0.2,3) arc (180:0:1.4 and 0.5);
+          \node[below] at (1.2, -0.7) {cylinder};
+
+          % --- Arrow from cylinder to cone ---
+          \draw[-&gt;, very thick] (3.5, 1.5) -- (5, 1.5);
+          \node[above] at (4.25, 1.5) {$\times \frac{1}{3}$};
+
+          % --- Cone (below right) ---
+          \draw[thick] (5.75,0) arc (180:360:1.4 and 0.5);
+          \draw[dashed] (5.75,0) arc (180:0:1.4 and 0.5);
+          \draw[thick] (5.75,0) -- (7.15,3.3);
+          \draw[thick] (8.55,0) -- (7.15,3.3);
+          \node[below] at (7.15, -0.7) {cone};
+          \end{scope}
+        \end{tikzpicture}
+      </latex-image>
+    </image>
+
+    <p>The volume of a right circular cone is,</p>
+    <me>\boxed{V_{\text{cone}} = \frac{1}{3} \pi r^2 h \quad \begin{cases} r \rightarrow \text{radius} \\ h \rightarrow \text{height} \end{cases}}</me>
+
+    <remark>
+      <p>Notice that <m>V_{\text{cone}} = \frac{1}{3} A h</m>, where <m>A = \pi r^2</m> is the area of the base. This is the same formula as the volume of a pyramid. In fact, a cone can be thought of as a pyramid with a circular base.</p>
+    </remark>
+
+    <example>
+      <title>Volume of a Cone</title>
+      <p>Find the volume of a cone with radius 6 cm and height 10 cm.</p>
+      <image width="30%">
+        <latex-image>
+          \begin{tikzpicture}[scale=0.55]
+            \draw[thick] (-1.8,0) arc (180:360:1.8 and 0.6);
+            \draw[dashed] (-1.8,0) arc (180:0:1.8 and 0.6);
+            \draw[thick] (-1.8,0) -- (0,4.5);
+            \draw[thick] (1.8,0) -- (0,4.5);
+            \draw[dashed] (0,0) -- (0,4.5);
+            \draw[&lt;-&gt;] (0,0) -- (1.8,0) node[midway,below] {$6$};
+            \node[left] at (0,2) {$10$};
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+      <md>
+        <mrow>V \amp= \frac{1}{3}\pi r^2 h</mrow>
+        <mrow>\amp= \frac{1}{3}\pi(6)^2(10)</mrow>
+        <mrow>\amp= \frac{1}{3}\pi(36)(10)</mrow>
+        <mrow>\amp= \frac{360\pi}{3}</mrow>
+        <mrow>\amp= 120\pi</mrow>
+        <mrow>\amp\approx 376.99 \text{ cm}^3</mrow>
+      </md>
+    </example>
+
+    <example>
+      <title>Application: Ice Cream Cone</title>
+      <p>An ice cream cone has diameter 5 cm and height 12 cm. How many cm<m>^3</m> of ice cream can it hold?</p>
+      <image width="25%">
+        <latex-image>
+          \begin{tikzpicture}[scale=0.5]
+            \draw[thick] (-1.2,0) arc (180:360:1.2 and 0.4);
+            \draw[dashed] (-1.2,0) arc (180:0:1.2 and 0.4);
+            \draw[thick] (-1.2,0) -- (0,-4.5);
+            \draw[thick] (1.2,0) -- (0,-4.5);
+            \draw[dashed] (0,0) -- (0,-4.5);
+            \draw[&lt;-&gt;] (-1.2,0.6) -- (1.2,0.6) node[midway,above] {5};
+            \node[left] at (0,-1.5) {12};
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+      <p>First, <m>r = \frac{d}{2} = \frac{5}{2} = 2.5</m> cm. The volume is,</p>
+      <md>
+        <mrow>V \amp= \frac{1}{3}\pi r^2 h</mrow>
+        <mrow>\amp= \frac{1}{3}\pi(2.5)^2(12)</mrow>
+        <mrow>\amp= \frac{1}{3}\pi(6.25)(12)</mrow>
+        <mrow>\amp= \frac{75\pi}{3}</mrow>
+        <mrow>\amp= 25\pi</mrow>
+        <mrow>\amp\approx 78.5 \text{ cm}^3</mrow>
+      </md>
+    </example>
+
+    <example>
+      <title>Comparing Cone and Cylinder</title>
+      <p>A cone and a cylinder both have diameter 5 cm and height 12 cm. How do their volumes compare?</p>
+      <p>The cylinder has volume,</p>
+      <me>V_{\text{cylinder}} = \pi r^2 h = \pi(2.5)^2(12) = 75\pi \approx 235.6 \text{ cm}^3</me>
+      <p>The cone has volume,</p>
+      <me>V_{\text{cone}} = \frac{1}{3}\pi r^2 h = \frac{1}{3}\pi(2.5)^2(12) = 25\pi \approx 78.5 \text{ cm}^3</me>
+      <p>Indeed, <m>V_{\text{cone}} = \frac{1}{3} V_{\text{cylinder}}</m>. It would take exactly 3 cones of water to fill the cylinder.</p>
+    </example>
+  </subsection>
+
+  <subsection xml:id="subsec-cone-surface-area">
+    <title>Surface Area of a Cone</title>
+
+    <p>Consider the surface area of a cone. Intuitively, a cone is a pyramid, where the number of sides of the base of the pyramid is large.</p>
+
+    <image width="80%">
+      <latex-image>
+        \begin{tikzpicture}[scale=0.55]
+          % === Square pyramid (4 sides) ===
+          \coordinate (S1) at (0, 0);
+          \coordinate (S2) at (1.8, 0);
+          \coordinate (S3) at (2.3, 0.5);
+          \coordinate (S4) at (0.5, 0.5);
+          \coordinate (Sa) at (1.15, 3);
+          \draw[thick] (S1) -- (S2) -- (S3);
+          \draw[dashed] (S3) -- (S4) -- (S1);
+          \draw[thick] (S1) -- (Sa);
+          \draw[thick] (S2) -- (Sa);
+          \draw[thick] (S3) -- (Sa);
+          \draw[dashed] (S4) -- (Sa);
+          \node[below] at (1.15, -0.7) {\small 4 sides};
+          % Arrow 1
+          \draw[-&gt;, thick] (2.9, 1.5) -- (3.9, 1.5);
+          % === Octagonal pyramid (8 sides) ===
+          % Octagon centered at (5.3, 0.15), rx=0.9, ry=0.35
+          \coordinate (O1) at (6.2, 0.15);    % 0 deg
+          \coordinate (O2) at (5.94, 0.40);   % 45 deg
+          \coordinate (O3) at (5.3, 0.50);    % 90 deg
+          \coordinate (O4) at (4.66, 0.40);   % 135 deg
+          \coordinate (O5) at (4.4, 0.15);    % 180 deg
+          \coordinate (O6) at (4.66, -0.10);  % 225 deg
+          \coordinate (O7) at (5.3, -0.20);   % 270 deg
+          \coordinate (O8) at (5.94, -0.10);  % 315 deg
+          \coordinate (Oa) at (5.3, 3);
+          % Front base edges (visible)
+          \draw[thick] (O5) -- (O6) -- (O7) -- (O8) -- (O1);
+          % Back base edges (dashed)
+          \draw[dashed] (O1) -- (O2) -- (O3) -- (O4) -- (O5);
+          % Front lateral edges
+          \draw[thick] (O5) -- (Oa);
+          \draw[thick] (O6) -- (Oa);
+          \draw[thick] (O7) -- (Oa);
+          \draw[thick] (O8) -- (Oa);
+          \draw[thick] (O1) -- (Oa);
+          % Back lateral edges
+          \draw[dashed] (O2) -- (Oa);
+          \draw[dashed] (O3) -- (Oa);
+          \draw[dashed] (O4) -- (Oa);
+          \node[below] at (5.3, -0.7) {\small 8 sides};
+          % Arrow 2
+          \draw[-&gt;, thick] (6.8, 1.5) -- (7.8, 1.5);
+          % === Many-sided pyramid (20 sides) ===
+          % 20-gon centered at (9.3, 0.15), rx=0.9, ry=0.35
+          % Front half (visible): 180 to 360 deg
+          \draw[thick] ({9.3+0.9*cos(180)}, {0.15+0.35*sin(180)})
+              \foreach \a in {198, 216, ..., 360} {
+                  -- ({9.3+0.9*cos(\a)}, {0.15+0.35*sin(\a)})
+              };
+          % Back half (dashed): 0 to 180 deg
+          \draw[dashed] ({9.3+0.9*cos(0)}, {0.15+0.35*sin(0)})
+              \foreach \a in {18, 36, ..., 180} {
+                  -- ({9.3+0.9*cos(\a)}, {0.15+0.35*sin(\a)})
+              };
+          % Front lateral edges (visible)
+          \foreach \a in {180, 198, ..., 360} {
+              \draw[thick] ({9.3+0.9*cos(\a)}, {0.15+0.35*sin(\a)}) -- (9.3, 3);
+          }
+          % Back lateral edges (dashed)
+          \foreach \a in {18, 36, ..., 162} {
+              \draw[dashed] ({9.3+0.9*cos(\a)}, {0.15+0.35*sin(\a)}) -- (9.3, 3);
+          }
+          \node[below] at (9.3, -0.7) {\small 20 sides};
+          % Arrow 3 with dots
+          \draw[-&gt;, thick] (10.8, 1.5) -- (12.3, 1.5);
+          \node[above] at (11.55, 1.5) {$\cdots$};
+          % === Cone (circle base) ===
+          \draw[thick] (12.6, 0) arc (180:360:0.9 and 0.35);
+          \draw[dashed] (12.6, 0) arc (180:0:0.9 and 0.35);
+          \draw[thick] (12.6, 0) -- (13.5, 3);
+          \draw[thick] (14.4, 0) -- (13.5, 3);
+          \node[below] at (13.5, -0.7) {\small circle};
+        \end{tikzpicture}
+      </latex-image>
+    </image>
+
+    <p>Recall that the surface area of a pyramid is given by,</p>
+    <me>SA_{\text{pyramid}} = \frac{1}{2} s P + \brac{\text{area of base}}</me>
+
+    <remark>
+      <p>Technically, for a right pyramid.</p>
+    </remark>
+
+    <p>Then, for a cone, it has a circular base, which has a radius <m>r</m>. Then, <m>P = 2\pi r</m> is the circumference of a circle, and <m>A_B = \pi r^2</m> is the area of the base. Putting these together, we get,</p>
+    <md>
+      <mrow>SA_{\text{cone}} \amp= \frac{1}{2} s (2\pi r) + \pi r^2</mrow>
+      <mrow>\amp= \pi rs + \pi r^2</mrow>
+    </md>
+
+    <p>The surface area of a right circular cone is,</p>
+    <me>\boxed{SA_{\text{cone}} = \pi rs + \pi r^2 \quad \begin{cases} r \rightarrow \text{radius} \\ s \rightarrow \text{slant height} \end{cases}}</me>
+
+    <ul>
+      <li><p><m>\pi rs</m> is the <term>lateral surface area</term> (the curved surface only, not the base).</p></li>
+      <li><p><m>\pi r^2</m> is the area of the circular base.</p></li>
+    </ul>
+
+    <remark>
+      <p>Some problems ask for only the lateral area. For example, a party hat has no base.</p>
+    </remark>
+
+    <p>If the height <m>h</m> of the cone is given, then by the Pythagorean theorem, <m>s^2 = r^2 + h^2</m>, so <m>s = \sqrt{r^2 + h^2}</m>. Then, the formula can be written in terms of <m>h</m> as,</p>
+    <me>SA = \pi r \sqrt{r^2 + h^2} + \pi r^2</me>
+
+    <example>
+      <title>Surface Area: Slant Height Given</title>
+      <p>Find the surface area of a cone with radius 4 cm and slant height 7 cm.</p>
+      <image width="30%">
+        <latex-image>
+          \begin{tikzpicture}[scale=0.6]
+            \draw[thick] (-1.5,0) arc (180:360:1.5 and 0.5);
+            \draw[dashed] (-1.5,0) arc (180:0:1.5 and 0.5);
+            \draw[thick] (-1.5,0) -- (0,4);
+            \draw[thick] (1.5,0) -- (0,4);
+            \draw[&lt;-&gt;] (0,0) -- (1.5,0) node[midway,below] {$4$};
+            \node[right] at (0.9,2.2) {$s = 7$};
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+      <md>
+        <mrow>SA \amp= \pi rs + \pi r^2</mrow>
+        <mrow>\amp= \pi(4)(7) + \pi(4)^2</mrow>
+        <mrow>\amp= 28\pi + 16\pi</mrow>
+        <mrow>\amp= 44\pi</mrow>
+        <mrow>\amp\approx 138.2 \text{ cm}^2</mrow>
+      </md>
+    </example>
+
+    <example>
+      <title>Surface Area: Height Given (Must Find Slant Height)</title>
+      <p>Find the surface area of a cone with radius 5 cm and height 12 cm.</p>
+      <image width="30%">
+        <latex-image>
+          \begin{tikzpicture}[scale=0.55]
+            \draw[thick] (-1.5,0) arc (180:360:1.5 and 0.5);
+            \draw[dashed] (-1.5,0) arc (180:0:1.5 and 0.5);
+            \draw[thick] (-1.5,0) -- (0,4.5);
+            \draw[thick] (1.5,0) -- (0,4.5);
+            \draw[dashed] (0,0) -- (0,4.5);
+            \draw[&lt;-&gt;] (0,0) -- (1.5,0) node[midway,below] {$5$};
+            \node[left] at (-0.2,2.2) {$12$};
+            \node[right] at (0.9,2.5) {$s = ?$};
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+      <p>First, find the slant height using the Pythagorean theorem,</p>
+      <md>
+        <mrow>s \amp= \sqrt{r^2 + h^2}</mrow>
+        <mrow>\amp= \sqrt{5^2 + 12^2}</mrow>
+        <mrow>\amp= \sqrt{25 + 144}</mrow>
+        <mrow>\amp= \sqrt{169}</mrow>
+        <mrow>\amp= 13 \text{ cm}</mrow>
+      </md>
+      <p>Now compute the surface area,</p>
+      <md>
+        <mrow>SA \amp= \pi rs + \pi r^2</mrow>
+        <mrow>\amp= \pi(5)(13) + \pi(5)^2</mrow>
+        <mrow>\amp= 65\pi + 25\pi</mrow>
+        <mrow>\amp= 90\pi</mrow>
+        <mrow>\amp\approx 282.7 \text{ cm}^2</mrow>
+      </md>
+    </example>
+  </subsection>
+
+  <!-- ============================== -->
+  <subsection xml:id="subsec-cone-examples">
+    <title>Examples</title>
+
+    <project>
+      <title>Surface Area of Cones</title>
+      <introduction><p>Find the surface area of each cone. Give exact answers and decimal approximations.</p></introduction>
+
+      <task>
+        <statement>
+          <p>Radius 3 cm, slant height 8 cm.</p>
+          <image width="25%">
+            <latex-image>
+              \begin{tikzpicture}[scale=0.45]
+                \draw[thick] (-1.2,0) arc (180:360:1.2 and 0.4);
+                \draw[dashed] (-1.2,0) arc (180:0:1.2 and 0.4);
+                \draw[thick] (-1.2,0) -- (0,4);
+                \draw[thick] (1.2,0) -- (0,4);
+                \draw[&lt;-&gt;] (0,0) -- (1.2,0) node[midway,below] {$3$};
+                \node[right] at (0.7,2.2) {$8$};
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </statement>
+        <answer><p><m>SA = \pi(3)(8) + \pi(9) = 24\pi + 9\pi = 33\pi \approx 103.7 \text{ cm}^2</m>.</p></answer>
+      </task>
+
+      <task>
+        <statement><p>Diameter 27 cm, slant height 40 cm.</p></statement>
+        <answer><p><m>r = 13.5</m>. <m>SA = \pi(13.5)(40) + \pi(13.5)^2 = 540\pi + 182.25\pi = 722.25\pi \approx 2269.4 \text{ cm}^2</m>.</p></answer>
+      </task>
+
+      <task>
+        <statement><p>Radius 4.5 cm, slant height 9.5 cm.</p></statement>
+        <answer><p><m>SA = \pi(4.5)(9.5) + \pi(4.5)^2 = 42.75\pi + 20.25\pi = 63\pi \approx 197.9 \text{ cm}^2</m>.</p></answer>
+      </task>
+
+      <task>
+        <statement><p>Radius 8 cm, height 15 cm.</p></statement>
+        <hint><p>Find the slant height first.</p></hint>
+        <answer><p><m>s = \sqrt{64 + 225} = \sqrt{289} = 17</m>. <m>SA = \pi(8)(17) + \pi(64) = 136\pi + 64\pi = 200\pi \approx 628.3 \text{ cm}^2</m>.</p></answer>
+      </task>
+
+      <task>
+        <statement>
+          <p>A party hat is a cone with no base. It has radius 10 cm and slant height 25 cm. Find the lateral surface area only.</p>
+          <image width="25%">
+            <latex-image>
+              \begin{tikzpicture}[scale=0.45]
+                \draw[thick] (-1.5,0) arc (180:360:1.5 and 0.5);
+                \draw[dashed] (-1.5,0) arc (180:0:1.5 and 0.5);
+                \draw[thick] (-1.5,0) -- (0,5);
+                \draw[thick] (1.5,0) -- (0,5);
+                \draw[&lt;-&gt;] (0,0) -- (1.5,0) node[midway,below] {$10$};
+                \node[right] at (0.9,2.7) {$25$};
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </statement>
+        <answer><p>Lateral area <m>= \pi rs = \pi(10)(25) = 250\pi \approx 785.4 \text{ cm}^2</m>.</p></answer>
+      </task>
+    </project>
+
+    <project>
+      <title>Volume of Cones</title>
+      <introduction><p>Find the volume of each cone.</p></introduction>
+
+      <task>
+        <statement><p>Radius 3 cm, height 7 cm.</p></statement>
+        <answer><p><m>V = \frac{1}{3}\pi(9)(7) = 21\pi \approx 66.0 \text{ cm}^3</m>.</p></answer>
+      </task>
+
+      <task>
+        <statement><p>Diameter 5.4 cm, height 7.5 cm.</p></statement>
+        <answer><p><m>r = 2.7</m>. <m>V = \frac{1}{3}\pi(2.7)^2(7.5) = \frac{1}{3}\pi(7.29)(7.5) = \frac{54.675\pi}{3} = 18.225\pi \approx 57.2 \text{ cm}^3</m>.</p></answer>
+      </task>
+
+      <task>
+        <statement><p>Radius 10 cm, height 24 cm.</p></statement>
+        <answer><p><m>V = \frac{1}{3}\pi(100)(24) = 800\pi \approx 2513.3 \text{ cm}^3</m>.</p></answer>
+      </task>
+
+      <task>
+        <statement><p>Diameter 12 cm, height 8 cm.</p></statement>
+        <answer><p><m>r = 6</m>. <m>V = \frac{1}{3}\pi(36)(8) = 96\pi \approx 301.6 \text{ cm}^3</m>.</p></answer>
+      </task>
+    </project>
+
+    <project>
+      <title>Reverse Problems</title>
+      <introduction><p>Find the missing dimension.</p></introduction>
+
+      <task>
+        <statement><p>A cone has volume <m>150\pi \text{ cm}^3</m> and height 18 cm. Find the radius.</p></statement>
+        <answer><p><m>150\pi = \frac{1}{3}\pi r^2(18) = 6\pi r^2</m>. So <m>r^2 = 25</m>, giving <m>r = 5</m> cm.</p></answer>
+      </task>
+
+      <task>
+        <statement><p>A cone has volume <m>100 \text{ cm}^3</m> and radius 4 cm. Find the height to the nearest tenth.</p></statement>
+        <answer><p><m>100 = \frac{1}{3}\pi(16)h</m>. So <m>h = \frac{300}{16\pi} = \frac{75}{4\pi} \approx 5.97 \approx 6.0</m> cm.</p></answer>
+      </task>
+
+      <task>
+        <statement><p>A cone has lateral surface area <m>60\pi \text{ cm}^2</m> and radius 5 cm. Find the slant height.</p></statement>
+        <answer><p><m>60\pi = \pi(5)s</m>. So <m>s = 12</m> cm.</p></answer>
+      </task>
+    </project>
+
+    <project>
+      <title>Algebra Practice</title>
+      <introduction><p>Find the missing dimension in each cone.</p></introduction>
+
+      <task>
+        <statement><p>A right cone has <m>SA = 7012 \text{ mm}^2</m> and diameter 48 mm. Find the slant height.</p></statement>
+        <answer><p><m>r = 24</m>. <m>7012 = \pi(24)s + \pi(576) = 24\pi s + 576\pi</m>. So <m>24\pi s = 7012 - 576\pi \approx 5202.4</m>, giving <m>s \approx 69.0</m> mm.</p></answer>
+      </task>
+
+      <task>
+        <statement><p>A right cone has <m>SA = 12 \text{ m}^2</m> and radius 1.3 m. Find the slant height to the nearest tenth.</p></statement>
+        <answer><p><m>12 = \pi(1.3)s + \pi(1.3)^2 = 1.3\pi s + 1.69\pi</m>. So <m>1.3\pi s = 12 - 1.69\pi \approx 6.69</m>, giving <m>s \approx 1.6</m> m.</p></answer>
+      </task>
+
+      <task>
+        <statement><p>A plastic cone was immersed in a measuring cylinder containing water. The volume of the cone was determined to be <m>33.5 \text{ cm}^3</m>, and its diameter is 4.0 cm. What is the height of the cone to the nearest tenth?</p></statement>
+        <answer><p><m>r = 2</m>. <m>33.5 = \frac{1}{3}\pi(4)h</m>, so <m>h = \frac{33.5 \times 3}{4\pi} \approx 8.0</m> cm.</p></answer>
+      </task>
+
+      <task>
+        <statement><p>A cone has a height of 8 m and a volume of <m>300 \text{ m}^3</m>. Find the radius of the base to the nearest metre.</p></statement>
+        <answer><p><m>300 = \frac{1}{3}\pi r^2(8)</m>, so <m>r^2 = \frac{900}{8\pi} \approx 35.8</m>, giving <m>r \approx 6</m> m.</p></answer>
+      </task>
+    </project>
+
+    <exercise>
+      <title>Finding Height from Volume</title>
+      <statement><p>A right cone has a volume of <m>20 \text{ cm}^3</m> and a diameter of 5 cm. Calculate its height to the nearest tenth.</p></statement>
+      <answer><p><m>r = 2.5</m>. <m>20 = \frac{1}{3}\pi(6.25)h</m>, so <m>h = \frac{60}{6.25\pi} \approx 3.1</m> cm.</p></answer>
+    </exercise>
+  </subsection>
+
+  <!-- ============================== -->
+  <subsection xml:id="subsec-cone-word-problems">
+    <title>Word Problems</title>
+
+    <example>
+      <title>Funnel</title>
+      <p>A funnel is cone-shaped with diameter 16 cm and height 20 cm. How many mL of liquid can it hold?</p>
+      <image width="25%">
+        <latex-image>
+          \begin{tikzpicture}[scale=0.4]
+            \draw[thick] (-1.5,0) arc (180:360:1.5 and 0.5);
+            \draw[dashed] (-1.5,0) arc (180:0:1.5 and 0.5);
+            \draw[thick] (-1.5,0) -- (0,-5);
+            \draw[thick] (1.5,0) -- (0,-5);
+            \draw[&lt;-&gt;] (-1.5,0.7) -- (1.5,0.7) node[midway,above] {$16$};
+            \draw[&lt;-&gt;] (-2,-5) -- (-2,0) node[midway,left] {20};
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+      <p>Answer: <m>r = 8</m>. <m>V = \frac{1}{3}\pi(64)(20) = \frac{1280\pi}{3} \approx 1340.4 \text{ cm}^3 = 1340.4 \text{ mL}</m>.</p>
+    </example>
+
+    <example>
+      <title>Cone and Cylinder Same Volume</title>
+      <p>A cone and a cylinder have the same volume of <m>300\pi \text{ cm}^3</m> and the same radius of 10 cm. Find the height of each.</p>
+      <p>Answer: Cylinder: <m>300\pi = \pi(100)h</m>, so <m>h = 3</m> cm. Cone: <m>300\pi = \frac{1}{3}\pi(100)h</m>, so <m>h = 9</m> cm. The cone is 3 times as tall.</p>
+    </example>
+
+    <example>
+      <title>Model Volcano</title>
+      <p>A cone-shaped model volcano for a science project has a base diameter of 32 cm and a slant height of 45 cm.</p>
+      <ol marker="(i)">
+        <li><p>What is the lateral area of the volcano to the nearest square centimetre?</p></li>
+        <li><p>Paint for the volcano costs $1.99 per jar, and one jar covers <m>400 \text{ cm}^2</m>. How much will the paint cost?</p></li>
+      </ol>
+      <p>Answer: <m>r = 16</m>. <m>A_L = \pi(16)(45) = 720\pi \approx 2262 \text{ cm}^2</m>. Number of jars <m>= 2262/400 \approx 5.7</m> jars, round up to 6 jars. Cost <m>= 6 \times \$1.99 = \$11.94</m>.</p>
+    </example>
+
+    <example>
+      <title>Road Pylon</title>
+      <p>A road pylon approximates a right cone with height 53 cm and base diameter 18 cm. The lateral surface of the pylon is to be painted with reflective paint. What area will be painted, to the nearest square centimetre?</p>
+      <p>Answer: <m>r = 9</m>. <m>s = \sqrt{53^2 + 9^2} = \sqrt{2809 + 81} = \sqrt{2890} \approx 53.8</m> cm. <m>A_L = \pi(9)(53.8) \approx 1521 \text{ cm}^2</m>.</p>
+    </example>
+
+    <example>
+      <title>Conical Tent with Hides</title>
+      <p>A conical tent has a base diameter of 3.9 m and a height of 4.6 m. The tent cover is made from 15 tanned hides sewn together. To the nearest tenth of a square metre, what area does each hide cover?</p>
+      <p>Answer: <m>r = 1.95</m>. <m>s = \sqrt{4.6^2 + 1.95^2} = \sqrt{21.16 + 3.80} = \sqrt{24.96} \approx 5.0</m> m. <m>A_L = \pi(1.95)(5.0) = 9.75\pi \approx 30.6 \text{ m}^2</m>. Each hide covers <m>\approx 30.6 / 15 \approx 2.0 \text{ m}^2</m>.</p>
+    </example>
+
+    <example>
+      <title>Grain Pile Surface Area</title>
+      <p>A farmer unloaded grain onto a tarp on the ground. The grain formed a cone-shaped pile with a diameter of 12 ft and a height of 8 ft. Find the surface area of the exposed grain (lateral surface only) to the nearest square foot.</p>
+      <p>Answer: <m>r = 6</m>. <m>s = \sqrt{8^2 + 6^2} = \sqrt{100} = 10</m> ft. <m>A_L = \pi(6)(10) = 60\pi \approx 188 \text{ ft}^2</m>.</p>
+    </example>
+
+    <example>
+      <title>Large Conical Tent</title>
+      <p>A large conical tent has a diameter of 9.6 m and a slant height of 7.3 m. What is the minimum amount of canvas needed for the sides of the tent, to the nearest tenth of a square metre?</p>
+      <p>Answer: <m>r = 4.8</m>. <m>A_L = \pi(4.8)(7.3) = 35.04\pi \approx 110.1 \text{ m}^2</m>.</p>
+    </example>
+
+    <example>
+      <title>Cone with Circumference Given</title>
+      <p>A right cone has a height of 8 ft and a base circumference of 12 ft. Find the surface area to the nearest square foot.</p>
+      <p>Hint: use the circumference to find the radius.</p>
+      <p>Answer: <m>2\pi r = 12</m>, so <m>r = \frac{6}{\pi} \approx 1.91</m> ft. <m>s = \sqrt{8^2 + 1.91^2} = \sqrt{64 + 3.65} = \sqrt{67.65} \approx 8.22</m> ft. <m>SA = \pi(1.91)(8.22) + \pi(1.91)^2 \approx 49.3 + 11.5 \approx 61 \text{ ft}^2</m>.</p>
+    </example>
+
+    <example>
+      <title>Waffle Cone</title>
+      <p>A waffle cone has a height of 5 in and a base diameter of 2 in, filled level with ice cream.</p>
+      <ol marker="(i)">
+        <li><p>How much ice cream can the cone hold, to the nearest cubic inch?</p></li>
+        <li><p>One cubic inch of soft ice cream costs 55 cents, the waffle cone costs 35 cents, and the topping costs 10 cents per dessert. How much will this dessert cost to produce?</p></li>
+      </ol>
+      <p>Answer: <m>r = 1</m>. <m>V = \frac{1}{3}\pi(1)(5) = \frac{5\pi}{3} \approx 5.24 \approx 5 \text{ in}^3</m>. Cost <m>= 5(0.55) + 0.35 + 0.10 = \$3.20</m>.</p>
+    </example>
+
+    <example>
+      <title>Cake-Decorating Bag</title>
+      <p>A cake-decorating bag has the shape of a cone with a diameter of 15 cm and a height of 30 cm. How much frosting will fit in the bag, to the nearest cubic centimetre?</p>
+      <p>Answer: <m>r = 7.5</m>. <m>V = \frac{1}{3}\pi(56.25)(30) = 562.5\pi \approx 1767 \text{ cm}^3</m>.</p>
+    </example>
+
+    <example>
+      <title>Conical Paper Cup</title>
+      <p>A conical paper cup has a height of 65 mm and a diameter of 38 mm. Find the volume of the cup.</p>
+      <p>Answer: <m>r = 19</m> mm. <m>V = \frac{1}{3}\pi(361)(65) = \frac{23{,}465\pi}{3} \approx 24{,}563 \text{ mm}^3 \approx 24.6 \text{ cm}^3</m>.</p>
+    </example>
+
+    <example>
+      <title>Underground Water Tank</title>
+      <p>An underground water tank has the shape of an inverted right cone, with its apex at the bottom. The tank has a base diameter of 5.0 m and a height of 3.5 m. (<m>1 \text{ m}^3 = 1000 \text{ L}</m>.)</p>
+      <ol marker="(i)">
+        <li><p>What is the capacity of the tank to the nearest litre?</p></li>
+        <li><p>How much water is in the tank when the water level is 1 m below the top?</p></li>
+      </ol>
+      <p>Answer: (i) <m>r = 2.5</m>. <m>V = \frac{1}{3}\pi(6.25)(3.5) = \frac{21.875\pi}{3} \approx 22.9 \text{ m}^3 \approx 22{,}907</m> L.</p>
+      <p>(ii) Water height <m>= 3.5 - 1 = 2.5</m> m. By similar triangles, water radius <m>= 2.5 \times \frac{2.5}{3.5} \approx 1.786</m> m. <m>V_{\text{water}} = \frac{1}{3}\pi(1.786)^2(2.5) \approx 8.35 \text{ m}^3 \approx 8350</m> L.</p>
+    </example>
+
+    <example>
+      <title>Grain Pile Volume</title>
+      <p>A farmer's grain pile is cone-shaped with diameter 12 ft and height 8 ft. Find the volume of the grain pile. How many litres is this? (<m>1 \text{ ft}^3 \approx 28.317</m> L.)</p>
+      <p>Answer: <m>r = 6</m>. <m>V = \frac{1}{3}\pi(36)(8) = 96\pi \approx 301.6 \text{ ft}^3 \approx 8539</m> L.</p>
+    </example>
+  </subsection>
+
+  <!-- ============================== -->
+  <subsection xml:id="subsec-cone-cocktail-glass">
+    <title>Advanced: Cocktail Glass Cone</title>
+
+    <example>
+      <title>Cocktail Glass Cone</title>
+      <p>Consider a cocktail glass, in the shape of an upside down cone. What height does the glass have to be filled in order to be half-full? Intuition says that it should be slightly more than half-height, because the bottom of the glass contains less volume that the upper parts. To determine the exact amount, we can use algebra.</p>
+
+      <p>Let the height of the glass be <m>H</m>, and the radius be <m>R</m>. For the current liquid level, let <m>h, r</m> be the height and radius of the cone of liquid. Then, the volume of the two cones are,</p>
+      <me>V_{\text{total}} = \frac{1}{3} \pi R^2 H \qquad \text{and} \qquad V_{\text{liquid}} = \frac{1}{3} \pi r^2 h</me>
+
+      <p>Then, we want to determine the height of the liquid such that <m>V_{\text{liquid}}</m> is one-half of <m>V_{\text{total}}</m>. In other words, find the value of <m>h</m> such that,</p>
+      <md>
+        <mrow>V_{\text{liquid}} \amp= \frac{1}{2} \cdot V_{\text{total}}</mrow>
+        <mrow>\frac{1}{3} \pi r^2 h \amp= \frac{1}{2} \cdot \frac{1}{3} \pi R^2 H</mrow>
+      </md>
+
+      <p>Here, <m>R, H</m> are constants, and <m>r, h</m> are unknowns. We want to solve for <m>h</m>. First, we can simplify the equation by canceling common factors,</p>
+      <me>r^2 h = \frac{1}{2} R^2 H</me>
+
+      <p>Again, we want to solve for <m>h</m>, in terms of possibly <m>R</m> and <m>H</m>. However, <m>r</m> is also unknown. However, <m>h</m> and <m>r</m> are related to each other. By similar triangles,</p>
+      <me>\frac{R}{H} = \frac{r}{h}</me>
+
+      <p>and so, <m>r = \frac{hR}{H}</m>. So, the equation becomes,</p>
+      <md>
+        <mrow>\brac{\frac{hR}{H}}^2 h \amp= \frac{1}{2} R^2 H</mrow>
+        <mrow>\frac{h^3 R^2}{H^2} \amp= \frac{1}{2} R^2 H</mrow>
+      </md>
+
+      <p>Then, <m>h</m> is the only variable, so solving for <m>h</m>,</p>
+      <md>
+        <mrow>h^3 \amp= \frac{1}{2} H^3</mrow>
+        <mrow>h \amp= \frac{1}{\sqrt[3]{2}} H</mrow>
+      </md>
+
+      <p>Thus,</p>
+      <me>\boxed{h = \frac{1}{\sqrt[3]{2}} H \approx 0.79H}</me>
+
+      <p>Thus, the glass is half-full when the height of the liquid is about 80% to the top of the glass. That is, the top 1/5 of the glass (in terms of height) accounts for 1/2 of the volume of the glass. This is somewhat unintuitive.</p>
+    </example>
+  </subsection>
+
+</section>

@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-3d-geometry-summary" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Composite Shapes and Summary</title>
+
+  <!-- ============================== -->
+  <subsection xml:id="subsec-formula-summary">
+    <title>Summary of Volume and Surface Area Formulas</title>
+
+    <tabular halign="left">
+      <row header="yes" bottom="minor">
+        <cell></cell>
+        <cell><alert>Surface Area</alert></cell>
+        <cell><alert>Volume</alert></cell>
+      </row>
+      <row>
+        <cell>Rectangular prism (<m>l, w, h</m>)</cell>
+        <cell><m>SA = 2lw + 2lh + 2wh</m></cell>
+        <cell><m>V = lwh</m></cell>
+      </row>
+      <row>
+        <cell>Pyramid (base <m>A</m>, slant <m>s</m>, perimeter <m>P</m>)</cell>
+        <cell><m>SA = \frac{1}{2}sP + A</m></cell>
+        <cell><m>V = \frac{1}{3}Ah</m></cell>
+      </row>
+      <row>
+        <cell>Cylinder (<m>r, h</m>)</cell>
+        <cell><m>SA = 2\pi r^2 + 2\pi rh</m></cell>
+        <cell><m>V = \pi r^2 h</m></cell>
+      </row>
+      <row>
+        <cell>Cone (<m>r, h</m>, slant <m>s</m>)</cell>
+        <cell><m>SA = \pi rs + \pi r^2</m></cell>
+        <cell><m>V = \frac{1}{3}\pi r^2 h</m></cell>
+      </row>
+      <row>
+        <cell>Sphere (<m>r</m>)</cell>
+        <cell><m>SA = 4\pi r^2</m></cell>
+        <cell><m>V = \frac{4}{3}\pi r^3</m></cell>
+      </row>
+    </tabular>
+
+    <remark>
+      <title>The <m>\frac{1}{3}</m> pattern</title>
+      <p>Notice that the pointed shapes (pyramids, cones) always have exactly <m>\frac{1}{3}</m> the volume of their associated flat-topped shape (prisms, cylinders), with the same base and height.</p>
+      <ul>
+        <li><p>A pyramid is <m>\frac{1}{3}</m> of a prism with the same base and height.</p></li>
+        <li><p>A cone is <m>\frac{1}{3}</m> of a cylinder with the same base and height.</p></li>
+      </ul>
+    </remark>
+
+    <tabular halign="left">
+      <row header="yes" bottom="minor">
+        <cell></cell>
+        <cell><alert>Surface Area</alert></cell>
+        <cell><alert>Volume</alert></cell>
+      </row>
+      <row>
+        <cell>Cube (side <m>x</m>)</cell>
+        <cell><m>SA = 6x^2</m></cell>
+        <cell><m>V = x^3</m></cell>
+      </row>
+      <row>
+        <cell>General right prism</cell>
+        <cell><m>SA = 2B + Ph</m></cell>
+        <cell><m>V = Bh</m></cell>
+      </row>
+      <row>
+        <cell>Hemisphere (<m>r</m>)</cell>
+        <cell><m>SA = 3\pi r^2</m></cell>
+        <cell><m>V = \frac{2}{3}\pi r^3</m></cell>
+      </row>
+    </tabular>
+
+    <remark>
+      <p>More relationships:</p>
+      <ul>
+        <li><p><alert>Prism <m>\to</m> Cylinder:</alert> A cylinder is like a prism with a circular base.</p></li>
+        <li><p><alert>Pyramid <m>\to</m> Cone:</alert> A cone is like a pyramid with a circular base.</p></li>
+      </ul>
+    </remark>
+  </subsection>
+
+  <!-- ============================== -->
+  <subsection xml:id="subsec-composite-shapes">
+    <title>Volumes and Surface Areas with Composite Shapes</title>
+
+    <p>Now that we've learned the foundational formulas for basic shapes, we can apply them to more complex objects that are made by combining these shapes together.</p>
+
+    <p>A <term>composite shape</term> is a 3-dimensional object made of two or more basic shapes combined.</p>
+    <ul>
+      <li><p>To find the volume, add the volumes of the parts.</p></li>
+      <li><p>For surface area, be careful to subtract any faces where shapes are joined together, because they are hidden and not part of the outer surface.</p></li>
+    </ul>
+
+    <example>
+      <title>Silo: Cylinder + Hemisphere</title>
+      <p>A grain silo consists of a cylinder with radius 3 m and height 8 m, topped with a hemisphere. Find the total volume.</p>
+
+      <image width="40%">
+        <latex-image>
+          \begin{tikzpicture}[scale=0.55]
+            % Cylinder
+            \draw[thick] (-1.5,0) arc (180:360:1.5 and 0.5);
+            \draw[dashed] (-1.5,0) arc (180:0:1.5 and 0.5);
+            \draw[thick] (-1.5,0) -- (-1.5,4);
+            \draw[thick] (1.5,0) -- (1.5,4);
+            % Hemisphere on top
+            \draw[thick] (-1.5,4) arc (180:360:1.5 and 0.5);
+            \draw[dashed] (-1.5,4) arc (180:0:1.5 and 0.5);
+            \draw[thick] (-1.5,4) arc (180:0:1.5);
+            % Labels
+            \draw[&lt;-&gt;] (0,4) -- (1.5,4) node[midway,above right] {$3$};
+            \draw[&lt;-&gt;] (1.8,0) -- (1.8,4) node[midway,right] {$8$};
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+
+      <p>The volume of the cylinder is,</p>
+      <me>V_{\text{cylinder}} = \pi r^2 h = \pi(3)^2(8) = 72\pi</me>
+      <p>The volume of the hemisphere is,</p>
+      <me>V_{\text{hemisphere}} = \frac{2}{3}\pi r^3 = \frac{2}{3}\pi(3)^3 = \frac{2}{3}\pi(27) = 18\pi</me>
+      <p>The total volume is,</p>
+      <me>V_{\text{total}} = 72\pi + 18\pi = 90\pi \approx 282.7 \text{ m}^3</me>
+    </example>
+
+    <example>
+      <title>Ice Cream Cone + Scoop</title>
+      <p>An ice cream cone has radius 3 cm and height 12 cm. A hemispherical scoop of ice cream (same radius) sits on top. Find the total volume and the total outer surface area.</p>
+
+      <image width="40%">
+        <latex-image>
+          \begin{tikzpicture}[scale=0.5]
+            % Cone (pointing down)
+            \draw[thick] (-1.5,0) arc (180:360:1.5 and 0.5);
+            \draw[dashed] (-1.5,0) arc (180:0:1.5 and 0.5);
+            \draw[thick] (-1.5,0) -- (0,-4.5);
+            \draw[thick] (1.5,0) -- (0,-4.5);
+            % Hemisphere on top
+            \draw[thick] (-1.5,0) arc (180:0:1.5);
+            % Labels
+            \draw[&lt;-&gt;] (0,0) -- (1.5,0) node[midway,below right] {$3$};
+            \node[left] at (-0.2,-2.2) {$12$};
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+
+      <p><alert>Volume:</alert> The cone volume is,</p>
+      <me>V_{\text{cone}} = \frac{1}{3}\pi(3)^2(12) = \frac{108\pi}{3} = 36\pi</me>
+      <p>The hemisphere volume is,</p>
+      <me>V_{\text{hemisphere}} = \frac{2}{3}\pi(3)^3 = 18\pi</me>
+      <p>Total volume: <m>V = 36\pi + 18\pi = 54\pi \approx 169.6 \text{ cm}^3</m>.</p>
+
+      <p><alert>Surface area:</alert> The outer surface consists of the lateral surface of the cone and the curved surface of the hemisphere. The circular face where they join is hidden (not part of the outer surface).</p>
+      <p>First, find the slant height of the cone: <m>s = \sqrt{3^2 + 12^2} = \sqrt{9 + 144} = \sqrt{153} \approx 12.37</m> cm.</p>
+      <md>
+        <mrow>SA_{\text{lateral cone}} \amp= \pi r s = \pi(3)\sqrt{153} = 3\sqrt{153}\,\pi</mrow>
+        <mrow>SA_{\text{curved hemisphere}} \amp= 2\pi r^2 = 2\pi(9) = 18\pi</mrow>
+      </md>
+      <p>Total outer SA: <m>SA = 3\sqrt{153}\,\pi + 18\pi \approx 116.6 + 56.5 \approx 173.2 \text{ cm}^2</m>.</p>
+    </example>
+
+    <example>
+      <title>Pencil: Cylinder + Cone</title>
+      <p>A pencil is modeled as a cylinder of radius 0.4 cm and length 17 cm, with a conical tip of radius 0.4 cm and height 1 cm. Find the total volume.</p>
+
+      <image width="50%">
+        <latex-image>
+          \begin{tikzpicture}[scale=0.6]
+            % Cylinder body
+            \draw[thick] (0,0.5) -- (8,0.5);
+            \draw[thick] (0,-0.5) -- (8,-0.5);
+            \draw[thick] (0,0.5) arc (90:270:0.5);
+            \draw[thick] (8,0.5) arc (90:-90:0.5);
+            % Cone tip
+            \draw[thick] (8,0.5) -- (9.5,0);
+            \draw[thick] (8,-0.5) -- (9.5,0);
+            % Labels
+            \draw[&lt;-&gt;] (0,-0.9) -- (8,-0.9) node[midway,below] {$17$};
+            \draw[&lt;-&gt;] (8,-0.9) -- (9.5,-0.9) node[midway,below] {$1$};
+            \node[left] at (-0.7,0) {$r = 0.4$};
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+
+      <md>
+        <mrow>V_{\text{cylinder}} \amp= \pi(0.4)^2(17) = \pi(0.16)(17) = 2.72\pi</mrow>
+        <mrow>V_{\text{cone}} \amp= \frac{1}{3}\pi(0.4)^2(1) = \frac{1}{3}\pi(0.16) = \frac{0.16\pi}{3} \approx 0.0533\pi</mrow>
+      </md>
+      <p>Total volume: <m>V = 2.72\pi + 0.0533\pi = 2.7733\pi \approx 8.71 \text{ cm}^3</m>.</p>
+    </example>
+
+    <example>
+      <title>Grain Bin: Cylinder + Conical Roof</title>
+      <p>A grain bin is a cylinder with radius 3.5 m and height 4.1 m, topped with a conical roof of height 2.0 m (same radius). Find the total surface area of the bin (including the floor).</p>
+
+      <image width="40%">
+        <latex-image>
+          \begin{tikzpicture}[scale=0.55]
+            % Cylinder
+            \draw[thick] (-1.8,0) arc (180:360:1.8 and 0.6);
+            \draw[dashed] (-1.8,0) arc (180:0:1.8 and 0.6);
+            \draw[thick] (-1.8,0) -- (-1.8,3.5);
+            \draw[thick] (1.8,0) -- (1.8,3.5);
+            % Top ellipse (where cone meets cylinder)
+            \draw[thick] (-1.8,3.5) arc (180:360:1.8 and 0.6);
+            \draw[dashed] (-1.8,3.5) arc (180:0:1.8 and 0.6);
+            % Cone roof
+            \draw[thick] (-1.8,3.5) -- (0,5.5);
+            \draw[thick] (1.8,3.5) -- (0,5.5);
+            % Labels
+            \draw[&lt;-&gt;] (0,3.5) -- (1.8,3.5) node[midway,above right] {$3.5$};
+            \draw[&lt;-&gt;] (2.1,0) -- (2.1,3.5) node[midway,right] {$4.1$};
+            \draw[&lt;-&gt;] (-0.3,3.5) -- (-0.3,5.5) node[midway,left] {$2.0$};
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+
+      <p>The outer surface consists of: the circular floor (<m>\pi r^2</m>), the lateral surface of the cylinder (<m>2\pi rh</m>), and the lateral surface of the cone (<m>\pi rs</m>). The circular face where the cylinder meets the cone is hidden.</p>
+
+      <p>First, find the slant height of the cone: <m>s = \sqrt{3.5^2 + 2.0^2} = \sqrt{12.25 + 4} = \sqrt{16.25} \approx 4.03</m> m.</p>
+      <md>
+        <mrow>SA_{\text{floor}} \amp= \pi(3.5)^2 = 12.25\pi</mrow>
+        <mrow>SA_{\text{lateral cylinder}} \amp= 2\pi(3.5)(4.1) = 28.7\pi</mrow>
+        <mrow>SA_{\text{lateral cone}} \amp= \pi(3.5)(4.03) \approx 14.11\pi</mrow>
+      </md>
+      <p>Total: <m>SA \approx 12.25\pi + 28.7\pi + 14.11\pi = 55.06\pi \approx 173.0 \text{ m}^2</m>.</p>
+    </example>
+
+    <example>
+      <title>Sculpture: Sphere + Cone</title>
+      <p>A sculpture consists of a sphere with diameter 36 cm sitting on top of a cone with diameter 10 cm and height 6 cm. Find the total volume.</p>
+
+      <md>
+        <mrow>V_{\text{sphere}} \amp= \frac{4}{3}\pi(18)^3 = \frac{4}{3}\pi(5832) = 7776\pi</mrow>
+        <mrow>V_{\text{cone}} \amp= \frac{1}{3}\pi(5)^2(6) = \frac{1}{3}\pi(25)(6) = 50\pi</mrow>
+      </md>
+      <p>Total: <m>V = 7776\pi + 50\pi = 7826\pi \approx 24{,}585 \text{ cm}^3</m>.</p>
+    </example>
+  </subsection>
+
+  <!-- ============================== -->
+  <subsection xml:id="subsec-composite-examples">
+    <title>Examples</title>
+
+    <exercise>
+      <title>Rocket Model</title>
+      <statement>
+        <p>A rocket model consists of a cylinder (radius 4 cm, height 20 cm) with a cone on top (same radius, height 6 cm) and a hemisphere on the bottom (same radius). Find the total volume.</p>
+
+        <image width="30%">
+          <latex-image>
+            \begin{tikzpicture}[scale=0.4]
+              % Hemisphere bottom
+              \draw[thick] (-1.5,0) arc (180:360:1.5);
+              \draw[thick] (-1.5,0) arc (180:360:1.5 and 0.5);
+              \draw[dashed] (-1.5,0) arc (180:0:1.5 and 0.5);
+              % Cylinder
+              \draw[thick] (-1.5,0) -- (-1.5,5);
+              \draw[thick] (1.5,0) -- (1.5,5);
+              % Cone on top
+              \draw[thick] (-1.5,5) arc (180:360:1.5 and 0.5);
+              \draw[dashed] (-1.5,5) arc (180:0:1.5 and 0.5);
+              \draw[thick] (-1.5,5) -- (0,7);
+              \draw[thick] (1.5,5) -- (0,7);
+              % Labels
+              \draw[&lt;-&gt;] (1.8,0) -- (1.8,5) node[midway,right] {$20$};
+              \node[right] at (1.8,6) {$6$};
+              \draw[&lt;-&gt;] (0,5) -- (1.5,5) node[midway,above] {$4$};
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+      </statement>
+      <answer><p><m>V_{\text{cyl}} = \pi(16)(20) = 320\pi</m>. <m>V_{\text{cone}} = \frac{1}{3}\pi(16)(6) = 32\pi</m>. <m>V_{\text{hemi}} = \frac{2}{3}\pi(64) = \frac{128\pi}{3}</m>. Total: <m>320\pi + 32\pi + \frac{128\pi}{3} = \frac{960\pi + 96\pi + 128\pi}{3} = \frac{1184\pi}{3} \approx 1239.4 \text{ cm}^3</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Igloo</title>
+      <statement><p>An igloo is modeled as a hemisphere with inner radius 1.5 m. Find the volume of air inside the igloo.</p></statement>
+      <answer><p><m>V = \frac{2}{3}\pi(1.5)^3 = \frac{2}{3}\pi(3.375) = 2.25\pi \approx 7.07 \text{ m}^3</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Grain Terminal</title>
+      <statement><p>A grain terminal is a cylinder (radius 6 m, height 20 m) topped with a cone (same radius, height 4 m). Find the total volume. How many litres of grain can it store?</p></statement>
+      <answer><p><m>V_{\text{cyl}} = \pi(36)(20) = 720\pi</m>. <m>V_{\text{cone}} = \frac{1}{3}\pi(36)(4) = 48\pi</m>. Total: <m>768\pi \approx 2413.3 \text{ m}^3 = 2{,}413{,}274 \text{ L}</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Trophy</title>
+      <statement><p>A trophy consists of a rectangular prism base (<m>8 \times 8 \times 2</m> cm) topped with a cone (radius 3 cm, height 10 cm). Find the total volume.</p></statement>
+      <answer><p><m>V_{\text{prism}} = 8 \times 8 \times 2 = 128</m>. <m>V_{\text{cone}} = \frac{1}{3}\pi(9)(10) = 30\pi \approx 94.2</m>. Total: <m>128 + 30\pi \approx 222.2 \text{ cm}^3</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Popcorn Container (Frustum)</title>
+      <statement>
+        <p>A popcorn container is shaped like a cone (diameter 14 cm, height 20 cm) with the tip cut off. The small opening at the bottom has diameter 6 cm. This shape is called a <term>frustum</term>. Find its volume. Hint: subtract the volume of the small missing cone from the full cone.</p>
+
+        <image width="30%">
+          <latex-image>
+            \begin{tikzpicture}[scale=0.4]
+              % Full cone outline (dashed below)
+              \draw[dashed] (-0.9,-2.5) -- (0,-5.5);
+              \draw[dashed] (0.9,-2.5) -- (0,-5.5);
+              % Frustum
+              \draw[thick] (-2,0) arc (180:360:2 and 0.6);
+              \draw[dashed] (-2,0) arc (180:0:2 and 0.6);
+              \draw[thick] (-0.9,-2.5) arc (180:360:0.9 and 0.3);
+              \draw[dashed] (-0.9,-2.5) arc (180:0:0.9 and 0.3);
+              \draw[thick] (-2,0) -- (-0.9,-2.5);
+              \draw[thick] (2,0) -- (0.9,-2.5);
+              % Labels
+              \draw[&lt;-&gt;] (-2,0.8) -- (2,0.8) node[midway,above] {$14$};
+              \draw[&lt;-&gt;] (-0.9,-3.2) -- (0.9,-3.2) node[midway,below] {$6$};
+              \draw[&lt;-&gt;] (2.3,0) -- (2.3,-2.5) node[midway,right] {$20$};
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+      </statement>
+      <answer><p>By similar triangles, the full cone has height <m>H</m>: <m>\frac{7}{H} = \frac{3}{H-20}</m>, so <m>7(H-20) = 3H</m>, <m>4H = 140</m>, <m>H = 35</m> cm. The small cone has height <m>35 - 20 = 15</m> cm and radius 3 cm. <m>V_{\text{full}} = \frac{1}{3}\pi(49)(35) = \frac{1715\pi}{3}</m>. <m>V_{\text{small}} = \frac{1}{3}\pi(9)(15) = 45\pi</m>. <m>V_{\text{frustum}} = \frac{1715\pi}{3} - 45\pi = \frac{1715\pi - 135\pi}{3} = \frac{1580\pi}{3} \approx 1654.5 \text{ cm}^3</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Cylinder with Two Hemispheres</title>
+      <statement><p>A container is shaped like a cylinder (diameter 6 cm, height 10 cm) with a hemisphere on each end. Find the total volume and surface area.</p></statement>
+      <answer><p><m>r = 3</m>. <m>V_{\text{cyl}} = \pi(9)(10) = 90\pi</m>. Two hemispheres <m>= 1</m> full sphere: <m>V_{\text{sphere}} = \frac{4}{3}\pi(27) = 36\pi</m>. Total <m>V = 126\pi \approx 395.8 \text{ cm}^3</m>. For SA: the cylindrical lateral surface <m>= 2\pi(3)(10) = 60\pi</m>, plus the sphere surface <m>= 4\pi(9) = 36\pi</m>. Total <m>SA = 96\pi \approx 301.6 \text{ cm}^2</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Cylinder + Cone SA</title>
+      <statement>
+        <p>Find the SA of a composite shape: a cylinder (radius 3 cm, height 5 cm) topped with a cone (same radius, height 5 cm).</p>
+
+        <image width="30%">
+          <latex-image>
+            \begin{tikzpicture}[scale=0.45]
+              \draw[thick] (-1.5,0) arc (180:360:1.5 and 0.5);
+              \draw[dashed] (-1.5,0) arc (180:0:1.5 and 0.5);
+              \draw[thick] (-1.5,0) -- (-1.5,3);
+              \draw[thick] (1.5,0) -- (1.5,3);
+              \draw[thick] (-1.5,3) arc (180:360:1.5 and 0.5);
+              \draw[dashed] (-1.5,3) arc (180:0:1.5 and 0.5);
+              \draw[thick] (-1.5,3) -- (0,5.5);
+              \draw[thick] (1.5,3) -- (0,5.5);
+              \draw[&lt;-&gt;] (0,3) -- (1.5,3) node[midway,above right] {$3$};
+              \draw[&lt;-&gt;] (1.8,0) -- (1.8,3) node[midway,right] {$5$};
+              \draw[&lt;-&gt;] (-0.3,3) -- (-0.3,5.5) node[midway,left] {$5$};
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+      </statement>
+      <answer><p>The outer surface is: base (<m>\pi r^2</m>), lateral cylinder (<m>2\pi rh</m>), and lateral cone (<m>\pi rs</m>). The circle where the cylinder meets the cone is hidden. Slant: <m>s = \sqrt{3^2 + 5^2} = \sqrt{34} \approx 5.83</m> cm. <m>SA = \pi(9) + 2\pi(3)(5) + \pi(3)(5.83) = 9\pi + 30\pi + 17.5\pi = 56.5\pi \approx 177.4 \text{ cm}^2</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Cone on Hemisphere</title>
+      <statement><p>A composite shape consists of a cone (radius 4 in, total shape height 17 in) sitting on top of a hemisphere (same radius). Find the volume and outer surface area.</p></statement>
+      <answer><p>Hemisphere height <m>= r = 4</m> in, so cone height <m>= 17 - 4 = 13</m> in. Cone slant: <m>s = \sqrt{16 + 169} = \sqrt{185} \approx 13.60</m> in. <m>V = \frac{1}{3}\pi(16)(13) + \frac{2}{3}\pi(64) = \frac{208\pi}{3} + \frac{128\pi}{3} = \frac{336\pi}{3} = 112\pi \approx 351.9 \text{ in}^3</m>. <m>SA = \pi(4)(13.60) + 2\pi(16) = 54.4\pi + 32\pi = 86.4\pi \approx 271.4 \text{ in}^2</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Sphere Inside a Cube</title>
+      <statement><p>A sphere is placed inside a cube with edge length 5.8 cm (so the sphere just touches all 6 faces). Find the volume of the air space between the sphere and the cube.</p></statement>
+      <answer><p>The sphere has diameter <m>= 5.8</m> cm, so <m>r = 2.9</m>. <m>V_{\text{cube}} = 5.8^3 = 195.1 \text{ cm}^3</m>. <m>V_{\text{sphere}} = \frac{4}{3}\pi(2.9)^3 = \frac{4}{3}\pi(24.389) \approx 102.2 \text{ cm}^3</m>. Air space <m>= 195.1 - 102.2 = 93.0 \text{ cm}^3</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Building with Pyramid Roof</title>
+      <statement><p>A building consists of a rectangular prism (base <m>10 \text{ m} \times 10 \text{ m}</m>, height 17 m) topped with a square pyramid (same base, slant height 13 m). Find the total outer surface area (not including the floor).</p></statement>
+      <answer><p>Pyramid height: <m>h = \sqrt{13^2 - 5^2} = \sqrt{144} = 12</m> m. Outer surface: 4 prism walls (<m>4 \times 10 \times 17 = 680</m>), 4 triangular faces (<m>4 \times \frac{1}{2}(10)(13) = 260</m>). No floor, no top of prism (hidden). <m>SA = 680 + 260 = 940 \text{ m}^2</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Capsule</title>
+      <statement><p>A capsule is a cylinder (radius 3 cm) with a hemisphere on each end. The total length is 8.5 cm. Find V and SA.</p></statement>
+      <answer><p>Cylinder height <m>= 8.5 - 2(3) = 2.5</m> cm. <m>V = \pi(9)(2.5) + \frac{4}{3}\pi(27) = 22.5\pi + 36\pi = 58.5\pi \approx 183.8 \text{ cm}^3</m>. <m>SA = 2\pi(3)(2.5) + 4\pi(9) = 15\pi + 36\pi = 51\pi \approx 160.2 \text{ cm}^2</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Square Prism + Pyramid</title>
+      <statement><p>A square prism (<m>1 \text{ m} \times 1 \text{ m} \times 2 \text{ m}</m>) is topped with a square pyramid of slant height 1.5 m. Find the SA and V.</p></statement>
+      <answer><p>Pyramid height: <m>h = \sqrt{1.5^2 - 0.5^2} = \sqrt{2.0} \approx 1.414</m> m. <m>V_{\text{prism}} = 1 \times 1 \times 2 = 2</m>. <m>V_{\text{pyramid}} = \frac{1}{3}(1)(1.414) \approx 0.471</m>. Total <m>V \approx 2.47 \text{ m}^3</m>. <m>SA</m>: base (1) + 4 walls (<m>4 \times 1 \times 2 = 8</m>) + 4 tri faces (<m>4 \times \frac{1}{2}(1)(1.5) = 3</m>). Total <m>SA = 1 + 8 + 3 = 12 \text{ m}^2</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Concrete Frustum</title>
+      <statement><p>A concrete test uses a truncated cone (a frustum): bottom diameter 200 mm, top diameter 100 mm, height 300 mm. The full cone (before truncation) has height 600 mm. Find the volume of the frustum.</p></statement>
+      <answer><p>Full cone: <m>r = 100</m> mm, <m>h = 600</m> mm. <m>V_{\text{full}} = \frac{1}{3}\pi(10{,}000)(600) = 2{,}000{,}000\pi</m> mm<m>^3</m>. Small cone removed: <m>r = 50</m> mm, <m>h = 300</m> mm. <m>V_{\text{small}} = \frac{1}{3}\pi(2500)(300) = 250{,}000\pi</m> mm<m>^3</m>. <m>V_{\text{frustum}} = 1{,}750{,}000\pi \approx 5{,}497{,}787 \text{ mm}^3 \approx 5497.8 \text{ cm}^3</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Prism with Pyramid Removed</title>
+      <statement><p>A right square prism has base <m>10 \text{ cm} \times 10 \text{ cm}</m> and height 15 cm. A right square pyramid with the same base and height 6 cm is <em>removed</em> from the top of the prism. Find the volume of the remaining solid.</p></statement>
+      <answer><p><m>V_{\text{prism}} = 10 \times 10 \times 15 = 1500 \text{ cm}^3</m>. <m>V_{\text{pyramid}} = \frac{1}{3}(100)(6) = 200 \text{ cm}^3</m>. Remaining: <m>1500 - 200 = 1300 \text{ cm}^3</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Cylinder with Hemisphere Removed</title>
+      <statement><p>A right cylinder has radius 1.5 m and height 4.0 m. A hemisphere with the same radius is <em>removed</em> from one end. Find the volume of the remaining solid.</p></statement>
+      <answer><p><m>V_{\text{cyl}} = \pi(1.5)^2(4.0) = 9\pi \approx 28.3 \text{ m}^3</m>. <m>V_{\text{hemi}} = \frac{2}{3}\pi(1.5)^3 = \frac{2}{3}\pi(3.375) = 2.25\pi \approx 7.1 \text{ m}^3</m>. Remaining: <m>9\pi - 2.25\pi = 6.75\pi \approx 21.2 \text{ m}^3</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Igloo with Tunnel</title>
+      <statement>
+        <p>An igloo approximates a hemisphere with base diameter 4.0 m. An entrance tunnel, approximating half a cylinder, extends 0.8 m outward with an external radius of 0.8 m. Find the total outer surface area of the igloo and tunnel (not including the floor or openings).</p>
+        <p>Hint: the igloo is the curved surface of a hemisphere (minus the tunnel opening). The tunnel is a half-cylinder (lateral surface on top, plus two semicircular ends, minus the opening into the igloo).</p>
+      </statement>
+      <answer><p>Igloo curved SA <m>= 2\pi(2.0)^2 = 8\pi \approx 25.1 \text{ m}^2</m>. Tunnel opening in hemisphere <m>\approx \frac{1}{2}\pi(0.8)^2 \approx 1.0 \text{ m}^2</m>. Tunnel top (half lateral cylinder) <m>= \frac{1}{2} \times 2\pi(0.8)(0.8) = 0.64\pi \approx 2.0 \text{ m}^2</m>. Tunnel end semicircle <m>= \frac{1}{2}\pi(0.8)^2 \approx 1.0 \text{ m}^2</m>. Total <m>\approx 25.1 - 1.0 + 2.0 + 1.0 \approx 27.1 \text{ m}^2</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Photography Light Tent</title>
+      <statement><p>A photography light tent is cylindrical with a conical roof. The diameter of the tent is 1 m, the total height is 190 cm, and the cylindrical wall is 135 cm high. Find the surface area of the tent (not including the floor), to the nearest tenth of a square metre.</p></statement>
+      <answer><p><m>r = 0.5</m> m, cone height <m>= 1.90 - 1.35 = 0.55</m> m. Slant: <m>s = \sqrt{0.5^2 + 0.55^2} = \sqrt{0.5525} \approx 0.743</m> m. <m>SA = 2\pi(0.5)(1.35) + \pi(0.5)(0.743) = 1.35\pi + 0.3715\pi = 1.7215\pi \approx 5.4 \text{ m}^2</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Ice Sculpture Mould</title>
+      <introduction><p>An ice sculpture mould forms a composite object: a right cylinder (base diameter 15 in., height 3 in.) topped with a right cone (same base diameter, height 9 in.).</p></introduction>
+      <task>
+        <statement><p>Find the volume of the sculpture to the nearest cubic inch.</p></statement>
+        <answer><p><m>r = 7.5</m>. <m>V_{\text{cyl}} = \pi(56.25)(3) = 168.75\pi</m>. <m>V_{\text{cone}} = \frac{1}{3}\pi(56.25)(9) = 168.75\pi</m>. Total <m>= 337.5\pi \approx 1060 \text{ in}^3</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p>The sculpture is carved from a block of ice measuring <m>16 \text{ in.} \times 15 \text{ in.} \times 12 \text{ in.}</m> How much ice remains after carving?</p></statement>
+        <answer><p><m>V_{\text{block}} = 16 \times 15 \times 12 = 2880</m>. Ice remaining <m>= 2880 - 1060 = 1820 \text{ in}^3</m>.</p></answer>
+      </task>
+    </exercise>
+
+    <exercise>
+      <title>Sandcastle</title>
+      <introduction><p>A sandcastle consists of a rectangular prism (base 75 cm <m>\times</m> 50 cm, height 30 cm) with 4 congruent cones on top. Each cone has base diameter 10 cm and slant height 15 cm.</p></introduction>
+      <task>
+        <statement><p>Find the volume of sand required.</p></statement>
+        <answer><p>Each cone: <m>r = 5</m>, <m>h = \sqrt{15^2 - 5^2} = \sqrt{200} \approx 14.14</m> cm. <m>V_{\text{prism}} = 75(50)(30) = 112{,}500</m>. Each <m>V_{\text{cone}} = \frac{1}{3}\pi(25)(14.14) \approx 370</m>. Total <m>V \approx 112{,}500 + 4(370) \approx 113{,}981 \text{ cm}^3</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p>Find the outer surface area of the castle (not including the base).</p></statement>
+        <answer><p>4 walls <m>= 2(75)(30) + 2(50)(30) = 7500</m>. Top face minus 4 cone bases <m>= 3750 - 4\pi(25) = 3750 - 100\pi</m>. 4 cone laterals <m>= 4\pi(5)(15) = 300\pi</m>. <m>SA = 7500 + 3750 - 100\pi + 300\pi = 11{,}250 + 200\pi \approx 11{,}878 \text{ cm}^2</m>.</p></answer>
+      </task>
+    </exercise>
+
+    <exercise>
+      <title>Comparing Grain Bins</title>
+      <statement><p>Two grain storage bins are being compared. Bin A has a square base (side 15 ft), walls 10 ft high, and a pyramidal roof of height 4 ft. Bin B is a cylinder (diameter 12 ft), walls 8 ft high, with a conical roof of height 3 ft. Which bin holds more grain?</p></statement>
+      <answer><p><m>V_A = 15^2(10) + \frac{1}{3}(225)(4) = 2250 + 300 = 2550 \text{ ft}^3</m>. <m>V_B = \pi(6)^2(8) + \frac{1}{3}\pi(36)(3) = 288\pi + 36\pi = 324\pi \approx 1018 \text{ ft}^3</m>. Bin A holds significantly more grain.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Model Rocket</title>
+      <introduction><p>A model rocket has a cylindrical body 55 cm long with radius 6 cm, and a cone-shaped nose with slant height 12 cm (same radius).</p></introduction>
+      <task>
+        <statement><p>Find the surface area of the rocket.</p></statement>
+        <answer><p>Cone height: <m>h = \sqrt{12^2 - 6^2} = \sqrt{108} \approx 10.39</m> cm. <m>SA</m>: base <m>= \pi(36) = 36\pi</m>, lateral cylinder <m>= 2\pi(6)(55) = 660\pi</m>, lateral cone <m>= \pi(6)(12) = 72\pi</m>. Total <m>SA = 768\pi \approx 2413 \text{ cm}^2</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p>Find the total volume of the rocket.</p></statement>
+        <answer><p><m>V_{\text{cyl}} = \pi(36)(55) = 1980\pi</m>. <m>V_{\text{cone}} = \frac{1}{3}\pi(36)(10.39) = 124.7\pi</m>. Total <m>V = 2104.7\pi \approx 6612 \text{ cm}^3</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p>One-third of the interior is used for fuel. How much fuel can the rocket hold?</p></statement>
+        <answer><p>Fuel <m>= \frac{1}{3}(6612) \approx 2204 \text{ cm}^3 \approx 2.2</m> L.</p></answer>
+      </task>
+    </exercise>
+
+    <exercise>
+      <title>Astronomical Observatory</title>
+      <statement><p>An astronomical observatory has a cylindrical base with diameter 20.1 m and height 9.8 m, topped with a hemispherical dome of the same diameter. Find the total volume of the building.</p></statement>
+      <answer><p><m>r = 10.05</m>. <m>V_{\text{cyl}} = \pi(10.05)^2(9.8) = 989.8\pi</m>. <m>V_{\text{hemi}} = \frac{2}{3}\pi(10.05)^3 = 676.7\pi</m>. Total <m>= 1666.5\pi \approx 5236 \text{ m}^3</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Cone: Find the Height from SA</title>
+      <statement>
+        <p>A right cone has total surface area <m>215.3 \text{ ft}^2</m> and base radius 5.2 ft. Find the height of the cone.</p>
+        <p>Hint: use <m>SA = \pi r s + \pi r^2</m> to find the slant height <m>s</m>, then use <m>h = \sqrt{s^2 - r^2}</m>.</p>
+      </statement>
+      <answer><p><m>215.3 = \pi(5.2)s + \pi(5.2)^2 = 5.2\pi s + 27.04\pi</m>. So <m>5.2\pi s = 215.3 - 84.9 = 130.4</m>, giving <m>s = \frac{130.4}{5.2\pi} \approx 7.98</m> ft. <m>h = \sqrt{7.98^2 - 5.2^2} = \sqrt{63.7 - 27.0} = \sqrt{36.6} \approx 6.1</m> ft.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Sphere: Find SA from Volume</title>
+      <statement><p>A sphere has volume <m>4.5 \text{ m}^3</m>. Find its surface area.</p></statement>
+      <answer><p><m>\frac{4}{3}\pi r^3 = 4.5</m>, so <m>r^3 = \frac{4.5 \times 3}{4\pi} = \frac{13.5}{4\pi} \approx 1.074</m>, <m>r \approx 1.024</m> m. <m>SA = 4\pi(1.024)^2 \approx 4\pi(1.049) \approx 13.2 \text{ m}^2</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Doghouse</title>
+      <statement><p>A doghouse is a right square prism (base side 50 in., wall height 36 in.) with a pyramidal roof (slant height 30 in.). Find the total surface area of the doghouse, including the floor but not including any doorway.</p></statement>
+      <answer><p>Floor <m>= 50^2 = 2500</m>. 4 walls <m>= 4(50)(36) = 7200</m>. 4 roof triangles <m>= 4 \times \frac{1}{2}(50)(30) = 3000</m>. Total <m>SA = 2500 + 7200 + 3000 = 12{,}700 \text{ in}^2</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Square Pyramid V and Slant Height</title>
+      <statement><p>A square pyramid has base side 15 cm and height 20 cm. Find its volume and slant height.</p></statement>
+      <answer><p><m>V = \frac{1}{3}(225)(20) = 1500 \text{ cm}^3</m>. <m>s = \sqrt{20^2 + 7.5^2} = \sqrt{400 + 56.25} = \sqrt{456.25} \approx 21.4</m> cm.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Cone: Find Height from Volume</title>
+      <statement><p>A cone has volume <m>314 \text{ cm}^3</m> and radius 5 cm. Find the height.</p></statement>
+      <answer><p><m>314 = \frac{1}{3}\pi(25)h</m>, so <m>h = \frac{314 \times 3}{25\pi} = \frac{942}{25\pi} \approx 12.0</m> cm.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Sphere: Find Volume from SA</title>
+      <statement><p>A sphere has surface area <m>900\pi \text{ cm}^2</m>. Find its volume.</p></statement>
+      <answer><p><m>4\pi r^2 = 900\pi</m>, so <m>r^2 = 225</m>, <m>r = 15</m>. <m>V = \frac{4}{3}\pi(3375) = 4500\pi \approx 14{,}137.2 \text{ cm}^3</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Tennis Balls in a Cylinder</title>
+      <statement>
+        <p>Three tennis balls (each with diameter 6.5 cm) fit snugly inside a cylindrical container. Find the volume of empty space inside the container.</p>
+
+        <image width="30%">
+          <latex-image>
+            \begin{tikzpicture}[scale=0.45]
+              % Cylinder
+              \draw[thick] (-1.5,0) arc (180:360:1.5 and 0.5);
+              \draw[dashed] (-1.5,0) arc (180:0:1.5 and 0.5);
+              \draw[thick] (-1.5,0) -- (-1.5,7);
+              \draw[thick] (1.5,0) -- (1.5,7);
+              \draw[thick] (-1.5,7) arc (180:360:1.5 and 0.5);
+              \draw[thick] (-1.5,7) arc (180:0:1.5 and 0.5);
+              % Three balls
+              \draw[thick] (0,1.1) circle (1.1);
+              \draw[thick] (0,3.5) circle (1.1);
+              \draw[thick] (0,5.9) circle (1.1);
+              % Labels
+              \draw[&lt;-&gt;] (-1.5,7.8) -- (1.5,7.8) node[midway,above] {$6.5$};
+              \draw[&lt;-&gt;] (1.8,0) -- (1.8,7) node[midway,right] {$19.5$};
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+      </statement>
+      <answer><p><m>r = 3.25</m> cm, cylinder height <m>= 3 \times 6.5 = 19.5</m> cm. <m>V_{\text{cyl}} = \pi(3.25)^2(19.5) = \pi(10.5625)(19.5) = 205.97\pi</m>. <m>V_{3 \text{ balls}} = 3 \times \frac{4}{3}\pi(3.25)^3 = 4\pi(34.328) = 137.31\pi</m>. Empty space <m>= 205.97\pi - 137.31\pi = 68.66\pi \approx 215.7 \text{ cm}^3</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Mine Shaft</title>
+      <statement><p>A mine shaft is modeled as an inverted cone with diameter 50 m and depth 80 m. How many cubic metres of earth were removed?</p></statement>
+      <answer><p><m>r = 25</m>. <m>V = \frac{1}{3}\pi(625)(80) = \frac{50000\pi}{3} \approx 52{,}360 \text{ m}^3</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Half-Full Cylinder</title>
+      <statement><p>A cylindrical can (diameter 10 cm, height 15 cm) is lying on its side and is half-full of water. What is the volume of water?</p></statement>
+      <answer><p>Half the cylinder volume: <m>V = \frac{1}{2}\pi(5)^2(15) = \frac{375\pi}{2} \approx 589.0 \text{ cm}^3</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Painting a Dome</title>
+      <statement><p>A hemispherical dome has diameter 12 m. The dome is to be painted on the outside. If one can of paint covers <m>25 \text{ m}^2</m>, how many cans are needed?</p></statement>
+      <answer><p>Curved SA <m>= 2\pi(6)^2 = 72\pi \approx 226.2 \text{ m}^2</m>. Cans needed: <m>\frac{226.2}{25} \approx 9.05</m>, so 10 cans.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Maximizing Volume</title>
+      <introduction><p>You have <m>500 \text{ cm}^2</m> of material to cover one solid shape. What is the maximum volume you can achieve for each shape?</p></introduction>
+      <task>
+        <statement><p>A cube.</p></statement>
+        <answer><p><m>6x^2 = 500</m>, so <m>x^2 = 83.33</m>, <m>x \approx 9.13</m> cm. <m>V = 9.13^3 \approx 761 \text{ cm}^3</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p>A sphere.</p></statement>
+        <answer><p><m>4\pi r^2 = 500</m>, so <m>r^2 = \frac{500}{4\pi} \approx 39.79</m>, <m>r \approx 6.31</m> cm. <m>V = \frac{4}{3}\pi(6.31)^3 \approx 1052 \text{ cm}^3</m>. The sphere gives a larger volume for the same surface area.</p></answer>
+      </task>
+    </exercise>
+
+    <exercise>
+      <title>Popcorn Container Comparison</title>
+      <statement><p>A theatre has two sizes of cylindrical popcorn containers. The small one is 18 cm tall with diameter 14 cm. The large one is 16 cm tall with diameter 16 cm. Verify that the <q>large</q> container actually holds more popcorn.</p></statement>
+      <answer><p><m>V_{\text{small}} = \pi(7)^2(18) = 882\pi \approx 2771 \text{ cm}^3</m>. <m>V_{\text{large}} = \pi(8)^2(16) = 1024\pi \approx 3217 \text{ cm}^3</m>. The large container holds about <m>16\%</m> more.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Cylindrical Grain Terminal</title>
+      <introduction><p>A cylindrical grain terminal has height 40 m and inside diameter 11.7 m.</p></introduction>
+      <task>
+        <statement><p>What is its storage capacity in cubic metres?</p></statement>
+        <answer><p><m>r = 5.85</m>. <m>V = \pi(34.22)(40) = 1368.9\pi \approx 4299 \text{ m}^3</m>.</p></answer>
+      </task>
+      <task>
+        <statement><p>If a small grain truck has a rectangular box measuring <m>5 \text{ m} \times 1.5 \text{ m} \times 2.4 \text{ m}</m>, how many truckloads can one tower hold?</p></statement>
+        <answer><p>Truck volume <m>= 5 \times 1.5 \times 2.4 = 18 \text{ m}^3</m>. Truckloads <m>= \frac{4299}{18} \approx 239</m>.</p></answer>
+      </task>
+    </exercise>
+
+    <exercise>
+      <title>Mineral Deposit</title>
+      <statement><p>A mineral deposit is approximately cone-shaped, with a surface area of <m>50{,}000 \text{ m}^2</m> at ground level and a depth of 2 km (2000 m). Estimate the volume of the deposit (treating it as a cone with the given base area and height).</p></statement>
+      <answer><p><m>V = \frac{1}{3}(50{,}000)(2000) = \frac{100{,}000{,}000}{3} \approx 33{,}333{,}333 \text{ m}^3</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Recycling Bales</title>
+      <introduction><p>A recycling depot makes rectangular bales measuring <m>5 \text{ ft} \times 4 \text{ ft} \times 3 \text{ ft}</m>. A new machine makes cylindrical bales with the same volume and height 5 ft.</p></introduction>
+      <task>
+        <statement><p>What is the diameter of the cylindrical bales?</p></statement>
+        <answer><p><m>V = 5 \times 4 \times 3 = 60 \text{ ft}^3</m>. <m>\pi r^2(5) = 60</m>, so <m>r^2 = \frac{12}{\pi} \approx 3.82</m>, <m>r \approx 1.95</m> ft, <m>d \approx 3.9</m> ft.</p></answer>
+      </task>
+      <task>
+        <statement><p>Which type of bale has less surface area?</p></statement>
+        <answer><p><m>SA_{\text{rect}} = 2(20 + 15 + 12) = 94 \text{ ft}^2</m>. <m>SA_{\text{cyl}} = 2\pi(3.82) + 2\pi(1.95)(5) = 24 + 61.3 \approx 85.3 \text{ ft}^2</m>. The cylindrical bale uses less material.</p></answer>
+      </task>
+    </exercise>
+
+    <exercise>
+      <title>Drink Can Diameter Range</title>
+      <statement><p>A drink can has a height of 14 cm and must hold between 250 mL and 285 mL. What range of diameters is possible for the can? (Recall: 1 mL <m>= 1 \text{ cm}^3</m>.)</p></statement>
+      <answer><p><m>V = \pi r^2(14)</m>. For 250: <m>r^2 = \frac{250}{14\pi} \approx 5.68</m>, <m>r \approx 2.38</m>, <m>d \approx 4.8</m> cm. For 285: <m>r^2 = \frac{285}{14\pi} \approx 6.48</m>, <m>r \approx 2.55</m>, <m>d \approx 5.1</m> cm. The diameter must be between approximately 4.8 cm and 5.1 cm.</p></answer>
+    </exercise>
+  </subsection>
+
+</section>

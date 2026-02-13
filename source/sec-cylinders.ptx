@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-cylinders" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Cylinders</title>
+
+  <introduction>
+    <p>A cylinder has 2 circular bases and a curved side connecting them. A cylinder is a special type of prism, where its base is a circle, instead of a rectangle, triangle, or another polygon.</p>
+
+    <image width="60%">
+      <latex-image>
+        \begin{tikzpicture}[scale=0.6]
+          % Square prism
+          % Front face
+          \draw[thick] (0,0) -- (2,0) -- (2,3) -- (0,3) -- cycle;
+          % Back face - visible edges (top, right)
+          \draw[thick] (0.8,3.6) -- (2.8,3.6) -- (2.8,0.6);
+          % Back face - hidden edges (bottom, left)
+          \draw[dashed] (0.8,0.6) -- (2.8,0.6);
+          \draw[dashed] (0.8,0.6) -- (0.8,3.6);
+          % Connecting edges - visible
+          \draw[thick] (2,0) -- (2.8,0.6);
+          \draw[thick] (2,3) -- (2.8,3.6);
+          \draw[thick] (0,3) -- (0.8,3.6);
+          % Connecting edge - hidden
+          \draw[dashed] (0,0) -- (0.8,0.6);
+          \node[below] at (1.4,-0.5) {prism with square base};
+
+          % Arrow
+          \draw[-&gt;, thick] (5.5,1.8) -- (8,1.8);
+
+          % Cylinder
+          \draw[thick] (10,0) arc (180:360:1.3 and 0.5);
+          \draw[dashed] (10,0) arc (180:0:1.3 and 0.5);
+          \draw[thick] (10,3.5) arc (180:360:1.3 and 0.5);
+          \draw[thick] (10,3.5) arc (180:0:1.3 and 0.5);
+          \draw[thick] (10,0) -- (10,3.5);
+          \draw[thick] (12.6,0) -- (12.6,3.5);
+          \node[below] at (11.3,-0.5) {prism with circular base = cylinder};
+        \end{tikzpicture}
+      </latex-image>
+    </image>
+  </introduction>
+
+  <!-- ============================== -->
+  <subsection xml:id="subsec-cylinder-volume">
+    <title>Volume of a Cylinder</title>
+
+    <p>A cylinder has 2 primary dimensions: the radius of its base <m>r</m>, and its height <m>h</m>.</p>
+
+    <image width="30%">
+      <latex-image>
+        \begin{tikzpicture}[scale=0.8]
+          % Bottom ellipse
+          \draw[thick] (-1.8,0) arc (180:360:1.8 and 0.6);
+          \draw[dashed] (-1.8,0) arc (180:0:1.8 and 0.6);
+          % Top ellipse
+          \draw[thick] (-1.8,4) arc (180:360:1.8 and 0.6);
+          \draw[thick] (-1.8,4) arc (180:0:1.8 and 0.6);
+          % Sides
+          \draw[thick] (-1.8,0) -- (-1.8,4);
+          \draw[thick] (1.8,0) -- (1.8,4);
+          % Dimension arrows
+          \draw[&lt;-&gt;] (0,4.9) -- (1.8,4.9) node[midway, above] {$r$};
+          \draw[&lt;-&gt;] (2.2,0) -- (2.2,4) node[midway, right] {$h$};
+        \end{tikzpicture}
+      </latex-image>
+    </image>
+
+    <p>Recall that the volume of a prism is <m>V = Bh</m>, where <m>B</m> is the area of the base and <m>h</m> is its height.</p>
+
+    <p>For a cylinder, the base is a circle with area <m>\pi r^2</m>, so we get,</p>
+    <md>
+      <mrow>V \amp= \underbrace{\pi r^2}_{\text{area of base}} \cdot \underbrace{h}_{\text{height}}</mrow>
+      <mrow>\amp= \pi r^2 h</mrow>
+    </md>
+
+    <p>The volume of a cylinder is,</p>
+    <me>\boxed{V_{\text{cylinder}} = \pi r^2 h \quad \begin{cases} r \rightarrow \text{radius} \\ h \rightarrow \text{height} \end{cases}}</me>
+
+    <example>
+      <title>Volume of a Cylinder</title>
+      <p>Find the volume of a cylinder with radius 5 cm and height 8 cm.</p>
+      <image width="30%">
+        <latex-image>
+          \begin{tikzpicture}[scale=0.5]
+            \draw[thick] (-1.8,0) arc (180:360:1.8 and 0.6);
+            \draw[dashed] (-1.8,0) arc (180:0:1.8 and 0.6);
+            \draw[thick] (-1.8,0) -- (-1.8,3.5);
+            \draw[thick] (1.8,0) -- (1.8,3.5);
+            \draw[thick] (-1.8,3.5) arc (180:360:1.8 and 0.6);
+            \draw[thick] (-1.8,3.5) arc (180:0:1.8 and 0.6);
+            \draw[&lt;-&gt;] (0,4.5) -- (1.8,4.5) node[midway,above] {5};
+            \draw[&lt;-&gt;] (2.1,0) -- (2.1,3.5) node[midway,right] {8};
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+      <p>Plug in <m>r = 5</m> and <m>h = 8</m> into the formula,</p>
+      <md>
+        <mrow>V \amp= \pi r^2 h</mrow>
+        <mrow>\amp= \pi(5)^2(8)</mrow>
+        <mrow>\amp= \pi(25)(8)</mrow>
+        <mrow>\amp= 200\pi</mrow>
+        <mrow>\amp\approx 628.3 \text{ cm}^3</mrow>
+      </md>
+    </example>
+
+    <example>
+      <title>Application: Water Tank</title>
+      <p>A cylindrical water tank has diameter 2 m and height 3 m. How many litres of water can it hold?</p>
+      <image width="30%">
+        <latex-image>
+          \begin{tikzpicture}[scale=0.6]
+            \draw[thick] (-1.5,0) arc (180:360:1.5 and 0.5);
+            \draw[dashed] (-1.5,0) arc (180:0:1.5 and 0.5);
+            \draw[thick] (-1.5,0) -- (-1.5,4);
+            \draw[thick] (1.5,0) -- (1.5,4);
+            \draw[thick] (-1.5,4) arc (180:360:1.5 and 0.5);
+            \draw[thick] (-1.5,4) arc (180:0:1.5 and 0.5);
+            \draw[&lt;-&gt;] (-1.5,4.8) -- (1.5,4.8) node[midway,above] {2};
+            \draw[&lt;-&gt;] (1.8,0) -- (1.8,4) node[midway,right] {3};
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+      <p>First, the radius is <m>r = \frac{d}{2} = \frac{2}{2} = 1</m> m. The volume is,</p>
+      <md>
+        <mrow>V \amp= \pi r^2 h</mrow>
+        <mrow>\amp= \pi(1)^2(3)</mrow>
+        <mrow>\amp= 3\pi</mrow>
+        <mrow>\amp\approx 9.425 \text{ m}^3</mrow>
+      </md>
+      <p>Since <m>1 \text{ m}^3 = 1000 \text{ L}</m>,</p>
+      <me>V \approx 9.425 \times 1000 = 9425 \text{ L}</me>
+      <p>The tank can hold approximately 9425 litres of water.</p>
+    </example>
+  </subsection>
+
+  <!-- ============================== -->
+  <subsection xml:id="subsec-cylinder-surface-area">
+    <title>Surface Area of a Cylinder</title>
+
+    <p>To find the surface area of a cylinder, imagine <q>unrolling</q> it flat into a net (the 2D flattened version).</p>
+
+    <image width="70%">
+      <latex-image>
+        \begin{tikzpicture}[scale=0.7]
+          % Cylinder
+          \draw[thick] (-1.5,0) arc (180:360:1.5 and 0.5);
+          \draw[dashed] (-1.5,0) arc (180:0:1.5 and 0.5);
+          \draw[thick] (-1.5,0) -- (-1.5,4);
+          \draw[thick] (1.5,0) -- (1.5,4);
+          \draw[thick] (-1.5,4) arc (180:360:1.5 and 0.5);
+          \draw[thick] (-1.5,4) arc (180:0:1.5 and 0.5);
+          % Labels
+          \draw[&lt;-&gt;] (0,5) -- (1.5,5) node[midway,above] {$r$};
+          \draw[&lt;-&gt;] (1.8,0) -- (1.8,4) node[midway,right] {$h$};
+
+          % Arrow
+          \draw[-&gt;, thick] (3,2) -- (4.5,2);
+
+          % Unrolled rectangle
+          \draw[thick] (5.5,0) -- (10.5,0) -- (10.5,4) -- (5.5,4) -- cycle;
+          % Two circles
+          \draw[thick] (8,4.8) circle (0.8);
+          \draw[thick] (8,-2.2) circle (0.8);
+          \node at (8,4.8) {$\pi r^2$};
+          \node at (8,-2.2) {$\pi r^2$};
+          % Labels
+          \draw[&lt;-&gt;] (5.5,-0.3) -- (10.5,-0.3) node[midway,below] {$2\pi r$};
+          \draw[&lt;-&gt;] (10.8,0) -- (10.8,4) node[midway,right] {$h$};
+        \end{tikzpicture}
+      </latex-image>
+    </image>
+
+    <p>The surface area includes 2 circular bases, and the side wrapped around which is a rectangle (called the lateral surface).</p>
+    <ul>
+      <li><p>The 2 circles each have area <m>\pi r^2</m>, so in total, <m>2\pi r^2</m>.</p></li>
+      <li><p>The rectangle has a width of <m>2\pi r</m> (the circumference of the base) and height <m>h</m>, so its area is <m>2\pi r h</m>.</p></li>
+    </ul>
+    <p>Therefore, the total surface area is the sum of these 2 parts.</p>
+
+    <p>The surface area of a right circular cylinder is,</p>
+    <me>\boxed{SA_{\text{cylinder}} = 2\pi r^2 + 2\pi rh \quad \begin{cases} r \rightarrow \text{radius} \\ h \rightarrow \text{height} \end{cases}}</me>
+
+    <example>
+      <title>Surface Area of a Cylinder</title>
+      <p>Find the surface area of a cylinder with radius 3 cm and height 10 cm. Give an exact answer and a decimal approximation.</p>
+      <image width="30%">
+        <latex-image>
+          \begin{tikzpicture}[scale=0.55]
+            \draw[thick] (-1.5,0) arc (180:360:1.5 and 0.5);
+            \draw[dashed] (-1.5,0) arc (180:0:1.5 and 0.5);
+            \draw[thick] (-1.5,0) -- (-1.5,4.5);
+            \draw[thick] (1.5,0) -- (1.5,4.5);
+            \draw[thick] (-1.5,4.5) arc (180:360:1.5 and 0.5);
+            \draw[thick] (-1.5,4.5) arc (180:0:1.5 and 0.5);
+            \draw[&lt;-&gt;] (0,5.3) -- (1.5,5.3) node[midway,above] {3};
+            \draw[&lt;-&gt;] (1.8,0) -- (1.8,4.5) node[midway,right] {10};
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+      <p>Substituting <m>r = 3</m> and <m>h = 10</m>,</p>
+      <md>
+        <mrow>SA \amp= 2\pi r^2 + 2\pi rh</mrow>
+        <mrow>\amp= 2\pi(3)^2 + 2\pi(3)(10)</mrow>
+        <mrow>\amp= 2\pi(9) + 2\pi(30)</mrow>
+        <mrow>\amp= 18\pi + 60\pi</mrow>
+        <mrow>\amp= 78\pi</mrow>
+        <mrow>\amp\approx 245.0 \text{ cm}^2</mrow>
+      </md>
+    </example>
+
+    <remark>
+      <p>Notice the structure: surface area = (area of 2 bases) + (lateral area), which is the same as for a prism. The surface area of a general prism is <m>SA = 2B + Ph</m>. Here, <m>B = \pi r^2</m> and <m>P = 2\pi r</m>, so the formulas match exactly:</p>
+      <me>SA = 2(\pi r^2) + (2\pi r)h = 2\pi r^2 + 2\pi rh</me>
+    </remark>
+
+    <example>
+      <title>Diameter Given, Not Radius</title>
+      <p>A can has diameter 8 cm and height 12 cm. Find its surface area.</p>
+      <image width="30%">
+        <latex-image>
+          \begin{tikzpicture}[scale=0.5]
+            \draw[thick] (-1.5,0) arc (180:360:1.5 and 0.5);
+            \draw[dashed] (-1.5,0) arc (180:0:1.5 and 0.5);
+            \draw[thick] (-1.5,0) -- (-1.5,4.5);
+            \draw[thick] (1.5,0) -- (1.5,4.5);
+            \draw[thick] (-1.5,4.5) arc (180:360:1.5 and 0.5);
+            \draw[thick] (-1.5,4.5) arc (180:0:1.5 and 0.5);
+            \draw[&lt;-&gt;] (-1.5,5.3) -- (1.5,5.3) node[midway,above] {$d = 8$};
+            \draw[&lt;-&gt;] (1.8,0) -- (1.8,4.5) node[midway,right] {$12$};
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+      <p>First, the radius is <m>r = \frac{d}{2} = \frac{8}{2} = 4</m> cm. Then,</p>
+      <md>
+        <mrow>SA \amp= 2\pi r^2 + 2\pi rh</mrow>
+        <mrow>\amp= 2\pi(4)^2 + 2\pi(4)(12)</mrow>
+        <mrow>\amp= 32\pi + 96\pi</mrow>
+        <mrow>\amp= 128\pi</mrow>
+        <mrow>\amp\approx 402.1 \text{ cm}^2</mrow>
+      </md>
+    </example>
+  </subsection>
+
+  <!-- ============================== -->
+  <subsection xml:id="subsec-cylinder-examples">
+    <title>Examples</title>
+
+    <project>
+      <title>Surface Area and Volume of Cylinders</title>
+      <introduction><p>Find the surface area and volume of each cylinder. Give exact answers and decimal approximations.</p></introduction>
+
+      <task>
+        <statement>
+          <p>Radius 7 cm, height 15 cm.</p>
+          <image width="25%">
+            <latex-image>
+              \begin{tikzpicture}[scale=0.4]
+                \draw[thick] (-1.5,0) arc (180:360:1.5 and 0.5);
+                \draw[dashed] (-1.5,0) arc (180:0:1.5 and 0.5);
+                \draw[thick] (-1.5,0) -- (-1.5,4.5);
+                \draw[thick] (1.5,0) -- (1.5,4.5);
+                \draw[thick] (-1.5,4.5) arc (180:360:1.5 and 0.5);
+                \draw[thick] (-1.5,4.5) arc (180:0:1.5 and 0.5);
+                \draw[&lt;-&gt;] (0,4.5) -- (1.5,4.5) node[midway,above] {$7$};
+                \draw[&lt;-&gt;] (1.8,0) -- (1.8,4.5) node[midway,right] {$15$};
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </statement>
+        <answer><p><m>SA = 2\pi(49) + 2\pi(7)(15) = 98\pi + 210\pi = 308\pi \approx 967.6 \text{ cm}^2</m>. <m>V = \pi(49)(15) = 735\pi \approx 2309.1 \text{ cm}^3</m>.</p></answer>
+      </task>
+
+      <task>
+        <statement><p>Diameter 10 cm, height 20 cm.</p></statement>
+        <answer><p><m>r = 5</m>. <m>SA = 2\pi(25) + 2\pi(5)(20) = 50\pi + 200\pi = 250\pi \approx 785.4 \text{ cm}^2</m>. <m>V = \pi(25)(20) = 500\pi \approx 1570.8 \text{ cm}^3</m>.</p></answer>
+      </task>
+
+      <task>
+        <statement><p>Radius 2.5 m, height 6 m.</p></statement>
+        <answer><p><m>SA = 2\pi(6.25) + 2\pi(2.5)(6) = 12.5\pi + 30\pi = 42.5\pi \approx 133.5 \text{ m}^2</m>. <m>V = \pi(6.25)(6) = 37.5\pi \approx 117.8 \text{ m}^3</m>.</p></answer>
+      </task>
+
+      <task>
+        <statement><p>Diameter 16 cm, height 4 cm.</p></statement>
+        <answer><p><m>r = 8</m>. <m>SA = 2\pi(64) + 2\pi(8)(4) = 128\pi + 64\pi = 192\pi \approx 603.2 \text{ cm}^2</m>. <m>V = \pi(64)(4) = 256\pi \approx 804.2 \text{ cm}^3</m>.</p></answer>
+      </task>
+    </project>
+
+    <project>
+      <title>Comparing Two Cylinders</title>
+      <introduction><p>Cylinder A has radius 3 cm and height 10 cm. Cylinder B has radius 5 cm and height 4 cm.</p></introduction>
+
+      <task>
+        <statement><p>Which cylinder has the greater volume?</p></statement>
+        <answer><p><m>V_A = \pi(9)(10) = 90\pi \approx 282.7 \text{ cm}^3</m>. <m>V_B = \pi(25)(4) = 100\pi \approx 314.2 \text{ cm}^3</m>. Cylinder B has the greater volume.</p></answer>
+      </task>
+
+      <task>
+        <statement><p>Which cylinder has the greater surface area?</p></statement>
+        <answer><p><m>SA_A = 2\pi(9) + 2\pi(3)(10) = 18\pi + 60\pi = 78\pi \approx 245.0 \text{ cm}^2</m>. <m>SA_B = 2\pi(25) + 2\pi(5)(4) = 50\pi + 40\pi = 90\pi \approx 282.7 \text{ cm}^2</m>. Cylinder B has the greater surface area.</p></answer>
+      </task>
+    </project>
+
+    <project>
+      <title>Reverse Problems</title>
+      <introduction><p>Solve for the unknown dimension.</p></introduction>
+
+      <task>
+        <statement><p>A cylinder has volume <m>1000 \text{ cm}^3</m> and radius 5 cm. Find the height to the nearest tenth.</p></statement>
+        <answer><p><m>1000 = \pi(25)h</m>, so <m>h = \frac{1000}{25\pi} = \frac{40}{\pi} \approx 12.7</m> cm.</p></answer>
+      </task>
+
+      <task>
+        <statement><p>A cylinder has volume <m>2000\pi \text{ cm}^3</m> and height 8 cm. Find the radius.</p></statement>
+        <answer><p><m>2000\pi = \pi r^2(8)</m>, so <m>r^2 = 250</m>, <m>r = \sqrt{250} = 5\sqrt{10} \approx 15.8</m> cm.</p></answer>
+      </task>
+
+      <task>
+        <statement><p>A cylinder has surface area <m>200\pi \text{ cm}^2</m> and radius 5 cm. Find the height.</p></statement>
+        <hint><p>Substitute into <m>SA = 2\pi r^2 + 2\pi rh</m> and solve for <m>h</m>.</p></hint>
+        <answer><p><m>200\pi = 2\pi(25) + 2\pi(5)h = 50\pi + 10\pi h</m>. So <m>150\pi = 10\pi h</m>, giving <m>h = 15</m> cm.</p></answer>
+      </task>
+    </project>
+
+    <example>
+      <title>Reverse Problem</title>
+      <p>A cylinder has volume <m>500\pi \text{ cm}^3</m> and height 20 cm. Find its radius.</p>
+      <p>Starting from the volume formula,</p>
+      <md>
+        <mrow>V \amp= \pi r^2 h</mrow>
+        <mrow>500\pi \amp= \pi r^2 (20)</mrow>
+        <mrow>500\pi \amp= 20\pi r^2</mrow>
+      </md>
+      <p>Divide both sides by <m>20\pi</m>,</p>
+      <md>
+        <mrow>r^2 \amp= \frac{500\pi}{20\pi} = 25</mrow>
+        <mrow>r \amp= \sqrt{25} = 5 \text{ cm}</mrow>
+      </md>
+    </example>
+
+    <exercise>
+      <title>Surface Area Given Diameter</title>
+      <statement><p>A cylinder has SA <m>= 47.4 \text{ m}^2</m> and diameter 1.3 m. Find the height.</p></statement>
+      <hint><p>Substitute into <m>SA = 2\pi r^2 + 2\pi rh</m> and solve for <m>h</m>.</p></hint>
+      <answer><p><m>r = 0.65</m>. <m>47.4 = 2\pi(0.4225) + 2\pi(0.65)h = 0.845\pi + 1.3\pi h</m>. So <m>1.3\pi h = 47.4 - 2.654 = 44.746</m>, giving <m>h = \frac{44.746}{1.3\pi} \approx 11.0</m> m.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Volume Given Height</title>
+      <statement><p>A cylinder has volume <m>500 \text{ cm}^3</m> and height 16 cm. Find the radius.</p></statement>
+      <answer><p><m>500 = \pi r^2(16) = 16\pi r^2</m>. So <m>r^2 = \frac{500}{16\pi} \approx 9.95</m>, giving <m>r \approx 3.2</m> cm.</p></answer>
+    </exercise>
+  </subsection>
+
+  <!-- ============================== -->
+  <subsection xml:id="subsec-cylinder-word-problems">
+    <title>Word Problems</title>
+
+    <exercise>
+      <title>Metal for a Can</title>
+      <statement>
+        <p>A cylindrical can has diameter 7.5 cm and height 11 cm. How much metal is needed to make the can (i.e., find its surface area)?</p>
+        <image width="25%">
+          <latex-image>
+            \begin{tikzpicture}[scale=0.4]
+              \draw[thick] (-1.5,0) arc (180:360:1.5 and 0.5);
+              \draw[dashed] (-1.5,0) arc (180:0:1.5 and 0.5);
+              \draw[thick] (-1.5,0) -- (-1.5,4);
+              \draw[thick] (1.5,0) -- (1.5,4);
+              \draw[thick] (-1.5,4) arc (180:360:1.5 and 0.5);
+              \draw[thick] (-1.5,4) arc (180:0:1.5 and 0.5);
+              \draw[&lt;-&gt;] (-1.5,4.8) -- (1.5,4.8) node[midway,above] {$d = 7.5$};
+              \draw[&lt;-&gt;] (1.8,0) -- (1.8,4) node[midway,right] {$11$};
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+      </statement>
+      <answer><p><m>r = 3.75</m>. <m>SA = 2\pi(3.75)^2 + 2\pi(3.75)(11) = 2\pi(14.0625) + 2\pi(41.25) = 28.125\pi + 82.5\pi = 110.625\pi \approx 347.5 \text{ cm}^2</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Cylindrical Pool</title>
+      <statement><p>A cylindrical pool has diameter 5 m and depth 1.5 m. How many litres of water does it hold?</p></statement>
+      <answer><p><m>r = 2.5</m>. <m>V = \pi(2.5)^2(1.5) = \pi(6.25)(1.5) = 9.375\pi \approx 29.45 \text{ m}^3 = 29{,}452 \text{ L}</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Cylindrical Pipe</title>
+      <statement><p>A cylindrical pipe is 3 m long and has an inner diameter of 10 cm. How many litres of water can the pipe hold?</p></statement>
+      <answer><p><m>r = 5</m> cm <m>= 0.05</m> m. <m>V = \pi(0.05)^2(3) = \pi(0.0025)(3) = 0.0075\pi \approx 0.02356 \text{ m}^3 \approx 23.6 \text{ L}</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Label on a Jar</title>
+      <statement><p>A label wraps around a cylindrical jar (covering only the lateral surface, not the top or bottom). The jar has diameter 9 cm and height 14 cm. What is the area of the label?</p></statement>
+      <answer><p><m>r = 4.5</m>. Lateral area <m>= 2\pi rh = 2\pi(4.5)(14) = 126\pi \approx 395.8 \text{ cm}^2</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Grain Silo</title>
+      <statement>
+        <p>A cylindrical grain silo has diameter 8 m and height 12 m. How many cubic metres of grain can it store? How many litres is this?</p>
+        <image width="25%">
+          <latex-image>
+            \begin{tikzpicture}[scale=0.45]
+              \draw[thick] (-1.5,0) arc (180:360:1.5 and 0.5);
+              \draw[dashed] (-1.5,0) arc (180:0:1.5 and 0.5);
+              \draw[thick] (-1.5,0) -- (-1.5,5);
+              \draw[thick] (1.5,0) -- (1.5,5);
+              \draw[thick] (-1.5,5) arc (180:360:1.5 and 0.5);
+              \draw[thick] (-1.5,5) arc (180:0:1.5 and 0.5);
+              \draw[&lt;-&gt;] (-1.5,5.8) -- (1.5,5.8) node[midway,above] {$d = 8$};
+              \draw[&lt;-&gt;] (1.8,0) -- (1.8,5) node[midway,right] {$12$};
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+      </statement>
+      <answer><p><m>r = 4</m>. <m>V = \pi(16)(12) = 192\pi \approx 603.2 \text{ m}^3 = 603{,}186 \text{ L}</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Hand Drum</title>
+      <statement><p>A traditional hand drum has a diameter of <m>14\frac{7}{8}</m> in and is 3 in deep. What is the minimum amount of hide used to make the drum if the hide covers only the top and lateral surfaces? Express your answer to the nearest square inch.</p></statement>
+      <hint><p>Only the top circle and the curved side are covered, not the bottom.</p></hint>
+      <answer><p><m>r = \frac{14.875}{2} = 7.4375</m> in. <m>SA = \pi r^2 + 2\pi rh = \pi(7.4375)^2 + 2\pi(7.4375)(3) = 55.32\pi + 44.63\pi = 99.94\pi \approx 314 \text{ in}^2</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Painting Cylindrical Pillars</title>
+      <statement><p>Four cylindrical pillars standing on a stage need to be painted. Each pillar is 16 ft high and 1 ft in diameter. What surface area needs to be painted?</p></statement>
+      <hint><p>Only the lateral (curved) surfaces need painting, not the circular ends.</p></hint>
+      <answer><p>Each pillar: lateral area <m>= 2\pi(0.5)(16) = 16\pi</m> ft<m>^2</m>. Four pillars: <m>4 \times 16\pi = 64\pi \approx 201.1 \text{ ft}^2</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Punching Bag Design</title>
+      <statement><p>A designer is working on a cylindrical punching bag. The bag uses a maximum of <m>1.3 \text{ m}^2</m> of material, and the diameter of the bag is 36 cm. Determine the maximum possible height of the bag, to the nearest tenth of a centimetre.</p></statement>
+      <answer><p><m>r = 18</m> cm <m>= 0.18</m> m. <m>1.3 = 2\pi(0.0324) + 2\pi(0.18)h = 0.2036 + 1.131h</m>. So <m>h = \frac{1.3 - 0.2036}{1.131} \approx 0.97</m> m <m>\approx 96.9</m> cm.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>CD Storage Case</title>
+      <statement><p>Compact discs are packaged in cylindrical stacks of 100. Each CD has a thickness of 1.2 mm and a diameter of 12 cm. The outside radius of the storage case is 0.7 cm more than that of the CD. The height of the case is 4.2 mm more than that of the stack of 100 CDs. What is the surface area of the storage case, excluding the base, to the nearest square centimetre?</p></statement>
+      <answer><p>Stack height <m>= 100 \times 1.2 \text{ mm} = 120 \text{ mm} = 12</m> cm. Case: <m>r = 6 + 0.7 = 6.7</m> cm, <m>h = 12 + 0.42 = 12.42</m> cm. <m>SA = \pi r^2 + 2\pi rh = \pi(44.89) + 2\pi(6.7)(12.42) = 44.89\pi + 166.43\pi = 211.32\pi \approx 664 \text{ cm}^2</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Oil Pipeline</title>
+      <statement><p>A pipeline is 1221.73 km long, with a diameter of 914 mm. If the pipeline were straightened, what is the maximum volume of oil that can be contained in this section of pipeline? Express your answer to the nearest hundredth of a cubic metre.</p></statement>
+      <answer><p><m>r = 457 \text{ mm} = 0.457</m> m, <m>h = 1{,}221{,}730</m> m. <m>V = \pi(0.457)^2(1{,}221{,}730) = \pi(0.2088)(1{,}221{,}730) \approx 255{,}157\pi \approx 801{,}617.49 \text{ m}^3</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Grain Terminal</title>
+      <statement>
+        <p>Many grain terminals are cylindrical in shape. One terminal has a height of 40 m, and the inside diameter of each grain storage tower is 11.7 m.</p>
+        <ol marker="(i)">
+          <li><p>What is the storage capacity of each tower, to the nearest cubic metre?</p></li>
+          <li><p>If a small grain truck has a rectangular box measuring 5 m by 1.5 m by 2.4 m, how many truckloads of grain can one tower hold?</p></li>
+        </ol>
+      </statement>
+      <answer><p>(i) <m>r = 5.85</m> m. <m>V = \pi(5.85)^2(40) = \pi(34.2225)(40) = 1368.9\pi \approx 4299 \text{ m}^3</m>. (ii) Truck volume <m>= 5 \times 1.5 \times 2.4 = 18 \text{ m}^3</m>. Truckloads <m>= \frac{4299}{18} \approx 239</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Popcorn Containers</title>
+      <statement><p>A theatre has two different right cylindrical popcorn containers. One is 18 cm high with a diameter of 14 cm, and the other is 16 cm high with a diameter of 16 cm. Which container should be for a small order of popcorn, and which should be the large? Justify your answer.</p></statement>
+      <answer><p>Container A: <m>V = \pi(7)^2(18) = 882\pi \approx 2771 \text{ cm}^3</m>. Container B: <m>V = \pi(8)^2(16) = 1024\pi \approx 3217 \text{ cm}^3</m>. Container A (taller, narrower) is smaller; Container B (shorter, wider) is larger. The wider radius more than compensates for the shorter height.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Drink Can Design</title>
+      <statement><p>A drink manufacturer is designing a can for a new type of drink. The can is to have a capacity of between 250 mL and 285 mL. The height of the can is set at 14 cm. If <m>1 \text{ mL} = 1 \text{ cm}^3</m>, what range of values is possible for the diameter of the can?</p></statement>
+      <hint><p>Solve <m>V = \pi r^2 h</m> for <m>r</m> at each endpoint.</p></hint>
+      <answer><p>For 250 mL: <m>250 = 14\pi r^2</m>, <m>r = \sqrt{\frac{250}{14\pi}} \approx 2.38</m> cm, <m>d \approx 4.8</m> cm. For 285 mL: <m>r = \sqrt{\frac{285}{14\pi}} \approx 2.55</m> cm, <m>d \approx 5.1</m> cm. The diameter ranges from about 4.8 cm to 5.1 cm.</p></answer>
+    </exercise>
+  </subsection>
+
+</section>

@@ -1,0 +1,924 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-pyramids" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Pyramids</title>
+
+  <introduction>
+    <p>A <term>pyramid</term> is a 3D shape with a base, and triangular faces that meet at a single point at the top. Originally, they were the shapes of ancient pyramids in Egypt, and later inspired modern glass buildings.</p>
+
+    <ul>
+      <li><p>The top of the pyramid, where the triangular faces meet, is called the <term>apex</term>.</p></li>
+      <li><p>The <term>height</term> <m>h</m> is the perpendicular distance from the base to the apex.</p></li>
+    </ul>
+
+    <image width="50%">
+      <latex-image>
+        \begin{tikzpicture}[scale=0.75]
+          % Base corners (oblique projection)
+          \coordinate (FL) at (0, 0);
+          \coordinate (FR) at (4, 0);
+          \coordinate (BR) at (5.4, 1.2);
+          \coordinate (BL) at (1.4, 1.2);
+          \coordinate (apex) at (2.7, 5.5);
+          \coordinate (center) at (2.7, 0.6);
+          % Shaded front lateral face
+          \fill[blue!8] (FL) -- (FR) -- (apex) -- cycle;
+          % Base edges
+          \draw[thick] (FL) -- (FR) -- (BR);
+          \draw[dashed] (BR) -- (BL) -- (FL);
+          % Lateral edges
+          \draw[thick] (FL) -- (apex);
+          \draw[thick] (FR) -- (apex);
+          \draw[thick] (BR) -- (apex);
+          \draw[dashed] (BL) -- (apex);
+          % Height (dashed from center to apex)
+          \draw[dashed] (center) -- (apex);
+          \draw (2.7,0.6) ++(0.2,0) -- ++(0,0.2) -- ++(-0.2,0);
+          % Labels
+          \node[above] at (apex) {apex};
+          \node[right] at (4.5, 3.0) {height $h$};
+          \draw[-&gt;, bend left=20] (4.6, 3) to (2.85, 2.8);
+          \draw[&lt;-] (1.5, 2.0) -- (-0.8, 2.5) node[left] {lateral face};
+          \node at (3.4, -0.5) {base};
+        \end{tikzpicture}
+      </latex-image>
+    </image>
+
+    <ul>
+      <li><p>We will only consider pyramids where the apex is directly above the center of the base, called a <term>right pyramid</term>.</p></li>
+      <li><p>If the base is a regular polygon, it is called a <term>regular pyramid</term>. For a regular pyramid, each of the triangular faces is congruent (the same).</p></li>
+    </ul>
+  </introduction>
+
+  <!-- ============================== -->
+  <subsection xml:id="subsec-pyramid-volume">
+    <title>Volume of a Pyramid</title>
+
+    <p>It fact, the volume of a pyramid is exactly <m>\frac{1}{3}</m> the volume of a prism with the same base area and height. Intuitively, the prism can be thought of as three pyramids put together, so the pyramid has <m>\frac{1}{3}</m> the volume of the prism.</p>
+
+    <image width="50%">
+      <latex-image>
+        \begin{tikzpicture}[scale=0.6]
+          % --- Prism (left) ---
+          % Front face
+          \draw[thick] (0,0) -- (2,0) -- (2,3) -- (0,3) -- cycle;
+          % Back face
+          \draw[thick] (0.8,0.6) -- (2.8,0.6) -- (2.8,3.6) -- (0.8,3.6) -- cycle;
+          % Connecting edges
+          \draw[thick] (0,0) -- (0.8,0.6);
+          \draw[thick] (2,0) -- (2.8,0.6);
+          \draw[thick] (2,3) -- (2.8,3.6);
+          \draw[thick] (0,3) -- (0.8,3.6);
+          \node[below] at (1.4, -0.3) {prism};
+
+          % --- Arrow ---
+          \draw[-&gt;, very thick] (3.5, 1.8) -- (5, 1.8);
+          \node[above] at (4.25, 1.8) {$\times \frac{1}{3}$};
+
+          % --- Pyramid (right) ---
+          \coordinate (PFL) at (5.5, 0);
+          \coordinate (PFR) at (7.5, 0);
+          \coordinate (PBR) at (8.3, 0.6);
+          \coordinate (PBL) at (6.3, 0.6);
+          \coordinate (Papex) at (7.15, 3.3);
+          % Base
+          \draw[thick] (PFL) -- (PFR) -- (PBR);
+          \draw[dashed] (PBR) -- (PBL) -- (PFL);
+          % Lateral edges
+          \draw[thick] (PFL) -- (Papex);
+          \draw[thick] (PFR) -- (Papex);
+          \draw[thick] (PBR) -- (Papex);
+          \draw[dashed] (PBL) -- (Papex);
+          \node[below] at (7.15, -0.3) {pyramid};
+        \end{tikzpicture}
+      </latex-image>
+    </image>
+
+    <p>The volume of a right pyramid is,</p>
+    <me>\boxed{V_{\text{pyramid}} = \frac{1}{3} A h \quad \begin{cases} A \rightarrow \text{base area} \\ h \rightarrow \text{height} \end{cases}}</me>
+
+    <example>
+      <title>Volume of a Square Pyramid</title>
+      <p>Find the volume of a square pyramid with base side 6 m and height 9 m.</p>
+      <image width="30%">
+        <latex-image>
+          \begin{tikzpicture}[scale=0.5]
+            % Base corners (oblique projection)
+            \coordinate (FL) at (0, 0);
+            \coordinate (FR) at (3, 0);
+            \coordinate (BR) at (4, 0.85);
+            \coordinate (BL) at (1, 0.85);
+            \coordinate (apex) at (2, 5);
+            \coordinate (center) at (2, 0.425);
+            % Base edges
+            \draw[thick] (FL) -- (FR) -- (BR);
+            \draw[dashed] (BR) -- (BL) -- (FL);
+            % Lateral edges
+            \draw[thick] (FL) -- (apex);
+            \draw[thick] (FR) -- (apex);
+            \draw[thick] (BR) -- (apex);
+            \draw[dashed] (BL) -- (apex);
+            % Height
+            \draw[dashed] (center) -- (apex);
+            % Labels
+            \draw[&lt;-&gt;] (0, -0.5) -- (3, -0.5) node[midway, below] {$6$};
+            \node[left] at (2.2, 2) {$9$};
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+      <p>The base area is <m>A = 6^2 = 36 \text{ m}^2</m>. Then,</p>
+      <md>
+        <mrow>V \amp= \frac{1}{3} A h</mrow>
+        <mrow>\amp= \frac{1}{3}(36)(9)</mrow>
+        <mrow>\amp= \frac{324}{3}</mrow>
+        <mrow>\amp= 108 \text{ m}^3</mrow>
+      </md>
+    </example>
+  </subsection>
+
+  <!-- ============================== -->
+  <subsection xml:id="subsec-slant-height">
+    <title>Slant Height vs Height</title>
+
+    <p>It is important to distinguish between the <term>height</term> and the <term>slant height</term> of a pyramid.</p>
+
+    <image width="40%">
+      <latex-image>
+        \begin{tikzpicture}[scale=0.7]
+          % Base corners (oblique projection)
+          \coordinate (FL) at (0, 0);
+          \coordinate (FR) at (3.5, 0);
+          \coordinate (BR) at (4.7, 1);
+          \coordinate (BL) at (1.2, 1);
+          \coordinate (apex) at (2.35, 5);
+          \coordinate (center) at (2.35, 0.5);
+          \coordinate (MR) at (4.1, 0.5);
+          % Base edges
+          \draw[thick] (FL) -- (FR) -- (BR);
+          \draw[dashed] (BR) -- (BL) -- (FL);
+          % Lateral edges
+          \draw[thick] (FL) -- (apex);
+          \draw[thick] (FR) -- (apex);
+          \draw[thick] (BR) -- (apex);
+          \draw[dashed] (BL) -- (apex);
+          % Height
+          \draw[dashed] (center) -- (apex);
+          \draw (2.35,0.5) ++(0.2,0) -- ++(0,0.2) -- ++(-0.2,0);
+          % Slant height (on right face)
+          \draw[thick, blue] (apex) -- (MR);
+          % Labels
+          \node[left] at (2.5, 2.3) {$h$};
+          \node[right, blue] at (3.5, 2) {$s$};
+          \node[above] at (apex) {apex};
+        \end{tikzpicture}
+      </latex-image>
+    </image>
+
+    <ul>
+      <li><p>The <term>height</term> <m>h</m> is the perpendicular distance from the base to the apex (a vertical line through the center).</p></li>
+      <li><p>The <term>slant height</term> <m>s</m> is the distance from the apex to the midpoint of a base edge, measured along the face of the pyramid.</p></li>
+    </ul>
+
+    <p>For a regular square pyramid, the slant height is related to the height by the Pythagorean theorem. The distance from the center of the base to the midpoint of a base edge is <m>\frac{a}{2}</m>.</p>
+
+    <image width="45%">
+      <latex-image>
+        \begin{tikzpicture}[scale=0.8]
+          % Base corners (oblique projection)
+          \coordinate (FL) at (0, 0);
+          \coordinate (FR) at (3.5, 0);
+          \coordinate (BR) at (4.7, 1);
+          \coordinate (BL) at (1.2, 1);
+          \coordinate (apex) at (2.35, 5);
+          \coordinate (center) at (2.35, 0.5);
+          \coordinate (MR) at (4.1, 0.5);
+          % Faint pyramid
+          \draw[gray!60] (FL) -- (FR) -- (BR);
+          \draw[gray!60, dashed] (BR) -- (BL) -- (FL);
+          \draw[gray!60] (FL) -- (apex);
+          \draw[gray!60] (FR) -- (apex);
+          \draw[gray!60] (BR) -- (apex);
+          \draw[gray!60, dashed] (BL) -- (apex);
+          % Right triangle: h, a/2, s
+          \draw[thick] (center) -- (apex) node[midway, left] {$h$};
+          \draw[thick] (center) -- (MR) node[midway, below] {$\frac{a}{2}$};
+          \draw[thick, blue] (apex) -- (MR) node[midway, right, blue] {$s$};
+          % Right angle mark
+          \draw (center) ++(0.25,0) -- ++(0,0.25) -- ++(-0.25,0);
+        \end{tikzpicture}
+      </latex-image>
+    </image>
+
+    <p>Then,</p>
+    <me>s^2 = h^2 + \brac{\frac{a}{2}}^2 \quad \begin{cases} s \rightarrow \text{slant height} \\ h \rightarrow \text{height} \\ a \rightarrow \text{base side} \end{cases}</me>
+
+    <example>
+      <title>Finding the Slant Height</title>
+      <p>A square pyramid has base side 10 cm and height 12 cm. Find the slant height.</p>
+      <image width="40%">
+        <latex-image>
+          \begin{tikzpicture}[scale=0.7]
+            % Base corners (oblique projection)
+            \coordinate (FL) at (0, 0);
+            \coordinate (FR) at (3.5, 0);
+            \coordinate (BR) at (4.7, 1);
+            \coordinate (BL) at (1.2, 1);
+            \coordinate (apex) at (2.35, 5);
+            \coordinate (center) at (2.35, 0.5);
+            \coordinate (MR) at (4.1, 0.5);
+            % Base edges
+            \draw[thick] (FL) -- (FR) -- (BR);
+            \draw[dashed] (BR) -- (BL) -- (FL);
+            % Lateral edges
+            \draw[thick] (FL) -- (apex);
+            \draw[thick] (FR) -- (apex);
+            \draw[thick] (BR) -- (apex);
+            \draw[dashed] (BL) -- (apex);
+            % Height
+            \draw[dashed] (center) -- (apex);
+            % Slant height (on right face)
+            \draw[thick, blue] (apex) -- (MR);
+            % Labels
+            \node[left] at (2.5, 2) {$12$};
+            \node[right, blue] at (3.5, 2) {$s$};
+            \draw[&lt;-&gt;] (0, -0.5) -- (3.5, -0.5) node[midway, below] {$10$};
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+      <p>The distance from the center of the base to the midpoint of a base edge is <m>\frac{10}{2} = 5</m> cm. By the Pythagorean theorem,</p>
+      <md>
+        <mrow>s^2 \amp= h^2 + \brac{\frac{a}{2}}^2</mrow>
+        <mrow>\amp= 12^2 + 5^2</mrow>
+        <mrow>\amp= 144 + 25</mrow>
+        <mrow>\amp= 169</mrow>
+        <mrow>s \amp= \sqrt{169} = 13 \text{ cm}</mrow>
+      </md>
+    </example>
+  </subsection>
+
+  <!-- ============================== -->
+  <subsection xml:id="subsec-pyramid-sa">
+    <title>Surface Area of a Pyramid</title>
+
+    <p>The surface area of a pyramid is the sum of the areas of its triangular faces and the area of the base,</p>
+    <me>SA = \begin{pmatrix} \text{area of all} \\ \text{triangular faces} \end{pmatrix} + \brac{\text{area of base}}</me>
+    <p>With a regular pyramid, the triangular faces are congruent, so it is enough to consider one of the faces. Each triangular face has base <m>l</m> (the side length of the base) and height <m>s</m> (the slant height). So the area of one face is <m>\frac{1}{2} ls</m>.</p>
+
+    <p>For a regular square pyramid, there are 4 faces, so the total area of the triangular faces is <m>4 \cdot \frac{1}{2} ls</m>. This area (not including the base) is called the <term>lateral area</term>, <m>A_L</m>. In general, if the base is a regular <m>n</m>-gon, then the lateral area is,</p>
+    <me>A_L = n \cdot \frac{1}{2} ls = \frac{1}{2} nls</me>
+    <p>Notice that <m>nl</m> is the perimeter <m>P</m> of the base. Then,</p>
+    <me>A_L = \frac{1}{2} s P</me>
+    <p>Then, the surface area is the lateral area plus the base area <m>A_B</m>.</p>
+
+    <p>The surface area of a regular right pyramid is,</p>
+    <me>\boxed{SA = \frac{1}{2} s P + A_B \quad \begin{cases} s \rightarrow \text{slant height} \\ P \rightarrow \text{base perimeter} \\ A_B \rightarrow \text{base area} \end{cases}}</me>
+
+    <p>For a <alert>square pyramid</alert> with base side <m>a</m> and slant height <m>s</m>, the perimeter is <m>P = 4a</m> and the base area is <m>A_B = a^2</m>. So,</p>
+    <me>SA = \frac{1}{2} s (4a) + a^2 = 2as + a^2</me>
+
+    <example>
+      <title>Surface Area of a Square Pyramid</title>
+      <p>Find the surface area of a square pyramid with base side 8 cm and slant height 10 cm.</p>
+      <image width="30%">
+        <latex-image>
+          \begin{tikzpicture}[scale=0.5]
+            % Base corners (oblique projection)
+            \coordinate (FL) at (0, 0);
+            \coordinate (FR) at (3.5, 0);
+            \coordinate (BR) at (4.7, 1);
+            \coordinate (BL) at (1.2, 1);
+            \coordinate (apex) at (2.35, 4.5);
+            \coordinate (MR) at (4.1, 0.5);
+            % Base edges
+            \draw[thick] (FL) -- (FR) -- (BR);
+            \draw[dashed] (BR) -- (BL) -- (FL);
+            % Lateral edges
+            \draw[thick] (FL) -- (apex);
+            \draw[thick] (FR) -- (apex);
+            \draw[thick] (BR) -- (apex);
+            \draw[dashed] (BL) -- (apex);
+            % Slant height (on right face)
+            \draw[thick, blue] (apex) -- (MR);
+            % Labels
+            \draw[&lt;-&gt;] (0, -0.5) -- (3.5, -0.5) node[midway, below] {$8$};
+            \node[right, blue] at (3.5, 2.3) {$10$};
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+      <p>The perimeter is <m>P = 4(8) = 32</m> cm, and the base area is <m>A_B = 8^2 = 64 \text{ cm}^2</m>. Then,</p>
+      <md>
+        <mrow>SA \amp= \frac{1}{2} s P + A_B</mrow>
+        <mrow>\amp= \frac{1}{2}(10)(32) + 64</mrow>
+        <mrow>\amp= 160 + 64</mrow>
+        <mrow>\amp= 224 \text{ cm}^2</mrow>
+      </md>
+    </example>
+  </subsection>
+
+  <!-- ============================== -->
+  <subsection xml:id="subsec-regular-tetrahedron">
+    <title>Regular Tetrahedron</title>
+
+    <p>A <term>regular tetrahedron</term> is a special pyramid where all 4 faces are equilateral triangles and all edges have the same length.</p>
+
+    <image width="40%">
+      <latex-image>
+        \begin{tikzpicture}[scale=0.85]
+          % Vertices of tetrahedron (oblique projection)
+          \coordinate (A) at (0, 0);
+          \coordinate (B) at (3.5, 0);
+          \coordinate (C) at (2.1, 1.2);
+          \coordinate (D) at (1.75, 3.7);
+          % Shade front face lightly
+          \fill[blue!8] (A) -- (B) -- (D) -- cycle;
+          % Hidden edge (back-left)
+          \draw[dashed] (A) -- (C);
+          % Visible base edges
+          \draw[thick] (A) -- (B);
+          \draw[dashed] (B) -- (C);
+          % Lateral edges
+          \draw[thick] (A) -- (D);
+          \draw[thick] (B) -- (D);
+          \draw[dashed] (C) -- (D);
+          % Vertex labels
+          \node[below left] at (A) {};
+          \node[below right] at (B) {};
+          \node[right] at (C) {};
+          \node[above] at (D) {};
+          % Edge labels (show a on three visible edges)
+          \node[below] at (1.75, 0) {$a$};
+          \node[left] at (0.8, 1.9) {$a$};
+          \node[right] at (2.7, 1.9) {$a$};
+        \end{tikzpicture}
+      </latex-image>
+    </image>
+
+    <p>If the edge length is <m>a</m>, then each face has area <m>\frac{\sqrt{3}}{4}a^2</m> (this is a known formula for the area of an equilateral triangle), so,</p>
+    <me>SA_{\text{tetrahedron}} = 4 \cdot \frac{\sqrt{3}}{4}a^2 = \sqrt{3}\, a^2</me>
+
+    <example>
+      <title>Surface Area of a Regular Tetrahedron</title>
+      <p>Find the surface area of a regular tetrahedron with edge length 6 cm.</p>
+      <me>SA = \sqrt{3}(6)^2 = 36\sqrt{3} \approx 62.4 \text{ cm}^2</me>
+    </example>
+  </subsection>
+
+  <!-- ============================== -->
+  <subsection xml:id="subsec-pyramid-examples">
+    <title>Examples</title>
+
+    <example>
+      <title>Volume of a Rectangular Pyramid</title>
+      <p>A pyramid has a rectangular base measuring 24 cm by 22 cm, and a height of 15 cm. Find its volume.</p>
+      <image width="40%">
+        <latex-image>
+          \begin{tikzpicture}[scale=0.7]
+            % Rectangular base (oblique projection)
+            \coordinate (FL) at (0, 0);
+            \coordinate (FR) at (4, 0);
+            \coordinate (BR) at (5.4, 1.4);
+            \coordinate (BL) at (1.4, 1.4);
+            \coordinate (apex) at (2.7, 5);
+            \coordinate (center) at (2.7, 0.7);
+            % Base edges
+            \draw[thick] (FL) -- (FR) -- (BR);
+            \draw[dashed] (BR) -- (BL) -- (FL);
+            % Lateral edges
+            \draw[thick] (FL) -- (apex);
+            \draw[thick] (FR) -- (apex);
+            \draw[thick] (BR) -- (apex);
+            \draw[dashed] (BL) -- (apex);
+            % Height
+            \draw[dashed] (center) -- (apex);
+            % Labels
+            \draw[&lt;-&gt;] (0, -0.5) -- (4, -0.5) node[midway, below] {$24$};
+            \node[right] at (5.0, 0.5) {$22$};
+            \node[left] at (2.8, 2) {$15$};
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+      <p>The base area is <m>A = 24 \times 22 = 528 \text{ cm}^2</m>. Then,</p>
+      <me>V = \frac{1}{3}Ah = \frac{1}{3}(528)(15) = \frac{7920}{3} = 2640 \text{ cm}^3</me>
+    </example>
+
+    <example>
+      <title>Finding Base Area from Volume</title>
+      <p>A pyramid has volume <m>200 \text{ cm}^3</m> and height 12 cm. Find its base area.</p>
+      <p>Starting from <m>V = \frac{1}{3}Ah</m>,</p>
+      <md>
+        <mrow>200 \amp= \frac{1}{3} A (12)</mrow>
+        <mrow>200 \amp= 4A</mrow>
+        <mrow>A \amp= 50 \text{ cm}^2</mrow>
+      </md>
+    </example>
+
+    <project>
+      <title>Finding the Slant Height</title>
+      <introduction><p>Find the slant height of each square pyramid.</p></introduction>
+
+      <task>
+        <statement>
+          <p>Base side 12 cm, height 8 cm.</p>
+          <image width="30%">
+            <latex-image>
+              \begin{tikzpicture}[scale=0.7]
+                % Base corners (oblique projection)
+                \coordinate (FL) at (0, 0);
+                \coordinate (FR) at (3, 0);
+                \coordinate (BR) at (4, 0.85);
+                \coordinate (BL) at (1, 0.85);
+                \coordinate (apex) at (2, 4);
+                \coordinate (center) at (2, 0.425);
+                % Base edges
+                \draw[thick] (FL) -- (FR) -- (BR);
+                \draw[dashed] (BR) -- (BL) -- (FL);
+                % Lateral edges
+                \draw[thick] (FL) -- (apex);
+                \draw[thick] (FR) -- (apex);
+                \draw[thick] (BR) -- (apex);
+                \draw[dashed] (BL) -- (apex);
+                % Height
+                \draw[dashed] (center) -- (apex);
+                % Labels
+                \draw[&lt;-&gt;] (0, -0.5) -- (3, -0.5) node[midway, below] {$12$};
+                \node[left] at (2.1, 2) {$8$};
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </statement>
+        <answer><p><m>s = \sqrt{8^2 + 6^2} = \sqrt{64 + 36} = \sqrt{100} = 10</m> cm.</p></answer>
+      </task>
+
+      <task>
+        <statement><p>Base side 16 cm, height 15 cm.</p></statement>
+        <answer><p><m>s = \sqrt{15^2 + 8^2} = \sqrt{225 + 64} = \sqrt{289} = 17</m> cm.</p></answer>
+      </task>
+
+      <task>
+        <statement><p>Base side 2.3 m, slant height 1.5 m. Find the height.</p></statement>
+        <answer><p><m>h = \sqrt{1.5^2 - 1.15^2} = \sqrt{2.25 - 1.3225} = \sqrt{0.9275} \approx 0.96</m> m.</p></answer>
+      </task>
+    </project>
+
+    <project>
+      <title>Surface Area of Pyramids</title>
+      <introduction><p>Find the surface area of each pyramid.</p></introduction>
+
+      <task>
+        <statement><p>Square base, side 10 cm, slant height 13 cm.</p></statement>
+        <answer><p><m>SA = \frac{1}{2}(13)(40) + 100 = 260 + 100 = 360 \text{ cm}^2</m>.</p></answer>
+      </task>
+
+      <task>
+        <statement><p>Square base, side 14 cm, slant height 9 cm.</p></statement>
+        <answer><p><m>SA = \frac{1}{2}(9)(56) + 196 = 252 + 196 = 448 \text{ cm}^2</m>.</p></answer>
+      </task>
+
+      <task>
+        <statement><p>Rectangular base, 16 cm <m>\times</m> 20 cm. The slant height on the longer side is 18 cm and on the shorter side is 19 cm.</p></statement>
+        <hint><p>Compute each pair of triangular faces separately.</p></hint>
+        <answer><p>Two faces with base 20 and slant 18: <m>2 \times \frac{1}{2}(20)(18) = 360</m>. Two faces with base 16 and slant 19: <m>2 \times \frac{1}{2}(16)(19) = 304</m>. Base: <m>16 \times 20 = 320</m>. Total: <m>360 + 304 + 320 = 984 \text{ cm}^2</m>.</p></answer>
+      </task>
+
+      <task>
+        <statement><p>Square base, side 8 cm, height 3 cm.</p></statement>
+        <hint><p>Find the slant height first.</p></hint>
+        <answer><p><m>s = \sqrt{3^2 + 4^2} = 5</m>. <m>SA = \frac{1}{2}(5)(32) + 64 = 80 + 64 = 144 \text{ cm}^2</m>.</p></answer>
+      </task>
+    </project>
+
+    <project>
+      <title>Volume of Pyramids</title>
+      <introduction><p>Find the volume of each pyramid.</p></introduction>
+
+      <task>
+        <statement><p>Square base, side 5 cm, height 9 cm.</p></statement>
+        <answer><p><m>V = \frac{1}{3}(25)(9) = 75 \text{ cm}^3</m>.</p></answer>
+      </task>
+
+      <task>
+        <statement><p>Square base, side 26 m, height 24 m.</p></statement>
+        <answer><p><m>V = \frac{1}{3}(676)(24) = 5408 \text{ m}^3</m>.</p></answer>
+      </task>
+
+      <task>
+        <statement><p>Rectangular base, 10 cm <m>\times</m> 8 cm, height 12 cm.</p></statement>
+        <answer><p><m>V = \frac{1}{3}(80)(12) = 320 \text{ cm}^3</m>.</p></answer>
+      </task>
+
+      <task>
+        <statement><p>Triangular base (right triangle with legs 6 cm and 8 cm), height 15 cm.</p></statement>
+        <answer><p>Base area <m>= \frac{1}{2}(6)(8) = 24</m>. <m>V = \frac{1}{3}(24)(15) = 120 \text{ cm}^3</m>.</p></answer>
+      </task>
+
+      <task>
+        <statement><p>Square base, side 30 m, height 20 m. Also convert the volume to litres.</p></statement>
+        <answer><p><m>V = \frac{1}{3}(900)(20) = 6000 \text{ m}^3 = 6{,}000{,}000 \text{ L}</m>.</p></answer>
+      </task>
+    </project>
+
+    <project>
+      <title>Finding Missing Dimensions</title>
+      <introduction><p>Find the missing dimension in each pyramid.</p></introduction>
+
+      <task>
+        <statement><p>A pyramid has volume <m>480 \text{ cm}^3</m> and a square base with side 12 cm. Find the height.</p></statement>
+        <answer><p><m>480 = \frac{1}{3}(144)h</m>, so <m>h = \frac{480 \times 3}{144} = 10</m> cm.</p></answer>
+      </task>
+
+      <task>
+        <statement><p>A pyramid has volume <m>600 \text{ cm}^3</m> and height 18 cm. Find its base area.</p></statement>
+        <answer><p><m>600 = \frac{1}{3}A(18) = 6A</m>, so <m>A = 100 \text{ cm}^2</m>.</p></answer>
+      </task>
+    </project>
+
+    <exercise>
+      <title>Comparing a Pyramid and a Prism</title>
+      <statement><p>A pyramid and a prism have the same square base (side 10 cm) and the same height (15 cm). How do their volumes compare?</p></statement>
+      <answer><p><m>V_{\text{prism}} = 10^2 \times 15 = 1500 \text{ cm}^3</m>. <m>V_{\text{pyramid}} = \frac{1}{3}(100)(15) = 500 \text{ cm}^3</m>. The pyramid has exactly <m>\frac{1}{3}</m> the volume of the prism.</p></answer>
+    </exercise>
+
+    <project>
+      <title>More Missing Dimensions</title>
+      <introduction><p>Find the missing dimension in each pyramid.</p></introduction>
+
+      <task>
+        <statement><p>A right square pyramid has <m>SA = 65.5 \text{ m}^2</m> and base side length 3.5 m. Find the slant height.</p></statement>
+        <answer><p><m>65.5 = \frac{1}{2}s(14) + 12.25 = 7s + 12.25</m>, so <m>7s = 53.25</m>, giving <m>s \approx 7.6</m> m.</p></answer>
+      </task>
+
+      <task>
+        <statement><p>A right square pyramid has <m>SA = 6144 \text{ cm}^2</m> and base area <m>2304 \text{ cm}^2</m>. Find the slant height.</p></statement>
+        <answer><p>Base side <m>= \sqrt{2304} = 48</m> cm. <m>6144 = \frac{1}{2}s(192) + 2304 = 96s + 2304</m>, so <m>96s = 3840</m>, giving <m>s = 40</m> cm.</p></answer>
+      </task>
+
+      <task>
+        <statement><p>A right rectangular pyramid has base dimensions <m>9.0 \text{ cm} \times w</m> and height 10.0 cm. Its volume is <m>68.4 \text{ cm}^3</m>. Find <m>w</m>.</p></statement>
+        <answer><p><m>68.4 = \frac{1}{3}(9.0 \times w)(10.0) = 30w</m>, so <m>w = 2.28 \approx 2.3</m> cm.</p></answer>
+      </task>
+
+      <task>
+        <statement><p>A right square pyramid has height 92 cm and volume <m>5.4 \text{ m}^3</m>. Find the side length of the base, in metres.</p></statement>
+        <hint><p>Convert 92 cm to metres first.</p></hint>
+        <answer><p><m>5.4 = \frac{1}{3}a^2(0.92)</m>, so <m>a^2 = \frac{5.4 \times 3}{0.92} \approx 17.6</m>, giving <m>a \approx 4.2</m> m.</p></answer>
+      </task>
+    </project>
+
+    <exercise>
+      <title>Magnetic Paperweight</title>
+      <statement><p>A magnetic paperweight has the shape of a right square pyramid with slant height 8.5 cm and base side length 10 cm. Find its surface area.</p></statement>
+      <answer><p><m>SA = \frac{1}{2}(8.5)(40) + 100 = 170 + 100 = 270 \text{ cm}^2</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Wooden Rectangular Pyramid</title>
+      <statement><p>A wooden right rectangular pyramid has base dimensions 10.4 cm by 8.6 cm and height 14.8 cm. Find its volume to the nearest tenth of a cubic centimetre.</p></statement>
+      <answer><p><m>V = \frac{1}{3}(10.4 \times 8.6)(14.8) = \frac{1}{3}(89.44)(14.8) = \frac{1323.7}{3} \approx 441.2 \text{ cm}^3</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Desk Puzzle</title>
+      <statement><p>A desk puzzle is in the shape of a right rectangular pyramid with base 6 cm by 8 cm and height 10 cm. Calculate the amount of wood needed to create the puzzle.</p></statement>
+      <answer><p><m>V = \frac{1}{3}(6 \times 8)(10) = \frac{480}{3} = 160 \text{ cm}^3</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Volume to Slant Height</title>
+      <statement><p>A right square pyramid has a volume of <m>111 \text{ yd}^3</m> and base side length 6 yd. Determine the slant height to the nearest yard.</p></statement>
+      <hint><p>First find the height, then use the Pythagorean theorem.</p></hint>
+      <answer><p><m>111 = \frac{1}{3}(36)h = 12h</m>, so <m>h = 9.25</m> yd. Then <m>s = \sqrt{9.25^2 + 3^2} = \sqrt{85.56 + 9} = \sqrt{94.56} \approx 9.7 \approx 10</m> yd.</p></answer>
+    </exercise>
+  </subsection>
+
+  <!-- ============================== -->
+  <subsection xml:id="subsec-pyramid-word-problems">
+    <title>Word Problems</title>
+
+    <example>
+      <title>Glass Pyramid Building</title>
+      <p>A glass pyramid building has a square base with side length 26 m and height 24 m. Estimate its volume.</p>
+      <md>
+        <mrow>V \amp= \frac{1}{3} A h</mrow>
+        <mrow>\amp= \frac{1}{3}(26)^2(24)</mrow>
+        <mrow>\amp= 5408 \text{ m}^3</mrow>
+      </md>
+    </example>
+
+    <example>
+      <title>Doghouse Roof</title>
+      <p>A doghouse has a rectangular base (1.2 m <m>\times</m> 0.8 m) with a pyramidal roof. The roof has a height of 0.5 m above the top of the walls. Find the volume of the roof.</p>
+      <image width="40%">
+        <latex-image>
+          \begin{tikzpicture}[scale=0.8]
+            % Rectangular base (oblique projection)
+            \coordinate (FL) at (0, 0);
+            \coordinate (FR) at (3.5, 0);
+            \coordinate (BR) at (4.5, 0.9);
+            \coordinate (BL) at (1, 0.9);
+            \coordinate (apex) at (2.25, 2.5);
+            \coordinate (center) at (2.25, 0.45);
+            % Base edges
+            \draw[thick] (FL) -- (FR) -- (BR);
+            \draw[dashed] (BR) -- (BL) -- (FL);
+            % Lateral edges
+            \draw[thick] (FL) -- (apex);
+            \draw[thick] (FR) -- (apex);
+            \draw[thick] (BR) -- (apex);
+            \draw[dashed] (BL) -- (apex);
+            % Height
+            \draw[dashed] (center) -- (apex);
+            % Labels
+            \draw[&lt;-&gt;] (0, -0.4) -- (3.5, -0.4) node[midway, below] {$1.2$};
+            \node[right] at (4.2, 0.3) {$0.8$};
+            \node[left] at (2.3, 1.2) {$0.5$};
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+      <p>Answer: <m>V = \frac{1}{3}(1.2 \times 0.8)(0.5) = \frac{1}{3}(0.96)(0.5) = \frac{0.48}{3} = 0.16 \text{ m}^3</m>.</p>
+    </example>
+
+    <exercise>
+      <title>Large Square Pyramid</title>
+      <statement><p>A large square pyramid has a base with side length 755 ft and a height of 481 ft. Determine its surface area to the nearest square foot.</p></statement>
+      <hint><p>Find the slant height first.</p></hint>
+      <answer><p><m>s = \sqrt{481^2 + 377.5^2} = \sqrt{231{,}361 + 142{,}506} = \sqrt{373{,}867} \approx 611.4</m> ft. <m>SA = \frac{1}{2}(611.4)(3020) + 755^2 \approx 923{,}214 + 570{,}025 \approx 1{,}493{,}239 \text{ ft}^2</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Museum Display Pyramid</title>
+      <statement><p>A model pyramid is constructed for a museum display. The total area of the four triangular faces is 3000 square inches, and the base has side length 50 in. Determine the height of the model to the nearest tenth of an inch.</p></statement>
+      <hint><p>First find the slant height from the lateral area.</p></hint>
+      <answer><p><m>LA = \frac{1}{2}s(200) = 100s = 3000</m>, so <m>s = 30</m> in. Then <m>h = \sqrt{30^2 - 25^2} = \sqrt{900 - 625} = \sqrt{275} \approx 16.6</m> in.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Comparing Glass Pyramids</title>
+      <statement><p>Two glass pyramids are being compared. Pyramid A has a square base with side 35.0 m and height 20.6 m. Pyramid B has a square base with side 25.7 m and height 24.0 m. Which pyramid requires more glass for its four triangular faces?</p></statement>
+      <answer><p>Pyramid A: <m>s = \sqrt{20.6^2 + 17.5^2} = \sqrt{730.6} \approx 27.0</m> m. Glass <m>= \frac{1}{2}(27.0)(140) = 1890 \text{ m}^2</m>. Pyramid B: <m>s = \sqrt{24.0^2 + 12.85^2} = \sqrt{741.1} \approx 27.2</m> m. Glass <m>= \frac{1}{2}(27.2)(102.8) \approx 1399 \text{ m}^2</m>. Pyramid A requires more glass.</p></answer>
+    </exercise>
+
+    <project>
+      <title>Tent Pyramid</title>
+      <introduction><p>A tent has the shape of a right square pyramid. It uses 4 poles, each 2.1 m long, as the lateral edges from the base corners to the apex. The base has side length 1.5 m.</p></introduction>
+
+      <task>
+        <statement><p>Find the slant height of the tent to the nearest tenth of a metre.</p></statement>
+        <hint><p>The lateral edge goes from a base corner to the apex. The slant height goes from the midpoint of a base edge to the apex.</p></hint>
+        <answer><p>The distance from the center of the base to a corner is <m>\frac{1.5\sqrt{2}}{2} \approx 1.06</m> m. The pyramid height is <m>h = \sqrt{2.1^2 - 1.06^2} = \sqrt{4.41 - 1.12} = \sqrt{3.29} \approx 1.81</m> m. The slant height is <m>s = \sqrt{1.81^2 + 0.75^2} = \sqrt{3.28 + 0.56} = \sqrt{3.84} \approx 2.0</m> m.</p></answer>
+      </task>
+
+      <task>
+        <statement><p>Find the lateral surface area of the tent to the nearest square metre.</p></statement>
+        <answer><p>Lateral area <m>= \frac{1}{2}(2.0)(6.0) = 6 \text{ m}^2</m>.</p></answer>
+      </task>
+    </project>
+
+    <exercise>
+      <title>Limestone Pyramid Building</title>
+      <statement><p>A pyramid-shaped building has a square base with side length 60 ft and height 38 ft. The four triangular exterior walls are to be coated with polished limestone. What area of limestone is needed, to the nearest square foot?</p></statement>
+      <answer><p><m>s = \sqrt{38^2 + 30^2} = \sqrt{1444 + 900} = \sqrt{2344} \approx 48.4</m> ft. Lateral area <m>= \frac{1}{2}(48.4)(240) \approx 5810 \text{ ft}^2</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Glass Pyramid Greenhouse</title>
+      <statement><p>A glass pyramid greenhouse has a square base that measures 26 m on each side and a slant height of 35.4 m. How much glass is needed for the four triangular faces, to the nearest square metre?</p></statement>
+      <answer><p>Glass area <m>= \frac{1}{2}(35.4)(104) = 1840.8 \approx 1841 \text{ m}^2</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Stone Monument</title>
+      <statement><p>A stone monument has the shape of a right square pyramid with slant height 1.6 m and base side length 0.8 m. Find the volume of the monument to the nearest tenth of a cubic metre.</p></statement>
+      <hint><p>Find the height first.</p></hint>
+      <answer><p><m>h = \sqrt{1.6^2 - 0.4^2} = \sqrt{2.56 - 0.16} = \sqrt{2.4} \approx 1.55</m> m. <m>V = \frac{1}{3}(0.64)(1.55) \approx 0.3 \text{ m}^3</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Minimum Roof Height</title>
+      <statement><p>The roof of a house is shaped like a right square pyramid with base 32 ft on each side. The attic must enclose a volume of at least <m>4096 \text{ ft}^3</m> of air. What is the minimum height of the roof?</p></statement>
+      <answer><p><m>4096 = \frac{1}{3}(1024)h</m>, so <m>h = \frac{4096 \times 3}{1024} = 12</m> ft.</p></answer>
+    </exercise>
+
+    <project>
+      <title>Pyramid with Equal-Sided Faces</title>
+      <introduction><p>A right square pyramid has base side length 3.5 m. Each triangular face has two equal sides of length 4.5 m.</p></introduction>
+
+      <task>
+        <statement><p>Find the height of the pyramid to the nearest tenth of a metre.</p></statement>
+        <hint><p>From the face dimensions, find the slant height first (the height of the triangular face), then the pyramid height.</p></hint>
+        <answer><p>Each face is a triangle with base 3.5 m and equal sides 4.5 m. The slant height is <m>s = \sqrt{4.5^2 - 1.75^2} = \sqrt{20.25 - 3.06} = \sqrt{17.19} \approx 4.15</m> m. Then <m>h = \sqrt{4.15^2 - 1.75^2} = \sqrt{17.22 - 3.06} = \sqrt{14.16} \approx 3.8</m> m.</p></answer>
+      </task>
+
+      <task>
+        <statement><p>Find the volume to the nearest tenth of a cubic metre.</p></statement>
+        <answer><p><m>V = \frac{1}{3}(12.25)(3.8) \approx 15.5 \text{ m}^3</m>.</p></answer>
+      </task>
+    </project>
+
+    <project>
+      <title>Tetrahedron Tea Bag</title>
+      <introduction><p>A tea bag has the shape of a regular tetrahedron. Each edge is 5.8 cm long and the height of the tetrahedron is approximately 4.7 cm.</p></introduction>
+
+      <task>
+        <statement><p>Calculate the area of the base to the nearest square centimetre.</p></statement>
+        <answer><p>Base area <m>= \frac{\sqrt{3}}{4}(5.8)^2 = \frac{\sqrt{3}}{4}(33.64) \approx 14.6 \text{ cm}^2 \approx 15 \text{ cm}^2</m>.</p></answer>
+      </task>
+
+      <task>
+        <statement><p>Calculate the volume to the nearest cubic centimetre.</p></statement>
+        <answer><p><m>V = \frac{1}{3}(14.6)(4.7) \approx 22.9 \text{ cm}^3 \approx 23 \text{ cm}^3</m>.</p></answer>
+      </task>
+    </project>
+
+    <project>
+      <title>Iron Garden Ornament</title>
+      <introduction><p>A solid iron garden ornament has the shape of a right square pyramid with slant height 8 in and base side length 3 in.</p></introduction>
+
+      <task>
+        <statement><p>Determine the volume to the nearest cubic inch.</p></statement>
+        <answer><p><m>h = \sqrt{8^2 - 1.5^2} = \sqrt{64 - 2.25} = \sqrt{61.75} \approx 7.86</m> in. <m>V = \frac{1}{3}(9)(7.86) \approx 23.6 \approx 24 \text{ in}^3</m>.</p></answer>
+      </task>
+
+      <task>
+        <statement><p>A second ornament has the same shape and the same height, but a volume of <m>96 \text{ in}^3</m>. Find the side length of its base to the nearest inch.</p></statement>
+        <answer><p><m>96 = \frac{1}{3}a^2(7.86)</m>, so <m>a^2 = \frac{288}{7.86} \approx 36.6</m>, giving <m>a \approx 6</m> in.</p></answer>
+      </task>
+    </project>
+
+    <exercise>
+      <title>Frustum of a Pyramid</title>
+      <statement><p>A right rectangular pyramid has base dimensions 5 m by 3 m and a height of 10 m. A horizontal cut is made 2 m from the apex, and the smaller pyramid at the top is removed. Find the volume of the remaining piece (the <term>frustum</term>).</p></statement>
+      <hint><p>Use similar triangles to find the base dimensions of the small pyramid.</p></hint>
+      <answer><p>Full pyramid: <m>V = \frac{1}{3}(15)(10) = 50 \text{ m}^3</m>. The small pyramid has height 2 m. By similar triangles, its base is scaled by <m>\frac{2}{10} = \frac{1}{5}</m>, so the base is <m>1 \times 0.6</m> m. <m>V_{\text{small}} = \frac{1}{3}(0.6)(2) = 0.4 \text{ m}^3</m>. Remaining: <m>50 - 0.4 = 49.6 \text{ m}^3</m>.</p></answer>
+    </exercise>
+
+    <exercise>
+      <title>Hexagonal Pyramid</title>
+      <statement><p>A right pyramid has a base that is a regular hexagon with side length 5.5 cm. Each triangular face has two equal sides of length 7.5 cm. Find the surface area to the nearest square centimetre.</p></statement>
+      <hint><p>The area of a regular hexagon with side <m>a</m> is <m>\frac{3\sqrt{3}}{2}a^2</m>.</p></hint>
+      <answer><p>Base area <m>= \frac{3\sqrt{3}}{2}(5.5)^2 \approx 78.6 \text{ cm}^2</m>. The slant height of each face is <m>s = \sqrt{7.5^2 - 2.75^2} = \sqrt{56.25 - 7.56} = \sqrt{48.69} \approx 6.98</m> cm. Lateral area <m>= 6 \times \frac{1}{2}(5.5)(6.98) \approx 115.2 \text{ cm}^2</m>. <m>SA \approx 78.6 + 115.2 = 193.8 \approx 194 \text{ cm}^2</m>.</p></answer>
+    </exercise>
+  </subsection>
+
+  <!-- ============================== -->
+  <subsection xml:id="subsec-pyramid-volume-derivation">
+    <title>Advanced: Derivation of Volume Formula</title>
+
+    <p>Consider a cube with side length <m>x</m>, and so of volume <m>x^3</m>. Consider the center point in the cube, and connect it to all 8 corners,</p>
+
+    <image width="50%">
+      <latex-image>
+        \begin{tikzpicture}[scale=1.2]
+          % Cube vertices
+          \coordinate (A) at (0,0);       % front-bottom-left
+          \coordinate (B) at (3,0);       % front-bottom-right
+          \coordinate (C) at (3,3);       % front-top-right
+          \coordinate (D) at (0,3);       % front-top-left
+          \coordinate (E) at (1.2,0.9);   % back-bottom-left
+          \coordinate (F) at (4.2,0.9);   % back-bottom-right
+          \coordinate (G) at (4.2,3.9);   % back-top-right
+          \coordinate (H) at (1.2,3.9);   % back-top-left
+          % Center
+          \coordinate (O) at (2.1,1.95);
+          % Back edges (dashed)
+          \draw[dashed] (A) -- (E);
+          \draw[dashed] (E) -- (F);
+          \draw[dashed] (E) -- (H);
+          % Front face
+          \draw[thick] (A) -- (B) -- (C) -- (D) -- cycle;
+          % Right face
+          \draw[thick] (B) -- (F) -- (G) -- (C);
+          % Top face
+          \draw[thick] (D) -- (H) -- (G);
+          % Lines from center to all corners
+          \draw[dashed, blue] (O) -- (A);
+          \draw[dashed, blue] (O) -- (B);
+          \draw[dashed, blue] (O) -- (C);
+          \draw[dashed, blue] (O) -- (D);
+          \draw[dashed, blue] (O) -- (E);
+          \draw[dashed, blue] (O) -- (F);
+          \draw[dashed, blue] (O) -- (G);
+          \draw[dashed, blue] (O) -- (H);
+          % Center dot
+          \fill[blue] (O) circle (2.5pt);
+          \node[blue, below right] at (O) {center};
+          % Side label
+          \draw[&lt;-&gt;] (0,-0.4) -- (3,-0.4) node[midway, below] {$x$};
+        \end{tikzpicture}
+      </latex-image>
+    </image>
+
+    <p>This divides the cube into 6 identical pyramids of equal volume --- one pyramid for each face of the cube. Each pyramid has its base on a face of the cube and its apex at the center. Here is one of the 6 pyramids highlighted (the one whose base is the bottom face),</p>
+
+    <image width="50%">
+      <latex-image>
+        \begin{tikzpicture}[scale=1.2]
+          % Cube vertices
+          \coordinate (A) at (0,0);       % front-bottom-left
+          \coordinate (B) at (3,0);       % front-bottom-right
+          \coordinate (C) at (3,3);       % front-top-right
+          \coordinate (D) at (0,3);       % front-top-left
+          \coordinate (E) at (1.2,0.9);   % back-bottom-left
+          \coordinate (F) at (4.2,0.9);   % back-bottom-right
+          \coordinate (G) at (4.2,3.9);   % back-top-right
+          \coordinate (H) at (1.2,3.9);   % back-top-left
+          % Center
+          \coordinate (O) at (2.1,1.95);
+          % Shade the bottom-face pyramid
+          \fill[blue!20, opacity=0.6] (A) -- (B) -- (O) -- cycle;
+          \fill[blue!12, opacity=0.6] (B) -- (F) -- (O) -- cycle;
+          \fill[blue!10, opacity=0.6] (A) -- (E) -- (O) -- cycle;
+          % Base fill
+          \fill[blue!15, opacity=0.4] (A) -- (B) -- (F) -- (E) -- cycle;
+          % Back edges (dashed)
+          \draw[dashed] (A) -- (E);
+          \draw[dashed] (E) -- (F);
+          \draw[dashed] (E) -- (H);
+          % Front face
+          \draw[thick] (A) -- (B) -- (C) -- (D) -- cycle;
+          % Right face
+          \draw[thick] (B) -- (F) -- (G) -- (C);
+          % Top face
+          \draw[thick] (D) -- (H) -- (G);
+          % Bottom face base of pyramid (blue)
+          \draw[thick, blue] (A) -- (B);
+          \draw[thick, blue] (B) -- (F);
+          \draw[dashed, blue] (F) -- (E);
+          \draw[dashed, blue] (E) -- (A);
+          % Edges from bottom corners to center (the pyramid)
+          \draw[thick, blue] (A) -- (O);
+          \draw[thick, blue] (B) -- (O);
+          \draw[thick, blue] (F) -- (O);
+          \draw[dashed, blue] (E) -- (O);
+          % Center dot
+          \fill[blue] (O) circle (2.5pt);
+          \node[blue, above left] at (O) {apex (center)};
+          % Label
+          \node[blue] at (2.1,-0.4) {base};
+        \end{tikzpicture}
+      </latex-image>
+    </image>
+
+    <p>Since the 6 pyramids fill the cube exactly,</p>
+    <me>V_{\text{cube}} = x^3 = 6 V_{\text{pyramid}}</me>
+
+    <p>Thus,</p>
+    <me>V_{\text{pyramid}} = \frac{1}{6} x^3</me>
+
+    <p>Each pyramid has a base that is a face of the cube (area <m>x^2</m>), and a height equal to half the side length (<m>\frac{x}{2}</m>), since the center is in the middle of the cube.</p>
+
+    <image width="50%">
+      <latex-image>
+        \begin{tikzpicture}[scale=1.2]
+          % Cube vertices (same as above)
+          \coordinate (A) at (0,0);       % front-bottom-left
+          \coordinate (B) at (3,0);       % front-bottom-right
+          \coordinate (C) at (3,3);       % front-top-right
+          \coordinate (D) at (0,3);       % front-top-left
+          \coordinate (E) at (1.2,0.9);   % back-bottom-left
+          \coordinate (F) at (4.2,0.9);   % back-bottom-right
+          \coordinate (G) at (4.2,3.9);   % back-top-right
+          \coordinate (H) at (1.2,3.9);   % back-top-left
+          % Center
+          \coordinate (O) at (2.1,1.95);
+          % Center of bottom face
+          \coordinate (Obase) at (2.1,0.45);
+          % Faint cube
+          \draw[gray!60, dashed] (A) -- (E);
+          \draw[gray!60, dashed] (E) -- (F);
+          \draw[gray!60, dashed] (E) -- (H);
+          \draw[gray!60] (A) -- (B) -- (C) -- (D) -- cycle;
+          \draw[gray!60] (B) -- (F) -- (G) -- (C);
+          \draw[gray!60] (D) -- (H) -- (G);
+          % Shade the bottom-face pyramid
+          \fill[blue!20, opacity=0.6] (A) -- (B) -- (O) -- cycle;
+          \fill[blue!12, opacity=0.6] (B) -- (F) -- (O) -- cycle;
+          \fill[blue!10, opacity=0.6] (A) -- (E) -- (O) -- cycle;
+          \fill[blue!15, opacity=0.4] (A) -- (B) -- (F) -- (E) -- cycle;
+          % Bottom face base of pyramid (blue)
+          \draw[thick, blue] (A) -- (B);
+          \draw[thick, blue] (B) -- (F);
+          \draw[dashed, blue] (F) -- (E);
+          \draw[dashed, blue] (E) -- (A);
+          % Edges from bottom corners to center
+          \draw[thick, blue] (A) -- (O);
+          \draw[thick, blue] (B) -- (O);
+          \draw[thick, blue] (F) -- (O);
+          \draw[dashed, blue] (E) -- (O);
+          % Center dot
+          \fill[blue] (O) circle (2.5pt);
+          % Height line
+          \draw[dashed, thick] (Obase) -- (O);
+          \draw (Obase) ++(0.2,0) -- ++(0,0.2) -- ++(-0.2,0);
+          % Labels
+          \draw[&lt;-&gt;] (0,-0.4) -- (3,-0.4) node[midway, below] {$x$};
+          \node[left] at (2.1,1.3) {$\dfrac{x}{2}$};
+          \node at (2.1, -1.0) {base area $= x^2$};
+        \end{tikzpicture}
+      </latex-image>
+    </image>
+
+    <p>Therefore,</p>
+    <me>V_{\text{pyramid}} = \frac{1}{6} x^3 = \frac{1}{3} \cdot x^2 \cdot \frac{x}{2} = \frac{1}{3} A h</me>
+  </subsection>
+
+</section>
