@@ -232,61 +232,34 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.1",
   "title": "Volume and Surface Area",
-  "body": " Volume and Surface Area   For every 3-dimensional shape, we want to answer two fundamental questions:   How much space does it take up?  How much surface does it have?   These are the ideas of volume and surface area.   Volume is the amount of space a 3-dimensional object occupies. It is measured in cubic units, such as or .  Surface area is the total area of the boundary of a 3-dimensional object. It is measured in square units, such as or .   In everyday terms,   Volume tells you how much water a container can hold.  Surface area tells you how much paint you need to cover it.     Units   Units  Volume is measured in cubic units. For example, is the volume of a cube with side length . Volume can also be measured in liters (L) and milliliters (mL), which are more common for liquids. The conversion between these units is:   Surface area is measured in square units (e.g. , ).     Families of 3D Shapes  We will analyze the volume and surface area of a bunch of different 3-dimensional shapes. These shapes fall into two families, plus one special shape.  The prism family includes shapes with two identical bases connected by flat (or curved) sides:   Cubes and rectangular prisms  More general prisms (e.g. with a triangular base)  Cylinders (a prism with a circular base)   The pyramid family consists of shapes that taper to a point:   Pyramids (with a polygonal base)  Cones (a pyramid with a circular base)   The sphere stands on its own, as it has no base and no edges.   The prism family: cube, rectangular prism, triangular prism, cylinder       The pyramid family and the sphere: pyramid, cone, sphere       The Pattern  We will see that pointed shapes (pyramids, cones) always have exactly the volume of their flat-topped counterparts (prisms, cylinders) with the same base and height. This is a recurring theme throughout the chapter.    "
+  "body": " Volume and Surface Area  For every 3-dimensional shape, we want to answer two fundamental questions:   How much space does it take up?  How much surface does it have?   These are the ideas of volume and surface area.   Volume is the amount of space a 3-dimensional object occupies. It is measured in cubic units, such as or .  Surface area is the total area of the boundary of a 3-dimensional object. It is measured in square units, such as or .      In everyday terms,   Volume tells you how much water a container can hold.  Surface area tells you how much paint you need to cover it.    Units  Volume is measured in cubic units. For example, is the volume of a cube with side length .     Volume can also be measured in liters (L) and milliliters (mL), which are more common for liquids. The conversion between these units is:   Surface area is measured in square units (e.g. , ).   We will analyze the volume and surface area of a bunch of different 3-dimensional shapes. These shapes fall into 2 families, plus 1 special shape.  The prism family includes shapes with 2 identical bases connected by flat (or curved) sides:   Cubes and rectangular prisms  More general prisms (e.g. with a triangular base)  Cylinders (a prism with a circular base)   The pyramid family consists of shapes that meet up at a point at the top:   Pyramids  Cones (a pyramid with a circular base)   The sphere stands on its own, as it has no base and no edges.        "
 },
 {
-  "id": "sec-volume-and-surface-area-2-4-1-1",
+  "id": "sec-volume-and-surface-area-5-1-1",
   "level": "2",
-  "url": "sec-volume-and-surface-area.html#sec-volume-and-surface-area-2-4-1-1",
+  "url": "sec-volume-and-surface-area.html#sec-volume-and-surface-area-5-1-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Volume "
 },
 {
-  "id": "sec-volume-and-surface-area-2-4-2-1",
+  "id": "sec-volume-and-surface-area-5-2-1",
   "level": "2",
-  "url": "sec-volume-and-surface-area.html#sec-volume-and-surface-area-2-4-2-1",
+  "url": "sec-volume-and-surface-area.html#sec-volume-and-surface-area-5-2-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Surface area "
 },
 {
-  "id": "subsec-units-2",
+  "id": "sec-volume-and-surface-area-9",
   "level": "2",
-  "url": "sec-volume-and-surface-area.html#subsec-units-2",
+  "url": "sec-volume-and-surface-area.html#sec-volume-and-surface-area-9",
   "type": "Remark",
   "number": "3.1.1",
   "title": "Units.",
-  "body": " Units  Volume is measured in cubic units. For example, is the volume of a cube with side length . Volume can also be measured in liters (L) and milliliters (mL), which are more common for liquids. The conversion between these units is:   Surface area is measured in square units (e.g. , ).  "
-},
-{
-  "id": "fig-prism-family",
-  "level": "2",
-  "url": "sec-volume-and-surface-area.html#fig-prism-family",
-  "type": "Figure",
-  "number": "3.1.2",
-  "title": "",
-  "body": " The prism family: cube, rectangular prism, triangular prism, cylinder     "
-},
-{
-  "id": "fig-pyramid-family-and-sphere",
-  "level": "2",
-  "url": "sec-volume-and-surface-area.html#fig-pyramid-family-and-sphere",
-  "type": "Figure",
-  "number": "3.1.3",
-  "title": "",
-  "body": " The pyramid family and the sphere: pyramid, cone, sphere     "
-},
-{
-  "id": "subsec-families-of-3d-shapes-10",
-  "level": "2",
-  "url": "sec-volume-and-surface-area.html#subsec-families-of-3d-shapes-10",
-  "type": "Remark",
-  "number": "3.1.4",
-  "title": "The <span class=\"process-math\">\\(\\frac{1}{3}\\)<\/span> Pattern.",
-  "body": " The Pattern  We will see that pointed shapes (pyramids, cones) always have exactly the volume of their flat-topped counterparts (prisms, cylinders) with the same base and height. This is a recurring theme throughout the chapter.  "
+  "body": " Units  Volume is measured in cubic units. For example, is the volume of a cube with side length .     Volume can also be measured in liters (L) and milliliters (mL), which are more common for liquids. The conversion between these units is:   Surface area is measured in square units (e.g. , ).  "
 },
 {
   "id": "sec-cubes-and-right-prisms",
@@ -295,16 +268,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.2",
   "title": "Cubes and Right Prisms",
-  "body": " Cubes and Right Prisms   First, we'll analyze shapes like cubes, boxes, and other prisms .   Three types of right prisms      Notice that all of these shapes have 2 bases, that are connected by flat rectangular faces. This type of shape is called a right prism . The word right means the sides are perpendicular to the base (they are at right angles to the base).     Cube  A cube is a right prism where all 6 faces are identical squares. If the side length is , then the base area is and the height is , so,   The volume of a cube with side length is,    Volume of a Cube   Find the volume of a cube with side length 4 cm.      .    Cubing a Number  This is why raising a number to the third power is called cubing the number: it gives the volume of a cube with that side length.      Rectangular Prism  A rectangular prism has the shape of a box. If the length is , width is , and height is , then the base area is , so,   The volume of a rectangular prism with length , width , and height is,   In other words, to find the volume of a rectangular prism, multiply all 3 of its dimensions together (length, width, height).   Volume of a Rectangular Prism   Find the volume of a rectangular prism with length 6 cm, width 4 cm, and height 3 cm.      .      Volume of a General Right Prism  More generally, the volume of a prism is the area of its base multiplied by its height.   Intuitively, a prism is a stack of identical cross-sections, so the volume is the area of one cross-section times the height of the stack.   A prism as a stack of identical cross-sections      The volume of a right prism with base area and height is,   This formula works for prisms with any base shape: triangular, pentagonal, hexagonal, etc. Simply compute the area of the base and multiply by the height.   Volume of a Triangular Prism  Find the volume of a triangular prism whose base is a right triangle with legs 3 cm and 4 cm, and whose height is 10 cm.     Answer: The base is a right triangle with area . So,       Surface Area of a Prism   The surface area of a prism is found by adding the areas of all of its faces.     Cube  A cube has 6 square faces which are all the same size. To see this, imagine cutting the cube along its edges and unfolding it flat. The result is called a net ,   A cube and its net      Each of the 6 faces is a square with area . So,    The surface area of a cube with side length is,      Volume and Surface Area of a Cube  Find the volume and surface area of a cube with side length 5 cm.     The volume is,   The surface area is,       Rectangular Prism  A rectangular prism has 3 pairs of rectangular faces. Unfolding it into a net, we can see all 6 faces,   A rectangular prism and its net      Two faces have area , two have area , and two have area . So,    The surface area of a rectangular prism with length , width , and height is,      Rectangular Prism  A shipping box is 30 cm long, 20 cm wide, and 15 cm tall. Find its volume and surface area.     The volume is,   The surface area is,       General Right Prism  For a general right prism, imagine unfolding the shape. The two bases each have area . The lateral (side) surface, when unrolled flat, forms a rectangle whose width is the perimeter of the base and whose height is ,   A triangular prism and its net      So the lateral area is , and the total surface area is,    The surface area of a right prism with base area , base perimeter , and height is,      Triangular Prism  A right prism has a triangular base with legs 3 cm and 4 cm (a right triangle), and the prism has height 10 cm. Find its volume and surface area.     First, find the base area. The base is a right triangle with legs 3 and 4, so,   The volume is,   For the surface area, we need the perimeter of the base. By the Pythagorean theorem, the hypotenuse of the triangle is,   So the perimeter is cm. Then,        Examples   Volume and Surface Area of Prisms  Find the volume and surface area of each prism.    A cube with side length 8 cm.      , .     A rectangular prism with length 12 cm, width 8 cm, and height 5 cm.      , .    A rectangular prism with dimensions .  , .    A right prism with a triangular base. The base is an equilateral triangle with side length 6 cm, and the prism has height 14 cm.  The area of an equilateral triangle with side is .  , .     Reverse Problems  Solve each problem.   A cube has surface area . Find its side length and volume.  , solve for .  , so cm. .    A rectangular prism has volume , length 15 cm, and width 10 cm. Find its height.  cm.    A cube has volume . Find its side length to the nearest tenth.  cm.     Unit Conversions  Solve each problem.   A rectangular fish tank is 60 cm long, 30 cm wide, and 40 cm tall. Find the volume of the tank in , then convert to litres.  .    A rectangular container is . How many litres of water can it hold?  .     Cube: Reverse Problem  A cube has volume . Find its side length and surface area.  Since , we have,   Then, the surface area is,     Hexagonal Prism   A right prism has a regular hexagonal base with side length 4 cm and height 12 cm. Find its volume.      A regular hexagon with side length has area .  . .    Finding Height from Surface Area  A closed box has a surface area of . The base of the box is 5 in by 3 in. Sketch a diagram and find the height of the box.  Set up the SA formula and solve for .  . So , giving in.    Finding Width from Surface Area  A rectangular prism has SA and dimensions . Find .  . So , giving cm.    Cube with Same Volume  A rectangular prism has dimensions . A cube is to be made with the same volume. What is the side length of the cube?  . , so in.      Word Problems   Painting a Room  A room is 5 m long, 4 m wide, and 3 m tall. How many litres of paint are needed if 1 litre covers ? Assume you paint the four walls and the ceiling, but not the floor.     First, compute the area to be painted. The four walls have a combined area equal to the perimeter of the floor times the height,   The ceiling has area,   The total area to paint is,   Then, the number of litres needed is,   So you would need to buy at least 8 litres of paint.    Wrapping Paper   A gift box is 25 cm long, 18 cm wide, and 10 cm tall. How much wrapping paper is needed to cover the box (ignoring overlap)?      .    Storage Unit  A storage unit is 3 m long, 2.5 m wide, and 2.4 m tall. How many cubic metres of storage space does it have? How many boxes measuring can fit inside (assuming perfect packing)?  . Each box has . Along length: . Along width: . Along height: (with 0.4 m unused). So boxes.    Aquarium  An aquarium is 80 cm long, 40 cm wide, and 50 cm tall. It is filled with water to a height of 45 cm. How many litres of water are in the aquarium?  .    Comparing Lockers  At a recreation centre, you choose between two types of lockers. A single locker from a double stack measures 0.4 m wide by 0.6 m deep, and the full stack is 1.8 m tall. A single locker from a triple stack measures 30 in wide by 15 in deep, and the full stack is 41 in tall. Which type of locker gives you more space, and how much more (in cubic metres)?  Find the height of one locker in each stack, then convert all dimensions to metres ( ).  Double-stack locker: . Triple-stack: height in, so dimensions cm. Volume . The double-stack gives about more space.    Storage Cabinet  A wooden storage cabinet is a right rectangular prism, 6 ft tall, 3 ft wide, and 30 in deep. Calculate the volume of the cabinet. Then, if the height is reduced by one quarter (keeping width and depth the same), what is the new volume? How does reducing one dimension by a factor of affect the volume?  Depth ft. . New height ft. New . The new volume is of the original. In general, multiplying one dimension by multiplies the volume by .    Dogsled Kennels  For a dogsled race, a competitor builds a trailer that is a right rectangular prism measuring 2 m wide, 1.6 m high, and 3.2 m long. The trailer is divided into 16 identical kennels (in 2 rows of 8). How much material is needed to build the kennels?  Account for the outer walls and the interior dividing walls.  Outer shell: . Interior: one lengthwise divider , seven crosswise dividers . Total .    Maximum Volume from Material  You have of material. What is the maximum volume of a cube you can make with this material?  The SA of a cube is , solve for .  , so cm. .    "
-},
-{
-  "id": "fig-three-prisms",
-  "level": "2",
-  "url": "sec-cubes-and-right-prisms.html#fig-three-prisms",
-  "type": "Figure",
-  "number": "3.2.1",
-  "title": "",
-  "body": " Three types of right prisms     "
+  "body": " Cubes and Right Prisms   First, we'll analyze shapes like cubes, boxes, and other prisms .     Notice that all of these shapes have 2 bases, that are connected by flat rectangular faces. This type of shape is called a right prism . The word right means the sides are perpendicular to the base (they are at right angles to the base).     Cube  A cube is a right prism where all 6 faces are squares, which are all the same size. If the side length is , then to get volume, multiply all 3 of the dimensions together.     This gives = .  The volume of a cube is,    Volume of a Cube   Find the volume of a cube with side length 4 cm.      .    This is why raising a number to the third power is called cubing the number: it gives the volume of a cube with that side length.      Rectangular Prism  A rectangular prism has the shape of a box. Let's say that the length is , width is , and height is .     Then, the volume is found by multiplying all 3 dimensions together.  The volume of a rectangular prism is,    Volume of a Rectangular Prism   Find the volume of a rectangular prism with length 6 cm, width 4 cm, and height 3 cm.      .      Volume of a General Right Prism  More generally, the volume of a prism is the area of its base multiplied by its height.   Intuitively, a prism is a stack of identical cross-sections, so the volume is the area of one cross-section, multiplied by the height of the stack.     The volume of a right prism is,   This formula works for prisms with any base shape: triangular, pentagonal, hexagonal, etc. Simply compute the area of the base and multiply by the height.   Volume of a Triangular Prism  Find the volume of a triangular prism whose base is a right triangle with legs 3 cm and 4 cm, and whose height is 10 cm.     Answer: The base is a right triangle with area . So,       Surface Area of a Cube and Other Prisms  The surface area of a prism is found by adding the areas of all of its faces.  A cube has 6 square faces which are all the same size. To see this, imagine cutting the cube along its edges and unfolding it flat. The result is called a net ,     Each of the 6 faces is a square with area . So,  The surface area of a cube is,    Volume and Surface Area of a Cube  Find the volume and surface area of a cube with side length 5 cm.     The volume is,   The surface area is,    For a rectangular prism, it also has 6 faces, which are 3 pairs of rectangles. Unfolding it into a net, we can see all 6 faces,     Then, 2 faces have area , 2 have area , and 2 have area . Adding all of these up gives the total surface area.  The surface area of a rectangular prism is,    Rectangular Prism  A shipping box is 30 cm long, 20 cm wide, and 15 cm tall. Find its volume and surface area.     The volume is,   The surface area is,    For a general right prism, imagine unfolding the shape.     The two bases each have area . The lateral (side) surface, when unrolled flat, forms a rectangle whose width is the perimeter of the base and whose height is , so the area of the lateral surface is . Adding these together gives the total surface area.  The surface area of a right prism is,    Triangular Prism  A right prism has a triangular base with legs 3 cm and 4 cm (a right triangle), and the prism has height 10 cm. Find its volume and surface area.     First, find the base area. The base is a right triangle with legs 3 and 4, so,   The volume is,   For the surface area, we need the perimeter of the base. By the Pythagorean theorem, the hypotenuse of the triangle is,   So the perimeter is cm. Then,       Examples   Volume and Surface Area of Prisms  Find the volume and surface area of each prism.    A cube with side length 8 cm.      , .     A rectangular prism with length 12 cm, width 8 cm, and height 5 cm.      , .    A rectangular prism with dimensions .  , .    A right prism with a triangular base. The base is an equilateral triangle with side length 6 cm, and the prism has height 14 cm.  The area of an equilateral triangle with side is .  , .     Reverse Problems  Solve each problem.   A cube has surface area . Find its side length and volume.  , solve for .  , so cm. .    A rectangular prism has volume , length 15 cm, and width 10 cm. Find its height.  cm.    A cube has volume . Find its side length to the nearest tenth.  cm.     Unit Conversions  Solve each problem.   A rectangular fish tank is 60 cm long, 30 cm wide, and 40 cm tall. Find the volume of the tank in , then convert to litres.  .    A rectangular container is . How many litres of water can it hold?  .     Cube: Reverse Problem  A cube has volume . Find its side length and surface area.  Since , we have,   Then, the surface area is,     Hexagonal Prism   A right prism has a regular hexagonal base with side length 4 cm and height 12 cm. Find its volume.      A regular hexagon with side length has area .  . .    Finding Height from Surface Area  A closed box has a surface area of . The base of the box is 5 in by 3 in. Sketch a diagram and find the height of the box.  Set up the SA formula and solve for .  . So , giving in.    Finding Width from Surface Area  A rectangular prism has SA and dimensions . Find .  . So , giving cm.    Cube with Same Volume  A rectangular prism has dimensions . A cube is to be made with the same volume. What is the side length of the cube?  . , so in.      Word Problems   Painting a Room  A room is 5 m long, 4 m wide, and 3 m tall. How many litres of paint are needed if 1 litre covers ? Assume you paint the four walls and the ceiling, but not the floor.     First, compute the area to be painted. The four walls have a combined area equal to the perimeter of the floor times the height,   The ceiling has area,   The total area to paint is,   Then, the number of litres needed is,   So you would need to buy at least 8 litres of paint.    Wrapping Paper   A gift box is 25 cm long, 18 cm wide, and 10 cm tall. How much wrapping paper is needed to cover the box (ignoring overlap)?      .    Storage Unit  A storage unit is 3 m long, 2.5 m wide, and 2.4 m tall. How many cubic metres of storage space does it have? How many boxes measuring can fit inside (assuming perfect packing)?  . Each box has . Along length: . Along width: . Along height: (with 0.4 m unused). So boxes.    Aquarium  An aquarium is 80 cm long, 40 cm wide, and 50 cm tall. It is filled with water to a height of 45 cm. How many litres of water are in the aquarium?  .    Comparing Lockers  At a recreation centre, you choose between two types of lockers. A single locker from a double stack measures 0.4 m wide by 0.6 m deep, and the full stack is 1.8 m tall. A single locker from a triple stack measures 30 in wide by 15 in deep, and the full stack is 41 in tall. Which type of locker gives you more space, and how much more (in cubic metres)?  Find the height of one locker in each stack, then convert all dimensions to metres ( ).  Double-stack locker: . Triple-stack: height in, so dimensions cm. Volume . The double-stack gives about more space.    Storage Cabinet  A wooden storage cabinet is a right rectangular prism, 6 ft tall, 3 ft wide, and 30 in deep. Calculate the volume of the cabinet. Then, if the height is reduced by one quarter (keeping width and depth the same), what is the new volume? How does reducing one dimension by a factor of affect the volume?  Depth ft. . New height ft. New . The new volume is of the original. In general, multiplying one dimension by multiplies the volume by .    Dogsled Kennels  For a dogsled race, a competitor builds a trailer that is a right rectangular prism measuring 2 m wide, 1.6 m high, and 3.2 m long. The trailer is divided into 16 identical kennels (in 2 rows of 8). How much material is needed to build the kennels?  Account for the outer walls and the interior dividing walls.  Outer shell: . Interior: one lengthwise divider , seven crosswise dividers . Total .    Maximum Volume from Material  You have of material. What is the maximum volume of a cube you can make with this material?  The SA of a cube is , solve for .  , so cm. .    "
 },
 {
   "id": "sec-cubes-and-right-prisms-2-3",
@@ -316,155 +280,92 @@ var ptx_lunr_docs = [
   "body": "right prism "
 },
 {
-  "id": "subsec-cube-volume-2",
+  "id": "subsec-cube-2",
   "level": "2",
-  "url": "sec-cubes-and-right-prisms.html#subsec-cube-volume-2",
+  "url": "sec-cubes-and-right-prisms.html#subsec-cube-2",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "cube "
 },
 {
-  "id": "subsec-cube-volume-6",
+  "id": "subsec-cube-7",
   "level": "2",
-  "url": "sec-cubes-and-right-prisms.html#subsec-cube-volume-6",
+  "url": "sec-cubes-and-right-prisms.html#subsec-cube-7",
   "type": "Checkpoint",
-  "number": "3.2.2",
+  "number": "3.2.1",
   "title": "Volume of a Cube.",
   "body": " Volume of a Cube   Find the volume of a cube with side length 4 cm.      .  "
 },
 {
-  "id": "subsec-cube-volume-7",
+  "id": "subsec-cube-8",
   "level": "2",
-  "url": "sec-cubes-and-right-prisms.html#subsec-cube-volume-7",
+  "url": "sec-cubes-and-right-prisms.html#subsec-cube-8",
   "type": "Remark",
-  "number": "3.2.3",
-  "title": "Cubing a Number.",
-  "body": " Cubing a Number  This is why raising a number to the third power is called cubing the number: it gives the volume of a cube with that side length.  "
+  "number": "3.2.2",
+  "title": "",
+  "body": " This is why raising a number to the third power is called cubing the number: it gives the volume of a cube with that side length.  "
 },
 {
-  "id": "subsec-rect-prism-volume-2",
+  "id": "subsec-rectangular-prism-2",
   "level": "2",
-  "url": "sec-cubes-and-right-prisms.html#subsec-rect-prism-volume-2",
+  "url": "sec-cubes-and-right-prisms.html#subsec-rectangular-prism-2",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "rectangular prism "
 },
 {
-  "id": "subsec-rect-prism-volume-7",
+  "id": "subsec-rectangular-prism-7",
   "level": "2",
-  "url": "sec-cubes-and-right-prisms.html#subsec-rect-prism-volume-7",
+  "url": "sec-cubes-and-right-prisms.html#subsec-rectangular-prism-7",
   "type": "Checkpoint",
-  "number": "3.2.4",
+  "number": "3.2.3",
   "title": "Volume of a Rectangular Prism.",
   "body": " Volume of a Rectangular Prism   Find the volume of a rectangular prism with length 6 cm, width 4 cm, and height 3 cm.      .  "
 },
 {
-  "id": "fig-prism-cross-sections",
+  "id": "subsec-volume-general-right-prism-9",
   "level": "2",
-  "url": "sec-cubes-and-right-prisms.html#fig-prism-cross-sections",
-  "type": "Figure",
-  "number": "3.2.5",
-  "title": "",
-  "body": " A prism as a stack of identical cross-sections     "
-},
-{
-  "id": "subsec-general-prism-volume-9",
-  "level": "2",
-  "url": "sec-cubes-and-right-prisms.html#subsec-general-prism-volume-9",
+  "url": "sec-cubes-and-right-prisms.html#subsec-volume-general-right-prism-9",
   "type": "Example",
-  "number": "3.2.6",
+  "number": "3.2.4",
   "title": "Volume of a Triangular Prism.",
   "body": " Volume of a Triangular Prism  Find the volume of a triangular prism whose base is a right triangle with legs 3 cm and 4 cm, and whose height is 10 cm.     Answer: The base is a right triangle with area . So,   "
 },
 {
-  "id": "subsubsec-cube-sa-2",
+  "id": "subsec-surface-area-cube-prisms-3",
   "level": "2",
-  "url": "sec-cubes-and-right-prisms.html#subsubsec-cube-sa-2",
+  "url": "sec-cubes-and-right-prisms.html#subsec-surface-area-cube-prisms-3",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "net "
 },
 {
-  "id": "fig-cube-net",
+  "id": "subsec-surface-area-cube-prisms-8",
   "level": "2",
-  "url": "sec-cubes-and-right-prisms.html#fig-cube-net",
-  "type": "Figure",
-  "number": "3.2.7",
-  "title": "",
-  "body": " A cube and its net     "
-},
-{
-  "id": "thm-sa-cube",
-  "level": "2",
-  "url": "sec-cubes-and-right-prisms.html#thm-sa-cube",
-  "type": "Theorem",
-  "number": "3.2.8",
-  "title": "",
-  "body": "  The surface area of a cube with side length is,    "
-},
-{
-  "id": "subsubsec-cube-sa-6",
-  "level": "2",
-  "url": "sec-cubes-and-right-prisms.html#subsubsec-cube-sa-6",
+  "url": "sec-cubes-and-right-prisms.html#subsec-surface-area-cube-prisms-8",
   "type": "Example",
-  "number": "3.2.9",
+  "number": "3.2.5",
   "title": "Volume and Surface Area of a Cube.",
   "body": " Volume and Surface Area of a Cube  Find the volume and surface area of a cube with side length 5 cm.     The volume is,   The surface area is,   "
 },
 {
-  "id": "fig-rect-prism-net",
+  "id": "subsec-surface-area-cube-prisms-14",
   "level": "2",
-  "url": "sec-cubes-and-right-prisms.html#fig-rect-prism-net",
-  "type": "Figure",
-  "number": "3.2.10",
-  "title": "",
-  "body": " A rectangular prism and its net     "
-},
-{
-  "id": "thm-sa-rect-prism",
-  "level": "2",
-  "url": "sec-cubes-and-right-prisms.html#thm-sa-rect-prism",
-  "type": "Theorem",
-  "number": "3.2.11",
-  "title": "",
-  "body": "  The surface area of a rectangular prism with length , width , and height is,    "
-},
-{
-  "id": "subsubsec-rect-prism-sa-6",
-  "level": "2",
-  "url": "sec-cubes-and-right-prisms.html#subsubsec-rect-prism-sa-6",
+  "url": "sec-cubes-and-right-prisms.html#subsec-surface-area-cube-prisms-14",
   "type": "Example",
-  "number": "3.2.12",
+  "number": "3.2.6",
   "title": "Rectangular Prism.",
   "body": " Rectangular Prism  A shipping box is 30 cm long, 20 cm wide, and 15 cm tall. Find its volume and surface area.     The volume is,   The surface area is,   "
 },
 {
-  "id": "fig-general-prism-net",
+  "id": "subsec-surface-area-cube-prisms-20",
   "level": "2",
-  "url": "sec-cubes-and-right-prisms.html#fig-general-prism-net",
-  "type": "Figure",
-  "number": "3.2.13",
-  "title": "",
-  "body": " A triangular prism and its net     "
-},
-{
-  "id": "thm-sa-general-prism",
-  "level": "2",
-  "url": "sec-cubes-and-right-prisms.html#thm-sa-general-prism",
-  "type": "Theorem",
-  "number": "3.2.14",
-  "title": "",
-  "body": "  The surface area of a right prism with base area , base perimeter , and height is,    "
-},
-{
-  "id": "subsubsec-general-prism-sa-6",
-  "level": "2",
-  "url": "sec-cubes-and-right-prisms.html#subsubsec-general-prism-sa-6",
+  "url": "sec-cubes-and-right-prisms.html#subsec-surface-area-cube-prisms-20",
   "type": "Example",
-  "number": "3.2.15",
+  "number": "3.2.7",
   "title": "Triangular Prism.",
   "body": " Triangular Prism  A right prism has a triangular base with legs 3 cm and 4 cm (a right triangle), and the prism has height 10 cm. Find its volume and surface area.     First, find the base area. The base is a right triangle with legs 3 and 4, so,   The volume is,   For the surface area, we need the perimeter of the base. By the Pythagorean theorem, the hypotenuse of the triangle is,   So the perimeter is cm. Then,   "
 },
@@ -500,7 +401,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cubes-and-right-prisms.html#subsec-prism-examples-5",
   "type": "Example",
-  "number": "3.2.16",
+  "number": "3.2.8",
   "title": "Cube: Reverse Problem.",
   "body": " Cube: Reverse Problem  A cube has volume . Find its side length and surface area.  Since , we have,   Then, the surface area is,   "
 },
@@ -509,7 +410,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cubes-and-right-prisms.html#subsec-prism-examples-6",
   "type": "Checkpoint",
-  "number": "3.2.17",
+  "number": "3.2.9",
   "title": "Hexagonal Prism.",
   "body": " Hexagonal Prism   A right prism has a regular hexagonal base with side length 4 cm and height 12 cm. Find its volume.      A regular hexagon with side length has area .  . .  "
 },
@@ -518,7 +419,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cubes-and-right-prisms.html#subsec-prism-examples-7",
   "type": "Checkpoint",
-  "number": "3.2.18",
+  "number": "3.2.10",
   "title": "Finding Height from Surface Area.",
   "body": " Finding Height from Surface Area  A closed box has a surface area of . The base of the box is 5 in by 3 in. Sketch a diagram and find the height of the box.  Set up the SA formula and solve for .  . So , giving in.  "
 },
@@ -527,7 +428,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cubes-and-right-prisms.html#subsec-prism-examples-8",
   "type": "Checkpoint",
-  "number": "3.2.19",
+  "number": "3.2.11",
   "title": "Finding Width from Surface Area.",
   "body": " Finding Width from Surface Area  A rectangular prism has SA and dimensions . Find .  . So , giving cm.  "
 },
@@ -536,7 +437,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cubes-and-right-prisms.html#subsec-prism-examples-9",
   "type": "Checkpoint",
-  "number": "3.2.20",
+  "number": "3.2.12",
   "title": "Cube with Same Volume.",
   "body": " Cube with Same Volume  A rectangular prism has dimensions . A cube is to be made with the same volume. What is the side length of the cube?  . , so in.  "
 },
@@ -545,7 +446,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cubes-and-right-prisms.html#subsec-prism-word-problems-2",
   "type": "Example",
-  "number": "3.2.21",
+  "number": "3.2.13",
   "title": "Painting a Room.",
   "body": " Painting a Room  A room is 5 m long, 4 m wide, and 3 m tall. How many litres of paint are needed if 1 litre covers ? Assume you paint the four walls and the ceiling, but not the floor.     First, compute the area to be painted. The four walls have a combined area equal to the perimeter of the floor times the height,   The ceiling has area,   The total area to paint is,   Then, the number of litres needed is,   So you would need to buy at least 8 litres of paint.  "
 },
@@ -554,7 +455,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cubes-and-right-prisms.html#subsec-prism-word-problems-3",
   "type": "Checkpoint",
-  "number": "3.2.22",
+  "number": "3.2.14",
   "title": "Wrapping Paper.",
   "body": " Wrapping Paper   A gift box is 25 cm long, 18 cm wide, and 10 cm tall. How much wrapping paper is needed to cover the box (ignoring overlap)?      .  "
 },
@@ -563,7 +464,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cubes-and-right-prisms.html#subsec-prism-word-problems-4",
   "type": "Checkpoint",
-  "number": "3.2.23",
+  "number": "3.2.15",
   "title": "Storage Unit.",
   "body": " Storage Unit  A storage unit is 3 m long, 2.5 m wide, and 2.4 m tall. How many cubic metres of storage space does it have? How many boxes measuring can fit inside (assuming perfect packing)?  . Each box has . Along length: . Along width: . Along height: (with 0.4 m unused). So boxes.  "
 },
@@ -572,7 +473,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cubes-and-right-prisms.html#subsec-prism-word-problems-5",
   "type": "Checkpoint",
-  "number": "3.2.24",
+  "number": "3.2.16",
   "title": "Aquarium.",
   "body": " Aquarium  An aquarium is 80 cm long, 40 cm wide, and 50 cm tall. It is filled with water to a height of 45 cm. How many litres of water are in the aquarium?  .  "
 },
@@ -581,7 +482,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cubes-and-right-prisms.html#subsec-prism-word-problems-6",
   "type": "Checkpoint",
-  "number": "3.2.25",
+  "number": "3.2.17",
   "title": "Comparing Lockers.",
   "body": " Comparing Lockers  At a recreation centre, you choose between two types of lockers. A single locker from a double stack measures 0.4 m wide by 0.6 m deep, and the full stack is 1.8 m tall. A single locker from a triple stack measures 30 in wide by 15 in deep, and the full stack is 41 in tall. Which type of locker gives you more space, and how much more (in cubic metres)?  Find the height of one locker in each stack, then convert all dimensions to metres ( ).  Double-stack locker: . Triple-stack: height in, so dimensions cm. Volume . The double-stack gives about more space.  "
 },
@@ -590,7 +491,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cubes-and-right-prisms.html#subsec-prism-word-problems-7",
   "type": "Checkpoint",
-  "number": "3.2.26",
+  "number": "3.2.18",
   "title": "Storage Cabinet.",
   "body": " Storage Cabinet  A wooden storage cabinet is a right rectangular prism, 6 ft tall, 3 ft wide, and 30 in deep. Calculate the volume of the cabinet. Then, if the height is reduced by one quarter (keeping width and depth the same), what is the new volume? How does reducing one dimension by a factor of affect the volume?  Depth ft. . New height ft. New . The new volume is of the original. In general, multiplying one dimension by multiplies the volume by .  "
 },
@@ -599,7 +500,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cubes-and-right-prisms.html#subsec-prism-word-problems-8",
   "type": "Checkpoint",
-  "number": "3.2.27",
+  "number": "3.2.19",
   "title": "Dogsled Kennels.",
   "body": " Dogsled Kennels  For a dogsled race, a competitor builds a trailer that is a right rectangular prism measuring 2 m wide, 1.6 m high, and 3.2 m long. The trailer is divided into 16 identical kennels (in 2 rows of 8). How much material is needed to build the kennels?  Account for the outer walls and the interior dividing walls.  Outer shell: . Interior: one lengthwise divider , seven crosswise dividers . Total .  "
 },
@@ -608,9 +509,1737 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cubes-and-right-prisms.html#subsec-prism-word-problems-9",
   "type": "Checkpoint",
-  "number": "3.2.28",
+  "number": "3.2.20",
   "title": "Maximum Volume from Material.",
   "body": " Maximum Volume from Material  You have of material. What is the maximum volume of a cube you can make with this material?  The SA of a cube is , solve for .  , so cm. .  "
+},
+{
+  "id": "sec-cylinders",
+  "level": "1",
+  "url": "sec-cylinders.html",
+  "type": "Section",
+  "number": "3.3",
+  "title": "Cylinders",
+  "body": " Cylinders   A cylinder has 2 circular bases and a curved side connecting them. A cylinder is a special type of prism, where its base is a circle, instead of a rectangle, triangle, or another polygon.        Volume of a Cylinder  A cylinder has 2 primary dimensions: the radius of its base , and its height .     Recall that the volume of a prism is , where is the area of the base and is its height.  For a cylinder, the base is a circle with area , so we get,   The volume of a cylinder is,    Volume of a Cylinder  Find the volume of a cylinder with radius 5 cm and height 8 cm.     Plug in and into the formula,     Application: Water Tank  A cylindrical water tank has diameter 2 m and height 3 m. How many litres of water can it hold?     First, the radius is m. The volume is,   Since ,   The tank can hold approximately 9425 litres of water.      Surface Area of a Cylinder  To find the surface area of a cylinder, imagine unrolling it flat into a net (the 2D flattened version).     The surface area includes 2 circular bases, and the side wrapped around which is a rectangle (called the lateral surface).   The 2 circles each have area , so in total, .  The rectangle has a width of (the circumference of the base) and height , so its area is .   Therefore, the total surface area is the sum of these 2 parts.  The surface area of a right circular cylinder is,    Surface Area of a Cylinder  Find the surface area of a cylinder with radius 3 cm and height 10 cm. Give an exact answer and a decimal approximation.     Substituting and ,     Notice the structure: surface area = (area of 2 bases) + (lateral area), which is the same as for a prism. The surface area of a general prism is . Here, and , so the formulas match exactly:     Diameter Given, Not Radius  A can has diameter 8 cm and height 12 cm. Find its surface area.     First, the radius is cm. Then,       Examples   Surface Area and Volume of Cylinders  Find the surface area and volume of each cylinder. Give exact answers and decimal approximations.    Radius 7 cm, height 15 cm.      . .    Diameter 10 cm, height 20 cm.  . . .    Radius 2.5 m, height 6 m.  . .    Diameter 16 cm, height 4 cm.  . . .     Comparing Two Cylinders  Cylinder A has radius 3 cm and height 10 cm. Cylinder B has radius 5 cm and height 4 cm.   Which cylinder has the greater volume?  . . Cylinder B has the greater volume.    Which cylinder has the greater surface area?  . . Cylinder B has the greater surface area.     Reverse Problems  Solve for the unknown dimension.   A cylinder has volume and radius 5 cm. Find the height to the nearest tenth.  , so cm.    A cylinder has volume and height 8 cm. Find the radius.  , so , cm.    A cylinder has surface area and radius 5 cm. Find the height.  Substitute into and solve for .  . So , giving cm.     Reverse Problem  A cylinder has volume and height 20 cm. Find its radius.  Starting from the volume formula,   Divide both sides by ,     Surface Area Given Diameter  A cylinder has SA and diameter 1.3 m. Find the height.  Substitute into and solve for .  . . So , giving m.    Volume Given Height  A cylinder has volume and height 16 cm. Find the radius.  . So , giving cm.      Word Problems   Metal for a Can   A cylindrical can has diameter 7.5 cm and height 11 cm. How much metal is needed to make the can (i.e., find its surface area)?      . .    Cylindrical Pool  A cylindrical pool has diameter 5 m and depth 1.5 m. How many litres of water does it hold?  . .    Cylindrical Pipe  A cylindrical pipe is 3 m long and has an inner diameter of 10 cm. How many litres of water can the pipe hold?  cm m. .    Label on a Jar  A label wraps around a cylindrical jar (covering only the lateral surface, not the top or bottom). The jar has diameter 9 cm and height 14 cm. What is the area of the label?  . Lateral area .    Grain Silo   A cylindrical grain silo has diameter 8 m and height 12 m. How many cubic metres of grain can it store? How many litres is this?      . .    Hand Drum  A traditional hand drum has a diameter of in and is 3 in deep. What is the minimum amount of hide used to make the drum if the hide covers only the top and lateral surfaces? Express your answer to the nearest square inch.  Only the top circle and the curved side are covered, not the bottom.  in. .    Painting Cylindrical Pillars  Four cylindrical pillars standing on a stage need to be painted. Each pillar is 16 ft high and 1 ft in diameter. What surface area needs to be painted?  Only the lateral (curved) surfaces need painting, not the circular ends.  Each pillar: lateral area ft . Four pillars: .    Punching Bag Design  A designer is working on a cylindrical punching bag. The bag uses a maximum of of material, and the diameter of the bag is 36 cm. Determine the maximum possible height of the bag, to the nearest tenth of a centimetre.  cm m. . So m cm.    CD Storage Case  Compact discs are packaged in cylindrical stacks of 100. Each CD has a thickness of 1.2 mm and a diameter of 12 cm. The outside radius of the storage case is 0.7 cm more than that of the CD. The height of the case is 4.2 mm more than that of the stack of 100 CDs. What is the surface area of the storage case, excluding the base, to the nearest square centimetre?  Stack height cm. Case: cm, cm. .    Oil Pipeline  A pipeline is 1221.73 km long, with a diameter of 914 mm. If the pipeline were straightened, what is the maximum volume of oil that can be contained in this section of pipeline? Express your answer to the nearest hundredth of a cubic metre.  m, m. .    Grain Terminal   Many grain terminals are cylindrical in shape. One terminal has a height of 40 m, and the inside diameter of each grain storage tower is 11.7 m.   What is the storage capacity of each tower, to the nearest cubic metre?  If a small grain truck has a rectangular box measuring 5 m by 1.5 m by 2.4 m, how many truckloads of grain can one tower hold?    (i) m. . (ii) Truck volume . Truckloads .    Popcorn Containers  A theatre has two different right cylindrical popcorn containers. One is 18 cm high with a diameter of 14 cm, and the other is 16 cm high with a diameter of 16 cm. Which container should be for a small order of popcorn, and which should be the large? Justify your answer.  Container A: . Container B: . Container A (taller, narrower) is smaller; Container B (shorter, wider) is larger. The wider radius more than compensates for the shorter height.    Drink Can Design  A drink manufacturer is designing a can for a new type of drink. The can is to have a capacity of between 250 mL and 285 mL. The height of the can is set at 14 cm. If , what range of values is possible for the diameter of the can?  Solve for at each endpoint.  For 250 mL: , cm, cm. For 285 mL: cm, cm. The diameter ranges from about 4.8 cm to 5.1 cm.    "
+},
+{
+  "id": "subsec-cylinder-volume-9",
+  "level": "2",
+  "url": "sec-cylinders.html#subsec-cylinder-volume-9",
+  "type": "Example",
+  "number": "3.3.1",
+  "title": "Volume of a Cylinder.",
+  "body": " Volume of a Cylinder  Find the volume of a cylinder with radius 5 cm and height 8 cm.     Plug in and into the formula,   "
+},
+{
+  "id": "subsec-cylinder-volume-10",
+  "level": "2",
+  "url": "sec-cylinders.html#subsec-cylinder-volume-10",
+  "type": "Example",
+  "number": "3.3.2",
+  "title": "Application: Water Tank.",
+  "body": " Application: Water Tank  A cylindrical water tank has diameter 2 m and height 3 m. How many litres of water can it hold?     First, the radius is m. The volume is,   Since ,   The tank can hold approximately 9425 litres of water.  "
+},
+{
+  "id": "subsec-cylinder-surface-area-9",
+  "level": "2",
+  "url": "sec-cylinders.html#subsec-cylinder-surface-area-9",
+  "type": "Example",
+  "number": "3.3.3",
+  "title": "Surface Area of a Cylinder.",
+  "body": " Surface Area of a Cylinder  Find the surface area of a cylinder with radius 3 cm and height 10 cm. Give an exact answer and a decimal approximation.     Substituting and ,   "
+},
+{
+  "id": "subsec-cylinder-surface-area-10",
+  "level": "2",
+  "url": "sec-cylinders.html#subsec-cylinder-surface-area-10",
+  "type": "Remark",
+  "number": "3.3.4",
+  "title": "",
+  "body": " Notice the structure: surface area = (area of 2 bases) + (lateral area), which is the same as for a prism. The surface area of a general prism is . Here, and , so the formulas match exactly:   "
+},
+{
+  "id": "subsec-cylinder-surface-area-11",
+  "level": "2",
+  "url": "sec-cylinders.html#subsec-cylinder-surface-area-11",
+  "type": "Example",
+  "number": "3.3.5",
+  "title": "Diameter Given, Not Radius.",
+  "body": " Diameter Given, Not Radius  A can has diameter 8 cm and height 12 cm. Find its surface area.     First, the radius is cm. Then,   "
+},
+{
+  "id": "subsec-cylinder-examples-2",
+  "level": "2",
+  "url": "sec-cylinders.html#subsec-cylinder-examples-2",
+  "type": "Exercise Group",
+  "number": "3.3.1",
+  "title": "Surface Area and Volume of Cylinders.",
+  "body": " Surface Area and Volume of Cylinders  Find the surface area and volume of each cylinder. Give exact answers and decimal approximations.    Radius 7 cm, height 15 cm.      . .    Diameter 10 cm, height 20 cm.  . . .    Radius 2.5 m, height 6 m.  . .    Diameter 16 cm, height 4 cm.  . . .   "
+},
+{
+  "id": "subsec-cylinder-examples-3",
+  "level": "2",
+  "url": "sec-cylinders.html#subsec-cylinder-examples-3",
+  "type": "Exercise Group",
+  "number": "3.3.2",
+  "title": "Comparing Two Cylinders.",
+  "body": " Comparing Two Cylinders  Cylinder A has radius 3 cm and height 10 cm. Cylinder B has radius 5 cm and height 4 cm.   Which cylinder has the greater volume?  . . Cylinder B has the greater volume.    Which cylinder has the greater surface area?  . . Cylinder B has the greater surface area.   "
+},
+{
+  "id": "subsec-cylinder-examples-4",
+  "level": "2",
+  "url": "sec-cylinders.html#subsec-cylinder-examples-4",
+  "type": "Exercise Group",
+  "number": "3.3.3",
+  "title": "Reverse Problems.",
+  "body": " Reverse Problems  Solve for the unknown dimension.   A cylinder has volume and radius 5 cm. Find the height to the nearest tenth.  , so cm.    A cylinder has volume and height 8 cm. Find the radius.  , so , cm.    A cylinder has surface area and radius 5 cm. Find the height.  Substitute into and solve for .  . So , giving cm.   "
+},
+{
+  "id": "subsec-cylinder-examples-5",
+  "level": "2",
+  "url": "sec-cylinders.html#subsec-cylinder-examples-5",
+  "type": "Example",
+  "number": "3.3.6",
+  "title": "Reverse Problem.",
+  "body": " Reverse Problem  A cylinder has volume and height 20 cm. Find its radius.  Starting from the volume formula,   Divide both sides by ,   "
+},
+{
+  "id": "subsec-cylinder-examples-6",
+  "level": "2",
+  "url": "sec-cylinders.html#subsec-cylinder-examples-6",
+  "type": "Checkpoint",
+  "number": "3.3.7",
+  "title": "Surface Area Given Diameter.",
+  "body": " Surface Area Given Diameter  A cylinder has SA and diameter 1.3 m. Find the height.  Substitute into and solve for .  . . So , giving m.  "
+},
+{
+  "id": "subsec-cylinder-examples-7",
+  "level": "2",
+  "url": "sec-cylinders.html#subsec-cylinder-examples-7",
+  "type": "Checkpoint",
+  "number": "3.3.8",
+  "title": "Volume Given Height.",
+  "body": " Volume Given Height  A cylinder has volume and height 16 cm. Find the radius.  . So , giving cm.  "
+},
+{
+  "id": "subsec-cylinder-word-problems-2",
+  "level": "2",
+  "url": "sec-cylinders.html#subsec-cylinder-word-problems-2",
+  "type": "Checkpoint",
+  "number": "3.3.9",
+  "title": "Metal for a Can.",
+  "body": " Metal for a Can   A cylindrical can has diameter 7.5 cm and height 11 cm. How much metal is needed to make the can (i.e., find its surface area)?      . .  "
+},
+{
+  "id": "subsec-cylinder-word-problems-3",
+  "level": "2",
+  "url": "sec-cylinders.html#subsec-cylinder-word-problems-3",
+  "type": "Checkpoint",
+  "number": "3.3.10",
+  "title": "Cylindrical Pool.",
+  "body": " Cylindrical Pool  A cylindrical pool has diameter 5 m and depth 1.5 m. How many litres of water does it hold?  . .  "
+},
+{
+  "id": "subsec-cylinder-word-problems-4",
+  "level": "2",
+  "url": "sec-cylinders.html#subsec-cylinder-word-problems-4",
+  "type": "Checkpoint",
+  "number": "3.3.11",
+  "title": "Cylindrical Pipe.",
+  "body": " Cylindrical Pipe  A cylindrical pipe is 3 m long and has an inner diameter of 10 cm. How many litres of water can the pipe hold?  cm m. .  "
+},
+{
+  "id": "subsec-cylinder-word-problems-5",
+  "level": "2",
+  "url": "sec-cylinders.html#subsec-cylinder-word-problems-5",
+  "type": "Checkpoint",
+  "number": "3.3.12",
+  "title": "Label on a Jar.",
+  "body": " Label on a Jar  A label wraps around a cylindrical jar (covering only the lateral surface, not the top or bottom). The jar has diameter 9 cm and height 14 cm. What is the area of the label?  . Lateral area .  "
+},
+{
+  "id": "subsec-cylinder-word-problems-6",
+  "level": "2",
+  "url": "sec-cylinders.html#subsec-cylinder-word-problems-6",
+  "type": "Checkpoint",
+  "number": "3.3.13",
+  "title": "Grain Silo.",
+  "body": " Grain Silo   A cylindrical grain silo has diameter 8 m and height 12 m. How many cubic metres of grain can it store? How many litres is this?      . .  "
+},
+{
+  "id": "subsec-cylinder-word-problems-7",
+  "level": "2",
+  "url": "sec-cylinders.html#subsec-cylinder-word-problems-7",
+  "type": "Checkpoint",
+  "number": "3.3.14",
+  "title": "Hand Drum.",
+  "body": " Hand Drum  A traditional hand drum has a diameter of in and is 3 in deep. What is the minimum amount of hide used to make the drum if the hide covers only the top and lateral surfaces? Express your answer to the nearest square inch.  Only the top circle and the curved side are covered, not the bottom.  in. .  "
+},
+{
+  "id": "subsec-cylinder-word-problems-8",
+  "level": "2",
+  "url": "sec-cylinders.html#subsec-cylinder-word-problems-8",
+  "type": "Checkpoint",
+  "number": "3.3.15",
+  "title": "Painting Cylindrical Pillars.",
+  "body": " Painting Cylindrical Pillars  Four cylindrical pillars standing on a stage need to be painted. Each pillar is 16 ft high and 1 ft in diameter. What surface area needs to be painted?  Only the lateral (curved) surfaces need painting, not the circular ends.  Each pillar: lateral area ft . Four pillars: .  "
+},
+{
+  "id": "subsec-cylinder-word-problems-9",
+  "level": "2",
+  "url": "sec-cylinders.html#subsec-cylinder-word-problems-9",
+  "type": "Checkpoint",
+  "number": "3.3.16",
+  "title": "Punching Bag Design.",
+  "body": " Punching Bag Design  A designer is working on a cylindrical punching bag. The bag uses a maximum of of material, and the diameter of the bag is 36 cm. Determine the maximum possible height of the bag, to the nearest tenth of a centimetre.  cm m. . So m cm.  "
+},
+{
+  "id": "subsec-cylinder-word-problems-10",
+  "level": "2",
+  "url": "sec-cylinders.html#subsec-cylinder-word-problems-10",
+  "type": "Checkpoint",
+  "number": "3.3.17",
+  "title": "CD Storage Case.",
+  "body": " CD Storage Case  Compact discs are packaged in cylindrical stacks of 100. Each CD has a thickness of 1.2 mm and a diameter of 12 cm. The outside radius of the storage case is 0.7 cm more than that of the CD. The height of the case is 4.2 mm more than that of the stack of 100 CDs. What is the surface area of the storage case, excluding the base, to the nearest square centimetre?  Stack height cm. Case: cm, cm. .  "
+},
+{
+  "id": "subsec-cylinder-word-problems-11",
+  "level": "2",
+  "url": "sec-cylinders.html#subsec-cylinder-word-problems-11",
+  "type": "Checkpoint",
+  "number": "3.3.18",
+  "title": "Oil Pipeline.",
+  "body": " Oil Pipeline  A pipeline is 1221.73 km long, with a diameter of 914 mm. If the pipeline were straightened, what is the maximum volume of oil that can be contained in this section of pipeline? Express your answer to the nearest hundredth of a cubic metre.  m, m. .  "
+},
+{
+  "id": "subsec-cylinder-word-problems-12",
+  "level": "2",
+  "url": "sec-cylinders.html#subsec-cylinder-word-problems-12",
+  "type": "Checkpoint",
+  "number": "3.3.19",
+  "title": "Grain Terminal.",
+  "body": " Grain Terminal   Many grain terminals are cylindrical in shape. One terminal has a height of 40 m, and the inside diameter of each grain storage tower is 11.7 m.   What is the storage capacity of each tower, to the nearest cubic metre?  If a small grain truck has a rectangular box measuring 5 m by 1.5 m by 2.4 m, how many truckloads of grain can one tower hold?    (i) m. . (ii) Truck volume . Truckloads .  "
+},
+{
+  "id": "subsec-cylinder-word-problems-13",
+  "level": "2",
+  "url": "sec-cylinders.html#subsec-cylinder-word-problems-13",
+  "type": "Checkpoint",
+  "number": "3.3.20",
+  "title": "Popcorn Containers.",
+  "body": " Popcorn Containers  A theatre has two different right cylindrical popcorn containers. One is 18 cm high with a diameter of 14 cm, and the other is 16 cm high with a diameter of 16 cm. Which container should be for a small order of popcorn, and which should be the large? Justify your answer.  Container A: . Container B: . Container A (taller, narrower) is smaller; Container B (shorter, wider) is larger. The wider radius more than compensates for the shorter height.  "
+},
+{
+  "id": "subsec-cylinder-word-problems-14",
+  "level": "2",
+  "url": "sec-cylinders.html#subsec-cylinder-word-problems-14",
+  "type": "Checkpoint",
+  "number": "3.3.21",
+  "title": "Drink Can Design.",
+  "body": " Drink Can Design  A drink manufacturer is designing a can for a new type of drink. The can is to have a capacity of between 250 mL and 285 mL. The height of the can is set at 14 cm. If , what range of values is possible for the diameter of the can?  Solve for at each endpoint.  For 250 mL: , cm, cm. For 285 mL: cm, cm. The diameter ranges from about 4.8 cm to 5.1 cm.  "
+},
+{
+  "id": "sec-pyramids",
+  "level": "1",
+  "url": "sec-pyramids.html",
+  "type": "Section",
+  "number": "3.4",
+  "title": "Pyramids",
+  "body": " Pyramids   A pyramid is a 3D shape with a base, and triangular faces that meet at a single point at the top. Originally, they were the shapes of ancient pyramids in Egypt, and later inspired modern glass buildings.   The top of the pyramid, where the triangular faces meet, is called the apex .  The height  is the perpendicular distance from the base to the apex.       We will only consider pyramids where the apex is directly above the center of the base, called a right pyramid .  If the base is a regular polygon, it is called a regular pyramid . For a regular pyramid, each of the triangular faces is congruent (the same).      Volume of a Pyramid  It fact, the volume of a pyramid is exactly the volume of a prism with the same base area and height. Intuitively, the prism can be thought of as three pyramids put together, so the pyramid has the volume of the prism.     The volume of a right pyramid is,    Volume of a Square Pyramid  Find the volume of a square pyramid with base side 6 m and height 9 m.     The base area is . Then,       Slant Height vs Height  It is important to distinguish between the height and the slant height of a pyramid.      The height  is the perpendicular distance from the base to the apex (a vertical line through the center).  The slant height  is the distance from the apex to the midpoint of a base edge, measured along the face of the pyramid.   For a regular square pyramid, the slant height is related to the height by the Pythagorean theorem. The distance from the center of the base to the midpoint of a base edge is .     Then,    Finding the Slant Height  A square pyramid has base side 10 cm and height 12 cm. Find the slant height.     The distance from the center of the base to the midpoint of a base edge is cm. By the Pythagorean theorem,       Surface Area of a Pyramid  The surface area of a pyramid is the sum of the areas of its triangular faces and the area of the base,   With a regular pyramid, the triangular faces are congruent, so it is enough to consider one of the faces. Each triangular face has base (the side length of the base) and height (the slant height). So the area of one face is .  For a regular square pyramid, there are 4 faces, so the total area of the triangular faces is . This area (not including the base) is called the lateral area , . In general, if the base is a regular -gon, then the lateral area is,   Notice that is the perimeter of the base. Then,   Then, the surface area is the lateral area plus the base area .  The surface area of a regular right pyramid is,   For a square pyramid with base side and slant height , the perimeter is and the base area is . So,    Surface Area of a Square Pyramid  Find the surface area of a square pyramid with base side 8 cm and slant height 10 cm.     The perimeter is cm, and the base area is . Then,       Regular Tetrahedron  A regular tetrahedron is a special pyramid where all 4 faces are equilateral triangles and all edges have the same length.     If the edge length is , then each face has area (this is a known formula for the area of an equilateral triangle), so,    Surface Area of a Regular Tetrahedron  Find the surface area of a regular tetrahedron with edge length 6 cm.       Examples   Volume of a Rectangular Pyramid  A pyramid has a rectangular base measuring 24 cm by 22 cm, and a height of 15 cm. Find its volume.     The base area is . Then,     Finding Base Area from Volume  A pyramid has volume and height 12 cm. Find its base area.  Starting from ,     Finding the Slant Height  Find the slant height of each square pyramid.    Base side 12 cm, height 8 cm.      cm.    Base side 16 cm, height 15 cm.  cm.    Base side 2.3 m, slant height 1.5 m. Find the height.  m.     Surface Area of Pyramids  Find the surface area of each pyramid.   Square base, side 10 cm, slant height 13 cm.  .    Square base, side 14 cm, slant height 9 cm.  .    Rectangular base, 16 cm 20 cm. The slant height on the longer side is 18 cm and on the shorter side is 19 cm.  Compute each pair of triangular faces separately.  Two faces with base 20 and slant 18: . Two faces with base 16 and slant 19: . Base: . Total: .    Square base, side 8 cm, height 3 cm.  Find the slant height first.  . .     Volume of Pyramids  Find the volume of each pyramid.   Square base, side 5 cm, height 9 cm.  .    Square base, side 26 m, height 24 m.  .    Rectangular base, 10 cm 8 cm, height 12 cm.  .    Triangular base (right triangle with legs 6 cm and 8 cm), height 15 cm.  Base area . .    Square base, side 30 m, height 20 m. Also convert the volume to litres.  .     Finding Missing Dimensions  Find the missing dimension in each pyramid.   A pyramid has volume and a square base with side 12 cm. Find the height.  , so cm.    A pyramid has volume and height 18 cm. Find its base area.  , so .     Comparing a Pyramid and a Prism  A pyramid and a prism have the same square base (side 10 cm) and the same height (15 cm). How do their volumes compare?  . . The pyramid has exactly the volume of the prism.    More Missing Dimensions  Find the missing dimension in each pyramid.   A right square pyramid has and base side length 3.5 m. Find the slant height.  , so , giving m.    A right square pyramid has and base area . Find the slant height.  Base side cm. , so , giving cm.    A right rectangular pyramid has base dimensions and height 10.0 cm. Its volume is . Find .  , so cm.    A right square pyramid has height 92 cm and volume . Find the side length of the base, in metres.  Convert 92 cm to metres first.  , so , giving m.     Magnetic Paperweight  A magnetic paperweight has the shape of a right square pyramid with slant height 8.5 cm and base side length 10 cm. Find its surface area.  .    Wooden Rectangular Pyramid  A wooden right rectangular pyramid has base dimensions 10.4 cm by 8.6 cm and height 14.8 cm. Find its volume to the nearest tenth of a cubic centimetre.  .    Desk Puzzle  A desk puzzle is in the shape of a right rectangular pyramid with base 6 cm by 8 cm and height 10 cm. Calculate the amount of wood needed to create the puzzle.  .    Volume to Slant Height  A right square pyramid has a volume of and base side length 6 yd. Determine the slant height to the nearest yard.  First find the height, then use the Pythagorean theorem.  , so yd. Then yd.      Word Problems   Glass Pyramid Building  A glass pyramid building has a square base with side length 26 m and height 24 m. Estimate its volume.     Doghouse Roof  A doghouse has a rectangular base (1.2 m 0.8 m) with a pyramidal roof. The roof has a height of 0.5 m above the top of the walls. Find the volume of the roof.     Answer: .    Large Square Pyramid  A large square pyramid has a base with side length 755 ft and a height of 481 ft. Determine its surface area to the nearest square foot.  Find the slant height first.  ft. .    Museum Display Pyramid  A model pyramid is constructed for a museum display. The total area of the four triangular faces is 3000 square inches, and the base has side length 50 in. Determine the height of the model to the nearest tenth of an inch.  First find the slant height from the lateral area.  , so in. Then in.    Comparing Glass Pyramids  Two glass pyramids are being compared. Pyramid A has a square base with side 35.0 m and height 20.6 m. Pyramid B has a square base with side 25.7 m and height 24.0 m. Which pyramid requires more glass for its four triangular faces?  Pyramid A: m. Glass . Pyramid B: m. Glass . Pyramid A requires more glass.    Tent Pyramid  A tent has the shape of a right square pyramid. It uses 4 poles, each 2.1 m long, as the lateral edges from the base corners to the apex. The base has side length 1.5 m.   Find the slant height of the tent to the nearest tenth of a metre.  The lateral edge goes from a base corner to the apex. The slant height goes from the midpoint of a base edge to the apex.  The distance from the center of the base to a corner is m. The pyramid height is m. The slant height is m.    Find the lateral surface area of the tent to the nearest square metre.  Lateral area .     Limestone Pyramid Building  A pyramid-shaped building has a square base with side length 60 ft and height 38 ft. The four triangular exterior walls are to be coated with polished limestone. What area of limestone is needed, to the nearest square foot?  ft. Lateral area .    Glass Pyramid Greenhouse  A glass pyramid greenhouse has a square base that measures 26 m on each side and a slant height of 35.4 m. How much glass is needed for the four triangular faces, to the nearest square metre?  Glass area .    Stone Monument  A stone monument has the shape of a right square pyramid with slant height 1.6 m and base side length 0.8 m. Find the volume of the monument to the nearest tenth of a cubic metre.  Find the height first.  m. .    Minimum Roof Height  The roof of a house is shaped like a right square pyramid with base 32 ft on each side. The attic must enclose a volume of at least of air. What is the minimum height of the roof?  , so ft.    Pyramid with Equal-Sided Faces  A right square pyramid has base side length 3.5 m. Each triangular face has two equal sides of length 4.5 m.   Find the height of the pyramid to the nearest tenth of a metre.  From the face dimensions, find the slant height first (the height of the triangular face), then the pyramid height.  Each face is a triangle with base 3.5 m and equal sides 4.5 m. The slant height is m. Then m.    Find the volume to the nearest tenth of a cubic metre.  .     Tetrahedron Tea Bag  A tea bag has the shape of a regular tetrahedron. Each edge is 5.8 cm long and the height of the tetrahedron is approximately 4.7 cm.   Calculate the area of the base to the nearest square centimetre.  Base area .    Calculate the volume to the nearest cubic centimetre.  .     Iron Garden Ornament  A solid iron garden ornament has the shape of a right square pyramid with slant height 8 in and base side length 3 in.   Determine the volume to the nearest cubic inch.  in. .    A second ornament has the same shape and the same height, but a volume of . Find the side length of its base to the nearest inch.  , so , giving in.     Frustum of a Pyramid  A right rectangular pyramid has base dimensions 5 m by 3 m and a height of 10 m. A horizontal cut is made 2 m from the apex, and the smaller pyramid at the top is removed. Find the volume of the remaining piece (the frustum ).  Use similar triangles to find the base dimensions of the small pyramid.  Full pyramid: . The small pyramid has height 2 m. By similar triangles, its base is scaled by , so the base is m. . Remaining: .    Hexagonal Pyramid  A right pyramid has a base that is a regular hexagon with side length 5.5 cm. Each triangular face has two equal sides of length 7.5 cm. Find the surface area to the nearest square centimetre.  The area of a regular hexagon with side is .  Base area . The slant height of each face is cm. Lateral area . .      Advanced: Derivation of Volume Formula  Consider a cube with side length , and so of volume . Consider the center point in the cube, and connect it to all 8 corners,     This divides the cube into 6 identical pyramids of equal volume --- one pyramid for each face of the cube. Each pyramid has its base on a face of the cube and its apex at the center. Here is one of the 6 pyramids highlighted (the one whose base is the bottom face),     Since the 6 pyramids fill the cube exactly,   Thus,   Each pyramid has a base that is a face of the cube (area ), and a height equal to half the side length ( ), since the center is in the middle of the cube.     Therefore,    "
+},
+{
+  "id": "sec-pyramids-2-1",
+  "level": "2",
+  "url": "sec-pyramids.html#sec-pyramids-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "pyramid "
+},
+{
+  "id": "sec-pyramids-2-2-1-1",
+  "level": "2",
+  "url": "sec-pyramids.html#sec-pyramids-2-2-1-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "apex "
+},
+{
+  "id": "sec-pyramids-2-2-2-1",
+  "level": "2",
+  "url": "sec-pyramids.html#sec-pyramids-2-2-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "height "
+},
+{
+  "id": "sec-pyramids-2-4-1-1",
+  "level": "2",
+  "url": "sec-pyramids.html#sec-pyramids-2-4-1-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "right pyramid "
+},
+{
+  "id": "sec-pyramids-2-4-2-1",
+  "level": "2",
+  "url": "sec-pyramids.html#sec-pyramids-2-4-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "regular pyramid "
+},
+{
+  "id": "subsec-pyramid-volume-6",
+  "level": "2",
+  "url": "sec-pyramids.html#subsec-pyramid-volume-6",
+  "type": "Example",
+  "number": "3.4.1",
+  "title": "Volume of a Square Pyramid.",
+  "body": " Volume of a Square Pyramid  Find the volume of a square pyramid with base side 6 m and height 9 m.     The base area is . Then,   "
+},
+{
+  "id": "subsec-slant-height-2",
+  "level": "2",
+  "url": "sec-pyramids.html#subsec-slant-height-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "height slant height "
+},
+{
+  "id": "subsec-slant-height-4-1-1",
+  "level": "2",
+  "url": "sec-pyramids.html#subsec-slant-height-4-1-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "height "
+},
+{
+  "id": "subsec-slant-height-4-2-1",
+  "level": "2",
+  "url": "sec-pyramids.html#subsec-slant-height-4-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "slant height "
+},
+{
+  "id": "subsec-slant-height-9",
+  "level": "2",
+  "url": "sec-pyramids.html#subsec-slant-height-9",
+  "type": "Example",
+  "number": "3.4.2",
+  "title": "Finding the Slant Height.",
+  "body": " Finding the Slant Height  A square pyramid has base side 10 cm and height 12 cm. Find the slant height.     The distance from the center of the base to the midpoint of a base edge is cm. By the Pythagorean theorem,   "
+},
+{
+  "id": "subsec-pyramid-sa-5",
+  "level": "2",
+  "url": "sec-pyramids.html#subsec-pyramid-sa-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "lateral area "
+},
+{
+  "id": "subsec-pyramid-sa-14",
+  "level": "2",
+  "url": "sec-pyramids.html#subsec-pyramid-sa-14",
+  "type": "Example",
+  "number": "3.4.3",
+  "title": "Surface Area of a Square Pyramid.",
+  "body": " Surface Area of a Square Pyramid  Find the surface area of a square pyramid with base side 8 cm and slant height 10 cm.     The perimeter is cm, and the base area is . Then,   "
+},
+{
+  "id": "subsec-regular-tetrahedron-2",
+  "level": "2",
+  "url": "sec-pyramids.html#subsec-regular-tetrahedron-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "regular tetrahedron "
+},
+{
+  "id": "subsec-regular-tetrahedron-6",
+  "level": "2",
+  "url": "sec-pyramids.html#subsec-regular-tetrahedron-6",
+  "type": "Example",
+  "number": "3.4.4",
+  "title": "Surface Area of a Regular Tetrahedron.",
+  "body": " Surface Area of a Regular Tetrahedron  Find the surface area of a regular tetrahedron with edge length 6 cm.   "
+},
+{
+  "id": "subsec-pyramid-examples-2",
+  "level": "2",
+  "url": "sec-pyramids.html#subsec-pyramid-examples-2",
+  "type": "Example",
+  "number": "3.4.5",
+  "title": "Volume of a Rectangular Pyramid.",
+  "body": " Volume of a Rectangular Pyramid  A pyramid has a rectangular base measuring 24 cm by 22 cm, and a height of 15 cm. Find its volume.     The base area is . Then,   "
+},
+{
+  "id": "subsec-pyramid-examples-3",
+  "level": "2",
+  "url": "sec-pyramids.html#subsec-pyramid-examples-3",
+  "type": "Example",
+  "number": "3.4.6",
+  "title": "Finding Base Area from Volume.",
+  "body": " Finding Base Area from Volume  A pyramid has volume and height 12 cm. Find its base area.  Starting from ,   "
+},
+{
+  "id": "subsec-pyramid-examples-4",
+  "level": "2",
+  "url": "sec-pyramids.html#subsec-pyramid-examples-4",
+  "type": "Exercise Group",
+  "number": "3.4.1",
+  "title": "Finding the Slant Height.",
+  "body": " Finding the Slant Height  Find the slant height of each square pyramid.    Base side 12 cm, height 8 cm.      cm.    Base side 16 cm, height 15 cm.  cm.    Base side 2.3 m, slant height 1.5 m. Find the height.  m.   "
+},
+{
+  "id": "subsec-pyramid-examples-5",
+  "level": "2",
+  "url": "sec-pyramids.html#subsec-pyramid-examples-5",
+  "type": "Exercise Group",
+  "number": "3.4.2",
+  "title": "Surface Area of Pyramids.",
+  "body": " Surface Area of Pyramids  Find the surface area of each pyramid.   Square base, side 10 cm, slant height 13 cm.  .    Square base, side 14 cm, slant height 9 cm.  .    Rectangular base, 16 cm 20 cm. The slant height on the longer side is 18 cm and on the shorter side is 19 cm.  Compute each pair of triangular faces separately.  Two faces with base 20 and slant 18: . Two faces with base 16 and slant 19: . Base: . Total: .    Square base, side 8 cm, height 3 cm.  Find the slant height first.  . .   "
+},
+{
+  "id": "subsec-pyramid-examples-6",
+  "level": "2",
+  "url": "sec-pyramids.html#subsec-pyramid-examples-6",
+  "type": "Exercise Group",
+  "number": "3.4.3",
+  "title": "Volume of Pyramids.",
+  "body": " Volume of Pyramids  Find the volume of each pyramid.   Square base, side 5 cm, height 9 cm.  .    Square base, side 26 m, height 24 m.  .    Rectangular base, 10 cm 8 cm, height 12 cm.  .    Triangular base (right triangle with legs 6 cm and 8 cm), height 15 cm.  Base area . .    Square base, side 30 m, height 20 m. Also convert the volume to litres.  .   "
+},
+{
+  "id": "subsec-pyramid-examples-7",
+  "level": "2",
+  "url": "sec-pyramids.html#subsec-pyramid-examples-7",
+  "type": "Exercise Group",
+  "number": "3.4.4",
+  "title": "Finding Missing Dimensions.",
+  "body": " Finding Missing Dimensions  Find the missing dimension in each pyramid.   A pyramid has volume and a square base with side 12 cm. Find the height.  , so cm.    A pyramid has volume and height 18 cm. Find its base area.  , so .   "
+},
+{
+  "id": "subsec-pyramid-examples-8",
+  "level": "2",
+  "url": "sec-pyramids.html#subsec-pyramid-examples-8",
+  "type": "Checkpoint",
+  "number": "3.4.7",
+  "title": "Comparing a Pyramid and a Prism.",
+  "body": " Comparing a Pyramid and a Prism  A pyramid and a prism have the same square base (side 10 cm) and the same height (15 cm). How do their volumes compare?  . . The pyramid has exactly the volume of the prism.  "
+},
+{
+  "id": "subsec-pyramid-examples-9",
+  "level": "2",
+  "url": "sec-pyramids.html#subsec-pyramid-examples-9",
+  "type": "Exercise Group",
+  "number": "3.4.5",
+  "title": "More Missing Dimensions.",
+  "body": " More Missing Dimensions  Find the missing dimension in each pyramid.   A right square pyramid has and base side length 3.5 m. Find the slant height.  , so , giving m.    A right square pyramid has and base area . Find the slant height.  Base side cm. , so , giving cm.    A right rectangular pyramid has base dimensions and height 10.0 cm. Its volume is . Find .  , so cm.    A right square pyramid has height 92 cm and volume . Find the side length of the base, in metres.  Convert 92 cm to metres first.  , so , giving m.   "
+},
+{
+  "id": "subsec-pyramid-examples-10",
+  "level": "2",
+  "url": "sec-pyramids.html#subsec-pyramid-examples-10",
+  "type": "Checkpoint",
+  "number": "3.4.8",
+  "title": "Magnetic Paperweight.",
+  "body": " Magnetic Paperweight  A magnetic paperweight has the shape of a right square pyramid with slant height 8.5 cm and base side length 10 cm. Find its surface area.  .  "
+},
+{
+  "id": "subsec-pyramid-examples-11",
+  "level": "2",
+  "url": "sec-pyramids.html#subsec-pyramid-examples-11",
+  "type": "Checkpoint",
+  "number": "3.4.9",
+  "title": "Wooden Rectangular Pyramid.",
+  "body": " Wooden Rectangular Pyramid  A wooden right rectangular pyramid has base dimensions 10.4 cm by 8.6 cm and height 14.8 cm. Find its volume to the nearest tenth of a cubic centimetre.  .  "
+},
+{
+  "id": "subsec-pyramid-examples-12",
+  "level": "2",
+  "url": "sec-pyramids.html#subsec-pyramid-examples-12",
+  "type": "Checkpoint",
+  "number": "3.4.10",
+  "title": "Desk Puzzle.",
+  "body": " Desk Puzzle  A desk puzzle is in the shape of a right rectangular pyramid with base 6 cm by 8 cm and height 10 cm. Calculate the amount of wood needed to create the puzzle.  .  "
+},
+{
+  "id": "subsec-pyramid-examples-13",
+  "level": "2",
+  "url": "sec-pyramids.html#subsec-pyramid-examples-13",
+  "type": "Checkpoint",
+  "number": "3.4.11",
+  "title": "Volume to Slant Height.",
+  "body": " Volume to Slant Height  A right square pyramid has a volume of and base side length 6 yd. Determine the slant height to the nearest yard.  First find the height, then use the Pythagorean theorem.  , so yd. Then yd.  "
+},
+{
+  "id": "subsec-pyramid-word-problems-2",
+  "level": "2",
+  "url": "sec-pyramids.html#subsec-pyramid-word-problems-2",
+  "type": "Example",
+  "number": "3.4.12",
+  "title": "Glass Pyramid Building.",
+  "body": " Glass Pyramid Building  A glass pyramid building has a square base with side length 26 m and height 24 m. Estimate its volume.   "
+},
+{
+  "id": "subsec-pyramid-word-problems-3",
+  "level": "2",
+  "url": "sec-pyramids.html#subsec-pyramid-word-problems-3",
+  "type": "Example",
+  "number": "3.4.13",
+  "title": "Doghouse Roof.",
+  "body": " Doghouse Roof  A doghouse has a rectangular base (1.2 m 0.8 m) with a pyramidal roof. The roof has a height of 0.5 m above the top of the walls. Find the volume of the roof.     Answer: .  "
+},
+{
+  "id": "subsec-pyramid-word-problems-4",
+  "level": "2",
+  "url": "sec-pyramids.html#subsec-pyramid-word-problems-4",
+  "type": "Checkpoint",
+  "number": "3.4.14",
+  "title": "Large Square Pyramid.",
+  "body": " Large Square Pyramid  A large square pyramid has a base with side length 755 ft and a height of 481 ft. Determine its surface area to the nearest square foot.  Find the slant height first.  ft. .  "
+},
+{
+  "id": "subsec-pyramid-word-problems-5",
+  "level": "2",
+  "url": "sec-pyramids.html#subsec-pyramid-word-problems-5",
+  "type": "Checkpoint",
+  "number": "3.4.15",
+  "title": "Museum Display Pyramid.",
+  "body": " Museum Display Pyramid  A model pyramid is constructed for a museum display. The total area of the four triangular faces is 3000 square inches, and the base has side length 50 in. Determine the height of the model to the nearest tenth of an inch.  First find the slant height from the lateral area.  , so in. Then in.  "
+},
+{
+  "id": "subsec-pyramid-word-problems-6",
+  "level": "2",
+  "url": "sec-pyramids.html#subsec-pyramid-word-problems-6",
+  "type": "Checkpoint",
+  "number": "3.4.16",
+  "title": "Comparing Glass Pyramids.",
+  "body": " Comparing Glass Pyramids  Two glass pyramids are being compared. Pyramid A has a square base with side 35.0 m and height 20.6 m. Pyramid B has a square base with side 25.7 m and height 24.0 m. Which pyramid requires more glass for its four triangular faces?  Pyramid A: m. Glass . Pyramid B: m. Glass . Pyramid A requires more glass.  "
+},
+{
+  "id": "subsec-pyramid-word-problems-7",
+  "level": "2",
+  "url": "sec-pyramids.html#subsec-pyramid-word-problems-7",
+  "type": "Exercise Group",
+  "number": "3.4.6",
+  "title": "Tent Pyramid.",
+  "body": " Tent Pyramid  A tent has the shape of a right square pyramid. It uses 4 poles, each 2.1 m long, as the lateral edges from the base corners to the apex. The base has side length 1.5 m.   Find the slant height of the tent to the nearest tenth of a metre.  The lateral edge goes from a base corner to the apex. The slant height goes from the midpoint of a base edge to the apex.  The distance from the center of the base to a corner is m. The pyramid height is m. The slant height is m.    Find the lateral surface area of the tent to the nearest square metre.  Lateral area .   "
+},
+{
+  "id": "subsec-pyramid-word-problems-8",
+  "level": "2",
+  "url": "sec-pyramids.html#subsec-pyramid-word-problems-8",
+  "type": "Checkpoint",
+  "number": "3.4.17",
+  "title": "Limestone Pyramid Building.",
+  "body": " Limestone Pyramid Building  A pyramid-shaped building has a square base with side length 60 ft and height 38 ft. The four triangular exterior walls are to be coated with polished limestone. What area of limestone is needed, to the nearest square foot?  ft. Lateral area .  "
+},
+{
+  "id": "subsec-pyramid-word-problems-9",
+  "level": "2",
+  "url": "sec-pyramids.html#subsec-pyramid-word-problems-9",
+  "type": "Checkpoint",
+  "number": "3.4.18",
+  "title": "Glass Pyramid Greenhouse.",
+  "body": " Glass Pyramid Greenhouse  A glass pyramid greenhouse has a square base that measures 26 m on each side and a slant height of 35.4 m. How much glass is needed for the four triangular faces, to the nearest square metre?  Glass area .  "
+},
+{
+  "id": "subsec-pyramid-word-problems-10",
+  "level": "2",
+  "url": "sec-pyramids.html#subsec-pyramid-word-problems-10",
+  "type": "Checkpoint",
+  "number": "3.4.19",
+  "title": "Stone Monument.",
+  "body": " Stone Monument  A stone monument has the shape of a right square pyramid with slant height 1.6 m and base side length 0.8 m. Find the volume of the monument to the nearest tenth of a cubic metre.  Find the height first.  m. .  "
+},
+{
+  "id": "subsec-pyramid-word-problems-11",
+  "level": "2",
+  "url": "sec-pyramids.html#subsec-pyramid-word-problems-11",
+  "type": "Checkpoint",
+  "number": "3.4.20",
+  "title": "Minimum Roof Height.",
+  "body": " Minimum Roof Height  The roof of a house is shaped like a right square pyramid with base 32 ft on each side. The attic must enclose a volume of at least of air. What is the minimum height of the roof?  , so ft.  "
+},
+{
+  "id": "subsec-pyramid-word-problems-12",
+  "level": "2",
+  "url": "sec-pyramids.html#subsec-pyramid-word-problems-12",
+  "type": "Exercise Group",
+  "number": "3.4.7",
+  "title": "Pyramid with Equal-Sided Faces.",
+  "body": " Pyramid with Equal-Sided Faces  A right square pyramid has base side length 3.5 m. Each triangular face has two equal sides of length 4.5 m.   Find the height of the pyramid to the nearest tenth of a metre.  From the face dimensions, find the slant height first (the height of the triangular face), then the pyramid height.  Each face is a triangle with base 3.5 m and equal sides 4.5 m. The slant height is m. Then m.    Find the volume to the nearest tenth of a cubic metre.  .   "
+},
+{
+  "id": "subsec-pyramid-word-problems-13",
+  "level": "2",
+  "url": "sec-pyramids.html#subsec-pyramid-word-problems-13",
+  "type": "Exercise Group",
+  "number": "3.4.8",
+  "title": "Tetrahedron Tea Bag.",
+  "body": " Tetrahedron Tea Bag  A tea bag has the shape of a regular tetrahedron. Each edge is 5.8 cm long and the height of the tetrahedron is approximately 4.7 cm.   Calculate the area of the base to the nearest square centimetre.  Base area .    Calculate the volume to the nearest cubic centimetre.  .   "
+},
+{
+  "id": "subsec-pyramid-word-problems-14",
+  "level": "2",
+  "url": "sec-pyramids.html#subsec-pyramid-word-problems-14",
+  "type": "Exercise Group",
+  "number": "3.4.9",
+  "title": "Iron Garden Ornament.",
+  "body": " Iron Garden Ornament  A solid iron garden ornament has the shape of a right square pyramid with slant height 8 in and base side length 3 in.   Determine the volume to the nearest cubic inch.  in. .    A second ornament has the same shape and the same height, but a volume of . Find the side length of its base to the nearest inch.  , so , giving in.   "
+},
+{
+  "id": "subsec-pyramid-word-problems-15",
+  "level": "2",
+  "url": "sec-pyramids.html#subsec-pyramid-word-problems-15",
+  "type": "Checkpoint",
+  "number": "3.4.21",
+  "title": "Frustum of a Pyramid.",
+  "body": " Frustum of a Pyramid  A right rectangular pyramid has base dimensions 5 m by 3 m and a height of 10 m. A horizontal cut is made 2 m from the apex, and the smaller pyramid at the top is removed. Find the volume of the remaining piece (the frustum ).  Use similar triangles to find the base dimensions of the small pyramid.  Full pyramid: . The small pyramid has height 2 m. By similar triangles, its base is scaled by , so the base is m. . Remaining: .  "
+},
+{
+  "id": "subsec-pyramid-word-problems-16",
+  "level": "2",
+  "url": "sec-pyramids.html#subsec-pyramid-word-problems-16",
+  "type": "Checkpoint",
+  "number": "3.4.22",
+  "title": "Hexagonal Pyramid.",
+  "body": " Hexagonal Pyramid  A right pyramid has a base that is a regular hexagon with side length 5.5 cm. Each triangular face has two equal sides of length 7.5 cm. Find the surface area to the nearest square centimetre.  The area of a regular hexagon with side is .  Base area . The slant height of each face is cm. Lateral area . .  "
+},
+{
+  "id": "sec-cones",
+  "level": "1",
+  "url": "sec-cones.html",
+  "type": "Section",
+  "number": "3.5",
+  "title": "Cones",
+  "body": " Cones   A cone is a 3D object with a round base, and a curved surface that goes to a point.  A cone can be thought of as a pyramid with a circular base. Just like pyramids,   The tip of the cone is called the apex (just like a pyramid).  The height is the distance from the apex to the base.  The slant height is the length along the side of the cone.      We will only consider a cone with a circular base, and whose tip is right above the center of the base, which is called a right circular cone (or simply right cone ).    Volume of a Cone  Recall that the volume of a pyramid is the volume of a prism with the same base and height. The same relationship holds for cones and cylinders.     The volume of a right circular cone is,    Notice that , where is the area of the base. This is the same formula as the volume of a pyramid. In fact, a cone can be thought of as a pyramid with a circular base.    Volume of a Cone  Find the volume of a cone with radius 6 cm and height 10 cm.        Application: Ice Cream Cone  An ice cream cone has diameter 5 cm and height 12 cm. How many cm of ice cream can it hold?     First, cm. The volume is,     Comparing Cone and Cylinder  A cone and a cylinder both have diameter 5 cm and height 12 cm. How do their volumes compare?  The cylinder has volume,   The cone has volume,   Indeed, . It would take exactly 3 cones of water to fill the cylinder.     Surface Area of a Cone  Consider the surface area of a cone. Intuitively, a cone is a pyramid, where the number of sides of the base of the pyramid is large.     Recall that the surface area of a pyramid is given by,    Technically, for a right pyramid.   Then, for a cone, it has a circular base, which has a radius . Then, is the circumference of a circle, and is the area of the base. Putting these together, we get,   The surface area of a right circular cone is,    is the lateral surface area (the curved surface only, not the base).  is the area of the circular base.    Some problems ask for only the lateral area. For example, a party hat has no base.   If the height of the cone is given, then by the Pythagorean theorem, , so . Then, the formula can be written in terms of as,    Surface Area: Slant Height Given  Find the surface area of a cone with radius 4 cm and slant height 7 cm.        Surface Area: Height Given (Must Find Slant Height)  Find the surface area of a cone with radius 5 cm and height 12 cm.     First, find the slant height using the Pythagorean theorem,   Now compute the surface area,       Examples   Surface Area of Cones  Find the surface area of each cone. Give exact answers and decimal approximations.    Radius 3 cm, slant height 8 cm.      .    Diameter 27 cm, slant height 40 cm.  . .    Radius 4.5 cm, slant height 9.5 cm.  .    Radius 8 cm, height 15 cm.  Find the slant height first.  . .     A party hat is a cone with no base. It has radius 10 cm and slant height 25 cm. Find the lateral surface area only.      Lateral area .     Volume of Cones  Find the volume of each cone.   Radius 3 cm, height 7 cm.  .    Diameter 5.4 cm, height 7.5 cm.  . .    Radius 10 cm, height 24 cm.  .    Diameter 12 cm, height 8 cm.  . .     Reverse Problems  Find the missing dimension.   A cone has volume and height 18 cm. Find the radius.  . So , giving cm.    A cone has volume and radius 4 cm. Find the height to the nearest tenth.  . So cm.    A cone has lateral surface area and radius 5 cm. Find the slant height.  . So cm.     Algebra Practice  Find the missing dimension in each cone.   A right cone has and diameter 48 mm. Find the slant height.  . . So , giving mm.    A right cone has and radius 1.3 m. Find the slant height to the nearest tenth.  . So , giving m.    A plastic cone was immersed in a measuring cylinder containing water. The volume of the cone was determined to be , and its diameter is 4.0 cm. What is the height of the cone to the nearest tenth?  . , so cm.    A cone has a height of 8 m and a volume of . Find the radius of the base to the nearest metre.  , so , giving m.     Finding Height from Volume  A right cone has a volume of and a diameter of 5 cm. Calculate its height to the nearest tenth.  . , so cm.      Word Problems   Funnel  A funnel is cone-shaped with diameter 16 cm and height 20 cm. How many mL of liquid can it hold?     Answer: . .    Cone and Cylinder Same Volume  A cone and a cylinder have the same volume of and the same radius of 10 cm. Find the height of each.  Answer: Cylinder: , so cm. Cone: , so cm. The cone is 3 times as tall.    Model Volcano  A cone-shaped model volcano for a science project has a base diameter of 32 cm and a slant height of 45 cm.   What is the lateral area of the volcano to the nearest square centimetre?  Paint for the volcano costs $1.99 per jar, and one jar covers . How much will the paint cost?   Answer: . . Number of jars jars, round up to 6 jars. Cost .    Road Pylon  A road pylon approximates a right cone with height 53 cm and base diameter 18 cm. The lateral surface of the pylon is to be painted with reflective paint. What area will be painted, to the nearest square centimetre?  Answer: . cm. .    Conical Tent with Hides  A conical tent has a base diameter of 3.9 m and a height of 4.6 m. The tent cover is made from 15 tanned hides sewn together. To the nearest tenth of a square metre, what area does each hide cover?  Answer: . m. . Each hide covers .    Grain Pile Surface Area  A farmer unloaded grain onto a tarp on the ground. The grain formed a cone-shaped pile with a diameter of 12 ft and a height of 8 ft. Find the surface area of the exposed grain (lateral surface only) to the nearest square foot.  Answer: . ft. .    Large Conical Tent  A large conical tent has a diameter of 9.6 m and a slant height of 7.3 m. What is the minimum amount of canvas needed for the sides of the tent, to the nearest tenth of a square metre?  Answer: . .    Cone with Circumference Given  A right cone has a height of 8 ft and a base circumference of 12 ft. Find the surface area to the nearest square foot.  Hint: use the circumference to find the radius.  Answer: , so ft. ft. .    Waffle Cone  A waffle cone has a height of 5 in and a base diameter of 2 in, filled level with ice cream.   How much ice cream can the cone hold, to the nearest cubic inch?  One cubic inch of soft ice cream costs 55 cents, the waffle cone costs 35 cents, and the topping costs 10 cents per dessert. How much will this dessert cost to produce?   Answer: . . Cost .    Cake-Decorating Bag  A cake-decorating bag has the shape of a cone with a diameter of 15 cm and a height of 30 cm. How much frosting will fit in the bag, to the nearest cubic centimetre?  Answer: . .    Conical Paper Cup  A conical paper cup has a height of 65 mm and a diameter of 38 mm. Find the volume of the cup.  Answer: mm. .    Underground Water Tank  An underground water tank has the shape of an inverted right cone, with its apex at the bottom. The tank has a base diameter of 5.0 m and a height of 3.5 m. ( .)   What is the capacity of the tank to the nearest litre?  How much water is in the tank when the water level is 1 m below the top?   Answer: (i) . L.  (ii) Water height m. By similar triangles, water radius m. L.    Grain Pile Volume  A farmer's grain pile is cone-shaped with diameter 12 ft and height 8 ft. Find the volume of the grain pile. How many litres is this? ( L.)  Answer: . L.      Advanced: Cocktail Glass Cone   Cocktail Glass Cone  Consider a cocktail glass, in the shape of an upside down cone. What height does the glass have to be filled in order to be half-full? Intuition says that it should be slightly more than half-height, because the bottom of the glass contains less volume that the upper parts. To determine the exact amount, we can use algebra.  Let the height of the glass be , and the radius be . For the current liquid level, let be the height and radius of the cone of liquid. Then, the volume of the two cones are,   Then, we want to determine the height of the liquid such that is one-half of . In other words, find the value of such that,   Here, are constants, and are unknowns. We want to solve for . First, we can simplify the equation by canceling common factors,   Again, we want to solve for , in terms of possibly and . However, is also unknown. However, and are related to each other. By similar triangles,   and so, . So, the equation becomes,   Then, is the only variable, so solving for ,   Thus,   Thus, the glass is half-full when the height of the liquid is about 80% to the top of the glass. That is, the top 1\/5 of the glass (in terms of height) accounts for 1\/2 of the volume of the glass. This is somewhat unintuitive.    "
+},
+{
+  "id": "sec-cones-2-1",
+  "level": "2",
+  "url": "sec-cones.html#sec-cones-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "cone "
+},
+{
+  "id": "sec-cones-2-3-1-1",
+  "level": "2",
+  "url": "sec-cones.html#sec-cones-2-3-1-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "apex "
+},
+{
+  "id": "sec-cones-2-3-2-1",
+  "level": "2",
+  "url": "sec-cones.html#sec-cones-2-3-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "height "
+},
+{
+  "id": "sec-cones-2-3-3-1",
+  "level": "2",
+  "url": "sec-cones.html#sec-cones-2-3-3-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "slant height "
+},
+{
+  "id": "sec-cones-2-5",
+  "level": "2",
+  "url": "sec-cones.html#sec-cones-2-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "right circular cone right cone "
+},
+{
+  "id": "subsec-cone-volume-6",
+  "level": "2",
+  "url": "sec-cones.html#subsec-cone-volume-6",
+  "type": "Remark",
+  "number": "3.5.1",
+  "title": "",
+  "body": " Notice that , where is the area of the base. This is the same formula as the volume of a pyramid. In fact, a cone can be thought of as a pyramid with a circular base.  "
+},
+{
+  "id": "subsec-cone-volume-7",
+  "level": "2",
+  "url": "sec-cones.html#subsec-cone-volume-7",
+  "type": "Example",
+  "number": "3.5.2",
+  "title": "Volume of a Cone.",
+  "body": " Volume of a Cone  Find the volume of a cone with radius 6 cm and height 10 cm.      "
+},
+{
+  "id": "subsec-cone-volume-8",
+  "level": "2",
+  "url": "sec-cones.html#subsec-cone-volume-8",
+  "type": "Example",
+  "number": "3.5.3",
+  "title": "Application: Ice Cream Cone.",
+  "body": " Application: Ice Cream Cone  An ice cream cone has diameter 5 cm and height 12 cm. How many cm of ice cream can it hold?     First, cm. The volume is,   "
+},
+{
+  "id": "subsec-cone-volume-9",
+  "level": "2",
+  "url": "sec-cones.html#subsec-cone-volume-9",
+  "type": "Example",
+  "number": "3.5.4",
+  "title": "Comparing Cone and Cylinder.",
+  "body": " Comparing Cone and Cylinder  A cone and a cylinder both have diameter 5 cm and height 12 cm. How do their volumes compare?  The cylinder has volume,   The cone has volume,   Indeed, . It would take exactly 3 cones of water to fill the cylinder.  "
+},
+{
+  "id": "subsec-cone-surface-area-6",
+  "level": "2",
+  "url": "sec-cones.html#subsec-cone-surface-area-6",
+  "type": "Remark",
+  "number": "3.5.5",
+  "title": "",
+  "body": " Technically, for a right pyramid.  "
+},
+{
+  "id": "subsec-cone-surface-area-11-1-1",
+  "level": "2",
+  "url": "sec-cones.html#subsec-cone-surface-area-11-1-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "lateral surface area "
+},
+{
+  "id": "subsec-cone-surface-area-12",
+  "level": "2",
+  "url": "sec-cones.html#subsec-cone-surface-area-12",
+  "type": "Remark",
+  "number": "3.5.6",
+  "title": "",
+  "body": " Some problems ask for only the lateral area. For example, a party hat has no base.  "
+},
+{
+  "id": "subsec-cone-surface-area-15",
+  "level": "2",
+  "url": "sec-cones.html#subsec-cone-surface-area-15",
+  "type": "Example",
+  "number": "3.5.7",
+  "title": "Surface Area: Slant Height Given.",
+  "body": " Surface Area: Slant Height Given  Find the surface area of a cone with radius 4 cm and slant height 7 cm.      "
+},
+{
+  "id": "subsec-cone-surface-area-16",
+  "level": "2",
+  "url": "sec-cones.html#subsec-cone-surface-area-16",
+  "type": "Example",
+  "number": "3.5.8",
+  "title": "Surface Area: Height Given (Must Find Slant Height).",
+  "body": " Surface Area: Height Given (Must Find Slant Height)  Find the surface area of a cone with radius 5 cm and height 12 cm.     First, find the slant height using the Pythagorean theorem,   Now compute the surface area,   "
+},
+{
+  "id": "subsec-cone-examples-2",
+  "level": "2",
+  "url": "sec-cones.html#subsec-cone-examples-2",
+  "type": "Exercise Group",
+  "number": "3.5.1",
+  "title": "Surface Area of Cones.",
+  "body": " Surface Area of Cones  Find the surface area of each cone. Give exact answers and decimal approximations.    Radius 3 cm, slant height 8 cm.      .    Diameter 27 cm, slant height 40 cm.  . .    Radius 4.5 cm, slant height 9.5 cm.  .    Radius 8 cm, height 15 cm.  Find the slant height first.  . .     A party hat is a cone with no base. It has radius 10 cm and slant height 25 cm. Find the lateral surface area only.      Lateral area .   "
+},
+{
+  "id": "subsec-cone-examples-3",
+  "level": "2",
+  "url": "sec-cones.html#subsec-cone-examples-3",
+  "type": "Exercise Group",
+  "number": "3.5.2",
+  "title": "Volume of Cones.",
+  "body": " Volume of Cones  Find the volume of each cone.   Radius 3 cm, height 7 cm.  .    Diameter 5.4 cm, height 7.5 cm.  . .    Radius 10 cm, height 24 cm.  .    Diameter 12 cm, height 8 cm.  . .   "
+},
+{
+  "id": "subsec-cone-examples-4",
+  "level": "2",
+  "url": "sec-cones.html#subsec-cone-examples-4",
+  "type": "Exercise Group",
+  "number": "3.5.3",
+  "title": "Reverse Problems.",
+  "body": " Reverse Problems  Find the missing dimension.   A cone has volume and height 18 cm. Find the radius.  . So , giving cm.    A cone has volume and radius 4 cm. Find the height to the nearest tenth.  . So cm.    A cone has lateral surface area and radius 5 cm. Find the slant height.  . So cm.   "
+},
+{
+  "id": "subsec-cone-examples-5",
+  "level": "2",
+  "url": "sec-cones.html#subsec-cone-examples-5",
+  "type": "Exercise Group",
+  "number": "3.5.4",
+  "title": "Algebra Practice.",
+  "body": " Algebra Practice  Find the missing dimension in each cone.   A right cone has and diameter 48 mm. Find the slant height.  . . So , giving mm.    A right cone has and radius 1.3 m. Find the slant height to the nearest tenth.  . So , giving m.    A plastic cone was immersed in a measuring cylinder containing water. The volume of the cone was determined to be , and its diameter is 4.0 cm. What is the height of the cone to the nearest tenth?  . , so cm.    A cone has a height of 8 m and a volume of . Find the radius of the base to the nearest metre.  , so , giving m.   "
+},
+{
+  "id": "subsec-cone-examples-6",
+  "level": "2",
+  "url": "sec-cones.html#subsec-cone-examples-6",
+  "type": "Checkpoint",
+  "number": "3.5.9",
+  "title": "Finding Height from Volume.",
+  "body": " Finding Height from Volume  A right cone has a volume of and a diameter of 5 cm. Calculate its height to the nearest tenth.  . , so cm.  "
+},
+{
+  "id": "subsec-cone-word-problems-2",
+  "level": "2",
+  "url": "sec-cones.html#subsec-cone-word-problems-2",
+  "type": "Example",
+  "number": "3.5.10",
+  "title": "Funnel.",
+  "body": " Funnel  A funnel is cone-shaped with diameter 16 cm and height 20 cm. How many mL of liquid can it hold?     Answer: . .  "
+},
+{
+  "id": "subsec-cone-word-problems-3",
+  "level": "2",
+  "url": "sec-cones.html#subsec-cone-word-problems-3",
+  "type": "Example",
+  "number": "3.5.11",
+  "title": "Cone and Cylinder Same Volume.",
+  "body": " Cone and Cylinder Same Volume  A cone and a cylinder have the same volume of and the same radius of 10 cm. Find the height of each.  Answer: Cylinder: , so cm. Cone: , so cm. The cone is 3 times as tall.  "
+},
+{
+  "id": "subsec-cone-word-problems-4",
+  "level": "2",
+  "url": "sec-cones.html#subsec-cone-word-problems-4",
+  "type": "Example",
+  "number": "3.5.12",
+  "title": "Model Volcano.",
+  "body": " Model Volcano  A cone-shaped model volcano for a science project has a base diameter of 32 cm and a slant height of 45 cm.   What is the lateral area of the volcano to the nearest square centimetre?  Paint for the volcano costs $1.99 per jar, and one jar covers . How much will the paint cost?   Answer: . . Number of jars jars, round up to 6 jars. Cost .  "
+},
+{
+  "id": "subsec-cone-word-problems-5",
+  "level": "2",
+  "url": "sec-cones.html#subsec-cone-word-problems-5",
+  "type": "Example",
+  "number": "3.5.13",
+  "title": "Road Pylon.",
+  "body": " Road Pylon  A road pylon approximates a right cone with height 53 cm and base diameter 18 cm. The lateral surface of the pylon is to be painted with reflective paint. What area will be painted, to the nearest square centimetre?  Answer: . cm. .  "
+},
+{
+  "id": "subsec-cone-word-problems-6",
+  "level": "2",
+  "url": "sec-cones.html#subsec-cone-word-problems-6",
+  "type": "Example",
+  "number": "3.5.14",
+  "title": "Conical Tent with Hides.",
+  "body": " Conical Tent with Hides  A conical tent has a base diameter of 3.9 m and a height of 4.6 m. The tent cover is made from 15 tanned hides sewn together. To the nearest tenth of a square metre, what area does each hide cover?  Answer: . m. . Each hide covers .  "
+},
+{
+  "id": "subsec-cone-word-problems-7",
+  "level": "2",
+  "url": "sec-cones.html#subsec-cone-word-problems-7",
+  "type": "Example",
+  "number": "3.5.15",
+  "title": "Grain Pile Surface Area.",
+  "body": " Grain Pile Surface Area  A farmer unloaded grain onto a tarp on the ground. The grain formed a cone-shaped pile with a diameter of 12 ft and a height of 8 ft. Find the surface area of the exposed grain (lateral surface only) to the nearest square foot.  Answer: . ft. .  "
+},
+{
+  "id": "subsec-cone-word-problems-8",
+  "level": "2",
+  "url": "sec-cones.html#subsec-cone-word-problems-8",
+  "type": "Example",
+  "number": "3.5.16",
+  "title": "Large Conical Tent.",
+  "body": " Large Conical Tent  A large conical tent has a diameter of 9.6 m and a slant height of 7.3 m. What is the minimum amount of canvas needed for the sides of the tent, to the nearest tenth of a square metre?  Answer: . .  "
+},
+{
+  "id": "subsec-cone-word-problems-9",
+  "level": "2",
+  "url": "sec-cones.html#subsec-cone-word-problems-9",
+  "type": "Example",
+  "number": "3.5.17",
+  "title": "Cone with Circumference Given.",
+  "body": " Cone with Circumference Given  A right cone has a height of 8 ft and a base circumference of 12 ft. Find the surface area to the nearest square foot.  Hint: use the circumference to find the radius.  Answer: , so ft. ft. .  "
+},
+{
+  "id": "subsec-cone-word-problems-10",
+  "level": "2",
+  "url": "sec-cones.html#subsec-cone-word-problems-10",
+  "type": "Example",
+  "number": "3.5.18",
+  "title": "Waffle Cone.",
+  "body": " Waffle Cone  A waffle cone has a height of 5 in and a base diameter of 2 in, filled level with ice cream.   How much ice cream can the cone hold, to the nearest cubic inch?  One cubic inch of soft ice cream costs 55 cents, the waffle cone costs 35 cents, and the topping costs 10 cents per dessert. How much will this dessert cost to produce?   Answer: . . Cost .  "
+},
+{
+  "id": "subsec-cone-word-problems-11",
+  "level": "2",
+  "url": "sec-cones.html#subsec-cone-word-problems-11",
+  "type": "Example",
+  "number": "3.5.19",
+  "title": "Cake-Decorating Bag.",
+  "body": " Cake-Decorating Bag  A cake-decorating bag has the shape of a cone with a diameter of 15 cm and a height of 30 cm. How much frosting will fit in the bag, to the nearest cubic centimetre?  Answer: . .  "
+},
+{
+  "id": "subsec-cone-word-problems-12",
+  "level": "2",
+  "url": "sec-cones.html#subsec-cone-word-problems-12",
+  "type": "Example",
+  "number": "3.5.20",
+  "title": "Conical Paper Cup.",
+  "body": " Conical Paper Cup  A conical paper cup has a height of 65 mm and a diameter of 38 mm. Find the volume of the cup.  Answer: mm. .  "
+},
+{
+  "id": "subsec-cone-word-problems-13",
+  "level": "2",
+  "url": "sec-cones.html#subsec-cone-word-problems-13",
+  "type": "Example",
+  "number": "3.5.21",
+  "title": "Underground Water Tank.",
+  "body": " Underground Water Tank  An underground water tank has the shape of an inverted right cone, with its apex at the bottom. The tank has a base diameter of 5.0 m and a height of 3.5 m. ( .)   What is the capacity of the tank to the nearest litre?  How much water is in the tank when the water level is 1 m below the top?   Answer: (i) . L.  (ii) Water height m. By similar triangles, water radius m. L.  "
+},
+{
+  "id": "subsec-cone-word-problems-14",
+  "level": "2",
+  "url": "sec-cones.html#subsec-cone-word-problems-14",
+  "type": "Example",
+  "number": "3.5.22",
+  "title": "Grain Pile Volume.",
+  "body": " Grain Pile Volume  A farmer's grain pile is cone-shaped with diameter 12 ft and height 8 ft. Find the volume of the grain pile. How many litres is this? ( L.)  Answer: . L.  "
+},
+{
+  "id": "subsec-cone-cocktail-glass-2",
+  "level": "2",
+  "url": "sec-cones.html#subsec-cone-cocktail-glass-2",
+  "type": "Example",
+  "number": "3.5.23",
+  "title": "Cocktail Glass Cone.",
+  "body": " Cocktail Glass Cone  Consider a cocktail glass, in the shape of an upside down cone. What height does the glass have to be filled in order to be half-full? Intuition says that it should be slightly more than half-height, because the bottom of the glass contains less volume that the upper parts. To determine the exact amount, we can use algebra.  Let the height of the glass be , and the radius be . For the current liquid level, let be the height and radius of the cone of liquid. Then, the volume of the two cones are,   Then, we want to determine the height of the liquid such that is one-half of . In other words, find the value of such that,   Here, are constants, and are unknowns. We want to solve for . First, we can simplify the equation by canceling common factors,   Again, we want to solve for , in terms of possibly and . However, is also unknown. However, and are related to each other. By similar triangles,   and so, . So, the equation becomes,   Then, is the only variable, so solving for ,   Thus,   Thus, the glass is half-full when the height of the liquid is about 80% to the top of the glass. That is, the top 1\/5 of the glass (in terms of height) accounts for 1\/2 of the volume of the glass. This is somewhat unintuitive.  "
+},
+{
+  "id": "sec-spheres",
+  "level": "1",
+  "url": "sec-spheres.html",
+  "type": "Section",
+  "number": "3.6",
+  "title": "Spheres",
+  "body": " Spheres   A sphere is a 3D shape that is perfectly round, like a ball. Basketballs, globes, bubbles, and planets are all approximately spherical.  Unlike prisms, pyramids, cylinders, and cones, a sphere is completely curved, and has no base, no edges, and no flat faces.  It turns out that this makes it more complicated conceptually, and requiring more creativity.     Volume of a Sphere  In fact, the volume of a sphere is   Deriving the Volume Formula  It turns out, we can derive the volume of a sphere from 2 formulas we already know: the volume of a cylinder and the volume of a cone.  Consider a sphere, with a radius . It fits exactly inside a cylinder of radius and height (like a ball in a can).     The key fascinating insight is: the volume of the sphere can be thought of as the volume of the entire cylinder, minus the volume of two cones, each with base radius and height , placed inside the cylinder with their tips meeting at the center of the sphere.     To see why, slice all three shapes at the same height. At each level, the sphere's cross-section has the same area as the cylinder's cross-section, minus the cones' cross-section,     This means that the volume of the sphere is the volume of the cylinder, minus the volume of the two cones.    The cylinder has volume,     Each cone has base radius and height . The total volume of the two cones is,     Then, to get the volume of the sphere, subtract the volume of the 2 cones from the volume of the cylinder,    The volume of a sphere is,    Volume of a Sphere  Find the volume of a sphere with radius 3 cm.      So, the volume is about 113.1 cm .    Finding the Radius from Volume  A sphere has volume . Find its radius.  Starting from the volume formula, plug in ,   We want to solve for . First, divide both sides by ,   To get rid of on the left, multiply both sides by ,   Finally, to isolate , take the cube root of both sides,       Surface Area of a Sphere  In fact, the surface area of a sphere, is 4 times the area of a circle with the same radius.   Why the Formula Works  The best way to explore why this formula works, is with this video by 3Blue1Brown: But why is a sphere's surface area four times its shadow? .   The surface area of a sphere is,    Surface Area of a Sphere  Find the surface area of a sphere with radius 6 cm.        Surface Area Given Diameter  A basketball has diameter 24 cm. Find its surface area.  First, cm. Then,     Hemispheres  A hemisphere is half of a sphere. Its volume is . Its total surface area includes the curved part ( , half of ) plus the flat circular face ( ), giving,     Hemisphere  Find the total surface area and volume of a hemisphere with radius 8 cm.     The total surface area is the curved part plus the flat circular base,   The volume is half the volume of a full sphere,     Surface Area from Circumference  A ball has circumference 69.1 cm. Find its surface area.  First, find the radius from the circumference ,   Then,       Examples   Surface Area and Volume of Spheres  Find the surface area and volume of each sphere. Give exact answers and decimal approximations.    Radius 5 cm.      . .    Radius 10 m.  . .    Diameter 24.8 cm.  . . .    Diameter 18 cm.  . . .     Reverse Problems  Find the missing dimension.   A sphere has surface area . Find the radius.  , so , giving cm.    A sphere has volume . Find the radius.  , so , giving cm.    A sphere has surface area . Find the diameter. Hint: a bowling ball has surface area approximately .  If , then , so , giving cm, cm.    An exercise ball has volume approximately . Find its diameter.  , so . Then cm, so cm.     Hemisphere Problems  Find the missing dimensions.    Find the total surface area and volume of a hemisphere with diameter 2.4 cm.      . . .    A hemispherical bowl has radius 12 cm. How many mL of soup can it hold?  .     Algebra Practice  Find the missing dimension.   The surface area of a tennis ball is approximately . What is the radius of the tennis ball to the nearest tenth?  , so , giving cm.    A sphere has a surface area of 452 square inches. What is its diameter to the nearest inch?  , so , giving in and in.    A sphere has surface area . Find the radius.  , so , giving cm.    A sphere has volume . Find the radius.  , so , giving cm.     Circumference to Surface Area  A ball has circumference 95.8 cm. Find its surface area.  cm. .    Marble Volume  A marble has diameter 1.5 cm. Find its volume.  . .    Spherical Tank Radius  A spherical tank has volume . Find the radius to the nearest tenth.  , so . Then m.    Hemisphere Circumference  A hemisphere has circumference 47.1 m (measured around the flat face). Find its surface area and volume.  m. . .    Sphere vs Hemisphere Surface Area  A sphere has a radius of 5.0 cm. What is the radius of a hemisphere that has the same surface area as the sphere?  The sphere has . A hemisphere has .  , so , giving cm.    Comparing Sphere and Hemisphere  A sphere has diameter 12 cm and a hemisphere has radius 8 cm. Which has the greater surface area? Which has the greater volume?  Sphere: , . Hemisphere: , . The hemisphere has both greater SA and greater V.    Scaling a Balloon  A spherical balloon has radius 10 cm. It is blown up to 3 times its radius. Compare the circumference, surface area, and volume of the two sizes.  Old: , , . New ( ): , , . The circumference is larger, the SA is larger, and the volume is larger. In general, scaling the radius by scales by , by , and by .    Glass Bead  A glass bead has diameter 11 mm. What is its surface area?  . .      Word Problems   Water Balloon  A spherical water balloon has radius 8 cm. How many mL of water does it hold?   Since , the balloon holds approximately 2145 mL (about 2.1 L) of water.    Inflated Balloon  A spherical balloon is inflated to a radius of 15 cm. How many litres of air does it contain?  .    Baseball Leather  An official baseball has a diameter of 7.4 cm. How much leather is needed to cover the ball, to the nearest tenth of a square centimetre?  . .    Globe Varnish  A spherical globe has circumference 158 cm. The surface is to be painted with a high-gloss varnish. What is the area to be painted, to the nearest square centimetre?  cm. .    Volleyball vs Basketball   The size of a ball used in sport is often given by its circumference. A volleyball has a circumference of 66 cm and a basketball has a circumference of in.   Find the radius of each ball to the nearest unit.  Find the surface area of each ball to the nearest square unit.  Which ball is larger?    Volleyball: cm. . Basketball: in cm. . The basketball is larger.    Spherical Tree House   A spherical tree house has an outside diameter of 3.20 m and an inside diameter of 3.15 m.   Calculate the volume of the inside of the shell to the nearest tenth of a cubic metre.  What is the difference between the outside and inside surface areas, to the nearest tenth of a square metre?    . Outside SA . Inside SA . Difference .    Earth   Earth approximates a sphere with mean diameter approximately 12,756 km.   Determine the surface area of Earth to the nearest thousand square kilometres.  About 70% of Earth's surface is covered in water. What is this area?  Determine the volume of Earth to the nearest thousand cubic kilometres.  The inner core of Earth has a radius of approximately 1278 km. What volume of Earth is not part of the inner core?    km. (i) . (ii) Water area . (iii) . (iv) . Not core .    Maximum Volume from Material  You have of material available to cover a sphere. What is the maximum volume of the sphere you can make?  First find the radius from .  , so cm. .    Hemispherical Bowl  A hemispherical glass bowl has diameter 20 cm. What is its capacity to the nearest tenth of a litre? Approximately how many cups is this, if mL?  . cups.    Volume of the Moon  The moon approximates a sphere with diameter 2160 miles. What is the approximate volume of the moon?  . .    Snowball  A snowball has circumference 18 cm. Find its volume.  cm. .    Gazing Ball  A \"gazing ball\" garden ornament has a mirrored surface area of approximately . Find its volume to the nearest cubic inch.  , so , in. .    Glazing Pastries  Small spherical pastries have diameter 2.5 cm each. A baker has 4710 cm of glaze. How many pastries can be glazed?  . . Number pastries.    Fitness Ball Pump  A fitness ball has diameter 28 cm. A pump delivers of air per pump. How many pumps does it take to fully inflate the ball?  . . Pumps pumps.    Cookie Dough Scoops  A cylindrical pail of cookie dough has diameter 17 cm and height 13 cm. Each cookie is made by scooping a ball of dough with diameter 5 cm. Approximately how many cookies can be made from one pail?  . . Cookies .    Sphere Carved from Wood Block  A block of wood measures cm. A sphere is carved from it (the largest sphere that fits). What percentage of the wood is wasted?  The largest sphere has diameter cm (the smallest dimension), so . . . Waste .    Deflated Beach Ball  A deflated beach ball holds 70% of its maximum volume. If 70% of the volume is , find the radius of the beach ball when fully inflated.  . , so , giving in.    Bead Necklace  A bead necklace has 100 spherical beads, each with diameter 7 mm. What is the total volume of all the beads?  mm. . Total .    Squash Ball Tolerances  A squash ball has a regulation diameter of mm. What are the minimum and maximum possible surface areas?  Min: . . Max: . .    Crystal Souvenir  A crystal souvenir is a cube with side length 4 cm that has a sphere (diameter 4 cm) carved out of its center. What is the volume of the remaining crystal?  . . .    Gas Storage Tank  A spherical gas storage tank has diameter 15.8 m. Find its surface area and its capacity in litres.  . . .    "
+},
+{
+  "id": "sec-spheres-2-1",
+  "level": "2",
+  "url": "sec-spheres.html#sec-spheres-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "sphere "
+},
+{
+  "id": "subsec-sphere-volume-3",
+  "level": "2",
+  "url": "sec-spheres.html#subsec-sphere-volume-3",
+  "type": "Example",
+  "number": "3.6.1",
+  "title": "Deriving the Volume Formula.",
+  "body": " Deriving the Volume Formula  It turns out, we can derive the volume of a sphere from 2 formulas we already know: the volume of a cylinder and the volume of a cone.  Consider a sphere, with a radius . It fits exactly inside a cylinder of radius and height (like a ball in a can).     The key fascinating insight is: the volume of the sphere can be thought of as the volume of the entire cylinder, minus the volume of two cones, each with base radius and height , placed inside the cylinder with their tips meeting at the center of the sphere.     To see why, slice all three shapes at the same height. At each level, the sphere's cross-section has the same area as the cylinder's cross-section, minus the cones' cross-section,     This means that the volume of the sphere is the volume of the cylinder, minus the volume of the two cones.    The cylinder has volume,     Each cone has base radius and height . The total volume of the two cones is,     Then, to get the volume of the sphere, subtract the volume of the 2 cones from the volume of the cylinder,   "
+},
+{
+  "id": "subsec-sphere-volume-6",
+  "level": "2",
+  "url": "sec-spheres.html#subsec-sphere-volume-6",
+  "type": "Example",
+  "number": "3.6.2",
+  "title": "Volume of a Sphere.",
+  "body": " Volume of a Sphere  Find the volume of a sphere with radius 3 cm.      So, the volume is about 113.1 cm .  "
+},
+{
+  "id": "subsec-sphere-volume-7",
+  "level": "2",
+  "url": "sec-spheres.html#subsec-sphere-volume-7",
+  "type": "Example",
+  "number": "3.6.3",
+  "title": "Finding the Radius from Volume.",
+  "body": " Finding the Radius from Volume  A sphere has volume . Find its radius.  Starting from the volume formula, plug in ,   We want to solve for . First, divide both sides by ,   To get rid of on the left, multiply both sides by ,   Finally, to isolate , take the cube root of both sides,   "
+},
+{
+  "id": "subsec-sphere-surface-area-3",
+  "level": "2",
+  "url": "sec-spheres.html#subsec-sphere-surface-area-3",
+  "type": "Example",
+  "number": "3.6.4",
+  "title": "Why the Formula Works.",
+  "body": " Why the Formula Works  The best way to explore why this formula works, is with this video by 3Blue1Brown: But why is a sphere's surface area four times its shadow? .  "
+},
+{
+  "id": "subsec-sphere-surface-area-6",
+  "level": "2",
+  "url": "sec-spheres.html#subsec-sphere-surface-area-6",
+  "type": "Example",
+  "number": "3.6.5",
+  "title": "Surface Area of a Sphere.",
+  "body": " Surface Area of a Sphere  Find the surface area of a sphere with radius 6 cm.      "
+},
+{
+  "id": "subsec-sphere-surface-area-7",
+  "level": "2",
+  "url": "sec-spheres.html#subsec-sphere-surface-area-7",
+  "type": "Example",
+  "number": "3.6.6",
+  "title": "Surface Area Given Diameter.",
+  "body": " Surface Area Given Diameter  A basketball has diameter 24 cm. Find its surface area.  First, cm. Then,   "
+},
+{
+  "id": "subsec-sphere-surface-area-8",
+  "level": "2",
+  "url": "sec-spheres.html#subsec-sphere-surface-area-8",
+  "type": "Remark",
+  "number": "3.6.7",
+  "title": "Hemispheres.",
+  "body": " Hemispheres  A hemisphere is half of a sphere. Its volume is . Its total surface area includes the curved part ( , half of ) plus the flat circular face ( ), giving,   "
+},
+{
+  "id": "subsec-sphere-surface-area-9",
+  "level": "2",
+  "url": "sec-spheres.html#subsec-sphere-surface-area-9",
+  "type": "Example",
+  "number": "3.6.8",
+  "title": "Hemisphere.",
+  "body": " Hemisphere  Find the total surface area and volume of a hemisphere with radius 8 cm.     The total surface area is the curved part plus the flat circular base,   The volume is half the volume of a full sphere,   "
+},
+{
+  "id": "subsec-sphere-surface-area-10",
+  "level": "2",
+  "url": "sec-spheres.html#subsec-sphere-surface-area-10",
+  "type": "Example",
+  "number": "3.6.9",
+  "title": "Surface Area from Circumference.",
+  "body": " Surface Area from Circumference  A ball has circumference 69.1 cm. Find its surface area.  First, find the radius from the circumference ,   Then,   "
+},
+{
+  "id": "subsec-sphere-examples-2",
+  "level": "2",
+  "url": "sec-spheres.html#subsec-sphere-examples-2",
+  "type": "Exercise Group",
+  "number": "3.6.1",
+  "title": "Surface Area and Volume of Spheres.",
+  "body": " Surface Area and Volume of Spheres  Find the surface area and volume of each sphere. Give exact answers and decimal approximations.    Radius 5 cm.      . .    Radius 10 m.  . .    Diameter 24.8 cm.  . . .    Diameter 18 cm.  . . .   "
+},
+{
+  "id": "subsec-sphere-examples-3",
+  "level": "2",
+  "url": "sec-spheres.html#subsec-sphere-examples-3",
+  "type": "Exercise Group",
+  "number": "3.6.2",
+  "title": "Reverse Problems.",
+  "body": " Reverse Problems  Find the missing dimension.   A sphere has surface area . Find the radius.  , so , giving cm.    A sphere has volume . Find the radius.  , so , giving cm.    A sphere has surface area . Find the diameter. Hint: a bowling ball has surface area approximately .  If , then , so , giving cm, cm.    An exercise ball has volume approximately . Find its diameter.  , so . Then cm, so cm.   "
+},
+{
+  "id": "subsec-sphere-examples-4",
+  "level": "2",
+  "url": "sec-spheres.html#subsec-sphere-examples-4",
+  "type": "Exercise Group",
+  "number": "3.6.3",
+  "title": "Hemisphere Problems.",
+  "body": " Hemisphere Problems  Find the missing dimensions.    Find the total surface area and volume of a hemisphere with diameter 2.4 cm.      . . .    A hemispherical bowl has radius 12 cm. How many mL of soup can it hold?  .   "
+},
+{
+  "id": "subsec-sphere-examples-5",
+  "level": "2",
+  "url": "sec-spheres.html#subsec-sphere-examples-5",
+  "type": "Exercise Group",
+  "number": "3.6.4",
+  "title": "Algebra Practice.",
+  "body": " Algebra Practice  Find the missing dimension.   The surface area of a tennis ball is approximately . What is the radius of the tennis ball to the nearest tenth?  , so , giving cm.    A sphere has a surface area of 452 square inches. What is its diameter to the nearest inch?  , so , giving in and in.    A sphere has surface area . Find the radius.  , so , giving cm.    A sphere has volume . Find the radius.  , so , giving cm.   "
+},
+{
+  "id": "subsec-sphere-examples-6",
+  "level": "2",
+  "url": "sec-spheres.html#subsec-sphere-examples-6",
+  "type": "Checkpoint",
+  "number": "3.6.10",
+  "title": "Circumference to Surface Area.",
+  "body": " Circumference to Surface Area  A ball has circumference 95.8 cm. Find its surface area.  cm. .  "
+},
+{
+  "id": "subsec-sphere-examples-7",
+  "level": "2",
+  "url": "sec-spheres.html#subsec-sphere-examples-7",
+  "type": "Checkpoint",
+  "number": "3.6.11",
+  "title": "Marble Volume.",
+  "body": " Marble Volume  A marble has diameter 1.5 cm. Find its volume.  . .  "
+},
+{
+  "id": "subsec-sphere-examples-8",
+  "level": "2",
+  "url": "sec-spheres.html#subsec-sphere-examples-8",
+  "type": "Checkpoint",
+  "number": "3.6.12",
+  "title": "Spherical Tank Radius.",
+  "body": " Spherical Tank Radius  A spherical tank has volume . Find the radius to the nearest tenth.  , so . Then m.  "
+},
+{
+  "id": "subsec-sphere-examples-9",
+  "level": "2",
+  "url": "sec-spheres.html#subsec-sphere-examples-9",
+  "type": "Checkpoint",
+  "number": "3.6.13",
+  "title": "Hemisphere Circumference.",
+  "body": " Hemisphere Circumference  A hemisphere has circumference 47.1 m (measured around the flat face). Find its surface area and volume.  m. . .  "
+},
+{
+  "id": "subsec-sphere-examples-10",
+  "level": "2",
+  "url": "sec-spheres.html#subsec-sphere-examples-10",
+  "type": "Checkpoint",
+  "number": "3.6.14",
+  "title": "Sphere vs Hemisphere Surface Area.",
+  "body": " Sphere vs Hemisphere Surface Area  A sphere has a radius of 5.0 cm. What is the radius of a hemisphere that has the same surface area as the sphere?  The sphere has . A hemisphere has .  , so , giving cm.  "
+},
+{
+  "id": "subsec-sphere-examples-11",
+  "level": "2",
+  "url": "sec-spheres.html#subsec-sphere-examples-11",
+  "type": "Checkpoint",
+  "number": "3.6.15",
+  "title": "Comparing Sphere and Hemisphere.",
+  "body": " Comparing Sphere and Hemisphere  A sphere has diameter 12 cm and a hemisphere has radius 8 cm. Which has the greater surface area? Which has the greater volume?  Sphere: , . Hemisphere: , . The hemisphere has both greater SA and greater V.  "
+},
+{
+  "id": "subsec-sphere-examples-12",
+  "level": "2",
+  "url": "sec-spheres.html#subsec-sphere-examples-12",
+  "type": "Checkpoint",
+  "number": "3.6.16",
+  "title": "Scaling a Balloon.",
+  "body": " Scaling a Balloon  A spherical balloon has radius 10 cm. It is blown up to 3 times its radius. Compare the circumference, surface area, and volume of the two sizes.  Old: , , . New ( ): , , . The circumference is larger, the SA is larger, and the volume is larger. In general, scaling the radius by scales by , by , and by .  "
+},
+{
+  "id": "subsec-sphere-examples-13",
+  "level": "2",
+  "url": "sec-spheres.html#subsec-sphere-examples-13",
+  "type": "Checkpoint",
+  "number": "3.6.17",
+  "title": "Glass Bead.",
+  "body": " Glass Bead  A glass bead has diameter 11 mm. What is its surface area?  . .  "
+},
+{
+  "id": "subsec-sphere-word-problems-2",
+  "level": "2",
+  "url": "sec-spheres.html#subsec-sphere-word-problems-2",
+  "type": "Example",
+  "number": "3.6.18",
+  "title": "Water Balloon.",
+  "body": " Water Balloon  A spherical water balloon has radius 8 cm. How many mL of water does it hold?   Since , the balloon holds approximately 2145 mL (about 2.1 L) of water.  "
+},
+{
+  "id": "subsec-sphere-word-problems-3",
+  "level": "2",
+  "url": "sec-spheres.html#subsec-sphere-word-problems-3",
+  "type": "Checkpoint",
+  "number": "3.6.19",
+  "title": "Inflated Balloon.",
+  "body": " Inflated Balloon  A spherical balloon is inflated to a radius of 15 cm. How many litres of air does it contain?  .  "
+},
+{
+  "id": "subsec-sphere-word-problems-4",
+  "level": "2",
+  "url": "sec-spheres.html#subsec-sphere-word-problems-4",
+  "type": "Checkpoint",
+  "number": "3.6.20",
+  "title": "Baseball Leather.",
+  "body": " Baseball Leather  An official baseball has a diameter of 7.4 cm. How much leather is needed to cover the ball, to the nearest tenth of a square centimetre?  . .  "
+},
+{
+  "id": "subsec-sphere-word-problems-5",
+  "level": "2",
+  "url": "sec-spheres.html#subsec-sphere-word-problems-5",
+  "type": "Checkpoint",
+  "number": "3.6.21",
+  "title": "Globe Varnish.",
+  "body": " Globe Varnish  A spherical globe has circumference 158 cm. The surface is to be painted with a high-gloss varnish. What is the area to be painted, to the nearest square centimetre?  cm. .  "
+},
+{
+  "id": "subsec-sphere-word-problems-6",
+  "level": "2",
+  "url": "sec-spheres.html#subsec-sphere-word-problems-6",
+  "type": "Checkpoint",
+  "number": "3.6.22",
+  "title": "Volleyball vs Basketball.",
+  "body": " Volleyball vs Basketball   The size of a ball used in sport is often given by its circumference. A volleyball has a circumference of 66 cm and a basketball has a circumference of in.   Find the radius of each ball to the nearest unit.  Find the surface area of each ball to the nearest square unit.  Which ball is larger?    Volleyball: cm. . Basketball: in cm. . The basketball is larger.  "
+},
+{
+  "id": "subsec-sphere-word-problems-7",
+  "level": "2",
+  "url": "sec-spheres.html#subsec-sphere-word-problems-7",
+  "type": "Checkpoint",
+  "number": "3.6.23",
+  "title": "Spherical Tree House.",
+  "body": " Spherical Tree House   A spherical tree house has an outside diameter of 3.20 m and an inside diameter of 3.15 m.   Calculate the volume of the inside of the shell to the nearest tenth of a cubic metre.  What is the difference between the outside and inside surface areas, to the nearest tenth of a square metre?    . Outside SA . Inside SA . Difference .  "
+},
+{
+  "id": "subsec-sphere-word-problems-8",
+  "level": "2",
+  "url": "sec-spheres.html#subsec-sphere-word-problems-8",
+  "type": "Checkpoint",
+  "number": "3.6.24",
+  "title": "Earth.",
+  "body": " Earth   Earth approximates a sphere with mean diameter approximately 12,756 km.   Determine the surface area of Earth to the nearest thousand square kilometres.  About 70% of Earth's surface is covered in water. What is this area?  Determine the volume of Earth to the nearest thousand cubic kilometres.  The inner core of Earth has a radius of approximately 1278 km. What volume of Earth is not part of the inner core?    km. (i) . (ii) Water area . (iii) . (iv) . Not core .  "
+},
+{
+  "id": "subsec-sphere-word-problems-9",
+  "level": "2",
+  "url": "sec-spheres.html#subsec-sphere-word-problems-9",
+  "type": "Checkpoint",
+  "number": "3.6.25",
+  "title": "Maximum Volume from Material.",
+  "body": " Maximum Volume from Material  You have of material available to cover a sphere. What is the maximum volume of the sphere you can make?  First find the radius from .  , so cm. .  "
+},
+{
+  "id": "subsec-sphere-word-problems-10",
+  "level": "2",
+  "url": "sec-spheres.html#subsec-sphere-word-problems-10",
+  "type": "Checkpoint",
+  "number": "3.6.26",
+  "title": "Hemispherical Bowl.",
+  "body": " Hemispherical Bowl  A hemispherical glass bowl has diameter 20 cm. What is its capacity to the nearest tenth of a litre? Approximately how many cups is this, if mL?  . cups.  "
+},
+{
+  "id": "subsec-sphere-word-problems-11",
+  "level": "2",
+  "url": "sec-spheres.html#subsec-sphere-word-problems-11",
+  "type": "Checkpoint",
+  "number": "3.6.27",
+  "title": "Volume of the Moon.",
+  "body": " Volume of the Moon  The moon approximates a sphere with diameter 2160 miles. What is the approximate volume of the moon?  . .  "
+},
+{
+  "id": "subsec-sphere-word-problems-12",
+  "level": "2",
+  "url": "sec-spheres.html#subsec-sphere-word-problems-12",
+  "type": "Checkpoint",
+  "number": "3.6.28",
+  "title": "Snowball.",
+  "body": " Snowball  A snowball has circumference 18 cm. Find its volume.  cm. .  "
+},
+{
+  "id": "subsec-sphere-word-problems-13",
+  "level": "2",
+  "url": "sec-spheres.html#subsec-sphere-word-problems-13",
+  "type": "Checkpoint",
+  "number": "3.6.29",
+  "title": "Gazing Ball.",
+  "body": " Gazing Ball  A \"gazing ball\" garden ornament has a mirrored surface area of approximately . Find its volume to the nearest cubic inch.  , so , in. .  "
+},
+{
+  "id": "subsec-sphere-word-problems-14",
+  "level": "2",
+  "url": "sec-spheres.html#subsec-sphere-word-problems-14",
+  "type": "Checkpoint",
+  "number": "3.6.30",
+  "title": "Glazing Pastries.",
+  "body": " Glazing Pastries  Small spherical pastries have diameter 2.5 cm each. A baker has 4710 cm of glaze. How many pastries can be glazed?  . . Number pastries.  "
+},
+{
+  "id": "subsec-sphere-word-problems-15",
+  "level": "2",
+  "url": "sec-spheres.html#subsec-sphere-word-problems-15",
+  "type": "Checkpoint",
+  "number": "3.6.31",
+  "title": "Fitness Ball Pump.",
+  "body": " Fitness Ball Pump  A fitness ball has diameter 28 cm. A pump delivers of air per pump. How many pumps does it take to fully inflate the ball?  . . Pumps pumps.  "
+},
+{
+  "id": "subsec-sphere-word-problems-16",
+  "level": "2",
+  "url": "sec-spheres.html#subsec-sphere-word-problems-16",
+  "type": "Checkpoint",
+  "number": "3.6.32",
+  "title": "Cookie Dough Scoops.",
+  "body": " Cookie Dough Scoops  A cylindrical pail of cookie dough has diameter 17 cm and height 13 cm. Each cookie is made by scooping a ball of dough with diameter 5 cm. Approximately how many cookies can be made from one pail?  . . Cookies .  "
+},
+{
+  "id": "subsec-sphere-word-problems-17",
+  "level": "2",
+  "url": "sec-spheres.html#subsec-sphere-word-problems-17",
+  "type": "Checkpoint",
+  "number": "3.6.33",
+  "title": "Sphere Carved from Wood Block.",
+  "body": " Sphere Carved from Wood Block  A block of wood measures cm. A sphere is carved from it (the largest sphere that fits). What percentage of the wood is wasted?  The largest sphere has diameter cm (the smallest dimension), so . . . Waste .  "
+},
+{
+  "id": "subsec-sphere-word-problems-18",
+  "level": "2",
+  "url": "sec-spheres.html#subsec-sphere-word-problems-18",
+  "type": "Checkpoint",
+  "number": "3.6.34",
+  "title": "Deflated Beach Ball.",
+  "body": " Deflated Beach Ball  A deflated beach ball holds 70% of its maximum volume. If 70% of the volume is , find the radius of the beach ball when fully inflated.  . , so , giving in.  "
+},
+{
+  "id": "subsec-sphere-word-problems-19",
+  "level": "2",
+  "url": "sec-spheres.html#subsec-sphere-word-problems-19",
+  "type": "Checkpoint",
+  "number": "3.6.35",
+  "title": "Bead Necklace.",
+  "body": " Bead Necklace  A bead necklace has 100 spherical beads, each with diameter 7 mm. What is the total volume of all the beads?  mm. . Total .  "
+},
+{
+  "id": "subsec-sphere-word-problems-20",
+  "level": "2",
+  "url": "sec-spheres.html#subsec-sphere-word-problems-20",
+  "type": "Checkpoint",
+  "number": "3.6.36",
+  "title": "Squash Ball Tolerances.",
+  "body": " Squash Ball Tolerances  A squash ball has a regulation diameter of mm. What are the minimum and maximum possible surface areas?  Min: . . Max: . .  "
+},
+{
+  "id": "subsec-sphere-word-problems-21",
+  "level": "2",
+  "url": "sec-spheres.html#subsec-sphere-word-problems-21",
+  "type": "Checkpoint",
+  "number": "3.6.37",
+  "title": "Crystal Souvenir.",
+  "body": " Crystal Souvenir  A crystal souvenir is a cube with side length 4 cm that has a sphere (diameter 4 cm) carved out of its center. What is the volume of the remaining crystal?  . . .  "
+},
+{
+  "id": "subsec-sphere-word-problems-22",
+  "level": "2",
+  "url": "sec-spheres.html#subsec-sphere-word-problems-22",
+  "type": "Checkpoint",
+  "number": "3.6.38",
+  "title": "Gas Storage Tank.",
+  "body": " Gas Storage Tank  A spherical gas storage tank has diameter 15.8 m. Find its surface area and its capacity in litres.  . . .  "
+},
+{
+  "id": "sec-3d-geometry-summary",
+  "level": "1",
+  "url": "sec-3d-geometry-summary.html",
+  "type": "Section",
+  "number": "3.7",
+  "title": "Composite Shapes and Summary",
+  "body": " Composite Shapes and Summary    Summary of Volume and Surface Area Formulas     Surface Area  Volume    Rectangular prism ( )      Pyramid (base , slant , perimeter )      Cylinder ( )      Cone ( , slant )      Sphere ( )       The pattern  Notice that the pointed shapes (pyramids, cones) always have exactly the volume of their associated flat-topped shape (prisms, cylinders), with the same base and height.   A pyramid is of a prism with the same base and height.  A cone is of a cylinder with the same base and height.       Surface Area  Volume    Cube (side )      General right prism      Hemisphere ( )       More relationships:   Prism Cylinder: A cylinder is like a prism with a circular base.  Pyramid Cone: A cone is like a pyramid with a circular base.       Volumes and Surface Areas with Composite Shapes  Now that we've learned the foundational formulas for basic shapes, we can apply them to more complex objects that are made by combining these shapes together.  A composite shape is a 3-dimensional object made of two or more basic shapes combined.   To find the volume, add the volumes of the parts.  For surface area, be careful to subtract any faces where shapes are joined together, because they are hidden and not part of the outer surface.    Silo: Cylinder + Hemisphere  A grain silo consists of a cylinder with radius 3 m and height 8 m, topped with a hemisphere. Find the total volume.     The volume of the cylinder is,   The volume of the hemisphere is,   The total volume is,     Ice Cream Cone + Scoop  An ice cream cone has radius 3 cm and height 12 cm. A hemispherical scoop of ice cream (same radius) sits on top. Find the total volume and the total outer surface area.     Volume: The cone volume is,   The hemisphere volume is,   Total volume: .  Surface area: The outer surface consists of the lateral surface of the cone and the curved surface of the hemisphere. The circular face where they join is hidden (not part of the outer surface).  First, find the slant height of the cone: cm.   Total outer SA: .    Pencil: Cylinder + Cone  A pencil is modeled as a cylinder of radius 0.4 cm and length 17 cm, with a conical tip of radius 0.4 cm and height 1 cm. Find the total volume.      Total volume: .    Grain Bin: Cylinder + Conical Roof  A grain bin is a cylinder with radius 3.5 m and height 4.1 m, topped with a conical roof of height 2.0 m (same radius). Find the total surface area of the bin (including the floor).     The outer surface consists of: the circular floor ( ), the lateral surface of the cylinder ( ), and the lateral surface of the cone ( ). The circular face where the cylinder meets the cone is hidden.  First, find the slant height of the cone: m.   Total: .    Sculpture: Sphere + Cone  A sculpture consists of a sphere with diameter 36 cm sitting on top of a cone with diameter 10 cm and height 6 cm. Find the total volume.   Total: .      Examples   Rocket Model   A rocket model consists of a cylinder (radius 4 cm, height 20 cm) with a cone on top (same radius, height 6 cm) and a hemisphere on the bottom (same radius). Find the total volume.      . . . Total: .    Igloo  An igloo is modeled as a hemisphere with inner radius 1.5 m. Find the volume of air inside the igloo.  .    Grain Terminal  A grain terminal is a cylinder (radius 6 m, height 20 m) topped with a cone (same radius, height 4 m). Find the total volume. How many litres of grain can it store?  . . Total: .    Trophy  A trophy consists of a rectangular prism base ( cm) topped with a cone (radius 3 cm, height 10 cm). Find the total volume.  . . Total: .    Popcorn Container (Frustum)   A popcorn container is shaped like a cone (diameter 14 cm, height 20 cm) with the tip cut off. The small opening at the bottom has diameter 6 cm. This shape is called a frustum . Find its volume. Hint: subtract the volume of the small missing cone from the full cone.      By similar triangles, the full cone has height : , so , , cm. The small cone has height cm and radius 3 cm. . . .    Cylinder with Two Hemispheres  A container is shaped like a cylinder (diameter 6 cm, height 10 cm) with a hemisphere on each end. Find the total volume and surface area.  . . Two hemispheres full sphere: . Total . For SA: the cylindrical lateral surface , plus the sphere surface . Total .    Cylinder + Cone SA   Find the SA of a composite shape: a cylinder (radius 3 cm, height 5 cm) topped with a cone (same radius, height 5 cm).      The outer surface is: base ( ), lateral cylinder ( ), and lateral cone ( ). The circle where the cylinder meets the cone is hidden. Slant: cm. .    Cone on Hemisphere  A composite shape consists of a cone (radius 4 in, total shape height 17 in) sitting on top of a hemisphere (same radius). Find the volume and outer surface area.  Hemisphere height in, so cone height in. Cone slant: in. . .    Sphere Inside a Cube  A sphere is placed inside a cube with edge length 5.8 cm (so the sphere just touches all 6 faces). Find the volume of the air space between the sphere and the cube.  The sphere has diameter cm, so . . . Air space .    Building with Pyramid Roof  A building consists of a rectangular prism (base , height 17 m) topped with a square pyramid (same base, slant height 13 m). Find the total outer surface area (not including the floor).  Pyramid height: m. Outer surface: 4 prism walls ( ), 4 triangular faces ( ). No floor, no top of prism (hidden). .    Capsule  A capsule is a cylinder (radius 3 cm) with a hemisphere on each end. The total length is 8.5 cm. Find V and SA.  Cylinder height cm. . .    Square Prism + Pyramid  A square prism ( ) is topped with a square pyramid of slant height 1.5 m. Find the SA and V.  Pyramid height: m. . . Total . : base (1) + 4 walls ( ) + 4 tri faces ( ). Total .    Concrete Frustum  A concrete test uses a truncated cone (a frustum): bottom diameter 200 mm, top diameter 100 mm, height 300 mm. The full cone (before truncation) has height 600 mm. Find the volume of the frustum.  Full cone: mm, mm. mm . Small cone removed: mm, mm. mm . .    Prism with Pyramid Removed  A right square prism has base and height 15 cm. A right square pyramid with the same base and height 6 cm is removed from the top of the prism. Find the volume of the remaining solid.  . . Remaining: .    Cylinder with Hemisphere Removed  A right cylinder has radius 1.5 m and height 4.0 m. A hemisphere with the same radius is removed from one end. Find the volume of the remaining solid.  . . Remaining: .    Igloo with Tunnel   An igloo approximates a hemisphere with base diameter 4.0 m. An entrance tunnel, approximating half a cylinder, extends 0.8 m outward with an external radius of 0.8 m. Find the total outer surface area of the igloo and tunnel (not including the floor or openings).  Hint: the igloo is the curved surface of a hemisphere (minus the tunnel opening). The tunnel is a half-cylinder (lateral surface on top, plus two semicircular ends, minus the opening into the igloo).   Igloo curved SA . Tunnel opening in hemisphere . Tunnel top (half lateral cylinder) . Tunnel end semicircle . Total .    Photography Light Tent  A photography light tent is cylindrical with a conical roof. The diameter of the tent is 1 m, the total height is 190 cm, and the cylindrical wall is 135 cm high. Find the surface area of the tent (not including the floor), to the nearest tenth of a square metre.  m, cone height m. Slant: m. .    Ice Sculpture Mould  An ice sculpture mould forms a composite object: a right cylinder (base diameter 15 in., height 3 in.) topped with a right cone (same base diameter, height 9 in.).   Find the volume of the sculpture to the nearest cubic inch.  . . . Total .    The sculpture is carved from a block of ice measuring How much ice remains after carving?  . Ice remaining .     Sandcastle  A sandcastle consists of a rectangular prism (base 75 cm 50 cm, height 30 cm) with 4 congruent cones on top. Each cone has base diameter 10 cm and slant height 15 cm.   Find the volume of sand required.  Each cone: , cm. . Each . Total .    Find the outer surface area of the castle (not including the base).  4 walls . Top face minus 4 cone bases . 4 cone laterals . .     Comparing Grain Bins  Two grain storage bins are being compared. Bin A has a square base (side 15 ft), walls 10 ft high, and a pyramidal roof of height 4 ft. Bin B is a cylinder (diameter 12 ft), walls 8 ft high, with a conical roof of height 3 ft. Which bin holds more grain?  . . Bin A holds significantly more grain.    Model Rocket  A model rocket has a cylindrical body 55 cm long with radius 6 cm, and a cone-shaped nose with slant height 12 cm (same radius).   Find the surface area of the rocket.  Cone height: cm. : base , lateral cylinder , lateral cone . Total .    Find the total volume of the rocket.  . . Total .    One-third of the interior is used for fuel. How much fuel can the rocket hold?  Fuel L.     Astronomical Observatory  An astronomical observatory has a cylindrical base with diameter 20.1 m and height 9.8 m, topped with a hemispherical dome of the same diameter. Find the total volume of the building.  . . . Total .    Cone: Find the Height from SA   A right cone has total surface area and base radius 5.2 ft. Find the height of the cone.  Hint: use to find the slant height , then use .   . So , giving ft. ft.    Sphere: Find SA from Volume  A sphere has volume . Find its surface area.  , so , m. .    Doghouse  A doghouse is a right square prism (base side 50 in., wall height 36 in.) with a pyramidal roof (slant height 30 in.). Find the total surface area of the doghouse, including the floor but not including any doorway.  Floor . 4 walls . 4 roof triangles . Total .    Square Pyramid V and Slant Height  A square pyramid has base side 15 cm and height 20 cm. Find its volume and slant height.  . cm.    Cone: Find Height from Volume  A cone has volume and radius 5 cm. Find the height.  , so cm.    Sphere: Find Volume from SA  A sphere has surface area . Find its volume.  , so , . .    Tennis Balls in a Cylinder   Three tennis balls (each with diameter 6.5 cm) fit snugly inside a cylindrical container. Find the volume of empty space inside the container.      cm, cylinder height cm. . . Empty space .    Mine Shaft  A mine shaft is modeled as an inverted cone with diameter 50 m and depth 80 m. How many cubic metres of earth were removed?  . .    Half-Full Cylinder  A cylindrical can (diameter 10 cm, height 15 cm) is lying on its side and is half-full of water. What is the volume of water?  Half the cylinder volume: .    Painting a Dome  A hemispherical dome has diameter 12 m. The dome is to be painted on the outside. If one can of paint covers , how many cans are needed?  Curved SA . Cans needed: , so 10 cans.    Maximizing Volume  You have of material to cover one solid shape. What is the maximum volume you can achieve for each shape?   A cube.  , so , cm. .    A sphere.  , so , cm. . The sphere gives a larger volume for the same surface area.     Popcorn Container Comparison  A theatre has two sizes of cylindrical popcorn containers. The small one is 18 cm tall with diameter 14 cm. The large one is 16 cm tall with diameter 16 cm. Verify that the large container actually holds more popcorn.  . . The large container holds about more.    Cylindrical Grain Terminal  A cylindrical grain terminal has height 40 m and inside diameter 11.7 m.   What is its storage capacity in cubic metres?  . .    If a small grain truck has a rectangular box measuring , how many truckloads can one tower hold?  Truck volume . Truckloads .     Mineral Deposit  A mineral deposit is approximately cone-shaped, with a surface area of at ground level and a depth of 2 km (2000 m). Estimate the volume of the deposit (treating it as a cone with the given base area and height).  .    Recycling Bales  A recycling depot makes rectangular bales measuring . A new machine makes cylindrical bales with the same volume and height 5 ft.   What is the diameter of the cylindrical bales?  . , so , ft, ft.    Which type of bale has less surface area?  . . The cylindrical bale uses less material.     Drink Can Diameter Range  A drink can has a height of 14 cm and must hold between 250 mL and 285 mL. What range of diameters is possible for the can? (Recall: 1 mL .)  . For 250: , , cm. For 285: , , cm. The diameter must be between approximately 4.8 cm and 5.1 cm.    "
+},
+{
+  "id": "subsec-formula-summary-3",
+  "level": "2",
+  "url": "sec-3d-geometry-summary.html#subsec-formula-summary-3",
+  "type": "Remark",
+  "number": "3.7.1",
+  "title": "The <span class=\"process-math\">\\(\\frac{1}{3}\\)<\/span> pattern.",
+  "body": " The pattern  Notice that the pointed shapes (pyramids, cones) always have exactly the volume of their associated flat-topped shape (prisms, cylinders), with the same base and height.   A pyramid is of a prism with the same base and height.  A cone is of a cylinder with the same base and height.   "
+},
+{
+  "id": "subsec-formula-summary-5",
+  "level": "2",
+  "url": "sec-3d-geometry-summary.html#subsec-formula-summary-5",
+  "type": "Remark",
+  "number": "3.7.2",
+  "title": "",
+  "body": " More relationships:   Prism Cylinder: A cylinder is like a prism with a circular base.  Pyramid Cone: A cone is like a pyramid with a circular base.   "
+},
+{
+  "id": "subsec-composite-shapes-3",
+  "level": "2",
+  "url": "sec-3d-geometry-summary.html#subsec-composite-shapes-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "composite shape "
+},
+{
+  "id": "subsec-composite-shapes-5",
+  "level": "2",
+  "url": "sec-3d-geometry-summary.html#subsec-composite-shapes-5",
+  "type": "Example",
+  "number": "3.7.3",
+  "title": "Silo: Cylinder + Hemisphere.",
+  "body": " Silo: Cylinder + Hemisphere  A grain silo consists of a cylinder with radius 3 m and height 8 m, topped with a hemisphere. Find the total volume.     The volume of the cylinder is,   The volume of the hemisphere is,   The total volume is,   "
+},
+{
+  "id": "subsec-composite-shapes-6",
+  "level": "2",
+  "url": "sec-3d-geometry-summary.html#subsec-composite-shapes-6",
+  "type": "Example",
+  "number": "3.7.4",
+  "title": "Ice Cream Cone + Scoop.",
+  "body": " Ice Cream Cone + Scoop  An ice cream cone has radius 3 cm and height 12 cm. A hemispherical scoop of ice cream (same radius) sits on top. Find the total volume and the total outer surface area.     Volume: The cone volume is,   The hemisphere volume is,   Total volume: .  Surface area: The outer surface consists of the lateral surface of the cone and the curved surface of the hemisphere. The circular face where they join is hidden (not part of the outer surface).  First, find the slant height of the cone: cm.   Total outer SA: .  "
+},
+{
+  "id": "subsec-composite-shapes-7",
+  "level": "2",
+  "url": "sec-3d-geometry-summary.html#subsec-composite-shapes-7",
+  "type": "Example",
+  "number": "3.7.5",
+  "title": "Pencil: Cylinder + Cone.",
+  "body": " Pencil: Cylinder + Cone  A pencil is modeled as a cylinder of radius 0.4 cm and length 17 cm, with a conical tip of radius 0.4 cm and height 1 cm. Find the total volume.      Total volume: .  "
+},
+{
+  "id": "subsec-composite-shapes-8",
+  "level": "2",
+  "url": "sec-3d-geometry-summary.html#subsec-composite-shapes-8",
+  "type": "Example",
+  "number": "3.7.6",
+  "title": "Grain Bin: Cylinder + Conical Roof.",
+  "body": " Grain Bin: Cylinder + Conical Roof  A grain bin is a cylinder with radius 3.5 m and height 4.1 m, topped with a conical roof of height 2.0 m (same radius). Find the total surface area of the bin (including the floor).     The outer surface consists of: the circular floor ( ), the lateral surface of the cylinder ( ), and the lateral surface of the cone ( ). The circular face where the cylinder meets the cone is hidden.  First, find the slant height of the cone: m.   Total: .  "
+},
+{
+  "id": "subsec-composite-shapes-9",
+  "level": "2",
+  "url": "sec-3d-geometry-summary.html#subsec-composite-shapes-9",
+  "type": "Example",
+  "number": "3.7.7",
+  "title": "Sculpture: Sphere + Cone.",
+  "body": " Sculpture: Sphere + Cone  A sculpture consists of a sphere with diameter 36 cm sitting on top of a cone with diameter 10 cm and height 6 cm. Find the total volume.   Total: .  "
+},
+{
+  "id": "subsec-composite-examples-2",
+  "level": "2",
+  "url": "sec-3d-geometry-summary.html#subsec-composite-examples-2",
+  "type": "Checkpoint",
+  "number": "3.7.8",
+  "title": "Rocket Model.",
+  "body": " Rocket Model   A rocket model consists of a cylinder (radius 4 cm, height 20 cm) with a cone on top (same radius, height 6 cm) and a hemisphere on the bottom (same radius). Find the total volume.      . . . Total: .  "
+},
+{
+  "id": "subsec-composite-examples-3",
+  "level": "2",
+  "url": "sec-3d-geometry-summary.html#subsec-composite-examples-3",
+  "type": "Checkpoint",
+  "number": "3.7.9",
+  "title": "Igloo.",
+  "body": " Igloo  An igloo is modeled as a hemisphere with inner radius 1.5 m. Find the volume of air inside the igloo.  .  "
+},
+{
+  "id": "subsec-composite-examples-4",
+  "level": "2",
+  "url": "sec-3d-geometry-summary.html#subsec-composite-examples-4",
+  "type": "Checkpoint",
+  "number": "3.7.10",
+  "title": "Grain Terminal.",
+  "body": " Grain Terminal  A grain terminal is a cylinder (radius 6 m, height 20 m) topped with a cone (same radius, height 4 m). Find the total volume. How many litres of grain can it store?  . . Total: .  "
+},
+{
+  "id": "subsec-composite-examples-5",
+  "level": "2",
+  "url": "sec-3d-geometry-summary.html#subsec-composite-examples-5",
+  "type": "Checkpoint",
+  "number": "3.7.11",
+  "title": "Trophy.",
+  "body": " Trophy  A trophy consists of a rectangular prism base ( cm) topped with a cone (radius 3 cm, height 10 cm). Find the total volume.  . . Total: .  "
+},
+{
+  "id": "subsec-composite-examples-6",
+  "level": "2",
+  "url": "sec-3d-geometry-summary.html#subsec-composite-examples-6",
+  "type": "Checkpoint",
+  "number": "3.7.12",
+  "title": "Popcorn Container (Frustum).",
+  "body": " Popcorn Container (Frustum)   A popcorn container is shaped like a cone (diameter 14 cm, height 20 cm) with the tip cut off. The small opening at the bottom has diameter 6 cm. This shape is called a frustum . Find its volume. Hint: subtract the volume of the small missing cone from the full cone.      By similar triangles, the full cone has height : , so , , cm. The small cone has height cm and radius 3 cm. . . .  "
+},
+{
+  "id": "subsec-composite-examples-7",
+  "level": "2",
+  "url": "sec-3d-geometry-summary.html#subsec-composite-examples-7",
+  "type": "Checkpoint",
+  "number": "3.7.13",
+  "title": "Cylinder with Two Hemispheres.",
+  "body": " Cylinder with Two Hemispheres  A container is shaped like a cylinder (diameter 6 cm, height 10 cm) with a hemisphere on each end. Find the total volume and surface area.  . . Two hemispheres full sphere: . Total . For SA: the cylindrical lateral surface , plus the sphere surface . Total .  "
+},
+{
+  "id": "subsec-composite-examples-8",
+  "level": "2",
+  "url": "sec-3d-geometry-summary.html#subsec-composite-examples-8",
+  "type": "Checkpoint",
+  "number": "3.7.14",
+  "title": "Cylinder + Cone SA.",
+  "body": " Cylinder + Cone SA   Find the SA of a composite shape: a cylinder (radius 3 cm, height 5 cm) topped with a cone (same radius, height 5 cm).      The outer surface is: base ( ), lateral cylinder ( ), and lateral cone ( ). The circle where the cylinder meets the cone is hidden. Slant: cm. .  "
+},
+{
+  "id": "subsec-composite-examples-9",
+  "level": "2",
+  "url": "sec-3d-geometry-summary.html#subsec-composite-examples-9",
+  "type": "Checkpoint",
+  "number": "3.7.15",
+  "title": "Cone on Hemisphere.",
+  "body": " Cone on Hemisphere  A composite shape consists of a cone (radius 4 in, total shape height 17 in) sitting on top of a hemisphere (same radius). Find the volume and outer surface area.  Hemisphere height in, so cone height in. Cone slant: in. . .  "
+},
+{
+  "id": "subsec-composite-examples-10",
+  "level": "2",
+  "url": "sec-3d-geometry-summary.html#subsec-composite-examples-10",
+  "type": "Checkpoint",
+  "number": "3.7.16",
+  "title": "Sphere Inside a Cube.",
+  "body": " Sphere Inside a Cube  A sphere is placed inside a cube with edge length 5.8 cm (so the sphere just touches all 6 faces). Find the volume of the air space between the sphere and the cube.  The sphere has diameter cm, so . . . Air space .  "
+},
+{
+  "id": "subsec-composite-examples-11",
+  "level": "2",
+  "url": "sec-3d-geometry-summary.html#subsec-composite-examples-11",
+  "type": "Checkpoint",
+  "number": "3.7.17",
+  "title": "Building with Pyramid Roof.",
+  "body": " Building with Pyramid Roof  A building consists of a rectangular prism (base , height 17 m) topped with a square pyramid (same base, slant height 13 m). Find the total outer surface area (not including the floor).  Pyramid height: m. Outer surface: 4 prism walls ( ), 4 triangular faces ( ). No floor, no top of prism (hidden). .  "
+},
+{
+  "id": "subsec-composite-examples-12",
+  "level": "2",
+  "url": "sec-3d-geometry-summary.html#subsec-composite-examples-12",
+  "type": "Checkpoint",
+  "number": "3.7.18",
+  "title": "Capsule.",
+  "body": " Capsule  A capsule is a cylinder (radius 3 cm) with a hemisphere on each end. The total length is 8.5 cm. Find V and SA.  Cylinder height cm. . .  "
+},
+{
+  "id": "subsec-composite-examples-13",
+  "level": "2",
+  "url": "sec-3d-geometry-summary.html#subsec-composite-examples-13",
+  "type": "Checkpoint",
+  "number": "3.7.19",
+  "title": "Square Prism + Pyramid.",
+  "body": " Square Prism + Pyramid  A square prism ( ) is topped with a square pyramid of slant height 1.5 m. Find the SA and V.  Pyramid height: m. . . Total . : base (1) + 4 walls ( ) + 4 tri faces ( ). Total .  "
+},
+{
+  "id": "subsec-composite-examples-14",
+  "level": "2",
+  "url": "sec-3d-geometry-summary.html#subsec-composite-examples-14",
+  "type": "Checkpoint",
+  "number": "3.7.20",
+  "title": "Concrete Frustum.",
+  "body": " Concrete Frustum  A concrete test uses a truncated cone (a frustum): bottom diameter 200 mm, top diameter 100 mm, height 300 mm. The full cone (before truncation) has height 600 mm. Find the volume of the frustum.  Full cone: mm, mm. mm . Small cone removed: mm, mm. mm . .  "
+},
+{
+  "id": "subsec-composite-examples-15",
+  "level": "2",
+  "url": "sec-3d-geometry-summary.html#subsec-composite-examples-15",
+  "type": "Checkpoint",
+  "number": "3.7.21",
+  "title": "Prism with Pyramid Removed.",
+  "body": " Prism with Pyramid Removed  A right square prism has base and height 15 cm. A right square pyramid with the same base and height 6 cm is removed from the top of the prism. Find the volume of the remaining solid.  . . Remaining: .  "
+},
+{
+  "id": "subsec-composite-examples-16",
+  "level": "2",
+  "url": "sec-3d-geometry-summary.html#subsec-composite-examples-16",
+  "type": "Checkpoint",
+  "number": "3.7.22",
+  "title": "Cylinder with Hemisphere Removed.",
+  "body": " Cylinder with Hemisphere Removed  A right cylinder has radius 1.5 m and height 4.0 m. A hemisphere with the same radius is removed from one end. Find the volume of the remaining solid.  . . Remaining: .  "
+},
+{
+  "id": "subsec-composite-examples-17",
+  "level": "2",
+  "url": "sec-3d-geometry-summary.html#subsec-composite-examples-17",
+  "type": "Checkpoint",
+  "number": "3.7.23",
+  "title": "Igloo with Tunnel.",
+  "body": " Igloo with Tunnel   An igloo approximates a hemisphere with base diameter 4.0 m. An entrance tunnel, approximating half a cylinder, extends 0.8 m outward with an external radius of 0.8 m. Find the total outer surface area of the igloo and tunnel (not including the floor or openings).  Hint: the igloo is the curved surface of a hemisphere (minus the tunnel opening). The tunnel is a half-cylinder (lateral surface on top, plus two semicircular ends, minus the opening into the igloo).   Igloo curved SA . Tunnel opening in hemisphere . Tunnel top (half lateral cylinder) . Tunnel end semicircle . Total .  "
+},
+{
+  "id": "subsec-composite-examples-18",
+  "level": "2",
+  "url": "sec-3d-geometry-summary.html#subsec-composite-examples-18",
+  "type": "Checkpoint",
+  "number": "3.7.24",
+  "title": "Photography Light Tent.",
+  "body": " Photography Light Tent  A photography light tent is cylindrical with a conical roof. The diameter of the tent is 1 m, the total height is 190 cm, and the cylindrical wall is 135 cm high. Find the surface area of the tent (not including the floor), to the nearest tenth of a square metre.  m, cone height m. Slant: m. .  "
+},
+{
+  "id": "subsec-composite-examples-19",
+  "level": "2",
+  "url": "sec-3d-geometry-summary.html#subsec-composite-examples-19",
+  "type": "Checkpoint",
+  "number": "3.7.25",
+  "title": "Ice Sculpture Mould.",
+  "body": " Ice Sculpture Mould  An ice sculpture mould forms a composite object: a right cylinder (base diameter 15 in., height 3 in.) topped with a right cone (same base diameter, height 9 in.).   Find the volume of the sculpture to the nearest cubic inch.  . . . Total .    The sculpture is carved from a block of ice measuring How much ice remains after carving?  . Ice remaining .   "
+},
+{
+  "id": "subsec-composite-examples-20",
+  "level": "2",
+  "url": "sec-3d-geometry-summary.html#subsec-composite-examples-20",
+  "type": "Checkpoint",
+  "number": "3.7.26",
+  "title": "Sandcastle.",
+  "body": " Sandcastle  A sandcastle consists of a rectangular prism (base 75 cm 50 cm, height 30 cm) with 4 congruent cones on top. Each cone has base diameter 10 cm and slant height 15 cm.   Find the volume of sand required.  Each cone: , cm. . Each . Total .    Find the outer surface area of the castle (not including the base).  4 walls . Top face minus 4 cone bases . 4 cone laterals . .   "
+},
+{
+  "id": "subsec-composite-examples-21",
+  "level": "2",
+  "url": "sec-3d-geometry-summary.html#subsec-composite-examples-21",
+  "type": "Checkpoint",
+  "number": "3.7.27",
+  "title": "Comparing Grain Bins.",
+  "body": " Comparing Grain Bins  Two grain storage bins are being compared. Bin A has a square base (side 15 ft), walls 10 ft high, and a pyramidal roof of height 4 ft. Bin B is a cylinder (diameter 12 ft), walls 8 ft high, with a conical roof of height 3 ft. Which bin holds more grain?  . . Bin A holds significantly more grain.  "
+},
+{
+  "id": "subsec-composite-examples-22",
+  "level": "2",
+  "url": "sec-3d-geometry-summary.html#subsec-composite-examples-22",
+  "type": "Checkpoint",
+  "number": "3.7.28",
+  "title": "Model Rocket.",
+  "body": " Model Rocket  A model rocket has a cylindrical body 55 cm long with radius 6 cm, and a cone-shaped nose with slant height 12 cm (same radius).   Find the surface area of the rocket.  Cone height: cm. : base , lateral cylinder , lateral cone . Total .    Find the total volume of the rocket.  . . Total .    One-third of the interior is used for fuel. How much fuel can the rocket hold?  Fuel L.   "
+},
+{
+  "id": "subsec-composite-examples-23",
+  "level": "2",
+  "url": "sec-3d-geometry-summary.html#subsec-composite-examples-23",
+  "type": "Checkpoint",
+  "number": "3.7.29",
+  "title": "Astronomical Observatory.",
+  "body": " Astronomical Observatory  An astronomical observatory has a cylindrical base with diameter 20.1 m and height 9.8 m, topped with a hemispherical dome of the same diameter. Find the total volume of the building.  . . . Total .  "
+},
+{
+  "id": "subsec-composite-examples-24",
+  "level": "2",
+  "url": "sec-3d-geometry-summary.html#subsec-composite-examples-24",
+  "type": "Checkpoint",
+  "number": "3.7.30",
+  "title": "Cone: Find the Height from SA.",
+  "body": " Cone: Find the Height from SA   A right cone has total surface area and base radius 5.2 ft. Find the height of the cone.  Hint: use to find the slant height , then use .   . So , giving ft. ft.  "
+},
+{
+  "id": "subsec-composite-examples-25",
+  "level": "2",
+  "url": "sec-3d-geometry-summary.html#subsec-composite-examples-25",
+  "type": "Checkpoint",
+  "number": "3.7.31",
+  "title": "Sphere: Find SA from Volume.",
+  "body": " Sphere: Find SA from Volume  A sphere has volume . Find its surface area.  , so , m. .  "
+},
+{
+  "id": "subsec-composite-examples-26",
+  "level": "2",
+  "url": "sec-3d-geometry-summary.html#subsec-composite-examples-26",
+  "type": "Checkpoint",
+  "number": "3.7.32",
+  "title": "Doghouse.",
+  "body": " Doghouse  A doghouse is a right square prism (base side 50 in., wall height 36 in.) with a pyramidal roof (slant height 30 in.). Find the total surface area of the doghouse, including the floor but not including any doorway.  Floor . 4 walls . 4 roof triangles . Total .  "
+},
+{
+  "id": "subsec-composite-examples-27",
+  "level": "2",
+  "url": "sec-3d-geometry-summary.html#subsec-composite-examples-27",
+  "type": "Checkpoint",
+  "number": "3.7.33",
+  "title": "Square Pyramid V and Slant Height.",
+  "body": " Square Pyramid V and Slant Height  A square pyramid has base side 15 cm and height 20 cm. Find its volume and slant height.  . cm.  "
+},
+{
+  "id": "subsec-composite-examples-28",
+  "level": "2",
+  "url": "sec-3d-geometry-summary.html#subsec-composite-examples-28",
+  "type": "Checkpoint",
+  "number": "3.7.34",
+  "title": "Cone: Find Height from Volume.",
+  "body": " Cone: Find Height from Volume  A cone has volume and radius 5 cm. Find the height.  , so cm.  "
+},
+{
+  "id": "subsec-composite-examples-29",
+  "level": "2",
+  "url": "sec-3d-geometry-summary.html#subsec-composite-examples-29",
+  "type": "Checkpoint",
+  "number": "3.7.35",
+  "title": "Sphere: Find Volume from SA.",
+  "body": " Sphere: Find Volume from SA  A sphere has surface area . Find its volume.  , so , . .  "
+},
+{
+  "id": "subsec-composite-examples-30",
+  "level": "2",
+  "url": "sec-3d-geometry-summary.html#subsec-composite-examples-30",
+  "type": "Checkpoint",
+  "number": "3.7.36",
+  "title": "Tennis Balls in a Cylinder.",
+  "body": " Tennis Balls in a Cylinder   Three tennis balls (each with diameter 6.5 cm) fit snugly inside a cylindrical container. Find the volume of empty space inside the container.      cm, cylinder height cm. . . Empty space .  "
+},
+{
+  "id": "subsec-composite-examples-31",
+  "level": "2",
+  "url": "sec-3d-geometry-summary.html#subsec-composite-examples-31",
+  "type": "Checkpoint",
+  "number": "3.7.37",
+  "title": "Mine Shaft.",
+  "body": " Mine Shaft  A mine shaft is modeled as an inverted cone with diameter 50 m and depth 80 m. How many cubic metres of earth were removed?  . .  "
+},
+{
+  "id": "subsec-composite-examples-32",
+  "level": "2",
+  "url": "sec-3d-geometry-summary.html#subsec-composite-examples-32",
+  "type": "Checkpoint",
+  "number": "3.7.38",
+  "title": "Half-Full Cylinder.",
+  "body": " Half-Full Cylinder  A cylindrical can (diameter 10 cm, height 15 cm) is lying on its side and is half-full of water. What is the volume of water?  Half the cylinder volume: .  "
+},
+{
+  "id": "subsec-composite-examples-33",
+  "level": "2",
+  "url": "sec-3d-geometry-summary.html#subsec-composite-examples-33",
+  "type": "Checkpoint",
+  "number": "3.7.39",
+  "title": "Painting a Dome.",
+  "body": " Painting a Dome  A hemispherical dome has diameter 12 m. The dome is to be painted on the outside. If one can of paint covers , how many cans are needed?  Curved SA . Cans needed: , so 10 cans.  "
+},
+{
+  "id": "subsec-composite-examples-34",
+  "level": "2",
+  "url": "sec-3d-geometry-summary.html#subsec-composite-examples-34",
+  "type": "Checkpoint",
+  "number": "3.7.40",
+  "title": "Maximizing Volume.",
+  "body": " Maximizing Volume  You have of material to cover one solid shape. What is the maximum volume you can achieve for each shape?   A cube.  , so , cm. .    A sphere.  , so , cm. . The sphere gives a larger volume for the same surface area.   "
+},
+{
+  "id": "subsec-composite-examples-35",
+  "level": "2",
+  "url": "sec-3d-geometry-summary.html#subsec-composite-examples-35",
+  "type": "Checkpoint",
+  "number": "3.7.41",
+  "title": "Popcorn Container Comparison.",
+  "body": " Popcorn Container Comparison  A theatre has two sizes of cylindrical popcorn containers. The small one is 18 cm tall with diameter 14 cm. The large one is 16 cm tall with diameter 16 cm. Verify that the large container actually holds more popcorn.  . . The large container holds about more.  "
+},
+{
+  "id": "subsec-composite-examples-36",
+  "level": "2",
+  "url": "sec-3d-geometry-summary.html#subsec-composite-examples-36",
+  "type": "Checkpoint",
+  "number": "3.7.42",
+  "title": "Cylindrical Grain Terminal.",
+  "body": " Cylindrical Grain Terminal  A cylindrical grain terminal has height 40 m and inside diameter 11.7 m.   What is its storage capacity in cubic metres?  . .    If a small grain truck has a rectangular box measuring , how many truckloads can one tower hold?  Truck volume . Truckloads .   "
+},
+{
+  "id": "subsec-composite-examples-37",
+  "level": "2",
+  "url": "sec-3d-geometry-summary.html#subsec-composite-examples-37",
+  "type": "Checkpoint",
+  "number": "3.7.43",
+  "title": "Mineral Deposit.",
+  "body": " Mineral Deposit  A mineral deposit is approximately cone-shaped, with a surface area of at ground level and a depth of 2 km (2000 m). Estimate the volume of the deposit (treating it as a cone with the given base area and height).  .  "
+},
+{
+  "id": "subsec-composite-examples-38",
+  "level": "2",
+  "url": "sec-3d-geometry-summary.html#subsec-composite-examples-38",
+  "type": "Checkpoint",
+  "number": "3.7.44",
+  "title": "Recycling Bales.",
+  "body": " Recycling Bales  A recycling depot makes rectangular bales measuring . A new machine makes cylindrical bales with the same volume and height 5 ft.   What is the diameter of the cylindrical bales?  . , so , ft, ft.    Which type of bale has less surface area?  . . The cylindrical bale uses less material.   "
+},
+{
+  "id": "subsec-composite-examples-39",
+  "level": "2",
+  "url": "sec-3d-geometry-summary.html#subsec-composite-examples-39",
+  "type": "Checkpoint",
+  "number": "3.7.45",
+  "title": "Drink Can Diameter Range.",
+  "body": " Drink Can Diameter Range  A drink can has a height of 14 cm and must hold between 250 mL and 285 mL. What range of diameters is possible for the can? (Recall: 1 mL .)  . For 250: , , cm. For 285: , , cm. The diameter must be between approximately 4.8 cm and 5.1 cm.  "
 },
 {
   "id": "sec-zeros-of-quadratic-functions-intro",
