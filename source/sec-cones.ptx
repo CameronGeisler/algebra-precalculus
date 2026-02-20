@@ -490,109 +490,137 @@
   <subsection xml:id="subsec-cone-word-problems">
     <title>Word Problems</title>
 
-    <example>
+    <exercise>
       <title>Funnel</title>
-      <p>A funnel is cone-shaped with diameter 16 cm and height 20 cm. How many mL of liquid can it hold?</p>
-      <image width="25%">
-        <latex-image>
-          \begin{tikzpicture}[scale=0.4]
-            \draw[thick] (-1.5,0) arc (180:360:1.5 and 0.5);
-            \draw[dashed] (-1.5,0) arc (180:0:1.5 and 0.5);
-            \draw[thick] (-1.5,0) -- (0,-5);
-            \draw[thick] (1.5,0) -- (0,-5);
-            \draw[&lt;-&gt;] (-1.5,0.7) -- (1.5,0.7) node[midway,above] {$16$};
-            \draw[&lt;-&gt;] (-2,-5) -- (-2,0) node[midway,left] {20};
-          \end{tikzpicture}
-        </latex-image>
-      </image>
-      <p>Answer: <m>r = 8</m>. <m>V = \frac{1}{3}\pi(64)(20) = \frac{1280\pi}{3} \approx 1340.4 \text{ cm}^3 = 1340.4 \text{ mL}</m>.</p>
-    </example>
+      <statement>
+        <p>A funnel is cone-shaped with diameter 16 cm and height 20 cm. How many mL of liquid can it hold?</p>
+        <image width="25%">
+          <latex-image>
+            \begin{tikzpicture}[scale=0.4]
+              \draw[thick] (-1.5,0) arc (180:360:1.5 and 0.5);
+              \draw[dashed] (-1.5,0) arc (180:0:1.5 and 0.5);
+              \draw[thick] (-1.5,0) -- (0,-5);
+              \draw[thick] (1.5,0) -- (0,-5);
+              \draw[&lt;-&gt;] (-1.5,0.7) -- (1.5,0.7) node[midway,above] {$16$};
+              \draw[&lt;-&gt;] (-2,-5) -- (-2,0) node[midway,left] {20};
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+      </statement>
+      <answer><p><m>r = 8</m>. <m>V = \frac{1}{3}\pi(64)(20) = \frac{1280\pi}{3} \approx 1340.4 \text{ cm}^3 = 1340.4 \text{ mL}</m>.</p></answer>
+    </exercise>
 
-    <example>
+    <exercise>
       <title>Cone and Cylinder Same Volume</title>
-      <p>A cone and a cylinder have the same volume of <m>300\pi \text{ cm}^3</m> and the same radius of 10 cm. Find the height of each.</p>
-      <p>Answer: Cylinder: <m>300\pi = \pi(100)h</m>, so <m>h = 3</m> cm. Cone: <m>300\pi = \frac{1}{3}\pi(100)h</m>, so <m>h = 9</m> cm. The cone is 3 times as tall.</p>
-    </example>
+      <statement>
+        <p>A cone and a cylinder have the same volume of <m>300\pi \text{ cm}^3</m> and the same radius of 10 cm. Find the height of each.</p>
+      </statement>
+      <answer><p>Cylinder: <m>300\pi = \pi(100)h</m>, so <m>h = 3</m> cm. Cone: <m>300\pi = \frac{1}{3}\pi(100)h</m>, so <m>h = 9</m> cm. The cone is 3 times as tall.</p></answer>
+    </exercise>
 
-    <example>
+    <exercise>
       <title>Model Volcano</title>
-      <p>A cone-shaped model volcano for a science project has a base diameter of 32 cm and a slant height of 45 cm.</p>
-      <ol marker="(i)">
-        <li><p>What is the lateral area of the volcano to the nearest square centimetre?</p></li>
-        <li><p>Paint for the volcano costs $1.99 per jar, and one jar covers <m>400 \text{ cm}^2</m>. How much will the paint cost?</p></li>
-      </ol>
-      <p>Answer: <m>r = 16</m>. <m>A_L = \pi(16)(45) = 720\pi \approx 2262 \text{ cm}^2</m>. Number of jars <m>= 2262/400 \approx 5.7</m> jars, round up to 6 jars. Cost <m>= 6 \times \$1.99 = \$11.94</m>.</p>
-    </example>
+      <statement>
+        <p>A cone-shaped model volcano for a science project has a base diameter of 32 cm and a slant height of 45 cm.</p>
+        <ol marker="(i)">
+          <li><p>What is the lateral area of the volcano to the nearest square centimetre?</p></li>
+          <li><p>Paint for the volcano costs $1.99 per jar, and one jar covers <m>400 \text{ cm}^2</m>. How much will the paint cost?</p></li>
+        </ol>
+      </statement>
+      <answer><p><m>r = 16</m>. <m>A_L = \pi(16)(45) = 720\pi \approx 2262 \text{ cm}^2</m>. Number of jars <m>= 2262/400 \approx 5.7</m> jars, round up to 6 jars. Cost <m>= 6 \times \$1.99 = \$11.94</m>.</p></answer>
+    </exercise>
 
-    <example>
+    <exercise>
       <title>Road Pylon</title>
-      <p>A road pylon approximates a right cone with height 53 cm and base diameter 18 cm. The lateral surface of the pylon is to be painted with reflective paint. What area will be painted, to the nearest square centimetre?</p>
-      <p>Answer: <m>r = 9</m>. <m>s = \sqrt{53^2 + 9^2} = \sqrt{2809 + 81} = \sqrt{2890} \approx 53.8</m> cm. <m>A_L = \pi(9)(53.8) \approx 1521 \text{ cm}^2</m>.</p>
-    </example>
+      <statement>
+        <p>A road pylon approximates a right cone with height 53 cm and base diameter 18 cm. The lateral surface of the pylon is to be painted with reflective paint. What area will be painted, to the nearest square centimetre?</p>
+      </statement>
+      <answer><p><m>r = 9</m>. <m>s = \sqrt{53^2 + 9^2} = \sqrt{2809 + 81} = \sqrt{2890} \approx 53.8</m> cm. <m>A_L = \pi(9)(53.8) \approx 1521 \text{ cm}^2</m>.</p></answer>
+    </exercise>
 
-    <example>
+    <exercise>
       <title>Conical Tent with Hides</title>
-      <p>A conical tent has a base diameter of 3.9 m and a height of 4.6 m. The tent cover is made from 15 tanned hides sewn together. To the nearest tenth of a square metre, what area does each hide cover?</p>
-      <p>Answer: <m>r = 1.95</m>. <m>s = \sqrt{4.6^2 + 1.95^2} = \sqrt{21.16 + 3.80} = \sqrt{24.96} \approx 5.0</m> m. <m>A_L = \pi(1.95)(5.0) = 9.75\pi \approx 30.6 \text{ m}^2</m>. Each hide covers <m>\approx 30.6 / 15 \approx 2.0 \text{ m}^2</m>.</p>
-    </example>
+      <statement>
+        <p>A conical tent has a base diameter of 3.9 m and a height of 4.6 m. The tent cover is made from 15 tanned hides sewn together. To the nearest tenth of a square metre, what area does each hide cover?</p>
+      </statement>
+      <answer><p><m>r = 1.95</m>. <m>s = \sqrt{4.6^2 + 1.95^2} = \sqrt{21.16 + 3.80} = \sqrt{24.96} \approx 5.0</m> m. <m>A_L = \pi(1.95)(5.0) = 9.75\pi \approx 30.6 \text{ m}^2</m>. Each hide covers <m>\approx 30.6 / 15 \approx 2.0 \text{ m}^2</m>.</p></answer>
+    </exercise>
 
-    <example>
+    <exercise>
       <title>Grain Pile Surface Area</title>
-      <p>A farmer unloaded grain onto a tarp on the ground. The grain formed a cone-shaped pile with a diameter of 12 ft and a height of 8 ft. Find the surface area of the exposed grain (lateral surface only) to the nearest square foot.</p>
-      <p>Answer: <m>r = 6</m>. <m>s = \sqrt{8^2 + 6^2} = \sqrt{100} = 10</m> ft. <m>A_L = \pi(6)(10) = 60\pi \approx 188 \text{ ft}^2</m>.</p>
-    </example>
+      <statement>
+        <p>A farmer unloaded grain onto a tarp on the ground. The grain formed a cone-shaped pile with a diameter of 12 ft and a height of 8 ft. Find the surface area of the exposed grain (lateral surface only) to the nearest square foot.</p>
+      </statement>
+      <answer><p><m>r = 6</m>. <m>s = \sqrt{8^2 + 6^2} = \sqrt{100} = 10</m> ft. <m>A_L = \pi(6)(10) = 60\pi \approx 188 \text{ ft}^2</m>.</p></answer>
+    </exercise>
 
-    <example>
+    <exercise>
       <title>Large Conical Tent</title>
-      <p>A large conical tent has a diameter of 9.6 m and a slant height of 7.3 m. What is the minimum amount of canvas needed for the sides of the tent, to the nearest tenth of a square metre?</p>
-      <p>Answer: <m>r = 4.8</m>. <m>A_L = \pi(4.8)(7.3) = 35.04\pi \approx 110.1 \text{ m}^2</m>.</p>
-    </example>
+      <statement>
+        <p>A large conical tent has a diameter of 9.6 m and a slant height of 7.3 m. What is the minimum amount of canvas needed for the sides of the tent, to the nearest tenth of a square metre?</p>
+      </statement>
+      <answer><p><m>r = 4.8</m>. <m>A_L = \pi(4.8)(7.3) = 35.04\pi \approx 110.1 \text{ m}^2</m>.</p></answer>
+    </exercise>
 
-    <example>
+    <exercise>
       <title>Cone with Circumference Given</title>
-      <p>A right cone has a height of 8 ft and a base circumference of 12 ft. Find the surface area to the nearest square foot.</p>
-      <p>Hint: use the circumference to find the radius.</p>
-      <p>Answer: <m>2\pi r = 12</m>, so <m>r = \frac{6}{\pi} \approx 1.91</m> ft. <m>s = \sqrt{8^2 + 1.91^2} = \sqrt{64 + 3.65} = \sqrt{67.65} \approx 8.22</m> ft. <m>SA = \pi(1.91)(8.22) + \pi(1.91)^2 \approx 49.3 + 11.5 \approx 61 \text{ ft}^2</m>.</p>
-    </example>
+      <statement>
+        <p>A right cone has a height of 8 ft and a base circumference of 12 ft. Find the surface area to the nearest square foot.</p>
+      </statement>
+      <hint><p>Use the circumference to find the radius.</p></hint>
+      <answer><p><m>2\pi r = 12</m>, so <m>r = \frac{6}{\pi} \approx 1.91</m> ft. <m>s = \sqrt{8^2 + 1.91^2} = \sqrt{64 + 3.65} = \sqrt{67.65} \approx 8.22</m> ft. <m>SA = \pi(1.91)(8.22) + \pi(1.91)^2 \approx 49.3 + 11.5 \approx 61 \text{ ft}^2</m>.</p></answer>
+    </exercise>
 
-    <example>
+    <exercise>
       <title>Waffle Cone</title>
-      <p>A waffle cone has a height of 5 in and a base diameter of 2 in, filled level with ice cream.</p>
-      <ol marker="(i)">
-        <li><p>How much ice cream can the cone hold, to the nearest cubic inch?</p></li>
-        <li><p>One cubic inch of soft ice cream costs 55 cents, the waffle cone costs 35 cents, and the topping costs 10 cents per dessert. How much will this dessert cost to produce?</p></li>
-      </ol>
-      <p>Answer: <m>r = 1</m>. <m>V = \frac{1}{3}\pi(1)(5) = \frac{5\pi}{3} \approx 5.24 \approx 5 \text{ in}^3</m>. Cost <m>= 5(0.55) + 0.35 + 0.10 = \$3.20</m>.</p>
-    </example>
+      <statement>
+        <p>A waffle cone has a height of 5 in and a base diameter of 2 in, filled level with ice cream.</p>
+        <ol marker="(i)">
+          <li><p>How much ice cream can the cone hold, to the nearest cubic inch?</p></li>
+          <li><p>One cubic inch of soft ice cream costs 55 cents, the waffle cone costs 35 cents, and the topping costs 10 cents per dessert. How much will this dessert cost to produce?</p></li>
+        </ol>
+      </statement>
+      <answer><p><m>r = 1</m>. <m>V = \frac{1}{3}\pi(1)(5) = \frac{5\pi}{3} \approx 5.24 \approx 5 \text{ in}^3</m>. Cost <m>= 5(0.55) + 0.35 + 0.10 = \$3.20</m>.</p></answer>
+    </exercise>
 
-    <example>
+    <exercise>
       <title>Cake-Decorating Bag</title>
-      <p>A cake-decorating bag has the shape of a cone with a diameter of 15 cm and a height of 30 cm. How much frosting will fit in the bag, to the nearest cubic centimetre?</p>
-      <p>Answer: <m>r = 7.5</m>. <m>V = \frac{1}{3}\pi(56.25)(30) = 562.5\pi \approx 1767 \text{ cm}^3</m>.</p>
-    </example>
+      <statement>
+        <p>A cake-decorating bag has the shape of a cone with a diameter of 15 cm and a height of 30 cm. How much frosting will fit in the bag, to the nearest cubic centimetre?</p>
+      </statement>
+      <answer><p><m>r = 7.5</m>. <m>V = \frac{1}{3}\pi(56.25)(30) = 562.5\pi \approx 1767 \text{ cm}^3</m>.</p></answer>
+    </exercise>
 
-    <example>
+    <exercise>
       <title>Conical Paper Cup</title>
-      <p>A conical paper cup has a height of 65 mm and a diameter of 38 mm. Find the volume of the cup.</p>
-      <p>Answer: <m>r = 19</m> mm. <m>V = \frac{1}{3}\pi(361)(65) = \frac{23{,}465\pi}{3} \approx 24{,}563 \text{ mm}^3 \approx 24.6 \text{ cm}^3</m>.</p>
-    </example>
+      <statement>
+        <p>A conical paper cup has a height of 65 mm and a diameter of 38 mm. Find the volume of the cup.</p>
+      </statement>
+      <answer><p><m>r = 19</m> mm. <m>V = \frac{1}{3}\pi(361)(65) = \frac{23{,}465\pi}{3} \approx 24{,}563 \text{ mm}^3 \approx 24.6 \text{ cm}^3</m>.</p></answer>
+    </exercise>
 
-    <example>
+    <exercise>
       <title>Underground Water Tank</title>
-      <p>An underground water tank has the shape of an inverted right cone, with its apex at the bottom. The tank has a base diameter of 5.0 m and a height of 3.5 m. (<m>1 \text{ m}^3 = 1000 \text{ L}</m>.)</p>
-      <ol marker="(i)">
-        <li><p>What is the capacity of the tank to the nearest litre?</p></li>
-        <li><p>How much water is in the tank when the water level is 1 m below the top?</p></li>
-      </ol>
-      <p>Answer: (i) <m>r = 2.5</m>. <m>V = \frac{1}{3}\pi(6.25)(3.5) = \frac{21.875\pi}{3} \approx 22.9 \text{ m}^3 \approx 22{,}907</m> L.</p>
-      <p>(ii) Water height <m>= 3.5 - 1 = 2.5</m> m. By similar triangles, water radius <m>= 2.5 \times \frac{2.5}{3.5} \approx 1.786</m> m. <m>V_{\text{water}} = \frac{1}{3}\pi(1.786)^2(2.5) \approx 8.35 \text{ m}^3 \approx 8350</m> L.</p>
-    </example>
+      <statement>
+        <p>An underground water tank has the shape of an inverted right cone, with its apex at the bottom. The tank has a base diameter of 5.0 m and a height of 3.5 m. (<m>1 \text{ m}^3 = 1000 \text{ L}</m>.)</p>
+        <ol marker="(i)">
+          <li><p>What is the capacity of the tank to the nearest litre?</p></li>
+          <li><p>How much water is in the tank when the water level is 1 m below the top?</p></li>
+        </ol>
+      </statement>
+      <answer>
+        <p>(i) <m>r = 2.5</m>. <m>V = \frac{1}{3}\pi(6.25)(3.5) = \frac{21.875\pi}{3} \approx 22.9 \text{ m}^3 \approx 22{,}907</m> L.</p>
+        <p>(ii) Water height <m>= 3.5 - 1 = 2.5</m> m. By similar triangles, water radius <m>= 2.5 \times \frac{2.5}{3.5} \approx 1.786</m> m. <m>V_{\text{water}} = \frac{1}{3}\pi(1.786)^2(2.5) \approx 8.35 \text{ m}^3 \approx 8350</m> L.</p>
+      </answer>
+    </exercise>
 
-    <example>
+    <exercise>
       <title>Grain Pile Volume</title>
-      <p>A farmer's grain pile is cone-shaped with diameter 12 ft and height 8 ft. Find the volume of the grain pile. How many litres is this? (<m>1 \text{ ft}^3 \approx 28.317</m> L.)</p>
-      <p>Answer: <m>r = 6</m>. <m>V = \frac{1}{3}\pi(36)(8) = 96\pi \approx 301.6 \text{ ft}^3 \approx 8539</m> L.</p>
-    </example>
+      <statement>
+        <p>A farmer's grain pile is cone-shaped with diameter 12 ft and height 8 ft. Find the volume of the grain pile. How many litres is this? (<m>1 \text{ ft}^3 \approx 28.317</m> L.)</p>
+      </statement>
+      <answer><p><m>r = 6</m>. <m>V = \frac{1}{3}\pi(36)(8) = 96\pi \approx 301.6 \text{ ft}^3 \approx 8539</m> L.</p></answer>
+    </exercise>
   </subsection>
 
   <!-- ============================== -->
